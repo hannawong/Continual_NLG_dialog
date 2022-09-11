@@ -1,0 +1,1657 @@
+[
+    [
+        "attraction_inform(choice=\"23\";type=\"museums\")",
+        "There are 23 museums to choose from, are you looking for one in a particular area?",
+        "There are 23 museums to choose from, are you looking for one in a particular area?"
+    ],
+    [
+        "attraction_recommend(name=\"Cambridge and County Folk Museum\";phone=\"01223355159\";type=\"museum\")",
+        "My favorite museum is the Cambridge and County Folk Museum. Their number is 01223355159. Can I help you with anything else?",
+        "My favorite museum is the Cambridge and County Folk Museum. Their number is 01223355159. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\";name=\"Museum of Archaelogy and Anthropology\";phone=\"01223333516\")",
+        "Sure. There's also the Museum of Archaelogy and Anthropology, which is free. They're phone number is 01223333516.",
+        "Sure. There's also the Museum of Archaelogy and Anthropology, which is free. They're phone number is 01223333516."
+    ],
+    [
+        "attraction_inform(choice=\"several\")",
+        "Certainly, we have several interesting boats. Is there an area of town that you prefer?",
+        "Certainly, we have several interesting boats. Is there an area of town that you prefer?"
+    ],
+    [
+        "attraction_inform(name=\"Camboats\";name=\"Riverboat Georgina\";name=\"Scudamores Punting Co.\";name=\"The Cambridge Punter\")",
+        "There's Camboats, Riverboat Georgina, Scudamores Punting Co., and The Cambridge Punter. Would you like more information on any of these?",
+        "There's Camboats, Riverboat Georgina, Scudamores Punting Co., and The Cambridge Punter. Would you like more information on any of these?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb43ax\")",
+        "Sure. It is cb43ax. Is there anything else I can help you with?",
+        "Sure. It is cb43ax. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(choice=\"two\")",
+        "There's actually two. Would you like more information on them?",
+        "There's actually two. Would you like more information on them?"
+    ],
+    [
+        "attraction_inform(address=\"Kings Hedges\";address=\"between Victoria Road and the river\";address=\"on Jedburgh Court\";name=\"Jesus Green Outdoor Pool\";name=\"Kings Hedges Learner pool\")",
+        "The Jesus Green Outdoor Pool is between Victoria Road and the river. The Kings Hedges Learner pool is on Jedburgh Court, Kings Hedges. Would you like their phone numbers?",
+        "The Jesus Green Outdoor Pool is between Victoria Road and the river. The Kings Hedges Learner pool is on Jedburgh Court, Kings Hedges. Would you like their phone numbers?"
+    ],
+    [
+        "attraction_inform(phone=\"01223302579\")",
+        "The phone number is 01223302579. Can I help you with anything else?",
+        "The phone number is 01223302579. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(address=\"between Victoria Rd and the river\";phone=\"01223302579\")",
+        "The pool is located between Victoria Rd and the river. I don't have the information for the entrance fee, but you can give them a call at 01223302579.",
+        "The pool is located between Victoria Rd and the river. I don't have the information for the entrance fee, but you can give them a call at 01223302579."
+    ],
+    [
+        "attraction_inform(choice=\"10\")",
+        "I can certainly suggest something for you. I have 10 options. Do you prefer an entertainment venue, or perhaps a museum or park, etc?",
+        "I can certainly suggest something for you. I have 10 options. Do you prefer an entertainment venue, or perhaps a museum or park, etc?"
+    ],
+    [
+        "attraction_inform(choice=\"10\")@attraction_select(type=\"entertainment venue\";type=\"museum\";type=\"park\")",
+        "I can certainly suggest something for you. I have 10 options. Do you prefer an entertainment venue, or perhaps a museum or park, etc?",
+        "I can certainly suggest something for you. I have 10 options. Do you prefer an entertainment venue, or perhaps a museum or park, etc?"
+    ],
+    [
+        "attraction_inform(address=\"8 mercers row\";address=\"mercers row industrial estate\";name=\"Funky Fun House\";type=\"standard entertainment\")",
+        "No problem. How does the Funky Fun House sound? It is standard entertainment and it is located at 8 mercers row, mercers row industrial estate.",
+        "No problem. How does the Funky Fun House sound? It is standard entertainment and it is located at 8 mercers row, mercers row industrial estate."
+    ],
+    [
+        "attraction_inform(area=\"north\";name=\"Jesus Green Outdoor Pool\";phone=\"01223302579\";type=\"swimmingpool\")",
+        "The Jesus Green Outdoor Pool is a swimmingpool on the north end of the city. We don't have any information regarding their entrance fee, but their phone number if 01223302579.",
+        "The Jesus Green Outdoor Pool is a swimmingpool on the north end of the city. We don't have any information regarding their entrance fee, but their phone number if 01223302579."
+    ],
+    [
+        "attraction_inform(choice=\"13\")",
+        "You're in luck. We have 13. Do you have any preferences? For example, Downing College over on Regent Street offers free entry.",
+        "You're in luck. We have 13. Do you have any preferences? For example, Downing College over on Regent Street offers free entry."
+    ],
+    [
+        "attraction_inform(choice=\"13\")@attraction_recommend(address=\"Regent Street\";entrancefee=\"free entry\";name=\"Downing College\")",
+        "You're in luck. We have 13. Do you have any preferences? For example, Downing College over on Regent Street offers free entry.",
+        "You're in luck. We have 13. Do you have any preferences? For example, Downing College over on Regent Street offers free entry."
+    ],
+    [
+        "attraction_inform(phone=\"01223334860\")",
+        "Their number is 01223334860. Anything else I can do for you?",
+        "Their number is 01223334860. Anything else I can do for you?"
+    ],
+    [
+        "attraction_inform(area=\"west part of town\";choice=\"5\";type=\"colleges\")",
+        "Sure, there are 5 colleges in the west part of town. How about Clare College?",
+        "Sure, there are 5 colleges in the west part of town. How about Clare College?"
+    ],
+    [
+        "attraction_inform(area=\"west part of town\";choice=\"5\";type=\"colleges\")@attraction_recommend(name=\"Clare College\")",
+        "Sure, there are 5 colleges in the west part of town. How about Clare College?",
+        "Sure, there are 5 colleges in the west part of town. How about Clare College?"
+    ],
+    [
+        "attraction_inform(address=\"Trinity Lane\";name=\"Clare College\")",
+        "Clare College is located on Trinity Lane. Anything else?",
+        "Clare College is located on Trinity Lane. Anything else?"
+    ],
+    [
+        "attraction_inform(address=\"bar hill\";address=\"unit 8\";address=\"viking way\";name=\"Whale of a Time\")",
+        "There's a fun place called Whale of a Time at unit 8, viking way, bar hill.",
+        "There's a fun place called Whale of a Time at unit 8, viking way, bar hill."
+    ],
+    [
+        "attraction_inform(address=\"Bar Hill\";address=\"Unit 8\";address=\"Viking Way\";entrancefee=\"I do not know\";postcode=\"cb238el\")",
+        "The address is Unit 8, Viking Way, Bar Hill in postcode cb238el. I'm sorry, I do not know if there is an entrance fee. Do you need anything else?",
+        "The address is Unit 8, Viking Way, Bar Hill in postcode cb238el. I'm sorry, I do not know if there is an entrance fee. Do you need anything else?"
+    ],
+    [
+        "attraction_inform(area=\"in the centre\";area=\"in the south\";choice=\"5\";type=\"theatres\")",
+        "There are 5 theatres in town, 4 in the centre and 1 in the south, do you have a preference for area?",
+        "There are 5 theatres in town, 4 in the centre and 1 in the south, do you have a preference for area?"
+    ],
+    [
+        "attraction_inform(area=\"in the south\";entrancefee=\"not listed\";name=\"The junction\";postcode=\"cb17gx\")",
+        "The junction is in the south area. The postcode is cb17gx. The entrance fee is not listed. Would you like the phone number?",
+        "The junction is in the south area. The postcode is cb17gx. The entrance fee is not listed. Would you like the phone number?"
+    ],
+    [
+        "attraction_inform(phone=\"01223511511\")",
+        "Sure thing. The phone number is 01223511511. How else may I help you?",
+        "Sure thing. The phone number is 01223511511. How else may I help you?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"5\";entrancefee=\"4 pounds\";name=\"soul tree nightclub\";type=\"nightclubs\")",
+        "There are 5 nightclubs in the centre area, the one with the lowest entrance fee is soul tree nightclub which is 4 pounds to get in.",
+        "There are 5 nightclubs in the centre area, the one with the lowest entrance fee is soul tree nightclub which is 4 pounds to get in."
+    ],
+    [
+        "attraction_inform(address=\"1-6 corn exchange street\";postcode=\"cb23qf\")",
+        "Of course! They're located at 1-6 corn exchange street with postcode cb23qf. Anything else I can do for you?",
+        "Of course! They're located at 1-6 corn exchange street with postcode cb23qf. Anything else I can do for you?"
+    ],
+    [
+        "attraction_inform(address=\"6 trinity street\";name=\"Cambridge Contemporary Art Museum\")",
+        "How about, the Cambridge Contemporary Art Museum located at 6 trinity street?",
+        "How about, the Cambridge Contemporary Art Museum located at 6 trinity street?"
+    ],
+    [
+        "attraction_inform(phone=\"01223324222\")",
+        "The number there is 01223324222. Anything else?",
+        "The number there is 01223324222. Anything else?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\";postcode=\"cb21su\")",
+        "There is no entrance fee; it is free. The postcode is cb21su. May I help you with anything else?",
+        "There is no entrance fee; it is free. The postcode is cb21su. May I help you with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"on the centre\";entrancefee=\"5 pounds\";type=\"nightclub\")",
+        "It is a nightclub located on the centre where the entrance fee is 5 pounds.",
+        "It is a nightclub located on the centre where the entrance fee is 5 pounds."
+    ],
+    [
+        "attraction_inform(postcode=\"cb12jb\")",
+        "Absolutely... Their postcode is cb12jb. Is there any other information I can provide you with?",
+        "Absolutely... Their postcode is cb12jb. Is there any other information I can provide you with?"
+    ],
+    [
+        "attraction_inform()",
+        "There are many but may I suggest the Cambridge Contemporary Art Museum?",
+        "There are many but may I suggest the Cambridge Contemporary Art Museum?"
+    ],
+    [
+        "attraction_inform()@attraction_recommend(choice=\"many\";name=\"Cambridge Contemporary Art Museum\")",
+        "There are many but may I suggest the Cambridge Contemporary Art Museum?",
+        "There are many but may I suggest the Cambridge Contemporary Art Museum?"
+    ],
+    [
+        "attraction_inform(phone=\"01223324222\";postcode=\"cb21su\")",
+        "Their postcode is cb21su and phone number is 01223324222. What else can I help you with?",
+        "Their postcode is cb21su and phone number is 01223324222. What else can I help you with?"
+    ],
+    [
+        "attraction_inform(choice=\"five\";entrancefee=\"free\";entrancefee=\"pounds\";type=\"parks\")",
+        "I have five parks in the area, four are free and one is pounds. If you want to give me your location I can narrow down the results.",
+        "I have five parks in the area, four are free and one is pounds. If you want to give me your location I can narrow down the results."
+    ],
+    [
+        "attraction_inform(address=\"Bateman Street\";area=\"the center of the park\";entrancefee=\"4 pounds\";name=\"The Cambridge University Botanic Gardens\")",
+        "The Cambridge University Botanic Gardens is in the center of the park. It is located in Bateman Street, the entrance is 4 pounds.",
+        "The Cambridge University Botanic Gardens is in the center of the park. It is located in Bateman Street, the entrance is 4 pounds."
+    ],
+    [
+        "attraction_inform(phone=\"01223336265\")",
+        "Their phone number is 01223336265. Can I assist you with anything else?",
+        "Their phone number is 01223336265. Can I assist you with anything else?"
+    ],
+    [
+        "attraction_recommend(area=\"West\";name=\"Churchill College\")",
+        "How about Churchill College? It's in the West.",
+        "How about Churchill College? It's in the West."
+    ],
+    [
+        "attraction_inform(address=\"Storey's Way\")",
+        "It's located on Storey's Way. Do you need any more info on it?",
+        "It's located on Storey's Way. Do you need any more info on it?"
+    ],
+    [
+        "attraction_inform(area=\"The centre\";choice=\"many\")",
+        "Great! The centre has many attractions. Are you interested in a particular type?",
+        "Great! The centre has many attractions. Are you interested in a particular type?"
+    ],
+    [
+        "attraction_inform(area=\"The centre\";choice=\"many\")@hotel_inform()",
+        "Great! The centre has many attractions. Are you interested in a particular type?",
+        "Great! The centre has many attractions. Are you interested in a particular type?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"13\";entrancefee=\"free\";name=\"The downing college\";type=\"colleges\")",
+        "We have 13 colleges in the centre area. The downing college is one that is free to enter. Would you like more information on this one?",
+        "We have 13 colleges in the centre area. The downing college is one that is free to enter. Would you like more information on this one?"
+    ],
+    [
+        "attraction_inform(address=\"Regent Street\";name=\"Downing College\";phone=\"01223334860\")",
+        "Downing College is on Regent Street and the phone number is 01223334860. Is there anything else I can help you with?",
+        "Downing College is on Regent Street and the phone number is 01223334860. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(area=\"center of town\";choice=\"lots\";type=\"boats\";type=\"nightclubs\";type=\"parks\")",
+        "We offer lots to do in the center of town. We have everything from boats and parks to nightclubs. Are you in the mood for anything particular?",
+        "We offer lots to do in the center of town. We have everything from boats and parks to nightclubs. Are you in the mood for anything particular?"
+    ],
+    [
+        "attraction_recommend(name=\"All Saints Church\";phone=\"01223452587\";postcode=\"cb58bs\";type=\"architecture\")",
+        "If you are interested in architecture, there is All Saints Church. The phone number is 01223452587 and the postcode is cb58bs.",
+        "If you are interested in architecture, there is All Saints Church. The phone number is 01223452587 and the postcode is cb58bs."
+    ],
+    [
+        "attraction_inform(area=\"east\";type=\"museum\")",
+        "I do, it is located in the east and is a museum, what information would you like about it?",
+        "I do, it is located in the east and is a museum, what information would you like about it?"
+    ],
+    [
+        "attraction_recommend(name=\"whipple museum of the history of science\")",
+        "How about whipple museum of the history of science?",
+        "How about whipple museum of the history of science?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\";postcode=\"cb23rh\")",
+        "It is a free attraction, and the postcode is cb23rh. Is there anything else?",
+        "It is a free attraction, and the postcode is cb23rh. Is there anything else?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"no entrance fee listed\";name=\"Nusha\";postcode=\"cb17dy\";type=\"entertainment venue\")",
+        "I'm sorry, yes, Nusha is an entertainment venue that I think you will enjoy. Postcode for that is cb17dy, but there is no entrance fee listed.",
+        "I'm sorry, yes, Nusha is an entertainment venue that I think you will enjoy. Postcode for that is cb17dy, but there is no entrance fee listed."
+    ],
+    [
+        "attraction_inform(choice=\"5\";type=\"theatres\")",
+        "There are 5 theatres in town. Do you have a preference for a specific area?",
+        "There are 5 theatres in town. Do you have a preference for a specific area?"
+    ],
+    [
+        "attraction_recommend(name=\"Cambridge Arts Theatre\")",
+        "I'd recommend the Cambridge Arts Theatre, myself.",
+        "I'd recommend the Cambridge Arts Theatre, myself."
+    ],
+    [
+        "attraction_inform(address=\"6 Saint Edward's Passage\";postcode=\"cb23pj\")",
+        "The address is 6 Saint Edward's Passage and the post code is cb23pj. Do you need the phone number as well?",
+        "The address is 6 Saint Edward's Passage and the post code is cb23pj. Do you need the phone number as well?"
+    ],
+    [
+        "attraction_inform(address=\"1 wheeler street\";area=\"centre of town\";entrancefee=\"5 pounds\";name=\"Kambar\";postcode=\"cb23qb\";type=\"nightclub\")",
+        "Kambar is a nightclub located in the centre of town. Its address is 1 wheeler street and postcode is cb23qb with an entrance fee of 5 pounds.",
+        "Kambar is a nightclub located in the centre of town. Its address is 1 wheeler street and postcode is cb23qb with an entrance fee of 5 pounds."
+    ],
+    [
+        "attraction_inform(choice=\"quite a few\")",
+        "I have quite a few options. Did you have an idea what type of attraction you were looking to visit?",
+        "I have quite a few options. Did you have an idea what type of attraction you were looking to visit?"
+    ],
+    [
+        "attraction_recommend(address=\"grande arcade\";address=\"saint andrews street\";address=\"unit su43\";name=\"Castle Galleries\";postcode=\"cb23bj\";type=\"museums\")",
+        "Castle Galleries is one of my favorite museums. It is at unit su43, grande arcade, saint andrews street, post code cb23bj. Does that sound good?",
+        "Castle Galleries is one of my favorite museums. It is at unit su43, grande arcade, saint andrews street, post code cb23bj. Does that sound good?"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";name=\"ballare\";type=\"nightclub\")",
+        "ballare is a nightclub in the centre of town, would you like more details?",
+        "ballare is a nightclub in the centre of town, would you like more details?"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";entrancefee=\"5 pounds\";name=\"Ballare\")",
+        "Ballare's entrance fee is 5 pounds and they're located in the centre of town. Is there anything else I can help you with today?",
+        "Ballare's entrance fee is 5 pounds and they're located in the centre of town. Is there anything else I can help you with today?"
+    ],
+    [
+        "attraction_recommend(name=\"Funky Fun House\")",
+        "Yes, I recommend the Funky Fun House. With a name like that, how can you go wrong?",
+        "Yes, I recommend the Funky Fun House. With a name like that, how can you go wrong?"
+    ],
+    [
+        "attraction_inform(address=\"8 mercers row\";address=\"mercers row industrial estate\";phone=\"01223304705\")",
+        "Alright, here you are, the address is 8 mercers row, mercers row industrial estate and the phone number is 01223304705. Can I find any other information for you?",
+        "Alright, here you are, the address is 8 mercers row, mercers row industrial estate and the phone number is 01223304705. Can I find any other information for you?"
+    ],
+    [
+        "attraction_inform(name=\"The cherry hinton village centre\")",
+        "The cherry hinton village centre is available if that works for you?",
+        "The cherry hinton village centre is available if that works for you?"
+    ],
+    [
+        "attraction_inform(address=\"in the east\";choice=\"the only\";type=\"multiple sports place\")",
+        "No, the only multiple sports place is in the east. Would you prefer that one, or perhaps a different type of attraction in the centre?",
+        "No, the only multiple sports place is in the east. Would you prefer that one, or perhaps a different type of attraction in the centre?"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";choice=\"5\";entrancefee=\"free admission\";type=\"museums\")",
+        "There are 5 museums in the centre of town. All with free admission. My favorite is Castle Galleries on St. Andrews Street.",
+        "There are 5 museums in the centre of town. All with free admission. My favorite is Castle Galleries on St. Andrews Street."
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";choice=\"5\";entrancefee=\"free admission\";type=\"museums\")@attraction_recommend(address=\"St. Andrews Street\";name=\"Castle Galleries\")",
+        "There are 5 museums in the centre of town. All with free admission. My favorite is Castle Galleries on St. Andrews Street.",
+        "There are 5 museums in the centre of town. All with free admission. My favorite is Castle Galleries on St. Andrews Street."
+    ],
+    [
+        "attraction_inform(address=\"Grande Arcade\";address=\"Saint Andrews Street\";address=\"Unit su43\";postcode=\"cb23bj\")",
+        "Of course! The postcode is cb23bj and it is located at Unit su43, Grande Arcade, Saint Andrews Street. Can I assist you with anything else?",
+        "Of course! The postcode is cb23bj and it is located at Unit su43, Grande Arcade, Saint Andrews Street. Can I assist you with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"west\";entrancefee=\"free\";name=\"and churchill college\";name=\"clare hall\";name=\"magdalene college\")",
+        "magdalene college, clare hall, and churchill college are all colleges in the west with free entrance fees.",
+        "magdalene college, clare hall, and churchill college are all colleges in the west with free entrance fees."
+    ],
+    [
+        "attraction_inform(phone=\"01223336233\")",
+        "The phone number is 01223336233. Is there anything else I can help you with?",
+        "The phone number is 01223336233. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb30ds\")",
+        "The postcode is cb30ds. Anything else I can assist you with?",
+        "The postcode is cb30ds. Anything else I can assist you with?"
+    ],
+    [
+        "hotel_inform(area=\"center of town\";choice=\"tons\")",
+        "There are tons of places to go in the center of town. What type of attraction are you looking for?",
+        "There are tons of places to go in the center of town. What type of attraction are you looking for?"
+    ],
+    [
+        "attraction_inform(address=\"6 Trinity Street\";area=\"centre of town\";entrancefee=\"no entrance fee\")",
+        "How about the Cambridge Contemporary Art Museum? Their address is 6 Trinity Street, in the centre of town, and they have no entrance fee.",
+        "How about the Cambridge Contemporary Art Museum? Their address is 6 Trinity Street, in the centre of town, and they have no entrance fee."
+    ],
+    [
+        "attraction_inform(address=\"6 Trinity Street\";area=\"centre of town\";entrancefee=\"no entrance fee\")@attraction_recommend(name=\"Cambridge Contemporary Art Museum\")",
+        "How about the Cambridge Contemporary Art Museum? Their address is 6 Trinity Street, in the centre of town, and they have no entrance fee.",
+        "How about the Cambridge Contemporary Art Museum? Their address is 6 Trinity Street, in the centre of town, and they have no entrance fee."
+    ],
+    [
+        "attraction_inform(choice=\"about 13\")",
+        "I have about 13 different options. Most offer free entrance but there are a few that charge. Do you prefer one over the other?",
+        "I have about 13 different options. Most offer free entrance but there are a few that charge. Do you prefer one over the other?"
+    ],
+    [
+        "attraction_inform(choice=\"about 13\")@attraction_select()",
+        "I have about 13 different options. Most offer free entrance but there are a few that charge. Do you prefer one over the other?",
+        "I have about 13 different options. Most offer free entrance but there are a few that charge. Do you prefer one over the other?"
+    ],
+    [
+        "attraction_inform(address=\"St. Andrew's Street\";entrancefee=\"free\";name=\"Christ's College\";phone=\"01223334900\";postcode=\"CB23BU\")",
+        "Christ's College on St. Andrew's Street is free, the postcode is CB23BU and their phone number is 01223334900. Can I help with anything else?",
+        "Christ's College on St. Andrew's Street is free, the postcode is CB23BU and their phone number is 01223334900. Can I help with anything else?"
+    ],
+    [
+        "attraction_inform(choice=\"2\";entrancefee=\"free\";name=\"There is Sheep's Green and Lammas Land Park\";name=\"Wandlebury Country Park\";type=\"parks\")",
+        "I have 2 parks to choose from. Both are free to get in. There is Sheep's Green and Lammas Land Park and Wandlebury Country Park. Which do you prefer?",
+        "I have 2 parks to choose from. Both are free to get in. There is Sheep's Green and Lammas Land Park and Wandlebury Country Park. Which do you prefer?"
+    ],
+    [
+        "attraction_inform(choice=\"2\";entrancefee=\"free\";name=\"There is Sheep's Green and Lammas Land Park\";name=\"Wandlebury Country Park\";type=\"parks\")@attraction_select()",
+        "I have 2 parks to choose from. Both are free to get in. There is Sheep's Green and Lammas Land Park and Wandlebury Country Park. Which do you prefer?",
+        "I have 2 parks to choose from. Both are free to get in. There is Sheep's Green and Lammas Land Park and Wandlebury Country Park. Which do you prefer?"
+    ],
+    [
+        "attraction_inform(address=\"Wandlebury Ring, Gog Magog Hills, in Babraham\";name=\"Wandlebury Country Park\";phone=\"01223243830\")",
+        "Wandlebury Country Park is located on the Wandlebury Ring, Gog Magog Hills, in Babraham. Their phone number is 01223243830. Is there anything else I can assist you with today?",
+        "Wandlebury Country Park is located on the Wandlebury Ring, Gog Magog Hills, in Babraham. Their phone number is 01223243830. Is there anything else I can assist you with today?"
+    ],
+    [
+        "attraction_inform(address=\"2 norfolk street\";area=\"the centre\";name=\"The man on the moon\")",
+        "The man on the moon is on 2 norfolk street in the centre area. Would you like to order tickets?",
+        "The man on the moon is on 2 norfolk street in the centre area. Would you like to order tickets?"
+    ],
+    [
+        "attraction_inform(address=\"2 norfolk street\";area=\"the centre\";name=\"The man on the moon\")@booking_inform()",
+        "The man on the moon is on 2 norfolk street in the centre area. Would you like to order tickets?",
+        "The man on the moon is on 2 norfolk street in the centre area. Would you like to order tickets?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"we don't have any information\";postcode=\"cb12lf\")",
+        "I'm sorry, we don't have any information in our database regarding their entrance fee, but their postcode is cb12lf. Can I help you with anything else?",
+        "I'm sorry, we don't have any information in our database regarding their entrance fee, but their postcode is cb12lf. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";area=\"east\";area=\"north\";choice=\"2\";choice=\"4\";choice=\"one\";type=\"boating\")",
+        "I have about 4 different attractions for boating. 2 are in the centre of town and one in the north and east. Do you have a preference on area?",
+        "I have about 4 different attractions for boating. 2 are in the centre of town and one in the north and east. Do you have a preference on area?"
+    ],
+    [
+        "attraction_inform(area=\"east side\";entrancefee=\"I don't have information\";name=\"Camboats\")",
+        "Camboats is on the east side. Unfortunately I don't have information on the entrance fee.",
+        "Camboats is on the east side. Unfortunately I don't have information on the entrance fee."
+    ],
+    [
+        "attraction_inform(name=\"Cambridge University Botanic Gardens\";type=\"park\")",
+        "There is the Cambridge University Botanic Gardens which is a park. Will this work for you?",
+        "There is the Cambridge University Botanic Gardens which is a park. Will this work for you?"
+    ],
+    [
+        "attraction_inform(address=\"bateman street\";phone=\"01223336265\")",
+        "Their address is bateman street and phone number is 01223336265. Is there anything else I can help you with?",
+        "Their address is bateman street and phone number is 01223336265. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(choice=\"several\")",
+        "I have details for several nightclubs, which area were you looking at?",
+        "I have details for several nightclubs, which area were you looking at?"
+    ],
+    [
+        "attraction_recommend(address=\"1 Wheeler Street\";entrancefee=\"5 pounds\";name=\"Kambar\";postcode=\"cb23qb\")",
+        "Alright. How about Kambar. It is located at 1 Wheeler Street and the postcode is cb23qb. The entrance fee is 5 pounds. Is that all you need help with today?",
+        "Alright. How about Kambar. It is located at 1 Wheeler Street and the postcode is cb23qb. The entrance fee is 5 pounds. Is that all you need help with today?"
+    ],
+    [
+        "attraction_inform(choice=\"many\";name=\"Cambridge Artworks\";name=\"Cambridge Museum of Technology\";name=\"Whipple Museum of the History of Science\")",
+        "We have many interesting museums, such as the Cambridge Artworks, Cambridge Museum of Technology, and the Whipple Museum of the History of Science. Anything in particular strike your fancy?",
+        "We have many interesting museums, such as the Cambridge Artworks, Cambridge Museum of Technology, and the Whipple Museum of the History of Science. Anything in particular strike your fancy?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"11\")",
+        "Actually, I have 11 of them in the centre area. Might I suggest the Broughton House Gallery. It has free entrance and is located at 98 King Street.",
+        "Actually, I have 11 of them in the centre area. Might I suggest the Broughton House Gallery. It has free entrance and is located at 98 King Street."
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"11\")@attraction_recommend(address=\"98 King Street\";name=\"Broughton House Gallery\";openhours=\"free entrance\")",
+        "Actually, I have 11 of them in the centre area. Might I suggest the Broughton House Gallery. It has free entrance and is located at 98 King Street.",
+        "Actually, I have 11 of them in the centre area. Might I suggest the Broughton House Gallery. It has free entrance and is located at 98 King Street."
+    ],
+    [
+        "attraction_inform(phone=\"01223314960\")",
+        "Yes. Their phone number is 01223314960. Can I help you with anything else?",
+        "Yes. Their phone number is 01223314960. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(address=\"sidgwick avenue\";entrancefee=\"free\";name=\"museum of classical archaeology\")",
+        "Certainly, the museum of classical archaeology is located at sidgwick avenue and has free entrance, phone 01223335153. Do you also need the postcode?",
+        "Certainly, the museum of classical archaeology is located at sidgwick avenue and has free entrance, phone 01223335153. Do you also need the postcode?"
+    ],
+    [
+        "attraction_inform(name=\"Museum of Classical Archaeology\";postcode=\"cb39da\")",
+        "The postcode for the Museum of Classical Archaeology is cb39da. Is there anything else I can help you with?",
+        "The postcode for the Museum of Classical Archaeology is cb39da. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(choice=\"23\";type=\"museums\")",
+        "We offer 23 museums. Any location preferences?",
+        "We offer 23 museums. Any location preferences?"
+    ],
+    [
+        "attraction_recommend(entrancefee=\"free\";name=\"Cafe Jello Gallery\";postcode=\"cb30af\")",
+        "Sure. Cafe Jello Gallery is my personal favorite. The postcode is cb30af. It is free to get in.",
+        "Sure. Cafe Jello Gallery is my personal favorite. The postcode is cb30af. It is free to get in."
+    ],
+    [
+        "attraction_inform(area=\"the east part of town\";entrancefee=\"5 pounds\";name=\"cambridge museum of technology\")",
+        "Yes, the cambridge museum of technology is in the east part of town. The entrance fee in 5 pounds. Would you like a ticket?",
+        "Yes, the cambridge museum of technology is in the east part of town. The entrance fee in 5 pounds. Would you like a ticket?"
+    ],
+    [
+        "attraction_inform(area=\"the east part of town\";entrancefee=\"5 pounds\";name=\"cambridge museum of technology\")@booking_inform()",
+        "Yes, the cambridge museum of technology is in the east part of town. The entrance fee in 5 pounds. Would you like a ticket?",
+        "Yes, the cambridge museum of technology is in the east part of town. The entrance fee in 5 pounds. Would you like a ticket?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb58ld\")",
+        "Their postcode is cb58ld",
+        "Their postcode is cb58ld"
+    ],
+    [
+        "attraction_inform(type=\"museum\")",
+        "Yes, it is a museum. Is there anything else you would like to know?",
+        "Yes, it is a museum. Is there anything else you would like to know?"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";choice=\"11\";type=\"museums\")",
+        "There are 11 museums in the centre of town. How about Castle Galleries in unit su43, grande arcade, saint andrews street?",
+        "There are 11 museums in the centre of town. How about Castle Galleries in unit su43, grande arcade, saint andrews street?"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";choice=\"11\";type=\"museums\")@attraction_recommend(address=\"grande arcade\";address=\"saint andrews street\";address=\"unit su43\";name=\"Castle Galleries\")",
+        "There are 11 museums in the centre of town. How about Castle Galleries in unit su43, grande arcade, saint andrews street?",
+        "There are 11 museums in the centre of town. How about Castle Galleries in unit su43, grande arcade, saint andrews street?"
+    ],
+    [
+        "attraction_inform(choice=\"four\")",
+        "I have four different kinds, what type would you like?",
+        "I have four different kinds, what type would you like?"
+    ],
+    [
+        "attraction_recommend(name=\"Riverboat Georgina\")",
+        "I really like the Riverboat Georgina. Do you need any information about something like this?",
+        "I really like the Riverboat Georgina. Do you need any information about something like this?"
+    ],
+    [
+        "attraction_inform(address=\"cambridge passenger cruisers\";address=\"jubilee house\";postcode=\"cb43ax\";type=\"boat\")",
+        "It is a boat. The address is cambridge passenger cruisers, jubilee house and the postcode is cb43ax. Is there anything else you'd like to know?",
+        "It is a boat. The address is cambridge passenger cruisers, jubilee house and the postcode is cb43ax. Is there anything else you'd like to know?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";area=\"south\";type=\"cinema\")",
+        "There are two cinemas, one in the south and one in the centre, which area do you prefer?",
+        "There are two cinemas, one in the south and one in the centre, which area do you prefer?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";area=\"south\";type=\"cinema\")@attraction_select()",
+        "There are two cinemas, one in the south and one in the centre, which area do you prefer?",
+        "There are two cinemas, one in the south and one in the centre, which area do you prefer?"
+    ],
+    [
+        "attraction_inform(name=\"The cineworld cinema\";phone=\"00872208000\";postcode=\"cb17dy\")",
+        "Sure! The cineworld cinema's phone number is 00872208000 and their post code is cb17dy. Is there anything else I can help you with?",
+        "Sure! The cineworld cinema's phone number is 00872208000 and their post code is cb17dy. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";area=\"east\";area=\"north\";choice=\"some\")",
+        "Unfortunately I was unable to find a pool at the south part of town, however we have some north east and at the centre",
+        "Unfortunately I was unable to find a pool at the south part of town, however we have some north east and at the centre"
+    ],
+    [
+        "attraction_inform(area=\"south\";choice=\"5\";name=\"wandlebury country park\")",
+        "There are five, including wandlebury country park in the south.",
+        "There are five, including wandlebury country park in the south."
+    ],
+    [
+        "attraction_inform(address=\"Babraham\";address=\"Gog Magog Hills\";address=\"Wandlebury Ring\";entrancefee=\"free\";phone=\"01223243830\";postcode=\"cb223ae\")",
+        "Actually, they have free entrance. They are located at Wandlebury Ring, Gog Magog Hills, Babraham. Their phone number is 01223243830. Their postcode is cb223ae.",
+        "Actually, they have free entrance. They are located at Wandlebury Ring, Gog Magog Hills, Babraham. Their phone number is 01223243830. Their postcode is cb223ae."
+    ],
+    [
+        "attraction_inform(area=\"east\";name=\"The Abbey Pool and Astroturf Pitch\";type=\"swimming pool\")",
+        "The Abbey Pool and Astroturf Pitch is a swimming pool on the east side of town. Would you like their address?",
+        "The Abbey Pool and Astroturf Pitch is a swimming pool on the east side of town. Would you like their address?"
+    ],
+    [
+        "attraction_inform(phone=\"01223902088\")",
+        "The phone number is 01223902088. Is there anything else I can assist you with?",
+        "The phone number is 01223902088. Is there anything else I can assist you with?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb58nt\")",
+        "Sure, it is cb58nt. Will that be all?",
+        "Sure, it is cb58nt. Will that be all?"
+    ],
+    [
+        "attraction_inform(choice=\"many\";type=\"museums\")",
+        "We have many museums in town - what area are you interested in?",
+        "We have many museums in town - what area are you interested in?"
+    ],
+    [
+        "attraction_recommend(address=\"5 Greens Road\";entrancefee=\"no entrance fee\";name=\"Cambridge Artworks\")",
+        "How does Cambridge Artworks sound? It is located on 5 Greens Road and there is no entrance fee?",
+        "How does Cambridge Artworks sound? It is located on 5 Greens Road and there is no entrance fee?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb13ef\")",
+        "Sure their postcode is cb13ef. Is there anything else?",
+        "Sure their postcode is cb13ef. Is there anything else?"
+    ],
+    [
+        "attraction_inform(area=\"west\";choice=\"a lot\";type=\"nightclubs\")",
+        "I am sorry, but I did not find a nightclub in the center of the town. If you like I can search in the west, where there are a lot nightclubs.",
+        "I am sorry, but I did not find a nightclub in the center of the town. If you like I can search in the west, where there are a lot nightclubs."
+    ],
+    [
+        "attraction_inform(choice=\"5\";name=\"Club Salsa\";name=\"Kambar\";name=\"The Ballare\";name=\"the Soul Tree and The Fez Club\")",
+        "Oh, my. I do apologize. I was wrong. There are 5 different nightclubs available. The Ballare, Club Salsa, Kambar, the Soul Tree and The Fez Club.",
+        "Oh, my. I do apologize. I was wrong. There are 5 different nightclubs available. The Ballare, Club Salsa, Kambar, the Soul Tree and The Fez Club."
+    ],
+    [
+        "attraction_inform(entrancefee=\"5 pounds\";phone=\"07782218745\")",
+        "Entry is 5 pounds, and the number is 07782218745.",
+        "Entry is 5 pounds, and the number is 07782218745."
+    ],
+    [
+        "attraction_inform(area=\"city centre\";choice=\"eleven\";type=\"museums\")",
+        "There are eleven museums in the city centre. Might I recommend the museum of archaelogy and anthropology?",
+        "There are eleven museums in the city centre. Might I recommend the museum of archaelogy and anthropology?"
+    ],
+    [
+        "attraction_inform(area=\"city centre\";choice=\"eleven\";type=\"museums\")@attraction_recommend(name=\"museum of archaelogy and anthropology\")",
+        "There are eleven museums in the city centre. Might I recommend the museum of archaelogy and anthropology?",
+        "There are eleven museums in the city centre. Might I recommend the museum of archaelogy and anthropology?"
+    ],
+    [
+        "attraction_inform(address=\"University of Cambridge on Downing Street\";entrancefee=\"free\";name=\"museum of archaelogy and anthropology\";phone=\"01223333516\")",
+        "The museum of archaelogy and anthropology is free to get into and is located at the University of Cambridge on Downing Street. Their phone number is 01223333516.",
+        "The museum of archaelogy and anthropology is free to get into and is located at the University of Cambridge on Downing Street. Their phone number is 01223333516."
+    ],
+    [
+        "attraction_inform(phone=\"01223333516\";postcode=\"cb23dz\")",
+        "Their postcode is cb23dz. If you would like to reach them directly, their phone number is 01223333516. Anything else I can help with?",
+        "Their postcode is cb23dz. If you would like to reach them directly, their phone number is 01223333516. Anything else I can help with?"
+    ],
+    [
+        "attraction_inform(address=\"Jedburgh Court\";address=\"Kings Hedges\";name=\"Kings Hedges Learner Pools\";phone=\"01223353248\";postcode=\"CB42XH\")",
+        "Kings Hedges Learner Pools phone number is 01223353248, they are located at Jedburgh Court, Kings Hedges, CB42XH. Can I help with anything else?",
+        "Kings Hedges Learner Pools phone number is 01223353248, they are located at Jedburgh Court, Kings Hedges, CB42XH. Can I help with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"the north of the city\")",
+        "It is in the north of the city, would you like help with anything else?",
+        "It is in the north of the city, would you like help with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"east\";name=\"cherry hinton hall and grounds\")",
+        "Ok, cherry hinton hall and grounds is in the east side of town. Would you like the address?",
+        "Ok, cherry hinton hall and grounds is in the east side of town. Would you like the address?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb18dw\")",
+        "cb18dw is their postcode.",
+        "cb18dw is their postcode."
+    ],
+    [
+        "attraction_inform(choice=\"many\";type=\"churches\";type=\"old schools\")",
+        "There are many churches and old schools in town, what would you like to see?",
+        "There are many churches and old schools in town, what would you like to see?"
+    ],
+    [
+        "attraction_inform(name=\"All Saints Church\";openhours=\"free\")",
+        "All Saints Church is beautiful, and, better yet, it's free!",
+        "All Saints Church is beautiful, and, better yet, it's free!"
+    ],
+    [
+        "attraction_inform(area=\"west\";choice=\"7\";entrancefee=\"3.50\";entrancefee=\"free\";type=\"museum\")",
+        "I have 7 museums in the west of the city, 6 are free entry and one is 3.50. Do you have a preference for a museum or a gallery?",
+        "I have 7 museums in the west of the city, 6 are free entry and one is 3.50. Do you have a preference for a museum or a gallery?"
+    ],
+    [
+        "attraction_inform(area=\"west\";choice=\"7\";entrancefee=\"3.50\";entrancefee=\"free\";type=\"museum\")@attraction_select(type=\"gallery\";type=\"museum\")",
+        "I have 7 museums in the west of the city, 6 are free entry and one is 3.50. Do you have a preference for a museum or a gallery?",
+        "I have 7 museums in the west of the city, 6 are free entry and one is 3.50. Do you have a preference for a museum or a gallery?"
+    ],
+    [
+        "attraction_recommend(entrancefee=\"no entrance fee\";name=\"The Museum of Classical Archaeology\")",
+        "The Museum of Classical Archaeology is lovely, and they have no entrance fee. Would that fit your needs?",
+        "The Museum of Classical Archaeology is lovely, and they have no entrance fee. Would that fit your needs?"
+    ],
+    [
+        "attraction_recommend(entrancefee=\"no entrance fee\";name=\"The Museum of Classical Archaeology\")@booking_inform()",
+        "The Museum of Classical Archaeology is lovely, and they have no entrance fee. Would that fit your needs?",
+        "The Museum of Classical Archaeology is lovely, and they have no entrance fee. Would that fit your needs?"
+    ],
+    [
+        "attraction_inform(phone=\"01223335153\")",
+        "We don't have the ability to book tickets for the museum from here, but if you'd like to contact them, their phone number is 01223335153. Can I help with anything else?",
+        "We don't have the ability to book tickets for the museum from here, but if you'd like to contact them, their phone number is 01223335153. Can I help with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"in the east\";area=\"west side of town\";name=\"Whale of a time\";name=\"funky fun house\")",
+        "I'd be happy to help you. Whale of a time is in the west side of town, and funky fun house is in the east. Would you like more information?",
+        "I'd be happy to help you. Whale of a time is in the west side of town, and funky fun house is in the east. Would you like more information?"
+    ],
+    [
+        "attraction_inform(area=\"in the centre\";name=\"The cambridge arts theatre\")",
+        "The cambridge arts theatre is in the centre area. Would you like more information?",
+        "The cambridge arts theatre is in the centre area. Would you like more information?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"not sure of the fee\";phone=\"01223503333\")",
+        "Sure. The phone number is 01223503333, but I'm not sure of the fee.",
+        "Sure. The phone number is 01223503333, but I'm not sure of the fee."
+    ],
+    [
+        "attraction_inform(area=\"east\";area=\"east\";name=\"cambridge museum of technology\";name=\"funky fun house\")",
+        "How about funky fun house? It's in the east. cambridge museum of technology is also in the east.",
+        "How about funky fun house? It's in the east. cambridge museum of technology is also in the east."
+    ],
+    [
+        "attraction_inform(entrancefee=\"5 pounds\";entrancefee=\"no information on the admission price\";name=\"Cambridge Museum of Tech.\";name=\"Funky Fun House\")",
+        "The Cambridge Museum of Tech. costs 5 pounds. There is no information on the admission price for Funky Fun House. Would you like their phone number?",
+        "The Cambridge Museum of Tech. costs 5 pounds. There is no information on the admission price for Funky Fun House. Would you like their phone number?"
+    ],
+    [
+        "attraction_inform()",
+        "Yes, of course. It is cb58hy. Is there anything else I can find out for you?",
+        "Yes, of course. It is cb58hy. Is there anything else I can find out for you?"
+    ],
+    [
+        "attraction_inform(choice=\"18\")",
+        "Great idea! There are 18 entries found! What area of town would you like to visit?",
+        "Great idea! There are 18 entries found! What area of town would you like to visit?"
+    ],
+    [
+        "attraction_inform(area=\"city center\";choice=\"13\";type=\"colleges\")",
+        "There are 13 colleges in the city center but I recommend visiting Downing college and it is free to get in.",
+        "There are 13 colleges in the city center but I recommend visiting Downing college and it is free to get in."
+    ],
+    [
+        "attraction_inform(area=\"city center\";choice=\"13\";type=\"colleges\")@attraction_recommend(entrancefee=\"free\";name=\"Downing college\")",
+        "There are 13 colleges in the city center but I recommend visiting Downing college and it is free to get in.",
+        "There are 13 colleges in the city center but I recommend visiting Downing college and it is free to get in."
+    ],
+    [
+        "attraction_inform(address=\"Regent Street\")",
+        "Sure, it's located at Regent Street.",
+        "Sure, it's located at Regent Street."
+    ],
+    [
+        "attraction_recommend(address=\"Regent Street\";entrancefee=\"free\";name=\"Downing College\")",
+        "How about Downing College? It has free admission and is located on Regent Street/",
+        "How about Downing College? It has free admission and is located on Regent Street/"
+    ],
+    [
+        "attraction_inform(name=\"Downing College\";phone=\"01223334860\";postcode=\"cb21dq\")",
+        "Downing College's phone is 01223334860 and their postcode is cb21dq. Can I help you with anything else today?",
+        "Downing College's phone is 01223334860 and their postcode is cb21dq. Can I help you with anything else today?"
+    ],
+    [
+        "attraction_inform(choice=\"4\")",
+        "We have 4 such places. Any other preferences?",
+        "We have 4 such places. Any other preferences?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"don't have information\")",
+        "I'm sorry, but we don't have information on the theaters' entrance fees. Can I help you with anything else?",
+        "I'm sorry, but we don't have information on the theaters' entrance fees. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(address=\"6 saint edward's passage\";name=\"cambridge arts theatre\")",
+        "The cambridge arts theatre is located at 6 saint edward's passage. Can I provide you any other information?",
+        "The cambridge arts theatre is located at 6 saint edward's passage. Can I provide you any other information?"
+    ],
+    [
+        "attraction_inform(area=\"west\";choice=\"several\";type=\"galleries\";type=\"museums\")",
+        "I have found several galleries and museums in the west side of town, were you looking for something with free entrance?",
+        "I have found several galleries and museums in the west side of town, were you looking for something with free entrance?"
+    ],
+    [
+        "attraction_inform(choice=\"three\";choice=\"two\";name=\"kettle's yard\";name=\"people's portraits exhibition at girton college\";type=\"galleries\";type=\"museums\")",
+        "There are three galleries, two museums, kettle's yard, and the people's portraits exhibition at girton college.",
+        "There are three galleries, two museums, kettle's yard, and the people's portraits exhibition at girton college."
+    ],
+    [
+        "attraction_inform(address=\"Castle Street\";name=\"Kettle's Yard\";phone=\"01223748100\")",
+        "I find Kettle's Yard to be fascinating. Their phone number is 01223748100, and they're located on Castle Street. Can I be of any further assistance?",
+        "I find Kettle's Yard to be fascinating. Their phone number is 01223748100, and they're located on Castle Street. Can I be of any further assistance?"
+    ],
+    [
+        "attraction_inform(choice=\"several\";entrancefee=\"2 pounds\";entrancefee=\"free\";name=\"Great Saint Mary's Church\";type=\"architecture\";type=\"churches\";type=\"school\")",
+        "I can indeed. We have several churches and a school renowned for their architecture. Great Saint Mary's Church charges visitors 2 pounds, but the rest are free.",
+        "I can indeed. We have several churches and a school renowned for their architecture. Great Saint Mary's Church charges visitors 2 pounds, but the rest are free."
+    ],
+    [
+        "attraction_inform(address=\"jesus lane\";area=\"centre\";entrancefee=\"free\";name=\"all saints church\";phone=\"01223452587\")",
+        "all saints church is free and it's in the centre, located at jesus lane. Their number is 01223452587.",
+        "all saints church is free and it's in the centre, located at jesus lane. Their number is 01223452587."
+    ],
+    [
+        "attraction_inform(choice=\"79\")",
+        "In the centre of town I have a total of 79 different attractions, would you like to narrow your search by entrance fee or zip code?",
+        "In the centre of town I have a total of 79 different attractions, would you like to narrow your search by entrance fee or zip code?"
+    ],
+    [
+        "attraction_inform(type=\"architectural buildings\";type=\"colleges\";type=\"museums\";type=\"nightclubs\";type=\"parks\")",
+        "There are museums, colleges, architectural buildings, parks, nightclubs, etc. Does any of that sound interesting?",
+        "There are museums, colleges, architectural buildings, parks, nightclubs, etc. Does any of that sound interesting?"
+    ],
+    [
+        "attraction_recommend(address=\"98 King Street\";entrancefee=\"free\";name=\"Broughton House Gallery\")",
+        "I recommend the Broughton House Gallery at 98 King Street. It's free to enter and a great museum.",
+        "I recommend the Broughton House Gallery at 98 King Street. It's free to enter and a great museum."
+    ],
+    [
+        "attraction_inform(name=\"Broughton House Gallery\";postcode=\"cb11ln\")",
+        "The postcode for the Broughton House Gallery is cb11ln.",
+        "The postcode for the Broughton House Gallery is cb11ln."
+    ],
+    [
+        "attraction_inform(choice=\"44\")",
+        "I have 44 entries for attractions. Are you looking for architecture, colleges, parks, nightclubs, or maybe a museum?",
+        "I have 44 entries for attractions. Are you looking for architecture, colleges, parks, nightclubs, or maybe a museum?"
+    ],
+    [
+        "attraction_inform(name=\"Cambridge Punter\";type=\"boat\")",
+        "You might enjoy the Cambridge Punter. It's a boat.",
+        "You might enjoy the Cambridge Punter. It's a boat."
+    ],
+    [
+        "attraction_inform(phone=\"07807718591\")",
+        "I'm sorry, it is not listed. But if you'd like to call them the phone number is 07807718591. Can I help you with anything else?",
+        "I'm sorry, it is not listed. But if you'd like to call them the phone number is 07807718591. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(choice=\"23\")",
+        "We have 23 museums in Cambridge. Do you have a particular part of the city you'd like to go?",
+        "We have 23 museums in Cambridge. Do you have a particular part of the city you'd like to go?"
+    ],
+    [
+        "attraction_recommend(area=\"town centre\";entrancefee=\"free\";name=\"Castle Galleries\")",
+        "Sure. I really enjoy Castle Galleries. It's conveniently located in the town centre and has free admission.",
+        "Sure. I really enjoy Castle Galleries. It's conveniently located in the town centre and has free admission."
+    ],
+    [
+        "attraction_inform(phone=\"01223307402\")",
+        "The number there is 01223307402. Anything else?",
+        "The number there is 01223307402. Anything else?"
+    ],
+    [
+        "attraction_inform(choice=\"a multitude\";type=\"museum\")",
+        "There are a multitude of museums in town. What side of town are you in?",
+        "There are a multitude of museums in town. What side of town are you in?"
+    ],
+    [
+        "attraction_inform(name=\"Broughton House Gallery\")",
+        "Would you be interested in Broughton House Gallery?",
+        "Would you be interested in Broughton House Gallery?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb11ln\")",
+        "Sure. The postcode is cb11ln. Is there anything else I can answer for you today?",
+        "Sure. The postcode is cb11ln. Is there anything else I can answer for you today?"
+    ],
+    [
+        "attraction_inform(choice=\"plenty\")",
+        "there are plenty, anything in particular you are looking for?",
+        "there are plenty, anything in particular you are looking for?"
+    ],
+    [
+        "attraction_inform(type=\"a concerthall\";type=\"a swimmingpool\";type=\"architecture\";type=\"boating\";type=\"colleges\";type=\"museums\";type=\"nightclubs\";type=\"parks\";type=\"the cinema\";type=\"theatres\")",
+        "Sure. There is architecture, boating, the cinema, colleges, a concerthall, museums, nightclubs, parks, a swimmingpool and theatres.",
+        "Sure. There is architecture, boating, the cinema, colleges, a concerthall, museums, nightclubs, parks, a swimmingpool and theatres."
+    ],
+    [
+        "attraction_inform(area=\"centre\";name=\"Club salsa\";type=\"nightclub\")",
+        "Club salsa is a nightclub in centre. Would you like their contact information?",
+        "Club salsa is a nightclub in centre. Would you like their contact information?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"5 pounds\";name=\"Club Salsa\";phone=\"07782218745\")",
+        "Club Salsa has an entrance fee of 5 pounds. Their postcode is cb12jb, and their phone number is 07782218745. Is there anything else I can help you with?",
+        "Club Salsa has an entrance fee of 5 pounds. Their postcode is cb12jb, and their phone number is 07782218745. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(address=\"park street\";area=\"centre\";name=\"adc theatre\")",
+        "adc theatre is in the centre of town on park street, would you like their phone number?",
+        "adc theatre is in the centre of town on park street, would you like their phone number?"
+    ],
+    [
+        "attraction_inform(phone=\"01223300085\")",
+        "Sure, the phone number is 01223300085. Can I help you with anything else?",
+        "Sure, the phone number is 01223300085. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(address=\"5 Greens Road\";entrancefee=\"free\";postcode=\"cb13ef\")",
+        "Sure thing! The entrance is free! It is located at 5 Greens Road in postcode cb13ef.",
+        "Sure thing! The entrance is free! It is located at 5 Greens Road in postcode cb13ef."
+    ],
+    [
+        "attraction_inform(phone=\"01223902168\")",
+        "Sure, the phone number is 01223902168. Can I help with anything else?",
+        "Sure, the phone number is 01223902168. Can I help with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"Centre\";area=\"East\";area=\"North\";choice=\"1\";choice=\"1\";choice=\"2\";choice=\"4\";type=\"pools\")",
+        "Yes, there are 4 pools, 1 in the East, 2 in the North and 1 in the Centre. Which area would you like?",
+        "Yes, there are 4 pools, 1 in the East, 2 in the North and 1 in the Centre. Which area would you like?"
+    ],
+    [
+        "attraction_inform(address=\"between Victoria Road and the river\";name=\"Jesus Green Outdoor Pool\";postcode=\"cb43px\")",
+        "The Jesus Green Outdoor Pool is between Victoria Road and the river, and their postcode is cb43px. Is there anything else i can help you with today?",
+        "The Jesus Green Outdoor Pool is between Victoria Road and the river, and their postcode is cb43px. Is there anything else i can help you with today?"
+    ],
+    [
+        "attraction_inform(area=\"in the centre\";entrancefee=\"free\";name=\"Old schools\";type=\"architecture museum\")",
+        "Old schools is an architecture museum in the centre area. The admission is free. Would you like tickets?",
+        "Old schools is an architecture museum in the centre area. The admission is free. Would you like tickets?"
+    ],
+    [
+        "attraction_inform(area=\"in the centre\";entrancefee=\"free\";name=\"Old schools\";type=\"architecture museum\")@booking_inform()",
+        "Old schools is an architecture museum in the centre area. The admission is free. Would you like tickets?",
+        "Old schools is an architecture museum in the centre area. The admission is free. Would you like tickets?"
+    ],
+    [
+        "attraction_inform(address=\"trinity lane\";entrancefee=\"free\";phone=\"01223332320\")",
+        "I just checked and it is free. The address is trinity lane and the phone number is 01223332320. Can I help you with anything else?",
+        "I just checked and it is free. The address is trinity lane and the phone number is 01223332320. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(choice=\"four\")",
+        "We have four such places. Got a preference for area?",
+        "We have four such places. Got a preference for area?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";name=\"parkside pools\";phone=\"01223446100\")",
+        "The parkside pools is in the centre area, phone number 01223446100. Can I help you any further?",
+        "The parkside pools is in the centre area, phone number 01223446100. Can I help you any further?"
+    ],
+    [
+        "attraction_inform(area=\"centre area\";choice=\"5\";name=\"ballare\";name=\"club salsa\";name=\"fez club\";name=\"kambar\";name=\"soul tree nightclub\";type=\"nightclubs\")",
+        "There are 5 nightclubs in the centre area, there is ballare, club salsa, kambar, soul tree nightclub and the fez club. Would you like more information on one?",
+        "There are 5 nightclubs in the centre area, there is ballare, club salsa, kambar, soul tree nightclub and the fez club. Would you like more information on one?"
+    ],
+    [
+        "attraction_inform(area=\"centre area\";choice=\"5\";name=\"ballare\";name=\"club salsa\";name=\"fez club\";name=\"kambar\";name=\"soul tree nightclub\";type=\"nightclubs\")@attraction_select()",
+        "There are 5 nightclubs in the centre area, there is ballare, club salsa, kambar, soul tree nightclub and the fez club. Would you like more information on one?",
+        "There are 5 nightclubs in the centre area, there is ballare, club salsa, kambar, soul tree nightclub and the fez club. Would you like more information on one?"
+    ],
+    [
+        "attraction_inform(address=\"Heidelberg Gardens\";address=\"Lion Yard\";name=\"The Ballare\")",
+        "The Ballare is located in Heidelberg Gardens, Lion Yard. Is there anything else I can help you with today?",
+        "The Ballare is located in Heidelberg Gardens, Lion Yard. Is there anything else I can help you with today?"
+    ],
+    [
+        "attraction_inform(area=\"centre\")",
+        "Yes, would you like to find a nightclub in the centre or south part of town? Most of them are in the centre.",
+        "Yes, would you like to find a nightclub in the centre or south part of town? Most of them are in the centre."
+    ],
+    [
+        "attraction_inform(area=\"centre\")@attraction_select(area=\"centre\";area=\"south\")",
+        "Yes, would you like to find a nightclub in the centre or south part of town? Most of them are in the centre.",
+        "Yes, would you like to find a nightclub in the centre or south part of town? Most of them are in the centre."
+    ],
+    [
+        "attraction_inform(entrancefee=\"5 pounds\";name=\"Club Salsa\")",
+        "Yes, all of the listed entrance fees are 5 pounds. The Club Salsa is nice.",
+        "Yes, all of the listed entrance fees are 5 pounds. The Club Salsa is nice."
+    ],
+    [
+        "attraction_inform(address=\"1 Station road\";name=\"Club Salsa\";phone=\"07782218745\")",
+        "Club Salsa's address is 1 Station road and their phone number is 07782218745.",
+        "Club Salsa's address is 1 Station road and their phone number is 07782218745."
+    ],
+    [
+        "attraction_inform(address=\"98 King Street\";area=\"centre\";name=\"Broughton House Gallery\")",
+        "How about Broughton House Gallery? It's located in the centre, at 98 King Street.",
+        "How about Broughton House Gallery? It's located in the centre, at 98 King Street."
+    ],
+    [
+        "attraction_inform(name=\"Broughton House Gallery\";postcode=\"cb11ln\")",
+        "The postcode for Broughton House Gallery is cb11ln. Is there anything else you need?",
+        "The postcode for Broughton House Gallery is cb11ln. Is there anything else you need?"
+    ],
+    [
+        "attraction_recommend(type=\"architecture\")",
+        "I would suggest architecture as there are several churches in the area. Do you prefer something with free entry?",
+        "I would suggest architecture as there are several churches in the area. Do you prefer something with free entry?"
+    ],
+    [
+        "attraction_inform(address=\"market street\";entrancefee=\"free\";name=\"Holy Trinity Church\";postcode=\"cb23nz\")",
+        "Sure. Holy Trinity Church is free and is located on market street. The postcode is cb23nz. Can I get you any other information today?",
+        "Sure. Holy Trinity Church is free and is located on market street. The postcode is cb23nz. Can I get you any other information today?"
+    ],
+    [
+        "attraction_inform(area=\"south\";choice=\"2\")",
+        "We have 2 parks in the south. I recommend Wandlebury Country Park.",
+        "We have 2 parks in the south. I recommend Wandlebury Country Park."
+    ],
+    [
+        "attraction_inform(area=\"south\";choice=\"2\")@attraction_recommend(name=\"Wandlebury Country Park\")",
+        "We have 2 parks in the south. I recommend Wandlebury Country Park.",
+        "We have 2 parks in the south. I recommend Wandlebury Country Park."
+    ],
+    [
+        "attraction_inform(address=\"Babraham\";address=\"Gog Magog Hills\";address=\"Wandlebury Ring\";phone=\"01223243830\";postcode=\"cb223ae\")",
+        "I sure can. They are located at Wandlebury Ring, Gog Magog Hills, Babraham. Their postcode is cb223ae. The phone number is 01223243830. Can I help you with anything else?",
+        "I sure can. They are located at Wandlebury Ring, Gog Magog Hills, Babraham. Their postcode is cb223ae. The phone number is 01223243830. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"north\";type=\"swimming pools\")",
+        "There are two swimming pools to go to in the north. Would you rather go to Jesus Green Outdoor Pool or Kings Hedges Learner Pool?",
+        "There are two swimming pools to go to in the north. Would you rather go to Jesus Green Outdoor Pool or Kings Hedges Learner Pool?"
+    ],
+    [
+        "attraction_inform(area=\"north\";type=\"swimming pools\")@attraction_select(name=\"Jesus Green Outdoor Pool\";name=\"Kings Hedges Learner Pool\")",
+        "There are two swimming pools to go to in the north. Would you rather go to Jesus Green Outdoor Pool or Kings Hedges Learner Pool?",
+        "There are two swimming pools to go to in the north. Would you rather go to Jesus Green Outdoor Pool or Kings Hedges Learner Pool?"
+    ],
+    [
+        "attraction_inform(name=\"Jesus Green\";name=\"Kings Hedges\";phone=\"01223302579\";phone=\"01223353248\")",
+        "The phone number for Jesus Green is 01223302579, and the number for Kings Hedges is 01223353248. Is there anything else I can do to help?",
+        "The phone number for Jesus Green is 01223302579, and the number for Kings Hedges is 01223353248. Is there anything else I can do to help?"
+    ],
+    [
+        "attraction_recommend(area=\"west\";name=\"cambridge and county folk museum\")",
+        "The cambridge and county folk museum is in the west area. Would you care for more information on it?",
+        "The cambridge and county folk museum is in the west area. Would you care for more information on it?"
+    ],
+    [
+        "attraction_inform(address=\"2-3 Castle Street\";entrancefee=\"3.50 pounds\")",
+        "Sure. It's located at 2-3 Castle Street and the fee is 3.50 pounds. Anything else?",
+        "Sure. It's located at 2-3 Castle Street and the fee is 3.50 pounds. Anything else?"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";name=\"All Saints Church\";name=\"Great Saint Mary's Church\";name=\"Holy Trinity Church\";name=\"Little Saint Mary's Church\";name=\"Old Schools\";type=\"architecture\")",
+        "All architecture is in the centre of town. Your options are All Saints Church, Great Saint Mary's Church, Holy Trinity Church, Little Saint Mary's Church, and Old Schools.",
+        "All architecture is in the centre of town. Your options are All Saints Church, Great Saint Mary's Church, Holy Trinity Church, Little Saint Mary's Church, and Old Schools."
+    ],
+    [
+        "attraction_inform(name=\"All Saints Church's\";postcode=\"cb58bs\")",
+        "All Saints Church's postcode is cb58bs. Is there anything else I can help you with?",
+        "All Saints Church's postcode is cb58bs. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(address=\"cambridge leisure park\";address=\"clifton road\";address=\"unit g6\";name=\"Nusha\")",
+        "Nusha is entertainment in the south and their address is unit g6, cambridge leisure park, clifton road. Can I help you with anything else?",
+        "Nusha is entertainment in the south and their address is unit g6, cambridge leisure park, clifton road. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb17dy\")",
+        "Yes, the postcode is cb17dy. Can I help you with anything else today?",
+        "Yes, the postcode is cb17dy. Can I help you with anything else today?"
+    ],
+    [
+        "attraction_inform(address=\"cambridge leisure park\";address=\"clifton road\";address=\"unit g6\";area=\"south of town\";postcode=\"cb17dy\")",
+        "Sure, the area is just known as the south of town, but the address is unit g6, cambridge leisure park, clifton road and the postcode is cb17dy. Does that help?",
+        "Sure, the area is just known as the south of town, but the address is unit g6, cambridge leisure park, clifton road and the postcode is cb17dy. Does that help?"
+    ],
+    [
+        "attraction_inform(address=\"Market Square\";area=\"center of town\";entrancefee=\"2 pounds\";name=\"Great Saint Mary's Church\";postcode=\"cb23pq\")",
+        "Yes I can! Great Saint Mary's Church is located in the center of town at Market Square in postcode cb23pq. The entry fee is 2 pounds.",
+        "Yes I can! Great Saint Mary's Church is located in the center of town at Market Square in postcode cb23pq. The entry fee is 2 pounds."
+    ],
+    [
+        "attraction_inform(area=\"east side\";name=\"abbey pool and astroturf pitch\";type=\"swimming pool\")",
+        "Yes, abbey pool and astroturf pitch is a swimming pool on the east side of town. What other information would you like?",
+        "Yes, abbey pool and astroturf pitch is a swimming pool on the east side of town. What other information would you like?"
+    ],
+    [
+        "attraction_inform(phone=\"01223902088\")",
+        "I'm sorry, I don't have that information. You could call them at 01223902088 and ask though. Can I help you with anything else?",
+        "I'm sorry, I don't have that information. You could call them at 01223902088 and ask though. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"east\";area=\"the centre of town\";area=\"the north\";choice=\"one\";choice=\"one\";choice=\"two\")",
+        "I have some great choices for you. There are two places in the centre of town, one in the north and one in east. Do you have a specific location?",
+        "I have some great choices for you. There are two places in the centre of town, one in the north and one in east. Do you have a specific location?"
+    ],
+    [
+        "attraction_inform(address=\"Cambridge Passenger Cruisers\";address=\"Jubilee House\";area=\"North\";name=\"The Riverboat Georgina\")",
+        "The Riverboat Georgina is in the North of town. It's located at Cambridge Passenger Cruisers, Jubilee House. May I help you with anything else?",
+        "The Riverboat Georgina is in the North of town. It's located at Cambridge Passenger Cruisers, Jubilee House. May I help you with anything else?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"4 pounds\";name=\"The botanic gardens\";type=\"university\")",
+        "The botanic gardens is a lovely part of the university which is open to the public for a fee of 4 pounds.",
+        "The botanic gardens is a lovely part of the university which is open to the public for a fee of 4 pounds."
+    ],
+    [
+        "attraction_recommend(name=\"soul tree\";type=\"nightclub\")",
+        "I recommend soul tree nightclub.",
+        "I recommend soul tree nightclub."
+    ],
+    [
+        "attraction_inform(address=\"1-6 corn exchange street\";postcode=\"cb23qf\")",
+        "The address and postcode are: 1-6 corn exchange street, cb23qf. Will that be all for you today?",
+        "The address and postcode are: 1-6 corn exchange street, cb23qf. Will that be all for you today?"
+    ],
+    [
+        "attraction_inform(name=\"the exhibition\")",
+        "Yes. I see the exhibition. Would you like the address?",
+        "Yes. I see the exhibition. Would you like the address?"
+    ],
+    [
+        "attraction_inform(area=\"west\";postcode=\"cb3ojg\")",
+        "It is located in the west, at postcode cb3ojg. Anything else for you today?",
+        "It is located in the west, at postcode cb3ojg. Anything else for you today?"
+    ],
+    [
+        "attraction_inform(choice=\"79\")",
+        "I have found 79 place for you. Do you have any specific ideas in mind?",
+        "I have found 79 place for you. Do you have any specific ideas in mind?"
+    ],
+    [
+        "attraction_select(area=\"west\";type=\"colleges\";type=\"museums\")",
+        "There are mostly colleges and museums in the west. Would you be interested in one of those?",
+        "There are mostly colleges and museums in the west. Would you be interested in one of those?"
+    ],
+    [
+        "attraction_inform(address=\"trinity lane\";name=\"Clare college\";postcode=\"cb21tl\";type=\"college\")",
+        "Clare college is a college, it is located on trinity lane, post code cb21tl",
+        "Clare college is a college, it is located on trinity lane, post code cb21tl"
+    ],
+    [
+        "attraction_inform(address=\"regent street\";area=\"centre\")",
+        "t is located on regent street, in the centre.",
+        "t is located on regent street, in the centre."
+    ],
+    [
+        "attraction_inform(area=\"East\";area=\"South\";area=\"West\")",
+        "We have choices in the South, East, and West. Do you have a preference for any location?",
+        "We have choices in the South, East, and West. Do you have a preference for any location?"
+    ],
+    [
+        "attraction_inform(area=\"East\";area=\"South\";area=\"West\")@attraction_select()",
+        "We have choices in the South, East, and West. Do you have a preference for any location?",
+        "We have choices in the South, East, and West. Do you have a preference for any location?"
+    ],
+    [
+        "attraction_recommend(area=\"the south\";name=\"the nusha\";phone=\"01223902158\")",
+        "Try the nusha. It is in the south. Their phone number is 01223902158",
+        "Try the nusha. It is in the south. Their phone number is 01223902158"
+    ],
+    [
+        "attraction_inform(address=\"cambridge leisure park\";address=\"clifton road\";address=\"unit g6\";entrancefee=\"no entrance fee information available\";name=\"Nusha\";postcode=\"cb17dy\")",
+        "The address and postcode for Nusha are unit g6, cambridge leisure park, clifton road, cb17dy. There is no entrance fee information available.",
+        "The address and postcode for Nusha are unit g6, cambridge leisure park, clifton road, cb17dy. There is no entrance fee information available."
+    ],
+    [
+        "attraction_inform(name=\"Trinity College\")",
+        "Okay, I've pulled up Trinity College. What information do you need?",
+        "Okay, I've pulled up Trinity College. What information do you need?"
+    ],
+    [
+        "attraction_inform(address=\"trinity street\";name=\"Trinity college\";type=\"college\")",
+        "Ok. Trinity college is a college and the address is trinity street. Anything else?",
+        "Ok. Trinity college is a college and the address is trinity street. Anything else?"
+    ],
+    [
+        "attraction_recommend(area=\"west\";entrancefee=\"free\";name=\"Churchill College\")",
+        "I'm sorry, my system went down for a minute. I can recommend Churchill College in the west. And it's free!",
+        "I'm sorry, my system went down for a minute. I can recommend Churchill College in the west. And it's free!"
+    ],
+    [
+        "attraction_inform(address=\"Girton College\";address=\"Huntingdon Road\";postcode=\"cb2ojg\";type=\"museum\")",
+        "Thank you...the address for the museum is Girton College, Huntingdon Road, cb2ojg. Is there anything else I can help you with?",
+        "Thank you...the address for the museum is Girton College, Huntingdon Road, cb2ojg. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(area=\"west\")",
+        "It is located in the west. Will that be all today?",
+        "It is located in the west. Will that be all today?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"4 pounds\")",
+        "Cambridge university botanic gardens is a wonderful park located on bateman street. Entrance fee is 4 pounds. Is there anything else I can help you with?",
+        "Cambridge university botanic gardens is a wonderful park located on bateman street. Entrance fee is 4 pounds. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"4 pounds\")@attraction_recommend(address=\"bateman street\";name=\"Cambridge university botanic gardens\";type=\"park\")",
+        "Cambridge university botanic gardens is a wonderful park located on bateman street. Entrance fee is 4 pounds. Is there anything else I can help you with?",
+        "Cambridge university botanic gardens is a wonderful park located on bateman street. Entrance fee is 4 pounds. Is there anything else I can help you with?"
+    ],
+    [
+        "attraction_inform(address=\"Bateman Street\";phone=\"01223336265\")",
+        "The park is located at Bateman Street and the phone number is 01223336265. Can I help you with anything else?",
+        "The park is located at Bateman Street and the phone number is 01223336265. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"Cambridge\";choice=\"many\";type=\"architecture\";type=\"nightclubs\")",
+        "We have many great attractions in Cambridge, from architecture to nightclubs. Is there a particular kind of attraction you'd like to visit?",
+        "We have many great attractions in Cambridge, from architecture to nightclubs. Is there a particular kind of attraction you'd like to visit?"
+    ],
+    [
+        "attraction_recommend(area=\"centre\";name=\"castle galleries\";type=\"museum\")",
+        "I like castle galleries that's a museum in the centre. Would that interest you?",
+        "I like castle galleries that's a museum in the centre. Would that interest you?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\")",
+        "There is no entrance fee, it is free.",
+        "There is no entrance fee, it is free."
+    ],
+    [
+        "attraction_inform(choice=\"plenty\";type=\"museums\")",
+        "Sure! There are plenty of great museums to choose from. Is there a specific area of town you are looking for?",
+        "Sure! There are plenty of great museums to choose from. Is there a specific area of town you are looking for?"
+    ],
+    [
+        "attraction_inform(phone=\"01223464646\")",
+        "I recommend Byard Art. Their phone number is 01223464646.",
+        "I recommend Byard Art. Their phone number is 01223464646."
+    ],
+    [
+        "attraction_inform(phone=\"01223464646\")@attraction_recommend(name=\"Byard Art\")",
+        "I recommend Byard Art. Their phone number is 01223464646.",
+        "I recommend Byard Art. Their phone number is 01223464646."
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"44\")",
+        "There are 44 wonderful attractions in the centre area. Do you have a specific interest in mind or would you like me to make some suggestions?",
+        "There are 44 wonderful attractions in the centre area. Do you have a specific interest in mind or would you like me to make some suggestions?"
+    ],
+    [
+        "attraction_recommend(entrancefee=\"free\";name=\"All Saints Church\";type=\"architecture\")",
+        "I recommend the All Saints Church. It's an architecture attraction, and it's free to get in.",
+        "I recommend the All Saints Church. It's an architecture attraction, and it's free to get in."
+    ],
+    [
+        "attraction_inform(choice=\"23\";type=\"fine museums\")",
+        "We have 23 fine museums in town. Is there a certain area you would like?",
+        "We have 23 fine museums in town. Is there a certain area you would like?"
+    ],
+    [
+        "attraction_recommend(name=\"broughton house gallery\")",
+        "i recommend broughton house gallery",
+        "i recommend broughton house gallery"
+    ],
+    [
+        "attraction_inform(phone=\"01223314960\")",
+        "Their phone number is 01223314960. Is there anything else I can assist you with?",
+        "Their phone number is 01223314960. Is there anything else I can assist you with?"
+    ],
+    [
+        "attraction_inform(area=\"west side\";choice=\"5\";choice=\"Two\";choice=\"two\";entrancefee=\"2.50 pounds\";entrancefee=\"free\";type=\"colleges\")",
+        "There are 5 colleges on the west side. Two have free entrance and two cost 2.50 pounds. Is there anything else i can help you with?",
+        "There are 5 colleges on the west side. Two have free entrance and two cost 2.50 pounds. Is there anything else i can help you with?"
+    ],
+    [
+        "attraction_inform(name=\"Churchill college\";phone=\"01223336233\")",
+        "Churchill college's phone number is 01223336233.",
+        "Churchill college's phone number is 01223336233."
+    ],
+    [
+        "attraction_inform(area=\"south\";choice=\"a lot of\")",
+        "There are a lot of things to do in the south. Do you know what kind of attraction you were looking for?",
+        "There are a lot of things to do in the south. Do you know what kind of attraction you were looking for?"
+    ],
+    [
+        "attraction_inform(address=\"14 king's parade\";phone=\"01223464646\")",
+        "Well if you're looking for a museum I recommend the byard art. The phone is 01223464646 and the address is 14 king's parade.",
+        "Well if you're looking for a museum I recommend the byard art. The phone is 01223464646 and the address is 14 king's parade."
+    ],
+    [
+        "attraction_inform(address=\"14 king's parade\";phone=\"01223464646\")@attraction_recommend(name=\"byard art\";type=\"museum\")",
+        "Well if you're looking for a museum I recommend the byard art. The phone is 01223464646 and the address is 14 king's parade.",
+        "Well if you're looking for a museum I recommend the byard art. The phone is 01223464646 and the address is 14 king's parade."
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\")",
+        "The entrance fee is free. Anything else today?",
+        "The entrance fee is free. Anything else today?"
+    ],
+    [
+        "attraction_recommend(area=\"south\";choice=\"only\";entrancefee=\"free\";name=\"byard art\";type=\"museum\")",
+        "The byard art is the only museum in the south and the entrance fee is free.",
+        "The byard art is the only museum in the south and the entrance fee is free."
+    ],
+    [
+        "attraction_inform(phone=\"01223464646\")",
+        "01223464646 phone number",
+        "01223464646 phone number"
+    ],
+    [
+        "attraction_inform(postcode=\"cb21sj\")",
+        "The postcode is cb21sj. Is there anything else that I can help you with today?",
+        "The postcode is cb21sj. Is there anything else that I can help you with today?"
+    ],
+    [
+        "attraction_inform(phone=\"01223336540\";postcode=\"cb21er\";type=\"museum\")",
+        "It is a museum, the phone number is 01223336540 and the postcode is cb21er",
+        "It is a museum, the phone number is 01223336540 and the postcode is cb21er"
+    ],
+    [
+        "attraction_inform(address=\"kings parade\";area=\"centre of town\";name=\"Kings college\";phone=\"01223331100\")",
+        "Kings college is located in the centre of town at kings parade. Phone number 01223331100. Is there any other information you need?",
+        "Kings college is located in the centre of town at kings parade. Phone number 01223331100. Is there any other information you need?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb21st\")",
+        "The post code is cb21st",
+        "The post code is cb21st"
+    ],
+    [
+        "attraction_inform(address=\"Trumpington stree\";area=\"centre area of town\";name=\"Fitzwilliam Museum\";phone=\"01223332900\")",
+        "Of course, the Fitzwilliam Museum is located in the centre area of town, at Trumpington street, and can be reached at the phone number: 01223332900. Do you need anything else?",
+        "Of course, the Fitzwilliam Museum is located in the centre area of town, at Trumpington street, and can be reached at the phone number: 01223332900. Do you need anything else?"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";area=\"south side\";choice=\"One\";choice=\"The other\";choice=\"two\";type=\"cinemas\")",
+        "There are two cinemas. One is in the centre of town. The other is on the south side. Is there anything else i can help you with today?",
+        "There are two cinemas. One is in the centre of town. The other is on the south side. Is there anything else i can help you with today?"
+    ],
+    [
+        "attraction_inform(address=\"98 king street\";entrancefee=\"free\")",
+        "The Broughton House Gallery is a great museum in the centre. It's free to get in, and it's located at 98 king street. Can I help with anything else?",
+        "The Broughton House Gallery is a great museum in the centre. It's free to get in, and it's located at 98 king street. Can I help with anything else?"
+    ],
+    [
+        "attraction_inform(address=\"98 king street\";entrancefee=\"free\")@attraction_recommend(area=\"centre\";name=\"The Broughton House Gallery\";type=\"museum\")",
+        "The Broughton House Gallery is a great museum in the centre. It's free to get in, and it's located at 98 king street. Can I help with anything else?",
+        "The Broughton House Gallery is a great museum in the centre. It's free to get in, and it's located at 98 king street. Can I help with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"13\";type=\"colleges\")",
+        "There are 13 colleges in centre. Are you look for free entrance or paid?",
+        "There are 13 colleges in centre. Are you look for free entrance or paid?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"13\";type=\"colleges\")@attraction_select(entrancefee=\"free entrance\";entrancefee=\"paid\")",
+        "There are 13 colleges in centre. Are you look for free entrance or paid?",
+        "There are 13 colleges in centre. Are you look for free entrance or paid?"
+    ],
+    [
+        "attraction_recommend(area=\"centre\";entrancefee=\"free\";name=\"Emmanuel College\")",
+        "Emmanuel College is free and located in the centre.",
+        "Emmanuel College is free and located in the centre."
+    ],
+    [
+        "attraction_select(type=\"museum\";type=\"nightclub\")",
+        "Would you prefer a museum or a nightclub?",
+        "Would you prefer a museum or a nightclub?"
+    ],
+    [
+        "attraction_recommend(name=\"byard art\";type=\"museum\")",
+        "There's one museum called byard art that fits your needs.",
+        "There's one museum called byard art that fits your needs."
+    ],
+    [
+        "attraction_inform(phone=\"01223464646\")",
+        "The phone number is 01223464646. What else can I assist with?",
+        "The phone number is 01223464646. What else can I assist with?"
+    ],
+    [
+        "attraction_inform(choice=\"many\")",
+        "There are many places, do you have a particular destination type in mind?",
+        "There are many places, do you have a particular destination type in mind?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";area=\"south\";choice=\"four\";choice=\"one\";type=\"theatre's\")",
+        "I have four theatre's in the centre and one in the south. Do yo know which area you would like?",
+        "I have four theatre's in the centre and one in the south. Do yo know which area you would like?"
+    ],
+    [
+        "attraction_recommend(address=\"anglia ruskin enterprise\";address=\"east road\";area=\"centre\";name=\"mumford theatre\";postcode=\"cb11pt\")",
+        "I personally love the mumford theatre. Its in the centre at anglia ruskin enterprise, east road and the postcode is cb11pt. Will that be all today?",
+        "I personally love the mumford theatre. Its in the centre at anglia ruskin enterprise, east road and the postcode is cb11pt. Will that be all today?"
+    ],
+    [
+        "attraction_inform(area=\"north side\";choice=\"two\";type=\"swimming pools\")",
+        "There are two swimming pools in the north side. Would you like more information on either one or is there anything else I can assist you with today?",
+        "There are two swimming pools in the north side. Would you like more information on either one or is there anything else I can assist you with today?"
+    ],
+    [
+        "attraction_inform(address=\"between victoria road and the river\";entrancefee=\"no entrance fee information availble\";name=\"jesus green outdoor pool\")",
+        "jesus green outdoor pool is located between victoria road and the river. There is no entrance fee information availble.",
+        "jesus green outdoor pool is located between victoria road and the river. There is no entrance fee information availble."
+    ],
+    [
+        "attraction_inform(area=\"center of town\";name=\"Vue Cinema\")",
+        "Vue Cinema is in the center of town.",
+        "Vue Cinema is in the center of town."
+    ],
+    [
+        "attraction_inform(phone=\"08712240240\")",
+        "The number is 08712240240. Is there anything else can I do?",
+        "The number is 08712240240. Is there anything else can I do?"
+    ],
+    [
+        "attraction_recommend(entrancefee=\"free\";name=\"all saints church\";type=\"architecture\")",
+        "Are you interested in architecture? It is free to visit all saints church.",
+        "Are you interested in architecture? It is free to visit all saints church."
+    ],
+    [
+        "attraction_inform(phone=\"01223452587\")",
+        "The phone number is 01223452587. Do you need any other information about it?",
+        "The phone number is 01223452587. Do you need any other information about it?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\")",
+        "Their entrance fee is free.",
+        "Their entrance fee is free."
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\")",
+        "May I suggest Primavera located at 10 king s parade. The phone number is 01223357708. Admission is free.",
+        "May I suggest Primavera located at 10 king s parade. The phone number is 01223357708. Admission is free."
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\")@attraction_recommend(address=\"10 king s parade\";name=\"Primavera\";phone=\"01223357708\")",
+        "May I suggest Primavera located at 10 king s parade. The phone number is 01223357708. Admission is free.",
+        "May I suggest Primavera located at 10 king s parade. The phone number is 01223357708. Admission is free."
+    ],
+    [
+        "attraction_inform(postcode=\"cb21sj\")",
+        "The post code is cb21sj. Is there anything else you would like to know?",
+        "The post code is cb21sj. Is there anything else you would like to know?"
+    ],
+    [
+        "attraction_inform(choice=\"lots of\")",
+        "Is there a certain area you're interested in? We have lots of museums in town.",
+        "Is there a certain area you're interested in? We have lots of museums in town."
+    ],
+    [
+        "attraction_recommend(address=\"98 King Street\";area=\"centre of town\";entrancefee=\"free\";name=\"broughton house gallery\";phone=\"01223314960\";postcode=\"cb11In\")",
+        "I would suggest the broughton house gallery in the centre of town. Their address is 98 King Street, the post code cb11In, and the phone is 01223314960. It is free.",
+        "I would suggest the broughton house gallery in the centre of town. Their address is 98 King Street, the post code cb11In, and the phone is 01223314960. It is free."
+    ],
+    [
+        "attraction_inform(choice=\"many\";type=\"museums\")",
+        "There are many museums in town. Do you have a preference in area?",
+        "There are many museums in town. Do you have a preference in area?"
+    ],
+    [
+        "attraction_recommend(entrancefee=\"free\";name=\"Cambridge Contemporary Art\")",
+        "Do you like modern art? Cambridge Contemporary Art is great, and admission is free.",
+        "Do you like modern art? Cambridge Contemporary Art is great, and admission is free."
+    ],
+    [
+        "attraction_inform(postcode=\"cb21su\")",
+        "Their postcode is cb21su. Is there anything else you need help with today?",
+        "Their postcode is cb21su. Is there anything else you need help with today?"
+    ],
+    [
+        "attraction_inform(area=\"northern area of town\";name=\"Milton Country Park\";type=\"park\")",
+        "Yes of course. Milton Country Park is a park in the northern area of town. What would you like to know?",
+        "Yes of course. Milton Country Park is a park in the northern area of town. What would you like to know?"
+    ],
+    [
+        "attraction_inform(postcode=\"cb46az\")",
+        "Their post code is cb46az.",
+        "Their post code is cb46az."
+    ],
+    [
+        "attraction_select(name=\"cherry hinton hall and grounds\")",
+        "How about the cherry hinton hall and grounds?",
+        "How about the cherry hinton hall and grounds?"
+    ],
+    [
+        "attraction_inform(address=\"cherry hinton road\")",
+        "Their address is cherry hinton road. Is there anything else I can assist you with?",
+        "Their address is cherry hinton road. Is there anything else I can assist you with?"
+    ],
+    [
+        "attraction_inform(phone=\"01223446104\";postcode=\"cb18dw\")",
+        "Okay, sure. The postcode is cb18dw and the phone number is 01223446104. Anything else?",
+        "Okay, sure. The postcode is cb18dw and the phone number is 01223446104. Anything else?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"a lot of\")",
+        "There are a lot of attractions in the centre. Anything in particular?",
+        "There are a lot of attractions in the centre. Anything in particular?"
+    ],
+    [
+        "attraction_recommend(name=\"club salsa\";phone=\"07782218745\")",
+        "I recommend the club salsa? Here is their phone number, 07782218745",
+        "I recommend the club salsa? Here is their phone number, 07782218745"
+    ],
+    [
+        "attraction_inform(address=\"1 Station road\";entrancefee=\"5 pounds\")",
+        "The address is 1 Station road and the entrance fee is 5 pounds. Is there anything else I can do for you?",
+        "The address is 1 Station road and the entrance fee is 5 pounds. Is there anything else I can do for you?"
+    ],
+    [
+        "attraction_recommend(address=\"jedburgh court\";address=\"kings hedges\";area=\"north\";name=\"kings hedges learner pool\")",
+        "kings hedges learner pool is located in the north, at jedburgh court, kings hedges.",
+        "kings hedges learner pool is located in the north, at jedburgh court, kings hedges."
+    ],
+    [
+        "attraction_inform(entrancefee=\"I don't have access to their entrance fee\";postcode=\"cb42xh\")",
+        "The postcode is cb42xh and I don't have access to their entrance fee. Is there anything else I can assist you with?",
+        "The postcode is cb42xh and I don't have access to their entrance fee. Is there anything else I can assist you with?"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";choice=\"loads\")",
+        "There are loads of attractions in the centre of town. Do you have a specific type in mind?",
+        "There are loads of attractions in the centre of town. Do you have a specific type in mind?"
+    ],
+    [
+        "attraction_recommend(name=\"all saints church\";postcode=\"cb58bs\")",
+        "May I suggest all saints church? the post code is cb58bs.",
+        "May I suggest all saints church? the post code is cb58bs."
+    ],
+    [
+        "attraction_inform(name=\"all saints church\";phone=\"01223452587\")",
+        "The phone number for all saints church is 01223452587.",
+        "The phone number for all saints church is 01223452587."
+    ],
+    [
+        "attraction_inform(choice=\"79\")",
+        "I've found 79 places for you to go. Do you have any specific ideas in mind?",
+        "I've found 79 places for you to go. Do you have any specific ideas in mind?"
+    ],
+    [
+        "attraction_recommend(name=\"vue cinema\")",
+        "we have vue cinema",
+        "we have vue cinema"
+    ],
+    [
+        "attraction_inform(entrancefee=\"I do not have entrance fee information\";name=\"Vue\";phone=\"08712240240\";postcode=\"CB11PS\")",
+        "Vue can be reached at 08712240240, the postcode is CB11PS. I do not have entrance fee information, I'm sorry.",
+        "Vue can be reached at 08712240240, the postcode is CB11PS. I do not have entrance fee information, I'm sorry."
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"both\";entrancefee=\"free\";name=\"cambridge contemporary art museum\";name=\"scott polar museum\")",
+        "The cambridge contemporary art museum, and the scott polar museum are both free and in the centre.",
+        "The cambridge contemporary art museum, and the scott polar museum are both free and in the centre."
+    ],
+    [
+        "attraction_inform(address=\"lensfield road\")",
+        "Sure! The address is lensfield road. Will that be all?",
+        "Sure! The address is lensfield road. Will that be all?"
+    ],
+    [
+        "attraction_inform(address=\"Trumpington Street\";area=\"Centre\";name=\"Fitzwilliam museum\")",
+        "The Fitzwilliam museum is in the Centre, and is located on Trumpington Street.",
+        "The Fitzwilliam museum is in the Centre, and is located on Trumpington Street."
+    ],
+    [
+        "attraction_inform(address=\"Trumpington Street\";area=\"centre\";type=\"museum\")",
+        "Sure, it is a museum in the centre, located on Trumpington Street. Can I help you with anything else?",
+        "Sure, it is a museum in the centre, located on Trumpington Street. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"all around the city\";choice=\"plenty of\")",
+        "We've got plenty of attractions all around the city, is there a particular area you were looking at?",
+        "We've got plenty of attractions all around the city, is there a particular area you were looking at?"
+    ],
+    [
+        "attraction_recommend(area=\"south\";name=\"nusha\")",
+        "I recommend nusha in the south.",
+        "I recommend nusha in the south."
+    ],
+    [
+        "attraction_inform(phone=\"01223902158\")",
+        "Sure, their phone number is 01223902158. Is there anything else I can help you with today?",
+        "Sure, their phone number is 01223902158. Is there anything else I can help you with today?"
+    ],
+    [
+        "attraction_inform(choice=\"many\";type=\"museums\")",
+        "There are many great museums to choose from. Is there a specific area of town you are looking to visit?",
+        "There are many great museums to choose from. Is there a specific area of town you are looking to visit?"
+    ],
+    [
+        "attraction_recommend(area=\"south\";name=\"The Byard Art museum\")",
+        "The Byard Art museum located in the south area of town is very nice. Would you like information about it?",
+        "The Byard Art museum located in the south area of town is very nice. Would you like information about it?"
+    ],
+    [
+        "attraction_inform(phone=\"01223464646\")",
+        "Sure! The phone number is 01223464646.",
+        "Sure! The phone number is 01223464646."
+    ],
+    [
+        "attraction_inform(choice=\"44\")",
+        "There are 44. What type are you intersted in?",
+        "There are 44. What type are you intersted in?"
+    ],
+    [
+        "attraction_select(choice=\"others\";entrancefee=\"2 pound\";entrancefee=\"free\";name=\"saint mary's church\";type=\"architecture\")",
+        "Would you be interested in an architecture attraction such as great saint mary's church? They have a 2 pound entrance fee or there are others available for free.",
+        "Would you be interested in an architecture attraction such as great saint mary's church? They have a 2 pound entrance fee or there are others available for free."
+    ],
+    [
+        "attraction_inform(phone=\"01223350914\")",
+        "01223350914 is the phone number",
+        "01223350914 is the phone number"
+    ],
+    [
+        "attraction_inform(area=\"town centre\";choice=\"several\";type=\"theaters\")",
+        "There are several theaters in the town centre. What address are you staying at so I can find the closest one to you?",
+        "There are several theaters in the town centre. What address are you staying at so I can find the closest one to you?"
+    ],
+    [
+        "attraction_recommend(name=\"Mumford Theatre\")",
+        "I think the Mumford Theatre is great! Would you like more information?",
+        "I think the Mumford Theatre is great! Would you like more information?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"They don't have the entrance fee posted\";phone=\"08451962320\")",
+        "They don't have the entrance fee posted but their phone number is 08451962320. Is there anything else I can assist you with?",
+        "They don't have the entrance fee posted but their phone number is 08451962320. Is there anything else I can assist you with?"
+    ],
+    [
+        "attraction_inform(address=\"gonville place\";area=\"centre of town\";name=\"Parkside pools\";phone=\"01223446100\")",
+        "Parkside pools is located in the centre of town gonville place. Phone number is 01223446100. Is there anything else i can help you with?",
+        "Parkside pools is located in the centre of town gonville place. Phone number is 01223446100. Is there anything else i can help you with?"
+    ],
+    [
+        "attraction_inform(address=\"cb11ly\";postcode=\"gonville place\")",
+        "The address of parkside pools is cb11ly and the zip code is gonville place. Can I help you with anything else?",
+        "The address of parkside pools is cb11ly and the zip code is gonville place. Can I help you with anything else?"
+    ],
+    [
+        "attraction_inform(area=\"the west side of town\";choice=\"a few\";type=\"museums\")",
+        "There are a few museums in the west side of town. I highly recommend checking out the Cafe Jello Gallery if you've got the time.",
+        "There are a few museums in the west side of town. I highly recommend checking out the Cafe Jello Gallery if you've got the time."
+    ],
+    [
+        "attraction_inform(area=\"the west side of town\";choice=\"a few\";type=\"museums\")@attraction_recommend(name=\"the Cafe Jello Gallery\")",
+        "There are a few museums in the west side of town. I highly recommend checking out the Cafe Jello Gallery if you've got the time.",
+        "There are a few museums in the west side of town. I highly recommend checking out the Cafe Jello Gallery if you've got the time."
+    ],
+    [
+        "attraction_inform(address=\"13 magdalene street\";address=\"cafe jello gallery\";name=\"Cafe Jello Gallery\";postcode=\"cb30af\")",
+        "Cafe Jello Gallery is located at cafe jello gallery, 13 magdalene street. Their postcode is cb30af. Is there anything else I can assist you with today?",
+        "Cafe Jello Gallery is located at cafe jello gallery, 13 magdalene street. Their postcode is cb30af. Is there anything else I can assist you with today?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"13\";type=\"colleges\")",
+        "There are a whopping 13 colleges in the centre of the city. Would you like me to suggest one for you?",
+        "There are a whopping 13 colleges in the centre of the city. Would you like me to suggest one for you?"
+    ],
+    [
+        "attraction_inform(choice=\"many\")",
+        "there are many options . can i recommend one for you",
+        "there are many options . can i recommend one for you"
+    ],
+    [
+        "attraction_recommend(name=\"christ's college\")",
+        "christ's college is nice.",
+        "christ's college is nice."
+    ],
+    [
+        "attraction_inform(phone=\"01223334900\")",
+        "Of course, their phone number is 01223334900. Is there anything else that I can help you with today?",
+        "Of course, their phone number is 01223334900. Is there anything else that I can help you with today?"
+    ],
+    [
+        "attraction_inform(choice=\"18\";type=\"colleges\")",
+        "There are 18 colleges in the city. Are you looking for one in particular?",
+        "There are 18 colleges in the city. Are you looking for one in particular?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"5\")",
+        "There are 5 located in the centre. Would you prefer one that is free?",
+        "There are 5 located in the centre. Would you prefer one that is free?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"5\")@attraction_select(entrancefee=\"free\")",
+        "There are 5 located in the centre. Would you prefer one that is free?",
+        "There are 5 located in the centre. Would you prefer one that is free?"
+    ],
+    [
+        "attraction_recommend(address=\"regent street\";name=\"Downing College\")",
+        "I love Downing College over on regent street.",
+        "I love Downing College over on regent street."
+    ],
+    [
+        "attraction_inform(phone=\"01223334860\";postcode=\"cb21dq\")",
+        "The postcode is cb21dq and they can be reached at 01223334860. Is there anything else I can assist you with?",
+        "The postcode is cb21dq and they can be reached at 01223334860. Is there anything else I can assist you with?"
+    ],
+    [
+        "attraction_inform(address=\"regent street\";name=\"downing college\";postcode=\"cb21dq\")",
+        "Sure, the complete address for downing college is regent street post code cb21dq. May I assist with anything else?",
+        "Sure, the complete address for downing college is regent street post code cb21dq. May I assist with anything else?"
+    ],
+    [
+        "attraction_inform(address=\"14 king's parade\";area=\"south\";postcode=\"cb21sj\")",
+        "I suggest Byard art. The address, postcode, and area are 14 king's parade, cb21sj, and it is located in the south.",
+        "I suggest Byard art. The address, postcode, and area are 14 king's parade, cb21sj, and it is located in the south."
+    ],
+    [
+        "attraction_inform(address=\"14 king's parade\";area=\"south\";postcode=\"cb21sj\")@attraction_recommend(name=\"Byard art\")",
+        "I suggest Byard art. The address, postcode, and area are 14 king's parade, cb21sj, and it is located in the south.",
+        "I suggest Byard art. The address, postcode, and area are 14 king's parade, cb21sj, and it is located in the south."
+    ]
+]

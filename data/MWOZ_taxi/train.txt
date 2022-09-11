@@ -1,0 +1,393 @@
+taxi_inform ( phone = "07543493643" ; type = "yellow Lexus") & Alright! I have a yellow Lexus booked to pick you up. The Contact number is 07543493643. Anything else I can help with?
+taxi_inform ( phone = "07558038365" ; type = "black Volkswagen") & I was able to book a black Volkswagen for you. The contact number is 07558038365. Can I help you with anything else?
+taxi_inform ( phone = "07914917823" ; type = "grey BMW") & Booking completed. Please look out for a grey BMW! Contact number is 07914917823. Is there anything else I can help with?
+taxi_inform ( phone = "07924138056" ; type = "red honda") & Your booking was successful. Your car is a red honda and its contact number is 07924138056. Can I assist you with anything else today?
+taxi_inform ( phone = "07924138056" ; type = "Red Honda") & Yes, I can repeat it. A Red Honda car and the contact info is 07924138056. Can I help you with anything else?
+taxi_inform ( phone = "07557776784" ; type = "white skoda") & Of course, your taxi is reserved, the vehicle will be a white skoda and the contact phone number is 07557776784
+taxi_inform ( phone = "07027500870" ; type = "white Honda") & I have you booked with a white Honda. Your contact number is 07027500870. Can I help you with anything else?
+taxi_inform ( arriveby = "10:45" ; destination = "Lan Hong House" ; phone = "07980240916" ; type = "yello Volvo") & Okay, I'm now sending you a yello Volvo which will arrive at Lan Hong House at 10:45. Contact number is 07980240916
+taxi_inform ( departure = "Chiquito" ; destination = "Queens' College" ; leaveat = "22:30" ; phone = "07937348458" ; type = "white Audi") & Great - I have a white Audi picking you up at Chiquito at 22:30 and heading to Queens' College. The contact number is 07937348458. Can I help with anything else?
+taxi_inform ( phone = "07520577289" ; type = "grey toyota") & Certainly. I'm sending a grey toyota. The contact number is 07520577289. Can I help you with anything else?
+taxi_inform ( phone = "07916703661") & Unfortunately, it does not give me a specific arrival time. But if you like, you can call them to get that information. Their phone number is 07916703661.
+taxi_inform ( type = "white tesla") & Your car type is a white tesla.
+taxi_inform ( phone = "07767407244" ; type = "white Honda") & Great, I have booked you a white Honda the Contact number is 07767407244. Anything else I can help you with.
+taxi_inform ( phone = "07306489066" ; type = "grey honda") & got it! your car type is a grey honda and the contact number is 07306489066
+taxi_inform ( phone = "07314230139" ; type = "yellow Skoda") & Ok, I have you booked to leave at 22:45. The car is a yellow Skoda and their contact number is 07314230139. Anything else I can do for you?
+taxi_inform ( leaveat = "1:45" ; phone = "07144891471" ; type = "Blue Volvo") & You are all set. You will be picked up in a Blue Volvo at 1:45. The contact number is 07144891471. Do you need help with anything else?
+taxi_inform ( phone = "07985302391" ; type = "grey volvo") & it is a grey volvo and the contact number is 07985302391
+taxi_inform ( phone = "07532982082" ; type = "Red Tesla") & Ok expect a Red Tesla at 10:50. Their number is 07532982082.
+taxi_inform ( phone = "white audi" ; type = "07071131148") & Great, I booked you a white audi the contact number is 07071131148. Anything else I can help you with.
+taxi_inform ( arriveby = "16:15" ; departure = "Rajmahal" ; destination = "Worth House") & That's correct. The taxi will depart Rajmahal and take you to Worth House by 16:15.
+taxi_inform ( phone = "07820748832" ; type = "black bmw") & Taxi has been booked and it is a black bmw and the contact number is 07820748832. Can I help you with anything else?
+taxi_inform ( phone = "07869081756" ; type = "blue audi") & That booking has been completed. Your reservation number is 07869081756 and you will be picked up by a blue audi. Can I help with anything else?
+taxi_inform ( arriveby = "by 3" ; leaveat = "a little before 3") & I can't tell the exact arrival time, but expect it a little before 3. It will get you to the theatre by 3.
+taxi_inform ( phone = "07027624842" ; type = "white volkswagen") & I have completed your booking! The car type is a white volkswagen and the contact number is 07027624842.
+taxi_inform ( phone = "07820586917" ; type = "red volkswagen") & I have booked you a red volkswagen. The contact number is: 07820586917. Can I help you with anything else today?
+taxi_inform ( phone = "07635928440" ; type = "black ford") & You will be picked up by a black ford and the contact number is 07635928440. Anything else?
+taxi_inform ( arriveby = "7:15" ; departure = "the bridge Guest House" ; destination = "Sidney Sussex College" ; phone = "07918620184") & I have booked you a car to leave from the bridge Guest House and arrive in Cambridge at Sidney Sussex College by 7:15. Your confirmation number is 07918620184. Is there anything else you need?
+taxi_inform ( phone = "07918620184" ; type = "red Audi") & You'll be looking for a red Audi and the contact number is 07918620184. .
+taxi_inform ( phone = "07906334474" ; type = "blue tesla") & its booked! it is a blue tesla and the contact number is 07906334474
+taxi_inform ( phone = "07004136407" ; type = "yellow toyota") & Great! Look for a yellow toyota to pick you up. The contact number is 07004136407. Anything else I can help you with?
+taxi_inform ( phone = "07996702109" ; type = "yellow Tesla") & It's your lucky day! The car reserved for you is a yellow Tesla. The contact number is 07996702109. Is there anything else I can do for you?
+taxi_inform ( phone = "07862333057") & Absolutely. The contact number is 07862333057
+taxi_inform ( phone = "07862333057" ; type = "Blue Honda") & Okay, the taxi is booked. The contact number is 07862333057, the car will be a Blue Honda. Is there anything else I can help with?
+taxi_inform ( leaveat = "23:15" ; phone = "07304029260" ; type = "blue BMW") & A blue BMW will pick you up by 23:15. The contact number is 07304029260.
+taxi_inform ( phone = "07441094025" ; type = "White Tesla") & The car coming is a White Tesla with contact number is: 07441094025
+taxi_inform ( phone = "07057340221" ; type = "black Volkswagen") & I have your taxi scheduled. The car type is a black Volkswagen, contact number 07057340221. How else can I help you?
+taxi_inform ( phone = "07591624763" ; type = "white ford") & I have booked it. You will look for a white ford, the contact number is 07591624763
+taxi_inform ( phone = "07158145955" ; type = "white skoda") & I booked that for you. The car is a white skoda and the contact number is 07158145955.
+taxi_inform ( phone = "07631927676" ; type = "white honda") & Okay a white honda will be picking you up and the contact number is 07631927676. What else can I help you with?
+taxi_inform ( departure = "loch fyne" ; leaveat = "11:00" ; phone = "07307653173" ; type = "yellow lexus") & I have confirmed a taxi for you, picking you up at 11:00 at loch fyne. A yellow lexus will pick you up. Their contact number is 07307653173.
+taxi_inform ( leaveat = "12:45" ; phone = "07655027973" ; type = "Grey Skoda") & Ok, you're taxi is booked. A Grey Skoda will be picking you up at 12:45. The contact number is 07655027973. Can I help you with anything else today?
+taxi_inform ( phone = "07048042435" ; type = "yellow ford") & ok its a yellow ford and the contact number is 07048042435
+taxi_inform ( phone = "07881400116" ; type = "yellow audi") & Okay, look for a yellow audi to pick you up. The contact number is 07881400116. May I assist you with anything else?
+taxi_inform ( type = "yellow BMW") & Okay. I have a yellow BMW available. Would you like to book that?
+taxi_inform ( phone = "07635951153") & Sure. It is 07635951153. Can I help you with a hotel room perhaps?
+taxi_inform ( phone = "07125735231" ; type = "grey volkswagen") & Booking completed! Booked car type is grey volkswagen and their contact number is 07125735231
+taxi_inform ( phone = "07344292445" ; type = "blue Honda") & The car is a blue Honda and the contact number is 07344292445. Anything else I can help with?
+taxi_inform ( phone = "07358048101" ; type = "yellow bmw") & Thanks, I have booked you taxi, Booked car type, yellow bmw, and Contact number 07358048101. may I help you with anything else?
+taxi_inform ( phone = "07346991147" ; type = "yellow volvo") & Of course! Look for a yellow volvo. The contact number is 07346991147. Would you like anything else?
+taxi_inform ( leaveat = "21:00" ; phone = "07323820078" ; type = "red lexus") & A red lexus will pick you up by 21:00. Your contact number is 07323820078.
+taxi_inform ( arriveby = "21:00" ; destination = "Avalon" ; phone = "07060980339" ; type = "blue lexus") & Oh, I am very sorry for my error. You will arrive at Avalon by 21:00. I reserved a blue lexus with new contact # 07060980339.
+taxi_inform ( phone = "07935014262" ; type = "white skoda") & Alright, I've got a white skoda coming to pick you up at the Grafton Hotel Restaurant at 22:45, your contact number for them is 07935014262.
+taxi_inform ( phone = "07725254029" ; type = "rey Toyota") & Your taxi is a Grey Toyota. The Contact number is 07725254029.
+taxi_inform ( phone = "07604345180" ; type = "black Toyota") & Sure! It is a black Toyota and the contact number is 07604345180
+taxi_inform ( phone = "07417152476" ; type = "blue lexus") & I have booked a taxi for you. It is a blue lexus and the contact number is 07417152476. Is there anything else I can help you with?
+taxi_inform ( departure = "Saffron Brasserie" ; leaveat = "1:30" ; phone = "07399627486" ; type = "white Lexus") & Sure. A white Lexus will pick you up at 1:30 at Saffron Brasserie. The contact number is 07399627486. Is there anything else I can help with?
+taxi_inform ( arriveby = "13:15" ; departure = "ely train station" ; destination = "chiquito restaurant bar" ; phone = "07582230600" ; type = "red toyota") & I have booked your taxi from ely train station to chiquito restaurant bar to arrive by 13:15. Booked car type red toyota, contact number 07582230600. May I help with anything else?
+taxi_inform ( phone = "07708238835" ; type = "black Ford") & I can book a Black Ford for you. The contact number of the company is 07708238835. Can I help with anything else?
+taxi_inform ( phone = "07562472408" ; type = "grey ford") & Yes, look out for a grey ford. The contact number is 07562472408. May I help with anything else?
+taxi_inform ( phone = "07562472408" ; type = "grey Ford") & Yes, it will be a grey Ford and the contact number is 07562472408. What else can I help you with?
+taxi_inform ( type = "black Lexus") & You are set up to be picked up by a black Lexus. Do you want the contact number?
+taxi_inform ( phone = "07620354027") & Of course. Contact number is 07620354027. Do you need anything else?
+taxi_inform ( phone = "07799036655" ; type = "yellow honda") & I have booked a taxi for you! The car is a yellow honda. The contact number is 07799036655. Is there anything else you need today?
+taxi_inform ( leaveat = "3:20" ; phone = "07581540721" ; type = "blue lexus") & No problem, a blue lexus will pick you up at 3:20. The contact number is 07581540721. Will there be anything else?
+taxi_inform ( phone = "07733585413" ; type = "blue toyota") & Your taxi ride has been booked. You'll be picked up by a blue toyota and the contact number is 07733585413.
+taxi_inform ( phone = "07091293811" ; type = "red honda") & I booked that taxi for you. The car is a red honda and the contact number is 07091293811.
+taxi_inform ( phone = "07753554646" ; type = "bluw BMW") & Ok, I've booked a bluw BMW to pick you up, the contact number for the taxi is 07753554646.
+taxi_inform ( phone = "079724240082" ; type = "grey ford") & I have you booked in a grey ford with a contact number of 079724240082. Can I do anything else for you?
+taxi_inform ( phone = "07338867597" ; type = "White Toyota") & I've made the change for you. The new car is a White Toyota, and the contact number is 07338867597. Can I help you with anything else?
+taxi_inform ( phone = "07308517542" ; type = "yellow Tesla") & Perfect, expect a yellow Tesla to pick you up. The contact number is 07308517542. Anything else?
+taxi_inform ( leaveat = "02:45" ; phone = "07082444281" ; type = "yellow honda") & A yellow honda will pick you up at 02:45. The contact number is 07082444281.
+taxi_inform ( phone = "07030002227" ; type = "white Tesla") & Perfect. You are all booked and can expect to be picked up in a white Tesla. The contact number is 07030002227. Will you be needing anything else?
+taxi_inform ( phone = "07088332164" ; type = "white audi") & ok it is a white audi and the contact number is 07088332164
+taxi_inform ( type = "grey honda") & Thank you. I have booked a grey honda for you for that time. Is there anything else I can assist you with today?
+taxi_inform ( phone = "07748558756") & Sure. The contact number is 07748558756.
+taxi_inform ( phone = "07404635448" ; type = "red toyota") & I was able to book that for you. The car will be a red toyota and the contact number is 07404635448.
+taxi_inform ( arriveby = "3" ; departure = "Warkworth house" ; destination = "Rosa's Bed and Breakfast" ; phone = "07517822602" ; type = "blue skoda") & I have booked you a taxi from Warkworth house to Rosa's Bed and Breakfast. You will arrive by 3. The taxi is a blue skoda. Contact number: 07517822602
+taxi_inform ( phone = "07097363308" ; type = "grey Lexus") & Your taxi will be a grey Lexus with the contact number 07097363308.
+taxi_inform ( phone = "07333936064" ; type = "yellow bmw") & I have booked you a yellow bmw. The contact number is 07333936064.
+taxi_inform ( departure = "Kettle's Yard" ; leaveat = "15:25" ; phone = "07748651061" ; type = "yellow BMW") & Ok, your taxi will pick you up at Kettle's Yard at 15:25. It is a yellow BMW. Their contact number is 07748651061.
+taxi_inform ( phone = "07015796204" ; type = "grey toyota") & You will be looking for a grey toyota with contact info of 07015796204
+taxi_inform ( phone = "07866666313") & I have booked you a taxi. The contact number is 07866666313. Can I do anything else for you today?
+taxi_inform ( type = "white BMW") & The car arriving will be a white BMW.
+taxi_inform ( phone = "07640075849" ; type = "red ford") & Booking completed! car is red ford and Contact number is 07640075849,
+taxi_inform ( phone = "07279059192" ; type = "yellow skoda") & Your new contact number is 07279059192 and the car is a yellow skoda.
+taxi_inform ( phone = "07626227594" ; type = "white Volkswagen") & Ok, a white Volkswagen will pick you up. The contact number is 07626227594.
+taxi_inform ( arriveby = "2:45" ; departure = "Hughes Hall" ; destination = "Ali Baba" ; phone = "07392863087" ; type = "black Ford") & It sounds like you wish to depart Hughes Hall and arrive at Ali Baba by 2:45, is this correct? If so, I've booked a black Ford for you, contact 07392863087.
+taxi_inform ( type = "black volkswagen") & Great. You are booked with a black volkswagen.
+taxi_inform ( phone = "07590243712") & Certainly. The contact number is 07590243712. Can I help you with anything else?
+taxi_inform ( phone = "07304585611" ; type = "blue audio") & Ok I have a blue audio for you with the contact number 07304585611.
+taxi_inform ( phone = "07304585611" ; type = "Blue Audi") & Yes, I apologize you should be looking for a Blue Audi. The contact number is 07304585611
+taxi_inform ( phone = "07160513391" ; type = "white toyota") & Booking completed! Booked car type : white toyota Contact number : 07160513391
+taxi_inform ( type = "grey toyota") & Your booking is complete, a grey toyota will be picking you up.
+taxi_inform ( phone = "07655357606") & Of course, the number is 07655357606. Can I help with anything else?
+taxi_inform ( phone = "07843539534" ; type = "white bmw") & Booking completed! Booked car type : white bmw Contact number : 07843539534
+taxi_inform ( phone = "07966585521" ; type = "grey volkswagen") & Booking completed! Anything else I can help with today? Booked car type : grey volkswagen Contact number : 07966585521
+taxi_inform ( phone = "07462575401" ; type = "blue lexus") & I've booked you a blue lexus, the contact number is 07462575401.
+taxi_inform ( phone = "07462575401" ; type = "blue lexus") & Booking completed! Booked car type : blue lexus Contact number : 07462575401
+taxi_inform ( phone = "07702787736" ; type = "grey Audi") & I've booked you a grey Audi, the contact number is 07702787736.
+taxi_inform ( phone = "07454674026" ; type = "white bmw") & Alright. I have a white bmw and the contact number is 07454674026. Anything else?
+taxi_inform ( arriveby = "19:30" ; phone = "07816577086" ; type = "yellow bmw") & I'm sorry, I thought you wanted to leave at 19:30. You are booked for a yellow bmw with the contact number 07816577086 arriving at 19:30.
+taxi_inform ( phone = "07080991212" ; type = "black lexus") & Booking completed! Booked car type : black lexus Contact number : 07080991212
+taxi_inform ( departure = "pembroke college" ; phone = "07248087755" ; type = "grey volvo") & A grey volvo will be picking you up at pembroke college. Their contact number is 07248087755 if you have any questions.
+taxi_inform ( phone = "07288413004" ; type = "blue tesla") & Booking completed! Booked car type : blue tesla Contact number : 07288413004
+taxi_inform ( phone = "07427696778" ; type = "yellow ford") & Booking completed! Anything else I can help with? Booked car type : yellow ford Contact number : 07427696778
+taxi_inform ( phone = "07116555709" ; type = "red skoda") & Booking completed! Booked car type : red skoda Contact number : 07116555709
+taxi_inform ( phone = "07975360345" ; type = "black bmw") & I have a black bmw with contact number 07975360345.
+booking_book ( booktime = "6:45") & Would 6:45 be a convenient time for you to leave?
+taxi_inform ( phone = "07932775805" ; type = "red bmw") & Ok I have a red bmw with contact number 07932775805 booked for you.
+taxi_inform ( phone = "07135860962" ; type = "white Honda") & Certainly, the car is a white Honda, and the contact number is 07135860962.
+taxi_inform ( phone = "07486674737" ; type = "grey lexus") & Your booking is complte, a grey lexus will pick you up. The contact number is 07486674737. Do you need any further assistance?
+taxi_inform ( arriveby = "18:30" ; type = "blue tesla") & I have confirmed your taxi, a blue tesla will be picking you up at 18:30.
+taxi_inform ( phone = "07613765039") & Of course. The contact number is 07613765039.
+taxi_inform ( phone = "07960351382" ; type = "grey Skoda") & You're booked in a grey Skoda, contact number 07960351382. Can I help you with something else today?
+taxi_inform ( phone = "07715481740" ; type = "black audi") & You're all set. Expect a black audi, contact number 07715481740. Is there anything else I can assist you with?
+taxi_inform ( phone = "07750608995" ; type = "white Volkswagen") & I've booked for you a white Volkswagen, the contact number is 07750608995.
+taxi_inform ( phone = "grey bmw" ; type = "07365045410") & Alright, you are all set - your car is a grey bmw, contact number 07365045410
+taxi_inform ( type = "yellow ford") & Your booking is complete. A yellow ford will be picking you up.
+taxi_inform ( phone = "07857775322") & The contact number is 07857775322.
+taxi_inform ( phone = "07727005105" ; type = "red audi") & You are booked! Your car is a red audi and contact number is 07727005105
+taxi_inform ( phone = "07770889191" ; type = "white lexus") & I'm sorry for the mixup. Your taxi is a white lexus. The contact number is 07770889191. Is there anything else?
+taxi_inform ( phone = "07255247278" ; type = "blue honda") & I have a blue honda with contact number 07255247278.
+taxi_inform ( phone = "07711369546" ; type = "yellow bmw") & Booking completed! Booked car type : yellow bmw Contact number : 07711369546
+taxi_inform ( phone = "072411211316" ; type = "white tesla") & Booking is done. Your car is a white tesla and contact number is 072411211316
+taxi_inform ( type = "black ford") & I have booked your taxi and it is a black ford.
+taxi_inform ( phone = "07561050522" ; type = "black Ford") & Yes. The contact number for the black Ford is 07561050522.
+taxi_inform ( type = "white honda") & Alright. I have a white honda for you.
+taxi_inform ( phone = "07303450247") & That number is 07303450247.
+taxi_inform ( arriveby = "21:30" ; type = "grey Honda.") & Your taxi will pick you up at 21:30. It is a grey Honda.
+taxi_inform ( phone = "07650376516") & The contact number is 07650376516.
+taxi_inform ( arriveby = "18:00" ; phone = "07243724592" ; type = "grey tesla") & Booking is complete, a grey tesla will be arriving at 18:00. The contact number is 07243724592. Do you need any further assistance? .
+taxi_inform ( phone = "07083984796." ; type = "black bmw") & Okay, I've got you a black bmw with the contact number 07083984796.
+taxi_inform ( type = "grey lexus") & Your booking is complete. A grey lexus will pick you up.
+taxi_inform ( phone = "07626056200") & Contact number : 07626056200 Anything else?
+taxi_inform ( phone = "07894559856" ; type = "black BMW") & I booked it for you. They will be driving a black BMW and their contact number is 07894559856.
+taxi_inform ( phone = "07412002966" ; type = "yellow bmw") & I've booked a car for you, a yellow bmw, the contact number is 07412002966.
+taxi_inform ( phone = "07885719005" ; type = "blue audi") & Booking completed! Booked car type blue audi contact number 07885719005
+taxi_inform ( phone = "07727382876" ; type = "blue skoda") & Alright, a blue skoda has been booked. The contact number is 07727382876. Do you need any additional help today?
+taxi_inform ( phone = "07274783062" ; type = "Red audi") & Taxi is booked, Red audi will come for you. Contact number is 07274783062. Do you need any other help?
+taxi_inform ( type = "yellow volvo") & I have confirmed you booking, a yellow volvo will pick you up.
+taxi_inform ( phone = "07854319661") & The contact number is 07854319661.
+taxi_inform ( phone = "07779524494" ; type = "grey toyota") & Alright I've got you a grey toyota with the contact number 07779524494. Is there anything else you need?
+taxi_inform ( phone = "07492127564" ; type = "white tesla") & Your taxi has been booked, you will be riding a white tesla with the contact number 07492127564. Is there anything else I can help you with today?
+taxi_inform ( phone = "07075850505" ; type = "white audi") & Booking completed! Booked car type : white audi Contact number : 07075850505
+taxi_inform ( phone = "07230483691" ; type = "grey toyota") & Alright, I have arranged for a grey toyota to take you. They can be reached at 07230483691. Anything else I can do for you?
+taxi_inform ( type = "red Audi") & Great! I was able to book a red Audi for you!
+taxi_inform ( phone = "07062991767") & The contact number is 07062991767. Do you have any other questions?
+taxi_inform ( phone = "07629344637" ; type = "grey skoda") & Alright, you're all set. A grey skoda will pick you up. The contact number is 07629344637. Can I help you with anything else?
+taxi_inform ( type = "black Honda") & The taxi is booked for 10:45 and will be a black Honda.
+taxi_inform ( phone = "07397899345" ; type = "red audi") & You're all set. A red audi will pick you up and the contact number, should you need it, is 07397899345. Can I help with anything else?
+taxi_inform ( phone = "07178746002" ; type = "white toyota") & You are booked. Your car is a white toyota and contact number is 07178746002
+taxi_inform ( phone = "07789499283" ; type = "blue Volvo") & I apologize for the error. You are booked for a blue Volvo with the contact number of 07789499283 from hakka.
+taxi_inform ( phone = "07267142867" ; type = "white ford") & Booking completed! Booked car type : white ford Contact number : 07267142867
+taxi_inform ( phone = "07356404697" ; type = "black audi") & Okay. I have a black audi and the contact number is 07356404697. Is there anything else you need?
+taxi_inform ( phone = "07758153394" ; type = "white honda") & Ok, I have a white honda for you with the contact number 07758153394. Anything else?
+taxi_inform ( phone = "07379980416" ; type = "white ford") & Booking completed! Booked car type : white ford Contact number : 07379980416
+taxi_inform ( phone = "07057945339" ; type = "yellow volvo") & Booking completed! Booked car type : yellow volvo Contact number : 07057945339
+taxi_inform ( phone = "07852954476" ; type = "blue Toyota") & Your taxi has been booked. Look for a blue Toyota. The contact number is 07852954476. Anything else?
+taxi_inform ( phone = "07514562305" ; type = "red ford") & Booking completed! Booked car type : red ford Contact number : 07514562305
+taxi_inform ( phone = "07260634336" ; type = "yellow audi") & Thank you. Please look for a yellow audi with the contact number 07260634336.
+taxi_inform ( phone = "07069964497" ; type = "black lexus") & Booking completed! Booked car type : black lexus Contact number : 07069964497
+taxi_inform ( phone = "07652996605" ; type = "red lexus") & Your taxi booking is for a red lexus with the contact number 07652996605.
+taxi_inform ( phone = "07956401800" ; type = "yellow volvo") & Booking completed! Booked car type : yellow volvo Contact number : 07956401800
+taxi_inform ( phone = "07609996919" ; type = "white tesla") & Booking is complete. Your car is a white tesla and contact number is 07609996919.
+taxi_inform ( phone = "07423023261" ; type = "black skoda") & You are booked on a black skoda with the contact number 07423023261.
+taxi_inform ( leaveat = "3:30") & Your taxi will be there by 3:30. Thank you for contacting the centre. Goodbye.
+taxi_inform ( phone = "07866626052" ; type = "red lexus") & You are booked for a red lexus with the contact number 07866626052.
+taxi_inform ( phone = "07699858480" ; type = "red skoda") & You car type is a red skoda. The contact number is 07699858480. Can I assist you with anything else?
+taxi_inform ( phone = "07206167165" ; type = "yellow volkswagen") & A yellow volkswagen is booked for you. The contact number is 07206167165.
+taxi_inform ( arriveby = "15:30" ; destination = "williams art and antiques" ; phone = "07554978717" ; type = "red tesla") & Booking completed and corrected. You will get to williams art and antiques by 15:30. Booked car type : red tesla Contact number : 07554978717
+taxi_inform ( phone = "07423194148" ; type = "blue volvo") & Booking completed! Booked car type : blue volvo Contact number : 07423194148
+taxi_inform ( phone = "07619508724" ; type = "grey bmw") & I have booked a grey bmw for you. The contact number is 07619508724. Can I help you further today?
+taxi_inform ( phone = "07547694043" ; type = "red audi") & Booking completed! Booked car type : red audi Contact number : 07547694043
+taxi_inform ( phone = "07411902572" ; type = "red audi") & Booking completed! Is there anything else I can do for you? Booked car type : red audi Contact number : 07411902572
+taxi_inform ( departure = "don pasquale pizzera" ; destination = "cambridge museum" ; leaveat = "03:45" ; phone = "07411902572" ; type = "red audi") & There will be a red audi at don pasquale pizzera to take you to the cambridge museum at 03:45. Contact number: 07411902572
+taxi_inform ( phone = "07336608269" ; type = "black skoda") & Booking completed! Booked car type : black skoda Contact number : 07336608269
+taxi_inform ( phone = "chips342234yy1" ; type = "grey ford") & All right, your car is booked. It's a grey ford with a contact number of chips342234yy1.
+taxi_inform ( phone = "07556741489" ; type = "yellow tesla") & Your booking is complete. The car type is a yellow tesla and the contact number is 07556741489.
+taxi_inform ( phone = "07398176919" ; type = "grey lexus") & Great I have you booked in a grey lexus and the contact number is 07398176919.
+taxi_inform ( type = "black tesla") & I have booked a black tesla for you
+taxi_inform ( phone = "07720856341") & The contact number is: 07720856341.
+taxi_inform ( phone = "07255776269" ; type = "blue audi") & I have booked you a blue audi with contact number 07255776269.
+taxi_inform ( leaveat = "05:45" ; phone = "07791528384" ; type = "blue lexus") & I have booked a taxi for you at 05:45. The car type is a blue lexus and the contact number is: 07791528384 .
+taxi_inform ( phone = "07899029932" ; type = "red bmw") & Your booking is complete with a red bmw and a contact number of 07899029932.
+taxi_inform ( type = "red tesla") & I have confirmed a taxi booking for you, a red tesla will be picking you up.
+taxi_inform ( phone = "07915006170") & Sure its 07915006170. Is there anything else I can do for you?
+taxi_inform ( phone = "0701197295" ; type = "white ford") & Booking completed! Booked car type : white ford Contact number : 0701197295
+taxi_inform ( type = "grey toyota") & A grey toyota will be picking you up. Do you also need the contact number?
+taxi_inform ( phone = "07357977369") & No problem.The contact number is 07357977369. Can I help with anything else?
+taxi_inform ( phone = "07268032250" ; type = "blue lexus") & Your booking is complete. A blue lexus will be picking you up. Their contact number is 07268032250. Anything else?
+taxi_inform ( phone = "07553660538" ; type = "black tesla") & Booking completed! Anything else I can help with today? Booked car type : black tesla Contact number : 07553660538
+taxi_inform ( type = "yellow ford") & I have confirmed you booking for a taxi, a yellow ford will be picking you up.
+taxi_inform ( phone = "07629492399") & The number is 07629492399 Would you like help with anything else today?
+taxi_inform ( phone = "07101377388" ; type = "red lexus") & Okay. A red lexus will pick you up. They can be reached at 07101377388. Did you need anything else?
+taxi_inform ( phone = "07736905918" ; type = "grey honda") & Okay I have a grey honda. You're contact number is 07736905918. Is there anything else you need?
+taxi_inform ( phone = "07695539890" ; type = "grey skoda") & Booking completed! Booked car type : grey skoda Contact number : 07695539890
+taxi_inform ( phone = "07229148300" ; type = "grey lexus") & Ok, I've booked your taxi. It will be a grey lexus, contact number 07229148300
+taxi_inform ( phone = "07889414601" ; type = "blue bmw") & You are booked for a blue bmw with the contact number 07889414601.
+taxi_inform ( type = "grey volvo") & Booking is complete, a grey volvo will be picking you up.
+taxi_inform ( phone = "07640034506") & Sure, the contact number is 07640034506. Is there anything else I can help you with today?
+taxi_inform ( phone = "07022908010" ; type = "Grey honda") & Booking successful. Grey honda, contact number 07022908010
+taxi_inform ( phone = "07740734110" ; type = "grey volvo") & Booking completed! Booked car type : grey volvo Contact number : 07740734110
+taxi_inform ( phone = "07405095877" ; type = "yellow lexus") & Here you are! Booked car type : yellow lexus Contact number : 07405095877
+taxi_inform ( type = "white volvo") & Great. I booked a white volvo for you.
+taxi_inform ( phone = "07617391159") & Their contact number is 07617391159.
+taxi_inform ( phone = "07048771014" ; type = "grey volkswagen") & OK, I have booked a grey volkswagen, contact number 07048771014. What else can I do for you?
+taxi_inform ( phone = "07348606520" ; type = "blue BMW") & All right, sir, you'll be picked up in a blue BMW. The contact number is 07348606520.
+taxi_inform ( phone = "07448493514" ; type = "black skoda") & You are booked for a black skoda with the contact number 07448493514.
+taxi_inform ( phone = "07542375620" ; type = "red ford") & Alright, I've got a red ford with the contact number 07542375620. Anything else I can do for you?
+taxi_inform ( phone = "07318036253" ; type = "blue ford") & Booking completed! Booked car type : blue ford Contact number : 07318036253
+taxi_inform ( type = "yellow skoda") & Your taxi is booked. It is a yellow skoda.
+taxi_inform ( phone = "07123859913") & The contact number 07123859913.
+taxi_inform ( phone = "07580557287" ; type = "A white honda") & A white honda will be picking you up, the contact number is 07580557287. Is there anything else I can help you with?
+taxi_inform ( type = "blue tesla") & Your booking is complete, a blue tesla will be picking you up.
+taxi_inform ( phone = "07511692788") & Sure! it is 07511692788.
+taxi_inform ( phone = "07817450562" ; type = "grey Honda") & Your grey Honda is booked, and the contact number for the driver is 07817450562. Can I do anything else for you today?
+taxi_inform ( phone = "07171354164" ; type = "white toyota") & Booking completed! Booked car type : white toyota Contact number : 07171354164
+taxi_inform ( phone = "0757492861" ; type = "red Toyota") & I've booked a red Toyota, the contact number is 0757492861.
+taxi_inform ( type = "black lexus") & I have you booked into a black lexus.
+taxi_inform ( phone = "07776842697") & The contact number is 07776842697. Can I help you with anything else?
+taxi_inform ( leaveat = "7:00") & Great! I was able to book a car for you at 7:00/
+taxi_inform ( type = "grey toyota") & Okay you've been rebooked into a grey toyota.
+taxi_inform ( phone = "07421146417") & The contact number is 07421146417. Do you need help with anything else?
+taxi_inform ( phone = "07606586690" ; type = "red lexus") & Booking completed! Booked car type : red lexus Contact number : 07606586690
+taxi_inform ( phone = "07721719862" ; type = "black bmw") & You are booked on a black bmw with the contact number 07721719862.
+taxi_inform ( phone = "07270738865" ; type = "black volvo") & I have a black volvo coming to pick you up. Their contact number is 07270738865 if you have any questions. Thank you!
+taxi_inform ( phone = "07290151077" ; type = "grey honda") & Your booking is completed, a grey honda will be picking you up. The contact number is 07290151077.
+taxi_inform ( phone = "07394368470" ; type = "red bmw") & I have a red bmw with contact number 07394368470.
+taxi_inform ( phone = "07365584187" ; type = "yellow BMW") & You're all set! Your car type is a yellow BMW and the contact number is 07365584187.
+taxi_inform ( phone = "07229542563" ; type = "white lexus") & Okay, I have a white lexus and the contact number is 07229542563. Is there anything else you need today?
+taxi_inform ( phone = "07866049938" ; type = "black Audi") & You will be picked up by a black Audi. The contact number is 07866049938. Is there anything else I can do for you?
+taxi_inform ( phone = "07618237831" ; type = "red skoda") & Ok. I have booked for you a red skoda and the contact number is 07618237831. Anything else I can help you with?
+taxi_inform ( type = "white Lexus") & Great! I was able to book a white Lexus for you.
+taxi_inform ( phone = "07253412910") & The contact number is 07253412910.
+taxi_inform ( departure = "Charlie Chan" ; destination = "Cotto" ; leaveat = "12:15" ; phone = "07928872088" ; type = "black Audi") & A black Audi will pick you up at Charlie Chan to leave at 12:15 and get you over to Cotto. Their contact # is: 07928872088
+taxi_inform ( type = "red ford") & Your booking is complete, a red ford will be picking you up.
+taxi_inform ( phone = "07833391546") & The contact number is 07833391546. Do you have any other questions?
+taxi_inform ( leaveat = "9:00" ; type = "yellow lexus") & Yes, the taxi will pick you up at 9:00. It is a yellow lexus.
+taxi_inform ( phone = "07336173784") & Of course, the contact number is 07336173784. Is there anything else you need?
+taxi_inform ( phone = "07037812928" ; type = "black volvo") & Ok, your contact number is 07037812928 and it will be a black volvo. Is there anything else I can help you with?
+taxi_inform ( type = "yellow volvo") & Okay great. You are booked with a yellow volvo.
+taxi_inform ( phone = "07611307167") & Yes, the number is: 07611307167 Can I help with anything else?
+taxi_inform ( type = "blue volvo") & Okay. A blue volvo is booked for you.
+taxi_inform ( phone = "07047852975") & Yes, the contact number is 07047852975. Is there anything else you need?
+taxi_inform ( phone = "07007464352" ; type = "white toyota") & Okay I have a white toyota and the contact number is 07007464352. Anything else I can do for today?
+taxi_inform ( phone = "07749752500" ; type = "grey skoda") & Booking completed! Booked car type : grey skoda Contact number : 07749752500
+taxi_inform ( phone = "07570319007" ; type = "white ford") & Booking completed! Booked car type : white ford Contact number : 07570319007
+taxi_inform ( phone = "07915907755" ; type = "white volvo") & Ok it's a white volvo and the contact number is 07915907755.
+taxi_inform ( phone = "07116573501" ; type = "yellow skoda") & I have that booked a yellow skoda with contact number 07116573501.
+hospital_inform ( name = "Addenbrookes") & What time would you like to leave addenbrookes hospital?
+taxi_inform ( type = "blue Toyota") & Your taxi is booked. Look for a blue Toyota.
+taxi_inform ( phone = "07738411271") & The contact number is 07738411271. Is there anything else we can help you with?
+taxi_inform ( type = "red toyota") & Your booking is complete, a red toyota will be picking you up.
+taxi_inform ( phone = "07975650710" ; type = "red Toyota") & The vehicle is a red Toyota and the contact number is 07975650710.
+taxi_inform ( phone = "07451454919" ; type = "yellow lexus") & I have a yellow lexus with phone number 07451454919.
+taxi_inform ( phone = "07737828007" ; type = "red Toyota") & I have you in a red Toyota, contact is 07737828007.
+taxi_inform ( phone = "07737828007" ; type = "red toyota") & Ok I have a red toyota and the contact number is 07737828007.
+taxi_inform ( phone = "07421829709" ; type = "yellow audi") & You are booked. Your car is a yellow audi and your contact number is 07421829709
+taxi_inform ( departure = "alexander b&b" ; destination = "la margherita") & We have the destination as la margherita and departing from alexander b&b.
+taxi_inform ( phone = "07359534792" ; type = "yellow tesla") & You're all set! Booked car type : yellow tesla Contact number : 07359534792
+taxi_inform ( phone = "07251519275" ; type = "white Ford") & OK, there should be a white Ford to pick you up. The contact number is 07251519275. Can I help you with anything else?
+taxi_inform ( phone = "0794650059" ; type = "red Tesla") & I've booked a red Tesla for you the contact number is 0794650059. Is there anything else I can help with?
+taxi_inform ( phone = "07609926052" ; type = "grey honda") & I have a grey honda with contact number 07609926052 booked for you.
+taxi_inform ( departure = "Cambridge train station" ; leaveat = "9:15" ; phone = "07504297575" ; type = "white volvo") & I have booked a white volvo to leave at 9:15 from Cambridge train station. Your contact number is 07504297575
+taxi_inform ( phone = "07180084574" ; type = "yellow audi") & Booking completed! Booked car type : yellow audi Contact number : 07180084574
+taxi_inform ( phone = "07998569074" ; type = "grey ford") & No, you will be picked up in a grey ford, contact number 07998569074, is that ok?
+taxi_inform ( phone = "07308855944" ; type = "yellow toyota") & I have a yellow toyota with contact number 07308855944.
+taxi_inform ( type = "grey honda") & Your booking is complete, a grey honda will pick you up.
+taxi_inform ( phone = "07024160438" ; type = "yellow Honda") & Your booking is complete. The taxi is a yellow Honda. Contact number 07024160438.
+taxi_inform ( phone = "07614934136" ; type = "yellow skoda") & Your booking is complete. The car type is a yellow skoda and the contact number is 07614934136.
+taxi_inform ( type = "grey audi") & I have you booked in a grey audi.
+taxi_inform ( phone = "07270553802") & Contact number is 07270553802
+taxi_inform ( phone = "07733215888" ; type = "blue car") & I've booked you a blue car, the contact info is 07733215888. Is there anything else I can do for you?
+taxi_inform ( type = "black Ford") & Excellent. I was able to book a black Ford for you.
+taxi_inform ( phone = "07299305269") & The contact number is 07299305269.
+taxi_inform ( phone = "07477854911" ; type = "black volkswagen") & Great. We have a black volkswagen booked for you. The driver's phone number is 07477854911
+taxi_inform ( phone = "07657055747" ; type = "white tesla") & Ok I have a white tesla and the contact number is 07657055747.
+taxi_inform ( phone = "07985113779" ; type = "white volvo") & I have booked you a white volvo, contact number is 07985113779. Is there anything else?
+taxi_inform ( phone = "07556697926" ; type = "yellow lexus") & Booking completed! Booked car type : yellow lexus Contact number : 07556697926
+taxi_inform ( phone = "07706975524" ; type = "black audi") & A black audi will be arriving to pick you up. Their contact number is 07706975524. Thank you!
+taxi_inform ( phone = "0761714851" ; type = "grey Volkswagen") & I have you booked in a grey Volkswagen, 0761714851.
+taxi_inform ( phone = "07720877593" ; type = "yellow Lexus") & 07720877593 is you contact. I have you booked in a yellow Lexus.
+taxi_inform ( type = "white Honda") & I was able to book a white Honda to come pick you up.
+taxi_inform ( phone = "07565551226") & I do. The contact number is 07565551226.
+taxi_inform ( phone = "07395990234" ; type = "grey audi") & Alright, I have you booked, you can expect a grey audi, contact number 07395990234. Is there anything else I can help you with?
+taxi_inform ( type = "white ford") & Your booking is complete, a white ford will be arriving to pick you up.
+taxi_inform ( phone = "07362646740" ; type = "white Ford") & The vehicle is a white Ford and the contact number is 07362646740.
+taxi_inform ( phone = "07619968321" ; type = "red ford") & Ok I have a red ford and the contact number is 07619968321. Anything else I can do for you?
+taxi_inform ( arriveby = "20:15") & I have confirmed that your taxi will arrive by 20:15. Is that all you need today?
+taxi_inform ( phone = "07619968321" ; type = "red ford") & Booked car type red ford Contact number 07619968321
+taxi_inform ( phone = "07080271621" ; type = "white bmw") & You can contact them at 07080271621 and you will be in a white bmw.
+taxi_inform ( phone = "07248386378" ; type = "black volkswagen") & Booking completed! Booked car type : black volkswagen Contact number : 07248386378
+taxi_inform ( phone = "07850259093" ; type = "red Honda") & Your booking is complete! It will be a red Honda. The taxi contact number is 07850259093.
+taxi_inform ( phone = "07766078886" ; type = "grey ford") & Okay, I've got a grey ford with the contact number 07766078886.
+taxi_inform ( type = "red Volvo") & Great news! I was able to book a red Volvo for you.
+taxi_inform ( phone = "07025112262" ; type = "black volvo") & Booking completed! Booked car type : black volvo Contact number : 07025112262
+taxi_inform ( phone = "07412273994" ; type = "black audi") & Booking completed! Booked car type : black audi Contact number : 07412273994
+taxi_inform ( phone = "07087526103" ; type = "grey lexus") & Okay I have a grey lexus and the contact number is 07087526103. Anything else I can help you with?
+taxi_inform ( phone = "07606313194" ; type = "yellow skoda") & Booking completed! Booked car type : yellow skoda Contact number : 07606313194
+taxi_inform ( type = "black volvo") & You car has been booked. It is a black volvo. Can I assist you any further?
+taxi_inform ( phone = "07698022958") & Yes, your contact number is 07698022958. Can I assist you any further?
+taxi_inform ( type = "black honda") & Your booking is complete, a black honda will be picking you up.
+taxi_inform ( phone = "07928549844") & The contact number 07928549844.
+taxi_inform ( phone = "07852042631" ; type = "red skoda") & Booking completed! Booked car type : red skoda Contact number : 07852042631
+taxi_inform ( phone = "746155219" ; type = "Red Tesla") & I have you all booked. Red Tesla, 746155219.
+taxi_inform ( phone = "07229816957" ; type = "yellow bmw") & Booking completed! Booked car type : yellow bmw Contact number : 07229816957
+taxi_inform ( type = "grey Audi") & A grey Audi is booked to come pick you up.
+taxi_inform ( phone = "07809487521") & Certainly, the contact number is 07809487521. Is there anything else?
+taxi_inform ( phone = "07810177049" ; type = "black honda") & I have a black honda for you with contact number 07810177049.
+taxi_inform ( phone = "07785490051" ; type = "white bmv") & I have a white bmv with a contact number of 07785490051.
+taxi_inform ( phone = "07920865012" ; type = "blue toyota") & Booking completed! Booked car type : blue toyota Contact number : 07920865012
+taxi_inform ( phone = "07426688661" ; type = "grey Toyota") & 07426688661 is the contact number, I have you in a grey Toyota.
+taxi_inform ( phone = "07021649263" ; type = "blue ford") & Booking completed! Booked car type : blue ford Contact number : 07021649263
+taxi_inform ( phone = "07427709999" ; type = "red lexus") & Booking completed! Booked car type : red lexus Contact number : 07427709999
+taxi_inform ( phone = "07694199231" ; type = "white honda") & Booking completed! Booked car type : white honda Contact number : 07694199231
+taxi_inform ( phone = "07240135377" ; type = "grey Skoda") & It sounds lovely! I've booked you in a grey Skoda. The contact number is 07240135377 in case you need it. What else may I assist you with?
+taxi_inform ( arriveby = "3:30" ; destination = "kambar" ; phone = "07466224734" ; type = "blue Volkswagen") & You've been booked. Expect a blue Volkswagen to get you to kambar by 3:30. Their contact number is 07466224734. Can I help with anything else?
+taxi_inform ( departure = "the junction" ; destination = "gallery at twelve a high" ; leaveat = "4:00" ; phone = "07355269466" ; type = "grey skoda") & You'll be picked up at the junction, to gallery at twelve a high, by 4:00. Your auto is a grey skoda, contact number: 07355269466.
+taxi_inform ( phone = "07768938666" ; type = "black toyota") & Your booking is complete, a black toyota will pick you up. The contact number is 07768938666.
+taxi_inform ( phone = "07605689057" ; type = "grey skoda") & There's a grey skoda that will be picking you up. You can contact the driver at 07605689057.
+taxi_inform ( phone = "07290394135" ; type = "black Honda") & I can have a black Honda pick you up, the contact number is 07290394135. Can I do anything else for you today?
+taxi_inform ( phone = "07089951396" ; type = "black volvo") & Booking completed! Booked car type : black volvo Contact number : 07089951396
+taxi_inform ( phone = "07796401968" ; type = "yellow toyota") & Booking completed! Booked car type : yellow toyota Contact number : 07796401968
+taxi_inform ( type = "white Toyota") & A white Toyota is booked for you.
+taxi_inform ( phone = "07689939820") & Of course. The contact number is 07689939820. Can I help with anything further?
+taxi_inform ( phone = "07196618284" ; type = "black bmw") & Ok, you will be riding in a black bmw, the contact number is 07196618284, is there anything else I can help you with today?
+taxi_inform ( phone = "07903665107" ; type = "black honda") & 07903665107 is the contact number, I have you in a black honda.
+taxi_inform ( type = "black skoda") & You are booked for a black skoda. Is there anything else?
+taxi_inform ( phone = "07129813049" ; type = "black skoda") & Booked car type : black skoda Contact number : 07129813049
+taxi_inform ( leaveat = "24:15" ; type = "yellow Volkswagen") & The taxi is booked for 24:15. It is a yellow Volkswagen.
+taxi_inform ( phone = "07744553058") & Your contact number is 07744553058. May I help you with anything else?
+taxi_inform ( phone = "07992450678" ; type = "red honda") & I have a red honda with contact number 07992450678.
+taxi_inform ( phone = "07796011098" ; type = "black Honda") & I've booked you a black Honda, the contact number is 07796011098.
+taxi_inform ( phone = "07835205390" ; type = "blue honda") & Sure thing. A blue honda has been booked. Contact number is 07835205390.
+taxi_inform ( phone = "07314884392" ; type = "white ford") & Alright I have a white ford for you. The contact number is 07314884392. Is there anything else you need?
+taxi_inform ( phone = "07771726102" ; type = "yellow audi") & I have booked you a yellow audi, the contact number is 07771726102. Will there be anything else?
+taxi_inform ( phone = "07937377256" ; type = "white volvo") & Booking is confirmed. A white volvo will be picking you up, their contact number is 07937377256. Anything else I can help with?
+taxi_inform ( type = "yellow Volkswagen") & Your taxi is booked. Look for a yellow Volkswagen.
+taxi_inform ( phone = "07727071722") & The contact number is 07727071722. Is there anything else I can help you with?
+taxi_inform ( type = "black honda") & Your booking is all set. A black honda will be picking you up.
+taxi_inform ( phone = "07899518276" ; type = "grey audi") & A grey audi will pick you up, and the contact number is 07899518276. Can I help with anything else today?
+taxi_inform ( phone = "07939407760" ; type = "black bmw") & I booked you a black bmw at with a contact number of 07939407760. Is there anything else?
+taxi_inform ( phone = "07576868430" ; type = "grey volkswagen") & Booking completed! Booked car type : grey volkswagen Contact number : 07576868430
+taxi_inform ( phone = "07229655312" ; type = "blue honda") & Booking completed! Booked car type : blue honda Contact number : 07229655312
+taxi_inform ( phone = "07597249308" ; type = "grey Audi") & I have booked you a grey Audi. The contact number is 07597249308. What else may I help you with?
+taxi_inform ( arriveby = "01:45" ; departure = "Leverton House" ; destination = "the Ghandi" ; phone = "07484372393" ; type = "white Tesla") & I have booked a white Tesla to pick you up at the Leverton House, and will take you to the Ghandi before 01:45. The contact number is 07484372393. Is that all?
+taxi_inform ( phone = "07641445161" ; type = "red BMW") & A red BMW will pick you up, and the contact number is 07641445161. Can I help you with anything else?
+taxi_inform ( phone = "07607911761" ; type = "grey lexus") & Okay, I have successfully booked the taxi for you. It is a grey lexus and the contact number is 07607911761.
+taxi_inform ( phone = "07123496116" ; type = "yellow honda") & Ok, I have a car for you: a yellow honda with the contact number 07123496116
+taxi_inform ( phone = "07664673319" ; type = "black lexus") & You are all set! Please be on the lookout for a black lexus and the contact number is 07664673319.
+taxi_inform ( phone = "07276200225" ; type = "red bmw") & Booking completed! Booked car type : red bmw Contact number : 07276200225
+taxi_inform ( phone = "07421738274" ; type = "yellow ford") & Booking completed! Booked car type : yellow ford Contact number : 07421738274
+taxi_inform ( phone = "07502362913" ; type = "white audi") & The contact number is 07502362913. It will be a white audi. Is there anything else I can help you with?
+taxi_inform ( leaveat = "1:00pm") & I have ordered one for you their pick up time is 1:00pm. Is this time okay or do you need a different time?
+taxi_inform ( phone = "07607179806" ; type = "white lexus") & Alright. The type of car is a white lexus and the contact number is 07607179806. Anything else?
+taxi_inform ( phone = "07901027888" ; type = "black tesla") & I have booked your taxi, it will be a black tesla and the contact number is 07901027888. Is there anything else I can help you with today?
+taxi_inform ( leaveat = "8:15" ; phone = "07249275156" ; type = "grey Audi") & Ok, I have booked you a grey Audi for an 8:15 pickup. The contact number is 07249275156.
+taxi_inform ( phone = "07728790411" ; type = "blue Tesla") & It is a blue Tesla and the number is 07728790411. Is there anything else I can help you with?
+taxi_inform ( phone = "07746689138" ; type = "black volkswagen") & Ok, I book a black volkswagen for you. The contact number is 07746689138.
+taxi_inform ( departure = "Hamilton Lodge" ; leaveat = "15:00" ; phone = "07421449332" ; type = "black Honda") & You taxi booking is a complete. A black Honda will pick you up at Hamilton Lodge by 15:00. Their contact number is 07421449332. Is there anything else today?
+taxi_inform ( phone = "07400946146" ; type = "black audi") & A black audi is booked for you, with contact number 07400946146
+train_inform ( departure = "London kings cross" ; destination = "gonville hotel") & Tell the customer what time the train departs from London kings cross train, and possible arrival time to gonville hotel.
+taxi_inform ( arriveby = "23:00" ; destination = "the hotel" ; phone = "07582132009" ; type = "black audi") & I'm sorry about that. I have booked you a black audi arriving at the hotel by 23:00. The contact number is 07582132009.
+taxi_inform ( phone = "07502484881" ; type = "grey honda") & Ok, I have booked you a taxi. It will be a grey honda, contact number is 07502484881. Is there anything else I can help with today?
+taxi_inform ( phone = "07861610827" ; type = "white Skoda") & I have booked you a car. It will be a white Skoda. The contact number is 07861610827. May I assist you with something else?
+taxi_inform ( phone = "07266756209" ; type = "grey ford") & Alrighty. I have a grey ford for you with the contact number 07266756209. Anything else you need?
+taxi_inform ( phone = "07064257037" ; type = "white ford") & I have booked you a white ford. The contact number is 07064257037
+taxi_inform ( phone = "07520411520" ; type = "blue tesla") & Got it, your booking has been completed! Look out for a blue tesla, contact number 07520411520. May I assist with anything else?
+taxi_inform ( phone = "07864543066" ; type = "grey ford") & Your car is a grey ford, contact number is 07864543066.
+taxi_inform ( phone = "07337359188" ; type = "blue volkswagen") & A blue volkswagen will pick you up, and the contact number is 07337359188. Can I help with anything else?
+taxi_inform ( phone = "07380094079" ; type = "black volvo") & Booked! Your car is a black volvo. Contact number: 07380094079
+taxi_inform ( leaveat = "21:30" ; phone = "07797598861" ; type = "Red Skoda") & Okay. I've booked a taxi that will pick you up at 21:30. Look for a Red Skoda and the contact number is 07797598861. Anything else?
+taxi_inform ( phone = "07032807056" ; type = "white tesla") & I have a white tesla booked. The contact number is 07032807056. Anything else today?
+taxi_inform ( arriveby = "24:45" ; departure = "Parkside Pools" ; destination = "Saigon City" ; phone = "07828476668" ; type = "grey BMW") & I've booked a grey BMW that will leave Parkside Pools, and arrive in Saigon City by 24:45. Their contact number is 07828476668. Is there anything else I can help you with?
+taxi_inform ( phone = "07091291573" ; type = "grey ford") & A grey ford is booked. Contact number 07091291573
+taxi_inform ( phone = "07606671583" ; type = "white BMW") & A white BMW will pick you up and the contact number is 07606671583. Can I help with anything else today?
+taxi_inform ( phone = "07381507010" ; type = "black toyota") & Booking completed! Booked car type : black toyota Contact number : 07381507010
+taxi_inform ( phone = "07161667298" ; type = "red ford") & Alright great! The car will be a red ford and the contact number is 07161667298.
+taxi_inform ( phone = "07061402543" ; type = "blue toyota") & I have booked you a blue toyota. The contact number is 07061402543
+taxi_inform ( phone = "07119414615" ; type = "white volvo") & Okay, I have a white volvo for you with the contact number 07119414615. Anything else?
+taxi_inform ( phone = "07566754071" ; type = "black lexus") & Yes, it's booked for you! Booked car type : black lexus Contact number : 07566754071
+taxi_inform ( phone = "07041103823" ; type = "yellow toyota") & Booked! Your car is a yellow toyota. Contact number: 07041103823.
+taxi_inform ( phone = "07205440226" ; type = "yellow Toyota") & You are scheduled for a yellow Toyota. Contact number: 07205440226. Can I help with anything else today?
+taxi_inform ( phone = "07827592182" ; type = "black volvo") & Your taxi is booked. Please be on the lookout for a black volvo and the contact number is 07827592182. Is there anything else i can help with?
+taxi_inform ( leaveat = "20:15" ; phone = "07753733237" ; type = "blue BMW") & I have booked you a blue BMW for a 20:15 pickup. The contact number is 07753733237. Can I help you with anything else today? .
+taxi_inform ( phone = "07495722772" ; type = "yellow tesla") & I booked you a yellow tesla with the Contact number 07495722772, is there anything else I can do for you?
+taxi_inform ( phone = "07886967603" ; type = "blue honda") & Booked a blue honda. Your contact number is 07886967603.
+taxi_inform ( leaveat = "21:15" ; phone = "07441929231" ; type = "yellow Toyota") & Your booking is completed. A yellow Toyota will pick you up at 21:15. The contact number is 07441929231. Can I help you with anything else today?
+taxi_inform ( phone = "07602572766" ; type = "blue volkswagen") & Your taxi is booked. Your car is a blue volkswagen and contact number is 07602572766
+taxi_inform ( phone = "07406139758" ; type = "grey volvo") & You are booked with a grey volvo, phone number is 07406139758. Anything else I can do for you?
+taxi_inform ( phone = "07099074893" ; type = "white Tesla") & I have booked you a white Tesla. The contact number is 07099074893. Can I help you with anything else today?
+taxi_inform ( phone = "07622282042" ; type = "white toyota") & Booking completed! Booked car type : white toyota Contact number : 07622282042
+taxi_inform ( arriveby = "20:15" ; departure = "Lan Hong House" ; destination = "Great Saint Mary's Church" ; phone = "07224360909" ; type = "yellow BMW") & A yellow BMW will pick you up at Lan Hong House for arrival at Great Saint Mary's Church by 20:15. Their Contact number is 07224360909. Is there anything further today?

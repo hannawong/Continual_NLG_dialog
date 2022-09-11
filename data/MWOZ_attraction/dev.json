@@ -1,0 +1,157 @@
+[
+    [
+        "attraction_inform(area=\"center of town\";entrancefee=\"free\";name=\"Castle Galleries\";type=\"museum\")",
+        "Castle Galleries is a museum in the center of town, entry is free, would you like more details?",
+        "Castle Galleries is a museum in the center of town, entry is free, would you like more details?"
+    ],
+    [
+        "attraction_inform(phone=\"01223307402\";postcode=\"cb23bj\")",
+        "Yes, the phone number is 01223307402 and the postcode is cb23bj. Can I help with anything else today?",
+        "Yes, the phone number is 01223307402 and the postcode is cb23bj. Can I help with anything else today?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"11\";type=\"museums\")",
+        "Yes, there are 11 museums in the centre of town. What other information would you like?",
+        "Yes, there are 11 museums in the centre of town. What other information would you like?"
+    ],
+    [
+        "attraction_recommend(address=\"Gwydir Street\";address=\"No. 5 Dale's Brewery\";entrancefee=\"free\";name=\"Williams Art and Antiques\";postcode=\"cb12lj\")",
+        "I definitely recommend the Williams Art and Antiques. It's free to get in. They are located on Gwydir Street, No. 5 Dale's Brewery. The postcode is cb12lj.",
+        "I definitely recommend the Williams Art and Antiques. It's free to get in. They are located on Gwydir Street, No. 5 Dale's Brewery. The postcode is cb12lj."
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"44\";type=\"architecture\";type=\"colleges\";type=\"museums\")",
+        "We have 44 attractions in the centre, colleges, architecture, museums",
+        "We have 44 attractions in the centre, colleges, architecture, museums"
+    ],
+    [
+        "attraction_inform(area=\"centre of town\";choice=\"13\";entrancefee=\"from free to 2 pounds 50\")",
+        "There are 13 colleges in the centre of town with entrance fees ranging from free to 2 pounds 50. Do you have a preference on entry price?",
+        "There are 13 colleges in the centre of town with entrance fees ranging from free to 2 pounds 50. Do you have a preference on entry price?"
+    ],
+    [
+        "attraction_recommend(entrancefee=\"no entrance fee\";name=\"Christ's College\")",
+        "My favorite is Christ's College and there is no entrance fee.",
+        "My favorite is Christ's College and there is no entrance fee."
+    ],
+    [
+        "attraction_inform(type=\"parks\";type=\"theatres\")",
+        "Nothing specifically marked entertainment, although we do offer quite a lot to do, from theatres to parks.",
+        "Nothing specifically marked entertainment, although we do offer quite a lot to do, from theatres to parks."
+    ],
+    [
+        "attraction_inform(choice=\"13\")",
+        "You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?",
+        "You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?"
+    ],
+    [
+        "attraction_inform(choice=\"13\")@attraction_recommend(address=\"Saint Andrew's Street\";entrancefee=\"free\";name=\"Downing College\")",
+        "You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?",
+        "You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?"
+    ],
+    [
+        "attraction_inform(choice=\"13\")@attraction_recommend(address=\"Saint Andrew's Street\";entrancefee=\"free\";name=\"Downing College\")@booking_inform()",
+        "You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?",
+        "You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?"
+    ],
+    [
+        "attraction_inform(address=\"regent street\";postcode=\"cb21dq\")",
+        "Yes, their post code is cb21dq and the address is on regent street.",
+        "Yes, their post code is cb21dq and the address is on regent street."
+    ],
+    [
+        "attraction_inform(name=\"Cherry Hinton Water Play\")",
+        "Yes, there is Cherry Hinton Water Play. Would you like more information?",
+        "Yes, there is Cherry Hinton Water Play. Would you like more information?"
+    ],
+    [
+        "attraction_inform(name=\"Cherry Hinton Water Play\";phone=\"01223446100\")",
+        "The phone number for Cherry Hinton Water Play is 01223446100. Is there anything else I can help you with today?",
+        "The phone number for Cherry Hinton Water Play is 01223446100. Is there anything else I can help you with today?"
+    ],
+    [
+        "attraction_select(area=\"centre\";area=\"south\")",
+        "Yes, what part of town would you like? There are cinemas in the south and centre of town.",
+        "Yes, what part of town would you like? There are cinemas in the south and centre of town."
+    ],
+    [
+        "attraction_inform(address=\"Cambridge Leisure Park\";address=\"Clifton Way\";area=\"south\";name=\"Cineworld Cinema\")",
+        "The Cineworld Cinema is in the south area of town and the address is Cambridge Leisure Park, Clifton Way. Is there anything else I can help you with today?",
+        "The Cineworld Cinema is in the south area of town and the address is Cambridge Leisure Park, Clifton Way. Is there anything else I can help you with today?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"not available\")",
+        "I'm sorry, the entrance fee for Cineworld Cinema is not available. Is there anything else you need?",
+        "I'm sorry, the entrance fee for Cineworld Cinema is not available. Is there anything else you need?"
+    ],
+    [
+        "attraction_inform(address=\"cambridge leisure park\";address=\"clifton way\";name=\"Cineworld Cinema\";postcode=\"cb17dy\")",
+        "Cineworld Cinema is located at cambridge leisure park, clifton way, cb17dy. Can I help with anything else today?",
+        "Cineworld Cinema is located at cambridge leisure park, clifton way, cb17dy. Can I help with anything else today?"
+    ],
+    [
+        "attraction_inform(choice=\"several\")",
+        "I have several different options available. Did you want one with free entrance?",
+        "I have several different options available. Did you want one with free entrance?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\";name=\"Christ's College\")",
+        "Christ's College is free to enter",
+        "Christ's College is free to enter"
+    ],
+    [
+        "attraction_inform(address=\"saint andrew's street\";postcode=\"cb23bu\")",
+        "Yes, it's located at saint andrew's street, postcode cb23bu . Is there any other information you need?",
+        "Yes, it's located at saint andrew's street, postcode cb23bu . Is there any other information you need?"
+    ],
+    [
+        "attraction_inform(area=\"the centre\";choice=\"4\";choice=\"5\";choice=\"one\";type=\"architecture sites\";type=\"churches\";type=\"old schools\")",
+        "Yes I have 5 architecture sites in the centre 4 are churches and one is old schools. Would you like information on any of them?",
+        "Yes I have 5 architecture sites in the centre 4 are churches and one is old schools. Would you like information on any of them?"
+    ],
+    [
+        "attraction_recommend(address=\"Trinity Lane\";entrancefee=\"free\";name=\"Old Schools\";postcode=\"cb21tt\";type=\"architecture\")",
+        "Old Schools is a great place for architecture. It's free to get in. It's located on Trinity Lane and their postcode is cb21tt.",
+        "Old Schools is a great place for architecture. It's free to get in. It's located on Trinity Lane and their postcode is cb21tt."
+    ],
+    [
+        "attraction_inform(area=\"in the centre\";name=\"The cambridge corn exchange\";type=\"theatre\")",
+        "The cambridge corn exchange is a theatre in the centre area. I would be happy to book tickets for you.",
+        "The cambridge corn exchange is a theatre in the centre area. I would be happy to book tickets for you."
+    ],
+    [
+        "attraction_inform(area=\"in the centre\";name=\"The cambridge corn exchange\";type=\"theatre\")@booking_inform()",
+        "The cambridge corn exchange is a theatre in the centre area. I would be happy to book tickets for you.",
+        "The cambridge corn exchange is a theatre in the centre area. I would be happy to book tickets for you."
+    ],
+    [
+        "attraction_inform(name=\"the Cambridge Corn Exchange\";phone=\"01223357851\")",
+        "The phone number for the Cambridge Corn Exchange is 01223357851. Is there anything else I can help you with today?",
+        "The phone number for the Cambridge Corn Exchange is 01223357851. Is there anything else I can help you with today?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\";name=\"Churchill College\";name=\"Clare Hall\";name=\"Magdalene\")",
+        "Magdalene and Churchill College and Clare Hall all fit your requirements and entrance here is free. Is there a specific college you would like to see?",
+        "Magdalene and Churchill College and Clare Hall all fit your requirements and entrance here is free. Is there a specific college you would like to see?"
+    ],
+    [
+        "attraction_inform(entrancefee=\"free\";name=\"Churchill College\";name=\"Clare Hall\";name=\"Magdalene\")@attraction_select()",
+        "Magdalene and Churchill College and Clare Hall all fit your requirements and entrance here is free. Is there a specific college you would like to see?",
+        "Magdalene and Churchill College and Clare Hall all fit your requirements and entrance here is free. Is there a specific college you would like to see?"
+    ],
+    [
+        "attraction_inform(name=\"Churchill College\";name=\"Magdalene College\";phone=\"01223332138\";phone=\"01223336233\")",
+        "The phone number for Churchill College is 01223336233, and the phone number for Magdalene College is 01223332138. Can I help you with anything else today?",
+        "The phone number for Churchill College is 01223336233, and the phone number for Magdalene College is 01223332138. Can I help you with anything else today?"
+    ],
+    [
+        "attraction_inform(area=\"centre\";choice=\"4\";name=\"Cambridge Arts Theatre\")",
+        "There are 4 theatres located in the centre of town. How does Cambridge Arts Theatre sound?",
+        "There are 4 theatres located in the centre of town. How does Cambridge Arts Theatre sound?"
+    ],
+    [
+        "attraction_inform(name=\"cambridge arts theatre\";phone=\"01223503333\")",
+        "The phone number for the cambridge arts theatre is 01223503333. Can I offer you any other information today?",
+        "The phone number for the cambridge arts theatre is 01223503333. Can I offer you any other information today?"
+    ]
+]

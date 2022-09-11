@@ -1,0 +1,1257 @@
+[
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake up\")",
+        "You have 2 alarms set, one for 7 am that is called Wake up.",
+        "You have 2 alarms set, one for 7 am that is called Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 alarms set, one for 7 am that is called Wake up.",
+        "You have 2 alarms set, one for 7 am that is called Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"4:30 pm\";alarm_name=\"Pick up kids\")",
+        "There is an alarm called Pick up kids that is set for 4:30 pm.",
+        "There is an alarm called Pick up kids that is set for 4:30 pm."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"New alarm\")",
+        "Please confirm that you are creating an alarm for 4:15 pm that is named New alarm.",
+        "Please confirm that you are creating an alarm for 4:15 pm that is named New alarm."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, I wasn't able to set it, is there anything else I can do for you?",
+        "Sorry, I wasn't able to set it, is there anything else I can do for you?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"New alarm\")",
+        "Please confirm that you are creating an alarm at 5:15 pm that is called New alarm.",
+        "Please confirm that you are creating an alarm at 5:15 pm that is called New alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm was has been added successfully.",
+        "The alarm was has been added successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake Up\")",
+        "You have 2 alarms including one called Wake Up set for 7 am.",
+        "You have 2 alarms including one called Wake Up set for 7 am."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake Up\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 alarms including one called Wake Up set for 7 am.",
+        "You have 2 alarms including one called Wake Up set for 7 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"Cleaning\")",
+        "Please confirm you want an alarm called Cleaning at 5:15 pm.",
+        "Please confirm you want an alarm called Cleaning at 5:15 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm is added.",
+        "The alarm is added."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake up\")",
+        "You have one alarm for 6:30 am, called Wake up.",
+        "You have one alarm for 6:30 am, called Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5 pm\";new_alarm_name=\"New alarm\")",
+        "Let me see if I got everything correctly: You'd like a New alarm created for 5 pm. Correct?",
+        "Let me see if I got everything correctly: You'd like a New alarm created for 5 pm. Correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully added your alarm.",
+        "I have successfully added your alarm."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"wake up\")",
+        "You currently have 2 alarms set, one of which goes off at 8:30 am and has the name wake up.",
+        "You currently have 2 alarms set, one of which goes off at 8:30 am and has the name wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"wake up\")@INFORM_COUNT(count=\"2\")",
+        "You currently have 2 alarms set, one of which goes off at 8:30 am and has the name wake up.",
+        "You currently have 2 alarms set, one of which goes off at 8:30 am and has the name wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"10:30 am\";alarm_name=\"shuttle to work\")",
+        "The other alarm goes off at 10:30 am and has the name shuttle to work.",
+        "The other alarm goes off at 10:30 am and has the name shuttle to work."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:30 pm\";new_alarm_name=\"new alarm\")",
+        "So you want to set up a new alarm that goes off at 4:30 pm?",
+        "So you want to set up a new alarm that goes off at 4:30 pm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have added the alarm for you.",
+        "I have added the alarm for you."
+    ],
+    [
+        "OFFER(alarm_time=\"9 am\";alarm_name=\"Wake Up\")",
+        "Sure. You have one at 9 am called Wake Up",
+        "Sure. You have one at 9 am called Wake Up"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:45 pm\";new_alarm_name=\"Grocery Run\")",
+        "Confirming your 4:45 pm Grocery Run Alarm",
+        "Confirming your 4:45 pm Grocery Run Alarm"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"Leave for Home\")",
+        "Confirming your 5:15 pm alarm named Leave for Home, yes?",
+        "Confirming your 5:15 pm alarm named Leave for Home, yes?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've created that alarm for you",
+        "I've created that alarm for you"
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"wake up\")",
+        "You have 2 alarms on now. There is one for 6 am to wake up.",
+        "You have 2 alarms on now. There is one for 6 am to wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"wake up\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 alarms on now. There is one for 6 am to wake up.",
+        "You have 2 alarms on now. There is one for 6 am to wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4 pm\";new_alarm_name=\"cleaning\")",
+        "Okay, please confirm that you want to create a 4 pm alarm called cleaning.",
+        "Okay, please confirm that you want to create a 4 pm alarm called cleaning."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I made the alarm successfully.",
+        "I made the alarm successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"Wake up\")",
+        "You set 2 alarms. One is for 8:30 am and is called Wake up.",
+        "You set 2 alarms. One is for 8:30 am and is called Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You set 2 alarms. One is for 8:30 am and is called Wake up.",
+        "You set 2 alarms. One is for 8:30 am and is called Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"Music practice\")",
+        "You want an alarm called Music practice to go off at 5:15 pm?",
+        "You want an alarm called Music practice to go off at 5:15 pm?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3 pm\";new_alarm_name=\"Grocery run\")",
+        "You want an alarm called Grocery run to go off at 3 pm?",
+        "You want an alarm called Grocery run to go off at 3 pm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your alarm has been created.",
+        "Your alarm has been created."
+    ],
+    [
+        "OFFER(alarm_time=\"9 am\";alarm_name=\"Wake Up\")",
+        "You've got 2 set up, there's one called Wake Up set for 9 am",
+        "You've got 2 set up, there's one called Wake Up set for 9 am"
+    ],
+    [
+        "OFFER(alarm_time=\"9 am\";alarm_name=\"Wake Up\")@INFORM_COUNT(count=\"2\")",
+        "You've got 2 set up, there's one called Wake Up set for 9 am",
+        "You've got 2 set up, there's one called Wake Up set for 9 am"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:30 pm\";new_alarm_name=\"Leave for home\")",
+        "Okay, just to check, are you happy for me to set up a new alarm for 4:30 pm called Leave for home?",
+        "Okay, just to check, are you happy for me to set up a new alarm for 4:30 pm called Leave for home?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, I've set it up for you",
+        "Great, I've set it up for you"
+    ],
+    [
+        "OFFER(alarm_time=\"8 am\";alarm_name=\"Wake up\")",
+        "There's an alarm called Wake up at 8 am.",
+        "There's an alarm called Wake up at 8 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:30 pm\";new_alarm_name=\"Cleaning\")",
+        "Please verify the following information: make a new alarm for 3:30 pm called Cleaning.",
+        "Please verify the following information: make a new alarm for 3:30 pm called Cleaning."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm was created.",
+        "The alarm was created."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")",
+        "You have currently set 2 alarms, one of which is titled Wake up to be sound at 6 am.",
+        "You have currently set 2 alarms, one of which is titled Wake up to be sound at 6 am."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You have currently set 2 alarms, one of which is titled Wake up to be sound at 6 am.",
+        "You have currently set 2 alarms, one of which is titled Wake up to be sound at 6 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5 pm\";new_alarm_name=\"Grocery run\")",
+        "Please confirm your request to set an alarm at 5 pm for Grocery run.",
+        "Please confirm your request to set an alarm at 5 pm for Grocery run."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully set your alarm.",
+        "I have successfully set your alarm."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake Up\")",
+        "There are currently 2 alarms set to go off. There is an alarm at 7 am with the title Wake Up.",
+        "There are currently 2 alarms set to go off. There is an alarm at 7 am with the title Wake Up."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake Up\")@INFORM_COUNT(count=\"2\")",
+        "There are currently 2 alarms set to go off. There is an alarm at 7 am with the title Wake Up.",
+        "There are currently 2 alarms set to go off. There is an alarm at 7 am with the title Wake Up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"New Alarm\")",
+        "Please verify the following. You would like to set the alarm New Alarm for 5:15 pm. Is this correct?",
+        "Please verify the following. You would like to set the alarm New Alarm for 5:15 pm. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The new alarm has been added.",
+        "The new alarm has been added."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake Up\")",
+        "You have 2 alarms set, the first is for 7 am that is named Wake Up.",
+        "You have 2 alarms set, the first is for 7 am that is named Wake Up."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake Up\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 alarms set, the first is for 7 am that is named Wake Up.",
+        "You have 2 alarms set, the first is for 7 am that is named Wake Up."
+    ],
+    [
+        "OFFER(alarm_time=\"9 am\";alarm_name=\"Shuttle to work\")",
+        "There is another alarm at 9 am with a name Shuttle to work.",
+        "There is another alarm at 9 am with a name Shuttle to work."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"Cleaning\")",
+        "Please confirm the following: Creating an alarm for 4:15 pm with the name Cleaning.",
+        "Please confirm the following: Creating an alarm for 4:15 pm with the name Cleaning."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm has been added.",
+        "The alarm has been added."
+    ],
+    [
+        "OFFER(alarm_time=\"9 am\";alarm_name=\"Wake up\")",
+        "You have a Wake up alarm for 9 am.",
+        "You have a Wake up alarm for 9 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3 pm\";new_alarm_name=\"Phone home\")",
+        "You want me to create an alarm called Phone home set for 3 pm, is that correct?",
+        "You want me to create an alarm called Phone home set for 3 pm, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your new alarm was added successfully.",
+        "Your new alarm was added successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")",
+        "You currently have 2 alarms set, one of which is set for 7:30 am and titled Wake up.",
+        "You currently have 2 alarms set, one of which is set for 7:30 am and titled Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You currently have 2 alarms set, one of which is set for 7:30 am and titled Wake up.",
+        "You currently have 2 alarms set, one of which is set for 7:30 am and titled Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:30 pm\";new_alarm_name=\"new alarm\")",
+        "Great, please verify that you need me to create an additional alarm, set to go off at 3:30 pm labeled new alarm.",
+        "Great, please verify that you need me to create an additional alarm, set to go off at 3:30 pm labeled new alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully added that alarm for you.",
+        "I have successfully added that alarm for you."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"wake up\")",
+        "Sure, you have 2 alarms set. One is 6:30 am for wake up.",
+        "Sure, you have 2 alarms set. One is 6:30 am for wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"wake up\")@INFORM_COUNT(count=\"2\")",
+        "Sure, you have 2 alarms set. One is 6:30 am for wake up.",
+        "Sure, you have 2 alarms set. One is 6:30 am for wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"shuttle to work\")",
+        "8:30 am for shuttle to work.",
+        "8:30 am for shuttle to work."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:45 pm\";new_alarm_name=\"New alarm\")",
+        "This is what I'm adding. New alarm at 3:45 pm.",
+        "This is what I'm adding. New alarm at 3:45 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Got it added for you.",
+        "Got it added for you."
+    ],
+    [
+        "OFFER(alarm_time=\"8 am\";alarm_name=\"Wake up\")",
+        "There are 2 alarms set. The first alarm is Wake up at 8 am.",
+        "There are 2 alarms set. The first alarm is Wake up at 8 am."
+    ],
+    [
+        "OFFER(alarm_time=\"8 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "There are 2 alarms set. The first alarm is Wake up at 8 am.",
+        "There are 2 alarms set. The first alarm is Wake up at 8 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"music practice\")",
+        "Please confirm: An alarm called music practice set for 4:15 pm.",
+        "Please confirm: An alarm called music practice set for 4:15 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your alarm has been set.",
+        "Your alarm has been set."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")",
+        "You currently have 2 alarms set. One with the name Wake up is set for 6 am.",
+        "You currently have 2 alarms set. One with the name Wake up is set for 6 am."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You currently have 2 alarms set. One with the name Wake up is set for 6 am.",
+        "You currently have 2 alarms set. One with the name Wake up is set for 6 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"Leave for home\")",
+        "To confirm: You'd like me to create an alarm called Leave for home with a time of 5:15 pm, correct?",
+        "To confirm: You'd like me to create an alarm called Leave for home with a time of 5:15 pm, correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I was unable to set the alarm, unfortunately. Is there anything else that I can help you with?",
+        "I was unable to set the alarm, unfortunately. Is there anything else that I can help you with?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"Grocery run\")",
+        "To confirm: You'd like me to create an alarm with the name Grocery run for 5:15 pm.",
+        "To confirm: You'd like me to create an alarm with the name Grocery run for 5:15 pm."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"Grocery run\")",
+        "To confirm: You'd like me to create am alarm with the name Grocery run for 4:15 pm, correct?",
+        "To confirm: You'd like me to create am alarm with the name Grocery run for 4:15 pm, correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I was unable to set the alarm. Is there anything else that I can help you with?",
+        "I was unable to set the alarm. Is there anything else that I can help you with?"
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")",
+        "You have an alarm set for 6 am called Wake up.",
+        "You have an alarm set for 6 am called Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:15 pm\";new_alarm_name=\"Cooking\")",
+        "Let me confirm that you want to create an alarm named Cooking for 3:15 pm.",
+        "Let me confirm that you want to create an alarm named Cooking for 3:15 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm was set successfully.",
+        "The alarm was set successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")",
+        "Currently, there are 2 alarms set up. There is the alarm Wake up set for 6 am.",
+        "Currently, there are 2 alarms set up. There is the alarm Wake up set for 6 am."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "Currently, there are 2 alarms set up. There is the alarm Wake up set for 6 am.",
+        "Currently, there are 2 alarms set up. There is the alarm Wake up set for 6 am."
+    ],
+    [
+        "OFFER(alarm_time=\"5 pm\";alarm_name=\"Pick up kids\")",
+        "You have an alarm called Pick up kids set for 5 pm.",
+        "You have an alarm called Pick up kids set for 5 pm."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4 pm\";new_alarm_name=\"Grocery run\")",
+        "Please verify the following. You would like to create the alarm Grocery run for 4 pm. Is this Correct?",
+        "Please verify the following. You would like to create the alarm Grocery run for 4 pm. Is this Correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Unfortunately, the alarm was unable to be created. Do you require any further assistance.",
+        "Unfortunately, the alarm was unable to be created. Do you require any further assistance."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"Wake up\")",
+        "Yes, you have a Wake up alarm at 8:30 am.",
+        "Yes, you have a Wake up alarm at 8:30 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"New alarm\")",
+        "Please confirm your action to set an alarm at 4:15 pm titled New alarm.",
+        "Please confirm your action to set an alarm at 4:15 pm titled New alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your alarm has been successfully set.",
+        "Your alarm has been successfully set."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake up\")",
+        "You have 2 alarms. The first is Wake up at 6:30 am.",
+        "You have 2 alarms. The first is Wake up at 6:30 am."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 alarms. The first is Wake up at 6:30 am.",
+        "You have 2 alarms. The first is Wake up at 6:30 am."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"shuttle to work\")",
+        "There is an alarm for shuttle to work at 8:30 am.",
+        "There is an alarm for shuttle to work at 8:30 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:45 pm\";new_alarm_name=\"New alarm\")",
+        "Please confirm: Adding alarm New alarm at 3:45 pm.",
+        "Please confirm: Adding alarm New alarm at 3:45 pm."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"music practice\")",
+        "Please confirm: Adding alarm music practice at 5:15 pm.",
+        "Please confirm: Adding alarm music practice at 5:15 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm has been added.",
+        "The alarm has been added."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")",
+        "You have 2 set including Wake up at 7:30 am.",
+        "You have 2 set including Wake up at 7:30 am."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 set including Wake up at 7:30 am.",
+        "You have 2 set including Wake up at 7:30 am."
+    ],
+    [
+        "OFFER(alarm_time=\"9:30 am\";alarm_name=\"Shuttle to work\")",
+        "Shuttle to work at 9:30 am.",
+        "Shuttle to work at 9:30 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4 pm\";new_alarm_name=\"New Alarm\")",
+        "Confirming New Alarm for 4 pm.",
+        "Confirming New Alarm for 4 pm."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:45 pm\";new_alarm_name=\"Cleaning\")",
+        "Confirming change name to Cleaning and time to 3:45 pm.",
+        "Confirming change name to Cleaning and time to 3:45 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "That alarm has been set.",
+        "That alarm has been set."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake up\")",
+        "There is an alarm set at 7 am named Wake up.",
+        "There is an alarm set at 7 am named Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3 pm\";new_alarm_name=\"New alarm\")",
+        "Yes creating an alarm for 3 pm with the name New alarm.",
+        "Yes creating an alarm for 3 pm with the name New alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm had been added.",
+        "The alarm had been added."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")",
+        "You have an alarm named Wake up set for 6 am.",
+        "You have an alarm named Wake up set for 6 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:45 pm\";new_alarm_name=\"New alarm\")",
+        "Please confirm the following: Create an alarm at 3:45 pm named New alarm.",
+        "Please confirm the following: Create an alarm at 3:45 pm named New alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your alarm has been added successfully.",
+        "Your alarm has been added successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake up\")",
+        "A Wake up alarm for 6:30 am",
+        "A Wake up alarm for 6:30 am"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:45 pm\";new_alarm_name=\"New alarm\")",
+        "Please confirm this: creating an alarm at 3:45 pm with name New alarm",
+        "Please confirm this: creating an alarm at 3:45 pm with name New alarm"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3 pm\";new_alarm_name=\"Cooking\")",
+        "Please confirm this: creating alarm at 3 pm with name Cooking",
+        "Please confirm this: creating alarm at 3 pm with name Cooking"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Successfully added the alarm",
+        "Successfully added the alarm"
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"wake up\")",
+        "You have an alarm that goes off at 7:30 am, for when you want to wake up.",
+        "You have an alarm that goes off at 7:30 am, for when you want to wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"3 pm\";alarm_name=\"pick up kids\")",
+        "No. You have another one that goes off at 3 pm, so you can pick up kids from school.",
+        "No. You have another one that goes off at 3 pm, so you can pick up kids from school."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"new alarm\")",
+        "You want to set up a new alarm that notifies you at 5:15 pm. Is that right?",
+        "You want to set up a new alarm that notifies you at 5:15 pm. Is that right?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"music practice\")",
+        "Okay. So this alarm will go off at 5:15 pm and tell you it's time for music practice?",
+        "Okay. So this alarm will go off at 5:15 pm and tell you it's time for music practice?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have added the new alarm.",
+        "I have added the new alarm."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake up\")",
+        "You set 2 alarms, one is at 6:30 am with Wake up.",
+        "You set 2 alarms, one is at 6:30 am with Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You set 2 alarms, one is at 6:30 am with Wake up.",
+        "You set 2 alarms, one is at 6:30 am with Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"New alarm\")",
+        "Confirm the details please, New alarm at 4:15 pm.",
+        "Confirm the details please, New alarm at 4:15 pm."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I couldn't do it , sorry. Any other help you need?",
+        "I couldn't do it , sorry. Any other help you need?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:30 pm\";new_alarm_name=\"New alarm\")",
+        "You demanded New alarm at 3:30 pm, is it right?",
+        "You demanded New alarm at 3:30 pm, is it right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Fine, its done.",
+        "Fine, its done."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake Up\")",
+        "You have an alarm at 7 am called Wake Up.",
+        "You have an alarm at 7 am called Wake Up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"Music practice\")",
+        "Okay, I'll make a new alarm for 5:15 pm called Music practice, is that right?",
+        "Okay, I'll make a new alarm for 5:15 pm called Music practice, is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've added the new alarm.",
+        "I've added the new alarm."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake Up\")",
+        "There's one for 6 am titled Wake Up.",
+        "There's one for 6 am titled Wake Up."
+    ],
+    [
+        "OFFER(alarm_time=\"8 am\";alarm_name=\"Shuttle to work\")",
+        "There's one for 8 am titled Shuttle to work.",
+        "There's one for 8 am titled Shuttle to work."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"Cleaning\")",
+        "So you want to add an alarm to 4:15 pm titled Cleaning?",
+        "So you want to add an alarm to 4:15 pm titled Cleaning?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your alarm was successful added.",
+        "Your alarm was successful added."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")",
+        "There are currently 2 alarms that are set. There is an alarm called Wake up set for 7:30 am.",
+        "There are currently 2 alarms that are set. There is an alarm called Wake up set for 7:30 am."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "There are currently 2 alarms that are set. There is an alarm called Wake up set for 7:30 am.",
+        "There are currently 2 alarms that are set. There is an alarm called Wake up set for 7:30 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:30 pm\";new_alarm_name=\"Phone home\")",
+        "Please verify the following details. You would like to set an alarm for 4:30 pm called Phone home. Is this correct?",
+        "Please verify the following details. You would like to set an alarm for 4:30 pm called Phone home. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The new alarm has been successfully created.",
+        "The new alarm has been successfully created."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"wake up\")",
+        "You have 2 alarms set. One is 6:30 am called wake up.",
+        "You have 2 alarms set. One is 6:30 am called wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"wake up\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 alarms set. One is 6:30 am called wake up.",
+        "You have 2 alarms set. One is 6:30 am called wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:45 pm\";new_alarm_name=\"new alarm\")",
+        "Please confirm: add an alarm for 3:45 pm titled new alarm",
+        "Please confirm: add an alarm for 3:45 pm titled new alarm"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I wasn't able to set an alarm. Can I do anything else for you?",
+        "I wasn't able to set an alarm. Can I do anything else for you?"
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"wake up\")",
+        "YOu have 2 alarms, and one is for 6:30 am called wake up.",
+        "YOu have 2 alarms, and one is for 6:30 am called wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"wake up\")@INFORM_COUNT(count=\"2\")",
+        "YOu have 2 alarms, and one is for 6:30 am called wake up.",
+        "YOu have 2 alarms, and one is for 6:30 am called wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:30 pm\";new_alarm_name=\"new alarm\")",
+        "Please confirm that you want to create an alarm for 4:30 pm called new alarm.",
+        "Please confirm that you want to create an alarm for 4:30 pm called new alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your alarm was added successfully.",
+        "Your alarm was added successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")",
+        "You have a Wake up alarm at 7:30 am, including this currently you have 2 alarms in total.",
+        "You have a Wake up alarm at 7:30 am, including this currently you have 2 alarms in total."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You have a Wake up alarm at 7:30 am, including this currently you have 2 alarms in total.",
+        "You have a Wake up alarm at 7:30 am, including this currently you have 2 alarms in total."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:30 pm\";new_alarm_name=\"New Alarm\")",
+        "Please confirm to add an alarm at 4:30 pm in the name New Alarm.",
+        "Please confirm to add an alarm at 4:30 pm in the name New Alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alarm was added to your list.",
+        "Alarm was added to your list."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake up\")",
+        "You have an alarm set for 6:30 am called Wake up.",
+        "You have an alarm set for 6:30 am called Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:45 pm\";new_alarm_name=\"New Alarm\")",
+        "Sure. So you would like an alarm to be created for 3:45 pm called New Alarm.",
+        "Sure. So you would like an alarm to be created for 3:45 pm called New Alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your alarm has been created.",
+        "Your alarm has been created."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake up\")",
+        "Hello! In the name Wake up, an alarm is set at 7 am and totally there are 2 alarms set currently in your clock.",
+        "Hello! In the name Wake up, an alarm is set at 7 am and totally there are 2 alarms set currently in your clock."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "Hello! In the name Wake up, an alarm is set at 7 am and totally there are 2 alarms set currently in your clock.",
+        "Hello! In the name Wake up, an alarm is set at 7 am and totally there are 2 alarms set currently in your clock."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:45 pm\";new_alarm_name=\"Phone home\")",
+        "Okay! Can you affirm me that you wish to create a new alarm in the name Phone home at 4:45 pm. Is that correct?",
+        "Okay! Can you affirm me that you wish to create a new alarm in the name Phone home at 4:45 pm. Is that correct?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:30 pm\";new_alarm_name=\"Phone home\")",
+        "Okay! I've made the changes. Please confirm me that you wish to create a new alarm in the name Phone home at 3:30 pm, right?",
+        "Okay! I've made the changes. Please confirm me that you wish to create a new alarm in the name Phone home at 3:30 pm, right?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:30 pm\";new_alarm_name=\"Leave for home\")",
+        "Yup! I can do that for you. I've modified your alarm name to be Leave for home and is set at 3:30 pm. Is that okay for you?",
+        "Yup! I can do that for you. I've modified your alarm name to be Leave for home and is set at 3:30 pm. Is that okay for you?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your new alarm is added to your clock successfully and you will be reminded of at that time.",
+        "Your new alarm is added to your clock successfully and you will be reminded of at that time."
+    ],
+    [
+        "OFFER(alarm_time=\"9 am\";alarm_name=\"Wake up\")",
+        "There is an alarm with the name Wake up that is set for 9 am.",
+        "There is an alarm with the name Wake up that is set for 9 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4 pm\";new_alarm_name=\"New alarm\")",
+        "Ok, create alarm for 4 pm with the name New alarm. Is that correct?",
+        "Ok, create alarm for 4 pm with the name New alarm. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alarm was added successfully.",
+        "Alarm was added successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"9 am\";alarm_name=\"Wake up\")",
+        "Yes, you have a Wake up alarm for the time 9 am.",
+        "Yes, you have a Wake up alarm for the time 9 am."
+    ],
+    [
+        "OFFER(alarm_time=\"4:30 pm\";alarm_name=\"Pick up kids\")",
+        "Yes, one more that is for 4:30 pm in the name Pick up kids.",
+        "Yes, one more that is for 4:30 pm in the name Pick up kids."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"Music Practice\")",
+        "need your confirmation to set an alarm at 5:15 pm in the name Music Practice.",
+        "need your confirmation to set an alarm at 5:15 pm in the name Music Practice."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "alarm was added to your list successfully.",
+        "alarm was added to your list successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")",
+        "There are currently 2 set. The first is called Wake up and its set at 6 am.",
+        "There are currently 2 set. The first is called Wake up and its set at 6 am."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "There are currently 2 set. The first is called Wake up and its set at 6 am.",
+        "There are currently 2 set. The first is called Wake up and its set at 6 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:30 pm\";new_alarm_name=\"music practice\")",
+        "Sure thing. You'd like me to create an alarm to go off at 4:30 pm titled music practice?",
+        "Sure thing. You'd like me to create an alarm to go off at 4:30 pm titled music practice?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "It's been added.",
+        "It's been added."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake Up\")",
+        "There is an alarm for 6 am with name Wake Up.",
+        "There is an alarm for 6 am with name Wake Up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:45 pm\";new_alarm_name=\"Music Practice\")",
+        "Please review the details so that i will confirm. Creating an alarm at 4:45 pm with name Music Practice.",
+        "Please review the details so that i will confirm. Creating an alarm at 4:45 pm with name Music Practice."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alarm created successfully.",
+        "Alarm created successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"8 am\";alarm_name=\"Wake up\")",
+        "Sure, you just have one alarm set at 8 am for Wake up.",
+        "Sure, you just have one alarm set at 8 am for Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:30 pm\";new_alarm_name=\"New alarm\")",
+        "Ok, I'm creating an alarm at 4:30 pm with the name New alarm. Is that right?",
+        "Ok, I'm creating an alarm at 4:30 pm with the name New alarm. Is that right?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:45 pm\";new_alarm_name=\"Cooking\")",
+        "Sure. To confirm, you'd like to set an alarm for Cooking at 4:45 pm. Is that right?",
+        "Sure. To confirm, you'd like to set an alarm for Cooking at 4:45 pm. Is that right?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Hm, sorry, I couldn't set that alarm for some reason. Is there something else I could help you with?",
+        "Hm, sorry, I couldn't set that alarm for some reason. Is there something else I could help you with?"
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake up\")",
+        "There is a Wake up alarm for 7 am.",
+        "There is a Wake up alarm for 7 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5 pm\";new_alarm_name=\"New alarm\")",
+        "Please confirm: add a alarm named New alarm for 5 pm.",
+        "Please confirm: add a alarm named New alarm for 5 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm has been successfully added.",
+        "The alarm has been successfully added."
+    ],
+    [
+        "OFFER(alarm_time=\"8 am\";alarm_name=\"Wake Up\")",
+        "I found an alarm titled Wake Up and is set for 8 am.",
+        "I found an alarm titled Wake Up and is set for 8 am."
+    ],
+    [
+        "OFFER(alarm_time=\"3 pm\";alarm_name=\"Pick up kids\")",
+        "There is an alarm that has a name of Pick up kids and it has a time of 3 pm.",
+        "There is an alarm that has a name of Pick up kids and it has a time of 3 pm."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:30 pm\";new_alarm_name=\"Music Practice\")",
+        "Making an alarm entry for 3:30 pm and giving it a name of Music Practice. Would you make sure this is correct?",
+        "Making an alarm entry for 3:30 pm and giving it a name of Music Practice. Would you make sure this is correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I apologize as I wasn't able to create the new alarm. Would you like for me to do anything else?",
+        "I apologize as I wasn't able to create the new alarm. Would you like for me to do anything else?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:15 pm\";new_alarm_name=\"Leave for home\")",
+        "An alarm creation with a name of Leave for home has been made for 3:15 pm. Is that correct?",
+        "An alarm creation with a name of Leave for home has been made for 3:15 pm. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm has been added without any problems.",
+        "The alarm has been added without any problems."
+    ],
+    [
+        "OFFER(alarm_time=\"9 am\";alarm_name=\"Wake up\")",
+        "Yes, you have an alarm for 9 am in the name of Wake up.",
+        "Yes, you have an alarm for 9 am in the name of Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"3 pm\";alarm_name=\"Pick up kids\")",
+        "You have an another alarm in the name of Pick up kids at 3 pm.",
+        "You have an another alarm in the name of Pick up kids at 3 pm."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5 pm\";new_alarm_name=\"new alarm\")",
+        "I need your final confirmation to set an alarm at 5 pm in the name new alarm.",
+        "I need your final confirmation to set an alarm at 5 pm in the name new alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have created the new alarm successfully as you requested.",
+        "I have created the new alarm successfully as you requested."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake up\")",
+        "Alarm is set at 7 am in the name of Wake up.",
+        "Alarm is set at 7 am in the name of Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"8 am\";alarm_name=\"Workout\")",
+        "Alarm is set at 8 am in the name of Workout.",
+        "Alarm is set at 8 am in the name of Workout."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"New alarm\")",
+        "Kindly ensure that, alarm has been included at 5:15 pm in the name of New alarm.",
+        "Kindly ensure that, alarm has been included at 5:15 pm in the name of New alarm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alarm has been included successfully.",
+        "Alarm has been included successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"9 am\";alarm_name=\"Wake up\")",
+        "You have an alarm named Wake up for 9 am.",
+        "You have an alarm named Wake up for 9 am."
+    ],
+    [
+        "OFFER(alarm_time=\"4:30 pm\";alarm_name=\"Pick up kids\")",
+        "You have an alarm named Pick up kids set for 4:30 pm.",
+        "You have an alarm named Pick up kids set for 4:30 pm."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5 pm\";new_alarm_name=\"New alarm\")",
+        "I am creating an alarm named New alarm for 5 pm. Is this correct?",
+        "I am creating an alarm named New alarm for 5 pm. Is this correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry but I couldn't set the alarm. Is there anything else I can help you with?",
+        "Sorry but I couldn't set the alarm. Is there anything else I can help you with?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3 pm\";new_alarm_name=\"New alarm\")",
+        "Confirming that you want me to create a New alarm for 3 pm?",
+        "Confirming that you want me to create a New alarm for 3 pm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully added your alarm.",
+        "I have successfully added your alarm."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")",
+        "There's one for 6 am and it's called Wake up.",
+        "There's one for 6 am and it's called Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"Phone home\")",
+        "I can easily do that if you just confirm me the procedure. You want me to add another alarm for 4:15 pm and it must be called Phone home.",
+        "I can easily do that if you just confirm me the procedure. You want me to add another alarm for 4:15 pm and it must be called Phone home."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:30 pm\";new_alarm_name=\"Cleaning\")",
+        "Okay, confirm the following please. I'm about to create an alarm at 4:30 pm and name it Cleaning.",
+        "Okay, confirm the following please. I'm about to create an alarm at 4:30 pm and name it Cleaning."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "It's done.",
+        "It's done."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"wake up\")",
+        "There's one called wake up for 7:30 am.",
+        "There's one called wake up for 7:30 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3 pm\";new_alarm_name=\"Phone home\")",
+        "Could you confirm that you want to create an alarm at 3 pm called Phone home?",
+        "Could you confirm that you want to create an alarm at 3 pm called Phone home?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully added the alarm.",
+        "I have successfully added the alarm."
+    ],
+    [
+        "OFFER(alarm_time=\"8 am\";alarm_name=\"Wake Up\")",
+        "At this time, you have 2 alarms that are ongoing. The first is an 8 am alarm called Wake Up",
+        "At this time, you have 2 alarms that are ongoing. The first is an 8 am alarm called Wake Up"
+    ],
+    [
+        "OFFER(alarm_time=\"8 am\";alarm_name=\"Wake Up\")@INFORM_COUNT(count=\"2\")",
+        "At this time, you have 2 alarms that are ongoing. The first is an 8 am alarm called Wake Up",
+        "At this time, you have 2 alarms that are ongoing. The first is an 8 am alarm called Wake Up"
+    ],
+    [
+        "OFFER(alarm_time=\"10 am\";alarm_name=\"Shuttle to Work\")",
+        "Sure. You have a 10 am alarm that is called Shuttle to Work",
+        "Sure. You have a 10 am alarm that is called Shuttle to Work"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4 pm\";new_alarm_name=\"new alarm\")",
+        "To confirm, you would like a new alarm set for 4 pm.",
+        "To confirm, you would like a new alarm set for 4 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your alarm has been created",
+        "Your alarm has been created"
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")",
+        "At this time you have 2 alarms that are active. One is set for 6 am and has a title of Wake up.",
+        "At this time you have 2 alarms that are active. One is set for 6 am and has a title of Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "At this time you have 2 alarms that are active. One is set for 6 am and has a title of Wake up.",
+        "At this time you have 2 alarms that are active. One is set for 6 am and has a title of Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"Grocery Run\")",
+        "Please verify: A new alarm creation for 4:15 pm and is titled Grocery Run.",
+        "Please verify: A new alarm creation for 4:15 pm and is titled Grocery Run."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm creation was successful.",
+        "The alarm creation was successful."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake Up\")",
+        "There is an alarm set for 6:30 am with the name Wake Up.",
+        "There is an alarm set for 6:30 am with the name Wake Up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:30 pm\";new_alarm_name=\"New alarm\")",
+        "You would like to set an alarm for 3:30 pm with the name New alarm, is this accurate?",
+        "You would like to set an alarm for 3:30 pm with the name New alarm, is this accurate?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"Cleaning\")",
+        "You would like to create an alarm for 5:15 pm with the name Cleaning, is that correct?",
+        "You would like to create an alarm for 5:15 pm with the name Cleaning, is that correct?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"Music practice\")",
+        "You would like to create an alarm at 5:15 pm with the name Music practice, is that correct?",
+        "You would like to create an alarm at 5:15 pm with the name Music practice, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm has been added successfully.",
+        "The alarm has been added successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"Wake up\")",
+        "Currently set you have 2 alarms.One is for 8:30 am called Wake up.",
+        "Currently set you have 2 alarms.One is for 8:30 am called Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "Currently set you have 2 alarms.One is for 8:30 am called Wake up.",
+        "Currently set you have 2 alarms.One is for 8:30 am called Wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"9:30 am\";alarm_name=\"Workout\")",
+        "For 9:30 am called Workout.",
+        "For 9:30 am called Workout."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3 pm\";new_alarm_name=\"New alarm\")",
+        "Create an alarm at 3 pm called New alarm.Is that okay?",
+        "Create an alarm at 3 pm called New alarm.Is that okay?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I am sorry but your request could not be made.What else can I do?",
+        "I am sorry but your request could not be made.What else can I do?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:30 pm\";new_alarm_name=\"New alarm\")",
+        "Create an alarm at 3:30 pm called New alarm.I'm right?",
+        "Create an alarm at 3:30 pm called New alarm.I'm right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm was added.",
+        "The alarm was added."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"Wake up\")",
+        "There is an alarm named Wake up scheduled for for 8:30 am.",
+        "There is an alarm named Wake up scheduled for for 8:30 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3:30 pm\";new_alarm_name=\"Phone home\")",
+        "Please confirm the following details: Creating an alarm at 3:30 pm with name Phone home.",
+        "Please confirm the following details: Creating an alarm at 3:30 pm with name Phone home."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, I wasn't able to set that alarm. Anything else I can help with?",
+        "Sorry, I wasn't able to set that alarm. Anything else I can help with?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3 pm\";new_alarm_name=\"Phone home\")",
+        "Please confirm the following details: Creating an alarm at 3 pm with name Phone home.",
+        "Please confirm the following details: Creating an alarm at 3 pm with name Phone home."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"3 pm\";new_alarm_name=\"Music practice\")",
+        "Please confirm the following details: Creating an alarm at 3 pm with name Music practice.",
+        "Please confirm the following details: Creating an alarm at 3 pm with name Music practice."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alarm added successfully.",
+        "Alarm added successfully."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake up\")",
+        "You have a Wake up alarm at 6:30 am.",
+        "You have a Wake up alarm at 6:30 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:45 pm\";new_alarm_name=\"phone home\")",
+        "So you want me to create an alarm at 4:45 pm called phone home.",
+        "So you want me to create an alarm at 4:45 pm called phone home."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm has been added.",
+        "The alarm has been added."
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")",
+        "You have 2 active alarms at this time. One alarm is titled Wake up and it is set for 7:30 am",
+        "You have 2 active alarms at this time. One alarm is titled Wake up and it is set for 7:30 am"
+    ],
+    [
+        "OFFER(alarm_time=\"7:30 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 active alarms at this time. One alarm is titled Wake up and it is set for 7:30 am",
+        "You have 2 active alarms at this time. One alarm is titled Wake up and it is set for 7:30 am"
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"Workout\")",
+        "You also have an alarm titled Workout that is set for 8:30 am",
+        "You also have an alarm titled Workout that is set for 8:30 am"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:45 pm\";new_alarm_name=\"Music practice\")",
+        "Okay, you would like to add a new alarm for 4:45 pm with the name Music practice, correct?",
+        "Okay, you would like to add a new alarm for 4:45 pm with the name Music practice, correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "that alarm has been created.",
+        "that alarm has been created."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake Up\")",
+        "There are 2 alarms which you have set currently, with one of the alarms being at 6:30 am, and it is called Wake Up.",
+        "There are 2 alarms which you have set currently, with one of the alarms being at 6:30 am, and it is called Wake Up."
+    ],
+    [
+        "OFFER(alarm_time=\"6:30 am\";alarm_name=\"Wake Up\")@INFORM_COUNT(count=\"2\")",
+        "There are 2 alarms which you have set currently, with one of the alarms being at 6:30 am, and it is called Wake Up.",
+        "There are 2 alarms which you have set currently, with one of the alarms being at 6:30 am, and it is called Wake Up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:45 pm\";new_alarm_name=\"Grocery run\")",
+        "Can you please confirm that you want to create an alarm called Grocery run for 4:45 pm?",
+        "Can you please confirm that you want to create an alarm called Grocery run for 4:45 pm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your requested alarm has been added",
+        "Your requested alarm has been added"
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")",
+        "Sure, you have 2 alarms set right now. One of them is your Wake up alarm at 6 am.",
+        "Sure, you have 2 alarms set right now. One of them is your Wake up alarm at 6 am."
+    ],
+    [
+        "OFFER(alarm_time=\"6 am\";alarm_name=\"Wake up\")@INFORM_COUNT(count=\"2\")",
+        "Sure, you have 2 alarms set right now. One of them is your Wake up alarm at 6 am.",
+        "Sure, you have 2 alarms set right now. One of them is your Wake up alarm at 6 am."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"New alarm\")",
+        "No problem. To confirm, you want to set a New alarm for 4:15 pm, is that right?",
+        "No problem. To confirm, you want to set a New alarm for 4:15 pm, is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, the alarm has been added.",
+        "Ok, the alarm has been added."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"wake up\")",
+        "You have 2 alarms set. One is for 8:30 am titled wake up.",
+        "You have 2 alarms set. One is for 8:30 am titled wake up."
+    ],
+    [
+        "OFFER(alarm_time=\"8:30 am\";alarm_name=\"wake up\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 alarms set. One is for 8:30 am titled wake up.",
+        "You have 2 alarms set. One is for 8:30 am titled wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"5:15 pm\";new_alarm_name=\"new alarm\")",
+        "Okay, you want an alarm created at 5:15 pm titled new alarm, right?",
+        "Okay, you want an alarm created at 5:15 pm titled new alarm, right?"
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4 pm\";new_alarm_name=\"cooking\")",
+        "Okay, creating a new alarm at 4 pm titled cooking, right?",
+        "Okay, creating a new alarm at 4 pm titled cooking, right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully created the alarm.",
+        "I have successfully created the alarm."
+    ],
+    [
+        "OFFER(alarm_time=\"7 am\";alarm_name=\"Wake up\")",
+        "You have an alarm for 7 am with the name Wake up.",
+        "You have an alarm for 7 am with the name Wake up."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:45 pm\";new_alarm_name=\"New Alarm\")",
+        "Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm.",
+        "Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm."
+    ],
+    [
+        "CONFIRM(new_alarm_time=\"4:15 pm\";new_alarm_name=\"Cooking\")",
+        "Please confirm that you would like me to create an alarm for 4:15 pm with the name Cooking.",
+        "Please confirm that you would like me to create an alarm for 4:15 pm with the name Cooking."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The alarm Cooking was successfully added.",
+        "The alarm Cooking was successfully added."
+    ]
+]

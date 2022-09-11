@@ -1,0 +1,31 @@
+attraction_inform ( address = "Cambridge Passenger Cruisers" ; address = "Jubilee House" ; name = "Riverboat Georgina") & I have one in that area. It's called the Riverboat Georgina. It's located at Cambridge Passenger Cruisers, Jubilee House. Would you like their phone number for more information?
+attraction_inform ( entrancefee = "do not have the entrance fee in our database at this time" ; phone = "01223902091") & Their phone number is 01223902091 and we do not have the entrance fee in our database at this time.
+attraction_inform ( area = "east" ; name = "Cherry Hinton Hall and Grounds") & Cherry Hinton Hall and Grounds is on the east side of town, would you like their phone number?
+attraction_inform ( address = "Cherry Hinton Road" ; postcode = "cb18dw") & Yes, it's Cherry Hinton Road, cb18dw.
+attraction_inform ( entrancefee = "the entrance fee isn't listed") & I'm sorry, the entrance fee isn't listed in my system.
+attraction_inform ( choice = "6") & We have 6 nightclubs. Any preference on entrance fee?
+attraction_inform ( entrancefee = "4 pounds" ; name = "The Soul Tree Nightclub") & The Soul Tree Nightclub costs 4 pounds. The others are a bit more expensive.
+attraction_inform ( phone = "01223477900") & Yes, it is 01223477900.
+attraction_inform ( postcode = "cb23qf") & The Soul Tree is in postcode cb23qf. Can I help with anything else today?
+attraction_inform ( address = "98 King Street cb11ln" ; choice = "11" ; entrancefee = "free" ; name = "Broughton House Gallery" ; type = "museums") & Yes, there are 11 museums. I'd recommend Broughton House Gallery. It's at 98 King Street cb11ln and has free entrance. Would that work for you?
+attraction_inform ( name = "The Broughton House Gallery" ; phone = "01223314960") & Certainly. The Broughton House Gallery's phone number is 01223314960. Is there anything else I can help you with today?
+attraction_inform ( address = "Market Street" ; area = "centre" ; entrancefee = "free to enter" ; name = "Holy Trinity Church" ; postcode = "cb23nz") & Absolutely. Holy Trinity Church is on Market Street in the centre of town. Their postcode is cb23nz and is free to enter. Would you need their phone number?
+attraction_inform ( type = "architecture") & It is an architecture attraction.
+attraction_inform ( address = "castle street" ; area = "west" ; entrancefee = "entrance is free") & Absolutely! The entrance is free! It is located in the west. The address is castle street!
+attraction_inform ( area = "the centre" ; choice = "5" ; name = "Ballare" ; type = "nightclubs") & There are 5 nightclubs in the centre. Ballare is one of them. Would that work for you?
+attraction_inform ( entrancefee = "5 pounds") & The fee is 5 pounds.
+attraction_inform ( choice = "a lot" ; type = "architecture") & We have a lot of interesting architecture here in Cambridge. Is there a particular area of town you're interested in?
+attraction_recommend ( area = "the centre" ; choice = "a few" ; entrancefee = "free" ; name = "All Saint's Church" ; name = "Holy Trinity Church") & Here are a few suggestions from the centre: All Saint's Church and Holy Trinity Church, both are free to visit.
+attraction_inform ( postcode = "cb23nz") & Yes, their postcode is cb23nz. Can I get any other information for you?
+attraction_inform ( area = "west" ; choice = "13" ; type = "college") & There are 13 attractions in the west part of town. Would you like to visit a college?
+attraction_inform ( choice = "several" ; name = "Whale of a Time" ; type = "entertainment" ; type = "museums") & I have several museums to choose from. I also have an entertainment attraction called Whale of a Time. Can I interest you in one of those?
+attraction_inform ( choice = "several" ; name = "Whale of a Time" ; type = "entertainment" ; type = "museums") & I have several museums to choose from. I also have an entertainment attraction called Whale of a Time. Can I interest you in one of those?
+attraction_inform ( address = "bar hill" ; address = "unit 8" ; address = "viking way" ; phone = "01954781018" ; postcode = "cb238el") & Sure, they're located at unit 8, viking way, bar hill, postcode cb238el, and their phone number is 01954781018. May I help with anything else?
+attraction_inform ( area = "west" ; choice = "many" ; type = "colleges" ; type = "museums") & Sure, there are many colleges and museums in the west, there is also some entertainment. Do you have a preference on any of these?
+attraction_inform ( area = "west" ; choice = "many" ; type = "colleges" ; type = "museums") & Sure, there are many colleges and museums in the west, there is also some entertainment. Do you have a preference on any of these?
+attraction_recommend ( entrancefee = "free" ; name = "People's Portraits Exhibition at Girton College" ; postcode = "cb3ojg") & The one I recommend is the People's Portraits Exhibition at Girton College. It's free to get in. Their postcode is cb3ojg. Is there any other information I can provide?
+attraction_inform ( address = "gwydir street" ; address = "no. 5 dale's brewery" ; name = "Williams art and antiques") & Williams art and antiques is at gwydir street, no. 5 dale's brewery. Would you like me to book tickets?
+attraction_inform ( address = "gwydir street" ; address = "no. 5 dale's brewery" ; name = "Williams art and antiques") & Williams art and antiques is at gwydir street, no. 5 dale's brewery. Would you like me to book tickets?
+attraction_inform ( area = "centre" ; postcode = "cb12lj") & It is in the centre and the postcode is cb12lj. Is there anything else you need help with today?
+attraction_inform ( area = "east side" ; choice = "two") & There are two entertainment attractions on the east side. Would you like more information?
+attraction_inform ( address = "Cherry Hinton Road" ; name = "Cherry Hinton Hall and Grounds" ; phone = "01223446104" ; postcode = "cb18dw") & Sure. Cherry Hinton Hall and Grounds can be reached at 01223446104. It is on Cherry Hinton Road, postcode cb18dw. Can I help you with anything else today?

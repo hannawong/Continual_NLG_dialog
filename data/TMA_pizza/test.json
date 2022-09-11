@@ -1,0 +1,862 @@
+[
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_crust_accept=\"thin crust\";name_pizza_accept=\"pepperoni\")",
+        "ok, you are ordering 4 large thin crust pizzas, 2 cheese, 2 pepperoni, is that correct?",
+        "ok, you are ordering 4 large thin crust pizzas, 2 cheese, 2 pepperoni, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\")",
+        "what can i help you with today? ok i can do that for you. how many? ok thats 2 small pizzas right?",
+        "what can i help you with today? ok i can do that for you. how many? ok thats 2 small pizzas right?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\";name_pizza=\"meat lover\";type_crust=\"thin crust\")",
+        "thats 2 small pizzas, 1 check bbq, 1 meat lover, both with thin crust is that right?",
+        "thats 2 small pizzas, 1 check bbq, 1 meat lover, both with thin crust is that right?"
+    ],
+    [
+        "pizza_ordering(name_store=\"Bella Luna pizzeria\")",
+        "correct, it will be ordered from Bella Luna pizzeria.",
+        "correct, it will be ordered from Bella Luna pizzeria."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";name_pizza_accept=\"meat lover\";type_crust_accept=\"thin crust\")",
+        "ok let me get your totals for you. ok so thats 2 small pizzas, 1 chicken bbq, 1 meat lover, both with thin crust your total will be 30 dollars.",
+        "ok let me get your totals for you. ok so thats 2 small pizzas, 1 chicken bbq, 1 meat lover, both with thin crust your total will be 30 dollars."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna pizzeria\")",
+        "wonderful, your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup shortly.",
+        "wonderful, your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup shortly."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_topping=\"pepperoni\";name_pizza=\"veggie lover\";type_topping_accept=\"green peppers and mushrooms\";name_pizza_accept=\"plain\";preference_accept=\"extra cheese\")",
+        "four small pizzas, one pizza with just mushrooms, one veggie lover with green peppers and mushrooms, one with just pepperoni, and the last plain with extra cheese.",
+        "four small pizzas, one pizza with just mushrooms, one veggie lover with green peppers and mushrooms, one with just pepperoni, and the last plain with extra cheese."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna pizzeria\")",
+        "ok. Your order will be ready at your local Bella Luna pizzeria shortly.",
+        "ok. Your order will be ready at your local Bella Luna pizzeria shortly."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_topping_accept=\"black olives\";type_crust_accept=\"thick crust\")",
+        "So that's two large pizzas, one mushrooms and onions, one green peppers and black olives, both thick crust for a total of $48.99.",
+        "So that's two large pizzas, one mushrooms and onions, one green peppers and black olives, both thick crust for a total of $48.99."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";name_pizza_accept=\"thin crust pizzas\";preference_accept=\"extra cheese\")",
+        "ok so 2 medium thin crust pizzas with extra cheese, did i get it right?",
+        "ok so 2 medium thin crust pizzas with extra cheese, did i get it right?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"bela luna's\";location_store_accept=\"700 lincoln road.\")",
+        "bela luna's is located at 700 lincoln road.",
+        "bela luna's is located at 700 lincoln road."
+    ],
+    [
+        "pizza_ordering(type_crust=\"regular crust on\")",
+        "got it. Did you want regular crust on those?",
+        "got it. Did you want regular crust on those?"
+    ],
+    [
+        "pizza_ordering(name_store=\"bella luna\")",
+        "hi, how can i help you today? sure, what did you want from bella luna.",
+        "hi, how can i help you today? sure, what did you want from bella luna."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";type_crust_accept=\"thin\";name_pizza_accept=\"margarita style pizza\")",
+        "got it. You want 1 medium thin crust chicago style pizza and 1 medium margarita style pizza on thin crust.",
+        "got it. You want 1 medium thin crust chicago style pizza and 1 medium margarita style pizza on thin crust."
+    ],
+    [
+        "pizza_ordering(name_pizza=\"the meat lovers\")",
+        "the most popular is the meat lovers.",
+        "the most popular is the meat lovers."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\")",
+        "ok, 4 small pizzas. what toppings would you like?",
+        "ok, 4 small pizzas. what toppings would you like?"
+    ],
+    [
+        "pizza_ordering(type_crust_accept=\"thick crust\")",
+        "did you say thick crust?",
+        "did you say thick crust?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";name_pizza_accept=\"cheese pizza\")",
+        "can you repeat what size you would like? thank you. so 5 small pizzas, 1 five cheese blend, one meat lovers, one hawaiian and one cheese pizza.",
+        "can you repeat what size you would like? thank you. so 5 small pizzas, 1 five cheese blend, one meat lovers, one hawaiian and one cheese pizza."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bela Luna's\")",
+        "your pizzas will be ready for pickup at Bela Luna's soon.",
+        "your pizzas will be ready for pickup at Bela Luna's soon."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_crust_accept=\"thin crust pizzas\";name_pizza_accept=\"meatlovers\")",
+        "ok, you are ordering 2 small thin crust pizzas, one chicken bbq and one meatlovers, is that correct?",
+        "ok, you are ordering 2 small thin crust pizzas, one chicken bbq and one meatlovers, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium pizzas\";preference_accept=\"extra cheese\";name_pizza_accept=\"meatball and pepperoni\")",
+        "ok, let me repeat your order. 4 medium pizzas with extra cheese, 1 ham and pineapple, 1 chicken bbq with jalapenos, 1 broccoli and green peppers, and one meatball and pepperoni, is that correct?",
+        "ok, let me repeat your order. 4 medium pizzas with extra cheese, 1 ham and pineapple, 1 chicken bbq with jalapenos, 1 broccoli and green peppers, and one meatball and pepperoni, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_crust_accept=\"thin crust\";name_pizza_accept=\"meat lovers\")",
+        "ok. so the order is 3 small pizzas with thin crust, all meat lovers.",
+        "ok. so the order is 3 small pizzas with thin crust, all meat lovers."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";type_topping_accept=\"chicken\";type_crust_accept=\"gluten free crust\")",
+        "ok, your order of 2 medium pizzas both with onions, garlic and chicken, both with gluten free crust comes out to $26.66.",
+        "ok, your order of 2 medium pizzas both with onions, garlic and chicken, both with gluten free crust comes out to $26.66."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"large\";name_pizza=\"meatlovers\";type_topping=\"mushrooms\")",
+        "ok, you are ordering 3 large pizzas, 1 veggie lovers, 1 meatlovers, and 1 pepperoni and mushrooms, is that correct?",
+        "ok, you are ordering 3 large pizzas, 1 veggie lovers, 1 meatlovers, and 1 pepperoni and mushrooms, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_crust_accept=\"thin crust\";name_pizza_accept=\"meat lovers\";type_topping_accept=\"mushrooms\")",
+        "sure, 3 large thin crust pizzas, 1 veggie lovers, 1 meat lovers, 1 pepperoni and mushrooms.",
+        "sure, 3 large thin crust pizzas, 1 veggie lovers, 1 meat lovers, 1 pepperoni and mushrooms."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"large\")",
+        "sure, 4 large pizzas it is. what did you want on those?",
+        "sure, 4 large pizzas it is. what did you want on those?"
+    ],
+    [
+        "pizza_ordering(type_topping=\"pineapple\")",
+        "did you want pineapple on all 4?",
+        "did you want pineapple on all 4?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";name_pizza_accept=\"pepperoni\";preference_accept=\"extra cheese\")",
+        "you said 2 small pizzas, pepperoni with extra cheese on both.",
+        "you said 2 small pizzas, pepperoni with extra cheese on both."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"bella luna's\")",
+        "sorry, i checked bella luna's menu and don't see either pizza type. bummer. did you want something else?",
+        "sorry, i checked bella luna's menu and don't see either pizza type. bummer. did you want something else?"
+    ],
+    [
+        "pizza_ordering(name_pizza=\"meat lovers\")",
+        "2 meat lovers?",
+        "2 meat lovers?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";name_pizza_accept=\"meatlovers pizza\";type_crust_accept=\"pretzel crust\")",
+        "so i have 2 medium meatlovers pizza, with pretzel crust, is this correct?",
+        "so i have 2 medium meatlovers pizza, with pretzel crust, is this correct?"
+    ],
+    [
+        "pizza_ordering(type_topping=\"bbq chicken\")",
+        "did you want bbq chicken for all 3?",
+        "did you want bbq chicken for all 3?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";type_crust_accept=\"gluten free\";type_topping_accept=\"bbq chicken\";name_pizza_accept=\"supreme\")",
+        "ok, you are ordering 3 medium gluten free pizzas, 1 bbq chicken, 1 veggie lovers, and 1 supreme, is that correct?",
+        "ok, you are ordering 3 medium gluten free pizzas, 1 bbq chicken, 1 veggie lovers, and 1 supreme, is that correct?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna\";location_store_accept=\"123 main street\")",
+        "sure, you are ordering from Bella Luna, located on 123 main street and your order cost $60.",
+        "sure, you are ordering from Bella Luna, located on 123 main street and your order cost $60."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"medium\";preference_accept=\"extra cheese\";name_pizza_accept=\"peppers, olives and ham\")",
+        "So that's 2 medium extra cheese pizzas one with pepperoni and canadian bacon, the other with peppers, olives and ham for $34.99, right?",
+        "So that's 2 medium extra cheese pizzas one with pepperoni and canadian bacon, the other with peppers, olives and ham for $34.99, right?"
+    ],
+    [
+        "pizza_ordering(type_topping=\"shrimp\")",
+        "sorry, bella luna does not carry buffalo chicken or shrimp.",
+        "sorry, bella luna does not carry buffalo chicken or shrimp."
+    ],
+    [
+        "pizza_ordering(type_topping=\"ham\")",
+        "did you want some other options? they have pepperoni, prosciutto, sausage, italian sausage, chicken, and ham.",
+        "did you want some other options? they have pepperoni, prosciutto, sausage, italian sausage, chicken, and ham."
+    ],
+    [
+        "pizza_ordering(type_topping_reject=\"buffalo chicken\")",
+        "and then what did you want instead of buffalo chicken?",
+        "and then what did you want instead of buffalo chicken?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_topping_accept=\"pepperoni\";name_pizza_accept=\"chicken bbq is\")",
+        "sure, let me add that. ok, i have 3 small pizzas, 2 pepperoni and 1 chicken bbq is that correct?",
+        "sure, let me add that. ok, i have 3 small pizzas, 2 pepperoni and 1 chicken bbq is that correct?"
+    ],
+    [
+        "pizza_ordering(type_topping=\"pineapple\";name_pizza=\"hawaiian\";name_store=\"bella luna's\")",
+        "Alright, just the one? Some people add onions but a hawaiian is ham and pineapple at bella luna's.",
+        "Alright, just the one? Some people add onions but a hawaiian is ham and pineapple at bella luna's."
+    ],
+    [
+        "pizza_ordering(type_topping_reject=\"korean bbq\")",
+        "sorry, bella luna does not have a korean bbq option. did you want other toppings?",
+        "sorry, bella luna does not have a korean bbq option. did you want other toppings?"
+    ],
+    [
+        "pizza_ordering(type_crust=\"thick crust\")",
+        "would you like thick crust on both pizzas?",
+        "would you like thick crust on both pizzas?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_topping_accept=\"black olives\";type_crust_accept=\"thick crust\")",
+        "so i have 2 large pizzas, one pepperoni, bacon and sausage, dried tomatoes, pepperoni and black olives, thick crust on both. is this correct?",
+        "so i have 2 large pizzas, one pepperoni, bacon and sausage, dried tomatoes, pepperoni and black olives, thick crust on both. is this correct?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"bella luna's\")",
+        "your pizzas will be ready for pickup at bella luna's in 40 minutes.",
+        "your pizzas will be ready for pickup at bella luna's in 40 minutes."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_topping_accept=\"black olives\";preference_accept=\"Extra cheese\")",
+        "Ok, so 2 small pizzas. On the first: pepperoni and sausage. On the second: pepperoni and black olives. Extra cheese on both.",
+        "Ok, so 2 small pizzas. On the first: pepperoni and sausage. On the second: pepperoni and black olives. Extra cheese on both."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bela Luna's\")",
+        "Your pizzas will be ready for pickup at Bela Luna's soon.",
+        "Your pizzas will be ready for pickup at Bela Luna's soon."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";name_pizza_accept=\"pepperoni and sausage pizzas\")",
+        "got it, you are ordering 3 large pepperoni and sausage pizzas, is that correct?",
+        "got it, you are ordering 3 large pepperoni and sausage pizzas, is that correct?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"bella luna's\";type_crust_accept=\"gluten free crust\")",
+        "ok, bella luna's charges an additional $1 for gluten free crust bringing your total to $75, is that ok?",
+        "ok, bella luna's charges an additional $1 for gluten free crust bringing your total to $75, is that ok?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"bella luna\")",
+        "sure I can. what do you want to order from bella luna?",
+        "sure I can. what do you want to order from bella luna?"
+    ],
+    [
+        "pizza_ordering(type_crust=\"thick crust\")",
+        "did you want thick crust for all 3 pizzas?",
+        "did you want thick crust for all 3 pizzas?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna\")",
+        "what would you like to order from Bella Luna.",
+        "what would you like to order from Bella Luna."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";name_pizza_accept=\"specialty\";type_topping_accept=\"chicken bbq\";preference_accept=\"extra cheese\")",
+        "great, so you said 3 medium specialty pizzas of chicken bbq with ranch drizzled on top and extra cheese.",
+        "great, so you said 3 medium specialty pizzas of chicken bbq with ranch drizzled on top and extra cheese."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";name_pizza_accept=\"6 blend cheese\";preference_accept=\"Romano Cheese\";type_topping_accept=\"pepperoni\";type_crust_accept=\"Gluten-free crusts\")",
+        "What type of crust would you like? So 4 large pizzas. A Grandma Special with Romano Cheese, a Chicken Pot Pie pizza, a 6 blend cheese and the last one has onions, tomatoes and pepperoni. Gluten-free crusts. correct?",
+        "What type of crust would you like? So 4 large pizzas. A Grandma Special with Romano Cheese, a Chicken Pot Pie pizza, a 6 blend cheese and the last one has onions, tomatoes and pepperoni. Gluten-free crusts. correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\")",
+        "3 small got it, what are your toppings of choice?",
+        "3 small got it, what are your toppings of choice?"
+    ],
+    [
+        "pizza_ordering(type_topping=\"broccoli\")",
+        "1 with onion, 1 with tomato and 1 with broccoli is that right?",
+        "1 with onion, 1 with tomato and 1 with broccoli is that right?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_topping_accept=\"broccoli\";preference_accept=\"extra cheese\")",
+        "ok lets review your order, one moment please. so thats 3 small pizzas, 1 with onion, 1 with tomato and 1 with broccoli all with extra cheese is that right?",
+        "ok lets review your order, one moment please. so thats 3 small pizzas, 1 with onion, 1 with tomato and 1 with broccoli all with extra cheese is that right?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";preference_accept=\"extra cheese\";name_pizza_accept=\"supreme\")",
+        "cool. You said you want 4 small pizzas, all with extra cheese, 1 veggie lovers, 1 meat lovers, 1 hawaiian, and 1 supreme.",
+        "cool. You said you want 4 small pizzas, all with extra cheese, 1 veggie lovers, 1 meat lovers, 1 hawaiian, and 1 supreme."
+    ],
+    [
+        "pizza_ordering(type_crust=\"regular crust\")",
+        "alright, did you want regular crust?",
+        "alright, did you want regular crust?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";preference_accept=\"extra cheese\";type_topping_accept=\"green peppers\")",
+        "sure, i'll add it to both. alright i have, 2 large pizzas, both with extra cheese the first with jalape\u00f1os and chicken. and secondly green peppers and sausage.",
+        "sure, i'll add it to both. alright i have, 2 large pizzas, both with extra cheese the first with jalape\u00f1os and chicken. and secondly green peppers and sausage."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";preference_accept=\"extra cheese\";type_topping_accept=\"green peppers\")@coffee_ordering(name_drink_accept=\"sausage\")",
+        "sure, i'll add it to both. alright i have, 2 large pizzas, both with extra cheese the first with jalape\u00f1os and chicken. and secondly green peppers and sausage.",
+        "sure, i'll add it to both. alright i have, 2 large pizzas, both with extra cheese the first with jalape\u00f1os and chicken. and secondly green peppers and sausage."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_topping_accept=\"sausage\";type_crust_accept=\"thin crust\")",
+        "So that's 2 large pizzas with sausage, both thin crust for a total of $52.48.",
+        "So that's 2 large pizzas with sausage, both thin crust for a total of $52.48."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";name_pizza_accept=\"meatlovers\")",
+        "got it, so you are ordering 2 small thin crust pizzas, 1 meatlovers and 1 veggie lovers.",
+        "got it, so you are ordering 2 small thin crust pizzas, 1 meatlovers and 1 veggie lovers."
+    ],
+    [
+        "pizza_ordering(type_topping=\"pineapple\")",
+        "did you want all 4 pizzas to have half pepperoni and half chicken pineapple.",
+        "did you want all 4 pizzas to have half pepperoni and half chicken pineapple."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"medium\";name_pizza=\"supremes\")",
+        "So that's 2 medium supremes, did you want any addons?",
+        "So that's 2 medium supremes, did you want any addons?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";name_pizza_accept=\"supremes\";preference_accept=\"extra cheese\")",
+        "Great, I've got 2 medium supremes with extra cheese for 40 dollars.",
+        "Great, I've got 2 medium supremes with extra cheese for 40 dollars."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"medium\";type_topping=\"green chili\";type_crust=\"thick crust\")",
+        "Confirming your order: two medium pizzas, one pepperoni and the other green chili, thick crust on both. is this correct?",
+        "Confirming your order: two medium pizzas, one pepperoni and the other green chili, thick crust on both. is this correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";type_topping_accept=\"green chili\";type_crust_accept=\"thick crusts\")",
+        "thank you for correcting that. so, two medium pizzas with pepperoni and green chili, both will have thick crusts.",
+        "thank you for correcting that. so, two medium pizzas with pepperoni and green chili, both will have thick crusts."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_crust_accept=\"thick crust\";name_pizza_accept=\"chicken bbq\")",
+        "ok, you are ordering 4 small thick crust chicken bbq pizzas, is that correct?",
+        "ok, you are ordering 4 small thick crust chicken bbq pizzas, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";name_pizza_accept=\"meat lovers\")",
+        "Ok, so you are ordering 3 small pizzas, 1 pepperoni, one Hawaiian, and one meat lovers, is that correct?",
+        "Ok, so you are ordering 3 small pizzas, 1 pepperoni, one Hawaiian, and one meat lovers, is that correct?"
+    ],
+    [
+        "pizza_ordering(name_pizza_accept=\"regular\")",
+        "to confirm, you want regular crust for the other three pizzas, right?",
+        "to confirm, you want regular crust for the other three pizzas, right?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"medium\";name_pizza=\"BBQ chicken pizzas\")",
+        "sure, 2 medium BBQ chicken pizzas, is that correct?",
+        "sure, 2 medium BBQ chicken pizzas, is that correct?"
+    ],
+    [
+        "pizza_ordering(preference=\"extra cheese\")",
+        "Great! sure, adding extra cheese, one moment.",
+        "Great! sure, adding extra cheese, one moment."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";preference_accept=\"extra cheese\";name_pizza_accept=\"Chicken BBQ\")",
+        "Okay, I got 2 medium pizzas, with extra cheese, and Chicken BBQ.",
+        "Okay, I got 2 medium pizzas, with extra cheese, and Chicken BBQ."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna\")",
+        "Alright, one moment while I send your order to Bella Luna.",
+        "Alright, one moment while I send your order to Bella Luna."
+    ],
+    [
+        "pizza_ordering(preference=\"extra cheese\")",
+        "Sure, with extra cheese.",
+        "Sure, with extra cheese."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium pizzas\";preference_accept=\"extra cheese\";name_pizza_accept=\"Chicken BBQ\")",
+        "So I got 3 medium pizzas, with extra cheese on Chicken BBQ.",
+        "So I got 3 medium pizzas, with extra cheese on Chicken BBQ."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna\")",
+        "one moment while I send your order to Bella Luna.",
+        "one moment while I send your order to Bella Luna."
+    ],
+    [
+        "pizza_ordering(name_store=\"Bella Luna\")",
+        "pizza order with Bella Luna sure.",
+        "pizza order with Bella Luna sure."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\")",
+        "How many pizza would you like to order today? 2 small, ok what toppings?",
+        "How many pizza would you like to order today? 2 small, ok what toppings?"
+    ],
+    [
+        "pizza_ordering(type_topping=\"anchovy\";preference=\"extra cheese\")",
+        "1 with ham and pineapple half sausage, 1 with half onion and half anchovy with extra cheese is that your order?",
+        "1 with ham and pineapple half sausage, 1 with half onion and half anchovy with extra cheese is that your order?"
+    ],
+    [
+        "pizza_ordering(type_topping=\"anchovy\")",
+        "1 with half onion and half anchovy.",
+        "1 with half onion and half anchovy."
+    ],
+    [
+        "pizza_ordering(type_topping=\"anchovy\")",
+        "1 half onion with mushroom and half with anchovy right?",
+        "1 half onion with mushroom and half with anchovy right?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\")",
+        "ok with 2 small pizzas your total comes to 24 dollars, shall we order?",
+        "ok with 2 small pizzas your total comes to 24 dollars, shall we order?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_topping_accept=\"anchovy\";preference_accept=\"extra cheese\")",
+        "2 small pizzas, 1 with ham and pineapple half sausage, 1 half onion with mushroom and half with anchovy all with extra cheese.",
+        "2 small pizzas, 1 with ham and pineapple half sausage, 1 half onion with mushroom and half with anchovy all with extra cheese."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna pizzeria\")",
+        "perfect, its good to confirm with each other, your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 min.",
+        "perfect, its good to confirm with each other, your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 min."
+    ],
+    [
+        "pizza_ordering(name_store=\"bella lunas\")",
+        "sure, what type of pizza did u want from bella lunas?",
+        "sure, what type of pizza did u want from bella lunas?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_topping_accept=\"blue cheese, all\";name_pizza_accept=\"clams casino\";type_crust_accept=\"thin crust.\")",
+        "let me know if i got anything wrong please. 1 small bacon and onion, 1 small garlic mushroom anchovies bacon and olives, 1 small clams casino and 1 small buffalo chicken with blue cheese, all with thin crust.",
+        "let me know if i got anything wrong please. 1 small bacon and onion, 1 small garlic mushroom anchovies bacon and olives, 1 small clams casino and 1 small buffalo chicken with blue cheese, all with thin crust."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Lunas\")",
+        "I've placed your order at Bella Lunas and it should be ready for pick up in 25 mintues.",
+        "I've placed your order at Bella Lunas and it should be ready for pick up in 25 mintues."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_topping_accept=\"pepperoni\";type_crust_accept=\"thick crust\")",
+        "So I have 4 small pizzas with pepperoni and thick crust on all of them, right?",
+        "So I have 4 small pizzas with pepperoni and thick crust on all of them, right?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";type_crust_accept=\"gluten free crust\";name_pizza_accept=\"red vegetarian\";type_topping_accept=\"clams\";preference_accept=\"mozzarella cheese\")",
+        "so your order is: 3 medium gluten free crust pizzas. the first one is a white pie with achovies, olives, garlic and mushrooms and bacon. the second one is a red vegetarian, the third is a white pie, mozzarella cheese, clams and garlic.",
+        "so your order is: 3 medium gluten free crust pizzas. the first one is a white pie with achovies, olives, garlic and mushrooms and bacon. the second one is a red vegetarian, the third is a white pie, mozzarella cheese, clams and garlic."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";type_crust=\"thin crust pizzas\";type_topping_accept=\"broccoli\")",
+        "ok, you are ordering 4 medium thin crust pizzas, 2 sausage and pepperoni, 1 onion, and 1 broccoli, is that correct?",
+        "ok, you are ordering 4 medium thin crust pizzas, 2 sausage and pepperoni, 1 onion, and 1 broccoli, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_topping_accept=\"vegetarian\")",
+        "So that's 3 large pizzas, all vegetarian right?",
+        "So that's 3 large pizzas, all vegetarian right?"
+    ],
+    [
+        "pizza_ordering(preference_accept=\"extra cheese\")",
+        "Okay after adding extra cheese your total is $55.99.",
+        "Okay after adding extra cheese your total is $55.99."
+    ],
+    [
+        "pizza_ordering(name_pizza=\"supreme pizza\")",
+        "they have a supreme pizza, is that what you mean by house special?",
+        "they have a supreme pizza, is that what you mean by house special?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_crust_accept=\"thin crust\";type_topping_accept=\"mediterranean\";name_pizza_accept=\"supreme\")",
+        "ok, you are ordering 3 large thin crust pizzas, one milano, one mediterranean, and one supreme, is that correct?",
+        "ok, you are ordering 3 large thin crust pizzas, one milano, one mediterranean, and one supreme, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";type_crust_accept=\"thick crust\";type_topping_accept=\"pepperoni\")",
+        "so you said 2 small pizzas with thick crust, 1 with chicken bacon and onions, and 1 pepperoni.",
+        "so you said 2 small pizzas with thick crust, 1 with chicken bacon and onions, and 1 pepperoni."
+    ],
+    [
+        "pizza_ordering(preference=\"extra cheese\")",
+        "sure, there is an additional charge for extra cheese, is that ok?",
+        "sure, there is an additional charge for extra cheese, is that ok?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";name_pizza_accept=\"pepperoni\";preference_accept=\"extra cheese\")",
+        "ok, just to confirm your order, you are ordering 4 medium pizzas, 2 cheese, 2 pepperoni, all extra cheese, is that correct?",
+        "ok, just to confirm your order, you are ordering 4 medium pizzas, 2 cheese, 2 pepperoni, all extra cheese, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_crust_accept=\"gluten free crust\")",
+        "2 large meatlovers with gluten free crust, is this correct?",
+        "2 large meatlovers with gluten free crust, is this correct?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"bela luna's\")",
+        "your pizzas will be ready for pickup at bela luna's in 15 minutes.",
+        "your pizzas will be ready for pickup at bela luna's in 15 minutes."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"large\";type_crust=\"thick crust\";type_topping=\"sausage\";name_pizza=\"chicken bbq\")",
+        "ok, so you are ordering 3 large thick crust peppers, one ham, bacon, green pepper, onions, one chicken bbq, and one with green pepper, onion, and sausage, is that correct?",
+        "ok, so you are ordering 3 large thick crust peppers, one ham, bacon, green pepper, onions, one chicken bbq, and one with green pepper, onion, and sausage, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_crust_accept=\"thick crust pizzas\";type_topping_accept=\"sausage\";name_pizza_accept=\"chicken bbq\")",
+        "sure, 3 large thick crust pizzas, one ham, bacon, green peppers, and onions, one chicken bbq, one with green pepper, onion, and sausage.",
+        "sure, 3 large thick crust pizzas, one ham, bacon, green peppers, and onions, one chicken bbq, one with green pepper, onion, and sausage."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"large\")",
+        "ok. so thats 4 large pizza is that right?",
+        "ok. so thats 4 large pizza is that right?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"large\";type_topping=\"olive\";name_pizza_accept=\"meat lover\")",
+        "ok one second while i get your orders. so thats 4 large pizza, 1 pepperoni, 1 bacon with olive, 1 pepperoni with bacon and olive and 1 meat lover is that correct?",
+        "ok one second while i get your orders. so thats 4 large pizza, 1 pepperoni, 1 bacon with olive, 1 pepperoni with bacon and olive and 1 meat lover is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_topping_accept=\"olive\";name_pizza_accept=\"meat lover\")",
+        "ok one second while i get your total. so with 4 large pizza, 1 pepperoni, 1 bacon with olive, 1 pepperoni with bacon and olive and 1 meat lover your total comes to 100 dollars, shall we confirm the order?",
+        "ok one second while i get your total. so with 4 large pizza, 1 pepperoni, 1 bacon with olive, 1 pepperoni with bacon and olive and 1 meat lover your total comes to 100 dollars, shall we confirm the order?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna pizzeria and\")",
+        "wonderful, your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup shortly.",
+        "wonderful, your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup shortly."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";name_pizza_accept=\"meatlovers\";preference_accept=\"extra bacon\";type_topping_accept=\"pepperoni\")",
+        "ok, you are ordering 2 medium thin crust pizzas, 1 veggie lovers, 1 meatlovers with extra bacon and pepperoni, is that correct?",
+        "ok, you are ordering 2 medium thin crust pizzas, 1 veggie lovers, 1 meatlovers with extra bacon and pepperoni, is that correct?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"large\")",
+        "sure, what toppings did you want on those 2 large pizzas?",
+        "sure, what toppings did you want on those 2 large pizzas?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\")",
+        "3 large pizzas, what toppings?",
+        "3 large pizzas, what toppings?"
+    ],
+    [
+        "pizza_ordering(type_crust_accept=\"thick crust\";name_store_accept=\"Bella Luna\")",
+        "okay I'll get you 3 thick crust Bella Luna Specials.",
+        "okay I'll get you 3 thick crust Bella Luna Specials."
+    ],
+    [
+        "pizza_ordering(name_pizza_accept=\"chicken bbq pizzas\")",
+        "Got it. I'll get you 3 chicken bbq pizzas. Your total will be $66.66.",
+        "Got it. I'll get you 3 chicken bbq pizzas. Your total will be $66.66."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna pizzeria\")",
+        "The total will be $30.52. Your order will be ready at your local Bella Luna pizzeria for pick up shortly. Enjoy!",
+        "The total will be $30.52. Your order will be ready at your local Bella Luna pizzeria for pick up shortly. Enjoy!"
+    ],
+    [
+        "pizza_ordering(name_pizza_accept=\"chicken bbq pizzas\";preference_accept=\"extra cheese\")",
+        "SO that's 4 chicken bbq pizzas with extra cheese. What size?",
+        "SO that's 4 chicken bbq pizzas with extra cheese. What size?"
+    ],
+    [
+        "pizza_ordering(name_store=\"Bella Lunas\";type_topping_reject=\"banana peppers\")",
+        "Sorry, Bella Lunas does not have banana peppers.",
+        "Sorry, Bella Lunas does not have banana peppers."
+    ],
+    [
+        "pizza_ordering(type_topping_accept=\"jalapenos\")",
+        "Yes, they do have jalapenos. Should I add that to this pizza?",
+        "Yes, they do have jalapenos. Should I add that to this pizza?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_topping_accept=\"jalepeno\";type_crust_accept=\"gluten free crusts\")",
+        "2 large peperoni and jalepeno pizzas with gluten free crusts will cost $45.65 is that okay?",
+        "2 large peperoni and jalepeno pizzas with gluten free crusts will cost $45.65 is that okay?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna's\";name_pizza=\"Bella Big\";size_pizza=\"large\")",
+        "Bella Luna's is famous for their Bella Big, a large pizza with everything on it.",
+        "Bella Luna's is famous for their Bella Big, a large pizza with everything on it."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\")",
+        "Did you say small?",
+        "Did you say small?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\";name_pizza=\"bella bigs\";type_crust=\"stuffed crust\")",
+        "Great, so that's 3 small bella bigs. did you want stuffed crust?",
+        "Great, so that's 3 small bella bigs. did you want stuffed crust?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";name_pizza_accept=\"bella bigs\";type_crust_accept=\"thick crust\")",
+        "Okay, one moment. So that's 3 small bella bigs with thick crust, right?",
+        "Okay, one moment. So that's 3 small bella bigs with thick crust, right?"
+    ],
+    [
+        "pizza_ordering(name_pizza=\"taco pizza\";name_pizza_reject=\"mexican pizza\")",
+        "ok, they have a taco pizza but not a mexican pizza, is that ok?",
+        "ok, they have a taco pizza but not a mexican pizza, is that ok?"
+    ],
+    [
+        "pizza_ordering(name_pizza=\"taco pizza\";preference=\"american cheese\";type_topping=\"corn\")",
+        "a taco pizza has hot sauce, ground beef, american cheese, and corn.",
+        "a taco pizza has hot sauce, ground beef, american cheese, and corn."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large pizzas\";type_topping_accept=\"ground beef\";name_pizza_accept=\"taco pizza\")",
+        "4 large pizzas, 1 pepperoni and pineapple, 1 5 cheese blend, 1 taco pizza, and 1 with tomato, olives, and ground beef.",
+        "4 large pizzas, 1 pepperoni and pineapple, 1 5 cheese blend, 1 taco pizza, and 1 with tomato, olives, and ground beef."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";name_pizza_accept=\"chicken pizza\";preference_accept=\"extra cheese\";type_crust_accept=\"gluten free crust\")",
+        "4 large chicken pizza with extra cheese and gluten free crust.",
+        "4 large chicken pizza with extra cheese and gluten free crust."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella luna\")",
+        "Sadly Bella luna doesn't serve alcohol.",
+        "Sadly Bella luna doesn't serve alcohol."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";type_topping_accept=\"onions\")",
+        "ok, you want 4 medium pizzas with pepperoni, sausage, and onions, is that correct?",
+        "ok, you want 4 medium pizzas with pepperoni, sausage, and onions, is that correct?"
+    ],
+    [
+        "pizza_ordering(preference=\"extra cheese\")",
+        "do you want extra cheese on all 4 pizzas or just 3?",
+        "do you want extra cheese on all 4 pizzas or just 3?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";name_pizza_accept=\"thin crust pizzas\";type_topping_accept=\"mushroom\";preference_accept=\"extra cheese\")",
+        "so: 4 small, thin crust pizzas. one chicken bbq, the other three with pepperoni, bacon, mushroom and extra cheese. correct?",
+        "so: 4 small, thin crust pizzas. one chicken bbq, the other three with pepperoni, bacon, mushroom and extra cheese. correct?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bela Luna's\")",
+        "ok, your total is $36.89. your pizzas will be ready for pickup at Bela Luna's soon.",
+        "ok, your total is $36.89. your pizzas will be ready for pickup at Bela Luna's soon."
+    ],
+    [
+        "pizza_ordering(name_pizza=\"veggie lovers\")",
+        "hi, how can i help you? you said veggie lovers for all 3 pizzas?",
+        "hi, how can i help you? you said veggie lovers for all 3 pizzas?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna\")",
+        "ok, please note that Bella Luna charges extra for additional cheese.",
+        "ok, please note that Bella Luna charges extra for additional cheese."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";name_pizza_accept=\"veggie lover pizzas\";preference_accept=\"extra cheese\")",
+        "ok, you are ordering 3 large veggie lover pizzas with extra cheese.",
+        "ok, you are ordering 3 large veggie lover pizzas with extra cheese."
+    ],
+    [
+        "pizza_ordering(location_store_accept=\"it is 123 main street\")",
+        "your total will be $75, is that ok? would you like pick up, delivery, or dine in? sure, it is 123 main street.",
+        "your total will be $75, is that ok? would you like pick up, delivery, or dine in? sure, it is 123 main street."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";name_pizza_accept=\"meatlover's pizza\";type_crust_accept=\"gluten free crust\")",
+        "ok, so your order is: 2 medium meatlover's pizza with gluten free crust, correct?",
+        "ok, so your order is: 2 medium meatlover's pizza with gluten free crust, correct?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"bella luna's\")",
+        "you're welcome. your pizzas will be ready for pickup at bella luna's soon.",
+        "you're welcome. your pizzas will be ready for pickup at bella luna's soon."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"mediums\";type_crust_accept=\"gluten free crust\";type_topping_accept=\"pepperoni and mushroom\")",
+        "So that's 2 mediums with gluten free crust, both pepperoni and mushroom totals out to $42.99.",
+        "So that's 2 mediums with gluten free crust, both pepperoni and mushroom totals out to $42.99."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"large\")",
+        "Sorry there's a little lag. That's 3 large with what toppings?",
+        "Sorry there's a little lag. That's 3 large with what toppings?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";name_pizza_accept=\"cheese\";type_topping_accept=\"pepperoni\";type_topping_reject=\"pepper\";type_topping=\"mushroom\";type_crust_accept=\"thin crust\")",
+        "So I have 3 large pizzas, one cheese, one sausage and pepperoni, and one mushroom and pepper pizza all with thin crust. is that right?",
+        "So I have 3 large pizzas, one cheese, one sausage and pepperoni, and one mushroom and pepper pizza all with thin crust. is that right?"
+    ],
+    [
+        "pizza_ordering(type_topping=\"Spinach\";type_topping_accept=\"spinach\")",
+        "Spinach. My mistake. So the last one is mushroom and spinach.",
+        "Spinach. My mistake. So the last one is mushroom and spinach."
+    ],
+    [
+        "pizza_ordering(type_crust=\"thin crust\";name_pizza=\"meat lovers\")",
+        "Certainly. I got 4 thin crust pizzas. The 1st a meat lovers.",
+        "Certainly. I got 4 thin crust pizzas. The 1st a meat lovers."
+    ],
+    [
+        "pizza_ordering(type_topping=\"pepperoni\")",
+        "2nd pepperoni and sausage. The 3rd cheese only. And the 4th is pepperoni only.",
+        "2nd pepperoni and sausage. The 3rd cheese only. And the 4th is pepperoni only."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna\")",
+        "Alright! Your order has been sent to Bella Luna and is being prepared. Your order should be ready for pickup soon.",
+        "Alright! Your order has been sent to Bella Luna and is being prepared. Your order should be ready for pickup soon."
+    ],
+    [
+        "pizza_ordering(type_topping=\"mushroom\")",
+        "ok, you wanted sausage and mushroom for both?",
+        "ok, you wanted sausage and mushroom for both?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"medium\";type_crust_accept=\"gluten free\";type_topping_accept=\"mushrooms\")",
+        "got it, you are ordering 2 medium gluten free pizzas with sausage and mushrooms.",
+        "got it, you are ordering 2 medium gluten free pizzas with sausage and mushrooms."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"bella luna's\";location_store_accept=\"123 main street\")",
+        "sure, bella luna's is located on 123 main street.",
+        "sure, bella luna's is located on 123 main street."
+    ],
+    [
+        "pizza_ordering(name_pizza=\"supreme\")",
+        "ok, they have both hawaiin and chicken bbq and a supreme which might be similar to the \"works\".",
+        "ok, they have both hawaiin and chicken bbq and a supreme which might be similar to the \"works\"."
+    ],
+    [
+        "pizza_ordering(name_pizza=\"meat lovers pizza\")",
+        "yes, there is a meat lovers pizza.",
+        "yes, there is a meat lovers pizza."
+    ],
+    [
+        "pizza_ordering(name_pizza=\"supreme\")",
+        "there most popular is the supreme.",
+        "there most popular is the supreme."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"smalls\")",
+        "and all smalls?",
+        "and all smalls?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\";name_pizza_accept=\"hawaiin\")",
+        "got it, so 4 small pizzas, 1 chix bbq, 1 meat lovers, 1 supreme, and 1 hawaiin.",
+        "got it, so 4 small pizzas, 1 chix bbq, 1 meat lovers, 1 supreme, and 1 hawaiin."
+    ],
+    [
+        "pizza_ordering(preference_accept=\"extra cheese\")",
+        "ok, there is an additional charge for extra cheese, is that ok?",
+        "ok, there is an additional charge for extra cheese, is that ok?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\")",
+        "your total for 4 small pizzas is $60, is that ok?",
+        "your total for 4 small pizzas is $60, is that ok?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";name_pizza_accept=\"chicken bbq\";preference_accept=\"extra cheese\")",
+        "4 small pizzas, 1 pepperoni, 1 sausage, 1 veggie lovers, 1 chicken bbq all extra cheese.",
+        "4 small pizzas, 1 pepperoni, 1 sausage, 1 veggie lovers, 1 chicken bbq all extra cheese."
+    ],
+    [
+        "pizza_ordering(name_pizza=\"sausage pizza\")",
+        "ok, we can do the anchovy pizza and sausage pizza but they don't have the other ingredients for the other pizzas.",
+        "ok, we can do the anchovy pizza and sausage pizza but they don't have the other ingredients for the other pizzas."
+    ],
+    [
+        "pizza_ordering(type_crust=\"thick crust\")",
+        "ok, and thick crust for all?",
+        "ok, and thick crust for all?"
+    ],
+    [
+        "pizza_ordering(preference=\"extra cheese\")",
+        "ok, there's an additional charge for extra cheese, is that ok?",
+        "ok, there's an additional charge for extra cheese, is that ok?"
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\")",
+        "and these are all small sizes?",
+        "and these are all small sizes?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\";preference_accept=\"extra cheese\";type_crust_accept=\"thick crust\";name_pizza_accept=\"anchovy\")",
+        "ok, ill confirm your order. 4 small pizzas, extra cheese thick crust, meat lovers, veggie, sausage, and anchovy.",
+        "ok, ill confirm your order. 4 small pizzas, extra cheese thick crust, meat lovers, veggie, sausage, and anchovy."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";name_pizza_accept=\"pepperoni pizzas\";preference_accept=\"extra cheese\";name_store=\"Bella Luna\")",
+        "Ok cool. 4 large pepperoni pizzas with extra cheese from Bella Luna.",
+        "Ok cool. 4 large pepperoni pizzas with extra cheese from Bella Luna."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"local Bella Luna pizzeria\")",
+        "Cool. Your order will be ready at your local Bella Luna pizzeria shortly.",
+        "Cool. Your order will be ready at your local Bella Luna pizzeria shortly."
+    ],
+    [
+        "pizza_ordering(size_pizza=\"small\";name_pizza_accept=\"supreme\";type_crust_accept=\"thin crust\")",
+        "ok, let me repeat your orders for you. so that is 4 small pizzas, 2 meat lover and 2 supreme all with thin crust, is that right?",
+        "ok, let me repeat your orders for you. so that is 4 small pizzas, 2 meat lover and 2 supreme all with thin crust, is that right?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"small\")",
+        "ok, let me get your totals for you. For 4 small pizzas, your total comes to $50. is that ok?",
+        "ok, let me get your totals for you. For 4 small pizzas, your total comes to $50. is that ok?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna pizzeria\")",
+        "ok no problem, your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 mins.",
+        "ok no problem, your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 mins."
+    ],
+    [
+        "pizza_ordering(name_pizza=\"seaside delight\";size_pizza=\"large\")",
+        "one classic, one vegetarian, and one seaside delight, all large, right?",
+        "one classic, one vegetarian, and one seaside delight, all large, right?"
+    ],
+    [
+        "pizza_ordering(type_topping_accept=\"cheese\";preference=\"extra cheese\")",
+        "Pepperoni and cheese Sure thing! Did you want extra cheese too?",
+        "Pepperoni and cheese Sure thing! Did you want extra cheese too?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";type_crust_accept=\"thin crust\";name_pizza_accept=\"seaside delight\")",
+        "so that's 3 large pizzas with thin crust, one classic, one veggie, and one seaside delight for a total of $63.45.",
+        "so that's 3 large pizzas with thin crust, one classic, one veggie, and one seaside delight for a total of $63.45."
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large\";name_pizza_accept=\"veggie lovers\";preference_accept=\"extra cheese\")",
+        "ok, 2 large veggie lovers with extra cheese. correct?",
+        "ok, 2 large veggie lovers with extra cheese. correct?"
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"bela luna's\")",
+        "done. your pizzas will be ready for pickup at bela luna's soon.",
+        "done. your pizzas will be ready for pickup at bela luna's soon."
+    ],
+    [
+        "pizza_ordering(name_pizza_reject=\"meatball\")",
+        "sorry, i don't see meatball on the menu. did you want another option?",
+        "sorry, i don't see meatball on the menu. did you want another option?"
+    ],
+    [
+        "pizza_ordering(size_pizza_accept=\"large pizzas\";name_pizza_accept=\"pepperoni\")",
+        "I see, one second! 4 large pizzas, one meat lovers, another veggie lovers, the 3rd BBQ chicken and lastly a pepperoni, is that correct?",
+        "I see, one second! 4 large pizzas, one meat lovers, another veggie lovers, the 3rd BBQ chicken and lastly a pepperoni, is that correct?"
+    ],
+    [
+        "pizza_ordering(type_crust_accept=\"thin crust\";name_pizza_accept=\"pepperoni pizza\")",
+        "Sure, i'll add thin crust to the pepperoni pizza.",
+        "Sure, i'll add thin crust to the pepperoni pizza."
+    ],
+    [
+        "pizza_ordering(name_store_accept=\"Bella Luna\")",
+        "Sure, the total will be $62.44. Alright, one moment while I send your order to Bella Luna.",
+        "Sure, the total will be $62.44. Alright, one moment while I send your order to Bella Luna."
+    ]
+]

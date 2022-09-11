@@ -1,0 +1,366 @@
+movie_ticket ( price_ticket = "$48") & ok, the total for that will be $48.
+movie_ticket ( time_start = "10pm") & it looks like there's a showing at 8pm. or 10pm.
+movie_ticket ( time_start = "7:35pm" ; name_theater = "Cinemark 20 & XD") & let me take a look at the showtimes, i will be right back. i found a 6:35pm at Cinemark Palace At The Plaza and a 7:35pm at Cinemark 20 & XD.
+movie_ticket ( price_ticket_accept = "$13" ; num_tickets_accept = "1" ; name_movie_accept = "spider-man into the spider-verse" ; time_start_accept = "7:35pm" ; name_theater_accept = "Cinemark 20 & XD.") & the total is $13. you're all set. 1 ticket for spider-man into the spider-verse at 7:35pm at Cinemark 20 & XD.
+movie_ticket ( name_movie = "aquaman") & ok, and you said you wanted to see aquaman?
+movie_ticket ( name_theater = "regal cinemas" ; location_theater = "ithica mall") & are you near regal cinemas ithica mall?
+movie_ticket ( time_start = "9:55 tonigt") & ok, there is a showing at 3:10 and 9:55 tonigt.
+movie_ticket ( price_ticket_accept = "$13") & your total will be $13, is that ok?
+movie_ticket ( time_duration_accept = "2 hour and 22 minutes") & it is 2 hour and 22 minutes.
+movie_ticket ( time_start_reject = "3:10" ; time_start = "9:55") & i'm sorry, it looks like the 3:10 showing is sold out, would you like to go to the 9:55 showing or would you like me to find another theater?
+movie_ticket ( location_theater = "ithica" ; name_movie = "aquaman") & ok, let me find one for you. it doesn't look like any other theaters in ithica are playing aquaman, would you like me to check another city?
+movie_ticket ( name_movie = "aquaman") & got it, one moment. sorry, it is taking a moment, not many theaters are still playing aquaman.
+movie_ticket ( name_theater = "regal cinemas" ; location_theater = "new york city" ; time_start = "2:20pm") & ok, i found the regal cinemas in new york city that has a showtime at 2:20pm.
+movie_ticket ( location_theater = "Ontario, in California") & Ontario, in California?
+movie_ticket ( name_theater_accept = "AMC" ; location_theater_accept = "ontario mills") & OKay, is the AMC at ontario mills okay?
+movie_ticket ( type_screening = "Dolby Cinema") & great! and they have 2 options, standard or Dolby Cinema, do you have a preference?
+movie_ticket ( time_start = "5:45pm") & Okay! This afternoon their showtimes are 2:45pm, 4:00pm, 4:30pm, 5:45pm, and 6:15pm.
+movie_ticket ( num_tickets = "One ticket" ; price_ticket_accept = "One ticket to Glas" ; name_movie_accept = "Glass" ; time_start = "4pm") & Got it!, let me grab the price for you. One ticket to Glass at 4pm will be $11.23.
+movie_ticket ( num_tickets_accept = "One ticket" ; time_start_accept = "4:30pm") & let me check for you! One ticket for 4:30pm is available.
+movie_ticket ( name_movie = "aquaman") & yup, there are several theaters playing aquaman. Around what time did you want to go?
+movie_ticket ( name_theater = "skyline cinema 8" ; time_start = "4:20pm") & there's one show time before 5 today, and that's at skyline cinema 8 at 4:20pm.
+movie_ticket ( price_ticket_accept = "$11") & i sure can. That'll be $11. Should i book it now?
+movie_ticket ( type_screening = "standard") & ok, let me look at showtimes. would you like to see it in 3d or standard?
+movie_ticket ( type_screening = "3d" ; location_theater_accept = "miami" ; time_start = "6:50" ; name_theater = "amc tamiami 18") & the only 3d session i found in miami is tonight at 6:50 at the amc tamiami 18.
+movie_ticket ( time_start = "10:30pm" ; name_theater = "AMC Sunset Place 24") & i found a 10:15 session at Silverspot Cinema, a 9:35pm at Regal Cinemas South Beach 18 & IMAX and a 10:30pm at AMC Sunset Place 24.
+movie_ticket ( price_ticket_accept = "$25.20") & ok, your total will be $25.20. shall i continue with the purchase?
+movie_ticket ( name_movie = "Vice") & christian bale, sam rockwell, amy adams and steve carrel are the main actors starring in Vice.
+movie_ticket ( time_start = "9:50pm" ; name_theater = "cinépolis") & there is a 7:25pm session at AMC Sunset Place 24, a 10:45pm at Regal Cinemas Kendall Village 16 IMAX & RPX and a 9:50pm at cinépolis.
+movie_ticket ( name_movie_accept = "vice" ; time_start_accept = "10:45pm" ; name_theater_accept = "Regal Cinemas Kendall Village 16 IMAX & RPX") & okay. your tickets for vice at 10:45pm at Regal Cinemas Kendall Village 16 IMAX & RPX is confirmed.
+movie_ticket ( type_screening = "standard") & do you want to see it 3d or standard?
+movie_ticket ( time_start = "4:15pm" ; name_theater = "THE LOT Liberty Station" ; time_start_accept = "4:45pm") & i found 1:30pm and 4:15pm sessions at Theatre Box and a 4:45pm at THE LOT Liberty Station.
+movie_ticket ( price_ticket_accept = "$12.50") & the total is $12.50.
+movie_ticket ( location_theater = "New York City") & Okay, are you in New York City?
+movie_ticket ( name_theater_accept = "The AMC 34th Street 14" ; name_movie_accept = "Escape room" ; time_start = "7:55pm") & (deleted) The AMC 34th Street 14 is showing Escape room at 5:15pm and 7:55pm.
+movie_ticket ( num_tickets = "4" ; name_theater = "AMC 34th") & would that work for you? OKay, 4 tickets, one moment. Hmm... unfortunately this showtime is already sold out at AMC 34th. should i look for a later time?
+movie_ticket ( time_start_accept = "7:55pm") & Okay, the next time after 7pm is 7:55pm.
+movie_ticket ( price_ticket_accept = "$48.66") & the total is $48.66, I will book it now.
+movie_ticket ( num_tickets_accept = "4") & Alright, you're all set. your 4 tickets have been confirmed and sent to your mobile device.
+movie_ticket ( time_duration_accept = "1 hour and 39min") & The movie is 1 hour and 39min long.
+movie_ticket ( time_start = "3:30pm" ; name_theater = "Regency Commerce 14") & there is a 3:10pm at Regal L.A. LIVE: A Barco Innovation Center and a 3:30pm at Regency Commerce 14.
+movie_ticket ( time_start = "3:30pm" ; name_theater = "the regency commerce 14") & how about the 3:30pm session at the regency commerce 14?
+movie_ticket ( price_ticket_accept = "$50") & ok, your total is $50, can i confirm the purchase?
+movie_ticket ( name_movie_accept = "happy death day 2" ; time_start_accept = "3:30pm at" ; name_theater_accept = "regency commerce 14") & all set for happy death day 2 at 3:30pm at regency commerce 14.
+movie_ticket ( name_movie = "glass" ; type_screening = "standard") & would you like to watch glass on imax or standard?
+movie_ticket ( time_start = "10:30") & i have several showtimes available around 4:30, 7:30 and 10:30.
+movie_ticket ( num_tickets_accept = "two" ; name_movie_accept = "Glass" ; type_screening_accept = "Imax" ; time_start_accept = "7:30pm" ; name_theater_accept = "Cinemark) & Ok, two tickets for Glass Imax for 7:30pm at the Cinemark @ Seven bridges.
+movie_ticket ( name_theater = "landmark theaters" ; time_start = "9:35") & it looks like landmark theaters has showings tonight at 6:50 and 9:35 tonight.
+movie_ticket ( num_tickets = "2") & ok, i will purchase 2 tickets for you.
+movie_ticket ( price_ticket_accept = "$28") & the cost will be $28, is that ok?
+movie_ticket ( name_movie_accept = "the Upside" ; name_theater_accept = "the AMC Rosemont 18") & Hi there! How can I help? Sure, let me check! It looks like the Upside is being played at the AMC Rosemont 18.
+movie_ticket ( time_start = "10:15pm") & Most definitely! they have 2 showtimes available, 7:15pm and 10:15pm. which one do you prefer?
+movie_ticket ( num_tickets_accept = "2") & Okay, one moment! Your 2 tickets have been confirmed and sent to your mobile device.
+movie_ticket ( location_theater = "michigan") & where in michigan did you want to see it?
+movie_ticket ( time_start_reject = "7:05" ; name_theater = "NCG") & Does 7:05 at NCG work?
+movie_ticket ( time_start_accept = "8:00 pm" ; name_theater_accept = "NCG Trillium") & There's an 8:00 pm at NCG Trillium, does that work?
+movie_ticket ( name_theater = "regal cinemas") & sure, let me find theaters in your area. are you near regal cinemas?
+movie_ticket ( price_ticket = "$13") & ok, your total will be $13, is that ok?
+movie_ticket ( time_start = "3pm") & let me book that ticket for you. it looks like this showing is completely sold out, the next showing is at 3pm, is that ok?
+movie_ticket ( time_start_reject = "7:40") & looks like the 7:40 showing is sold out.
+movie_ticket ( time_start = "8:30") & would you like another time? sure, the next available is at 8:30 does that work for you?
+movie_ticket ( num_tickets_accept = "2 tickets" ; name_movie_accept = "the escape room" ; name_theater_accept = "AMC tustin 13" ; time_start_accept = "8:30pm") & 2 tickets to see the escape room at AMC tustin 13 at 8:30pm.
+movie_ticket ( price_ticket_accept = "$23.00") & is that right? the total for this purchase will be $23.00.
+movie_ticket ( name_theater_accept = "AMC Summit 16") & Alright, how about the AMC Summit 16.
+movie_ticket ( time_start = "10:50pm") & Great! that one has 2 more showing available for tonight, 7:35pm and 10:50pm.
+movie_ticket ( num_tickets = "2 adult") & are those 2 adult tickets?
+movie_ticket ( name_movie_accept = "Berlin, I Love You" ; name_theater_accept = "the Cinema Village" ; time_start = "11pm tonight") & okay, one moment please. Okay. Got it, Berlin, I Love You at the Cinema Village. it's being shown at 11pm tonight.
+movie_ticket ( num_tickets = "1" ; price_ticket_accept = "$13.44") & Okay, the total for 1 ticket will be $13.44.
+movie_ticket ( time_start_reject = "11pm") & Oh, my apologies, the showing at 11pm, is already sold out.
+movie_ticket ( time_start_accept = "11:00am") & Okay, tomorrow the earliest showtime is at 11:00am.
+movie_ticket ( time_start = "7:30" ; name_theater_accept = "the Regal Cinemas Green HIlls") & I have one showtime at 7:30 at the Regal Cinemas Green HIlls.
+movie_ticket ( num_tickets_accept = "two" ; name_movie_accept = "Mary Poppins Returns" ; time_start_accept = "7:30. YOur" ; price_ticket_accept = "$24.99") & Great so that's two tickets to Mary Poppins Returns at 7:30. YOur total is $24.99.
+movie_ticket ( time_start = "7:30") & The closest I have is 7:30 does that work?
+movie_ticket ( price_ticket_accept = "$24.99") & Great. It'll cost $24.99 ok?
+movie_ticket ( name_movie_accept = "Escape room") & Your tickets to Escape room will arrive via mobile in just a minute.
+movie_ticket ( name_theater = "amc northpark 15") & ok, let me find theaters near you. are you near amc northpark 15?
+movie_ticket ( type_screening = "3d") & ok, would you like to see in standard, imax, or 3d?
+movie_ticket ( time_start = "12:45") & ok, the next showing is at 12:45 today, is that ok?
+movie_ticket ( price_ticket_accept = "$24") & your total will be $24, is that ok?
+movie_ticket ( time_start_reject = "12:45" ; time_start = "2:15") & ok, let me book those tickets, one moment. i'm sorry, it looks like the 12:45 showing is sold out would you like to go to the 2:15 showing?
+movie_ticket ( ticket_booking_accept = "booked" ; num_tickets_accept = "2" ; name_movie = "how to train your dragon: the hidden world" ; time_start_accept = "2:15" ; name_theater_accept = "amc north park 15") & ok, let me book those tickets for you, one moment. ok, i have booked 2 tickets to see how to train your dragon: the hidden world, at 2:15 at amc north park 15. can i help with anything else?
+movie_ticket ( time_start_accept = "4:40pm" ; name_theater_accept = "AMC CLASSIC Frontier 9") & i found a 4:40pm session at AMC CLASSIC Frontier 9.
+movie_ticket ( time_duration_accept = "2 hours and 2 minutes") & this movie is 2 hours and 2 minutes long.
+movie_ticket ( price_ticket_accept = "$39.50") & sure, the total is $39.50.
+movie_ticket ( time_start = "9:45") & Sure what time did you want 7 or 9:45?
+movie_ticket ( name_theater = "the cinemark southland center" ; name_movie = "aquaman" ; time_start = "10:55 pm") & ok, it looks like the cinemark southland center has 2 showings of aquaman. 7:45 pm and 10:55 pm.
+movie_ticket ( price_ticket_accept = "$26") & ok, it will be $26 is that ok?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "aquaman" ; time_start_accept = "10:55 pm" ; name_theater_accept = "the cinemark southland center") & ok, you are purchasing 2 tickets to see aquaman at 10:55 pm tonight at the cinemark southland center, is that correct?
+movie_ticket ( name_theater = "Bow Ties Cinemas Majestic 6") & ok, are you near Bow Ties Cinemas Majestic 6?
+movie_ticket ( type_screening = "3d") & ok, let me find showtimes for you. do you want to see in standard or 3d?
+movie_ticket ( time_start = "9:30pm") & there is a showing at 9:30pm, will that work for you?
+movie_ticket ( price_ticket = "$12") & your total will be $12 for one ticket, is that ok?
+movie_ticket ( time_start_reject = "9:30pm" ; time_start = "7pm") & i'm sorry, the 9:30pm showing is sold out, the latest showing is at 7pm.
+movie_ticket ( num_tickets_accept = "1" ; name_movie_accept = "the lego movie 2" ; name_theater_accept = "Bow Tie Cinemas Majestic 6 at" ; time_start_accept = "7pm") & ok, i have booked 1 ticket to see the lego movie 2 at Bow Tie Cinemas Majestic 6 at 7pm.
+movie_ticket ( name_movie = "isn't it romantic") & where did you want to watch isn't it romantic?
+movie_ticket ( time_start = "4:45pm") & afternoon show times were 2:25pm , 4:45pm.
+movie_ticket ( time_start = "2:25pm" ; name_movie_accept = "isn't it romantic" ; name_theater_accept = "century theaters" ; location_theater_accept = "tucson marketplace" ; price_ticket_accept = "$9") & ok, one ticket to the 2:25pm showing of isn't it romantic at century theaters at tucson marketplace is $9. Should i charge the card on file now?
+movie_ticket ( time_start_reject = "2:25pm" ; time_start_accept = "4:45pm") & sorry about that, the 2:25pm showing is sold out. Did you want the later afternoon showtime, which was 4:45pm?
+movie_ticket ( name_movie = "A dog's way home" ; time_start_reject = "9:50" ; num_tickets = "two") & Ok. A dog's way home at 9:50 for two people, is that correct?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "a dog's way home" ; name_theater_accept = "the regal cinemas south beach 18" ; time_start_accept = "7:25") & Ok, 2 tickets for a dog's way home at the regal cinemas south beach 18 at 7:25.
+movie_ticket ( name_movie_accept = "Aquaman" ; time_start_accept = "7:30pm.") & Okay. tonight they only have one showing of Aquaman. at 7:30pm.
+movie_ticket ( name_theater = "fleur") & ok, it looks like fleur has limited movies playing, they don't have replicas tonight.
+movie_ticket ( time_start = "10 pm") & ok, i found that, they have one showing tonight at 10 pm.
+movie_ticket ( price_ticket_accept = "$30") & sure, give me a moment. it will cost $30, is that ok?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "replicas" ; time_start_accept = "10pm" ; name_theater_accept = "fridley theaters copper creek 9") & let me finish your booking. i have booked 2 tickets to see replicas tonight at 10pm at fridley theaters copper creek 9, is that correct?
+movie_ticket ( name_theater = "the amc metreon 16") & ok, are you near the amc metreon 16?
+movie_ticket ( name_theater = "amc van ness 14") & how about amc van ness 14?
+movie_ticket ( time_start = "7:55") & ok, they have showings tonight at 1:30, 4:35, and 7:55.
+movie_ticket ( time_start = "4:35") & ok, would you like the 1:30 or 4:35 showtime?
+movie_ticket ( price_ticket_accept = "$39") & ok, your total will be $39, is that ok?
+movie_ticket ( name_movie = "glass") & let me check that for you. the director of glass is M. Night Shyamalan.
+movie_ticket ( time_start_reject = "4:35 showing" ; time_start = "7:55") & ok, booking your tickets now. i'm sorry, it looks like the 4:35 showing is completely sold out, would you like to go to the 1:30pm showing or the 7:55 showing?
+movie_ticket ( ticket_booking_accept = "booked" ; num_tickets_accept = "3" ; name_movie_accept = "glass" ; time_start_accept = "1:30pm" ; name_theater_accept = "the amc van ness 14") & ok, let me book those tickets for you. i have booked 3 tickets to see glass at 1:30pm at the amc van ness 14, your tickets and receipt will be texted to you.
+movie_ticket ( time_start = "9pm") & got it they have a 6pm and 9pm showing tonight.
+movie_ticket ( price_ticket_accept = "$39") & ok, your total will be $39, is that ok?
+movie_ticket ( num_tickets_accept = "3" ; name_movie_accept = "how to train your dragon 3" ; name_theater_accept = "the regal galleria mall stadium 16") & i have booked 3 tickets to see how to train your dragon 3 at the regal galleria mall stadium 16. your tickets and receipt will be texted to you. can i help with anything else?
+movie_ticket ( location_theater_accept = "New York city") & I'm sorry, did you mean New York city?
+movie_ticket ( time_start = "7:25") & The closest I have is 7:25 is that okay?
+movie_ticket ( time_start_accept = "9:15" ; name_theater_accept = "AMC Garden State") & There's a 9:15 at AMC Garden State does that work?
+movie_ticket ( name_movie = "glass") & glass, has good ratings, would you like to see that?
+movie_ticket ( name_movie = "glass" ; name_movie_accept = "glass") & glass. ok, about what time would you like to see glass?
+movie_ticket ( time_start = "7:45") & ok, there is a 7:45 showing, will that work?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "glass" ; time_start_accept = "7:45" ; name_theater_accept = "century bolder") & great, so i will be buying 2 tickets to see glass at 7:45 at century bolder, is that correct?
+movie_ticket ( price_ticket_accept = "$26") & ok, your total will be $26, is that ok?
+movie_ticket ( time_start_accept = "7:30") & The closest I have is 7:30 is that okay?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "Green Book" ; name_theater_accept = "AMC Classic Mattoon 10n") & Okay so 2 tickets for Green Book at the AMC Classic Mattoon 10n.
+movie_ticket ( price_ticket_accept = "25 99") & It'll cost 25 99 and you'll get them via text.
+movie_ticket ( time_start = "10 pm") & Hi there how can I help you? Okay one moment. Did you prefer 7pm or 10 pm for showtime?
+movie_ticket ( name_theater = "the Century Theaters East" ; time_start = "7") & Alright, I see a showing at the Century Theaters East at 7. how many people will be coming?
+movie_ticket ( num_tickets_accept = "2" ; time_start_accept = "7" ; name_theater_accept = "Century Theaters East") & hm... it seems that there's only seating for two people left at that theater. SHould i try another one? Okay great. If that's okay then it's 2 tickets for 7 at Century Theaters East.
+movie_ticket ( name_movie = "Glass") & ok, where would you like to watch Glass?
+movie_ticket ( name_theater = "williamsburg cinemas") & williamsburg cinemas?
+movie_ticket ( time_start = "10:15pm") & ok, the showtimes are at 7:20 and 10:15pm. 10:15pm.
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "Glass" ; time_start_accept = "10:15pm" ; name_theater_accept = "Williamsburg cinemas") & sure. 2 tickets for Glass at 10:15pm at the Williamsburg cinemas.
+movie_ticket ( time_start = "9:45pm" ; name_theater = "Cinemark Hollywood Movies 20") & i found a 6:05pm showing at Edwards Greenway Grand Palace 24 & RPX, a 6 and 9pm showing at Edwards Houston Marq'E 23 IMAX & RPX and a 9:45pm at Cinemark Hollywood Movies 20 .
+movie_ticket ( price_ticket_accept = "$24") & your total is $24. can i continue with the purchase?
+movie_ticket ( time_start = "6:30pm") & there is a 6:30pm at the same theater.
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "Mary Poppins Returns" ; time_start_accept = "6:30pm" ; name_theater_accept = "Cinemark Hollywood Movies 20") & ok, you're all set. 2 tickets for Mary Poppins Returns at 6:30pm at Cinemark Hollywood Movies 20.
+movie_ticket ( num_tickets = "ok.") & there is a 10 pm session at the Alamo Drafthouse Cinema South Lamar, a 9:20 pm at the Alamo Drafthouse Cinema Lakeline and a 10:20 pm at the Alamo Drafthouse Cinema Marketplace. ok. how many tickets do you want to purchase?
+movie_ticket ( time_start = "owtimes") & other showtimes were 9:20 pm at the Alamo Drafthouse Cinema Lakeline and a 10:20 pm at the Alamo Drafthouse Cinema Marketplace.
+movie_ticket ( name_theater = "amc star southfield 20") & ok, are you near the amc star southfield 20?
+movie_ticket ( time_start = "3:30pm") & ok, they have one showing at 3:30pm.
+movie_ticket ( price_ticket = "$12") & ok, your total will be $12, is that ok?
+movie_ticket ( name_movie = "glass" ; location_theater_reject = "woodhaven") & it doesn't look like they are showing glass at the theater in woodhaven, is there another city you would like me to check?
+movie_ticket ( time_start = "3:40pm" ; name_theater = "MJR southgate digital cinema 20" ; price_ticket_accept = "$13") & ok, they have a 3:40pm showing at MJR southgate digital cinema 20, would that work for you? great, your ticket there will be $13, is that ok?
+movie_ticket ( num_tickets_accept = "1" ; name_movie_accept = "glass" ; name_theater_accept = "MJR southgate digital cinema 20" ; time_start_accept = "3:40pm") & ok, i have booked 1 ticket to see glass at the MJR southgate digital cinema 20 at 3:40pm. your ticket and receipt will be texted to you. can i help with anything else?
+movie_ticket ( time_start = "6:45pm" ; num_tickets = "9:30pm") & looks like it's showing at 6:45pm and 9:30pm.
+movie_ticket ( name_movie = "bumblebee" ; time_duration_accept = "1 hour and 54 minutes long") & bumblebee is 1 hour and 54 minutes long.
+movie_ticket ( time_start = "9:30pm") & did you want to cancel? or select another time. yes, there are tickets available for the 9:30pm showing.
+movie_ticket ( price_ticket_accept = "$36" ; time_start_accept = "9:30pm" ; name_movie_accept = "bumblebee") & did you want to book this? sure thing, the cost will be the same, $36 for the 9:30pm showing of bumblebee.
+movie_ticket ( time_start = "7:10") & The closest is 7:10.
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "On the Basis of Sex" ; time_start_accept = "7:10" ; name_theater_accept = "United Artists Denver Pavillions") & Okay great! One moment. So that's 2 tickets to see On the Basis of Sex at 7:10 tonight at the United Artists Denver Pavillions. Correct?
+movie_ticket ( price_ticket_accept = "$55") & $55.
+movie_ticket ( name_theater = "regal commerce center") & aw, i'm so sorry. it looks like that show time is sold out. did you want me to select the showing at regal commerce center, another showtime and location or cancel transaction altogether?
+movie_ticket ( name_theater = "amc brunswick square") & ok, does regal commerce center stadium work or would you prefer amc brunswick square?
+movie_ticket ( name_theater = "regal commerce center stadium" ; time_start = "10:35 pm") & both are available. amc brunswick square has a showtime available at 9:35 pm and regal commerce center stadium has a showtime at 10:35 pm available.
+movie_ticket ( num_tickets_accept = "one" ; name_movie_accept = "what men want" ; name_theater_accept = "amc brunswick square" ; time_start_accept = "9:35 pm" ; price_ticket_accept = "$11") & great, one ticket to what men want at amc brunswick square at 9:35 pm will be $11. should i book your ticket now?
+movie_ticket ( num_tickets_accept = "2" ; time_start_accept = "7pm") & so 2 tickets the 7pm show time?
+movie_ticket ( price_ticket_accept = "$20") & it'll be $20.
+movie_ticket ( name_movie = "Aquaman") & And what is the name of the film you'd like to see? you want to see Aquaman is that right?
+movie_ticket ( name_theater = "AMC theater") & ok AMC theater is that right?
+movie_ticket ( name_theater = "AMC Empire 25") & AMC Empire 25 is that ok with you?
+movie_ticket ( type_screening = "standard") & would you like to watch it in 3D, Imax or standard?
+movie_ticket ( name_movie = "aquaman" ; time_start = "10 pm tonight") & we have aquaman at 10 pm tonight is that ok?
+movie_ticket ( num_tickets = "3" ; name_movie = "aquaman" ; name_theater = "AMC Empire 25") & so thats 3 tickets for the movie aquaman at AMC Empire 25 is that right?
+movie_ticket ( num_tickets = "3" ; price_ticket = "36 dollar") & so for 3 tickets the total is 36 dollar is that ok?
+movie_ticket ( name_movie = "aquaman") & what would you like to know about aquaman the movie?
+movie_ticket ( name_movie = "aquaman" ; time_duration_accept = "2 hours and 22 minutes") & the running time for aquaman the movie is 2 hours and 22 minutes.
+movie_ticket ( num_tickets = "3" ; price_ticket = "36 dollars" ; name_movie = "aquaman" ; name_theater = "AMC Empire 2" ; time_start_reject = "10 pm") & so confirming you would like 3 tickets total 36 dollars for the movie aquaman at AMC Empire 2 for 10 pm is that correct?
+movie_ticket ( time_start = "tomorrow at 10pm") & we have tomorrow at 10pm is that ok?
+movie_ticket ( num_tickets_accept = "3" ; price_ticket_accept = "36 dollars" ; name_movie_accept = "aquaman" ; name_theater_accept = "AMC Empire 2 for" ; time_start_accept = "10 pm tomorrow") & so confirming you would like 3 tickets total 36 dollars for the movie aquaman at AMC Empire 2 for 10 pm tomorrow is that correct?
+movie_ticket ( name_theater = "Imax" ; location_theater_accept = "Downtown San Jose") & That's the Imax in Downtown San Jose, right?
+movie_ticket ( price_ticket_accept = "100 dollars" ; num_tickets = "4" ; name_theater = "imax") & Okay great. That 100 dollars for 4 people at the imax, is that okay?
+movie_ticket ( name_movie_accept = "Aquaman" ; time_start_accept = "10 pm" ; num_tickets_accept = "4" ; name_theater_accept = "IMAX" ; location_theater = "San Jose") & You'll be seeing Aquaman at 10 pm with 4 people at the IMAX in San Jose, Have fun!
+movie_ticket ( location_theater_accept = "cambridge") & There are several movie theaters in cambridge, which one would you like?
+movie_ticket ( name_movie = "aquaman") & ok, what time would you like to see aquaman?
+movie_ticket ( num_tickets_accept = "two tickets" ; name_movie_accept = "aquaman") & done. two tickets for aquaman.
+movie_ticket ( name_movie = "great") & sure, let me check on that for you. it looks like great comes out on march 1st, 2019. did you want to select another movie, one that's currently playing in theaters.
+movie_ticket ( num_tickets_accept = "3" ; time_start_reject = "3pm" ; name_movie_accept = "How to Train Your Dragon: The Hidden World" ; name_theater_accept = "THE LOT Liberty Station" ; price_ticket_accept = "$30") & 3 tickets for the 3pm showing of How to Train Your Dragon: The Hidden World at THE LOT Liberty Station is $30. should i charge the card on file now?
+movie_ticket ( time_start_accept = "5:30pm") & ok, that will be at 5:30pm. the price is the same. did you want me to purchase the tickets on your behalf now?
+movie_ticket ( time_start = "10 pm") & I have 2 showtimes for you, 7:30 and 10 pm.
+movie_ticket ( num_tickets_accept = "two" ; name_movie_accept = "escape room" ; time_start_accept = "10 pm" ; price_ticket_accept = "$24.99") & okay so that's two tickets to see escape room at 10 pm. Your total will be $24.99.
+movie_ticket ( name_theater_accept = "AMC Mission Valley 20" ; location_theater_accept = "Camino Del Rio") & alright! give me a moment. how about the AMC Mission Valley 20 on Camino Del Rio.
+movie_ticket ( type_screening = "IMAX" ; time_start = "9PM") & Alright, their IMAX showtimes ar at 3, 6 and 9PM.
+movie_ticket ( time_start = "6:00PM") & Okay, and how many tickets would you like for the 6:00PM showing?
+movie_ticket ( num_tickets = "2") & and you said 2 tickets, did i get that right?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "happy death day to u" ; time_start = "10:20pm" ; name_theater_accept = "Cineplex Odeon Devonshire Mall Cinemas" ; price_ticket_accept = "$24") & 2 tickets to see happy death day to u at 10:20pm at Cineplex Odeon Devonshire Mall Cinemas will be $24. should i process the payment now?
+movie_ticket ( time_start = "9:25pm") & I'm so sorry. The show time you selected is actually sold out. Did you want the earlier show time, which was 9:25pm? or should i cancel.
+movie_ticket ( type_screening = "3D" ; time_start = "9:30pm") & one is standard showing at 7:30 PM and another 3D showing at 9:30pm.
+movie_ticket ( location_theater = "united states" ; name_theater = "selmas") & Great , did you know there's one in Alabama and New York? i'm looking at the showtimes I was just saying there were two other selmas in the united states. What time did you want to see it?
+movie_ticket ( time_start_reject = "4:10" ; name_theater_reject = "Sierra Vista Cinemas") & That's 4:10 at Sierra Vista Cinemas okay?
+movie_ticket ( name_theater_accept = "Selma 6 Cinemas" ; time_start_accept = "4:20 pm" ; num_tickets_accept = "4 people" ; name_movie_accept = "cold pursuit") & Selma 6 Cinemas at 4:20 pm for 4 people to see cold pursuit.
+movie_ticket ( name_theater = "Regal Cinemas Windward 10" ; name_movie_accept = "the Upside") & How about the Regal Cinemas Windward 10, it has a couple showtimes for the Upside.
+movie_ticket ( name_theater_accept = "Consolidated Theatres Mililani" ; location_theater_accept = "Meheula Pkwy, Mililani") & I've found the Consolidated Theatres Mililani, which is on Meheula Pkwy, Mililani.
+movie_ticket ( type_screening = "Titan LUX") & It does, and also offers Standard or Titan LUX showings.
+movie_ticket ( type_screening = "LUX") & Okay, would you like to hear about the standard showings or the LUX ones?
+movie_ticket ( time_start = "9:50pm") & Alright, the available showtimes are 2:45pm, 5:35pm, 7:00pm, 8:30pm, or 9:50pm.
+movie_ticket ( num_tickets = "2") & Great, and you said 2 tickets, correct?
+movie_ticket ( location_theater = "amc regency 24") & ok, i'll find theaters near you. are you near amc regency 24?
+movie_ticket ( time_start = "9:35pm") & ok, what movie did you want to see? ok, they have showings tonight at 7:05pm and 9:35pm.
+movie_ticket ( num_tickets = "2") & ok and you said you needed 2 tickets?
+movie_ticket ( price_ticket_accept = "$26") & the total will be $26, is that ok?
+movie_ticket ( name_movie = "alita battle angel") & glass and alita battle angel seem to be popular choices.
+movie_ticket ( name_theater_accept = "regal cinemas meridian 16" ; time_start_reject = "12pm" ; num_tickets = "4" ; price_ticket = "$48") & sure, the next showing is at regal cinemas meridian 16 at 12pm. should i book 4 tickets to see this now? it'll b $48.
+movie_ticket ( time_start_accept = "1pm" ; type_screening_accept = "3d") & ok, the next available show time is at 1pm in 3d. does that sound good?
+movie_ticket ( num_tickets_accept = "4" ; price_ticket_accept = "$56") & 4 tickets is going to be $56. i'll charge the card on file now if you'd like.
+movie_ticket ( name_theater = "AMC" ; location_theater = "Adams street") & Okay! one moment. how about the AMC theater on Adams street?
+movie_ticket ( name_theater = "Regal cinemas" ; location_theater = "Maddison") & Sure, there is also the Regal cinemas on Maddison, is that one better for you?
+movie_ticket ( type_screening = "IMX") & Okay, not a problem! were you looking for a specific show type, like IMX?
+movie_ticket ( type_screening = "standard") & Okay, standard showing is fine then?
+movie_ticket ( time_start = "9PM.") & the first is at 4:15, then 7:20 and then 9PM.
+movie_ticket ( time_start = "7:20") & Give me a moment to double check. Yes, the 7:20 showing still has seats available for tonight.
+movie_ticket ( num_tickets_accept = "2 tickets for" ; name_movie_accept = "Spider-Man: Into the Spider-Verse.") & Okay, not a problem so 2 tickets for Spider-Man: Into the Spider-Verse.
+movie_ticket ( time_start_accept = "at 7:20" ; price_ticket_accept = "$18.66.") & at 7:20, that will be $18.66.
+movie_ticket ( name_theater = "AMC Village 7") & ok we have AMC Village 7, is that ok?
+movie_ticket ( name_movie_reject = "aquaman") & sorry aquaman is not showing at the theater.
+movie_ticket ( name_movie = "spider-man into the spider-verse") & yes spider-man into the spider-verse, is that right?
+movie_ticket ( time_start_reject = "9:10pm") & we have one at 9:10pm you want to try that time?
+movie_ticket ( time_duration = "1h56m") & ok the runtime is 1h56m.
+movie_ticket ( time_start_accept = "10:30pm") & we have a later one at 10:30pm, they have tickets.
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "Spider-Man: Into the Spider-Verse" ; name_theater_accept = "AMC Village 7" ; location_theater_accept = "new york" ; price_ticket_accept = "28") & ok so booked 2 tickets for the movie Showtimes for Spider-Man: Into the Spider-Verse at AMC Village 7 in new york. the total comes to 28 dollars.
+movie_ticket ( time_start = "10:50pm" ; name_theater = "Cinemark Reserve Dine-In") & sure thing. let me take a look at the showtimes. i found a 9:50pm session at Regal Cinemas Meridian 16 and a 10:50pm at Cinemark Reserve Dine-In.
+movie_ticket ( price_ticket = "$13.50") & it is $13.50 per ticket.
+movie_ticket ( price_ticket_accept = "$42.50") & the total is $42.50.
+movie_ticket ( num_tickets_accept = "3" ; name_movie_accept = "glass" ; name_theater = "Silverspot Cinema" ; time_start_accept = "3:40") & Okay one moment. So that's 3 tickets to see glass at Silverspot Cinema at 3:40.
+movie_ticket ( name_theater_reject = "Silverspot Cinema" ; name_theater_accept = "Regal Cinemas South Beach 18 & IMAX") & Got it. Instead of Silverspot Cinema it's going to be Regal Cinemas South Beach 18 & IMAX otherwise the order is the same.
+movie_ticket ( price_ticket_accept = "29 99" ; num_tickets_accept = "2 tickets") & Okay so your total will be 29 99 for 2 tickets.
+movie_ticket ( num_tickets_accept = "2 tickets" ; name_movie_accept = "Aquaman" ; name_theater_accept = "Ipic theaters" ; time_start_accept = "6:30") & That's 2 tickets to Aquaman for Ipic theaters at 6:30 right?
+movie_ticket ( name_movie = "Roma" ; time_start = "8:45pm") & Today I can see that Roma is showing at 2pm, 5:20pm and 8:45pm.
+movie_ticket ( num_tickets = "2") & Sorry, it looks like tonight's showing is full and there are only 2 tickets available. Should i check another time?
+movie_ticket ( num_tickets_accept = "Two" ; name_movie_accept = "Roma" ; time_start_accept = "8:45pm") & Two tickets purchased for Roma at 8:45pm.
+movie_ticket ( name_movie = "spider man") & hi, how can i assist you? sure, where would you like to watch spider man?
+movie_ticket ( name_movie = "AMC Marina Marketplace 6" ; location_theater_accept = "Santa monica" ; name_theater = "AMC") & I found a few movie theaters showing Spider-Man: Into the Spider-Verse in Santa monica. The first is at the AMC, the second is at the AMC Marina Marketplace 6 and the third is at the landmark. should i look for more theaters?
+movie_ticket ( name_theater = "AMC theaters" ; type_screening = "imax") & AMC theaters, correct? Do you have any preference for standard or imax?
+movie_ticket ( time_start_reject = "6:15" ; time_start = "9:15") & i found the 6:15 and 9:15 showings for tonight. which one would you like?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "Spider-Man: Into the Spider-Verse" ; time_start_accept = "9:15" ; name_theater_accept = "AMC theaters") & You got it. 2 tickets for Showtimes for Spider-Man: Into the Spider-Verse at 9:15 at the AMC theaters.
+movie_ticket ( name_theater = "century walnut creek 14") & sure, let me find theaters near you. are you near century walnut creek 14?
+movie_ticket ( time_start = "10:10") & it looks like they have a 10:10 showing is that ok?
+movie_ticket ( price_ticket_accept = "$36") & ok, your total will be $36, is that ok?
+movie_ticket ( time_start_reject = "10:10" ; time_start = "7:10pm") & i'm sorry, it looks like the 10:10 showing is sold out, the next latest showing is at 7:10pm, will that work?
+movie_ticket ( type_screening = "3d") & ok, let me see what i can find? would you like to see in the standard version or 3d?
+movie_ticket ( time_start_accept = "4:30pm" ; name_theater_accept = "Flint West 14") & the only session in the afternoon i found is at 4:30pm at Flint West 14.
+movie_ticket ( price_ticket_accept = "$42") & ok, the total is $42.
+movie_ticket ( name_movie = "happy deathday to you") & ok so thats happy deathday to you is that correct?
+movie_ticket ( name_theater = "AMC Village 7 theater") & in what city would you like to watch it in? we have AMC Village 7 theater, is that a good place for you?
+movie_ticket ( type_screening = "standard") & would you like to watch it in 3D, Imax or standard?
+movie_ticket ( num_tickets = "2" ; type_screening = "imax" ; price_ticket_accept = "50 dollars") & ok so 2 tickets for imax would be 50 dollars, is that ok?
+movie_ticket ( time_duration_accept = "1 hour and 40 minutes") & ok let me find that out for you real quick. the movie is 1 hour and 40 minutes duration.
+movie_ticket ( time_start_reject = "11pm") & ok we have a show time at 11pm for you, would you like to book that time?
+movie_ticket ( name_movie_accept = "happy deathday to you" ; time_start = "midnight") & next showtime for the movie happy deathday to you would be at midnight.
+movie_ticket ( num_tickets_accept = "2" ; type_screening_accept = "imax" ; name_theater_accept = "AMC Village 7 theater" ; time_start_accept = "midnight") & ok 2 imax tickets have been booked for you at AMC Village 7 theater for the midnight showing, tickets will be send to your mobile device as a text message.
+movie_ticket ( name_movie = "dragon ball called studio movie grill") & ok, i'll find theaters near there. ok, i found a theater showing dragon ball called studio movie grill, is that ok?
+movie_ticket ( time_start = "9:30 pm") & ok, they have showings at 3:30 pm, 6:50 pm and 9:30 pm tonight.
+movie_ticket ( price_ticket_accept = "$13") & your total will be $13, is that ok?
+movie_ticket ( time_start_reject = "3:30 pm" ; time_start = "6:50 pm") & ok, let me book that ticket for you. i'm sorry, it looks like the showing at 3:30 pm is completely booked, would you like to go to the next showing at 6:50 pm?
+movie_ticket ( time_duration_accept = "1 hour and 41 minutes") & let me check the runtime. it is 1 hour and 41 minutes.
+movie_ticket ( num_tickets_accept = "1" ; name_movie_accept = "dragon ball super: broly" ; time_start_accept = "6:50 pm" ; name_theater_accept = "the studio movie grill" ; location_theater = "chicago") & ok, i have booked 1 ticket to see dragon ball super: broly at 6:50 pm tonight at the studio movie grill in chicago, your ticket and receipt will be texted to you.
+movie_ticket ( time_start = "6:55") & The closest I have is 6:55, is that okay?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "Aquaman" ; time_start_accept = "6:55" ; name_theater_accept = "United Artists in Horton Plaze") & Alright so that's 2 people for Aquaman at 6:55. The theater is the United Artists in Horton Plaze.
+movie_ticket ( num_tickets_accept = "two tickets" ; name_movie_accept = "A dog's way home" ; name_theater_accept = "AMC Esquire 7" ; time_start = "9pm") & i see two tickets available for A dog's way home at AMC Esquire 7 at 7pm and 9pm. Which time would you prefer?
+movie_ticket ( price_ticket_accept = "$30") & Ok, let me book that for you. the total will be $30. is that alright?
+movie_ticket ( time_start = "10 pm") & I have showings between 6:30 and 10 pm, what time would you like?
+movie_ticket ( name_theater_accept = "Starlight Cinemas" ; time_start_accept = "9 pm") & okay so that's going to be at the Starlight Cinemas at 9 pm. How many people will be going?
+movie_ticket ( name_movie_accept = "Glass") & Have a great time at Glass!
+movie_ticket ( name_theater = "la and arclight") & ok i found regal cinemas la and arclight.
+movie_ticket ( name_movie = "bumblee" ; name_theater = "the arclight") & ok, give me a moment to find showtimes. im sorry, bumblee is not showing today at the arclight.
+movie_ticket ( name_theater = "regency commerce 14") & highland theater and regency commerce 14.
+movie_ticket ( name_theater = "regency commerce 14") & highland theater is the first theater and regency commerce 14 is the second option.
+movie_ticket ( num_tickets_accept = "3" ; name_movie_accept = "bumblee" ; name_theater_accept = "the regency commerce 14" ; time_start_accept = "4:10 pm") & give me a moment to book that for you. ok, i have booked 3 tickets to watch bumblee at the regency commerce 14 at 4:10 pm today.
+movie_ticket ( time_start = "4:10pm" ; name_theater_accept = "the Regal Warrington") & That'll be 4:10pm at the Regal Warrington. how many tickets did you need?
+movie_ticket ( time_start_accept = "7pm") & that's 7pm is that okay?
+movie_ticket ( time_start = "8:30 pm" ; name_theater_accept = "regal cinemas" ; location_theater_accept = "Los Angeles") & let me take a look. looks like there's a 2pm, 4pm, and 8:30 pm showing at regal cinemas in Los Angeles.
+movie_ticket ( price_ticket_accept = "$48") & the cost will be $48.
+movie_ticket ( name_theater = "the Alamo Drafthouse Cinema") & How about the Alamo Drafthouse Cinema?
+movie_ticket ( num_tickets_accept = "2" ; time_start_accept = "6:35 pm" ; name_movie_accept = "Aquaman" ; name_theater_accept = "the Alamo Drafthouse in Dallas") & Okay, so I've got 2 tickets for 6:35 pm to see Aquaman at the Alamo Drafthouse in Dallas, rihgt?
+movie_ticket ( price_ticket_accept = "$24.99") & Alright, the total will be $24.99.
+movie_ticket ( time_start_accept = "9:45pm") & ok they only have one showtime at 9:45pm.
+movie_ticket ( price_ticket_accept = "$24") & ok, it will come out to $24, is that ok?
+movie_ticket ( name_theater = "Regal Cinemas Battery Park.") & Ok, let me find theaters near you. I found a few options for you, AMC Empire 25, City Cinemas and Regal Cinemas Battery Park.
+movie_ticket ( name_movie = "Bumblebee" ; time_start = "11:30") & Will any of those work for you? Ok, let me check showtimes for Bumblebee. There are only 2 showings tonight, 8:30 and 11:30, will any of those work?
+movie_ticket ( num_tickets = "2") & Ok, and you said you needed 2 tickets?
+movie_ticket ( price_ticket_accept = "$30") & It will cost $30, is that ok?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "Bumblebee" ; time_start_accept = "tonight at 7:30" ; name_theater_accept = "AMC Empire 25") & Ok, I have booked 2 tickets to see Bumblebee tonight at 7:30 at AMC Empire 25, is that correct?
+movie_ticket ( num_tickets_accept = "3" ; name_movie_accept = "Aquaman" ; name_theater_accept = "the iPic theater" ; time_start_accept = "tomorrow at 6:30") & So that's 3 tickets to Aquaman at the iPic theater for tomorrow at 6:30. You'll get them via mobile.
+movie_ticket ( time_start = "9:50pm" ; name_theater = "AMC Chattanooga 18.") & i found sessions at 8:05pm and 9:50pm at AMC Chattanooga 18.
+movie_ticket ( time_start = "9:50pm") & the next one would be the 9:50pm session.
+movie_ticket ( price_ticket_accept = "$48.") & ok, your total is $48.
+movie_ticket ( num_tickets_accept = "4" ; name_movie_accept = "madea family funeral" ; time_start_accept = "9:50pm" ; name_theater_accept = "AMC Chattanooga 18.") & you're all set for tonight. 4 tickets for a madea family funeral at 9:50pm at AMC Chattanooga 18.
+movie_ticket ( name_movie_accept = "Incredibles 2") & I am seeing one movie theater that is showing the Incredibles 2.
+movie_ticket ( name_movie_accept = "Aquaman") & Sure, where would you like to see Aquaman?
+movie_ticket ( name_theater = "AMC") & Sure... which AMC?
+movie_ticket ( time_start = "7:30pm") & ok. i have the standard version showing at 4:40pm and 7:30pm.
+movie_ticket ( num_tickets = "two") & Sure! and you said two tickets, is that correct?
+movie_ticket ( num_tickets_accept = "two") & Awesome. Your two tickets have been purchased.
+movie_ticket ( time_start = "9:45 pm") & I have a showing at 3:45, 6:45, and 9:45 pm. which would you like?
+movie_ticket ( num_tickets_accept = "2 tickets" ; name_movie_accept = "Mary Poppins returns" ; time_start_accept = "6:45" ; name_theater_accept = "Civic Plaza 12") & I have you set for 2 tickets to Mary Poppins returns at 6:45 in Civic Plaza 12.
+movie_ticket ( num_tickets = "2") & No worries, thanks for confirming. and you're looking for 2 tickets, correct?
+movie_ticket ( num_tickets_accept = "2" ; price_ticket_accept = "$23.55") & Let me grab the total, one moment. Okay the 2 tickets will be $23.55, is that okay?
+movie_ticket ( name_movie_accept = "movie apollo the documentary") & ok you are in garden grove and you want the movie apollo the documentary right.
+movie_ticket ( name_theater_accept = "Regal Cinemas Garden Grove 16") & ok thank you for waiting, we have Regal Cinemas Garden Grove 16 is that ok.
+movie_ticket ( num_tickets = "4 tickets") & after 5pm 4 tickets ok let me check.
+movie_ticket ( time_start = "7:15pm") & ok we have a 7:15pm showing shall we try that time?
+movie_ticket ( name_movie_accept = "apollo 11") & the movie apollo 11 is 1h33m.
+movie_ticket ( time_start_accept = "10:30 pm") & ok for the show time we have 10:30 pm today shall we try that time?
+movie_ticket ( num_tickets = "4 tickets") & ok so thats 4 tickets correct?
+movie_ticket ( num_tickets_accept = "4 standard ticket" ; price_ticket_accept = "50 dollars") & for 4 standard ticket is 50 dollars.
+movie_ticket ( location_theater_accept = "9741 Chapman Ave, Garden Grove, CA 92841") & address to the theater ok one moment please. here is the address, 9741 Chapman Ave, Garden Grove, CA 92841.
+movie_ticket ( type_screening = "standard") & do you want to see that in 3d or standard?
+movie_ticket ( time_start = "3 pm" ; name_theater_accept = "United Artists Denver Pavilions 15" ; name_theater = "Alamo Drafthouse Cinema Sloans Lake") & i found a 2:45 pm session at United Artists Denver Pavilions 15 and a 3 pm at the Alamo Drafthouse Cinema Sloans Lake.
+movie_ticket ( price_ticket_accept = "$13") & ok, your total is $13.
+movie_ticket ( name_theater_accept = "the Galaxy Mission Grove Luxury+ Theatre") & did you mean the Galaxy Mission Grove Luxury+ Theatre.
+movie_ticket ( num_tickets_accept = "2" ; time_start_accept = "10:45pm" ; name_movie_accept = "Aquaman" ; price_ticket_accept = "$19.66") & Alright, so 2 tickets for the 10:45pm showing of Aquaman. one moment. The total for those tickets will be $19.66, is that okay?
+movie_ticket ( name_theater_accept = "Regal Cinemas Meridian 16" ; name_movie_accept = "The Lego Movie 2: The Second Part" ; time_start_reject = "12:40pm" ; num_tickets_accept = "one" ; price_ticket = "$10") & got it, let me look for available show times for you. one moment please. Regal Cinemas Meridian 16 is showing The Lego Movie 2: The Second Part at 12:40pm. This is the soonest show time I see. Would you like one ticket for this time? It'll be $10.
+movie_ticket ( time_start_accept = "3:40pm") & the director is mike mitchell. sorry, it looks like it's actually sold out. Did you want the next available show time, which is 3:40pm?
+movie_ticket ( price_ticket_accept = "$10") & great, i'll book your ticket now. The price will be the same, $10.
+movie_ticket ( time_start = "10 pm") & One moment while I check please. There are tickets around 3, 7, and 10 pm.
+movie_ticket ( location_theater = "Upland california") & Upland california.
+movie_ticket ( num_tickets = "one" ; price_ticket = "$12.40") & one ticket is $12.40.
+movie_ticket ( time_start = "10 pm") & Okay sure thing, that's for 10 pm right?
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "Aquaman" ; name_theater_accept = "Edwards Ontario theater" ; location_theater_accept = "Upland" ; time_start_accept = "10:00pm") & okay so that's 2 tickets to see Aquaman at the Edwards Ontario theater in Upland for 10:00pm.
+movie_ticket ( price_ticket_accept = "$24.80") & Your total is $24.80 and your tickets will arrive via mobile.
+movie_ticket ( time_start_accept = "7pm" ; name_theater = "Theater Box") & There's a 7pm showing at Theater Box. does that work?
+movie_ticket ( num_tickets_accept = "two" ; name_theater_accept = "theater box" ; name_movie_accept = "miss bala" ; price_ticket_accept = "$25.99") & great. For two people at theater box to see miss bala it will cost $25.99. anything else?
+movie_ticket ( time_start = "9:35") & 3:45, 6:40, and 9:35.
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "Mary Poppins Returns" ; name_theater_accept = "the Spokane Valley Regal Cinemas") & 2 tickets to Mary Poppins Returns at the Spokane Valley Regal Cinemas, right?
+movie_ticket ( time_start_accept = "6:40") & I've booked your tickets for 6:40, they'll arrive via text shortly.
+movie_ticket ( name_movie = "Glass") & Sure, where did you want to watch Glass?
+movie_ticket ( time_start = "8 p.m" ; name_theater = "Century at Pacific Commons" ; name_movie_accept = "Glass" ; time_start_accept = "8 p.m" ; name_theater_accept = "Century at Pacific Commons") & Awesome, 8 p.m. at Century at Pacific Commons it is? So to confirm, two tickets to see Glass at 8 p.m. at Century at Pacific Commons.
+movie_ticket ( time_start = "10 pm") & Okay I have times around 7 and 10 pm which would you like better?
+movie_ticket ( name_theater = "Edwards Brea East 12" ; time_start = "6:50") & Great. I've got a showtime at Edwards Brea East 12 at 6:50 how many tickets do you need?
+movie_ticket ( num_tickets_accept = "2" ; price_ticket_accept = "$25.99" ; name_movie_accept = "glass" ; name_theater_accept = "Edwards Brea east" ; time_start_accept = "6:50") & okay one moment. Alright so that's 2 tickets for $25.99 to see glass at Edwards Brea east at 6:50 anything else for you?
+movie_ticket ( num_tickets = "4 tickets" ; name_movie = "lego movie") & 4 tickets for the lego movie is that right?
+movie_ticket ( location_theater_accept = "costa mesa california") & ok which part of the city? costa mesa california is that correct?
+movie_ticket ( name_theater = "Starlight Triangle Square Cinemas") & we have Edwards Metro Pointe 12 and Starlight Triangle Square Cinemas, which movie theater would you prefer?
+movie_ticket ( name_theater = "Edwards Metro Pointe 12") & Edwards Metro Pointe 12 is that right.
+movie_ticket ( time_start = "5:00 pm") & afternoon before 5:00 pm is that right?
+movie_ticket ( type_screening = "Standard ticket") & ok, 3D, IMAX or Standard ticket?
+movie_ticket ( num_tickets = "4" ; type_screening = "3D tickets" ; name_movie = "Lego movie" ; name_theater_accept = "Edwards Metro Pointe 12") & ok so thats 4 3D tickets for the Lego movie at Edwards Metro Pointe 12 is that correct?
+movie_ticket ( time_duration_accept = "1h 41m.") & let me find out the movie duration for you, one moment please. the runtime for the lego movie is 1h 41m.
+movie_ticket ( type_screening = "3D" ; time_start = "7:50pm") & for 3D we have 7:50pm is that ok for you?
+movie_ticket ( time_start = "2:20pm") & looks like we have an earlier time at 2:20pm is that ok for you?
+movie_ticket ( time_start_reject = "2:20pm") & i am sorry, the tickets are sold out for the 2:20pm showtime, would you like to choose another time or cancel the reservation?
+movie_ticket ( time_start = "2:20pm") & ok for today the next showtime is 7:30pm, for tomorrow we have 2:20pm.
+movie_ticket ( type_screening = "standard") & ok let me check showtime for standard tickets for you.
+movie_ticket ( type_screening = "standard" ; time_start = "5:10pm") & for standard tickets we have 3:40pm and 5:10pm.
+movie_ticket ( time_start = "3:40 pm") & 3:40 pm is that correct?
+movie_ticket ( time_start = "10pm") & Let me take a look. Looks like there is an 8:30 showing or a 10pm showing.
+movie_ticket ( num_tickets_accept = "two" ; price_ticket_accept = "$22.00.") & the total for two tickets will be $22.00.
+movie_ticket ( time_start = "7:10 p.m" ; name_theater = "Regal Cinemas Oaks 24") & I found a 7:05 p.m. session at United Artists King of Prussia 16 IMAX & RPX and a 7:10 p.m. at Regal Cinemas Oaks 24.
+movie_ticket ( price_ticket_accept = "$12.50") & Ok, the total is $12.50.
+movie_ticket ( name_movie_accept = "sure, what movie did yo") & sure, what movie did you want to see there?
+movie_ticket ( num_tickets_accept = "any") & how many tickets did you need?
+movie_ticket ( time_start = "old i") & they shall not grow old is showing at Alamo Drafthouse at 4:15pm, 7:35pm, and 10:00pm.
+movie_ticket ( time_start = "you w") & aw, i'm sorry, the movie is actually sold out. did you want one of the other show times? or should i cancel?
+movie_ticket ( time_start = "it was 10") & it was 10:00pm.
+movie_ticket ( time_start_accept = "4:30pm" ; name_theater_accept = "Regal Cinemas Pioneer Place 6") & i found a 4:30pm session at Regal Cinemas Pioneer Place 6.
+movie_ticket ( price_ticket_accept = "$13.") & ok. the total is $13.
+movie_ticket ( price_ticket = "$9") & for adults it's $12. and for children it's $9.
+movie_ticket ( num_tickets_accept = "1 ticket" ; time_start_reject = "3:40pm" ; price_ticket_accept = "$10") & 1 ticket to the 3:40pm showing is $10. i'll purchase the ticket nows.
+movie_ticket ( time_start = "7:30pm" ; name_theater = "AMC Mercado 20") & ok, let me take a look at the show times. give me moment. i found a 7:15pm session at Century Cinema 16, a ShowPlace ICON Mountain View at 7pm and a 7:30pm at the AMC Mercado 20.
+movie_ticket ( price_ticket_accept = "$30.58") & sure. your total will be $30.58.
+movie_ticket ( num_tickets_accept = "3" ; name_movie = "The Kid Who Would Be King" ; time_start_accept = "7:30pm" ; name_theater_accept = "the AMC Mercado 20") & okay. so 3 tickets for The Kid Who Would Be King at 7:30pm at the AMC Mercado 20.
+movie_ticket ( name_movie_accept = "The Kid Who Would Be King") & The Kid Who Would Be King was directed by joe cornish.
+movie_ticket ( name_movie = "a dog's way home") & sure, where would you like to watch a dog's way home?
+movie_ticket ( name_movie = "a dog's way home in farmville" ; name_theater = "AMC Classic wilson and Goldsboro") & ok, i found a few showtimes for a dog's way home in farmville. AMC Fire Tower 12, AMC Classic wilson and Goldsboro.
+movie_ticket ( time_start_reject = "6:40pm" ; time_start = "9:10pm" ; name_theater = "AMC Fire Tower 12") & ok, for tonight i found the 6:40pm and 9:10pm showtimes at the AMC Fire Tower 12.
+movie_ticket ( num_tickets_accept = "2" ; name_movie_accept = "A dog's way home" ; name_theater_accept = "AMC Fire Tower 12" ; time_start_accept = "9:10pm") & Done. 2 tickets for A dog's way home at the AMC Fire Tower 12, for tonight at 9:10pm.

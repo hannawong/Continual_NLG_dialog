@@ -1,0 +1,489 @@
+OFFER ( event_name = "Zz Top" ; event_location = "PNE Amphitheatre" ; date = "today" ; time = "6 pm") & Zz Top is playing at the PNE Amphitheatre today starting at 6 pm.
+OFFER ( event_name = "Star City Music Festival" ; event_location = "Brisbane Community Park" ; date = "March 10th" ; time = "8:30 pm") & The Star City Music Festival is taking place at Brisbane Community Park. This is occurring on March 10th starting at 8:30 pm.
+OFFER ( event_name = "Mets Vs Braves" ; event_location = "Citi Field" ; date = "March 13th" ; time = "6 pm") & There are 10 events that you'll like, one being the Mets Vs Braves at Citi Field which is taking place on March 13th beginning at 6 pm.
+OFFER ( event_name = "Mets Vs Braves" ; event_location = "Citi Field" ; date = "March 13th" ; time = "6 pm") & There are 10 events that you'll like, one being the Mets Vs Braves at Citi Field which is taking place on March 13th beginning at 6 pm.
+OFFER ( event_name = "Mets Vs Braves" ; event_location = "Citi Field" ; date = "March 13th" ; time = "6 pm") & There are 10 events that you'll like, one being the Mets Vs Braves at Citi Field which is taking place on March 13th beginning at 6 pm.INFORM_COUNT ( count = "10") & There are 10 events that you'll like, one being the Mets Vs Braves at Citi Field which is taking place on March 13th beginning at 6 pm.
+OFFER ( event_name = "Mets Vs Braves" ; event_location = "Citi Field" ; date = "March 13th" ; time = "6 pm") & I managed to find 10 events that I think you'll like. There is a game for the Mets Vs Braves at Citi Field on March 13th at 6 pm.
+OFFER ( event_name = "Mets Vs Braves" ; event_location = "Citi Field" ; date = "March 13th" ; time = "6 pm") & I managed to find 10 events that I think you'll like. There is a game for the Mets Vs Braves at Citi Field on March 13th at 6 pm.
+OFFER ( event_name = "Mets Vs Braves" ; event_location = "Citi Field" ; date = "March 13th" ; time = "6 pm") & I managed to find 10 events that I think you'll like. There is a game for the Mets Vs Braves at Citi Field on March 13th at 6 pm.INFORM_COUNT ( count = "10") & I managed to find 10 events that I think you'll like. There is a game for the Mets Vs Braves at Citi Field on March 13th at 6 pm.
+CONFIRM ( event_name = "NYCFC Vs Dynamo" ; number_of_seats = "3" ; date = "next Wednesday" ; city_of_event = "New York") & Okay, can you tell me if this right? You are interested in 3 tickets to NYCFC Vs Dynamo in New York for next Wednesday?
+CONFIRM ( event_name = "Giants Vs Dodgers" ; number_of_seats = "3" ; date = "next Wednesday" ; city_of_event = "New York") & Okay, you'd like 3 tickets to Giants Vs Dodgers in New York for next Wednesday. Can you confirm this please?
+CONFIRM ( event_name = "Juliana Hatfield" ; number_of_seats = "4" ; date = "March 12th" ; city_of_event = "Washington D.C.") & Please confirm these details: you'd like to reserve 4 tickets for Juliana Hatfield in Washington D.C. on March 12th.
+CONFIRM ( event_name = "Kirk Franklin" ; number_of_seats = "4" ; date = "March 12th" ; city_of_event = "Washington D.C.") & Please confirm these details: you'd like to reserve 4 tickets for Kirk Franklin in Washington D.C. on March 12th.
+CONFIRM ( event_name = "Joe Hisaishi" ; number_of_seats = "3" ; date = "March 14th" ; city_of_event = "New York") & Please confirm the following details: 3 tickets reserved for the Joe Hisaishi event. It is taking place in New York on March 14th.
+CONFIRM ( number_of_seats = "3" ; date = "March 11th") & Please confirm: You have reserved 3 tickets for the event on March 11th.
+CONFIRM ( number_of_seats = "4" ; city_of_event = "Chicago") & Please confirm: You have reserved 4 tickets for an event in Chicago.
+CONFIRM ( event_name = "Crystal Lake" ; number_of_seats = "1" ; date = "next Wednesday" ; city_of_event = "London") & Kindly ensure that, 1 ticket has been reserved for the event Crystal Lake on next Wednesday at London.
+INFORM ( address_of_location = "178 Junction Road") & I booked the ticket for you. Hope you enjoy the event. The event venue is 178 Junction Road.
+INFORM ( address_of_location = "178 Junction Road") & I booked the ticket for you. Hope you enjoy the event. The event venue is 178 Junction Road.
+CONFIRM ( event_name = "Freestyle Love Supreme" ; number_of_seats = "2" ; date = "tomorrow" ; city_of_event = "Washington D.C.") & Can you please confirm that you'd like 2 tickets for Freestyle Love Supreme for tomorrow in Washington D.C.
+CONFIRM ( event_name = "Phillies vs White Sox" ; city_of_event = "Philadelphia") & Can you please confirm that you would like tickets for Phillies vs White Sox in Philadelphia?
+CONFIRM ( event_name = "Colin James" ; number_of_seats = "2" ; date = "March 13th" ; city_of_event = "Phoenix") & Please confirm that you want to see the Colin James event in Phoenix on March 13th and need 2 tickets.
+CONFIRM ( event_name = "Kishi Bashi" ; number_of_seats = "2") & Please confirm that the event is Kishi Bashi and that you need 2 tickets.
+CONFIRM ( event_name = "La Angels Vs Houston" ; number_of_seats = "2" ; date = "tomorrow" ; city_of_event = "Anaheim") & Great, please confirm the following details: 2 tickets for the La Angels Vs Houston game tomorrow in Anaheim.
+CONFIRM ( event_name = "Yankees Vs Rays" ; number_of_seats = "4" ; date = "March 14th" ; city_of_event = "New York") & So 4 tickets for Yankees Vs Rays on March 14th in New York?
+CONFIRM ( event_name = "Atlanta Summer Organ Festival" ; number_of_seats = "1" ; date = "March 13th" ; city_of_event = "Atlanta") & Please confirm the following: 1 ticket to Atlanta Summer Organ Festival in Atlanta on March 13th.
+CONFIRM ( event_name = "White Sox Vs Astros" ; number_of_seats = "1" ; date = "next Friday" ; city_of_event = "Chicago") & Please do confirm the following details: the event is White Sox Vs Astros for 1 person next Friday which will happen in Chicago.
+INFORM ( event_location = "Guaranteed Rate Field") & It's at Guaranteed Rate Field.
+INFORM ( time = "7:30 pm" ; address_of_location = "333 West 35th Street") & Guaranteed Rate Field address is 333 West 35th Street that will start at 7:30 pm.
+CONFIRM ( event_name = "Imperial Daze" ; number_of_seats = "2" ; date = "today" ; city_of_event = "London") & Just to make sure, I'll get you 2 tickets to Imperial Daze for today in London.
+INFORM ( address_of_location = "451 Queensbridge Road") & It's at 451 Queensbridge Road. Your reservation is confirmed. Have fun!
+INFORM ( address_of_location = "451 Queensbridge Road") & It's at 451 Queensbridge Road. Your reservation is confirmed. Have fun!
+OFFER ( event_name = "Eagles Vs Cowboys" ; event_location = "Lincoln Financial Field" ; date = "March 14th" ; time = "8 pm") & OF course! Well I've found 10, there's an Eagles Vs Cowboys game on March 14th at 8 pm. It's at the Lincoln Financial Field. How does that sound?
+OFFER ( event_name = "Eagles Vs Cowboys" ; event_location = "Lincoln Financial Field" ; date = "March 14th" ; time = "8 pm") & OF course! Well I've found 10, there's an Eagles Vs Cowboys game on March 14th at 8 pm. It's at the Lincoln Financial Field. How does that sound?
+OFFER ( event_name = "Eagles Vs Cowboys" ; event_location = "Lincoln Financial Field" ; date = "March 14th" ; time = "8 pm") & OF course! Well I've found 10, there's an Eagles Vs Cowboys game on March 14th at 8 pm. It's at the Lincoln Financial Field. How does that sound?INFORM_COUNT ( count = "10") & OF course! Well I've found 10, there's an Eagles Vs Cowboys game on March 14th at 8 pm. It's at the Lincoln Financial Field. How does that sound?
+OFFER ( event_name = "Owls Vs Bison" ; event_location = "Lincoln Financial Field" ; date = "March 13th" ; time = "6 pm") & I've found 4 on March 13th. There's an Owls Vs Bison game at Lincoln Financial Field at 6 pm. How does that sound?
+OFFER ( event_name = "Owls Vs Bison" ; event_location = "Lincoln Financial Field" ; date = "March 13th" ; time = "6 pm") & I've found 4 on March 13th. There's an Owls Vs Bison game at Lincoln Financial Field at 6 pm. How does that sound?
+OFFER ( event_name = "Owls Vs Bison" ; event_location = "Lincoln Financial Field" ; date = "March 13th" ; time = "6 pm") & I've found 4 on March 13th. There's an Owls Vs Bison game at Lincoln Financial Field at 6 pm. How does that sound?INFORM_COUNT ( count = "4") & I've found 4 on March 13th. There's an Owls Vs Bison game at Lincoln Financial Field at 6 pm. How does that sound?
+OFFER ( event_name = "Americo" ; event_location = "La Boom" ; date = "March 9th" ; time = "6 pm") & There are 10 music shows in New York on March 9th. One of them is Americo. It is at La Boom and starts at 6 pm.
+OFFER ( event_name = "Americo" ; event_location = "La Boom" ; date = "March 9th" ; time = "6 pm") & There are 10 music shows in New York on March 9th. One of them is Americo. It is at La Boom and starts at 6 pm.
+OFFER ( event_name = "Americo" ; event_location = "La Boom" ; date = "March 9th" ; time = "6 pm") & There are 10 music shows in New York on March 9th. One of them is Americo. It is at La Boom and starts at 6 pm.INFORM_COUNT ( count = "10") & There are 10 music shows in New York on March 9th. One of them is Americo. It is at La Boom and starts at 6 pm.
+OFFER ( event_name = "Atlanta Summer organ Festival" ; event_location = "Peachtree road United methodist Church" ; date = "next tuesday" ; time = "8:30 pm") & I found a an event for you, The event is Atlanta Summer organ Festival located at Peachtree road United methodist Church On next tuesday, The event Begins at 8:30 pm
+OFFER ( event_name = "Kirk Franklin" ; event_location = "Atlanta Symphony orchestra" ; date = "March 11th" ; time = "7 pm") & Sure, I found 1 event for you, The event is Kirk Franklin located at Atlanta Symphony orchestra on March 11th, the event begins at 7 pm
+OFFER ( event_name = "Kirk Franklin" ; event_location = "Atlanta Symphony orchestra" ; date = "March 11th" ; time = "7 pm") & Sure, I found 1 event for you, The event is Kirk Franklin located at Atlanta Symphony orchestra on March 11th, the event begins at 7 pm
+OFFER ( event_name = "Kirk Franklin" ; event_location = "Atlanta Symphony orchestra" ; date = "March 11th" ; time = "7 pm") & Sure, I found 1 event for you, The event is Kirk Franklin located at Atlanta Symphony orchestra on March 11th, the event begins at 7 pmINFORM_COUNT ( count = "1") & Sure, I found 1 event for you, The event is Kirk Franklin located at Atlanta Symphony orchestra on March 11th, the event begins at 7 pm
+INFORM ( address_of_location = "1280 Peachtree Street Northeast") & Sure, The venue address is 1280 Peachtree Street Northeast, Shall i help you with anything more?
+OFFER ( event_name = "Aaron Lewis" ; event_location = "SOMO Village Event Center" ; date = "March 13th" ; time = "8:30 pm") & Aaron Lewis will be performing at SOMO Village Event Center on March 13th at 8:30 pm.
+OFFER ( event_name = "Huichica Music Festival" ; event_location = "The Sandman Hotel" ; date = "March 14th" ; time = "8 pm") & The first thing that comes up is the Huichica Music Festival. It's going on at The Sandman Hotel on March 14th at 8 pm.
+OFFER ( event_name = "Angels Vs Astros" ; event_location = "Angel Stadium of Anaheim" ; date = "Next Wednesday" ; time = "7:30 pm") & Next Wednesday at 7:30 pm is Angels Vs Astros at Angel Stadium of Anaheim.
+OFFER ( event_name = "Mets Vs Braves" ; event_location = "Citi Field" ; date = "March 10th" ; time = "7:30 pm") & On March 10th at 7:30 pm I have Mets Vs Braves at Citi Field.
+OFFER ( event_name = "Mets Vs Diamondbacks" ; event_location = "Citi Field" ; date = "March 10th" ; time = "7 pm") & On March 10th at 7 pm I have Mets Vs Diamondbacks at Citi Field.
+INFORM ( address_of_location = "123-01 Roosevelt Avenue") & The address is 123-01 Roosevelt Avenue.
+OFFER ( event_name = "Bill Callahan" ; event_location = "Lodge Room" ; date = "tomorrow" ; time = "8:30 pm") & there are 10 events according to your interest. The event name is Bill Callahan, taking place at Lodge Room and event venue date is on tomorrow at 8:30 pm
+OFFER ( event_name = "Bill Callahan" ; event_location = "Lodge Room" ; date = "tomorrow" ; time = "8:30 pm") & there are 10 events according to your interest. The event name is Bill Callahan, taking place at Lodge Room and event venue date is on tomorrow at 8:30 pm
+OFFER ( event_name = "Bill Callahan" ; event_location = "Lodge Room" ; date = "tomorrow" ; time = "8:30 pm") & there are 10 events according to your interest. The event name is Bill Callahan, taking place at Lodge Room and event venue date is on tomorrow at 8:30 pmINFORM_COUNT ( count = "10") & there are 10 events according to your interest. The event name is Bill Callahan, taking place at Lodge Room and event venue date is on tomorrow at 8:30 pm
+OFFER ( event_name = "Jordan Rakei" ; event_location = "Regent Theater DTLA" ; date = "March 11th" ; time = "8:30 pm") & Another event name is Jordan Rakei, taking place at Regent Theater DTLA and the venue date on March 11th at 8:30 pm
+OFFER ( event_name = "Amber Run Brooklyn" ; event_location = "Warsaw" ; date = "march 14th" ; time = "6 pm") & There's an event called Amber Run Brooklyn taking place at Warsaw on march 14th at 6 pm
+OFFER ( event_name = "Americo" ; event_location = "La Boom" ; date = "next Wednesday" ; time = "6:30 pm") & Americo, at La Boom is another event taking place next Wednesday at 6:30 pm
+OFFER ( event_name = "Jojo Siwa" ; event_location = "Forest Hills Stadium" ; date = "march 14th" ; time = "6 pm") & Jojo Siwa, at Forest Hills Stadium is on march 14th at 6 pm
+OFFER ( event_name = "Mets vs Cubs" ; event_location = "Citi field" ; date = "March 14th" ; time = "7 pm") & I discovered 10 activities you'll enjoy. There is a Mets vs Cubs event occuring at Citi field on 7 pm of March 14th.
+OFFER ( event_name = "Mets vs Cubs" ; event_location = "Citi field" ; date = "March 14th" ; time = "7 pm") & I discovered 10 activities you'll enjoy. There is a Mets vs Cubs event occuring at Citi field on 7 pm of March 14th.
+OFFER ( event_name = "Mets vs Cubs" ; event_location = "Citi field" ; date = "March 14th" ; time = "7 pm") & I discovered 10 activities you'll enjoy. There is a Mets vs Cubs event occuring at Citi field on 7 pm of March 14th.INFORM_COUNT ( count = "10") & I discovered 10 activities you'll enjoy. There is a Mets vs Cubs event occuring at Citi field on 7 pm of March 14th.
+OFFER ( event_name = "Dodgers VS Cubs" ; event_location = "Dodger Stadium" ; date = "March 12th" ; time = "8:30 pm") & What about the Dodgers VS Cubs at Dodger Stadium on March 12th at 8:30 pm.
+OFFER ( event_name = "Rams Vs Cardinals" ; event_location = "LA Memorial Coliseum" ; date = "day after tomorrow" ; time = "6:30 pm") & I have 4 options for you. How about the Rams Vs Cardinals at LA Memorial Coliseum on the day after tomorrow at 6:30 pm.
+OFFER ( event_name = "Rams Vs Cardinals" ; event_location = "LA Memorial Coliseum" ; date = "day after tomorrow" ; time = "6:30 pm") & I have 4 options for you. How about the Rams Vs Cardinals at LA Memorial Coliseum on the day after tomorrow at 6:30 pm.
+OFFER ( event_name = "Rams Vs Cardinals" ; event_location = "LA Memorial Coliseum" ; date = "day after tomorrow" ; time = "6:30 pm") & I have 4 options for you. How about the Rams Vs Cardinals at LA Memorial Coliseum on the day after tomorrow at 6:30 pm.INFORM_COUNT ( count = "4") & I have 4 options for you. How about the Rams Vs Cardinals at LA Memorial Coliseum on the day after tomorrow at 6:30 pm.
+OFFER ( event_name = "Atlanta Summer Organ Festival" ; event_location = "Peachtree Road United Methodist Church" ; date = "next Tuesday" ; time = "8:30 pm") & I found 7 events including the Atlanta Summer Organ Festival at Peachtree Road United Methodist Church next Tuesday at 8:30 pm.
+OFFER ( event_name = "Atlanta Summer Organ Festival" ; event_location = "Peachtree Road United Methodist Church" ; date = "next Tuesday" ; time = "8:30 pm") & I found 7 events including the Atlanta Summer Organ Festival at Peachtree Road United Methodist Church next Tuesday at 8:30 pm.
+OFFER ( event_name = "Atlanta Summer Organ Festival" ; event_location = "Peachtree Road United Methodist Church" ; date = "next Tuesday" ; time = "8:30 pm") & I found 7 events including the Atlanta Summer Organ Festival at Peachtree Road United Methodist Church next Tuesday at 8:30 pm.INFORM_COUNT ( count = "7") & I found 7 events including the Atlanta Summer Organ Festival at Peachtree Road United Methodist Church next Tuesday at 8:30 pm.
+INFORM ( subcategory = "classical") & It is a classical music event.
+OFFER ( event_name = "Bonobo" ; event_location = "Ravine" ; date = "next Thursday" ; time = "7 pm") & There is a Bonobo concert at Ravine next Thursday at 7 pm.
+OFFER ( event_name = "Smokey Robinson" ; event_location = "PNE Amphitheatre" ; date = "March 14th" ; time = "7 pm") & There is a Smokey Robinson event taking place a PNE Amphitheatre which is happening on March 14th at 7 pm.
+OFFER ( event_name = "Arizona Vs La Dodgers" ; event_location = "Chase Field" ; date = "today" ; time = "6 pm") & How about Arizona Vs La Dodgers at Chase Field today at 6 pm?
+OFFER ( event_name = "Dodgers Vs Cubs" ; event_location = "Dodger Stadium" ; date = "March 12th" ; time = "8:30 pm") & There is an event on March 12th at 8:30 pm. The event is Dodgers Vs Cubs at Dodger Stadium.
+OFFER ( event_name = "Dodgers Vs Giants" ; event_location = "Dodger Stadium" ; date = "March 9th" ; time = "7:30 pm") & There are 6 events that match you request. There is an event on March 9th at 7:30 pm. The event is Dodgers Vs Giants at Dodger Stadium.
+OFFER ( event_name = "Dodgers Vs Giants" ; event_location = "Dodger Stadium" ; date = "March 9th" ; time = "7:30 pm") & There are 6 events that match you request. There is an event on March 9th at 7:30 pm. The event is Dodgers Vs Giants at Dodger Stadium.
+OFFER ( event_name = "Dodgers Vs Giants" ; event_location = "Dodger Stadium" ; date = "March 9th" ; time = "7:30 pm") & There are 6 events that match you request. There is an event on March 9th at 7:30 pm. The event is Dodgers Vs Giants at Dodger Stadium.INFORM_COUNT ( count = "6") & There are 6 events that match you request. There is an event on March 9th at 7:30 pm. The event is Dodgers Vs Giants at Dodger Stadium.
+OFFER ( event_name = "Cardinal Vs Wildcats" ; event_location = "Stanford Stadium" ; date = "March 9th" ; time = "6 pm") & I found 1 event that matches your request. The event is Cardinal Vs Wildcats at Stanford Stadium on March 9th at 6 pm.
+OFFER ( event_name = "Cardinal Vs Wildcats" ; event_location = "Stanford Stadium" ; date = "March 9th" ; time = "6 pm") & I found 1 event that matches your request. The event is Cardinal Vs Wildcats at Stanford Stadium on March 9th at 6 pm.
+OFFER ( event_name = "Cardinal Vs Wildcats" ; event_location = "Stanford Stadium" ; date = "March 9th" ; time = "6 pm") & I found 1 event that matches your request. The event is Cardinal Vs Wildcats at Stanford Stadium on March 9th at 6 pm.INFORM_COUNT ( count = "1") & I found 1 event that matches your request. The event is Cardinal Vs Wildcats at Stanford Stadium on March 9th at 6 pm.
+OFFER ( event_name = "Eagles Vs Cowboys" ; event_location = "Lincoln Financial field" ; date = "March 14th" ; time = "8 pm") & Search revealed 10 results. Do you like Eagles Vs Cowboys on March 14th at 8 pm at Lincoln Financial field?
+OFFER ( event_name = "Eagles Vs Cowboys" ; event_location = "Lincoln Financial field" ; date = "March 14th" ; time = "8 pm") & Search revealed 10 results. Do you like Eagles Vs Cowboys on March 14th at 8 pm at Lincoln Financial field?
+OFFER ( event_name = "Eagles Vs Cowboys" ; event_location = "Lincoln Financial field" ; date = "March 14th" ; time = "8 pm") & Search revealed 10 results. Do you like Eagles Vs Cowboys on March 14th at 8 pm at Lincoln Financial field?INFORM_COUNT ( count = "10") & Search revealed 10 results. Do you like Eagles Vs Cowboys on March 14th at 8 pm at Lincoln Financial field?
+OFFER ( event_name = "Owls Vs Bison" ; event_location = "Lincoln Financial Field" ; date = "day after tomorrow" ; time = "7:30 pm") & I found Owls Vs Bison taking place a day after tomorrow at 7:30 pm at Lincoln Financial Field.
+INFORM ( address_of_location = "1 Lincoln Financial Field Way" ; subcategory = "American Football") & The event is American Football and the address is 1 Lincoln Financial Field Way.
+OFFER ( event_name = "Huichica Music Festival" ; venue = "The Sandman Hotel") & Okay, I found 1 event that you might like. What do you think about going to the Huichica Music Festival happening at The Sandman Hotel?
+OFFER ( event_name = "Huichica Music Festival" ; venue = "The Sandman Hotel") & Okay, I found 1 event that you might like. What do you think about going to the Huichica Music Festival happening at The Sandman Hotel?
+OFFER ( event_name = "Huichica Music Festival" ; venue = "The Sandman Hotel") & Okay, I found 1 event that you might like. What do you think about going to the Huichica Music Festival happening at The Sandman Hotel?INFORM_COUNT ( count = "1") & Okay, I found 1 event that you might like. What do you think about going to the Huichica Music Festival happening at The Sandman Hotel?
+INFORM ( category = "Pop") & It's a Pop event.
+INFORM ( time = "6 pm" ; venue_address = "3421 Cleveland Avenue") & It's located at 3421 Cleveland Avenue and starts at 6 pm.
+CONFIRM ( event_name = "Huichica Music Festival" ; number_of_tickets = "2" ; date = "March 10th" ; city = "Santa Rosa") & Okay, so you want 2 tickets for the Huichica Music Festival that happens on March 10th in Santa Rosa, right?
+CONFIRM ( number_of_tickets = "1" ; date = "March 14th") & Okay, so you want to buy 1 ticket for the event that takes place on March 14th, right?
+OFFER ( event_name = "Billy Currington" ; venue = "Gallagher Way") & There's 1 event with Billy Currington at Gallagher Way.
+OFFER ( event_name = "Billy Currington" ; venue = "Gallagher Way") & There's 1 event with Billy Currington at Gallagher Way.
+OFFER ( event_name = "Billy Currington" ; venue = "Gallagher Way") & There's 1 event with Billy Currington at Gallagher Way.INFORM_COUNT ( count = "1") & There's 1 event with Billy Currington at Gallagher Way.
+INFORM ( time = "6:30 pm") & It starts at 6:30 pm.
+INFORM ( venue_address = "3635 North Clark Street") & It's located at 3635 North Clark Street.
+CONFIRM ( event_name = "Billy Currington" ; number_of_tickets = "4" ; date = "March 12th" ; city = "Chicago") & Okay. So, you want 4 tickets to Billy Currington on March 12th in Chicago.
+CONFIRM ( number_of_tickets = "2" ; date = "March 14th") & Okay, so it's 2 tickets on March 14th.
+OFFER ( event_name = "Mets vs Braves" ; venue = "Citi Field") & There is a Mets vs Braves game in Citi Field.
+CONFIRM ( event_name = "Mets vs Braves" ; number_of_tickets = "2" ; date = "March 9th" ; city = "New York") & I would like to confirm the following information: 2 tickets to the Mets vs Braves games on March 9th in New York
+INFORM ( venue_address = "123-01 Roosevelt Avenue") & I already reserved your tickets. The venue is at 123-01 Roosevelt Avenue.
+INFORM ( venue_address = "123-01 Roosevelt Avenue") & I already reserved your tickets. The venue is at 123-01 Roosevelt Avenue.
+INFORM ( time = "5 pm") & 5 pm
+OFFER ( event_name = "Dodgers vs Cubs" ; venue = "Dodger Stadium") & I found Dodgers vs Cubs at Dodger Stadium.
+OFFER ( event_name = "Dodgers vs Diamondbacks" ; venue = "Dodger Stadium") & How about Dodgers vs Diamondbacks at Dodger Stadium?
+OFFER ( event_name = "Mets vs Braves" ; venue = "Citi Field") & I found Mets vs Braves at Citi Field.
+INFORM ( time = "6 pm") & The game starts at 6 pm.
+CONFIRM ( event_name = "Mets vs Braves" ; number_of_tickets = "2" ; date = "March 14th" ; city = "New York") & Please confirm: 2 tickets for Mets vs Braves on March 14th in New York.
+INFORM ( venue_address = "123-01 Roosevelt Avenue") & The reservation has been placed and the venue is at 123-01 Roosevelt Avenue.
+INFORM ( venue_address = "123-01 Roosevelt Avenue") & The reservation has been placed and the venue is at 123-01 Roosevelt Avenue.
+OFFER ( event_name = "Allan Rayman" ; venue = "August Hall") & I found 10 events. One is the Allan Rayman at August Hall.
+OFFER ( event_name = "Allan Rayman" ; venue = "August Hall") & I found 10 events. One is the Allan Rayman at August Hall.
+OFFER ( event_name = "Allan Rayman" ; venue = "August Hall") & I found 10 events. One is the Allan Rayman at August Hall.INFORM_COUNT ( count = "10") & I found 10 events. One is the Allan Rayman at August Hall.
+OFFER ( event_name = "Carmina Burana" ; venue = "San Francisco Symphony") & There is Carmina Burana at the San Francisco Symphony.
+INFORM ( time = "6 pm" ; category = "Classical") & It's a Classical starting at 6 pm.
+CONFIRM ( event_name = "Carmina Burana" ; number_of_tickets = "3" ; date = "March 14th" ; city = "San Francisco") & 3 tickets booked for Carmina Burana on March 14th in San Francisco.
+INFORM ( venue_address = "201 Van Ness Avenue") & It's located at 201 Van Ness Avenue.
+INFORM ( venue_address = "201 Van Ness Avenue") & It's located at 201 Van Ness Avenue.
+OFFER ( event_name = "Ben Harper" ; venue = "Pier 17") & I found 5 events which may suit your taste. There is a Ben Harper event held at Pier 17.
+OFFER ( event_name = "Ben Harper" ; venue = "Pier 17") & I found 5 events which may suit your taste. There is a Ben Harper event held at Pier 17.
+OFFER ( event_name = "Ben Harper" ; venue = "Pier 17") & I found 5 events which may suit your taste. There is a Ben Harper event held at Pier 17.INFORM_COUNT ( count = "5") & I found 5 events which may suit your taste. There is a Ben Harper event held at Pier 17.
+CONFIRM ( event_name = "Ben Harper" ; number_of_tickets = "3" ; date = "March 12th" ; city = "New York") & Please confirm these details: 3 tickets for Ben Harper event on March 12th in New York.
+INFORM ( venue_address = "89 South Street") & The venue is located at 89 South Street.
+INFORM ( time = "6 pm") & The event starts at 6 pm.
+OFFER ( event_name = "Chris Botti" ; venue = "Sony Hall") & Okay, I found 1 event you might like. Are you interested in a Chris Botti event happening at Sony Hall?
+OFFER ( event_name = "Chris Botti" ; venue = "Sony Hall") & Okay, I found 1 event you might like. Are you interested in a Chris Botti event happening at Sony Hall?
+OFFER ( event_name = "Chris Botti" ; venue = "Sony Hall") & Okay, I found 1 event you might like. Are you interested in a Chris Botti event happening at Sony Hall?INFORM_COUNT ( count = "1") & Okay, I found 1 event you might like. Are you interested in a Chris Botti event happening at Sony Hall?
+INFORM ( venue_address = "235 West 46th Street" ; time = "5 pm") & The address is 235 West 46th Street and it starts at 5 pm.
+CONFIRM ( event_name = "Chris Botti" ; number_of_tickets = "1" ; date = "next Thursday" ; city = "New York") & Okay, so you want to buy 1 ticket for the Chris Botti event happening next Thursday in New York, right?
+CONFIRM ( number_of_tickets = "3" ; date = "next Thursday") & Alright, should I reserve 3 tickets for the event happening next Thursday?
+OFFER ( event_name = "Brown Sabbath" ; venue = "Crossroads at House of Blues Anaheim") & There is 1 event at Crossroads at House of Blues Anaheim the Brown Sabbath.
+OFFER ( event_name = "Brown Sabbath" ; venue = "Crossroads at House of Blues Anaheim") & There is 1 event at Crossroads at House of Blues Anaheim the Brown Sabbath.
+OFFER ( event_name = "Brown Sabbath" ; venue = "Crossroads at House of Blues Anaheim") & There is 1 event at Crossroads at House of Blues Anaheim the Brown Sabbath.INFORM_COUNT ( count = "1") & There is 1 event at Crossroads at House of Blues Anaheim the Brown Sabbath.
+INFORM ( time = "7 pm" ; category = "Funk") & This is a Funk event at 7 pm.
+CONFIRM ( event_name = "Brown Sabbath" ; number_of_tickets = "1" ; date = "today" ; city = "Anaheim") & 1 ticket for Brown Sabbath today at Anaheim.
+OFFER ( event_name = "Eagles vs Cowboys" ; venue = "Lincoln Financial Field") & I found 10 events in Philadelphia. How about the Eagles vs Cowboys at the Lincoln Financial Field.
+OFFER ( event_name = "Eagles vs Cowboys" ; venue = "Lincoln Financial Field") & I found 10 events in Philadelphia. How about the Eagles vs Cowboys at the Lincoln Financial Field.
+OFFER ( event_name = "Eagles vs Cowboys" ; venue = "Lincoln Financial Field") & I found 10 events in Philadelphia. How about the Eagles vs Cowboys at the Lincoln Financial Field.INFORM_COUNT ( count = "10") & I found 10 events in Philadelphia. How about the Eagles vs Cowboys at the Lincoln Financial Field.
+OFFER ( event_name = "Phillies vs Braves" ; venue = "Citizens Bank Park") & How about the Phillies vs Braves at the Citizens Bank Park
+CONFIRM ( event_name = "Phillies vs Braves" ; number_of_tickets = "2" ; date = "March 9th" ; city = "Philadelphia") & Please confirm: You need 2 tickets for the Phillies vs Braves game on March 9th in Philadelphia.
+CONFIRM ( number_of_tickets = "4" ; city = "Philadelphia") & Please confirm the following change: You need 4 tickets for the game in Philadelphia.
+OFFER ( event_name = "Falcons vs Buccaneers" ; venue = "Mercedes-Benz Stadium") & I discovered 10 activities catering to your preference. There is a Falcons vs Buccaneers activity at Mercedes-Benz Stadium.
+OFFER ( event_name = "Falcons vs Buccaneers" ; venue = "Mercedes-Benz Stadium") & I discovered 10 activities catering to your preference. There is a Falcons vs Buccaneers activity at Mercedes-Benz Stadium.
+OFFER ( event_name = "Falcons vs Buccaneers" ; venue = "Mercedes-Benz Stadium") & I discovered 10 activities catering to your preference. There is a Falcons vs Buccaneers activity at Mercedes-Benz Stadium.INFORM_COUNT ( count = "10") & I discovered 10 activities catering to your preference. There is a Falcons vs Buccaneers activity at Mercedes-Benz Stadium.
+OFFER ( event_name = "Falcons Vs Jaguars" ; venue = "Mercedes-Benz Stadium") & There is a Falcons Vs Jaguars activity at Mercedes-Benz Stadium.
+INFORM ( venue_address = "1 AMB Drive Northwest") & The activity is placed at 1 AMB Drive Northwest
+OFFER ( event_name = "Falcons Vs Rams" ; venue = "Mercedes-Benz Stadium") & There is a Falcons Vs Rams event at the Mercedes-Benz Stadium.
+INFORM ( time = "6:30 pm") & The activity begins at 6:30 pm.
+CONFIRM ( event_name = "Falcons vs Rams" ; number_of_tickets = "4" ; date = "March 11th" ; city = "Atlanta") & Please verify the following information: 4 tickets for the Falcons vs Rams event taking place in Atlanta on March 11th.
+INFORM ( venue_address = "1 AMB Drive Northwest") & Your booking is successful. The event is placed at 1 AMB Drive Northwest.
+INFORM ( venue_address = "1 AMB Drive Northwest") & Your booking is successful. The event is placed at 1 AMB Drive Northwest.
+OFFER ( event_name = "Beyond The Black" ; venue = "Boston Music Room") & I found 5 events you may like. Beyond The Black is playing at the Boston Music Room.
+OFFER ( event_name = "Beyond The Black" ; venue = "Boston Music Room") & I found 5 events you may like. Beyond The Black is playing at the Boston Music Room.
+OFFER ( event_name = "Beyond The Black" ; venue = "Boston Music Room") & I found 5 events you may like. Beyond The Black is playing at the Boston Music Room.INFORM_COUNT ( count = "5") & I found 5 events you may like. Beyond The Black is playing at the Boston Music Room.
+CONFIRM ( event_name = "Beyond The Black" ; number_of_tickets = "1" ; date = "March 11th" ; city = "London") & Please confirm: you want 1 ticket to Beyond The Black on March 11th in London.
+CONFIRM ( number_of_tickets = "4" ; date = "March 9th") & Please confirm: 4 tickets to the event on March 9th.
+OFFER ( event_name = "United Vs Earthquakes" ; venue = "Mercedes-Benz Stadium") & I've found 4 events you might like. One is United Vs Earthquakes at Mercedes-Benz Stadium.
+OFFER ( event_name = "United Vs Earthquakes" ; venue = "Mercedes-Benz Stadium") & I've found 4 events you might like. One is United Vs Earthquakes at Mercedes-Benz Stadium.
+OFFER ( event_name = "United Vs Earthquakes" ; venue = "Mercedes-Benz Stadium") & I've found 4 events you might like. One is United Vs Earthquakes at Mercedes-Benz Stadium.INFORM_COUNT ( count = "4") & I've found 4 events you might like. One is United Vs Earthquakes at Mercedes-Benz Stadium.
+OFFER ( event_name = "United Vs Red Bulls" ; venue = "Mercedes-Benz Stadium") & There's United Vs Red Bulls at Mercedes-Benz Stadium.
+OFFER ( event_name = "United Vs Revolution" ; venue = "Mercedes-Benz Stadium") & There's United Vs Revolution at Mercedes-Benz Stadium.
+INFORM ( venue_address = "1 AMB Drive Northwest") & The stadium is at 1 AMB Drive Northwest.
+INFORM ( time = "7 pm") & The even begins at 7 pm.
+CONFIRM ( event_name = "United Vs Revolution" ; number_of_tickets = "2" ; date = "March 10th" ; city = "Atlanta") & So you'd like 2 tickets to United Vs Revolution? The event takes place in Atlanta on March 10th.
+CONFIRM ( event_name = "United Vs Revolution" ; date = "March 13th") & So you'd like 2 tickets to United Vs Revolution on March 13th?
+CONFIRM ( number_of_tickets = "4" ; city = "Atlanta") & So you'd like 4 tickets to United Vs Revolution in Atlanta?
+OFFER ( event_name = "Mets Vs Braves" ; venue = "Citi Field") & I found 10 events occurring soon. I recommend Mets Vs Braves at Citi Field. Does that interest you at all?
+OFFER ( event_name = "Mets Vs Braves" ; venue = "Citi Field") & I found 10 events occurring soon. I recommend Mets Vs Braves at Citi Field. Does that interest you at all?
+OFFER ( event_name = "Mets Vs Braves" ; venue = "Citi Field") & I found 10 events occurring soon. I recommend Mets Vs Braves at Citi Field. Does that interest you at all?INFORM_COUNT ( count = "10") & I found 10 events occurring soon. I recommend Mets Vs Braves at Citi Field. Does that interest you at all?
+CONFIRM ( event_name = "Mets Vs Braves" ; number_of_tickets = "4" ; date = "March 9th" ; city = "New York") & Yes, there is! Can you confirm the following details, please? You're purchasing 4 tickets to the Mets Vs Braves on March 9th in New York.
+INFORM ( time = "5 pm" ; venue_address = "123-01 Roosevelt Avenue") & Your reservation has been made! The game starts at 5 pm. The venue address is 123-01 Roosevelt Avenue.
+INFORM ( time = "5 pm" ; venue_address = "123-01 Roosevelt Avenue") & Your reservation has been made! The game starts at 5 pm. The venue address is 123-01 Roosevelt Avenue.
+OFFER ( event_name = "Alejandro Sanz" ; venue = "Cal Coast Credit Union Amphitheater") & There are 10 events that might interest you. Would you like to attend Alejandro Sanz at Cal Coast Credit Union Amphitheater?
+OFFER ( event_name = "Alejandro Sanz" ; venue = "Cal Coast Credit Union Amphitheater") & There are 10 events that might interest you. Would you like to attend Alejandro Sanz at Cal Coast Credit Union Amphitheater?
+OFFER ( event_name = "Alejandro Sanz" ; venue = "Cal Coast Credit Union Amphitheater") & There are 10 events that might interest you. Would you like to attend Alejandro Sanz at Cal Coast Credit Union Amphitheater?INFORM_COUNT ( count = "10") & There are 10 events that might interest you. Would you like to attend Alejandro Sanz at Cal Coast Credit Union Amphitheater?
+CONFIRM ( event_name = "Alejandro Sanz" ; number_of_tickets = "4" ; date = "next Monday" ; city = "San Diego") & Okay, let's review. You'd like to purchase 4 tickets to Alejandro Sanz in San Diego for next Monday. Is that right?
+OFFER ( event_name = "Blueface" ; venue = "The Fillmore Philadelphia") & I found 10 events. What about Blueface at The Fillmore Philadelphia?
+OFFER ( event_name = "Blueface" ; venue = "The Fillmore Philadelphia") & I found 10 events. What about Blueface at The Fillmore Philadelphia?
+OFFER ( event_name = "Blueface" ; venue = "The Fillmore Philadelphia") & I found 10 events. What about Blueface at The Fillmore Philadelphia?INFORM_COUNT ( count = "10") & I found 10 events. What about Blueface at The Fillmore Philadelphia?
+OFFER ( event_name = "Phillies Vs Braves" ; venue = "Citizens Bank Park") & I found 7 events. There's Phillies Vs Braves at the Citizens Bank Park.
+OFFER ( event_name = "Phillies Vs Braves" ; venue = "Citizens Bank Park") & I found 7 events. There's Phillies Vs Braves at the Citizens Bank Park.
+OFFER ( event_name = "Phillies Vs Braves" ; venue = "Citizens Bank Park") & I found 7 events. There's Phillies Vs Braves at the Citizens Bank Park.INFORM_COUNT ( count = "7") & I found 7 events. There's Phillies Vs Braves at the Citizens Bank Park.
+OFFER ( event_name = "Phillies Vs Cubs" ; venue = "Citizens Bank Park") & I found 4 others. There's Phillies Vs Cubs at the Citizens Bank Park.
+OFFER ( event_name = "Phillies Vs Cubs" ; venue = "Citizens Bank Park") & I found 4 others. There's Phillies Vs Cubs at the Citizens Bank Park.
+OFFER ( event_name = "Phillies Vs Cubs" ; venue = "Citizens Bank Park") & I found 4 others. There's Phillies Vs Cubs at the Citizens Bank Park.INFORM_COUNT ( count = "4") & I found 4 others. There's Phillies Vs Cubs at the Citizens Bank Park.
+INFORM ( venue_address = "1 Citizens Bank Way" ; time = "6 pm") & At 1 Citizens Bank Way. Starts at 6 pm.
+CONFIRM ( event_name = "Phillies Vs Cubs" ; number_of_tickets = "1" ; date = "today" ; city = "Philadelphia") & So 1 ticket to Phillies Vs Cubs today in Philadelphia?
+CONFIRM ( number_of_tickets = "3" ; date = "today") & So 3 tickets to the event today?
+OFFER ( event_name = "Mets Vs Braves" ; venue = "Citi Field") & The event is Mets Vs Braves at Citi Field.
+OFFER ( event_name = "Mets Vs Cubs" ; venue = "Citi Field") & I found 9 events that may suit you. The event is Mets Vs Cubs at Citi Field.
+OFFER ( event_name = "Mets Vs Cubs" ; venue = "Citi Field") & I found 9 events that may suit you. The event is Mets Vs Cubs at Citi Field.
+OFFER ( event_name = "Mets Vs Cubs" ; venue = "Citi Field") & I found 9 events that may suit you. The event is Mets Vs Cubs at Citi Field.INFORM_COUNT ( count = "9") & I found 9 events that may suit you. The event is Mets Vs Cubs at Citi Field.
+INFORM ( venue_address = "123-01 Roosevelt Avenue") & The venue is located at 123-01 Roosevelt Avenue.
+INFORM ( time = "6 pm") & It starts at 6 pm.
+OFFER ( event_name = "Mets Vs Diamondbacks" ; venue = "Citi Field") & The event is Mets Vs Diamondbacks at Citi Field.
+CONFIRM ( event_name = "Mets Vs Diamondbacks" ; number_of_tickets = "1" ; date = "March 10th" ; city = "New York") & Please confirm the following: the event is Mets Vs Diamondbacks on March 10th in New York. You want 1 ticket.
+OFFER ( event_name = "giants vs Brewers" ; venue = "Oracle Park") & I found a result for you, The event is giants vs Brewers at Oracle Park
+CONFIRM ( event_name = "Giants vs Brewers" ; number_of_tickets = "1" ; date = "march 13th" ; city = "San francisco") & please confirm the following details: The event is Giants vs Brewers located at San francisco on march 13th, The number of tickets is 1
+INFORM ( venue_address = "24 willie Mays Plaza") & Congrats, Your Reservation has been made, the venue located at 24 willie Mays Plaza, Shall i help you with anything more?
+INFORM ( venue_address = "24 willie Mays Plaza") & Congrats, Your Reservation has been made, the venue located at 24 willie Mays Plaza, Shall i help you with anything more?
+OFFER ( event_name = "Blueface" ; venue = "the Fillmore Philadelphia") & I found 10 events that match your request. The event is Blueface at the Fillmore Philadelphia.
+OFFER ( event_name = "Blueface" ; venue = "the Fillmore Philadelphia") & I found 10 events that match your request. The event is Blueface at the Fillmore Philadelphia.
+OFFER ( event_name = "Blueface" ; venue = "the Fillmore Philadelphia") & I found 10 events that match your request. The event is Blueface at the Fillmore Philadelphia.INFORM_COUNT ( count = "10") & I found 10 events that match your request. The event is Blueface at the Fillmore Philadelphia.
+INFORM ( time = "5 pm" ; category = "hip hop") & It is a hip hop event that starts at 5 pm.
+OFFER ( event_name = "Conan Gray" ; venue = "The Fillmore Philadelphia") & There is another event. Conan Gray is playing at The Fillmore Philadelphia.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & I found 4 events that match your request. Amber Run Brooklyn is playing at Warsaw.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & I found 4 events that match your request. Amber Run Brooklyn is playing at Warsaw.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & I found 4 events that match your request. Amber Run Brooklyn is playing at Warsaw.INFORM_COUNT ( count = "4") & I found 4 events that match your request. Amber Run Brooklyn is playing at Warsaw.
+CONFIRM ( event_name = "Amber Run Brooklyn" ; number_of_tickets = "4" ; date = "next Tuesday" ; city = "New York") & Please confirm: 4 tickets for Amber Run Brooklyn next Tuesday in New York.
+OFFER ( event_name = "Cody Johnson" ; venue = "Flamingo Lot") & How about Cody Johnson at the Flamingo Lot?
+OFFER ( event_name = "Greensky Bluegrass" ; venue = "Flamingo Lot") & Are you interested in Greensky Bluegrass at the Flamingo Lot?
+CONFIRM ( event_name = "Greensky Bluegrass" ; number_of_tickets = "2" ; date = "next Friday" ; city = "Seattle") & Your planning on purchasing 2 tickets to see Greensky Bluegrass next Friday in Seattle, does that sound correct?
+CONFIRM ( number_of_tickets = "1" ; date = "today") & So instead of two tickets you want 1, and you plan on going to the event today, correct?
+INFORM ( time = "5:30 pm") & The event starts at 5:30 pm, and your reservation has been made.
+INFORM ( time = "5:30 pm") & The event starts at 5:30 pm, and your reservation has been made.
+OFFER ( event_name = "Eagles Vs Cowboys" ; venue = "Lincoln Financial Field") & I found 10 events that you may like. How does the Eagles Vs Cowboys game at Lincoln Financial Field sound?
+OFFER ( event_name = "Eagles Vs Cowboys" ; venue = "Lincoln Financial Field") & I found 10 events that you may like. How does the Eagles Vs Cowboys game at Lincoln Financial Field sound?
+OFFER ( event_name = "Eagles Vs Cowboys" ; venue = "Lincoln Financial Field") & I found 10 events that you may like. How does the Eagles Vs Cowboys game at Lincoln Financial Field sound?INFORM_COUNT ( count = "10") & I found 10 events that you may like. How does the Eagles Vs Cowboys game at Lincoln Financial Field sound?
+CONFIRM ( event_name = "Eagles Vs Cowboys" ; number_of_tickets = "2" ; date = "March 10th" ; city = "Philadelphia") & Let me see if I got everything correctly: You'd like 2 tickets for March 10th Eagles Vs Cowboys game in Philadelphia?
+CONFIRM ( number_of_tickets = "1" ; date = "March 9th") & Let me see if I got everything correctly: 1 ticket for the event on March 9th.
+INFORM ( venue_address = "1 Lincoln Financial Field Way" ; time = "6:30 pm") & The event will start at 6:30 pm at 1 Lincoln Financial Field Way.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & Of the 10 events I found with your specifications, the first one is Amber Run Brooklyn located at Warsaw.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & Of the 10 events I found with your specifications, the first one is Amber Run Brooklyn located at Warsaw.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & Of the 10 events I found with your specifications, the first one is Amber Run Brooklyn located at Warsaw.INFORM_COUNT ( count = "10") & Of the 10 events I found with your specifications, the first one is Amber Run Brooklyn located at Warsaw.
+INFORM ( venue_address = "261 Driggs Avenue, Brooklyn" ; time = "7:30 pm") & The address for the venue is 261 Driggs Avenue, Brooklyn and it begins at 7:30 pm.
+OFFER ( event_name = "Chris Botti" ; venue = "Sony Hall") & There 1 event I found matching that criteria is featuring Chris Botti playing at Sony Hall.
+OFFER ( event_name = "Chris Botti" ; venue = "Sony Hall") & There 1 event I found matching that criteria is featuring Chris Botti playing at Sony Hall.
+OFFER ( event_name = "Chris Botti" ; venue = "Sony Hall") & There 1 event I found matching that criteria is featuring Chris Botti playing at Sony Hall.INFORM_COUNT ( count = "1") & There 1 event I found matching that criteria is featuring Chris Botti playing at Sony Hall.
+CONFIRM ( event_name = "Chris Botti" ; number_of_tickets = "4" ; date = "tomorrow" ; city = "New York") & Sure, before I submit your request I just need you to confirm that the details I have are correct. You would like 4 tickets to the event featuring Chris Botti tomorrow, in New York. Do I have that correct.
+CONFIRM ( event_name = "Chris Botti" ; number_of_tickets = "1") & I am changing your request to 1 ticket for the show featuring Chris Botti.
+OFFER ( event_name = "Beach Boys" ; venue = "PNE Amphitheatre") & Just give me a minute... I will search for you.... Hey! there are 7 events coming up and one of them, Beach Boys is to be held at PNE Amphitheatre.
+OFFER ( event_name = "Beach Boys" ; venue = "PNE Amphitheatre") & Just give me a minute... I will search for you.... Hey! there are 7 events coming up and one of them, Beach Boys is to be held at PNE Amphitheatre.
+OFFER ( event_name = "Beach Boys" ; venue = "PNE Amphitheatre") & Just give me a minute... I will search for you.... Hey! there are 7 events coming up and one of them, Beach Boys is to be held at PNE Amphitheatre.INFORM_COUNT ( count = "7") & Just give me a minute... I will search for you.... Hey! there are 7 events coming up and one of them, Beach Boys is to be held at PNE Amphitheatre.
+OFFER ( event_name = "Colin James" ; venue = "PNE Amphitheatre") & Okay! You have got 1 event taking place at PNE Amphitheatre and the event name is Colin James. Would you prefer to attend this event?
+OFFER ( event_name = "Colin James" ; venue = "PNE Amphitheatre") & Okay! You have got 1 event taking place at PNE Amphitheatre and the event name is Colin James. Would you prefer to attend this event?
+OFFER ( event_name = "Colin James" ; venue = "PNE Amphitheatre") & Okay! You have got 1 event taking place at PNE Amphitheatre and the event name is Colin James. Would you prefer to attend this event?INFORM_COUNT ( count = "1") & Okay! You have got 1 event taking place at PNE Amphitheatre and the event name is Colin James. Would you prefer to attend this event?
+CONFIRM ( event_name = "Colin James" ; number_of_tickets = "3" ; date = "day after tomorrow" ; city = "Vancouver") & Okay! Here is your purchase details - You would like to buy 3 tickets for the event Colin James taking place in Vancouver, day after tomorrow, right?
+OFFER ( event_name = "DC United Vs Revolution" ; venue = "Audi Field") & I found 10 events of that kind. One is DC United Vs Revolution at Audi Field.
+OFFER ( event_name = "DC United Vs Revolution" ; venue = "Audi Field") & I found 10 events of that kind. One is DC United Vs Revolution at Audi Field.
+OFFER ( event_name = "DC United Vs Revolution" ; venue = "Audi Field") & I found 10 events of that kind. One is DC United Vs Revolution at Audi Field.INFORM_COUNT ( count = "10") & I found 10 events of that kind. One is DC United Vs Revolution at Audi Field.
+CONFIRM ( event_name = "DC United Vs Revolution" ; number_of_tickets = "1" ; date = "March 14th" ; city = "Washington D.C.") & Please confirm: 1 ticket for DC United Vs Revolution on March 14th in Washington D.C.
+INFORM ( venue_address = "100 Potomac Avenue Southwest") & Your ticket has been purchased. The venue is at 100 Potomac Avenue Southwest.
+INFORM ( venue_address = "100 Potomac Avenue Southwest") & Your ticket has been purchased. The venue is at 100 Potomac Avenue Southwest.
+INFORM ( time = "5:30 pm") & The game starts at 5:30 pm.
+OFFER ( event_name = "Dodgers Vs Cubs" ; venue = "Dodger Stadium") & The Dodgers Vs Cubs will be playing at Dodger Stadium. How does that sound? I also found a total of 10 events you may be interested in.
+OFFER ( event_name = "Dodgers Vs Cubs" ; venue = "Dodger Stadium") & The Dodgers Vs Cubs will be playing at Dodger Stadium. How does that sound? I also found a total of 10 events you may be interested in.
+OFFER ( event_name = "Dodgers Vs Cubs" ; venue = "Dodger Stadium") & The Dodgers Vs Cubs will be playing at Dodger Stadium. How does that sound? I also found a total of 10 events you may be interested in.INFORM_COUNT ( count = "10") & The Dodgers Vs Cubs will be playing at Dodger Stadium. How does that sound? I also found a total of 10 events you may be interested in.
+OFFER ( event_name = "Dodgers Vs Giants" ; venue = "Dodger Stadium") & I found 6 events next Tuesday. Dodgers Vs Giants will be playing at Dodger Stadium. How does that sound?
+OFFER ( event_name = "Dodgers Vs Giants" ; venue = "Dodger Stadium") & I found 6 events next Tuesday. Dodgers Vs Giants will be playing at Dodger Stadium. How does that sound?
+OFFER ( event_name = "Dodgers Vs Giants" ; venue = "Dodger Stadium") & I found 6 events next Tuesday. Dodgers Vs Giants will be playing at Dodger Stadium. How does that sound?INFORM_COUNT ( count = "6") & I found 6 events next Tuesday. Dodgers Vs Giants will be playing at Dodger Stadium. How does that sound?
+CONFIRM ( event_name = "Dodgers Vs Giants" ; number_of_tickets = "4" ; date = "next Tuesday" ; city = "Los Angeles") & Sure thing! Just to confirm: you want 4 tickets to see Dodgers Vs Giants next Tuesday in Los Angeles?
+CONFIRM ( number_of_tickets = "3" ; date = "next Tuesday") & I will purchase 3 tickets for you for next Tuesday. Is this okay?
+INFORM ( time = "5 pm") & I have reserved your tickets. The event will start at 5 pm.
+INFORM ( time = "5 pm") & I have reserved your tickets. The event will start at 5 pm.
+OFFER ( event_name = "Basta" ; venue = "Concord Music Hall") & I found Basta at Concord Music Hall.
+OFFER ( event_name = "Billy Currington" ; venue = "Gallagher Way") & I found 3 events. One of them is Billy Currington at Gallagher Way.
+OFFER ( event_name = "Billy Currington" ; venue = "Gallagher Way") & I found 3 events. One of them is Billy Currington at Gallagher Way.
+OFFER ( event_name = "Billy Currington" ; venue = "Gallagher Way") & I found 3 events. One of them is Billy Currington at Gallagher Way.INFORM_COUNT ( count = "3") & I found 3 events. One of them is Billy Currington at Gallagher Way.
+CONFIRM ( event_name = "Billy Currington" ; number_of_tickets = "4" ; date = "next Monday" ; city = "Chicago") & Please confirm 4 tickets for Billy Currington next Monday in Chicago.
+OFFER ( event_name = "Huichica Music Festival" ; venue = "The Sandman hotel") & We have 1 event named Huichica Music Festival at The Sandman hotel
+OFFER ( event_name = "Huichica Music Festival" ; venue = "The Sandman hotel") & We have 1 event named Huichica Music Festival at The Sandman hotel
+OFFER ( event_name = "Huichica Music Festival" ; venue = "The Sandman hotel") & We have 1 event named Huichica Music Festival at The Sandman hotelINFORM_COUNT ( count = "1") & We have 1 event named Huichica Music Festival at The Sandman hotel
+INFORM ( venue_address = "3421 Cleveland Avenue") & It's in 3421 Cleveland Avenue
+CONFIRM ( event_name = "Huichica Music Festival" ; number_of_tickets = "2" ; date = "March 14th" ; city = "Santa Rosa") & Please confirm this: Booking 2 tickets for the event Huichica Music Festival at Santa Rosa on March 14th
+OFFER ( event_name = "Blue Jays Vs Astros" ; venue = "Rogers Centre") & Okay, I found the Blue Jays Vs Astros event at Rogers Centre.
+OFFER ( event_name = "Blue Jays Vs Indians" ; venue = "Rogers Centre") & All right. There's Blue Jays Vs Indians at Rogers Centre.
+INFORM ( venue_address = "1 Blue Jays Way" ; time = "6 pm") & The event venue is 1 Blue Jays Way, and it will start at 6 pm.
+CONFIRM ( event_name = "Blue Jays Vs Indians" ; number_of_tickets = "2" ; date = "March 13th" ; city = "Toronto") & Let me see if I got everything correctly: You'd like 2 tickets for the Blue Jays Vs Indians event taking place on March 13th, in Toronto. Correct?
+CONFIRM ( number_of_tickets = "3" ; city = "Toronto") & Okay. No problem Please confirm that you'd like 3 tickets for the event in Toronto.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & Amber Run Brooklyn appears to be playing at Warsaw.
+OFFER ( event_name = "Chris Botti" ; venue = "Sony Hall") & There will also be Chris Botti playing at Sony Hall.
+OFFER ( event_name = "Mets Vs Cubs" ; venue = "Citi Field") & I was able to find 8 baseball games the first of which is the Mets Vs Cubs playing at Citi Field.
+OFFER ( event_name = "Mets Vs Cubs" ; venue = "Citi Field") & I was able to find 8 baseball games the first of which is the Mets Vs Cubs playing at Citi Field.
+OFFER ( event_name = "Mets Vs Cubs" ; venue = "Citi Field") & I was able to find 8 baseball games the first of which is the Mets Vs Cubs playing at Citi Field.INFORM_COUNT ( count = "8") & I was able to find 8 baseball games the first of which is the Mets Vs Cubs playing at Citi Field.
+CONFIRM ( event_name = "Mets Vs Cubs" ; number_of_tickets = "3" ; date = "next Friday" ; city = "New York") & You want 3 tickets to the Mets Vs Cubs game taking place in New York next Friday, is that correct?
+INFORM ( venue_address = "123-01 Roosevelt Avenue" ; time = "6 pm") & I was able to book those tickets for you. The game will be held at 123-01 Roosevelt Avenue and it begins at 6 pm.
+INFORM ( venue_address = "123-01 Roosevelt Avenue" ; time = "6 pm") & I was able to book those tickets for you. The game will be held at 123-01 Roosevelt Avenue and it begins at 6 pm.
+OFFER ( event_name = "Bryan Adams" ; venue = "Theater Of The Clouds") & I found 7 events that may be what you are looking for. A good option is Bryan Adams performing at the Theater Of The Clouds.
+OFFER ( event_name = "Bryan Adams" ; venue = "Theater Of The Clouds") & I found 7 events that may be what you are looking for. A good option is Bryan Adams performing at the Theater Of The Clouds.
+OFFER ( event_name = "Bryan Adams" ; venue = "Theater Of The Clouds") & I found 7 events that may be what you are looking for. A good option is Bryan Adams performing at the Theater Of The Clouds.INFORM_COUNT ( count = "7") & I found 7 events that may be what you are looking for. A good option is Bryan Adams performing at the Theater Of The Clouds.
+OFFER ( event_name = "Erica Fernandez" ; venue = "Newmark Theatre") & There is a performance by Erica Fernandez at the Newmark Theatre.
+CONFIRM ( event_name = "Erica Fernandez" ; number_of_tickets = "2" ; date = "March 9th" ; city = "Portland") & You want 2 tickets to attend the Erica Fernandez event on March 9th in Portland. Is that correct?
+CONFIRM ( event_name = "Erica Fernandez" ; number_of_tickets = "1") & You want 1 ticket to attend the Erica Fernandez event on March 9th. Is that correct?
+CONFIRM ( number_of_tickets = "1" ; date = "March 12th") & You want 1 ticket to the Erica Fernandez event on March 12th?
+INFORM ( venue_address = "1111 Southwest Broadway") & The event will take place at the venue located at 1111 Southwest Broadway.
+INFORM ( time = "5 pm") & The event will begin promptly at 5 pm.
+OFFER ( event_name = "Mets vs Braves" ; venue = "Citi Field") & I found 10 sporting events. The first is Mets vs Braves at Citi Field.
+OFFER ( event_name = "Mets vs Braves" ; venue = "Citi Field") & I found 10 sporting events. The first is Mets vs Braves at Citi Field.
+OFFER ( event_name = "Mets vs Braves" ; venue = "Citi Field") & I found 10 sporting events. The first is Mets vs Braves at Citi Field.INFORM_COUNT ( count = "10") & I found 10 sporting events. The first is Mets vs Braves at Citi Field.
+OFFER ( event_name = "Mets vs Cubs" ; venue = "Citi Field") & The next one is the Mets vs Cubs at Citi Field.
+INFORM ( time = "6 pm" ; category = "baseball") & Mets vs Cubs is a baseball game and begins at 6 pm with gates opening at 4 pm.
+CONFIRM ( event_name = "Mets vs Cubs" ; number_of_tickets = "2" ; date = "next Wednesday" ; city = "New York") & Please confirm the following: 2 tickets for the Mets vs Cubs baseball game next Wednesday in New York City.
+CONFIRM ( event_name = "Mets vs Cubs" ; number_of_tickets = "3") & Please confirm the following: 3 tickets for the Mets vs Cubs baseball game next Wednesday in New York City.
+INFORM ( venue_address = "123-01 Roosevelt Avenue") & Citi Field is located at 123-01 Roosevelt Avenue.
+OFFER ( event_name = "Dodgers Vs Diamondbacks" ; venue = "Dodger Stadium") & What about the Dodgers Vs Diamondbacks at Dodger Stadium?
+CONFIRM ( event_name = "Dodgers Vs Diamondbacks" ; number_of_tickets = "3" ; date = "next Monday" ; city = "Los Angeles") & Please confirm the following: 3 tickets to the Dodgers Vs Diamondbacks in Los Angeles next Monday.
+INFORM ( venue_address = "1000 Vin Scully Ave" ; time = "6 pm") & Dodger Stadium is located at 1000 Vin Scully Ave. The game starts at 6 pm.
+INFORM ( venue_address = "1000 Vin Scully Ave" ; time = "6 pm") & Dodger Stadium is located at 1000 Vin Scully Ave. The game starts at 6 pm.
+OFFER ( event_name = "Todd Rundgren" ; venue = "Napa Valley Performing Arts Center") & There is 1 Pop event taking place at Napa Valley Performing Arts Center featuring Todd Rundgren.
+OFFER ( event_name = "Todd Rundgren" ; venue = "Napa Valley Performing Arts Center") & There is 1 Pop event taking place at Napa Valley Performing Arts Center featuring Todd Rundgren.
+OFFER ( event_name = "Todd Rundgren" ; venue = "Napa Valley Performing Arts Center") & There is 1 Pop event taking place at Napa Valley Performing Arts Center featuring Todd Rundgren.INFORM_COUNT ( count = "1") & There is 1 Pop event taking place at Napa Valley Performing Arts Center featuring Todd Rundgren.
+INFORM ( venue_address = "100 California Drive") & The address where that concert is taking place is 100 California Drive.
+CONFIRM ( event_name = "Todd Rundgren" ; number_of_tickets = "3" ; date = "March 9th" ; city = "Yountville") & My pleasure, I have you down for 3 tickets to the Todd Rundgren on March 9th, located in Yountville. Is that correct?
+CONFIRM ( date = "next Thursday" ; city = "Yountville") & So you want the concert playing next Thursday located in Yountville. Does that sound right?
+CONFIRM ( number_of_tickets = "2" ; date = "next Thursday") & Okay, so you need a total of 2 tickets for the concert next Thursday. Is that correct?
+OFFER ( event_name = "Dodgers Vs Cubs" ; venue = "Dodger Stadium") & I've found Dodgers Vs Cubs at Dodger Stadium
+OFFER ( event_name = "Dodgers Vs Giants" ; venue = "Dodger Stadium") & I've found Dodgers Vs Giants at Dodger Stadium
+INFORM ( time = "7:30 pm" ; category = "Baseball") & This is a Baseball event and it starts at 7:30 pm
+OFFER ( event_name = "Huskies Vs Cougars" ; venue = "Husky Stadium") & There is 1 event: Huskies Vs Cougars at Husky Stadium
+OFFER ( event_name = "Huskies Vs Cougars" ; venue = "Husky Stadium") & There is 1 event: Huskies Vs Cougars at Husky Stadium
+OFFER ( event_name = "Huskies Vs Cougars" ; venue = "Husky Stadium") & There is 1 event: Huskies Vs Cougars at Husky StadiumINFORM_COUNT ( count = "1") & There is 1 event: Huskies Vs Cougars at Husky Stadium
+CONFIRM ( event_name = "Huskies Vs Cougars" ; number_of_tickets = "4" ; date = "today" ; city = "Seattle") & 4 tickets for Huskies Vs Cougars, in Seattle on today. Do you confirm?
+OFFER ( event_name = "Cubs Vs Brewers" ; venue = "Wrigley Field") & There is a Cubs Vs Brewers game at Wrigley Field.
+INFORM ( time = "5 pm" ; category = "baseball") & It is a baseball game starting at 5 pm.
+CONFIRM ( event_name = "Cubs Vs Brewers" ; number_of_tickets = "2" ; date = "next Friday" ; city = "Chicago") & Please confirm you want 2 tickets to the Cubs Vs Brewers game in Chicago on next Friday.
+CONFIRM ( number_of_tickets = "3" ; date = "March 12th") & Please confirm you want 3 tickets to the game on March 12th.
+INFORM ( venue_address = "1060 West Addison Street") & The address is 1060 West Addison Street.
+OFFER ( event_name = "Anberlin" ; venue = "The Van Buren") & Okay, I have located 8 events that fit your preference. One is Anberlin at The Van Buren.
+OFFER ( event_name = "Anberlin" ; venue = "The Van Buren") & Okay, I have located 8 events that fit your preference. One is Anberlin at The Van Buren.
+OFFER ( event_name = "Anberlin" ; venue = "The Van Buren") & Okay, I have located 8 events that fit your preference. One is Anberlin at The Van Buren.INFORM_COUNT ( count = "8") & Okay, I have located 8 events that fit your preference. One is Anberlin at The Van Buren.
+OFFER ( event_name = "Dodie" ; venue = "The Van Buren") & The event I found is Dodie and it will take place at The Van Buren.
+OFFER ( event_name = "Greensky Bluegrass" ; venue = "The Van Buren") & The event I have found is Greensky Bluegrass and it takes place at The Van Buren.
+INFORM ( time = "6:30 pm" ; category = "Blues") & The event will begin at 6:30 pm and it is a Blues event.
+CONFIRM ( event_name = "Greensky Bluegrass" ; number_of_tickets = "3" ; date = "March 13th" ; city = "Phoenix") & Okay, can you confirm these details for me? The event you want is Greensky Bluegrass. The number of tickets purchased is 3 for the event that happens on March 13th in Phoenix.
+CONFIRM ( number_of_tickets = "2" ; date = "March 13th") & Okay, can you check these details for me? You want 2 tickets and the event is on March 13th.
+INFORM ( venue_address = "401 West Van Buren Street") & The reservation has been confirmed and the address of the venue is 401 West Van Buren Street.
+INFORM ( venue_address = "401 West Van Buren Street") & The reservation has been confirmed and the address of the venue is 401 West Van Buren Street.
+OFFER ( event_name = "Cardinal Vs Wildcats" ; venue = "Stanford Stadium") & I have 1 event that should suit you. The event is Cardinal Vs Wildcats at Stanford Stadium.
+OFFER ( event_name = "Cardinal Vs Wildcats" ; venue = "Stanford Stadium") & I have 1 event that should suit you. The event is Cardinal Vs Wildcats at Stanford Stadium.
+OFFER ( event_name = "Cardinal Vs Wildcats" ; venue = "Stanford Stadium") & I have 1 event that should suit you. The event is Cardinal Vs Wildcats at Stanford Stadium.INFORM_COUNT ( count = "1") & I have 1 event that should suit you. The event is Cardinal Vs Wildcats at Stanford Stadium.
+CONFIRM ( event_name = "Cardinal Vs Wildcats" ; number_of_tickets = "3" ; date = "next Monday" ; city = "Stanford") & Would you confirm that you want 3 tickets to Cardinal Vs Wildcats for next Monday in Stanford?
+CONFIRM ( number_of_tickets = "4" ; city = "Stanford") & Please confirm that you need 4 tickets to the Stanford event.
+INFORM ( time = "7:30 pm") & Your reservation was made. It starts at 7:30 pm.
+INFORM ( time = "7:30 pm") & Your reservation was made. It starts at 7:30 pm.
+INFORM ( venue_address = "625 Nelson Road") & The address is 625 Nelson Road.
+OFFER ( event_name = "Cody Johnson" ; venue = "Flamingo Lot") & I've found 2 possible events. Does seeing Cody Johnson at the Flamingo Lot interest you?
+OFFER ( event_name = "Cody Johnson" ; venue = "Flamingo Lot") & I've found 2 possible events. Does seeing Cody Johnson at the Flamingo Lot interest you?
+OFFER ( event_name = "Cody Johnson" ; venue = "Flamingo Lot") & I've found 2 possible events. Does seeing Cody Johnson at the Flamingo Lot interest you?INFORM_COUNT ( count = "2") & I've found 2 possible events. Does seeing Cody Johnson at the Flamingo Lot interest you?
+OFFER ( event_name = "Greensky Bluegrass" ; venue = "Flamingo Lot") & Then you might enjoy Greensky Bluegrass which is also at Flamingo Lot.
+INFORM ( time = "7:30 pm") & At 7:30 pm.
+CONFIRM ( event_name = "Greensky Bluegrass" ; number_of_tickets = "2" ; date = "today" ; city = "Seattle") & So you'd like to see Greensky Bluegrass and would like 2 tickets? The event is happening today in Seattle.
+INFORM ( venue_address = "5500 Phinney Avenue North") & All right, I've confirmed the purchase of your tickets. The event is at 5500 Phinney Avenue North.
+INFORM ( venue_address = "5500 Phinney Avenue North") & All right, I've confirmed the purchase of your tickets. The event is at 5500 Phinney Avenue North.
+OFFER ( event_name = "Falcons Vs Buccaneers" ; venue = "Mercedes-Benz Stadium") & The Falcons Vs Buccaneers event is going to be at Mercedes-Benz Stadium.
+OFFER ( event_name = "Falcons Vs Jaguars" ; venue = "Mercedes-Benz Stadium") & I am showing the Falcons Vs Jaguars which is also at the Mercedes-Benz Stadium.
+INFORM ( venue_address = "1 AMB Drive Northwest") & The location 1 AMB Drive Northwest.
+OFFER ( event_name = "Yellow Jackets Vs Bulls" ; venue = "Bobby Dodd Stadium at Historic Grant Field") & I found 3 events and think you may like the first one. It is Yellow Jackets Vs Bulls at Bobby Dodd Stadium at Historic Grant Field.
+OFFER ( event_name = "Yellow Jackets Vs Bulls" ; venue = "Bobby Dodd Stadium at Historic Grant Field") & I found 3 events and think you may like the first one. It is Yellow Jackets Vs Bulls at Bobby Dodd Stadium at Historic Grant Field.
+OFFER ( event_name = "Yellow Jackets Vs Bulls" ; venue = "Bobby Dodd Stadium at Historic Grant Field") & I found 3 events and think you may like the first one. It is Yellow Jackets Vs Bulls at Bobby Dodd Stadium at Historic Grant Field.INFORM_COUNT ( count = "3") & I found 3 events and think you may like the first one. It is Yellow Jackets Vs Bulls at Bobby Dodd Stadium at Historic Grant Field.
+INFORM ( venue_address = "177 North Avenue Northwest" ; time = "7:30 pm") & The location is 177 North Avenue Northwest and start at 7:30 pm.
+CONFIRM ( event_name = "Yellow Jackets Vs Bulls" ; number_of_tickets = "2" ; date = "March 12th" ; city = "Atlanta") & Ok, lets confirm these details. 2 tickets to the Yellow Jackets Vs Bulls event in Atlanta on March 12th. Is that correct?
+OFFER ( event_name = "Star City Music Festival" ; venue = "Brisbane Community Park") & I found 1 event called Star City Music Festival at Brisbane Community Park.
+OFFER ( event_name = "Star City Music Festival" ; venue = "Brisbane Community Park") & I found 1 event called Star City Music Festival at Brisbane Community Park.
+OFFER ( event_name = "Star City Music Festival" ; venue = "Brisbane Community Park") & I found 1 event called Star City Music Festival at Brisbane Community Park.INFORM_COUNT ( count = "1") & I found 1 event called Star City Music Festival at Brisbane Community Park.
+INFORM ( venue_address = "Brisbane, California 94005, United States" ; time = "6:30 pm") & It starts at 6:30 pm at Brisbane, California 94005, United States.
+CONFIRM ( event_name = "Star City Music Festival" ; number_of_tickets = "3" ; date = "next Monday" ; city = "Brisbane") & Please confirm you want to buy 3 tickets to Star City Music Festival in Brisbane for next Monday.
+CONFIRM ( event_name = "Star City Music Festival" ; number_of_tickets = "4") & Please confirm you want to buy 4 tickets to Star City Music Festival.
+OFFER ( event_name = "Mets Vs Dodgers" ; venue = "Citi Field") & There is an event. It's Mets Vs Dodgers taking place at Citi Field.
+OFFER ( event_name = "Mets Vs Padres" ; venue = "Citi Field") & Just Mets Vs Padres taking place at Citi Field.
+OFFER ( event_name = "Mets Vs Phillies" ; venue = "Citi Field") & Only Mets Vs Phillies taking place at Citi Field.
+INFORM ( venue_address = "123-01 Roosevelt Avenue" ; time = "7:30 pm") & Citi Field is at 123-01 Roosevelt Avenue. It starts at 7:30 pm.
+CONFIRM ( event_name = "Mets Vs Phillies" ; number_of_tickets = "4" ; date = "next Thursday" ; city = "New York") & So to confirm: you will be purchasing 4 tickets for Mets Vs Phillies. The event is next Thursday and taking place in New York.
+OFFER ( event_name = "Falcons Vs Buccaneers" ; venue = "Mercedes-Benz Stadium") & I found 10 events which suit your taste. Falcons Vs Buccaneers is at the Mercedes-Benz Stadium.
+OFFER ( event_name = "Falcons Vs Buccaneers" ; venue = "Mercedes-Benz Stadium") & I found 10 events which suit your taste. Falcons Vs Buccaneers is at the Mercedes-Benz Stadium.
+OFFER ( event_name = "Falcons Vs Buccaneers" ; venue = "Mercedes-Benz Stadium") & I found 10 events which suit your taste. Falcons Vs Buccaneers is at the Mercedes-Benz Stadium.INFORM_COUNT ( count = "10") & I found 10 events which suit your taste. Falcons Vs Buccaneers is at the Mercedes-Benz Stadium.
+CONFIRM ( event_name = "Falcons Vs Buccaneers" ; number_of_tickets = "1" ; date = "March 11th" ; city = "Atlanta") & Please confirm the following details: The event is Falcons Vs Buccaneers. The event is on March 11th in Atlanta. You have 1 ticket.
+INFORM ( venue_address = "1 AMB Drive Northwest") & Your reservation has been made. The venue is located at 1 AMB Drive Northwest.
+INFORM ( venue_address = "1 AMB Drive Northwest") & Your reservation has been made. The venue is located at 1 AMB Drive Northwest.
+OFFER ( event_name = "Alejandro Sanz" ; venue = "Cal Coast Credit Union Amphitheater") & Alejandro Sanz is playing at the Cal Coast Credit Union Amphitheater.
+INFORM ( venue_address = "5500 Campanile Drive" ; time = "7:30 pm") & It's at 7:30 pm at 5500 Campanile Drive.
+CONFIRM ( event_name = "Alejandro Sanz" ; number_of_tickets = "4" ; date = "March 9th" ; city = "San Diego") & So you want 4 tickets to see Alejandro Sanz on March 9th in San Diego?
+OFFER ( event_name = "Falcons Vs Buccaneers" ; venue = "Mercedes-Benz Stadium") & The Falcons Vs Buccaneers are playing at the Mercedes-Benz Stadium.
+CONFIRM ( event_name = "Falcons Vs Buccaneers" ; number_of_tickets = "2" ; date = "March 14th" ; city = "Atlanta") & Would you like to buy 2 tickets for the Falcons Vs Buccaneers on March 14th in Atlanta?
+OFFER ( event_name = "Alejandro Sanz" ; venue = "Cal Coast Credit Union Amphitheater") & There are 10 events that match your criteria. There is an event Alejandro Sanz at Cal Coast Credit Union Amphitheater.
+OFFER ( event_name = "Alejandro Sanz" ; venue = "Cal Coast Credit Union Amphitheater") & There are 10 events that match your criteria. There is an event Alejandro Sanz at Cal Coast Credit Union Amphitheater.
+OFFER ( event_name = "Alejandro Sanz" ; venue = "Cal Coast Credit Union Amphitheater") & There are 10 events that match your criteria. There is an event Alejandro Sanz at Cal Coast Credit Union Amphitheater.INFORM_COUNT ( count = "10") & There are 10 events that match your criteria. There is an event Alejandro Sanz at Cal Coast Credit Union Amphitheater.
+OFFER ( event_name = "Aly And Aj" ; venue = "The Observatory North Park") & There are 6 events that match your criteria. There is an event Aly And Aj at The Observatory North Park.
+OFFER ( event_name = "Aly And Aj" ; venue = "The Observatory North Park") & There are 6 events that match your criteria. There is an event Aly And Aj at The Observatory North Park.
+OFFER ( event_name = "Aly And Aj" ; venue = "The Observatory North Park") & There are 6 events that match your criteria. There is an event Aly And Aj at The Observatory North Park.INFORM_COUNT ( count = "6") & There are 6 events that match your criteria. There is an event Aly And Aj at The Observatory North Park.
+CONFIRM ( event_name = "Aly and Aj" ; number_of_tickets = "1" ; date = "next Monday" ; city = "San Diego") & Please confirm: 1 ticket for Aly and Aj in San Diego. The event is next Monday.
+OFFER ( event_name = "Falcons Vs Buccaneers" ; venue = "Mercedes-Benz Stadium") & Here's an event! It's Falcons Vs Buccaneers, at Mercedes-Benz Stadium.
+OFFER ( event_name = "United Vs United" ; venue = "Mercedes-Benz Stadium") & I've got an event like that, United Vs United at the Mercedes-Benz Stadium.
+CONFIRM ( event_name = "United Vs United" ; number_of_tickets = "1" ; date = "today" ; city = "Atlanta") & To confirm, that event is today in Atlanta, United Vs United, and you need 1 ticket.
+INFORM ( venue_address = "1 AMB Drive Northwest" ; time = "6 pm") & The venue is at 1 AMB Drive Northwest, at 6 pm, and I've got you all reserved.
+INFORM ( venue_address = "1 AMB Drive Northwest" ; time = "6 pm") & The venue is at 1 AMB Drive Northwest, at 6 pm, and I've got you all reserved.
+OFFER ( event_name = "Whitecaps Vs Colorado Rapids" ; venue = "BC Place") & The Whitecaps Vs Colorado Rapids game is going on at BC Place.
+CONFIRM ( event_name = "Whitecaps Vs Colorado Rapids" ; number_of_tickets = "2" ; date = "next Monday" ; city = "Vancouver") & So you want 2 tickets to the Whitecaps Vs Colorado Rapids game taking place on the 4th ( next Monday ) in Vancouver?
+CONFIRM ( number_of_tickets = "1" ; date = "March 14th") & So you only want 1 ticket to the game on March 14th?
+INFORM ( venue_address = "777 Pacific Boulevard" ; time = "5 pm") & I've reserved your ticket. The game starts at 5 pm at 777 Pacific Boulevard.
+INFORM ( venue_address = "777 Pacific Boulevard" ; time = "5 pm") & I've reserved your ticket. The game starts at 5 pm at 777 Pacific Boulevard.
+OFFER ( event_name = "Gloryhammer" ; venue = "172) & I found 5 events. The event Gloryhammer is at 1720(tm).
+OFFER ( event_name = "Gloryhammer" ; venue = "172) & I found 5 events. The event Gloryhammer is at 1720(tm).
+OFFER ( event_name = "Gloryhammer" ; venue = "172) & I found 5 events. The event Gloryhammer is at 1720(tm).
+OFFER ( event_name = "Bill Callahan" ; venue = "Lodge Room") & I found 9 events. The Bill Callahan event is at the Lodge Room.
+OFFER ( event_name = "Bill Callahan" ; venue = "Lodge Room") & I found 9 events. The Bill Callahan event is at the Lodge Room.
+OFFER ( event_name = "Bill Callahan" ; venue = "Lodge Room") & I found 9 events. The Bill Callahan event is at the Lodge Room.INFORM_COUNT ( count = "9") & I found 9 events. The Bill Callahan event is at the Lodge Room.
+CONFIRM ( event_name = "Bill Callahan" ; number_of_tickets = "4" ; date = "March 14th" ; city = "Los Angeles") & Please confirm that you want to buy 4 tickets to the Bill Callahan event in Los Angeles on March 14th.
+CONFIRM ( number_of_tickets = "1" ; city = "Los Angeles") & Please confirm you want to buy 1 ticket for the event in Los Angeles.
+OFFER ( event_name = "Huskies Vs Cougars" ; venue = "Husky Stadium") & I have 10 possibilities for you. At Husky Stadium, I can suggest Huskies Vs Cougars.
+OFFER ( event_name = "Huskies Vs Cougars" ; venue = "Husky Stadium") & I have 10 possibilities for you. At Husky Stadium, I can suggest Huskies Vs Cougars.
+OFFER ( event_name = "Huskies Vs Cougars" ; venue = "Husky Stadium") & I have 10 possibilities for you. At Husky Stadium, I can suggest Huskies Vs Cougars.INFORM_COUNT ( count = "10") & I have 10 possibilities for you. At Husky Stadium, I can suggest Huskies Vs Cougars.
+OFFER ( event_name = "Huskies Vs Utes" ; venue = "Husky Stadium") & I can suggest Huskies Vs Utes at Husky Stadium.
+OFFER ( event_name = "Huskies Vs Warriors" ; venue = "Husky Stadium") & Also at Husky Stadium, There is Huskies Vs Warriors.
+CONFIRM ( event_name = "Huskies Vs Warriors" ; number_of_tickets = "1" ; date = "next Wednesday" ; city = "Seattle") & Confirming 1 ticket next Wednesday in Seattle for Huskies Vs Warriors.
+INFORM ( time = "7:30 PM") & It starts at 7:30 PM and your reservation is complete.
+INFORM ( time = "7:30 PM") & It starts at 7:30 PM and your reservation is complete.
+INFORM ( venue_address = "3800 Montlake Boulevard Northeast") & They are located at 3800 Montlake Boulevard Northeast.
+OFFER ( event_name = "Ben Harper" ; venue = "Pier 17") & There are 3 event. Recommended is at Pier 17 for Ben Harper.
+OFFER ( event_name = "Ben Harper" ; venue = "Pier 17") & There are 3 event. Recommended is at Pier 17 for Ben Harper.
+OFFER ( event_name = "Ben Harper" ; venue = "Pier 17") & There are 3 event. Recommended is at Pier 17 for Ben Harper.INFORM_COUNT ( count = "3") & There are 3 event. Recommended is at Pier 17 for Ben Harper.
+INFORM ( venue_address = "89 South Street" ; time = "7 pm") & It starts at 7 pm at 89 South Street.
+CONFIRM ( event_name = "Ben Harper" ; number_of_tickets = "2" ; date = "next Wednesday" ; city = "New York") & Please confirm 2 tickets to Ben Harper next Wednesday in New York.
+CONFIRM ( number_of_tickets = "4" ; date = "next Wednesday") & Please confirm 4 tickets for next Wednesday.
+OFFER ( event_name = "Anberlin" ; venue = "The Van Buren") & There is a Anberlin concert at The Van Buren.
+CONFIRM ( event_name = "Anberlin" ; number_of_tickets = "4" ; date = "March 9th" ; city = "Phoenix") & To confirm, your attending Anberlin, on March 9th at Phoenix. And you want 4 tickets for you and your friends.
+CONFIRM ( number_of_tickets = "4" ; date = "day after tomorrow") & To confirm, your attending Anberlin, on the day after tomorrow at Phoenix. And you want 4 tickets for you and your friends.
+OFFER ( event_name = "Blue Jays Vs Astros" ; venue = "Rogers Centre") & Blue Jays Vs Astros is a game at the Rogers Centre.
+INFORM ( venue_address = "1 blue Jays Way" ; time = "7:30 pm") & The address is 1 blue Jays Way and starts at 7:30 pm.
+CONFIRM ( event_name = "Blue Jays Vs Astros" ; number_of_tickets = "4" ; date = "March 9th" ; city = "Toronto") & You want 4 tickets for Blue Jays Vs Astros on March 9th in Toronto. Is that right?
+OFFER ( event_name = "Giants Vs Diamondbacks" ; venue = "Oracle Park") & I found 4 events you would like. One is Giants Vs Diamondbacks at Oracle Park.
+OFFER ( event_name = "Giants Vs Diamondbacks" ; venue = "Oracle Park") & I found 4 events you would like. One is Giants Vs Diamondbacks at Oracle Park.
+OFFER ( event_name = "Giants Vs Diamondbacks" ; venue = "Oracle Park") & I found 4 events you would like. One is Giants Vs Diamondbacks at Oracle Park.INFORM_COUNT ( count = "4") & I found 4 events you would like. One is Giants Vs Diamondbacks at Oracle Park.
+CONFIRM ( event_name = "Giants Vs Diamondbacks" ; number_of_tickets = "1" ; date = "next Monday" ; city = "San Francisco") & Please confirm: 1 ticket for Giants Vs Diamondbacks in San Francisco next Monday.
+CONFIRM ( number_of_tickets = "4" ; date = "next Monday") & Please confirm: 4 tickets for next Monday.
+OFFER ( event_name = "Huskies Vs Warriors" ; venue = "Husky Stadium") & I found 8 events you would like. One is Huskies Vs Warriors at Husky Stadium.
+OFFER ( event_name = "Huskies Vs Warriors" ; venue = "Husky Stadium") & I found 8 events you would like. One is Huskies Vs Warriors at Husky Stadium.
+OFFER ( event_name = "Huskies Vs Warriors" ; venue = "Husky Stadium") & I found 8 events you would like. One is Huskies Vs Warriors at Husky Stadium.INFORM_COUNT ( count = "8") & I found 8 events you would like. One is Huskies Vs Warriors at Husky Stadium.
+INFORM ( venue_address = "3800 Montlake Boulevard Northeast" ; time = "5:30 pm") & 5:30 pm at 3800 Montlake Boulevard Northeast.
+CONFIRM ( event_name = "Huskies Vs Warriors" ; number_of_tickets = "2" ; date = "next Monday" ; city = "Seattle") & Please confirm: Huskies Vs Warriors in Seattle. 2 tickets for next Monday.
+CONFIRM ( event_name = "Huskies Vs Warriors" ; number_of_tickets = "4") & Please confirm: 4 tickets for Huskies Vs Warriors.
+OFFER ( event_name = "DC United vs Revolution" ; venue = "Audi Field") & I found 10 events that you would like. One is DC United vs Revolution at Audi Field.
+OFFER ( event_name = "DC United vs Revolution" ; venue = "Audi Field") & I found 10 events that you would like. One is DC United vs Revolution at Audi Field.
+OFFER ( event_name = "DC United vs Revolution" ; venue = "Audi Field") & I found 10 events that you would like. One is DC United vs Revolution at Audi Field.INFORM_COUNT ( count = "10") & I found 10 events that you would like. One is DC United vs Revolution at Audi Field.
+CONFIRM ( event_name = "DC United vs Revolution" ; number_of_tickets = "2" ; date = "March 14th" ; city = "Washington D.C.") & Please confirm: 2 tickets for DC United vs Revolution on March 14th in Washington D.C.
+INFORM ( time = "5:30 pm") & It will begin at 5:30 pm.
+OFFER ( event_name = "Blue Jays Vs Astros" ; venue = "Rogers Centre") & There's a Blue Jays Vs Astros game at Rogers Centre.
+CONFIRM ( event_name = "Blue Jays Vs Astros" ; number_of_tickets = "1" ; date = "March 9th" ; city = "Toronto") & Is the following information correct? 1 ticket, for the Blue Jays Vs Astros event on March 9th, in Toronto.
+CONFIRM ( date = "March 14th" ; city = "Toronto") & Is the following information correct? The event will take place on March 14th, in Toronto.
+CONFIRM ( number_of_tickets = "2" ; city = "Toronto") & Is the following information correct? You'd like 2 tickets for the event in Toronto.
+OFFER ( event_name = "Girl In Red" ; venue = "The Teragram Ballroom") & There is a event called Girl In Red and it is at The Teragram Ballroom.
+OFFER ( event_name = "Murder City Devils" ; venue = "The Teragram Ballroom") & There is one event related to what you are looking for. Its Murder City Devils and it is at The Teragram Ballroom.
+INFORM ( venue_address = "1234 West 7th Street" ; time = "7 pm") & The venue is located at 1234 West 7th Street. The event starts at 7 pm.
+CONFIRM ( event_name = "Murder City Devils" ; number_of_tickets = "2" ; date = "next Wednesday" ; city = "Los Angeles") & Please confirm the following details: The event is Murder City Devils. The number of tickets you would like to purchase is 2. The event will take place next Wednesday. The events location is Los Angeles.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & The event is Amber Run Brooklyn and it;s in Warsaw
+OFFER ( event_name = "Blowout Music Festival" ; venue = "Knockdown Center") & The event is Blowout Music Festival and it's in Knockdown Center
+INFORM ( venue_address = "52-19 Flushing Avenue, Maspeth") & The venue is at 52-19 Flushing Avenue, Maspeth
+OFFER ( event_name = "Jason Isbell" ; venue = "Prospect Park Bandshell") & The event is Jason Isbell and it's at Prospect Park Bandshell.
+INFORM ( venue_address = "141 Prospect Park West, Brooklyn") & The venue is at 141 Prospect Park West, Brooklyn
+CONFIRM ( event_name = "Jason Isbell" ; number_of_tickets = "4" ; date = "March 14th" ; city = "New York") & Conform Jason Isbell and 4 tickets for March 14th event in New York.
+INFORM ( time = "5:30 pm") & The event starts at 5:30 pm
+INFORM ( time = "5:30 pm") & The event starts at 5:30 pm
+OFFER ( event_name = "A Right Royale Tea" ; venue = "Amba Hotel Charing Cross" ; date = "March 14th" ; time = "7 pm") & How about A Right Royale Tea? It is a very popular event taking place at Amba Hotel Charing Cross on March 14th. It begins at 7 pm.
+INFORM ( price_per_ticket = "$50") & One ticket costs $50.
+CONFIRM ( event_name = "A Right Royale Tea" ; number_of_tickets = "4" ; date = "March 14th" ; city = "London") & Can you confirm the following? I am booking 4 tickets to A Right Royale Tea taking place on March 14th in London. Is this correct?
+INFORM ( venue_address = "Strand") & The event is taking place at the Strand. You're reservation is confirmed. Have a great time!
+INFORM ( venue_address = "Strand") & The event is taking place at the Strand. You're reservation is confirmed. Have a great time!
+OFFER ( event_name = "Acting for Teens" ; venue = "520 8th Ave. - Personal Valet Parking" ; date = "March 4th" ; time = "6 pm") & Sure, I found 10 events that you might like. There's a popular one called Acting for Teens at 520 8th Ave. - Personal Valet Parking on March 4th at 6 pm. How about that?
+OFFER ( event_name = "Acting for Teens" ; venue = "520 8th Ave. - Personal Valet Parking" ; date = "March 4th" ; time = "6 pm") & Sure, I found 10 events that you might like. There's a popular one called Acting for Teens at 520 8th Ave. - Personal Valet Parking on March 4th at 6 pm. How about that?
+OFFER ( event_name = "Acting for Teens" ; venue = "520 8th Ave. - Personal Valet Parking" ; date = "March 4th" ; time = "6 pm") & Sure, I found 10 events that you might like. There's a popular one called Acting for Teens at 520 8th Ave. - Personal Valet Parking on March 4th at 6 pm. How about that?INFORM_COUNT ( count = "10") & Sure, I found 10 events that you might like. There's a popular one called Acting for Teens at 520 8th Ave. - Personal Valet Parking on March 4th at 6 pm. How about that?
+OFFER ( event_name = "Advanced Acting Scene Study" ; venue = "TGW Acting Studio" ; date = "March 10th" ; time = "4:30 pm") & There's also Advanced Acting Scene Study at TGW Acting Studio on March 10th at 4:30 pm. How about that?
+CONFIRM ( event_name = "Advanced Acting Scene Study" ; number_of_tickets = "4" ; date = "March 10th" ; city = "New York") & Sure. To confirm, you'd like 4 tickets to Advanced Acting Scene Study in New York on March 10th. Is that right?
+INFORM ( venue_address = "358 West 44th Street" ; price_per_ticket = "$20") & The tickets are $20 and the venue address is 358 West 44th Street. I've booked your tickets, have fun!
+INFORM ( venue_address = "358 West 44th Street" ; price_per_ticket = "$20") & The tickets are $20 and the venue address is 358 West 44th Street. I've booked your tickets, have fun!
+OFFER ( event_name = "Chanticleer Concert" ; venue = "St. Stephen's Episcopal church" ; date = "march 8th" ; time = "6 pm") & There's the Chanticleer Concert, taking place at the St. Stephen's Episcopal church on march 8th at 6 pm.
+CONFIRM ( event_name = "Chanticleer Concert" ; number_of_tickets = "2" ; date = "March 8th" ; city = "Belvedere") & Please confirm: You want to book 2 tickets for the Chanticleer Concert on March 8th in Belvedere.
+INFORM ( venue_address = "3 bayview avenue" ; price_per_ticket = "$55") & The reservation is confirmed. It's taking place at 3 bayview avenue, and costs $55 per ticket.
+INFORM ( venue_address = "3 bayview avenue" ; price_per_ticket = "$55") & The reservation is confirmed. It's taking place at 3 bayview avenue, and costs $55 per ticket.
+OFFER ( event_name = "Aldous Harding" ; venue = "Masonic Lodge at Hollywood Forever" ; date = "March 13th" ; time = "4:30 pm") & A very popular option is Aldous Harding and is take place at Masonic Lodge at Hollywood Forever on March 13th at 4:30 pm.
+INFORM ( venue_address = "5970 Santa Monica Boulevard" ; price_per_ticket = "$25") & 5970 Santa Monica Boulevard is the venue and total cost is $25.
+OFFER ( event_name = "Bastille" ; venue = "Theater Of The Clouds" ; date = "March 11th" ; time = "7 pm") & Very popular is the event Bastille.Is taking place at Theater Of The Clouds on March 11th at 7 pm.
+CONFIRM ( event_name = "Bastille" ; number_of_tickets = "3" ; date = "March 11th" ; city = "Portland") & Book 3 tickets at event Bastille in Portland in March 11th.Is that correct?
+INFORM ( venue_address = "1016-1098 North Center Court Street" ; price_per_ticket = "$30") & Reservation is done.1016-1098 North Center Court Street is the venue and the ticket is $30.Have fun!
+INFORM ( venue_address = "1016-1098 North Center Court Street" ; price_per_ticket = "$30") & Reservation is done.1016-1098 North Center Court Street is the venue and the ticket is $30.Have fun!
+OFFER ( event_name = "Alice in Glitterland" ; venue = "The Wise" ; date = "March 13th" ; time = "4 pm") & Okay, I've found 10 events in the area you may like. I hear Alice in Glitterland is very popular. The event is taking place on March 13th at 4 pm at The Wise.
+OFFER ( event_name = "Alice in Glitterland" ; venue = "The Wise" ; date = "March 13th" ; time = "4 pm") & Okay, I've found 10 events in the area you may like. I hear Alice in Glitterland is very popular. The event is taking place on March 13th at 4 pm at The Wise.
+OFFER ( event_name = "Alice in Glitterland" ; venue = "The Wise" ; date = "March 13th" ; time = "4 pm") & Okay, I've found 10 events in the area you may like. I hear Alice in Glitterland is very popular. The event is taking place on March 13th at 4 pm at The Wise.INFORM_COUNT ( count = "10") & Okay, I've found 10 events in the area you may like. I hear Alice in Glitterland is very popular. The event is taking place on March 13th at 4 pm at The Wise.
+CONFIRM ( event_name = "Alice in Glitterland" ; number_of_tickets = "3" ; date = "March 13th" ; city = "Vancouver") & No problem, can you please confirm the following. You are booking 3 tickets for Alice in Glitterland on March 13th in Vancouver. Correct?
+INFORM ( venue_address = "1882 Adanac Street" ; price_per_ticket = "$20") & The venue is 1882 Adanac Street and the tickets are $20.
+OFFER ( event_name = "Annual School Performance" ; venue = "Newmark Theatre" ; date = "March 2nd" ; time = "5 pm") & Excellent. Here's a recommendation you might like at Newmark Theatre: it's their Annual School Performance, which is held on March 2nd, 5 pm.
+INFORM ( price_per_ticket = "$45") & Admission is $45.
+OFFER ( event_name = "Bastille" ; venue = "Theater Of The Clouds" ; date = "March 6th" ; time = "4:30 pm") & Yes, there are 4 options to choose from. Bastille is a popular choice at Theater Of The Clouds. That's at 4:30 pm on March 6th.
+OFFER ( event_name = "Bastille" ; venue = "Theater Of The Clouds" ; date = "March 6th" ; time = "4:30 pm") & Yes, there are 4 options to choose from. Bastille is a popular choice at Theater Of The Clouds. That's at 4:30 pm on March 6th.
+OFFER ( event_name = "Bastille" ; venue = "Theater Of The Clouds" ; date = "March 6th" ; time = "4:30 pm") & Yes, there are 4 options to choose from. Bastille is a popular choice at Theater Of The Clouds. That's at 4:30 pm on March 6th.INFORM_COUNT ( count = "4") & Yes, there are 4 options to choose from. Bastille is a popular choice at Theater Of The Clouds. That's at 4:30 pm on March 6th.
+CONFIRM ( event_name = "Bastille" ; number_of_tickets = "2" ; date = "March 6th" ; city = "Portland") & Confirming a reservation for 2 on March 6th to see Bastille in Portland.
+OFFER ( event_name = "Funtcase" ; venue = "NEST" ; date = "March 4th" ; time = "6:30 pm") & I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST.
+OFFER ( event_name = "Funtcase" ; venue = "NEST" ; date = "March 4th" ; time = "6:30 pm") & I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST.
+OFFER ( event_name = "Funtcase" ; venue = "NEST" ; date = "March 4th" ; time = "6:30 pm") & I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST.INFORM_COUNT ( count = "7") & I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST.
+CONFIRM ( event_name = "Funtcase" ; number_of_tickets = "4" ; date = "March 4th" ; city = "Toronto") & Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto.
+INFORM ( venue_address = "423 College Street") & That address would be 423 College Street.

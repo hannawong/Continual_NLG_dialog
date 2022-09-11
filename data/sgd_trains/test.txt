@@ -1,0 +1,83 @@
+OFFER ( journey_start_time = "6:10 am" ; total = "$145") & There are 9 locomotives suitable for you, departing at 6:10 am with a price of $145.
+OFFER ( journey_start_time = "6:10 am" ; total = "$145") & There are 9 locomotives suitable for you, departing at 6:10 am with a price of $145.
+OFFER ( journey_start_time = "6:10 am" ; total = "$145") & There are 9 locomotives suitable for you, departing at 6:10 am with a price of $145.INFORM_COUNT ( count = "9") & There are 9 locomotives suitable for you, departing at 6:10 am with a price of $145.
+INFORM ( from_station = "Santa Fe Depot") & It departs from Santa Fe Depot.
+CONFIRM ( from = "San Diego" ; to = "Sacramento" ; date_of_journey = "March 8th" ; journey_start_time = "6:10 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & Please verify the following information: you'd like a value ticket for 1 person departing from San Diego on March 8th, 6:10 am, and headed to Sacramento.
+INFORM ( to_station = "Sacramento Valley Station") & Your tickets have been reserved, and the train will go to Sacramento Valley Station.
+INFORM ( to_station = "Sacramento Valley Station") & Your tickets have been reserved, and the train will go to Sacramento Valley Station.
+OFFER ( journey_start_time = "1 pm" ; total = "$115") & A train is leaving at 1 pm. The ticket is $115.
+CONFIRM ( from = "Atlanta" ; to = "Washington" ; date_of_journey = "March 13th" ; journey_start_time = "1 pm" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & Please confirm, 1 value ticket from Atlanta to Washington on March 13th at 1 pm.
+INFORM ( to_station = "Union Station") & Union Station.
+INFORM ( from_station = "Peachtree Station") & Peachtree Station.
+OFFER ( journey_start_time = "8 am" ; total = "$66") & I have 7, one departing at 8 am for $66.
+OFFER ( journey_start_time = "8 am" ; total = "$66") & I have 7, one departing at 8 am for $66.
+OFFER ( journey_start_time = "8 am" ; total = "$66") & I have 7, one departing at 8 am for $66.INFORM_COUNT ( count = "7") & I have 7, one departing at 8 am for $66.
+CONFIRM ( from = "Sacramento" ; to = "Fresno" ; date_of_journey = "March 10th" ; journey_start_time = "8 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & Confirm 1 Value seat for March 10th at 8 am from Sacramento to Fresno.
+INFORM ( to_station = "Fresno Station" ; from_station = "Sacramento Valley Station") & Departure is Sacramento Valley Station and arrival is Fresno Station.
+INFORM ( to_station = "Fresno Station" ; from_station = "Sacramento Valley Station") & Departure is Sacramento Valley Station and arrival is Fresno Station.
+OFFER ( journey_start_time = "6:30 am" ; total = "$157") & I've found 5 trains that match your criteria. How about one that leaves at 6:30 am and costs $157 in total?
+OFFER ( journey_start_time = "6:30 am" ; total = "$157") & I've found 5 trains that match your criteria. How about one that leaves at 6:30 am and costs $157 in total?
+OFFER ( journey_start_time = "6:30 am" ; total = "$157") & I've found 5 trains that match your criteria. How about one that leaves at 6:30 am and costs $157 in total?INFORM_COUNT ( count = "5") & I've found 5 trains that match your criteria. How about one that leaves at 6:30 am and costs $157 in total?
+CONFIRM ( from = "Los Angeles" ; to = "Phoenix" ; date_of_journey = "March 9th" ; journey_start_time = "6:30 am" ; number_of_adults = "2" ; trip_protection = "True" ; class = "Value") & Please confirm the following: 2 value tickets for train from Los Angeles to Phoenix on March 9th at 6:30 am.
+CONFIRM ( journey_start_time = "6:30 am" ; class = "Flexible") & The train leaves at 6:30 am. You would like a flexible ticket. Is that correct?
+INFORM ( to_station = "Phoenix Union Station") & Your tickets have successfully been purchased. The train will arrive at Phoenix Union Station.
+INFORM ( to_station = "Phoenix Union Station") & Your tickets have successfully been purchased. The train will arrive at Phoenix Union Station.
+INFORM ( from_station = "Union Station") & It will leave from the Union Station.
+OFFER ( journey_start_time = "6:30 am" ; total = "$132") & I will depart at 6:30 am and it costs $132.
+CONFIRM ( from = "Sacramento" ; to = "Anaheim" ; date_of_journey = "March 2nd" ; journey_start_time = "6:30 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & Please confirm that you want to leave from Sacramento and go to Anaheim on March 2nd at 6:30 am for 1 person. You need trip insurance and it's a Value ticket.
+INFORM ( to_station = "Anaheim Intermodal Center" ; from_station = "Sacramento Valley Station") & Your ticket was successfully booked. The train will go to Anaheim Intermodal Center from Sacramento Valley Station.
+INFORM ( to_station = "Anaheim Intermodal Center" ; from_station = "Sacramento Valley Station") & Your ticket was successfully booked. The train will go to Anaheim Intermodal Center from Sacramento Valley Station.
+OFFER ( journey_start_time = "6:10 am" ; total = "$60") & I have 10 possibilities for you to consider. There's a train that leaves at 6:10 am and that's a $60 ticket.
+OFFER ( journey_start_time = "6:10 am" ; total = "$60") & I have 10 possibilities for you to consider. There's a train that leaves at 6:10 am and that's a $60 ticket.
+OFFER ( journey_start_time = "6:10 am" ; total = "$60") & I have 10 possibilities for you to consider. There's a train that leaves at 6:10 am and that's a $60 ticket.INFORM_COUNT ( count = "10") & I have 10 possibilities for you to consider. There's a train that leaves at 6:10 am and that's a $60 ticket.
+INFORM ( from_station = "Santa Fe Depot") & That departs from Santa Fe Depot.
+INFORM ( to_station = "Union Station") & Its destination is Union Station.
+CONFIRM ( from = "San Diego" ; to = "Los Angeles" ; date_of_journey = "March 12th" ; journey_start_time = "6:10 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & Confirming 1 reserved Value seat on the 6:10 am train departing San Diego for Los Angeles on March 12th. Trip insurance included.
+OFFER ( journey_start_time = "6:30 am" ; total = "$164") & I found 4 trains of your choice which departs at 6:30 am and the ticket cost is $164.
+OFFER ( journey_start_time = "6:30 am" ; total = "$164") & I found 4 trains of your choice which departs at 6:30 am and the ticket cost is $164.
+OFFER ( journey_start_time = "6:30 am" ; total = "$164") & I found 4 trains of your choice which departs at 6:30 am and the ticket cost is $164.INFORM_COUNT ( count = "4") & I found 4 trains of your choice which departs at 6:30 am and the ticket cost is $164.
+INFORM ( from_station = "Anaheim Intermodal Center") & Anaheim Intermodal Center is the leaving station.
+INFORM ( to_station = "Phoenix Union Station") & Phoenix Union Station is the arrival station.
+CONFIRM ( from = "Anaheim" ; to = "Phoenix" ; date_of_journey = "march 12th" ; journey_start_time = "6:30 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Business") & please give confirmation details: You need a train ticket leaving from Anaheim to Phoenix for march 12th at 6:30 am and ticket is for 1 people with trip insurance and business class ticket.
+OFFER ( journey_start_time = "8:30 am" ; total = "$188") & I found one train which is depart at 8:30 am and its costs $188 in total.
+CONFIRM ( from = "Fresno" ; to = "Los Angeles" ; date_of_journey = "march 12th" ; journey_start_time = "8:30 am" ; number_of_adults = "3" ; trip_protection = "True" ; class = "Value") & Please check and confirm the details. Train ticket is needed and the train depart from Fresno and the destination is Los Angeles. The train leaves on march 12th and leaves at 8:30 am . Number of passengers is 3 and it comes with trip insurance and it is a Value ticket.
+OFFER ( journey_start_time = "6:30 am" ; total = "$90") & There is one departing at 6:30 am costing $90.
+CONFIRM ( from = "Sacramento" ; to = "Los Angeles" ; date_of_journey = "March 8th" ; journey_start_time = "6:30 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & To confirm then that is a Value train ticket for 1, peaving Sacramento travelling to Los Angeles on March 8th at 6:30 am.
+INFORM ( to_station = "Union Station") & Union Station and your booking is now confirmed.
+INFORM ( to_station = "Union Station") & Union Station and your booking is now confirmed.
+OFFER ( journey_start_time = "6:30 am" ; total = "$118") & I found 4 trains for you. Starting at 6:30 am. It costs $118.
+OFFER ( journey_start_time = "6:30 am" ; total = "$118") & I found 4 trains for you. Starting at 6:30 am. It costs $118.
+OFFER ( journey_start_time = "6:30 am" ; total = "$118") & I found 4 trains for you. Starting at 6:30 am. It costs $118.INFORM_COUNT ( count = "4") & I found 4 trains for you. Starting at 6:30 am. It costs $118.
+INFORM ( to_station = "Phoenix Union Station") & It will reach Phoenix Union Station.
+INFORM ( from_station = "Anaheim Intermodal Center") & It will start from Anaheim Intermodal Center.
+CONFIRM ( from = "Anaheim" ; to = "Phoenix" ; date_of_journey = "March 11th" ; journey_start_time = "6:30 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & Kindly ensure that, on March 11th, you need 1 Value ticket from Anaheim to Phoenix at 6:30 am. It is with insurance.
+OFFER ( journey_start_time = "6:30 am" ; total = "$35") & There is one departing at 6:30 am and the cost is $35.
+INFORM ( to_station = "Union Station" ; from_station = "Anaheim Intermodal Center") & The train would be leaving from Anaheim Intermodal Center and arriving at Union Station.
+CONFIRM ( from = "Anaheim" ; to = "Los Angeles" ; date_of_journey = "March 10th" ; journey_start_time = "6:30 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & You would like 1 value ticket for a train that leaves on March 10th at 6:30 am from Anaheim to Los Angeles.
+OFFER ( journey_start_time = "6:10 am" ; total = "$69") & well, there are 9 options, first up is 6:10 am and it will cost $69 total.
+OFFER ( journey_start_time = "6:10 am" ; total = "$69") & well, there are 9 options, first up is 6:10 am and it will cost $69 total.
+OFFER ( journey_start_time = "6:10 am" ; total = "$69") & well, there are 9 options, first up is 6:10 am and it will cost $69 total.INFORM_COUNT ( count = "9") & well, there are 9 options, first up is 6:10 am and it will cost $69 total.
+CONFIRM ( from = "San Francisco" ; to = "Sacramento" ; date_of_journey = "March 9th" ; journey_start_time = "6:10 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Flexible") & Sure to confirm: 1 ticket for a train Leaving San Francisco and heading to Sacramento. The train takes off on March 9th and leaves at 6:10 am. Your ticket will have a flexible feature.
+INFORM ( to_station = "Sacramento Valley Station" ; from_station = "Salesforce Transit Center") & Your tickets are set, You'll leave Salesforce Transit Center and will arrive at Sacramento Valley Station.
+INFORM ( to_station = "Sacramento Valley Station" ; from_station = "Salesforce Transit Center") & Your tickets are set, You'll leave Salesforce Transit Center and will arrive at Sacramento Valley Station.
+OFFER ( journey_start_time = "6:30 am" ; total = "$83") & Starting at 6:30 am with ticket cost $83.
+CONFIRM ( from = "Sacramento" ; to = "Los Angeles" ; date_of_journey = "march 6th" ; journey_start_time = "6:30 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & please give confirmation details: You need a train ticket from Sacramento to Los Angeles on march march 6th at 6:30 am and it is for 1 people. Want the ticket with trip insurance and it should be a value ticket.
+INFORM ( to_station = "Union Station" ; from_station = "Sacramento Valley Station") & Your train ticket booked successfully and the train leaving from Sacramento Valley Station and arrives at Union Station.
+INFORM ( to_station = "Union Station" ; from_station = "Sacramento Valley Station") & Your train ticket booked successfully and the train leaving from Sacramento Valley Station and arrives at Union Station.
+OFFER ( journey_start_time = "7:30 am" ; total = "$229") & What about a Train which is leaving at 7:30 am and the cost for the same will be $229 in total.
+INFORM ( from_station = "Chicago Union Station") & Yes, it will be leaving from Chicago Union Station.
+OFFER ( journey_start_time = "8 am" ; total = "$248") & What about the one which is going to leave at 8 am for the total cost $248? Hope this will suit for you.
+CONFIRM ( from = "Chicago" ; to = "New York" ; date_of_journey = "March 2nd" ; journey_start_time = "8 am" ; number_of_adults = "2" ; trip_protection = "True" ; class = "Flexible") & Please confirm to book 2 Flexible tickets including Trip insurance on the Train from Chicago on March 2nd at 8 am to New York.
+INFORM ( from_station = "Chicago Union Station") & I have successfully booked the tickets and the train will leave from Chicago Union Station.
+INFORM ( from_station = "Chicago Union Station") & I have successfully booked the tickets and the train will leave from Chicago Union Station.
+OFFER ( journey_start_time = "6:20 am" ; total = "$88") & The first of 9 tickets I was able to find leaves at 6:20 am and cost $88.
+OFFER ( journey_start_time = "6:20 am" ; total = "$88") & The first of 9 tickets I was able to find leaves at 6:20 am and cost $88.
+OFFER ( journey_start_time = "6:20 am" ; total = "$88") & The first of 9 tickets I was able to find leaves at 6:20 am and cost $88.INFORM_COUNT ( count = "9") & The first of 9 tickets I was able to find leaves at 6:20 am and cost $88.
+CONFIRM ( from = "San Francisco" ; to = "Los Angeles" ; date_of_journey = "March 8th" ; journey_start_time = "6:20 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & Okay, so far I have you booking a value ticket for 1 person, traveling from San Francisco, to Los Angeles, leaving on March 8th at 6:20 am. Does that sound right?
+CONFIRM ( date_of_journey = "March 8th" ; class = "Flexible") & No problem, I've changed that to a Flexible ticket, leaving on March 8th.
+INFORM ( from_station = "Salesforce Transit Center") & The train ticket I have just reserved for you will be leaving from Salesforce Transit Center.
+INFORM ( from_station = "Salesforce Transit Center") & The train ticket I have just reserved for you will be leaving from Salesforce Transit Center.
+OFFER ( journey_start_time = "1 pm" ; total = "$118") & There is a train with a 1 pm departure for a fare of $118 total.
+CONFIRM ( from = "Atlanta" ; to = "Washington" ; date_of_journey = "March 12th" ; journey_start_time = "1 pm" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Value") & Confirming a 1 pm train from Atlanta to Washington on March 12th, for a 1 person Value ticket.
+OFFER ( journey_start_time = "8:30 am" ; total = "$90") & Tickets for a train leaving at 8:30 am costs $90.
+CONFIRM ( from = "San Diego" ; to = "Anaheim" ; date_of_journey = "March 11th" ; journey_start_time = "8:30 am" ; number_of_adults = "1" ; trip_protection = "True" ; class = "Business") & Please verify the following information: you'd like a business ticket for 1 person with travel insurance that departs from San Diego on March 11th, 8:30 am, to Anaheim.

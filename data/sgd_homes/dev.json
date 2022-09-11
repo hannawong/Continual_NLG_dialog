@@ -1,0 +1,1177 @@
+[
+    [
+        "OFFER(property_name=\"Autumn Oaks Apartments\";address=\"1400 Humphrey Drive\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"2900\")",
+        "I have 3 nice apartments that might suit your needs. Autumn Oaks Apartments is a really good property located at 1400 Humphrey Drive. This property has 2 bed rooms and it also has 2 baths. The monthly rent for this apartment is 2900 dollars.",
+        "I have 3 nice apartments that might suit your needs. Autumn Oaks Apartments is a really good property located at 1400 Humphrey Drive. This property has 2 bed rooms and it also has 2 baths. The monthly rent for this apartment is 2900 dollars."
+    ],
+    [
+        "OFFER(property_name=\"Autumn Oaks Apartments\";address=\"1400 Humphrey Drive\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"2900\")@INFORM_COUNT(count=\"3\")",
+        "I have 3 nice apartments that might suit your needs. Autumn Oaks Apartments is a really good property located at 1400 Humphrey Drive. This property has 2 bed rooms and it also has 2 baths. The monthly rent for this apartment is 2900 dollars.",
+        "I have 3 nice apartments that might suit your needs. Autumn Oaks Apartments is a really good property located at 1400 Humphrey Drive. This property has 2 bed rooms and it also has 2 baths. The monthly rent for this apartment is 2900 dollars."
+    ],
+    [
+        "INFORM(furnished=\"False\")",
+        "No, the apartment is unfurnished.",
+        "No, the apartment is unfurnished."
+    ],
+    [
+        "CONFIRM(property_name=\"Autumn Oaks Apartments\";visit_date=\"March 13th\")",
+        "Please confirm the following details: You would like to inspect the property at Autumn Oaks Apartments on March 13th.",
+        "Please confirm the following details: You would like to inspect the property at Autumn Oaks Apartments on March 13th."
+    ],
+    [
+        "CONFIRM(property_name=\"Autumn Oaks Apartments\";visit_date=\"next Monday\")",
+        "Please confirm the following details: You would like to inspect the property at Autumn Oaks Apartments next Monday.",
+        "Please confirm the following details: You would like to inspect the property at Autumn Oaks Apartments next Monday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your inspection of the apartment is now confirmed.",
+        "Your inspection of the apartment is now confirmed."
+    ],
+    [
+        "INFORM(phone_number=\"707-429-3151\")",
+        "Yes, it's 707-429-3151.",
+        "Yes, it's 707-429-3151."
+    ],
+    [
+        "OFFER(property_name=\"Boulevard\";address=\"40001 Fremont Boulevard\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"2600\")",
+        "There is a 2 bed, 1 bath apartment for rent at 40001 Fremont Boulevard. The property is named Boulevard and costs 2600 per month.",
+        "There is a 2 bed, 1 bath apartment for rent at 40001 Fremont Boulevard. The property is named Boulevard and costs 2600 per month."
+    ],
+    [
+        "CONFIRM(property_name=\"Boulevard\";visit_date=\"March 11th\")",
+        "Please confirm this is an acceptable arrangement. You are scheduled to see the property Boulevard on March 11th.",
+        "Please confirm this is an acceptable arrangement. You are scheduled to see the property Boulevard on March 11th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The visit has been scheduled for you.",
+        "The visit has been scheduled for you."
+    ],
+    [
+        "OFFER(property_name=\"Apricot Pit Apartments\";address=\"400 East Remington Drive\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"4800\")",
+        "Apricot Pit Apartments is a 3 bedroom and 3 bath room apartment located at 400 East Remington Drive. It is a very good property and the rent is 4800 dollars per month.",
+        "Apricot Pit Apartments is a 3 bedroom and 3 bath room apartment located at 400 East Remington Drive. It is a very good property and the rent is 4800 dollars per month."
+    ],
+    [
+        "INFORM(phone_number=\"408-738-4862\";furnished=\"False\")",
+        "The phone number of the property is 408-738-4862. It is not fully furnished.",
+        "The phone number of the property is 408-738-4862. It is not fully furnished."
+    ],
+    [
+        "OFFER(property_name=\"Bonnie Terrace Apartments\";address=\"660 Gail Avenue\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"4750\")",
+        "Bonnie Terrace Apartments is a 4 bed room and 3 bath room apartment located at 660 Gail Avenue. The rent of the apartment is 4750 dollars per month.",
+        "Bonnie Terrace Apartments is a 4 bed room and 3 bath room apartment located at 660 Gail Avenue. The rent of the apartment is 4750 dollars per month."
+    ],
+    [
+        "CONFIRM(property_name=\"Bonnie Terrace Apartments\";visit_date=\"next Monday\")",
+        "Please confirm the following: you are scheduling a visit to Bonnie Terrace Apartments on next Monday.",
+        "Please confirm the following: you are scheduling a visit to Bonnie Terrace Apartments on next Monday."
+    ],
+    [
+        "INFORM(phone_number=\"888-854-9884\";furnished=\"False\")",
+        "Your visit has been scheduled. The phone number of the property is 888-854-9884. The apartment is not fully furnished.",
+        "Your visit has been scheduled. The phone number of the property is 888-854-9884. The apartment is not fully furnished."
+    ],
+    [
+        "INFORM(phone_number=\"888-854-9884\";furnished=\"False\")@NOTIFY_SUCCESS()",
+        "Your visit has been scheduled. The phone number of the property is 888-854-9884. The apartment is not fully furnished.",
+        "Your visit has been scheduled. The phone number of the property is 888-854-9884. The apartment is not fully furnished."
+    ],
+    [
+        "OFFER(property_name=\"Bay Village Apartments\";address=\"1107 Porter Street\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"2400\")",
+        "The property located at 1107 Porter Street named Bay Village Apartments is having 2 bed rooms and 1 baths and the rent is 2400 dollars per month",
+        "The property located at 1107 Porter Street named Bay Village Apartments is having 2 bed rooms and 1 baths and the rent is 2400 dollars per month"
+    ],
+    [
+        "OFFER(property_name=\"Harbor Park Apartment Homes\";address=\"961 Porter Street\";number_of_beds=\"3\";number_of_baths=\"1\";rent=\"3650\")",
+        "There are 6 nice apartments in which Harbor Park Apartment Homes is a suitable one for you and located at 961 Porter Street. It has 3 bed rooms and 1 baths and the rent is 3650 dollars per month",
+        "There are 6 nice apartments in which Harbor Park Apartment Homes is a suitable one for you and located at 961 Porter Street. It has 3 bed rooms and 1 baths and the rent is 3650 dollars per month"
+    ],
+    [
+        "OFFER(property_name=\"Harbor Park Apartment Homes\";address=\"961 Porter Street\";number_of_beds=\"3\";number_of_baths=\"1\";rent=\"3650\")@INFORM_COUNT(count=\"6\")",
+        "There are 6 nice apartments in which Harbor Park Apartment Homes is a suitable one for you and located at 961 Porter Street. It has 3 bed rooms and 1 baths and the rent is 3650 dollars per month",
+        "There are 6 nice apartments in which Harbor Park Apartment Homes is a suitable one for you and located at 961 Porter Street. It has 3 bed rooms and 1 baths and the rent is 3650 dollars per month"
+    ],
+    [
+        "CONFIRM(property_name=\"Harbor Park Apartment Homes\";visit_date=\"day after tomorrow\")",
+        "Please let me confirm your visit to Harbor Park Apartment Homes on day after tomorrow",
+        "Please let me confirm your visit to Harbor Park Apartment Homes on day after tomorrow"
+    ],
+    [
+        "INFORM(phone_number=\"833-420-7531\")",
+        "Your scheduled visit confirmed and the phone number of the property is 833-420-7531.",
+        "Your scheduled visit confirmed and the phone number of the property is 833-420-7531."
+    ],
+    [
+        "INFORM(phone_number=\"833-420-7531\")@NOTIFY_SUCCESS()",
+        "Your scheduled visit confirmed and the phone number of the property is 833-420-7531.",
+        "Your scheduled visit confirmed and the phone number of the property is 833-420-7531."
+    ],
+    [
+        "OFFER(property_name=\"1000 Kiely\";address=\"1000 Kiely Boulevard\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"4850\")",
+        "I found one on 1000 Kiely located on 1000 Kiely Boulevard. It has 3 bedrooms and 3 baths and costs 4850 a month",
+        "I found one on 1000 Kiely located on 1000 Kiely Boulevard. It has 3 bedrooms and 3 baths and costs 4850 a month"
+    ],
+    [
+        "OFFER(property_name=\"Alderwood Apartments\";address=\"900 Pepper Tree Lane\";number_of_beds=\"2\";number_of_baths=\"3\";rent=\"3900\")",
+        "There is a great 2 bed room 3 bath apartment at 900 Pepper Tree Lane at Alderwood Apartments that cost 3900 a month",
+        "There is a great 2 bed room 3 bath apartment at 900 Pepper Tree Lane at Alderwood Apartments that cost 3900 a month"
+    ],
+    [
+        "OFFER(property_name=\"Bella Vista Apartments\";address=\"1500 Vista Club Circle\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"2750\")",
+        "Bella Vista Apartments at 1500 Vista Club Circle has a 2 bedroom 2 bath setup for 2750 a month",
+        "Bella Vista Apartments at 1500 Vista Club Circle has a 2 bedroom 2 bath setup for 2750 a month"
+    ],
+    [
+        "CONFIRM(property_name=\"Bella Vista Apartments\";visit_date=\"March 12th\")",
+        "Confirming your appointment on March 12th at Bella Vista Apartments",
+        "Confirming your appointment on March 12th at Bella Vista Apartments"
+    ],
+    [
+        "INFORM(pets_allowed=\"False\")",
+        "It is scheduled. Also unfortunately no pets allowed",
+        "It is scheduled. Also unfortunately no pets allowed"
+    ],
+    [
+        "INFORM(pets_allowed=\"False\")@NOTIFY_SUCCESS()",
+        "It is scheduled. Also unfortunately no pets allowed",
+        "It is scheduled. Also unfortunately no pets allowed"
+    ],
+    [
+        "OFFER(property_name=\"215 Bayview Apartments\";address=\"215 Bayview Street\";number_of_beds=\"3\";number_of_baths=\"2\";rent=\"$5,200\")",
+        "215 Bayview Apartments is a very nice property located at 215 Bayview Street. The property has an apartment with 3 bedrooms and and 2 baths for $5,200 a month.",
+        "215 Bayview Apartments is a very nice property located at 215 Bayview Street. The property has an apartment with 3 bedrooms and and 2 baths for $5,200 a month."
+    ],
+    [
+        "CONFIRM(property_name=\"215 Bayview Apartments\";visit_date=\"next Wednesday\")",
+        "You would like to visit 215 Bayview Apartments next Wednesday, is that correct?",
+        "You would like to visit 215 Bayview Apartments next Wednesday, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your appointment is scheduled.",
+        "Your appointment is scheduled."
+    ],
+    [
+        "INFORM(pets_allowed=\"False\";furnished=\"False\")",
+        "Unfortunately, the property does not allow pets. The apartment is not furnished.",
+        "Unfortunately, the property does not allow pets. The apartment is not furnished."
+    ],
+    [
+        "OFFER(property_name=\"Muir Creek Apartments\";address=\"486 Morello Avenue\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"5100\")",
+        "Muir Creek Apartments located at 486 Morello Avenue has 4 rooms and 3 baths for 5100 dollars per month.",
+        "Muir Creek Apartments located at 486 Morello Avenue has 4 rooms and 3 baths for 5100 dollars per month."
+    ],
+    [
+        "OFFER(property_name=\"Lotus Apartments\";address=\"3979 Alhambra Avenue\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"2700\")",
+        "Lotus Apartments located at 3979 Alhambra Avenue has 2 rooms and 1 bath for 2700 dollars per month.",
+        "Lotus Apartments located at 3979 Alhambra Avenue has 2 rooms and 1 bath for 2700 dollars per month."
+    ],
+    [
+        "OFFER(property_name=\"Mission Pines Apartments\";address=\"3600 Pine Street\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"4050\")",
+        "I found 1 apartment. Mission Pines Apartments located at 3600 Pine Street has 2 rooms and 2 baths fo 4050 dollars per month.",
+        "I found 1 apartment. Mission Pines Apartments located at 3600 Pine Street has 2 rooms and 2 baths fo 4050 dollars per month."
+    ],
+    [
+        "OFFER(property_name=\"Mission Pines Apartments\";address=\"3600 Pine Street\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"4050\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 apartment. Mission Pines Apartments located at 3600 Pine Street has 2 rooms and 2 baths fo 4050 dollars per month.",
+        "I found 1 apartment. Mission Pines Apartments located at 3600 Pine Street has 2 rooms and 2 baths fo 4050 dollars per month."
+    ],
+    [
+        "INFORM(furnished=\"False\")",
+        "No it's not furnished.",
+        "No it's not furnished."
+    ],
+    [
+        "CONFIRM(property_name=\"Mission Pines Apartments\";visit_date=\"next Friday\")",
+        "Confirm you want to schedule a visit to Mission Pines Apartments next Friday.",
+        "Confirm you want to schedule a visit to Mission Pines Apartments next Friday."
+    ],
+    [
+        "CONFIRM(property_name=\"Mission Pines Apartments\";visit_date=\"next Tuesday\")",
+        "Confirm you want to schedule a visit to Mission Pines Apartments next Tuesday.",
+        "Confirm you want to schedule a visit to Mission Pines Apartments next Tuesday."
+    ],
+    [
+        "INFORM(phone_number=\"833-255-0983\")",
+        "Apartment visit has been scheduled, their phone number is 833-255-0983.",
+        "Apartment visit has been scheduled, their phone number is 833-255-0983."
+    ],
+    [
+        "INFORM(phone_number=\"833-255-0983\")@NOTIFY_SUCCESS()",
+        "Apartment visit has been scheduled, their phone number is 833-255-0983.",
+        "Apartment visit has been scheduled, their phone number is 833-255-0983."
+    ],
+    [
+        "OFFER(property_name=\"Amador Royal\";address=\"25173 Cypress Avenue\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"2850\")",
+        "The apartment Amador Royal at 25173 Cypress Avenue is a very good place that has 2 bed rooms and 2 baths at a price of 2850 $ per month.",
+        "The apartment Amador Royal at 25173 Cypress Avenue is a very good place that has 2 bed rooms and 2 baths at a price of 2850 $ per month."
+    ],
+    [
+        "OFFER(property_name=\"Amberwood Garden Apartments\";address=\"26100 Gading Road\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"5150\")",
+        "Another option would be Amberwood Garden Apartments at 26100 Gading Road also with 2 bed rooms and 2 baths and a price of 5150 $ per month.",
+        "Another option would be Amberwood Garden Apartments at 26100 Gading Road also with 2 bed rooms and 2 baths and a price of 5150 $ per month."
+    ],
+    [
+        "INFORM(phone_number=\"510-785-3281\")",
+        "Yes, it is 510-785-3281.",
+        "Yes, it is 510-785-3281."
+    ],
+    [
+        "INFORM(furnished=\"False\")",
+        "No, it is not furnished.",
+        "No, it is not furnished."
+    ],
+    [
+        "OFFER(property_name=\"Huntwood Commons\";address=\"27901 Huntwood Avenue # 126\";number_of_beds=\"2\";number_of_baths=\"3\";rent=\"4300\")",
+        "Huntwood Commons at 27901 Huntwood Avenue # 126 has 2 bed rooms and 3 baths and the rent is 4300 $ per month.",
+        "Huntwood Commons at 27901 Huntwood Avenue # 126 has 2 bed rooms and 3 baths and the rent is 4300 $ per month."
+    ],
+    [
+        "CONFIRM(property_name=\"Huntwood Commons\";visit_date=\"tomorrow\")",
+        "Please confirm the appointment: visit to Huntwood Commons tomorrow.",
+        "Please confirm the appointment: visit to Huntwood Commons tomorrow."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your visit is confirmed.",
+        "Your visit is confirmed."
+    ],
+    [
+        "OFFER(property_name=\"215 Bayview Apartments\";address=\"215 Bayview Street\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"5000\")",
+        "There are 9 really great apartments. I recommend 215 Bayview Apartments on 215 Bayview Street. This place has 3 bed rooms and 3 bathrooms. Rent is 5000 dollars a month.",
+        "There are 9 really great apartments. I recommend 215 Bayview Apartments on 215 Bayview Street. This place has 3 bed rooms and 3 bathrooms. Rent is 5000 dollars a month."
+    ],
+    [
+        "OFFER(property_name=\"215 Bayview Apartments\";address=\"215 Bayview Street\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"5000\")@INFORM_COUNT(count=\"9\")",
+        "There are 9 really great apartments. I recommend 215 Bayview Apartments on 215 Bayview Street. This place has 3 bed rooms and 3 bathrooms. Rent is 5000 dollars a month.",
+        "There are 9 really great apartments. I recommend 215 Bayview Apartments on 215 Bayview Street. This place has 3 bed rooms and 3 bathrooms. Rent is 5000 dollars a month."
+    ],
+    [
+        "OFFER(property_name=\"400 Canal Street Apartments\";address=\"400 Canal Street # 131\";number_of_beds=\"3\";number_of_baths=\"2\";rent=\"3650\")",
+        "I recommend 400 Canal Street Apartments on 400 Canal Street # 131. This place has 3 bed rooms, 2 baths, and costs 3650 dollars a month.",
+        "I recommend 400 Canal Street Apartments on 400 Canal Street # 131. This place has 3 bed rooms, 2 baths, and costs 3650 dollars a month."
+    ],
+    [
+        "OFFER(property_name=\"Canal Apartments\";address=\"330 Canal Street\";number_of_beds=\"3\";number_of_baths=\"1\";rent=\"4300\")",
+        "I recommend Canal Apartments at 330 Canal Street. This place has 3 bed rooms and 1 bath, and costs 4300 dollars a month.",
+        "I recommend Canal Apartments at 330 Canal Street. This place has 3 bed rooms and 1 bath, and costs 4300 dollars a month."
+    ],
+    [
+        "INFORM(furnished=\"False\";phone_number=\"415-456-6619\")",
+        "The apartment doesn't come furnished. You can reach them at 415-456-6619.",
+        "The apartment doesn't come furnished. You can reach them at 415-456-6619."
+    ],
+    [
+        "CONFIRM(property_name=\"Canal Apartments\";visit_date=\"March 14th\")",
+        "Just to make sure, you're arranging a visit to Canal Apartments on March 14th.",
+        "Just to make sure, you're arranging a visit to Canal Apartments on March 14th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The apartment visit is scheduled.",
+        "The apartment visit is scheduled."
+    ],
+    [
+        "OFFER(property_name=\"Adrienne Village Apartments\";address=\"31755 Alvarado Boulevard\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"4950\")",
+        "Adrienne Village Apartments is a good option located at 31755 Alvarado Boulevard. They have a 2 bed room, 2 bath apartment for 4950 dollars per month.",
+        "Adrienne Village Apartments is a good option located at 31755 Alvarado Boulevard. They have a 2 bed room, 2 bath apartment for 4950 dollars per month."
+    ],
+    [
+        "INFORM(pets_allowed=\"False\")",
+        "Unfortunately, pets are not allowed at this property.",
+        "Unfortunately, pets are not allowed at this property."
+    ],
+    [
+        "INFORM(phone_number=\"510-471-1272\")",
+        "The number is 510-471-1272",
+        "The number is 510-471-1272"
+    ],
+    [
+        "CONFIRM(property_name=\"Adrienne Village Apartments\";visit_date=\"next Friday\")",
+        "Just to confirm, you would like to schedule a visit to Adrienne Village Apartments to view the property next Friday.",
+        "Just to confirm, you would like to schedule a visit to Adrienne Village Apartments to view the property next Friday."
+    ],
+    [
+        "INFORM(furnished=\"True\")",
+        "Your appointment has been scheduled successfully. Yes, the apartment is furnished.",
+        "Your appointment has been scheduled successfully. Yes, the apartment is furnished."
+    ],
+    [
+        "INFORM(furnished=\"True\")@NOTIFY_SUCCESS()",
+        "Your appointment has been scheduled successfully. Yes, the apartment is furnished.",
+        "Your appointment has been scheduled successfully. Yes, the apartment is furnished."
+    ],
+    [
+        "OFFER(property_name=\"canal apartments\";address=\"330 canal street\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"4300\")",
+        "i found 4 apartments that match that. canal apartments is located at 330 canal street. this property has 3 bedrooms and 3 baths. the rent is $ 4300 a month",
+        "i found 4 apartments that match that. canal apartments is located at 330 canal street. this property has 3 bedrooms and 3 baths. the rent is $ 4300 a month"
+    ],
+    [
+        "OFFER(property_name=\"canal apartments\";address=\"330 canal street\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"4300\")@INFORM_COUNT(count=\"4\")",
+        "i found 4 apartments that match that. canal apartments is located at 330 canal street. this property has 3 bedrooms and 3 baths. the rent is $ 4300 a month",
+        "i found 4 apartments that match that. canal apartments is located at 330 canal street. this property has 3 bedrooms and 3 baths. the rent is $ 4300 a month"
+    ],
+    [
+        "CONFIRM(property_name=\"canal apartments\";visit_date=\"march 14th\")",
+        "please confirm the following details: you are scheduling a visit on march 14th to see the canal apartments",
+        "please confirm the following details: you are scheduling a visit on march 14th to see the canal apartments"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "your visit has been scheduled",
+        "your visit has been scheduled"
+    ],
+    [
+        "OFFER(property_name=\"Avery Park Apartments\";address=\"2000 Clay Bank Road\";number_of_beds=\"3\";number_of_baths=\"2\";rent=\"3700\")",
+        "I found 10 nice apartments that match your criteria. One of them is Avery Park Apartments, it's located at 2000 Clay Bank Road. The apartment has 3 bedrooms and 2 baths. The rent for this apartment is 3700 dollars per month",
+        "I found 10 nice apartments that match your criteria. One of them is Avery Park Apartments, it's located at 2000 Clay Bank Road. The apartment has 3 bedrooms and 2 baths. The rent for this apartment is 3700 dollars per month"
+    ],
+    [
+        "OFFER(property_name=\"Avery Park Apartments\";address=\"2000 Clay Bank Road\";number_of_beds=\"3\";number_of_baths=\"2\";rent=\"3700\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 nice apartments that match your criteria. One of them is Avery Park Apartments, it's located at 2000 Clay Bank Road. The apartment has 3 bedrooms and 2 baths. The rent for this apartment is 3700 dollars per month",
+        "I found 10 nice apartments that match your criteria. One of them is Avery Park Apartments, it's located at 2000 Clay Bank Road. The apartment has 3 bedrooms and 2 baths. The rent for this apartment is 3700 dollars per month"
+    ],
+    [
+        "OFFER(property_name=\"Bennington Apartments\";address=\"2780 North Texas Street\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"5050\")",
+        "Bennington Apartments is also a great choice located at 2780 North Texas Street. This apartment had 3 bedrooms and 3 baths. The rent for this apartment is 5050 dollars per month.",
+        "Bennington Apartments is also a great choice located at 2780 North Texas Street. This apartment had 3 bedrooms and 3 baths. The rent for this apartment is 5050 dollars per month."
+    ],
+    [
+        "INFORM(phone_number=\"707-896-4168\";pets_allowed=\"False\")",
+        "The property's phone number is 707-896-4168. Unfortunately there are no pets allowed in this apartment.",
+        "The property's phone number is 707-896-4168. Unfortunately there are no pets allowed in this apartment."
+    ],
+    [
+        "CONFIRM(property_name=\"Bennington Apartments\";visit_date=\"March 12th\")",
+        "Ok, is this good? You are scheduling a visit to Bennington Apartments March 12th.",
+        "Ok, is this good? You are scheduling a visit to Bennington Apartments March 12th."
+    ],
+    [
+        "CONFIRM(property_name=\"Bennington Apartments\";visit_date=\"March 14th\")",
+        "So this should be it? You want to visit Bennington Apartments on March 14th.",
+        "So this should be it? You want to visit Bennington Apartments on March 14th."
+    ],
+    [
+        "INFORM(furnished=\"False\")",
+        "Ok your visit is scheduled and no, the apartment is not furnished.",
+        "Ok your visit is scheduled and no, the apartment is not furnished."
+    ],
+    [
+        "INFORM(furnished=\"False\")@NOTIFY_SUCCESS()",
+        "Ok your visit is scheduled and no, the apartment is not furnished.",
+        "Ok your visit is scheduled and no, the apartment is not furnished."
+    ],
+    [
+        "OFFER(property_name=\"888 Golden Saratoga-Cupertino Apartment Homes\";address=\"1546 Maurice Lane\";number_of_beds=\"1\";number_of_baths=\"1\";rent=\"2300\")",
+        "I found an apartment renting for 2300 dollars a month. I has 1 bedroom and 1 bathroom. It's a nice place in the 888 Golden Saratoga-Cupertino Apartment Homes, located at 1546 Maurice Lane.",
+        "I found an apartment renting for 2300 dollars a month. I has 1 bedroom and 1 bathroom. It's a nice place in the 888 Golden Saratoga-Cupertino Apartment Homes, located at 1546 Maurice Lane."
+    ],
+    [
+        "OFFER(property_name=\"Aegena\";address=\"1290 San Tomas Aquino Road\";number_of_beds=\"1\";number_of_baths=\"3\";rent=\"4900\")",
+        "I found another apartment renting for 4900 dollars a month, with 1 bedroom and 3 bathrooms. It's at Aegena, located at 1290 San Tomas Aquino Road.",
+        "I found another apartment renting for 4900 dollars a month, with 1 bedroom and 3 bathrooms. It's at Aegena, located at 1290 San Tomas Aquino Road."
+    ],
+    [
+        "OFFER(property_name=\"Alameda Gardens Apartments\";address=\"73 North Keeble Avenue\";number_of_beds=\"1\";number_of_baths=\"2\";rent=\"3600\")",
+        "I found another apartment renting for 3600 dollars a month, with 1 bedroom and 2 bathrooms. It's at the Alameda Gardens Apartments, located at 73 North Keeble Avenue.",
+        "I found another apartment renting for 3600 dollars a month, with 1 bedroom and 2 bathrooms. It's at the Alameda Gardens Apartments, located at 73 North Keeble Avenue."
+    ],
+    [
+        "INFORM(pets_allowed=\"False\")",
+        "Unfortunately, pets are not allowed in the apartment.",
+        "Unfortunately, pets are not allowed in the apartment."
+    ],
+    [
+        "CONFIRM(property_name=\"Alameda Gardens Apartments\";visit_date=\"March 14th\")",
+        "Okay, I scheduled an appointment on March 14th to visit the Alameda Gardens Apartments. Can you confirm that works for you?",
+        "Okay, I scheduled an appointment on March 14th to visit the Alameda Gardens Apartments. Can you confirm that works for you?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, your visit to the apartment is set up.",
+        "Okay, your visit to the apartment is set up."
+    ],
+    [
+        "OFFER(property_name=\"Indian Creek\";address=\"801 Marine Parkway\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"4950\")",
+        "May I suggest the Indian Creek apartments at 801 Marine Parkway in Redwood City? It has 4 bedrooms, 3 baths, and the rent is 4950 dollars per month.",
+        "May I suggest the Indian Creek apartments at 801 Marine Parkway in Redwood City? It has 4 bedrooms, 3 baths, and the rent is 4950 dollars per month."
+    ],
+    [
+        "OFFER(property_name=\"Marymount Apartments\";address=\"1405 Marshall Street\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"5200\")",
+        "May I suggest the Marymount Apartments at 1405 Marshall Street? There's a 4 bedroom, 3 bath apartment and the rent is 5200 dollars per month.",
+        "May I suggest the Marymount Apartments at 1405 Marshall Street? There's a 4 bedroom, 3 bath apartment and the rent is 5200 dollars per month."
+    ],
+    [
+        "INFORM(furnished=\"False\";pets_allowed=\"True\")",
+        "The apartment is unfurnished and they do allow pets.",
+        "The apartment is unfurnished and they do allow pets."
+    ],
+    [
+        "OFFER(property_name=\"Villas At Bair Island Apartment Homes\";address=\"700 Bair Island Road\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"5250\")",
+        "There's the Villas At Bair Island Apartment Homes, they're at 700 Bair Island Road. They have a 4 bedroom 3 bath apartment for 5250 dollars per month.",
+        "There's the Villas At Bair Island Apartment Homes, they're at 700 Bair Island Road. They have a 4 bedroom 3 bath apartment for 5250 dollars per month."
+    ],
+    [
+        "CONFIRM(property_name=\"Villas At Bair Island Apartment Homes\";visit_date=\"tomorrow\")",
+        "OK, you would like to visit the Villas At Bair Island Apartment Homes, tomorrow.",
+        "OK, you would like to visit the Villas At Bair Island Apartment Homes, tomorrow."
+    ],
+    [
+        "CONFIRM(property_name=\"Villas At Bair Island Apartment Homes\";visit_date=\"March 10th\")",
+        "OK, you'd like to visit the Villas At Bair Island Apartment Homes on March 10th.",
+        "OK, you'd like to visit the Villas At Bair Island Apartment Homes on March 10th."
+    ],
+    [
+        "INFORM(pets_allowed=\"False\";furnished=\"False\")",
+        "Your appointment is confirmed. The apartment is unfurnished, and they don't allow pets.",
+        "Your appointment is confirmed. The apartment is unfurnished, and they don't allow pets."
+    ],
+    [
+        "INFORM(pets_allowed=\"False\";furnished=\"False\")@NOTIFY_SUCCESS()",
+        "Your appointment is confirmed. The apartment is unfurnished, and they don't allow pets.",
+        "Your appointment is confirmed. The apartment is unfurnished, and they don't allow pets."
+    ],
+    [
+        "OFFER(property_name=\"Affordable Housing Associates\";address=\"150 Sierra Drive\";number_of_beds=\"1\";number_of_baths=\"2\";rent=\"$2,700\")",
+        "Affordable Housing Associates at 150 Sierra Drive has a 1 bedroom, 2 bathroom apartment for $2,700 a month.",
+        "Affordable Housing Associates at 150 Sierra Drive has a 1 bedroom, 2 bathroom apartment for $2,700 a month."
+    ],
+    [
+        "OFFER(property_name=\"Archstone Walnut Creek\";address=\"1445 Treat Boulevard\";number_of_beds=\"1\";number_of_baths=\"3\";rent=\"$4,150\")",
+        "Archstone Walnut Creek at 1445 Treat Boulevard has a 1 bedroom, 3 bathroom apartment for $4,150 a month.",
+        "Archstone Walnut Creek at 1445 Treat Boulevard has a 1 bedroom, 3 bathroom apartment for $4,150 a month."
+    ],
+    [
+        "INFORM(phone_number=\"925-943-7977\";furnished=\"False\")",
+        "The phone number for the property is 925-943-7977. The apartment is not furnished.",
+        "The phone number for the property is 925-943-7977. The apartment is not furnished."
+    ],
+    [
+        "CONFIRM(property_name=\"Archstone Walnut Creek\";visit_date=\"next Friday\")",
+        "You would like to visit Archstone Walnut Creek next Friday, is this correct?",
+        "You would like to visit Archstone Walnut Creek next Friday, is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your appointment is scheduled.",
+        "Your appointment is scheduled."
+    ],
+    [
+        "OFFER(property_name=\"Appletree Apartments\";address=\"831 Gale Drive\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"$3,150\")",
+        "Appletree Apartments located at 831 Gale Drive is a nice. It is a 2 bed room 2 bath apartment for $3,150 a month.",
+        "Appletree Apartments located at 831 Gale Drive is a nice. It is a 2 bed room 2 bath apartment for $3,150 a month."
+    ],
+    [
+        "OFFER(property_name=\"Avery Park Apartments\";address=\"2000 Clay Bank Road\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"$3,750\")",
+        "I have 9 apartments. Avery Park Apartments located at 2000 Clay Bank Road. It is a 2 bedroom 1 bath for $3,750 per month.",
+        "I have 9 apartments. Avery Park Apartments located at 2000 Clay Bank Road. It is a 2 bedroom 1 bath for $3,750 per month."
+    ],
+    [
+        "OFFER(property_name=\"Avery Park Apartments\";address=\"2000 Clay Bank Road\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"$3,750\")@INFORM_COUNT(count=\"9\")",
+        "I have 9 apartments. Avery Park Apartments located at 2000 Clay Bank Road. It is a 2 bedroom 1 bath for $3,750 per month.",
+        "I have 9 apartments. Avery Park Apartments located at 2000 Clay Bank Road. It is a 2 bedroom 1 bath for $3,750 per month."
+    ],
+    [
+        "INFORM(furnished=\"False\")",
+        "The apartment is not furnished.",
+        "The apartment is not furnished."
+    ],
+    [
+        "CONFIRM(property_name=\"Avery Park Apartments\";visit_date=\"March 11th\")",
+        "You would like to visit Avery Park Apartments on March 11th. Is that correct?",
+        "You would like to visit Avery Park Apartments on March 11th. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your visit is scheduled.",
+        "Your visit is scheduled."
+    ],
+    [
+        "INFORM(phone_number=\"707-881-7063\")",
+        "The number is 707-881-7063.",
+        "The number is 707-881-7063."
+    ],
+    [
+        "OFFER(property_name=\"888 Golden Saratoga-Cupertino Apartment Homes\";address=\"1546 Maurice Lane\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"4450\")",
+        "I found 10 good options. 888 Golden Saratoga-Cupertino Apartment Homes has 2 bedrooms and 2 baths, located at 1546 Maurice Lane. The rent of 4450 a month.",
+        "I found 10 good options. 888 Golden Saratoga-Cupertino Apartment Homes has 2 bedrooms and 2 baths, located at 1546 Maurice Lane. The rent of 4450 a month."
+    ],
+    [
+        "OFFER(property_name=\"888 Golden Saratoga-Cupertino Apartment Homes\";address=\"1546 Maurice Lane\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"4450\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 good options. 888 Golden Saratoga-Cupertino Apartment Homes has 2 bedrooms and 2 baths, located at 1546 Maurice Lane. The rent of 4450 a month.",
+        "I found 10 good options. 888 Golden Saratoga-Cupertino Apartment Homes has 2 bedrooms and 2 baths, located at 1546 Maurice Lane. The rent of 4450 a month."
+    ],
+    [
+        "INFORM(furnished=\"False\")",
+        "It is not furnished.",
+        "It is not furnished."
+    ],
+    [
+        "CONFIRM(property_name=\"888 Golden Saratoga-Cupertino Apartment Homes\";visit_date=\"today\")",
+        "Please confirm: You would like to visit 888 Golden Saratoga-Cupertino Apartment Homes today.",
+        "Please confirm: You would like to visit 888 Golden Saratoga-Cupertino Apartment Homes today."
+    ],
+    [
+        "INFORM(phone_number=\"408-818-0710\";pets_allowed=\"False\")",
+        "Your visit has been scheduled. Pets are not allowed. The phone number is 408-818-0710.",
+        "Your visit has been scheduled. Pets are not allowed. The phone number is 408-818-0710."
+    ],
+    [
+        "INFORM(phone_number=\"408-818-0710\";pets_allowed=\"False\")@NOTIFY_SUCCESS()",
+        "Your visit has been scheduled. Pets are not allowed. The phone number is 408-818-0710.",
+        "Your visit has been scheduled. Pets are not allowed. The phone number is 408-818-0710."
+    ],
+    [
+        "OFFER(property_name=\"Antioch Rivertown Senior Housing\";address=\"1400 A Street\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"2850\")",
+        "Your lucky today! We have 10 accomodations in Antioch. For instance, Antioch Rivertown Senior Housing is one of the best property of the whole city. It's located at 1400 A Street, equipped with 2 bed rooms and 1 bath. Obviously it's a quite expensive accomodation, rents start from 2850 dollars per month.",
+        "Your lucky today! We have 10 accomodations in Antioch. For instance, Antioch Rivertown Senior Housing is one of the best property of the whole city. It's located at 1400 A Street, equipped with 2 bed rooms and 1 bath. Obviously it's a quite expensive accomodation, rents start from 2850 dollars per month."
+    ],
+    [
+        "OFFER(property_name=\"Antioch Rivertown Senior Housing\";address=\"1400 A Street\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"2850\")@INFORM_COUNT(count=\"10\")",
+        "Your lucky today! We have 10 accomodations in Antioch. For instance, Antioch Rivertown Senior Housing is one of the best property of the whole city. It's located at 1400 A Street, equipped with 2 bed rooms and 1 bath. Obviously it's a quite expensive accomodation, rents start from 2850 dollars per month.",
+        "Your lucky today! We have 10 accomodations in Antioch. For instance, Antioch Rivertown Senior Housing is one of the best property of the whole city. It's located at 1400 A Street, equipped with 2 bed rooms and 1 bath. Obviously it's a quite expensive accomodation, rents start from 2850 dollars per month."
+    ],
+    [
+        "CONFIRM(property_name=\"Antioch Rivertown Senior Housing\";visit_date=\"next Monday\")",
+        "Perfect! We just need you confirm some details: your visit to Antioch Rivertown Senior Housing will be scheduled the next Monday.",
+        "Perfect! We just need you confirm some details: your visit to Antioch Rivertown Senior Housing will be scheduled the next Monday."
+    ],
+    [
+        "CONFIRM(property_name=\"Antioch Rivertown Senior Housing\";visit_date=\"next Friday\")",
+        "Yes, of course! We just need your confirmation: your visit to Antioch Rivertown Senior Housing will be scheduled the next Friday.",
+        "Yes, of course! We just need your confirmation: your visit to Antioch Rivertown Senior Housing will be scheduled the next Friday."
+    ],
+    [
+        "INFORM(furnished=\"False\")",
+        "Ok, your visit is scheduled. I'm sorry, but the accomodation isn't furnished.",
+        "Ok, your visit is scheduled. I'm sorry, but the accomodation isn't furnished."
+    ],
+    [
+        "INFORM(furnished=\"False\")@NOTIFY_SUCCESS()",
+        "Ok, your visit is scheduled. I'm sorry, but the accomodation isn't furnished.",
+        "Ok, your visit is scheduled. I'm sorry, but the accomodation isn't furnished."
+    ],
+    [
+        "INFORM(phone_number=\"925-706-0874\")",
+        "Sure! The number is 925-706-0874.",
+        "Sure! The number is 925-706-0874."
+    ],
+    [
+        "OFFER(property_name=\"Amador Lakes Apartment Homes\";address=\"8105 North Lake Drive\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"$2,550\")",
+        "There's a place called Amador Lakes Apartment Homes that's located on 8105 North Lake Drive that was 2 bedrooms and 1 bath for rent. It's $2,550 per month.",
+        "There's a place called Amador Lakes Apartment Homes that's located on 8105 North Lake Drive that was 2 bedrooms and 1 bath for rent. It's $2,550 per month."
+    ],
+    [
+        "OFFER(property_name=\"Jefferson At Emerald Park\";address=\"5050 Hacienda Drive\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"$3,050\")",
+        "I found 3 other apartments. Jefferson At Emerald Park located on 5050 Hacienda Drive has a 2 bedroom and 1 bath apartment for $3,050 a month.",
+        "I found 3 other apartments. Jefferson At Emerald Park located on 5050 Hacienda Drive has a 2 bedroom and 1 bath apartment for $3,050 a month."
+    ],
+    [
+        "OFFER(property_name=\"Jefferson At Emerald Park\";address=\"5050 Hacienda Drive\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"$3,050\")@INFORM_COUNT(count=\"3\")",
+        "I found 3 other apartments. Jefferson At Emerald Park located on 5050 Hacienda Drive has a 2 bedroom and 1 bath apartment for $3,050 a month.",
+        "I found 3 other apartments. Jefferson At Emerald Park located on 5050 Hacienda Drive has a 2 bedroom and 1 bath apartment for $3,050 a month."
+    ],
+    [
+        "CONFIRM(property_name=\"Jefferson At emerald park\";visit_date=\"next monday\")",
+        "Just to confirm, you want to schedule a visit to Jefferson At emerald park next monday?",
+        "Just to confirm, you want to schedule a visit to Jefferson At emerald park next monday?"
+    ],
+    [
+        "CONFIRM(property_name=\"Jefferson At Emerald Park\";visit_date=\"day after tomorrow\")",
+        "You want to visit Jefferson At Emerald Park the day after tomorrow?",
+        "You want to visit Jefferson At Emerald Park the day after tomorrow?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "It's been scheduled.",
+        "It's been scheduled."
+    ],
+    [
+        "OFFER(property_name=\"Briarwood Apartments\";address=\"141 Golf Club Road\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"4250\")",
+        "Briarwood Apartments is a great location to be in which is in 141 Golf Club Road. The establishment has 3 bed rooms and 3 baths. The price of the apartment is 4250 dollars per month.",
+        "Briarwood Apartments is a great location to be in which is in 141 Golf Club Road. The establishment has 3 bed rooms and 3 baths. The price of the apartment is 4250 dollars per month."
+    ],
+    [
+        "INFORM(phone_number=\"925-798-4830\";pets_allowed=\"False\")",
+        "925-798-4830 is the phone number of the apartment. Sadly, no pets are allowed in the property.",
+        "925-798-4830 is the phone number of the apartment. Sadly, no pets are allowed in the property."
+    ],
+    [
+        "CONFIRM(property_name=\"Briarwood Apartments\";visit_date=\"March 9th\")",
+        "You have been scheduled to visit Briarwood Apartments on March 9th, please confirm the latter details.",
+        "You have been scheduled to visit Briarwood Apartments on March 9th, please confirm the latter details."
+    ],
+    [
+        "INFORM(furnished=\"True\")",
+        "Your date for the visit of the property has been planned. The property is furnished.",
+        "Your date for the visit of the property has been planned. The property is furnished."
+    ],
+    [
+        "INFORM(furnished=\"True\")@NOTIFY_SUCCESS()",
+        "Your date for the visit of the property has been planned. The property is furnished.",
+        "Your date for the visit of the property has been planned. The property is furnished."
+    ],
+    [
+        "OFFER(property_name=\"1000 Kiely\";address=\"1000 Kiely Boulevard\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"4850\")",
+        "1000 Kiely on 1000 Kiely Boulevard has 3 bed rooms and 3 baths for 4850 dollars per month.",
+        "1000 Kiely on 1000 Kiely Boulevard has 3 bed rooms and 3 baths for 4850 dollars per month."
+    ],
+    [
+        "INFORM(phone_number=\"669-206-0300\";pets_allowed=\"False\")",
+        "Pets are not allowed in the apartment. The property's phone number is 669-206-0300.",
+        "Pets are not allowed in the apartment. The property's phone number is 669-206-0300."
+    ],
+    [
+        "CONFIRM(property_name=\"1000 Kiely\";visit_date=\"tomorrow\")",
+        "Should I schedule a visit to the property 1000 Kiely for tomorrow?",
+        "Should I schedule a visit to the property 1000 Kiely for tomorrow?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your visit is scheduled.",
+        "Your visit is scheduled."
+    ],
+    [
+        "OFFER(property_name=\"888 Golden Saratoga-Cupertino Apartment Homes\";address=\"1546 Maurice Lane\";number_of_beds=\"1\";number_of_baths=\"3\";rent=\"$4,450\")",
+        "There is a very good property at 1546 Maurice Lane called 888 Golden Saratoga-Cupertino Apartment Homes. The property has 1 bed room and 3 baths, and the rent is $4,450 per month.",
+        "There is a very good property at 1546 Maurice Lane called 888 Golden Saratoga-Cupertino Apartment Homes. The property has 1 bed room and 3 baths, and the rent is $4,450 per month."
+    ],
+    [
+        "OFFER(property_name=\"Aegena\";address=\"1290 San Tomas Aquino Road\";number_of_beds=\"1\";number_of_baths=\"2\";rent=\"$3,500\")",
+        "A very good property called Aegena is located at 1290 San Tomas Aquino Road. The apartment has 1 bed rooms and 2 baths, and costs about $3,500 per month.",
+        "A very good property called Aegena is located at 1290 San Tomas Aquino Road. The apartment has 1 bed rooms and 2 baths, and costs about $3,500 per month."
+    ],
+    [
+        "OFFER(property_name=\"Almaden Garden Apartments\";address=\"947 Branham Lane # C\";number_of_beds=\"1\";number_of_baths=\"1\";rent=\"$1,850\")",
+        "Almaden Garden Apartments is a very good property that has 1 bed rooms and 1 baths, costing around $1,850 per month. It is located at 947 Branham Lane # C.",
+        "Almaden Garden Apartments is a very good property that has 1 bed rooms and 1 baths, costing around $1,850 per month. It is located at 947 Branham Lane # C."
+    ],
+    [
+        "INFORM(furnished=\"False\")",
+        "The apartment has not been furnished.",
+        "The apartment has not been furnished."
+    ],
+    [
+        "CONFIRM(property_name=\"Almaden Garden Apartments\";visit_date=\"March 9th\")",
+        "Please confirm the following: You've scheduled a visit to Almaden Garden Apartments, and you wish to visit the property on March 9th.",
+        "Please confirm the following: You've scheduled a visit to Almaden Garden Apartments, and you wish to visit the property on March 9th."
+    ],
+    [
+        "INFORM(phone_number=\"408-265-4808\")",
+        "Your visit to the apartment has been scheduled, and the property's phone number is 408-265-4808",
+        "Your visit to the apartment has been scheduled, and the property's phone number is 408-265-4808"
+    ],
+    [
+        "INFORM(phone_number=\"408-265-4808\")@NOTIFY_SUCCESS()",
+        "Your visit to the apartment has been scheduled, and the property's phone number is 408-265-4808",
+        "Your visit to the apartment has been scheduled, and the property's phone number is 408-265-4808"
+    ],
+    [
+        "OFFER(property_name=\"888 Golden Saratoga-Cupertino Apartment Homes\";address=\"1546 Maurice Lane\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"2300\")",
+        "I found 10 available apartments. One location is 888 Golden Saratoga-Cupertino Apartment Homes at 1546 Maurice Lane. It has 2 bedrooms and 1 bathroom. The rent for this apartment is 2300 dollars a month.",
+        "I found 10 available apartments. One location is 888 Golden Saratoga-Cupertino Apartment Homes at 1546 Maurice Lane. It has 2 bedrooms and 1 bathroom. The rent for this apartment is 2300 dollars a month."
+    ],
+    [
+        "OFFER(property_name=\"888 Golden Saratoga-Cupertino Apartment Homes\";address=\"1546 Maurice Lane\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"2300\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 available apartments. One location is 888 Golden Saratoga-Cupertino Apartment Homes at 1546 Maurice Lane. It has 2 bedrooms and 1 bathroom. The rent for this apartment is 2300 dollars a month.",
+        "I found 10 available apartments. One location is 888 Golden Saratoga-Cupertino Apartment Homes at 1546 Maurice Lane. It has 2 bedrooms and 1 bathroom. The rent for this apartment is 2300 dollars a month."
+    ],
+    [
+        "INFORM(pets_allowed=\"False\")",
+        "No, pets aren't allowed in this apartment.",
+        "No, pets aren't allowed in this apartment."
+    ],
+    [
+        "OFFER(property_name=\"Ann Darling Apartments\";address=\"1585 Marburg Way # 4\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"3950\")",
+        "I've found 10 apartments that allow pets. There's Ann Darling Apartments at 1585 Marburg Way # 4. This apartment has 2 bedrooms and 1 bathroom. The rent for this is 3950 dollars a month.",
+        "I've found 10 apartments that allow pets. There's Ann Darling Apartments at 1585 Marburg Way # 4. This apartment has 2 bedrooms and 1 bathroom. The rent for this is 3950 dollars a month."
+    ],
+    [
+        "OFFER(property_name=\"Ann Darling Apartments\";address=\"1585 Marburg Way # 4\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"3950\")@INFORM_COUNT(count=\"10\")",
+        "I've found 10 apartments that allow pets. There's Ann Darling Apartments at 1585 Marburg Way # 4. This apartment has 2 bedrooms and 1 bathroom. The rent for this is 3950 dollars a month.",
+        "I've found 10 apartments that allow pets. There's Ann Darling Apartments at 1585 Marburg Way # 4. This apartment has 2 bedrooms and 1 bathroom. The rent for this is 3950 dollars a month."
+    ],
+    [
+        "CONFIRM(property_name=\"Ann Darling Apartments\";visit_date=\"March 12th\")",
+        "So you'd like to schedule a visit to Ann Darling Apartments on March 12th?",
+        "So you'd like to schedule a visit to Ann Darling Apartments on March 12th?"
+    ],
+    [
+        "CONFIRM(property_name=\"Ann Darling Apartments\";visit_date=\"today\")",
+        "So you'd like to visit Ann Darling Apartments today?",
+        "So you'd like to visit Ann Darling Apartments today?"
+    ],
+    [
+        "INFORM(phone_number=\"408-926-3999\";furnished=\"False\")",
+        "The visit is now scheduled. The phone number listed for this apartment is 408-926-3999. No, the apartment isn't furnished.",
+        "The visit is now scheduled. The phone number listed for this apartment is 408-926-3999. No, the apartment isn't furnished."
+    ],
+    [
+        "INFORM(phone_number=\"408-926-3999\";furnished=\"False\")@NOTIFY_SUCCESS()",
+        "The visit is now scheduled. The phone number listed for this apartment is 408-926-3999. No, the apartment isn't furnished.",
+        "The visit is now scheduled. The phone number listed for this apartment is 408-926-3999. No, the apartment isn't furnished."
+    ],
+    [
+        "OFFER(property_name=\"Apricot Pit Apartments\";address=\"400 East Remington Drive\";number_of_beds=\"3\";number_of_baths=\"1\";rent=\"4800\")",
+        "I found 10 nice apartments in the area. Apricot Pit Apartments, located at 400 East Remington Drive, has 3 bedrooms and 1 bath. It rents for 4800 dollars per month.",
+        "I found 10 nice apartments in the area. Apricot Pit Apartments, located at 400 East Remington Drive, has 3 bedrooms and 1 bath. It rents for 4800 dollars per month."
+    ],
+    [
+        "OFFER(property_name=\"Apricot Pit Apartments\";address=\"400 East Remington Drive\";number_of_beds=\"3\";number_of_baths=\"1\";rent=\"4800\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 nice apartments in the area. Apricot Pit Apartments, located at 400 East Remington Drive, has 3 bedrooms and 1 bath. It rents for 4800 dollars per month.",
+        "I found 10 nice apartments in the area. Apricot Pit Apartments, located at 400 East Remington Drive, has 3 bedrooms and 1 bath. It rents for 4800 dollars per month."
+    ],
+    [
+        "INFORM(furnished=\"False\";pets_allowed=\"True\")",
+        "It's not furnished. Yes, pets are allowed.",
+        "It's not furnished. Yes, pets are allowed."
+    ],
+    [
+        "OFFER(property_name=\"Arbor Terrace Apartments\";address=\"555 East El Camino Real\";number_of_beds=\"3\";number_of_baths=\"1\";rent=\"3750\")",
+        "I also found Arbor Terrace Apartments, located at 555 East El Camino Real, with 3 bedrooms and 1 bath. It rents for 3750 dollars per month.",
+        "I also found Arbor Terrace Apartments, located at 555 East El Camino Real, with 3 bedrooms and 1 bath. It rents for 3750 dollars per month."
+    ],
+    [
+        "CONFIRM(property_name=\"Arbor Terrace Apartments\";visit_date=\"next Friday\")",
+        "Okay. You want to schedule a visit to Arbor Terrace Apartments next Friday.",
+        "Okay. You want to schedule a visit to Arbor Terrace Apartments next Friday."
+    ],
+    [
+        "INFORM(pets_allowed=\"False\")",
+        "I've scheduled your visit. No, pets are not allowed.",
+        "I've scheduled your visit. No, pets are not allowed."
+    ],
+    [
+        "INFORM(pets_allowed=\"False\")@NOTIFY_SUCCESS()",
+        "I've scheduled your visit. No, pets are not allowed.",
+        "I've scheduled your visit. No, pets are not allowed."
+    ],
+    [
+        "INFORM(furnished=\"True\";phone_number=\"408-738-0935\")",
+        "It is furnished and the number is 408-738-0935.",
+        "It is furnished and the number is 408-738-0935."
+    ],
+    [
+        "OFFER(property_name=\"Aegena\";address=\"1290 San Tomas Aquino Road\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"$2,650\")",
+        "There's a nice property called Aegena at 1290 San Tomas Aquino Road. It has 2 bedrooms, 1 bath, and rents for $2,650 a month.",
+        "There's a nice property called Aegena at 1290 San Tomas Aquino Road. It has 2 bedrooms, 1 bath, and rents for $2,650 a month."
+    ],
+    [
+        "OFFER(property_name=\"Acacia Capital Cor-Ironwood Ap\";address=\"5643 Charlotte Way\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"$4,050\")",
+        "There's Acacia Capital Cor-Ironwood Ap at 5643 Charlotte Way. It has 3 bedrooms, 3 baths, and rents for $4,050 a month.",
+        "There's Acacia Capital Cor-Ironwood Ap at 5643 Charlotte Way. It has 3 bedrooms, 3 baths, and rents for $4,050 a month."
+    ],
+    [
+        "OFFER(property_name=\"Alpine Vista Apartments\";address=\"1282 Mattox Road\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$5,150\")",
+        "There are 10 nice apartments, One is called Alpine Vista Apartments located at 1282 Mattox Road and it has 4 bed rooms and 3 baths and the rent is $5,150 per month.",
+        "There are 10 nice apartments, One is called Alpine Vista Apartments located at 1282 Mattox Road and it has 4 bed rooms and 3 baths and the rent is $5,150 per month."
+    ],
+    [
+        "OFFER(property_name=\"Alpine Vista Apartments\";address=\"1282 Mattox Road\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$5,150\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 nice apartments, One is called Alpine Vista Apartments located at 1282 Mattox Road and it has 4 bed rooms and 3 baths and the rent is $5,150 per month.",
+        "There are 10 nice apartments, One is called Alpine Vista Apartments located at 1282 Mattox Road and it has 4 bed rooms and 3 baths and the rent is $5,150 per month."
+    ],
+    [
+        "OFFER(property_name=\"Amador Apartments\";address=\"24660 Amador Street\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$4,950\")",
+        "There are 9 nice apartments, One of which is Amador Apartments located at 24660 Amador Street and has 4 bed rooms and 3 baths and the rent is $4,950 per month.",
+        "There are 9 nice apartments, One of which is Amador Apartments located at 24660 Amador Street and has 4 bed rooms and 3 baths and the rent is $4,950 per month."
+    ],
+    [
+        "OFFER(property_name=\"Amador Apartments\";address=\"24660 Amador Street\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$4,950\")@INFORM_COUNT(count=\"9\")",
+        "There are 9 nice apartments, One of which is Amador Apartments located at 24660 Amador Street and has 4 bed rooms and 3 baths and the rent is $4,950 per month.",
+        "There are 9 nice apartments, One of which is Amador Apartments located at 24660 Amador Street and has 4 bed rooms and 3 baths and the rent is $4,950 per month."
+    ],
+    [
+        "INFORM(pets_allowed=\"True\";phone_number=\"510-849-6628\")",
+        "The contact number is 510-849-6628 and pets are allowed in the apartment.",
+        "The contact number is 510-849-6628 and pets are allowed in the apartment."
+    ],
+    [
+        "OFFER(property_name=\"Baywood Apartments\";address=\"31108 Brae Burn Avenue\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$4,950\")",
+        "There is one called Baywood Apartments located at 31108 Brae Burn Avenue with 4 bed rooms and 3 baths and the rent is $4,950 per month.",
+        "There is one called Baywood Apartments located at 31108 Brae Burn Avenue with 4 bed rooms and 3 baths and the rent is $4,950 per month."
+    ],
+    [
+        "OFFER(property_name=\"Bella Vista Apartments\";address=\"1500 Vista Club Circle\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$5,100\")",
+        "No problem. I've found Bella Vista Apartments located at 1500 Vista Club Circle. This property has 4 bed rooms and 3 baths as you requested. The rent for this apartment would be $5,100 monthly.",
+        "No problem. I've found Bella Vista Apartments located at 1500 Vista Club Circle. This property has 4 bed rooms and 3 baths as you requested. The rent for this apartment would be $5,100 monthly."
+    ],
+    [
+        "OFFER(property_name=\"Autumn Oaks Apartments\";address=\"1400 Humphrey Drive\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"$4,350\")",
+        "I've found Autumn Oaks Apartments located at 1400 Humphrey Drive. It has 3 bedrooms and 3 baths. The rent is $4,350 per month.",
+        "I've found Autumn Oaks Apartments located at 1400 Humphrey Drive. It has 3 bedrooms and 3 baths. The rent is $4,350 per month."
+    ],
+    [
+        "INFORM(pets_allowed=\"True\")",
+        "Yes. Pets are allowed.",
+        "Yes. Pets are allowed."
+    ],
+    [
+        "OFFER(property_name=\"Breezewood Village\";address=\"1359 Worley Road\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"$4,100\")",
+        "I've found 1 for you. It's at Breezewood Village on 1359 Worley Road. It has 3 bedrooms and 3 baths and costs $4,100 per month.",
+        "I've found 1 for you. It's at Breezewood Village on 1359 Worley Road. It has 3 bedrooms and 3 baths and costs $4,100 per month."
+    ],
+    [
+        "OFFER(property_name=\"Breezewood Village\";address=\"1359 Worley Road\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"$4,100\")@INFORM_COUNT(count=\"1\")",
+        "I've found 1 for you. It's at Breezewood Village on 1359 Worley Road. It has 3 bedrooms and 3 baths and costs $4,100 per month.",
+        "I've found 1 for you. It's at Breezewood Village on 1359 Worley Road. It has 3 bedrooms and 3 baths and costs $4,100 per month."
+    ],
+    [
+        "OFFER(property_name=\"Avalon Apartments\";address=\"624 Avalon Avenue\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$5,150\")",
+        "I have found 10 options. Avalon Apartments is an excellent choice. It has 4 bedrooms and 3 baths and is located on 624 Avalon Avenue. The cost is $5,150 monthly.",
+        "I have found 10 options. Avalon Apartments is an excellent choice. It has 4 bedrooms and 3 baths and is located on 624 Avalon Avenue. The cost is $5,150 monthly."
+    ],
+    [
+        "OFFER(property_name=\"Avalon Apartments\";address=\"624 Avalon Avenue\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$5,150\")@INFORM_COUNT(count=\"10\")",
+        "I have found 10 options. Avalon Apartments is an excellent choice. It has 4 bedrooms and 3 baths and is located on 624 Avalon Avenue. The cost is $5,150 monthly.",
+        "I have found 10 options. Avalon Apartments is an excellent choice. It has 4 bedrooms and 3 baths and is located on 624 Avalon Avenue. The cost is $5,150 monthly."
+    ],
+    [
+        "OFFER(property_name=\"Aegena\";address=\"1290 San Tomas Aquino Road\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"$2,650\")",
+        "I found 10 apartments. Aegena is at 1290 San Tomas Aquino Road with 2 beds and 1 bath, for $2,650 per month.",
+        "I found 10 apartments. Aegena is at 1290 San Tomas Aquino Road with 2 beds and 1 bath, for $2,650 per month."
+    ],
+    [
+        "OFFER(property_name=\"Aegena\";address=\"1290 San Tomas Aquino Road\";number_of_beds=\"2\";number_of_baths=\"1\";rent=\"$2,650\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 apartments. Aegena is at 1290 San Tomas Aquino Road with 2 beds and 1 bath, for $2,650 per month.",
+        "I found 10 apartments. Aegena is at 1290 San Tomas Aquino Road with 2 beds and 1 bath, for $2,650 per month."
+    ],
+    [
+        "INFORM(furnished=\"False\")",
+        "No, it's not.",
+        "No, it's not."
+    ],
+    [
+        "INFORM(pets_allowed=\"True\";phone_number=\"408-984-8888\")",
+        "They allow pets. The number is 408-984-8888.",
+        "They allow pets. The number is 408-984-8888."
+    ],
+    [
+        "OFFER(property_name=\"Brookside Gardens\";address=\"1265 Montecito Avenue\";number_of_beds=\"3\";number_of_baths=\"2\";rent=\"$4,050\")",
+        "I've found 10 apartments you might like. The first is Brookside Gardens located at 1265 Montecito Avenue. It has 3 bedrooms and 2 baths. The rent is $4,050 per month.",
+        "I've found 10 apartments you might like. The first is Brookside Gardens located at 1265 Montecito Avenue. It has 3 bedrooms and 2 baths. The rent is $4,050 per month."
+    ],
+    [
+        "OFFER(property_name=\"Brookside Gardens\";address=\"1265 Montecito Avenue\";number_of_beds=\"3\";number_of_baths=\"2\";rent=\"$4,050\")@INFORM_COUNT(count=\"10\")",
+        "I've found 10 apartments you might like. The first is Brookside Gardens located at 1265 Montecito Avenue. It has 3 bedrooms and 2 baths. The rent is $4,050 per month.",
+        "I've found 10 apartments you might like. The first is Brookside Gardens located at 1265 Montecito Avenue. It has 3 bedrooms and 2 baths. The rent is $4,050 per month."
+    ],
+    [
+        "OFFER(property_name=\"Otavon Apartments\";address=\"1515 Novato Boulevard # 29\";number_of_beds=\"3\";number_of_baths=\"2\";rent=\"$4,000\")",
+        "I've found 2 for you. There's Otavon Apartments located at 1515 Novato Boulevard # 29. It has 3 bedrooms and 2 baths. The rent is $4,000 per month.",
+        "I've found 2 for you. There's Otavon Apartments located at 1515 Novato Boulevard # 29. It has 3 bedrooms and 2 baths. The rent is $4,000 per month."
+    ],
+    [
+        "OFFER(property_name=\"Otavon Apartments\";address=\"1515 Novato Boulevard # 29\";number_of_beds=\"3\";number_of_baths=\"2\";rent=\"$4,000\")@INFORM_COUNT(count=\"2\")",
+        "I've found 2 for you. There's Otavon Apartments located at 1515 Novato Boulevard # 29. It has 3 bedrooms and 2 baths. The rent is $4,000 per month.",
+        "I've found 2 for you. There's Otavon Apartments located at 1515 Novato Boulevard # 29. It has 3 bedrooms and 2 baths. The rent is $4,000 per month."
+    ],
+    [
+        "OFFER(property_name=\"Casa Pino Condos\";address=\"1580 Clayton Road # 1\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$4,800\")",
+        "I have 10 apartments for you. Casa Pino Condos has 4 bedrooms, 3 bathrooms. It is located on 1580 Clayton Road # 1 and is priced at $4,800 a month.",
+        "I have 10 apartments for you. Casa Pino Condos has 4 bedrooms, 3 bathrooms. It is located on 1580 Clayton Road # 1 and is priced at $4,800 a month."
+    ],
+    [
+        "OFFER(property_name=\"Casa Pino Condos\";address=\"1580 Clayton Road # 1\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$4,800\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 apartments for you. Casa Pino Condos has 4 bedrooms, 3 bathrooms. It is located on 1580 Clayton Road # 1 and is priced at $4,800 a month.",
+        "I have 10 apartments for you. Casa Pino Condos has 4 bedrooms, 3 bathrooms. It is located on 1580 Clayton Road # 1 and is priced at $4,800 a month."
+    ],
+    [
+        "OFFER(property_name=\"City Walk Apartment Homes\";address=\"1688 Clayton Road\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$5,200\")",
+        "City Walk Apartment Homes is a 4 bedrooms, 3 bathroom property. It is $5,200 per month and is at 1688 Clayton Road.",
+        "City Walk Apartment Homes is a 4 bedrooms, 3 bathroom property. It is $5,200 per month and is at 1688 Clayton Road."
+    ],
+    [
+        "OFFER(property_name=\"Courtyard Apartments\";address=\"1711 Detroit Avenue\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$4,700\")",
+        "Courtyard Apartments is at 1711 Detroit Avenue. There is 4 bedrooms and 3 bathrooms, it is $4,700 a month.",
+        "Courtyard Apartments is at 1711 Detroit Avenue. There is 4 bedrooms and 3 bathrooms, it is $4,700 a month."
+    ],
+    [
+        "INFORM(pets_allowed=\"True\")",
+        "Yes, there are pets allowed.",
+        "Yes, there are pets allowed."
+    ],
+    [
+        "OFFER(property_name=\"Bollinger Crest Apartments\";address=\"4000 Bollinger Crest Common\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"$4,350\")",
+        "I've found 5 apartments that fit your criteria. The one I've chosen is called the Bollinger Crest Apartments, and is located at 4000 Bollinger Crest Common. This apartment has 3 bedrooms, as well as 3 baths, and the rent is $4,350.",
+        "I've found 5 apartments that fit your criteria. The one I've chosen is called the Bollinger Crest Apartments, and is located at 4000 Bollinger Crest Common. This apartment has 3 bedrooms, as well as 3 baths, and the rent is $4,350."
+    ],
+    [
+        "OFFER(property_name=\"Bollinger Crest Apartments\";address=\"4000 Bollinger Crest Common\";number_of_beds=\"3\";number_of_baths=\"3\";rent=\"$4,350\")@INFORM_COUNT(count=\"5\")",
+        "I've found 5 apartments that fit your criteria. The one I've chosen is called the Bollinger Crest Apartments, and is located at 4000 Bollinger Crest Common. This apartment has 3 bedrooms, as well as 3 baths, and the rent is $4,350.",
+        "I've found 5 apartments that fit your criteria. The one I've chosen is called the Bollinger Crest Apartments, and is located at 4000 Bollinger Crest Common. This apartment has 3 bedrooms, as well as 3 baths, and the rent is $4,350."
+    ],
+    [
+        "INFORM(pets_allowed=\"True\";phone_number=\"925-820-2828\")",
+        "Their contact number is 925-820-2828, and I am glad to inform you that they do allow pets.",
+        "Their contact number is 925-820-2828, and I am glad to inform you that they do allow pets."
+    ],
+    [
+        "OFFER(property_name=\"Beach Park Apartments\";address=\"1999 Beach Park Boulevard\";number_of_beds=\"4\";number_of_baths=\"3\";rent=\"$5,150\")",
+        "Beach Park Apartments is a nice place at 1999 Beach Park Boulevard. They have 4 bedroom, 3 bath apartments for $5,150 per month.",
+        "Beach Park Apartments is a nice place at 1999 Beach Park Boulevard. They have 4 bedroom, 3 bath apartments for $5,150 per month."
+    ],
+    [
+        "OFFER(property_name=\"Avalon Apartments\";address=\"624 Avalon Avenue\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"$3,150\")",
+        "I found 10 apartments including Avalon Apartments at 624 Avalon Avenue for $3,150 per month with 2 bedrooms and 2 bathrooms.",
+        "I found 10 apartments including Avalon Apartments at 624 Avalon Avenue for $3,150 per month with 2 bedrooms and 2 bathrooms."
+    ],
+    [
+        "OFFER(property_name=\"Avalon Apartments\";address=\"624 Avalon Avenue\";number_of_beds=\"2\";number_of_baths=\"2\";rent=\"$3,150\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 apartments including Avalon Apartments at 624 Avalon Avenue for $3,150 per month with 2 bedrooms and 2 bathrooms.",
+        "I found 10 apartments including Avalon Apartments at 624 Avalon Avenue for $3,150 per month with 2 bedrooms and 2 bathrooms."
+    ],
+    [
+        "INFORM(pets_allowed=\"True\")",
+        "Yes, they allow pets.",
+        "Yes, they allow pets."
+    ],
+    [
+        "INFORM(furnished=\"True\")",
+        "Furniture is included at the apartment.",
+        "Furniture is included at the apartment."
+    ],
+    [
+        "OFFER(property_name=\"Aegena\";address=\"1290 San Tomas Aquino Road\";price=\"$4,350\")",
+        "Okay, I've found 10 nice places for you. There is a place called Aegena located at 1290 San Tomas Aquino Road. Rent will cost you $4,350.",
+        "Okay, I've found 10 nice places for you. There is a place called Aegena located at 1290 San Tomas Aquino Road. Rent will cost you $4,350."
+    ],
+    [
+        "OFFER(property_name=\"Aegena\";address=\"1290 San Tomas Aquino Road\";price=\"$4,350\")@INFORM_COUNT(count=\"10\")",
+        "Okay, I've found 10 nice places for you. There is a place called Aegena located at 1290 San Tomas Aquino Road. Rent will cost you $4,350.",
+        "Okay, I've found 10 nice places for you. There is a place called Aegena located at 1290 San Tomas Aquino Road. Rent will cost you $4,350."
+    ],
+    [
+        "INFORM(has_garage=\"False\")",
+        "No they do not have a garage at this location.",
+        "No they do not have a garage at this location."
+    ],
+    [
+        "CONFIRM(property_name=\"Aegena\";visit_date=\"march 13th\")",
+        "No problem, before we get started please confirm the following for me. You want to schedule a visit to Aegena on march 13th. Correct?",
+        "No problem, before we get started please confirm the following for me. You want to schedule a visit to Aegena on march 13th. Correct?"
+    ],
+    [
+        "INFORM(phone_number=\"408-984-8888\")",
+        "Sure thing, your visit is now scheduled. The number for the property is 408-984-8888. Anything else?",
+        "Sure thing, your visit is now scheduled. The number for the property is 408-984-8888. Anything else?"
+    ],
+    [
+        "INFORM(phone_number=\"408-984-8888\")@NOTIFY_SUCCESS()",
+        "Sure thing, your visit is now scheduled. The number for the property is 408-984-8888. Anything else?",
+        "Sure thing, your visit is now scheduled. The number for the property is 408-984-8888. Anything else?"
+    ],
+    [
+        "OFFER(property_name=\"Baywood Apartments\";address=\"31108 Brae Burn Avenue\";price=\"$3,500,000\")",
+        "I have 10 nice houses. Baywood Apartments is a good property at 31108 Brae Burn Avenue and it costs $3,500,000.",
+        "I have 10 nice houses. Baywood Apartments is a good property at 31108 Brae Burn Avenue and it costs $3,500,000."
+    ],
+    [
+        "OFFER(property_name=\"Baywood Apartments\";address=\"31108 Brae Burn Avenue\";price=\"$3,500,000\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 nice houses. Baywood Apartments is a good property at 31108 Brae Burn Avenue and it costs $3,500,000.",
+        "I have 10 nice houses. Baywood Apartments is a good property at 31108 Brae Burn Avenue and it costs $3,500,000."
+    ],
+    [
+        "INFORM(phone_number=\"510-471-7075\";has_garage=\"False\")",
+        "The phone number for the place is 510-471-7075. There is no garage.",
+        "The phone number for the place is 510-471-7075. There is no garage."
+    ],
+    [
+        "OFFER(property_name=\"City View\";address=\"25200 Carlos Bee Boulevard\";price=\"$3,700,000\")",
+        "City View is a nice property. The address is 25200 Carlos Bee Boulevard. It's $3,700,000.",
+        "City View is a nice property. The address is 25200 Carlos Bee Boulevard. It's $3,700,000."
+    ],
+    [
+        "CONFIRM(property_name=\"City View\";visit_date=\"March 9th\")",
+        "Could you confirm that you want to visit City View on March 9th?",
+        "Could you confirm that you want to visit City View on March 9th?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have scheduled your visit.",
+        "I have scheduled your visit."
+    ],
+    [
+        "INFORM(phone_number=\"510-822-2617\";has_garage=\"True\")",
+        "There is a garage and the phone number is 510-822-2617.",
+        "There is a garage and the phone number is 510-822-2617."
+    ],
+    [
+        "OFFER(property_name=\"Arbors Apartments\";address=\"5317 Creely Avenue\";price=\"$3,950\")",
+        "There is a very nice property called Arbors Apartments located at 5317 Creely Avenue that is going for $3,950.",
+        "There is a very nice property called Arbors Apartments located at 5317 Creely Avenue that is going for $3,950."
+    ],
+    [
+        "INFORM(in_unit_laundry=\"False\")",
+        "No there are no laundry machines inside the house.",
+        "No there are no laundry machines inside the house."
+    ],
+    [
+        "OFFER(property_name=\"Liberty Village Apartments\";address=\"298 West Chanslor Avenue\";price=\"$4,150\")",
+        "There is Liberty Village Apartments which is a very good property located at 298 West Chanslor Avenue that is going for $4,150.",
+        "There is Liberty Village Apartments which is a very good property located at 298 West Chanslor Avenue that is going for $4,150."
+    ],
+    [
+        "INFORM(has_garage=\"True\")",
+        "Yes, it does have a garage!",
+        "Yes, it does have a garage!"
+    ],
+    [
+        "OFFER(property_name=\"888 San Mateo\";address=\"888 North San Mateo Drive\";price=\"$4,300\")",
+        "Yes, there is one located at 888 North San Mateo Drive called 888 San Mateo going for $4,300.",
+        "Yes, there is one located at 888 North San Mateo Drive called 888 San Mateo going for $4,300."
+    ],
+    [
+        "CONFIRM(property_name=\"888 San Mateo\";visit_date=\"March 8th\")",
+        "Please confirm that you would like to schedule a visit to 888 San Mateo on March 8th.",
+        "Please confirm that you would like to schedule a visit to 888 San Mateo on March 8th."
+    ],
+    [
+        "CONFIRM(property_name=\"888 San Mateo\";visit_date=\"March 1st\")",
+        "Please confirm you would like to schedule a visit to 888 San Mateo on March 1st.",
+        "Please confirm you would like to schedule a visit to 888 San Mateo on March 1st."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, I have scheduled your visit.",
+        "Ok, I have scheduled your visit."
+    ],
+    [
+        "OFFER(property_name=\"Betel Apartments\";address=\"1227 Hampshire Street\";price=\"$4,800\")",
+        "A good property is Betel Apartments at 1227 Hampshire Street. The cost is $4,800.",
+        "A good property is Betel Apartments at 1227 Hampshire Street. The cost is $4,800."
+    ],
+    [
+        "CONFIRM(property_name=\"Betel Apartments\";visit_date=\"March 10th\")",
+        "Confirm these details please: You want to schedule a visit to Betel Apartments on March 10th.",
+        "Confirm these details please: You want to schedule a visit to Betel Apartments on March 10th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your visit has been successfully scheduled to this property.",
+        "Your visit has been successfully scheduled to this property."
+    ],
+    [
+        "OFFER(property_name=\"400 Canal Street Apartments\";address=\"400 Canal Street # 131\";price=\"$3,100,000\")",
+        "How about 400 Canal Street Apartments at 400 Canal Street # 131 for $3,100,000?",
+        "How about 400 Canal Street Apartments at 400 Canal Street # 131 for $3,100,000?"
+    ],
+    [
+        "CONFIRM(property_name=\"400 Canal Street Apartments\";visit_date=\"March 8th\")",
+        "Okay, I have a visit for 400 Canal Street Apartments on March 8th, correct?",
+        "Okay, I have a visit for 400 Canal Street Apartments on March 8th, correct?"
+    ],
+    [
+        "INFORM(phone_number=\"415-454-6223\";has_garage=\"True\")",
+        "I have scheduled the property visit. It does have a garage and the phone number is 415-454-6223.",
+        "I have scheduled the property visit. It does have a garage and the phone number is 415-454-6223."
+    ],
+    [
+        "INFORM(phone_number=\"415-454-6223\";has_garage=\"True\")@NOTIFY_SUCCESS()",
+        "I have scheduled the property visit. It does have a garage and the phone number is 415-454-6223.",
+        "I have scheduled the property visit. It does have a garage and the phone number is 415-454-6223."
+    ],
+    [
+        "OFFER(property_name=\"Birchwood Apartments\";address=\"3500 Pennsylvania Avenue # 101\";price=\"$2,300,000\")",
+        "There is one option at Birchwood Apartments located at 3500 Pennsylvania Avenue # 101 for a cost of $2,300,000.",
+        "There is one option at Birchwood Apartments located at 3500 Pennsylvania Avenue # 101 for a cost of $2,300,000."
+    ],
+    [
+        "CONFIRM(property_name=\"Birchwood Apartments\";visit_date=\"March 13th\")",
+        "Please confirm you want me to book a visit to Birchwood Apartments on March 13th.",
+        "Please confirm you want me to book a visit to Birchwood Apartments on March 13th."
+    ],
+    [
+        "INFORM(phone_number=\"510-943-8264\";in_unit_laundry=\"True\")",
+        "The homes have laundry units. The viewing has been confirmed. Their direct line is 510-943-8264.",
+        "The homes have laundry units. The viewing has been confirmed. Their direct line is 510-943-8264."
+    ],
+    [
+        "INFORM(phone_number=\"510-943-8264\";in_unit_laundry=\"True\")@NOTIFY_SUCCESS()",
+        "The homes have laundry units. The viewing has been confirmed. Their direct line is 510-943-8264.",
+        "The homes have laundry units. The viewing has been confirmed. Their direct line is 510-943-8264."
+    ],
+    [
+        "OFFER(property_name=\"Aspen Village Apartments\";address=\"2355 Fairfield Avenue\";price=\"$2,400\")",
+        "I have 10 options you might be interested in. I'd like to suggest Aspen Village Apartments. The property is located at 2355 Fairfield Avenue and is $2,400 per month.",
+        "I have 10 options you might be interested in. I'd like to suggest Aspen Village Apartments. The property is located at 2355 Fairfield Avenue and is $2,400 per month."
+    ],
+    [
+        "OFFER(property_name=\"Aspen Village Apartments\";address=\"2355 Fairfield Avenue\";price=\"$2,400\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 options you might be interested in. I'd like to suggest Aspen Village Apartments. The property is located at 2355 Fairfield Avenue and is $2,400 per month.",
+        "I have 10 options you might be interested in. I'd like to suggest Aspen Village Apartments. The property is located at 2355 Fairfield Avenue and is $2,400 per month."
+    ],
+    [
+        "CONFIRM(property_name=\"Aspen Village Apartments\";visit_date=\"March 9th\")",
+        "Let me make sure I have it right. You'd like to see Aspen Village Apartments on March 9th.",
+        "Let me make sure I have it right. You'd like to see Aspen Village Apartments on March 9th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your showing has been confirmed.",
+        "Your showing has been confirmed."
+    ],
+    [
+        "OFFER(property_name=\"Beth Eden Apartments\";address=\"1100 Market Street\";price=\"$2,000,000\")",
+        "There are 3 houses that may work. How about Beth Eden Apartments which is located at 1100 Market Street and costs $2,000,000.",
+        "There are 3 houses that may work. How about Beth Eden Apartments which is located at 1100 Market Street and costs $2,000,000."
+    ],
+    [
+        "OFFER(property_name=\"Beth Eden Apartments\";address=\"1100 Market Street\";price=\"$2,000,000\")@INFORM_COUNT(count=\"3\")",
+        "There are 3 houses that may work. How about Beth Eden Apartments which is located at 1100 Market Street and costs $2,000,000.",
+        "There are 3 houses that may work. How about Beth Eden Apartments which is located at 1100 Market Street and costs $2,000,000."
+    ],
+    [
+        "INFORM(phone_number=\"510-832-2249\";has_garage=\"False\")",
+        "It does not have a garage and the number is 510-832-2249.",
+        "It does not have a garage and the number is 510-832-2249."
+    ],
+    [
+        "CONFIRM(property_name=\"Beth Eden Apartments\";visit_date=\"March 1st\")",
+        "Can you confirm you'd like to schedule a visit to Beth Eden Apartments on March 1st?",
+        "Can you confirm you'd like to schedule a visit to Beth Eden Apartments on March 1st?"
+    ],
+    [
+        "CONFIRM(property_name=\"Beth Eden Apartments\";visit_date=\"March 6th\")",
+        "Sure, please confirm you'd like to visit Beth Eden Apartments on March 6th.",
+        "Sure, please confirm you'd like to visit Beth Eden Apartments on March 6th."
+    ],
+    [
+        "INFORM(in_unit_laundry=\"False\")",
+        "Your visit is confirmed. There isn't laundry.",
+        "Your visit is confirmed. There isn't laundry."
+    ],
+    [
+        "INFORM(in_unit_laundry=\"False\")@NOTIFY_SUCCESS()",
+        "Your visit is confirmed. There isn't laundry.",
+        "Your visit is confirmed. There isn't laundry."
+    ],
+    [
+        "OFFER(property_name=\"Americana Apartments\";address=\"4445 Stevenson Boulevard\";price=\"$4,750\")",
+        "Ok, I found 7 that are really nice, one of which is Americana Apartments located at 4445 Stevenson Boulevard and is going for $4,750.",
+        "Ok, I found 7 that are really nice, one of which is Americana Apartments located at 4445 Stevenson Boulevard and is going for $4,750."
+    ],
+    [
+        "OFFER(property_name=\"Americana Apartments\";address=\"4445 Stevenson Boulevard\";price=\"$4,750\")@INFORM_COUNT(count=\"7\")",
+        "Ok, I found 7 that are really nice, one of which is Americana Apartments located at 4445 Stevenson Boulevard and is going for $4,750.",
+        "Ok, I found 7 that are really nice, one of which is Americana Apartments located at 4445 Stevenson Boulevard and is going for $4,750."
+    ],
+    [
+        "CONFIRM(property_name=\"Americana Apartments\";visit_date=\"March 14th\")",
+        "Please confirm that you would like to schedule a visit on March 14th to the Americana Apartments.",
+        "Please confirm that you would like to schedule a visit on March 14th to the Americana Apartments."
+    ],
+    [
+        "INFORM(has_garage=\"True\")",
+        "I've scheduled your visit and yes it does have a garage.",
+        "I've scheduled your visit and yes it does have a garage."
+    ],
+    [
+        "INFORM(has_garage=\"True\")@NOTIFY_SUCCESS()",
+        "I've scheduled your visit and yes it does have a garage.",
+        "I've scheduled your visit and yes it does have a garage."
+    ]
+]

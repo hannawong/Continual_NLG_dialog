@@ -1,0 +1,277 @@
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Got it. Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "burritos") & What kind of burritos?
+food_order ( name_item = "2 cokes") & Just to confirm 3 large beef burritos and 2 cokes.
+food_order ( other_description_item = "some sauce") & Would you like to add some sauce to it?
+food_order ( other_description_item = "Tabasco sauce added to your order") & Tabasco sauce added to your order.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "burritos") & I can help you with your taking over for burritos what would you like in your burritos.
+food_order ( name_item = "black beans" ; other_description_item = "side orders") & Okay, this is what I have one bean and cheese burrito one Carne asada burrito and side orders of yellow rice pinto beans and black beans.
+food_order ( type_food = "drinks") & Anything else? Would you like to add any drinks?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "three large chicken sandwiches" ; other_description_item = "with mayonnaise, ketchup, cheese, pickles, cucumbers, vinegar, lettuce, tomatoes and jalapenos mustard") & Just to confirm, you would like to order three large chicken sandwiches with mayonnaise, ketchup, cheese, pickles, cucumbers, vinegar, lettuce, tomatoes and jalapenos mustard.
+food_order ( type_food = "drinks") & Is there anything else that you would like to add in terms of drinks?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( other_description_item = "only one size") & only one size, sadly.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "tossed salad" ; other_description_item = "on the side") & Okay. This will just be a second. Hold on for a second. One pasta primavera with dinner rolls on the side and a tossed salad. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "gyros") & What kind of gyros do you want?
+food_order ( name_item = "2 iced teas" ; other_description_item = "with Tzatziki sauce") & Just to confirm you would like to order one chicken gyro and one lamb gyro with Tzatziki sauce and 2 iced teas. Is that correct?
+food_order ( name_item = "2 iced teas" ; other_description_item = "with Tzatziki sauce") & You would like to order one chicken gyro and one lamb gyro with Tzatziki sauce and 2 iced teas. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "3 orders of barbecue") & 3 orders of barbecue.
+food_order ( type_food = "barbecue" ; num_people = "3") & Sure, barbecue for 3. What would you like to order?
+food_order ( name_item = "pitcher of sweet tea") & 5 pound pork sandwiches and a pitcher of sweet tea, anything else?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "salad" ; other_description_item = "a side") & Hold on just a second. Your order is a poke, with ice tea and a side salad. Is that right?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Breakfast burrito" ; type_retrieval = "take out" ; type_food = "drink") & Breakfast burrito take out. Any side dishes or drink?
+food_order ( name_item = "two coffees") & Breakfast burrito and two coffees. Anything else?
+food_order ( type_food = "meat") & What kind of meat would you prefer?
+food_order ( name_item = "sausage breakfast burritos") & How many sausage breakfast burritos would you like to order?
+food_order ( name_item = "hash browns") & How many hash browns?
+food_order ( name_item = "of two hash browns" ; other_description_item = "a side") & Just to confirm, you would like to order two sausage burritos and a side of two hash browns?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Is there anything else you would like to order? Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "2 water bottles") & Your order is 2 tandoori chicken and 1 butter chicken, with 2 water bottles, is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "Tacos" ; num_people = "three people") & Tacos for three people?
+food_order ( name_item = "rice" ; type_food = "tacos") & With some rice to go along with it, do you know what kind of tacos you wanted?
+food_order ( name_item = "Side salad") & Side salad to go along with it?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( num_people = "three people" ; name_item = "breakfast burritos") & Just to confirm, you would like to order breakfast burritos for three people.
+food_order ( other_description_item = "one burrito with eggs, potatoes, onions, tomatoes and bacon") & Just to confirm, You would like to order one burrito with eggs, potatoes, onions, tomatoes and bacon.
+food_order ( other_description_item = "with eggs, potatoes, onions and sausage") & For the second one you would like to order with eggs, potatoes, onions and sausage?
+food_order ( other_description_item = "with eggs, potatoes, onions and tomatoes") & And for the third you would like to order with eggs, potatoes, onions and tomatoes?
+food_order ( type_food = "drink") & Would you like to add any drink?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "2 liter Coca-Cola" ; other_description_item = "on the sides") & Just to confirm, you would like to order spaghetti with meatballs, pasta, on the sides Italian bread with 2 liter Coca-Cola.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & You're welcome. Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "One poke bowl") & One poke bowl. What would you like in it?
+food_order ( name_item = "poke bowl with chicken") & One diet coke and a poke bowl with chicken.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "One burrito with rice") & One burrito with rice anything else?
+food_order ( name_item = "One burrito with rice") & One burrito with rice with a Coke.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "Thai food") & Okay. Thai food, sounds good, what would you like to order?
+food_order ( name_item = "pad Thai") & It looks like there's a special on pad Thai for this evening.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "spring rolls") & Pad Thai, spring rolls and what was the last order?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "2 orders of fries") & 2 bacon cheeseburgers and 2 orders of fries. Is there anything else to add to this order?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "Mexican" ; type_retrieval = "take out") & One moment. One moment, You wish to order Mexican food for take out, correct?
+food_order ( name_item = "nachos" ; other_description_item = "a side of") & Two beef burritos and a side of nachos.
+food_order ( name_item = "Two bottled waters") & Two bottled waters.
+food_order ( price_range = "$25") & Your total is $25.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+food_order ( name_item = "breakfast burritos") & Of course. How many breakfast burritos do you want?
+food_order ( other_description_item = "2 sizes: medium and large") & They come in 2 sizes: medium and large.
+food_order ( name_item = "bean burrito") & And the bean burrito?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Got it. Okay. I have your details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( num_people = "three") & Okay, what would the three of you like?
+food_order ( name_item = "2 lemonades") & 2 orders of cheese ravioli, 6 orders of the 6 piece chicken wings, and 2 lemonades. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "burrito") & Okay and how do you want that burrito?
+food_order ( name_item = "large Dr. Pepper" ; other_description_item = "with steak cheese and egg with hot sauce") & A large breakfast burrito, with steak cheese and egg with hot sauce and a large Dr. Pepper. Does that complete your order?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Perfect. "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+food_order ( type_retrieval = "takeout" ; num_people = "3 people") & Ok, takeout for 3 people, what kind of food?
+food_order ( name_item = "one Chicken Mole Enchiladas") & 2 Beef Tongue Quesadilla and one Chicken Mole Enchiladas, is it correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Ok. I have your details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Sounds good. Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Pad Thai") & A bowl of Pho and Pad Thai. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "2 ice teas") & 2 ice teas? Sure. I've added that to the order.
+food_order ( name_item = "1 greek delight crepe") & Okay. Let me confirm what you have. 1 turkey-avocado crepe with cheddar and 1 greek delight crepe.
+food_order ( name_item = "2 ice teas") & And 2 ice teas.
+food_order ( name_item = "a diet coke" ; other_description_item = "with a salad") & You would like to order pork souvlaki, with a salad and a gyro with a diet coke.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "1 Greek Delight crepe") & Sure, let me bring that up. You ordered 1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe.
+food_order ( name_item = "A salad with house dressing") & A salad with house dressing? Sure. I've added that to the order.
+food_order ( name_item = "a salad with a house dressing") & Okay. Let me confirm what you have. 1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe and a salad with a house dressing.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "drinks") & Do you want any drinks with that?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "takeout") & I can help you with your takeout order, what would you like to order?
+food_order ( name_item = "one small pea soup") & One large matzah ball soup and one small pea soup, anything else?
+food_order ( name_item = "bottle of water") & I will add a bottle of water to your order. Anything else?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( type_food = "soup") & Okay, do you have any kind of soup in your mind?
+food_order ( name_item = "2 orders of chicken noodles soup") & So 2 orders of chicken noodles soup?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Is there anything else I can order for you? Ok, I have your details on file. Your order will be ready for pick-up in about 20 minutes. Thank you.
+food_order ( name_item = "One salad" ; other_description_item = "house dressing") & One salad with house dressing? Sure. I've added that to the order.
+food_order ( name_item = "one salad" ; other_description_item = "house dressing") & Okay. Let me confirm what you have. 1 market burrito with black beans and spicy salsa and 1 chicken taco platter with refried beans. And one salad with house dressing.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "of fries" ; other_description_item = "a side") & I have 2 large hot dogs with a side of fries so far.
+food_order ( other_description_item = "The condiments") & The condiments.
+food_order ( name_item = "one just ketchup" ; other_description_item = "a side") & 2 large hot dogs with a side of fries, one mustard Chilli and onions, one just ketchup.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, can i have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( type_retrieval = "takeout" ; type_food = "Indian") & Indian food for takeout okay, sure thing.
+food_order ( name_item = "One lamb biryani") & Sorry, what was that? One lamb biryani, okay.
+food_order ( name_item = "One-sweat kebab") & Okay. One-sweat kebab.
+food_order ( name_item = "one meat samosa") & Okay, one vegetable Samosa and one meat samosa.
+food_order ( name_item = "A couple of yogurt drinks") & A couple of yogurt drinks, okay.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Tomato soup" ; other_description_item = "with crackers") & Tomato soup with crackers?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "3 BLT sandwiches") & Okay, 3 BLT sandwiches, anything else?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Two breakfast burritos") & Two breakfast burritos. What kind?
+food_order ( name_item = "two medium breakfast burritos" ; other_description_item = "with sausage, egg and cheese") & Just to confirm. You would like to order two medium breakfast burritos with sausage, egg and cheese.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "a taco salad") & Just to confirm, you would like to order two tacos, with a side of enchiladas, refried beans & a taco salad. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "fries" ; type_food = "drinks") & Any additional items like fries and drinks?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "takeout" ; num_people = "two people") & What would you like to order takeout for two people?
+food_order ( other_description_item = "a side of" ; name_item = "meat sauce") & Would you prefer a side of meat sauce?
+food_order ( name_item = "two orders of lasagna") & Just to confirm, you would like to order two orders of lasagna. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Hot dogs") & Hot dogs, What kind and for how many people?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & OK, Can I have your personal details on file? Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "a large Baja Blast") & Okay. I have an order for two beef burritos with a large Baja Blast. Does that complete your order?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "burger" ; name_item = "plain cheeseburger") & What kind of burger would you like to order, Would it be a meat or just plain cheeseburger?
+food_order ( name_item = "a large cheeseburger with tomatoes, Pickles, Cheese, Lettuce") & Just to confirm, Would you like to order a large cheeseburger with tomatoes, Pickles, Cheese, Lettuce?
+food_order ( type_food = "drink") & What would you like to drink?
+food_order ( name_item = "regular coke") & Would you like me to order a diet coke or a regular coke?
+food_order ( name_item = "Cherry Coke") & Cherry Coke added to the order.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "take out") & How may I help you? One moment. You need to order take out, correct?
+food_order ( type_food = "Barbecue") & Barbecue, okay.
+food_order ( name_item = "A barbecue platter" ; num_people = "3 people") & A barbecue platter for 3 people?
+food_order ( name_item = "macaroni and cheese") & Also, an order of macaroni and cheese?
+food_order ( type_meal = "dessert") & Any dessert?
+food_order ( name_item = "A pecan pie") & A pecan pie?
+food_order ( total_price = "$50") & Your order total is $50.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "pizza" ; num_people = "2") & Okay. Pizza for 2 got it. What would you like on that pizza?
+food_order ( name_item = "One large pizza with anchovies, mushrooms, peppers") & One large pizza with anchovies, mushrooms, peppers and what was the last part?
+food_order ( name_item = "2 liters of diet coke") & Okay, 2 liters of diet coke.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & "Ok. I have your details on file. Your order will be ready for pick-up in about 20 minutes".
+food_order ( type_food = "drink") & Would you like anything to drink?
+food_order ( name_item = "two orders of Mac and Cheese") & Okay, I got that for you. You wanted to Pulled Pork Barbecue Sandwiches, Beef Brisket Sandwich, three Sweet Teas, Baked Beans, Coleslaw and two orders of Mac and Cheese. Was that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "large coke" ; other_description_item = "on the side") & Okay, placing your order for aSpaghetti plate with Italian bread and cheese packets on the side and large coke.
+food_order ( time_pickup = "25 minutes") & It will be available in 25 minutes.
+food_order ( type_retrieval = "takeout") & I can help you with your takeout order.
+food_order ( type_food = "fish") & What kind of fish would you like?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "2 orders of Babina pasta" ; other_description_item = "with light marinara sauce and make a large order of pastini with no sauce") & Hold on for a second. Alright, 2 orders of Babina pasta with light marinara sauce and make a large order of pastini with no sauce.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & All good. Okay, I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( name_item = "one Tuna Poke Bowl") & Just to confirm you would like to order one Tuna Poke Bowl. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "gyros") & Okay, what kind of gyros do you want?
+food_order ( name_item = "1 chicken gyro") & 1 veal and 1 chicken gyro.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & You got it. Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "fist full of mustard packets" ; other_description_item = "with no pickles, and extra relish") & One Long Island hot dog with extra mustard, and a Coney Island hot dog with no pickles, and extra relish, and I'll make sure they add a fist full of mustard packets. Does that complete your order?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & "Okay, can I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+food_order ( type_meal = "dinner") & Awesome, have a great night and enjoy your dinner.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "blt club") & Just to confirm you would like to order, Roast beef and white cheddar panini, blt club,
+food_order ( name_item = "3 brownies" ; other_description_item = "for sides") & Turkey lettuce tomato and mayo and for sides you would like to order 3 bags baked chips and 3 brownies.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( name_item = "3 breakfast burritos") & So just 3 breakfast burritos or more?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Regular hot dogs") & Hello. Okay, what is your order? Regular hot dogs.
+food_order ( name_item = "a large diet coke") & Okay, one second. You´re welcome, enjoy your meal. Goodbye. Four regular hot dogs with mustard chili and onions, small fries and a large diet coke.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "Indian" ; type_retrieval = "take-out") & Sure Indian take-out for how many people?
+food_order ( name_item = "Samosa") & Samosa okay, what would you like with that?
+food_order ( name_item = "butter chicken") & Okay butter chicken, any sides?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & No sides. Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "one hot dog with chili cheese") & One hot dog with sauerkraut and mustard one hotdog with ketchup, one hot dog with chili cheese.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "a 2 liter Coke") & Chicken curry with hummus and a 2 liter Coke, is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "Italian") & What would you prefer in Italian cuisine?
+food_order ( name_item = "two cannolis" ; other_description_item = "additional meatball") & Just to confirm your order, 1 beef lasagna additional meatball, One veg lasagna and 4 pieces of sourdough bread and two cannolis?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "2-liter of Dr. Pepper") & Full rack of ribs. A bucket of hot wings. A BBQ salad, mashed potatoes, french fries and a 2-liter of Dr. Pepper. Anything else to add to this feast?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Sweet potato fries" ; other_description_item = "with both") & Sure, let me bring that up. Looks like you had two burgers well done with everything on them. Sweet potato fries with both. Is that right?
+food_order ( name_item = "2 iced teas") & 2 iced teas, I've added that to the order.
+food_order ( name_item = "2 iced teas" ; other_description_item = "with both") & Anything else? Okay. Let me confirm what you have two burgers well done with everything on them. Sweet potato fries with both and 2 iced teas.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "barbecue") & Okay cool, barbecue for your team, you got it.
+food_order ( name_item = "Boneless rib tips" ; type_retrieval = "delivery") & Boneless rib tips, okay. Sure thing, delivery too, is that right?
+food_order ( name_item = "french fries" ; other_description_item = "a side of") & One order of large boneless rib tips, some macaroni and cheese and as well as a side of french fries and I'm assuming you want extra-large on all of those for the team, is that correct?
+food_order ( name_item = "large 2L Pepsi") & A large 2L Pepsi, just one?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "A large order of Jaylos dipped with honey mustard") & Okay. A large order of Jaylos dipped with honey mustard.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( type_food = "Mexican") & What would you like to order in Mexican food?
+food_order ( name_item = "1 liter of Coca-Cola") & Just to confirm you would like to order one beef burritos, meat, and potato burrito 1 liter of Coca-Cola. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Is that correct? I have your details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Pasta" ; other_description_item = "side dishes") & Pasta. Any side dishes?
+food_order ( name_item = "salads" ; type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Pasta, and salads for take out. Okay, got it. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( name_item = "hot dogs") & How many hot dogs?
+food_order ( name_item = "8 hot dogs") & Okay, 8 hot dogs.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( name_item = "one large pizza with mushroom, green peppers and onions") & Just to confirm you would like to order one large pizza with mushroom, green peppers and onions. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "three large sprites") & Okay, I have 2 orders of butter chicken, one order of tandoori chicken and three large sprites?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "pad Thai") & I'm sorry the second order was that pad Thai?
+food_order ( name_item = "two pad Thai") & One large red curry and two pad Thai?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Hot dogs with ketchup and onions") & Okay, Hot dogs with ketchup and onions.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "takeout" ; num_people = "three people" ; name_item = "pizza") & I can help with your takeout order for three people what would you like on your pizza.
+food_order ( name_item = "a large order of pasta and meatballs") & So, just a large order of pasta and meatballs, is that right?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( type_food = "Italian food") & What kind of Italian food?
+food_order ( name_item = "2 bread with butter") & This will just be a second. So, your order is, two orders of spaghetti with meatballs, with two large cokes and 2 bread with butter, is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "burritos") & Okay and how would you like those burritos?
+food_order ( name_item = "a side of ketchup") & Three camping style burritos, 2 mineral water, one coke, and a side of ketchup. Does that sound correct? Anything else?
+food_order ( other_description_item = "one size. Huge like brick size huge") & They are one size. Huge like brick size huge.
+food_order ( name_item = "antipasto") & Veal Parmesan, side of garlic with antipasto.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "takeout" ; type_food = "Indian") & I can help you with your takeout order for Indian food. What would you like to order?
+food_order ( name_item = "2 cokes") & Okay, two orders of butter chicken with 2 cokes. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "takeout" ; type_food = "Indian") & Okay, I can help you order takeout Indian food.
+food_order ( name_item = "three orders of naan") & This will just be a second. I have one order of butter chicken, one order of tandoori chicken, one French bean aloo and three orders of naan. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Yes, sure. Is there anything else more? Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "Veal Parmesan") & Veal Parmesan?
+food_order ( name_item = "Small garlic bread") & Small garlic bread?
+food_order ( type_retrieval = "pickup" ; time_pickup = "about 35 minutes") & Okay, it looks like your order will be ready for pickup in about 35 minutes.
+food_order ( name_item = "crackers") & Large chicken soup, a small salad and a large Diet Coke with crackers.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( name_item = "2 pepsies") & Anything else? 2 pepsies got it.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "Chinese") & Sure, what type of Chinese food would you like?
+food_order ( name_item = "noodles") & What type of noodles?
+food_order ( num_people = "two people") & Can I know for how many people? For two people?
+food_order ( time_pickup = "about 30 minutes") & Okay, that order will be ready in about 30 minutes.
+food_order ( name_item = "sweet potato fries" ; other_description_item = "with both burgers") & How can I help you? Sure, let me bring that up. Looks like you had two burgers and sweet potato fries with both burgers. Is that right?
+food_order ( name_item = "salad" ; other_description_item = "with house dressing") & Okay, salad with house dressing I've added that to the order. Anything else?
+food_order ( name_item = "a salad" ; other_description_item = "with house dressing") & Okay, let me confirm what you have: two burgers well done with everything on them and sweet potato fries with both burgers and a salad with house dressing. Is that right?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "take-out" ; type_food = "burgers") & I can help you with your take-out order. What would you like on these burgers?
+food_order ( name_item = "and large quarter fries" ; other_description_item = "with no cheese mustard and ketchup") & One single cheese burger with honey, mustard, tomatoes and lettuce. One double cheeseburger with egg, lettuce and tomatoes. One single cheeseburger with no cheese mustard and ketchup and large quarter fries. Would you like anything to drink?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "3 orders of sweet and sour chicken") & Okay. What would you like to order? 3 orders of sweet and sour chicken, anything else?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( other_description_item = "Onions and mushrooms") & Onions and mushrooms.
+food_order ( name_item = "dumplings") & How many orders of dumplings?
+food_order ( time_pickup = "About 20 minutes" ; name_item = "4 orders of dumplings") & About 20 minutes. Sweet and sour pork, Kung pao chicken and 4 orders of dumplings.
+food_order ( name_item = "an order of tandoori chicken" ; type_food = "drinks") & One order of buttered chicken, an order of tandoori chicken, with two sides of flat bread. Does that complete your order? Would you like drinks?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "coke") & Yes, there is coke.
+food_order ( name_item = "2 liter coke") & 2 liter coke. Is there anything else?
+food_order ( type_retrieval = "pick up" ; time_pickup = "about 20 minutes") & Will that complete your order? Okay, your order should be ready for pick up in about 20 minutes.
+food_order ( name_item = "One boerewors hotdog" ; other_description_item = "with fried onions") & One boerewors hotdog with fried onions.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "Okay. I have your personal deta") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_food = "barbecue") & I can help you with that. What would you like to order in barbecue?
+food_order ( name_item = "one large order of fries") & Just to confirm you would like to order one pulled pork sandwich and one large order of fries. Is that correct?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes".
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & OK. "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes"

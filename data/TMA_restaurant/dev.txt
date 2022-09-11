@@ -1,0 +1,330 @@
+restaurant_reservation ( name_restaurant = "chili") & sure, do you want to look for restaurants that serve chili?
+restaurant_reservation ( name_restaurant = "chilis" ; location_restaurant_accept = "san bruno") & ok let me search for you. i found a chilis in san bruno, will that work for you?
+restaurant_reservation ( num_guests_accept = "3" ; name_restaurant_accept = "chili's grill and bar" ; time_reservation_accept = "2 pm") & let me check the availability. ok, i have booked a table for 3 at chili's grill and bar at 2 pm.
+restaurant_reservation ( name_restaurant = "miss Saigon") & Ok, I found sunflower garden restaurant and miss Saigon, would you like to hear more about both?
+restaurant_reservation ( name_restaurant = "miss saigon") & the name is miss saigon.
+restaurant_reservation ( type_seating_accept = "indoor seating") & they only have indoor seating.
+restaurant_reservation ( time_reservation = "10:30am") & they are open from 10:30am to 9pm
+restaurant_reservation ( num_guests_accept = "2" ; name_restaurant_accept = "miss Saigon" ; time_reservation_accept = "1:00 p.m. can") & ok, I have booked a table for 2 at miss Saigon for today at 1:00 p.m. can I help with anything else?
+restaurant_reservation ( location_restaurant = "sacramento") & which part of sacramento do you want me to search?
+restaurant_reservation ( name_restaurant = "porch restaurant and bar") & i found some options. the first is jack's urban eats. Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine. the second is cafeteria 15L. Stylish, contemporary spot offering American fare, old-timey desserts & upmarket cocktails. the third is the porch restaurant and bar. This relaxed eatery serves familiar Southern classics that feature locally-sourced ingredients.
+restaurant_reservation ( name_restaurant_accept = "cafeteria 15 L") & did you mean cafeteria 15 L?
+restaurant_reservation ( location_restaurant = "sacramento") & ok, what part of sacramento are you in?
+restaurant_reservation ( name_restaurant = "panda express") & are there any additional characteristics you would like your restaurant to have? ok, i found sbarro and panda express, would you like to hear more about each?
+restaurant_reservation ( name_restaurant = "sbarro") & sbarro is described as a Italian fast-food chain offering thin-crust pizza by the slice, plus pastas & salads.
+restaurant_reservation ( name_restaurant = "panda express") & panda express is described as a Fast-food chain for Chinese standards, including some health-conscious options.
+restaurant_reservation ( location_restaurant = "sacramento") & great. what part of sacramento are u in?
+restaurant_reservation ( name_restaurant = "Dragon Wall") & one moment. There's a place called Dragon Wall that offers Gluten Free options.
+restaurant_reservation ( name_restaurant = "Dragon Wall") & Let me look. There's a place not far from Dragon Wall that also offers Gluten Free options called New Delhi.
+restaurant_reservation ( name_restaurant = "Puccini and Pinetti's") & Let me check for that. There's a great place called Puccini and Pinetti's.
+restaurant_reservation ( name_restaurant = "Puccini and Pinetti") & Puccini and Pinetti.
+restaurant_reservation ( name_restaurant = "Puccini and Pinetti") & All of these sound good but Puccini and Pinetti has better ratings and is more affordable.
+restaurant_reservation ( num_guests_accept = "4" ; time_reservation_accept = "8 pm" ; type_seating_accept = "outdoor seating" ; name_restaurant_accept = "Puccini and PInetti") & Okay, so that's 4 people at 8 pm with outdoor seating at Puccini and PInetti.
+restaurant_reservation ( name_restaurant = "Roka Akor" ; location_restaurant = "San Francisco") & ok, let me search that for you. I found Benu, a Minimalist SoMa spot featuring innovative, ultrapricey American cuisine and renowned tasting menu and Roka Akor - San Francisco, Upscale Japanese chain with an open charcoal grill & lower lounge focused on whiskey & cocktails.
+restaurant_reservation ( type_seating = "indoor seating") & do you have any preference for outdoor or indoor seating?
+restaurant_reservation ( name_restaurant = "roka akor" ; location_restaurant = "san francisco") & roka akor - san francisco has tables available. for how many people is your reservation?
+restaurant_reservation ( reservation_accept = "booked" ; time_reservation_accept = "8pm" ; num_guests_accept = "2" ; name_restaurant_accept = "roka akor") & thank you. your reservation is booked at 8pm for 2 people at roka akor.
+restaurant_reservation ( name_restaurant = "Outerlands") & The Grove - Yerba Buena, SAMS American Eatery and Outerlands seem like good choices.
+restaurant_reservation ( time_reservation = "11:30am") & There's an 11:30am reservaiton does that work?
+restaurant_reservation ( type_seating = "no bar So" ; name_restaurant = "SAMS American Eatery" ; time_reservation = "11:30am") & They have outdoor seating, no bar So I have a table for 2 at SAMS American Eatery for 11:30am tomorrow.
+restaurant_reservation ( name_restaurant = "Capurro's") & Okay. the next one i'd suggest is Capurro's.
+restaurant_reservation ( name_restaurant = "Capurro's") & Yes, Capurro's does serve Fettuccini alfredo.
+restaurant_reservation ( name_restaurant = "Americano") & yes Americano does. They are actually quite known for their meatballs.
+restaurant_reservation ( num_guests = "3") & 3 People, got it. and is that table reservation for tonight?
+restaurant_reservation ( name_restaurant = "Seasons 52" ; type_seating = "patio") & Yes, Seasons 52 has a patio available.
+restaurant_reservation ( name_restaurant_reject = "Olive Garden") & Olive Garden does not have a buffet style dining.
+restaurant_reservation ( name_restaurant_accept = "Olive garden") & They do, Olive garden offers food to go.
+restaurant_reservation ( name_restaurant = "Tacolicious") & El Velancio is a very popular bar and Tacolicious also offers dancing and a full bar.
+restaurant_reservation ( name_restaurant = "Tacolicious") & Tacolicious has more ratings and they are more popular by .1 stars.
+restaurant_reservation ( name_restaurant = "Fringale Restaurant") & Ok, let me take a look. I found Café Claude and Fringale Restaurant.
+restaurant_reservation ( type_seating = "inside") & would you like to sit outside or inside?
+restaurant_reservation ( name_restaurant = "Café Claude") & Then Café Claude would be a good option.
+restaurant_reservation ( location_restaurant = "sacramento") & where in sacramento are you?
+restaurant_reservation ( name_restaurant = "Sbarro" ; name_restaurant_accept = "Piatti") & i found Sbarro: Italian fast-food chain offering thin-crust pizza by the slice, plus pastas & salads. and i also found Piatti: Traditional Italian trattoria with an open kitchen & pizzas from a stone-hearth oven.
+restaurant_reservation ( name_restaurant = "Don Quixote's Mexican Grill") & here's what i found: Seasons 52, Rotating menu of seasonal American dishes alongside international wines in an upscale setting. Dos Coyotes Border Cafe: Colorful local chain cafe serving Mexican & Southwestern favorites, salsa & seasonal specials. and Don Quixote's Mexican Grill: Cheerful counter-serve offering simple Mexican grub such as tacos & nachos, plus a salsa bar.
+restaurant_reservation ( name_restaurant = "Seasons 53") & Seasons 53 has a 4.4 star rating.
+restaurant_reservation ( name_restaurant = "Southpaw BBQ") & Great, so I have a few suggestions, including The Pub, Memphis Minnie's, and Southpaw BBQ.
+restaurant_reservation ( name_restaurant = "The Pub") & The Pub offers comfort food and bbq in a spacious bayview restaurant.
+restaurant_reservation ( num_guests_accept = "3" ; name_restaurant_accept = "The Pub" ; time_reservation_accept = "March 8th for 7pm") & So your reservation is for 3 people at The Pub on March 8th for 7pm.
+restaurant_reservation ( name_restaurant = "1760") & sure, let me take a look at the options. i found Blackwood: Thai food fused with American flavors is the focus at this chic, modern spot with plush banquettes. i also found: 1760, Carefully sourced, ambitious New American cuisine & cocktails in a sleek space with a long bar.
+restaurant_reservation ( name_restaurant = "1760") & blackwood has 4.6 stars and 1760 has 4.3 stars.
+restaurant_reservation ( name_restaurant_accept = "blackwood" ; time_reservation_accept = "tomorrow at 6:30pm") & ok, your reservation is confirmed at blackwood tomorrow at 6:30pm.
+restaurant_reservation ( name_restaurant = "Souvla") & sure. i found: Kokkari Estiatorio, Taverna-inspired cuisine served in a candlelit, wood-beamed dining room that lures a chic crowd. and i also found Souvla: Hip haunt featuring roasted meat sandwiches & salads, plus Greek yogurt, beer & wine.
+restaurant_reservation ( num_guests = "12 people" ; time_reservation_reject = "tomorrow at 7pm" ; time_reservation = "9pm") & you can contact directly for more information regarding birthday specials. i couldn't find availability for 12 people tomorrow at 7pm. would 9pm work?
+restaurant_reservation ( num_guests_accept = "12 people" ; time_reservation_accept = "next friday, march 22nd at 9pm" ; name_restaurant_accept = "souvla") & ok, your reservation is confirmed for 12 people next friday, march 22nd at 9pm at souvla.
+restaurant_reservation ( name_restaurant = "sushi tomi") & sushi tomi is not busy at the moment. their busiest hour is around 7pm, but no wait time is expected.
+restaurant_reservation ( name_restaurant = "daigo sushi") & the average cost at daigo sushi is $10 per person.
+restaurant_reservation ( name_reservation_accept = "charles") & great, i've booked it for charles. did you need anything else?
+restaurant_reservation ( name_restaurant = "YakiniQ BBQ") & Fiery Hot Pot Buffet, Mums - Home of Shabu-Shabu, and YakiniQ BBQ fit that description.
+restaurant_reservation ( name_restaurant = "Mums") & Fiery HOt Pot Buffet beats out Mums by 30 reviews but they're both 4.6 stars.
+restaurant_reservation ( name_restaurant = "Fiery Hotpot Buffet") & Fiery Hotpot Buffet.
+restaurant_reservation ( name_restaurant = "Mums") & It looks like Mums has the best value.
+restaurant_reservation ( num_guests_accept = "6 people" ; name_restaurant_accept = "Mums") & SO that's 6 people for Mums tomorrow and what time was that for again?
+restaurant_reservation ( time_reservation_accept = "4 pm") & Got it. 4 pm. YOu're all set.
+restaurant_reservation ( name_restaurant = "la ciccia") & i found seven hills and la ciccia, would you like to hear more about each?
+restaurant_reservation ( name_restaurant = "seven hills") & it looks like seven hills does.
+restaurant_reservation ( name_restaurant = "la ciccia") & sure, the first is seven hills and the second is la ciccia.
+restaurant_reservation ( num_guests_accept = "2" ; time_reservation_accept = "8pm" ; name_restaurant_accept = "seven hills") & ok, i have booked a table for 2 for tomorrow at 8pm at seven hills, can i help you with anything else?
+restaurant_reservation ( name_restaurant = "blue house korean bbq") & got it, let me find some options for you. i found aura korean bbq and blue house korean bbq, would you like to hear more about both?
+restaurant_reservation ( name_restaurant = "aura" ; name_restaurant_accept = "blue house") & aura is described as a Cozy corner bistro serving Japanese & Korean dishes, including BBQ, plus beer, wine & sake bombs. blue house is described as a Korean BBQ is prepared on tabletop grills in sleek, kid-friendly digs with all-you-can-eat options.
+restaurant_reservation ( name_restaurant = "mano") & a mano closes at 10:30pm.
+restaurant_reservation ( name_restaurant_reject = "sotto mare" ; type_seating_reject = "open bar") & no, sotto mare does not have an open bar, but they do have a great selection of wines and beers.
+restaurant_reservation ( name_restaurant = "mano" ; time_reservation_reject = "tomorrow at 8pm" ; time_reservation = "6pm") & a reservation at a mano tomorrow at 8pm is not available, but 6pm is. does that time work for you?
+restaurant_reservation ( num_guests = "3") & and to confirm, the reservation is for 3 people total, is that right?
+restaurant_reservation ( num_guests_accept = "3" ; time_reservation_accept = "tomorrow at 6pm" ; name_reservation_accept = "mano") & great, a reservation for 3 people tomorrow at 6pm at a mano has been booked.
+restaurant_reservation ( name_restaurant = "koja kitchen has") & koja kitchen has a 4.5 star rating, and over 300 reviews on google.
+restaurant_reservation ( time_reservation = "8pm" ; num_guests_accept = "2" ; name_restaurant_accept = "koja kitchen") & a reservation for march 14th at 8pm for 2 people at koja kitchen is not available. did you want me to search for similar times?
+restaurant_reservation ( time_reservation = "7:30pm") & i see there is a 7pm and 7:30pm available. which did you want?
+restaurant_reservation ( time_reservation_accept = "7pm") & ok, i've booked you a reservation at 7pm. do you need anything else?
+restaurant_reservation ( location_restaurant = "close to arden fair mall but not inside") & got it, is it ok if the restaurant is close to arden fair mall but not inside?
+restaurant_reservation ( name_restaurant = "hana tsubaki restaurant") & ok, i found a few options for you, sushi hook and hana tsubaki restaurant.
+restaurant_reservation ( name_restaurant = "hana tsubaki") & suhi hook is rated at 4.3 out of 5 and hana tsubaki is rated at 4.3 out of 5 stars.
+restaurant_reservation ( name_restaurant = "Nopalito") & i found Don Pistos: Lively exposed-brick setting for Mexican specialties & drinks plus a popular Sunday brunch. and also: Nopalito: Popular Mexican restaurant serving traditional, organic grub in a casual & bright dining room.
+restaurant_reservation ( name_restaurant = "don pistos") & don pistos has 4.5 stars.
+restaurant_reservation ( name_restaurant = "don pistos") & don pistos has a more diverse menu.
+restaurant_reservation ( time_reservation_accept = "tomorrow at 5pm" ; num_guests_accept = "3" ; name_restaurant_accept = "don pistos") & sure, your reservation is confirmed for tomorrow at 5pm for 3 people at don pistos.
+restaurant_reservation ( name_reservation = "blue house") & ok, let me find some options for you. i found bonchon and blue house korean bbq, would you like to hear more about each?
+restaurant_reservation ( name_restaurant = "bonchon") & bonchon is rated at 4.9 out of 5 stars.
+restaurant_reservation ( name_restaurant = "blue house") & blue house korean bbq has a bigger menu.
+restaurant_reservation ( name_restaurant = "Zocalo Midtown") & Alright great. I can keep looking but the first place that comes to mind is Zocalo Midtown which is moderately priced but boasts Roomy, elegant restaurant & bar with modern Mexican dishes, classic margaritas & weekend brunch.
+restaurant_reservation ( name_restaurant = "Azul Mexican restauarant and tequila bar") & Yes, one moment. The next place that fits your request is Azul Mexican restauarant and tequila bar. Contemporary Mexican-American fare & tequila-based cocktails are served in a stylish art-filled setting.
+restaurant_reservation ( name_restaurant = "Chita's Taqueria Mexican restaurant") & Well there's also Chita's Taqueria Mexican restaurant dispensing staples such as burritos, tacos & quesadillas in a simple setting.
+restaurant_reservation ( time_reservation_reject = "6:30pm") & there are no available tables at 6:30pm. should i look for a different time or maybe a different restaurant?
+restaurant_reservation ( time_reservation_accept = "7pm.") & sure, that works. your reservation is confirmed for saturday at 7pm.
+restaurant_reservation ( name_restaurant = "chicken and rice" ; time_reservation = "11pm") & do u have any other criteria u need me to look up? sorry there are no restaurants that serve chicken and rice that are open at 11pm tonight.
+restaurant_reservation ( time_reservation = "8pm") & all the places with your preferences are open until 8pm.
+restaurant_reservation ( name_restaurant = "gai chicken rice") & ok. the first is called rooster and rice. Snug counter-service cafe serving dine-in or take-out khao mun gai (Thai chicken & rice). The second is called gai chicken rice. this restaurant does not have a description online but has a 4.4 star rating and over 10 reviews on google.
+restaurant_reservation ( name_restaurant = "rooster and rice") & sure, rooster and rice. when do you want to book a table?
+restaurant_reservation ( time_reservation = "8pm") & did you mean at 8pm?
+restaurant_reservation ( time_reservation_reject = "8pm") & the closing time at both restaurants is 8pm, so i will not be able to make a reservation at that time.
+restaurant_reservation ( num_guests_accept = "2" ; time_reservation_accept = "7pm" ; name_restaurant_accept = "rooster and rice") & reservation for 2 people at 7pm at rooster and rice is available. i'll set that up for u now.
+restaurant_reservation ( name_restaurant = "Han's Habichi") & Okay one moment. The most popular results are Ike's Benihana and Han's Habichi.
+restaurant_reservation ( name_restaurant = "Benihana") & Benihana is famous for its happy hour specials.
+restaurant_reservation ( num_guests_accept = "5" ; time_reservation_accept = "on Wednesday the 5th" ; name_restaurant_accept = "Hahn's Hanibachi") & So that's 5 people for 4 o clock on Wednesday the 5th at Hahn's Hanibachi.
+restaurant_reservation ( location_restaurant = "sacramento") & i sure can help with that. what part of sacramento are you in?
+restaurant_reservation ( name_restaurant = "Fino") & i found Trattoria Contadina, Cozy, unpretentious fixture for classic Italian fare such as pasta, meatballs & gnocchi. i also found: Fino, talian eatery in The Andrews Hotel offering traditional dishes, a mahogany bar, a fireplace & more.
+restaurant_reservation ( name_restaurant_accept = "trattoria contadina" ; name_restaurant = "fino") & trattoria contadina has 4.6 stars and fino has 4.5 stars.
+restaurant_reservation ( name_restaurant = "Thai chef's house") & i found a few options. The first is called elephant bar restaurant. Informal chain with a menu built on Pan-Asian, wok-fired plates & global fare. The other option is called Thai chef's house. Enduring restaurant preparing traditional Thai plates spiced to order in quaint surroundings.
+restaurant_reservation ( name_reservation = "Thai chef's house" ; name_reservation_accept = "Thai chef house" ; time_reservation = "Thai chef house is open until") & The price range for Thai chef's house is about $15 per person. Thai chef house is open until 9:30 p.m.
+restaurant_reservation ( name_restaurant = "Harris") & Harris has its own parking lot.
+restaurant_reservation ( name_restaurant = "Espetus") & Espetus does not have valet parking.
+restaurant_reservation ( time_reservation_accept = "7pm" ; num_guests_accept = "two") & Sure, valentines day at 7pm for two people.
+restaurant_reservation ( name_restaurant = "waterfront") & the second is called catch. Straightforward seafood options served in digs notable for a heated courtyard & outdoor fireplace. sure, waterfront has a 4.1 star rating.
+restaurant_reservation ( name_restaurant = "waterfront" ; time_reservation = "friday at 6pm" ; num_guests = "4") & reservation at waterfront on friday at 6pm for 4 people is available. should i book this now?
+restaurant_reservation ( type_seating_accept = "booth" ; num_guests_accept = "4" ; time_reservation_accept = "friday the 15th at 6pm" ; name_restaurant_accept = "waterfront restaurant" ; location_restaurant_accept = "san francisco") & sure. a booth for 4 people on friday the 15th at 6pm at the waterfront restaurant in san francisco.
+restaurant_reservation ( name_restaurant = "Dos Coyotes Border Cafe" ; name_reservation_accept = "Kico's Mexican Food") & So I found two great Options, Dos Coyotes Border Cafe, Colorful local chain cafe serving Mexican & Southwestern favorites, salsa & seasonal specials. And Kico's Mexican Food a Self-serve eatery dishing up Mexican classics including hand-rolled tortillas, burritos & tacos.
+restaurant_reservation ( name_restaurant = "Wooden Charcoal Korean Village Barbecue") & Got it. One moment while I find a few options? So first I found Jang Soo BBQ which fits your needs perfectly but I also found Wooden Charcoal Korean Village Barbecue House which is well rated and comfortable.
+restaurant_reservation ( num_guests_accept = "3" ; name_restaurant_accept = "Jang Soo BBQ" ; time_reservation_accept = "tonight at 5pm") & SO that's 3 people for Jang Soo BBQ for tonight at 5pm.
+restaurant_reservation ( name_restaurant = "Matador") & Sure thing, one moment. So the ones that come up are Nopalitos, Pancho Vill, and Matador.
+restaurant_reservation ( num_guests_accept = "4" ; name_restaurant_accept = "Pancho Villa" ; time_reservation_accept = "4:30" ; type_seating_accept = "booth") & Sure thing. onemoment. SO that's a table for 4 at Pancho Villa for 4:30 in a booth right?
+restaurant_reservation ( name_restaurant = "Roka Akor.") & Alright, one moment. There's two great options for you. Epic Steak And Roka Akor.
+restaurant_reservation ( name_restaurant = "Roka Akor") & It doesn't look like Epic Steak does. But Roka Akor seems to.
+restaurant_reservation ( num_guests = "ten people") & Alright then, that's for ten people right?
+restaurant_reservation ( name_restaurant_accept = "Roka Akor Steakhouse" ; num_guests_accept = "10 people.") & Alright, we have a reservation for you at Roka Akor Steakhouse for February 10th for 10 people.
+restaurant_reservation ( name_restaurant = "bella trattoria") & can you tell me some things you would like the restaurant to have so i can narrow my search? let me search for restaurants that fit your description. i found a few options for you, cesario's and bella trattoria.
+restaurant_reservation ( name_restaurant = "sotto mare") & i found a few more options, zero zero and sotto mare. do you mean for sotto mare?
+restaurant_reservation ( num_guests = "4" ; time_reservation = "6pm" ; name_restaurant = "sotto mare") & ok, when would you like to book a reservation for? ok, let me check to see if they have availability? ok, i have booked you a table for 4 for tomorrow at 6pm at sotto mare, is that correct?
+restaurant_reservation ( type_seating = "outdoor seating" ; type_seating_reject = "booths" ; type_seating_accept = "tabletops") & your reservation is indoor but they also have outdoor seating. i'm sorry, this restaurant does not have booths, only tabletops.
+restaurant_reservation ( name_restaurant = "Garaje" ; location_restaurant_accept = "475 3rd St" ; location_restaurant = "San Francisco") & ok, let me search that for you. I found Tropisueño at 75 yerba buena ln, Nopalito at 306 Broderick St and Garaje at 475 3rd St, San Francisco.
+restaurant_reservation ( name_restaurant = "garaje" ; time_reservation = "9pm") & Nopalito and tropisueño are usually busy around 9pm and garaje is normally busy at noon.
+restaurant_reservation ( name_restaurant = "garaje" ; type_seating = "outdoor seating") & garaje does not have outdoor seating.
+restaurant_reservation ( name_restaurant_accept = "garaje" ; time_reservation_accept = "5pm" ; num_guests_accept = "3 people") & thank you. your reservation is confirmed at garaje tomorrow, january 26th at 5pm for 3 people.
+restaurant_reservation ( name_restaurant = "tropisueno") & i found don pistos and tropisueno, would you like to hear more about each option?
+restaurant_reservation ( name_restaurant = "don pistos") & let me find some brief descriptions, one moment. don pistos is described as a Lively exposed-brick setting for Mexican specialties & drinks plus a popular Sunday brunch.
+restaurant_reservation ( type_seating = "patio") & yes, it has a small patio in the back.
+restaurant_reservation ( name_restaurant = "tropisueno") & tropisueno is described as a Lively Mexican eatery serving up classic plates & margaritas in a relaxed, upbeat environment.
+restaurant_reservation ( type_seating = "indoor") & and did you want outdoor or indoor seating?
+restaurant_reservation ( type_seating = "indoors" ; time_reservation_reject = "7:30pm" ; time_reservation = "6pm") & ok, it looks like their outdoor seating is completely booked until 7:30pm, they will have seating available indoors at 6pm.
+restaurant_reservation ( type_seating = "outdoor") & great, i'll book your outdoor table, one moment.
+restaurant_reservation ( type_seating_accept = "outdoor" ; num_guests_accept = "4" ; name_restaurant_accept = "tropisuenos" ; time_reservation_accept = "7:30 tonight") & ok, i have booked an outdoor table for 4 at tropisuenos at 7:30 tonight, can i help with anything else?
+restaurant_reservation ( name_restaurant = "Delarosa") & Ok, let me find some restaurants that fit those characteristics. I found Tony's pizza Napoletana and Delarosa, would you like to hear more about each?
+restaurant_reservation ( type_seating = "table") & Ok, let me book a table for you. And did you want a booth or a table?
+restaurant_reservation ( type_seating_accept = "high top table" ; num_guests_accept = "2" ; name_restaurant_accept = "Delarosa" ; time_reservation_accept = "february 15th at 8:00 pm") & Sure, let me book that. Ok, I have booked a high top table for 2 at Delarosa for this friday, february 15th at 8:00 pm, is there anything else I can help you with?
+restaurant_reservation ( location_restaurant_accept = "San Francisco" ; name_restaurant = "tony's pizza Napoletana") & You got it. Let me look up some options. Ok the first one in San Francisco is tony's pizza Napoletana. Bustling Italian eatery with varied pizza options from coal-fired to Roman-style, plus beer on tap.
+restaurant_reservation ( name_restaurant = "Patxi's Pizza") & The second is Patxi's Pizza Inner Sunset. Pizzeria chain serving creative deep-dish & thin-crust pies in a stylish, contemporary setting.
+restaurant_reservation ( name_restaurant = "Tony's Pizza Napoletana") & Yes, Tony's Pizza Napoletana has a kids menu.
+restaurant_reservation ( name_restaurant = "Tony's Pizza Napoletana") & Yes, Tony's Pizza Napoletana has dessert.
+restaurant_reservation ( name_restaurant = "Patxi's Pizza") & Patxi's Pizza Inner Sunset has a variety of soft drinks including coke.
+restaurant_reservation ( name_restaurant = "Tony's Pizza Napoletana") & Unfortunately, Tony's Pizza Napoletana does not have wine options at this time.
+restaurant_reservation ( name_restaurant = "Tony's Pizza Napoletana") & Yes, Tony's Pizza Napoletana has wifi.
+restaurant_reservation ( name_restaurant_accept = "Tony's Pizza Napoletana" ; time_reservation_accept = "February 13th at 8pm" ; num_guests_accept = "2") & Tony's Pizza Napoletana on February 13th at 8pm for 2 people. Is that right?
+restaurant_reservation ( name_restaurant = "Otoro Sushi") & For how many people? I found Otoro Sushi, an Inventive fusion menu of Japanese tapas, sushi & specialty dishes with a California twist.
+restaurant_reservation ( name_restaurant = "Live Sushi Bar") & Sure, let me take a look. How about Live Sushi Bar?
+restaurant_reservation ( time_reservation = "6pm") & but for 6pm that might be a little cold, should i book anyway?
+restaurant_reservation ( reservation_accept = "confirmed" ; time_reservation_accept = "tonight at 7pm" ; num_guests_accept = "4" ; name_restaurant_accept = "Roam Artisan Burgers") & ok, your reservation is confirmed tonight at 7pm for 4 people at Roam Artisan Burgers.
+restaurant_reservation ( name_restaurant = "piatti") & i found vinoteca and piatti, would you like to hear more about each?
+restaurant_reservation ( name_restaurant = "piatti") & vinoteca is described as a Upbeat bistro serving modern Italian fare & pizza in a relaxed, tile-floored room with a bar. piatti is described as a Traditional Italian trattoria with an open kitchen & pizzas from a stone-hearth oven.
+restaurant_reservation ( name_restaurant = "piatti") & vinoteca is rated at 4.3 out of 5 stars and piatti is rated at 4.5 out of 5 stars.
+restaurant_reservation ( name_restaurant = "vinoteca") & vinoteca has 98 and piatti has 205.
+restaurant_reservation ( name_restaurant_accept = "piatti") & piatti is about a 5 minute drive from the mall.
+restaurant_reservation ( name_restaurant = "vinoteca") & vinoteca is about a 7 minute drive from the mall.
+restaurant_reservation ( name_restaurant = "Causwells" ; location_restaurant = "2346 Chestnut St" ; location_restaurant_accept = "865 Market St") & you got it. let me look that up for you. I found 1608 Bistro at 1608 Bush St, Bazille at 865 Market St and Causwells at 2346 Chestnut St.
+restaurant_reservation ( type_seating = "outdoor or indoor seating") & All of them have full bar. do you have any preference for outdoor or indoor seating?
+restaurant_reservation ( name_restaurant = "Bazille") & Bazille offers valet parking.
+restaurant_reservation ( name_restaurant = "1608 bistro") & Bazille is Casual, chic venue in Nordstrom’s offering elevated bistro classics & brick-oven pizza plus wine, Causwells is an European-inspired bistro serves up American cuisine amid a quartzite bar & stained concrete floors and 1608 bistro is a Casual weekend brunch spot with New American dishes & French toast fritters in breezy quarters.
+restaurant_reservation ( name_reservation = "Bazille") & Bazille has available tables tonight. for how many people is your reservation?
+restaurant_reservation ( num_guests_accept = "two people" ; time_reservation_accept = "7pm" ; name_reservation_accept = "bazille") & Sure. your reservation for two people tonight at 7pm at bazille is confirmed.
+restaurant_reservation ( name_restaurant = "shanghai garden restaurant") & yes, you can order take out at shanghai garden restaurant
+restaurant_reservation ( name_restaurant = "mandarin restaurant") & no, the mandarin restaurant in a casual dining.
+restaurant_reservation ( name_restaurant = "shanghai garden") & shanghai garden has the most traffic from 12 to 1pm.
+restaurant_reservation ( name_restaurant = "shanghai garden restaurant") & shanghai garden restaurant has a 4.1 star rating and over 200 reviews on google.
+restaurant_reservation ( name_restaurant = "mandarin restaurant") & yes, the mandarin restaurant accepts all major credit cards and cash.
+restaurant_reservation ( name_restaurant = "applebee's bar and grill") & i found Jack's urban eats and applebee's bar and grill, would you like to hear more about each option?
+restaurant_reservation ( name_restaurant = "jack's urban eats") & jack's urban eats is described as a Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine.
+restaurant_reservation ( name_restaurant = "applebee's grill and bar") & applebee's grill and bar is described as a Full-service chain bar & grill providing hearty American eats in an informal setting.
+restaurant_reservation ( name_restaurant = "outback steakhouse") & i found outback steakhouse, it is described as a Boisterous Australian-themed chain serving steaks, seafood & other hearty steakhouse fare.
+restaurant_reservation ( name_restaurant = "jack's urban eats") & ok, i think jack's urban eats would be the best place for a more relaxed meal.
+restaurant_reservation ( name_restaurant = "Sam's Grill & Seafood Restaurant") & yes, Sam's Grill & Seafood Restaurant.
+restaurant_reservation ( type_seating_reject = "booths" ; type_seating = "benches") & It looks like they do not have booths, but some offer benches, would you prefer those seating types?
+restaurant_reservation ( time_reservation_accept = "tonight at 8pm" ; num_guests_accept = "2 people") & sure! Alright, for tonight at 8pm with 2 people, correct?
+restaurant_reservation ( name_restaurant = "picaro") & the first is b44 catalan bistro and the second is picaro.
+restaurant_reservation ( name_restaurant = "b44 catalan bistro") & picaro has a 4.4 star rating and b44 catalan bistro has a 4.2 rating.
+restaurant_reservation ( name_restaurant = "picaro") & it doesn't look like picaro has valet parking or a parking lot, your best option would be to use a public garage.
+restaurant_reservation ( type_seating = "indoor seating") & it only has indoor seating, would you like me to give you a short descripton?
+restaurant_reservation ( type_seating = "outdoor patio") & Diners share small plates & sangria pitchers amid colorful, art-filled walls or on an outdoor patio.
+restaurant_reservation ( type_seating = "tabletop") & did you want a booth or tabletop?
+restaurant_reservation ( type_seating_accept = "booth" ; num_guests_accept = "4" ; name_restaurant_accept = "picaro" ; time_reservation = "7:30") & i have booked a booth for 4 at picaro at 7:30 tonight, is that correct?
+restaurant_reservation ( name_restaurant = "Bamboo restaurant") & Give me a moment to verify. Bamboo restaurant does not seem to offer vegan options, but only Vegetarian ones.
+restaurant_reservation ( name_restaurant = "Gand place restaurant") & The Gand place restaurant mainly focuses on chinese and cantonese cuisine.
+restaurant_reservation ( num_guests = "7 people") & Of course, and you said that's for 7 people, correct?
+restaurant_reservation ( name_restaurant = "7PM") & Okay, it looks like they are booked today and tomorrow. THe next available time would be Monday at 7PM.
+restaurant_reservation ( num_guests_accept = "7" ; name_restaurant_accept = "Bamboo restaurant" ; time_reservation_accept = "7pm") & GreaT! let me confirm the reservation for you! Your table for 7 at Bamboo restaurant at 7pm on Monday January 28th has been confirmed.
+restaurant_reservation ( name_restaurant = "Cioponni's") & Cioponni's is another seafood restaurant.
+restaurant_reservation ( type_seating = "booster seat") & okay one moment. You mentioned children, did you want to request a high chair or booster seat?
+restaurant_reservation ( num_guests_accept = "4" ; name_restaurant_accept = "Carlito's By the Bay" ; time_reservation_accept = "7pm" ; type_seating_accept = "booth") & So that's 4 people for Carlito's By the Bay for 7pm, booth preferred? Confirm?
+restaurant_reservation ( location_restaurant = "sacramento") & ok, where in sacramento are you?
+restaurant_reservation ( name_restaurant = "BJ's Restaurant & Brewhouse" ; location_restaurant = "Sacramento") & California Pizza Kitchen at Arden Fair Sacramento: Chain eatery serving up inventive pizzas plus pastas & salads in a modern setting, Sbarro: Italian fast-food chain offering thin-crust pizza by the slice, plus pastas & salads. and BJ's Restaurant & Brewhouse: Family-friendly chain outpost pairs familiar pub fare with an extensive list of house brews.
+restaurant_reservation ( name_restaurant = "cotogna") & i found two restaurants that match your preferences. perbacco and cotogna.
+restaurant_reservation ( name_restaurant = "perbacco" ; type_seating = "tabletops") & the first restaurant is cotogna and the second is perbacco. it doesn't look like perbacco has booths only tabletops.
+restaurant_reservation ( num_guests_accept = "4" ; name_restaurant_accept = "perbacco" ; time_reservation_accept = "8 pm") & ok, i have reserved a table for 4 at perbacco for friday at 8 pm, is that correct?
+restaurant_reservation ( name_restaurant = "z&y restaurant") & you got it, one moment please. i found a couple places. the first that fits your preferences is called china live, Modern marketplace & culinary stop offering multi-course Chinese fare, casual snacks & artisan teas. the second is called z&y restaurant, Basic quarters for dining on Sichuan & Northern Chinese dishes packed with plenty of spice. do you need any more information about either of these options? yes, z&y restaurant has a few vegetarian options including egg foo young, and broccoli dishes in sweet sauce.
+restaurant_reservation ( name_restaurant = "china live") & china live has an A- rating for their health and sanitary inspection.
+restaurant_reservation ( name_restaurant = "Z&Y restaurant") & yes, Z&Y restaurant has a variety of beer and wine options.
+restaurant_reservation ( name_restaurant = "z& y restaurant") & china live is open until 10pm every night. sure, z& y restaurant it is. when do you wanna go?
+restaurant_reservation ( time_reservation = "5:30pm") & i'm sorry, they only do dinner service, they open at 5:30pm.
+restaurant_reservation ( num_guests_accept = "4" ; time_reservation_accept = "5:30pm" ; name_restaurant_accept = "californios") & got it, let me make your reservation. ok, i have booked a table for 4 at 5:30pm tomorrow at californios, can i help you with anything else?
+restaurant_reservation ( type_seating = "outdoor seating") & For example, do you want outdoor seating maybe?
+restaurant_reservation ( name_restaurant = "Marcella's Lasagneria") & Cool. let me search that up. I found two options. the first is giorgio's. Sequel to the longtime thin-crust pie institution, located upstairs in the Crocker Galleria. the second is Marcella's Lasagneria. Busy venue for lasagna with housemade pasta, plus other Italian favorites in cozy, convivial digs.
+restaurant_reservation ( name_restaurant = "giorgio's") & ok, giorgio's it is.
+restaurant_reservation ( location_restaurant = "sacramento") & which part of sacramento should i search?
+restaurant_reservation ( location_restaurant = "downtown SF") & Okay, let's see what we got! give me just a moment. To find a location that is close to or in walking distance of a bar i'd suggest a place in downtown SF
+restaurant_reservation ( time_reservation = "3pm") & Oh, my apologies, this restaurant closes by 3pm.
+restaurant_reservation ( name_restaurant = "Hakkasan") & Let's have a look at the next option. Hakkasan, is a Asian fusion restaurant just a block down that is open for dinner.
+restaurant_reservation ( time_reservation = "10PM") & Okay! and did you have a preference on time? They are open until 10PM.
+restaurant_reservation ( name_restaurant = "Arielle") & sure, both golden boy and Arielle are rated at 1 out of 5 stars in terms of price.
+restaurant_reservation ( type_seating = "tabletop") & let me check if there will be availability. and did you want a booth or tabletop?
+restaurant_reservation ( num_guests_accept = "2" ; name_restaurant_accept = "golden boy pizza" ; time_reservation_accept = "7pm" ; type_seating_accept = "booth") & ok, checking for you now. alright, i have made a reservation for 2 at golden boy pizza for tonight at 7pm, with a booth requested. can i help with anything else?
+restaurant_reservation ( name_restaurant = "Olive Garden") & Okay, let me see. within the mall, i can only find subway that resembles anything close to Italian food. but across the street there is Olive Garden.
+restaurant_reservation ( name_restaurant = "olive garden") & okay, let me check. The olive garden is rated at 4.1 stars with 1363 reviews.
+restaurant_reservation ( name_restaurant = "Buckhorn Grill") & i found Squeeze Burger, Broderick Roadhouse and Buckhorn Grill.
+restaurant_reservation ( name_restaurant = "Taco Bell") & First is Taco Bell, which is family friendly fast food with vegetarian options and mexican styled meals, then there's Chando's Taco's Local counter-serve/window-serve chain dishing up Tijuana-style Mexican street food & beer.
+restaurant_reservation ( name_restaurant = "Chando's Taco's") & Chando's Taco's.
+restaurant_reservation ( name_restaurant = "Beto's Tacos") & Beto's Tacos.
+restaurant_reservation ( name_restaurant = "Locanda") & i found Cotogna: Popular eatery serving spit-roasted and grilled meat & fish, wood-fired pizza and house-made pasta. and also, Locanda: Italian classics, cocktails & a formidable wine list round out the menu at this local favorite.
+restaurant_reservation ( type_seating = "booth") & do you prefer to sit at a table or booth?
+restaurant_reservation ( time_reservation_accept = "tomorrow at 5pm" ; name_restaurant_accept = "cotogna" ; num_guests_accept = "4 people.") & sure, your reservation is confirmed for tomorrow at 5pm at cotogna for 4 people.
+restaurant_reservation ( name_restaurant = "Palomino" ; location_restaurant_accept = "345 spear st and marlowe at 500 Brannan St") & sure, give me a second while i search that for you. i found Palomino at 345 spear st and marlowe at 500 Brannan St.
+restaurant_reservation ( name_restaurant_accept = "palomino's" ; num_guests_accept = "4 people" ; time_reservation_accept = "6pm") & sure. your reservation is confirmed at palomino's for 4 people at 6pm on sunday, february 17th.
+restaurant_reservation ( name_restaurant = "perbacco") & i found cotogna and perbacco, which one sound good?
+restaurant_reservation ( name_restaurant = "Cozy") & Sounds good. Let me take a look and get back to you? Ok, I found a few. There's one called Jin Mi. Unassuming space doling out typical Korean dishes such as tofu soup, bulgogi & bibimbap. There's another called Aria Korean Tapas. Cozy, informal restaurant serving quick, homestyle Korean-American small plates & street food.
+restaurant_reservation ( name_restaurant_accept = "Jin Mi") & Jin Mi. Yes, they have sake and soju.
+restaurant_reservation ( time_reservation = "6:30") & Friday night at 7 or 8pm. let me take a look? unfortunately they do not have those times available. would you like another time? They have a reservation available at 6 or 6:30.
+restaurant_reservation ( type_seating = "fancy") & Do you have any other preferences for the restaurant? For example, full bar. or fancy?
+restaurant_reservation ( name_restaurant_accept = "Roka Akor") & Roka Akor is open until 10:30pm.
+restaurant_reservation ( num_guests_accept = "two" ; time_reservation = "6pm") & ok. for two people they have a 2:30 or 6pm.
+restaurant_reservation ( name_restaurant = "gracias madre") & ok, let me find some options for you. i found tropisuenos and gracias madre, would you like to hear more about each option?
+restaurant_reservation ( name_restaurant = "tropisueno") & tropisueno is described as a Lively Mexican eatery serving up classic plates & margaritas in a relaxed, upbeat environment.
+restaurant_reservation ( name_restaurant_accept = "gracias madres") & gracias madres is described as a Fans of Mexican sustainable eats grab a seat at the long bar & communal tables in blonde-wood decor.
+restaurant_reservation ( type_seating = "outdoor tables" ; num_guests = "4") & it looks like their outdoor tables can only seat up to 4 people.
+restaurant_reservation ( num_guests_accept = "5" ; name_restaurant_accept = "tropisueno" ; time_reservation_accept = "march 2nd at 6pm") & i have booked a table for 5 at tropisueno on march 2nd at 6pm. can i help with anything else?
+restaurant_reservation ( name_restaurant = "Bombay Bar and Grill") & ok, let me take a look. i found The Mandarin Restaurant: Family-run establishment serving classic Chinese dishes in a homey atmosphere since 1981. and i also found Bombay Bar and Grill: Stylish Indian restaurant with a warm atmosphere offering a full bar & large menu of specialty fare.
+restaurant_reservation ( name_restaurant = "Jamber Wine Pub") & About about the location, should it be close to the coast or in downtown? okay, give me one moment. I found a lot of possibilities, let me know which one you'd like to know more about: the first is Bluestem Brasserie. then we have Jamber Wine Pub.
+restaurant_reservation ( name_restaurant = "Scala's Bistro") & And Scala's Bistro.
+restaurant_reservation ( name_restaurant = "Jamber Wine Pub is") & Jamber Wine Pub is the cheapest amongst those three.
+restaurant_reservation ( name_restaurant = "Bluestem Brasserie") & Their reviews on google are at 4,3 stars. this location also offer live music. yes, Bluestem Brasserie does.
+restaurant_reservation ( name_restaurant_accept = "Bluestem Brasserie") & do you mean Bluestem Brasserie?
+restaurant_reservation ( time_reservation_reject = "7pm" ; time_reservation = "8pm") & 7pm is already booked, how about a later or earlier time? Sure! 8pm, one moment.
+restaurant_reservation ( name_restaurant = "mano") & ok, i found 2 options for you. sotto mare and a mano.
+restaurant_reservation ( name_restaurant = "mano") & the first is called sotto mare and the second is called a mano.
+restaurant_reservation ( time_reservation = "7:30") & ok, let me check for you. they have openings at 6:15 or 7:30 tonight.
+restaurant_reservation ( num_guests_accept = "4" ; name_restaurant_accept = "sotto mare" ; time_reservation_accept = "6:15pm") & ok, let me finish booking that for you i have booked a table for 4 at sotto mare for tonight at 6:15pm, is that correct?
+restaurant_reservation ( name_restaurant = "cafe rio mexican grill") & ok, i found dos coyotes border cafe and cafe rio mexican grill, would you like to hear more about each?
+restaurant_reservation ( name_restaurant = "cafe rio mexican grill") & the second restaurant is called cafe rio mexican grill.
+restaurant_reservation ( name_restaurant = "marlowe") & sure, let me find some restaurants for you. i found nopa and marlowe, would you like to hear more about each restaurant?
+restaurant_reservation ( name_restaurant = "marlowe") & sure, nopa is described as a Ingredient-focused Californian eats & creative cocktails in a lively, 2-story setting. marlowe is described as a Stylish & lively option serving Californian comfort food in a hip & sprawling space.
+restaurant_reservation ( name_restaurant = "nopa") & let me check that for you. the head chef at nopa is laurence jossel.
+restaurant_reservation ( name_restaurant = "marlowe") & jennifer puccio is the head chef at marlowe.
+restaurant_reservation ( name_restaurant = "marlowe") & it doesn't look like there's a rating for desserts specifically but nopa has an overall 4.5 out of 5 star rating and marlowe has an overall ranking of 4.4 out of 5 stars.
+restaurant_reservation ( time_reservation = "8:30") & sure, let me check to see if they'll have any availability. it looks like they'll be fully booked for this friday. i'm seeing that they'll have availability on saturday from 5-6 or from 8:30 to closing.
+restaurant_reservation ( num_guests_accept = "2" ; time_reservation_accept = "8pm" ; name_restaurant_accept = "nopa") & ok, let me book your table, one moment. i have booked a table for 2 at 8pm for this saturday at nopa. can i help with anything else?
+restaurant_reservation ( name_restaurant = "Don Ramon's") & I have Don Ramon's here, it has great ratings.
+restaurant_reservation ( type_seating = "sit down") & both of them are sit down restaurants, yes.
+restaurant_reservation ( name_restaurant = "Rosamunde Sausage Grill") & yes, Rosamunde Sausage Grill does have free wifi access.
+restaurant_reservation ( name_restaurant = "What's Up Dog Express") & What's Up Dog Express has brioche, wheat, white, sourdough, and waffle.
+restaurant_reservation ( name_restaurant = "what's up dog express") & sure, what's up dog express it is. when do you want the reservation?
+restaurant_reservation ( location_restaurant = "san francisco") & amn italian restaurant in san francisco is that right?
+restaurant_reservation ( name_restaurant = "The Italian Homemade Company") & yes The Italian Homemade Company is the cheapest of these 3 options.
+restaurant_reservation ( name_restaurant = "The Italian Homemade Company") & ok, you would like to make reservation with The Italian Homemade Company is that correct?
+restaurant_reservation ( time_reservation = "4pm") & 4pm, sure for how many people?
+restaurant_reservation ( num_guests = "2" ; type_seating = "booth") & 2 people sure, any preference for table or booth?
+restaurant_reservation ( time_reservation_accept = "4 pm" ; num_guests_accept = "2 people" ; type_seating_accept = "table" ; name_restaurant_accept = "The Italian Homemade Company") & ok 4 pm today for 2 people at a table at The Italian Homemade Company. would you like to confirm the reservation.
+restaurant_reservation ( name_restaurant = "Hunan Home's Resaurant") & R & G Lounge and Hunan Home's Resaurant.
+restaurant_reservation ( num_guests_accept = "2" ; time_reservation_accept = "6 oclock" ; name_restaurant_accept = "R&G lounge") & ok, you have a table booked for 2 at 6 oclock at R&G lounge.
+restaurant_reservation ( name_restaurant = "Gracias Madre") & Alright, I have several options. New Delhi Indian Restaurant, Acquolina, and Gracias Madre are very popular.
+restaurant_reservation ( name_restaurant = "Piccolo Forno" ; location_restaurant_accept = "Seven Hills") & I have Piccolo Forno in Seven Hills. Is this what you're looking for?
+restaurant_reservation ( name_restaurant_accept = "Piccolo Forno" ; time_reservation_accept = "9PM" ; num_guests_accept = "four") & Alright I have a reservation for you at Piccolo Forno at 9PM tonight for four people.
+restaurant_reservation ( name_restaurant = "Cafe Rio") & yes, Cafe Rio is in the $10 to $15 price range.
+restaurant_reservation ( name_restaurant = "Kico's mexican food is") & Kico's mexican food is in the $15 to $20 price range.
+restaurant_reservation ( type_seating_reject = "outdoor seating") & are there any other features you would like the restaurant to have so i can narrow my search? sure, let me search for you. i found a few options for you, marlowe and spruce. let me check for you. it doesn't look like they have outdoor seating.
+restaurant_reservation ( num_guests_accept = "2" ; name_restaurant_accept = "spruce" ; time_reservation_accept = "8pm") & ok, i have booked a table for 2 at spruce for tomorrow at 8pm, is that correct?
+restaurant_reservation ( time_reservation = "7pm") & the average price for montesacro pinseria sf and delarosa is both $20 per person. let me search for wait time. looks like both restaurants get busy around 7pm but there's no wait time information available online.
+restaurant_reservation ( name_restaurant = "delarosa" ; time_reservation_reject = "4pm" ; time_reservation = "5pm") & ok. a reservation at delarosa at 4pm is not available, sorry for the inconvenience. did u want to select their 5pm instead?
+restaurant_reservation ( name_restaurant = "to make a reser") & both of these restaurants are rated at 2 out of 5 stars in terms of price. both of these restaurants are rated at 2 out of 5 stars in terms of price. sure, would you like to make a reservation? sure, would you like to make a reservation?
+restaurant_reservation ( name_restaurant = "they wi") & ok, let me see when they will have availability. ok, let me see when they will have availability. they will have a table for 2 available at 8:30pm, is that ok? they will have a table for 2 available at 8:30pm, is that ok?
+restaurant_reservation ( name_restaurant = "le fo") & great, let me make that reservation, one moment. great, let me make that reservation, one moment. ok, i have reserved a table for 2 for tonight at 8:30pm at ebisu restaurant. can i help with anything else? ok, i have reserved a table for 2 for tonight at 8:30pm at ebisu restaurant. can i help with anything else?
+restaurant_reservation ( name_restaurant = "sure,") & sure, it is (415) 566-1770. sure, it is (415) 566-1770.
+restaurant_reservation ( num_guests = "2" ; time_reservation = "8:30pm") & ok, let me see when they will have availability. ok, let me see when they will have availability. ok, let me see when they will have availability. ok, let me see when they will have availability. they will have a table for 2 available at 8:30pm, is that ok? they will have a table for 2 available at 8:30pm, is that ok? they will have a table for 2 available at 8:30pm, is that ok? they will have a table for 2 available at 8:30pm, is that ok?
+restaurant_reservation ( num_guests = "2" ; time_reservation = "tonight at 8:30pm" ; name_restaurant = "ebisu restaurant" ; num_guests_accept = "2" ; time_reservation_accept = "tonight at 8:30pm" ; name_restaurant_accept = "ebisu restaurant") & great, let me make that reservation, one moment. great, let me make that reservation, one moment. great, let me make that reservation, one moment. great, let me make that reservation, one moment. ok, i have reserved a table for 2 for tonight at 8:30pm at ebisu restaurant. can i help with anything else? ok, i have reserved a table for 2 for tonight at 8:30pm at ebisu restaurant. can i help with anything else? ok, i have reserved a table for 2 for tonight at 8:30pm at ebisu restaurant. can i help with anything else? ok, i have reserved a table for 2 for tonight at 8:30pm at ebisu restaurant. can i help with anything else?
+restaurant_reservation ( name_restaurant = "gracias madre") & ok, i found tommy's mexican restaurant and gracias madre, would you like to hear more about each?
+restaurant_reservation ( type_seating = "tabletop") & sure, let me check to see if they have availability during that time. did you want to sit at a booth or a tabletop?
+restaurant_reservation ( num_guests_accept = "4" ; time_reservation_accept = "8pm" ; name_restaurant_accept = "gracias madre") & ok, let me check to see if they have a booth available during that time. ok, i have booked a booth for 4 tonight at 8pm at gracias madre, can i help you with anything else?
+restaurant_reservation ( name_restaurant = "Baladie Gourmet Cafe") & Alright! give me a moment to search for some. alright, i found a few for you! Baladie Gourmet Cafe, it's a Mediterranean style restaurant.
+restaurant_reservation ( name_restaurant = "Indochine Vegan") & Certainly! Indochine Vegan.
+restaurant_reservation ( time_reservation = "7:30") & Okay! let me see what they have available? They seem to have an opening at 7:30.
+restaurant_reservation ( num_guests_accept = "3" ; time_reservation_accept = "7:30 tonight" ; name_restaurant_accept = "Indochine Vegan") & great! give me a moment to confirm it for you. ALright your table for 3 is set for 7:30 tonight at Indochine Vegan.
+restaurant_reservation ( name_restaurant = "hong kong clay pot restaurant" ; type_seating = "booth") & yes, hong kong clay pot restaurant has booth seating, and average prices are about $10 per person.
+restaurant_reservation ( name_restaurant = "San Tung") & San Tung has an A rating in terms of health and safety and the average price is $15 per person.
+restaurant_reservation ( name_restaurant = "san tung") & sure, san tung is a great place. you'll love it. when do you want a reservation for and for how many people?
+restaurant_reservation ( name_restaurant_accept = "GoGi's Korean BBQ") & GoGi's Korean BBQ has a 4.4 star rating and over 70 reviews.
+restaurant_reservation ( name_restaurant = "Tako Korean BBQ") & Tako Korean BBQ has a 4.4 star rating as well and has over 400 reviews.
+restaurant_reservation ( time_reservation_reject = "8pm" ; num_guests_accept = "4") & ok. it doesn't look like there's a table available on saturday at 8pm for 4 people. is there another time that works for you?
+restaurant_reservation ( time_reservation_accept = "5pm") & got it. there is a table available at 5pm. i've booked it for you and your party. did you need anything else?
+restaurant_reservation ( name_restaurant = "pera") & i found barcha and pera, would you like to hear more about each?
+restaurant_reservation ( name_restaurant = "barcha" ; type_seating = "patio seating") & barcha is described as a Modern spot for Mediterranean eats in an arty, upbeat atmosphere, plus happy hour & patio seating.
+restaurant_reservation ( name_restaurant = "pera") & pera is described as a Mediterranean fare including Turkish & Greek specialties in a neighborhood setting.
+restaurant_reservation ( num_guests = "9 people") & did you say for 9 people?
+restaurant_reservation ( num_guests = "9" ; time_reservation = "8:30 pm") & ok, let me see if they'll have anything available tonight. it looks like they'll have a table for 9 available at 8:30 pm tonight, will that work for you?
+restaurant_reservation ( type_seating_accept = "outdoor table" ; num_guests_accept = "9" ; name_restaurant_accept = "barcha" ; time_reservation_accept = "8:30 pm") & ok, i have reserved an outdoor table for 9 at barcha for tonight at 8:30 pm. can i help with anything else?
+restaurant_reservation ( location_restaurant = "sacramento") & where in sacramento are you located?
+restaurant_reservation ( name_restaurant = "Seasons 52") & sure, let me take a look. i found Johnny Rockets: Burgers, shakes & fries arrive in a '50s diner setting at this outpost of the international chain. and i also found Seasons 52: Rotating menu of seasonal American dishes alongside international wines in an upscale setting.
+restaurant_reservation ( num_guests_accept = "4" ; name_restaurant_accept = "seasons 52") & ok, your reservation for 4 people is confirmed at seasons 52.
+restaurant_reservation ( location_restaurant = "san francisco") & ok a sit down restaurant in san francisco right.
+restaurant_reservation ( name_restaurant = "Rich Table") & let's see, Rich Table closes at 10:30pm.
+restaurant_reservation ( name_restaurant = "SAMS American Eatery") & SAMS American Eatery opens at 6:30am and closes at 10:30pm monday through friday.
+restaurant_reservation ( name_restaurant = "Nopa") & yes, Nopa is casual dinning, flip flop should be fine.
+restaurant_reservation ( name_restaurant = "rich table") & ok so rich table is that correct.
+restaurant_reservation ( time_reservation = "6pm") & ok tomorrow at 6pm, got it, any table preferences.
+restaurant_reservation ( type_seating_accept = "indoor booth" ; num_guests_accept = "6" ; name_restaurant_accept = "rich table" ; time_reservation_accept = "6pm") & ok, so indoor booth for 6 people at rich table tomorrow at 6pm shall we confirm the reservation.
+restaurant_reservation ( name_restaurant = "Hong Kong Clay Pot Restaurant") & Sure, the average rating at China Live is 4.3 stars, and it's about $15 to $20 per person. For Hong Kong Clay Pot Restaurant, the average rating is 4.3 stars and the average price per person is $10.
+restaurant_reservation ( name_restaurant = "Hong Kong Clay Pot Restaurant" ; time_reservation_reject = "5 p.m") & A reservation at Hong Kong Clay Pot Restaurant today at 5 p.m. is not available, unfortunately. Was there another time that worked for you?
+restaurant_reservation ( time_reservation = "7 p.m") & Great, it looks like 7 p.m. works. How many people are in your party?
+restaurant_reservation ( name_restaurant = "Hong Kong Clay Pot Restaurant" ; time_reservation_accept = "7 p.m" ; num_guests_accept = "4") & Ok, I've booked your table at Hong Kong Clay Pot Restaurant at 7 p.m. for 4 people today. Did you need anything else from me?
+restaurant_reservation ( name_restaurant = "Atelier Crenn" ; type_seating = "seating outside") & french cuisine sounds great. let me take a look. I found La Folie and Atelier Crenn. Both have seating outside and have top shelf liquor.
+restaurant_reservation ( name_restaurant = "Atelier Crenn") & Atelier Crenn has 4.7 stars.
+restaurant_reservation ( name_restaurant = "La folie") & La folie has 4.5 stars.
+restaurant_reservation ( name_restaurant = "Atelier Crenn") & Atelier Crenn is the most expensive one.
+restaurant_reservation ( time_reservation_reject = "tonight at 8pm") & it looks like there are not seats available for tonight at 8pm.
+restaurant_reservation ( time_reservation = "9pm") & yes. 9pm works.
+restaurant_reservation ( num_guests = "3 people") & sure. For 3 people, correct?
+restaurant_reservation ( time_reservation_accept = "9pm" ; num_guests_accept = "3 people" ; type_seating_accept = "sitting outside" ; name_restaurant_accept = "atelier crenn") & Ok, reserved! 9pm for 3 people, sitting outside at the atelier crenn.
+restaurant_reservation ( name_reservation_accept = "Bon apetit.") & you're very welcome. Bon apetit.

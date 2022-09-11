@@ -1,0 +1,2717 @@
+[
+    [
+        "OFFER(song_name=\"I Do Adore\";artist=\"Mindy Gledhill\";album=\"Anchor\")",
+        "How about I Do Adore by Mindy Gledhill from the album Anchor?",
+        "How about I Do Adore by Mindy Gledhill from the album Anchor?"
+    ],
+    [
+        "OFFER(song_name=\"Carry Me\";artist=\"Kygo\";album=\"Cloud Nine\")",
+        "Okay. How about Carry Me by Kygo from the album Cloud Nine?",
+        "Okay. How about Carry Me by Kygo from the album Cloud Nine?"
+    ],
+    [
+        "CONFIRM(song_name=\"Carry Me\";playback_device=\"TV\")",
+        "You would like me to play the song Carry Me on the TV, is this correct?",
+        "You would like me to play the song Carry Me on the TV, is this correct?"
+    ],
+    [
+        "INFORM(year=\"2016\";genre=\"Downtempo\")",
+        "Your music will begin playing shortly. The song is from the year 2016 and was listed as a Downtempo song.",
+        "Your music will begin playing shortly. The song is from the year 2016 and was listed as a Downtempo song."
+    ],
+    [
+        "INFORM(year=\"2016\";genre=\"Downtempo\")@NOTIFY_SUCCESS()",
+        "Your music will begin playing shortly. The song is from the year 2016 and was listed as a Downtempo song.",
+        "Your music will begin playing shortly. The song is from the year 2016 and was listed as a Downtempo song."
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")",
+        "Sure! What about Adorn by Miguel? It's on the album Kaleidoscope Dream.",
+        "Sure! What about Adorn by Miguel? It's on the album Kaleidoscope Dream."
+    ],
+    [
+        "OFFER(song_name=\"Bad Habit\";artist=\"Ben Platt\";album=\"Sing to me Instead\")",
+        "I've got 4 for you on the Ben Platt album Sing to me Instead. Do you like the song Bad Habit?",
+        "I've got 4 for you on the Ben Platt album Sing to me Instead. Do you like the song Bad Habit?"
+    ],
+    [
+        "OFFER(song_name=\"Bad Habit\";artist=\"Ben Platt\";album=\"Sing to me Instead\")@INFORM_COUNT(count=\"4\")",
+        "I've got 4 for you on the Ben Platt album Sing to me Instead. Do you like the song Bad Habit?",
+        "I've got 4 for you on the Ben Platt album Sing to me Instead. Do you like the song Bad Habit?"
+    ],
+    [
+        "OFFER(song_name=\"Ease My Mind\";artist=\"Ben Platt\";album=\"Sing to me Instead\")",
+        "What about the Ben Platt song Ease My Mind? That's also on the Sing to me Instead album",
+        "What about the Ben Platt song Ease My Mind? That's also on the Sing to me Instead album"
+    ],
+    [
+        "INFORM(year=\"2019\")",
+        "No that was from 2019.",
+        "No that was from 2019."
+    ],
+    [
+        "CONFIRM(song_name=\"Ease My Mind\";playback_device=\"Kitchen speaker\")",
+        "Sure, can you just confirm that you want me to play Ease My Mind on the kitchen speaker?",
+        "Sure, can you just confirm that you want me to play Ease My Mind on the kitchen speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "No problem. It's playing for you now",
+        "No problem. It's playing for you now"
+    ],
+    [
+        "OFFER(song_name=\"Aftertaste\";artist=\"Shawn Mendes\";album=\"Handwritten\")",
+        "Would you like Aftertaste by Shawn Mendes from the album Handwritten?",
+        "Would you like Aftertaste by Shawn Mendes from the album Handwritten?"
+    ],
+    [
+        "OFFER(song_name=\"Back it Up\";artist=\"Prince Royce\";album=\"Double Vision\")",
+        "There's Back it Up by Prince Royce from the album Double Vision.",
+        "There's Back it Up by Prince Royce from the album Double Vision."
+    ],
+    [
+        "OFFER(song_name=\"Din Don Dan\";artist=\"Ryutaro Nakahara\";album=\"Seventh Heaven\")",
+        "From Ryutaro Nakahara there is Din Don Dan from the album Seventh Heaven.",
+        "From Ryutaro Nakahara there is Din Don Dan from the album Seventh Heaven."
+    ],
+    [
+        "CONFIRM(song_name=\"Din Don Dan\";playback_device=\"Kitchen speaker\")",
+        "I'll play Din Don Dan on the Kitchen speaker, is that correct?",
+        "I'll play Din Don Dan on the Kitchen speaker, is that correct?"
+    ],
+    [
+        "CONFIRM(song_name=\"Din Don Dan\";playback_device=\"Bedroom speaker\")",
+        "I'll play Din Don Dan on the Bedroom speaker, is that correct?",
+        "I'll play Din Don Dan on the Bedroom speaker, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, enjoy the song.",
+        "Okay, enjoy the song."
+    ],
+    [
+        "INFORM(genre=\"Anime\")",
+        "It's an Anime song.",
+        "It's an Anime song."
+    ],
+    [
+        "OFFER(song_name=\"Ridin High\";artist=\"Jawga Boyz\";album=\"Kuntry\")",
+        "I found 10 you may enjoy. How about Ridin High by the Jawga Boyz in the album Kuntry?",
+        "I found 10 you may enjoy. How about Ridin High by the Jawga Boyz in the album Kuntry?"
+    ],
+    [
+        "OFFER(song_name=\"Ridin High\";artist=\"Jawga Boyz\";album=\"Kuntry\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 you may enjoy. How about Ridin High by the Jawga Boyz in the album Kuntry?",
+        "I found 10 you may enjoy. How about Ridin High by the Jawga Boyz in the album Kuntry?"
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "It's Country Music.",
+        "It's Country Music."
+    ],
+    [
+        "OFFER(song_name=\"Out Of Love\";artist=\"Alessia Cara\";album=\"The Pains Of Growing\")",
+        "There's also Out Of Love by Alessia Cara in the album The Pains Of Growing.",
+        "There's also Out Of Love by Alessia Cara in the album The Pains Of Growing."
+    ],
+    [
+        "CONFIRM(song_name=\"Out of Love\";playback_device=\"Kitchen speaker\")",
+        "So you want to listen to Out of Love on the kitchen speaker?",
+        "So you want to listen to Out of Love on the kitchen speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Enjoy the song.",
+        "Enjoy the song."
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")",
+        "Sure, I will search for you.. I've got a playlist of 10 songs. Do you like to hear the song Adorn by the Song Writer Miguel from his studio album Kaleidoscope Dream?",
+        "Sure, I will search for you.. I've got a playlist of 10 songs. Do you like to hear the song Adorn by the Song Writer Miguel from his studio album Kaleidoscope Dream?"
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")@INFORM_COUNT(count=\"10\")",
+        "Sure, I will search for you.. I've got a playlist of 10 songs. Do you like to hear the song Adorn by the Song Writer Miguel from his studio album Kaleidoscope Dream?",
+        "Sure, I will search for you.. I've got a playlist of 10 songs. Do you like to hear the song Adorn by the Song Writer Miguel from his studio album Kaleidoscope Dream?"
+    ],
+    [
+        "OFFER(song_name=\"Curious\";artist=\"Hayley Kiyoko\";album=\"Expectations\")",
+        "Yup! Would you prefer to listen to Curious by Hayley Kiyoko from the album Expectations?",
+        "Yup! Would you prefer to listen to Curious by Hayley Kiyoko from the album Expectations?"
+    ],
+    [
+        "CONFIRM(song_name=\"Curious\";playback_device=\"Kitchen speaker\")",
+        "Sure! Please confirm me that you like to listen to Curious song in your Kitchen speaker, right?",
+        "Sure! Please confirm me that you like to listen to Curious song in your Kitchen speaker, right?"
+    ],
+    [
+        "CONFIRM(song_name=\"Curious\";playback_device=\"Bedroom speaker\")",
+        "Sure! So, you wish to listen to the song Curious in your Bedroom speaker. Am I right?",
+        "Sure! So, you wish to listen to the song Curious in your Bedroom speaker. Am I right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Have fun with the music.",
+        "Have fun with the music."
+    ],
+    [
+        "OFFER(song_name=\"Blocks\";artist=\"Marshmello\";album=\"Joytime\")",
+        "Do you have any opinion on Blocks by Marshmello in the album Joytime.",
+        "Do you have any opinion on Blocks by Marshmello in the album Joytime."
+    ],
+    [
+        "CONFIRM(song_name=\"Blocks\";playback_device=\"TV\")",
+        "Please give confirmation details: To play the song Blocks on TV",
+        "Please give confirmation details: To play the song Blocks on TV"
+    ],
+    [
+        "INFORM(genre=\"House\")",
+        "Have fun. The music is a House Song.",
+        "Have fun. The music is a House Song."
+    ],
+    [
+        "INFORM(genre=\"House\")@NOTIFY_SUCCESS()",
+        "Have fun. The music is a House Song.",
+        "Have fun. The music is a House Song."
+    ],
+    [
+        "OFFER(song_name=\"Always Remember Us This Way\";artist=\"Lady Gaga\";album=\"A Star is Born Soundtrack\")",
+        "I have 10 songs for you. What about Always Remember Us This Way by Lady Gaga in the A Star is Born Soundtrack album?",
+        "I have 10 songs for you. What about Always Remember Us This Way by Lady Gaga in the A Star is Born Soundtrack album?"
+    ],
+    [
+        "OFFER(song_name=\"Always Remember Us This Way\";artist=\"Lady Gaga\";album=\"A Star is Born Soundtrack\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 songs for you. What about Always Remember Us This Way by Lady Gaga in the A Star is Born Soundtrack album?",
+        "I have 10 songs for you. What about Always Remember Us This Way by Lady Gaga in the A Star is Born Soundtrack album?"
+    ],
+    [
+        "OFFER(song_name=\"Mercy\";artist=\"Shawn Mendes\";album=\"Illuminate\")",
+        "I have 10 songs for you. How about Mercy by Shawn Mendes in the Illuminate album?",
+        "I have 10 songs for you. How about Mercy by Shawn Mendes in the Illuminate album?"
+    ],
+    [
+        "OFFER(song_name=\"Mercy\";artist=\"Shawn Mendes\";album=\"Illuminate\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 songs for you. How about Mercy by Shawn Mendes in the Illuminate album?",
+        "I have 10 songs for you. How about Mercy by Shawn Mendes in the Illuminate album?"
+    ],
+    [
+        "OFFER(song_name=\"Glow\";artist=\"Madcon\";album=\"Contraband\")",
+        "How about Glow by Madcon in the album Contraband?",
+        "How about Glow by Madcon in the album Contraband?"
+    ],
+    [
+        "CONFIRM(song_name=\"Glow\";playback_device=\"Kitchen speaker\")",
+        "Could you confirm that you want to play Glow on the kitchen speaker?",
+        "Could you confirm that you want to play Glow on the kitchen speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Please enjoy the song.",
+        "Please enjoy the song."
+    ],
+    [
+        "OFFER(song_name=\"Best Shot\";artist=\"Jimmie Allen\";album=\"Mercury Lane\")",
+        "Got it. I've found 1 song from the album Mercury Lane by Jimmie Allen, it's called Best Shot.",
+        "Got it. I've found 1 song from the album Mercury Lane by Jimmie Allen, it's called Best Shot."
+    ],
+    [
+        "OFFER(song_name=\"Best Shot\";artist=\"Jimmie Allen\";album=\"Mercury Lane\")@INFORM_COUNT(count=\"1\")",
+        "Got it. I've found 1 song from the album Mercury Lane by Jimmie Allen, it's called Best Shot.",
+        "Got it. I've found 1 song from the album Mercury Lane by Jimmie Allen, it's called Best Shot."
+    ],
+    [
+        "CONFIRM(song_name=\"Best Shot\";playback_device=\"TV\")",
+        "Confirm me the operation. I'll play the song Best Shot on TV.",
+        "Confirm me the operation. I'll play the song Best Shot on TV."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Enjoy the tunes",
+        "Enjoy the tunes"
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "It's Country.",
+        "It's Country."
+    ],
+    [
+        "OFFER(song_name=\"Titanium\";artist=\"Madilyn Bailey\";album=\"Muse Box\")",
+        "I have found 1, how about Titanium by Madilyn Bailey from the album Muse Box",
+        "I have found 1, how about Titanium by Madilyn Bailey from the album Muse Box"
+    ],
+    [
+        "OFFER(song_name=\"Titanium\";artist=\"Madilyn Bailey\";album=\"Muse Box\")@INFORM_COUNT(count=\"1\")",
+        "I have found 1, how about Titanium by Madilyn Bailey from the album Muse Box",
+        "I have found 1, how about Titanium by Madilyn Bailey from the album Muse Box"
+    ],
+    [
+        "CONFIRM(song_name=\"Titanium\";playback_device=\"Kitchen speaker\")",
+        "Please confirm: playing Titanium on the Kitchen Speaker",
+        "Please confirm: playing Titanium on the Kitchen Speaker"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, enjoy the music",
+        "Ok, enjoy the music"
+    ],
+    [
+        "OFFER(song_name=\"Let It Go\";artist=\"The Piano Guys\";album=\"Wonders\")",
+        "I found 10 songs. How about Let It Go by The Piano Guys in the album Wonders.",
+        "I found 10 songs. How about Let It Go by The Piano Guys in the album Wonders."
+    ],
+    [
+        "OFFER(song_name=\"Let It Go\";artist=\"The Piano Guys\";album=\"Wonders\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 songs. How about Let It Go by The Piano Guys in the album Wonders.",
+        "I found 10 songs. How about Let It Go by The Piano Guys in the album Wonders."
+    ],
+    [
+        "INFORM(year=\"2014\";genre=\"Classical\")",
+        "Classical from 2014.",
+        "Classical from 2014."
+    ],
+    [
+        "CONFIRM(song_name=\"Let It Go\";playback_device=\"TV\")",
+        "Please confirm playing of Let It Go on TV.",
+        "Please confirm playing of Let It Go on TV."
+    ],
+    [
+        "CONFIRM(song_name=\"Let It Go\";playback_device=\"Kitchen speaker\")",
+        "Please confirm Let It Go playing on Kitchen speaker.",
+        "Please confirm Let It Go playing on Kitchen speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Enjoy.",
+        "Enjoy."
+    ],
+    [
+        "OFFER(song_name=\"Dance Macabre\";artist=\"Ghost\";album=\"Prequelle\")",
+        "There is 10 songs. Do you like Dance Macabre by Ghost from the album Prequelle?",
+        "There is 10 songs. Do you like Dance Macabre by Ghost from the album Prequelle?"
+    ],
+    [
+        "OFFER(song_name=\"Dance Macabre\";artist=\"Ghost\";album=\"Prequelle\")@INFORM_COUNT(count=\"10\")",
+        "There is 10 songs. Do you like Dance Macabre by Ghost from the album Prequelle?",
+        "There is 10 songs. Do you like Dance Macabre by Ghost from the album Prequelle?"
+    ],
+    [
+        "CONFIRM(song_name=\"Dance Macabre\";playback_device=\"TV\")",
+        "Play the song Dance Macabre on the TV.",
+        "Play the song Dance Macabre on the TV."
+    ],
+    [
+        "INFORM(year=\"2018\";genre=\"metal\")",
+        "No, it's from 2018 and it's a metal song.",
+        "No, it's from 2018 and it's a metal song."
+    ],
+    [
+        "INFORM(year=\"2018\";genre=\"metal\")@NOTIFY_SUCCESS()",
+        "No, it's from 2018 and it's a metal song.",
+        "No, it's from 2018 and it's a metal song."
+    ],
+    [
+        "OFFER(song_name=\"Open Up\";artist=\"Matt Simons\";album=\"After The Landslide\")",
+        "Do you like Open Up from the Matt Simons album After The Landslide?",
+        "Do you like Open Up from the Matt Simons album After The Landslide?"
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "The song is pop.",
+        "The song is pop."
+    ],
+    [
+        "OFFER(song_name=\"Alone\";artist=\"Alan Walker\";album=\"Different World\")",
+        "There are 10 songs including Alone from the Alan Walker album Different World.",
+        "There are 10 songs including Alone from the Alan Walker album Different World."
+    ],
+    [
+        "OFFER(song_name=\"Alone\";artist=\"Alan Walker\";album=\"Different World\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 songs including Alone from the Alan Walker album Different World.",
+        "There are 10 songs including Alone from the Alan Walker album Different World."
+    ],
+    [
+        "OFFER(song_name=\"Dirt Road Anthem\";artist=\"Jason Aldean\";album=\"My Kinda Party\")",
+        "I found 1 song: Dirt Road Anthem from the Jason Aldean album My Kinda Party.",
+        "I found 1 song: Dirt Road Anthem from the Jason Aldean album My Kinda Party."
+    ],
+    [
+        "OFFER(song_name=\"Dirt Road Anthem\";artist=\"Jason Aldean\";album=\"My Kinda Party\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 song: Dirt Road Anthem from the Jason Aldean album My Kinda Party.",
+        "I found 1 song: Dirt Road Anthem from the Jason Aldean album My Kinda Party."
+    ],
+    [
+        "CONFIRM(song_name=\"Dirt Road Anthem\";playback_device=\"TV\")",
+        "Please confirm you want to play Dirt Road Anthem on the TV.",
+        "Please confirm you want to play Dirt Road Anthem on the TV."
+    ],
+    [
+        "CONFIRM(song_name=\"Dirt Road Anthem\";playback_device=\"Kitchen speaker\")",
+        "Please confirm you want to play Dirt Road Anthem on the kitchen speaker.",
+        "Please confirm you want to play Dirt Road Anthem on the kitchen speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Enjoy the song!",
+        "Enjoy the song!"
+    ],
+    [
+        "OFFER(song_name=\"Ya Layali\";artist=\"Sherine\";album=\"Ana Keteer\")",
+        "Do you like Ya Layali by Sherine from the album Ana Keteer?",
+        "Do you like Ya Layali by Sherine from the album Ana Keteer?"
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It's a Pop song.",
+        "It's a Pop song."
+    ],
+    [
+        "INFORM(year=\"2014\")",
+        "It came out in 2014.",
+        "It came out in 2014."
+    ],
+    [
+        "OFFER(song_name=\"Knee Deep\";artist=\"Zac Brown Band\";album=\"You Get What You Give\")",
+        "Shall I play Knee Deep by Zac Brown Band from the album You Get What You Give?",
+        "Shall I play Knee Deep by Zac Brown Band from the album You Get What You Give?"
+    ],
+    [
+        "CONFIRM(song_name=\"Knee Deep\";playback_device=\"TV\")",
+        "Please confirm that you want to listen to the song Knee Deep on your TV.",
+        "Please confirm that you want to listen to the song Knee Deep on your TV."
+    ],
+    [
+        "CONFIRM(song_name=\"Knee Deep\";playback_device=\"Kitchen speaker\")",
+        "Sure. Playing Knee Deep on your Kitchen speaker.",
+        "Sure. Playing Knee Deep on your Kitchen speaker."
+    ],
+    [
+        "INFORM(year=\"2010\")",
+        "Playing the song now. It is from the year 2010. Enjoy your music!",
+        "Playing the song now. It is from the year 2010. Enjoy your music!"
+    ],
+    [
+        "INFORM(year=\"2010\")@NOTIFY_SUCCESS()",
+        "Playing the song now. It is from the year 2010. Enjoy your music!",
+        "Playing the song now. It is from the year 2010. Enjoy your music!"
+    ],
+    [
+        "OFFER(song_name=\"Dusk Till Dawn\";artist=\"Zayn Malik\";album=\"Icarus Falls\")",
+        "I have 6 recommendations. How about Dusk Till Dawn by Zayn Malik, from the album Icarus Falls?",
+        "I have 6 recommendations. How about Dusk Till Dawn by Zayn Malik, from the album Icarus Falls?"
+    ],
+    [
+        "OFFER(song_name=\"Dusk Till Dawn\";artist=\"Zayn Malik\";album=\"Icarus Falls\")@INFORM_COUNT(count=\"6\")",
+        "I have 6 recommendations. How about Dusk Till Dawn by Zayn Malik, from the album Icarus Falls?",
+        "I have 6 recommendations. How about Dusk Till Dawn by Zayn Malik, from the album Icarus Falls?"
+    ],
+    [
+        "OFFER(song_name=\"Good Years\";artist=\"Zayn Malik\";album=\"Icarus Falls\")",
+        "How about Good Years by Zayn Malik, from the album Icarus Falls?",
+        "How about Good Years by Zayn Malik, from the album Icarus Falls?"
+    ],
+    [
+        "CONFIRM(song_name=\"Good Years\";playback_device=\"TV\")",
+        "Should I play Good Years on the TV?",
+        "Should I play Good Years on the TV?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has begun, please enjoy.",
+        "The song has begun, please enjoy."
+    ],
+    [
+        "OFFER(song_name=\"Call Me Maybe\";artist=\"Carly Rae Jepsen\";album=\"Kiss\")",
+        "I have 2 songs you may like. How about Call Me Maybe by Carly Rae Jepsen, from the album Kiss?",
+        "I have 2 songs you may like. How about Call Me Maybe by Carly Rae Jepsen, from the album Kiss?"
+    ],
+    [
+        "OFFER(song_name=\"Call Me Maybe\";artist=\"Carly Rae Jepsen\";album=\"Kiss\")@INFORM_COUNT(count=\"2\")",
+        "I have 2 songs you may like. How about Call Me Maybe by Carly Rae Jepsen, from the album Kiss?",
+        "I have 2 songs you may like. How about Call Me Maybe by Carly Rae Jepsen, from the album Kiss?"
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "It's a pop song.",
+        "It's a pop song."
+    ],
+    [
+        "CONFIRM(song_name=\"Call Me Maybe\";playback_device=\"Kitchen speaker\")",
+        "Confirming: I am playing Call Me Maybe on the kitchen speaker.",
+        "Confirming: I am playing Call Me Maybe on the kitchen speaker."
+    ],
+    [
+        "INFORM(year=\"2011\")",
+        "Yes, it's from 2011. Enjoy your music!",
+        "Yes, it's from 2011. Enjoy your music!"
+    ],
+    [
+        "INFORM(year=\"2011\")@NOTIFY_SUCCESS()",
+        "Yes, it's from 2011. Enjoy your music!",
+        "Yes, it's from 2011. Enjoy your music!"
+    ],
+    [
+        "OFFER(song_name=\"Baby Sexy\";artist=\"Cindy Santos\";album=\"Try Again\")",
+        "How about Baby Sexy by Cindy Santos? It's from the Try Again album",
+        "How about Baby Sexy by Cindy Santos? It's from the Try Again album"
+    ],
+    [
+        "INFORM(year=\"2018\")",
+        "In 2018",
+        "In 2018"
+    ],
+    [
+        "CONFIRM(song_name=\"Baby Sexy\";playback_device=\"TV\")",
+        "Sure, should I play Baby Sexy on the TV?",
+        "Sure, should I play Baby Sexy on the TV?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, it is playing, hope you like it",
+        "Ok, it is playing, hope you like it"
+    ],
+    [
+        "OFFER(song_name=\"Reggae Music\";artist=\"Kabaka Pyramid\";album=\"Kontraband\")",
+        "Are you ok with Reggae Music by Kabaka Pyramid in the album Kontraband. Or you can select any from 10 songs available.",
+        "Are you ok with Reggae Music by Kabaka Pyramid in the album Kontraband. Or you can select any from 10 songs available."
+    ],
+    [
+        "OFFER(song_name=\"Reggae Music\";artist=\"Kabaka Pyramid\";album=\"Kontraband\")@INFORM_COUNT(count=\"10\")",
+        "Are you ok with Reggae Music by Kabaka Pyramid in the album Kontraband. Or you can select any from 10 songs available.",
+        "Are you ok with Reggae Music by Kabaka Pyramid in the album Kontraband. Or you can select any from 10 songs available."
+    ],
+    [
+        "INFORM(year=\"2018\")",
+        "It is a 2018 song.",
+        "It is a 2018 song."
+    ],
+    [
+        "CONFIRM(song_name=\"Reggae Music\";playback_device=\"Kitchen speaker\")",
+        "Please confirm, You need Reggae Music on Kitchen speaker.",
+        "Please confirm, You need Reggae Music on Kitchen speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "It started. Please be comfortable.",
+        "It started. Please be comfortable."
+    ],
+    [
+        "OFFER(song_name=\"Miss Me More\";artist=\"Kelsea Ballerini\";album=\"Unapologetically\")",
+        "How about Miss Me More by Kelsea Ballerini off of her album Unapologetically?",
+        "How about Miss Me More by Kelsea Ballerini off of her album Unapologetically?"
+    ],
+    [
+        "CONFIRM(song_name=\"Miss Me More\";playback_device=\"TV\")",
+        "Just to make sure, you want to hear Miss Me More on TV.",
+        "Just to make sure, you want to hear Miss Me More on TV."
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "Enjoy your Country song!",
+        "Enjoy your Country song!"
+    ],
+    [
+        "INFORM(genre=\"Country\")@NOTIFY_SUCCESS()",
+        "Enjoy your Country song!",
+        "Enjoy your Country song!"
+    ],
+    [
+        "OFFER(song_name=\"Best Shot\";artist=\"Jimmie Allen\";album=\"Mercury Lane\")",
+        "How about Best Shot By Jimmie Allen from the album Mercury Lane.",
+        "How about Best Shot By Jimmie Allen from the album Mercury Lane."
+    ],
+    [
+        "CONFIRM(song_name=\"Best Shot\";playback_device=\"Kitchen speaker\")",
+        "Please confirm; playing Best Shot on Kitchen speaker.",
+        "Please confirm; playing Best Shot on Kitchen speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Enjoy your song!",
+        "Enjoy your song!"
+    ],
+    [
+        "OFFER(song_name=\"Codigo\";artist=\"George Strait\";album=\"Honky Tonk Time Machine\")",
+        "Sure, I will help you, I found a 3 songs for you, One of the nice song is Codigo by George Strait in the album Honky Tonk Time Machine.",
+        "Sure, I will help you, I found a 3 songs for you, One of the nice song is Codigo by George Strait in the album Honky Tonk Time Machine."
+    ],
+    [
+        "OFFER(song_name=\"Codigo\";artist=\"George Strait\";album=\"Honky Tonk Time Machine\")@INFORM_COUNT(count=\"3\")",
+        "Sure, I will help you, I found a 3 songs for you, One of the nice song is Codigo by George Strait in the album Honky Tonk Time Machine.",
+        "Sure, I will help you, I found a 3 songs for you, One of the nice song is Codigo by George Strait in the album Honky Tonk Time Machine."
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "It is a Country song",
+        "It is a Country song"
+    ],
+    [
+        "OFFER(song_name=\"Every Little Honky Tonk Bar\";artist=\"George Strait\";album=\"Honky Tonk Time Machine\")",
+        "Do you like the song Every Little Honky Tonk Bar by George Strait in the album Honky Tonk Time Machine",
+        "Do you like the song Every Little Honky Tonk Bar by George Strait in the album Honky Tonk Time Machine"
+    ],
+    [
+        "INFORM(year=\"2019\";genre=\"country\")",
+        "It is a country song from the year 2019",
+        "It is a country song from the year 2019"
+    ],
+    [
+        "OFFER(song_name=\"The Weight of the badge\";artist=\"george strait\";album=\"Honky Tonk Time Machine\")",
+        "I got 1 another song for you, Do you like The Weight of the badge by george strait in the album Honky Tonk Time Machine",
+        "I got 1 another song for you, Do you like The Weight of the badge by george strait in the album Honky Tonk Time Machine"
+    ],
+    [
+        "OFFER(song_name=\"The Weight of the badge\";artist=\"george strait\";album=\"Honky Tonk Time Machine\")@INFORM_COUNT(count=\"1\")",
+        "I got 1 another song for you, Do you like The Weight of the badge by george strait in the album Honky Tonk Time Machine",
+        "I got 1 another song for you, Do you like The Weight of the badge by george strait in the album Honky Tonk Time Machine"
+    ],
+    [
+        "CONFIRM(song_name=\"The weight of the badge\";playback_device=\"Kitchen speaker\")",
+        "please confirm the following details: Play the song The weight of the badge on kitchen speaker",
+        "please confirm the following details: Play the song The weight of the badge on kitchen speaker"
+    ],
+    [
+        "CONFIRM(song_name=\"The weight of the badge\";playback_device=\"Bedroom speaker\")",
+        "please confirm the following details: play the song The weight of the badge on bedroom speaker",
+        "please confirm the following details: play the song The weight of the badge on bedroom speaker"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Enjoy your music",
+        "Enjoy your music"
+    ],
+    [
+        "OFFER(song_name=\"No More\";artist=\"Disturbed\";album=\"Evolution\")",
+        "How about No More by Disturbed from the album Evolution.",
+        "How about No More by Disturbed from the album Evolution."
+    ],
+    [
+        "CONFIRM(song_name=\"No More\";playback_device=\"kitchen speaker\")",
+        "I'll play No More on the kitchen speaker, is that correct?",
+        "I'll play No More on the kitchen speaker, is that correct?"
+    ],
+    [
+        "CONFIRM(song_name=\"No More\";playback_device=\"bedroom speaker\")",
+        "I'll play No More on the bedroom speaker, is that correct?",
+        "I'll play No More on the bedroom speaker, is that correct?"
+    ],
+    [
+        "INFORM(genre=\"Rock\")",
+        "It's a Rock song. The song has begun.",
+        "It's a Rock song. The song has begun."
+    ],
+    [
+        "INFORM(genre=\"Rock\")@NOTIFY_SUCCESS()",
+        "It's a Rock song. The song has begun.",
+        "It's a Rock song. The song has begun."
+    ],
+    [
+        "OFFER(song_name=\"Cool Girl\";artist=\"Tove Lo\";album=\"Lady Wood\")",
+        "How about Cool Girl by Tove Lo in Lady Wood?",
+        "How about Cool Girl by Tove Lo in Lady Wood?"
+    ],
+    [
+        "INFORM(genre=\"Electropop\")",
+        "It is Electropop.",
+        "It is Electropop."
+    ],
+    [
+        "CONFIRM(song_name=\"Cool Girl\";playback_device=\"TV\")",
+        "So you want to play Cool Girl on the TV?",
+        "So you want to play Cool Girl on the TV?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have started playing the song.",
+        "I have started playing the song."
+    ],
+    [
+        "OFFER(song_name=\"Sleepover\";artist=\"Hayley Kiyoko\";album=\"Expectations\")",
+        "What about Sleepover from the album Expectations by Hayley Kiyoko?",
+        "What about Sleepover from the album Expectations by Hayley Kiyoko?"
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It is the Pop genre.",
+        "It is the Pop genre."
+    ],
+    [
+        "CONFIRM(song_name=\"Sleepover\";playback_device=\"kitchen speaker\")",
+        "You want to play Sleepover on the kitchen speaker, is that correct?",
+        "You want to play Sleepover on the kitchen speaker, is that correct?"
+    ],
+    [
+        "CONFIRM(song_name=\"Sleepover\";playback_device=\"bedroom speaker\")",
+        "You want to play Sleepover on the bedroom speaker, is that correct?",
+        "You want to play Sleepover on the bedroom speaker, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is now playing.",
+        "The song is now playing."
+    ],
+    [
+        "OFFER(song_name=\"Girl Crush\";artist=\"Little Big Town\";album=\"Pain Killer\")",
+        "What about the song Girl Crush from the album Pain Killer by Little Big Town?",
+        "What about the song Girl Crush from the album Pain Killer by Little Big Town?"
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "It is considered a Country song.",
+        "It is considered a Country song."
+    ],
+    [
+        "CONFIRM(song_name=\"Girl Crush\";playback_device=\"kitchen speaker\")",
+        "You would like to play Girl Crush on your kitchen speaker, is that correct?",
+        "You would like to play Girl Crush on your kitchen speaker, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is now playing.",
+        "The song is now playing."
+    ],
+    [
+        "OFFER(song_name=\"Be Alright\";artist=\"Ariana Grande\";album=\"Dangerous Woman\")",
+        "How about Be Alright by Ariana Grande in the album Dangerous Woman?",
+        "How about Be Alright by Ariana Grande in the album Dangerous Woman?"
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It is Pop.",
+        "It is Pop."
+    ],
+    [
+        "OFFER(song_name=\"Be My Baby\";artist=\"Ariana Grande\";album=\"My Everything\")",
+        "How about Be My Baby by Ariana Grande in the album My Everything?",
+        "How about Be My Baby by Ariana Grande in the album My Everything?"
+    ],
+    [
+        "OFFER(song_name=\"Best Mistake\";artist=\"Ariana Grande\";album=\"My Everything\")",
+        "How about Best Mistake by Ariana Grande in the album My Everything?",
+        "How about Best Mistake by Ariana Grande in the album My Everything?"
+    ],
+    [
+        "CONFIRM(song_name=\"Best Mistake\";playback_device=\"kitchen speaker\")",
+        "So you'd like me to play Best Mistake on the kitchen speaker?",
+        "So you'd like me to play Best Mistake on the kitchen speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has begun.",
+        "The song has begun."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It is Pop.",
+        "It is Pop."
+    ],
+    [
+        "OFFER(song_name=\"Butterflies\";artist=\"Kacey Musgraves\";album=\"Golden Hour\")",
+        "I have 10. How about Butterflies by Kacey Musgraves on the album Golden Hour?",
+        "I have 10. How about Butterflies by Kacey Musgraves on the album Golden Hour?"
+    ],
+    [
+        "OFFER(song_name=\"Butterflies\";artist=\"Kacey Musgraves\";album=\"Golden Hour\")@INFORM_COUNT(count=\"10\")",
+        "I have 10. How about Butterflies by Kacey Musgraves on the album Golden Hour?",
+        "I have 10. How about Butterflies by Kacey Musgraves on the album Golden Hour?"
+    ],
+    [
+        "OFFER(song_name=\"Wicked\";artist=\"Future\";album=\"Purple Reign\")",
+        "From the 10 I found, what about Wicked by Future in the album Purple Reign.",
+        "From the 10 I found, what about Wicked by Future in the album Purple Reign."
+    ],
+    [
+        "OFFER(song_name=\"Wicked\";artist=\"Future\";album=\"Purple Reign\")@INFORM_COUNT(count=\"10\")",
+        "From the 10 I found, what about Wicked by Future in the album Purple Reign.",
+        "From the 10 I found, what about Wicked by Future in the album Purple Reign."
+    ],
+    [
+        "INFORM(genre=\"soundtracks\")",
+        "It is a soundtracks song.",
+        "It is a soundtracks song."
+    ],
+    [
+        "OFFER(song_name=\"Knee Deep\";artist=\"Zac Brown Band\";album=\"You Get What You Give\")",
+        "What about A Zac Brown Band song called Knee Deep from You Get What You Give?",
+        "What about A Zac Brown Band song called Knee Deep from You Get What You Give?"
+    ],
+    [
+        "INFORM(genre=\"country\")",
+        "It is a country song.",
+        "It is a country song."
+    ],
+    [
+        "CONFIRM(song_name=\"Knee Deep\";playback_device=\"TV\")",
+        "Confirming to play Knee Deep on the TV.",
+        "Confirming to play Knee Deep on the TV."
+    ],
+    [
+        "CONFIRM(song_name=\"Knee Deep\";playback_device=\"kitchen speaker\")",
+        "OK, confirming to play Knee Deep on the kitchen speaker.",
+        "OK, confirming to play Knee Deep on the kitchen speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Playing the song now.",
+        "Playing the song now."
+    ],
+    [
+        "OFFER(song_name=\"Bottoms Up\";artist=\"Brantley Gilbert\";album=\"Halfway to Heaven\")",
+        "I have located 10 songs that you may enjoy. What about the album Halfway to Heaven with song Bottoms Up and sung by Brantley Gilbert?",
+        "I have located 10 songs that you may enjoy. What about the album Halfway to Heaven with song Bottoms Up and sung by Brantley Gilbert?"
+    ],
+    [
+        "OFFER(song_name=\"Bottoms Up\";artist=\"Brantley Gilbert\";album=\"Halfway to Heaven\")@INFORM_COUNT(count=\"10\")",
+        "I have located 10 songs that you may enjoy. What about the album Halfway to Heaven with song Bottoms Up and sung by Brantley Gilbert?",
+        "I have located 10 songs that you may enjoy. What about the album Halfway to Heaven with song Bottoms Up and sung by Brantley Gilbert?"
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "The song is Country.",
+        "The song is Country."
+    ],
+    [
+        "CONFIRM(song_name=\"Bottoms Up\";playback_device=\"TV\")",
+        "Please approve the following: Start song Bottoms Up on the TV.",
+        "Please approve the following: Start song Bottoms Up on the TV."
+    ],
+    [
+        "CONFIRM(song_name=\"Bottoms Up\";playback_device=\"kitchen speaker\")",
+        "Please approve the following details: Use the kitchen speaker to play Bottoms Up.",
+        "Please approve the following details: Use the kitchen speaker to play Bottoms Up."
+    ],
+    [
+        "CONFIRM(song_name=\"Bottoms Up\";playback_device=\"bedroom speaker\")",
+        "Please approve the following: Use the bedroom speaker to play the song Bottoms Up.",
+        "Please approve the following: Use the bedroom speaker to play the song Bottoms Up."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Began playing the song.",
+        "Began playing the song."
+    ],
+    [
+        "OFFER(song_name=\"Just Kiss Her\";artist=\"Concorde\";album=\"Summer House\")",
+        "Sure. I've found 10 you might like. How about Just Kiss Her by Concorde from the album Summer House?",
+        "Sure. I've found 10 you might like. How about Just Kiss Her by Concorde from the album Summer House?"
+    ],
+    [
+        "OFFER(song_name=\"Just Kiss Her\";artist=\"Concorde\";album=\"Summer House\")@INFORM_COUNT(count=\"10\")",
+        "Sure. I've found 10 you might like. How about Just Kiss Her by Concorde from the album Summer House?",
+        "Sure. I've found 10 you might like. How about Just Kiss Her by Concorde from the album Summer House?"
+    ],
+    [
+        "CONFIRM(song_name=\"Just Kiss Her\";playback_device=\"TV\")",
+        "Just confirming, I'm going to play Just Kiss Her on the TV.",
+        "Just confirming, I'm going to play Just Kiss Her on the TV."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Playing the song now.",
+        "Playing the song now."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It's classified as a Pop song.",
+        "It's classified as a Pop song."
+    ],
+    [
+        "OFFER(song_name=\"Lost and Lonely\";artist=\"Aaron Lewis\";album=\"Sinner\")",
+        "I found 10 songs you may like. How about Lost and Lonely by Aaron Lewis from the album Sinner?",
+        "I found 10 songs you may like. How about Lost and Lonely by Aaron Lewis from the album Sinner?"
+    ],
+    [
+        "OFFER(song_name=\"Lost and Lonely\";artist=\"Aaron Lewis\";album=\"Sinner\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 songs you may like. How about Lost and Lonely by Aaron Lewis from the album Sinner?",
+        "I found 10 songs you may like. How about Lost and Lonely by Aaron Lewis from the album Sinner?"
+    ],
+    [
+        "OFFER(song_name=\"Look What God Gave Her\";artist=\"Thomas Rhett\";album=\"Center Point Road\")",
+        "I found 10 songs. How about Look What God Gave Her by Thomas Rhett from the album Center Point Road?",
+        "I found 10 songs. How about Look What God Gave Her by Thomas Rhett from the album Center Point Road?"
+    ],
+    [
+        "OFFER(song_name=\"Look What God Gave Her\";artist=\"Thomas Rhett\";album=\"Center Point Road\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 songs. How about Look What God Gave Her by Thomas Rhett from the album Center Point Road?",
+        "I found 10 songs. How about Look What God Gave Her by Thomas Rhett from the album Center Point Road?"
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "It's a Country song.",
+        "It's a Country song."
+    ],
+    [
+        "CONFIRM(song_name=\"Look What God Gave Her\";playback_device=\"TV\")",
+        "Do you want me to play Look What God Gave Her on the TV?",
+        "Do you want me to play Look What God Gave Her on the TV?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, I'm playing it now.",
+        "Okay, I'm playing it now."
+    ],
+    [
+        "OFFER(song_name=\"Singles You Up\";artist=\"Jordan Davis\";album=\"Home State\")",
+        "Do you like Singles You Up by Jordan Davis from the album Home State?",
+        "Do you like Singles You Up by Jordan Davis from the album Home State?"
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "It's from the Country genre.",
+        "It's from the Country genre."
+    ],
+    [
+        "CONFIRM(song_name=\"Singles You Up\";playback_device=\"TV\")",
+        "I'll play the song Singles You Up on the TV, is that okay?",
+        "I'll play the song Singles You Up on the TV, is that okay?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is now playing.",
+        "The song is now playing."
+    ],
+    [
+        "OFFER(song_name=\"Gold\";artist=\"Nick Murphy\";album=\"Built On Glass\")",
+        "I found 1 song. There's Gold by Nick Murphy on Built On Glass.",
+        "I found 1 song. There's Gold by Nick Murphy on Built On Glass."
+    ],
+    [
+        "OFFER(song_name=\"Gold\";artist=\"Nick Murphy\";album=\"Built On Glass\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 song. There's Gold by Nick Murphy on Built On Glass.",
+        "I found 1 song. There's Gold by Nick Murphy on Built On Glass."
+    ],
+    [
+        "CONFIRM(song_name=\"Gold\";playback_device=\"kitchen speaker\")",
+        "Please confirm: Play Gold on kitchen speaker.",
+        "Please confirm: Play Gold on kitchen speaker."
+    ],
+    [
+        "INFORM(genre=\"electronica\")",
+        "Playing now. It's electronica.",
+        "Playing now. It's electronica."
+    ],
+    [
+        "INFORM(genre=\"electronica\")@NOTIFY_SUCCESS()",
+        "Playing now. It's electronica.",
+        "Playing now. It's electronica."
+    ],
+    [
+        "OFFER(song_name=\"Weekend\";artist=\"Kane Brown\";album=\"Experiment\")",
+        "There are 10 songs that you might enjoy. Would you like to listen to Weekend by Kane Brown from the album Experiment?",
+        "There are 10 songs that you might enjoy. Would you like to listen to Weekend by Kane Brown from the album Experiment?"
+    ],
+    [
+        "OFFER(song_name=\"Weekend\";artist=\"Kane Brown\";album=\"Experiment\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 songs that you might enjoy. Would you like to listen to Weekend by Kane Brown from the album Experiment?",
+        "There are 10 songs that you might enjoy. Would you like to listen to Weekend by Kane Brown from the album Experiment?"
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "It's from the Country genre.",
+        "It's from the Country genre."
+    ],
+    [
+        "CONFIRM(song_name=\"Weekend\";playback_device=\"TV\")",
+        "I'll play Weekend on the TV, is that right?",
+        "I'll play Weekend on the TV, is that right?"
+    ],
+    [
+        "CONFIRM(song_name=\"Weekend\";playback_device=\"kitchen speaker\")",
+        "I'll play Weekend on the kitchen speaker, is that right?",
+        "I'll play Weekend on the kitchen speaker, is that right?"
+    ],
+    [
+        "CONFIRM(song_name=\"Weekend\";playback_device=\"bedroom speaker\")",
+        "I'll play Weekend on the bedroom speaker, is that right?",
+        "I'll play Weekend on the bedroom speaker, is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has begun.",
+        "The song has begun."
+    ],
+    [
+        "OFFER(song_name=\"Salam Alaikum\";artist=\"Harris J\";album=\"Salam\")",
+        "I have 10 songs that you should like. What about Salam Alaikum from the Salam album by Harris J?",
+        "I have 10 songs that you should like. What about Salam Alaikum from the Salam album by Harris J?"
+    ],
+    [
+        "OFFER(song_name=\"Salam Alaikum\";artist=\"Harris J\";album=\"Salam\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 songs that you should like. What about Salam Alaikum from the Salam album by Harris J?",
+        "I have 10 songs that you should like. What about Salam Alaikum from the Salam album by Harris J?"
+    ],
+    [
+        "OFFER(song_name=\"White House Road\";artist=\"Tyler Childers\";album=\"Purgatory\")",
+        "How about White House Road by Tyler Childers in the album Purgatory?",
+        "How about White House Road by Tyler Childers in the album Purgatory?"
+    ],
+    [
+        "OFFER(song_name=\"Colouring This Life\";artist=\"Vybz Kartel\";album=\"King Of The Dancehall\")",
+        "I have 1 song that you should like. How about Colouring This Life by Vybz Kartel in the King Of The Dancehall?",
+        "I have 1 song that you should like. How about Colouring This Life by Vybz Kartel in the King Of The Dancehall?"
+    ],
+    [
+        "OFFER(song_name=\"Colouring This Life\";artist=\"Vybz Kartel\";album=\"King Of The Dancehall\")@INFORM_COUNT(count=\"1\")",
+        "I have 1 song that you should like. How about Colouring This Life by Vybz Kartel in the King Of The Dancehall?",
+        "I have 1 song that you should like. How about Colouring This Life by Vybz Kartel in the King Of The Dancehall?"
+    ],
+    [
+        "CONFIRM(song_name=\"Colouring This life\";playback_device=\"kitchen speaker\")",
+        "Please confirm that you want to listen to Colouring This life on the kitchen speaker.",
+        "Please confirm that you want to listen to Colouring This life on the kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Colouring This life\";playback_device=\"bedroom speaker\")",
+        "So you want to play Colouring This life on the bedroom speaker?",
+        "So you want to play Colouring This life on the bedroom speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have started playing the song.",
+        "I have started playing the song."
+    ],
+    [
+        "OFFER(song_name=\"I Lived It\";artist=\"Blake Shelton\";album=\"Texoma Shore\")",
+        "Sure. How about I Lived It from the Blake Shelton album Texoma Shore?",
+        "Sure. How about I Lived It from the Blake Shelton album Texoma Shore?"
+    ],
+    [
+        "CONFIRM(song_name=\"I Lived It\";playback_device=\"TV\")",
+        "Do you want me to play I Lived It on your TV?",
+        "Do you want me to play I Lived It on your TV?"
+    ],
+    [
+        "CONFIRM(song_name=\"I Lived it\";playback_device=\"kitchen speaker\")",
+        "Sure. You want I Lived it on your kitchen speaker, right?",
+        "Sure. You want I Lived it on your kitchen speaker, right?"
+    ],
+    [
+        "CONFIRM(song_name=\"I Lived it\";playback_device=\"bedroom speaker\")",
+        "I Lived it should be played from your bedroom speaker?",
+        "I Lived it should be played from your bedroom speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay. It is now playing.",
+        "Okay. It is now playing."
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "It's Country music.",
+        "It's Country music."
+    ],
+    [
+        "OFFER(song_name=\"Always Remember Us This Way\";artist=\"Lady Gaga\";album=\"A Star is Born Soundtrack\")",
+        "Sure, how about Always Remember Us This Way by Lady Gaga in her album A Star is Born Soundtrack?",
+        "Sure, how about Always Remember Us This Way by Lady Gaga in her album A Star is Born Soundtrack?"
+    ],
+    [
+        "OFFER(song_name=\"Before I Cry\";artist=\"Lady Gaga\";album=\"A Star is Born Soundtrack\")",
+        "I have found 3 songs, one of which is Before I Cry by Lady Gaga in her album A Star is Born Soundtrack.",
+        "I have found 3 songs, one of which is Before I Cry by Lady Gaga in her album A Star is Born Soundtrack."
+    ],
+    [
+        "OFFER(song_name=\"Before I Cry\";artist=\"Lady Gaga\";album=\"A Star is Born Soundtrack\")@INFORM_COUNT(count=\"3\")",
+        "I have found 3 songs, one of which is Before I Cry by Lady Gaga in her album A Star is Born Soundtrack.",
+        "I have found 3 songs, one of which is Before I Cry by Lady Gaga in her album A Star is Born Soundtrack."
+    ],
+    [
+        "CONFIRM(song_name=\"Before I Cry\";playback_device=\"kitchen speaker\")",
+        "Please confirm your action to play Before I Cry on the kitchen speaker.",
+        "Please confirm your action to play Before I Cry on the kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Before I Cry\";playback_device=\"bedroom speaker\")",
+        "Please confirm your action to play Before I Cry on the bedroom speaker.",
+        "Please confirm your action to play Before I Cry on the bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your music has started playing.",
+        "Your music has started playing."
+    ],
+    [
+        "OFFER(song_name=\"Addicted\";artist=\"Popcaan\";album=\"Where We Come From\")",
+        "I found 10 songs you might like. How about Addicted from the album Where We Come From by Popcaan?",
+        "I found 10 songs you might like. How about Addicted from the album Where We Come From by Popcaan?"
+    ],
+    [
+        "OFFER(song_name=\"Addicted\";artist=\"Popcaan\";album=\"Where We Come From\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 songs you might like. How about Addicted from the album Where We Come From by Popcaan?",
+        "I found 10 songs you might like. How about Addicted from the album Where We Come From by Popcaan?"
+    ],
+    [
+        "CONFIRM(song_name=\"Addicted\";playback_device=\"kitchen speaker\")",
+        "To be sure, you want to play Addicted on the kitchen speaker?",
+        "To be sure, you want to play Addicted on the kitchen speaker?"
+    ],
+    [
+        "CONFIRM(song_name=\"Addicted\";playback_device=\"bedroom speaker\")",
+        "Okay. You would like to hear Addicted on the bedroom speaker.",
+        "Okay. You would like to hear Addicted on the bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I will start the song.",
+        "I will start the song."
+    ],
+    [
+        "OFFER(song_name=\"Black Widow\";artist=\"Iggy Azalea\";album=\"The New Classic\")",
+        "I found 4 Iggy Azalea songs, What do you think about Black Widow from the album The New Classic?",
+        "I found 4 Iggy Azalea songs, What do you think about Black Widow from the album The New Classic?"
+    ],
+    [
+        "OFFER(song_name=\"Black Widow\";artist=\"Iggy Azalea\";album=\"The New Classic\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 Iggy Azalea songs, What do you think about Black Widow from the album The New Classic?",
+        "I found 4 Iggy Azalea songs, What do you think about Black Widow from the album The New Classic?"
+    ],
+    [
+        "OFFER(song_name=\"Bounce\";artist=\"Iggy Azalea\";album=\"the new classic\")",
+        "What about Iggy Azalea 's song Bounce from the new classic?",
+        "What about Iggy Azalea 's song Bounce from the new classic?"
+    ],
+    [
+        "OFFER(song_name=\"Change your life\";artist=\"Iggy Azalea\";album=\"the new classic\")",
+        "What about Iggy Azalea Change your life from the new classic?",
+        "What about Iggy Azalea Change your life from the new classic?"
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "Its a pop song.",
+        "Its a pop song."
+    ],
+    [
+        "CONFIRM(song_name=\"Change your life\";playback_device=\"kitchen speaker\")",
+        "Can you confirm Change your life on the kitchen speaker?",
+        "Can you confirm Change your life on the kitchen speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started the song for you.",
+        "Started the song for you."
+    ],
+    [
+        "OFFER(song_name=\"The Struggle\";artist=\"Blacklite District\";album=\"To Whom It May Concern\")",
+        "There are 2 songs according to your interest. How about the song The Struggle by Blacklite District in album To Whom It May Concern? whether you like this song?",
+        "There are 2 songs according to your interest. How about the song The Struggle by Blacklite District in album To Whom It May Concern? whether you like this song?"
+    ],
+    [
+        "OFFER(song_name=\"The Struggle\";artist=\"Blacklite District\";album=\"To Whom It May Concern\")@INFORM_COUNT(count=\"2\")",
+        "There are 2 songs according to your interest. How about the song The Struggle by Blacklite District in album To Whom It May Concern? whether you like this song?",
+        "There are 2 songs according to your interest. How about the song The Struggle by Blacklite District in album To Whom It May Concern? whether you like this song?"
+    ],
+    [
+        "INFORM(genre=\"Rock\")",
+        "It is a Rock Song",
+        "It is a Rock Song"
+    ],
+    [
+        "CONFIRM(song_name=\"The Struggle\";playback_device=\"TV\")",
+        "Ok please check and confirm the following details : Song name is The Struggle on TV",
+        "Ok please check and confirm the following details : Song name is The Struggle on TV"
+    ],
+    [
+        "CONFIRM(song_name=\"The struggle\";playback_device=\"kitchen speaker\")",
+        "ok Please once again confirm the following details :play The struggle On Kitchen speaker",
+        "ok Please once again confirm the following details :play The struggle On Kitchen speaker"
+    ],
+    [
+        "CONFIRM(song_name=\"The Struggle\";playback_device=\"bedroom speaker\")",
+        "ok once again please check and confirm the following details: play the song The Struggle on Bedroom speaker",
+        "ok once again please check and confirm the following details: play the song The Struggle on Bedroom speaker"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started playing the song",
+        "Started playing the song"
+    ],
+    [
+        "OFFER(song_name=\"Fortunately I Met You\";artist=\"Witwisit Hiranyawongkul\";album=\"Quarter\")",
+        "No problem! I recommend Fortunately I Met You by Witwisit Hiranyawongkul on their album Quarter. Does that interest you at all?",
+        "No problem! I recommend Fortunately I Met You by Witwisit Hiranyawongkul on their album Quarter. Does that interest you at all?"
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "It's a pop song.",
+        "It's a pop song."
+    ],
+    [
+        "OFFER(song_name=\"Younger\";artist=\"Ruel\";album=\"Ready\")",
+        "Sure! How about Younger by Ruel on their album Ready?",
+        "Sure! How about Younger by Ruel on their album Ready?"
+    ],
+    [
+        "CONFIRM(song_name=\"Younger\";playback_device=\"kitchen speaker\")",
+        "Okay! Can you confirm the following details, please? I'll play the song Younger on your kitchen speaker.",
+        "Okay! Can you confirm the following details, please? I'll play the song Younger on your kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Younger\";playback_device=\"bedroom speaker\")",
+        "No problem! Can you confirm the following details, please? I'll play the song Younger on your bedroom speaker.",
+        "No problem! Can you confirm the following details, please? I'll play the song Younger on your bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your song is now playing!",
+        "Your song is now playing!"
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "It's a pop song.",
+        "It's a pop song."
+    ],
+    [
+        "OFFER(song_name=\"Best Friend\";artist=\"Jason Chen\";album=\"Gravity\")",
+        "What about Best Friend by Jason Chen from his album Gravity?",
+        "What about Best Friend by Jason Chen from his album Gravity?"
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "It's a pop song.",
+        "It's a pop song."
+    ],
+    [
+        "OFFER(song_name=\"Raging\";artist=\"Kygo\";album=\"Cloud Nine\")",
+        "How about Raging by Kygo from the album Cloud Nine?",
+        "How about Raging by Kygo from the album Cloud Nine?"
+    ],
+    [
+        "INFORM(genre=\"downtempo\")",
+        "Raging is a downtempo song.",
+        "Raging is a downtempo song."
+    ],
+    [
+        "OFFER(song_name=\"Bottoms Up\";artist=\"Brantley Gilbert\";album=\"Halfway To Heaven\")",
+        "I found Bottoms Up by Brantley Gilbert for you. It's from the album Halfway To Heaven.",
+        "I found Bottoms Up by Brantley Gilbert for you. It's from the album Halfway To Heaven."
+    ],
+    [
+        "CONFIRM(song_name=\"Bottoms Up\";playback_device=\"TV\")",
+        "Confirm: playing Bottoms Up on TV.",
+        "Confirm: playing Bottoms Up on TV."
+    ],
+    [
+        "CONFIRM(song_name=\"Bottoms Up\";playback_device=\"kitchen speaker\")",
+        "Okay confirming Bottoms Up playing on kitchen speaker.",
+        "Okay confirming Bottoms Up playing on kitchen speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song will start now.",
+        "The song will start now."
+    ],
+    [
+        "OFFER(song_name=\"Promises\";artist=\"Nero\";album=\"Welcome Reality\")",
+        "There are 10 songs for you. Do you want to start with Promises from the album Welcome Reality by Nero?",
+        "There are 10 songs for you. Do you want to start with Promises from the album Welcome Reality by Nero?"
+    ],
+    [
+        "OFFER(song_name=\"Promises\";artist=\"Nero\";album=\"Welcome Reality\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 songs for you. Do you want to start with Promises from the album Welcome Reality by Nero?",
+        "There are 10 songs for you. Do you want to start with Promises from the album Welcome Reality by Nero?"
+    ],
+    [
+        "CONFIRM(song_name=\"Promises\";playback_device=\"TV\")",
+        "You want to play Promises on your TV, is that correct?",
+        "You want to play Promises on your TV, is that correct?"
+    ],
+    [
+        "CONFIRM(song_name=\"Promises\";playback_device=\"kitchen speaker\")",
+        "You want to play Promises on the kitchen speaker, is that correct?",
+        "You want to play Promises on the kitchen speaker, is that correct?"
+    ],
+    [
+        "CONFIRM(song_name=\"Promises\";playback_device=\"bedroom speaker\")",
+        "You want to play Promises on the bedroom speaker, is that correct?",
+        "You want to play Promises on the bedroom speaker, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is now playing.",
+        "The song is now playing."
+    ],
+    [
+        "OFFER(song_name=\"Blocks\";artist=\"Marshmello\";album=\"Joytime\")",
+        "There are 10 songs you might enjoy. How about Blocks by Marshmello from the album Joytime?",
+        "There are 10 songs you might enjoy. How about Blocks by Marshmello from the album Joytime?"
+    ],
+    [
+        "OFFER(song_name=\"Blocks\";artist=\"Marshmello\";album=\"Joytime\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 songs you might enjoy. How about Blocks by Marshmello from the album Joytime?",
+        "There are 10 songs you might enjoy. How about Blocks by Marshmello from the album Joytime?"
+    ],
+    [
+        "CONFIRM(song_name=\"Blocks\";playback_device=\"kitchen speaker\")",
+        "Just to make sure, you want to play Blocks on the kitchen speaker?",
+        "Just to make sure, you want to play Blocks on the kitchen speaker?"
+    ],
+    [
+        "CONFIRM(song_name=\"Blocks\";playback_device=\"bedroom speaker\")",
+        "Just to make sure, you want to play Blocks on the bedroom speaker?",
+        "Just to make sure, you want to play Blocks on the bedroom speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has begun.",
+        "The song has begun."
+    ],
+    [
+        "OFFER(song_name=\"No Sleep\";artist=\"Martin Garrix\";album=\"The Martin Garrix Experience\")",
+        "I searched 10 songs you may like. In album The Martin Garrix Experience what about song No Sleep by Martin Garrix",
+        "I searched 10 songs you may like. In album The Martin Garrix Experience what about song No Sleep by Martin Garrix"
+    ],
+    [
+        "OFFER(song_name=\"No Sleep\";artist=\"Martin Garrix\";album=\"The Martin Garrix Experience\")@INFORM_COUNT(count=\"10\")",
+        "I searched 10 songs you may like. In album The Martin Garrix Experience what about song No Sleep by Martin Garrix",
+        "I searched 10 songs you may like. In album The Martin Garrix Experience what about song No Sleep by Martin Garrix"
+    ],
+    [
+        "INFORM(genre=\"House\")",
+        "That is a House song",
+        "That is a House song"
+    ],
+    [
+        "OFFER(song_name=\"All That Matters\";artist=\"Justin Bieber\";album=\"Journals\")",
+        "I searched 3 songs you may like. In album Journals what about song All That Matters by Justin Bieber.",
+        "I searched 3 songs you may like. In album Journals what about song All That Matters by Justin Bieber."
+    ],
+    [
+        "OFFER(song_name=\"All That Matters\";artist=\"Justin Bieber\";album=\"Journals\")@INFORM_COUNT(count=\"3\")",
+        "I searched 3 songs you may like. In album Journals what about song All That Matters by Justin Bieber.",
+        "I searched 3 songs you may like. In album Journals what about song All That Matters by Justin Bieber."
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "This is a pop song",
+        "This is a pop song"
+    ],
+    [
+        "CONFIRM(song_name=\"All That Matters\";playback_device=\"TV\")",
+        "please give the confirmation details:play the song All That Matters on TV.",
+        "please give the confirmation details:play the song All That Matters on TV."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Song started playing now.",
+        "Song started playing now."
+    ],
+    [
+        "OFFER(song_name=\"Babe\";artist=\"Sugarland\";album=\"Bigger\")",
+        "Would you like Babe by Sugarland from its album Bigger?",
+        "Would you like Babe by Sugarland from its album Bigger?"
+    ],
+    [
+        "INFORM(genre=\"Country\")",
+        "I think it is a Country song.",
+        "I think it is a Country song."
+    ],
+    [
+        "CONFIRM(song_name=\"Babe\";playback_device=\"kitchen speaker\")",
+        "Please do confirm the following details: Play the song Babe on the kitchen speaker.",
+        "Please do confirm the following details: Play the song Babe on the kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Babe\";playback_device=\"bedroom speaker\")",
+        "Alright. Please do confirm the following details: Play the song Babe on the bedroom speaker.",
+        "Alright. Please do confirm the following details: Play the song Babe on the bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has started playing.",
+        "The song has started playing."
+    ],
+    [
+        "OFFER(song_name=\"Cirice\";artist=\"Ghost\";album=\"Meliora\")",
+        "Would you consider the song Cirice by Ghost from his album Meliora?",
+        "Would you consider the song Cirice by Ghost from his album Meliora?"
+    ],
+    [
+        "INFORM(genre=\"metal\")",
+        "The song is metal.",
+        "The song is metal."
+    ],
+    [
+        "OFFER(song_name=\"Dance Macabre\";artist=\"Ghost\";album=\"Prequelle\")",
+        "How about the song Dance Macabre by Ghost from the album Prequelle?",
+        "How about the song Dance Macabre by Ghost from the album Prequelle?"
+    ],
+    [
+        "OFFER(song_name=\"He Is\";artist=\"Ghost\";album=\"Meliora\")",
+        "I've located 1 song that you might enjoy. How about He Is performed by Ghost from the album Meliora?",
+        "I've located 1 song that you might enjoy. How about He Is performed by Ghost from the album Meliora?"
+    ],
+    [
+        "OFFER(song_name=\"He Is\";artist=\"Ghost\";album=\"Meliora\")@INFORM_COUNT(count=\"1\")",
+        "I've located 1 song that you might enjoy. How about He Is performed by Ghost from the album Meliora?",
+        "I've located 1 song that you might enjoy. How about He Is performed by Ghost from the album Meliora?"
+    ],
+    [
+        "CONFIRM(song_name=\"He Is\";playback_device=\"kitchen speaker\")",
+        "Please approve the upcoming details: Use the kitchen speaker to play song He Is.",
+        "Please approve the upcoming details: Use the kitchen speaker to play song He Is."
+    ],
+    [
+        "CONFIRM(song_name=\"He Is\";playback_device=\"bedroom speaker\")",
+        "Please approve the upcoming details: Use the bedroom speaker to play He Is.",
+        "Please approve the upcoming details: Use the bedroom speaker to play He Is."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has started playing.",
+        "The song has started playing."
+    ],
+    [
+        "OFFER(song_name=\"Shy\";artist=\"Jai Waetford\";album=\"Heart Miles\")",
+        "There is 1 song you may want to listen. How about Shy from Jai Waetford of the album Heart Miles?",
+        "There is 1 song you may want to listen. How about Shy from Jai Waetford of the album Heart Miles?"
+    ],
+    [
+        "OFFER(song_name=\"Shy\";artist=\"Jai Waetford\";album=\"Heart Miles\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 song you may want to listen. How about Shy from Jai Waetford of the album Heart Miles?",
+        "There is 1 song you may want to listen. How about Shy from Jai Waetford of the album Heart Miles?"
+    ],
+    [
+        "CONFIRM(song_name=\"Shy\";playback_device=\"TV\")",
+        "Let me confirm that you want to play Shy on TV.",
+        "Let me confirm that you want to play Shy on TV."
+    ],
+    [
+        "CONFIRM(song_name=\"Shy\";playback_device=\"kitchen speaker\")",
+        "Let me confirm that you want to play Shy on the kitchen speaker.",
+        "Let me confirm that you want to play Shy on the kitchen speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is playing.",
+        "The song is playing."
+    ],
+    [
+        "OFFER(song_name=\"Business Dinners\";artist=\"Sigrid\";album=\"Sucker Punch\")",
+        "I have found 10 songs you may like, one of which is Business Dinners by Sigrid in thee album Sucker Punch.",
+        "I have found 10 songs you may like, one of which is Business Dinners by Sigrid in thee album Sucker Punch."
+    ],
+    [
+        "OFFER(song_name=\"Business Dinners\";artist=\"Sigrid\";album=\"Sucker Punch\")@INFORM_COUNT(count=\"10\")",
+        "I have found 10 songs you may like, one of which is Business Dinners by Sigrid in thee album Sucker Punch.",
+        "I have found 10 songs you may like, one of which is Business Dinners by Sigrid in thee album Sucker Punch."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It is a Pop song.",
+        "It is a Pop song."
+    ],
+    [
+        "OFFER(song_name=\"Tennis Court\";artist=\"Lorde\";album=\"Pure Heroine\")",
+        "How about Tennis Court by Lorde in his album Pure Heroine?",
+        "How about Tennis Court by Lorde in his album Pure Heroine?"
+    ],
+    [
+        "INFORM(genre=\"Electropop\")",
+        "It belongs to the Electropop genre.",
+        "It belongs to the Electropop genre."
+    ],
+    [
+        "OFFER(song_name=\"Thinkin Bout You\";artist=\"Ciara\";album=\"Beauty Marks\")",
+        "How about Thinkin Bout You by Ciara in her album Beauty Marks?",
+        "How about Thinkin Bout You by Ciara in her album Beauty Marks?"
+    ],
+    [
+        "CONFIRM(song_name=\"Thinkin Bout You\";playback_device=\"TV\")",
+        "Sure, please confirm your action to play Thinkin Bout You on TV.",
+        "Sure, please confirm your action to play Thinkin Bout You on TV."
+    ],
+    [
+        "CONFIRM(song_name=\"Thinkin Bout You\";playback_device=\"kitchen speaker\")",
+        "Sure, please confirm your action to play Thinkin Bout You on the kitchen speaker.",
+        "Sure, please confirm your action to play Thinkin Bout You on the kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Thinkin Bout You\";playback_device=\"bedroom speaker\")",
+        "Sure, please confirm your action to play Thinkin Bout You on the bedroom speaker.",
+        "Sure, please confirm your action to play Thinkin Bout You on the bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your music is currently being played.",
+        "Your music is currently being played."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "The song belongs to the Pop genre.",
+        "The song belongs to the Pop genre."
+    ],
+    [
+        "OFFER(song_name=\"Mchat\";artist=\"Hoba Hoba Spirit\";album=\"Kamayanbaghi\")",
+        "Do ou like Mchat by Hoba Hoba Spirit on the Kamayanbaghi album?",
+        "Do ou like Mchat by Hoba Hoba Spirit on the Kamayanbaghi album?"
+    ],
+    [
+        "CONFIRM(song_name=\"Mchat\";playback_device=\"TV\")",
+        "You want me to cast Mchat on your TV. Is that right?",
+        "You want me to cast Mchat on your TV. Is that right?"
+    ],
+    [
+        "INFORM(genre=\"Rock\")",
+        "It is in the Rock genre and it is playing now.",
+        "It is in the Rock genre and it is playing now."
+    ],
+    [
+        "INFORM(genre=\"Rock\")@NOTIFY_SUCCESS()",
+        "It is in the Rock genre and it is playing now.",
+        "It is in the Rock genre and it is playing now."
+    ],
+    [
+        "OFFER(song_name=\"Kara Kul\";artist=\"Mark Petrie\";album=\"Genesis\")",
+        "How about a song from the Album Genesis which name is Kara Kul by Mark Petrie?",
+        "How about a song from the Album Genesis which name is Kara Kul by Mark Petrie?"
+    ],
+    [
+        "CONFIRM(song_name=\"Kara Kul\";playback_device=\"kitchen speaker\")",
+        "Yes, give me your confirmation to play Kara Kul on Kitchen speaker.",
+        "Yes, give me your confirmation to play Kara Kul on Kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Kara Kul\";playback_device=\"bedroom speaker\")",
+        "Okay, please confirm to play Kara Kul on bedroom speaker.",
+        "Okay, please confirm to play Kara Kul on bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Song started playing and enjoy your day",
+        "Song started playing and enjoy your day"
+    ],
+    [
+        "OFFER(song_name=\"Silence\";artist=\"Popcaan\";album=\"Forever\")",
+        "What about Silence by Popcaan from the Forever album?",
+        "What about Silence by Popcaan from the Forever album?"
+    ],
+    [
+        "INFORM(genre=\"reggae\")",
+        "It's a reggae song.",
+        "It's a reggae song."
+    ],
+    [
+        "OFFER(song_name=\"Wine For Me\";artist=\"Popcaan\";album=\"Forever\")",
+        "What about Wine For Me by Popcaan from the Forever album?",
+        "What about Wine For Me by Popcaan from the Forever album?"
+    ],
+    [
+        "INFORM(genre=\"reggae\")",
+        "It's a reggae song.",
+        "It's a reggae song."
+    ],
+    [
+        "CONFIRM(song_name=\"Wine For Me\";playback_device=\"TV\")",
+        "Play Wine For Me on your TV. Is this correct?",
+        "Play Wine For Me on your TV. Is this correct?"
+    ],
+    [
+        "CONFIRM(song_name=\"Wine For Me\";playback_device=\"kitchen speaker\")",
+        "Play Wine For Me on kitchen speaker. Is this correct?",
+        "Play Wine For Me on kitchen speaker. Is this correct?"
+    ],
+    [
+        "CONFIRM(song_name=\"Wine For Me\";playback_device=\"bedroom speaker\")",
+        "Play Wine For Me on bedroom speaker. Is this correct?",
+        "Play Wine For Me on bedroom speaker. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has started.",
+        "The song has started."
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")",
+        "I managed to find 10 songs you might like, one of which is Adorn by Miguel in his album Kaleidoscope Dream.",
+        "I managed to find 10 songs you might like, one of which is Adorn by Miguel in his album Kaleidoscope Dream."
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")@INFORM_COUNT(count=\"10\")",
+        "I managed to find 10 songs you might like, one of which is Adorn by Miguel in his album Kaleidoscope Dream.",
+        "I managed to find 10 songs you might like, one of which is Adorn by Miguel in his album Kaleidoscope Dream."
+    ],
+    [
+        "OFFER(song_name=\"African Beauty\";artist=\"Diamond Platnumz\";album=\"A Boy From Tandale\")",
+        "Would you like to listen to African Beauty by Diamond Platnumz in his album A Boy From Tandale instead?",
+        "Would you like to listen to African Beauty by Diamond Platnumz in his album A Boy From Tandale instead?"
+    ],
+    [
+        "CONFIRM(song_name=\"African Beauty\";playback_device=\"kitchen speaker\")",
+        "Please confirm your action to play African Beauty on the kitchen speaker.",
+        "Please confirm your action to play African Beauty on the kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"African Beauty\";playback_device=\"bedroom speaker\")",
+        "Please confirm your action to play African Beauty on the bedroom speaker.",
+        "Please confirm your action to play African Beauty on the bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your song is currently being played.",
+        "Your song is currently being played."
+    ],
+    [
+        "OFFER(song_name=\"Love Lost\";artist=\"Mattia Cupelli\";album=\"Reminiscence\")",
+        "How about Love Lost by Mattia Cupelli from Reminiscence?",
+        "How about Love Lost by Mattia Cupelli from Reminiscence?"
+    ],
+    [
+        "INFORM(genre=\"Soundtracks\")",
+        "The genre is Soundtracks song.",
+        "The genre is Soundtracks song."
+    ],
+    [
+        "CONFIRM(song_name=\"Love Lost\";playback_device=\"kitchen speaker\")",
+        "Please confirm: You want me to play Love Lost on kitchen speaker.",
+        "Please confirm: You want me to play Love Lost on kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Love Lost\";playback_device=\"bedroom speaker\")",
+        "Please confirm again: You want me to play Love Lost on bedroom speaker.",
+        "Please confirm again: You want me to play Love Lost on bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Song is playing. Enjoy the music.",
+        "Song is playing. Enjoy the music."
+    ],
+    [
+        "OFFER(song_name=\"Wojenka\";artist=\"Lao Che\";album=\"Dzieciom\")",
+        "Have you heard of Wojenka by Lao Che of the Dzieciom album?",
+        "Have you heard of Wojenka by Lao Che of the Dzieciom album?"
+    ],
+    [
+        "OFFER(song_name=\"Be Alright\";artist=\"Ariana Grande\";album=\"Dangerous Woman\")",
+        "What about Be Alright by Ariana Grande of the Dangerous Woman album?",
+        "What about Be Alright by Ariana Grande of the Dangerous Woman album?"
+    ],
+    [
+        "OFFER(song_name=\"Cirice\";artist=\"Ghost\";album=\"Meliora\")",
+        "I have 2 songs by Meliora album by Ghost. How about Cirice?",
+        "I have 2 songs by Meliora album by Ghost. How about Cirice?"
+    ],
+    [
+        "OFFER(song_name=\"Cirice\";artist=\"Ghost\";album=\"Meliora\")@INFORM_COUNT(count=\"2\")",
+        "I have 2 songs by Meliora album by Ghost. How about Cirice?",
+        "I have 2 songs by Meliora album by Ghost. How about Cirice?"
+    ],
+    [
+        "CONFIRM(song_name=\"Cirice\";playback_device=\"TV\")",
+        "Do you wan to hear Cirice on the TV?",
+        "Do you wan to hear Cirice on the TV?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, the song is playing.",
+        "Okay, the song is playing."
+    ],
+    [
+        "OFFER(song_name=\"Burn\";artist=\"Ellie Goulding\";album=\"Halcyon\")",
+        "I found 10 songs you may like. How about Burn by Ellie Goulding in the album Halcyon?",
+        "I found 10 songs you may like. How about Burn by Ellie Goulding in the album Halcyon?"
+    ],
+    [
+        "OFFER(song_name=\"Burn\";artist=\"Ellie Goulding\";album=\"Halcyon\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 songs you may like. How about Burn by Ellie Goulding in the album Halcyon?",
+        "I found 10 songs you may like. How about Burn by Ellie Goulding in the album Halcyon?"
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It's a Pop song.",
+        "It's a Pop song."
+    ],
+    [
+        "OFFER(song_name=\"The Heart Wants What it Wants\";artist=\"Selena Gomez\";album=\"For You\")",
+        "How about The Heart Wants What it Wants by Selena Gomez in the album For You?",
+        "How about The Heart Wants What it Wants by Selena Gomez in the album For You?"
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It's a Pop song.",
+        "It's a Pop song."
+    ],
+    [
+        "OFFER(song_name=\"One Last Time\";artist=\"Ariana Grande\";album=\"My Everything\")",
+        "One Last Time by Ariana Grande from the album My Everything?",
+        "One Last Time by Ariana Grande from the album My Everything?"
+    ],
+    [
+        "CONFIRM(song_name=\"One Last Time\";playback_device=\"kitchen speaker\")",
+        "So you want me to play One Last Time on the kitchen speaker?",
+        "So you want me to play One Last Time on the kitchen speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, I'm playing it now.",
+        "Okay, I'm playing it now."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It's a Pop song.",
+        "It's a Pop song."
+    ],
+    [
+        "OFFER(song_name=\"Now that I Found You\";artist=\"Carly Rae Jepsen\";album=\"Dedicated\")",
+        "Now that I Found You by Carly Rae Jepsen from the album Dedicated might be something you'd like.",
+        "Now that I Found You by Carly Rae Jepsen from the album Dedicated might be something you'd like."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It's a Pop song.",
+        "It's a Pop song."
+    ],
+    [
+        "CONFIRM(song_name=\"Now That I Found You\";playback_device=\"kitchen speaker\")",
+        "I'll put Now That I Found You on kitchen speaker, is that right?",
+        "I'll put Now That I Found You on kitchen speaker, is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has started playing.",
+        "The song has started playing."
+    ],
+    [
+        "OFFER(song_name=\"Rain\";artist=\"Simply Three\";album=\"Undefined\")",
+        "Here is 1 song you should enjoy: it is by Simply Three and it is off the Undefined album it is called Rain.",
+        "Here is 1 song you should enjoy: it is by Simply Three and it is off the Undefined album it is called Rain."
+    ],
+    [
+        "OFFER(song_name=\"Rain\";artist=\"Simply Three\";album=\"Undefined\")@INFORM_COUNT(count=\"1\")",
+        "Here is 1 song you should enjoy: it is by Simply Three and it is off the Undefined album it is called Rain.",
+        "Here is 1 song you should enjoy: it is by Simply Three and it is off the Undefined album it is called Rain."
+    ],
+    [
+        "CONFIRM(song_name=\"Rain\";playback_device=\"TV\")",
+        "Would you like Rain played on the TV?",
+        "Would you like Rain played on the TV?"
+    ],
+    [
+        "INFORM(genre=\"Rock\")",
+        "It's genre is Rock and the song has begun.",
+        "It's genre is Rock and the song has begun."
+    ],
+    [
+        "INFORM(genre=\"Rock\")@NOTIFY_SUCCESS()",
+        "It's genre is Rock and the song has begun.",
+        "It's genre is Rock and the song has begun."
+    ],
+    [
+        "OFFER(song_name=\"All That Matters\";artist=\"Justin Bieber\";album=\"Journals\")",
+        "I have 3 songs that you should like. Do you want to listen to All That Matters by Justin Bieber in the album Journals?",
+        "I have 3 songs that you should like. Do you want to listen to All That Matters by Justin Bieber in the album Journals?"
+    ],
+    [
+        "OFFER(song_name=\"All That Matters\";artist=\"Justin Bieber\";album=\"Journals\")@INFORM_COUNT(count=\"3\")",
+        "I have 3 songs that you should like. Do you want to listen to All That Matters by Justin Bieber in the album Journals?",
+        "I have 3 songs that you should like. Do you want to listen to All That Matters by Justin Bieber in the album Journals?"
+    ],
+    [
+        "CONFIRM(song_name=\"All That Matters\";playback_device=\"TV\")",
+        "Please confirm that you want me to play All That Matters on TV.",
+        "Please confirm that you want me to play All That Matters on TV."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I put the song on.",
+        "I put the song on."
+    ],
+    [
+        "OFFER(song_name=\"Radioactive\";artist=\"Imagine dragons\";album=\"Night Visions\")",
+        "Sure, I will help you, I found 1 song for you, Do you like Radioactive by Imagine dragons in Night Visions?",
+        "Sure, I will help you, I found 1 song for you, Do you like Radioactive by Imagine dragons in Night Visions?"
+    ],
+    [
+        "OFFER(song_name=\"Radioactive\";artist=\"Imagine dragons\";album=\"Night Visions\")@INFORM_COUNT(count=\"1\")",
+        "Sure, I will help you, I found 1 song for you, Do you like Radioactive by Imagine dragons in Night Visions?",
+        "Sure, I will help you, I found 1 song for you, Do you like Radioactive by Imagine dragons in Night Visions?"
+    ],
+    [
+        "CONFIRM(song_name=\"Radioactive\";playback_device=\"TV\")",
+        "Please confirm the following details: play Radioactive on TV",
+        "Please confirm the following details: play Radioactive on TV"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started playing your favorite song",
+        "Started playing your favorite song"
+    ],
+    [
+        "OFFER(song_name=\"Oblivion\";artist=\"Grimes\";album=\"Visions\")",
+        "Do you like Oblivion by Grimes on the Visions album?",
+        "Do you like Oblivion by Grimes on the Visions album?"
+    ],
+    [
+        "CONFIRM(song_name=\"Oblivion\";playback_device=\"kitchen speaker\")",
+        "You want to cast Oblivion on your kitchen speaker. Is that right?",
+        "You want to cast Oblivion on your kitchen speaker. Is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your song has started.",
+        "Your song has started."
+    ],
+    [
+        "OFFER(song_name=\"Mercy\";artist=\"Shawn Mendes\";album=\"Illuminate\")",
+        "I found 10 songs that you may like. How about Mercy by Shawn Mendes from the album Illuminate?",
+        "I found 10 songs that you may like. How about Mercy by Shawn Mendes from the album Illuminate?"
+    ],
+    [
+        "OFFER(song_name=\"Mercy\";artist=\"Shawn Mendes\";album=\"Illuminate\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 songs that you may like. How about Mercy by Shawn Mendes from the album Illuminate?",
+        "I found 10 songs that you may like. How about Mercy by Shawn Mendes from the album Illuminate?"
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "It is a pop song.",
+        "It is a pop song."
+    ],
+    [
+        "CONFIRM(song_name=\"Mercy\";playback_device=\"kitchen speaker\")",
+        "Please confirm: play Mercy on the kitchen speaker?",
+        "Please confirm: play Mercy on the kitchen speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started playing Mercy.",
+        "Started playing Mercy."
+    ],
+    [
+        "OFFER(song_name=\"All On Me\";artist=\"Devin Dawson\";album=\"Dark Horse\")",
+        "I've found All On Me by Devin Dawson from the album Dark Horse.",
+        "I've found All On Me by Devin Dawson from the album Dark Horse."
+    ],
+    [
+        "OFFER(song_name=\"All The Girls Wanna Ride\";artist=\"Jawga Boyz\";album=\"Kuntry\")",
+        "What about All The Girls Wanna Ride by Jawga Boyz from the album Kuntry?",
+        "What about All The Girls Wanna Ride by Jawga Boyz from the album Kuntry?"
+    ],
+    [
+        "CONFIRM(song_name=\"All The Girls Wanna Ride\";playback_device=\"TV\")",
+        "Please confirm: play All The Girls Wanna Ride on TV.",
+        "Please confirm: play All The Girls Wanna Ride on TV."
+    ],
+    [
+        "CONFIRM(song_name=\"All The Girls Wanna Ride\";playback_device=\"kitchen speaker\")",
+        "Please confirm: play All The Girls Wanna Ride on kitchen speaker.",
+        "Please confirm: play All The Girls Wanna Ride on kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"All The Girls Wanna Ride\";playback_device=\"bedroom speaker\")",
+        "Please confirm: play All The Girls Wanna Ride on bedroom speaker.",
+        "Please confirm: play All The Girls Wanna Ride on bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Song is now playing.",
+        "Song is now playing."
+    ],
+    [
+        "OFFER(song_name=\"Attention\";artist=\"Charlie Puth\";album=\"Voicenotes\")",
+        "I found 2 songs including Attention from the Charlie Puth album Voicenotes.",
+        "I found 2 songs including Attention from the Charlie Puth album Voicenotes."
+    ],
+    [
+        "OFFER(song_name=\"Attention\";artist=\"Charlie Puth\";album=\"Voicenotes\")@INFORM_COUNT(count=\"2\")",
+        "I found 2 songs including Attention from the Charlie Puth album Voicenotes.",
+        "I found 2 songs including Attention from the Charlie Puth album Voicenotes."
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "The song is pop.",
+        "The song is pop."
+    ],
+    [
+        "OFFER(song_name=\"The Way I Am\";artist=\"Charlie Puth\";album=\"Voicenotes\")",
+        "There is a song on the Charlie Puth album Voicenotes called The Way I Am.",
+        "There is a song on the Charlie Puth album Voicenotes called The Way I Am."
+    ],
+    [
+        "CONFIRM(song_name=\"The Way I Am\";playback_device=\"TV\")",
+        "Please confirm you want to play The Way I Am on the TV.",
+        "Please confirm you want to play The Way I Am on the TV."
+    ],
+    [
+        "CONFIRM(song_name=\"The Way I Am\";playback_device=\"kitchen speaker\")",
+        "Please confirm you want to hear The Way I Am on the kitchen speaker.",
+        "Please confirm you want to hear The Way I Am on the kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"The Way I Am\";playback_device=\"bedroom speaker\")",
+        "Please confirm you want to play The Way I Am on the bedroom speaker.",
+        "Please confirm you want to play The Way I Am on the bedroom speaker."
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "The song is pop and is playing now.",
+        "The song is pop and is playing now."
+    ],
+    [
+        "INFORM(genre=\"pop\")@NOTIFY_SUCCESS()",
+        "The song is pop and is playing now.",
+        "The song is pop and is playing now."
+    ],
+    [
+        "OFFER(song_name=\"Open Up\";artist=\"Matt Simons\";album=\"After The Landslide\")",
+        "I have 10 great songs. Do you want to hear Open Up by Matt Simons off his album After The Landslide?",
+        "I have 10 great songs. Do you want to hear Open Up by Matt Simons off his album After The Landslide?"
+    ],
+    [
+        "OFFER(song_name=\"Open Up\";artist=\"Matt Simons\";album=\"After The Landslide\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 great songs. Do you want to hear Open Up by Matt Simons off his album After The Landslide?",
+        "I have 10 great songs. Do you want to hear Open Up by Matt Simons off his album After The Landslide?"
+    ],
+    [
+        "OFFER(song_name=\"Latency\";artist=\"Martin Garrix\";album=\"The Martin Garrix Experience\")",
+        "How about Latency by Martin Garrix of the The Martin Garrix Experience album?",
+        "How about Latency by Martin Garrix of the The Martin Garrix Experience album?"
+    ],
+    [
+        "OFFER(song_name=\"Let It Be\";artist=\"Hayley Kiyoko\";album=\"Expectations\")",
+        "How about Let It Be by Hayley Kiyoko off the Expectations album?",
+        "How about Let It Be by Hayley Kiyoko off the Expectations album?"
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "She is a pop artist.",
+        "She is a pop artist."
+    ],
+    [
+        "CONFIRM(song_name=\"Let It Be\";playback_device=\"kitchen speaker\")",
+        "You said play Let It Be on the kitchen speaker?",
+        "You said play Let It Be on the kitchen speaker?"
+    ],
+    [
+        "CONFIRM(song_name=\"Let IT Be\";playback_device=\"bedroom speaker\")",
+        "Okay, I will will play Let IT Be on the bedroom speaker, cool?",
+        "Okay, I will will play Let IT Be on the bedroom speaker, cool?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alright it is starting now.",
+        "Alright it is starting now."
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")",
+        "Okay, how about Adorn my Miguel from the album Kaleidoscope Dream?",
+        "Okay, how about Adorn my Miguel from the album Kaleidoscope Dream?"
+    ],
+    [
+        "OFFER(song_name=\"California King Bed\";artist=\"Rihanna\";album=\"Loud\")",
+        "I found 1 song that may work, it is California King Bed by Rihanna in the album Loud.",
+        "I found 1 song that may work, it is California King Bed by Rihanna in the album Loud."
+    ],
+    [
+        "OFFER(song_name=\"California King Bed\";artist=\"Rihanna\";album=\"Loud\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 song that may work, it is California King Bed by Rihanna in the album Loud.",
+        "I found 1 song that may work, it is California King Bed by Rihanna in the album Loud."
+    ],
+    [
+        "CONFIRM(song_name=\"California King Bed\";playback_device=\"kitchen speaker\")",
+        "Okay, can you confirm you would like me to play the song California King Bed on the kitchen speaker?",
+        "Okay, can you confirm you would like me to play the song California King Bed on the kitchen speaker?"
+    ],
+    [
+        "CONFIRM(song_name=\"California King Bed\";playback_device=\"bedroom speaker\")",
+        "Okay, can you confirm you would like me to play the song California King Bed on the bedroom speaker?",
+        "Okay, can you confirm you would like me to play the song California King Bed on the bedroom speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have started playing the song.",
+        "I have started playing the song."
+    ],
+    [
+        "OFFER(song_name=\"All on Me\";artist=\"Devin Dawson\";album=\"Dark Horse\")",
+        "I found 10. How about All on Me by Devin Dawson in Dark Horse?",
+        "I found 10. How about All on Me by Devin Dawson in Dark Horse?"
+    ],
+    [
+        "OFFER(song_name=\"All on Me\";artist=\"Devin Dawson\";album=\"Dark Horse\")@INFORM_COUNT(count=\"10\")",
+        "I found 10. How about All on Me by Devin Dawson in Dark Horse?",
+        "I found 10. How about All on Me by Devin Dawson in Dark Horse?"
+    ],
+    [
+        "OFFER(song_name=\"All The Girls Wanna Ride\";artist=\"Jawga Boyz\";album=\"Kuntry\")",
+        "How about All The Girls Wanna Ride by Jawga Boyz in Kuntry?",
+        "How about All The Girls Wanna Ride by Jawga Boyz in Kuntry?"
+    ],
+    [
+        "OFFER(song_name=\"Head Over Boots\";artist=\"Jon Pardi\";album=\"California Sunrise\")",
+        "In the album California Sunrise, I have 2 songs. How about Head Over Boots by Jon Pardi?",
+        "In the album California Sunrise, I have 2 songs. How about Head Over Boots by Jon Pardi?"
+    ],
+    [
+        "OFFER(song_name=\"Head Over Boots\";artist=\"Jon Pardi\";album=\"California Sunrise\")@INFORM_COUNT(count=\"2\")",
+        "In the album California Sunrise, I have 2 songs. How about Head Over Boots by Jon Pardi?",
+        "In the album California Sunrise, I have 2 songs. How about Head Over Boots by Jon Pardi?"
+    ],
+    [
+        "CONFIRM(song_name=\"Head Over Boots\";playback_device=\"TV\")",
+        "Confirm Head Over Boots on the TV.",
+        "Confirm Head Over Boots on the TV."
+    ],
+    [
+        "CONFIRM(song_name=\"Head Over Boots\";playback_device=\"kitchen speaker\")",
+        "Confirm Head Over Boots on Kitchen speaker.",
+        "Confirm Head Over Boots on Kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Head Over Boots\";playback_device=\"bedroom speaker\")",
+        "Confirm Head Over Boots on bedroom speaker.",
+        "Confirm Head Over Boots on bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is starting.",
+        "The song is starting."
+    ],
+    [
+        "OFFER(song_name=\"Black Widow\";artist=\"Iggy Azalea\";album=\"the New Classic\")",
+        "Yes, found 4, How about Black Widow by Iggy Azalea in the album the New Classic?",
+        "Yes, found 4, How about Black Widow by Iggy Azalea in the album the New Classic?"
+    ],
+    [
+        "OFFER(song_name=\"Black Widow\";artist=\"Iggy Azalea\";album=\"the New Classic\")@INFORM_COUNT(count=\"4\")",
+        "Yes, found 4, How about Black Widow by Iggy Azalea in the album the New Classic?",
+        "Yes, found 4, How about Black Widow by Iggy Azalea in the album the New Classic?"
+    ],
+    [
+        "CONFIRM(song_name=\"Black Widow\";playback_device=\"TV\")",
+        "need your final confirmation to play Black Widow on TV.",
+        "need your final confirmation to play Black Widow on TV."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "This is a Pop song. Song started playing, enjoy it.",
+        "This is a Pop song. Song started playing, enjoy it."
+    ],
+    [
+        "INFORM(genre=\"Pop\")@NOTIFY_SUCCESS()",
+        "This is a Pop song. Song started playing, enjoy it.",
+        "This is a Pop song. Song started playing, enjoy it."
+    ],
+    [
+        "OFFER(song_name=\"Pour it Up\";artist=\"Rihanna\";album=\"Unapologetic\")",
+        "How about Pour it Up by Rihanna in Unapologetic?",
+        "How about Pour it Up by Rihanna in Unapologetic?"
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "The genre is Pop.",
+        "The genre is Pop."
+    ],
+    [
+        "CONFIRM(song_name=\"Pour it Up\";playback_device=\"TV\")",
+        "Please confirm on TV, the song Pour it Up.",
+        "Please confirm on TV, the song Pour it Up."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is starting.",
+        "The song is starting."
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")",
+        "I have 10 songs for you. What about Adorn by Miguel from Kaleidoscope Dream?",
+        "I have 10 songs for you. What about Adorn by Miguel from Kaleidoscope Dream?"
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 songs for you. What about Adorn by Miguel from Kaleidoscope Dream?",
+        "I have 10 songs for you. What about Adorn by Miguel from Kaleidoscope Dream?"
+    ],
+    [
+        "CONFIRM(song_name=\"Adorn\";playback_device=\"kitchen speaker\")",
+        "Okay, please confirm: playing Adorn on kitchen speaker.",
+        "Okay, please confirm: playing Adorn on kitchen speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Starting the song for you.",
+        "Starting the song for you."
+    ],
+    [
+        "OFFER(song_name=\"Raging\";artist=\"Kygo\";album=\"Cloud Nine\")",
+        "What are your thoughts on Raging by Kygo from their album Cloud Nine?",
+        "What are your thoughts on Raging by Kygo from their album Cloud Nine?"
+    ],
+    [
+        "CONFIRM(song_name=\"Raging\";playback_device=\"kitchen speaker\")",
+        "Just to make sure, I will play Raging on the kitchen speaker.",
+        "Just to make sure, I will play Raging on the kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Raging\";playback_device=\"bedroom speaker\")",
+        "Okay. So, you want to play Raging on the bedroom speaker.",
+        "Okay. So, you want to play Raging on the bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I just started playing the song.",
+        "I just started playing the song."
+    ],
+    [
+        "INFORM(genre=\"Downtempo\")",
+        "It's called a Downtempo song.",
+        "It's called a Downtempo song."
+    ],
+    [
+        "OFFER(song_name=\"Business Dinners\";artist=\"Sigrid\";album=\"Sucker Punch\")",
+        "Would you like to hear Business Dinners from the album Sucker Punch by Sigrid?",
+        "Would you like to hear Business Dinners from the album Sucker Punch by Sigrid?"
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "The song is considered Pop.",
+        "The song is considered Pop."
+    ],
+    [
+        "OFFER(song_name=\"All On Me\";artist=\"Devin Dawson\";album=\"Dark Horse\")",
+        "I have 10 more songs that you might enjoy. What about All On Me from the album Dark Horse by Devin Dawson?",
+        "I have 10 more songs that you might enjoy. What about All On Me from the album Dark Horse by Devin Dawson?"
+    ],
+    [
+        "OFFER(song_name=\"All On Me\";artist=\"Devin Dawson\";album=\"Dark Horse\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 more songs that you might enjoy. What about All On Me from the album Dark Horse by Devin Dawson?",
+        "I have 10 more songs that you might enjoy. What about All On Me from the album Dark Horse by Devin Dawson?"
+    ],
+    [
+        "CONFIRM(song_name=\"All On Me\";playback_device=\"TV\")",
+        "You want to play All On Me on your TV?",
+        "You want to play All On Me on your TV?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is now playing.",
+        "The song is now playing."
+    ],
+    [
+        "OFFER(song_name=\"Shy\";artist=\"Jai Waetford\";album=\"Heart Miles\")",
+        "How about Shy by Jai Waetford from the album Heart Miles?",
+        "How about Shy by Jai Waetford from the album Heart Miles?"
+    ],
+    [
+        "OFFER(song_name=\"Get Lucky\";artist=\"Daft Punk\";album=\"Random Access Memories\")",
+        "How about Get Lucky by Daft Punk fromthe album Random Access Memories.",
+        "How about Get Lucky by Daft Punk fromthe album Random Access Memories."
+    ],
+    [
+        "INFORM(genre=\"Punk\")",
+        "It is a Punk song.",
+        "It is a Punk song."
+    ],
+    [
+        "CONFIRM(song_name=\"Get Lucky\";playback_device=\"TV\")",
+        "SHall I plpay Get Lucky on TV?",
+        "SHall I plpay Get Lucky on TV?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your selection is playing.",
+        "Your selection is playing."
+    ],
+    [
+        "OFFER(song_name=\"I Like It\";artist=\"Enrique Iglesias\";album=\"Euphoria\")",
+        "I found I Like It by Enrique Iglesias from his album Euphoria.",
+        "I found I Like It by Enrique Iglesias from his album Euphoria."
+    ],
+    [
+        "OFFER(song_name=\"Cast No Stones\";artist=\"Cody Jinks\";album=\"Adobe Sessions\")",
+        "I found 2 possible tracks for you. How about Cast No Stones by Cody Jinks from his Adobe Sessions album?",
+        "I found 2 possible tracks for you. How about Cast No Stones by Cody Jinks from his Adobe Sessions album?"
+    ],
+    [
+        "OFFER(song_name=\"Cast No Stones\";artist=\"Cody Jinks\";album=\"Adobe Sessions\")@INFORM_COUNT(count=\"2\")",
+        "I found 2 possible tracks for you. How about Cast No Stones by Cody Jinks from his Adobe Sessions album?",
+        "I found 2 possible tracks for you. How about Cast No Stones by Cody Jinks from his Adobe Sessions album?"
+    ],
+    [
+        "CONFIRM(song_name=\"Cast No Stones\";playback_device=\"kitchen speaker\")",
+        "Confirm: playing Cast No Stones on the kitchen speaker.",
+        "Confirm: playing Cast No Stones on the kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Cast No Stones\";playback_device=\"bedroom speaker\")",
+        "Confirming that you would like to play Cast No Stones on bedroom speaker.",
+        "Confirming that you would like to play Cast No Stones on bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song will start playing.",
+        "The song will start playing."
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")",
+        "Have you considered Adorn by Miguel from the album Kaleidoscope Dream?",
+        "Have you considered Adorn by Miguel from the album Kaleidoscope Dream?"
+    ],
+    [
+        "OFFER(song_name=\"Summer Time\";artist=\"Vybz Kartel\";album=\"The Gaza Don\")",
+        "There's 1 song you might enjoy. How about Summer Time by Vybz Kartel from the album The Gaza Don?",
+        "There's 1 song you might enjoy. How about Summer Time by Vybz Kartel from the album The Gaza Don?"
+    ],
+    [
+        "OFFER(song_name=\"Summer Time\";artist=\"Vybz Kartel\";album=\"The Gaza Don\")@INFORM_COUNT(count=\"1\")",
+        "There's 1 song you might enjoy. How about Summer Time by Vybz Kartel from the album The Gaza Don?",
+        "There's 1 song you might enjoy. How about Summer Time by Vybz Kartel from the album The Gaza Don?"
+    ],
+    [
+        "CONFIRM(song_name=\"Summer Time\";playback_device=\"TV\")",
+        "You'd like me to play Summer Time on the TV, is that correct?",
+        "You'd like me to play Summer Time on the TV, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've started playing it.",
+        "I've started playing it."
+    ],
+    [
+        "OFFER(song_name=\"Are You Ready\";artist=\"Disturbed\";album=\"Evolution\")",
+        "I can show you 10 songs you might want to listen. How about Are You Ready by Disturbed from the album Evolution?",
+        "I can show you 10 songs you might want to listen. How about Are You Ready by Disturbed from the album Evolution?"
+    ],
+    [
+        "OFFER(song_name=\"Are You Ready\";artist=\"Disturbed\";album=\"Evolution\")@INFORM_COUNT(count=\"10\")",
+        "I can show you 10 songs you might want to listen. How about Are You Ready by Disturbed from the album Evolution?",
+        "I can show you 10 songs you might want to listen. How about Are You Ready by Disturbed from the album Evolution?"
+    ],
+    [
+        "CONFIRM(song_name=\"Are You Ready\";playback_device=\"kitchen speaker\")",
+        "Let me make sure that you want to play Are You Ready on the kitchen speaker?",
+        "Let me make sure that you want to play Are You Ready on the kitchen speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has started playing.",
+        "The song has started playing."
+    ],
+    [
+        "OFFER(song_name=\"Promises\";artist=\"Nero\";album=\"Welcome Reality\")",
+        "I found 10 songs for you. How about Promises by Nero on their Welcome Reality album?",
+        "I found 10 songs for you. How about Promises by Nero on their Welcome Reality album?"
+    ],
+    [
+        "OFFER(song_name=\"Promises\";artist=\"Nero\";album=\"Welcome Reality\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 songs for you. How about Promises by Nero on their Welcome Reality album?",
+        "I found 10 songs for you. How about Promises by Nero on their Welcome Reality album?"
+    ],
+    [
+        "INFORM(genre=\"dubstep\")",
+        "It's dubstep.",
+        "It's dubstep."
+    ],
+    [
+        "OFFER(song_name=\"Generation Why\";artist=\"Conan Gray\";album=\"Sunset Season\")",
+        "How about Generation Why by Conan Gray on the Sunset Season album?",
+        "How about Generation Why by Conan Gray on the Sunset Season album?"
+    ],
+    [
+        "OFFER(song_name=\"Lookalike\";artist=\"Conan Gray\";album=\"Sunset Season\")",
+        "There's Lookalike by Conan Gray on Sunset Season.",
+        "There's Lookalike by Conan Gray on Sunset Season."
+    ],
+    [
+        "CONFIRM(song_name=\"Lookalike\";playback_device=\"TV\")",
+        "Please confirm: Play Lookalike on tv.",
+        "Please confirm: Play Lookalike on tv."
+    ],
+    [
+        "CONFIRM(song_name=\"Lookalike\";playback_device=\"kitchen speaker\")",
+        "Please confirm: Play Lookalike on kitchen speaker.",
+        "Please confirm: Play Lookalike on kitchen speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Playing now.",
+        "Playing now."
+    ],
+    [
+        "OFFER(song_name=\"Dirt Road Anthem\";artist=\"Jason Aldean\";album=\"My Kinda Party\")",
+        "Do you like Dirt Road Anthem by Jason Aldean in album My Kinda Party?",
+        "Do you like Dirt Road Anthem by Jason Aldean in album My Kinda Party?"
+    ],
+    [
+        "CONFIRM(song_name=\"Dirt Road Anthem\";playback_device=\"TV\")",
+        "please confirm the following details: play Dirt Road Anthem on tv",
+        "please confirm the following details: play Dirt Road Anthem on tv"
+    ],
+    [
+        "CONFIRM(song_name=\"Dirt Road Anthem\";playback_device=\"kitchen speaker\")",
+        "please confirm the following details: play Dirt Road Anthem on Kitchen speaker",
+        "please confirm the following details: play Dirt Road Anthem on Kitchen speaker"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song started playing on kitchen speaker, Shall i help you with anything more?",
+        "The song started playing on kitchen speaker, Shall i help you with anything more?"
+    ],
+    [
+        "OFFER(song_name=\"Broken Arrows\";artist=\"Avicii\";album=\"Stories\")",
+        "Sure, how does the song Broken Arrows by Avicii from the album Stories sound to you?",
+        "Sure, how does the song Broken Arrows by Avicii from the album Stories sound to you?"
+    ],
+    [
+        "OFFER(song_name=\"Whore\";artist=\"In This Moment\";album=\"Blood\")",
+        "How about the song titled Whore by the band In This Moment, from the album Blood?",
+        "How about the song titled Whore by the band In This Moment, from the album Blood?"
+    ],
+    [
+        "CONFIRM(song_name=\"Whore\";playback_device=\"kitchen speaker\")",
+        "No problem. So you want me to play the song Whore on the kitchen speaker, is that right?",
+        "No problem. So you want me to play the song Whore on the kitchen speaker, is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, I will begin playing that for you.",
+        "Okay, I will begin playing that for you."
+    ],
+    [
+        "INFORM(genre=\"Metalcore\")",
+        "That song is considered to be a Metalcore song.",
+        "That song is considered to be a Metalcore song."
+    ],
+    [
+        "OFFER(song_name=\"Are You Ready\";artist=\"Disturbed\";album=\"Evolution\")",
+        "OK, May I suggest a song off the album Evolution by Disturbed, called Are You Ready?",
+        "OK, May I suggest a song off the album Evolution by Disturbed, called Are You Ready?"
+    ],
+    [
+        "OFFER(song_name=\"Be Somebody\";artist=\"Thousand Foot Krutch\";album=\"The End Is Where We Begin\")",
+        "Alright, how about Be Somebody of The End Is Where We Begin album by Thousand Foot Krutch.",
+        "Alright, how about Be Somebody of The End Is Where We Begin album by Thousand Foot Krutch."
+    ],
+    [
+        "OFFER(song_name=\"All On Me\";artist=\"Devin Dawson\";album=\"Dark Horse\")",
+        "Alright, How about All On Me, off the Dark Horse album by Devin Dawson?",
+        "Alright, How about All On Me, off the Dark Horse album by Devin Dawson?"
+    ],
+    [
+        "CONFIRM(song_name=\"All On Me\";playback_device=\"TV\")",
+        "OK, please confirm: Play All On Me, on the TV. Is that right?",
+        "OK, please confirm: Play All On Me, on the TV. Is that right?"
+    ],
+    [
+        "CONFIRM(song_name=\"All On Me\";playback_device=\"kitchen speaker\")",
+        "OK, Please confirm: play All On Me on kitchen speaker. is this right?",
+        "OK, Please confirm: play All On Me on kitchen speaker. is this right?"
+    ],
+    [
+        "CONFIRM(song_name=\"All On Me\";playback_device=\"bedroom speaker\")",
+        "Ok, please confirm: play All On Me on bedroom speaker. Is that right?",
+        "Ok, please confirm: play All On Me on bedroom speaker. Is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "OK, great. Music has started.",
+        "OK, great. Music has started."
+    ],
+    [
+        "OFFER(song_name=\"Without Me\";artist=\"Alec Chambers\";album=\"Covers\")",
+        "How about Without Me from the album Covers by Alec Chambers?",
+        "How about Without Me from the album Covers by Alec Chambers?"
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")",
+        "I've got 10 options from my first search: how about Adorn from the album Kaleidoscope Dream by Miguel?",
+        "I've got 10 options from my first search: how about Adorn from the album Kaleidoscope Dream by Miguel?"
+    ],
+    [
+        "OFFER(song_name=\"Adorn\";artist=\"Miguel\";album=\"Kaleidoscope Dream\")@INFORM_COUNT(count=\"10\")",
+        "I've got 10 options from my first search: how about Adorn from the album Kaleidoscope Dream by Miguel?",
+        "I've got 10 options from my first search: how about Adorn from the album Kaleidoscope Dream by Miguel?"
+    ],
+    [
+        "OFFER(song_name=\"African Beauty\";artist=\"Diamond Platnumz\";album=\"A Boy From Tandale\")",
+        "African Beauty from the album A Boy From Tandale, by Diamond Platnumz could be good.",
+        "African Beauty from the album A Boy From Tandale, by Diamond Platnumz could be good."
+    ],
+    [
+        "CONFIRM(song_name=\"African Beauty\";playback_device=\"kitchen speaker\")",
+        "You'd like to play African Beauty on the kitchen speaker?",
+        "You'd like to play African Beauty on the kitchen speaker?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alright, here you go.",
+        "Alright, here you go."
+    ],
+    [
+        "OFFER(song_name=\"First True Love\";artist=\"Kolohe Kai\";album=\"Love Town\")",
+        "Do you like the song First True Love by Kolohe Kai from the album Love Town?",
+        "Do you like the song First True Love by Kolohe Kai from the album Love Town?"
+    ],
+    [
+        "INFORM(genre=\"Reggae\")",
+        "It's a Reggae song.",
+        "It's a Reggae song."
+    ],
+    [
+        "CONFIRM(song_name=\"First True Love\";playback_device=\"kitchen speaker\")",
+        "I'll play First True Love on the kitchen speaker, is that right?",
+        "I'll play First True Love on the kitchen speaker, is that right?"
+    ],
+    [
+        "CONFIRM(song_name=\"First True Love\";playback_device=\"bedroom speaker\")",
+        "I'll play First True Love on your bedroom speaker, is that right?",
+        "I'll play First True Love on your bedroom speaker, is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has begun.",
+        "The song has begun."
+    ],
+    [
+        "OFFER(song_name=\"All About That Bass\";artist=\"Meghan Trainor\";album=\"Title\")",
+        "How about All About That Bass by Meghan Trainor off her album Title?",
+        "How about All About That Bass by Meghan Trainor off her album Title?"
+    ],
+    [
+        "CONFIRM(song_name=\"All About that Bass\";playback_device=\"TV\")",
+        "Just to make sure, you want to listen to All About that Bass on TV.",
+        "Just to make sure, you want to listen to All About that Bass on TV."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your music has begun!",
+        "Your music has begun!"
+    ],
+    [
+        "OFFER(song_name=\"Moves\";artist=\"Olly Murs\";album=\"You Know I know\")",
+        "I found 1 song you might enjoy, how about Moves by Olly Murs on You Know I know.",
+        "I found 1 song you might enjoy, how about Moves by Olly Murs on You Know I know."
+    ],
+    [
+        "OFFER(song_name=\"Moves\";artist=\"Olly Murs\";album=\"You Know I know\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 song you might enjoy, how about Moves by Olly Murs on You Know I know.",
+        "I found 1 song you might enjoy, how about Moves by Olly Murs on You Know I know."
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "It's pop music.",
+        "It's pop music."
+    ],
+    [
+        "CONFIRM(song_name=\"Moves\";playback_device=\"TV\")",
+        "Moves on the TV, is that correct?",
+        "Moves on the TV, is that correct?"
+    ],
+    [
+        "CONFIRM(song_name=\"Moves\";playback_device=\"kitchen speaker\")",
+        "Moves on the kitchen speaker, correct?",
+        "Moves on the kitchen speaker, correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Playing your song now.",
+        "Playing your song now."
+    ],
+    [
+        "OFFER(song_name=\"Bohemian Rhapsody\";artist=\"Billy Watman\";album=\"Cryptic\")",
+        "1 song you may enjoy off the Cryptic album by Billy Watman Bohemian Rhapsody.",
+        "1 song you may enjoy off the Cryptic album by Billy Watman Bohemian Rhapsody."
+    ],
+    [
+        "OFFER(song_name=\"Bohemian Rhapsody\";artist=\"Billy Watman\";album=\"Cryptic\")@INFORM_COUNT(count=\"1\")",
+        "1 song you may enjoy off the Cryptic album by Billy Watman Bohemian Rhapsody.",
+        "1 song you may enjoy off the Cryptic album by Billy Watman Bohemian Rhapsody."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It is refereed to as Pop.",
+        "It is refereed to as Pop."
+    ],
+    [
+        "CONFIRM(song_name=\"Bohemian Rhapsody\";playback_device=\"TV\")",
+        "Do you want to listen to Bohemian Rhapsody on the TV?",
+        "Do you want to listen to Bohemian Rhapsody on the TV?"
+    ],
+    [
+        "CONFIRM(song_name=\"Bohemian Rhapsody\";playback_device=\"kitchen speaker\")",
+        "You want me to cast Bohemian Rhapsody on to the kitchen speaker right?",
+        "You want me to cast Bohemian Rhapsody on to the kitchen speaker right?"
+    ],
+    [
+        "CONFIRM(song_name=\"Bohemian Rhapsody\";playback_device=\"bedroom speaker\")",
+        "Your choice of location for hearing Bohemian Rhapsody is the bedroom speaker correct?",
+        "Your choice of location for hearing Bohemian Rhapsody is the bedroom speaker correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is now playing.",
+        "The song is now playing."
+    ],
+    [
+        "OFFER(song_name=\"Yeah Boy\";artist=\"Kelsea Ballerini\";album=\"The First Time\")",
+        "I found 10 songs for you. What about Yeah Boy by Kelsea Ballerini from the The First Time album?",
+        "I found 10 songs for you. What about Yeah Boy by Kelsea Ballerini from the The First Time album?"
+    ],
+    [
+        "OFFER(song_name=\"Yeah Boy\";artist=\"Kelsea Ballerini\";album=\"The First Time\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 songs for you. What about Yeah Boy by Kelsea Ballerini from the The First Time album?",
+        "I found 10 songs for you. What about Yeah Boy by Kelsea Ballerini from the The First Time album?"
+    ],
+    [
+        "OFFER(song_name=\"Are You Ready\";artist=\"Disturbed\";album=\"Evolution\")",
+        "I found 10 songs for you. What about Are You Ready by Disturbed from the Evolution album.",
+        "I found 10 songs for you. What about Are You Ready by Disturbed from the Evolution album."
+    ],
+    [
+        "OFFER(song_name=\"Are You Ready\";artist=\"Disturbed\";album=\"Evolution\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 songs for you. What about Are You Ready by Disturbed from the Evolution album.",
+        "I found 10 songs for you. What about Are You Ready by Disturbed from the Evolution album."
+    ],
+    [
+        "OFFER(song_name=\"Be Somebody\";artist=\"Thousand Foot Krutch\";album=\"The End Is Where We Begin\")",
+        "What about Be Somebody by Thousand Foot Krutch from the The End Is Where We Begin album?",
+        "What about Be Somebody by Thousand Foot Krutch from the The End Is Where We Begin album?"
+    ],
+    [
+        "CONFIRM(song_name=\"Be Somebody\";playback_device=\"kitchen speaker\")",
+        "Play Be Somebody on kitchen speaker. Is this correct.",
+        "Play Be Somebody on kitchen speaker. Is this correct."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song has started.",
+        "The song has started."
+    ],
+    [
+        "OFFER(song_name=\"Maximize\";artist=\"Amaranthe\";album=\"Maximalism\")",
+        "What about Maximize by Amaranthe from Maximalism?",
+        "What about Maximize by Amaranthe from Maximalism?"
+    ],
+    [
+        "OFFER(song_name=\"Serendipity\";artist=\"Albert Posis\";album=\"Higher\")",
+        "How about Serendipity by Albert Posis on Higher?",
+        "How about Serendipity by Albert Posis on Higher?"
+    ],
+    [
+        "OFFER(song_name=\"Open Up\";artist=\"Matt Simons\";album=\"After the Landslide\")",
+        "I found 1 you might like, Open Up by Matt Simons on After the Landslide.",
+        "I found 1 you might like, Open Up by Matt Simons on After the Landslide."
+    ],
+    [
+        "OFFER(song_name=\"Open Up\";artist=\"Matt Simons\";album=\"After the Landslide\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 you might like, Open Up by Matt Simons on After the Landslide.",
+        "I found 1 you might like, Open Up by Matt Simons on After the Landslide."
+    ],
+    [
+        "INFORM(genre=\"pop\")",
+        "It's pop music.",
+        "It's pop music."
+    ],
+    [
+        "CONFIRM(song_name=\"Open Up\";playback_device=\"TV\")",
+        "Open Up on TV, is that correct?",
+        "Open Up on TV, is that correct?"
+    ],
+    [
+        "CONFIRM(song_name=\"Open up\";playback_device=\"kitchen speaker\")",
+        "Open up on the kitchen speaker, is that correct?",
+        "Open up on the kitchen speaker, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Playing Open Up now.",
+        "Playing Open Up now."
+    ],
+    [
+        "OFFER(song_name=\"All On Me\";artist=\"Devin Dawson\";album=\"Dark Horse\")",
+        "I have 10. How about All On Me by Devin Dawson from Dark Horse?",
+        "I have 10. How about All On Me by Devin Dawson from Dark Horse?"
+    ],
+    [
+        "OFFER(song_name=\"All On Me\";artist=\"Devin Dawson\";album=\"Dark Horse\")@INFORM_COUNT(count=\"10\")",
+        "I have 10. How about All On Me by Devin Dawson from Dark Horse?",
+        "I have 10. How about All On Me by Devin Dawson from Dark Horse?"
+    ],
+    [
+        "OFFER(song_name=\"All the Girls Wanna Ride\";artist=\"Jawga Boyz\";album=\"Kuntry\")",
+        "How about All the Girls Wanna Ride by Jawga Boyz from Kuntry.",
+        "How about All the Girls Wanna Ride by Jawga Boyz from Kuntry."
+    ],
+    [
+        "OFFER(song_name=\"The Way I talk\";artist=\"Morgan Wallen\";album=\"If I know me\")",
+        "I found 3 songs. From Morgan Wallen, I have The Way I talk from If I know me.",
+        "I found 3 songs. From Morgan Wallen, I have The Way I talk from If I know me."
+    ],
+    [
+        "OFFER(song_name=\"The Way I talk\";artist=\"Morgan Wallen\";album=\"If I know me\")@INFORM_COUNT(count=\"3\")",
+        "I found 3 songs. From Morgan Wallen, I have The Way I talk from If I know me.",
+        "I found 3 songs. From Morgan Wallen, I have The Way I talk from If I know me."
+    ],
+    [
+        "CONFIRM(song_name=\"The Way I Talk\";playback_device=\"TV\")",
+        "Please confirm The Way I Talk on the TV.",
+        "Please confirm The Way I Talk on the TV."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The song is starting.",
+        "The song is starting."
+    ],
+    [
+        "OFFER(song_name=\"Attention\";artist=\"Charlie Puth\";album=\"Voicenotes\")",
+        "Would you like to hear Attention from the album Voicenotes by Charlie Puth?",
+        "Would you like to hear Attention from the album Voicenotes by Charlie Puth?"
+    ],
+    [
+        "CONFIRM(song_name=\"Attention\";playback_device=\"kitchen speaker\")",
+        "Please confirm the following: play Attention from the album Voicenotes by Charlie Puth on the kitchen speaker.",
+        "Please confirm the following: play Attention from the album Voicenotes by Charlie Puth on the kitchen speaker."
+    ],
+    [
+        "CONFIRM(song_name=\"Attention\";playback_device=\"bedroom speaker\")",
+        "Please confirm the following: play Attention from the album Voicenotes by Charlie Puth on the bedroom speaker.",
+        "Please confirm the following: play Attention from the album Voicenotes by Charlie Puth on the bedroom speaker."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Begin playing the song.",
+        "Begin playing the song."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It is considered a Pop song.",
+        "It is considered a Pop song."
+    ],
+    [
+        "OFFER(track=\"Cool Girl\";artist=\"Tove Lo\";album=\"Lady Wood\")",
+        "I have found 10 songs for you. What do you think about Cool Girl by Tove Lo from the album Lady Wood?",
+        "I have found 10 songs for you. What do you think about Cool Girl by Tove Lo from the album Lady Wood?"
+    ],
+    [
+        "OFFER(track=\"Cool Girl\";artist=\"Tove Lo\";album=\"Lady Wood\")@INFORM_COUNT(count=\"10\")",
+        "I have found 10 songs for you. What do you think about Cool Girl by Tove Lo from the album Lady Wood?",
+        "I have found 10 songs for you. What do you think about Cool Girl by Tove Lo from the album Lady Wood?"
+    ],
+    [
+        "INFORM(genre=\"electropop\";year=\"2016\")",
+        "It is an electropop song from 2016.",
+        "It is an electropop song from 2016."
+    ],
+    [
+        "OFFER(track=\"Million Reasons\";artist=\"Lady Gaga\";album=\"Joanne\")",
+        "What do you think about Million Reasons by Lady Gaga from her album Joanne?",
+        "What do you think about Million Reasons by Lady Gaga from her album Joanne?"
+    ],
+    [
+        "CONFIRM(track=\"Million Reasons\";device=\"Living room\")",
+        "I will now play the song Million Reasons in the living room.",
+        "I will now play the song Million Reasons in the living room."
+    ],
+    [
+        "INFORM(genre=\"pop\";year=\"2016\")",
+        "Enjoy your music. It is a pop song and she released this song in 2016.",
+        "Enjoy your music. It is a pop song and she released this song in 2016."
+    ],
+    [
+        "INFORM(genre=\"pop\";year=\"2016\")@NOTIFY_SUCCESS()",
+        "Enjoy your music. It is a pop song and she released this song in 2016.",
+        "Enjoy your music. It is a pop song and she released this song in 2016."
+    ],
+    [
+        "OFFER(track=\"Pisces\";artist=\"Jinjer\";album=\"King of Everything\")",
+        "The album King of Everything has a song named Pisces by Jinjer. What about it?",
+        "The album King of Everything has a song named Pisces by Jinjer. What about it?"
+    ],
+    [
+        "OFFER(track=\"Final Masquerade\";artist=\"Linkin Park\";album=\"The Hunting Party\")",
+        "What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park.",
+        "What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park."
+    ],
+    [
+        "INFORM(genre=\"Metal\";year=\"2014\")",
+        "The song is Metal and was released in 2014.",
+        "The song is Metal and was released in 2014."
+    ],
+    [
+        "CONFIRM(track=\"Final Masquerade\";device=\"Kitchen\")",
+        "Turn on the song Final Masquerade in the kitchen. Is that correct?",
+        "Turn on the song Final Masquerade in the kitchen. Is that correct?"
+    ],
+    [
+        "CONFIRM(track=\"Final Masquerade\";device=\"Patio\")",
+        "Turn the song Final Masquerade on in the patio. Is that right?",
+        "Turn the song Final Masquerade on in the patio. Is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I hope you like your music.",
+        "I hope you like your music."
+    ],
+    [
+        "OFFER(track=\"Addicted\";artist=\"Popcaan\";album=\"Where we come from\")",
+        "How about the song Addicted by Popcaan from their album Where we come from",
+        "How about the song Addicted by Popcaan from their album Where we come from"
+    ],
+    [
+        "CONFIRM(track=\"Addicted\";device=\"Living room\")",
+        "Want me to play Addicted in your Living Room",
+        "Want me to play Addicted in your Living Room"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I hope you enjoy your music",
+        "I hope you enjoy your music"
+    ],
+    [
+        "INFORM(genre=\"Reggae\")",
+        "It's a Reggae track",
+        "It's a Reggae track"
+    ],
+    [
+        "OFFER(track=\"Addicted\";artist=\"Popcaan\";album=\"Where We Come From\")",
+        "How about Addicted from the Where We Come From album by Popcaan?",
+        "How about Addicted from the Where We Come From album by Popcaan?"
+    ],
+    [
+        "CONFIRM(track=\"Addicted\";device=\"Living room\")",
+        "To verify: you would like to listen to the song Addicted in the Living room.",
+        "To verify: you would like to listen to the song Addicted in the Living room."
+    ],
+    [
+        "CONFIRM(track=\"Addicted\";device=\"Kitchen\")",
+        "To confirm: you would like me to play the song Addicted in the kitchen.",
+        "To confirm: you would like me to play the song Addicted in the kitchen."
+    ],
+    [
+        "CONFIRM(track=\"Addicted\";device=\"Patio\")",
+        "Okay, you would like me to play Addicted on the patio.",
+        "Okay, you would like me to play Addicted on the patio."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Enjoy! Do you need anything else?",
+        "Enjoy! Do you need anything else?"
+    ],
+    [
+        "OFFER(track=\"Hate Me\";artist=\"Eurielle\";album=\"Arcadia\")",
+        "Found 10 songs that you may like. Would you be interested in Hate Me from the album Arcadia by Eurielle?",
+        "Found 10 songs that you may like. Would you be interested in Hate Me from the album Arcadia by Eurielle?"
+    ],
+    [
+        "OFFER(track=\"Hate Me\";artist=\"Eurielle\";album=\"Arcadia\")@INFORM_COUNT(count=\"10\")",
+        "Found 10 songs that you may like. Would you be interested in Hate Me from the album Arcadia by Eurielle?",
+        "Found 10 songs that you may like. Would you be interested in Hate Me from the album Arcadia by Eurielle?"
+    ],
+    [
+        "CONFIRM(track=\"Hate Me\";device=\"Living room\")",
+        "Please confirm that you would like to play the song Hate Me in the Living room.",
+        "Please confirm that you would like to play the song Hate Me in the Living room."
+    ],
+    [
+        "CONFIRM(track=\"Hate Me\";device=\"Kitchen\")",
+        "Sure. Playing the song Hate Me in the Kitchen. Shall I proceed?",
+        "Sure. Playing the song Hate Me in the Kitchen. Shall I proceed?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Song is playing now. Enjoy your music.",
+        "Song is playing now. Enjoy your music."
+    ],
+    [
+        "INFORM(genre=\"Pop\")",
+        "It's a Pop song.",
+        "It's a Pop song."
+    ]
+]

@@ -1,0 +1,25 @@
+OFFER ( alarm_time = "7 am" ; alarm_name = "Wake up") & You have an alarm set for 7 am which is titled Wake up.
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "New alarm") & Can you please confirm that you want to create an alarm for 5 pm and to name it New alarm?
+CONFIRM ( new_alarm_time = "4:15 pm" ; new_alarm_name = "New alarm") & Can you please confirm to me that you want to have an alarm created for 4:15 pm, and for the alarm to be titled New alarm?
+OFFER ( alarm_time = "9 am" ; alarm_name = "Wake up") & Of course. You have a total of 2 alarms set. The first is a 9 am Wake up alarm.
+OFFER ( alarm_time = "9 am" ; alarm_name = "Wake up") & Of course. You have a total of 2 alarms set. The first is a 9 am Wake up alarm.
+OFFER ( alarm_time = "9 am" ; alarm_name = "Wake up") & Of course. You have a total of 2 alarms set. The first is a 9 am Wake up alarm.INFORM_COUNT ( count = "2") & Of course. You have a total of 2 alarms set. The first is a 9 am Wake up alarm.
+CONFIRM ( new_alarm_time = "4:30 pm" ; new_alarm_name = "Cleaning") & You'd like to add an alarm for Cleaning at 4:30 pm. Is this correct?
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "Phone home") & You'd like an alarm to remind you to Phone home at 3:15 pm. Is that right?
+OFFER ( alarm_time = "8:30 am" ; alarm_name = "Wake up") & You have 2 set alarms, one of which is at 8:30 am titled Wake up.
+OFFER ( alarm_time = "8:30 am" ; alarm_name = "Wake up") & You have 2 set alarms, one of which is at 8:30 am titled Wake up.
+OFFER ( alarm_time = "8:30 am" ; alarm_name = "Wake up") & You have 2 set alarms, one of which is at 8:30 am titled Wake up.INFORM_COUNT ( count = "2") & You have 2 set alarms, one of which is at 8:30 am titled Wake up.
+CONFIRM ( new_alarm_time = "4 pm" ; new_alarm_name = "Phone home") & Sure, please confirm your request to at an alarm at 4 pm with the title Phone home.
+OFFER ( alarm_time = "6 am" ; alarm_name = "Wake up") & You currently have 2 alarms. One alarm named Wake up is set for 6 am.
+OFFER ( alarm_time = "6 am" ; alarm_name = "Wake up") & You currently have 2 alarms. One alarm named Wake up is set for 6 am.
+OFFER ( alarm_time = "6 am" ; alarm_name = "Wake up") & You currently have 2 alarms. One alarm named Wake up is set for 6 am.INFORM_COUNT ( count = "2") & You currently have 2 alarms. One alarm named Wake up is set for 6 am.
+CONFIRM ( new_alarm_time = "4:15 pm" ; new_alarm_name = "Cooking") & Please confirm: Create an alarm named Cooking for 4:15 pm.
+OFFER ( alarm_time = "7:30 am" ; alarm_name = "wake up") & There is an alarm for 7:30 am called wake up.
+CONFIRM ( new_alarm_time = "3:30 pm" ; new_alarm_name = "new alarm") & Could you confirm that I should create an alarm at 3:30 pm called new alarm?
+CONFIRM ( new_alarm_time = "3:45 pm" ; new_alarm_name = "new alarm") & Could you confirm that I should create an alarm for 3:45 pm called new alarm?
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "new alarm") & Please confirm that you'd like a new alarm set at 3:15 pm.
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "Cleaning") & Ok, the alarm will be created with the name Cleaning and is set to go off at 5 pm. Is that correct?
+CONFIRM ( new_alarm_time = "3:45 pm" ; new_alarm_name = "New alarm") & You would like to create a New alarm for 3:45 pm?
+CONFIRM ( new_alarm_time = "4:45 pm" ; new_alarm_name = "New alarm") & You would like to create an alarm called New alarm for 4:45 pm
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "Music practice") & You would like to create an alarm for 5 pm and name it Music practice?
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "Grocery run") & You would like to create an alarm for 5 pm and name it Grocery run?

@@ -1,0 +1,1907 @@
+[
+    [
+        "CONFIRM(restaurant_name=\"Will Sushi\";city=\"San Francisco\";time=\"11:30 am\";date=\"today\";party_size=\"1\")",
+        "I'm making a reservation for 1 at Will Sushi in San Francisco. It is at 11:30 am today.",
+        "I'm making a reservation for 1 at Will Sushi in San Francisco. It is at 11:30 am today."
+    ],
+    [
+        "CONFIRM(time=\"11 am\";date=\"today\")",
+        "I am booking the reservation for 11 am today.",
+        "I am booking the reservation for 11 am today."
+    ],
+    [
+        "CONFIRM(date=\"next Monday\";party_size=\"1\")",
+        "I am making a reservation for 1 person for next Monday.",
+        "I am making a reservation for 1 person for next Monday."
+    ],
+    [
+        "OFFER(restaurant_name=\"Will Sushi\";party_size=\"1\";date=\"next Monday\";time=\"11:30 am\")",
+        "I'm sorry, the reservation could not be booked. Will Sushi is a nice establishment. Should I try to make another reservation for 1 on next Monday at 11:30 am instead?",
+        "I'm sorry, the reservation could not be booked. Will Sushi is a nice establishment. Should I try to make another reservation for 1 on next Monday at 11:30 am instead?"
+    ],
+    [
+        "OFFER(restaurant_name=\"Will Sushi\";party_size=\"1\";date=\"next Monday\";time=\"11:30 am\")@NOTIFY_FAILURE()",
+        "I'm sorry, the reservation could not be booked. Will Sushi is a nice establishment. Should I try to make another reservation for 1 on next Monday at 11:30 am instead?",
+        "I'm sorry, the reservation could not be booked. Will Sushi is a nice establishment. Should I try to make another reservation for 1 on next Monday at 11:30 am instead?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have booked your reservation.",
+        "I have booked your reservation."
+    ],
+    [
+        "INFORM(has_live_music=\"False\")",
+        "It looks like they do not.",
+        "It looks like they do not."
+    ],
+    [
+        "INFORM(price_range=\"moderate\";phone_number=\"415-566-8088\")",
+        "Will's has moderate prices and their phone number is 415-566-8088.",
+        "Will's has moderate prices and their phone number is 415-566-8088."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Yum Yum Hunan\";city=\"San Francisco\";time=\"6 pm\";date=\"today\";party_size=\"2\")",
+        "You would like a reservation at Yum Yum Hunan in San Francisco for 2 people at 6 pm today. Is that correct?",
+        "You would like a reservation at Yum Yum Hunan in San Francisco for 2 people at 6 pm today. Is that correct?"
+    ],
+    [
+        "INFORM(price_range=\"inexpensive\")",
+        "The prices are inexpensive. I've made the reservation.",
+        "The prices are inexpensive. I've made the reservation."
+    ],
+    [
+        "INFORM(price_range=\"inexpensive\")@NOTIFY_SUCCESS()",
+        "The prices are inexpensive. I've made the reservation.",
+        "The prices are inexpensive. I've made the reservation."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Stella Alpina Osteria\";city=\"Burlingame\";time=\"7:30 pm\";party_size=\"2\";date=\"March 12th\")",
+        "A table is being booked at Stella Alpina Osteria is Burlingame on March 12th at 7:30 pm for 2 people",
+        "A table is being booked at Stella Alpina Osteria is Burlingame on March 12th at 7:30 pm for 2 people"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully made the reservation",
+        "I have successfully made the reservation"
+    ],
+    [
+        "INFORM(street_address=\"401 Primrose Road\";price_range=\"expensive\")",
+        "The restaurant is expensive and their address is 401 Primrose Road",
+        "The restaurant is expensive and their address is 401 Primrose Road"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Claw Shack\";city=\"San Jose\";time=\"11:30 am\";date=\"today\";party_size=\"2\")",
+        "Please confirm that you would like to book a 11:30 am reservation for today at the Claw Shack in San Jose for a party of 2.",
+        "Please confirm that you would like to book a 11:30 am reservation for today at the Claw Shack in San Jose for a party of 2."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"3rd Cousin\";party_size=\"4\")",
+        "Please confirm you'd like me to book a table for 4 people at the 3rd Cousin.",
+        "Please confirm you'd like me to book a table for 4 people at the 3rd Cousin."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, but there are no reservations for that time. May I help you with something else?",
+        "Sorry, but there are no reservations for that time. May I help you with something else?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Hunan Impression\";city=\"San Jose\";time=\"11 am\";date=\"today\";party_size=\"2\")",
+        "So you want to book a table for 2 at Hunan Impression in San Jose? And the time will be 11 am today?",
+        "So you want to book a table for 2 at Hunan Impression in San Jose? And the time will be 11 am today?"
+    ],
+    [
+        "CONFIRM(city=\"San Francisco\";date=\"March 14th\")",
+        "I see. So you'd rather book it in San Francisco on March 14th?",
+        "I see. So you'd rather book it in San Francisco on March 14th?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Unfortunately, I could not make the reservation. How else can I help?",
+        "Unfortunately, I could not make the reservation. How else can I help?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Hunan Impression\";city=\"San Francisco\";time=\"5:30 pm\";date=\"next Tuesday\";party_size=\"2\")",
+        "So, you will instead book a table for 2 at Hunan Impression in San Francisco, at 5:30 pm next Tuesday?",
+        "So, you will instead book a table for 2 at Hunan Impression in San Francisco, at 5:30 pm next Tuesday?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I'm so sorry! I couldn't reserve that table either. Can I continue to try to help?",
+        "I'm so sorry! I couldn't reserve that table either. Can I continue to try to help?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Luna Loca Mexican Restaurant\";city=\"Danville\";time=\"5:15 pm\";date=\"next wednesday\";party_size=\"2\")",
+        "Please confirm the details: Booking a table at Luna Loca Mexican Restaurant in Danville. The reservation is for 2 people at 5:15 pm next wednesday.",
+        "Please confirm the details: Booking a table at Luna Loca Mexican Restaurant in Danville. The reservation is for 2 people at 5:15 pm next wednesday."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")",
+        "Your reservation is successful their price range is moderate.",
+        "Your reservation is successful their price range is moderate."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")@NOTIFY_SUCCESS()",
+        "Your reservation is successful their price range is moderate.",
+        "Your reservation is successful their price range is moderate."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Golden Harvest\";city=\"St. Helena\";time=\"6:30 pm\";date=\"today\";party_size=\"2\")",
+        "So you'd like a reservation for 2 people at Golden Harvest in St. Helena today. You will be seated at 6:30 pm. Is that correct?",
+        "So you'd like a reservation for 2 people at Golden Harvest in St. Helena today. You will be seated at 6:30 pm. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your table has been booked!",
+        "Your table has been booked!"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Cafe Vitale\";city=\"Los Altos\";time=\"7 pm\";date=\"today\";party_size=\"2\")",
+        "Ok. So you would like to reserve a table for 2 at Cafe Vitale in Los Altos at 7 pm, today. Is that correct?",
+        "Ok. So you would like to reserve a table for 2 at Cafe Vitale in Los Altos at 7 pm, today. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your table at Cafe Vitale has been successfully booked.",
+        "Your table at Cafe Vitale has been successfully booked."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Taco Bell\";city=\"Pleasanton\";time=\"6:45 pm\";date=\"today\";party_size=\"2\")",
+        "Table for 2 6:45 pm today at the Taco Bell in Pleasanton. Do I have that right.",
+        "Table for 2 6:45 pm today at the Taco Bell in Pleasanton. Do I have that right."
+    ],
+    [
+        "INFORM(cuisine=\"Burrito\";price_range=\"inexpensive\")",
+        "Can't get a rez. Taco Bell has Burrito type of food. It's inexpensive. Should I give them a shot for 6:30 pm today, table for 2.",
+        "Can't get a rez. Taco Bell has Burrito type of food. It's inexpensive. Should I give them a shot for 6:30 pm today, table for 2."
+    ],
+    [
+        "INFORM(cuisine=\"Burrito\";price_range=\"inexpensive\")@OFFER(restaurant_name=\"Taco Bell\";party_size=\"2\";date=\"today\";time=\"6:30 pm\")",
+        "Can't get a rez. Taco Bell has Burrito type of food. It's inexpensive. Should I give them a shot for 6:30 pm today, table for 2.",
+        "Can't get a rez. Taco Bell has Burrito type of food. It's inexpensive. Should I give them a shot for 6:30 pm today, table for 2."
+    ],
+    [
+        "INFORM(cuisine=\"Burrito\";price_range=\"inexpensive\")@OFFER(restaurant_name=\"Taco Bell\";party_size=\"2\";date=\"today\";time=\"6:30 pm\")@NOTIFY_FAILURE()",
+        "Can't get a rez. Taco Bell has Burrito type of food. It's inexpensive. Should I give them a shot for 6:30 pm today, table for 2.",
+        "Can't get a rez. Taco Bell has Burrito type of food. It's inexpensive. Should I give them a shot for 6:30 pm today, table for 2."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"La Laguna\";city=\"San Francisco\";time=\"6 pm\";party_size=\"3\";date=\"today\")",
+        "Please confirm: I'm booking a table for 3 people, today at 6 pm, at La Laguna in San Francisco.",
+        "Please confirm: I'm booking a table for 3 people, today at 6 pm, at La Laguna in San Francisco."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation has been made.",
+        "Your reservation has been made."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Anar\";city=\"San Francisco\";time=\"12 pm\";date=\"today\";party_size=\"2\")",
+        "Please confirm you would like me to book a reservation at Anar in San Francisco at 12 pm today for 2 people.",
+        "Please confirm you would like me to book a reservation at Anar in San Francisco at 12 pm today for 2 people."
+    ],
+    [
+        "CONFIRM(city=\"San Francisco\";party_size=\"3\")",
+        "Please confirm you would like me to book a reservation at Anar in San Francisco at 12pm for 3 people.",
+        "Please confirm you would like me to book a reservation at Anar in San Francisco at 12pm for 3 people."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"El Amigo\";party_size=\"1\")",
+        "Please confirm you would like me to book a reservation at El Amigo for 1 person.",
+        "Please confirm you would like me to book a reservation at El Amigo for 1 person."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, I could not make that reservation. Is there anything else I can do for you?",
+        "Sorry, I could not make that reservation. Is there anything else I can do for you?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"El Amigo\";city=\"San Francisco\";time=\"5 pm\";date=\"today\";party_size=\"1\")",
+        "Please confirm you would like me to book a reservation at El Amigo in San Francisco at 5 pm today for 1 person.",
+        "Please confirm you would like me to book a reservation at El Amigo in San Francisco at 5 pm today for 1 person."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, I could not make that reservation. Is there anything else I can do for you?",
+        "Sorry, I could not make that reservation. Is there anything else I can do for you?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Ta Restaurant\";city=\"Milpitas\";time=\"5:30 pm\";date=\"today\";party_size=\"2\")",
+        "So you want a reservation for 2 at Ta Restaurant in Milpitas? The reservation is for today at 5:30 pm.",
+        "So you want a reservation for 2 at Ta Restaurant in Milpitas? The reservation is for today at 5:30 pm."
+    ],
+    [
+        "INFORM(street_address=\"90 South Abel Street\";phone_number=\"408-719-9998\")",
+        "I made your reservation and the phone number is 408-719-9998. In case you need the address, it is 90 South Abel Street.",
+        "I made your reservation and the phone number is 408-719-9998. In case you need the address, it is 90 South Abel Street."
+    ],
+    [
+        "INFORM(street_address=\"90 South Abel Street\";phone_number=\"408-719-9998\")@NOTIFY_SUCCESS()",
+        "I made your reservation and the phone number is 408-719-9998. In case you need the address, it is 90 South Abel Street.",
+        "I made your reservation and the phone number is 408-719-9998. In case you need the address, it is 90 South Abel Street."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Lemongrass Thai Cuisine\";city=\"Petaluma\";time=\"6 pm\";date=\"today\";party_size=\"3\")",
+        "Please confirm: I am booking a table for 3 people at Lemongrass Thai Cuisine in Petaluma. The reservation will be for today at 6 pm.",
+        "Please confirm: I am booking a table for 3 people at Lemongrass Thai Cuisine in Petaluma. The reservation will be for today at 6 pm."
+    ],
+    [
+        "INFORM(cuisine=\"Thai\";street_address=\"109 North McDowell Boulevard\")",
+        "I've made your reservation. The street address is 109 North McDowell Boulevard. That's a Thai restaurant.",
+        "I've made your reservation. The street address is 109 North McDowell Boulevard. That's a Thai restaurant."
+    ],
+    [
+        "INFORM(cuisine=\"Thai\";street_address=\"109 North McDowell Boulevard\")@NOTIFY_SUCCESS()",
+        "I've made your reservation. The street address is 109 North McDowell Boulevard. That's a Thai restaurant.",
+        "I've made your reservation. The street address is 109 North McDowell Boulevard. That's a Thai restaurant."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mendoza's restaurant\";city=\"San Jose\";time=\"7:30 pm\";party_size=\"6\";date=\"March 14th\")",
+        "Ok, so to confirm: You would like a reservation for 6 people at Mendoza's restaurant in San Jose. The date and time of the booking is March 14th at 7:30 pm.",
+        "Ok, so to confirm: You would like a reservation for 6 people at Mendoza's restaurant in San Jose. The date and time of the booking is March 14th at 7:30 pm."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")",
+        "I can confirm that your booking has been made. The restaurant cost is moderate.",
+        "I can confirm that your booking has been made. The restaurant cost is moderate."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")@NOTIFY_SUCCESS()",
+        "I can confirm that your booking has been made. The restaurant cost is moderate.",
+        "I can confirm that your booking has been made. The restaurant cost is moderate."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Carnitas Michoacan\";city=\"Gilroy\";time=\"11:15 am\";date=\"today\";party_size=\"3\")",
+        "Please confirm the following: Reservation is to be booked for 3 people at Carnitas Michoacan in Gilroy at 11:15 am today.",
+        "Please confirm the following: Reservation is to be booked for 3 people at Carnitas Michoacan in Gilroy at 11:15 am today."
+    ],
+    [
+        "INFORM(phone_number=\"408-847-8812\";serves_alcohol=\"False\")",
+        "I am terribly sorry but i was unable to make the reservation. The phone number is 408-847-8812. They do not serve alcohol. Would you like me to reserve a seat for 3 people at Carnitas Michoacan for next Thursday at 11:30 am?",
+        "I am terribly sorry but i was unable to make the reservation. The phone number is 408-847-8812. They do not serve alcohol. Would you like me to reserve a seat for 3 people at Carnitas Michoacan for next Thursday at 11:30 am?"
+    ],
+    [
+        "INFORM(phone_number=\"408-847-8812\";serves_alcohol=\"False\")@OFFER(restaurant_name=\"Carnitas Michoacan\";party_size=\"3\";date=\"next Thursday\";time=\"11:30 am\")",
+        "I am terribly sorry but i was unable to make the reservation. The phone number is 408-847-8812. They do not serve alcohol. Would you like me to reserve a seat for 3 people at Carnitas Michoacan for next Thursday at 11:30 am?",
+        "I am terribly sorry but i was unable to make the reservation. The phone number is 408-847-8812. They do not serve alcohol. Would you like me to reserve a seat for 3 people at Carnitas Michoacan for next Thursday at 11:30 am?"
+    ],
+    [
+        "INFORM(phone_number=\"408-847-8812\";serves_alcohol=\"False\")@OFFER(restaurant_name=\"Carnitas Michoacan\";party_size=\"3\";date=\"next Thursday\";time=\"11:30 am\")@NOTIFY_FAILURE()",
+        "I am terribly sorry but i was unable to make the reservation. The phone number is 408-847-8812. They do not serve alcohol. Would you like me to reserve a seat for 3 people at Carnitas Michoacan for next Thursday at 11:30 am?",
+        "I am terribly sorry but i was unable to make the reservation. The phone number is 408-847-8812. They do not serve alcohol. Would you like me to reserve a seat for 3 people at Carnitas Michoacan for next Thursday at 11:30 am?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Paul Martin's America Mountain View\";city=\"Mountain View\";time=\"1:30 pm\";date=\"today\";party_size=\"2\")",
+        "So you would like a table at Paul Martin's America Mountain View in Mountain View for 2 people at 1:30 pm today. Can you confirm?",
+        "So you would like a table at Paul Martin's America Mountain View in Mountain View for 2 people at 1:30 pm today. Can you confirm?"
+    ],
+    [
+        "INFORM(street_address=\"545 San Antonio Road Suite 31\")",
+        "I have successfully made the reservation. The restaurant address is 545 San Antonio Road Suite 31.",
+        "I have successfully made the reservation. The restaurant address is 545 San Antonio Road Suite 31."
+    ],
+    [
+        "INFORM(street_address=\"545 San Antonio Road Suite 31\")@NOTIFY_SUCCESS()",
+        "I have successfully made the reservation. The restaurant address is 545 San Antonio Road Suite 31.",
+        "I have successfully made the reservation. The restaurant address is 545 San Antonio Road Suite 31."
+    ],
+    [
+        "INFORM(price_range=\"moderate\";serves_alcohol=\"True\")",
+        "They do serve alcohol and the price range is moderate.",
+        "They do serve alcohol and the price range is moderate."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Sumac Mediterranean Grill\";city=\"Belmont\";time=\"5:30 pm\";party_size=\"4\";date=\"today\")",
+        "Please confirm you're booking a table for 4 at Sumac Mediterranean Grill in Belmont at 5:30 pm today.",
+        "Please confirm you're booking a table for 4 at Sumac Mediterranean Grill in Belmont at 5:30 pm today."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation has been confirmed.",
+        "Your reservation has been confirmed."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")",
+        "It's moderate price range.",
+        "It's moderate price range."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Katana-ya\";city=\"El Cerrito\";time=\"11:15 am\";date=\"today\";party_size=\"2\")",
+        "Please confirm Yes, El Cerrito and make it for Katana-ya for 11:15 am for today for 2.",
+        "Please confirm Yes, El Cerrito and make it for Katana-ya for 11:15 am for today for 2."
+    ],
+    [
+        "CONFIRM(time=\"1:15 pm\";party_size=\"1\")",
+        "Please confirm change to 1:15 pm for 1.",
+        "Please confirm change to 1:15 pm for 1."
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\";has_live_music=\"False\")",
+        "You are confirmed and they do not have live music or alcohol.",
+        "You are confirmed and they do not have live music or alcohol."
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\";has_live_music=\"False\")@NOTIFY_SUCCESS()",
+        "You are confirmed and they do not have live music or alcohol.",
+        "You are confirmed and they do not have live music or alcohol."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Cetrella\";city=\"Half Moon Bay\";time=\"1 pm\";party_size=\"2\";date=\"today\")",
+        "Please confirm that you are requesting a reservation for a table for 2 at Cetrella in Half Moon Bay at 1 pm today.",
+        "Please confirm that you are requesting a reservation for a table for 2 at Cetrella in Half Moon Bay at 1 pm today."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Celia's\";time=\"5:30 pm\")",
+        "Please confirm that you are requesting a reservation for Celia's at 5:30 pm.",
+        "Please confirm that you are requesting a reservation for Celia's at 5:30 pm."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I am sorry, but I was unable to book the reservation. Is there anything else I can help you with?",
+        "I am sorry, but I was unable to book the reservation. Is there anything else I can help you with?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Nick's Cove\";city=\"Marshall\";time=\"7:30 pm\";date=\"today\";party_size=\"2\")",
+        "Confirm me all the info. You want me to reserve a table at Nick's Cove for 2 people in Marshall. I'll make the reservation for today at 7:30 pm.",
+        "Confirm me all the info. You want me to reserve a table at Nick's Cove for 2 people in Marshall. I'll make the reservation for today at 7:30 pm."
+    ],
+    [
+        "INFORM(cuisine=\"Seafood\")",
+        "The procedure is complete. I know they cook Seafood.",
+        "The procedure is complete. I know they cook Seafood."
+    ],
+    [
+        "INFORM(cuisine=\"Seafood\")@NOTIFY_SUCCESS()",
+        "The procedure is complete. I know they cook Seafood.",
+        "The procedure is complete. I know they cook Seafood."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Kabuto Sushi\";city=\"San Francisco\";time=\"12:30 pm\";date=\"today\";party_size=\"1\")",
+        "So I'll be booking a table for 1 at Kabuto Sushi in San Francisco at 12:30 pm for today.",
+        "So I'll be booking a table for 1 at Kabuto Sushi in San Francisco at 12:30 pm for today."
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\")",
+        "They don't serve alcohol unfortunately. also. Sorry I failed to make a reservation, but I still think we can book Kabuto Sushi, should I try for today 1 pm for one again?",
+        "They don't serve alcohol unfortunately. also. Sorry I failed to make a reservation, but I still think we can book Kabuto Sushi, should I try for today 1 pm for one again?"
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\")@OFFER(restaurant_name=\"Kabuto Sushi\";party_size=\"1\";date=\"today\";time=\"1 pm\")",
+        "They don't serve alcohol unfortunately. also. Sorry I failed to make a reservation, but I still think we can book Kabuto Sushi, should I try for today 1 pm for one again?",
+        "They don't serve alcohol unfortunately. also. Sorry I failed to make a reservation, but I still think we can book Kabuto Sushi, should I try for today 1 pm for one again?"
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\")@OFFER(restaurant_name=\"Kabuto Sushi\";party_size=\"1\";date=\"today\";time=\"1 pm\")@NOTIFY_FAILURE()",
+        "They don't serve alcohol unfortunately. also. Sorry I failed to make a reservation, but I still think we can book Kabuto Sushi, should I try for today 1 pm for one again?",
+        "They don't serve alcohol unfortunately. also. Sorry I failed to make a reservation, but I still think we can book Kabuto Sushi, should I try for today 1 pm for one again?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Ma's Restaurant\";city=\"San Jose\";time=\"6 pm\";date=\"today\";party_size=\"2\")",
+        "Please, confirm the following details: book a table at Ma's Restaurant, in San Jose, at 6 pm. The date is today, and the reservation is for 2 people.",
+        "Please, confirm the following details: book a table at Ma's Restaurant, in San Jose, at 6 pm. The date is today, and the reservation is for 2 people."
+    ],
+    [
+        "CONFIRM(city=\"Sunnyvale\";time=\"12:30 pm\")",
+        "Please, confirm the following details: the city is Sunnyvale, and the reservation is at 12:30 pm.",
+        "Please, confirm the following details: the city is Sunnyvale, and the reservation is at 12:30 pm."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Siam Taste\";city=\"Sunnyvale\")",
+        "Please, confirm the following details: book a table at Siam Taste, in Sunnyvale.",
+        "Please, confirm the following details: book a table at Siam Taste, in Sunnyvale."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")",
+        "Your reservation has been successful. Their price range is moderate.",
+        "Your reservation has been successful. Their price range is moderate."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")@NOTIFY_SUCCESS()",
+        "Your reservation has been successful. Their price range is moderate.",
+        "Your reservation has been successful. Their price range is moderate."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Dong Que Restaurant\";city=\"San Jose\";time=\"12 pm\";party_size=\"2\";date=\"today\")",
+        "Please confirm the following details: You are booking a table at Dong Que Restaurant in San Jose today, for a reservation at 12 pm for 2 people.",
+        "Please confirm the following details: You are booking a table at Dong Que Restaurant in San Jose today, for a reservation at 12 pm for 2 people."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, your reservation has been placed.",
+        "Great, your reservation has been placed."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Applebee's Grill + Bar\";city=\"Alameda\";time=\"1:30 pm\";date=\"today\";party_size=\"2\")",
+        "Please confirm the following details: a reservation for 2 people at Applebee's Grill + Bar, today, at 1:30 pm, in Alameda.",
+        "Please confirm the following details: a reservation for 2 people at Applebee's Grill + Bar, today, at 1:30 pm, in Alameda."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Barrel Head Brewhouse\";party_size=\"1\")",
+        "Please confirm the following: a reservation for 1 at Barrel Head Brewhouse.",
+        "Please confirm the following: a reservation for 1 at Barrel Head Brewhouse."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, the reservation did not go through. May I help you with something else?",
+        "Sorry, the reservation did not go through. May I help you with something else?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Bj's Restaurant & Brewhouse\";city=\"San Jose\";time=\"7:30 pm\";date=\"today\";party_size=\"2\")",
+        "Okay! To confirm, the reservation is for a party of 2 at Bj's Restaurant & Brewhouse in San Jose. It will be at 7:30 pm today. Is this correct?",
+        "Okay! To confirm, the reservation is for a party of 2 at Bj's Restaurant & Brewhouse in San Jose. It will be at 7:30 pm today. Is this correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, but I was unable to get a reservation at this particular time. Is there another time in which you would like to make the reservation for or anything else I could help with?",
+        "Sorry, but I was unable to get a reservation at this particular time. Is there another time in which you would like to make the reservation for or anything else I could help with?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Bj's Restaurant & Brewhouse\";city=\"San Jose\";time=\"4:30 pm\";date=\"today\";party_size=\"2\")",
+        "To confirm, the reservation would be for a party of 2 at Bj's Restaurant & Brewhouse in San Jose. It would be at 4:30 pm today. Is this correct?",
+        "To confirm, the reservation would be for a party of 2 at Bj's Restaurant & Brewhouse in San Jose. It would be at 4:30 pm today. Is this correct?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mazzat\";city=\"San Francisco\")",
+        "To confirm, you would like a table for 2 at Mazzat in San Francisco for a party of 2 at 4:30 pm today?",
+        "To confirm, you would like a table for 2 at Mazzat in San Francisco for a party of 2 at 4:30 pm today?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry but there is no availability for 4:30 pm at Mazzat in San Francisco today. Is there anything else I could assist you with?",
+        "Sorry but there is no availability for 4:30 pm at Mazzat in San Francisco today. Is there anything else I could assist you with?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Chili's Grill & Bar\";city=\"Antioch\";time=\"5:30 pm\";date=\"today\";party_size=\"2\")",
+        "Please verify the following information: A booking for 2 people at Chili's Grill & Bar in Antioch for 5:30 pm today.",
+        "Please verify the following information: A booking for 2 people at Chili's Grill & Bar in Antioch for 5:30 pm today."
+    ],
+    [
+        "INFORM(has_live_music=\"False\")",
+        "Your booking is complete. They do not play live songs.",
+        "Your booking is complete. They do not play live songs."
+    ],
+    [
+        "INFORM(has_live_music=\"False\")@NOTIFY_SUCCESS()",
+        "Your booking is complete. They do not play live songs.",
+        "Your booking is complete. They do not play live songs."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Sushi Yoshizumi\";city=\"San Mateo\";time=\"11:30 am\";party_size=\"3\";date=\"today\")",
+        "Booking a table at Sushi Yoshizumi in San Mateo today at 11:30 am for 3 people.",
+        "Booking a table at Sushi Yoshizumi in San Mateo today at 11:30 am for 3 people."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I was unable to make that reservation. Can I help with anything else?",
+        "I was unable to make that reservation. Can I help with anything else?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Sushi Yoshizumi\";city=\"San Mateo\";time=\"11:30 am\";party_size=\"2\";date=\"today\")",
+        "Booking a table for today at Sushi Yoshizumi in San Mateo at 11:30 am for 2 people.",
+        "Booking a table for today at Sushi Yoshizumi in San Mateo at 11:30 am for 2 people."
+    ],
+    [
+        "INFORM(phone_number=\"650-437-2282\";price_range=\"very expensive\")",
+        "Your reservation is made and their phone number is 650-437-2282. Their price range is usually very expensive.",
+        "Your reservation is made and their phone number is 650-437-2282. Their price range is usually very expensive."
+    ],
+    [
+        "INFORM(phone_number=\"650-437-2282\";price_range=\"very expensive\")@NOTIFY_SUCCESS()",
+        "Your reservation is made and their phone number is 650-437-2282. Their price range is usually very expensive.",
+        "Your reservation is made and their phone number is 650-437-2282. Their price range is usually very expensive."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Allegro Romano\";city=\"San Francisco\";time=\"7:30 pm\";date=\"today\";party_size=\"2\")",
+        "Okay, can you verify for me that you want a reservation for 2 at Allegro Romano located in San Francisco today at 7:30 pm?",
+        "Okay, can you verify for me that you want a reservation for 2 at Allegro Romano located in San Francisco today at 7:30 pm?"
+    ],
+    [
+        "INFORM(cuisine=\"Italian\";street_address=\"1701 Jones Street\")",
+        "The address of the establishment is 1701 Jones Street. They serve Italian cuisine. I was successful in reserving a table for you at the requested date and time.",
+        "The address of the establishment is 1701 Jones Street. They serve Italian cuisine. I was successful in reserving a table for you at the requested date and time."
+    ],
+    [
+        "INFORM(cuisine=\"Italian\";street_address=\"1701 Jones Street\")@NOTIFY_SUCCESS()",
+        "The address of the establishment is 1701 Jones Street. They serve Italian cuisine. I was successful in reserving a table for you at the requested date and time.",
+        "The address of the establishment is 1701 Jones Street. They serve Italian cuisine. I was successful in reserving a table for you at the requested date and time."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Wence's Restaurant\";city=\"Pleasant Hill\";time=\"11:15 am\";date=\"today\";party_size=\"2\")",
+        "Please confirm these details: Booked a table at Wence's Restaurant. It is in Pleasant Hill city. The time of the reservation is 11:15 am. The date is today, and the reservation is for 2 people.",
+        "Please confirm these details: Booked a table at Wence's Restaurant. It is in Pleasant Hill city. The time of the reservation is 11:15 am. The date is today, and the reservation is for 2 people."
+    ],
+    [
+        "INFORM(cuisine=\"California\";serves_alcohol=\"False\")",
+        "I could not make the reservation. They serve California style food. They don't serve liquor. Wence's restaurant is very nice, should I try a reservation for 2 people today at 11:30 am?",
+        "I could not make the reservation. They serve California style food. They don't serve liquor. Wence's restaurant is very nice, should I try a reservation for 2 people today at 11:30 am?"
+    ],
+    [
+        "INFORM(cuisine=\"California\";serves_alcohol=\"False\")@OFFER(restaurant_name=\"Wence's restaurant\";party_size=\"2\";date=\"today\";time=\"11:30 am\")",
+        "I could not make the reservation. They serve California style food. They don't serve liquor. Wence's restaurant is very nice, should I try a reservation for 2 people today at 11:30 am?",
+        "I could not make the reservation. They serve California style food. They don't serve liquor. Wence's restaurant is very nice, should I try a reservation for 2 people today at 11:30 am?"
+    ],
+    [
+        "INFORM(cuisine=\"California\";serves_alcohol=\"False\")@OFFER(restaurant_name=\"Wence's restaurant\";party_size=\"2\";date=\"today\";time=\"11:30 am\")@NOTIFY_FAILURE()",
+        "I could not make the reservation. They serve California style food. They don't serve liquor. Wence's restaurant is very nice, should I try a reservation for 2 people today at 11:30 am?",
+        "I could not make the reservation. They serve California style food. They don't serve liquor. Wence's restaurant is very nice, should I try a reservation for 2 people today at 11:30 am?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Zaoh\";city=\"San Francisco\";time=\"6 pm\";party_size=\"6\";date=\"today\")",
+        "Please confirm: The reservation is today at 6 pm for 6 people for a table at Zaoh in San Francisco.",
+        "Please confirm: The reservation is today at 6 pm for 6 people for a table at Zaoh in San Francisco."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, I was unable to make a reservation. Is there anything else I can help you with?",
+        "Sorry, I was unable to make a reservation. Is there anything else I can help you with?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mcdonald's\";city=\"San Francisco\";time=\"6 pm\";party_size=\"5\";date=\"today\")",
+        "Please confirm: I'm booking a table at Mcdonald's for 5 people at 6 pm today in San Francisco.",
+        "Please confirm: I'm booking a table at Mcdonald's for 5 people at 6 pm today in San Francisco."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation was successful.",
+        "Your reservation was successful."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"West Park Bistro\";city=\"San Carlos\";time=\"12:45 PM\";date=\"today\";party_size=\"2\")",
+        "Confirming a booking at West Park Bistro in San Carlos at 12:45 PM today for 2 people.",
+        "Confirming a booking at West Park Bistro in San Carlos at 12:45 PM today for 2 people."
+    ],
+    [
+        "CONFIRM(date=\"tomorrow\";party_size=\"3\")",
+        "Confirming a reservation tomorrow for 3 people.",
+        "Confirming a reservation tomorrow for 3 people."
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\";cuisine=\"brunch\")",
+        "I'm sorry, I couldn't make the reservation. They don't serve alcohol and they have a brunch menu. Would you like me to try to make a reservation tomorrow for 3 people at 1 PM at West Park Bistro?",
+        "I'm sorry, I couldn't make the reservation. They don't serve alcohol and they have a brunch menu. Would you like me to try to make a reservation tomorrow for 3 people at 1 PM at West Park Bistro?"
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\";cuisine=\"brunch\")@OFFER(restaurant_name=\"West Park Bistro\";party_size=\"3\";date=\"tomorrow\";time=\"1 PM\")",
+        "I'm sorry, I couldn't make the reservation. They don't serve alcohol and they have a brunch menu. Would you like me to try to make a reservation tomorrow for 3 people at 1 PM at West Park Bistro?",
+        "I'm sorry, I couldn't make the reservation. They don't serve alcohol and they have a brunch menu. Would you like me to try to make a reservation tomorrow for 3 people at 1 PM at West Park Bistro?"
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\";cuisine=\"brunch\")@OFFER(restaurant_name=\"West Park Bistro\";party_size=\"3\";date=\"tomorrow\";time=\"1 PM\")@NOTIFY_FAILURE()",
+        "I'm sorry, I couldn't make the reservation. They don't serve alcohol and they have a brunch menu. Would you like me to try to make a reservation tomorrow for 3 people at 1 PM at West Park Bistro?",
+        "I'm sorry, I couldn't make the reservation. They don't serve alcohol and they have a brunch menu. Would you like me to try to make a reservation tomorrow for 3 people at 1 PM at West Park Bistro?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The reservation was successful.",
+        "The reservation was successful."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Buon Appetito\";city=\"Hayward\";time=\"1:30 pm\";date=\"March 11th\";party_size=\"2\")",
+        "Okay, I have a reservation at Buon Appetito in Hayward for 1:30 pm on March 11th for 2 people, is this correct?",
+        "Okay, I have a reservation at Buon Appetito in Hayward for 1:30 pm on March 11th for 2 people, is this correct?"
+    ],
+    [
+        "CONFIRM(time=\"1 pm\";date=\"March 12th\")",
+        "Okay, the reservation is at 1 pm on March 12th.",
+        "Okay, the reservation is at 1 pm on March 12th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully made the reservation.",
+        "I have successfully made the reservation."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Kufu-ya\";city=\"San Francisco\";time=\"6 pm\";party_size=\"2\";date=\"today\")",
+        "I will book you a table for 2 at Kufu-ya in San Francisco for 6 pm today. Is that correct?",
+        "I will book you a table for 2 at Kufu-ya in San Francisco for 6 pm today. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation is set.",
+        "Your reservation is set."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Steelhead Brewing Company\";city=\"Burlingame\";time=\"6:30 pm\";date=\"today\";party_size=\"1\")",
+        "Please confirm the following details of the reservation: Booking a table for today at Steelhead Brewing Company in Burlingame at 6:30 pm. The reservation will be for 1 person.",
+        "Please confirm the following details of the reservation: Booking a table for today at Steelhead Brewing Company in Burlingame at 6:30 pm. The reservation will be for 1 person."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation was successful, anything else I can do for you?",
+        "Your reservation was successful, anything else I can do for you?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"La Vera Pizza\";city=\"Santa Rosa\";time=\"5 pm\";date=\"today\";party_size=\"2\")",
+        "okay, confirming you want to book for 2 people at La Vera Pizza in Santa Rosa today at 5 pm?",
+        "okay, confirming you want to book for 2 people at La Vera Pizza in Santa Rosa today at 5 pm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've reserved a table for you.",
+        "I've reserved a table for you."
+    ],
+    [
+        "INFORM(street_address=\"629 4th Street\";has_live_music=\"False\")",
+        "There's no live music at the restaurant. They are located at 629 4th Street.",
+        "There's no live music at the restaurant. They are located at 629 4th Street."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Old Siam\";city=\"San Francisco\";time=\"7 pm\";party_size=\"4\";date=\"today\")",
+        "Great, so just to confirm, I'm booking a table at the Old Siam in San Francisco at 7 pm today for 4 people, correct?",
+        "Great, so just to confirm, I'm booking a table at the Old Siam in San Francisco at 7 pm today for 4 people, correct?"
+    ],
+    [
+        "CONFIRM(city=\"San Francisco\";party_size=\"5\")",
+        "Definitely. So with the new details we'll book it for 5 people at the Old Siam in San Francisco, correct?",
+        "Definitely. So with the new details we'll book it for 5 people at the Old Siam in San Francisco, correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, the reservation is done.",
+        "Great, the reservation is done."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Navin Thai Restaurant\";city=\"San Francisco\";time=\"12:15 pm\";date=\"today\";party_size=\"2\")",
+        "Booking a table at Navin Thai Restaurant in San Francisco for today at 12:15 pm for 2 people. Is that correct?",
+        "Booking a table at Navin Thai Restaurant in San Francisco for today at 12:15 pm for 2 people. Is that correct?"
+    ],
+    [
+        "INFORM(price_range=\"moderate\";has_live_music=\"False\")",
+        "Your reservation has been successfully made. Their price range is moderate but there is no live music.",
+        "Your reservation has been successfully made. Their price range is moderate but there is no live music."
+    ],
+    [
+        "INFORM(price_range=\"moderate\";has_live_music=\"False\")@NOTIFY_SUCCESS()",
+        "Your reservation has been successfully made. Their price range is moderate but there is no live music.",
+        "Your reservation has been successfully made. Their price range is moderate but there is no live music."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Koh Samui & The Monkey\";city=\"San Francisco\";time=\"7 pm\";date=\"next Wednesday\";party_size=\"3\")",
+        "You would like reservations for 3 in San Francisco at Koh Samui & The Monkey next Wednesday at 7 pm. Is that information correct?",
+        "You would like reservations for 3 in San Francisco at Koh Samui & The Monkey next Wednesday at 7 pm. Is that information correct?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Crouching Tiger Restaurant\";party_size=\"2\")",
+        "You want a table for 2 at the Crouching Tiger Restaurant, is this right?",
+        "You want a table for 2 at the Crouching Tiger Restaurant, is this right?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I could not get an available table. Do you have something else I can do?",
+        "I could not get an available table. Do you have something else I can do?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Broderick Roadhouse\";city=\"Walnut Creek\";time=\"5:30 pm\";date=\"today\";party_size=\"1\")",
+        "So, you'd like a reservation for Broderick Roadhouse in Walnut Creek at 5:30 pm today for 1 person.",
+        "So, you'd like a reservation for Broderick Roadhouse in Walnut Creek at 5:30 pm today for 1 person."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Egg Roll King\";city=\"Daly City\")",
+        "Should I book a table at Egg Roll King in Daly City?",
+        "Should I book a table at Egg Roll King in Daly City?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The reservation is successful.",
+        "The reservation is successful."
+    ],
+    [
+        "INFORM(cuisine=\"Asian\")",
+        "They're an Asian restaurant.",
+        "They're an Asian restaurant."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"House of Curries\";city=\"Berkeley\";time=\"5:15 PM\";date=\"today\";party_size=\"1\")",
+        "Confirming a table for 1 at House of Curries in Berkeley at 5:15 PM today.",
+        "Confirming a table for 1 at House of Curries in Berkeley at 5:15 PM today."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, the reservation was unsuccessful. What else may I do for you?",
+        "Sorry, the reservation was unsuccessful. What else may I do for you?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"House of Curries\";city=\"Berkeley\";time=\"1:15 PM\";date=\"today\";party_size=\"1\")",
+        "Confirming a table for 1 at House of Curries in Berkeley at 1:15 PM today.",
+        "Confirming a table for 1 at House of Curries in Berkeley at 1:15 PM today."
+    ],
+    [
+        "OFFER(restaurant_name=\"House of Curries\";party_size=\"1\";date=\"today\";time=\"1:30 PM\")",
+        "I was unable to book that for you. Would you like me to try a reservation for 1 person today at 1:30 PM at the House of Curries?",
+        "I was unable to book that for you. Would you like me to try a reservation for 1 person today at 1:30 PM at the House of Curries?"
+    ],
+    [
+        "OFFER(restaurant_name=\"House of Curries\";party_size=\"1\";date=\"today\";time=\"1:30 PM\")@NOTIFY_FAILURE()",
+        "I was unable to book that for you. Would you like me to try a reservation for 1 person today at 1:30 PM at the House of Curries?",
+        "I was unable to book that for you. Would you like me to try a reservation for 1 person today at 1:30 PM at the House of Curries?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Bob's Steak & Chop House\";city=\"San Francisco\";time=\"5:15 pm\";date=\"next Friday\";party_size=\"2\")",
+        "Okay, making sure I've got all the details: you want a table for 2 at Bob's Steak & Chop House in San Francisco next Friday at 5:15 pm?",
+        "Okay, making sure I've got all the details: you want a table for 2 at Bob's Steak & Chop House in San Francisco next Friday at 5:15 pm?"
+    ],
+    [
+        "INFORM(price_range=\"very expensive\")",
+        "I've booked you in. Other customers have rated them as very expensive.",
+        "I've booked you in. Other customers have rated them as very expensive."
+    ],
+    [
+        "INFORM(price_range=\"very expensive\")@NOTIFY_SUCCESS()",
+        "I've booked you in. Other customers have rated them as very expensive.",
+        "I've booked you in. Other customers have rated them as very expensive."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Odeum\";city=\"Morgan Hill\";time=\"1:30 pm\";party_size=\"2\";date=\"today\")",
+        "To confirm, you want a reservation for a party of 2 at Odeum restaurant in Morgan Hill at 1:30 pm today.",
+        "To confirm, you want a reservation for a party of 2 at Odeum restaurant in Morgan Hill at 1:30 pm today."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Celia's By The Beach\";city=\"San Francisco\")",
+        "To confirm, you want a reservation for Celia's By The Beach in San Francisco.",
+        "To confirm, you want a reservation for Celia's By The Beach in San Francisco."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")",
+        "I have made your reservation as requested. Their prices are moderate.",
+        "I have made your reservation as requested. Their prices are moderate."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")@NOTIFY_SUCCESS()",
+        "I have made your reservation as requested. Their prices are moderate.",
+        "I have made your reservation as requested. Their prices are moderate."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Amami Sushi\";city=\"San Bruno\";time=\"5:30 pm\";date=\"tomorrow\";party_size=\"2\")",
+        "Let me double check. This is a reservation for a table at Amami Sushi in San Bruno at 5:30 pm tomorrow for 2 people.",
+        "Let me double check. This is a reservation for a table at Amami Sushi in San Bruno at 5:30 pm tomorrow for 2 people."
+    ],
+    [
+        "CONFIRM(date=\"next Friday\";party_size=\"2\")",
+        "So, it's next Friday for 2 people?",
+        "So, it's next Friday for 2 people?"
+    ],
+    [
+        "INFORM(cuisine=\"Seafood\";price_range=\"moderate\")",
+        "Your reservation has been accepted. They serve Seafood and their price range is quite moderate.",
+        "Your reservation has been accepted. They serve Seafood and their price range is quite moderate."
+    ],
+    [
+        "INFORM(cuisine=\"Seafood\";price_range=\"moderate\")@NOTIFY_SUCCESS()",
+        "Your reservation has been accepted. They serve Seafood and their price range is quite moderate.",
+        "Your reservation has been accepted. They serve Seafood and their price range is quite moderate."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Flames Eatery & Bar\";city=\"San Jose\";time=\"7 pm\";party_size=\"2\";date=\"today\")",
+        "You need to confirm the details which are as follows.You have reserved a table at Flames Eatery & Bar in San Jose at 7 pm.The booked table is for 2 people today.",
+        "You need to confirm the details which are as follows.You have reserved a table at Flames Eatery & Bar in San Jose at 7 pm.The booked table is for 2 people today."
+    ],
+    [
+        "CONFIRM(city=\"San Jose\";party_size=\"1\")",
+        "Please confirm the details again.The city of reservation is in San Jose.The booking is for 1 person.",
+        "Please confirm the details again.The city of reservation is in San Jose.The booking is for 1 person."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")",
+        "Your booking is successful.Price is moderate.",
+        "Your booking is successful.Price is moderate."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")@NOTIFY_SUCCESS()",
+        "Your booking is successful.Price is moderate.",
+        "Your booking is successful.Price is moderate."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Jing-Jing Szechwan & Hunan Gourmet\";city=\"Palo Alto\";time=\"12:15 pm\";party_size=\"2\";date=\"next Friday\")",
+        "To confirm: I'm booking a reservation for 2 people at Jing-Jing Szechwan & Hunan Gourmet in Palo Alto next Friday at 12:15 pm.",
+        "To confirm: I'm booking a reservation for 2 people at Jing-Jing Szechwan & Hunan Gourmet in Palo Alto next Friday at 12:15 pm."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Jing-jing Szechwan & Hunan Gourmet\";party_size=\"1\")",
+        "Okay. To confirm: I'm booking the reservation for Jing-jing Szechwan & Hunan Gourmet for 1 person.",
+        "Okay. To confirm: I'm booking the reservation for Jing-jing Szechwan & Hunan Gourmet for 1 person."
+    ],
+    [
+        "INFORM(phone_number=\"650-328-6885\")",
+        "I'm sorry, but I was not able to make that reservation. Their phone number is 650-328-6885. Should I try to book a reservation for 1 person next Friday at 12:30 pm. Jing-jing Szechwan & Hunan Gourmet is quite nice.",
+        "I'm sorry, but I was not able to make that reservation. Their phone number is 650-328-6885. Should I try to book a reservation for 1 person next Friday at 12:30 pm. Jing-jing Szechwan & Hunan Gourmet is quite nice."
+    ],
+    [
+        "INFORM(phone_number=\"650-328-6885\")@OFFER(restaurant_name=\"Jing-jing Szechwan & Hunan Gourmet\";party_size=\"1\";date=\"next Friday\";time=\"12:30 pm\")",
+        "I'm sorry, but I was not able to make that reservation. Their phone number is 650-328-6885. Should I try to book a reservation for 1 person next Friday at 12:30 pm. Jing-jing Szechwan & Hunan Gourmet is quite nice.",
+        "I'm sorry, but I was not able to make that reservation. Their phone number is 650-328-6885. Should I try to book a reservation for 1 person next Friday at 12:30 pm. Jing-jing Szechwan & Hunan Gourmet is quite nice."
+    ],
+    [
+        "INFORM(phone_number=\"650-328-6885\")@OFFER(restaurant_name=\"Jing-jing Szechwan & Hunan Gourmet\";party_size=\"1\";date=\"next Friday\";time=\"12:30 pm\")@NOTIFY_FAILURE()",
+        "I'm sorry, but I was not able to make that reservation. Their phone number is 650-328-6885. Should I try to book a reservation for 1 person next Friday at 12:30 pm. Jing-jing Szechwan & Hunan Gourmet is quite nice.",
+        "I'm sorry, but I was not able to make that reservation. Their phone number is 650-328-6885. Should I try to book a reservation for 1 person next Friday at 12:30 pm. Jing-jing Szechwan & Hunan Gourmet is quite nice."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The reservation was made.",
+        "The reservation was made."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Broadway Grill\";city=\"Burlingame\";time=\"12:30 pm\";party_size=\"2\";date=\"March 12th\")",
+        "You would like me to reserve a table for 2 at Broadway Grill on March 12th at 12:30 pm. The Restaurant is located in Burlingame. Is this information correct?",
+        "You would like me to reserve a table for 2 at Broadway Grill on March 12th at 12:30 pm. The Restaurant is located in Burlingame. Is this information correct?"
+    ],
+    [
+        "INFORM(has_live_music=\"True\";price_range=\"moderate\")",
+        "Your reservation is successful. It is a moderate restaurant. They have live music.",
+        "Your reservation is successful. It is a moderate restaurant. They have live music."
+    ],
+    [
+        "INFORM(has_live_music=\"True\";price_range=\"moderate\")@NOTIFY_SUCCESS()",
+        "Your reservation is successful. It is a moderate restaurant. They have live music.",
+        "Your reservation is successful. It is a moderate restaurant. They have live music."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"My No.1 Sushi & Tofu\";city=\"Milpitas\";time=\"10:45 am\";date=\"today\";party_size=\"1\")",
+        "Ok. I'm going to make a reservation for 1 at 10:45 am today at My No.1 Sushi & Tofu in Milpitas.",
+        "Ok. I'm going to make a reservation for 1 at 10:45 am today at My No.1 Sushi & Tofu in Milpitas."
+    ],
+    [
+        "OFFER(restaurant_name=\"My No.1 Sushi & Tofu\";party_size=\"1\";date=\"today\";time=\"11 am\")",
+        "Unfortunately My No.1 Sushi & Tofu is all booked at that time. Would a table for 1 at 11 am today work instead?",
+        "Unfortunately My No.1 Sushi & Tofu is all booked at that time. Would a table for 1 at 11 am today work instead?"
+    ],
+    [
+        "OFFER(restaurant_name=\"My No.1 Sushi & Tofu\";party_size=\"1\";date=\"today\";time=\"11 am\")@NOTIFY_FAILURE()",
+        "Unfortunately My No.1 Sushi & Tofu is all booked at that time. Would a table for 1 at 11 am today work instead?",
+        "Unfortunately My No.1 Sushi & Tofu is all booked at that time. Would a table for 1 at 11 am today work instead?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alright that worked and you're booked.",
+        "Alright that worked and you're booked."
+    ],
+    [
+        "INFORM(phone_number=\"408-946-5100\";cuisine=\"Japanese\")",
+        "No, they serve Japanese food. The number is 408-946-5100.",
+        "No, they serve Japanese food. The number is 408-946-5100."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Kana Sushi\";city=\"Walnut Creek\";time=\"11 am\";party_size=\"2\";date=\"today\")",
+        "Please confirm this reservation, 11 am at Kana Sushi in Walnut Creek for 2 people today.",
+        "Please confirm this reservation, 11 am at Kana Sushi in Walnut Creek for 2 people today."
+    ],
+    [
+        "INFORM(street_address=\"1280 Newell Avenue\")",
+        "Reserved successfully, address is 1280 Newell Avenue.",
+        "Reserved successfully, address is 1280 Newell Avenue."
+    ],
+    [
+        "INFORM(street_address=\"1280 Newell Avenue\")@NOTIFY_SUCCESS()",
+        "Reserved successfully, address is 1280 Newell Avenue.",
+        "Reserved successfully, address is 1280 Newell Avenue."
+    ],
+    [
+        "INFORM(has_live_music=\"False\")",
+        "No live music",
+        "No live music"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"China Villa\";city=\"San Francisco\";time=\"1 pm\";party_size=\"2\";date=\"next Monday\")",
+        "A reservation at China Villa in San Francisco at 1 pm for 2 people next Monday. Is this correct?",
+        "A reservation at China Villa in San Francisco at 1 pm for 2 people next Monday. Is this correct?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Wooden Charcoal Korean Village Barbecue House\";date=\"March 9th\")",
+        "A reservation at Wooden Charcoal Korean Village Barbecue House on March 9th. Is that correct?",
+        "A reservation at Wooden Charcoal Korean Village Barbecue House on March 9th. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation was scheduled successfully.",
+        "Your reservation was scheduled successfully."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"The View Lounge\";city=\"San Francisco\";time=\"6:45 pm\";date=\"tomorrow\";party_size=\"2\")",
+        "Yes. I found a table for The View Lounge in San Francisco at 6:45 pm for tomorrow for 2 people.",
+        "Yes. I found a table for The View Lounge in San Francisco at 6:45 pm for tomorrow for 2 people."
+    ],
+    [
+        "OFFER(restaurant_name=\"The View Lounge\";party_size=\"2\";date=\"tomorrow\";time=\"7 pm\")",
+        "I was unable to make the reservation at The View Lounge at that time. How about a reservation for 2 tomorrow at 7 pm?",
+        "I was unable to make the reservation at The View Lounge at that time. How about a reservation for 2 tomorrow at 7 pm?"
+    ],
+    [
+        "OFFER(restaurant_name=\"The View Lounge\";party_size=\"2\";date=\"tomorrow\";time=\"7 pm\")@NOTIFY_FAILURE()",
+        "I was unable to make the reservation at The View Lounge at that time. How about a reservation for 2 tomorrow at 7 pm?",
+        "I was unable to make the reservation at The View Lounge at that time. How about a reservation for 2 tomorrow at 7 pm?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Khamsa\";city=\"San Francisco\";time=\"6 PM\";party_size=\"2\";date=\"today\")",
+        "Please confirm the following information: The city is San Francisco. The reservation is at Khamsa restaurant at 6 PM today. The number of people in your party is 2.",
+        "Please confirm the following information: The city is San Francisco. The reservation is at Khamsa restaurant at 6 PM today. The number of people in your party is 2."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Apologies. I was unable to book this reservation. Is there anything else that I may help you with?",
+        "Apologies. I was unable to book this reservation. Is there anything else that I may help you with?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mimi's Cafe\";city=\"San Francisco\";time=\"6 pm\";party_size=\"2\";date=\"today\")",
+        "Please confirm the following information: The city is San Francisco. The restaurant is Mimi's Cafe. The reservation is for today at 6 pm. There are 2 people in your party.",
+        "Please confirm the following information: The city is San Francisco. The restaurant is Mimi's Cafe. The reservation is for today at 6 pm. There are 2 people in your party."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Apologies. I was unable to book this reservation. Is there anything else that I may help you with?",
+        "Apologies. I was unable to book this reservation. Is there anything else that I may help you with?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mexico Lindo\";city=\"Union City\";time=\"1:30 pm\";date=\"today\";party_size=\"2\")",
+        "Let me get this straight: I am reserving a table for 2 at Mexico Lindo located in Union City for 1:30 pm today. Did I get that right?",
+        "Let me get this straight: I am reserving a table for 2 at Mexico Lindo located in Union City for 1:30 pm today. Did I get that right?"
+    ],
+    [
+        "CONFIRM(time=\"1:45 pm\";party_size=\"4\")",
+        "Alright, so that's a table for 4 at 1:45 pm?",
+        "Alright, so that's a table for 4 at 1:45 pm?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"The Van's Restaurant\";city=\"Belmont\")",
+        "You want a table for The Van's Restaurant in Belmont?",
+        "You want a table for The Van's Restaurant in Belmont?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've got your table set.",
+        "I've got your table set."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Jojo Restaurant & Sushi Bar\";city=\"Santa Rosa\";time=\"7 pm\";party_size=\"2\";date=\"Today\")",
+        "Today I want to book a table for 2 people at the Jojo Restaurant & Sushi Bar in the Santa Rosa city. at 7 pm.",
+        "Today I want to book a table for 2 people at the Jojo Restaurant & Sushi Bar in the Santa Rosa city. at 7 pm."
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\")",
+        "Your reservation was booked. Please note they do not serve alcohol.",
+        "Your reservation was booked. Please note they do not serve alcohol."
+    ],
+    [
+        "INFORM(serves_alcohol=\"False\")@NOTIFY_SUCCESS()",
+        "Your reservation was booked. Please note they do not serve alcohol.",
+        "Your reservation was booked. Please note they do not serve alcohol."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Sushi Hashiri\";city=\"San Francisco\";time=\"11:30 am\";date=\"today\";party_size=\"4\")",
+        "Okay, I am going to book a table at Sushi Hashiri in San Francisco. Your reservation will be for 11:30 am today for 4 people. Is this correct?",
+        "Okay, I am going to book a table at Sushi Hashiri in San Francisco. Your reservation will be for 11:30 am today for 4 people. Is this correct?"
+    ],
+    [
+        "CONFIRM(time=\"11:30 am\";party_size=\"2\")",
+        "Okay, we are all set for 11:30 am for 2 people. Does this work?",
+        "Okay, we are all set for 11:30 am for 2 people. Does this work?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"El Amigo Burrito\";city=\"Santa Clara\")",
+        "Okay. I will change the restaurant to El Amigo Burrito in Santa Clara. Does this work",
+        "Okay. I will change the restaurant to El Amigo Burrito in Santa Clara. Does this work"
+    ],
+    [
+        "INFORM(price_range=\"inexpensive\";has_live_music=\"False\")",
+        "The reservation has been confirmed. The price range is inexpensive and they do not have live music.",
+        "The reservation has been confirmed. The price range is inexpensive and they do not have live music."
+    ],
+    [
+        "INFORM(price_range=\"inexpensive\";has_live_music=\"False\")@NOTIFY_SUCCESS()",
+        "The reservation has been confirmed. The price range is inexpensive and they do not have live music.",
+        "The reservation has been confirmed. The price range is inexpensive and they do not have live music."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Hikari Sushi & Bar\";city=\"San Francisco\";time=\"7:15 pm\";party_size=\"2\";date=\"today\")",
+        "Can you confirm? The booking table is at Hikari Sushi & Bar, the city is in San Francisco, the reservation is at 7:15 pm, and there are two seats for 2 people. And lastly, it's today.",
+        "Can you confirm? The booking table is at Hikari Sushi & Bar, the city is in San Francisco, the reservation is at 7:15 pm, and there are two seats for 2 people. And lastly, it's today."
+    ],
+    [
+        "CONFIRM(party_size=\"1\";date=\"March 12th\")",
+        "Confirm, please: The reservation is for 1 person and the date would be for March 12th.",
+        "Confirm, please: The reservation is for 1 person and the date would be for March 12th."
+    ],
+    [
+        "INFORM(has_live_music=\"False\")",
+        "I have registered your reservation. And no, there's no live music.",
+        "I have registered your reservation. And no, there's no live music."
+    ],
+    [
+        "INFORM(has_live_music=\"False\")@NOTIFY_SUCCESS()",
+        "I have registered your reservation. And no, there's no live music.",
+        "I have registered your reservation. And no, there's no live music."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Cassava\";city=\"San Francisco\";time=\"11 am\";party_size=\"6\";date=\"today\")",
+        "Please confirm the reservation at Cassava in San Francisco for 6 people at 11 am for today.",
+        "Please confirm the reservation at Cassava in San Francisco for 6 people at 11 am for today."
+    ],
+    [
+        "CONFIRM(time=\"11 am\";party_size=\"5\")",
+        "Please confirm the following reservation for 5 people at 11 am.",
+        "Please confirm the following reservation for 5 people at 11 am."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation is has been confirmed.",
+        "Your reservation is has been confirmed."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mcdonald's\";city=\"Hayward\";time=\"7:15 pm\";party_size=\"2\";date=\"today\")",
+        "Please confirm a 7:15 pm reservation at Mcdonald's in Hayward today for 2 people.",
+        "Please confirm a 7:15 pm reservation at Mcdonald's in Hayward today for 2 people."
+    ],
+    [
+        "OFFER(restaurant_name=\"Mcdonald's\";party_size=\"2\";date=\"today\";time=\"7:30 pm\")",
+        "I was unable to make that reservation at Mcdonald's. Is today at 7:30 pm for 2 people okay?",
+        "I was unable to make that reservation at Mcdonald's. Is today at 7:30 pm for 2 people okay?"
+    ],
+    [
+        "OFFER(restaurant_name=\"Mcdonald's\";party_size=\"2\";date=\"today\";time=\"7:30 pm\")@NOTIFY_FAILURE()",
+        "I was unable to make that reservation at Mcdonald's. Is today at 7:30 pm for 2 people okay?",
+        "I was unable to make that reservation at Mcdonald's. Is today at 7:30 pm for 2 people okay?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Pampalasa\";city=\"San Francisco\";time=\"11:30 am\";party_size=\"2\";date=\"tomorrow\")",
+        "Booking a table at Pampalasa in San Francisco at 11:30 am for 2 people for tomorrow",
+        "Booking a table at Pampalasa in San Francisco at 11:30 am for 2 people for tomorrow"
+    ],
+    [
+        "CONFIRM(time=\"5:30 pm\";party_size=\"1\")",
+        "Confirming your 5:30 pm reservation for 1",
+        "Confirming your 5:30 pm reservation for 1"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Willi's | Seafood & Raw Bar\";city=\"Healdsburg\")",
+        "Confirming a table at Willi's | Seafood & Raw Bar in Healdsburg",
+        "Confirming a table at Willi's | Seafood & Raw Bar in Healdsburg"
+    ],
+    [
+        "INFORM(phone_number=\"707-433-9192\")",
+        "Your reservation is confirmed. Their number is 707-433-9192",
+        "Your reservation is confirmed. Their number is 707-433-9192"
+    ],
+    [
+        "INFORM(phone_number=\"707-433-9192\")@NOTIFY_SUCCESS()",
+        "Your reservation is confirmed. Their number is 707-433-9192",
+        "Your reservation is confirmed. Their number is 707-433-9192"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"All Spice\";city=\"San Mateo\";time=\"1:30 pm\";date=\"tomorrow\";party_size=\"2\")",
+        "So you want a table for 2 for tomorrow 1:30 pm at All Spice in San Mateo. Is it correct?",
+        "So you want a table for 2 for tomorrow 1:30 pm at All Spice in San Mateo. Is it correct?"
+    ],
+    [
+        "INFORM(phone_number=\"650-627-4303\")",
+        "It is 650-627-4303. Your reservation has been confirmed.",
+        "It is 650-627-4303. Your reservation has been confirmed."
+    ],
+    [
+        "INFORM(phone_number=\"650-627-4303\")@NOTIFY_SUCCESS()",
+        "It is 650-627-4303. Your reservation has been confirmed.",
+        "It is 650-627-4303. Your reservation has been confirmed."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Shiki Japanese Cuisine\";city=\"Half Moon Bay\";time=\"1 pm\";party_size=\"2\";date=\"today\")",
+        "You would like a reservation for 2 people at Shiki Japanese Cuisine in Half Moon Bay, today at 1 pm. Is that correct?",
+        "You would like a reservation for 2 people at Shiki Japanese Cuisine in Half Moon Bay, today at 1 pm. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation is made.",
+        "Your reservation is made."
+    ],
+    [
+        "INFORM(cuisine=\"Japanese\")",
+        "No, they serve Japanese food.",
+        "No, they serve Japanese food."
+    ],
+    [
+        "INFORM(price_range=\"moderate\")",
+        "They're prices are moderate.",
+        "They're prices are moderate."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Walia\";city=\"San Jose\";time=\"1:15 pm\";date=\"March 14th\";party_size=\"2\")",
+        "Please confirm these details for me: you would like to book a table at Walia in San Jose on March 14th at 1:15 pm for 2 people?",
+        "Please confirm these details for me: you would like to book a table at Walia in San Jose on March 14th at 1:15 pm for 2 people?"
+    ],
+    [
+        "CONFIRM(time=\"7:30 pm\";party_size=\"2\")",
+        "Please confirm the following details so I am not mistaken: you would like a reservation for 2 people at 7:30 pm?",
+        "Please confirm the following details so I am not mistaken: you would like a reservation for 2 people at 7:30 pm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "We have recorded your reservation and look forward to seeing you soon.",
+        "We have recorded your reservation and look forward to seeing you soon."
+    ],
+    [
+        "INFORM(phone_number=\"408-645-5001\")",
+        "The contact number for reservations is 408-645-5001.",
+        "The contact number for reservations is 408-645-5001."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Parkside Grille\";city=\"Portola Valley\";time=\"1:30 pm\";party_size=\"2\";date=\"next Thursday\")",
+        "I would like to confirm the reservation details. I am booking a table at the Parkside Grille restaurant in Portola Valley. The reservation is at 1:30 pm next Thursday and is for 2 people.",
+        "I would like to confirm the reservation details. I am booking a table at the Parkside Grille restaurant in Portola Valley. The reservation is at 1:30 pm next Thursday and is for 2 people."
+    ],
+    [
+        "INFORM(price_range=\"moderate\";phone_number=\"650-529-9007\")",
+        "The reservation has been booked successfully. They are in the moderate price range and their phone number is 650-529-9007.",
+        "The reservation has been booked successfully. They are in the moderate price range and their phone number is 650-529-9007."
+    ],
+    [
+        "INFORM(price_range=\"moderate\";phone_number=\"650-529-9007\")@NOTIFY_SUCCESS()",
+        "The reservation has been booked successfully. They are in the moderate price range and their phone number is 650-529-9007.",
+        "The reservation has been booked successfully. They are in the moderate price range and their phone number is 650-529-9007."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"La Panotiq Bakery Cafe livermore\";city=\"livermore\";time=\"12 pm\";party_size=\"2\";date=\"today\")",
+        "Please confirm the following details: booking a table at La Panotiq Bakery Cafe livermore. the city is livermore at 12 pm,, reservation for 2 people today.",
+        "Please confirm the following details: booking a table at La Panotiq Bakery Cafe livermore. the city is livermore at 12 pm,, reservation for 2 people today."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation done.",
+        "Your reservation done."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mua Oakland\";city=\"Oakland\";time=\"7:15 pm\";date=\"March 13th\";party_size=\"3\")",
+        "So you would like to book a reservation at Mua Oakland in Oakland for 3 people at 7:15 pm on March 13th, right?",
+        "So you would like to book a reservation at Mua Oakland in Oakland for 3 people at 7:15 pm on March 13th, right?"
+    ],
+    [
+        "INFORM(phone_number=\"510-238-1100\";cuisine=\"American\")",
+        "Their phone number is 510-238-1100, and they only serve American food. It seems like there aren't any reservations available for 7:15 pm. Would you like me to try to book a reservation at Mua Oakland for 3 people on March 13th at 7:30 pm instead?",
+        "Their phone number is 510-238-1100, and they only serve American food. It seems like there aren't any reservations available for 7:15 pm. Would you like me to try to book a reservation at Mua Oakland for 3 people on March 13th at 7:30 pm instead?"
+    ],
+    [
+        "INFORM(phone_number=\"510-238-1100\";cuisine=\"American\")@OFFER(restaurant_name=\"Mua Oakland\";party_size=\"3\";date=\"March 13th\";time=\"7:30 pm\")",
+        "Their phone number is 510-238-1100, and they only serve American food. It seems like there aren't any reservations available for 7:15 pm. Would you like me to try to book a reservation at Mua Oakland for 3 people on March 13th at 7:30 pm instead?",
+        "Their phone number is 510-238-1100, and they only serve American food. It seems like there aren't any reservations available for 7:15 pm. Would you like me to try to book a reservation at Mua Oakland for 3 people on March 13th at 7:30 pm instead?"
+    ],
+    [
+        "INFORM(phone_number=\"510-238-1100\";cuisine=\"American\")@OFFER(restaurant_name=\"Mua Oakland\";party_size=\"3\";date=\"March 13th\";time=\"7:30 pm\")@NOTIFY_FAILURE()",
+        "Their phone number is 510-238-1100, and they only serve American food. It seems like there aren't any reservations available for 7:15 pm. Would you like me to try to book a reservation at Mua Oakland for 3 people on March 13th at 7:30 pm instead?",
+        "Their phone number is 510-238-1100, and they only serve American food. It seems like there aren't any reservations available for 7:15 pm. Would you like me to try to book a reservation at Mua Oakland for 3 people on March 13th at 7:30 pm instead?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully booked your reservation!",
+        "I have successfully booked your reservation!"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Limon Rotisserie\";city=\"San Francisco\";time=\"11:45 am\";date=\"March 13th\";party_size=\"4\")",
+        "Please confirm that the reservation is for 11:45 am on March 13th, at Limon Rotisserie in San Francisco. It is for 4 people.",
+        "Please confirm that the reservation is for 11:45 am on March 13th, at Limon Rotisserie in San Francisco. It is for 4 people."
+    ],
+    [
+        "INFORM(phone_number=\"415-821-2134\";street_address=\"1001 South Van Ness Avenue\")",
+        "Your reservation has been made. They are on 1001 South Van Ness Avenue. You can reach them on 415-821-2134.",
+        "Your reservation has been made. They are on 1001 South Van Ness Avenue. You can reach them on 415-821-2134."
+    ],
+    [
+        "INFORM(phone_number=\"415-821-2134\";street_address=\"1001 South Van Ness Avenue\")@NOTIFY_SUCCESS()",
+        "Your reservation has been made. They are on 1001 South Van Ness Avenue. You can reach them on 415-821-2134.",
+        "Your reservation has been made. They are on 1001 South Van Ness Avenue. You can reach them on 415-821-2134."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Lark Creek Kitchen\";city=\"San Jose\";time=\"12 pm\";date=\"today\";party_size=\"4\")",
+        "I have a table for 4 today at 12 pm at the Lark Creek Kitchen in San Jose. Please confirm",
+        "I have a table for 4 today at 12 pm at the Lark Creek Kitchen in San Jose. Please confirm"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation is confirmed",
+        "Your reservation is confirmed"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"McDonald's\";city=\"Berkeley\";time=\"11:30 am\";party_size=\"2\";date=\"today\")",
+        "I would like to have a reservation made for 11:30 am today for 2 people at McDonald's restaurant in Berkeley. Can you confirm this?",
+        "I would like to have a reservation made for 11:30 am today for 2 people at McDonald's restaurant in Berkeley. Can you confirm this?"
+    ],
+    [
+        "INFORM(has_live_music=\"True\";cuisine=\"Salad\")",
+        "I have confirmed your reservation. They do have live music and the food they serve is Salad.",
+        "I have confirmed your reservation. They do have live music and the food they serve is Salad."
+    ],
+    [
+        "INFORM(has_live_music=\"True\";cuisine=\"Salad\")@NOTIFY_SUCCESS()",
+        "I have confirmed your reservation. They do have live music and the food they serve is Salad.",
+        "I have confirmed your reservation. They do have live music and the food they serve is Salad."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Asya Restaurant\";city=\"San Carlos\";time=\"7 PM\";date=\"today\";party_size=\"3\")",
+        "So you would like me to book a table at Asya Restaurant, in San Carlos, for today at 7 PM, for 3 people correct?",
+        "So you would like me to book a table at Asya Restaurant, in San Carlos, for today at 7 PM, for 3 people correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry I was unable to make the reservation. Can I help with anything else?",
+        "Sorry I was unable to make the reservation. Can I help with anything else?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Asya Restaurant\";city=\"San Carlos\";time=\"1:15 PM\";date=\"today\";party_size=\"3\")",
+        "So you would like me to book a table at Asya Restaurant, in San Carlos, for today at 1:15 PM, for 3 people correct?",
+        "So you would like me to book a table at Asya Restaurant, in San Carlos, for today at 1:15 PM, for 3 people correct?"
+    ],
+    [
+        "INFORM(phone_number=\"650-596-9828\";street_address=\"773 Laurel Street\")",
+        "Your reservation is confirmed. Their phone number is 650-596-9828, and the address is 773 Laurel Street.",
+        "Your reservation is confirmed. Their phone number is 650-596-9828, and the address is 773 Laurel Street."
+    ],
+    [
+        "INFORM(phone_number=\"650-596-9828\";street_address=\"773 Laurel Street\")@NOTIFY_SUCCESS()",
+        "Your reservation is confirmed. Their phone number is 650-596-9828, and the address is 773 Laurel Street.",
+        "Your reservation is confirmed. Their phone number is 650-596-9828, and the address is 773 Laurel Street."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Foreign Cinema\";city=\"San Francisco\";time=\"7 pm\";party_size=\"6\";date=\"today\")",
+        "Please confirm your reservation. Reserving a table at Foreign Cinema in San Francisco at 7 pm for 6 people today.",
+        "Please confirm your reservation. Reserving a table at Foreign Cinema in San Francisco at 7 pm for 6 people today."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Black Angus Steakhouse\";time=\"7 pm\")",
+        "Please confirm your reservation. Reserving a table at Black Angus Steakhouse at 7 pm.",
+        "Please confirm your reservation. Reserving a table at Black Angus Steakhouse at 7 pm."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I apologize. A table could not be reserved. Is there anything else I can help you with?",
+        "I apologize. A table could not be reserved. Is there anything else I can help you with?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Black Angus Steakhouse\";city=\"San Francisco\";time=\"7:30 pm\";party_size=\"6\";date=\"today\")",
+        "Please confirm your reservation. Reserving a table at Black Angus Steakhouse in San Francisco at 7:30 pm for 6 people today.",
+        "Please confirm your reservation. Reserving a table at Black Angus Steakhouse in San Francisco at 7:30 pm for 6 people today."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I apologize. A reservation could not be made. Do you need help with anything else?",
+        "I apologize. A reservation could not be made. Do you need help with anything else?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Pearl River Restaurant\";city=\"San Jose\";time=\"7:30 pm\";date=\"today\";party_size=\"1\")",
+        "Ok, I'll book a table for 1 at the Pearl River Restaurant in San Jose. I'll book it for 7:30 pm today. Is that ok?",
+        "Ok, I'll book a table for 1 at the Pearl River Restaurant in San Jose. I'll book it for 7:30 pm today. Is that ok?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Pearl River Restaurant\";party_size=\"2\")",
+        "No problem. I'll book a table for 2 at the Pearl River Restaurant",
+        "No problem. I'll book a table for 2 at the Pearl River Restaurant"
+    ],
+    [
+        "INFORM(price_range=\"moderate\";has_live_music=\"False\")",
+        "All booked for you. No live music, unfortunately. I've checked online and the price is moderate.",
+        "All booked for you. No live music, unfortunately. I've checked online and the price is moderate."
+    ],
+    [
+        "INFORM(price_range=\"moderate\";has_live_music=\"False\")@NOTIFY_SUCCESS()",
+        "All booked for you. No live music, unfortunately. I've checked online and the price is moderate.",
+        "All booked for you. No live music, unfortunately. I've checked online and the price is moderate."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"The Alembic\";city=\"San Francisco\";time=\"11:30 am\";party_size=\"4\";date=\"next Monday\")",
+        "Someone needs to confirm the reservation at The Alembic in San Francisco for 4 people at 11:30 am next Monday.",
+        "Someone needs to confirm the reservation at The Alembic in San Francisco for 4 people at 11:30 am next Monday."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Paradise Sushi & Grill\";time=\"11:30 am\")",
+        "Please confirm the 11:30 am reservation at Paradise Sushi & Grill.",
+        "Please confirm the 11:30 am reservation at Paradise Sushi & Grill."
+    ],
+    [
+        "CONFIRM(party_size=\"4\";date=\"tomorrow\")",
+        "Confirm the reservation tomorrow for 4 people.",
+        "Confirm the reservation tomorrow for 4 people."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Unfortunately the reservation could not be made. Is there anything else I can do?",
+        "Unfortunately the reservation could not be made. Is there anything else I can do?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Paradise Sushi & Grill\";city=\"San Francisco\";time=\"1:30 pm\";party_size=\"4\";date=\"tomorrow\")",
+        "Can you confirm a table at Paradise Sushi & Grill in San Francisco for 4 people tomorrow at 1:30 pm.",
+        "Can you confirm a table at Paradise Sushi & Grill in San Francisco for 4 people tomorrow at 1:30 pm."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Unfortunately the reservation could not be made. Is there anything else I can do?",
+        "Unfortunately the reservation could not be made. Is there anything else I can do?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Shakewell\";city=\"Oakland\";time=\"11:30 am\";date=\"today\";party_size=\"2\")",
+        "Please confirm the following details: Booking a table at Shakewell. The city is Oakland. The reservation is at 11:30 am. The date is today. The reservation is for 2 people.",
+        "Please confirm the following details: Booking a table at Shakewell. The city is Oakland. The reservation is at 11:30 am. The date is today. The reservation is for 2 people."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Villa D'este\";city=\"San Francisco\")",
+        "Please confirm the following details: Booking a table at Villa D'este. The city is San Francisco.",
+        "Please confirm the following details: Booking a table at Villa D'este. The city is San Francisco."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Villa D'este\";time=\"4:30 pm\")",
+        "Please confirm the following details: Booking a table at Villa D'este. The reservation is at 4:30 pm.",
+        "Please confirm the following details: Booking a table at Villa D'este. The reservation is at 4:30 pm."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, I was unable to make a reservation. Can I help you with anything else?",
+        "Sorry, I was unable to make a reservation. Can I help you with anything else?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"la traviata\";city=\"san francisco\";time=\"6:30 pm\";date=\"today\";party_size=\"2\")",
+        "please confirm the following details:booking a table at la traviata. the city is san francisco.the reservation is at 6:30 pm.the date is today. the reservation is for 2 peoples.",
+        "please confirm the following details:booking a table at la traviata. the city is san francisco.the reservation is at 6:30 pm.the date is today. the reservation is for 2 peoples."
+    ],
+    [
+        "INFORM(has_live_music=\"False\")",
+        "your reservation is successful.they do not have live music.",
+        "your reservation is successful.they do not have live music."
+    ],
+    [
+        "INFORM(has_live_music=\"False\")@NOTIFY_SUCCESS()",
+        "your reservation is successful.they do not have live music.",
+        "your reservation is successful.they do not have live music."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Rice Bowl\";city=\"Antioch\";time=\"11:30 am\";party_size=\"2\";date=\"next Thursday\")",
+        "I'm booking a table for 2 at Rice Bowl in the city of Antioch next Thursday at 11:30 am. IS that correct?",
+        "I'm booking a table for 2 at Rice Bowl in the city of Antioch next Thursday at 11:30 am. IS that correct?"
+    ],
+    [
+        "INFORM(street_address=\"3436 Deer Valley Road\")",
+        "Your reservation was successful. Their address is 3436 Deer Valley Road",
+        "Your reservation was successful. Their address is 3436 Deer Valley Road"
+    ],
+    [
+        "INFORM(street_address=\"3436 Deer Valley Road\")@NOTIFY_SUCCESS()",
+        "Your reservation was successful. Their address is 3436 Deer Valley Road",
+        "Your reservation was successful. Their address is 3436 Deer Valley Road"
+    ],
+    [
+        "INFORM(cuisine=\"Chinese\";phone_number=\"925-777-0888\")",
+        "Their phone number is 925-777-0888. They serve Chinese food.",
+        "Their phone number is 925-777-0888. They serve Chinese food."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Puerto 27\";location=\"Pacifica\";time=\"1:15 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "To verify: You would like a reseravation at Puerto 27 in Pacifica for 1:15 pm on March 1st for 2.",
+        "To verify: You would like a reseravation at Puerto 27 in Pacifica for 1:15 pm on March 1st for 2."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your table is reserved.",
+        "Your table is reserved."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Little Hunan\";location=\"San Jose\";time=\"8 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "You wish to reserve a table for 2 at Little Hunan in San Jose on March 1st at 8 pm. Is that correct?",
+        "You wish to reserve a table for 2 at Little Hunan in San Jose on March 1st at 8 pm. Is that correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I was not able to process your reservation. I apologize for any inconvenience.",
+        "I was not able to process your reservation. I apologize for any inconvenience."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Little Hunan\";location=\"San Jose\";time=\"5:15 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Booking a table at Little Hunan located in San Jose. The reservation is for 2 people on March 1st at 5:15 pm. Is that right?",
+        "Booking a table at Little Hunan located in San Jose. The reservation is for 2 people on March 1st at 5:15 pm. Is that right?"
+    ],
+    [
+        "OFFER(restaurant_name=\"Little Hunan\";number_of_seats=\"2\";date=\"March 1st\";time=\"5 pm\")",
+        "I was unable to book your table with those details. If you like, I can make a reservation for you at Little Hunan on March 1st at 5 pm for 2 people.",
+        "I was unable to book your table with those details. If you like, I can make a reservation for you at Little Hunan on March 1st at 5 pm for 2 people."
+    ],
+    [
+        "OFFER(restaurant_name=\"Little Hunan\";number_of_seats=\"2\";date=\"March 1st\";time=\"5 pm\")@NOTIFY_FAILURE()",
+        "I was unable to book your table with those details. If you like, I can make a reservation for you at Little Hunan on March 1st at 5 pm for 2 people.",
+        "I was unable to book your table with those details. If you like, I can make a reservation for you at Little Hunan on March 1st at 5 pm for 2 people."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have made your reservation and successfully reserved your table.",
+        "I have made your reservation and successfully reserved your table."
+    ],
+    [
+        "INFORM(rating=\"3.9\")",
+        "The user rating for Little Hunan is 3.9.",
+        "The user rating for Little Hunan is 3.9."
+    ],
+    [
+        "INFORM(has_vegetarian_options=\"False\")",
+        "I apologize but they do not have vegetarian dishes.",
+        "I apologize but they do not have vegetarian dishes."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mi Zacatecas Family Restaurant\";location=\"American Canyon\";time=\"5:30 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Please confirm the following: Book 1 table at Mi Zacatecas Family Restaurant in American Canyon for 2 at 5:30 pm on March 1st.",
+        "Please confirm the following: Book 1 table at Mi Zacatecas Family Restaurant in American Canyon for 2 at 5:30 pm on March 1st."
+    ],
+    [
+        "INFORM(category=\"Mexican\")",
+        "The reservation has successfully been made. They serve Mexican food.",
+        "The reservation has successfully been made. They serve Mexican food."
+    ],
+    [
+        "INFORM(category=\"Mexican\")@NOTIFY_SUCCESS()",
+        "The reservation has successfully been made. They serve Mexican food.",
+        "The reservation has successfully been made. They serve Mexican food."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Saap Ver\";location=\"San Francisco\";time=\"1:15 PM\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Please confirm the following information: Book a table at Saap Ver, in San Francisco at 1:15 PM on the day of March 1st. This is for a party of 2, correct?",
+        "Please confirm the following information: Book a table at Saap Ver, in San Francisco at 1:15 PM on the day of March 1st. This is for a party of 2, correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, but the reservation could not be placed. Is there anything else to help with?",
+        "Sorry, but the reservation could not be placed. Is there anything else to help with?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"triptych\";location=\"San Francisco\";time=\"6:15 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Here's what I heard: 2 people for a table at triptych in San Francisco at 6:15 pm on March 1st.",
+        "Here's what I heard: 2 people for a table at triptych in San Francisco at 6:15 pm on March 1st."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Triptych\";date=\"March 8th\")",
+        "Sure, I have booking table at Triptych on March 8th.",
+        "Sure, I have booking table at Triptych on March 8th."
+    ],
+    [
+        "CONFIRM(date=\"March 8th\";number_of_seats=\"1\")",
+        "I have March 8th 1 person.",
+        "I have March 8th 1 person."
+    ],
+    [
+        "INFORM(has_vegetarian_options=\"True\")",
+        "Well, good news bad news. First they DO have vegetarian options at Triptych. Bad news, no availability at your preferred time. How about March 8th at 6 pm for 1?",
+        "Well, good news bad news. First they DO have vegetarian options at Triptych. Bad news, no availability at your preferred time. How about March 8th at 6 pm for 1?"
+    ],
+    [
+        "INFORM(has_vegetarian_options=\"True\")@OFFER(restaurant_name=\"Triptych\";number_of_seats=\"1\";date=\"March 8th\";time=\"6 pm\")",
+        "Well, good news bad news. First they DO have vegetarian options at Triptych. Bad news, no availability at your preferred time. How about March 8th at 6 pm for 1?",
+        "Well, good news bad news. First they DO have vegetarian options at Triptych. Bad news, no availability at your preferred time. How about March 8th at 6 pm for 1?"
+    ],
+    [
+        "INFORM(has_vegetarian_options=\"True\")@OFFER(restaurant_name=\"Triptych\";number_of_seats=\"1\";date=\"March 8th\";time=\"6 pm\")@NOTIFY_FAILURE()",
+        "Well, good news bad news. First they DO have vegetarian options at Triptych. Bad news, no availability at your preferred time. How about March 8th at 6 pm for 1?",
+        "Well, good news bad news. First they DO have vegetarian options at Triptych. Bad news, no availability at your preferred time. How about March 8th at 6 pm for 1?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Left Bank Larkspur Brasserie\";location=\"Larkspur\";time=\"1:30 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Booking a table at Left Bank Larkspur Brasserie in Larkspur for 2 people on March 1st at 1:30 pm.",
+        "Booking a table at Left Bank Larkspur Brasserie in Larkspur for 2 people on March 1st at 1:30 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation was made.",
+        "Your reservation was made."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mcdonald's\";location=\"Oakland\";time=\"6:45 pm\";date=\"March 6th\";number_of_seats=\"2\")",
+        "Please confirm: Reserve 1 table at Mcdonald's in Oakland for 2 people on March 6th at 6:45 pm.",
+        "Please confirm: Reserve 1 table at Mcdonald's in Oakland for 2 people on March 6th at 6:45 pm."
+    ],
+    [
+        "INFORM(price_range=\"cheap\";has_seating_outdoors=\"False\")",
+        "Your reservation has been made. It is a cheap restaurant. It does not have outdoor seating.",
+        "Your reservation has been made. It is a cheap restaurant. It does not have outdoor seating."
+    ],
+    [
+        "INFORM(price_range=\"cheap\";has_seating_outdoors=\"False\")@NOTIFY_SUCCESS()",
+        "Your reservation has been made. It is a cheap restaurant. It does not have outdoor seating.",
+        "Your reservation has been made. It is a cheap restaurant. It does not have outdoor seating."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"La Hacienda Mexican Restaurant\";location=\"Cloverdale\";time=\"2 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "I'll make a reservation for La Hacienda Mexican Restaurant in Cloverdale for March 1st at 2 pm for 2 people, is that good for you?",
+        "I'll make a reservation for La Hacienda Mexican Restaurant in Cloverdale for March 1st at 2 pm for 2 people, is that good for you?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I'm sorry, but the reservation couldn't be completed. Is there anything else you need?",
+        "I'm sorry, but the reservation couldn't be completed. Is there anything else you need?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Lers Ros Thai\";location=\"San Francisco\";time=\"12:15 pm\";date=\"March 1st\";number_of_seats=\"1\")",
+        "Confirm the following about your reservation: I am booking a table for Lers Ros Thai in San Francisco. The reservatin is on March 1st at 12:15 pm for 1 person. Is this acceptable?",
+        "Confirm the following about your reservation: I am booking a table for Lers Ros Thai in San Francisco. The reservatin is on March 1st at 12:15 pm for 1 person. Is this acceptable?"
+    ],
+    [
+        "OFFER(restaurant_name=\"Lers Ros Thai\";number_of_seats=\"1\";date=\"March 1st\";time=\"12 pm\")",
+        "I was unable to make a reservation with these details. I can book a table at Lers Ros Thai on March 1st at 12 pm for 1 person. Is that okay?",
+        "I was unable to make a reservation with these details. I can book a table at Lers Ros Thai on March 1st at 12 pm for 1 person. Is that okay?"
+    ],
+    [
+        "OFFER(restaurant_name=\"Lers Ros Thai\";number_of_seats=\"1\";date=\"March 1st\";time=\"12 pm\")@NOTIFY_FAILURE()",
+        "I was unable to make a reservation with these details. I can book a table at Lers Ros Thai on March 1st at 12 pm for 1 person. Is that okay?",
+        "I was unable to make a reservation with these details. I can book a table at Lers Ros Thai on March 1st at 12 pm for 1 person. Is that okay?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Lotus Thai Restaurant\";location=\"Danville\";time=\"11:45 am\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Confirming that you want a table for 2 at 11:45 am on March 1st at the Lotus Thai Restaurant in Danville?",
+        "Confirming that you want a table for 2 at 11:45 am on March 1st at the Lotus Thai Restaurant in Danville?"
+    ],
+    [
+        "OFFER(restaurant_name=\"Lotus Thai Restaurant\";number_of_seats=\"2\";date=\"March 1st\";time=\"12 pm\")",
+        "Sorry I couldn't book that one, do you want me to try for 12 pm on March 1st instead? Still for 2 at Lotus Thai Restaurant",
+        "Sorry I couldn't book that one, do you want me to try for 12 pm on March 1st instead? Still for 2 at Lotus Thai Restaurant"
+    ],
+    [
+        "OFFER(restaurant_name=\"Lotus Thai Restaurant\";number_of_seats=\"2\";date=\"March 1st\";time=\"12 pm\")@NOTIFY_FAILURE()",
+        "Sorry I couldn't book that one, do you want me to try for 12 pm on March 1st instead? Still for 2 at Lotus Thai Restaurant",
+        "Sorry I couldn't book that one, do you want me to try for 12 pm on March 1st instead? Still for 2 at Lotus Thai Restaurant"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "That one worked! It's booked!",
+        "That one worked! It's booked!"
+    ],
+    [
+        "INFORM(price_range=\"moderate\";address=\"115 Hartz Avenue\")",
+        "It's in the moderate price range, so not so bad. And find them at 115 Hartz Avenue",
+        "It's in the moderate price range, so not so bad. And find them at 115 Hartz Avenue"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Aq\";location=\"San Francisco\";time=\"6:30 pm\";date=\"March 5th\";number_of_seats=\"4\")",
+        "No problem, before I check into reservations, let me just make sure that the details I have are correct. You would like a table for 4 at Aq, located in San Francisco, on March 5th, at 6:30 pm. Is that right?",
+        "No problem, before I check into reservations, let me just make sure that the details I have are correct. You would like a table for 4 at Aq, located in San Francisco, on March 5th, at 6:30 pm. Is that right?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Ming's Diner\";number_of_seats=\"3\")",
+        "Okay, I've changed those details to a table for 3 at Ming's Diner. Is that correct?",
+        "Okay, I've changed those details to a table for 3 at Ming's Diner. Is that correct?"
+    ],
+    [
+        "INFORM(rating=\"4.0\")",
+        "The rating of the restaurant I was able to confirm your reservation for is 4.0.",
+        "The rating of the restaurant I was able to confirm your reservation for is 4.0."
+    ],
+    [
+        "INFORM(rating=\"4.0\")@NOTIFY_SUCCESS()",
+        "The rating of the restaurant I was able to confirm your reservation for is 4.0.",
+        "The rating of the restaurant I was able to confirm your reservation for is 4.0."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Cattlemens\";location=\"Petaluma\";time=\"7:30 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Then please confirm, you need a table for 2 people in Cattlemens in Petaluma at 7:30 pm on March 1st.",
+        "Then please confirm, you need a table for 2 people in Cattlemens in Petaluma at 7:30 pm on March 1st."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "It is booked.",
+        "It is booked."
+    ],
+    [
+        "INFORM(has_vegetarian_options=\"False\";address=\"5012 Petaluma Boulevard North\")",
+        "No, you won't get veg. Their address is 5012 Petaluma Boulevard North.",
+        "No, you won't get veg. Their address is 5012 Petaluma Boulevard North."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Thai Chili Cuisine\";location=\"Santa Clara\";time=\"5:45 pm\";date=\"March 11th\";number_of_seats=\"2\")",
+        "Okay, you want to book a table for 2 people at Thai Chili Cuisine in Santa Clara on March 11th at 5:45 pm. Please confirm.",
+        "Okay, you want to book a table for 2 people at Thai Chili Cuisine in Santa Clara on March 11th at 5:45 pm. Please confirm."
+    ],
+    [
+        "OFFER(restaurant_name=\"Thai Chili Cuisine\";number_of_seats=\"2\";date=\"March 11th\";time=\"6 pm\")",
+        "Sorry, I fail to make a reservation. Thai Chili Cuisine is a good restaurant, do you want me to book a reservation for 2 again on March 11th at 6 pm?",
+        "Sorry, I fail to make a reservation. Thai Chili Cuisine is a good restaurant, do you want me to book a reservation for 2 again on March 11th at 6 pm?"
+    ],
+    [
+        "OFFER(restaurant_name=\"Thai Chili Cuisine\";number_of_seats=\"2\";date=\"March 11th\";time=\"6 pm\")@NOTIFY_FAILURE()",
+        "Sorry, I fail to make a reservation. Thai Chili Cuisine is a good restaurant, do you want me to book a reservation for 2 again on March 11th at 6 pm?",
+        "Sorry, I fail to make a reservation. Thai Chili Cuisine is a good restaurant, do you want me to book a reservation for 2 again on March 11th at 6 pm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your booking is now confirmed!",
+        "Your booking is now confirmed!"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Chianti Cucina\";location=\"Novato\";time=\"4:45 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Okay, please confirm the details: one table in Novato at restaurant Chianti Cucina for 4:45 pm on March 1st. Reservation is for 2.",
+        "Okay, please confirm the details: one table in Novato at restaurant Chianti Cucina for 4:45 pm on March 1st. Reservation is for 2."
+    ],
+    [
+        "INFORM(category=\"Italian\";has_seating_outdoors=\"False\")",
+        "They have Italian. Unfortunately, there is no outdoor seating. It looks like I will be unable to make the reservation for that time at Chianti Cucina. How about reserving a table for 2 people on March 1st at 5 pm",
+        "They have Italian. Unfortunately, there is no outdoor seating. It looks like I will be unable to make the reservation for that time at Chianti Cucina. How about reserving a table for 2 people on March 1st at 5 pm"
+    ],
+    [
+        "INFORM(category=\"Italian\";has_seating_outdoors=\"False\")@OFFER(restaurant_name=\"Chianti Cucina\";number_of_seats=\"2\";date=\"March 1st\";time=\"5 pm\")",
+        "They have Italian. Unfortunately, there is no outdoor seating. It looks like I will be unable to make the reservation for that time at Chianti Cucina. How about reserving a table for 2 people on March 1st at 5 pm",
+        "They have Italian. Unfortunately, there is no outdoor seating. It looks like I will be unable to make the reservation for that time at Chianti Cucina. How about reserving a table for 2 people on March 1st at 5 pm"
+    ],
+    [
+        "INFORM(category=\"Italian\";has_seating_outdoors=\"False\")@OFFER(restaurant_name=\"Chianti Cucina\";number_of_seats=\"2\";date=\"March 1st\";time=\"5 pm\")@NOTIFY_FAILURE()",
+        "They have Italian. Unfortunately, there is no outdoor seating. It looks like I will be unable to make the reservation for that time at Chianti Cucina. How about reserving a table for 2 people on March 1st at 5 pm",
+        "They have Italian. Unfortunately, there is no outdoor seating. It looks like I will be unable to make the reservation for that time at Chianti Cucina. How about reserving a table for 2 people on March 1st at 5 pm"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your table has been reserved.",
+        "Your table has been reserved."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Izakaya Kitaru\";location=\"Petaluma\";time=\"5:30 pm\";date=\"March 10th\";number_of_seats=\"4\")",
+        "Book a table at Izakaya Kitaru in Petaluma for 4 people at 5:30 pm on March 10th.Is that okay for you?",
+        "Book a table at Izakaya Kitaru in Petaluma for 4 people at 5:30 pm on March 10th.Is that okay for you?"
+    ],
+    [
+        "INFORM(has_seating_outdoors=\"False\")",
+        "The reservation was made.Outdoor seating is not available.",
+        "The reservation was made.Outdoor seating is not available."
+    ],
+    [
+        "INFORM(has_seating_outdoors=\"False\")@NOTIFY_SUCCESS()",
+        "The reservation was made.Outdoor seating is not available.",
+        "The reservation was made.Outdoor seating is not available."
+    ],
+    [
+        "INFORM(phone_number=\"707-789-9068\";address=\"212 Western Avenue\")",
+        "707-789-9068 is the phone number and the address is 212 Western Avenue.",
+        "707-789-9068 is the phone number and the address is 212 Western Avenue."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Sushi 85\";location=\"Mountain View\";time=\"7 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Please confirm: You want me to book a table for 2 people at Sushi 85 located Mountain View at 7 pm on March 1st.",
+        "Please confirm: You want me to book a table for 2 people at Sushi 85 located Mountain View at 7 pm on March 1st."
+    ],
+    [
+        "INFORM(address=\"1350 Grant Road\")",
+        "I have successfully booked the table and the address is 1350 Grant Road.",
+        "I have successfully booked the table and the address is 1350 Grant Road."
+    ],
+    [
+        "INFORM(address=\"1350 Grant Road\")@NOTIFY_SUCCESS()",
+        "I have successfully booked the table and the address is 1350 Grant Road.",
+        "I have successfully booked the table and the address is 1350 Grant Road."
+    ],
+    [
+        "INFORM(phone_number=\"650-965-8898\")",
+        "You can call them on 650-965-8898.",
+        "You can call them on 650-965-8898."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Regent Thai\";location=\"San Francisco\";time=\"7 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Please confirm: Reserve a table at Regent Thai in San Francisco for 2 people on March 1st at 7 pm.",
+        "Please confirm: Reserve a table at Regent Thai in San Francisco for 2 people on March 1st at 7 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation has been confirmed.",
+        "Your reservation has been confirmed."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Amalfi\";location=\"Larkspur\";time=\"5:30 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "I'll make you a reservation at Amalfi in Larkspur for 5:30 pm on March 1st for 2 people. Is that correct?",
+        "I'll make you a reservation at Amalfi in Larkspur for 5:30 pm on March 1st for 2 people. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've booked the reservation.",
+        "I've booked the reservation."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mcdonalds\";location=\"Morgan Hill\";time=\"6:30 pm\";date=\"march 4th\";number_of_seats=\"2\")",
+        "Please give the confirmation details:your table booking at Mcdonalds in the city Morgan Hill on march 4th for 2 people at 6:30 pm.",
+        "Please give the confirmation details:your table booking at Mcdonalds in the city Morgan Hill on march 4th for 2 people at 6:30 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your booking is confirmed.",
+        "Your booking is confirmed."
+    ],
+    [
+        "INFORM(phone_number=\"408-779-8182\";has_seating_outdoors=\"False\")",
+        "There is no outdoor seating and telephone number is 408-779-8182.",
+        "There is no outdoor seating and telephone number is 408-779-8182."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"La Briciola\";location=\"San Francisco\";time=\"11 am\";date=\"March 1st\";number_of_seats=\"1\")",
+        "You would like to reserve a table for 1 at La Briciola in San Francisco on March 1st at 11 am, is this correct?",
+        "You would like to reserve a table for 1 at La Briciola in San Francisco on March 1st at 11 am, is this correct?"
+    ],
+    [
+        "CONFIRM(location=\"San Francisco\";number_of_seats=\"3\")",
+        "Please confirm, you would like the reservation for 3 people in San Francisco.",
+        "Please confirm, you would like the reservation for 3 people in San Francisco."
+    ],
+    [
+        "INFORM(category=\"Italian\")",
+        "It is an Italian restaurant. Sorry, I was unable to reserve the time you selected. Would you like to reserve a table for 3 at La Briciola on March 1st at 11:30 am?",
+        "It is an Italian restaurant. Sorry, I was unable to reserve the time you selected. Would you like to reserve a table for 3 at La Briciola on March 1st at 11:30 am?"
+    ],
+    [
+        "INFORM(category=\"Italian\")@OFFER(restaurant_name=\"La Briciola\";number_of_seats=\"3\";date=\"March 1st\";time=\"11:30 am\")",
+        "It is an Italian restaurant. Sorry, I was unable to reserve the time you selected. Would you like to reserve a table for 3 at La Briciola on March 1st at 11:30 am?",
+        "It is an Italian restaurant. Sorry, I was unable to reserve the time you selected. Would you like to reserve a table for 3 at La Briciola on March 1st at 11:30 am?"
+    ],
+    [
+        "INFORM(category=\"Italian\")@OFFER(restaurant_name=\"La Briciola\";number_of_seats=\"3\";date=\"March 1st\";time=\"11:30 am\")@NOTIFY_FAILURE()",
+        "It is an Italian restaurant. Sorry, I was unable to reserve the time you selected. Would you like to reserve a table for 3 at La Briciola on March 1st at 11:30 am?",
+        "It is an Italian restaurant. Sorry, I was unable to reserve the time you selected. Would you like to reserve a table for 3 at La Briciola on March 1st at 11:30 am?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation is successful.",
+        "Your reservation is successful."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Cafe Jolie\";location=\"Alameda\";time=\"11:30 am\";date=\"March 13th\";number_of_seats=\"1\")",
+        "Please confirm: reserve a table for Cafe Jolie in Alameda for 11:30 am on March 13th. The reservation will be for 1 person.",
+        "Please confirm: reserve a table for Cafe Jolie in Alameda for 11:30 am on March 13th. The reservation will be for 1 person."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've successfully confirmed your reservation.",
+        "I've successfully confirmed your reservation."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Academy Bar and Kitchen\";location=\"San Francisco\";time=\"7 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Please confirm: Booking a table for 2 at the Academy Bar and Kitchen in San Francisco at 7 pm on March 1st.",
+        "Please confirm: Booking a table for 2 at the Academy Bar and Kitchen in San Francisco at 7 pm on March 1st."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "it is done",
+        "it is done"
+    ],
+    [
+        "INFORM(has_vegetarian_options=\"True\")",
+        "yes, there are good options",
+        "yes, there are good options"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Namu Gaji\";location=\"San Francisco\";time=\"1 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Just confirming you want me to search for a 1 pm reservation for 2 people on March 1st at the Namu Gaji in San Francisco yes?",
+        "Just confirming you want me to search for a 1 pm reservation for 2 people on March 1st at the Namu Gaji in San Francisco yes?"
+    ],
+    [
+        "INFORM(rating=\"4.3\";price_range=\"moderate\")",
+        "Sure, they are in the moderate price range and have a 4.3 average user rating, however I was unable to book your table for 2 at Namu Gaji. Do you want me to try for March 1st at 12:30 pm instead?",
+        "Sure, they are in the moderate price range and have a 4.3 average user rating, however I was unable to book your table for 2 at Namu Gaji. Do you want me to try for March 1st at 12:30 pm instead?"
+    ],
+    [
+        "INFORM(rating=\"4.3\";price_range=\"moderate\")@OFFER(restaurant_name=\"Namu Gaji\";number_of_seats=\"2\";date=\"March 1st\";time=\"12:30 pm\")",
+        "Sure, they are in the moderate price range and have a 4.3 average user rating, however I was unable to book your table for 2 at Namu Gaji. Do you want me to try for March 1st at 12:30 pm instead?",
+        "Sure, they are in the moderate price range and have a 4.3 average user rating, however I was unable to book your table for 2 at Namu Gaji. Do you want me to try for March 1st at 12:30 pm instead?"
+    ],
+    [
+        "INFORM(rating=\"4.3\";price_range=\"moderate\")@OFFER(restaurant_name=\"Namu Gaji\";number_of_seats=\"2\";date=\"March 1st\";time=\"12:30 pm\")@NOTIFY_FAILURE()",
+        "Sure, they are in the moderate price range and have a 4.3 average user rating, however I was unable to book your table for 2 at Namu Gaji. Do you want me to try for March 1st at 12:30 pm instead?",
+        "Sure, they are in the moderate price range and have a 4.3 average user rating, however I was unable to book your table for 2 at Namu Gaji. Do you want me to try for March 1st at 12:30 pm instead?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Yin Keng Restaurant\";location=\"Windsor\";time=\"1 pm\";date=\"March 1st\";number_of_seats=\"1\")",
+        "A table for 1 at Yin Keng Restaurant in Windsor at 1 pm on March 1st. Is this correct?",
+        "A table for 1 at Yin Keng Restaurant in Windsor at 1 pm on March 1st. Is this correct?"
+    ],
+    [
+        "INFORM(has_vegetarian_options=\"True\";address=\"8840 Lakewood Drive\")",
+        "Your reservation has been made. They have vegetarian meals. The address is 8840 Lakewood Drive.",
+        "Your reservation has been made. They have vegetarian meals. The address is 8840 Lakewood Drive."
+    ],
+    [
+        "INFORM(has_vegetarian_options=\"True\";address=\"8840 Lakewood Drive\")@NOTIFY_SUCCESS()",
+        "Your reservation has been made. They have vegetarian meals. The address is 8840 Lakewood Drive.",
+        "Your reservation has been made. They have vegetarian meals. The address is 8840 Lakewood Drive."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Tandoori Mahal Indian Restaurant\";location=\"San Francisco\";time=\"12:30 pm\";date=\"March 13th\";number_of_seats=\"2\")",
+        "Look through your request. You need a table at Tandoori Mahal Indian Restaurant in San Francisco at 12:30 pm on March 13th. There will be 2 people, right?",
+        "Look through your request. You need a table at Tandoori Mahal Indian Restaurant in San Francisco at 12:30 pm on March 13th. There will be 2 people, right?"
+    ],
+    [
+        "INFORM(category=\"Indian\")",
+        "You will get Indian food. Your booking confirmed.",
+        "You will get Indian food. Your booking confirmed."
+    ],
+    [
+        "INFORM(category=\"Indian\")@NOTIFY_SUCCESS()",
+        "You will get Indian food. Your booking confirmed.",
+        "You will get Indian food. Your booking confirmed."
+    ],
+    [
+        "INFORM(phone_number=\"415-951-0505\";rating=\"3.4\")",
+        "Contact them on 415-951-0505. they have 3.4 rating.",
+        "Contact them on 415-951-0505. they have 3.4 rating."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Castle Rock Restaurant\";location=\"Livermore\";time=\"12 pm\";date=\"March 1st\";number_of_seats=\"2\")",
+        "Can you please confirm that you want to book a table for 2 people at Castle Rock Restaurant in Livermore, and that you want the table to be booked for you for 12 pm on March 1st?",
+        "Can you please confirm that you want to book a table for 2 people at Castle Rock Restaurant in Livermore, and that you want the table to be booked for you for 12 pm on March 1st?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Mcdonald's\";date=\"March 1st\")",
+        "Can you please confirm that you want to have a table booked for you on March 1st at Mcdonald's?",
+        "Can you please confirm that you want to have a table booked for you on March 1st at Mcdonald's?"
+    ],
+    [
+        "CONFIRM(location=\"Pittsburg\";time=\"12 pm\")",
+        "Can you please confirm that you want to have a table booked for you at 12 pm in the city of Pittsburg?",
+        "Can you please confirm that you want to have a table booked for you at 12 pm in the city of Pittsburg?"
+    ],
+    [
+        "INFORM(price_range=\"cheap\")",
+        "Your requested booking has been made, and the restaurant is considered as cheap.",
+        "Your requested booking has been made, and the restaurant is considered as cheap."
+    ],
+    [
+        "INFORM(price_range=\"cheap\")@NOTIFY_SUCCESS()",
+        "Your requested booking has been made, and the restaurant is considered as cheap.",
+        "Your requested booking has been made, and the restaurant is considered as cheap."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Miramar Beach Restaurant\";location=\"Half MOon bay\";time=\"11:15 am\";date=\"march 3rd\";number_of_seats=\"1\")",
+        "Please confirm: You want to book a tale at the Miramar Beach Restaurant in Half MOon bay at 11:15 am on march 3rd for 1.",
+        "Please confirm: You want to book a tale at the Miramar Beach Restaurant in Half MOon bay at 11:15 am on march 3rd for 1."
+    ],
+    [
+        "INFORM(rating=\"4.2\";address=\"131 mirada road\")",
+        "Their address is 131 mirada road, and they have a rating of 4.2 Sorry, I couldn't make that reservation at the Miramar Beach restaurant, however, they have an opening for 1 on march 3rd at 11:30 am, would that work?",
+        "Their address is 131 mirada road, and they have a rating of 4.2 Sorry, I couldn't make that reservation at the Miramar Beach restaurant, however, they have an opening for 1 on march 3rd at 11:30 am, would that work?"
+    ],
+    [
+        "INFORM(rating=\"4.2\";address=\"131 mirada road\")@OFFER(restaurant_name=\"Miramar Beach restaurant\";number_of_seats=\"1\";date=\"march 3rd\";time=\"11:30 am\")",
+        "Their address is 131 mirada road, and they have a rating of 4.2 Sorry, I couldn't make that reservation at the Miramar Beach restaurant, however, they have an opening for 1 on march 3rd at 11:30 am, would that work?",
+        "Their address is 131 mirada road, and they have a rating of 4.2 Sorry, I couldn't make that reservation at the Miramar Beach restaurant, however, they have an opening for 1 on march 3rd at 11:30 am, would that work?"
+    ],
+    [
+        "INFORM(rating=\"4.2\";address=\"131 mirada road\")@OFFER(restaurant_name=\"Miramar Beach restaurant\";number_of_seats=\"1\";date=\"march 3rd\";time=\"11:30 am\")@NOTIFY_FAILURE()",
+        "Their address is 131 mirada road, and they have a rating of 4.2 Sorry, I couldn't make that reservation at the Miramar Beach restaurant, however, they have an opening for 1 on march 3rd at 11:30 am, would that work?",
+        "Their address is 131 mirada road, and they have a rating of 4.2 Sorry, I couldn't make that reservation at the Miramar Beach restaurant, however, they have an opening for 1 on march 3rd at 11:30 am, would that work?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation was successful.",
+        "Your reservation was successful."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Lotus Thai Bistro\";location=\"Palo Alto\";time=\"11 am\";date=\"March 3rd\";number_of_seats=\"2\")",
+        "Great, before I get you set up with a reservation can you just confirm that everything I have is correct? I have a table for 2, at Lotus Thai Bistro located in Palo Alto on March 3rd, at 11 am. Does this sound correct?",
+        "Great, before I get you set up with a reservation can you just confirm that everything I have is correct? I have a table for 2, at Lotus Thai Bistro located in Palo Alto on March 3rd, at 11 am. Does this sound correct?"
+    ],
+    [
+        "OFFER(restaurant_name=\"Lotus Thai Bistro\";number_of_seats=\"2\";date=\"March 3rd\";time=\"11:30 am\")",
+        "I'm sorry to inform you that I was not able to make that reservation for you, however, would you like me to try to set a new reservation for 2 at Lotus Thai Bistro on March 3rd for 11:30 am?",
+        "I'm sorry to inform you that I was not able to make that reservation for you, however, would you like me to try to set a new reservation for 2 at Lotus Thai Bistro on March 3rd for 11:30 am?"
+    ],
+    [
+        "OFFER(restaurant_name=\"Lotus Thai Bistro\";number_of_seats=\"2\";date=\"March 3rd\";time=\"11:30 am\")@NOTIFY_FAILURE()",
+        "I'm sorry to inform you that I was not able to make that reservation for you, however, would you like me to try to set a new reservation for 2 at Lotus Thai Bistro on March 3rd for 11:30 am?",
+        "I'm sorry to inform you that I was not able to make that reservation for you, however, would you like me to try to set a new reservation for 2 at Lotus Thai Bistro on March 3rd for 11:30 am?"
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Anatolian Kitchen\";location=\"Palo Alto\";time=\"12:30 pm\";date=\"March 1st\";number_of_seats=\"3\")",
+        "Confirming a table for 3 on March 1st at 12:30 pm in Palo Alto at Anatolian Kitchen.",
+        "Confirming a table for 3 on March 1st at 12:30 pm in Palo Alto at Anatolian Kitchen."
+    ],
+    [
+        "CONFIRM(time=\"12:30 pm\";number_of_seats=\"1\")",
+        "Confirming a 12:30 pm reservation for a party of 1.",
+        "Confirming a 12:30 pm reservation for a party of 1."
+    ],
+    [
+        "INFORM(category=\"Mediterranean\";has_vegetarian_options=\"True\")",
+        "They serve Mediterranean cuisine and they also do offer vegetarian selections. Congratulations, your table has been booked.",
+        "They serve Mediterranean cuisine and they also do offer vegetarian selections. Congratulations, your table has been booked."
+    ],
+    [
+        "INFORM(category=\"Mediterranean\";has_vegetarian_options=\"True\")@NOTIFY_SUCCESS()",
+        "They serve Mediterranean cuisine and they also do offer vegetarian selections. Congratulations, your table has been booked.",
+        "They serve Mediterranean cuisine and they also do offer vegetarian selections. Congratulations, your table has been booked."
+    ],
+    [
+        "CONFIRM(restaurant_name=\"Schroeder's\";location=\"San Francisco\";time=\"1:30 pm\";date=\"March 14th\";number_of_seats=\"2\")",
+        "Please confirm you reservation at Schroeder's in San Francisco for 2 at 1:30 pm on the March 14th.",
+        "Please confirm you reservation at Schroeder's in San Francisco for 2 at 1:30 pm on the March 14th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation has been made.",
+        "Your reservation has been made."
+    ]
+]

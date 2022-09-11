@@ -1,0 +1,2642 @@
+[
+    [
+        "music(name_track=\"Dust my Broom\";name_artist=\"Elmore James\")",
+        "Here's Dust my Broom by Elmore James.",
+        "Here's Dust my Broom by Elmore James."
+    ],
+    [
+        "music(name_artist=\"BB King\";name_track=\"The Thrill is Gone\")",
+        "Here's BB King - The Thrill is Gone.",
+        "Here's BB King - The Thrill is Gone."
+    ],
+    [
+        "music(name_artist=\"Muddy Waters\";name_track=\"Hoochie Coochie\")",
+        "Here's I'm your Hoochie Coochie by Muddy Waters.",
+        "Here's I'm your Hoochie Coochie by Muddy Waters."
+    ],
+    [
+        "music(name_artist=\"Muddy Waters\")",
+        "Another song by Muddy Waters?",
+        "Another song by Muddy Waters?"
+    ],
+    [
+        "music(name_artist=\"Muddy Waters\";name_track=\"Got my Mojo Working\")",
+        "Here's Muddy Waters - Got my Mojo Working.",
+        "Here's Muddy Waters - Got my Mojo Working."
+    ],
+    [
+        "music(name_artist=\"Muddy Waters\";name_track=\"go wrong\")",
+        "Here's Can't go wrong with Muddy Waters.",
+        "Here's Can't go wrong with Muddy Waters."
+    ],
+    [
+        "music(name_artist=\"Michael Bubl\")",
+        "Hi. Michael Buble, correct?",
+        "Hi. Michael Buble, correct?"
+    ],
+    [
+        "music(name_artist=\"Steely Dan\")",
+        "Have you heard of the artist Steely Dan?",
+        "Have you heard of the artist Steely Dan?"
+    ],
+    [
+        "music(name_artist=\"Steely Dan\";name_track=\"Do it again\")",
+        "Here is Steely Dan performing Do it again.",
+        "Here is Steely Dan performing Do it again."
+    ],
+    [
+        "music(name_artist=\"Van Morrison\")",
+        "How about a song from Van Morrison?",
+        "How about a song from Van Morrison?"
+    ],
+    [
+        "music(name_artist=\"Van Morrison\";name_album=\"Moon dance\")",
+        "Here is Van Morrison performing his classic song, Moon dance.",
+        "Here is Van Morrison performing his classic song, Moon dance."
+    ],
+    [
+        "music(name_artist=\"Pryor\")",
+        "An artist I found similar to Boz Scaggs is Tommy Castro, have you heard of this artist Pryor?",
+        "An artist I found similar to Boz Scaggs is Tommy Castro, have you heard of this artist Pryor?"
+    ],
+    [
+        "music(name_artist=\"Tommy Castro\";name_track=\"Nasty habits\")",
+        "Hears Tommy Castro performing Nasty habits.",
+        "Hears Tommy Castro performing Nasty habits."
+    ],
+    [
+        "music(name_artist=\"Tommy Castro\";name_track=\"Had enough\")",
+        "Here is Tommy Castro performing Had enough.",
+        "Here is Tommy Castro performing Had enough."
+    ],
+    [
+        "music(name_track=\"Dirrty\";name_artist=\"Christina Aguilera\")",
+        "Sure, you got it. Here is Christina Aguilera - Dirrty.",
+        "Sure, you got it. Here is Christina Aguilera - Dirrty."
+    ],
+    [
+        "music(name_track=\"Genie In A Bottle\";name_artist=\"Christina Aguilera\")",
+        "Here is Christina Aguilera - Genie In A Bottle.",
+        "Here is Christina Aguilera - Genie In A Bottle."
+    ],
+    [
+        "music(name_track=\"Toxic\";name_artist=\"Britney Spears\")",
+        "Here is Britney Spears - Toxic.",
+        "Here is Britney Spears - Toxic."
+    ],
+    [
+        "music(name_track=\"Locomotive Breath\";name_artist=\"Jethro Tull\")",
+        "Sure, let me find you that. Just a moment. Here is a song called Locomotive Breath by Jethro Tull.",
+        "Sure, let me find you that. Just a moment. Here is a song called Locomotive Breath by Jethro Tull."
+    ],
+    [
+        "music(name_track=\"To Cry You\";name_artist=\"Jethro Tull\")",
+        "Let me check on that for you. This will just be a second. Here is To Cry You a song by Jethro Tull.",
+        "Let me check on that for you. This will just be a second. Here is To Cry You a song by Jethro Tull."
+    ],
+    [
+        "music(name_track=\"Round Here\";name_artist=\"Counting Crows\")",
+        "How about the song Round Here by Counting Crows?",
+        "How about the song Round Here by Counting Crows?"
+    ],
+    [
+        "music(name_track=\"Hard Candy\")",
+        "Here is the song Hard Candy.",
+        "Here is the song Hard Candy."
+    ],
+    [
+        "music(name_track=\"Hard Candy\")",
+        "Would you like me to play you a cover for the song Hard Candy?",
+        "Would you like me to play you a cover for the song Hard Candy?"
+    ],
+    [
+        "music(name_track=\"Mr. Jones\")",
+        "Here is the cover for the song Mr. Jones.",
+        "Here is the cover for the song Mr. Jones."
+    ],
+    [
+        "music(describes_track=\"This song is very instrumental\")",
+        "This song is very instrumental.",
+        "This song is very instrumental."
+    ],
+    [
+        "music(describes_artist=\"They grow better as artists\")",
+        "They grow better as artists. But great! I'm glad you are satisfied.",
+        "They grow better as artists. But great! I'm glad you are satisfied."
+    ],
+    [
+        "music(name_artist=\"Blessthefall\")",
+        "Have you heard of the band Blessthefall or destroy the runner?",
+        "Have you heard of the band Blessthefall or destroy the runner?"
+    ],
+    [
+        "music(name_album=\"Hollow Bodies\";name_artist=\"Blessthefall\")",
+        "Here is Hollow Bodies by Blessthefall.",
+        "Here is Hollow Bodies by Blessthefall."
+    ],
+    [
+        "music(name_track=\"Open Water\";name_artist=\"Blessthefall\")",
+        "Sure thing. Here is Open Water by Blessthefall.",
+        "Sure thing. Here is Open Water by Blessthefall."
+    ],
+    [
+        "music(name_artist=\"Plain White T's\";name_track=\"Hey There Delilah\")",
+        "Here is Hey There Delilah by the Plain White T's.",
+        "Here is Hey There Delilah by the Plain White T's."
+    ],
+    [
+        "music(name_track=\"Rhythm of Love\";name_artist=\"Plain White T's\")",
+        "Here is Rhythm of Love by the Plain White T's.",
+        "Here is Rhythm of Love by the Plain White T's."
+    ],
+    [
+        "music(name_artist=\"Dierks Bentley\")",
+        "Have you heard of Dierks Bentley?",
+        "Have you heard of Dierks Bentley?"
+    ],
+    [
+        "music(name_artist=\"Little big town\")",
+        "Little big town?",
+        "Little big town?"
+    ],
+    [
+        "music(name_artist=\"Tyler Farr\")",
+        "Tyler Farr?",
+        "Tyler Farr?"
+    ],
+    [
+        "music(name_album=\"I Should Go To Church Sometime\";name_artist=\"Sam Hunt\")",
+        "Just a moment please. I Should Go To Church Sometime by Tyler Farr. Have you heard of Sam Hunt?",
+        "Just a moment please. I Should Go To Church Sometime by Tyler Farr. Have you heard of Sam Hunt?"
+    ],
+    [
+        "music(name_artist=\"Sam Hunt\";name_album=\"Body Like A Back Road\")",
+        "Sam Hunt - Body Like A Back Road.",
+        "Sam Hunt - Body Like A Back Road."
+    ],
+    [
+        "music(name_track=\"Thirteen 1972\";name_artist=\"Big Star\")",
+        "Thirteen 1972 by Big Star.\u00a0Did you get that video?",
+        "Thirteen 1972 by Big Star.\u00a0Did you get that video?"
+    ],
+    [
+        "music(describes_track=\"Thirteen\";name_artist=\"Elliott Smith\")",
+        "Got it. Hold on a second. Thirteen by Elliott Smith.",
+        "Got it. Hold on a second. Thirteen by Elliott Smith."
+    ],
+    [
+        "music(name_album=\"Tico\")",
+        "Hi, sure. I will. Did you say Tico?",
+        "Hi, sure. I will. Did you say Tico?"
+    ],
+    [
+        "music(name_artist=\"Fox Stevenson\";name_album=\"Tico\")",
+        "Okay, I got it. Here is Fox Stevenson by Tico. Go through with this.",
+        "Okay, I got it. Here is Fox Stevenson by Tico. Go through with this."
+    ],
+    [
+        "music(name_artist=\"Metallica\";name_track=\"King nothing\")",
+        "Hello. How can I help you? Sure let me find Metallica - King nothing for you.",
+        "Hello. How can I help you? Sure let me find Metallica - King nothing for you."
+    ],
+    [
+        "music(name_artist=\"Metallica\";name_track=\"King nothing\")",
+        "Here is Metallica - King nothing.",
+        "Here is Metallica - King nothing."
+    ],
+    [
+        "music(name_artist=\"Metallica\";name_track=\"Orion\")",
+        "Okay here is Metallica - Orion.",
+        "Okay here is Metallica - Orion."
+    ],
+    [
+        "music(name_track=\"A great track\")",
+        "A great track indeed.",
+        "A great track indeed."
+    ],
+    [
+        "music(name_track=\"Spit Out the Bone\";name_artist=\"Metallica\")",
+        "Here is Metallica - Spit Out the Bone.",
+        "Here is Metallica - Spit Out the Bone."
+    ],
+    [
+        "music(describes_track=\"One of my favorites\")",
+        "One of my favorites.",
+        "One of my favorites."
+    ],
+    [
+        "music(name_track=\"Daydream Believer\";name_artist=\"the Monkees\")",
+        "Sure thing. One second. Here is Daydream Believer by the Monkees.",
+        "Sure thing. One second. Here is Daydream Believer by the Monkees."
+    ],
+    [
+        "music(name_track=\"Dream World\";name_artist=\"the Monkees\")",
+        "Ok, let me find that for you. One second. Here is Dream World by the Monkees.",
+        "Ok, let me find that for you. One second. Here is Dream World by the Monkees."
+    ],
+    [
+        "music(name_album=\"Good Times\";name_artist=\"the Monkees\")",
+        "Ok, let me find that for you. Hold on just a second. Here is Good Times by the Monkees.",
+        "Ok, let me find that for you. Hold on just a second. Here is Good Times by the Monkees."
+    ],
+    [
+        "music(name_artist=\"Drake\")",
+        "Drake, correct?",
+        "Drake, correct?"
+    ],
+    [
+        "music(name_artist=\"Drake\")",
+        "Drake with another artist, correct?",
+        "Drake with another artist, correct?"
+    ],
+    [
+        "music(name_artist=\"Feist\")",
+        "Absolutely, have you heard of the artist named Feist?",
+        "Absolutely, have you heard of the artist named Feist?"
+    ],
+    [
+        "music(name_artist=\"Buck 65\";name_track=\"One Evening\")",
+        "Here is Feist featuring Buck 65 performing One Evening.",
+        "Here is Feist featuring Buck 65 performing One Evening."
+    ],
+    [
+        "music(name_artist=\"Lily Allen\")",
+        "Go through the video. Absolutely, what about the artist name to Lily Allen? Does that name sound familiar?",
+        "Go through the video. Absolutely, what about the artist name to Lily Allen? Does that name sound familiar?"
+    ],
+    [
+        "music(name_artist=\"Lily Allen\";name_track=\"Smile\")",
+        "Here is Lily Allen Performing the song Smile.",
+        "Here is Lily Allen Performing the song Smile."
+    ],
+    [
+        "music(name_artist=\"Alabama Shakes\")",
+        "Fancy like Adele also like the band Alabama Shakes. Have you heard this band prior?",
+        "Fancy like Adele also like the band Alabama Shakes. Have you heard this band prior?"
+    ],
+    [
+        "music(type_music=\"new music\";name_artist=\"Adele\")",
+        "Glad I could assist with new music, however there's only one Adele. But still, enjoy and have a great day!",
+        "Glad I could assist with new music, however there's only one Adele. But still, enjoy and have a great day!"
+    ],
+    [
+        "music(name_artist=\"LIL SKIES\";name_track=\"Lettuce Sandwich\")",
+        "Okay. LIL SKIES - Lettuce Sandwich.",
+        "Okay. LIL SKIES - Lettuce Sandwich."
+    ],
+    [
+        "music(name_artist=\"YBN Nahmir\";name_album=\"Bounce Out With That\")",
+        "Okay. YBN Nahmir - Bounce Out With That.",
+        "Okay. YBN Nahmir - Bounce Out With That."
+    ],
+    [
+        "music(name_artist=\"YBN Nahmir's\")",
+        "Sure. This is YBN Nahmir's most recent song.",
+        "Sure. This is YBN Nahmir's most recent song."
+    ],
+    [
+        "music(name_track=\"Are You Gonna Go My Way\";name_artist=\"Christina Aguilera\")",
+        "Sure, let me check. This will just be a second. Here is\u00a0Are You Gonna Go My Way\u00a0by Christina Aguilera.",
+        "Sure, let me check. This will just be a second. Here is\u00a0Are You Gonna Go My Way\u00a0by Christina Aguilera."
+    ],
+    [
+        "music(name_artist=\"The Cure\")",
+        "I apologise for that. Have you heard of the artist group called The Cure?",
+        "I apologise for that. Have you heard of the artist group called The Cure?"
+    ],
+    [
+        "music(name_artist=\"The Cure\";name_track=\"Just Like Heaven\")",
+        "Here's Just Like Heaven by The Cure.",
+        "Here's Just Like Heaven by The Cure."
+    ],
+    [
+        "music(name_track=\"Pictures of You\";name_artist=\"The Cure\")",
+        "Okay, hold on just a second. Here's the song Pictures of You by The Cure.",
+        "Okay, hold on just a second. Here's the song Pictures of You by The Cure."
+    ],
+    [
+        "music(name_artist=\"Toni Braxton\")",
+        "Okay. Just a moment. Have you listened to the artist named Toni Braxton?",
+        "Okay. Just a moment. Have you listened to the artist named Toni Braxton?"
+    ],
+    [
+        "music(name_track=\"Break My Heart\";name_artist=\"Toni Braxton\")",
+        "Here's the song Break My Heart by Toni Braxton.",
+        "Here's the song Break My Heart by Toni Braxton."
+    ],
+    [
+        "music(name_track=\"He Wasn't Man Enough\";name_artist=\"Toni Braxton\")",
+        "Here's the song He Wasn't Man Enough by Toni Braxton.",
+        "Here's the song He Wasn't Man Enough by Toni Braxton."
+    ],
+    [
+        "music(name_artist=\"Rolling Stones\";name_track=\"Paint It Black\")",
+        "Here is Rolling Stones - Paint It Black.",
+        "Here is Rolling Stones - Paint It Black."
+    ],
+    [
+        "music(name_track=\"Ruby Tuesday\";name_artist=\"The Rolling Stones\")",
+        "Here is The Rolling Stones - Ruby Tuesday.",
+        "Here is The Rolling Stones - Ruby Tuesday."
+    ],
+    [
+        "music(name_track=\"Sympathy for the devil\";name_artist=\"The Rolling Stones\")",
+        "Here is The Rolling Stones - Sympathy for the devil.",
+        "Here is The Rolling Stones - Sympathy for the devil."
+    ],
+    [
+        "music(name_track=\"Linger\";name_artist=\"The Cranberries\")",
+        "Let me see what I can find for you. How about the song Linger by the artist The Cranberries?",
+        "Let me see what I can find for you. How about the song Linger by the artist The Cranberries?"
+    ],
+    [
+        "music(name_track=\"Never Grow Old\")",
+        "Here is the song Never Grow Old from another album.",
+        "Here is the song Never Grow Old from another album."
+    ],
+    [
+        "music(name_track=\"Why\")",
+        "Let me check that for you. How about the song called Why?",
+        "Let me check that for you. How about the song called Why?"
+    ],
+    [
+        "music(name_track=\"Why\")",
+        "Okay. Here you go. Here's the song called Why.",
+        "Okay. Here you go. Here's the song called Why."
+    ],
+    [
+        "music(name_artist=\"Jose Carreras\")",
+        "Okay. Let's see what I can find for you. Hold on for a moment. Have you heard of Jose Carreras?",
+        "Okay. Let's see what I can find for you. Hold on for a moment. Have you heard of Jose Carreras?"
+    ],
+    [
+        "music(name_track=\"Tristesse\";name_artist=\"Jose Carreras\")",
+        "Here is the song Tristesse by Jose Carreras.",
+        "Here is the song Tristesse by Jose Carreras."
+    ],
+    [
+        "music(name_artist=\"Sara Evans\")",
+        "Sara Evans. Let me find something similar to that.",
+        "Sara Evans. Let me find something similar to that."
+    ],
+    [
+        "music(name_artist=\"Montgomery Gentry\")",
+        "Have you heard about the artist Darius Rucker? Ok, how about Montgomery Gentry?",
+        "Have you heard about the artist Darius Rucker? Ok, how about Montgomery Gentry?"
+    ],
+    [
+        "music(name_track=\"Something To Be Proud Of\";name_artist=\"Montgomery Gentry\")",
+        "Here is the song called Something To Be Proud Of by Montgomery Gentry.",
+        "Here is the song called Something To Be Proud Of by Montgomery Gentry."
+    ],
+    [
+        "music(name_artist=\"Sunny Sweeney\")",
+        "Have you heard about Sunny Sweeney?",
+        "Have you heard about Sunny Sweeney?"
+    ],
+    [
+        "music(name_artist=\"Sunny Sweeney\")",
+        "Let me play something by Sunny Sweeney.",
+        "Let me play something by Sunny Sweeney."
+    ],
+    [
+        "music(name_artist=\"Sunny Sweeney\")",
+        "Do you want me to play you another song by Sunny Sweeney?",
+        "Do you want me to play you another song by Sunny Sweeney?"
+    ],
+    [
+        "music(name_album=\"Fall For Me\";name_track=\"Sunny Sweeney\")",
+        "Here's the song Fall For Me by Sunny Sweeney.",
+        "Here's the song Fall For Me by Sunny Sweeney."
+    ],
+    [
+        "music(name_album=\"Perpetual Growth Machine\";name_artist=\"Rivers of Nihil\")",
+        "Here's Perpetual Growth Machine by Rivers of Nihil.",
+        "Here's Perpetual Growth Machine by Rivers of Nihil."
+    ],
+    [
+        "music(name_track=\"Sand Baptism\";name_artist=\"Rivers of Nihil\")",
+        "Here's\u00a0Sand Baptism by Rivers of Nihil.",
+        "Here's\u00a0Sand Baptism by Rivers of Nihil."
+    ],
+    [
+        "music(name_album=\"The Conscious Seed of Light\";name_artist=\"Rivers of Nihil\")",
+        "Here's\u00a0The Conscious Seed of Light by Rivers of Nihil.",
+        "Here's\u00a0The Conscious Seed of Light by Rivers of Nihil."
+    ],
+    [
+        "music(name_album=\"The Conscious Seed of Light\")",
+        "The Conscious Seed of Light.",
+        "The Conscious Seed of Light."
+    ],
+    [
+        "music(name_track=\"Light Of Day, Day Of Darkness\";name_artist=\"Green Carnation\")",
+        "Sure. I'll help you. Okay, I have found Light Of Day, Day Of Darkness by Green Carnation for you. Go through with this.",
+        "Sure. I'll help you. Okay, I have found Light Of Day, Day Of Darkness by Green Carnation for you. Go through with this."
+    ],
+    [
+        "music(name_track=\"the Standing Tall\";name_artist=\"Green Carnation\")",
+        "Hold on just a second. Let me check that for you. Okay. I have found Between the Gentle Small and the Standing Tall by Green Carnation for you. Go through with this.",
+        "Hold on just a second. Let me check that for you. Okay. I have found Between the Gentle Small and the Standing Tall by Green Carnation for you. Go through with this."
+    ],
+    [
+        "music(name_album=\"Acoustic Verses\";name_artist=\"Green Carnation\")",
+        "Okay, I'll find for you. This will take more than a second. I have found Acoustic Verses by Green Carnation for you. Go through with this.",
+        "Okay, I'll find for you. This will take more than a second. I have found Acoustic Verses by Green Carnation for you. Go through with this."
+    ],
+    [
+        "music(name_artist=\"Septicflesh\")",
+        "Okay, have you heard of Septicflesh?",
+        "Okay, have you heard of Septicflesh?"
+    ],
+    [
+        "music(name_artist=\"Septicflesh\";name_track=\"Martyr\")",
+        "Septicflesh - Martyr.",
+        "Septicflesh - Martyr."
+    ],
+    [
+        "music(name_artist=\"Absence\")",
+        "Have you heard of Absence?",
+        "Have you heard of Absence?"
+    ],
+    [
+        "music(name_artist=\"The Absence\";name_track=\"Dead and Gone\")",
+        "The Absence - Dead and Gone.",
+        "The Absence - Dead and Gone."
+    ],
+    [
+        "music(describes_artist=\"favorite artists\")",
+        "Okay, let's look for something based on another of your favorite artists.",
+        "Okay, let's look for something based on another of your favorite artists."
+    ],
+    [
+        "music(name_artist=\"Arkaik\")",
+        "Have you heard of Arkaik?",
+        "Have you heard of Arkaik?"
+    ],
+    [
+        "music(name_artist=\"ARKAIK\";name_track=\"Order of the Hierogon\")",
+        "ARKAIK - Order of the Hierogon.",
+        "ARKAIK - Order of the Hierogon."
+    ],
+    [
+        "music(name_artist=\"TERAMOBIL\";name_track=\"Multispectral Supercontinuum\")",
+        "TERAMOBIL - Multispectral Supercontinuum.",
+        "TERAMOBIL - Multispectral Supercontinuum."
+    ],
+    [
+        "music(name_artist=\"Nirvana\")",
+        "Nirvana , sure. Any particular album?",
+        "Nirvana , sure. Any particular album?"
+    ],
+    [
+        "music(name_artist=\"Rise Against\";name_track=\"Satellite\")",
+        "Okay. This will just be a second. Rise Against - Satellite.",
+        "Okay. This will just be a second. Rise Against - Satellite."
+    ],
+    [
+        "music(name_track=\"Give It All\";name_artist=\"Rise Against\")",
+        "Okay, let's see. Just one moment. Rise Against - Give It All.",
+        "Okay, let's see. Just one moment. Rise Against - Give It All."
+    ],
+    [
+        "music(name_track=\"Injection\";name_artist=\"Rise Against\")",
+        "Let's see. One second. Rise Against - Injection.",
+        "Let's see. One second. Rise Against - Injection."
+    ],
+    [
+        "music(name_artist=\"little mix\")",
+        "How can I help you? Did you say little mix?",
+        "How can I help you? Did you say little mix?"
+    ],
+    [
+        "music(name_artist=\"black magic\")",
+        "Here is Little Mix performing black magic.",
+        "Here is Little Mix performing black magic."
+    ],
+    [
+        "music(name_artist=\"taylor swift\";name_track=\"out of the woods\")",
+        "Here is Taylor Swift Out of the Woods. Once again here is out of the woods bye taylor swift.",
+        "Here is Taylor Swift Out of the Woods. Once again here is out of the woods bye taylor swift."
+    ],
+    [
+        "music(name_artist=\"Taylor Swift\";name_track=\"Shake It Off\")",
+        "Okay, sure thing. Here is Taylor Swift Shake It Off.",
+        "Okay, sure thing. Here is Taylor Swift Shake It Off."
+    ],
+    [
+        "music(name_artist=\"Taylor Swift.\")",
+        "Here is all you had to do was Stay by Taylor Swift.",
+        "Here is all you had to do was Stay by Taylor Swift."
+    ],
+    [
+        "music(name_artist=\"As I Lay Dying\";name_track=\"I never wanted\")",
+        "Sure, let me find that for you. This will just be a second. Here is As I Lay Dying - I never wanted.",
+        "Sure, let me find that for you. This will just be a second. Here is As I Lay Dying - I never wanted."
+    ],
+    [
+        "music(name_track=\"As I Lay Dying\")",
+        "Sure, I can check for you. Here is a cover of As I Lay Dying.",
+        "Sure, I can check for you. Here is a cover of As I Lay Dying."
+    ],
+    [
+        "music(name_artist=\"Parallels\")",
+        "I can try. Here is the song played by the Parallels.",
+        "I can try. Here is the song played by the Parallels."
+    ],
+    [
+        "music(name_track=\"I'll never let you go\";name_album=\"Steelheart\")",
+        "Yes. One sec. Here's the song I'll never let you go by Steelheart.",
+        "Yes. One sec. Here's the song I'll never let you go by Steelheart."
+    ],
+    [
+        "music(name_track=\"Lithium\";name_artist=\"Nirvana\")",
+        "Yes, I can find that for you. Hold on just a second. Here is the song Lithium by Nirvana.",
+        "Yes, I can find that for you. Hold on just a second. Here is the song Lithium by Nirvana."
+    ],
+    [
+        "music(name_artist=\"Simple Plan\";describes_type_music=\"similar to Linkin Park\")",
+        "Let me see what I can find similar to Linkin Park. Have you heard about Simple Plan?",
+        "Let me see what I can find similar to Linkin Park. Have you heard about Simple Plan?"
+    ],
+    [
+        "music(name_artist=\"Rammstein\")",
+        "Or Rammstein?",
+        "Or Rammstein?"
+    ],
+    [
+        "music(name_artist=\"Simple Plan\")",
+        "So let me play you something by Simple Plan.",
+        "So let me play you something by Simple Plan."
+    ],
+    [
+        "music(name_artist=\"Simple Plan\";name_track=\"I'm Just A Kid\")",
+        "Here is the song called I'm Just A Kid by Simple Plan.",
+        "Here is the song called I'm Just A Kid by Simple Plan."
+    ],
+    [
+        "music(name_track=\"Your Love Is A Lie\";name_artist=\"Simple plan\")",
+        "Here is another song called Your Love Is A Lie by Simple plan.",
+        "Here is another song called Your Love Is A Lie by Simple plan."
+    ],
+    [
+        "music(name_artist=\"Alien Ant Farm\")",
+        "How about Alien Ant Farm?",
+        "How about Alien Ant Farm?"
+    ],
+    [
+        "music(name_track=\"These Days\";name_artist=\"Alien Ant Farm\")",
+        "Let me play something. Here is the song called These Days by Alien Ant Farm.",
+        "Let me play something. Here is the song called These Days by Alien Ant Farm."
+    ],
+    [
+        "music(name_track=\"Glow\";name_artist=\"Alien Ant Farm\")",
+        "Here is another song called Glow by Alien Ant Farm.",
+        "Here is another song called Glow by Alien Ant Farm."
+    ],
+    [
+        "music(name_artist=\"Katy Perry\";name_track=\"Bon Appetit\")",
+        "Sure thing, here is Katy Perry - Bon Appetit.",
+        "Sure thing, here is Katy Perry - Bon Appetit."
+    ],
+    [
+        "music(name_artist=\"Katy Perry's\";name_track=\"Firework\")",
+        "Ok, here is Katy Perry's Firework.",
+        "Ok, here is Katy Perry's Firework."
+    ],
+    [
+        "music(name_artist=\"Katy Perry\";name_track=\"thinking of you\")",
+        "Here is Katy Perry with thinking of you.",
+        "Here is Katy Perry with thinking of you."
+    ],
+    [
+        "music(name_artist=\"Katy Perry's\";name_track=\"Firework\")",
+        "Sure thing. Here is Megan Nicole with Katy Perry's Firework.",
+        "Sure thing. Here is Megan Nicole with Katy Perry's Firework."
+    ],
+    [
+        "music(name_track=\"Wagon Wheel\";name_artist=\"Darius Rucker\")",
+        "How about the song Wagon Wheel by Darius Rucker?",
+        "How about the song Wagon Wheel by Darius Rucker?"
+    ],
+    [
+        "music(name_track=\"Wagon Wheel\";name_artist=\"Darius Rucker\")",
+        "Here's Wagon Wheel by Darius Rucker.",
+        "Here's Wagon Wheel by Darius Rucker."
+    ],
+    [
+        "music(name_track=\"True Believers\";name_artist=\"Darius Rucker\")",
+        "Here is True Believers by the artist Darius Rucker.",
+        "Here is True Believers by the artist Darius Rucker."
+    ],
+    [
+        "music(name_artist=\"Becky G\")",
+        "Let me see who I can find. Please wait for a while. Have you heard of Mindless Behavior or Becky G?",
+        "Let me see who I can find. Please wait for a while. Have you heard of Mindless Behavior or Becky G?"
+    ],
+    [
+        "music(name_album=\"Mayores\";name_artist=\"Becky G\")",
+        "Sure thing. One moment. Here are Mayores ft. Bad Bunny by Becky G.",
+        "Sure thing. One moment. Here are Mayores ft. Bad Bunny by Becky G."
+    ],
+    [
+        "music(name_artist=\"Matty B\")",
+        "Let me check. Have you heard of Matty B?",
+        "Let me check. Have you heard of Matty B?"
+    ],
+    [
+        "music(name_album=\"Right in front of you\";name_artist=\"Matty B\")",
+        "Sure thing. One second. Here is Right in front of you by Matty B.",
+        "Sure thing. One second. Here is Right in front of you by Matty B."
+    ],
+    [
+        "music(name_track=\"Composure\";name_artist=\"August Burns Red\")",
+        "Here is Composure, by August Burns Red.",
+        "Here is Composure, by August Burns Red."
+    ],
+    [
+        "music(name_track=\"Black Beatles\";name_artist=\"our last night\")",
+        "Let me get that for you. Here is the song Black Beatles by our last night.",
+        "Let me get that for you. Here is the song Black Beatles by our last night."
+    ],
+    [
+        "music(name_artist=\"Bassjackers\")",
+        "Have you heard of Bassjackers?",
+        "Have you heard of Bassjackers?"
+    ],
+    [
+        "music(name_artist=\"MAKJ\";name_track=\"DERP\")",
+        "Of course. Bassjackers & MAKJ - DERP (Official Video).",
+        "Of course. Bassjackers & MAKJ - DERP (Official Video)."
+    ],
+    [
+        "music(name_artist=\"Paul Oakenfold\")",
+        "Have you heard of Paul Oakenfold?",
+        "Have you heard of Paul Oakenfold?"
+    ],
+    [
+        "music(name_artist=\"Paul Oakenfold\";name_track=\"Dreamstate Theme (Kyau & Albert Remix)",
+        "Of course. Paul Oakenfold - Dreamstate Theme (Kyau & Albert Remix).",
+        "Of course. Paul Oakenfold - Dreamstate Theme (Kyau & Albert Remix)."
+    ],
+    [
+        "music(name_artist=\"Paul Oakenfold\";name_track=\"Dreamstate Theme (Kyau & Albert Remix)@\")",
+        "Of course. Paul Oakenfold - Dreamstate Theme (Kyau & Albert Remix).",
+        "Of course. Paul Oakenfold - Dreamstate Theme (Kyau & Albert Remix)."
+    ],
+    [
+        "music(name_artist=\"Brand new\";name_track=\"Jesus Christ\")",
+        "Here is Brand new - Jesus Christ.",
+        "Here is Brand new - Jesus Christ."
+    ],
+    [
+        "music(name_artist=\"Brand new\";name_track=\"Daisy\")",
+        "Here is Brand new - Daisy.",
+        "Here is Brand new - Daisy."
+    ],
+    [
+        "music(name_artist=\"Brand New\";name_album=\"I Am A Nightmare\")",
+        "Here is Brand New - \"I Am A Nightmare\".",
+        "Here is Brand New - \"I Am A Nightmare\"."
+    ],
+    [
+        "music(name_artist=\"Korn\";name_track=\"die yet another night\")",
+        "You got it Korn coming up. Here is Korn with die yet another night.",
+        "You got it Korn coming up. Here is Korn with die yet another night."
+    ],
+    [
+        "music(name_track=\"Party Up\";name_artist=\"DMX\")",
+        "You really are a good fan. Here is Party Up by DMX.",
+        "You really are a good fan. Here is Party Up by DMX."
+    ],
+    [
+        "music(name_artist=\"Nickelback\";name_track=\"How You Remind Me\")",
+        "Sure thing. Here is Nickelback with How You Remind Me.",
+        "Sure thing. Here is Nickelback with How You Remind Me."
+    ],
+    [
+        "music(name_track=\"My Sacrifice\";name_artist=\"Creed\")",
+        "Creed- My Sacrifice.",
+        "Creed- My Sacrifice."
+    ],
+    [
+        "music(name_track=\"With Arms Wide Open\";name_artist=\"Creed\")",
+        "Creed- With Arms Wide Open.",
+        "Creed- With Arms Wide Open."
+    ],
+    [
+        "music(name_track=\"Rarities\";name_artist=\"Creed\")",
+        "Creed - Rarities.",
+        "Creed - Rarities."
+    ],
+    [
+        "music(name_artist=\"The Cars\")",
+        "The Cars. Let me see what I can find for you?",
+        "The Cars. Let me see what I can find for you?"
+    ],
+    [
+        "music(name_track=\"Shake it up\";name_artist=\"The Cars\")",
+        "How about the song Shake it up by The Cars?",
+        "How about the song Shake it up by The Cars?"
+    ],
+    [
+        "music(name_track=\"Shake it up\";name_artist=\"The Cars\")",
+        "Here's the song\u00a0Shake it up by The Cars.",
+        "Here's the song\u00a0Shake it up by The Cars."
+    ],
+    [
+        "music(name_track=\"Dancing With Myself\";name_artist=\"Billy Idol\")",
+        "How about the song Dancing With Myself by Billy Idol?",
+        "How about the song Dancing With Myself by Billy Idol?"
+    ],
+    [
+        "music(name_track=\"Dancing With Myself\";name_artist=\"Billy Idol\")",
+        "Here's the song Dancing With Myself by Billy Idol.",
+        "Here's the song Dancing With Myself by Billy Idol."
+    ],
+    [
+        "music(name_track=\"Eyes Without A Face\";name_artist=\"billy idol\")",
+        "Here's another song called Eyes Without A Face by billy idol.",
+        "Here's another song called Eyes Without A Face by billy idol."
+    ],
+    [
+        "music(name_track=\"run\";name_artist=\"George strait\")",
+        "Here is the song called run by George strait.",
+        "Here is the song called run by George strait."
+    ],
+    [
+        "music(name_track=\"Troubadour\";name_artist=\"George strait\")",
+        "Here is the song called Troubadour by George strait.",
+        "Here is the song called Troubadour by George strait."
+    ],
+    [
+        "music(name_artist=\"Sheryl Crow\";type_music=\"Duet\")",
+        "Here is the George Strait & Sheryl Crow Duet.",
+        "Here is the George Strait & Sheryl Crow Duet."
+    ],
+    [
+        "music(name_artist=\"The Beach Boys\";describes_artist=\"similar to The Beach Boys\")",
+        "Okay, I can help you with that. Let me find something similar to The Beach Boys.",
+        "Okay, I can help you with that. Let me find something similar to The Beach Boys."
+    ],
+    [
+        "music(name_track=\"Rebel Rouser\";name_artist=\"Duane Eddy\")",
+        "Here's the song Rebel Rouser by Duane Eddy.",
+        "Here's the song Rebel Rouser by Duane Eddy."
+    ],
+    [
+        "music(name_track=\"Forty Miles of Bad Road\";name_artist=\"Duane Eddy\")",
+        "Yes, one moment. Here's the song Forty Miles of Bad Road by Duane Eddy.",
+        "Yes, one moment. Here's the song Forty Miles of Bad Road by Duane Eddy."
+    ],
+    [
+        "music(describes_track=\"a song similar to James Taylor\";name_artist=\"James Taylor\")",
+        "I'll find a song similar to James Taylor for you.",
+        "I'll find a song similar to James Taylor for you."
+    ],
+    [
+        "music(name_artist=\"Nick Drake\";describes_artist=\"He looks like a similar artist to James Taylor\";name_track=\"day is done\")",
+        "Have you heard of the artist Nick Drake? He looks like a similar artist to James Taylor. Here's the song day is done by Nick Drake.",
+        "Have you heard of the artist Nick Drake? He looks like a similar artist to James Taylor. Here's the song day is done by Nick Drake."
+    ],
+    [
+        "music(name_artist=\"Tears For Fears\";name_track=\"Head Over Heels\")",
+        "Here is Tears For Fears: Head Over Heels.",
+        "Here is Tears For Fears: Head Over Heels."
+    ],
+    [
+        "music(name_artist=\"Tears for Fears\";name_track=\"Mad World\")",
+        "Here is Tears For Fears Everybody Wants To Rule The World. Here is Tears for Fears- Mad World.",
+        "Here is Tears For Fears Everybody Wants To Rule The World. Here is Tears for Fears- Mad World."
+    ],
+    [
+        "music(name_track=\"Drive\";name_artist=\"Incubus\")",
+        "Here is Incubus with Drive.",
+        "Here is Incubus with Drive."
+    ],
+    [
+        "music(name_artist=\"Third Eye Blind\")",
+        "A different album from Third Eye Blind, is that correct?",
+        "A different album from Third Eye Blind, is that correct?"
+    ],
+    [
+        "music(describes_artist=\"great song\")",
+        "It is a great song and you are great fan.",
+        "It is a great song and you are great fan."
+    ],
+    [
+        "music(name_artist=\"Melanie Martinez\")",
+        "Just one moment. Have you listened to Melanie Martinez?",
+        "Just one moment. Have you listened to Melanie Martinez?"
+    ],
+    [
+        "music(name_track=\"Mad Hatter\";name_artist=\"Melanie Martinez\")",
+        "Sure. Here is Mad Hatter by\u00a0Melanie Martinez.",
+        "Sure. Here is Mad Hatter by\u00a0Melanie Martinez."
+    ],
+    [
+        "music(name_track=\"Mrs. Potato Head\";name_artist=\"Jhene Aiko\")",
+        "Here is Mrs. Potato Head by\u00a0Melanie Martinez. Have you listened to Jhene Aiko?",
+        "Here is Mrs. Potato Head by\u00a0Melanie Martinez. Have you listened to Jhene Aiko?"
+    ],
+    [
+        "music(name_track=\"The Worst\";name_artist=\"Jhene Aiko\")",
+        "Here is The Worst by\u00a0Jhene Aiko.",
+        "Here is The Worst by\u00a0Jhene Aiko."
+    ],
+    [
+        "music(name_track=\"Sativa\";name_artist=\"Jhene Aiko\")",
+        "Here is Sativa by Jhene Aiko.",
+        "Here is Sativa by Jhene Aiko."
+    ],
+    [
+        "music(name_album=\"Lady Gaga\";name_track=\"Born This Way\")",
+        "Hello. Here's Lady Gaga - Born This Way.",
+        "Hello. Here's Lady Gaga - Born This Way."
+    ],
+    [
+        "music(name_artist=\"Lady Gaga\";name_track=\"Born This Way\")",
+        "Sure. Here's Lady Gaga - Born This Way.",
+        "Sure. Here's Lady Gaga - Born This Way."
+    ],
+    [
+        "music(name_artist=\"Lady Gaga\";name_track=\"Million Reasons\")",
+        "Here's Lady Gaga - Million Reasons.",
+        "Here's Lady Gaga - Million Reasons."
+    ],
+    [
+        "music(name_artist=\"Christian Cuevas\";name_track=\"Million Reasons\";describes_track=\"Studio Version\")",
+        "Okay. Here's Christian Cuevas - Million Reasons - Studio Version.",
+        "Okay. Here's Christian Cuevas - Million Reasons - Studio Version."
+    ],
+    [
+        "music(name_track=\"Million Reasons\";name_artist=\"Lady Gaga cover\")",
+        "Here's Million Reasons - Lady Gaga cover.",
+        "Here's Million Reasons - Lady Gaga cover."
+    ],
+    [
+        "music(describes_artist=\"She has a really nice voice\")",
+        "She has a really nice voice.",
+        "She has a really nice voice."
+    ],
+    [
+        "music(name_artist=\"My Chemical Romance\";name_track=\"Helena\")",
+        "Sure thing. Hold on just a second. Here is My Chemical Romance by Helena.",
+        "Sure thing. Hold on just a second. Here is My Chemical Romance by Helena."
+    ],
+    [
+        "music(name_artist=\"Panic at the Disco\";name_track=\"This is Gospel\")",
+        "Let me check for you. Hold on. One second. Here is This is Gospel by Panic at the Disco.",
+        "Let me check for you. Hold on. One second. Here is This is Gospel by Panic at the Disco."
+    ],
+    [
+        "music(name_track=\"Victorious\";name_artist=\"Panic at the Disco\")",
+        "Let me find that for you. Just one moment. Here is Victorious by Panic at the Disco.",
+        "Let me find that for you. Just one moment. Here is Victorious by Panic at the Disco."
+    ],
+    [
+        "music(name_artist=\"August Burns Red\")",
+        "Let me see what I can find. One second, please. Just to confirm that you said August Burns Red, is that right?",
+        "Let me see what I can find. One second, please. Just to confirm that you said August Burns Red, is that right?"
+    ],
+    [
+        "music(name_track=\"Beauty in Tragedy\";name_artist=\"August Burns Red\")",
+        "Thank you. Here is Beauty in Tragedy by August Burns Red.",
+        "Thank you. Here is Beauty in Tragedy by August Burns Red."
+    ],
+    [
+        "music(name_artist=\"Self Esteem\")",
+        "Okay. The Offspring - Self Esteem.",
+        "Okay. The Offspring - Self Esteem."
+    ],
+    [
+        "music(name_artist=\"The Offspring\";name_track=\"The Kids Aren't Alright\")",
+        "Hold on just a second. The Offspring - The Kids Aren't Alright.",
+        "Hold on just a second. The Offspring - The Kids Aren't Alright."
+    ],
+    [
+        "music(name_artist=\"The Offspring\";name_track=\"Days Go By\";describes_track=\"acoustic\")",
+        "Oh, no. I will find a new song. This will just be a second. The Offspring - Days Go By (acoustic).",
+        "Oh, no. I will find a new song. This will just be a second. The Offspring - Days Go By (acoustic)."
+    ],
+    [
+        "music(name_artist=\"Epik High\";name_track=\"pieces of you\")",
+        "Here is Epik High with pieces of you.",
+        "Here is Epik High with pieces of you."
+    ],
+    [
+        "music(name_artist=\"lee\";name_track=\"Can you hear my heart\")",
+        "Okay you got it. Here is Epik High featuring lee,\u00a0 Can you hear my heart.",
+        "Okay you got it. Here is Epik High featuring lee,\u00a0 Can you hear my heart."
+    ],
+    [
+        "music(name_artist=\"De La Soul\")",
+        "Prince Paul from De La Soul?",
+        "Prince Paul from De La Soul?"
+    ],
+    [
+        "music(name_artist=\"DJ Shadow\")",
+        "Have you listened to DJ Shadow?",
+        "Have you listened to DJ Shadow?"
+    ],
+    [
+        "music(name_artist=\"Keak Da Sneak\";name_track=\"3 Freaks (Droop-E Remix)",
+        "Here is DJ Shadow Feat Mistah Fab, Turf Talk & Keak Da Sneak - 3 Freaks (Droop-E Remix). A personal favorite of mine.",
+        "Here is DJ Shadow Feat Mistah Fab, Turf Talk & Keak Da Sneak - 3 Freaks (Droop-E Remix). A personal favorite of mine."
+    ],
+    [
+        "music(name_artist=\"Keak Da Sneak\";name_track=\"3 Freaks (Droop-E Remix)@\")",
+        "Here is DJ Shadow Feat Mistah Fab, Turf Talk & Keak Da Sneak - 3 Freaks (Droop-E Remix). A personal favorite of mine.",
+        "Here is DJ Shadow Feat Mistah Fab, Turf Talk & Keak Da Sneak - 3 Freaks (Droop-E Remix). A personal favorite of mine."
+    ],
+    [
+        "music(name_artist=\"DJ Shadow\";name_track=\"Backstage Girl\")",
+        "Here is DJ Shadow - Backstage Girl.",
+        "Here is DJ Shadow - Backstage Girl."
+    ],
+    [
+        "music(name_genre=\"hip hop\")",
+        "Is that hip hop?",
+        "Is that hip hop?"
+    ],
+    [
+        "music(name_artist=\"Tupac\")",
+        "Everyone that came after Tupac is like Tupac.",
+        "Everyone that came after Tupac is like Tupac."
+    ],
+    [
+        "music(name_artist=\"Redman\")",
+        "How about a Redman?",
+        "How about a Redman?"
+    ],
+    [
+        "music(name_artist=\"Redman\";name_track=\"Tonight's Da Night\")",
+        "Absolutely, I got classics.\u00a0Here is Redman - Tonight's Da Night.",
+        "Absolutely, I got classics.\u00a0Here is Redman - Tonight's Da Night."
+    ],
+    [
+        "music(name_artist=\"Redman\";name_track=\"Fire\")",
+        "Here is Redman- Fire. My personal favorite Redman album.",
+        "Here is Redman- Fire. My personal favorite Redman album."
+    ],
+    [
+        "music(name_track=\"Beyond Creation\")",
+        "Hello, How can I assist you? Here's the song Earth-Born Evolution by Beyond Creation.",
+        "Hello, How can I assist you? Here's the song Earth-Born Evolution by Beyond Creation."
+    ],
+    [
+        "music(name_track=\"Abstaint Dialogue\";name_artist=\"Beyond Creation\")",
+        "Here's the song Abstaint Dialogue by Beyond Creation.",
+        "Here's the song Abstaint Dialogue by Beyond Creation."
+    ],
+    [
+        "music(name_track=\"the Aura\";name_artist=\"Beyond Creation\";name_album=\"the Aura\")",
+        "Here's the song the Aura by Beyond Creation from their first album the Aura.",
+        "Here's the song the Aura by Beyond Creation from their first album the Aura."
+    ],
+    [
+        "music(name_artist=\"John Coltrane\";name_track=\"In A Sentimental Mood\")",
+        "Here is John Coltrane - In A Sentimental Mood.",
+        "Here is John Coltrane - In A Sentimental Mood."
+    ],
+    [
+        "music(name_artist=\"John Coltrane\";name_album=\"Kind of blue\")",
+        "Here's Miles Davis & John Coltrane - Kind of blue.",
+        "Here's Miles Davis & John Coltrane - Kind of blue."
+    ],
+    [
+        "music(name_artist=\"Kamasi Washington\";name_album=\"Truth\")",
+        "Here is Kamasi Washington - Truth.",
+        "Here is Kamasi Washington - Truth."
+    ],
+    [
+        "music(name_artist=\"The Zombies\";name_album=\"She's Not There\")",
+        "Of course, The Zombies - She's Not There.",
+        "Of course, The Zombies - She's Not There."
+    ],
+    [
+        "music(name_artist=\"The Zombies\";name_track=\"Road Runner\")",
+        "Sure, The Zombies - Road Runner.",
+        "Sure, The Zombies - Road Runner."
+    ],
+    [
+        "music(name_artist=\"The Zombies\";name_track=\"Beyond the Borderline\")",
+        "Ok, The Zombies - Beyond the Borderline",
+        "Ok, The Zombies - Beyond the Borderline"
+    ],
+    [
+        "music(name_track=\"Blitzkrieg Bop\";name_artist=\"The Ramones\")",
+        "Here is Blitzkrieg Bop By The Ramones.",
+        "Here is Blitzkrieg Bop By The Ramones."
+    ],
+    [
+        "music(name_track=\"Poison Heart\";name_artist=\"Ramones\")",
+        "Here is Poison Heart - Ramones.",
+        "Here is Poison Heart - Ramones."
+    ],
+    [
+        "music(name_track=\"My Sharona\";name_artist=\"Ramones\")",
+        "Here is My Sharona (Ramones).",
+        "Here is My Sharona (Ramones)."
+    ],
+    [
+        "music(name_artist=\"Sex Pistols\";name_album=\"Anarchy In The UK\")",
+        "Here is Sex Pistols - Anarchy In The UK.",
+        "Here is Sex Pistols - Anarchy In The UK."
+    ],
+    [
+        "music(name_artist=\"Beethoven\")",
+        "Here is your song, what I found by Beethoven.",
+        "Here is your song, what I found by Beethoven."
+    ],
+    [
+        "music(name_track=\"When I win the Lottery\";name_artist=\"Camper Van Beethoven\")",
+        "I apologize. Here is your song. When I win the Lottery by Camper Van Beethoven.",
+        "I apologize. Here is your song. When I win the Lottery by Camper Van Beethoven."
+    ],
+    [
+        "music(name_track=\"white fluffy clouds\";name_artist=\"Camper Van Beethoven\";name_album=\"New Roman Times\")",
+        "Sure thing. One moment. Here is white fluffy clouds by Camper Van Beethoven from their album New Roman Times.",
+        "Sure thing. One moment. Here is white fluffy clouds by Camper Van Beethoven from their album New Roman Times."
+    ],
+    [
+        "music(name_artist=\"Metallica\";name_track=\"King Nothing\")",
+        "This will take at least a minute. Here is King Nothing by Metallica.",
+        "This will take at least a minute. Here is King Nothing by Metallica."
+    ],
+    [
+        "music(name_track=\"The Man Who Sold The World\";name_artist=\"Nirvana\")",
+        "Here is your song. The Man Who Sold The World by Nirvana.",
+        "Here is your song. The Man Who Sold The World by Nirvana."
+    ],
+    [
+        "music(name_track=\"Sappy\";name_artist=\"Nirvana\")",
+        "Here is Sappy by Nirvana.",
+        "Here is Sappy by Nirvana."
+    ],
+    [
+        "music(name_track=\"Blandest\";name_artist=\"Nirvana\")",
+        "Here is your song, Blandest by Nirvana.",
+        "Here is your song, Blandest by Nirvana."
+    ],
+    [
+        "music(name_artist=\"Bonobo\";name_track=\"All In Forms\")",
+        "Bonobo - All In Forms.",
+        "Bonobo - All In Forms."
+    ],
+    [
+        "music(name_artist=\"Bonobo\";name_track=\"Animals\")",
+        "Bonobo - Animals.",
+        "Bonobo - Animals."
+    ],
+    [
+        "music(name_artist=\"The Temptations\";name_track=\"My Girl\")",
+        "Just a moment. Please wait for while. Here's The Temptations - My Girl.",
+        "Just a moment. Please wait for while. Here's The Temptations - My Girl."
+    ],
+    [
+        "music(name_track=\"My Girl\";name_artist=\"The Temptations\")",
+        "Here's My Girl by The Temptations with lyrics.",
+        "Here's My Girl by The Temptations with lyrics."
+    ],
+    [
+        "music(name_artist=\"Barry White\";name_album=\"Never Gonna Give You Up\")",
+        "Just one moment. Here's Barry White - Never Gonna Give You Up.",
+        "Just one moment. Here's Barry White - Never Gonna Give You Up."
+    ],
+    [
+        "music(name_artist=\"Stevie Wonder\";name_album=\"I Just Called To Say I Love You\")",
+        "Here's Stevie Wonder - I Just Called To Say I Love You.",
+        "Here's Stevie Wonder - I Just Called To Say I Love You."
+    ],
+    [
+        "music(name_artist=\"Eagles\")",
+        "Have you listened to the Eagles?",
+        "Have you listened to the Eagles?"
+    ],
+    [
+        "music(name_track=\"Hotel California\";name_artist=\"Eagles\")",
+        "Here's Hotel California by the Eagles.",
+        "Here's Hotel California by the Eagles."
+    ],
+    [
+        "music(name_artist=\"Fleetwood Mac\")",
+        "Have you listened to Fleetwood Mac?",
+        "Have you listened to Fleetwood Mac?"
+    ],
+    [
+        "music(name_artist=\"Fleetwood Mac\";name_track=\"Dream\")",
+        "Here's Dream by Fleetwood Mac.",
+        "Here's Dream by Fleetwood Mac."
+    ],
+    [
+        "music(name_album=\"Rhinestone Cowboy\";name_artist=\"Owen Campbell\")",
+        "Sure thing. Just a moment. Here is Rhinestone Cowboy by Owen Campbell.",
+        "Sure thing. Just a moment. Here is Rhinestone Cowboy by Owen Campbell."
+    ],
+    [
+        "music(name_track=\"Country Boy\";name_artist=\"Glen Campbell\")",
+        "I can do that. One moment. Here is Country Boy by Glen Campbell.",
+        "I can do that. One moment. Here is Country Boy by Glen Campbell."
+    ],
+    [
+        "music(name_track=\"One\";name_artist=\"Metallica\")",
+        "I will be playing One by Metallica.",
+        "I will be playing One by Metallica."
+    ],
+    [
+        "music(describes_artist=\"They are one of the best\")",
+        "They are one of the best.",
+        "They are one of the best."
+    ],
+    [
+        "music(describes_track=\"their last album previous to this was not really good\")",
+        "Yes, because their last album previous to this was not really good.",
+        "Yes, because their last album previous to this was not really good."
+    ],
+    [
+        "music(describes_artist=\"They are rock Legends for sure\")",
+        "They are rock Legends for sure.",
+        "They are rock Legends for sure."
+    ],
+    [
+        "music(name_artist=\"Tupac Shakur\";name_track=\"Dear Mama\")",
+        "Sure. Tupac Shakur - Dear Mama.",
+        "Sure. Tupac Shakur - Dear Mama."
+    ],
+    [
+        "music(name_artist=\"Jadakiss\";name_track=\"Pain and Torture\")",
+        "Okay. Jadakiss - Pain and Torture.",
+        "Okay. Jadakiss - Pain and Torture."
+    ],
+    [
+        "music(name_artist=\"Rich Brian\";name_album=\"Glow Like Dat\")",
+        "Of course. Rich Brian - Glow Like Dat.",
+        "Of course. Rich Brian - Glow Like Dat."
+    ],
+    [
+        "music(technical_difficulty=\"It's blocked\")",
+        "It's blocked?",
+        "It's blocked?"
+    ],
+    [
+        "music(name_artist=\"Fine Frenzy\")",
+        "Okay, have you heard of a Fine Frenzy?",
+        "Okay, have you heard of a Fine Frenzy?"
+    ],
+    [
+        "music(name_artist=\"ZZ Ward\")",
+        "Have you heard of ZZ Ward?",
+        "Have you heard of ZZ Ward?"
+    ],
+    [
+        "music(name_artist=\"ZZ Ward\";name_track=\"Domino\")",
+        "Here is your song, I have ZZ Ward- Domino.",
+        "Here is your song, I have ZZ Ward- Domino."
+    ],
+    [
+        "music(name_artist=\"Dinah Washington\")",
+        "Okay, Have you heard of Dinah Washington?",
+        "Okay, Have you heard of Dinah Washington?"
+    ],
+    [
+        "music(name_artist=\"Dinah Washington\";name_track=\"What Difference A Day Makes\")",
+        "Here is your song, Dinah Washington: What Difference A Day Makes.",
+        "Here is your song, Dinah Washington: What Difference A Day Makes."
+    ],
+    [
+        "music(name_artist=\"Sara Vaughan\")",
+        "Glad you liked it. Have you heard of Sara Vaughan?",
+        "Glad you liked it. Have you heard of Sara Vaughan?"
+    ],
+    [
+        "music(name_artist=\"Eva Cassidy\")",
+        "What about Eva Cassidy?",
+        "What about Eva Cassidy?"
+    ],
+    [
+        "music(name_artist=\"Eva Cassidy\";name_track=\"Autumn Leaves\")",
+        "Here is your song. Eva Cassidy - Autumn Leaves.",
+        "Here is your song. Eva Cassidy - Autumn Leaves."
+    ],
+    [
+        "music(name_artist=\"Becky G\")",
+        "One second. Have you heard of Becky G?",
+        "One second. Have you heard of Becky G?"
+    ],
+    [
+        "music(name_artist=\"Khalid\")",
+        "Sure. Just one moment. Have you heard of Khalid?",
+        "Sure. Just one moment. Have you heard of Khalid?"
+    ],
+    [
+        "music(name_track=\"Young Dumb & Broke\";name_artist=\"Khalid\")",
+        "Young Dumb & Broke by Khalid.",
+        "Young Dumb & Broke by Khalid."
+    ],
+    [
+        "music(name_artist=\"Khalid\")",
+        "Of course. One moment. Lorde - Homemade Dynamite (Lyric Video). Here is the video. Khalid is a featured artist.",
+        "Of course. One moment. Lorde - Homemade Dynamite (Lyric Video). Here is the video. Khalid is a featured artist."
+    ],
+    [
+        "music(name_track=\"Be Here Now\";name_artist=\"Oasis\")",
+        "Here is your song: Be Here Now by the band Oasis.",
+        "Here is your song: Be Here Now by the band Oasis."
+    ],
+    [
+        "music(name_track=\"Columbia\";name_artist=\"Oasis\")",
+        "Here is the song Columbia by the band Oasis.",
+        "Here is the song Columbia by the band Oasis."
+    ],
+    [
+        "music(name_album=\"Take It Easy\";name_artist=\"Eagles\")",
+        "Sure. Here is Take It Easy by Eagles.",
+        "Sure. Here is Take It Easy by Eagles."
+    ],
+    [
+        "music(name_track=\"I will wait for you\";name_artist=\"Mumford & Sons\")",
+        "Give me one moment. Here is the song called I will wait for you by Mumford & Sons.",
+        "Give me one moment. Here is the song called I will wait for you by Mumford & Sons."
+    ],
+    [
+        "music(name_track=\"Ditmas\";name_artist=\"Mumford & Sons\")",
+        "Here is the song called Ditmas by Mumford & Sons.",
+        "Here is the song called Ditmas by Mumford & Sons."
+    ],
+    [
+        "music(name_artist=\"Bruno Mars\";name_genre=\"pop\")",
+        "Here is Bruno Mars performing pop genere.",
+        "Here is Bruno Mars performing pop genere."
+    ],
+    [
+        "music(name_artist=\"Bruno Mars\")",
+        "Here is Bruno Mars live performance at Super Bowl 48.",
+        "Here is Bruno Mars live performance at Super Bowl 48."
+    ],
+    [
+        "music(name_artist=\"Bruno Mars\";name_track=\"Versace on the Floor\")",
+        "Here is the Leroy Sanchez covering Bruno Mars song Versace on the Floor.",
+        "Here is the Leroy Sanchez covering Bruno Mars song Versace on the Floor."
+    ],
+    [
+        "music(name_track=\"Unforgettable\")",
+        "Here is the song Unforgettable.",
+        "Here is the song Unforgettable."
+    ],
+    [
+        "music(name_album=\"Tenderly\";name_artist=\"George Benson\")",
+        "Here's the song Tenderly by George Benson.",
+        "Here's the song Tenderly by George Benson."
+    ],
+    [
+        "music(name_track=\"Touch\";name_artist=\"Little Mix\")",
+        "Here's the song Touch by Little Mix.",
+        "Here's the song Touch by Little Mix."
+    ],
+    [
+        "music(name_album=\"get weird\")",
+        "It was called \"To get weird\" and I'll play you a song.",
+        "It was called \"To get weird\" and I'll play you a song."
+    ],
+    [
+        "music(name_track=\"Black Magic\";name_artist=\"Little Mix\")",
+        "Here's the song Black Magic by Little Mix from their last album.",
+        "Here's the song Black Magic by Little Mix from their last album."
+    ],
+    [
+        "music(name_track=\"Love Me Like You\";name_artist=\"Little Mix\")",
+        "This will just be a second, hold. Here's the song Love Me Like You by Little Mix from the same album.",
+        "This will just be a second, hold. Here's the song Love Me Like You by Little Mix from the same album."
+    ],
+    [
+        "music(name_artist=\"Richard Marx\";name_track=\"Endless Summer Nights\")",
+        "Endless Summer Nights by Richard Marx.",
+        "Endless Summer Nights by Richard Marx."
+    ],
+    [
+        "music(name_artist=\"Richard Marx\";name_track=\"right here waiting for you\")",
+        "Playing I will be right here waiting for you by Richard Marx.",
+        "Playing I will be right here waiting for you by Richard Marx."
+    ],
+    [
+        "music(technical_difficulty=\"everything is going to be blocked\")",
+        "Seems like everything is going to be blocked by him.",
+        "Seems like everything is going to be blocked by him."
+    ],
+    [
+        "music(name_track=\"Talk tonight\";name_artist=\"Oasis\")",
+        "Here is your song, Talk tonight by Oasis.",
+        "Here is your song, Talk tonight by Oasis."
+    ],
+    [
+        "music(name_artist=\"Queen\")",
+        "Queen is my favorite band.",
+        "Queen is my favorite band."
+    ],
+    [
+        "music(name_artist=\"AC DC\")",
+        "How about AC DC?",
+        "How about AC DC?"
+    ],
+    [
+        "music(describes_track=\"That's what music was meant to be\")",
+        "That's what music was meant to be.",
+        "That's what music was meant to be."
+    ],
+    [
+        "music(name_track=\"Learning To Fly\";name_artist=\"tom petty\")",
+        "How about Learning To Fly by tom petty?",
+        "How about Learning To Fly by tom petty?"
+    ],
+    [
+        "music(name_track=\"Fly\";name_artist=\"Tom Petty\")",
+        "Here's the\u00a0Fly by Tom Petty.",
+        "Here's the\u00a0Fly by Tom Petty."
+    ],
+    [
+        "music(type_music=\"Acoustic Covers\";name_genre=\"Jazz\";describes_track=\"Reggae\")",
+        "Holiday music, Hip Hop, Pop, R&B, Party, Rock, Latin, Classical, Blues, Coffee House, Country, Workout, Reggae, Studying, Jazz, Acoustic Covers.",
+        "Holiday music, Hip Hop, Pop, R&B, Party, Rock, Latin, Classical, Blues, Coffee House, Country, Workout, Reggae, Studying, Jazz, Acoustic Covers."
+    ],
+    [
+        "music(name_album=\"What A Wonderful World\";name_artist=\"Louis Armstrong\")",
+        "Heres Louis Armstrong - What A Wonderful World.",
+        "Heres Louis Armstrong - What A Wonderful World."
+    ],
+    [
+        "music(name_artist=\"John Coltrane\";name_track=\"In A Sentimental Mood\")",
+        "Heres John Coltrane - In A Sentimental Mood.",
+        "Heres John Coltrane - In A Sentimental Mood."
+    ],
+    [
+        "music(name_track=\"The Frost\";name_artist=\"August Burns Red\")",
+        "Here is The Frost by August Burns Red.",
+        "Here is The Frost by August Burns Red."
+    ],
+    [
+        "music(name_track=\"Rock & Roll Music\";name_artist=\"The Frost\")",
+        "Here is The Frost by Rock & Roll Music.",
+        "Here is The Frost by Rock & Roll Music."
+    ],
+    [
+        "music(name_track=\"Vicarious\";name_artist=\"Tool\")",
+        "I'm sorry to let me find something else. Here is Tool-Vicarious.",
+        "I'm sorry to let me find something else. Here is Tool-Vicarious."
+    ],
+    [
+        "music(name_track=\"You Lie\";name_artist=\"Reba McEntire\")",
+        "Hi. How can I help you? One moment. \"You Lie\" - Reba McEntire.",
+        "Hi. How can I help you? One moment. \"You Lie\" - Reba McEntire."
+    ],
+    [
+        "music(name_artist=\"Trisha Yearwood\";name_track=\"You Lie (Live - Tribute To Reba McEntire)",
+        "Sure. Trisha Yearwood - You Lie (Live - Tribute To Reba McEntire).",
+        "Sure. Trisha Yearwood - You Lie (Live - Tribute To Reba McEntire)."
+    ],
+    [
+        "music(name_artist=\"Trisha Yearwood\";name_track=\"You Lie (Live - Tribute To Reba McEntire)@\")",
+        "Sure. Trisha Yearwood - You Lie (Live - Tribute To Reba McEntire).",
+        "Sure. Trisha Yearwood - You Lie (Live - Tribute To Reba McEntire)."
+    ],
+    [
+        "music(name_artist=\"Fall Out Boy\";name_album=\"Sugar, We're Goin Down\")",
+        "Okay. Here's Fall Out Boy - Sugar, We're Goin Down.",
+        "Okay. Here's Fall Out Boy - Sugar, We're Goin Down."
+    ],
+    [
+        "music(name_album=\"Sugar We're Goin Down\";name_artist=\"Fall Out Boy\")",
+        "Here's Sugar We're Goin Down (Acapella) - Fall Out Boy.",
+        "Here's Sugar We're Goin Down (Acapella) - Fall Out Boy."
+    ],
+    [
+        "music(name_track=\"Blurryface\";name_artist=\"Austin Jones\")",
+        "Okay. Here's Blurryface (Acapella Medley) - twenty-one pilots cover by Austin Jones.",
+        "Okay. Here's Blurryface (Acapella Medley) - twenty-one pilots cover by Austin Jones."
+    ],
+    [
+        "music(name_album=\"Love Yourself\";name_artist=\"Justin Bieber\")",
+        "Here's Love Yourself - Justin Bieber Cover by Austin Jones.",
+        "Here's Love Yourself - Justin Bieber Cover by Austin Jones."
+    ],
+    [
+        "music(name_artist=\"Little Mix\";name_track=\"Touch\")",
+        "Sure. One second. Here is Touch by Little Mix.",
+        "Sure. One second. Here is Touch by Little Mix."
+    ],
+    [
+        "music(name_track=\"Hoopz\";name_artist=\"Little Mix\")",
+        "Let me see what I can find for you from Little Mix. Hold on just a second. Here is Hoopz featuring Charlie Puth by Little Mix.",
+        "Let me see what I can find for you from Little Mix. Hold on just a second. Here is Hoopz featuring Charlie Puth by Little Mix."
+    ],
+    [
+        "music(name_track=\"Power\";name_artist=\"Little mix\")",
+        "Let me see what I can find. Hold on. Here is Power by Little mix.",
+        "Let me see what I can find. Hold on. Here is Power by Little mix."
+    ],
+    [
+        "music(name_track=\"wolves\";name_artist=\"Selena Gomez\")",
+        "I can do that.Hold. Just a moment. Here is wolves by selena Gomez. Hold. Just a moment. Here is wolves by Selena Gomez.",
+        "I can do that.Hold. Just a moment. Here is wolves by selena Gomez. Hold. Just a moment. Here is wolves by Selena Gomez."
+    ],
+    [
+        "music(name_track=\"the Heart Wants What It Wants\";name_artist=\"Selena Gomez\")",
+        "Let me see what I can find for you. Hold on just a second.\u00a0Here is the Heart Wants What It Wants by Selena Gomez. Hold on just a second. Here is the Heart Wants What It Wants by Selena Gomez.",
+        "Let me see what I can find for you. Hold on just a second.\u00a0Here is the Heart Wants What It Wants by Selena Gomez. Hold on just a second. Here is the Heart Wants What It Wants by Selena Gomez."
+    ],
+    [
+        "music(name_artist=\"Selena Gomez\")",
+        "I will try. I will try. One moment. Here is perfect by Selena Gomez. Here is perfect by Selena Gomez.",
+        "I will try. I will try. One moment. Here is perfect by Selena Gomez. Here is perfect by Selena Gomez."
+    ],
+    [
+        "music(name_track=\"Payphone\";name_artist=\"Maroon 5\")",
+        "Here is the song Payphone by Maroon 5.",
+        "Here is the song Payphone by Maroon 5."
+    ],
+    [
+        "music(name_track=\"This Love\";name_artist=\"Maroon 5\")",
+        "Here is the song\u00a0This Love by Maroon 5.",
+        "Here is the song\u00a0This Love by Maroon 5."
+    ],
+    [
+        "music(name_track=\"Maps\";name_artist=\"Maroon 5\")",
+        "Here is the song\u00a0Maps by Maroon 5.",
+        "Here is the song\u00a0Maps by Maroon 5."
+    ],
+    [
+        "music(name_track=\"Nightingale\";name_artist=\"Yanni\")",
+        "Sure. Just one moment. Nightingale - Yanni.",
+        "Sure. Just one moment. Nightingale - Yanni."
+    ],
+    [
+        "music(name_artist=\"Nightingale\";name_track=\"Nightfall Overture\")",
+        "Oh, I'm sorry about that. One second. Nightingale - Nightfall Overture.",
+        "Oh, I'm sorry about that. One second. Nightingale - Nightfall Overture."
+    ],
+    [
+        "music(name_artist=\"Nightingale\";name_track=\"The Dream reader\")",
+        "One moment. Nightingale - The Dream reader.",
+        "One moment. Nightingale - The Dream reader."
+    ],
+    [
+        "music(name_artist=\"Nightingale\";name_track=\"Alone\")",
+        "Certainly yes. One second. Nightingale - Alone.",
+        "Certainly yes. One second. Nightingale - Alone."
+    ],
+    [
+        "music(name_track=\"With or Without You\";name_artist=\"Our Last Night\")",
+        "One moment. How about the song \"With or Without You\" by \"Our Last Night\"?",
+        "One moment. How about the song \"With or Without You\" by \"Our Last Night\"?"
+    ],
+    [
+        "music(name_artist=\"Our Last Night\";name_track=\"Tongue-tied\")",
+        "How about Tongue-tied by Our Last Night?",
+        "How about Tongue-tied by Our Last Night?"
+    ],
+    [
+        "music(name_artist=\"Our Last Night\";name_track=\"Humble Cover\")",
+        "Here is the song \"Humble Cover\" by \"Our Last Night\".",
+        "Here is the song \"Humble Cover\" by \"Our Last Night\"."
+    ],
+    [
+        "music(name_artist=\"Jamey Johnson\")",
+        "Got it. Have you heard of Jamey Johnson?",
+        "Got it. Have you heard of Jamey Johnson?"
+    ],
+    [
+        "music(name_artist=\"Jamey Johnson\";name_track=\"In Color\")",
+        "Here's Jamey Johnson - In Color.",
+        "Here's Jamey Johnson - In Color."
+    ],
+    [
+        "music(name_artist=\"Chris LeDoux\";name_track=\"8 Second Ride\")",
+        "Have you heard of Chris Ledoux? Here is Chris LeDoux- 8 Second Ride.",
+        "Have you heard of Chris Ledoux? Here is Chris LeDoux- 8 Second Ride."
+    ],
+    [
+        "music(name_artist=\"trace Adkins\")",
+        "Okay. Have you heard of trace Adkins?",
+        "Okay. Have you heard of trace Adkins?"
+    ],
+    [
+        "music(name_artist=\"Gretchen Wilson\")",
+        "Gretchen Wilson?",
+        "Gretchen Wilson?"
+    ],
+    [
+        "music(name_artist=\"Gretchen Wilson\";name_track=\"All Jacked Up\")",
+        "Here's Gretchen Wilson - All Jacked Up.",
+        "Here's Gretchen Wilson - All Jacked Up."
+    ],
+    [
+        "music(name_artist=\"Emerson Drive\";name_track=\"moments\")",
+        "Here's\u00a0Emerson Drive - moments. Is there anything else I can help with?",
+        "Here's\u00a0Emerson Drive - moments. Is there anything else I can help with?"
+    ],
+    [
+        "music(name_artist=\"ft. Miguel\")",
+        "Yes. One moment. \"Power Trip\" J. Cole ft. Miguel.",
+        "Yes. One moment. \"Power Trip\" J. Cole ft. Miguel."
+    ],
+    [
+        "music(name_artist=\"eja Vu.\";name_track=\"Deja Vu\")",
+        "Of course. Hold on for one sec. J. Cole - Deja Vu.",
+        "Of course. Hold on for one sec. J. Cole - Deja Vu."
+    ],
+    [
+        "music(name_artist=\"mar - M.A.A.D.\";name_track=\"M.A.A.D. City (Feat. MC eiht)",
+        "Yes. Give me one moment. Kendrick Lamar - M.A.A.D. City (Feat. MC eiht).",
+        "Yes. Give me one moment. Kendrick Lamar - M.A.A.D. City (Feat. MC eiht)."
+    ],
+    [
+        "music(name_artist=\"mar - M.A.A.D.\";name_track=\"M.A.A.D. City (Feat. MC eiht)@\")",
+        "Yes. Give me one moment. Kendrick Lamar - M.A.A.D. City (Feat. MC eiht).",
+        "Yes. Give me one moment. Kendrick Lamar - M.A.A.D. City (Feat. MC eiht)."
+    ],
+    [
+        "music(name_artist=\"Zac Brown Band\";name_album=\"Roots\")",
+        "One moment. Zac Brown Band - Roots.",
+        "One moment. Zac Brown Band - Roots."
+    ],
+    [
+        "music(name_artist=\"Zac Brown Band\")",
+        "Certainly. Zac Brown Band - Trying To Drive.",
+        "Certainly. Zac Brown Band - Trying To Drive."
+    ],
+    [
+        "music(name_artist=\"Chris Young\";name_album=\"Losing Sleep\")",
+        "One second. Chris Young - Losing Sleep.",
+        "One second. Chris Young - Losing Sleep."
+    ],
+    [
+        "music(name_track=\"Happy Birthday\";name_artist=\"Joyner Lucas\")",
+        "Hello, how can I help you? Here's the song Happy Birthday by Joyner Lucas.",
+        "Hello, how can I help you? Here's the song Happy Birthday by Joyner Lucas."
+    ],
+    [
+        "music(name_album=\"Say Hello to Adele\";name_artist=\"Joyner Lucas\")",
+        "Hold on. Here's the song Say Hello to Adele by Joyner Lucas.",
+        "Hold on. Here's the song Say Hello to Adele by Joyner Lucas."
+    ],
+    [
+        "music(name_track=\"we going to be Alright\";name_artist=\"Joyner Lucas\")",
+        "The song we going to be Alright by Joyner Lucas.",
+        "The song we going to be Alright by Joyner Lucas."
+    ],
+    [
+        "music(name_artist=\"Fifth Harmony\")",
+        "Okay. Fifth Harmony, correct?",
+        "Okay. Fifth Harmony, correct?"
+    ],
+    [
+        "music(name_track=\"All in my head\";name_artist=\"Fifth Harmony\")",
+        "Here is the the song All in my head by Fifth Harmony.",
+        "Here is the the song All in my head by Fifth Harmony."
+    ],
+    [
+        "music(name_track=\"Story of my life\";name_artist=\"One direction\")",
+        "Here is the song Story of my life by One direction.",
+        "Here is the song Story of my life by One direction."
+    ],
+    [
+        "music(name_artist=\"Lucy Woodward\")",
+        "How about Lucy Woodward, does this artist sound familiar?",
+        "How about Lucy Woodward, does this artist sound familiar?"
+    ],
+    [
+        "music(name_artist=\"Lucy Woodward\";name_track=\"What's Good For Me\")",
+        "Here is Lucy Woodward performing What's Good For Me.",
+        "Here is Lucy Woodward performing What's Good For Me."
+    ],
+    [
+        "music(name_artist=\"Lucy Woodward\";name_track=\"It's Oh! So Quiet\")",
+        "Here is Lucy Woodward performing It's Oh! So Quiet.",
+        "Here is Lucy Woodward performing It's Oh! So Quiet."
+    ],
+    [
+        "music(name_artist=\"Nelly Furtado\")",
+        "Have you heard music from the artist Nelly Furtado?",
+        "Have you heard music from the artist Nelly Furtado?"
+    ],
+    [
+        "music(name_artist=\"Nelly Furtado\";name_track=\"Say It Right\")",
+        "Here is Nelly Furtado performing Say It Right.",
+        "Here is Nelly Furtado performing Say It Right."
+    ],
+    [
+        "music(name_artist=\"Nelly Furtado\";name_track=\"Turn Off The Lights\")",
+        "Here is purest Nelly Furtado performing Turn Off The Lights.",
+        "Here is purest Nelly Furtado performing Turn Off The Lights."
+    ],
+    [
+        "music(describes_artist=\"similar to an artist\")",
+        "Okay, did you want to hear something similar to an artist that you currently like?",
+        "Okay, did you want to hear something similar to an artist that you currently like?"
+    ],
+    [
+        "music(name_artist=\"Katie Melua\";describes_artist=\"An artist similar to Norah Jones\")",
+        "An artist similar to Norah Jones that people enjoy is Katie Melua, does that name sound familiar to you?",
+        "An artist similar to Norah Jones that people enjoy is Katie Melua, does that name sound familiar to you?"
+    ],
+    [
+        "music(name_artist=\"Katie Melua\";name_album=\"Nine Million Bicycles\")",
+        "Here is Katie Melua performing Nine Million Bicycles.",
+        "Here is Katie Melua performing Nine Million Bicycles."
+    ],
+    [
+        "music(describes_artist=\"similar to Norah Jones\";name_artist=\"Feist\")",
+        "Another artist that I would recommend similar to Norah Jones, is Feist. Have you heard music from this artist?",
+        "Another artist that I would recommend similar to Norah Jones, is Feist. Have you heard music from this artist?"
+    ],
+    [
+        "music(name_artist=\"Feist\";name_track=\"My Moon My Man\";describes_artist=\"This artist is a bit more poppy than the first artist\")",
+        "Here is Feist performing My Moon My Man. Here is Feist performing My Moon My Man. This artist is a bit more poppy than the first artist.",
+        "Here is Feist performing My Moon My Man. Here is Feist performing My Moon My Man. This artist is a bit more poppy than the first artist."
+    ],
+    [
+        "music(describes_artist=\"This artist is a bit more poppy than the first artist\")",
+        "This artist is a bit more poppy than the first artist.",
+        "This artist is a bit more poppy than the first artist."
+    ],
+    [
+        "music(name_track=\"Recurring\";name_artist=\"Bonobo\")",
+        "Okay. Here's Recurring by Bonobo.",
+        "Okay. Here's Recurring by Bonobo."
+    ],
+    [
+        "music(name_track=\"Ketto\";name_artist=\"Bonobo\")",
+        "Here's Ketto by Bonobo.",
+        "Here's Ketto by Bonobo."
+    ],
+    [
+        "music(name_track=\"Nightlite\";name_artist=\"Bajka\")",
+        "Here's Nightlite (Featuring Bajka) by Bonobo.",
+        "Here's Nightlite (Featuring Bajka) by Bonobo."
+    ],
+    [
+        "music(name_artist=\"Modest Mouse\")",
+        "Sure. Have you heard of Modest Mouse?",
+        "Sure. Have you heard of Modest Mouse?"
+    ],
+    [
+        "music(name_artist=\"Vampire Weekend\")",
+        "How about Vampire Weekend?",
+        "How about Vampire Weekend?"
+    ],
+    [
+        "music(name_artist=\"the Decemberists\")",
+        "What about the Decemberists?",
+        "What about the Decemberists?"
+    ],
+    [
+        "music(name_artist=\"The Decemberists\";name_album=\"Severed\")",
+        "The Decemberists - Severed.",
+        "The Decemberists - Severed."
+    ],
+    [
+        "music(name_artist=\"Underoath\")",
+        "Of course. Have you heard of Underoath?",
+        "Of course. Have you heard of Underoath?"
+    ],
+    [
+        "music(name_track=\"In Division\";name_artist=\"Underoath\")",
+        "Underoath : In Division.",
+        "Underoath : In Division."
+    ],
+    [
+        "music(name_track=\"Desperate Times, Desperate Measures\";name_artist=\"Underoath\")",
+        "Underoath - Desperate Times, Desperate Measures.",
+        "Underoath - Desperate Times, Desperate Measures."
+    ],
+    [
+        "music(name_track=\"You're Ever So Inviting\";name_artist=\"Underoath\")",
+        "Underoath You're Ever So Inviting.",
+        "Underoath You're Ever So Inviting."
+    ],
+    [
+        "music(name_track=\"On My Teeth\";name_artist=\"Underoath\")",
+        "Underoath - On My Teeth.",
+        "Underoath - On My Teeth."
+    ],
+    [
+        "music(name_artist=\"asking Alexandria\")",
+        "Ok. Have you heard of asking Alexandria?",
+        "Ok. Have you heard of asking Alexandria?"
+    ],
+    [
+        "music(name_track=\"Alone In A Room\";name_artist=\"Sking Alexandria\")",
+        "Sking Alexandria - Alone In A Room.",
+        "Sking Alexandria - Alone In A Room."
+    ],
+    [
+        "music(name_artist=\"NOFX\")",
+        "Hello. How can I help you? I can do that for you. Here is what I found for NOFX.",
+        "Hello. How can I help you? I can do that for you. Here is what I found for NOFX."
+    ],
+    [
+        "music(name_album=\"First Ditch Effort\";name_artist=\"NOFX\";name_track=\"Father's Day\")",
+        "Okay, hold on just a second. Here you go, NOFX First Ditch Effort. Excuse me, this track is called Father's Day. Excuse me, this track is called Father's Day.",
+        "Okay, hold on just a second. Here you go, NOFX First Ditch Effort. Excuse me, this track is called Father's Day. Excuse me, this track is called Father's Day."
+    ],
+    [
+        "music(describes_track=\"It seems like a good song\")",
+        "It seems like a good song.",
+        "It seems like a good song."
+    ],
+    [
+        "music(describes_track=\"It makes you feel the song\")",
+        "Yeah I like this one better than the other. It makes you feel the song.",
+        "Yeah I like this one better than the other. It makes you feel the song."
+    ],
+    [
+        "music(describes_artist=\"they're very famous\")",
+        "Yeah they're very famous. He'll be crazy if someone didn't know who they were.",
+        "Yeah they're very famous. He'll be crazy if someone didn't know who they were."
+    ],
+    [
+        "music(name_artist=\"Joyner Lucas\";name_track=\"Winter Blues\";name_album=\"(508)",
+        "Winter Blues (508)-507-2209 by Joyner Lucas.",
+        "Winter Blues (508)-507-2209 by Joyner Lucas."
+    ],
+    [
+        "music(name_artist=\"Joyner Lucas\";name_track=\"Winter Blues\";name_album=\"(508)@-507-2209\")",
+        "Winter Blues (508)-507-2209 by Joyner Lucas.",
+        "Winter Blues (508)-507-2209 by Joyner Lucas."
+    ],
+    [
+        "music(name_artist=\"Joyner Lucas\";name_track=\"Mask Off Remix\")",
+        "Hold, just one moment. Mask Off Remix by Joyner Lucas.",
+        "Hold, just one moment. Mask Off Remix by Joyner Lucas."
+    ],
+    [
+        "music(type_music=\"Older music\";name_artist=\"Bruno mars\";name_track=\"Count on me\")",
+        "Older music by Bruno Mars, please hold. Sure, here is Count on me by Bruno mars.",
+        "Older music by Bruno Mars, please hold. Sure, here is Count on me by Bruno mars."
+    ],
+    [
+        "music(name_artist=\"Nujabes\")",
+        "Got it. How about Nujabes?",
+        "Got it. How about Nujabes?"
+    ],
+    [
+        "music(name_artist=\"Outkast\")",
+        "How about Nujabes or Daft Punk or Outkast?",
+        "How about Nujabes or Daft Punk or Outkast?"
+    ],
+    [
+        "music(name_artist=\"Outkast\")",
+        "Similar to Outkast?",
+        "Similar to Outkast?"
+    ],
+    [
+        "music(name_artist=\"Paramore\")",
+        "Got it. How about Paramore?",
+        "Got it. How about Paramore?"
+    ],
+    [
+        "music(name_track=\"Ghosts\";name_artist=\"August Burns Red\")",
+        "Here you go Ghosts by August Burns Red.",
+        "Here you go Ghosts by August Burns Red."
+    ],
+    [
+        "music(name_track=\"back Burner\";name_artist=\"August Burns Red\";name_album=\"Messenger\")",
+        "Here's a song called back Burner from August Burns Red from their album Messenger.",
+        "Here's a song called back Burner from August Burns Red from their album Messenger."
+    ],
+    [
+        "music(name_artist=\"August Burns Red\";name_track=\"Composure\")",
+        "Composure by August Burns Red.",
+        "Composure by August Burns Red."
+    ],
+    [
+        "music(name_track=\"lemon\";name_artist=\"N.E.R.D\")",
+        "One second. Here's the song lemon by N.E.R.D and Rihanna. Here's the song lemon by N.E.R.D and Rihanna.",
+        "One second. Here's the song lemon by N.E.R.D and Rihanna. Here's the song lemon by N.E.R.D and Rihanna."
+    ],
+    [
+        "music(name_track=\"Feeling Myself\";name_artist=\"Beyonce\")",
+        "Here's the song Feeling Myself by Nicki Minaj featuring Beyonce.",
+        "Here's the song Feeling Myself by Nicki Minaj featuring Beyonce."
+    ],
+    [
+        "music(name_album=\"my house\";name_artist=\"Flo Rida\")",
+        "Here's the song my house by Flo Rida.",
+        "Here's the song my house by Flo Rida."
+    ],
+    [
+        "music(name_artist=\"Omi\";name_track=\"Cheerleader\";describes_track=\"a Felix Jaehn remix\")",
+        "Here's the song Cheerleader by Omi a Felix Jaehn remix.",
+        "Here's the song Cheerleader by Omi a Felix Jaehn remix."
+    ],
+    [
+        "music(name_track=\"Like a Stone\";name_artist=\"Audioslave\")",
+        "Let me find you something. Here is the song called Like a Stone by the artist Audioslave.",
+        "Let me find you something. Here is the song called Like a Stone by the artist Audioslave."
+    ],
+    [
+        "music(name_track=\"Sweet Child O' Mine\";name_artist=\"Guns N' Roses\")",
+        "Here is the song called Sweet Child O' Mine by the artist Guns N' Roses.",
+        "Here is the song called Sweet Child O' Mine by the artist Guns N' Roses."
+    ],
+    [
+        "music(name_album=\"Chop Suey\";name_artist=\"System Of A Down\")",
+        "Here is the song called System Of A Down by the artist Chop Suey.",
+        "Here is the song called System Of A Down by the artist Chop Suey."
+    ],
+    [
+        "music(name_track=\"Until It Sleeps\";name_artist=\"Metallica\")",
+        "Okay, let me find you something. Here is the song called Until It Sleeps by Metallica.",
+        "Okay, let me find you something. Here is the song called Until It Sleeps by Metallica."
+    ],
+    [
+        "music(name_artist=\"Styx\";describes_artist=\"favorite artist\")",
+        "This will just be a second. Based on your favorite artist Elton John have you heard of Journey or Styx?",
+        "This will just be a second. Based on your favorite artist Elton John have you heard of Journey or Styx?"
+    ],
+    [
+        "music(name_artist=\"Journey\")",
+        "Okay, let me play you something by Journey. This will just be a second.",
+        "Okay, let me play you something by Journey. This will just be a second."
+    ],
+    [
+        "music(name_track=\"Don't Stop Believin'\";name_artist=\"Journey\")",
+        "Here is Don't Stop Believin' by Journey.",
+        "Here is Don't Stop Believin' by Journey."
+    ],
+    [
+        "music(name_track=\"Wide Awake\";name_artist=\"Katy Perry\")",
+        "Here is Wide Awake by Katy Perry.",
+        "Here is Wide Awake by Katy Perry."
+    ],
+    [
+        "music(name_artist=\"Jesse McCartney\")",
+        "Did you say Jesse McCartney?",
+        "Did you say Jesse McCartney?"
+    ],
+    [
+        "music(name_artist=\"Jesse McCartney\";name_track=\"Leavin'\")",
+        "Here is the Leavin' by Jesse McCartney.",
+        "Here is the Leavin' by Jesse McCartney."
+    ],
+    [
+        "music(name_track=\"Leavin'\";name_artist=\"Taylor Swift\")",
+        "Here is Leavin' by Taylor Swift.",
+        "Here is Leavin' by Taylor Swift."
+    ],
+    [
+        "music(name_track=\"Leavin'\")",
+        "I am not able to find another version of Leavin'.",
+        "I am not able to find another version of Leavin'."
+    ],
+    [
+        "music(name_track=\"Beautiful Soul\";name_artist=\"Jesse McCartney\")",
+        "Here is Beautiful Soul by Jesse McCartney.",
+        "Here is Beautiful Soul by Jesse McCartney."
+    ],
+    [
+        "music(name_track=\"How Do You Sleep\";name_artist=\"Jesse McCartney\")",
+        "Here is a song entitled How Do You Sleep by Jesse McCartney.",
+        "Here is a song entitled How Do You Sleep by Jesse McCartney."
+    ],
+    [
+        "music(name_artist=\"Jesse McCartney\")",
+        "Did you say a different version by Jesse McCartney?",
+        "Did you say a different version by Jesse McCartney?"
+    ],
+    [
+        "music(name_track=\"How Do You Sleep\";name_artist=\"Jesse McCartney\")",
+        "Here is a live version of How Do You Sleep by Jesse McCartney performed on the Honda Stage.",
+        "Here is a live version of How Do You Sleep by Jesse McCartney performed on the Honda Stage."
+    ],
+    [
+        "music(name_track=\"How Do You Sleep\";name_artist=\"Jesse McCartney\")",
+        "Here is another version of How Do You Sleep by Jesse McCartney.",
+        "Here is another version of How Do You Sleep by Jesse McCartney."
+    ],
+    [
+        "music(name_track=\"If I Die Young\";name_artist=\"The Band Perry\")",
+        "Hi, how can I help you? Yes I will play a song for you. Here's the song If I Die Young by The Band Perry.",
+        "Hi, how can I help you? Yes I will play a song for you. Here's the song If I Die Young by The Band Perry."
+    ],
+    [
+        "music(describes_track=\"more upbeat\";name_track=\"You Lie\";name_artist=\"The Band Perry\")",
+        "Okay I'll find something more upbeat for you. Here's the song You Lie by The Band Perry.",
+        "Okay I'll find something more upbeat for you. Here's the song You Lie by The Band Perry."
+    ],
+    [
+        "music(name_album=\"Roar\";name_artist=\"Katy Perry\")",
+        "Okay, let me find a song for you. Here is Roar by Katy Perry.",
+        "Okay, let me find a song for you. Here is Roar by Katy Perry."
+    ],
+    [
+        "music(name_artist=\"Katy Perry\";name_track=\"Dark Horse\")",
+        "Here is Katy Perry Dark Horse by Luise Marburger.",
+        "Here is Katy Perry Dark Horse by Luise Marburger."
+    ],
+    [
+        "music(name_album=\"Teenage Dream\";name_artist=\"Katy Perry\")",
+        "Here is Teenage Dream - Katy Perry by Raychill.",
+        "Here is Teenage Dream - Katy Perry by Raychill."
+    ],
+    [
+        "music(name_artist=\"Chicago\")",
+        "Okay. Just one moment. Here is the song by Chicago.",
+        "Okay. Just one moment. Here is the song by Chicago."
+    ],
+    [
+        "music(name_artist=\"Mr. review\")",
+        "Which artist do you like? How about Mr. review?",
+        "Which artist do you like? How about Mr. review?"
+    ],
+    [
+        "music(name_track=\"Lost Along The Way\";name_artist=\"Mr. Review\")",
+        "Neither have I, it should be interesting. Here's Mr. Review - \"Lost Along The Way\".",
+        "Neither have I, it should be interesting. Here's Mr. Review - \"Lost Along The Way\"."
+    ],
+    [
+        "music(name_track=\"The Streets Where I'm Living\")",
+        "Here's\u00a0The Streets Where I'm Living.",
+        "Here's\u00a0The Streets Where I'm Living."
+    ],
+    [
+        "music(name_artist=\"Main Street Preachers\")",
+        "Here's\u00a0Main Street Preachers.",
+        "Here's\u00a0Main Street Preachers."
+    ],
+    [
+        "music(name_artist=\"Manic Street Preachers\";name_track=\"If You Tolerate This\")",
+        "Here's\u00a0Manic Street Preachers - \"If You Tolerate This\".",
+        "Here's\u00a0Manic Street Preachers - \"If You Tolerate This\"."
+    ],
+    [
+        "music(name_artist=\"A Design For Life\")",
+        "Here's\u00a0Manic Street Preachers - A Design For Life.",
+        "Here's\u00a0Manic Street Preachers - A Design For Life."
+    ],
+    [
+        "music(name_artist=\"The Woods\";name_album=\"Cult of Shining Stars\")",
+        "Here is in The Woods - Cult of Shining Stars.",
+        "Here is in The Woods - Cult of Shining Stars."
+    ],
+    [
+        "music(name_artist=\"In The Woods\";name_album=\"Heart Of The Ages\")",
+        "Here is the other song. In The Woods - Heart Of The Ages.",
+        "Here is the other song. In The Woods - Heart Of The Ages."
+    ],
+    [
+        "music(name_artist=\"Trenchrot\")",
+        "Have you heard of Trenchrot?",
+        "Have you heard of Trenchrot?"
+    ],
+    [
+        "music(name_artist=\"Trenchrot\";name_album=\"Hell Pilot's Call\")",
+        "Here is your song. Trenchrot - Hell Pilot's Call.",
+        "Here is your song. Trenchrot - Hell Pilot's Call."
+    ],
+    [
+        "music(type_music=\"country music\")",
+        "Okay, I can help you find some country music. Do you have an artist that you enjoy listening to?",
+        "Okay, I can help you find some country music. Do you have an artist that you enjoy listening to?"
+    ],
+    [
+        "music(name_track=\"Hello\";name_artist=\"Adele\")",
+        "Okay, Here is the song Hello by Adele.",
+        "Okay, Here is the song Hello by Adele."
+    ],
+    [
+        "music(name_artist=\"Hospital Ships\";name_track=\"Servants\")",
+        "Servants by Hospital Ships.",
+        "Servants by Hospital Ships."
+    ],
+    [
+        "music(name_artist=\"Hospital Ships\";name_track=\"Reprise\")",
+        "Reprise by Hospital Ships.",
+        "Reprise by Hospital Ships."
+    ],
+    [
+        "music(name_track=\"Come back to life\";name_artist=\"Hospital Ships\")",
+        "\"Come back to life\" by Hospital Ships.",
+        "\"Come back to life\" by Hospital Ships."
+    ],
+    [
+        "music(name_artist=\"Taylor Swift\")",
+        "Hi there. Something by Taylor Swift, right?",
+        "Hi there. Something by Taylor Swift, right?"
+    ],
+    [
+        "music(type_music=\"New Gym Training Motivation Music\")",
+        "Here is Hip Hop Workout Music Mix- New Gym Training Motivation Music 2017.",
+        "Here is Hip Hop Workout Music Mix- New Gym Training Motivation Music 2017."
+    ],
+    [
+        "music(type_music=\"80's Aerobics Super Hits Fitness & Music\")",
+        "Here is 80's Aerobics Super Hits Fitness & Music.",
+        "Here is 80's Aerobics Super Hits Fitness & Music."
+    ],
+    [
+        "music(type_music=\"Slow Workout Music\")",
+        "One moment. Here is Slow Workout Music.",
+        "One moment. Here is Slow Workout Music."
+    ],
+    [
+        "music(type_music=\"Fitness Calming Down Stretching Music Mix\")",
+        "Here is Fitness Calming Down Stretching Music Mix.",
+        "Here is Fitness Calming Down Stretching Music Mix."
+    ],
+    [
+        "music(name_track=\"Anaconda\";name_artist=\"Nicki Minaj\")",
+        "Here is Anaconda by Nicki Minaj.",
+        "Here is Anaconda by Nicki Minaj."
+    ],
+    [
+        "music(describes_track=\"another version\";name_track=\"Anaconda\";name_artist=\"Nicki Minaj\")",
+        "Here is another version of the song Anaconda with official lyrics by Nicki Minaj.",
+        "Here is another version of the song Anaconda with official lyrics by Nicki Minaj."
+    ],
+    [
+        "music(name_track=\"Sleepless\";name_album=\"flume\";name_artist=\"Jezzabell Doran\")",
+        "Here is Sleepless feat. Jezzabell Doran by flume.",
+        "Here is Sleepless feat. Jezzabell Doran by flume."
+    ],
+    [
+        "music(name_track=\"sleepless\";name_artist=\"Dom Wong\")",
+        "Here is a cover songs sleepless by Cazzette (Isa Gutierrez & Dom Wong).",
+        "Here is a cover songs sleepless by Cazzette (Isa Gutierrez & Dom Wong)."
+    ],
+    [
+        "music(name_artist=\"Michael Sembello\";name_track=\"Maniac\")",
+        "I can help with that. Lets see what I can find. Here is Michael Sembello, performing Maniac.",
+        "I can help with that. Lets see what I can find. Here is Michael Sembello, performing Maniac."
+    ],
+    [
+        "music(name_artist=\"Guns n roses\";name_track=\"Welcome to the Jungle\")",
+        "How about Welcome to the Jungle by Guns n roses?",
+        "How about Welcome to the Jungle by Guns n roses?"
+    ],
+    [
+        "music(type_music=\"downbeat\")",
+        "When you say downbeat, do you mean something slower?",
+        "When you say downbeat, do you mean something slower?"
+    ],
+    [
+        "music(name_artist=\"Salt n Pepa\";name_track=\"Push it\")",
+        "Here is Salt n Pepa performing Push it.",
+        "Here is Salt n Pepa performing Push it."
+    ],
+    [
+        "music(name_track=\"Oh No\";name_artist=\"Girl Talk\")",
+        "Absolutely. Here is Girl Talk performing Oh No.",
+        "Absolutely. Here is Girl Talk performing Oh No."
+    ],
+    [
+        "music(describes_track=\"It's a great workout track\")",
+        "I agree. It's a great workout track.",
+        "I agree. It's a great workout track."
+    ],
+    [
+        "music(name_track=\"The Gospel\";name_artist=\"Knocked Loose\")",
+        "Yes, sure. Just wait a moment. Here is the Knocked Loose- The Gospel. Go through with this.",
+        "Yes, sure. Just wait a moment. Here is the Knocked Loose- The Gospel. Go through with this."
+    ],
+    [
+        "music(name_artist=\"Knocked Loose\";name_track=\"Deadringer\")",
+        "Yes. One moment please. Here is Knocked Loose- Deadringer. Go through with this.",
+        "Yes. One moment please. Here is Knocked Loose- Deadringer. Go through with this."
+    ],
+    [
+        "music(name_track=\"Andromeda\";name_artist=\"Ghostemane\")",
+        "Okay, just wait a second. I'll let you know. Okay, I got it. Here is Ghostemane- Andromeda. Go through with this.",
+        "Okay, just wait a second. I'll let you know. Okay, I got it. Here is Ghostemane- Andromeda. Go through with this."
+    ],
+    [
+        "music(name_artist=\"Ghostemane\";name_track=\"John Dee\")",
+        "Yes, sure. Here is Ghostemane- John Dee. Go through with this.",
+        "Yes, sure. Here is Ghostemane- John Dee. Go through with this."
+    ],
+    [
+        "music(name_track=\"She Will Be Loved\";name_artist=\"Maroon 5\")",
+        "Hello, how can I help you? How about She Will Be Loved by Maroon 5?",
+        "Hello, how can I help you? How about She Will Be Loved by Maroon 5?"
+    ],
+    [
+        "music(name_track=\"What lovers do\")",
+        "How about What lovers do?",
+        "How about What lovers do?"
+    ],
+    [
+        "music(name_genre=\"R&B\";name_artist=\"Ashanti\";name_track=\"Foolish\")",
+        "Something R&B coming up for you, you've got it. Here is Ashanti With Foolish.",
+        "Something R&B coming up for you, you've got it. Here is Ashanti With Foolish."
+    ],
+    [
+        "music(describes_track=\"recorded about seven years ago\")",
+        "There is a really good song that I could show you but it was recorded about seven years ago, if that's okay with you?",
+        "There is a really good song that I could show you but it was recorded about seven years ago, if that's okay with you?"
+    ],
+    [
+        "music(name_artist=\"Boyz II Men\";name_track=\"I'll Make Love To You\")",
+        "Here is Boyz II Men I'll Make Love To You.",
+        "Here is Boyz II Men I'll Make Love To You."
+    ],
+    [
+        "music(describes_track=\"that song actually did come out in 1994\")",
+        "Oh, I see what you're saying now, sorry about that the video had been posted seven years ago that song actually did come out in 1994, sorry about that.",
+        "Oh, I see what you're saying now, sorry about that the video had been posted seven years ago that song actually did come out in 1994, sorry about that."
+    ],
+    [
+        "music(name_artist=\"Beyonce\";name_track=\"Formation\")",
+        "Here is Beyonce with Formation.",
+        "Here is Beyonce with Formation."
+    ],
+    [
+        "music(name_artist=\"Beyonce\";name_track=\"Formation\")",
+        "Here is Beyonce with Formation.",
+        "Here is Beyonce with Formation."
+    ],
+    [
+        "music(name_artist=\"August Burns Red\";name_track=\"Composure\")",
+        "Here is Composure by August Burns Red.",
+        "Here is Composure by August Burns Red."
+    ],
+    [
+        "music(describes_track=\"newer\";name_track=\"Fault Line\")",
+        "Here is a newer song, Fault Line, by the same artist.",
+        "Here is a newer song, Fault Line, by the same artist."
+    ],
+    [
+        "music(name_track=\"Invisible Enemy\";name_artist=\"August Burns Red\")",
+        "Here is Invisible Enemy by August Burns Red.",
+        "Here is Invisible Enemy by August Burns Red."
+    ],
+    [
+        "music(name_artist=\"Holley Maher\";name_track=\"Always be\")",
+        "Have you listened to Holley Maher? Okay. Here is Always be by Holley Maher.",
+        "Have you listened to Holley Maher? Okay. Here is Always be by Holley Maher."
+    ],
+    [
+        "music(name_artist=\"Jake Reese\")",
+        "Okay, I'll. Here is I do by Holley Maher. Have you listened to Jake Reese?",
+        "Okay, I'll. Here is I do by Holley Maher. Have you listened to Jake Reese?"
+    ],
+    [
+        "music(name_artist=\"Jake Reese\";name_album=\"Day to feel alive\")",
+        "Here is Day to feel alive by Jake Reese.",
+        "Here is Day to feel alive by Jake Reese."
+    ],
+    [
+        "music(name_track=\"Mad world\";name_artist=\"Jake Reese\")",
+        "Here is the Mad world by Hardwell and Jake Reese.",
+        "Here is the Mad world by Hardwell and Jake Reese."
+    ],
+    [
+        "music(name_artist=\"James Newton Howard\";name_track=\"The Gravel Road\";name_album=\"The Village Score - 08\")",
+        "The Village Score - 08 - The Gravel Road by James Newton Howard.",
+        "The Village Score - 08 - The Gravel Road by James Newton Howard."
+    ],
+    [
+        "music(name_artist=\"James Newton Howard\";name_track=\"Solomon Vandy\";name_album=\"Blood Diamond\")",
+        "Blood Diamond - Solomon Vandy by James Newton Howard.",
+        "Blood Diamond - Solomon Vandy by James Newton Howard."
+    ],
+    [
+        "music(name_artist=\"James Newton Howard\";type_music=\"Piano Theme\")",
+        "Piano Theme by James Newton Howard.",
+        "Piano Theme by James Newton Howard."
+    ],
+    [
+        "music(name_artist=\"Han Solo\")",
+        "Okay. Let's see what else I can find that you may not be familiar with. Have you heard of the group called Han Solo?",
+        "Okay. Let's see what else I can find that you may not be familiar with. Have you heard of the group called Han Solo?"
+    ],
+    [
+        "music(name_artist=\"San Holo\";name_track=\"Light\")",
+        "I'm sorry it's called San Holo. Here is Light by San Holo.",
+        "I'm sorry it's called San Holo. Here is Light by San Holo."
+    ],
+    [
+        "music(describes_track=\"another song by similar artist\")",
+        "Do you want to listen to another song by similar artist?",
+        "Do you want to listen to another song by similar artist?"
+    ],
+    [
+        "music(name_artist=\"Jonas Blue\")",
+        "Have you heard of the group called Jonas Blue?",
+        "Have you heard of the group called Jonas Blue?"
+    ],
+    [
+        "music(name_track=\"Mama\";name_artist=\"Jonas Blue\")",
+        "Here is Mama by Jonas Blue.",
+        "Here is Mama by Jonas Blue."
+    ],
+    [
+        "music(name_track=\"Fast Car\";name_artist=\"Jonas blue\")",
+        "Here's Fast Car by Jonas blue.",
+        "Here's Fast Car by Jonas blue."
+    ],
+    [
+        "music(name_track=\"Fast Car\";name_artist=\"Dakota\")",
+        "Hold on. - Fast Car by Jonas Blue feat. Dakota.",
+        "Hold on. - Fast Car by Jonas Blue feat. Dakota."
+    ],
+    [
+        "music(name_track=\"I Got You Babe\";name_artist=\"Sonny and Cher\")",
+        "Okay. Here's I Got You Babe by by Sonny and Cher.",
+        "Okay. Here's I Got You Babe by by Sonny and Cher."
+    ],
+    [
+        "music(name_album=\"Baby Don't Go\";name_artist=\"Sonny & Cher\")",
+        "Here's\u00a0Baby Don't Go by Sonny & Cher.\u00a0Anything else?",
+        "Here's\u00a0Baby Don't Go by Sonny & Cher.\u00a0Anything else?"
+    ],
+    [
+        "music(type_music=\"Workout Music Motivation\")",
+        "Let me see what I can find for you. Here's music called Workout Music Motivation.",
+        "Let me see what I can find for you. Here's music called Workout Music Motivation."
+    ],
+    [
+        "music(type_music=\"Workout Music\")",
+        "Let me get that for you. Here's Best Workout Music Mix 2017.",
+        "Let me get that for you. Here's Best Workout Music Mix 2017."
+    ],
+    [
+        "music(describes_type_music=\"Aggressive Metal Workout Mix\";type_music=\"Workout\")",
+        "Let me get that for you. Here's Aggressive Metal Workout Mix.",
+        "Let me get that for you. Here's Aggressive Metal Workout Mix."
+    ],
+    [
+        "music(type_music=\"Metal Hardcore Workout Motivation Music\")",
+        "Ok one moment. How about Metal Hardcore Workout Motivation Music 2015 VOL6?",
+        "Ok one moment. How about Metal Hardcore Workout Motivation Music 2015 VOL6?"
+    ],
+    [
+        "music(name_artist=\"Little Mix\";name_track=\"Black Magic\")",
+        "Hi. How can I help you? Sure, give me one second while I find a good song from Little Mix. Here is Little Mix performing Black Magic.",
+        "Hi. How can I help you? Sure, give me one second while I find a good song from Little Mix. Here is Little Mix performing Black Magic."
+    ],
+    [
+        "music(name_artist=\"Little Mix\";name_track=\"DNA\")",
+        "Here's the song DNA performed by Little Mix from their debut album.",
+        "Here's the song DNA performed by Little Mix from their debut album."
+    ],
+    [
+        "music(name_artist=\"Little Mix\")",
+        "Here is the song Salute by Little Mix.",
+        "Here is the song Salute by Little Mix."
+    ],
+    [
+        "music(name_artist=\"Alicia Keys\";describes_type_music=\"similar to Alicia Keys\";name_album=\"City High\";name_track=\"the only one I trust\")",
+        "let me find something similar to Alicia Keys. Here's the song the only one I trust by City High.",
+        "let me find something similar to Alicia Keys. Here's the song the only one I trust by City High."
+    ],
+    [
+        "music(name_track=\"caramel featuring Eve\";name_album=\"City High\")",
+        "Is the song caramel featuring Eve by City High.",
+        "Is the song caramel featuring Eve by City High."
+    ],
+    [
+        "music(name_artist=\"Corinne Bailey Rae\")",
+        "Hold on. Have you heard of the artist Corinne Bailey Rae.",
+        "Hold on. Have you heard of the artist Corinne Bailey Rae."
+    ],
+    [
+        "music(name_artist=\"Jagged Edge\")",
+        "Okay. How about Jagged Edge?",
+        "Okay. How about Jagged Edge?"
+    ],
+    [
+        "music(describes_track=\"new\")",
+        "Have you heard of the artist new on release?",
+        "Have you heard of the artist new on release?"
+    ],
+    [
+        "music(name_artist=\"Ledisi\")",
+        "Have you heard of the artist Ledisi before?",
+        "Have you heard of the artist Ledisi before?"
+    ],
+    [
+        "music(name_artist=\"Dorando\")",
+        "How about the artist Dorando?",
+        "How about the artist Dorando?"
+    ],
+    [
+        "music(name_artist=\"Darondo\")",
+        "Darondo.",
+        "Darondo."
+    ],
+    [
+        "music(describes_track=\"older\";name_track=\"Let My People Go\";name_artist=\"darondo\")",
+        "This is a bit older but I think you might enjoy it. This song is called Let My People Go by darondo.",
+        "This is a bit older but I think you might enjoy it. This song is called Let My People Go by darondo."
+    ],
+    [
+        "music(name_artist=\"Hailee Steinfeld\")",
+        "Got it. Have you heard of Hailee Steinfeld?",
+        "Got it. Have you heard of Hailee Steinfeld?"
+    ],
+    [
+        "music(name_artist=\"Alesso\";name_track=\"Let Me Go\")",
+        "Here is Hailee Steinfeld, Alesso \u2013 Let Me Go.",
+        "Here is Hailee Steinfeld, Alesso \u2013 Let Me Go."
+    ],
+    [
+        "music(name_track=\"Starving\";name_artist=\"Zedd\")",
+        "Here is Starving - Hailee Steinfeld, Grey ft. Zedd.",
+        "Here is Starving - Hailee Steinfeld, Grey ft. Zedd."
+    ],
+    [
+        "music(name_genre=\"pop\";describes_artist=\"A male pop artist\")",
+        "A male pop artist?",
+        "A male pop artist?"
+    ],
+    [
+        "music(name_artist=\"Charlie Puth\")",
+        "Sure. Have you heard of Charlie Puth.",
+        "Sure. Have you heard of Charlie Puth."
+    ],
+    [
+        "music(name_artist=\"Charlie Puth\";name_track=\"How Long\")",
+        "Charlie Puth - \"How Long\".",
+        "Charlie Puth - \"How Long\"."
+    ],
+    [
+        "music(name_artist=\"Charlie Puth\";name_track=\"Dangerously\")",
+        "Charlie Puth - Dangerously.",
+        "Charlie Puth - Dangerously."
+    ],
+    [
+        "music(name_artist=\"Lenny Kravitz\";name_track=\"The Chamber\")",
+        "Here's Sittin' On Top of the World - Lenny Kravitz. Sure, one moment. Here's Lenny Kravitz - The Chamber.",
+        "Here's Sittin' On Top of the World - Lenny Kravitz. Sure, one moment. Here's Lenny Kravitz - The Chamber."
+    ],
+    [
+        "music(technical_difficulty=\"it's not playing\")",
+        "Did you say it's not playing?",
+        "Did you say it's not playing?"
+    ],
+    [
+        "music(name_artist=\"Underoath\")",
+        "How about Underoath?",
+        "How about Underoath?"
+    ],
+    [
+        "music(name_artist=\"Underoath\";name_track=\"It's Dangerous Business Walking Out Your Front Door\")",
+        "Here's Underoath - It's Dangerous Business Walking Out Your Front Door.",
+        "Here's Underoath - It's Dangerous Business Walking Out Your Front Door."
+    ],
+    [
+        "music(name_artist=\"Underoath\";name_track=\"Reinventing Your Exit\")",
+        "Here's Underoath - Reinventing Your Exit.",
+        "Here's Underoath - Reinventing Your Exit."
+    ],
+    [
+        "music(name_artist=\"Haste the day\")",
+        "Here is your song, Haste the day.",
+        "Here is your song, Haste the day."
+    ],
+    [
+        "music(name_artist=\"Haste The Day\";name_album=\"When Everything Falls\")",
+        "Here's Haste The Day-When Everything Falls.",
+        "Here's Haste The Day-When Everything Falls."
+    ],
+    [
+        "music(name_artist=\"August Burns Red\";name_track=\"'Meddler'\")",
+        "Here's August Burns Red - \"Meddler\".",
+        "Here's August Burns Red - \"Meddler\"."
+    ],
+    [
+        "music(name_genre=\"pop music\";type_music=\"Old\")",
+        "What type of pop music? Recent or Old?",
+        "What type of pop music? Recent or Old?"
+    ],
+    [
+        "music(name_artist=\"Snow Patrol\";name_track=\"Chasing Cars\")",
+        "Yes. One second. Snow Patrol - Chasing Cars.",
+        "Yes. One second. Snow Patrol - Chasing Cars."
+    ],
+    [
+        "music(name_artist=\"Jackie Evancho\";name_track=\"Nessun Dorma\")",
+        "One moment. Jackie Evancho - Nessun Dorma.",
+        "One moment. Jackie Evancho - Nessun Dorma."
+    ],
+    [
+        "music(name_track=\"Sussudio\")",
+        "Here is the song Sussudio.",
+        "Here is the song Sussudio."
+    ],
+    [
+        "music(name_artist=\"Five Rivers Band\";name_track=\"Live Humble\")",
+        "Hello, how can I help you? Here is Five Rivers Band - Live Humble.",
+        "Hello, how can I help you? Here is Five Rivers Band - Live Humble."
+    ],
+    [
+        "music(name_artist=\"Steaming down the river\")",
+        "Here is River Blues Band - Steaming down the river.",
+        "Here is River Blues Band - Steaming down the river."
+    ],
+    [
+        "music(name_artist=\"Five rivers Band\";name_track=\"Freedom dub dance\")",
+        "Here is Five rivers Band - Freedom dub dance.",
+        "Here is Five rivers Band - Freedom dub dance."
+    ],
+    [
+        "music(name_track=\"Girl\";name_artist=\"Destiny's Child\")",
+        "How about the song Girl by Destiny's Child?",
+        "How about the song Girl by Destiny's Child?"
+    ],
+    [
+        "music(name_track=\"No, No, No\";describes_album=\"their first album\")",
+        "Let me find you something. Here is the song No, No, No from their first album. Here is the song No, No, No from their first album.",
+        "Let me find you something. Here is the song No, No, No from their first album. Here is the song No, No, No from their first album."
+    ],
+    [
+        "music(name_artist=\"Katy Perry\")",
+        "Okay. Here is the song by Katy Perry.",
+        "Okay. Here is the song by Katy Perry."
+    ],
+    [
+        "music(name_artist=\"Katy Perry\")",
+        "Okay, wait for a second. Here is the another song by\u00a0Katy Perry.",
+        "Okay, wait for a second. Here is the another song by\u00a0Katy Perry."
+    ],
+    [
+        "music(name_artist=\"John Denver\")",
+        "Okay. John Denver. Let's see what else I can find that you may not be familiar with.",
+        "Okay. John Denver. Let's see what else I can find that you may not be familiar with."
+    ],
+    [
+        "music(name_artist=\"Jim Croce\")",
+        "Have you heard of Jim Croce?",
+        "Have you heard of Jim Croce?"
+    ],
+    [
+        "music(name_track=\"Rolling in the Deep\";name_album=\"21\";name_artist=\"Adele\")",
+        "Sure, here's a song called Rolling in the Deep Off album 21 bye Adele and shared a video with you.",
+        "Sure, here's a song called Rolling in the Deep Off album 21 bye Adele and shared a video with you."
+    ],
+    [
+        "music(name_artist=\"Adele\";name_track=\"Turning Tables\")",
+        "Of course you can hear Adele - Turning Tables and shared the video.",
+        "Of course you can hear Adele - Turning Tables and shared the video."
+    ],
+    [
+        "music(name_artist=\"John Lee Hooker\";name_track=\"Boom Boom\")",
+        "Okay. John Lee Hooker - Boom Boom.",
+        "Okay. John Lee Hooker - Boom Boom."
+    ],
+    [
+        "music(name_track=\"Space Jazz Cover\";name_artist=\"Casey Abrams\";name_genre=\"Jazz\")",
+        "Sure. Crazy - Gnarls Barkley (Space Jazz Cover) ft. Hannah Gill & Casey Abrams.",
+        "Sure. Crazy - Gnarls Barkley (Space Jazz Cover) ft. Hannah Gill & Casey Abrams."
+    ],
+    [
+        "music(name_artist=\"Sade\";name_track=\"No ordinary love\")",
+        "Yes. Sade - No ordinary love.",
+        "Yes. Sade - No ordinary love."
+    ],
+    [
+        "music(name_track=\"Come fly with me\";name_artist=\"Devil Blues\")",
+        "Of course. Come fly with me - Devil Blues.",
+        "Of course. Come fly with me - Devil Blues."
+    ],
+    [
+        "music(name_track=\"All The Small Things\";name_artist=\"blink-182\")",
+        "Hello user. All The Small Things by blink-182.",
+        "Hello user. All The Small Things by blink-182."
+    ],
+    [
+        "music(name_track=\"Cynical\";name_artist=\"blink 182\")",
+        "Cynical by blink 182.",
+        "Cynical by blink 182."
+    ],
+    [
+        "music(name_track=\"I Miss You\";name_album=\"blink-182\")",
+        "I Miss You by blink-182.",
+        "I Miss You by blink-182."
+    ],
+    [
+        "music(name_track=\"Adam\";name_artist=\"blink-182\")",
+        "Okay, have a good day, bye. Adam song by blink-182.",
+        "Okay, have a good day, bye. Adam song by blink-182."
+    ],
+    [
+        "music(name_artist=\"horse the band\")",
+        "Hi, How can I help you? Ok sure thing. Have you ever heard of Underoath or horse the band.",
+        "Hi, How can I help you? Ok sure thing. Have you ever heard of Underoath or horse the band."
+    ],
+    [
+        "music(name_artist=\"I killed the prom queen\")",
+        "Okay have you ever heard of Drop Dead Gorgeous or I killed the prom queen.",
+        "Okay have you ever heard of Drop Dead Gorgeous or I killed the prom queen."
+    ],
+    [
+        "music(name_artist=\"I killed the prom queen\")",
+        "Okay good let me play you I killed the prom queen.",
+        "Okay good let me play you I killed the prom queen."
+    ],
+    [
+        "music(name_track=\"Say Goodbye\";name_artist=\"I killed the prom queen\")",
+        "Here is Say Goodbye by I killed the prom queen.",
+        "Here is Say Goodbye by I killed the prom queen."
+    ],
+    [
+        "music(name_artist=\"I killed the prom queen\";name_track=\"to the wolves\")",
+        "Here is I killed the prom queen to the wolves.",
+        "Here is I killed the prom queen to the wolves."
+    ],
+    [
+        "music(name_artist=\"Kanye West\";name_album=\"Christmas in Harlem\")",
+        "Hi, how can I help you? Got it. Here's Kanye West- Christmas in Harlem.",
+        "Hi, how can I help you? Got it. Here's Kanye West- Christmas in Harlem."
+    ],
+    [
+        "music(name_artist=\"Kem\";name_track=\"A Christmas Song For You\")",
+        "Heres Kem - A Christmas Song For You.",
+        "Heres Kem - A Christmas Song For You."
+    ],
+    [
+        "music(name_track=\"Deck the Hall\")",
+        "Sure. Here's Deck the Hall.",
+        "Sure. Here's Deck the Hall."
+    ],
+    [
+        "music(name_artist=\"Mariah Carey\";name_track=\"All I Want For Christmas Is You\")",
+        "Here's Mariah Carey - All I Want For Christmas Is You.",
+        "Here's Mariah Carey - All I Want For Christmas Is You."
+    ],
+    [
+        "music(name_artist=\"Linkin Park\";name_track=\"Numb\")",
+        "Here's Linkin Park - Numb.",
+        "Here's Linkin Park - Numb."
+    ],
+    [
+        "music(name_track=\"Numb\";name_artist=\"Alex Goot\")",
+        "Here's Numb - Linkin Park [Cover/Tribute by Alex Goot].",
+        "Here's Numb - Linkin Park [Cover/Tribute by Alex Goot]."
+    ],
+    [
+        "music(name_track=\"Thanks For The Memories\")",
+        "Here's Fall Out Boy - Thanks For The Memories.",
+        "Here's Fall Out Boy - Thanks For The Memories."
+    ],
+    [
+        "music(name_artist=\"3 Doors Down\")",
+        "How can I help you? Have you heard about 3 Doors Down? I can help you with that when you can give me the name of an artist that you like.",
+        "How can I help you? Have you heard about 3 Doors Down? I can help you with that when you can give me the name of an artist that you like."
+    ],
+    [
+        "music(name_artist=\"Lenny Kravitz\")",
+        "Alright Lenny Kravitz, Let's see what I can find that may not be familiar with. Just a moment. Just a moment.",
+        "Alright Lenny Kravitz, Let's see what I can find that may not be familiar with. Just a moment. Just a moment."
+    ],
+    [
+        "music(name_artist=\"Eve 6\")",
+        "How about Goo Goo Dolls or Eve 6?",
+        "How about Goo Goo Dolls or Eve 6?"
+    ],
+    [
+        "music(name_artist=\"Eve 6\";name_track=\"Open Road Song\")",
+        "Let me play something by Eve 6. Just a moment. Here is Open Road Song by Eve 6.",
+        "Let me play something by Eve 6. Just a moment. Here is Open Road Song by Eve 6."
+    ],
+    [
+        "music(name_artist=\"Buju Banton\";describes_artist=\"somebody similar to Janet Jackson\")",
+        "One moment, Let me find somebody similar to Janet Jackson. Have you heard about Buju Banton?",
+        "One moment, Let me find somebody similar to Janet Jackson. Have you heard about Buju Banton?"
+    ],
+    [
+        "music(name_artist=\"Buju Banton\";describes_artist=\"is a Jamaican dancehall, Ragga, And reggae musician. He has recorded pop and dance songs, As well as songs dealing with sociopolitical topics\";name_genre=\"pop\";type_music=\"songs dealing with sociopolitical topics\")",
+        "Buju Banton is a Jamaican dancehall, Ragga, And reggae musician. He has recorded pop and dance songs, As well as songs dealing with sociopolitical topics.",
+        "Buju Banton is a Jamaican dancehall, Ragga, And reggae musician. He has recorded pop and dance songs, As well as songs dealing with sociopolitical topics."
+    ],
+    [
+        "music(name_artist=\"Buju Banton\")",
+        "Let me find a song by Buju Banton.",
+        "Let me find a song by Buju Banton."
+    ],
+    [
+        "music(name_track=\"Untold Stories\";name_artist=\"Buju Banton\")",
+        "Here is the song called Untold Stories by Buju Banton.",
+        "Here is the song called Untold Stories by Buju Banton."
+    ],
+    [
+        "music(name_artist=\"R.E.M\";name_track=\"Discover\")",
+        "Sure thing. Hold on. Here is R.E.M - Discover.",
+        "Sure thing. Hold on. Here is R.E.M - Discover."
+    ],
+    [
+        "music(name_artist=\"R.E.M.\";name_track=\"All The Best\")",
+        "Oh, okay. One second. Here is R.E.M. - All The Best.",
+        "Oh, okay. One second. Here is R.E.M. - All The Best."
+    ],
+    [
+        "music(name_track=\"Shiny Happy People\";name_artist=\"R.E.M\")",
+        "Oh, I'm sorry. This will just be a second. Here is Shiny Happy People by R.E.M.",
+        "Oh, I'm sorry. This will just be a second. Here is Shiny Happy People by R.E.M."
+    ],
+    [
+        "music(name_track=\"Losing My Religion\";name_artist=\"R.E.M\")",
+        "Okay, let me check for you. This will just be a second. Here is Losing My Religion by R.E.M.",
+        "Okay, let me check for you. This will just be a second. Here is Losing My Religion by R.E.M."
+    ]
+]

@@ -1,0 +1,171 @@
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "thick crust" ; name_pizza_accept = "meat lover pizzas") & ok, you are ordering 4 medium thick crust meat lover pizzas, is that right?
+pizza_ordering ( type_crust = "thick crust") & alright you wanted it with thick crust right?
+pizza_ordering ( type_topping = "mozzerella") & Did you want just mozzerella or would you like a specialty cheese?
+pizza_ordering ( type_topping = "chicken bbq") & do you want chicken bbq on all 3 pizzas.
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "chicken bbq pizzas" ; type_crust_accept = "thick crust") & so 3 medium chicken bbq pizzas with thick crust, right?
+pizza_ordering ( name_store_accept = "Bella Luna's") & your pizzas will be ready for pickup at Bella Luna's soon.
+pizza_ordering ( name_store = "bella Luna" ; name_pizza = "'Ultimate Supreme") & Alright, bella Luna offers a "Ultimate Supreme" does that sound like the pizza you're looking for?
+pizza_ordering ( type_crust = "thin crust") & Great! thank you! And did you say, thin crust?
+pizza_ordering ( size_pizza_accept = "Large" ; type_crust_accept = "thin crust" ; name_pizza_accept = "Ultimate Supreme") & Great! thanks again! So i got 3 Large thin crust Pizzas, one meatlovers, another Hawaiian and one Ultimate Supreme.
+pizza_ordering ( size_pizza = "small") & sure, what toppings did u want on those 2 small pizzas?
+pizza_ordering ( size_pizza = "small") & 2 small ok what are your choice of toppings?
+pizza_ordering ( size_pizza = "small" ; name_pizza = "chicken BBQ") & 2 small chicken BBQ ok any other instruction.
+pizza_ordering ( size_pizza = "small" ; name_pizza_accept = "chicken BBQ" ; type_crust_accept = "thick crust") & 2 small chicken BBQ all with thick crust, is that your final order.
+pizza_ordering ( size_pizza_accept = "small") & ok with 2 small pizza your total comes to 24 dollars, shall we go ahead.
+pizza_ordering ( size_pizza = "medium" ; type_crust = "thick crusts") & so that's 4 medium pizzas with thick crusts right?
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "thick crust" ; type_topping_accept = "chicken BBQ") & 4 medium thick crust pizzas with chicken BBQ will cost 45 dollars okay?
+pizza_ordering ( type_topping = "riccota with red onion" ; name_pizza = "meat lover") & 1 with spanich, riccota with red onion and 1 meat lover is that right.
+pizza_ordering ( type_crust_accept = "thick crust") & all comes with thick crust is that what you want?
+pizza_ordering ( size_pizza = "large") & ok your total comes to to 48 dollars for your 2 large pizzas, shall we go ahead and order them?
+pizza_ordering ( size_pizza_accept = "large" ; type_topping_accept = "red onion" ; name_pizza_accept = "meat lover") & so we have 2 large pizzas, 1 with spanich, ricotta cheese and red onion and 1 with meat lover is that correct.
+pizza_ordering ( size_pizza_accept = "large" ; preference_accept = "extra cheese" ; type_topping_accept = "mac" ; name_pizza_accept = "cheese pizza") & ok, you are ordering 2 large pizzas with extra cheese, 1 bbq chicken and 1 mac and cheese pizza, is that correct?
+pizza_ordering ( name_pizza = "So that's 2 small pizza" ; size_pizza = "small" ; type_topping = "BBQ") & So that's 2 small pizzas, one BBQ, and the other vegetarian
+pizza_ordering ( size_pizza_accept = "small" ; name_pizza_accept = "bbq chicken pizza" ; name_pizza = "vegetarian" ; preference_accept = "extra cheese") & Sure. So that's one small bbq chicken pizza and one small vegetarian with extra cheese.
+pizza_ordering ( type_topping_accept = "onions") & My Mistake, the second one is just mushrooms, green peppers and onions right?
+pizza_ordering ( type_topping = "veggies") & there is the house special that includes meat and veggies.
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "house special" ; type_topping_accept = "sausage") & so i have 4 large pizzas, a chicken alfredo, a house special, a pepperoni and mushrooms, pepperoni, olives and sausage. is this correct?
+pizza_ordering ( type_crust_accept = "thick crust") & thick crust on all 4 pizzas?
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "thick crust pizzas" ; name_pizza_accept = "veggie pizza") & so that's 4 medium thick crust pizzas 2 pepperoni and bacon, one hawaiian and one veggie pizza for a total of $30.44.
+pizza_ordering ( size_pizza_accept = "large" ; type_crust_accept = "thick crust pizzas" ; name_pizza_accept = "triple pepperoni" ; preference_accept = "heavy sauce") & So just to confirm your request: 2 large thick crust pizzas, 1 supreme with extra onions and a triple pepperoni with heavy sauce. is this correct?
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "veggie lovers") & got it, so you are ordering 3 medium pizzas, 1 cheese, 1 extra cheese, and 1 veggie lovers, is that correct?
+pizza_ordering ( location_store = "bella luna") & ok. i'll place the order at bella luna. what do you want?
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "chicken bbq" ; preference_accept = "extra cheese") & So that's 2 large pizzas, one veggie lover one chicken bbq with extra cheese.
+pizza_ordering ( type_crust_accept = "gluten free crust") & your total is $48.99 with the gluten free crust.
+pizza_ordering ( name_pizza = "hawaiin pizza") & ok, 1 hawaiin pizza?
+pizza_ordering ( name_pizza = "hawaiin pizzas") & 3 hawaiin pizzas, and what size?
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "hawaiin" ; type_crust_accept = "gluten free crust pizzas") & ok, i'll add that to the order. so you are ordering 3 medium hawaiin gluten free crust pizzas.
+pizza_ordering ( name_pizza_accept = "chicken bbq" ; type_crust_accept = "extra cheese") & 3 chicken bbq with extra cheese. correct?
+pizza_ordering ( name_store_accept = "bella luna's") & your pizzas will be ready for pickup at bella luna's soon.
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "ham") & So that's 3 medium pizzas, one veggie lovers, one extra cheese and one ham for 68 93, anything else?
+pizza_ordering ( type_crust_accept = "gluten free crust") & GOt it, gluten free crust on all three changes the total to $69.69.
+pizza_ordering ( size_pizza_accept = "small" ; type_crust_accept = "thin crust" ; type_topping_accept = "half mushroom") & so the order is: 3 small thin crust pizzas, 1 pepperoni, 1 supreme, and 1 half bbq chicken and half mushroom.
+pizza_ordering ( size_pizza_accept = "small" ; type_crust_accept = "thick crust" ; name_pizza_accept = "meat lovers" ; type_topping_accept = "onions") & Sure. So 4 small pizzas, thick crust on both. 2 meat lovers and 2 sausage and onions. Is this correct?
+pizza_ordering ( size_pizza_accept = "small" ; type_topping_accept = "pineapple" ; type_crust_accept = "gluten free crust") & so 4 small pizzas. anchovies and pineapple and gluten free crust on all 4?
+pizza_ordering ( name_store_accept = "bela luna's") & you're all set. your pizzas will be ready for pickup soon at bela luna's.
+pizza_ordering ( type_topping_accept = "pepperoni") & hi, how can i help you? ok, do you want just pepperoni for all 3?
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "pepperoni and green pepper pizzas" ; type_crust_accept = "thick crust") & no problem, let me calculate the cost. it will be $65 for 3 large pepperoni and green pepper pizzas with thick crust.
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "veggie lovers" ; type_topping_accept = "ham") & so you are ordering 4 medium pizzas, one meat lovers, one chicken bbq, one veggie lovers, and one pepperoni and ham, is that correct?
+pizza_ordering ( preference_accept = "additional cheese") & sure, they charge extra for additional cheese, is that ok?
+pizza_ordering ( size_pizza_accept = "Small" ; type_crust_accept = "thin crust" ; name_pizza_accept = "Veggie lovers") & Anything else? Yes, of course. 3 Small thin crust pizzas, two cheese pizzas and one Veggie lovers.
+pizza_ordering ( type_topping_reject = "black olives") & I'm sorry we're out of black olives.
+pizza_ordering ( size_pizza_accept = "small" ; name_pizza_accept = "hawaiian" ; type_topping_accept = "pepperoni" ; preference = "extra cheese") & One moment please. so that's 3 small pizzas, a hawaiian with tommato and onion, one broccoli and garlic with extra cheese, and the last one has sausage, mushrooms, and pepperoni right?
+pizza_ordering ( type_topping = "chicken bbq") & are all 3 chicken bbq?
+pizza_ordering ( type_crust = "thin crust") & what kind of crust do you want on your pizzas? thick crust, thin crust?
+pizza_ordering ( name_store = "bella lunas" ; type_topping_reject = "anchovies") & sorry, bella lunas does not have anchovies.
+pizza_ordering ( name_store = "bella lunas" ; type_topping_reject = "spicy pepperoni") & bella lunas does not have spicy pepperoni.
+pizza_ordering ( type_topping = "pepperoni") & do you want another topping? sure, they have spicy sausage. would you like both the pepperoni and spicy sausage.
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "gluten free" ; type_topping_accept = "spicy sausage") & cool. so you want to order 2 medium pizzas, gluten free, with pepperoni and spicy sausage.
+pizza_ordering ( name_store_accept = "bella lunas") & you got it. i've placed your order at bella lunas. your order will be ready in 25 minutes.
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "thin crust pizzas" ; type_topping_accept = "bacon") & ok, you are ordering 2 medium thin crust pizzas with pepperoni and bacon, is that correct?
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "chicken BBQ" ; type_topping_accept = "cheese") & so thats 3 large pizza. 1 chicken BBQ, 1 pepperoni and 1 cheese only correct?
+pizza_ordering ( size_pizza_accept = "large" ; type_crust_accept = "thin crust" ; type_topping_accept = "bell peppers" ; preference_accept = "extra cheese" ; name_pizza_accept = "veggie lovers") & let me repeat your order, please confirm if it's correct: 4 large thin crust pizzas. one with pepperoni and extra cheese, the other with pepperoni, sausage, bacon and canadian bacon. the third one is a veggie lovers. the fourth is with chicken, pepperoni, onions and bell peppers.
+pizza_ordering ( name_store_accept = "Bella Luna's") & correct. your pizzas will be ready for pickup at Bella Luna's in 35 minutes.
+pizza_ordering ( size_pizza_accept = "medium pizzas" ; type_topping_accept = "half pepperoni" ; name_pizza_accept = "veggie lovers pizza" ; type_crust_accept = "thick crust") & ok, so you'd like 2 medium pizzas, 1 half cheese and half pepperoni, and 1 veggie lovers pizza, all with thick crust.
+pizza_ordering ( size_pizza_accept = "large" ; type_crust_accept = "thin crust" ; name_pizza_accept = "hawaiin") & ok, you are ordering 2 large thin crust pizzas, 1 cheese, 1 hawaiin, is that correct?
+pizza_ordering ( name_pizza_reject = "Anchovy pizzas") & There are no Anchovy pizzas at the moment.
+pizza_ordering ( name_store_accept = "Bella Luna" ; name_pizza_reject = "Shrimp pizzas") & Bella Luna doesn't serve Shrimp pizzas.
+pizza_ordering ( name_pizza_reject = "Clump pizzas") & There are no Clump pizzas on the menu.
+pizza_ordering ( type_topping = "pepperoni") & So you want three pepperoni pizzas, correct?
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "pepperoni pizzas" ; type_crust_accept = "thin crust" ; type_topping_accept = "mushrooms") & So 3 medium pepperoni pizzas, with thin crust and you want onions, green peppers and mushrooms on all of them, is this correct?
+pizza_ordering ( size_pizza = "medium" ; name_pizza = "meat lovers pizza" ; type_crust = "thick crust" ; size_pizza_accept = "medium" ; name_pizza_accept = "meat lovers pizza" ; type_crust_accept = "thick crust") & so thats 3 medium meat lovers pizza with thick crust is that correct? ok with 3 medium meat lovers pizza with thick crust your total will be 60 dollars.
+pizza_ordering ( name_store_accept = "Bella Luna") & great. your pizza has been ordered with local Bella Luna and will be ready for pick up in 30 min.
+pizza_ordering ( size_pizza_accept = "small" ; type_crust_accept = "thick crust pizza" ; name_pizza_accept = "supreme" ; type_topping_accept = "triple Pepperoni" ; preference_accept = "extra cheese") & You said you want to order 2 small thick crust pizza, 1 supreme with Anchovies and extra sauce, 1 triple Pepperoni with extra cheese.
+pizza_ordering ( name_pizza_accept = "cheeseburger pizza") & sorry, i'm not familiar with cheeseburger pizza and don't see it on the menu. what was in that one?
+pizza_ordering ( name_store = "Bella Luna" ; name_pizza = "Franks Chicken Pizza") & Sure, let me see what Bella Luna offer for Chicken Wing Pizzas. It looks like Bella Luna offers a BBQ chicken pizza or a Franks Chicken Pizza.
+pizza_ordering ( name_pizza = "BBQ chicken") & Most certainly. Would you like BBQ chicken on all 3.
+pizza_ordering ( preference_accept = "extra cheese") & Okay, got it! would you like extra cheese?
+pizza_ordering ( name_store = "Bella Luna") & Great! would you like me to submit your order to Bella Luna for pickup?
+pizza_ordering ( name_store_accept = "Bella Luna") & Of course! one moment please. Alright, Your order has been sent to Bella Luna.
+pizza_ordering ( size_pizza_accept = "small" ; type_crust_accept = "thick crust" ; name_pizza_accept = "supreme") & so your order is: 3 small thick crust pizzas. one pepperoni, one chicken bbq and the third is a supreme, is this correct?
+pizza_ordering ( name_store_accept = "bela luna's") & your pizzas will be ready for pickup at bela luna's soon.
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "thin crust pizzas" ; name_pizza_accept = "chicken bbq") & 2 medium thin crust pizzas, both chicken bbq right?
+pizza_ordering ( size_pizza = "medium" ; type_topping = "achovies and pepperoni" ; name_pizza = "buffalo chicken") & ok, you are ordering 2 medium pizzas, one achovies and pepperoni and 1 buffalo chicken, is that correct?
+pizza_ordering ( preference = "extra cheese") & sure, they charge for extra cheese, is that ok?
+pizza_ordering ( name_pizza_accept = "buffalo chicken") & 1 buffalo chicken.
+pizza_ordering ( size_pizza = "Large" ; name_pizza_accept = "thick crust pizzas" ; type_topping_accept = "Onion") & 3 Large thick crust pizzas, the first with Tomato and Mushroom, then Pep on the second one and the third will be sausage and Onion.
+pizza_ordering ( preference = "extra cheese") & Great! did you want any extra cheese?
+pizza_ordering ( name_store_accept = "bella Luna") & Alright, shall i send it on over to bella Luna?
+pizza_ordering ( name_pizza = "Tuscany lover") & Is that the Tuscany lover?
+pizza_ordering ( size_pizza_accept = "small" ; type_topping_accept = "black olives" ; name_pizza_accept = "Tuscan lover" ; type_crust_accept = "gluten free crust") & Alright i got 2 small pizzas, one with sausage and black olives and the 2nd one a Tuscan lover, both with gluten free crust.
+pizza_ordering ( name_store_accept = "Bella Luna") & Alright, one moment while I send your order to Bella Luna.
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "thin crust pizzas" ; type_topping_accept = "tomato" ; preference_accept = "feta cheese" ; name_pizza_accept = "veggie lovers") & so i have: 3 medium thin crust pizzas. one with anchovies and mushrooms, the second with tomato and feta cheese and the third is a veggie lovers, correct?
+pizza_ordering ( name_store_accept = "bella luna's") & your pizzas will be ready for pickup at bella luna's in 40 minutes.
+pizza_ordering ( size_pizza_accept = "mediums" ; type_topping_accept = "pepperoni" ; preference_accept = "extra cheese") & So I have 3 mediums with chicken, feta cheese and pepperoni, and all with extra cheese.
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "meat lovers" ; type_crust_accept = "thick crust") & So that's 2 medium pizzas, one veggie lovers and one meat lovers both with thick crust.
+pizza_ordering ( preference_accept = "extra cheese") & you got it. i'll add that in the order. did u want extra cheese on all of them?
+pizza_ordering ( type_crust = "regular crust") & sure, i can place the order for you. before i confirm your order, are you ok with regular crust.
+pizza_ordering ( size_pizza_accept = "medium" ; type_topping_accept = "sausage" ; type_crust_accept = "thick crust") & let me confirm that. 4 medium pizzas, mushroom, pepperoni and sausage, thick crust. did i get that right?
+pizza_ordering ( name_store_accept = "bella luna's") & your pizzas will be ready for pickup at bella luna's in 35 minutes.
+pizza_ordering ( name_pizza = "meat lovers") & ok, you wanted meat lovers for all 4?
+pizza_ordering ( name_pizza = "meatlovers") & ok, how many meatlovers did you want?
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "gluten free crust" ; name_pizza_accept = "veggie lovers") & got it, so you are ordering 4 medium pizzas with gluten free crust, 2 meatlovers and 2 veggie lovers.
+pizza_ordering ( name_store = "bella luna" ; preference = "extra cheese") & sure, please note that bella luna charges for extra cheese, is that ok?
+pizza_ordering ( size_pizza_accept = "large" ; preference_accept = "extra cheese" ; name_pizza_accept = "hawaiin") & ok, you are ordering 4 large pizzas with extra cheese, 2 pepperoni, 1 bacon and mushroom, and 1 hawaiin, is that ok?
+pizza_ordering ( name_store_accept = "bella luna" ; preference_accept = "extra cheese") & sure, please note that bella luna charges for extra cheese, is that ok?
+pizza_ordering ( size_pizza = "large pizzas" ; type_topping_accept = "mushrooms" ; name_pizza_accept = "meatlovers") & we have 4 large pizzas, 1 riccota and spanish, 1 pepperoni, 1 mushrooms, and 1 meatlovers.
+pizza_ordering ( preference_accept = "extra cheese") & you want extra cheese on all?
+pizza_ordering ( size_pizza_accept = "large pizza") & with 4 large pizza your total comes to 96 dollars, shall we order it?
+pizza_ordering ( name_store_accept = "Bella Luna pizzeria") & great. your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 min.
+pizza_ordering ( preference = "spiciness level" ; name_pizza = "taco pizzas") & and what spiciness level did you want for your taco pizzas?
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "gluten free crust" ; name_pizza_accept = "one sausage") & so 3 medium gluten free crust pizzas. one cheese, one pepperoni and one sausage, correct?
+pizza_ordering ( name_store_accept = "Bela Luna's") & sure, your pizzas will be ready for pickup at Bela Luna's soon.
+pizza_ordering ( size_pizza = "medium" ; type_topping_accept = "sausage" ; type_crust_accept = "gluten free crust") & so thats 4 medium pizzas with sausage and all with gluten free crust is that correct?
+pizza_ordering ( size_pizza_accept = "medium") & with 4 medium pizza, your total comes to $76 is that ok?
+pizza_ordering ( name_pizza_accept = "half veggie half pepperoni" ; type_topping_accept = "sausage") & So that's 4 pizzas, one meat lovers, one sausage, one hawaiian, and one half veggie half pepperoni, right?
+pizza_ordering ( size_pizza_accept = "large" ; type_crust_accept = "thin crust") & and they're all large. Got it. With the thin crust the total comes out to $69.96.
+pizza_ordering ( name_pizza_accept = "sausage" ; size_pizza = "large" ; type_crust = "gluten free crust") & 1 meatlovers, one pepperoni, and one sausage, large with gluten free crust, right?
+pizza_ordering ( size_pizza_accept = "Large" ; type_crust_accept = "Gluten free") & Great. So your total is going to be $69.99 for 3 Large Gluten free pizzas.
+pizza_ordering ( size_pizza_accept = "large" ; type_crust_accept = "thick crust" ; name_pizza_accept = "thick crust pizzas" ; type_topping_accept = "pepperoni" ; preference_accept = "extra cheese") & so 2 large thick crust pizzas, one with pepperoni and the other with extra cheese both with thick crust, correct?
+pizza_ordering ( name_store_accept = "bela luna's") & your pizzas will be ready for pickup at bela luna's in 35 minutes.
+pizza_ordering ( name_pizza = "chicken bbq" ; size_pizza_accept = "small" ; type_crust_accept = "thin crust" ; name_store_accept = "chicken bbq pizzas") & ok, did you want chicken bbq for both the pizzas? ok, so you are ordering 2 small thin crust chicken bbq pizzas, is that correct?
+pizza_ordering ( size_pizza = "large" ; type_crust_accept = "thin crust") & Sure! 3 large pizzas with thin crust. alright what did you want on the 1st one?
+pizza_ordering ( type_topping = "mushrooms") & they already come with mushrooms, did you want extra on one of them?
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "Veggie lovers pizzas" ; preference_accept = "extra mushroom") & 3 large Veggie lovers pizzas, and one with extra mushroom. Alright the total for that will be $66.33.
+pizza_ordering ( name_store_accept = "bella lunas" ; type_topping_reject = "anchovies") & it looks like bella lunas does not have anchovies nor do they have cream cheese.
+pizza_ordering ( type_crust = "thin crust") & did you want thin crust for all four pizzas?
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "thin crust" ; name_pizza_accept = "veggie lovers") & great. so you said 4 medium pizzas, all with thin crust. 2 hawaiian pizzas and 2 veggie lovers pizzas.
+pizza_ordering ( preference_accept = "extra cheese") & did you need anything else? got it. extra cheese on all four pizzas. did you need anything else?
+pizza_ordering ( size_pizza_accept = "premium pizzas comes") & 4 premium pizzas comes out to $72.34.
+pizza_ordering ( size_pizza_accept = "small" ; name_pizza_accept = "cheese" ; preference_accept = "extra cheese" ; type_crust_accept = "gluten free crust") & you got it. just confirming 3 small pizzas, one will be a veggie lovers, the other will be meatlovers and the third will be cheese with extra cheese. gluten free crust on all three.
+pizza_ordering ( size_pizza_accept = "large" ; type_crust_accept = "gluten free crust" ; name_pizza_accept = "meatlovers" ; type_topping_accept = "feta") & ok, you are ordering 2 large gluten free crust pizzas, one meatlovers and one with pepperoni, onions, and feta, is that correct?
+pizza_ordering ( size_pizza = "small") & 3 small pizza got it.
+pizza_ordering ( size_pizza = "small" ; type_topping = "chicken BBQ") & ok, 3 small pizza with chicken BBQ is that right.
+pizza_ordering ( type_crust = "thin crust") & you said thin crust?
+pizza_ordering ( size_pizza = "small" ; type_topping_accept = "chicken BBQ" ; type_crust_accept = "thin crust") & that is 3 small pizza with chicken BBQ with thin crust is that your final order.
+pizza_ordering ( size_pizza_accept = "small") & with 3 small pizzas your total comes to 40 dollars.
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "chicken bbq pizzas" ; type_crust_accept = "gluten free crust") & so your order is: 2 medium chicken bbq pizzas with gluten free crust.
+pizza_ordering ( name_store_accept = "bella luna's") & your pizzas will be ready for pickup at bella luna's soon.
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "veggie lovers" ; type_crust_accept = "thick crust") & So that's 2 large pizzas, veggie lovers with thick crust??
+pizza_ordering ( type_crust_reject = "regular crust") & did u want regular crust?
+pizza_ordering ( name_pizza_reject = "chicken bbq") & we're actually out of chicken bbq is there another you'd like?
+pizza_ordering ( size_pizza_accept = "small pizzas" ; name_pizza_accept = "garden" ; type_topping_accept = "sausage and onions" ; type_crust_accept = "thick crust") & So I have 4 small pizzas one is cheese, one sausage, and a third is garden, the fourth is sausage and onions all with thick crust right?
+pizza_ordering ( name_store_accept = "bella lunas") & got it. what kind of pizzas did you want from bella lunas?
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "thick crust") & got it, ordering the three medium pizzas with thick crust. the total for the order is $54.68. should i place the order now?
+pizza_ordering ( size_pizza_accept = "small" ; type_crust_accept = "thick crust" ; name_pizza_accept = "meat lovers pizza.") & give me a moment to summarize your order and read it back to you. 2 small pizzas, thick crust, both of them are a meat lovers pizza.
+pizza_ordering ( name_store_accept = "Bella Luna") & let me get that submitted. Your order has been sent to Bella Luna and is being prepared. Your order should be ready for pickup soon.
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "chicken bbq pizzas" ; type_crust_accept = "thin crust") & so 3 large chicken bbq pizzas with thin crust, correct?
+pizza_ordering ( name_store_accept = "Bella Luna's") & your pizzas will be ready for pickup at Bella Luna's in 24 minutes.
+pizza_ordering ( type_topping_accept = "pepperoni" ; preference_accept = "extra cheese" ; type_crust_accept = "gluten free crust") & so 3 pepperoni and extra cheese with gluten free crust, correct?
+pizza_ordering ( location_store_accept = "bela luna's") & you're welcome. your pizzas will be ready for pickup at bela luna's soon.
+pizza_ordering ( preference_accept = "extra cheese") & alright, all 3 will have extra cheese.
+pizza_ordering ( size_pizza_accept = "medium" ; name_pizza_accept = "pepperoni and bacon" ; preference_accept = "extra cheese") & ok, you are ordering 4 medium pizzas, one pepperoni, one meatlovers, one chicken bacon ranch, and one pepperoni and bacon with extra cheese, is that correct?
+pizza_ordering ( size_pizza_accept = "large" ; type_crust_accept = "gluten free crust" ; type_topping_accept = "mushrooms") & ok, you are ordering 3 large gluten free crust pizzas with pepperoni and mushrooms, is that correct?
+pizza_ordering ( name_store_accept = "Bella Luna's") & Sure thing, Bella Luna's is the thickest in town.
+pizza_ordering ( size_pizza_accept = "small" ; name_pizza_accept = "spicy bbq" ; type_crust_accept = "thick crusts") & So I have 4 small pizzas, one pepperoni, one pepperoni/sausage, one veggie, and one spicy bbq. all with thick crusts.
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "thin crust" ; type_topping_accept = "pepperoni") & ok, you are ordering 2 medium pizzas with thin crust, one beef, onion, mushroom, one italian sausage, pepperoni, mushroom, is that correct?
+pizza_ordering ( size_pizza = "large") & ok, and you said large size?
+pizza_ordering ( name_store_accept = "bella luna's" ; name_pizza = "the veggie lovers") & ok, bella luna's doesn't have a fresh garden pizza but the veggie lovers might be similar, would you like to order that?
+pizza_ordering ( size_pizza_accept = "small" ; type_crust_accept = "thick crust" ; name_pizza_accept = "meat lovers" ; type_topping_accept = "ground beef") & great, so you are ordering 3 small pizzas with thick crust, one veggie lovers, one meat lovers, and one with pineapple, bell peppers, onions, and ground beef.
+pizza_ordering ( size_pizza = "larges") & larges here are $24.
+pizza_ordering ( name_pizza = "chicken bbq" ; type_crust = "thin crust") & sorry, but the chicken bbq is only available in thin crust, would you like that anyway?
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "chicken bbq" ; type_crust_accept = "thin crust") & ok, so i have 3 large pizzas, one meat lovers, one pepperoni and one chicken bbq, thin crust. any extra ingredients?
+pizza_ordering ( name_store_accept = "bella luna" ; preference_accept = "extra cheese") & ok, please note bella luna charges for extra cheese, is that ok?
+pizza_ordering ( size_pizza_accept = "medium" ; preference_accept = "extra pepperoni" ; name_pizza_accept = "hawaiin" ; type_topping_accept = "green peppers") & ok you have ordered 4 medium pizzas with extra cheese, 1 hawaiin, 1 chicken bbq, 1 extra pepperoni, 1 olives and green peppers, is that correct?
+pizza_ordering ( size_pizza_accept = "medium" ; type_topping_accept = "chicken bbq" ; name_pizza_accept = "meat lovers" ; type_crust_accept = "thin crust" ; preference_accept = "extra cheese") & so 3 medium pizzas. one pepperoni, one chicken bbq and one meat lovers. thin crust and extra cheese on all 3, correct?
+pizza_ordering ( name_store_accept = "bella luna's") & you're all set. your pizzas will be ready for pickup soon at bella luna's.
+pizza_ordering ( preference_reject = "chicken bbq" ; size_pizza_accept = "mediums" ; name_pizza_accept = "veggie lovers") & they're out of chicken bbq, please pic a different topping. So I have 2 mediums with veggie lovers.
+pizza_ordering ( size_pizza_accept = "large" ; type_topping_accept = "sausage" ; name_pizza_accept = "gluten free") & will that be all for you? to confirm, you want 2 large pizzas, chicken, tomatoes, jalapenos, and sausage on both pizzas. both pizzas gluten free.
+pizza_ordering ( name_store_accept = "bella lunas") & the order has been booked. the pizzas will be ready in 20 minutes at your local bella lunas.
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "gluten free" ; name_pizza_accept = "spinach") & ok, you are ordering 3 medium, gluten free pizzas, one pepperoni, one meat lovers and one with spinach, is that correct?
+pizza_ordering ( preference = "extra cheese") & got it, just to let you know there is an additional charge for extra cheese, is that ok?
+pizza_ordering ( type_crust_accept = "gluten" ; size_pizza_accept = "medium" ; type_topping_accept = "pepperoni" ; preference_accept = "extra cheese" ; name_pizza_accept = "supreme") & ok, so you are ordering 3 gluten free medium pizzas, one with green olives and spicy italian sausage, one with pepperoni and extra cheese and one supreme with extra cheese, is that correct?

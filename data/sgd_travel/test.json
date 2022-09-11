@@ -1,0 +1,187 @@
+[
+    [
+        "OFFER(attraction_name=\"Arte Carrillo Gil Museum\";category=\"Museum\")",
+        "There's a great museum called the Arte Carrillo Gil Museum that you might like?",
+        "There's a great museum called the Arte Carrillo Gil Museum that you might like?"
+    ],
+    [
+        "OFFER(attraction_name=\"American Church in Paris\";category=\"Place of Worship\")",
+        "There is a place of worship called the American Church in Paris that matches your description.",
+        "There is a place of worship called the American Church in Paris that matches your description."
+    ],
+    [
+        "OFFER(attraction_name=\"American Church in Paris\";category=\"Place of Worship\")",
+        "What about a place of Worship at American Church in Paris. Do you like to visit there?",
+        "What about a place of Worship at American Church in Paris. Do you like to visit there?"
+    ],
+    [
+        "INFORM(good_for_kids=\"True\";phone_number=\"1 40 62 05 00\")",
+        "Yes, this is well good for kids too and their phone number is 1 40 62 05 00",
+        "Yes, this is well good for kids too and their phone number is 1 40 62 05 00"
+    ],
+    [
+        "OFFER(attraction_name=\"Arab World Institute\";category=\"Performing Arts Venue\")",
+        "Do you like to visit Arab World Institute which is a Performing Arts Venue.",
+        "Do you like to visit Arab World Institute which is a Performing Arts Venue."
+    ],
+    [
+        "OFFER(attraction_name=\"American Church in Paris\";category=\"Place of Worship\")",
+        "You can check out American Church in Paris. It is a Place of Worship.",
+        "You can check out American Church in Paris. It is a Place of Worship."
+    ],
+    [
+        "INFORM(good_for_kids=\"True\";phone_number=\"1 40 62 05 00\")",
+        "Yes. this place is child-friendly and number is 1 40 62 05 00.",
+        "Yes. this place is child-friendly and number is 1 40 62 05 00."
+    ],
+    [
+        "OFFER(attraction_name=\"Bagatelle park\";category=\"Park\")",
+        "You can check out Bagatelle park which is a Park.",
+        "You can check out Bagatelle park which is a Park."
+    ],
+    [
+        "OFFER(attraction_name=\"30 St Mary Axe (The Gherkin)",
+        "The 30 St Mary Axe (The Gherkin) is a historical landmark that could be a ton of fun.",
+        "The 30 St Mary Axe (The Gherkin) is a historical landmark that could be a ton of fun."
+    ],
+    [
+        "OFFER(attraction_name=\"30 St Mary Axe (The Gherkin)@\";category=\"Historical Landmark\")",
+        "The 30 St Mary Axe (The Gherkin) is a historical landmark that could be a ton of fun.",
+        "The 30 St Mary Axe (The Gherkin) is a historical landmark that could be a ton of fun."
+    ],
+    [
+        "INFORM(good_for_kids=\"True\";phone_number=\"20 7071 5029\")",
+        "Oh yeah, it's a great place to take kids- their number is 20 7071 5029.",
+        "Oh yeah, it's a great place to take kids- their number is 20 7071 5029."
+    ],
+    [
+        "OFFER(attraction_name=\"Acuario Inbursa\";category=\"Nature Preserve\")",
+        "What do you think about Acuario Inbursa. This is the best place I think to visit and the same is a Nature Preserve. Do you like it?",
+        "What do you think about Acuario Inbursa. This is the best place I think to visit and the same is a Nature Preserve. Do you like it?"
+    ],
+    [
+        "INFORM(free_entry=\"True\")",
+        "Yes, the entry for this place is free.",
+        "Yes, the entry for this place is free."
+    ],
+    [
+        "INFORM(phone_number=\"55 5395 4586\")",
+        "Please note down it as 55 5395 4586.",
+        "Please note down it as 55 5395 4586."
+    ],
+    [
+        "OFFER(attraction_name=\"Fleet Science Center\";category=\"Museum\")",
+        "I found 5 attractions. You shoudl visit the Fleet Science Center Museum?",
+        "I found 5 attractions. You shoudl visit the Fleet Science Center Museum?"
+    ],
+    [
+        "OFFER(attraction_name=\"Fleet Science Center\";category=\"Museum\")@INFORM_COUNT(count=\"5\")",
+        "I found 5 attractions. You shoudl visit the Fleet Science Center Museum?",
+        "I found 5 attractions. You shoudl visit the Fleet Science Center Museum?"
+    ],
+    [
+        "INFORM(phone_number=\"619-238-1233\")",
+        "The phone number is 619-238-1233.",
+        "The phone number is 619-238-1233."
+    ],
+    [
+        "OFFER(attraction_name=\"BODY WORLDS London\";category=\"Museum\")",
+        "I found 10 attractions. You should visit the BODY WORLDS London Museum.",
+        "I found 10 attractions. You should visit the BODY WORLDS London Museum."
+    ],
+    [
+        "OFFER(attraction_name=\"BODY WORLDS London\";category=\"Museum\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 attractions. You should visit the BODY WORLDS London Museum.",
+        "I found 10 attractions. You should visit the BODY WORLDS London Museum."
+    ],
+    [
+        "OFFER(attraction_name=\"Le Village Royal\";category=\"Shopping Area\")",
+        "I have found 1 in a Shopping Area called Le Village Royal.",
+        "I have found 1 in a Shopping Area called Le Village Royal."
+    ],
+    [
+        "OFFER(attraction_name=\"Le Village Royal\";category=\"Shopping Area\")@INFORM_COUNT(count=\"1\")",
+        "I have found 1 in a Shopping Area called Le Village Royal.",
+        "I have found 1 in a Shopping Area called Le Village Royal."
+    ],
+    [
+        "OFFER(attraction_name=\"Angels Flight Railway\";category=\"Historical Landmark\")",
+        "There is a Historical Landmark to visit called Angels Flight Railway.",
+        "There is a Historical Landmark to visit called Angels Flight Railway."
+    ],
+    [
+        "OFFER(attraction_name=\"30 St Mary Axe (The Gherkin)",
+        "There are 10 attractions in that area, how about a Historical Landmark at 30 St Mary Axe (The Gherkin)?",
+        "There are 10 attractions in that area, how about a Historical Landmark at 30 St Mary Axe (The Gherkin)?"
+    ],
+    [
+        "OFFER(attraction_name=\"30 St Mary Axe (The Gherkin)@\";category=\"Historical Landmark\")",
+        "There are 10 attractions in that area, how about a Historical Landmark at 30 St Mary Axe (The Gherkin)?",
+        "There are 10 attractions in that area, how about a Historical Landmark at 30 St Mary Axe (The Gherkin)?"
+    ],
+    [
+        "OFFER(attraction_name=\"30 St Mary Axe (The Gherkin)@\";category=\"Historical Landmark\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 attractions in that area, how about a Historical Landmark at 30 St Mary Axe (The Gherkin)?",
+        "There are 10 attractions in that area, how about a Historical Landmark at 30 St Mary Axe (The Gherkin)?"
+    ],
+    [
+        "OFFER(attraction_name=\"Admiralty Arch\";category=\"Historical Landmark\")",
+        "How about another historical landmark called Admiralty Arch?",
+        "How about another historical landmark called Admiralty Arch?"
+    ],
+    [
+        "INFORM(good_for_kids=\"True\";phone_number=\"20 7276 5000\")",
+        "Sure, this is a great place to bring your kids to and you can contact them at 20 7276 5000.",
+        "Sure, this is a great place to bring your kids to and you can contact them at 20 7276 5000."
+    ],
+    [
+        "OFFER(attraction_name=\"American church in Paris\";category=\"Place of Worship\")",
+        "American church in Paris is a nice place to visit It's a place of worship",
+        "American church in Paris is a nice place to visit It's a place of worship"
+    ],
+    [
+        "INFORM(phone_number=\"1 40 62 05 00\")",
+        "the phone number is 1 40 62 05 00",
+        "the phone number is 1 40 62 05 00"
+    ],
+    [
+        "INFORM(good_for_kids=\"True\")",
+        "it's a nice place to take your kids",
+        "it's a nice place to take your kids"
+    ],
+    [
+        "OFFER(attraction_name=\"Alki Beach Park\";category=\"Park\")",
+        "I found 10 that might interest you. If you'd like to go to a park, Alki Beach Park is suppose to be good.",
+        "I found 10 that might interest you. If you'd like to go to a park, Alki Beach Park is suppose to be good."
+    ],
+    [
+        "OFFER(attraction_name=\"Alki Beach Park\";category=\"Park\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 that might interest you. If you'd like to go to a park, Alki Beach Park is suppose to be good.",
+        "I found 10 that might interest you. If you'd like to go to a park, Alki Beach Park is suppose to be good."
+    ],
+    [
+        "OFFER(attraction_name=\"56 Signers of the Declaration of Independence Memorial\";category=\"Nature Preserve\")",
+        "I've found a Nature Preserve called 56 Signers of the Declaration of Independence Memorial.",
+        "I've found a Nature Preserve called 56 Signers of the Declaration of Independence Memorial."
+    ],
+    [
+        "INFORM(good_for_kids=\"True\")",
+        "Sure!",
+        "Sure!"
+    ],
+    [
+        "INFORM(phone_number=\"202-426-6841\")",
+        "Yes, it's 202-426-6841",
+        "Yes, it's 202-426-6841"
+    ],
+    [
+        "OFFER(attraction_name=\"Aquaria KLCC\";category=\"Nature Preserve\")",
+        "Sure! I recommend Aquaria KLCC. It's a nature preserve.",
+        "Sure! I recommend Aquaria KLCC. It's a nature preserve."
+    ],
+    [
+        "INFORM(good_for_kids=\"True\")",
+        "Yes, it is!",
+        "Yes, it is!"
+    ]
+]

@@ -1,0 +1,363 @@
+CONFIRM ( destination = "Kanpai" ; number_of_seats = "1" ; ride_type = "Pool") & Please confirm: You would like a ride to Kanpai, there is 1 in your party and you want to ride Pool.
+CONFIRM ( number_of_seats = "2" ; ride_type = "Pool") & Please confirm: You want to ride Pool. There are 2 in your group.
+CONFIRM ( destination = "659 Merchant Street" ; ride_type = "Regular") & Please confirm: You want a ride to 659 Merchant Street, regular ride.
+INFORM ( wait_time = "7") & The cab is expected to be there in about 7 minutes.
+CONFIRM ( destination = "1012 Oak Grove Avenue" ; number_of_seats = "1" ; ride_type = "Regular") & To verify, you want a Regular ride for 1 to 1012 Oak Grove Avenue
+CONFIRM ( destination = "Kabul Kabob & Grill" ; ride_type = "Regular") & Okay that's a Regular Ride to Kabul Kabob & Grill
+INFORM ( ride_fare = "$11.45") & The cab is on it's way, the cost will be $11.45
+INFORM ( ride_fare = "$11.45") & The cab is on it's way, the cost will be $11.45
+CONFIRM ( destination = "Go Vegan" ; number_of_seats = "2" ; ride_type = "Pool") & You want a Pool ride with Go Vegan for 2 people. Is that correct?
+CONFIRM ( destination = "La Vie" ; number_of_seats = "1" ; ride_type = "Pool") & You want 1 seat for a Pool ride at La Vie is true?
+CONFIRM ( destination = "1200 D Street #27" ; number_of_seats = "4" ; ride_type = "Luxury") & Okay, please confirm: You want a luxury ride for 4 to 1200 D Street #27
+CONFIRM ( number_of_seats = "1" ; ride_type = "Luxury") & please confirm: You need a luxury ride for 1.
+CONFIRM ( destination = "2550 south king road" ; ride_type = "Pool") & Okay, please confirm these new details: You want a pool ride to 2550 south king road.
+INFORM ( wait_time = "3" ; ride_fare = "$11.00") & It'll take about 3 minutes, and will cost $11.00
+CONFIRM ( destination = "Best Taste Sushi & Chinese Restaurant" ; number_of_seats = "1" ; ride_type = "Pool") & Review these details and confirm to me that you want a ride to Best Taste Sushi & Chinese Restaurant for 1 person and you like a Pool ride.
+CONFIRM ( number_of_seats = "1" ; ride_type = "Luxury") & Please can you confirm again that you need a ride for 1 person and that it should be a Luxury ride.
+CONFIRM ( destination = "Trattoria Pinocchio" ; number_of_seats = "1") & Can you confirm that you want a ride to Trattoria Pinocchio and for 1 person.
+CONFIRM ( destination = "Enoteca Molinari" ; number_of_seats = "1" ; ride_type = "Luxury") & No problem. Please confirm: 1 seat in a Luxury cab, headed to Enoteca Molinari. Did I get this right?
+CONFIRM ( number_of_seats = "2" ; ride_type = "Regular") & No problem. One minute, Can you please confirm: You will need 2 seats in a Regular cab, Did I get this right?
+INFORM ( wait_time = "4" ; ride_fare = "$23.57") & Your cab is estimated to arrive in 4 minutes. This ride will cost $23.57.
+CONFIRM ( destination = "Ginto" ; number_of_seats = "1" ; ride_type = "Luxury") & Please confirm: Luxury rid to Ginto for 1.
+CONFIRM ( destination = "336 North Santa Cruz Avenue" ; number_of_seats = "1") & Please confirm: 1 seat to 336 North Santa Cruz Avenue.
+CONFIRM ( number_of_seats = "2" ; ride_type = "Luxury") & Please confirm: Luxury ride for 2.
+INFORM ( ride_fare = "$45.45") & Your ride is booked and the cab is on its way. It'll cost you $45.45
+INFORM ( ride_fare = "$45.45") & Your ride is booked and the cab is on its way. It'll cost you $45.45
+CONFIRM ( destination = "Barracuda Japanese Restaurant" ; number_of_seats = "1" ; ride_type = "Regular") & Please confirm the following details. You want a Regular ride of 1 seat to Barracuda Japanese Restaurant.
+INFORM ( wait_time = "3" ; ride_fare = "$15.64") & I booked your ride and it's on the way. The cab will be here in 3 minute, and it costs $15.64.
+INFORM ( wait_time = "3" ; ride_fare = "$15.64") & I booked your ride and it's on the way. The cab will be here in 3 minute, and it costs $15.64.
+CONFIRM ( destination = "Solomon R. Guggenheim Museum" ; number_of_seats = "2" ; ride_type = "Pool") & Kindly confirm- You want a ride to Solomon R. Guggenheim Museum. You want 2 seats. You prefer Pool ride
+INFORM ( wait_time = "6" ; ride_fare = "$10.32") & Here is the booking details of your cab, The cab is expected in 6 minutes. The cost of ride will be $10.32
+INFORM ( wait_time = "6" ; ride_fare = "$10.32") & Here is the booking details of your cab, The cab is expected in 6 minutes. The cost of ride will be $10.32
+CONFIRM ( destination = "2217 Market Street" ; number_of_seats = "1" ; ride_type = "Luxury") & So you want a ride to 2217 Market Street for 1 in a Luxury ride?
+CONFIRM ( destination = "2217 Market Street" ; ride_type = "Pool") & Can you confirm the details? You want to go to 2217 Market Street on a Pool ride.
+CONFIRM ( destination = "Perfect Chinese Food" ; number_of_seats = "4" ; ride_type = "Luxury") & Please confirm the luxury ride for 4 to Perfect Chinese Food.
+INFORM ( wait_time = "8" ; ride_fare = "$36.12") & Your cab arrives in 8 minutes and the fare is $36.12.
+CONFIRM ( destination = "403 Healdsburg Avenue" ; number_of_seats = "1" ; ride_type = "Luxury") & Okay, can you please confirm you are requesting a luxury ride for 1 to 403 Healdsburg Avenue?
+INFORM ( ride_fare = "$25.48" ; wait_time = "11") & Yes, the ride is for 11 minutes, will cost $25.48 and it is confirmed.
+INFORM ( ride_fare = "$25.48" ; wait_time = "11") & Yes, the ride is for 11 minutes, will cost $25.48 and it is confirmed.
+CONFIRM ( destination = "Phoenix Union Station" ; number_of_seats = "3" ; ride_type = "Pool") & So you'd like a Pool ride with 3 seats to Phoenix Union Station, right?
+CONFIRM ( destination = "Penang Garden Restaurant" ; ride_type = "Luxury") & Alright, to confirm, that's a Luxury ride to Penang Garden Restaurant?
+INFORM ( ride_fare = "$39.73" ; wait_time = "11") & Your ride is booked and on its way! It should be there in about 11 minutes, and the price will be $39.73.
+INFORM ( ride_fare = "$39.73" ; wait_time = "11") & Your ride is booked and on its way! It should be there in about 11 minutes, and the price will be $39.73.
+CONFIRM ( destination = "512 Sacramento Street" ; number_of_seats = "1" ; ride_type = "Regular") & Please confirm you want a Regular ride to 512 Sacramento Street for 1 person.
+INFORM ( wait_time = "2") & Your cab is booked and on its way, arriving in 2 minutes.
+INFORM ( wait_time = "2") & Your cab is booked and on its way, arriving in 2 minutes.
+CONFIRM ( destination = "4087 Peralta Boulevard" ; number_of_seats = "3" ; ride_type = "Luxury") & Please confirm the following: You want a luxury ride for 3 people to 4087 Peralta Boulevard.
+CONFIRM ( destination = "4087 Peralta Boulevard" ; number_of_seats = "4") & Sure, please confirm that you want a ride to 4087 Peralta Boulevard for 4.
+INFORM ( wait_time = "13") & Your ride is booked and the cab should be there in 13 minutes.
+INFORM ( wait_time = "13") & Your ride is booked and the cab should be there in 13 minutes.
+CONFIRM ( destination = "411 Main Street" ; number_of_seats = "3" ; ride_type = "Luxury") & Please confirm, there are 3 people traveling to 411 Main Street, and you would like a luxury ride.
+CONFIRM ( number_of_seats = "2" ; ride_type = "Regular") & Please confirm, 2 people traveling to 411 Main Street in a regular vehicle.
+CONFIRM ( destination = "Prospect park" ; number_of_seats = "2") & Please confirm the following, 2 passengers traveling to Prospect park in a regular vehicle.
+INFORM ( ride_fare = "$14.24") & The cost is $14.24 and the vehicle is on its way.
+INFORM ( ride_fare = "$14.24") & The cost is $14.24 and the vehicle is on its way.
+INFORM ( wait_time = "3") & It should arrive in 3 to 4 minutes.
+CONFIRM ( destination = "3540 Blackhawk Plaza Circle" ; number_of_seats = "1" ; ride_type = "Pool") & Please verify the following order: you want 1 seat Pool ride to travel to 3540 Blackhawk Plaza Circle.
+CONFIRM ( destination = "3540 Blackhawk Plaza Circle" ; number_of_seats = "2") & Please verify the following order: You require 2 seats for a ride to 3540 Blackhawk Plaza Circle.
+CONFIRM ( destination = "1 Letterman Drive" ; number_of_seats = "1" ; ride_type = "Regular") & You want a Regular cab to 1 Letterman Drive for 1 person. Is that right?
+CONFIRM ( destination = "Saint Thomas Church Fifth Avenue" ; ride_type = "Pool") & You want a Pool ride to Saint Thomas Church Fifth Avenue. Is that right?
+CONFIRM ( number_of_seats = "2" ; ride_type = "Pool") & You want a Pool ride for 2 people. Is that correct?
+INFORM ( ride_fare = "$17.89") & The price is $17.89 and your ride has been confirmed. It is coming right now.
+INFORM ( ride_fare = "$17.89") & The price is $17.89 and your ride has been confirmed. It is coming right now.
+CONFIRM ( destination = "1331 Medical Center Drive" ; number_of_seats = "1" ; ride_type = "Pool") & Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride.
+CONFIRM ( destination = "1331 Medical Center Drive" ; ride_type = "Regular") & Confirm a ride to 1331 Medical Center Drive and a Regular one.
+CONFIRM ( destination = "Takumi Sushi Bar & Grill" ; ride_type = "Regular") & Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride.
+INFORM ( wait_time = "6" ; ride_fare = "$24.97") & The cab will be here in 6 minutes and the ride is $24.97
+CONFIRM ( destination = "Sonoma Ave, # 44, 1820 Doctors Park Drive" ; number_of_seats = "2" ; ride_type = "Pool") & Just to confirm, you would like a Pool ride for 2 people to Sonoma Ave, # 44, 1820 Doctors Park Drive. Is that correct?
+INFORM ( ride_fare = "$15.25" ; wait_time = "7") & Your cab will be there in 7 minutes and will cost $15.25.
+INFORM ( ride_fare = "$15.25" ; wait_time = "7") & Your cab will be there in 7 minutes and will cost $15.25.
+CONFIRM ( destination = "Katsu Los Gatos" ; number_of_seats = "1" ; ride_type = "Regular") & Please confirm the following details: regular ride for 1 to Katsu Los Gatos
+CONFIRM ( number_of_seats = "3" ; ride_type = "Regular") & Please confirm me the following details: 3 seats on a regular ride
+INFORM ( ride_fare = "$22.76" ; wait_time = "5") & The ride is gonna arrive in 5 minutes, and it's gonna cost $22.76
+CONFIRM ( destination = "3455 Homestead Road" ; number_of_seats = "3" ; ride_type = "Pool") & To confirm, you are looking for a pool ride to 3455 Homestead Road for 3 passengers
+CONFIRM ( destination = "3455 Homestead Road" ; ride_type = "Luxury") & To re confirm, you are looking for a luxury ride to 3455 Homestead Road for 3 passengers
+CONFIRM ( destination = "1367 North McDowell Boulevard" ; number_of_seats = "1" ; ride_type = "Luxury") & Is this correct? Your is of 1 seat of a Luxury ride to 1367 North McDowell Boulevard?
+CONFIRM ( destination = "London Aquatics Centre" ; number_of_seats = "4" ; ride_type = "Regular") & Let me make sure I have this right. You'd like a Regular ride to London Aquatics Centre for 4 riders. Is this correct?
+CONFIRM ( destination = "London Aquatics Centre" ; number_of_seats = "2") & Okay, you need 2 seats for a ride to London Aquatics Centre. Is this correct?
+CONFIRM ( destination = "Pear Street Bistro" ; number_of_seats = "2" ; ride_type = "Luxury") & I have confirmed 2 seats on a Luxury ride to Pear Street Bistro.
+CONFIRM ( destination = "Seiki House" ; ride_type = "Luxury") & I have confirmed 2 seats on a Luxury ride to Seiki House.
+INFORM ( wait_time = "9" ; ride_fare = "$37.62") & Your cab is on the way with an expected arrival time of 9 minutes. Your total cost will be $37.62.
+INFORM ( wait_time = "9" ; ride_fare = "$37.62") & Your cab is on the way with an expected arrival time of 9 minutes. Your total cost will be $37.62.
+CONFIRM ( destination = "Sitar Indian Cuisine" ; number_of_seats = "4" ; ride_type = "Regular") & Thank you. I have a regular cab ride for 4 people to Sitar Indian Cuisine, is this correct?
+INFORM ( ride_fare = "$49.32" ; wait_time = "2") & I have booked the cab and it is on the way. The total price is $49.32 and it should be there in 2 minutes.
+INFORM ( ride_fare = "$49.32" ; wait_time = "2") & I have booked the cab and it is on the way. The total price is $49.32 and it should be there in 2 minutes.
+CONFIRM ( destination = "1631 Lincoln Avenue" ; number_of_seats = "2" ; ride_type = "Regular") & Kindly ensure that, you wish to have a Regular ride to 1631 Lincoln Avenue and you want to book 2 seats.
+INFORM ( wait_time = "3") & It is on the way to your place will reach you in 3 minutes.
+INFORM ( wait_time = "3") & It is on the way to your place will reach you in 3 minutes.
+INFORM ( ride_fare = "$29.02") & The price is $29.02.
+CONFIRM ( destination = "Pacific Science Center" ; number_of_seats = "1" ; ride_type = "Luxury") & Please confirm: you want a ride for 1 person to Pacific Science Center. You prefer a luxury ride.
+CONFIRM ( destination = "395 Ano Nuevo Avenue" ; number_of_seats = "4" ; ride_type = "Luxury") & Please confirm. A Luxury ride for 4 to 395 Ano Nuevo Avenue.
+CONFIRM ( destination = "395 Ano Nuevo Avenue" ; ride_type = "Regular") & Please confirm. A regular ride to 395 Ano Nuevo Avenue.
+INFORM ( wait_time = "4" ; ride_fare = "$46.76") & I booked your ride, it costs $46.76 and is expected in 4 minutes
+INFORM ( wait_time = "4" ; ride_fare = "$46.76") & I booked your ride, it costs $46.76 and is expected in 4 minutes
+CONFIRM ( destination = "Sushi Lover" ; number_of_seats = "1" ; ride_type = "Regular") & I have a regular ride for 1 to Sushi Lover.
+CONFIRM ( destination = "2510 Shattuck Avenue" ; ride_type = "Luxury") & I have a luxury ride for 1 to 2510 Shattuck Avenue.
+INFORM ( ride_fare = "$15.56" ; wait_time = "12") & The cab will be there in 12 minutes and the cost is $15.56.
+CONFIRM ( destination = "20 Stone Pine Road" ; number_of_seats = "2" ; ride_type = "Luxury") & I'll get you a Luxury vehicle with 2 seats heading to 20 Stone Pine Road, is that right?
+CONFIRM ( destination = "604 East Evelyn Avenue" ; number_of_seats = "2") & So it will be to 604 East Evelyn Avenue, and for 2 people?
+INFORM ( wait_time = "10" ; ride_fare = "$45.17") & The vehicle will be here in 10 minutes and it will cost $45.17.
+CONFIRM ( destination = "1306 Lincoln Avenue" ; number_of_seats = "3" ; ride_type = "Pool") & Thank you! Can you confirm the following details, please? You need a pool ride with 3 seats to take you to 1306 Lincoln Avenue.
+INFORM ( ride_fare = "$21.17" ; wait_time = "3") & Your cab is on its way, so it'll get to you in about 3 minutes. It'll cost you approximately $21.17.
+INFORM ( ride_fare = "$21.17" ; wait_time = "3") & Your cab is on its way, so it'll get to you in about 3 minutes. It'll cost you approximately $21.17.
+CONFIRM ( destination = "19369 Stevens Creek Boulevard Suite 130" ; number_of_seats = "1" ; ride_type = "Luxury") & Please confirm to book a Luxury cab with 1 seat to 19369 Stevens Creek Boulevard Suite 130.
+CONFIRM ( number_of_seats = "4" ; ride_type = "Pool") & please confirm to book a Cab with Pool ride with 4 seats.
+INFORM ( wait_time = "3") & will be there in 3 minutes.
+CONFIRM ( destination = "353 Columbus Avenue" ; number_of_seats = "3" ; ride_type = "Regular") & Just to make sure, you want a 3 set Regular ride to 353 Columbus Avenue.
+INFORM ( wait_time = "4" ; ride_fare = "$40.88") & Your $40.88 cab's booked and on the way with an ETA of 4 minutes.
+INFORM ( wait_time = "4" ; ride_fare = "$40.88") & Your $40.88 cab's booked and on the way with an ETA of 4 minutes.
+CONFIRM ( destination = "Shaking the Tree Theatre" ; number_of_seats = "3" ; ride_type = "Regular") & Please confirm the details: You want a ride to the Shaking the Tree Theatre for 3 people in a regular cab.
+INFORM ( ride_fare = "$29.77" ; wait_time = "5") & I booked your cab. The ride will cost $29.77 and the cab is expected in 5 minutes.
+INFORM ( ride_fare = "$29.77" ; wait_time = "5") & I booked your cab. The ride will cost $29.77 and the cab is expected in 5 minutes.
+CONFIRM ( destination = "Greentree Apartments" ; number_of_seats = "1" ; ride_type = "Luxury") & Please confirm: Luxury ride for 1 to Greentree Apartments.
+CONFIRM ( destination = "87 East San Fernando Street" ; number_of_seats = "2" ; ride_type = "Luxury") & Please confirm: Luxury ride for 2 to 87 East San Fernando Street.
+CONFIRM ( destination = "87 East San Fernando Street" ; number_of_seats = "3") & Please confirm: Luxury ride for 3 to 87 East San Fernando Street.
+CONFIRM ( destination = "961 Bluebell Drive" ; number_of_seats = "1" ; ride_type = "Regular") & Could you confirm this? You want to go to 961 Bluebell Drive and need 1 seat in a Regular ride.
+CONFIRM ( destination = "Luna Mexican Kitchen" ; number_of_seats = "3" ; ride_type = "Pool") & Please confirm the following. You are ordering a pool ride for 3 people to take you to Luna Mexican Kitchen.
+INFORM ( wait_time = "6") & I booked your cab and it is heading to pick you up now. The cab will be there in about 6 minutes.
+INFORM ( wait_time = "6") & I booked your cab and it is heading to pick you up now. The cab will be there in about 6 minutes.
+INFORM ( ride_fare = "$13.94") & The fare will be $13.94.
+CONFIRM ( destination = "3119 Clement Street" ; number_of_seats = "3" ; ride_type = "Luxury") & So you want a Luxury ride for 3 passengers to 3119 Clement Street?
+CONFIRM ( number_of_seats = "2" ; ride_type = "Pool") & So a Pool ride for 2 passengers to the same address?
+CONFIRM ( destination = "Val's" ; number_of_seats = "1" ; ride_type = "Luxury") & Confirm Val's with 1 seat and a luxury ride.
+INFORM ( wait_time = "10" ; ride_fare = "$20.06") & The cab will be here in 10 and it costs $20.06
+CONFIRM ( destination = "Rooftop Restaurant & Bar" ; number_of_seats = "1" ; ride_type = "Luxury") & Just to make sure, you want a 1 seat Luxury ride to Rooftop Restaurant & Bar.
+CONFIRM ( destination = "291 30th Street" ; number_of_seats = "2") & Just to make sure, you want a 2 seat ride to 291 30th Street.
+CONFIRM ( destination = "5041 Geary Boulevard" ; number_of_seats = "1" ; ride_type = "Regular") & Please confirm the following information: You would like a ride to 5041 Geary Boulevard. You have 1 person in your party. You would like a regular Taxi at your earliest convenience.
+CONFIRM ( destination = "510 San Anselmo Avenue" ; number_of_seats = "2") & Please confirm the following information: You would like a ride to 510 San Anselmo Avenue. You have 2 people in your party.
+CONFIRM ( destination = "2125 Coast Hwy" ; number_of_seats = "2" ; ride_type = "Pool") & Okay. So, you're wanting a Pool ride for 2 going to 2125 Coast Hwy. Do you want me to order it?
+INFORM ( ride_fare = "$15.68") & It will cost $15.68.
+CONFIRM ( destination = "Two Temple Place" ; number_of_seats = "1" ; ride_type = "Regular") & Please confirm that you need 1 seat in a regular ride to go to Two Temple Place.
+INFORM ( wait_time = "7") & It should arrive in 7 minutes.
+CONFIRM ( destination = "2222 Bancroft Way" ; number_of_seats = "3" ; ride_type = "Pool") & You'd like a Pool ride for 3 to 2222 Bancroft Way, is that correct?
+INFORM ( wait_time = "4") & I've booked the cab and it'll arrive in 4 minutes.
+INFORM ( wait_time = "4") & I've booked the cab and it'll arrive in 4 minutes.
+CONFIRM ( destination = "1178 El Camino Real" ; number_of_seats = "2" ; ride_type = "Luxury") & Please confirm, ride to 1178 El Camino Real. Luxury ride for 2 seats.
+INFORM ( wait_time = "8") & Can is on the way. Should arrive in 8 minutes.
+INFORM ( wait_time = "8") & Can is on the way. Should arrive in 8 minutes.
+CONFIRM ( destination = "Summerwood" ; number_of_seats = "1" ; ride_type = "Luxury") & Great, please confirm your booking: 1 luxury ride to Summerwood.
+CONFIRM ( destination = "St. Stephen's Episcopal Church" ; number_of_seats = "3" ; ride_type = "Luxury") & Ok please check the following details: Number of passengers is 3 and Place where to ride is St. Stephen's Episcopal Church in Luxury ride
+INFORM ( ride_fare = "$49.22" ; wait_time = "11") & It is expected to reach there in 11 minutes and its costs is $49.22
+CONFIRM ( destination = "Capurro's" ; number_of_seats = "3" ; ride_type = "Pool") & Please confirm the following details: You would like a ride to Capurro's for 3 and you prefer a pool ride.
+CONFIRM ( number_of_seats = "1" ; ride_type = "Luxury") & Please confirm the following: You need a luxury ride for 1.
+CONFIRM ( destination = "Locanda" ; ride_type = "Luxury") & Please confirm the following: You would like a luxury ride to Locanda for 1.
+INFORM ( ride_fare = "$27.15" ; wait_time = "13") & I have booked the ride and it is on its way. the ride will cost $27.15 and should arrive in 13 minutes.
+INFORM ( ride_fare = "$27.15" ; wait_time = "13") & I have booked the ride and it is on its way. the ride will cost $27.15 and should arrive in 13 minutes.
+CONFIRM ( destination = "4906 Paseo Padre Parkway" ; number_of_seats = "4" ; ride_type = "Regular") & Please confirm: You want a Regular ride with 4 seats to 4906 Paseo Padre Parkway.
+CONFIRM ( destination = "25 Broadway" ; number_of_seats = "3" ; ride_type = "Luxury") & Please confirm the details : You wanna ride to 25 Broadway for 3 seats and you prefer a Luxury ride.
+INFORM ( ride_fare = "$44.43" ; wait_time = "10") & I booked your ride and its on its way which costs $44.43. The cab expected to reach in 10 minutes
+INFORM ( ride_fare = "$44.43" ; wait_time = "10") & I booked your ride and its on its way which costs $44.43. The cab expected to reach in 10 minutes
+CONFIRM ( destination = "337 Biscayne Drive" ; number_of_seats = "2" ; ride_type = "Regular") & To clarify, you need a ride to 337 Biscayne Drive of 2 seats of our regular ride?
+CONFIRM ( destination = "518 7th Street" ; ride_type = "Pool") & Okay, so now you will have a ride to 518 7th Street in a Pool ride.
+CONFIRM ( destination = "518 7th Street" ; number_of_seats = "1") & To clarify, You want a ride to 518 7th Street needing only 1 seat.
+CONFIRM ( destination = "1347 Main Street" ; number_of_seats = "2" ; ride_type = "Luxury") & I'll get you a 2 seat Luxury vehicle going to 1347 Main Street, is that correct?
+CONFIRM ( destination = "Menara Kuala Lumpur" ; number_of_seats = "3") & Okay, your destination is now Menara Kuala Lumpur in a vehicle with 3 seats, is that correct?
+CONFIRM ( destination = "Menara Kuala Lumpur" ; ride_type = "Pool") & Okay, your destination is Menara Kuala Lumpur in a Pool vehicle, is that correct?
+CONFIRM ( destination = "Loft Bar & Bistro" ; number_of_seats = "3" ; ride_type = "Luxury") & I'm confirming a luxury cab for 3 with a destination of Loft Bar & Bistro.
+CONFIRM ( destination = "411 East El Camino Real" ; number_of_seats = "3" ; ride_type = "Pool") & Would you like to go to 411 East El Camino Real with 3 people on a pool ride
+CONFIRM ( destination = "1501 Trousdale Drive #2" ; number_of_seats = "2") & Would you and 2 others like a ride to 1501 Trousdale Drive #2?
+CONFIRM ( destination = "1501 Trousdale Drive #2" ; ride_type = "Luxury") & Would you like to ride in luxury to 1501 Trousdale Drive #2?
+CONFIRM ( destination = "426 Brannan Street" ; number_of_seats = "1" ; ride_type = "Regular") & Please confirm the following" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride.
+INFORM ( ride_fare = "$19.64") & The ride costs $19.64.
+CONFIRM ( destination = "The Villa" ; number_of_seats = "3" ; ride_type = "Luxury") & Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons.
+CONFIRM ( destination = "Cafe New Honolulu" ; number_of_seats = "1" ; ride_type = "Regular") & You'd like 1 regular seat for a ride to Cafe New Honolulu. Is this correct?
+INFORM ( ride_fare = "$23.62") & Certainly. The ride is estimated to be $23.62 and should be here soon.
+INFORM ( ride_fare = "$23.62") & Certainly. The ride is estimated to be $23.62 and should be here soon.
+CONFIRM ( destination = "5498 College Avenue" ; number_of_seats = "2" ; ride_type = "Regular") & Confirming a regular taxi for 2 to 5498 College Avenue.
+INFORM ( wait_time = "7" ; ride_fare = "$15.05") & The cab will arrive in 7 minutes and the fair will be $15.05.
+CONFIRM ( destination = "34050 Westchester Terrace" ; number_of_seats = "2" ; ride_type = "Luxury") & You'd like a luxury ride for 2 to 34050 Westchester Terrace. Is that correct?
+INFORM ( wait_time = "8" ; ride_fare = "$42.60") & The cab will be here in 8 minutes and the cost is $42.60
+INFORM ( wait_time = "8" ; ride_fare = "$42.60") & The cab will be here in 8 minutes and the cost is $42.60
+CONFIRM ( destination = "1771 Inner Circle Drive" ; number_of_seats = "2" ; ride_type = "Luxury") & please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats.
+CONFIRM ( destination = "John's of Willow Glen" ; ride_type = "Pool") & please give confirmation details: your pool ride to John's of Willow Glen.
+INFORM ( ride_fare = "$19.45" ; wait_time = "5") & Your ride is confirmed and the cab will reach in 5 minutes.. The ride cost is $19.45.
+INFORM ( ride_fare = "$19.45" ; wait_time = "5") & Your ride is confirmed and the cab will reach in 5 minutes.. The ride cost is $19.45.
+CONFIRM ( destination = "Villas At Bair Island Apartment Homes" ; number_of_seats = "2" ; ride_type = "Luxury") & To confirm then, you would like a taxi, preferably Luxury, with space for 2, going to Villas At Bair Island Apartment Homes, right?
+CONFIRM ( destination = "Four Star Theatre" ; ride_type = "Luxury") & So, you would like a taxi, preferably a Luxury one, and your destination is Four Star Theatre?
+INFORM ( wait_time = "11") & Your taxi will arrive in roughly 11 minutes
+INFORM ( ride_fare = "$23.38") & The fare is $23.38
+CONFIRM ( destination = "3090 Olsen drive" ; number_of_riders = "1" ; shared_ride = "True") & Please review the following details: Destination place is 3090 Olsen drive for 1 people and ride type is shared
+INFORM ( approximate_ride_duration = "19" ; ride_fare = "$13.43") & Reservation is done and the cab is on its way. The ride last about 19 minutes and its costs i $13.43
+INFORM ( approximate_ride_duration = "19" ; ride_fare = "$13.43") & Reservation is done and the cab is on its way. The ride last about 19 minutes and its costs i $13.43
+CONFIRM ( destination = "Skates On the Bay" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm the following: you want a ride share for 1 person going to Skates On the Bay.
+CONFIRM ( destination = "168 South Murphy Avenue" ; number_of_riders = "3" ; shared_ride = "True") & So you want a cab for 3 people to 168 South Murphy Avenue?
+INFORM ( approximate_ride_duration = "12") & Your ride is booked and the cab is coming and the ride will be around 12 minutes long.
+INFORM ( approximate_ride_duration = "12") & Your ride is booked and the cab is coming and the ride will be around 12 minutes long.
+CONFIRM ( destination = "Mariscos El Patron" ; number_of_riders = "4" ; shared_ride = "True") & To confirm then you want a shared ride, cab for 4 to Mariscos El Patron.
+INFORM ( approximate_ride_duration = "13") & Your cab is booked and will be with you shortly. The journey should be around 13 minutes.
+INFORM ( approximate_ride_duration = "13") & Your cab is booked and will be with you shortly. The journey should be around 13 minutes.
+CONFIRM ( destination = "3515 20th Street A" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm address of 3515 20th Street A for 1 with shared ride.
+CONFIRM ( destination = "1118 East Pike Street" ; number_of_riders = "1" ; shared_ride = "True") & Can you confirm that your cab will be for 1 person and you want to ride share to 1118 East Pike Street?
+INFORM ( approximate_ride_duration = "9") & Okay, your ride has been confirmed and is on its way. Your ride should be about 9 minutes.
+INFORM ( approximate_ride_duration = "9") & Okay, your ride has been confirmed and is on its way. Your ride should be about 9 minutes.
+INFORM ( ride_fare = "$14.50") & It will cost you $14.50.
+CONFIRM ( destination = "379 Gellert Boulevard" ; number_of_riders = "1" ; shared_ride = "True") & OK. So you need a cab for 1 to 379 Gellert Boulevard, and you don't mind sharing a cab, right?
+INFORM ( ride_fare = "$6.10" ; approximate_ride_duration = "11") & Your ride is on its way. It will be an 11 minute ride and cost $6.10.
+INFORM ( ride_fare = "$6.10" ; approximate_ride_duration = "11") & Your ride is on its way. It will be an 11 minute ride and cost $6.10.
+CONFIRM ( destination = "1265 Monument Boulevard" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm that you need a shared cab for 1 person to go to 1265 Monument Boulevard.
+INFORM ( approximate_ride_duration = "7") & The cab has been booked and it is on its way. The ride to 1265 Monument Boulevard is expected to take around 7 minutes.
+INFORM ( approximate_ride_duration = "7") & The cab has been booked and it is on its way. The ride to 1265 Monument Boulevard is expected to take around 7 minutes.
+CONFIRM ( destination = "1881 Contra Costa Boulevard" ; number_of_riders = "2" ; shared_ride = "True") & Please confirm that the address is 1881 Contra Costa Boulevard and there will be 2 passengers, and you are okay with a shared ride.
+INFORM ( ride_fare = "$21.86" ; approximate_ride_duration = "29") & Okay, your ride is reserved and the cab is on its way. It will be $21.86 and take about 29 minutes.
+INFORM ( ride_fare = "$21.86" ; approximate_ride_duration = "29") & Okay, your ride is reserved and the cab is on its way. It will be $21.86 and take about 29 minutes.
+CONFIRM ( destination = "4300 Great America Parkway #156" ; number_of_riders = "2" ; shared_ride = "True") & Please confirm; cab for 2 people to 4300 Great America Parkway #156.
+INFORM ( ride_fare = "$12.40") & Your ride is confirmed and on the way. The cost is $12.40.
+INFORM ( ride_fare = "$12.40") & Your ride is confirmed and on the way. The cost is $12.40.
+CONFIRM ( destination = "Market" ; number_of_riders = "4" ; shared_ride = "True") & Alright. Just to confirm, you're going to Market, there will be 4 people, and you want a shared ride. Does that sound right?
+CONFIRM ( destination = "King Chuan" ; shared_ride = "True") & Okay, so you would like a shared ride to King Chuan. Is that right.
+CONFIRM ( destination = "1450 Creekside Drive" ; number_of_riders = "1" ; shared_ride = "True") & Please verify the following attributes: You want a shared ride for 1 person and are going to 1450 Creekside Drive.
+INFORM ( approximate_ride_duration = "7") & The cab has been reserved and is headed your way. The ride will take about 7 minutes.
+INFORM ( approximate_ride_duration = "7") & The cab has been reserved and is headed your way. The ride will take about 7 minutes.
+CONFIRM ( destination = "941 Kearny Street" ; number_of_riders = "2" ; shared_ride = "True") & 2 people will share a cab going to 941 Kearny Street, correct?
+CONFIRM ( destination = "2055 Fox Way" ; number_of_riders = "2") & 2 people are going to share a cab going to 2055 Fox Way, correct?
+INFORM ( ride_fare = "$16.45") & It will be $16.45.
+CONFIRM ( destination = "Amoura" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm the order or a shared ride for 1 person to Amoura.
+CONFIRM ( destination = "2508 Santa Clara Avenue" ; number_of_riders = "1" ; shared_ride = "True") & To confirm the details, you are looking for a shared ride to 2508 Santa Clara Avenue Road for 1 passenger
+INFORM ( approximate_ride_duration = "30") & The ride will be approx. 30 minutes, and the cab is booked and on its way
+INFORM ( approximate_ride_duration = "30") & The ride will be approx. 30 minutes, and the cab is booked and on its way
+INFORM ( ride_fare = "$8.64") & it is approx. $8.64
+CONFIRM ( destination = "1422 Southwest 11th Avenue" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm: Booking a cab with shared ride for 1 person to 1422 Southwest 11th Avenue.
+INFORM ( approximate_ride_duration = "28" ; ride_fare = "$7.84") & The ride will be for 28 minutes and the cost will be $7.84.
+CONFIRM ( destination = "Pasta Prego" ; number_of_riders = "2" ; shared_ride = "True") & To confirm then you are travellign to Pasta Prego with 2 passengers and you are happy with shared ride..
+INFORM ( ride_fare = "$16.25") & $16.25 in total.
+CONFIRM ( destination = "54 37th Avenue" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm: Going to 54 37th Avenue. The cab is for 1 person and you are fine with a shared ride.
+INFORM ( ride_fare = "$10.06") & The cost is $10.06.
+INFORM ( approximate_ride_duration = "30") & The ride is approximately 30 minutes.
+CONFIRM ( destination = "K&l Bistro" ; number_of_riders = "1" ; shared_ride = "True") & Can you confirm that you want a cab to K&l Bistro for 1 person, and you'll accept a shared ride.
+CONFIRM ( destination = "1150 Webster Street" ; number_of_riders = "2" ; shared_ride = "True") & So you want a shared cab for 2 people heading to 1150 Webster Street?
+CONFIRM ( destination = "42808 Christy Street #208" ; number_of_riders = "1") & Okay, before I book let me confirm. You want a cab for 1 person to 42808 Christy Street #208.
+CONFIRM ( destination = "334 California Avenue" ; number_of_riders = "3" ; shared_ride = "True") & Please confirm the details: You want me to call a cab for 3 people to 334 California Avenue, which will be a shared ride.
+CONFIRM ( destination = "Ni-mo Japanese Cuisine" ; number_of_riders = "1" ; shared_ride = "True") & Let me see if I got that right: You'd like a cab for 1 person, going to Ni-mo Japanese Cuisine. You'd like to share a ride. Is that correct?
+CONFIRM ( destination = "Vin Santo" ; shared_ride = "True") & Let me see if I got that right: You want a shared cab going to Vin Santo. Is that correct?
+INFORM ( approximate_ride_duration = "22") & I have successfully booked your ride and the cab in on its way. The cab ride will be 22 minutes.
+INFORM ( approximate_ride_duration = "22") & I have successfully booked your ride and the cab in on its way. The cab ride will be 22 minutes.
+CONFIRM ( destination = "455 Oconnor Drive #210" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm 455 Oconnor Drive #210 for 1. A shared ride.
+CONFIRM ( destination = "Jalisco's Restaurant" ; number_of_riders = "3") & Okay I have a cab for 3 to Jalisco's Restaurant.
+INFORM ( approximate_ride_duration = "10" ; ride_fare = "$16.09") & 10 minutes for $16.09.
+CONFIRM ( destination = "Caffe California" ; number_of_riders = "2" ; shared_ride = "True") & So you want to go to Caffe California for 2 people in a shared ride?
+INFORM ( ride_fare = "$18.53" ; approximate_ride_duration = "12") & It is booked and coming. It will be $18.53 and take 12 minutes.
+INFORM ( ride_fare = "$18.53" ; approximate_ride_duration = "12") & It is booked and coming. It will be $18.53 and take 12 minutes.
+CONFIRM ( destination = "3339 Walnut Avenue" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm the following details: Shared cab ride for 1 to 3339 Walnut Avenue.
+CONFIRM ( destination = "800 Pollard Road bldg a" ; number_of_riders = "2" ; shared_ride = "True") & Please confirm the following: 1 cab ride for 2 people to 800 Pollard Road bldg a. No preference on shared ride.
+INFORM ( approximate_ride_duration = "27" ; ride_fare = "$15.87") & Your ride has successfully been booked. The ride should take approximately 27 minutes according to traffic. This will cost $15.87.
+INFORM ( approximate_ride_duration = "27" ; ride_fare = "$15.87") & Your ride has successfully been booked. The ride should take approximately 27 minutes according to traffic. This will cost $15.87.
+CONFIRM ( destination = "337 East Leland Road" ; number_of_riders = "2" ; shared_ride = "True") & So please confirm that you want a cab for 2 people going to 337 East Leland Road and you are requesting a shared ride?
+CONFIRM ( destination = "Runyon Canyon Park" ; number_of_riders = "2") & Please confirm that you are a party of 2 people and that you want to go to Runyon Canyon Park in a cab.
+CONFIRM ( destination = "520 Van Buren Avenue" ; number_of_riders = "3" ; shared_ride = "True") & Confirm you wanna go to 520 Van Buren Avenue and for 3 people.
+CONFIRM ( destination = "Galway Terrace Apartments" ; number_of_riders = "1" ; shared_ride = "True") & Okay, let's confirm the details. You need a cab for 1 person, heading to the Galway Terrace Apartments and you want a shared ride.
+INFORM ( approximate_ride_duration = "28" ; ride_fare = "$15.40") & Okay we're all set and the cab is heading your way. It will take about 28 minutes to get there and it will cost $15.40.
+INFORM ( approximate_ride_duration = "28" ; ride_fare = "$15.40") & Okay we're all set and the cab is heading your way. It will take about 28 minutes to get there and it will cost $15.40.
+CONFIRM ( destination = "Georgetown Waterfront Park" ; number_of_riders = "1" ; shared_ride = "True") & Please make sure this is correct: You want to go to Georgetown Waterfront Park in a shared cab with 1 person.
+CONFIRM ( destination = "Las Casas De San Pedro Apartments" ; number_of_riders = "1") & Please make sure this is correct: You want to go to Las Casas De San Pedro Apartments in a shared cab with 1 person.
+INFORM ( approximate_ride_duration = "23") & It will be about 23 minutes and your ride is booked and on the way.
+INFORM ( approximate_ride_duration = "23") & It will be about 23 minutes and your ride is booked and on the way.
+CONFIRM ( destination = "6800 Palm Avenue" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm that you want to go to 6800 Palm Avenue, and that you are 1 person and you want a shared ride.
+INFORM ( approximate_ride_duration = "30" ; ride_fare = "$9.48") & Your ride was booked and the cab has been dispatched. It will take about 30 minutes and costs $9.48.
+INFORM ( approximate_ride_duration = "30" ; ride_fare = "$9.48") & Your ride was booked and the cab has been dispatched. It will take about 30 minutes and costs $9.48.
+CONFIRM ( destination = "The Reel Fish Shop & Grill" ; number_of_riders = "3" ; shared_ride = "True") & Please clarify: You would like a shared cab for 3 people to The Reel Fish Shop & Grill.
+CONFIRM ( destination = "The Reel Fish Shop & Grill" ; number_of_riders = "1") & Please clarify: You would like a cab to The Reel Fish Shop & Grill for 1 person.
+INFORM ( ride_fare = "$15.32") & The cost is $15.32.
+CONFIRM ( destination = "National Science Centre" ; number_of_riders = "1" ; shared_ride = "True") & I would like to confirm the following: a shared ride for 1 person at the National Science Centre.
+INFORM ( approximate_ride_duration = "13") & The ride is approximately 13 minutes.
+CONFIRM ( destination = "951 Pomona Avenue" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm to book a shared ride cab for 1 person to 951 Pomona Avenue.
+INFORM ( approximate_ride_duration = "27") & The ride will be for 27 minutes and have booked your cab which will reach you soon.
+INFORM ( approximate_ride_duration = "27") & The ride will be for 27 minutes and have booked your cab which will reach you soon.
+CONFIRM ( destination = "Arbol Verde Apartments" ; number_of_riders = "1" ; shared_ride = "True") & Destination Arbol Verde Apartments for 1 person.
+CONFIRM ( destination = "4757 Snyder Lane" ; number_of_riders = "3" ; shared_ride = "True") & All right. I'm ordering a shared-ride taxicab for 3 passengers who are going to 4757 Snyder Lane. Shall I confirm that?
+CONFIRM ( destination = "Royal Geographical Society" ; shared_ride = "True") & Okay. I'm ordering the shared-ride taxicab for your ride to the Royal Geographical Society. Shall I confirm that?
+CONFIRM ( destination = "Royal Geographical Society" ; number_of_riders = "1") & Got it. I'm ordering the shared-ride taxicab for 1 person, going to the Royal Geographical Society. Shall I confirm that?
+INFORM ( ride_fare = "$12.92") & Your ride is now confirmed and the taxicab will arrive shortly. The total for the trip is $12.92.
+INFORM ( ride_fare = "$12.92") & Your ride is now confirmed and the taxicab will arrive shortly. The total for the trip is $12.92.
+CONFIRM ( destination = "2100 Webster Street Suite 411" ; number_of_riders = "3" ; shared_ride = "True") & You want a shared ride for 3 people and you are going to 2100 Webster Street Suite 411. Is that right?
+CONFIRM ( destination = "2042 University Avenue" ; number_of_riders = "2" ; shared_ride = "True") & So I'll find a shared cab for 2 people to go to 2042 University Avenue, okay?
+INFORM ( approximate_ride_duration = "17" ; ride_fare = "$17.34") & I've booked a cab successfully. The ride will take 17 minutes and cost $17.34.
+INFORM ( approximate_ride_duration = "17" ; ride_fare = "$17.34") & I've booked a cab successfully. The ride will take 17 minutes and cost $17.34.
+CONFIRM ( destination = "Ume Sushi Japanese Restaurant" ; number_of_riders = "2" ; shared_ride = "True") & Confirming a shared ride for 2 to Ume Sushi Japanese Restaurant
+CONFIRM ( destination = "698 Post Street" ; number_of_riders = "1" ; shared_ride = "True") & A shared taxi for 1 person to 698 Post Street. Is that correct?
+INFORM ( approximate_ride_duration = "31") & Your taxi will be here momentarily. Your ride will be around 31 minutes.
+INFORM ( approximate_ride_duration = "31") & Your taxi will be here momentarily. Your ride will be around 31 minutes.
+CONFIRM ( destination = "Museo del Caracol" ; number_of_riders = "2" ; shared_ride = "True") & please confirm this you need a ride to Museo del Caracol for 2 people and you dont mind a shared ride
+CONFIRM ( number_of_riders = "3" ; shared_ride = "True") & so reconfirm this for me you need a cab for 3 people and you dont mind if its a shared ride
+INFORM ( ride_fare = "$22.19" ; approximate_ride_duration = "17") & your ride is confirmed its going to be $22.19 and it will take 17 minutes
+INFORM ( ride_fare = "$22.19" ; approximate_ride_duration = "17") & your ride is confirmed its going to be $22.19 and it will take 17 minutes
+CONFIRM ( destination = "5251 Martinelli Way" ; number_of_riders = "2" ; shared_ride = "True") & Please confirm that you need a taxi for 2 passengers to go to 5251 Martinelli Way and a shared ride would be okay.
+INFORM ( approximate_ride_duration = "23" ; ride_fare = "$17.88") & The total cost is approximately $17.88 and the ride will take about 23 minutes.
+CONFIRM ( destination = "769 Center Boulevard #124" ; number_of_riders = "3" ; shared_ride = "True") & Please confirm the details. There will be 3 in the party and your destination is 769 Center Boulevard #124 and you want a shared ride?
+INFORM ( ride_fare = "$25.88" ; approximate_ride_duration = "26") & The ride is booked and it costs $25.88. The total ride will be 26 minutes.
+INFORM ( ride_fare = "$25.88" ; approximate_ride_duration = "26") & The ride is booked and it costs $25.88. The total ride will be 26 minutes.
+CONFIRM ( destination = "200 Greenbriar Circle" ; number_of_riders = "2" ; shared_ride = "True") & Please confirm the details for the ride: You want a cab for 2 people to go to 200 Greenbriar Circle and you're okay with a shared ride.
+CONFIRM ( destination = "Chilpancingo Vista Apartments" ; number_of_riders = "1") & So you want a cab for 1 person to take you to Chilpancingo Vista Apartments, right?
+INFORM ( approximate_ride_duration = "24" ; ride_fare = "$14.99") & It'll take about 24 minutes and cost $14.99.
+CONFIRM ( destination = "560 Waverley Street" ; number_of_riders = "1" ; shared_ride = "True") & please confirm thr following details: you want to book a cab for 1 people in a shared ride to 560 Waverley Street.
+CONFIRM ( destination = "3136 Contra Loma Boulevard" ; number_of_riders = "2" ; shared_ride = "True") & Shall I book a shared cab for 2 people to 3136 Contra Loma Boulevard?
+CONFIRM ( destination = "Sons of Liberty Alehouse" ; number_of_riders = "3" ; shared_ride = "True") & Please confirm these details: There are 3 passengers traveling to Sons of Liberty Alehouse. A shared ride would be acceptable.
+INFORM ( ride_fare = "$13.75") & The taxi has been booked and it is headed to your location. The total cost will be $13.75.
+INFORM ( ride_fare = "$13.75") & The taxi has been booked and it is headed to your location. The total cost will be $13.75.
+CONFIRM ( destination = "211 Quarry Road #107" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm the following: you want a shared cab ride to 211 Quarry Road #107 for 1 person.
+INFORM ( ride_fare = "$8.20") & The cab has been booked and the driver is en route. The ride cost $8.20.
+INFORM ( ride_fare = "$8.20") & The cab has been booked and the driver is en route. The ride cost $8.20.
+CONFIRM ( destination = "605 Cowper Street" ; number_of_riders = "1" ; shared_ride = "True") & Can you confirm the following details: 1 person wants to go to 605 Cowper Street and you want a shared ride?
+INFORM ( approximate_ride_duration = "15" ; ride_fare = "$12.26") & Your ride is booked and the cab is on the way. The ride will be about 15 min and cost $12.26.
+INFORM ( approximate_ride_duration = "15" ; ride_fare = "$12.26") & Your ride is booked and the cab is on the way. The ride will be about 15 min and cost $12.26.
+CONFIRM ( destination = "20700 Lake Chabot Road" ; number_of_riders = "2" ; shared_ride = "True") & You want a shared ride in a taxi for 2 people to 20700 Lake Chabot Road. Is that correct?
+CONFIRM ( destination = "1512 Locust Street" ; number_of_riders = "1" ; shared_ride = "True") & Okay, you will need a cab for 1 person to take you to 1512 Locust Street and it can be a shared ride, correct?
+INFORM ( approximate_ride_duration = "10" ; ride_fare = "$7.38") & Yes, I have confirmed your cab ride that will take 10 minutes and cost $7.38.
+INFORM ( approximate_ride_duration = "10" ; ride_fare = "$7.38") & Yes, I have confirmed your cab ride that will take 10 minutes and cost $7.38.
+CONFIRM ( destination = "22 Belden Place" ; number_of_riders = "1" ; shared_ride = "True") & Okay, you need a shared cab to 22 Belden Place for 1 person. Is that right?
+CONFIRM ( number_of_riders = "2" ; shared_ride = "True") & Okay, so you need the shared cab for 2 people. Right?
+INFORM ( ride_fare = "$14.81") & The cab charge is $14.81.
+CONFIRM ( destination = "BAM Howard Gilman Opera House" ; number_of_riders = "1" ; shared_ride = "True") & So you'll need a cab for 1 person, shared ride, to BAM Howard Gilman Opera House, is that all correct?
+INFORM ( approximate_ride_duration = "11" ; ride_fare = "$10.37") & The ride will be around 11 minutes and cost $10.37. I booked the cab and it's on route to you.
+INFORM ( approximate_ride_duration = "11" ; ride_fare = "$10.37") & The ride will be around 11 minutes and cost $10.37. I booked the cab and it's on route to you.
+CONFIRM ( destination = "630 Park Court" ; number_of_riders = "2" ; shared_ride = "True") & Please confirm that you want to go to 630 Park Court in a cab for 2 people. Also you want a shared ride, correct?
+INFORM ( approximate_ride_duration = "19") & Your ride has been booked and the can is heading your way. The ride will take 19 minutes to reach your destination.
+INFORM ( approximate_ride_duration = "19") & Your ride has been booked and the can is heading your way. The ride will take 19 minutes to reach your destination.
+INFORM ( ride_fare = "$18.95") & The final price to you is $18.95.
+CONFIRM ( destination = "Aato" ; number_of_riders = "1" ; shared_ride = "True") & You need a cab for 1 person, shared ride, going to Aato is this correct?
+CONFIRM ( destination = "2100 Monument Boulevard #8" ; number_of_riders = "3") & Alright so you need a cab for 3 people going to 2100 Monument Boulevard #8 correct?
+CONFIRM ( destination = "Pelayo's Mexican Food" ; number_of_riders = "2" ; shared_ride = "True") & Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding.
+INFORM ( ride_fare = "$23.86" ; approximate_ride_duration = "17") & 17 minutes and it will run you $23.86.
+INFORM ( ride_fare = "$23.86" ; approximate_ride_duration = "17") & 17 minutes and it will run you $23.86.
+CONFIRM ( destination = "Woodcreek" ; number_of_riders = "2" ; shared_ride = "True") & Please verify that you'd like a shared cab for 2 people to Woodcreek.
+INFORM ( ride_fare = "$19.59") & The cab will cost $19.59. Your ride is booked and on the way to you.
+INFORM ( ride_fare = "$19.59") & The cab will cost $19.59. Your ride is booked and on the way to you.
+CONFIRM ( destination = "St. Vincent Tavern and Wine Merchant" ; number_of_riders = "1" ; shared_ride = "True") & Alright, you want 1 spot in a shared ride to St. Vincent Tavern and Wine Merchant. Is that correct?
+INFORM ( ride_fare = "$10.15" ; approximate_ride_duration = "16") & It's a 16 minute ride and will cost $10.15.
+CONFIRM ( destination = "4342 California Street" ; number_of_riders = "2" ; shared_ride = "True") & Please confirm that you want to go to 4342 California Street. The cab is for 2 people and you want a shared ride.
+CONFIRM ( destination = "400 Moffett Boulevard" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm that you want a shared cab for 1 going to 400 Moffett Boulevard.
+INFORM ( ride_fare = "$10.86" ; approximate_ride_duration = "21") & It's a 21 minute ride costing $10.86 total.
+CONFIRM ( destination = "Kitson road" ; number_of_riders = "4" ; shared_ride = "True") & Can you confirm me the details? You want to go to Kitson road and need a cab for 4 people. You want a shared ride.
+INFORM ( ride_fare = "$13.12" ; approximate_ride_duration = "32") & Your ride was successfully booked. It will cost you $13.12. The ride will last about 32 minutes.
+INFORM ( ride_fare = "$13.12" ; approximate_ride_duration = "32") & Your ride was successfully booked. It will cost you $13.12. The ride will last about 32 minutes.
+CONFIRM ( destination = "Wang Wah" ; number_of_riders = "1" ; shared_ride = "True") & So please confirm that you need a shared cab for 1 person to Wang Wah yes?
+INFORM ( ride_fare = "$11.08" ; approximate_ride_duration = "9") & It's gonna cost $11.08 and will take around 9 minutes. Your cab is on the way
+INFORM ( ride_fare = "$11.08" ; approximate_ride_duration = "9") & It's gonna cost $11.08 and will take around 9 minutes. Your cab is on the way
+CONFIRM ( destination = "1546 Maurice Lane" ; number_of_riders = "1" ; shared_ride = "True") & Ok, so you want a cab for 1 going to 1546 Maurice Lane?
+CONFIRM ( destination = "Matador" ; number_of_riders = "3" ; shared_ride = "True") & So that's a shared ride for 3 people to Matador.
+CONFIRM ( destination = "Iberia" ; number_of_riders = "3") & Okay so that's 3 people travelling to Iberia.
+INFORM ( approximate_ride_duration = "7") & It will be around 7 minutes depending on traffic.
+CONFIRM ( destination = "Hop Creek Pub" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm: a shared ride to Hop Creek Pub for 1 person?
+INFORM ( ride_fare = "$14.57") & Your ride will be here soon. It costs $14.57.
+INFORM ( ride_fare = "$14.57") & Your ride will be here soon. It costs $14.57.
+CONFIRM ( destination = "CineLux Delta Cinema Saver" ; number_of_riders = "1" ; shared_ride = "True") & Please confirm the following details: Scheduling a shared ride for 1 person to go to the CineLux Delta Cinema Saver.
+INFORM ( ride_fare = "$8.00") & The cost is $8.00.
+CONFIRM ( destination = "Lers Ros Thai" ; number_of_riders = "1" ; shared_ride = "True") & Just confirming your shared ride for 1 to Lers Ros Thai
+CONFIRM ( destination = "18300 Carriage Drive" ; number_of_riders = "2" ; shared_ride = "True") & Confirming a shared cab for 2 to 18300 Carriage Drive. Is that correct?
+INFORM ( approximate_ride_duration = "18") & Your ride is booked and on the way and it should take around 18 minutes typically.
+INFORM ( approximate_ride_duration = "18") & Your ride is booked and on the way and it should take around 18 minutes typically.
+INFORM ( ride_fare = "$9.59") & It's gonna cost $9.59 total
+CONFIRM ( destination = "Shiki Japanese Cuisine" ; number_of_riders = "3" ; shared_ride = "True") & Please verify the following information: you want a shared ride on a taxi for 3 passengers to go to Shiki Japanese Cuisine.
+CONFIRM ( destination = "Shiki Japanese Cuisine" ; number_of_riders = "1") & Please verify the following information: you want a taxi for 1 passengers to go to Shiki Japanese Cuisine.
+CONFIRM ( destination = "1740 South Winchester Boulevard" ; shared_ride = "True") & Please verify the following information: you'd like a shared ride to 1740 South Winchester Boulevard.
+CONFIRM ( destination = "1538 Third Ave, East 86th Street" ; number_of_riders = "3" ; shared_ride = "True") & So you want a shared ride for 3 people, going to 1538 Third Ave, East 86th Street?
+INFORM ( ride_fare = "$27.78") & Your ride is confirmed and a cab is on the way. The fare is $27.78.
+INFORM ( ride_fare = "$27.78") & Your ride is confirmed and a cab is on the way. The fare is $27.78.
+INFORM ( approximate_ride_duration = "26") & The ride will be about 26 minutes long.
+CONFIRM ( destination = "AMC NewPark 12" ; number_of_riders = "2" ; shared_ride = "True") & So you want a shared ride for 2 people to go to AMC NewPark 12?
+CONFIRM ( destination = "The Grotto San Francisco" ; number_of_riders = "1" ; shared_ride = "True") & You would like to get a cab to take 1 person to The Grotto San Francisco, you are comfortable with a shared ride. Is this correct?
+INFORM ( approximate_ride_duration = "13") & Thank you. The ride should take about 13 minutes.
+CONFIRM ( destination = "1900 University Ave #105" ; number_of_riders = "2" ; shared_ride = "True") & Please confirm: a shared ride for 2 people to 1900 University Ave #105
+INFORM ( ride_fare = "$24.83" ; approximate_ride_duration = "8") & Your cab is headed your way. It's about an 8 minute ride and costs $24.83
+INFORM ( ride_fare = "$24.83" ; approximate_ride_duration = "8") & Your cab is headed your way. It's about an 8 minute ride and costs $24.83
+CONFIRM ( destination = "One Ferry Building #35" ; number_of_riders = "2" ; shared_ride = "True") & Okay, please confirm: cab for 2 people to One Ferry Building #35. Ride sharing is okay.
+CONFIRM ( destination = "Mister Jiu's" ; number_of_riders = "3") & Please confirm: cab for 3 people to Mister Jiu's.

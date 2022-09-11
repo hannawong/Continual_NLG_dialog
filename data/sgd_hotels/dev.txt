@@ -1,0 +1,311 @@
+CONFIRM ( where_to = "Chicago" ; number_of_adults = "1" ; check_in_date = "next monday" ; check_out_date = "March 12th") & Ok, thank you for all the details. I would like to confirm the following details before the reservation is finalized. You would like to book a house in Chicago for 1 person. Check in is next monday and check out is March 12th.
+CONFIRM ( where_to = "New York" ; check_out_date = "March 11th") & Not a problem. Once again I would like to confirm the changes before a finalization in reservation. You would like to book a home in New York with a check out date on March 11th.
+INFORM ( has_laundry_service = "True") & Perfect, I have finalized your reservation. Also, yes this house does have laundry service.
+INFORM ( has_laundry_service = "True") & Perfect, I have finalized your reservation. Also, yes this house does have laundry service.
+OFFER ( address = "1 Rue Bayard, 75008" ; rating = "3.7") & OK, there are 10 options. There is a good one with a 3.7 rating at 1 Rue Bayard, 75008.
+OFFER ( address = "1 Rue Bayard, 75008" ; rating = "3.7") & OK, there are 10 options. There is a good one with a 3.7 rating at 1 Rue Bayard, 75008.
+OFFER ( address = "1 Rue Bayard, 75008" ; rating = "3.7") & OK, there are 10 options. There is a good one with a 3.7 rating at 1 Rue Bayard, 75008.INFORM_COUNT ( count = "10") & OK, there are 10 options. There is a good one with a 3.7 rating at 1 Rue Bayard, 75008.
+OFFER ( address = "1 Ham Yard" ; rating = "4.4") & I found 10 houses. One is located at 1 Ham Yard and has a 4.4 rating.
+OFFER ( address = "1 Ham Yard" ; rating = "4.4") & I found 10 houses. One is located at 1 Ham Yard and has a 4.4 rating.
+OFFER ( address = "1 Ham Yard" ; rating = "4.4") & I found 10 houses. One is located at 1 Ham Yard and has a 4.4 rating.INFORM_COUNT ( count = "10") & I found 10 houses. One is located at 1 Ham Yard and has a 4.4 rating.
+OFFER ( address = "120 West 41st Street" ; rating = "4.6") & Okay! I've found 10 nice houses for you in New York. There is a nice place rated at 4.6 located at 120 West 41st Street.
+OFFER ( address = "120 West 41st Street" ; rating = "4.6") & Okay! I've found 10 nice houses for you in New York. There is a nice place rated at 4.6 located at 120 West 41st Street.
+OFFER ( address = "120 West 41st Street" ; rating = "4.6") & Okay! I've found 10 nice houses for you in New York. There is a nice place rated at 4.6 located at 120 West 41st Street.INFORM_COUNT ( count = "10") & Okay! I've found 10 nice houses for you in New York. There is a nice place rated at 4.6 located at 120 West 41st Street.
+INFORM ( phone_number = "+1 212-730-0099") & Their number is +1 212-730-0099.
+INFORM ( has_laundry_service = "True") & Yes they absolutely do!
+OFFER ( address = "1 Addington Street" ; rating = "4.1") & I have for you 10 houses.A nice house with rating 4.1 located at 1 Addington Street.
+OFFER ( address = "1 Addington Street" ; rating = "4.1") & I have for you 10 houses.A nice house with rating 4.1 located at 1 Addington Street.
+OFFER ( address = "1 Addington Street" ; rating = "4.1") & I have for you 10 houses.A nice house with rating 4.1 located at 1 Addington Street.INFORM_COUNT ( count = "10") & I have for you 10 houses.A nice house with rating 4.1 located at 1 Addington Street.
+OFFER ( address = "1 Baffin Way" ; rating = "4.1") & With rating 4.1 is a nice house located at 1 Baffin Way.
+OFFER ( address = "Avenida Almirante Silvio de Noronha, 365 - Centro" ; rating = "4.6") & I have found 10 available houses. There is a house with a 4.6 rating located at Avenida Almirante Silvio de Noronha, 365 - Centro.
+OFFER ( address = "Avenida Almirante Silvio de Noronha, 365 - Centro" ; rating = "4.6") & I have found 10 available houses. There is a house with a 4.6 rating located at Avenida Almirante Silvio de Noronha, 365 - Centro.
+OFFER ( address = "Avenida Almirante Silvio de Noronha, 365 - Centro" ; rating = "4.6") & I have found 10 available houses. There is a house with a 4.6 rating located at Avenida Almirante Silvio de Noronha, 365 - Centro.INFORM_COUNT ( count = "10") & I have found 10 available houses. There is a house with a 4.6 rating located at Avenida Almirante Silvio de Noronha, 365 - Centro.
+OFFER ( address = "Alt-Moabit 99, 10559" ; rating = "4.4") & There's a nice house in Berlin located at Alt-Moabit 99, 10559. They have a rating of 4.4.
+INFORM ( has_laundry_service = "True") & Yes, they do.
+OFFER ( address = "Alt-Reinickendorf 4-5, 13407" ; rating = "3.6") & There is also a house at Alt-Reinickendorf 4-5, 13407. THey have a rating of 3.6
+OFFER ( address = "Avenida Almirante Silvio de Noronha, 365 - Centro" ; rating = "4.6") & I found 10 possibilities. There's one located at Avenida Almirante Silvio de Noronha, 365 - Centro. It has a 4.6 rating.
+OFFER ( address = "Avenida Almirante Silvio de Noronha, 365 - Centro" ; rating = "4.6") & I found 10 possibilities. There's one located at Avenida Almirante Silvio de Noronha, 365 - Centro. It has a 4.6 rating.
+OFFER ( address = "Avenida Almirante Silvio de Noronha, 365 - Centro" ; rating = "4.6") & I found 10 possibilities. There's one located at Avenida Almirante Silvio de Noronha, 365 - Centro. It has a 4.6 rating.INFORM_COUNT ( count = "10") & I found 10 possibilities. There's one located at Avenida Almirante Silvio de Noronha, 365 - Centro. It has a 4.6 rating.
+OFFER ( address = "1 South Franklin Street" ; rating = "4.4") & There is a 4.4 rated house at 1 South Franklin Street.
+INFORM ( phone_number = "+1 312-558-1020" ; has_laundry_service = "False") & The house does not offer laundry services. The number is +1 312-558-1020.
+OFFER ( address = "100 Greenwich Street" ; rating = "4.3") & There's a lovely residence situated at 100 Greenwich Street with a 4.3 rating.
+OFFER ( address = "100 Capitol mall" ; rating = "4.4") & There are 10 houses available, of which there is a 4.4 rated house at 100 Capitol mall
+OFFER ( address = "100 Capitol mall" ; rating = "4.4") & There are 10 houses available, of which there is a 4.4 rated house at 100 Capitol mall
+OFFER ( address = "100 Capitol mall" ; rating = "4.4") & There are 10 houses available, of which there is a 4.4 rated house at 100 Capitol mallINFORM_COUNT ( count = "10") & There are 10 houses available, of which there is a 4.4 rated house at 100 Capitol mall
+INFORM ( phone_number = "+1 916-326-5000" ; has_laundry_service = "True") & yes, they do have laundry service, and the contact number is +1 916-326-5000
+OFFER ( address = "1121 15th Street" ; rating = "4.3") & There is a 4.3 rated house at 1121 15th Street
+OFFER ( address = "Avenida Almirante Silvio de Noronha, 365 - Centro" ; rating = "4.2") & I found a house rated 4.2 at Avenida Almirante Silvio de Noronha, 365 - Centro.
+OFFER ( address = "Avenida Embaixador Abelardo Bueno, 1430" ; rating = "4.2") & I found another home that is rated 4.2 at Avenida Embaixador Abelardo Bueno, 1430.
+INFORM ( phone_number = "+55 21 3348-1000" ; has_laundry_service = "True") & Yes, laundry service is available. The phone number is +55 21 3348-1000.
+OFFER ( address = "1118 North State Street" ; rating = "4.6") & There are 10 houses found. There is a great option at 1118 North State Street, with a rating of 4.6.
+OFFER ( address = "1118 North State Street" ; rating = "4.6") & There are 10 houses found. There is a great option at 1118 North State Street, with a rating of 4.6.
+OFFER ( address = "1118 North State Street" ; rating = "4.6") & There are 10 houses found. There is a great option at 1118 North State Street, with a rating of 4.6.INFORM_COUNT ( count = "10") & There are 10 houses found. There is a great option at 1118 North State Street, with a rating of 4.6.
+OFFER ( address = "113-125 North Green Street" ; rating = "4.6") & There is a nice house at 113-125 North Green Street. The average rating out of 5 is a 4.6.
+OFFER ( address = "1133 Atlantic Avenue" ; rating = "4.0") & I've just checked and there are 7 possibilities good for you, there's a place rated 4.0 in 1133 Atlantic Avenue.
+OFFER ( address = "1133 Atlantic Avenue" ; rating = "4.0") & I've just checked and there are 7 possibilities good for you, there's a place rated 4.0 in 1133 Atlantic Avenue.
+OFFER ( address = "1133 Atlantic Avenue" ; rating = "4.0") & I've just checked and there are 7 possibilities good for you, there's a place rated 4.0 in 1133 Atlantic Avenue.INFORM_COUNT ( count = "7") & I've just checked and there are 7 possibilities good for you, there's a place rated 4.0 in 1133 Atlantic Avenue.
+INFORM ( phone_number = "+1 562-590-8858") & The number to call is +1 562-590-8858
+OFFER ( address = "1018 Granville Street" ; rating = "4.1") & I got 10 houses and the one is located at 1018 Granville Street with rating 4.1. What is your opinion?
+OFFER ( address = "1018 Granville Street" ; rating = "4.1") & I got 10 houses and the one is located at 1018 Granville Street with rating 4.1. What is your opinion?
+OFFER ( address = "1018 Granville Street" ; rating = "4.1") & I got 10 houses and the one is located at 1018 Granville Street with rating 4.1. What is your opinion?INFORM_COUNT ( count = "10") & I got 10 houses and the one is located at 1018 Granville Street with rating 4.1. What is your opinion?
+OFFER ( address = "Alt-Moabit 99, 10559" ; rating = "4.4") & Okay. I have found a house located at Alt-Moabit 99, 10559 which is a nice house with rating 4.4. Do you like it?
+OFFER ( address = "Alt-Reinickendorf 4-5, 13407" ; rating = "3.6") & What about an another house at Alt-Reinickendorf 4-5, 13407 with rating 3.6?
+OFFER ( address = "1 Cullinan Street, Cape Town City Centre" ; rating = "4.5") & Absolutely. I've found 10 houses, one is in 1 Cullinan Street, Cape Town City Centre and it's rated 4.5
+OFFER ( address = "1 Cullinan Street, Cape Town City Centre" ; rating = "4.5") & Absolutely. I've found 10 houses, one is in 1 Cullinan Street, Cape Town City Centre and it's rated 4.5
+OFFER ( address = "1 Cullinan Street, Cape Town City Centre" ; rating = "4.5") & Absolutely. I've found 10 houses, one is in 1 Cullinan Street, Cape Town City Centre and it's rated 4.5INFORM_COUNT ( count = "10") & Absolutely. I've found 10 houses, one is in 1 Cullinan Street, Cape Town City Centre and it's rated 4.5
+OFFER ( address = "111 Robson Street" ; rating = "4.3") & I found 10 homes including a home rated 4.3 at 111 Robson Street.
+OFFER ( address = "111 Robson Street" ; rating = "4.3") & I found 10 homes including a home rated 4.3 at 111 Robson Street.
+OFFER ( address = "111 Robson Street" ; rating = "4.3") & I found 10 homes including a home rated 4.3 at 111 Robson Street.INFORM_COUNT ( count = "10") & I found 10 homes including a home rated 4.3 at 111 Robson Street.
+OFFER ( address = "1 Cullinan Street, Cape Town City Centre" ; rating = "4.3") & I found one nice house located at 1 Cullinan Street, Cape Town City Centre and the rating is 4.3.
+OFFER ( address = "1 Lower Buitengracht, Cape Town City Centre" ; rating = "4.3") & I found another nice house located at 1 Lower Buitengracht, Cape Town City Centre and the rating is 4.3.
+OFFER ( address = "1020 south FIgueroa Street" ; rating = "4.1") & What about a house located at 1020 south FIgueroa Street? its rating is 4.1.
+OFFER ( address = "1 Addington Street" ; rating = "4.3") & I found 10 available houses. There's a real nice one at 1 Addington Street with a 4.3 rating.
+OFFER ( address = "1 Addington Street" ; rating = "4.3") & I found 10 available houses. There's a real nice one at 1 Addington Street with a 4.3 rating.
+OFFER ( address = "1 Addington Street" ; rating = "4.3") & I found 10 available houses. There's a real nice one at 1 Addington Street with a 4.3 rating.INFORM_COUNT ( count = "10") & I found 10 available houses. There's a real nice one at 1 Addington Street with a 4.3 rating.
+INFORM ( phone_number = "+44 333 400 6116" ; has_laundry_service = "True") & They do. Their number is +44 333 400 6116.
+OFFER ( address = "2, Sardar Patel Marg, Diplomatic Enclave, New Delhi" ; rating = "4.6") & There are 5 houses for your search including a nice house at 2, Sardar Patel Marg, Diplomatic Enclave, New Delhi with a 4.6 rating.
+OFFER ( address = "2, Sardar Patel Marg, Diplomatic Enclave, New Delhi" ; rating = "4.6") & There are 5 houses for your search including a nice house at 2, Sardar Patel Marg, Diplomatic Enclave, New Delhi with a 4.6 rating.
+OFFER ( address = "2, Sardar Patel Marg, Diplomatic Enclave, New Delhi" ; rating = "4.6") & There are 5 houses for your search including a nice house at 2, Sardar Patel Marg, Diplomatic Enclave, New Delhi with a 4.6 rating.INFORM_COUNT ( count = "5") & There are 5 houses for your search including a nice house at 2, Sardar Patel Marg, Diplomatic Enclave, New Delhi with a 4.6 rating.
+INFORM ( has_laundry_service = "True") & The place does have laundry service.
+OFFER ( address = "1 Addington Street" ; rating = "4.3") & No problem! I've located a very nice house at 1 Addington Street with a 4.3 star rating.
+OFFER ( address = "100 Greenwich Street" ; rating = "4.4") & I found a nice play at 100 Greenwich Street with a 4.4 rating.
+INFORM ( has_laundry_service = "True") & Yes they do.
+OFFER ( address = "100 greenwich street" ; rating = "4.4") & I got 10 places. How about 100 greenwich street? it has been rated 4.4
+OFFER ( address = "100 greenwich street" ; rating = "4.4") & I got 10 places. How about 100 greenwich street? it has been rated 4.4
+OFFER ( address = "100 greenwich street" ; rating = "4.4") & I got 10 places. How about 100 greenwich street? it has been rated 4.4INFORM_COUNT ( count = "10") & I got 10 places. How about 100 greenwich street? it has been rated 4.4
+INFORM ( phone_number = "+1 917-409-0800") & yes, it's +1 917-409-0800
+OFFER ( address = "200 South Pine Avenue" ; rating = "4.2") & Of the 9 homes I have found, I'd like to recommend 200 South Pine Avenue. It meets your standard rating of 4.2.
+OFFER ( address = "200 South Pine Avenue" ; rating = "4.2") & Of the 9 homes I have found, I'd like to recommend 200 South Pine Avenue. It meets your standard rating of 4.2.
+OFFER ( address = "200 South Pine Avenue" ; rating = "4.2") & Of the 9 homes I have found, I'd like to recommend 200 South Pine Avenue. It meets your standard rating of 4.2.INFORM_COUNT ( count = "9") & Of the 9 homes I have found, I'd like to recommend 200 South Pine Avenue. It meets your standard rating of 4.2.
+OFFER ( address = "200 South Pine Avenue" ; rating = "4.2") & I found 9 that fit. There's one at 200 South Pine Avenue with a 4.2 rating.
+OFFER ( address = "200 South Pine Avenue" ; rating = "4.2") & I found 9 that fit. There's one at 200 South Pine Avenue with a 4.2 rating.
+OFFER ( address = "200 South Pine Avenue" ; rating = "4.2") & I found 9 that fit. There's one at 200 South Pine Avenue with a 4.2 rating.INFORM_COUNT ( count = "9") & I found 9 that fit. There's one at 200 South Pine Avenue with a 4.2 rating.
+OFFER ( address = "285 Bay Street" ; rating = "4.2") & I found 8 that are possible. There's a good one located at 285 Bay Street with a 4.2 rating.
+OFFER ( address = "285 Bay Street" ; rating = "4.2") & I found 8 that are possible. There's a good one located at 285 Bay Street with a 4.2 rating.
+OFFER ( address = "285 Bay Street" ; rating = "4.2") & I found 8 that are possible. There's a good one located at 285 Bay Street with a 4.2 rating.INFORM_COUNT ( count = "8") & I found 8 that are possible. There's a good one located at 285 Bay Street with a 4.2 rating.
+OFFER ( address = "9042/1044 Tower Avenue Jomo Kenyatta Intl Airport, Kenya" ; rating = "4.5") & There are 10 houses available for you considering your preferences. One of the options is a nice house located at 9042/1044 Tower Avenue Jomo Kenyatta Intl Airport, Kenya, which has a rating of 4.5.
+OFFER ( address = "9042/1044 Tower Avenue Jomo Kenyatta Intl Airport, Kenya" ; rating = "4.5") & There are 10 houses available for you considering your preferences. One of the options is a nice house located at 9042/1044 Tower Avenue Jomo Kenyatta Intl Airport, Kenya, which has a rating of 4.5.
+OFFER ( address = "9042/1044 Tower Avenue Jomo Kenyatta Intl Airport, Kenya" ; rating = "4.5") & There are 10 houses available for you considering your preferences. One of the options is a nice house located at 9042/1044 Tower Avenue Jomo Kenyatta Intl Airport, Kenya, which has a rating of 4.5.INFORM_COUNT ( count = "10") & There are 10 houses available for you considering your preferences. One of the options is a nice house located at 9042/1044 Tower Avenue Jomo Kenyatta Intl Airport, Kenya, which has a rating of 4.5.
+INFORM ( has_laundry_service = "True") & I can confirm that this place has laundry service.
+OFFER ( address = "1 Columbia Court, Baulkham Hills New South Wales 2153, Australia" ; rating = "4.1") & There is a house at 1 Columbia Court, Baulkham Hills New South Wales 2153, Australia it has a 4.1 rating.
+OFFER ( address = "101 Andrew Young International Boulevard Northwest" ; rating = "4.3") & There is a house at 101 Andrew Young International Boulevard Northwest for 4.3 rating.
+INFORM ( phone_number = "+1 404-524-5555" ; has_laundry_service = "True") & The phone number is +1 404-524-5555. Yes, there is laundry service.
+OFFER ( address = "1065 Peachtree Street Northeast" ; rating = "4.3") & There is a house at 1065 Peachtree Street Northeast and the rating is 4.3.
+OFFER ( address = "100 Greenwich Street" ; rating = "4.3") & I have 10 possibilities that I can tell you about. One of them is at 100 Greenwich Street and it has a 4.3 rating.
+OFFER ( address = "100 Greenwich Street" ; rating = "4.3") & I have 10 possibilities that I can tell you about. One of them is at 100 Greenwich Street and it has a 4.3 rating.
+OFFER ( address = "100 Greenwich Street" ; rating = "4.3") & I have 10 possibilities that I can tell you about. One of them is at 100 Greenwich Street and it has a 4.3 rating.INFORM_COUNT ( count = "10") & I have 10 possibilities that I can tell you about. One of them is at 100 Greenwich Street and it has a 4.3 rating.
+CONFIRM ( hotel_name = "Courtyard by marriott new york downtown manhattan/world trade center area" ; check_in_date = "next monday" ; number_of_days = "4" ; destination = "New york" ; number_of_rooms = "1") & Please confirm your booking of 1 rooms for 4 days checking in next monday at Courtyard by marriott new york downtown manhattan/world trade center area in New york
+INFORM ( has_wifi = "True" ; street_address = "133 greenwich street") & the hotel address is 133 greenwich street. They do provide wifi. Your room is booked
+INFORM ( has_wifi = "True" ; street_address = "133 greenwich street") & the hotel address is 133 greenwich street. They do provide wifi. Your room is booked
+CONFIRM ( hotel_name = "Veriu Central" ; check_in_date = "next Tuesday" ; number_of_days = "3" ; destination = "Sydney" ; number_of_rooms = "1") & Okay, thank you! Can you confirm the following details, please? You want to reserve 1 room at Veriu Central in Sydney starting next Tuesday for 3 days.
+CONFIRM ( number_of_days = "2" ; destination = "Sydney") & No problem! Can you confirm the following details, please? Your reservation is for 2 days in Sydney.
+CONFIRM ( check_in_date = "next Tuesday" ; destination = "Kuala Lumpur") & That's no problem! Can you confirm the following details, please? Your check-in date is next Tuesday for the Veriu Central in Kuala Lumpur.
+CONFIRM ( hotel_name = "Capri By The Sea By All Seasons Resort Lodging" ; check_in_date = "next Monday" ; number_of_days = "2" ; destination = "San Diego" ; number_of_rooms = "1") & Great, please confirm your booking: 1 reservation for Capri By The Sea By All Seasons Resort Lodging next Monday for 2 days in San Diego.
+CONFIRM ( hotel_name = "Residence Inn Anaheim Resort/Convention Center" ; check_in_date = "March 9th" ; number_of_days = "3" ; destination = "Anaheim" ; number_of_rooms = "1") & Please confirm the following: Reservation is for 1 at Residence Inn Anaheim Resort/Convention Center in Anaheim on March 9th. The reservation is for 3 days.
+CONFIRM ( number_of_days = "1" ; number_of_rooms = "2") & Please confirm the following: Reservation is for 1 day. And the total number of rooms is 2, correct?
+CONFIRM ( hotel_name = "Doubletree By Hilton Hotel Metropolitan - New York City" ; check_in_date = "next Tuesday" ; number_of_days = "2" ; destination = "New York" ; number_of_rooms = "1") & Sure, please confirm you reservation for 1 room at Doubletree By Hilton Hotel Metropolitan - New York City which is located in New York. You will be checking in next Tuesday and the stay will be for a period of 2 days.
+INFORM ( phone_number = "+1 212-752-7000" ; star_rating = "4") & I have made your reservation. This is a 4 star hotel and you can contact them at +1 212-752-7000.
+INFORM ( phone_number = "+1 212-752-7000" ; star_rating = "4") & I have made your reservation. This is a 4 star hotel and you can contact them at +1 212-752-7000.
+CONFIRM ( hotel_name = "the Darlington Hyde Park" ; check_in_date = "tomorrow" ; number_of_days = "3" ; destination = "London" ; number_of_rooms = "1") & Please confirm your reservation for tomorrow for 3 days at the Darlington Hyde Park in London. The reservation is for 1 room.
+INFORM ( has_wifi = "False") & Your reservation was made. The hotel doesn't have wifi.
+INFORM ( has_wifi = "False") & Your reservation was made. The hotel doesn't have wifi.
+CONFIRM ( hotel_name = "Pacific Express Hotel Central Market" ; check_in_date = "today" ; number_of_days = "1" ; destination = "Kuala Lumpur" ; number_of_rooms = "2") & I understand you need 2 rooms for 1 day at the Pacific Express Hotel Central Market today in Kuala Lumpur.
+INFORM ( star_rating = "4") & The reservation has been made at this 4 star hotel.
+INFORM ( star_rating = "4") & The reservation has been made at this 4 star hotel.
+CONFIRM ( hotel_name = "Rodeway Inn Bronx Zoo" ; check_in_date = "next Monday" ; number_of_days = "2" ; destination = "New York" ; number_of_rooms = "3") & Please verify the following information: a booking for 2 days for 3 rooms at the Rodeway Inn Bronx Zoo hotel, to be checked in on next Monday at New York.
+CONFIRM ( hotel_name = "W Kuala Lumpur" ; destination = "Kuala Lumpur") & Please verify the following information: the hotel is W Kuala Lumpur at Kuala Lumpur.
+CONFIRM ( check_in_date = "day after tomorrow" ; number_of_rooms = "1") & Please verify the following information: you will check in the day after tomorrow for reserved 1 room.
+INFORM ( star_rating = "5" ; street_address = "121, Jalan Ampang, Kuala Lumpur, 50450") & Your booking has been made. The hotel has 5 stars, and is located at 121, Jalan Ampang, Kuala Lumpur, 50450.
+INFORM ( star_rating = "5" ; street_address = "121, Jalan Ampang, Kuala Lumpur, 50450") & Your booking has been made. The hotel has 5 stars, and is located at 121, Jalan Ampang, Kuala Lumpur, 50450.
+OFFER ( hotel_name = "Bahia Resort Hotel" ; star_rating = "3") & I was able to locate 10 hotels that matched your requirements. One of which is the Bahia Resort Hotel - it has a 3 star rating.
+OFFER ( hotel_name = "Bahia Resort Hotel" ; star_rating = "3") & I was able to locate 10 hotels that matched your requirements. One of which is the Bahia Resort Hotel - it has a 3 star rating.
+OFFER ( hotel_name = "Bahia Resort Hotel" ; star_rating = "3") & I was able to locate 10 hotels that matched your requirements. One of which is the Bahia Resort Hotel - it has a 3 star rating.INFORM_COUNT ( count = "10") & I was able to locate 10 hotels that matched your requirements. One of which is the Bahia Resort Hotel - it has a 3 star rating.
+OFFER ( hotel_name = "Best Western Mission Bay" ; star_rating = "2") & I was able to locate 9 other hotels. One of which, the Best Western Mission Bay, has a 2 star rating.
+OFFER ( hotel_name = "Best Western Mission Bay" ; star_rating = "2") & I was able to locate 9 other hotels. One of which, the Best Western Mission Bay, has a 2 star rating.
+OFFER ( hotel_name = "Best Western Mission Bay" ; star_rating = "2") & I was able to locate 9 other hotels. One of which, the Best Western Mission Bay, has a 2 star rating.INFORM_COUNT ( count = "9") & I was able to locate 9 other hotels. One of which, the Best Western Mission Bay, has a 2 star rating.
+CONFIRM ( hotel_name = "Best Western Mission Bay" ; check_in_date = "tomorrow" ; number_of_days = "2" ; destination = "San Diego" ; number_of_rooms = "1") & To confirm: You'd like a reservation for a 2 day stay in 1 room at the Best Western Mission Bay hotel in San Diego for tomorrow, correct?
+OFFER ( hotel_name = "Amsterdam Hostel San Francisco" ; star_rating = "1") & OK, I've found 10 in San Franciso. Amsterdam Hostel San Francisco seems nice, its 1 star
+OFFER ( hotel_name = "Amsterdam Hostel San Francisco" ; star_rating = "1") & OK, I've found 10 in San Franciso. Amsterdam Hostel San Francisco seems nice, its 1 star
+OFFER ( hotel_name = "Amsterdam Hostel San Francisco" ; star_rating = "1") & OK, I've found 10 in San Franciso. Amsterdam Hostel San Francisco seems nice, its 1 starINFORM_COUNT ( count = "10") & OK, I've found 10 in San Franciso. Amsterdam Hostel San Francisco seems nice, its 1 star
+INFORM ( phone_number = "+1 415-673-3277") & Sure, it's +1 415-673-3277
+CONFIRM ( hotel_name = "Amsterdam Hostel San Francisco" ; check_in_date = "today" ; number_of_days = "1" ; destination = "San Francisco" ; number_of_rooms = "1") & No problem. Can you just confirm you want me to book 1 room for today at the Amsterdam Hostel San Francisco in San Francisco?
+INFORM ( street_address = "749 Taylor Street" ; has_wifi = "True") & Sure, the address is 749 Taylor Street and they do have Wifi. I've booked the room for you.
+INFORM ( street_address = "749 Taylor Street" ; has_wifi = "True") & Sure, the address is 749 Taylor Street and they do have Wifi. I've booked the room for you.
+OFFER ( hotel_name = "45 Park Lane" ; star_rating = "5") & 45 Park Lane is a nice 5 star hotel.
+INFORM ( phone_number = "+44 20 7493 4545" ; street_address = "45 Park Lane") & The number is +44 20 7493 4545 and the address is 45 Park Lane.
+OFFER ( hotel_name = "Abc Hyde Park Hotel" ; star_rating = "3") & I found 9 hotels matching your criteria. Abc Hyde Park Hotel is a nice 3 star hotel.
+OFFER ( hotel_name = "Abc Hyde Park Hotel" ; star_rating = "3") & I found 9 hotels matching your criteria. Abc Hyde Park Hotel is a nice 3 star hotel.
+OFFER ( hotel_name = "Abc Hyde Park Hotel" ; star_rating = "3") & I found 9 hotels matching your criteria. Abc Hyde Park Hotel is a nice 3 star hotel.INFORM_COUNT ( count = "9") & I found 9 hotels matching your criteria. Abc Hyde Park Hotel is a nice 3 star hotel.
+CONFIRM ( hotel_name = "Abc Hyde Park Hotel" ; check_in_date = "next Tuesday" ; number_of_days = "3" ; destination = "London" ; number_of_rooms = "1") & Please confirm the following: Booking a room at Abc Hyde Park Hotel for next Tuesday for 3 days. The hotel is in London and the reservation is for 1 room.
+CONFIRM ( check_in_date = "tomorrow" ; number_of_days = "2") & Please confirm the following: The check in date is tomorrow and you are staying for 2 days.
+OFFER ( hotel_name = "Ac Hotel by Marriott Paris Porte Maillot" ; star_rating = "1") & There are 10 hotels with your criteria. Ac Hotel by Marriott Paris Porte Maillot has a 1 star ratin.
+OFFER ( hotel_name = "Ac Hotel by Marriott Paris Porte Maillot" ; star_rating = "1") & There are 10 hotels with your criteria. Ac Hotel by Marriott Paris Porte Maillot has a 1 star ratin.
+OFFER ( hotel_name = "Ac Hotel by Marriott Paris Porte Maillot" ; star_rating = "1") & There are 10 hotels with your criteria. Ac Hotel by Marriott Paris Porte Maillot has a 1 star ratin.INFORM_COUNT ( count = "10") & There are 10 hotels with your criteria. Ac Hotel by Marriott Paris Porte Maillot has a 1 star ratin.
+OFFER ( hotel_name = "Amastan Paris" ; star_rating = "1") & Amastan Paris also has a 1 star rating.
+OFFER ( hotel_name = "Aparthotel Adagio Access Paris La Villette" ; star_rating = "1") & Aparthotel Adagio Access Paris La Villette is also a 1 star hotel.
+CONFIRM ( hotel_name = "Aparthotel Adagio Access Paris La Villette" ; check_in_date = "next Wednesday" ; number_of_days = "4" ; destination = "Paris" ; number_of_rooms = "1") & I have a reservation for 1 at the Aparthotel Adagio Access Paris La Villette in Paris arriving next Wednesday for 4 days.
+OFFER ( hotel_name = "45 Park Lane" ; star_rating = "3") & Okay! I found 10 hotels so far. I recommend 45 Park Lane. That happens to be 3 stars. Does that interest you at all?
+OFFER ( hotel_name = "45 Park Lane" ; star_rating = "3") & Okay! I found 10 hotels so far. I recommend 45 Park Lane. That happens to be 3 stars. Does that interest you at all?
+OFFER ( hotel_name = "45 Park Lane" ; star_rating = "3") & Okay! I found 10 hotels so far. I recommend 45 Park Lane. That happens to be 3 stars. Does that interest you at all?INFORM_COUNT ( count = "10") & Okay! I found 10 hotels so far. I recommend 45 Park Lane. That happens to be 3 stars. Does that interest you at all?
+CONFIRM ( hotel_name = "45 Park Lane" ; check_in_date = "next Monday" ; number_of_days = "3" ; destination = "London" ; number_of_rooms = "1") & Thank you! Can you confirm the following details, please? You're checking into 1 room at 45 Park Lane in London. You're checking in next Monday and the stay is for 3 days.
+CONFIRM ( check_in_date = "day after tomorrow" ; number_of_days = "3") & No problem! Can you confirm the following details, please? Your check-in date is the day after tomorrow and your stay is for 3 days.
+CONFIRM ( number_of_days = "2" ; destination = "London") & That's fine! Can you confirm the following details, please? Your reservation is for 2 days for your London hotel.
+INFORM ( has_wifi = "False" ; street_address = "45 Park Lane") & Your reservation is successful! Unfortunately, the hotel does not have Wifi. The address is 45 Park Lane.
+INFORM ( has_wifi = "False" ; street_address = "45 Park Lane") & Your reservation is successful! Unfortunately, the hotel does not have Wifi. The address is 45 Park Lane.
+OFFER ( hotel_name = "1 Hotel Brooklyn Bridge" ; star_rating = "4") & I actually have found 10 hotels for you. I do show a 4 star hotel called 1 Hotel Brooklyn Bridge.
+OFFER ( hotel_name = "1 Hotel Brooklyn Bridge" ; star_rating = "4") & I actually have found 10 hotels for you. I do show a 4 star hotel called 1 Hotel Brooklyn Bridge.
+OFFER ( hotel_name = "1 Hotel Brooklyn Bridge" ; star_rating = "4") & I actually have found 10 hotels for you. I do show a 4 star hotel called 1 Hotel Brooklyn Bridge.INFORM_COUNT ( count = "10") & I actually have found 10 hotels for you. I do show a 4 star hotel called 1 Hotel Brooklyn Bridge.
+INFORM ( street_address = "60 Furman Street, Brooklyn") & The address is 60 Furman Street, Brooklyn.
+INFORM ( phone_number = "+1 833-625-6111" ; has_wifi = "True") & The hotel does have wifi and the phone number is +1 833-625-6111.
+CONFIRM ( hotel_name = "1 Hotel Brooklyn Bridge" ; check_in_date = "today" ; number_of_days = "1" ; destination = "New York" ; number_of_rooms = "1") & Great! Just to confirm: You are reserving 1 room at the 1 Hotel Brooklyn Bridge in New York for today.
+INFORM ( price_per_night = "$80") & Your reservation was successful! The room costs $80 per night.
+INFORM ( price_per_night = "$80") & Your reservation was successful! The room costs $80 per night.
+OFFER ( hotel_name = "Ac Hotel By Marriott Paris Porte Maillot" ; average_rating = "4.3") & I have seen 10 hotels. How about Ac Hotel By Marriott Paris Porte Maillot which rated 4.3.
+OFFER ( hotel_name = "Ac Hotel By Marriott Paris Porte Maillot" ; average_rating = "4.3") & I have seen 10 hotels. How about Ac Hotel By Marriott Paris Porte Maillot which rated 4.3.
+OFFER ( hotel_name = "Ac Hotel By Marriott Paris Porte Maillot" ; average_rating = "4.3") & I have seen 10 hotels. How about Ac Hotel By Marriott Paris Porte Maillot which rated 4.3.INFORM_COUNT ( count = "10") & I have seen 10 hotels. How about Ac Hotel By Marriott Paris Porte Maillot which rated 4.3.
+OFFER ( hotel_name = "Amastan Paris" ; average_rating = "4.6") & How about Amastan Paris which is 4.6 rated.
+CONFIRM ( hotel_name = "Amastan Paris" ; location = "Paris" ; check_in_date = "today" ; check_out_date = "next Tuesday" ; number_of_rooms = "1") & Please confirm this : Making a booking at Amastan Paris, in Paris. The check-in is today and check-out is next Tuesday for 1 rooms.
+OFFER ( hotel_name = "45 Park Lane" ; average_rating = "4.7") & I found 10 hotels. One of them is located at 45 Park Lane with a rating of 4.7.
+OFFER ( hotel_name = "45 Park Lane" ; average_rating = "4.7") & I found 10 hotels. One of them is located at 45 Park Lane with a rating of 4.7.
+OFFER ( hotel_name = "45 Park Lane" ; average_rating = "4.7") & I found 10 hotels. One of them is located at 45 Park Lane with a rating of 4.7.INFORM_COUNT ( count = "10") & I found 10 hotels. One of them is located at 45 Park Lane with a rating of 4.7.
+INFORM ( street_address = "45 Park Lane" ; pets_welcome = "True") & 45 Park Lane. Yes, it allows pets.
+OFFER ( hotel_name = "Abc Hyde Park Hotel" ; average_rating = "3.2") & I found 9 other hotels. Do you like Abc Hyde Park Hotel with a rating of 3.2?
+OFFER ( hotel_name = "Abc Hyde Park Hotel" ; average_rating = "3.2") & I found 9 other hotels. Do you like Abc Hyde Park Hotel with a rating of 3.2?
+OFFER ( hotel_name = "Abc Hyde Park Hotel" ; average_rating = "3.2") & I found 9 other hotels. Do you like Abc Hyde Park Hotel with a rating of 3.2?INFORM_COUNT ( count = "9") & I found 9 other hotels. Do you like Abc Hyde Park Hotel with a rating of 3.2?
+OFFER ( hotel_name = "Abercorn House" ; average_rating = "3.5") & Abercorn House with a rating of 3.5.
+CONFIRM ( hotel_name = "Abercorn House" ; location = "London" ; check_in_date = "next Wednesday" ; check_out_date = "March 14th" ; number_of_rooms = "1") & Please confirm 1 room at Abercorn House in London with check-in date next Wednesday and check-out date of March 14th.
+INFORM ( pets_welcome = "False" ; price = "$552") & $552. Yes, pets are allowed.
+OFFER ( hotel_name = "1 Hotel Brooklyn Bridge" ; average_rating = "4.5") & 1 Hotel Brooklyn Bridge with 4.5 rating will be fine for you.
+OFFER ( hotel_name = "1 Hotel Central Park" ; average_rating = "4.5") & Then 1 Hotel Central Park with 4.5 rating will do.
+OFFER ( hotel_name = "11 Howard" ; average_rating = "4.3") & Then another one is 11 Howard with rating 4.3. Are you ok with it?
+CONFIRM ( hotel_name = "11 Howard" ; location = "New York" ; check_in_date = "March 9th" ; check_out_date = "March 11th" ; number_of_rooms = "3") & Please make it verified, reservation at 11 Howard in New York. March 9th check-in and March 11th check-out, and 3 rooms.
+OFFER ( hotel_name = "Alila Bangsar" ; average_rating = "4.5") & Hotel Alila Bangsar with rating 4.5 is okay for you?
+OFFER ( hotel_name = "Aloft Kuala Lumpur Sentral" ; average_rating = "4.4") & Hotel Aloft Kuala Lumpur Sentral with rating 4.4 is available. Please confirm.
+CONFIRM ( hotel_name = "Aloft Kuala Lumpur Sentral" ; location = "Kuala Lumpur" ; check_in_date = "today" ; check_out_date = "next Friday" ; number_of_rooms = "2") & Please confirm to make a reservation at Aloft Kuala Lumpur Sentral Hotel in Kuala Lumpur from today to next Friday for 2 rooms.
+CONFIRM ( hotel_name = "Aloft Kuala Lumpur Sentral" ; check_out_date = "March 14th") & Please confirm to make reservation at Aloft Kuala Lumpur Sentral Hotel for checkout is March 14th.
+INFORM ( pets_welcome = "False" ; price = "$3,744") & reservation was confirmed. They does not allow pets. price will be $3,744 in total.
+INFORM ( pets_welcome = "False" ; price = "$3,744") & reservation was confirmed. They does not allow pets. price will be $3,744 in total.
+OFFER ( hotel_name = "1 Hotel Brooklyn Bridge" ; average_rating = "4.5") & I found 10 hotels. There's 1 Hotel Brooklyn Bridge, rated 4.5.
+OFFER ( hotel_name = "1 Hotel Brooklyn Bridge" ; average_rating = "4.5") & I found 10 hotels. There's 1 Hotel Brooklyn Bridge, rated 4.5.
+OFFER ( hotel_name = "1 Hotel Brooklyn Bridge" ; average_rating = "4.5") & I found 10 hotels. There's 1 Hotel Brooklyn Bridge, rated 4.5.INFORM_COUNT ( count = "10") & I found 10 hotels. There's 1 Hotel Brooklyn Bridge, rated 4.5.
+OFFER ( hotel_name = "1 Hotel Central Park" ; average_rating = "4.5") & There's 1 Hotel Central Park rated 4.5.
+OFFER ( hotel_name = "11 Howard" ; average_rating = "4.3") & There's 11 Howard for 4.3 stars.
+CONFIRM ( hotel_name = "11 Howard" ; location = "New York" ; check_in_date = "tomorrow" ; check_out_date = "next Tuesday" ; number_of_rooms = "1") & Please confirm: 1 room at 11 Howard in New York. Checking in tomorrow and checking out next Tuesday.
+CONFIRM ( hotel_name = "11 Howard" ; check_in_date = "next Monday") & Please confirm: checking in next Monday at 11 Howard.
+CONFIRM ( hotel_name = "11 Howard" ; location = "New York" ; check_in_date = "next Monday" ; check_out_date = "March 13th" ; number_of_rooms = "1") & Please confirm: 1 room at 11 Howard in New York. Checking in next Monday and checking out March 13th.
+INFORM ( street_address = "11 Howard Street") & Reservation successful. The address is 11 Howard Street.
+INFORM ( street_address = "11 Howard Street") & Reservation successful. The address is 11 Howard Street.
+OFFER ( hotel_name = "Ac Hotel By Marriott Paris Porte Maillot" ; average_rating = "4.3") & Ac Hotel By Marriott Paris Porte Maillot is a great option with a 4.3 rating.
+INFORM ( phone_number = "+33 1 84 82 49 09" ; pets_welcome = "True") & Yes, they do. Their phone number is +33 1 84 82 49 09.
+CONFIRM ( hotel_name = "Ac Hotel By Marriott Paris Porte Maillot" ; location = "Paris" ; check_in_date = "tomorrow" ; check_out_date = "next Tuesday" ; number_of_rooms = "1") & Please confirm: you want a reservation at the Ac Hotel By Marriott Paris Porte Maillot in Paris. The check in date is tomorrow and the check our date is next Tuesday. Just 1 room.
+CONFIRM ( check_in_date = "March 12th" ; check_out_date = "March 13th") & Please confirm: check-in on March 12th and check-our on March 13th.
+CONFIRM ( check_out_date = "March 13th" ; number_of_rooms = "3") & Please confirm: check-in on March 13th and you want to book 3 rooms.
+OFFER ( hotel_name = "45 Park lane" ; average_rating = "4.7") & I have 10 options. How would you enjoy 45 Park lane? It is rated 4.7.
+OFFER ( hotel_name = "45 Park lane" ; average_rating = "4.7") & I have 10 options. How would you enjoy 45 Park lane? It is rated 4.7.
+OFFER ( hotel_name = "45 Park lane" ; average_rating = "4.7") & I have 10 options. How would you enjoy 45 Park lane? It is rated 4.7.INFORM_COUNT ( count = "10") & I have 10 options. How would you enjoy 45 Park lane? It is rated 4.7.
+CONFIRM ( hotel_name = "45 Park Lane" ; location = "London" ; check_in_date = "today" ; check_out_date = "next Thursday" ; number_of_rooms = "2") & I have you checking into 45 Park Lane today in London. 2 rooms until next Thursday.
+INFORM ( phone_number = "+44 20 7493 4545") & I have you reserved. You may phone them at +44 20 7493 4545.
+INFORM ( phone_number = "+44 20 7493 4545") & I have you reserved. You may phone them at +44 20 7493 4545.
+OFFER ( hotel_name = "1 Hotel Brooklyn Bridge" ; average_rating = "4.5") & There is one available on 1 Hotel Brooklyn Bridge and it has a 4.5 rating.
+INFORM ( phone_number = "+1 833-625-6111") & The number is +1 833-625-6111.
+INFORM ( pets_welcome = "True") & Yes, they are.
+CONFIRM ( hotel_name = "1 Hotel Brooklyn Bridge" ; location = "New York" ; check_in_date = "day after tomorrow" ; check_out_date = "March 14th" ; number_of_rooms = "2") & I would like to confirm the following information: 2 rooms at 1 Hotel Brooklyn Bridge in New York, checking out on March 14th the day after tomorrow.
+CONFIRM ( check_in_date = "next Thursday" ; check_out_date = "March 13th") & I would like you to confirm the following: checking in next Thursday and checking out March 13th.
+OFFER ( hotel_name = "45 Park Lane" ; average_rating = "4.7") & I've found 45 Park Lane, with rating 4.7
+INFORM ( street_address = "45 Park Lane" ; pets_welcome = "True") & Yes, pets are welcome. It's in 45 Park Lane
+OFFER ( hotel_name = "Abc Hyde Park Hotel" ; average_rating = "3.2") & Abc Hyde Park Hotel, with rating 3.2
+OFFER ( hotel_name = "Abercorn House" ; average_rating = "3.5") & Abercorn House, with rating 3.5
+CONFIRM ( hotel_name = "Abercorn House" ; location = "London" ; check_in_date = "next Wednesday" ; check_out_date = "March 14th" ; number_of_rooms = "1") & 1 room at Abercorn House in London, next Wednesday, until March 14th. Do you confirm?
+CONFIRM ( check_in_date = "next Wednesday" ; number_of_rooms = "2") & 2 rooms in hotel next Wednesday: It's correct?
+INFORM ( phone_number = "+44 20 8563 8692" ; pets_welcome = "False") & No, pets are not allowed. The phone number is +44 20 8563 8692. The reservation is confirmed!
+INFORM ( phone_number = "+44 20 8563 8692" ; pets_welcome = "False") & No, pets are not allowed. The phone number is +44 20 8563 8692. The reservation is confirmed!
+OFFER ( hotel_name = "Aloft Portland Airport At Cascade Station" ; average_rating = "4.3") & I see that 10 hotels suit to what you have requested. How do you consider staying at Aloft Portland Airport At Cascade Station, which has a 4.3 rating.
+OFFER ( hotel_name = "Aloft Portland Airport At Cascade Station" ; average_rating = "4.3") & I see that 10 hotels suit to what you have requested. How do you consider staying at Aloft Portland Airport At Cascade Station, which has a 4.3 rating.
+OFFER ( hotel_name = "Aloft Portland Airport At Cascade Station" ; average_rating = "4.3") & I see that 10 hotels suit to what you have requested. How do you consider staying at Aloft Portland Airport At Cascade Station, which has a 4.3 rating.INFORM_COUNT ( count = "10") & I see that 10 hotels suit to what you have requested. How do you consider staying at Aloft Portland Airport At Cascade Station, which has a 4.3 rating.
+OFFER ( hotel_name = "45 Park Lane" ; average_rating = "4.7") & How do you consider for your stay to be at 45 Park Lane, which has a 4.7 rating.
+OFFER ( hotel_name = "Ace Hotel London" ; average_rating = "4.3") & I see that Ace Hotel London is another place which matches what you want, and it has a 4.3 rating.
+INFORM ( street_address = "100 Shoreditch High Street") & The address of the hotel is 100 Shoreditch High Street.
+INFORM ( phone_number = "+44 20 7613 9800") & If you want to phone them, you can at +44 20 7613 9800.
+CONFIRM ( hotel_name = "Ace Hotel London" ; location = "London" ; check_in_date = "next Wednesday" ; check_out_date = "March 11th" ; number_of_rooms = "1") & Can you please confirm that you want to book 1 room at Ace Hotel London in London, and that you will be leaving next Wednesday, as for leaving you will be leaving at March 11th.
+INFORM ( price = "$1,400") & Your booking has been made without errors, and it will cost you $1,400 in total.
+INFORM ( price = "$1,400") & Your booking has been made without errors, and it will cost you $1,400 in total.
+OFFER ( hotel_name = "Bahia Resort Hotel" ; average_rating = "4.3") & Would you be interested in Bahia Resort Hotel, with a 4.3 rating?
+OFFER ( hotel_name = "Best Western Mission Bay" ; average_rating = "3.8") & How about the Best Western Mission Bay, with a 3.8 rating?
+CONFIRM ( hotel_name = "Best Western Mission Bay" ; location = "San Diego" ; check_in_date = "tomorrow" ; check_out_date = "March 14th" ; number_of_rooms = "3") & Please verify the following information: Making a reservation at the Best Western Mission Bay in San Diego for 3 rooms. The checking in date is tomorrow and you will be checking out on March 14th.
+OFFER ( hotel_name = "Atrium Inn Vancouver" ; average_rating = "3.7") & Sure, it's my pleasure. Just give me a minute. Here you go! There are 10 hotels of your preference. One among them is Atrium Inn Vancouver and the rating of the hotel is 3.7. Would you prefer to continue booking with this hotel?
+OFFER ( hotel_name = "Atrium Inn Vancouver" ; average_rating = "3.7") & Sure, it's my pleasure. Just give me a minute. Here you go! There are 10 hotels of your preference. One among them is Atrium Inn Vancouver and the rating of the hotel is 3.7. Would you prefer to continue booking with this hotel?
+OFFER ( hotel_name = "Atrium Inn Vancouver" ; average_rating = "3.7") & Sure, it's my pleasure. Just give me a minute. Here you go! There are 10 hotels of your preference. One among them is Atrium Inn Vancouver and the rating of the hotel is 3.7. Would you prefer to continue booking with this hotel?INFORM_COUNT ( count = "10") & Sure, it's my pleasure. Just give me a minute. Here you go! There are 10 hotels of your preference. One among them is Atrium Inn Vancouver and the rating of the hotel is 3.7. Would you prefer to continue booking with this hotel?
+CONFIRM ( hotel_name = "Atrium Inn Vancouver" ; location = "Vancouver" ; check_in_date = "March 12th" ; check_out_date = "March 13th" ; number_of_rooms = "2") & Thanks. You got the vacancies. Here are the booking details - 2 rooms are booked for you at Atrium Inn Vancouver located at Vancouver and you have to check in by March 12th and check out by March 13th. Would that be fine. Please can you confirm me?
+CONFIRM ( check_in_date = "next Thursday" ; check_out_date = "March 12th") & Yup! I can do that for you. Please give me a moment. So, your check in date would be on next Thursday and check out date would be on March 12th. Is that right? please can you confirm me?
+OFFER ( hotel_name = "Best Western Plus Dragon Gate Inn" ; average_rating = "4.1") & I found 10 options. How about Best Western Plus Dragon Gate Inn? It has a rating of 4.1.
+OFFER ( hotel_name = "Best Western Plus Dragon Gate Inn" ; average_rating = "4.1") & I found 10 options. How about Best Western Plus Dragon Gate Inn? It has a rating of 4.1.
+OFFER ( hotel_name = "Best Western Plus Dragon Gate Inn" ; average_rating = "4.1") & I found 10 options. How about Best Western Plus Dragon Gate Inn? It has a rating of 4.1.INFORM_COUNT ( count = "10") & I found 10 options. How about Best Western Plus Dragon Gate Inn? It has a rating of 4.1.
+INFORM ( street_address = "818 North Hill Street" ; phone_number = "+1 213-617-3077") & It's at 818 North Hill Street, the phone number is +1 213-617-3077
+OFFER ( hotel_name = "Four Points by Sheraton Los Angeles International Airport" ; average_rating = "3.7") & How about the Four Points by Sheraton Los Angeles International Airport? It's got a rating of 3.7
+OFFER ( hotel_name = "four seasons hotel los angeles at beverly hills" ; average_rating = "4.6") & What about four seasons hotel los angeles at beverly hills? It has a 4.6 rating.
+CONFIRM ( hotel_name = "four seasons hotel los angeles at beverly hills" ; location = "Los Angeles" ; check_in_date = "tomorrow" ; check_out_date = "march 13th" ; number_of_rooms = "1") & Please confirm the following: four seasons hotel los angeles at beverly hills, the hotel is in Los Angeles, check-in tomorrow, check out march 13th. And you'd like 1 room?
+CONFIRM ( check_in_date = "Next Thursday" ; check_out_date = "next friday") & please confirm the following: Check-in is Next Thursday, and check-out is next friday?
+INFORM ( street_address = "300 Doheny Drive" ; phone_number = "+1 310-273-2222") & The reservation is made. It's located at 300 Doheny Drive, the phone number is +1 310-273-2222
+INFORM ( street_address = "300 Doheny Drive" ; phone_number = "+1 310-273-2222") & The reservation is made. It's located at 300 Doheny Drive, the phone number is +1 310-273-2222
+OFFER ( place_name = "Abercorn House" ; star_rating = "1") & I managed to find a 1 star hotel called Abercorn House.
+OFFER ( place_name = "Astor Hyde Park Hostel" ; star_rating = "1") & I found a 1 star hotel called Astor Hyde Park Hostel.
+INFORM ( price_per_night = "$90" ; phone_number = "+44 20 7581 0103") & The room cost is $90 per night and you can call them at +44 20 7581 0103.
+CONFIRM ( place_name = "Astor Hyde Park Hostel" ; check_in_date = "March 9th" ; stay_length = "4" ; location = "London" ; number_of_rooms = "3") & So you would like to stay at the Astor Hyde Park Hostel in London on March 9th. The duration of your stay will be 4 days and you would like 3 rooms. Is this correct?
+INFORM ( street_address = "191 Queen's Gate" ; smoking_allowed = "False") & The hotel has been booked. Their address is 191 Queen's Gate and smoking is not allowed.
+INFORM ( street_address = "191 Queen's Gate" ; smoking_allowed = "False") & The hotel has been booked. Their address is 191 Queen's Gate and smoking is not allowed.
+OFFER ( place_name = "Amsterdam Hostel San Francisco" ; star_rating = "1") & I got 10 hotels and one is Amsterdam Hostel San Francisco which is a 1 star hotel.
+OFFER ( place_name = "Amsterdam Hostel San Francisco" ; star_rating = "1") & I got 10 hotels and one is Amsterdam Hostel San Francisco which is a 1 star hotel.
+OFFER ( place_name = "Amsterdam Hostel San Francisco" ; star_rating = "1") & I got 10 hotels and one is Amsterdam Hostel San Francisco which is a 1 star hotel.INFORM_COUNT ( count = "10") & I got 10 hotels and one is Amsterdam Hostel San Francisco which is a 1 star hotel.
+INFORM ( price_per_night = "$54" ; street_address = "749 Taylor Street") & They are located at 749 Taylor Street and room costs $54 per night.
+OFFER ( place_name = "Argonaut Hotel" ; star_rating = "4") & I got 10 hotels and one is Argonaut Hotel which is a 4 star hotel.
+OFFER ( place_name = "Argonaut Hotel" ; star_rating = "4") & I got 10 hotels and one is Argonaut Hotel which is a 4 star hotel.
+OFFER ( place_name = "Argonaut Hotel" ; star_rating = "4") & I got 10 hotels and one is Argonaut Hotel which is a 4 star hotel.INFORM_COUNT ( count = "10") & I got 10 hotels and one is Argonaut Hotel which is a 4 star hotel.
+CONFIRM ( place_name = "Argonaut Hotel" ; check_in_date = "March 8th" ; stay_length = "2" ; location = "San Francisco" ; number_of_rooms = "1") & Okay, you want 1 rooms at Argonaut Hotel in San Francisco on March 8th for 2 days. Please confirm.
+INFORM ( street_address = "495 Jefferson Street" ; phone_number = "+1 415-563-0800") & They are located at 495 Jefferson Street and their phone number is +1 415-563-0800. Your reservation is now confirmed!
+INFORM ( street_address = "495 Jefferson Street" ; phone_number = "+1 415-563-0800") & They are located at 495 Jefferson Street and their phone number is +1 415-563-0800. Your reservation is now confirmed!
+OFFER ( place_name = "Amsterdam Hostel San Francisco" ; star_rating = "1") & There are 10 options, what about a 1 star called Amsterdam Hostel San Francisco.
+OFFER ( place_name = "Amsterdam Hostel San Francisco" ; star_rating = "1") & There are 10 options, what about a 1 star called Amsterdam Hostel San Francisco.
+OFFER ( place_name = "Amsterdam Hostel San Francisco" ; star_rating = "1") & There are 10 options, what about a 1 star called Amsterdam Hostel San Francisco.INFORM_COUNT ( count = "10") & There are 10 options, what about a 1 star called Amsterdam Hostel San Francisco.
+INFORM ( price_per_night = "$54" ; smoking_allowed = "False") & No smoking is permitted and it costs $54 per night.
+OFFER ( place_name = "Argonaut Hotel" ; star_rating = "4") & A 4 star called Argonaut Hotel.
+CONFIRM ( place_name = "Argonaut Hotel" ; check_in_date = "March 7th" ; stay_length = "5" ; location = "San Francisco" ; number_of_rooms = "1") & To confirm then that is 1 room for 5 nights from March 7th in the Argonaut Hotel in San Francisco.
+INFORM ( price_per_night = "$396" ; street_address = "495 Jefferson Street") & 495 Jefferson Street and they charge $396 per night.
+INFORM ( price_per_night = "$396" ; street_address = "495 Jefferson Street") & 495 Jefferson Street and they charge $396 per night.
+OFFER ( place_name = "Ace Hotel London" ; star_rating = "4") & My search located 10 hotels with a 4 star rating. One of the hotels is called Ace Hotel London.
+OFFER ( place_name = "Ace Hotel London" ; star_rating = "4") & My search located 10 hotels with a 4 star rating. One of the hotels is called Ace Hotel London.
+OFFER ( place_name = "Ace Hotel London" ; star_rating = "4") & My search located 10 hotels with a 4 star rating. One of the hotels is called Ace Hotel London.INFORM_COUNT ( count = "10") & My search located 10 hotels with a 4 star rating. One of the hotels is called Ace Hotel London.
+CONFIRM ( place_name = "Ace Hotel London" ; check_in_date = "March 5th" ; stay_length = "7" ; location = "London" ; number_of_rooms = "1") & With your approval I will reserve 1 room at the Ace Hotel London on March 5th for 7 days. This hotel is in London.
+OFFER ( place_name = "Ace Hotel London" ; star_rating = "4") & I found the Ace Hotel London, it has 4 stars.
+CONFIRM ( place_name = "Ace Hotel London" ; check_in_date = "March 4th" ; stay_length = "6" ; location = "London" ; number_of_rooms = "1") & Do I have this right? You want me to reserve you 1 room at the Ace Hotel London in London for a 6 day stay beginning March 4th.
+INFORM ( street_address = "100 Shoreditch High Street") & You will find the room I booked for you at 100 Shoreditch High Street.
+INFORM ( street_address = "100 Shoreditch High Street") & You will find the room I booked for you at 100 Shoreditch High Street.
+INFORM ( smoking_allowed = "False") & You can not smoke anywhere on the property.
+OFFER ( place_name = "Alila Bangsar" ; star_rating = "5") & There are 10 hotels in that area, how about Alila Bangsar, a 5 star hotel?
+OFFER ( place_name = "Alila Bangsar" ; star_rating = "5") & There are 10 hotels in that area, how about Alila Bangsar, a 5 star hotel?
+OFFER ( place_name = "Alila Bangsar" ; star_rating = "5") & There are 10 hotels in that area, how about Alila Bangsar, a 5 star hotel?INFORM_COUNT ( count = "10") & There are 10 hotels in that area, how about Alila Bangsar, a 5 star hotel?
+OFFER ( place_name = "Alpha Genesis Hotel" ; star_rating = "3") & Sure, there are 10 hotels which you may like, how about a 3 star hotel called Alpha Genesis Hotel?
+OFFER ( place_name = "Alpha Genesis Hotel" ; star_rating = "3") & Sure, there are 10 hotels which you may like, how about a 3 star hotel called Alpha Genesis Hotel?
+OFFER ( place_name = "Alpha Genesis Hotel" ; star_rating = "3") & Sure, there are 10 hotels which you may like, how about a 3 star hotel called Alpha Genesis Hotel?INFORM_COUNT ( count = "10") & Sure, there are 10 hotels which you may like, how about a 3 star hotel called Alpha Genesis Hotel?
+CONFIRM ( place_name = "Alpha Genesis Hotel" ; check_in_date = "March 4th" ; stay_length = "4" ; location = "Kuala Lumpur" ; number_of_rooms = "1") & Sure, please confirm your reservation for 1 room at Alpha Genesis Hotel in Kuala Lumpur for 4 days from March 4th.
+INFORM ( price_per_night = "$162" ; street_address = "45, Tengkat Tong Shin, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan") & Your reservation has been made. They are located at 45, Tengkat Tong Shin, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan and this will set you back $162 each night.
+INFORM ( price_per_night = "$162" ; street_address = "45, Tengkat Tong Shin, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan") & Your reservation has been made. They are located at 45, Tengkat Tong Shin, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan and this will set you back $162 each night.
+OFFER ( place_name = "1 Hotel Brooklyn Bridge" ; star_rating = "5") & There are 10 matches in NYC. One of the matches is a 5 star hotel, it's 1 Hotel Brooklyn Bridge.
+OFFER ( place_name = "1 Hotel Brooklyn Bridge" ; star_rating = "5") & There are 10 matches in NYC. One of the matches is a 5 star hotel, it's 1 Hotel Brooklyn Bridge.
+OFFER ( place_name = "1 Hotel Brooklyn Bridge" ; star_rating = "5") & There are 10 matches in NYC. One of the matches is a 5 star hotel, it's 1 Hotel Brooklyn Bridge.INFORM_COUNT ( count = "10") & There are 10 matches in NYC. One of the matches is a 5 star hotel, it's 1 Hotel Brooklyn Bridge.
+CONFIRM ( place_name = "1 Hotel Brooklyn Bridge" ; check_in_date = "March 8th" ; stay_length = "6" ; location = "New York" ; number_of_rooms = "1") & I'll reserve you 1 room for 6 days starting on March 8th at 1 Hotel Brooklyn Bridge in New York. Is everything correct?
+OFFER ( place_name = "1 Hotel Brooklyn Bridge" ; star_rating = "5") & How about a 5 star hotel called 1 Hotel Brooklyn Bridge?
+CONFIRM ( place_name = "1 Hotel Brooklyn Bridge" ; check_in_date = "March 1st" ; stay_length = "1" ; location = "New York" ; number_of_rooms = "2") & Please confirm your reservation for 2 rooms at 1 Hotel Brooklyn Bridge in New York on March 1st for 1 day.
+OFFER ( place_name = "Bahia Resort Hotel" ; star_rating = "3") & There are 10 hotels which might interest you. What about a 3 star hotel called Bahia Resort Hotel?
+OFFER ( place_name = "Bahia Resort Hotel" ; star_rating = "3") & There are 10 hotels which might interest you. What about a 3 star hotel called Bahia Resort Hotel?
+OFFER ( place_name = "Bahia Resort Hotel" ; star_rating = "3") & There are 10 hotels which might interest you. What about a 3 star hotel called Bahia Resort Hotel?INFORM_COUNT ( count = "10") & There are 10 hotels which might interest you. What about a 3 star hotel called Bahia Resort Hotel?
+CONFIRM ( place_name = "Bahia Resort Hotel" ; check_in_date = "March 1st" ; stay_length = "5" ; location = "San Diego" ; number_of_rooms = "1") & Please confirm: You want me to reserve 1 room in Bahia Resort Hotel located in San Diego for 5 days. And My check in date will be March 1st.
+OFFER ( place_name = "Aparthotel Adagio Access Paris La Villette" ; star_rating = "3") & A lovely hotel found with a 3 star rating is known as the Aparthotel Adagio Access Paris La Villette.
+INFORM ( street_address = "28bis Avenue Corentin Cariou, 75019" ; smoking_allowed = "False") & The hotel is located at 28bis Avenue Corentin Cariou, 75019. This hotel does not allow smoking anywhere.
+CONFIRM ( place_name = "Aparthotel Adagio Access Paris La Villette" ; check_in_date = "March 1st" ; stay_length = "5" ; location = "Paris" ; number_of_rooms = "1") & With your approval I will reserve 1 room for 5 days at the Aparthotel Adagio Access Paris La Villette located in Paris. The reservation will begin March 1st.
+OFFER ( place_name = "Best Western Plus Toronto North York Hotel & Suites" ; star_rating = "3") & Why not try Best Western Plus Toronto North York Hotel & Suites? It has 3 stars.
+CONFIRM ( place_name = "Best Western Plus Toronto North York Hotel & Suites" ; check_in_date = "March 10th" ; stay_length = "2" ; location = "Toronto" ; number_of_rooms = "1") & To confirm, 1 room for 2 nights at Best Western Plus Toronto North York Hotel & Suites on March 10th in Toronto.
+INFORM ( price_per_night = "$99" ; smoking_allowed = "False") & Sorry no smoking, the price is $99 a night.
+INFORM ( price_per_night = "$99" ; smoking_allowed = "False") & Sorry no smoking, the price is $99 a night.
+OFFER ( place_name = "1831 Boutique Hotel" ; star_rating = "3") & I managed to find a hotel called 1831 Boutique Hotel with a 3 star rating.
+CONFIRM ( place_name = "1831 Boutique Hotel" ; check_in_date = "March 5th" ; stay_length = "2" ; location = "Sydney" ; number_of_rooms = "1") & So you'd like to book 1 room at 1831 Boutique Hotel in Sydney for March 5th. You will be staying for 2 days. Is this correct?
+INFORM ( price_per_night = "$234" ; street_address = "631-635 George Street") & The cost is $234 per night and their address is 631-635 George Street.

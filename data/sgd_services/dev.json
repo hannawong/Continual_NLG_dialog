@@ -1,0 +1,1802 @@
+[
+    [
+        "OFFER(doctor_name=\"Bay Area House Call Physicians\";city=\"Palo Alto\";type=\"General Practitioner\")",
+        "There are 10 results found.Bay Area House Call Physicians is a General Practitioner located in Palo Alto.",
+        "There are 10 results found.Bay Area House Call Physicians is a General Practitioner located in Palo Alto."
+    ],
+    [
+        "OFFER(doctor_name=\"Bay Area House Call Physicians\";city=\"Palo Alto\";type=\"General Practitioner\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 results found.Bay Area House Call Physicians is a General Practitioner located in Palo Alto.",
+        "There are 10 results found.Bay Area House Call Physicians is a General Practitioner located in Palo Alto."
+    ],
+    [
+        "INFORM(street_address=\"701 E El Camino Real 2nd Floor\")",
+        "The location is at 701 E El Camino Real 2nd Floor.",
+        "The location is at 701 E El Camino Real 2nd Floor."
+    ],
+    [
+        "INFORM(average_rating=\"5.0\")",
+        "Yes,Their rating is 5.0.",
+        "Yes,Their rating is 5.0."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Bay Area House Call Physicians\";appointment_time=\"4 pm\";appointment_date=\"next Thursday\")",
+        "Would you confirm if this is okay,:Scheduled appointment on next Thursday at 4 pm with Bay Area House Call Physicians.",
+        "Would you confirm if this is okay,:Scheduled appointment on next Thursday at 4 pm with Bay Area House Call Physicians."
+    ],
+    [
+        "CONFIRM(appointment_time=\"11 am\";appointment_date=\"next Monday\")",
+        "Please confirm if this is appointment is on next Monday at 11 am.",
+        "Please confirm if this is appointment is on next Monday at 11 am."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The appointment is successfully booked.",
+        "The appointment is successfully booked."
+    ],
+    [
+        "INFORM(phone_number=\"650-384-0986\")",
+        "You can reach them on 650-384-0986.",
+        "You can reach them on 650-384-0986."
+    ],
+    [
+        "OFFER(doctor_name=\"Brown Peter, MD\";city=\"Los Altos\";type=\"General Practitioner\")",
+        "I found 6 results for General Practitioner in Los Altos. Would you like to try Brown Peter, MD?",
+        "I found 6 results for General Practitioner in Los Altos. Would you like to try Brown Peter, MD?"
+    ],
+    [
+        "OFFER(doctor_name=\"Brown Peter, MD\";city=\"Los Altos\";type=\"General Practitioner\")@INFORM_COUNT(count=\"6\")",
+        "I found 6 results for General Practitioner in Los Altos. Would you like to try Brown Peter, MD?",
+        "I found 6 results for General Practitioner in Los Altos. Would you like to try Brown Peter, MD?"
+    ],
+    [
+        "INFORM(street_address=\"877 West Fremont Avenue unit n1\";average_rating=\"4.9\")",
+        "They are located at 877 West Fremont Avenue unit n1. Their rating is a 4.9.",
+        "They are located at 877 West Fremont Avenue unit n1. Their rating is a 4.9."
+    ],
+    [
+        "OFFER(doctor_name=\"D Graeme Shaw MD\";city=\"Los Altos\";type=\"General Practitioner\")",
+        "Yes, there is D Graeme Shaw MD also located in Los Altos and is also a General Practitioner.",
+        "Yes, there is D Graeme Shaw MD also located in Los Altos and is also a General Practitioner."
+    ],
+    [
+        "OFFER(doctor_name=\"Dr. Milagros T. Buenviaje, MD\";city=\"Los Altos\";type=\"General Practitioner\")",
+        "You could try Dr. Milagros T. Buenviaje, MD who is also in Los Altos and is a General Practitioner.",
+        "You could try Dr. Milagros T. Buenviaje, MD who is also in Los Altos and is a General Practitioner."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Dr. Milagros T. Buenviaje, MD\";appointment_time=\"5:30 pm\";appointment_date=\"day after tomorrow\")",
+        "Okay I did it, just confirm the following details. You have an appointment with Dr. Milagros T. Buenviaje, MD at 5:30 pm the day after tomorrow.",
+        "Okay I did it, just confirm the following details. You have an appointment with Dr. Milagros T. Buenviaje, MD at 5:30 pm the day after tomorrow."
+    ],
+    [
+        "CONFIRM(appointment_time=\"5:30 pm\";appointment_date=\"Next monday\")",
+        "Okay please confirm: your appointment is at 5:30 pm on Next monday.",
+        "Okay please confirm: your appointment is at 5:30 pm on Next monday."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry I was unable to book an appointment. Can I help you with anything else.",
+        "Sorry I was unable to book an appointment. Can I help you with anything else."
+    ],
+    [
+        "OFFER(doctor_name=\"Access Health\";city=\"San Jose\";type=\"General Practitioner\")",
+        "I found 10 doctors in San Jose. How about Access Health? They are a General Practitioner.",
+        "I found 10 doctors in San Jose. How about Access Health? They are a General Practitioner."
+    ],
+    [
+        "OFFER(doctor_name=\"Access Health\";city=\"San Jose\";type=\"General Practitioner\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 doctors in San Jose. How about Access Health? They are a General Practitioner.",
+        "I found 10 doctors in San Jose. How about Access Health? They are a General Practitioner."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Access Health\";appointment_time=\"3 pm\";appointment_date=\"March 13th\")",
+        "OK, please confirm: I'm scheduling an appointment with Access Health at 3 pm on March 13th.",
+        "OK, please confirm: I'm scheduling an appointment with Access Health at 3 pm on March 13th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, thank you. Your appointment has been set.",
+        "Great, thank you. Your appointment has been set."
+    ],
+    [
+        "INFORM(phone_number=\"408-729-7690\")",
+        "You can reach their office at 408-729-7690.",
+        "You can reach their office at 408-729-7690."
+    ],
+    [
+        "INFORM(street_address=\"301 Old San Francisco Road Level 2\")",
+        "Access Health is located at 301 Old San Francisco Road Level 2.",
+        "Access Health is located at 301 Old San Francisco Road Level 2."
+    ],
+    [
+        "OFFER(doctor_name=\"Dr. Gregory P. Rosa, MD\";city=\"Sebastopol\";type=\"General Practitioner\")",
+        "Dr. Gregory P. Rosa, MD is a General Practitioner located in Sebastopol.",
+        "Dr. Gregory P. Rosa, MD is a General Practitioner located in Sebastopol."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Dr. Gregory P. Rosa, MD\";appointment_time=\"1:30 pm\";appointment_date=\"March 14th\")",
+        "Appointment with Dr. Gregory P. Rosa, MD at 1:30 pm on March 14th, is that correct?",
+        "Appointment with Dr. Gregory P. Rosa, MD at 1:30 pm on March 14th, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your appointment is scheduled.",
+        "Your appointment is scheduled."
+    ],
+    [
+        "OFFER(doctor_name=\"Alchemy John MD\";city=\"Santa Rosa\";type=\"General Practitioner\")",
+        "I have found a general practitioner, Alchemy John MD located in Santa Rosa.",
+        "I have found a general practitioner, Alchemy John MD located in Santa Rosa."
+    ],
+    [
+        "OFFER(doctor_name=\"Bastoni Kelly A MD\";city=\"Santa Rosa\";type=\"General Practitioner\")",
+        "What do you think of Bastoni Kelly A MD, who is also a general practitioner located in Santa Rosa?",
+        "What do you think of Bastoni Kelly A MD, who is also a general practitioner located in Santa Rosa?"
+    ],
+    [
+        "CONFIRM(doctor_name=\"Bastoni Kelly A MD\";appointment_time=\"4:30 PM\";appointment_date=\"day after tomorrow\")",
+        "Please confirm the following: Appointment with Bastoni Kelly A MD at 4:30 PM for Sunday, the day after tomorrow.",
+        "Please confirm the following: Appointment with Bastoni Kelly A MD at 4:30 PM for Sunday, the day after tomorrow."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Bastoni Kelly A MD\";appointment_date=\"tomorrow\")",
+        "Please confirm the following: Appointment with Bastoni Kelly A MD for Saturday, tomorrow.",
+        "Please confirm the following: Appointment with Bastoni Kelly A MD for Saturday, tomorrow."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, the appointment could not be made. Is there anything else you need help with?",
+        "Sorry, the appointment could not be made. Is there anything else you need help with?"
+    ],
+    [
+        "CONFIRM(doctor_name=\"Bastoni Kelly A MD\";appointment_time=\"10:30 AM\";appointment_date=\"tomorrow\")",
+        "Please confirm the following: Appointment with Bastoni Kelly A MD at 10:30 AM for tomorrow.",
+        "Please confirm the following: Appointment with Bastoni Kelly A MD at 10:30 AM for tomorrow."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, the appointment could not be made. Is there anything else you need help with?",
+        "Sorry, the appointment could not be made. Is there anything else you need help with?"
+    ],
+    [
+        "OFFER(doctor_name=\"James A. Watson, MD\";city=\"Gilroy\";type=\"Gynecologist\")",
+        "Hmmm, I see 1 gynecologist in Gilroy. His name is James A. Watson, MD.",
+        "Hmmm, I see 1 gynecologist in Gilroy. His name is James A. Watson, MD."
+    ],
+    [
+        "OFFER(doctor_name=\"James A. Watson, MD\";city=\"Gilroy\";type=\"Gynecologist\")@INFORM_COUNT(count=\"1\")",
+        "Hmmm, I see 1 gynecologist in Gilroy. His name is James A. Watson, MD.",
+        "Hmmm, I see 1 gynecologist in Gilroy. His name is James A. Watson, MD."
+    ],
+    [
+        "INFORM(street_address=\"8833 Monterey Road\")",
+        "His office address is 8833 Monterey Road.",
+        "His office address is 8833 Monterey Road."
+    ],
+    [
+        "CONFIRM(doctor_name=\"James A. Watson, MD\";appointment_time=\"10 am\";appointment_date=\"March 12th\")",
+        "Ok, so you'd like to make an appointment with James A. Watson, MD at 10 am on March 12th?",
+        "Ok, so you'd like to make an appointment with James A. Watson, MD at 10 am on March 12th?"
+    ],
+    [
+        "CONFIRM(doctor_name=\"James A. Watson, MD\";appointment_time=\"10:30 am\")",
+        "Ok, no problem. So you'd like to make the appointment with James A. Watson, MD at 10:30 am on March 12th?",
+        "Ok, no problem. So you'd like to make the appointment with James A. Watson, MD at 10:30 am on March 12th?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alright, I have booked the appointment for you.",
+        "Alright, I have booked the appointment for you."
+    ],
+    [
+        "OFFER(doctor_name=\"Dr. Chika Akera, MD\";city=\"Pleasant Hill\";type=\"General Practitioner\")",
+        "I found 5 results. Dr. Chika Akera, MD is a General Practitioner in Pleasant Hill.",
+        "I found 5 results. Dr. Chika Akera, MD is a General Practitioner in Pleasant Hill."
+    ],
+    [
+        "OFFER(doctor_name=\"Dr. Chika Akera, MD\";city=\"Pleasant Hill\";type=\"General Practitioner\")@INFORM_COUNT(count=\"5\")",
+        "I found 5 results. Dr. Chika Akera, MD is a General Practitioner in Pleasant Hill.",
+        "I found 5 results. Dr. Chika Akera, MD is a General Practitioner in Pleasant Hill."
+    ],
+    [
+        "OFFER(doctor_name=\"Harpole Jr B Patrick MD\";city=\"Pleasant Hill\";type=\"General Practitioner\")",
+        "Harpole Jr B Patrick MD is another General Practitioner in Pleasant Hill.",
+        "Harpole Jr B Patrick MD is another General Practitioner in Pleasant Hill."
+    ],
+    [
+        "OFFER(doctor_name=\"Jolin Patrick V MD\";city=\"Pleasant Hill\";type=\"General Practitioner\")",
+        "Jolin Patrick V MD is another General Practitioner in Pleasant Hill.",
+        "Jolin Patrick V MD is another General Practitioner in Pleasant Hill."
+    ],
+    [
+        "INFORM(average_rating=\"5.0\")",
+        "The doctor's rating is 5.0.",
+        "The doctor's rating is 5.0."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Jolin Patrick V MD\";appointment_time=\"3 pm\";appointment_date=\"next Tuesday\")",
+        "Scheduling you an appointment with Jolin Patrick V MD at 3 pm next Tuesday. Is this correct?",
+        "Scheduling you an appointment with Jolin Patrick V MD at 3 pm next Tuesday. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your appointment booking was successful.",
+        "Your appointment booking was successful."
+    ],
+    [
+        "INFORM(street_address=\"5161 Clayton Road # C1\")",
+        "The office is located at 5161 Clayton Road # C1.",
+        "The office is located at 5161 Clayton Road # C1."
+    ],
+    [
+        "OFFER(doctor_name=\"Dr. Ruth E. Hoddinott, MD\";city=\"Daly City\";type=\"General Practitioner\")",
+        "Dr. Ruth E. Hoddinott, MD is a General practitioner who is located in Daly City",
+        "Dr. Ruth E. Hoddinott, MD is a General practitioner who is located in Daly City"
+    ],
+    [
+        "OFFER(doctor_name=\"Anne Han, M.D.\";city=\"San Francisco\";type=\"Dermatologist\")",
+        "Dr. Anne Han, M.D. is a Dermatologist in San Francisco",
+        "Dr. Anne Han, M.D. is a Dermatologist in San Francisco"
+    ],
+    [
+        "OFFER(doctor_name=\"Aura Skin Spa\";city=\"San Francisco\";type=\"Dermatologist\")",
+        "Aura Skin Spa in San Francisco is also a Dermatologist",
+        "Aura Skin Spa in San Francisco is also a Dermatologist"
+    ],
+    [
+        "CONFIRM(doctor_name=\"Aura Skin Spa\";appointment_time=\"10:45 AM\";appointment_date=\"tomorrow\")",
+        "Kindly confirm that you need an appointment with Aura Skin Spa at 10:45 AM tomorrow.",
+        "Kindly confirm that you need an appointment with Aura Skin Spa at 10:45 AM tomorrow."
+    ],
+    [
+        "OFFER(doctor_name=\"Aura Skin Spa\";appointment_date=\"tomorrow\";appointment_time=\"10:30 AM\")",
+        "Sorry. I am unable to book an appointment at 10:45 AM. How about an appointment with Aura Skin Spa tomorrow at 10:30 AM",
+        "Sorry. I am unable to book an appointment at 10:45 AM. How about an appointment with Aura Skin Spa tomorrow at 10:30 AM"
+    ],
+    [
+        "OFFER(doctor_name=\"Aura Skin Spa\";appointment_date=\"tomorrow\";appointment_time=\"10:30 AM\")@NOTIFY_FAILURE()",
+        "Sorry. I am unable to book an appointment at 10:45 AM. How about an appointment with Aura Skin Spa tomorrow at 10:30 AM",
+        "Sorry. I am unable to book an appointment at 10:45 AM. How about an appointment with Aura Skin Spa tomorrow at 10:30 AM"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your appointment is booked successfully. Is there anything else that I can help you with.",
+        "Your appointment is booked successfully. Is there anything else that I can help you with."
+    ],
+    [
+        "OFFER(doctor_name=\"Anjali Tate, M.D.\";city=\"San Jose\";type=\"Gynecologist\")",
+        "Anjali Tate, M.D. is a Gynecologist located in San Jose.",
+        "Anjali Tate, M.D. is a Gynecologist located in San Jose."
+    ],
+    [
+        "INFORM(street_address=\"2400 Samaritan Drive #105\";average_rating=\"5.0\")",
+        "Their address is 2400 Samaritan Drive #105 and they have a 5.0 star rating.",
+        "Their address is 2400 Samaritan Drive #105 and they have a 5.0 star rating."
+    ],
+    [
+        "OFFER(doctor_name=\"Advanced Dermatology & Skin Surgery, George Hsieh, M.D.\";city=\"San Jose\";type=\"Dermatologist\")",
+        "There are 5 total results. Advanced Dermatology & Skin Surgery, George Hsieh, M.D. is a Dermatologist and is in San Jose.",
+        "There are 5 total results. Advanced Dermatology & Skin Surgery, George Hsieh, M.D. is a Dermatologist and is in San Jose."
+    ],
+    [
+        "OFFER(doctor_name=\"Advanced Dermatology & Skin Surgery, George Hsieh, M.D.\";city=\"San Jose\";type=\"Dermatologist\")@INFORM_COUNT(count=\"5\")",
+        "There are 5 total results. Advanced Dermatology & Skin Surgery, George Hsieh, M.D. is a Dermatologist and is in San Jose.",
+        "There are 5 total results. Advanced Dermatology & Skin Surgery, George Hsieh, M.D. is a Dermatologist and is in San Jose."
+    ],
+    [
+        "OFFER(doctor_name=\"Britz Marie B MD\";city=\"San Jose\";type=\"Dermatologist\")",
+        "Britz Marie B MD is a Dermatologist located in San Jose.",
+        "Britz Marie B MD is a Dermatologist located in San Jose."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Britz Marie B MD\";appointment_time=\"5:30 pm\";appointment_date=\"tomorrow\")",
+        "You would like an appointment with Britz Marie B MD tomorrow at 5:30 pm. Is that right?",
+        "You would like an appointment with Britz Marie B MD tomorrow at 5:30 pm. Is that right?"
+    ],
+    [
+        "CONFIRM(doctor_name=\"Britz Marie B MD\";appointment_time=\"10 am\")",
+        "You would like an appointment with Britz Marie B MD tomorrow at 10 am. Is that right?",
+        "You would like an appointment with Britz Marie B MD tomorrow at 10 am. Is that right?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I am sorry, but the appointment is unable to be booked.",
+        "I am sorry, but the appointment is unable to be booked."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Britz Marie B MD\";appointment_time=\"10 am\";appointment_date=\"next Tuesday\")",
+        "You would like an appointment with Britz Marie B MD tomorrow at 10 am next Tuesday. Is that right?",
+        "You would like an appointment with Britz Marie B MD tomorrow at 10 am next Tuesday. Is that right?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I am sorry, but the appointment is unable to be booked. Can I do anything else for you?",
+        "I am sorry, but the appointment is unable to be booked. Can I do anything else for you?"
+    ],
+    [
+        "OFFER(doctor_name=\"Anne Han, M.D.\";city=\"San Francisco\";type=\"Dermatologist\")",
+        "How does the Dermatologist Anne Han, M.D. in San Francisco sound?",
+        "How does the Dermatologist Anne Han, M.D. in San Francisco sound?"
+    ],
+    [
+        "OFFER(doctor_name=\"Aura Skin Spa\";city=\"San Francisco\";type=\"Dermatologist\")",
+        "What about a Dermatologist at Aura Skin Spa located in San Francisco?",
+        "What about a Dermatologist at Aura Skin Spa located in San Francisco?"
+    ],
+    [
+        "INFORM(phone_number=\"415-788-3800\";average_rating=\"4.0\")",
+        "Their number is 415-788-3800 and their rating is 4.0.",
+        "Their number is 415-788-3800 and their rating is 4.0."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Aura Skin Spa\";appointment_time=\"4 pm\";appointment_date=\"March 12th\")",
+        "No problem, please confirm: schedule appointment with Aura Skin Spa at 4 pm on March 12th.",
+        "No problem, please confirm: schedule appointment with Aura Skin Spa at 4 pm on March 12th."
+    ],
+    [
+        "CONFIRM(appointment_time=\"5:30 pm\";appointment_date=\"March 12th\")",
+        "No, problem, please confirm: schedule appointment at 5:30 pm on March 12th.",
+        "No, problem, please confirm: schedule appointment at 5:30 pm on March 12th."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "It seems I was unable to book an appointment for you. Is there anything else I can help you with?",
+        "It seems I was unable to book an appointment for you. Is there anything else I can help you with?"
+    ],
+    [
+        "OFFER(doctor_name=\"Bay Area House Call Physicians\";city=\"Palo Alto\";type=\"General Practitioner\")",
+        "What do you think about Bay Area House Call Physicians which is actually found in Palo Alto and also is a General Practitioner.",
+        "What do you think about Bay Area House Call Physicians which is actually found in Palo Alto and also is a General Practitioner."
+    ],
+    [
+        "INFORM(street_address=\"701 E El Camino Real 2nd Floor\")",
+        "They can be found at 701 E El Camino Real 2nd Floor.",
+        "They can be found at 701 E El Camino Real 2nd Floor."
+    ],
+    [
+        "OFFER(doctor_name=\"Byrne Eileen MD\";city=\"Palo Alto\";type=\"General Practitioner\")",
+        "How would like the Byrne Eileen MD situated in Palo Alto and which is a General Practitioner?",
+        "How would like the Byrne Eileen MD situated in Palo Alto and which is a General Practitioner?"
+    ],
+    [
+        "CONFIRM(doctor_name=\"Byrne Eileen MD\";appointment_time=\"12:30 pm\";appointment_date=\"March 14th\")",
+        "Check the details which you gave to me and tell me if they are correct regarding the booking of visit with Byrne Eileen MD at 12:30 pm on March 14th.",
+        "Check the details which you gave to me and tell me if they are correct regarding the booking of visit with Byrne Eileen MD at 12:30 pm on March 14th."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Byrne Eileen MD\";appointment_date=\"March 13th\")",
+        "Once again please check and confirm if the details are correct regarding the visit with Byrne Eileen MD on March 13th.",
+        "Once again please check and confirm if the details are correct regarding the visit with Byrne Eileen MD on March 13th."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Byrne Eileen MD\";appointment_time=\"12 pm\")",
+        "Are the following details correct such as the visit with Byrne Eileen MD at 12 pm?",
+        "Are the following details correct such as the visit with Byrne Eileen MD at 12 pm?"
+    ],
+    [
+        "INFORM(phone_number=\"650-321-4121\";average_rating=\"4.0\")",
+        "Your reservation has been made without error. If you want to talk to them by phone you can through the number 650-321-4121. Their overall review level is 4.0.",
+        "Your reservation has been made without error. If you want to talk to them by phone you can through the number 650-321-4121. Their overall review level is 4.0."
+    ],
+    [
+        "INFORM(phone_number=\"650-321-4121\";average_rating=\"4.0\")@NOTIFY_SUCCESS()",
+        "Your reservation has been made without error. If you want to talk to them by phone you can through the number 650-321-4121. Their overall review level is 4.0.",
+        "Your reservation has been made without error. If you want to talk to them by phone you can through the number 650-321-4121. Their overall review level is 4.0."
+    ],
+    [
+        "OFFER(doctor_name=\"Access Health\";city=\"San Jose\";type=\"General Practitioner\")",
+        "Is the General Practitioner Access Health located in San Jose good?",
+        "Is the General Practitioner Access Health located in San Jose good?"
+    ],
+    [
+        "OFFER(doctor_name=\"Anjali Tate, M.D.\";city=\"San Jose\";type=\"Gynecologist\")",
+        "I found Anjali Tate, M.D., a Gynecologist located in San Jose",
+        "I found Anjali Tate, M.D., a Gynecologist located in San Jose"
+    ],
+    [
+        "OFFER(doctor_name=\"Dr. Ali A. Zaki, MD\";city=\"San Jose\";type=\"Gynecologist\")",
+        "There is Dr. Ali A. Zaki, MD, the Gynecologist located in San Jose.",
+        "There is Dr. Ali A. Zaki, MD, the Gynecologist located in San Jose."
+    ],
+    [
+        "INFORM(street_address=\"200 Jose Figueres Avenue #490\";phone_number=\"408-272-2252\")",
+        "They are at 200 Jose Figueres Avenue #490 and their phone number is 408-272-2252.",
+        "They are at 200 Jose Figueres Avenue #490 and their phone number is 408-272-2252."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Dr. Ali A. Zaki, MD\";appointment_time=\"1 pm\";appointment_date=\"next Friday\")",
+        "To confirm: Book an appointment with Dr. Ali A. Zaki, MD for 1 pm next Friday the 8th.",
+        "To confirm: Book an appointment with Dr. Ali A. Zaki, MD for 1 pm next Friday the 8th."
+    ],
+    [
+        "CONFIRM(appointment_time=\"4 pm\";appointment_date=\"March 14th\")",
+        "To confirm: change the appointment to 4 pm on March 14th.",
+        "To confirm: change the appointment to 4 pm on March 14th."
+    ],
+    [
+        "INFORM(average_rating=\"5.0\")",
+        "Your appointment is booked. They have a 5.0 star rating.",
+        "Your appointment is booked. They have a 5.0 star rating."
+    ],
+    [
+        "INFORM(average_rating=\"5.0\")@NOTIFY_SUCCESS()",
+        "Your appointment is booked. They have a 5.0 star rating.",
+        "Your appointment is booked. They have a 5.0 star rating."
+    ],
+    [
+        "OFFER(doctor_name=\"Claudio A Bet Inc\";city=\"Burlingame\";type=\"General Practitioner\")",
+        "There were 4 search results. The top pick is a General Practitioner named Claudio A Bet Inc in Burlingame.",
+        "There were 4 search results. The top pick is a General Practitioner named Claudio A Bet Inc in Burlingame."
+    ],
+    [
+        "OFFER(doctor_name=\"Claudio A Bet Inc\";city=\"Burlingame\";type=\"General Practitioner\")@INFORM_COUNT(count=\"4\")",
+        "There were 4 search results. The top pick is a General Practitioner named Claudio A Bet Inc in Burlingame.",
+        "There were 4 search results. The top pick is a General Practitioner named Claudio A Bet Inc in Burlingame."
+    ],
+    [
+        "INFORM(street_address=\"211 Quarry Road\";average_rating=\"5.0\")",
+        "They have 5.0 stars on the system. They are located at 211 Quarry Road.",
+        "They have 5.0 stars on the system. They are located at 211 Quarry Road."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Claudio A Bet Inc\";appointment_time=\"12 pm\";appointment_date=\"next Tuesday\")",
+        "Please confirm these details so I can book the visit for you. You want to visit Claudio A Bet Inc on next Tuesday at 12 pm .",
+        "Please confirm these details so I can book the visit for you. You want to visit Claudio A Bet Inc on next Tuesday at 12 pm ."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your appointment is booked on the calendar.",
+        "Your appointment is booked on the calendar."
+    ],
+    [
+        "OFFER(doctor_name=\"Contra-Costa Regional Med Center: Cominos Eve D MD\";city=\"Martinez\";type=\"General Practitioner\")",
+        "I found 4 results that may fit your requests. How about the Contra-Costa Regional Med Center: Cominos Eve D MD located in Martinez? It is a General Practitioner.",
+        "I found 4 results that may fit your requests. How about the Contra-Costa Regional Med Center: Cominos Eve D MD located in Martinez? It is a General Practitioner."
+    ],
+    [
+        "OFFER(doctor_name=\"Contra-Costa Regional Med Center: Cominos Eve D MD\";city=\"Martinez\";type=\"General Practitioner\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 results that may fit your requests. How about the Contra-Costa Regional Med Center: Cominos Eve D MD located in Martinez? It is a General Practitioner.",
+        "I found 4 results that may fit your requests. How about the Contra-Costa Regional Med Center: Cominos Eve D MD located in Martinez? It is a General Practitioner."
+    ],
+    [
+        "INFORM(street_address=\"2500 Alhambra Avenue\";average_rating=\"5.0\")",
+        "They are located at 2500 Alhambra Avenue and they have a 5.0 rating.",
+        "They are located at 2500 Alhambra Avenue and they have a 5.0 rating."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Contra-Costa Regional Med Center: Cominos Eve D MD\";appointment_time=\"3 pm\";appointment_date=\"next Thursday\")",
+        "Can you confirm the details? You want me to schedule you an appointment with Contra-Costa Regional Med Center: Cominos Eve D MD on next Thursday at 3 pm. Is that correct?",
+        "Can you confirm the details? You want me to schedule you an appointment with Contra-Costa Regional Med Center: Cominos Eve D MD on next Thursday at 3 pm. Is that correct?"
+    ],
+    [
+        "CONFIRM(appointment_time=\"3 pm\";appointment_date=\"day after tomorrow\")",
+        "So you want a 3 pm appointment on the day after tomorrow?",
+        "So you want a 3 pm appointment on the day after tomorrow?"
+    ],
+    [
+        "CONFIRM(appointment_time=\"5:30 pm\";appointment_date=\"day after tomorrow\")",
+        "So the appointment should be at 5:30 pm on the day after tomorrow?",
+        "So the appointment should be at 5:30 pm on the day after tomorrow?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great. Your appointment is sucessfully booked.",
+        "Great. Your appointment is sucessfully booked."
+    ],
+    [
+        "OFFER(doctor_name=\"Blossom Ridge Medical Group: Zimmer J Kirk MD\";city=\"Los Gatos\";type=\"General Practitioner\")",
+        "I found a General Practitioner in Los Gatos called Blossom Ridge Medical Group: Zimmer J Kirk MD.",
+        "I found a General Practitioner in Los Gatos called Blossom Ridge Medical Group: Zimmer J Kirk MD."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Blossom Ridge Medical Group: Zimmer J Kirk MD\";appointment_time=\"12:30 pm\";appointment_date=\"March 9th\")",
+        "Got it. I am scheduling an appointment for you at Blossom Ridge Medical Group: Zimmer J Kirk MD on March 9th and 12:30 pm.",
+        "Got it. I am scheduling an appointment for you at Blossom Ridge Medical Group: Zimmer J Kirk MD on March 9th and 12:30 pm."
+    ],
+    [
+        "INFORM(street_address=\"555 Knowles Drive #203\")",
+        "Your appointment has been booked. The address is 555 Knowles Drive #203.",
+        "Your appointment has been booked. The address is 555 Knowles Drive #203."
+    ],
+    [
+        "INFORM(street_address=\"555 Knowles Drive #203\")@NOTIFY_SUCCESS()",
+        "Your appointment has been booked. The address is 555 Knowles Drive #203.",
+        "Your appointment has been booked. The address is 555 Knowles Drive #203."
+    ],
+    [
+        "OFFER(doctor_name=\"Dr. Kathleen M. Healey, MD\";city=\"Napa\";type=\"ENT Specialist\")",
+        "Have you heard of Dr. Kathleen M. Healey, MD? She is an ENT Specialist located in Napa.",
+        "Have you heard of Dr. Kathleen M. Healey, MD? She is an ENT Specialist located in Napa."
+    ],
+    [
+        "INFORM(phone_number=\"707-251-3608\";average_rating=\"5.0\")",
+        "She has a rating of 5.0 and her phone number is 707-251-3608. Does that sound okay to you?",
+        "She has a rating of 5.0 and her phone number is 707-251-3608. Does that sound okay to you?"
+    ],
+    [
+        "CONFIRM(doctor_name=\"Dr. Kathleen M. Healey, MD\";appointment_time=\"5 pm\";appointment_date=\"March 10th\")",
+        "Please confirm that you would like to schedule an appointment with Dr. Kathleen M. Healey, MD on March 10th for 5 pm.",
+        "Please confirm that you would like to schedule an appointment with Dr. Kathleen M. Healey, MD on March 10th for 5 pm."
+    ],
+    [
+        "INFORM(street_address=\"1701 4th Street Suite 120\")",
+        "Unfortunately I was unable to book the appointment for Dr. Kathleen M. Healey, MD located at 1701 4th Street Suite 120. I do have another time available on March 10th for 5:30 pm. How does that sound?",
+        "Unfortunately I was unable to book the appointment for Dr. Kathleen M. Healey, MD located at 1701 4th Street Suite 120. I do have another time available on March 10th for 5:30 pm. How does that sound?"
+    ],
+    [
+        "INFORM(street_address=\"1701 4th Street Suite 120\")@OFFER(doctor_name=\"Dr. Kathleen M. Healey, MD\";appointment_date=\"March 10th\";appointment_time=\"5:30 pm\")",
+        "Unfortunately I was unable to book the appointment for Dr. Kathleen M. Healey, MD located at 1701 4th Street Suite 120. I do have another time available on March 10th for 5:30 pm. How does that sound?",
+        "Unfortunately I was unable to book the appointment for Dr. Kathleen M. Healey, MD located at 1701 4th Street Suite 120. I do have another time available on March 10th for 5:30 pm. How does that sound?"
+    ],
+    [
+        "INFORM(street_address=\"1701 4th Street Suite 120\")@OFFER(doctor_name=\"Dr. Kathleen M. Healey, MD\";appointment_date=\"March 10th\";appointment_time=\"5:30 pm\")@NOTIFY_FAILURE()",
+        "Unfortunately I was unable to book the appointment for Dr. Kathleen M. Healey, MD located at 1701 4th Street Suite 120. I do have another time available on March 10th for 5:30 pm. How does that sound?",
+        "Unfortunately I was unable to book the appointment for Dr. Kathleen M. Healey, MD located at 1701 4th Street Suite 120. I do have another time available on March 10th for 5:30 pm. How does that sound?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay your appointment has been successfully scheduled.",
+        "Okay your appointment has been successfully scheduled."
+    ],
+    [
+        "OFFER(doctor_name=\"Clifford Hoffman DO, MPH Family Doctor\";city=\"Benicia\";type=\"General Practitioner\")",
+        "I found 3 doctors in that area. How do you feel about Clifford Hoffman DO, MPH Family Doctor. He's in Benicia and is a General Practitioner.",
+        "I found 3 doctors in that area. How do you feel about Clifford Hoffman DO, MPH Family Doctor. He's in Benicia and is a General Practitioner."
+    ],
+    [
+        "OFFER(doctor_name=\"Clifford Hoffman DO, MPH Family Doctor\";city=\"Benicia\";type=\"General Practitioner\")@INFORM_COUNT(count=\"3\")",
+        "I found 3 doctors in that area. How do you feel about Clifford Hoffman DO, MPH Family Doctor. He's in Benicia and is a General Practitioner.",
+        "I found 3 doctors in that area. How do you feel about Clifford Hoffman DO, MPH Family Doctor. He's in Benicia and is a General Practitioner."
+    ],
+    [
+        "INFORM(phone_number=\"707-750-5944\")",
+        "It's 707-750-5944.",
+        "It's 707-750-5944."
+    ],
+    [
+        "INFORM(average_rating=\"4.4\")",
+        "It's 4.4 so pretty good, I'd say.",
+        "It's 4.4 so pretty good, I'd say."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Clifford Hoffman DO, MPH Family Doctor\";appointment_time=\"1 pm\";appointment_date=\"March 14th\")",
+        "Please confirm that you want me to schedule an appointment with Clifford Hoffman DO, MPH Family Doctor at 1 pm on March 14th.",
+        "Please confirm that you want me to schedule an appointment with Clifford Hoffman DO, MPH Family Doctor at 1 pm on March 14th."
+    ],
+    [
+        "INFORM(street_address=\"1179 North McDowell Boulevard\")",
+        "I've booked your appointment. The address is 1179 North McDowell Boulevard.",
+        "I've booked your appointment. The address is 1179 North McDowell Boulevard."
+    ],
+    [
+        "INFORM(street_address=\"1179 North McDowell Boulevard\")@NOTIFY_SUCCESS()",
+        "I've booked your appointment. The address is 1179 North McDowell Boulevard.",
+        "I've booked your appointment. The address is 1179 North McDowell Boulevard."
+    ],
+    [
+        "OFFER(doctor_name=\"Nina R. Birnbaum, M.D.\";city=\"Albany\";type=\"General Practitioner\")",
+        "I found Nina R. Birnbaum, M.D. in Albany. She's a General Practitioner.",
+        "I found Nina R. Birnbaum, M.D. in Albany. She's a General Practitioner."
+    ],
+    [
+        "INFORM(phone_number=\"510-524-0861\";average_rating=\"5.0\")",
+        "She has a 5.0 rating. You can call her at 510-524-0861.",
+        "She has a 5.0 rating. You can call her at 510-524-0861."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Nina R. Birnbaum, M.D.\";appointment_time=\"5 pm\";appointment_date=\"next Thursday\")",
+        "Ok. Please confirm you'd like an appointment with Nina R. Birnbaum, M.D. at 5 pm next Thursday.",
+        "Ok. Please confirm you'd like an appointment with Nina R. Birnbaum, M.D. at 5 pm next Thursday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've gone ahead and booked you that appointment.",
+        "I've gone ahead and booked you that appointment."
+    ],
+    [
+        "OFFER(doctor_name=\"Anjali Tate, M.D.\";city=\"San Jose\";type=\"Gynecologist\")",
+        "I have found 10 Doctors in San Jose. The first is Anjali Tate, M.D. a Gynecologist.",
+        "I have found 10 Doctors in San Jose. The first is Anjali Tate, M.D. a Gynecologist."
+    ],
+    [
+        "OFFER(doctor_name=\"Anjali Tate, M.D.\";city=\"San Jose\";type=\"Gynecologist\")@INFORM_COUNT(count=\"10\")",
+        "I have found 10 Doctors in San Jose. The first is Anjali Tate, M.D. a Gynecologist.",
+        "I have found 10 Doctors in San Jose. The first is Anjali Tate, M.D. a Gynecologist."
+    ],
+    [
+        "INFORM(street_address=\"2400 Samaritan Drive #105\";average_rating=\"5.0\")",
+        "They have a rating of 5.0 and are located at 2400 Samaritan Drive #105.",
+        "They have a rating of 5.0 and are located at 2400 Samaritan Drive #105."
+    ],
+    [
+        "CONFIRM(doctor_name=\"Anjali Tate, M.D.\";appointment_time=\"12:45 pm\";appointment_date=\"March 11th\")",
+        "Please confirm the following: You want to schedule an appointment with Anjali Tate, M.D. on March 11th at 12:45 pm?",
+        "Please confirm the following: You want to schedule an appointment with Anjali Tate, M.D. on March 11th at 12:45 pm?"
+    ],
+    [
+        "CONFIRM(appointment_time=\"10:30 am\";appointment_date=\"March 11th\")",
+        "Please confirm the following: you want to schedule your appointment with Ajali Tate, M.D. on March 11th at 10:30 am?",
+        "Please confirm the following: you want to schedule your appointment with Ajali Tate, M.D. on March 11th at 10:30 am?"
+    ],
+    [
+        "CONFIRM(doctor_name=\"Anjali Tate, M.D.\";appointment_date=\"March 12th\")",
+        "Ok, please confirm the following: You want to schedule an appointment with Anjali Tate, M.D. on March 12th at 10:30am?",
+        "Ok, please confirm the following: You want to schedule an appointment with Anjali Tate, M.D. on March 12th at 10:30am?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I am terribly sorry, I was unable to book an appointment at this time. Is there anything else I can help you with?",
+        "I am terribly sorry, I was unable to book an appointment at this time. Is there anything else I can help you with?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Lim Jae\";appointment_time=\"4 pm\";appointment_date=\"March 11th\")",
+        "confirmed for March 11th with the dentist Lim Jae at 4 pm.",
+        "confirmed for March 11th with the dentist Lim Jae at 4 pm."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I just checked and the agenda is full for that day, would you like to schedule for another day?",
+        "I just checked and the agenda is full for that day, would you like to schedule for another day?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Lim Jae\";appointment_time=\"3:15 pm\";appointment_date=\"March 11th\")",
+        "confirmed for March 11th with the dentist Lim Jae at 3:15 pm.",
+        "confirmed for March 11th with the dentist Lim Jae at 3:15 pm."
+    ],
+    [
+        "INFORM(address=\"1123 South Park Victoria Drive\")",
+        "perfect has been scheduled without problems, we are located in 1123 South Park Victoria Drive",
+        "perfect has been scheduled without problems, we are located in 1123 South Park Victoria Drive"
+    ],
+    [
+        "INFORM(address=\"1123 South Park Victoria Drive\")@NOTIFY_SUCCESS()",
+        "perfect has been scheduled without problems, we are located in 1123 South Park Victoria Drive",
+        "perfect has been scheduled without problems, we are located in 1123 South Park Victoria Drive"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Dr. Timothy M. Gallagher\";appointment_time=\"2:30 pm\";appointment_date=\"March 13th\")",
+        "OK, I can book you an appointment at 2:30 pm on March 13th with Dr. Timothy M. Gallagher",
+        "OK, I can book you an appointment at 2:30 pm on March 13th with Dr. Timothy M. Gallagher"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, I couldn't book it. Is there anything else I can help with?",
+        "Sorry, I couldn't book it. Is there anything else I can help with?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Dr. Timothy M. Gallagher\";appointment_time=\"11:15 am\";appointment_date=\"March 9th\")",
+        "Sure, I can book you an appointment at 11:15 am on March 9th with Dr. Timothy M. Gallagher",
+        "Sure, I can book you an appointment at 11:15 am on March 9th with Dr. Timothy M. Gallagher"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Gateway Plaza Dental Clinic\";appointment_date=\"March 9th\")",
+        "Sure, I can book you an appointment on March 9th with Gateway Plaza Dental Clinic",
+        "Sure, I can book you an appointment on March 9th with Gateway Plaza Dental Clinic"
+    ],
+    [
+        "INFORM(phone_number=\"510-887-6835\")",
+        "All booked for you. Sure, their number is 510-887-6835",
+        "All booked for you. Sure, their number is 510-887-6835"
+    ],
+    [
+        "INFORM(phone_number=\"510-887-6835\")@NOTIFY_SUCCESS()",
+        "All booked for you. Sure, their number is 510-887-6835",
+        "All booked for you. Sure, their number is 510-887-6835"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Growing Smiles Pediatric Dentistry\";appointment_time=\"11 am\";appointment_date=\"March 10th\")",
+        "You want an appointment to see a dentist at Growing Smiles Pediatric Dentistry on March 10th at 11 am. Please confirm.",
+        "You want an appointment to see a dentist at Growing Smiles Pediatric Dentistry on March 10th at 11 am. Please confirm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, all done. Your dental appointment has been set.",
+        "Okay, all done. Your dental appointment has been set."
+    ],
+    [
+        "CONFIRM(dentist_name=\"Thomas P Farris\";appointment_time=\"2 pm\";appointment_date=\"March 10th\")",
+        "Please confirm the following appointment on March 10th and 2 pm with Thomas P Farris.",
+        "Please confirm the following appointment on March 10th and 2 pm with Thomas P Farris."
+    ],
+    [
+        "INFORM(phone_number=\"650-967-5251\";offers_cosmetic_services=\"False\")",
+        "You dentist appointment has successfully booked. Their number is 650-967-5251. Sorry, they don't offer cosmetic services.",
+        "You dentist appointment has successfully booked. Their number is 650-967-5251. Sorry, they don't offer cosmetic services."
+    ],
+    [
+        "INFORM(phone_number=\"650-967-5251\";offers_cosmetic_services=\"False\")@NOTIFY_SUCCESS()",
+        "You dentist appointment has successfully booked. Their number is 650-967-5251. Sorry, they don't offer cosmetic services.",
+        "You dentist appointment has successfully booked. Their number is 650-967-5251. Sorry, they don't offer cosmetic services."
+    ],
+    [
+        "CONFIRM(dentist_name=\"Cofield Marianne\";appointment_time=\"4:15 pm\";appointment_date=\"next Tuesday\")",
+        "Please confirm your details: appointment with Cofield Marianne at 4:15 pm next Tuesday.",
+        "Please confirm your details: appointment with Cofield Marianne at 4:15 pm next Tuesday."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Unfortunately, I was unable to schedule that appointment. Anything else I could help you with?",
+        "Unfortunately, I was unable to schedule that appointment. Anything else I could help you with?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"C-Dental X-ray\";appointment_time=\"9:30 am\";appointment_date=\"day after tomorrow\")",
+        "Sure, need your confirmation. Booking appointment for C-Dental X-ray at 9:30 am day after tomorrow.",
+        "Sure, need your confirmation. Booking appointment for C-Dental X-ray at 9:30 am day after tomorrow."
+    ],
+    [
+        "CONFIRM(dentist_name=\"Dr. David I. Thompson\";appointment_time=\"5:15 pm\")",
+        "Sure, need your confirmation. Booking appointment with Dr. David I. Thompson at 5:15 pm",
+        "Sure, need your confirmation. Booking appointment with Dr. David I. Thompson at 5:15 pm"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Appointment is confirmed",
+        "Appointment is confirmed"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Greenview Dental Care, Yvonne Yang\";appointment_time=\"11:45 am\";appointment_date=\"March 11th\")",
+        "OK, so you would like to make an appointment with Greenview Dental Care, Yvonne Yang at 11:45 am on March 11th.",
+        "OK, so you would like to make an appointment with Greenview Dental Care, Yvonne Yang at 11:45 am on March 11th."
+    ],
+    [
+        "INFORM(city=\"San Jose\";offers_cosmetic_services=\"True\")",
+        "Your appointment has been made. The dentist is located in San Jose. They provide cosmetic services.",
+        "Your appointment has been made. The dentist is located in San Jose. They provide cosmetic services."
+    ],
+    [
+        "INFORM(city=\"San Jose\";offers_cosmetic_services=\"True\")@NOTIFY_SUCCESS()",
+        "Your appointment has been made. The dentist is located in San Jose. They provide cosmetic services.",
+        "Your appointment has been made. The dentist is located in San Jose. They provide cosmetic services."
+    ],
+    [
+        "CONFIRM(dentist_name=\"Dr. Robert E. Durr\";appointment_time=\"4 pm\";appointment_date=\"today\")",
+        "Yes I can do that. I will book an appointment with Dr. Robert E. Durr for today at 4 pm.",
+        "Yes I can do that. I will book an appointment with Dr. Robert E. Durr for today at 4 pm."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I'm sorry, it turns out I am unable to book the appointment you requested. Should I try a different date?",
+        "I'm sorry, it turns out I am unable to book the appointment you requested. Should I try a different date?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Dr. Robert E. Durr\";appointment_time=\"4 pm\";appointment_date=\"March 9th\")",
+        "Okay, I will book an appointment with Dr. Robert E. Durr on March 9th at 4 pm.",
+        "Okay, I will book an appointment with Dr. Robert E. Durr on March 9th at 4 pm."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I'm sorry, it turns out I am unable to book the appointment you requested. Should I try a different date?",
+        "I'm sorry, it turns out I am unable to book the appointment you requested. Should I try a different date?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Ghina Morad\";appointment_time=\"12:45 pm\";appointment_date=\"March 13th\")",
+        "Please confirm the details for the appointment booking with the Ghina Morad on March 13th at 12:45 pm.",
+        "Please confirm the details for the appointment booking with the Ghina Morad on March 13th at 12:45 pm."
+    ],
+    [
+        "INFORM(phone_number=\"650-549-1964\")",
+        "Their contact numer is 650-549-1964. Sorry, for the inconvenience I was not able to book the appointment with Ghina Morad on March 13th as you requested. How about the 12:30 pm?",
+        "Their contact numer is 650-549-1964. Sorry, for the inconvenience I was not able to book the appointment with Ghina Morad on March 13th as you requested. How about the 12:30 pm?"
+    ],
+    [
+        "INFORM(phone_number=\"650-549-1964\")@OFFER(dentist_name=\"Ghina Morad\";appointment_date=\"March 13th\";appointment_time=\"12:30 pm\")",
+        "Their contact numer is 650-549-1964. Sorry, for the inconvenience I was not able to book the appointment with Ghina Morad on March 13th as you requested. How about the 12:30 pm?",
+        "Their contact numer is 650-549-1964. Sorry, for the inconvenience I was not able to book the appointment with Ghina Morad on March 13th as you requested. How about the 12:30 pm?"
+    ],
+    [
+        "INFORM(phone_number=\"650-549-1964\")@OFFER(dentist_name=\"Ghina Morad\";appointment_date=\"March 13th\";appointment_time=\"12:30 pm\")@NOTIFY_FAILURE()",
+        "Their contact numer is 650-549-1964. Sorry, for the inconvenience I was not able to book the appointment with Ghina Morad on March 13th as you requested. How about the 12:30 pm?",
+        "Their contact numer is 650-549-1964. Sorry, for the inconvenience I was not able to book the appointment with Ghina Morad on March 13th as you requested. How about the 12:30 pm?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Appian Dental Center\";appointment_time=\"2 pm\";appointment_date=\"March 10th\")",
+        "Please confirm your appointment with Appian Dental Center at 2 pm in March 10th.",
+        "Please confirm your appointment with Appian Dental Center at 2 pm in March 10th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Thank you. Your dental appointment is successfully booked.",
+        "Thank you. Your dental appointment is successfully booked."
+    ],
+    [
+        "CONFIRM(dentist_name=\"The Dental Dimensions\";appointment_time=\"12:30 pm\";appointment_date=\"next Wednesday\")",
+        "So you would like to book an appointment at The Dental Dimensions at 12:30 pm next Wednesday. Does that sound correct?",
+        "So you would like to book an appointment at The Dental Dimensions at 12:30 pm next Wednesday. Does that sound correct?"
+    ],
+    [
+        "INFORM(address=\"5710 Cahalan Avenue Suite 3\")",
+        "I booked everything for you. The dentist's office is located at 5710 Cahalan Avenue Suite 3.",
+        "I booked everything for you. The dentist's office is located at 5710 Cahalan Avenue Suite 3."
+    ],
+    [
+        "INFORM(address=\"5710 Cahalan Avenue Suite 3\")@NOTIFY_SUCCESS()",
+        "I booked everything for you. The dentist's office is located at 5710 Cahalan Avenue Suite 3.",
+        "I booked everything for you. The dentist's office is located at 5710 Cahalan Avenue Suite 3."
+    ],
+    [
+        "INFORM(offers_cosmetic_services=\"True\";phone_number=\"408-471-1294\")",
+        "Yes, cosmetic services are available there. You can contact them at 408-471-1294.",
+        "Yes, cosmetic services are available there. You can contact them at 408-471-1294."
+    ],
+    [
+        "CONFIRM(dentist_name=\"O'Connor Dental Center\";appointment_time=\"3:45 pm\";appointment_date=\"March 12th\")",
+        "Please confirm the following: book appointment at O'Connor Dental Center for 3:45 pm on March 12th.",
+        "Please confirm the following: book appointment at O'Connor Dental Center for 3:45 pm on March 12th."
+    ],
+    [
+        "INFORM(offers_cosmetic_services=\"False\";address=\"100 Oconnor Drive # 5\")",
+        "They are located at 100 Oconnor Drive # 5. Unfortunately they do not offer cosmetic services. As well, I was unable to book the appointment for that time. Would a booking at O'Connor Dental Center on March 12th at 3:30 pm work?",
+        "They are located at 100 Oconnor Drive # 5. Unfortunately they do not offer cosmetic services. As well, I was unable to book the appointment for that time. Would a booking at O'Connor Dental Center on March 12th at 3:30 pm work?"
+    ],
+    [
+        "INFORM(offers_cosmetic_services=\"False\";address=\"100 Oconnor Drive # 5\")@OFFER(dentist_name=\"O'Connor Dental Center\";appointment_date=\"March 12th\";appointment_time=\"3:30 pm\")",
+        "They are located at 100 Oconnor Drive # 5. Unfortunately they do not offer cosmetic services. As well, I was unable to book the appointment for that time. Would a booking at O'Connor Dental Center on March 12th at 3:30 pm work?",
+        "They are located at 100 Oconnor Drive # 5. Unfortunately they do not offer cosmetic services. As well, I was unable to book the appointment for that time. Would a booking at O'Connor Dental Center on March 12th at 3:30 pm work?"
+    ],
+    [
+        "INFORM(offers_cosmetic_services=\"False\";address=\"100 Oconnor Drive # 5\")@OFFER(dentist_name=\"O'Connor Dental Center\";appointment_date=\"March 12th\";appointment_time=\"3:30 pm\")@NOTIFY_FAILURE()",
+        "They are located at 100 Oconnor Drive # 5. Unfortunately they do not offer cosmetic services. As well, I was unable to book the appointment for that time. Would a booking at O'Connor Dental Center on March 12th at 3:30 pm work?",
+        "They are located at 100 Oconnor Drive # 5. Unfortunately they do not offer cosmetic services. As well, I was unable to book the appointment for that time. Would a booking at O'Connor Dental Center on March 12th at 3:30 pm work?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Samaritan Dental Aesthetics\";appointment_time=\"2:30 pm\";appointment_date=\"March 14th\")",
+        "Thank you, and please confirm the following details for me. You would like an appointment with Samaritan Dental Aesthetics on March 14th, at 2:30 pm. Is this correct?",
+        "Thank you, and please confirm the following details for me. You would like an appointment with Samaritan Dental Aesthetics on March 14th, at 2:30 pm. Is this correct?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Unfortunately, I was unable to find an available slot at that time. Can I help you with anything else?",
+        "Unfortunately, I was unable to find an available slot at that time. Can I help you with anything else?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Samaritan Dental Aesthetics\";appointment_time=\"2:30 pm\";appointment_date=\"next Tuesday\")",
+        "Alright, thank you, and please confirm the following details for me. You would like an appointment with Samaritan Dental Aesthetics at 2:30 pm next Tuesday. Is this correct?",
+        "Alright, thank you, and please confirm the following details for me. You would like an appointment with Samaritan Dental Aesthetics at 2:30 pm next Tuesday. Is this correct?"
+    ],
+    [
+        "INFORM(city=\"San Jose\";offers_cosmetic_services=\"False\")",
+        "Your appointment is all set. As to your questions, they are located in San Jose, and no, unfortunately they don't offer cosmetic services.",
+        "Your appointment is all set. As to your questions, they are located in San Jose, and no, unfortunately they don't offer cosmetic services."
+    ],
+    [
+        "INFORM(city=\"San Jose\";offers_cosmetic_services=\"False\")@NOTIFY_SUCCESS()",
+        "Your appointment is all set. As to your questions, they are located in San Jose, and no, unfortunately they don't offer cosmetic services.",
+        "Your appointment is all set. As to your questions, they are located in San Jose, and no, unfortunately they don't offer cosmetic services."
+    ],
+    [
+        "CONFIRM(dentist_name=\"John R Saunderson\";appointment_time=\"10:15 am\";appointment_date=\"tomorrow\")",
+        "So you want to book an appointment tomorrow with John R Saunderson at 10:15 am?",
+        "So you want to book an appointment tomorrow with John R Saunderson at 10:15 am?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"John R Saunderson\";appointment_time=\"4 pm\")",
+        "You want an appointment with John R Saunderson at 4 pm?",
+        "You want an appointment with John R Saunderson at 4 pm?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, there's no availability. Is there anything else?",
+        "Sorry, there's no availability. Is there anything else?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"John R Saunderson\";appointment_time=\"4 pm\";appointment_date=\"March 9th\")",
+        "You want to book an appointment with John R Saunderson at 4 pm on March 9th?",
+        "You want to book an appointment with John R Saunderson at 4 pm on March 9th?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Steven C Fong\";appointment_time=\"4 pm\")",
+        "Okay, so you want an appointment with Steven C Fong at 4 pm?",
+        "Okay, so you want an appointment with Steven C Fong at 4 pm?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, that's not available. Is there something else you need help with?",
+        "Sorry, that's not available. Is there something else you need help with?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Castro Valley Health\";appointment_time=\"2 pm\";appointment_date=\"March 12th\")",
+        "So you want an appointment at Castro Valley Health on March 12th at 2 pm. Is that correct?",
+        "So you want an appointment at Castro Valley Health on March 12th at 2 pm. Is that correct?"
+    ],
+    [
+        "CONFIRM(appointment_time=\"10 am\";appointment_date=\"March 12th\")",
+        "So you want the appointment on March 12th at 10 am?",
+        "So you want the appointment on March 12th at 10 am?"
+    ],
+    [
+        "INFORM(address=\"2400 Camino Ramon\";phone_number=\"925-359-1110\")",
+        "Absolutely, their contact number is 925-359-1110 and their address is 2400 Camino Ramon.",
+        "Absolutely, their contact number is 925-359-1110 and their address is 2400 Camino Ramon."
+    ],
+    [
+        "INFORM(address=\"2400 Camino Ramon\";phone_number=\"925-359-1110\")@NOTIFY_SUCCESS()",
+        "Absolutely, their contact number is 925-359-1110 and their address is 2400 Camino Ramon.",
+        "Absolutely, their contact number is 925-359-1110 and their address is 2400 Camino Ramon."
+    ],
+    [
+        "CONFIRM(dentist_name=\"Dr. Eugene H. Burton Iii\";appointment_time=\"5:45 pm\";appointment_date=\"March 14th\")",
+        "Please confirm these details: you want to book an appointment with Dr. Eugene H. Burton Iii at 5:45 pm on March 14th.",
+        "Please confirm these details: you want to book an appointment with Dr. Eugene H. Burton Iii at 5:45 pm on March 14th."
+    ],
+    [
+        "CONFIRM(appointment_time=\"5:45 pm\";appointment_date=\"next Tuesday\")",
+        "Please confirm these details: you want to book an appointment at 5:45 pm next Tuesday.",
+        "Please confirm these details: you want to book an appointment at 5:45 pm next Tuesday."
+    ],
+    [
+        "CONFIRM(dentist_name=\"Chandiok Neena K\";appointment_time=\"1 pm\")",
+        "Please confirm these details: you want to book an appointment with Chandiok Neena K at 1 pm.",
+        "Please confirm these details: you want to book an appointment with Chandiok Neena K at 1 pm."
+    ],
+    [
+        "INFORM(phone_number=\"408-530-8014\")",
+        "Sorry, I could not book the appointment you requested. The phone number for Chandiok Neena K is 408-530-8014. Would you like an appointment next Tuesday at 12:30 pm instead?",
+        "Sorry, I could not book the appointment you requested. The phone number for Chandiok Neena K is 408-530-8014. Would you like an appointment next Tuesday at 12:30 pm instead?"
+    ],
+    [
+        "INFORM(phone_number=\"408-530-8014\")@OFFER(dentist_name=\"Chandiok Neena K\";appointment_date=\"next Tuesday\";appointment_time=\"12:30 pm\")",
+        "Sorry, I could not book the appointment you requested. The phone number for Chandiok Neena K is 408-530-8014. Would you like an appointment next Tuesday at 12:30 pm instead?",
+        "Sorry, I could not book the appointment you requested. The phone number for Chandiok Neena K is 408-530-8014. Would you like an appointment next Tuesday at 12:30 pm instead?"
+    ],
+    [
+        "INFORM(phone_number=\"408-530-8014\")@OFFER(dentist_name=\"Chandiok Neena K\";appointment_date=\"next Tuesday\";appointment_time=\"12:30 pm\")@NOTIFY_FAILURE()",
+        "Sorry, I could not book the appointment you requested. The phone number for Chandiok Neena K is 408-530-8014. Would you like an appointment next Tuesday at 12:30 pm instead?",
+        "Sorry, I could not book the appointment you requested. The phone number for Chandiok Neena K is 408-530-8014. Would you like an appointment next Tuesday at 12:30 pm instead?"
+    ],
+    [
+        "CONFIRM(dentist_name=\"North Meridian Dental\";appointment_time=\"3:15 pm\";appointment_date=\"March 14th\")",
+        "Please confirm the following appointment on March 14th at 3:15 pm at North Meridian Dental.",
+        "Please confirm the following appointment on March 14th at 3:15 pm at North Meridian Dental."
+    ],
+    [
+        "CONFIRM(appointment_time=\"5:15 pm\";appointment_date=\"March 12th\")",
+        "Please confirm the following appointment is on March 12th at 5:15 pm.",
+        "Please confirm the following appointment is on March 12th at 5:15 pm."
+    ],
+    [
+        "CONFIRM(dentist_name=\"Solage Dental\";appointment_date=\"March 12th\")",
+        "Please confirm the following appointment is on March 12th at Solage Dental.",
+        "Please confirm the following appointment is on March 12th at Solage Dental."
+    ],
+    [
+        "INFORM(city=\"Pleasanton\")",
+        "I am sorry, there is no availability at 5:15pm, would 5:30 pm on March 12th at Solage Dental work? The office is located in Pleasanton.",
+        "I am sorry, there is no availability at 5:15pm, would 5:30 pm on March 12th at Solage Dental work? The office is located in Pleasanton."
+    ],
+    [
+        "INFORM(city=\"Pleasanton\")@OFFER(dentist_name=\"Solage Dental\";appointment_date=\"March 12th\";appointment_time=\"5:30 pm\")",
+        "I am sorry, there is no availability at 5:15pm, would 5:30 pm on March 12th at Solage Dental work? The office is located in Pleasanton.",
+        "I am sorry, there is no availability at 5:15pm, would 5:30 pm on March 12th at Solage Dental work? The office is located in Pleasanton."
+    ],
+    [
+        "INFORM(city=\"Pleasanton\")@OFFER(dentist_name=\"Solage Dental\";appointment_date=\"March 12th\";appointment_time=\"5:30 pm\")@NOTIFY_FAILURE()",
+        "I am sorry, there is no availability at 5:15pm, would 5:30 pm on March 12th at Solage Dental work? The office is located in Pleasanton.",
+        "I am sorry, there is no availability at 5:15pm, would 5:30 pm on March 12th at Solage Dental work? The office is located in Pleasanton."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Awesome! Your dentist appointment is booked!",
+        "Awesome! Your dentist appointment is booked!"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Dr. Clayton G. Zeidler\";appointment_time=\"2:30 pm\";appointment_date=\"tomorrow\")",
+        "Please confirm the following details: book a visit to Dr. Clayton G. Zeidler at 2:30 pm tomorrow",
+        "Please confirm the following details: book a visit to Dr. Clayton G. Zeidler at 2:30 pm tomorrow"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your dentist appointment is booked successfully",
+        "Your dentist appointment is booked successfully"
+    ],
+    [
+        "CONFIRM(dentist_name=\"Dr. Brian W. Chun\";appointment_time=\"10:30 am\";appointment_date=\"next Wednesday\")",
+        "Kindly ensure that, on next Wednesday at 10:30 am appointment has been booked with Dr. Brian W. Chun.",
+        "Kindly ensure that, on next Wednesday at 10:30 am appointment has been booked with Dr. Brian W. Chun."
+    ],
+    [
+        "INFORM(phone_number=\"408-255-8882\")",
+        "Congrats. The dentist appointment is done successfully. Their contact number if 408-255-8882.",
+        "Congrats. The dentist appointment is done successfully. Their contact number if 408-255-8882."
+    ],
+    [
+        "INFORM(phone_number=\"408-255-8882\")@NOTIFY_SUCCESS()",
+        "Congrats. The dentist appointment is done successfully. Their contact number if 408-255-8882.",
+        "Congrats. The dentist appointment is done successfully. Their contact number if 408-255-8882."
+    ],
+    [
+        "INFORM(offers_cosmetic_services=\"False\";city=\"Cupertino\")",
+        "No. Sorry. Unfortunately, they are not providing any cosmetic services. They are at Cupertino.",
+        "No. Sorry. Unfortunately, they are not providing any cosmetic services. They are at Cupertino."
+    ],
+    [
+        "OFFER(stylist_name=\"Cosmo'S Barber Shop\";city=\"Pleasanton\")",
+        "Cosmo'S Barber Shop is a great salon in Pleasanton.",
+        "Cosmo'S Barber Shop is a great salon in Pleasanton."
+    ],
+    [
+        "OFFER(stylist_name=\"Ap Luxe Salon\";city=\"Mill Valley\")",
+        "Ap Luxe Salon is a nice salon in Mill Valley.",
+        "Ap Luxe Salon is a nice salon in Mill Valley."
+    ],
+    [
+        "INFORM(street_address=\"40 Millwood Street\")",
+        "The address is 40 Millwood Street.",
+        "The address is 40 Millwood Street."
+    ],
+    [
+        "INFORM(is_unisex=\"True\")",
+        "Yes. It is a unisex salon.",
+        "Yes. It is a unisex salon."
+    ],
+    [
+        "OFFER(stylist_name=\"Garlic City Barbers\";city=\"Gilroy\")",
+        "I found Garlic City Barbers in Gilroy.",
+        "I found Garlic City Barbers in Gilroy."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")",
+        "How about 1512 Barber Shop in San Francisco?",
+        "How about 1512 Barber Shop in San Francisco?"
+    ],
+    [
+        "OFFER(stylist_name=\"18|8 Fine Men'S Salons - Lafayette\";city=\"Lafayette\")",
+        "I found 4 options for you. How about 18|8 Fine Men'S Salons - Lafayette in Lafayette?",
+        "I found 4 options for you. How about 18|8 Fine Men'S Salons - Lafayette in Lafayette?"
+    ],
+    [
+        "OFFER(stylist_name=\"18|8 Fine Men'S Salons - Lafayette\";city=\"Lafayette\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 options for you. How about 18|8 Fine Men'S Salons - Lafayette in Lafayette?",
+        "I found 4 options for you. How about 18|8 Fine Men'S Salons - Lafayette in Lafayette?"
+    ],
+    [
+        "OFFER(stylist_name=\"Citizen Salon\";city=\"Lafayette\")",
+        "How about Citizen Salon in Lafayette?",
+        "How about Citizen Salon in Lafayette?"
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")",
+        "I have found a nice one in San Francisco called 1512 Barber Shop.",
+        "I have found a nice one in San Francisco called 1512 Barber Shop."
+    ],
+    [
+        "INFORM(average_rating=\"4.8\")",
+        "They have an average rating of 4.8.",
+        "They have an average rating of 4.8."
+    ],
+    [
+        "INFORM(street_address=\"1532 20th Street\")",
+        "They are located at 1532 20th Street.",
+        "They are located at 1532 20th Street."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")",
+        "How about 1512 Barber Shop in San Francisco?",
+        "How about 1512 Barber Shop in San Francisco?"
+    ],
+    [
+        "INFORM(is_unisex=\"True\";phone_number=\"415-286-4371\")",
+        "It is a unisex salon, and their phone number is 415-286-4371.",
+        "It is a unisex salon, and their phone number is 415-286-4371."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")",
+        "How about the 1512 Barber Shop in San Francisco?",
+        "How about the 1512 Barber Shop in San Francisco?"
+    ],
+    [
+        "INFORM(street_address=\"1532 20th Street\")",
+        "The address is 1532 20th Street.",
+        "The address is 1532 20th Street."
+    ],
+    [
+        "INFORM(is_unisex=\"True\";phone_number=\"415-286-4371\")",
+        "It is a unisex salon. Their phone number is 415-286-4371.",
+        "It is a unisex salon. Their phone number is 415-286-4371."
+    ],
+    [
+        "OFFER(stylist_name=\"20Th Salon and Barber\";city=\"San Francisco\")",
+        "How about the 20Th Salon and Barber in San Francisco?",
+        "How about the 20Th Salon and Barber in San Francisco?"
+    ],
+    [
+        "OFFER(stylist_name=\"Atelier Salon Willow Glen\";city=\"San Jose\")",
+        "You should give Atelier Salon Willow Glen a try in San Jose.",
+        "You should give Atelier Salon Willow Glen a try in San Jose."
+    ],
+    [
+        "OFFER(stylist_name=\"Atelier Salon Willow Glen\";city=\"San Jose\")",
+        "I found 10 salons you might like including Atelier Salon Willow Glen in San Jose.",
+        "I found 10 salons you might like including Atelier Salon Willow Glen in San Jose."
+    ],
+    [
+        "OFFER(stylist_name=\"Atelier Salon Willow Glen\";city=\"San Jose\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 salons you might like including Atelier Salon Willow Glen in San Jose.",
+        "I found 10 salons you might like including Atelier Salon Willow Glen in San Jose."
+    ],
+    [
+        "OFFER(stylist_name=\"Barba & Co. San Jose\";city=\"San Jose\")",
+        "Barba & Co. San Jose is a nice salon in the San Jose area.",
+        "Barba & Co. San Jose is a nice salon in the San Jose area."
+    ],
+    [
+        "OFFER(stylist_name=\"Lollipop Haircut Shop\";city=\"Brentwood\")",
+        "I have 3 salons you might light including Lollipop Haircut Shop that is a nice place in Brentwood.",
+        "I have 3 salons you might light including Lollipop Haircut Shop that is a nice place in Brentwood."
+    ],
+    [
+        "OFFER(stylist_name=\"Lollipop Haircut Shop\";city=\"Brentwood\")@INFORM_COUNT(count=\"3\")",
+        "I have 3 salons you might light including Lollipop Haircut Shop that is a nice place in Brentwood.",
+        "I have 3 salons you might light including Lollipop Haircut Shop that is a nice place in Brentwood."
+    ],
+    [
+        "INFORM(average_rating=\"3.9\";phone_number=\"925-240-1337\")",
+        "The average rating is 3.9 and the phone number 925-240-1337.",
+        "The average rating is 3.9 and the phone number 925-240-1337."
+    ],
+    [
+        "OFFER(stylist_name=\"18/8 Fine Men's Salons - Palo Alto\";city=\"Palo Alto\")",
+        "There is one as 18/8 Fine Men's Salons - Palo Alto, and it is in Palo Alto.",
+        "There is one as 18/8 Fine Men's Salons - Palo Alto, and it is in Palo Alto."
+    ],
+    [
+        "INFORM(is_unisex=\"True\";average_rating=\"3.9\")",
+        "Yes, this is a unisex salon with a rating of 3.9.",
+        "Yes, this is a unisex salon with a rating of 3.9."
+    ],
+    [
+        "OFFER(stylist_name=\"Great Clips\";city=\"Castro Valley\")",
+        "Great Clips is in Castro Valley",
+        "Great Clips is in Castro Valley"
+    ],
+    [
+        "OFFER(stylist_name=\"17 Jewels Salon\";city=\"Oakland\")",
+        "There are 10 options. 17 Jewels Salon is located in Oakland.",
+        "There are 10 options. 17 Jewels Salon is located in Oakland."
+    ],
+    [
+        "OFFER(stylist_name=\"17 Jewels Salon\";city=\"Oakland\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 options. 17 Jewels Salon is located in Oakland.",
+        "There are 10 options. 17 Jewels Salon is located in Oakland."
+    ],
+    [
+        "OFFER(stylist_name=\"Garlic City Barbers\";city=\"Gilroy\")",
+        "Garlic City Barbers is located in Gilroy.",
+        "Garlic City Barbers is located in Gilroy."
+    ],
+    [
+        "INFORM(phone_number=\"408-763-6990\";street_address=\"7520 Eigleberry Street\")",
+        "They're located at 7520 Eigleberry Street and their direct line is 408-763-6990.",
+        "They're located at 7520 Eigleberry Street and their direct line is 408-763-6990."
+    ],
+    [
+        "OFFER(stylist_name=\"Great Clips\";city=\"Gilroy\")",
+        "There are 2 options. Great Clips is a salon in Gilroy.",
+        "There are 2 options. Great Clips is a salon in Gilroy."
+    ],
+    [
+        "OFFER(stylist_name=\"Great Clips\";city=\"Gilroy\")@INFORM_COUNT(count=\"2\")",
+        "There are 2 options. Great Clips is a salon in Gilroy.",
+        "There are 2 options. Great Clips is a salon in Gilroy."
+    ],
+    [
+        "OFFER(stylist_name=\"hair by Jane joo in San Ramon\";city=\"san ramon\")",
+        "there are 4 salons which you may like help by hair by Jane joo in San Ramon is an good salon in san ramon",
+        "there are 4 salons which you may like help by hair by Jane joo in San Ramon is an good salon in san ramon"
+    ],
+    [
+        "OFFER(stylist_name=\"hair by Jane joo in San Ramon\";city=\"san ramon\")@INFORM_COUNT(count=\"4\")",
+        "there are 4 salons which you may like help by hair by Jane joo in San Ramon is an good salon in san ramon",
+        "there are 4 salons which you may like help by hair by Jane joo in San Ramon is an good salon in san ramon"
+    ],
+    [
+        "OFFER(stylist_name=\"Aya Salon & spa\";city=\"Berkeley\")",
+        "You have 10 salon choices in this area. A nice one is Aya Salon & spa located in Berkeley.",
+        "You have 10 salon choices in this area. A nice one is Aya Salon & spa located in Berkeley."
+    ],
+    [
+        "OFFER(stylist_name=\"Aya Salon & spa\";city=\"Berkeley\")@INFORM_COUNT(count=\"10\")",
+        "You have 10 salon choices in this area. A nice one is Aya Salon & spa located in Berkeley.",
+        "You have 10 salon choices in this area. A nice one is Aya Salon & spa located in Berkeley."
+    ],
+    [
+        "OFFER(stylist_name=\"Berkeley Hair studio\";city=\"Berkeley\")",
+        "I found one located in Berkeley named Berkeley Hair studio.",
+        "I found one located in Berkeley named Berkeley Hair studio."
+    ],
+    [
+        "INFORM(street_address=\"2556 Telegraph Avenue #4\")",
+        "The place is located at 2556 Telegraph Avenue #4.",
+        "The place is located at 2556 Telegraph Avenue #4."
+    ],
+    [
+        "INFORM(average_rating=\"4.8\";phone_number=\"510-540-1261\")",
+        "Their rating averages 4.8 and you may reach them at 510-540-1261.",
+        "Their rating averages 4.8 and you may reach them at 510-540-1261."
+    ],
+    [
+        "OFFER(stylist_name=\"18/8 Fine Men'S Salons - Palo Alto\";city=\"Palo Alto\")",
+        "18/8 Fine Men'S Salons - Palo Alto is a great salon in Palo Alto.",
+        "18/8 Fine Men'S Salons - Palo Alto is a great salon in Palo Alto."
+    ],
+    [
+        "OFFER(stylist_name=\"California Barber Shop\";city=\"Palo Alto\")",
+        "California Barber Shop is a great salon in Palo Alto.",
+        "California Barber Shop is a great salon in Palo Alto."
+    ],
+    [
+        "INFORM(is_unisex=\"True\";phone_number=\"650-326-4820\")",
+        "Yes it is. The contact number is 650-326-4820.",
+        "Yes it is. The contact number is 650-326-4820."
+    ],
+    [
+        "OFFER(stylist_name=\"Burlingame Barber Shop\";city=\"Burlingame\")",
+        "Okay, I have found 10 salons for you in Burlingame. How about Burlingame Barber Shop?",
+        "Okay, I have found 10 salons for you in Burlingame. How about Burlingame Barber Shop?"
+    ],
+    [
+        "OFFER(stylist_name=\"Burlingame Barber Shop\";city=\"Burlingame\")@INFORM_COUNT(count=\"10\")",
+        "Okay, I have found 10 salons for you in Burlingame. How about Burlingame Barber Shop?",
+        "Okay, I have found 10 salons for you in Burlingame. How about Burlingame Barber Shop?"
+    ],
+    [
+        "INFORM(average_rating=\"4.7\";street_address=\"1012 Oak Grove Avenue\")",
+        "It's located at 1012 Oak Grove Avenue and has an average rating of 4.7.",
+        "It's located at 1012 Oak Grove Avenue and has an average rating of 4.7."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")",
+        "Found 10 salons in San Francisco. One of them is 1512 Barber Shop.",
+        "Found 10 salons in San Francisco. One of them is 1512 Barber Shop."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")@INFORM_COUNT(count=\"10\")",
+        "Found 10 salons in San Francisco. One of them is 1512 Barber Shop.",
+        "Found 10 salons in San Francisco. One of them is 1512 Barber Shop."
+    ],
+    [
+        "INFORM(average_rating=\"4.8\")",
+        "4.8 is the average rating.",
+        "4.8 is the average rating."
+    ],
+    [
+        "INFORM(phone_number=\"415-286-4371\";street_address=\"1532 20th Street\")",
+        "It's located at 1532 20th Street. You may call 415-286-4371.",
+        "It's located at 1532 20th Street. You may call 415-286-4371."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")",
+        "Among the 10 salons that might interest you is 1512 Barber Shop, a nice salon in San Francisco.",
+        "Among the 10 salons that might interest you is 1512 Barber Shop, a nice salon in San Francisco."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")@INFORM_COUNT(count=\"10\")",
+        "Among the 10 salons that might interest you is 1512 Barber Shop, a nice salon in San Francisco.",
+        "Among the 10 salons that might interest you is 1512 Barber Shop, a nice salon in San Francisco."
+    ],
+    [
+        "INFORM(phone_number=\"415-286-4371\")",
+        "You can reach the salon at 415-286-4371.",
+        "You can reach the salon at 415-286-4371."
+    ],
+    [
+        "OFFER(stylist_name=\"Barber's Garage\";city=\"Rohnert Park\")",
+        "There are 4 salons there. Do you prefer Barber's Garage in Rohnert Park.",
+        "There are 4 salons there. Do you prefer Barber's Garage in Rohnert Park."
+    ],
+    [
+        "OFFER(stylist_name=\"Barber's Garage\";city=\"Rohnert Park\")@INFORM_COUNT(count=\"4\")",
+        "There are 4 salons there. Do you prefer Barber's Garage in Rohnert Park.",
+        "There are 4 salons there. Do you prefer Barber's Garage in Rohnert Park."
+    ],
+    [
+        "INFORM(is_unisex=\"True\")",
+        "It is unisex.",
+        "It is unisex."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")",
+        "There are 10 San Francisco salons I can suggest. One possibility is 1512 Barber Shop.",
+        "There are 10 San Francisco salons I can suggest. One possibility is 1512 Barber Shop."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 San Francisco salons I can suggest. One possibility is 1512 Barber Shop.",
+        "There are 10 San Francisco salons I can suggest. One possibility is 1512 Barber Shop."
+    ],
+    [
+        "OFFER(stylist_name=\"Christine'S Salon\";city=\"Mountain View\")",
+        "Christine'S Salon is a popular option in Mountain View.",
+        "Christine'S Salon is a popular option in Mountain View."
+    ],
+    [
+        "INFORM(average_rating=\"4.4\";street_address=\"2425 California Street # C\")",
+        "The salon, which is located at 2425 California Street # C, has a 4.4 average rating.",
+        "The salon, which is located at 2425 California Street # C, has a 4.4 average rating."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")",
+        "There are 10 places matching your criteria. One good option is a salon located at 1512 Barber Shop in San Francisco.",
+        "There are 10 places matching your criteria. One good option is a salon located at 1512 Barber Shop in San Francisco."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 places matching your criteria. One good option is a salon located at 1512 Barber Shop in San Francisco.",
+        "There are 10 places matching your criteria. One good option is a salon located at 1512 Barber Shop in San Francisco."
+    ],
+    [
+        "INFORM(street_address=\"1532 20th Street\")",
+        "IT is located at 1532 20th Street.",
+        "IT is located at 1532 20th Street."
+    ],
+    [
+        "OFFER(stylist_name=\"1512 Barber Shop\";city=\"San Francisco\")",
+        "There is a nice one called 1512 Barber Shop in San Francisco.",
+        "There is a nice one called 1512 Barber Shop in San Francisco."
+    ],
+    [
+        "OFFER(stylist_name=\"20Th Salon and Barber\";city=\"San Francisco\")",
+        "Yes, there are 9. One is called 20Th Salon and Barber in San Francisco.",
+        "Yes, there are 9. One is called 20Th Salon and Barber in San Francisco."
+    ],
+    [
+        "OFFER(stylist_name=\"20Th Salon and Barber\";city=\"San Francisco\")@INFORM_COUNT(count=\"9\")",
+        "Yes, there are 9. One is called 20Th Salon and Barber in San Francisco.",
+        "Yes, there are 9. One is called 20Th Salon and Barber in San Francisco."
+    ],
+    [
+        "OFFER(stylist_name=\"Breds Barbershop\";city=\"Concord\")",
+        "Of the 6 salons in Concord, Breds Barbershop is a nice one.",
+        "Of the 6 salons in Concord, Breds Barbershop is a nice one."
+    ],
+    [
+        "OFFER(stylist_name=\"Breds Barbershop\";city=\"Concord\")@INFORM_COUNT(count=\"6\")",
+        "Of the 6 salons in Concord, Breds Barbershop is a nice one.",
+        "Of the 6 salons in Concord, Breds Barbershop is a nice one."
+    ],
+    [
+        "OFFER(stylist_name=\"Empire Barbershop\";city=\"Concord\")",
+        "Empire Barbershop is another salon in Concord.",
+        "Empire Barbershop is another salon in Concord."
+    ],
+    [
+        "INFORM(phone_number=\"925-798-3000\";street_address=\"114 Sun Valley Mall\")",
+        "The salon is located at 114 Sun Valley Mall and their phone number is 925-798-3000.",
+        "The salon is located at 114 Sun Valley Mall and their phone number is 925-798-3000."
+    ],
+    [
+        "OFFER(stylist_name=\"First Class Barber Shop\";city=\"Concord\")",
+        "Would you like to try First Class Barber Shop in Concord?",
+        "Would you like to try First Class Barber Shop in Concord?"
+    ],
+    [
+        "OFFER(stylist_name=\"Great Clips\";city=\"Pinole\")",
+        "There's a good one in Pinole and it's called Great Clips.",
+        "There's a good one in Pinole and it's called Great Clips."
+    ],
+    [
+        "INFORM(street_address=\"1386 Fitzgerald Drive\")",
+        "It's 1386 Fitzgerald Drive",
+        "It's 1386 Fitzgerald Drive"
+    ],
+    [
+        "OFFER(stylist_name=\"Blow Dry Bar\";city=\"Walnut Creek\")",
+        "A very good salon in Walnut Creek is Blow Dry Bar.",
+        "A very good salon in Walnut Creek is Blow Dry Bar."
+    ],
+    [
+        "INFORM(average_rating=\"4.4\";phone_number=\"925-837-2990\")",
+        "The average rating is 4.4 and the phone number there is 925-837-2990.",
+        "The average rating is 4.4 and the phone number there is 925-837-2990."
+    ],
+    [
+        "OFFER(therapist_name=\"Jacome Paulette D\";type=\"Psychologist\";city=\"Los Gatos\")",
+        "I found 3 therapists. Jacome Paulette D is a psychologist in Los Gatos.",
+        "I found 3 therapists. Jacome Paulette D is a psychologist in Los Gatos."
+    ],
+    [
+        "OFFER(therapist_name=\"Jacome Paulette D\";type=\"Psychologist\";city=\"Los Gatos\")@INFORM_COUNT(count=\"3\")",
+        "I found 3 therapists. Jacome Paulette D is a psychologist in Los Gatos.",
+        "I found 3 therapists. Jacome Paulette D is a psychologist in Los Gatos."
+    ],
+    [
+        "OFFER(therapist_name=\"Jeff Greenwald\";type=\"Psychologist\";city=\"Corte Madera\")",
+        "I found 3 therapists. Jeff Greenwald is a psychologist in Corte Madera.",
+        "I found 3 therapists. Jeff Greenwald is a psychologist in Corte Madera."
+    ],
+    [
+        "OFFER(therapist_name=\"Jeff Greenwald\";type=\"Psychologist\";city=\"Corte Madera\")@INFORM_COUNT(count=\"3\")",
+        "I found 3 therapists. Jeff Greenwald is a psychologist in Corte Madera.",
+        "I found 3 therapists. Jeff Greenwald is a psychologist in Corte Madera."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Jeff Greenwald\";appointment_time=\"5:30 pm\";appointment_date=\"March 7th\")",
+        "An appointment with Jeff Greenwald at 5:30 pm on March 7th. Is this right?",
+        "An appointment with Jeff Greenwald at 5:30 pm on March 7th. Is this right?"
+    ],
+    [
+        "INFORM(phone_number=\"415-640-6928\")",
+        "Your appointment has been made. You'll get an email confirmation. Their number is 415-640-6928.",
+        "Your appointment has been made. You'll get an email confirmation. Their number is 415-640-6928."
+    ],
+    [
+        "INFORM(phone_number=\"415-640-6928\")@NOTIFY_SUCCESS()",
+        "Your appointment has been made. You'll get an email confirmation. Their number is 415-640-6928.",
+        "Your appointment has been made. You'll get an email confirmation. Their number is 415-640-6928."
+    ],
+    [
+        "INFORM(address=\"45 San Clemente Drive\")",
+        "They are at 45 San Clemente Drive.",
+        "They are at 45 San Clemente Drive."
+    ],
+    [
+        "OFFER(therapist_name=\"Ellsworth Elizabeth\";type=\"Family Counselor\";city=\"St. Helena\")",
+        "I found 2 therapists that match your request. Ellsworth Elizabeth is a family counselor in St. Helena.",
+        "I found 2 therapists that match your request. Ellsworth Elizabeth is a family counselor in St. Helena."
+    ],
+    [
+        "OFFER(therapist_name=\"Ellsworth Elizabeth\";type=\"Family Counselor\";city=\"St. Helena\")@INFORM_COUNT(count=\"2\")",
+        "I found 2 therapists that match your request. Ellsworth Elizabeth is a family counselor in St. Helena.",
+        "I found 2 therapists that match your request. Ellsworth Elizabeth is a family counselor in St. Helena."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Ellsworth Elizabeth\";appointment_time=\"3:30 pm\";appointment_date=\"March 10th\")",
+        "Please confirm: booking an appointment with Ellsworth Elizabeth on March 10th at 3:30 pm.",
+        "Please confirm: booking an appointment with Ellsworth Elizabeth on March 10th at 3:30 pm."
+    ],
+    [
+        "CONFIRM(appointment_time=\"3:30 pm\";appointment_date=\"March 11th\")",
+        "Please confirm: an appointment on March 11th at 3:30 pm.",
+        "Please confirm: an appointment on March 11th at 3:30 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your appointment has been made. You should receive a confirmation email shortly.",
+        "Your appointment has been made. You should receive a confirmation email shortly."
+    ],
+    [
+        "OFFER(therapist_name=\"Dunlap Peter T\";type=\"Psychologist\";city=\"Petaluma\")",
+        "I found 4 therapists. Dunlap Peter T. is a psychologist in Petaluma.",
+        "I found 4 therapists. Dunlap Peter T. is a psychologist in Petaluma."
+    ],
+    [
+        "OFFER(therapist_name=\"Dunlap Peter T\";type=\"Psychologist\";city=\"Petaluma\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 therapists. Dunlap Peter T. is a psychologist in Petaluma.",
+        "I found 4 therapists. Dunlap Peter T. is a psychologist in Petaluma."
+    ],
+    [
+        "OFFER(therapist_name=\"Dr. Manuj K. Nangia\";type=\"Psychiatrist\";city=\"San Jose\")",
+        "I found 6 therapists. Dr. Manuj K. Nangia is a psychiatrist in San Jose.",
+        "I found 6 therapists. Dr. Manuj K. Nangia is a psychiatrist in San Jose."
+    ],
+    [
+        "OFFER(therapist_name=\"Dr. Manuj K. Nangia\";type=\"Psychiatrist\";city=\"San Jose\")@INFORM_COUNT(count=\"6\")",
+        "I found 6 therapists. Dr. Manuj K. Nangia is a psychiatrist in San Jose.",
+        "I found 6 therapists. Dr. Manuj K. Nangia is a psychiatrist in San Jose."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Dr. Manuj K. Nangia\";appointment_time=\"12:30 pm\";appointment_date=\"March 12th\")",
+        "Please confirm: An appointment with Dr. Manuj K. Nangia at 12:30 pm on March 12th.",
+        "Please confirm: An appointment with Dr. Manuj K. Nangia at 12:30 pm on March 12th."
+    ],
+    [
+        "INFORM(phone_number=\"408-357-0105\")",
+        "Your appointment has been made and you will receive an email confirmation. The phone number is 408-357-0105.",
+        "Your appointment has been made and you will receive an email confirmation. The phone number is 408-357-0105."
+    ],
+    [
+        "INFORM(phone_number=\"408-357-0105\")@NOTIFY_SUCCESS()",
+        "Your appointment has been made and you will receive an email confirmation. The phone number is 408-357-0105.",
+        "Your appointment has been made and you will receive an email confirmation. The phone number is 408-357-0105."
+    ],
+    [
+        "INFORM(address=\"2516 Samaritan Drive\")",
+        "The address is 2516 Samaritan Drive.",
+        "The address is 2516 Samaritan Drive."
+    ],
+    [
+        "OFFER(therapist_name=\"Alissa Scanlin Psyd\";type=\"Psychologist\";city=\"Lafayette\")",
+        "Alissa Scanlin Psyd is a Psychologist in Lafayette.",
+        "Alissa Scanlin Psyd is a Psychologist in Lafayette."
+    ],
+    [
+        "INFORM(phone_number=\"707-371-2433\";address=\"3468 Mount Diablo Boulevard\")",
+        "They are located at 3468 Mount Diablo Boulevard and their phone number is 707-371-2433.",
+        "They are located at 3468 Mount Diablo Boulevard and their phone number is 707-371-2433."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Alissa Scanlin Psyd\";appointment_time=\"10:30 am\";appointment_date=\"March 13th\")",
+        "I'll make you an appointment with Alissa Scanlin Psyd at 10:30 am on March 13th, is that correct?",
+        "I'll make you an appointment with Alissa Scanlin Psyd at 10:30 am on March 13th, is that correct?"
+    ],
+    [
+        "CONFIRM(therapist_name=\"Alissa Scanlin Psyd\";appointment_time=\"3:30 pm\")",
+        "I'll make you an appointment with Alissa Scanlin Psyd for 3:30 pm.",
+        "I'll make you an appointment with Alissa Scanlin Psyd for 3:30 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've booked the appointment. There will be an email confirmation shortly.",
+        "I've booked the appointment. There will be an email confirmation shortly."
+    ],
+    [
+        "OFFER(therapist_name=\"Jeff Greenwald\";type=\"Psychologist\";city=\"Corte Madera\")",
+        "You can try Jeff Greenwald a psychologist in Corte Madera.",
+        "You can try Jeff Greenwald a psychologist in Corte Madera."
+    ],
+    [
+        "OFFER(therapist_name=\"Leslie M. Simon\";type=\"Psychologist\";city=\"Corte Madera\")",
+        "You could try Leslie M. Simon a psychologist in Corte Madera.",
+        "You could try Leslie M. Simon a psychologist in Corte Madera."
+    ],
+    [
+        "OFFER(therapist_name=\"Pamela Culver, psy\";type=\"Psychologist\";city=\"Sebastopol\")",
+        "I have 2 therapists that might work including trying Pamela Culver, psy a psychologist in Sebastopol.",
+        "I have 2 therapists that might work including trying Pamela Culver, psy a psychologist in Sebastopol."
+    ],
+    [
+        "OFFER(therapist_name=\"Pamela Culver, psy\";type=\"Psychologist\";city=\"Sebastopol\")@INFORM_COUNT(count=\"2\")",
+        "I have 2 therapists that might work including trying Pamela Culver, psy a psychologist in Sebastopol.",
+        "I have 2 therapists that might work including trying Pamela Culver, psy a psychologist in Sebastopol."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Pamela Culver, Psy\";appointment_time=\"5:45 pm\";appointment_date=\"March 6th\")",
+        "Please confirm an appointment with Pamela Culver, Psy at 5:45 pm on March 6th.",
+        "Please confirm an appointment with Pamela Culver, Psy at 5:45 pm on March 6th."
+    ],
+    [
+        "INFORM(phone_number=\"707-823-7300\";address=\"Sebastopol, California 95472, United States\")",
+        "You are able to call them at 707-823-7300 at Sebastopol, California 95472, United States. Sorry something was wrong and I couldn't book an appointment. You can try Pamela Culver, Psy for an appointment possibly on March 6th at 5:30 pm.",
+        "You are able to call them at 707-823-7300 at Sebastopol, California 95472, United States. Sorry something was wrong and I couldn't book an appointment. You can try Pamela Culver, Psy for an appointment possibly on March 6th at 5:30 pm."
+    ],
+    [
+        "INFORM(phone_number=\"707-823-7300\";address=\"Sebastopol, California 95472, United States\")@OFFER(therapist_name=\"Pamela Culver, Psy\";appointment_date=\"March 6th\";appointment_time=\"5:30 pm\")",
+        "You are able to call them at 707-823-7300 at Sebastopol, California 95472, United States. Sorry something was wrong and I couldn't book an appointment. You can try Pamela Culver, Psy for an appointment possibly on March 6th at 5:30 pm.",
+        "You are able to call them at 707-823-7300 at Sebastopol, California 95472, United States. Sorry something was wrong and I couldn't book an appointment. You can try Pamela Culver, Psy for an appointment possibly on March 6th at 5:30 pm."
+    ],
+    [
+        "INFORM(phone_number=\"707-823-7300\";address=\"Sebastopol, California 95472, United States\")@OFFER(therapist_name=\"Pamela Culver, Psy\";appointment_date=\"March 6th\";appointment_time=\"5:30 pm\")@NOTIFY_FAILURE()",
+        "You are able to call them at 707-823-7300 at Sebastopol, California 95472, United States. Sorry something was wrong and I couldn't book an appointment. You can try Pamela Culver, Psy for an appointment possibly on March 6th at 5:30 pm.",
+        "You are able to call them at 707-823-7300 at Sebastopol, California 95472, United States. Sorry something was wrong and I couldn't book an appointment. You can try Pamela Culver, Psy for an appointment possibly on March 6th at 5:30 pm."
+    ],
+    [
+        "OFFER(therapist_name=\"Auer Patience\";type=\"Family Counselor\";city=\"Santa Rosa\")",
+        "There is a Family Counselor in Santa Rosa by the name of Auer Patience.",
+        "There is a Family Counselor in Santa Rosa by the name of Auer Patience."
+    ],
+    [
+        "INFORM(phone_number=\"707-526-7604\")",
+        "They can be reached at 707-526-7604.",
+        "They can be reached at 707-526-7604."
+    ],
+    [
+        "INFORM(address=\"2455 Bennett Valley Road\")",
+        "Their location is 2455 Bennett Valley Road.",
+        "Their location is 2455 Bennett Valley Road."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Auer Patience\";appointment_time=\"12:30 pm\";appointment_date=\"March 11th\")",
+        "Making an appointment on March 11th at 12:30 pm with Auer Patience. Will you verify this is correct?",
+        "Making an appointment on March 11th at 12:30 pm with Auer Patience. Will you verify this is correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I was able to make the appointment without any issues. Look for an email that confirms the details soon.",
+        "I was able to make the appointment without any issues. Look for an email that confirms the details soon."
+    ],
+    [
+        "OFFER(therapist_name=\"Rachelle Coate\";type=\"Psychologist\";city=\"Gilroy\")",
+        "I found 3 Psychologist offices in Gilroy, including Rachelle Coate",
+        "I found 3 Psychologist offices in Gilroy, including Rachelle Coate"
+    ],
+    [
+        "OFFER(therapist_name=\"Rachelle Coate\";type=\"Psychologist\";city=\"Gilroy\")@INFORM_COUNT(count=\"3\")",
+        "I found 3 Psychologist offices in Gilroy, including Rachelle Coate",
+        "I found 3 Psychologist offices in Gilroy, including Rachelle Coate"
+    ],
+    [
+        "INFORM(address=\"8339 Church Street\")",
+        "Her address is 8339 Church Street",
+        "Her address is 8339 Church Street"
+    ],
+    [
+        "CONFIRM(therapist_name=\"Rachelle Coate\";appointment_time=\"3 pm\";appointment_date=\"March 12th\")",
+        "Sure thing, confirming you want me to try for 3 pm on March 12th with Rachelle Coate?",
+        "Sure thing, confirming you want me to try for 3 pm on March 12th with Rachelle Coate?"
+    ],
+    [
+        "INFORM(phone_number=\"831-665-5053\")",
+        "Their number is 831-665-5053 and good news your appointment is booked, you'll get a confirmation e-amil in a bit",
+        "Their number is 831-665-5053 and good news your appointment is booked, you'll get a confirmation e-amil in a bit"
+    ],
+    [
+        "INFORM(phone_number=\"831-665-5053\")@NOTIFY_SUCCESS()",
+        "Their number is 831-665-5053 and good news your appointment is booked, you'll get a confirmation e-amil in a bit",
+        "Their number is 831-665-5053 and good news your appointment is booked, you'll get a confirmation e-amil in a bit"
+    ],
+    [
+        "OFFER(therapist_name=\"Leininger Anne\";type=\"Family Counselor\";city=\"Gilroy\")",
+        "I'd like to suggest Leininger Anne, who's a family counselor in Gilroy.",
+        "I'd like to suggest Leininger Anne, who's a family counselor in Gilroy."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Leininger Anne\";appointment_time=\"11:15 am\";appointment_date=\"March 9th\")",
+        "Confirming an appointment on March 9th at 11:15 am with Leininger Anne.",
+        "Confirming an appointment on March 9th at 11:15 am with Leininger Anne."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The appointment has been set and you'll be sent a confirming email shortly.",
+        "The appointment has been set and you'll be sent a confirming email shortly."
+    ],
+    [
+        "OFFER(therapist_name=\"Kane Monique\";type=\"Family Counselor\";city=\"mountain View\")",
+        "I've found 2 that match the criteria. One of them is Kane Monique, a Family Counselor in mountain View.",
+        "I've found 2 that match the criteria. One of them is Kane Monique, a Family Counselor in mountain View."
+    ],
+    [
+        "OFFER(therapist_name=\"Kane Monique\";type=\"Family Counselor\";city=\"mountain View\")@INFORM_COUNT(count=\"2\")",
+        "I've found 2 that match the criteria. One of them is Kane Monique, a Family Counselor in mountain View.",
+        "I've found 2 that match the criteria. One of them is Kane Monique, a Family Counselor in mountain View."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Kane Monique\";appointment_time=\"10:15 am\";appointment_date=\"March 2nd\")",
+        "I'll make you an appointment with Kane Monique for March 2nd at 10:15 am. Does that work for you?",
+        "I'll make you an appointment with Kane Monique for March 2nd at 10:15 am. Does that work for you?"
+    ],
+    [
+        "INFORM(phone_number=\"650-964-6993\";address=\"1059 El Monte Avenue # B\")",
+        "Their phone number is 650-964-6993 and they are located at 1059 El Monte Avenue # B. I'm sorry but I was not able to book it for this time. Would you like to try for March 2nd at 10 am with Kane Monique?",
+        "Their phone number is 650-964-6993 and they are located at 1059 El Monte Avenue # B. I'm sorry but I was not able to book it for this time. Would you like to try for March 2nd at 10 am with Kane Monique?"
+    ],
+    [
+        "INFORM(phone_number=\"650-964-6993\";address=\"1059 El Monte Avenue # B\")@OFFER(therapist_name=\"Kane Monique\";appointment_date=\"March 2nd\";appointment_time=\"10 am\")",
+        "Their phone number is 650-964-6993 and they are located at 1059 El Monte Avenue # B. I'm sorry but I was not able to book it for this time. Would you like to try for March 2nd at 10 am with Kane Monique?",
+        "Their phone number is 650-964-6993 and they are located at 1059 El Monte Avenue # B. I'm sorry but I was not able to book it for this time. Would you like to try for March 2nd at 10 am with Kane Monique?"
+    ],
+    [
+        "INFORM(phone_number=\"650-964-6993\";address=\"1059 El Monte Avenue # B\")@OFFER(therapist_name=\"Kane Monique\";appointment_date=\"March 2nd\";appointment_time=\"10 am\")@NOTIFY_FAILURE()",
+        "Their phone number is 650-964-6993 and they are located at 1059 El Monte Avenue # B. I'm sorry but I was not able to book it for this time. Would you like to try for March 2nd at 10 am with Kane Monique?",
+        "Their phone number is 650-964-6993 and they are located at 1059 El Monte Avenue # B. I'm sorry but I was not able to book it for this time. Would you like to try for March 2nd at 10 am with Kane Monique?"
+    ],
+    [
+        "OFFER(therapist_name=\"Jones Jeannette\";type=\"Family Counselor\";city=\"Novato\")",
+        "There are 2 therapists. There is Jones Jeannette who is a Family Counselor in Novato.",
+        "There are 2 therapists. There is Jones Jeannette who is a Family Counselor in Novato."
+    ],
+    [
+        "OFFER(therapist_name=\"Jones Jeannette\";type=\"Family Counselor\";city=\"Novato\")@INFORM_COUNT(count=\"2\")",
+        "There are 2 therapists. There is Jones Jeannette who is a Family Counselor in Novato.",
+        "There are 2 therapists. There is Jones Jeannette who is a Family Counselor in Novato."
+    ],
+    [
+        "OFFER(therapist_name=\"Rigg Christie\";type=\"Family Counselor\";city=\"el Cerrito\")",
+        "There is 1. Rigg Christie is a Family Counselor in el Cerrito.",
+        "There is 1. Rigg Christie is a Family Counselor in el Cerrito."
+    ],
+    [
+        "OFFER(therapist_name=\"Rigg Christie\";type=\"Family Counselor\";city=\"el Cerrito\")@INFORM_COUNT(count=\"1\")",
+        "There is 1. Rigg Christie is a Family Counselor in el Cerrito.",
+        "There is 1. Rigg Christie is a Family Counselor in el Cerrito."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Rigg Christie\";appointment_time=\"10:45 am\";appointment_date=\"March 11th\")",
+        "Booking appointment with Rigg Christie on March 11th at 10:45 am.",
+        "Booking appointment with Rigg Christie on March 11th at 10:45 am."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Rigg Christie\";appointment_date=\"March 5th\")",
+        "Booking appointment with Rigg Christie on March 5th.",
+        "Booking appointment with Rigg Christie on March 5th."
+    ],
+    [
+        "OFFER(therapist_name=\"Rigg Christie\";appointment_date=\"March 5th\";appointment_time=\"10:30 am\")",
+        "Would you like to Rigg Christie on March 5th at 10:30 am instead?",
+        "Would you like to Rigg Christie on March 5th at 10:30 am instead?"
+    ],
+    [
+        "OFFER(therapist_name=\"Rigg Christie\";appointment_date=\"March 5th\";appointment_time=\"10:30 am\")@NOTIFY_FAILURE()",
+        "Would you like to Rigg Christie on March 5th at 10:30 am instead?",
+        "Would you like to Rigg Christie on March 5th at 10:30 am instead?"
+    ],
+    [
+        "OFFER(therapist_name=\"Yoerg Robert L\";type=\"Psychiatrist\";city=\"Belmont\")",
+        "I suggest Yoerg Robert L. They are a psychiatrist located in Belmont.",
+        "I suggest Yoerg Robert L. They are a psychiatrist located in Belmont."
+    ],
+    [
+        "OFFER(therapist_name=\"Alameda Children's Specialized\";type=\"Psychologist\";city=\"Oakland\")",
+        "I managed to find Alameda Children's Specialized. They're a psychologist located in Oakland.",
+        "I managed to find Alameda Children's Specialized. They're a psychologist located in Oakland."
+    ],
+    [
+        "OFFER(therapist_name=\"Brown Timothy A\";type=\"Psychologist\";city=\"Oakland\")",
+        "I also recommend Brown Timothy A. They are a psychologist located in Oakland.",
+        "I also recommend Brown Timothy A. They are a psychologist located in Oakland."
+    ],
+    [
+        "INFORM(phone_number=\"510-752-6706\";address=\"3900 Broadway\")",
+        "Their phone number is 510-752-6706 and you can locate them on 3900 Broadway.",
+        "Their phone number is 510-752-6706 and you can locate them on 3900 Broadway."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Brown Timothy A\";appointment_time=\"4:15 pm\";appointment_date=\"March 10th\")",
+        "So you'd like an appointment with Brown Timothy A at 4:15 pm on March 10th. Is this correct?",
+        "So you'd like an appointment with Brown Timothy A at 4:15 pm on March 10th. Is this correct?"
+    ],
+    [
+        "OFFER(therapist_name=\"Brown Timothy A\";appointment_date=\"March 10th\";appointment_time=\"4 pm\")",
+        "I'm sorry there was a problem booking the appointment. I would suggest an appointment at 4 pm instead on March 10th with Brown Timothy A.",
+        "I'm sorry there was a problem booking the appointment. I would suggest an appointment at 4 pm instead on March 10th with Brown Timothy A."
+    ],
+    [
+        "OFFER(therapist_name=\"Brown Timothy A\";appointment_date=\"March 10th\";appointment_time=\"4 pm\")@NOTIFY_FAILURE()",
+        "I'm sorry there was a problem booking the appointment. I would suggest an appointment at 4 pm instead on March 10th with Brown Timothy A.",
+        "I'm sorry there was a problem booking the appointment. I would suggest an appointment at 4 pm instead on March 10th with Brown Timothy A."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your appointment has been booked and you will receive an e-mail confirmation shortly.",
+        "Your appointment has been booked and you will receive an e-mail confirmation shortly."
+    ],
+    [
+        "OFFER(therapist_name=\"Alameda Children's Specialized\";type=\"Psychologist\";city=\"Oakland\")",
+        "Found Alameda Children's Specialized, a psychologist in Oakland.",
+        "Found Alameda Children's Specialized, a psychologist in Oakland."
+    ],
+    [
+        "INFORM(address=\"7200 Bancroft Ave # 125C\")",
+        "They are located at 7200 Bancroft Ave # 125C.",
+        "They are located at 7200 Bancroft Ave # 125C."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Alameda Children's Specialized\";appointment_time=\"11:30 am\";appointment_date=\"March 11th\")",
+        "Confirm Alameda Children's Specialized at 11:30 am on March 11th.",
+        "Confirm Alameda Children's Specialized at 11:30 am on March 11th."
+    ],
+    [
+        "CONFIRM(appointment_time=\"1:45 pm\";appointment_date=\"March 3rd\")",
+        "Confirm 1:45 pm on March 3rd.",
+        "Confirm 1:45 pm on March 3rd."
+    ],
+    [
+        "INFORM(phone_number=\"510-383-5100\")",
+        "You can reach them at 510-383-5100. Appointment is scheduled. You'll get an email confirmation.",
+        "You can reach them at 510-383-5100. Appointment is scheduled. You'll get an email confirmation."
+    ],
+    [
+        "INFORM(phone_number=\"510-383-5100\")@NOTIFY_SUCCESS()",
+        "You can reach them at 510-383-5100. Appointment is scheduled. You'll get an email confirmation.",
+        "You can reach them at 510-383-5100. Appointment is scheduled. You'll get an email confirmation."
+    ],
+    [
+        "OFFER(therapist_name=\"Rachelle Coate\";type=\"Psychologist\";city=\"Gilroy\")",
+        "I found a Psychologist named Rachelle Coate in Gilroy and you may try this Therapist.",
+        "I found a Psychologist named Rachelle Coate in Gilroy and you may try this Therapist."
+    ],
+    [
+        "INFORM(phone_number=\"831-665-5053\";address=\"8339 Church Street\")",
+        "Please note down the phone number as 831-665-5053 and their address is 8339 Church Street. Hope this information was useful.",
+        "Please note down the phone number as 831-665-5053 and their address is 8339 Church Street. Hope this information was useful."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Rachelle Coate\";appointment_time=\"11:30 am\";appointment_date=\"March 10th\")",
+        "Please confirm to book an appointment with Rachelle Coate on March 10th at 11:30 am.",
+        "Please confirm to book an appointment with Rachelle Coate on March 10th at 11:30 am."
+    ],
+    [
+        "CONFIRM(appointment_time=\"12:45 pm\";appointment_date=\"March 10th\")",
+        "Please confirm to book the appointment at 12:45 pm on March 10th.",
+        "Please confirm to book the appointment at 12:45 pm on March 10th."
+    ],
+    [
+        "CONFIRM(therapist_name=\"Rachelle Coate\";appointment_date=\"March 4th\")",
+        "Please confirm to book an appointment with Rachelle Coate on March 4th.",
+        "Please confirm to book an appointment with Rachelle Coate on March 4th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully booked the appointment with the Therapist and they will send you an confirmation e-mail soon.",
+        "I have successfully booked the appointment with the Therapist and they will send you an confirmation e-mail soon."
+    ]
+]

@@ -1,0 +1,1707 @@
+[
+    [
+        "OFFER(pickup_location=\"Portland Bus Station\";pickup_date=\"March 11th\";car_type=\"Standard\";car_name=\"Honda Accord\")",
+        "I see that there are 8 cars which seem as what you want. I can see that there is a good car that can be taken at Portland Bus Station on March 11th. The type of car is a Standard one. Would you like to have a Honda Accord?",
+        "I see that there are 8 cars which seem as what you want. I can see that there is a good car that can be taken at Portland Bus Station on March 11th. The type of car is a Standard one. Would you like to have a Honda Accord?"
+    ],
+    [
+        "OFFER(pickup_location=\"Portland Bus Station\";pickup_date=\"March 11th\";car_type=\"Standard\";car_name=\"Honda Accord\")@INFORM_COUNT(count=\"8\")",
+        "I see that there are 8 cars which seem as what you want. I can see that there is a good car that can be taken at Portland Bus Station on March 11th. The type of car is a Standard one. Would you like to have a Honda Accord?",
+        "I see that there are 8 cars which seem as what you want. I can see that there is a good car that can be taken at Portland Bus Station on March 11th. The type of car is a Standard one. Would you like to have a Honda Accord?"
+    ],
+    [
+        "INFORM(total_price=\"$90\")",
+        "The renting of this car will be costing you a total of $90.",
+        "The renting of this car will be costing you a total of $90."
+    ],
+    [
+        "OFFER(pickup_location=\"KLIA International Airport\";pickup_date=\"day after tomorrow\";car_type=\"Standard\";car_name=\"Honda Accord\")",
+        "Please give me a moment... I will look for the best option that suits your needs.... Hey! 4 cars are available. There is a nice Standard car, Honda Accord is available at KLIA International Airport for pickup on day after tomorrow. Do you wish to rent this car?",
+        "Please give me a moment... I will look for the best option that suits your needs.... Hey! 4 cars are available. There is a nice Standard car, Honda Accord is available at KLIA International Airport for pickup on day after tomorrow. Do you wish to rent this car?"
+    ],
+    [
+        "OFFER(pickup_location=\"KLIA International Airport\";pickup_date=\"day after tomorrow\";car_type=\"Standard\";car_name=\"Honda Accord\")@INFORM_COUNT(count=\"4\")",
+        "Please give me a moment... I will look for the best option that suits your needs.... Hey! 4 cars are available. There is a nice Standard car, Honda Accord is available at KLIA International Airport for pickup on day after tomorrow. Do you wish to rent this car?",
+        "Please give me a moment... I will look for the best option that suits your needs.... Hey! 4 cars are available. There is a nice Standard car, Honda Accord is available at KLIA International Airport for pickup on day after tomorrow. Do you wish to rent this car?"
+    ],
+    [
+        "INFORM(total_price=\"$96\")",
+        "It would cost $96 for your reservation.",
+        "It would cost $96 for your reservation."
+    ],
+    [
+        "CONFIRM(pickup_location=\"KLIA International Airport\";pickup_date=\"day after tomorrow\";pickup_time=\"3 pm\";dropoff_date=\"next Thursday\";car_type=\"Standard\")",
+        "Sure, I can do that for you. You wish to rent the Standard car from KLIA International Airport, day after tomorrow at 3 pm and would like to return it on next Thursday. Is that right? Please can you confirm me so that I can reserve the car for you? What is your first and last name for reservation if you find this car to be suitable for your reservation?",
+        "Sure, I can do that for you. You wish to rent the Standard car from KLIA International Airport, day after tomorrow at 3 pm and would like to return it on next Thursday. Is that right? Please can you confirm me so that I can reserve the car for you? What is your first and last name for reservation if you find this car to be suitable for your reservation?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay! I reserved the car under the name DEREK WHITE successfully.",
+        "Okay! I reserved the car under the name DEREK WHITE successfully."
+    ],
+    [
+        "OFFER(pickup_location=\"Chicago Union Station\";pickup_date=\"next Friday\";car_type=\"Standard\";car_name=\"Ford Fusion\")",
+        "There are 5 carsthat match your criteria. There is a nice Standard Ford Fusion car for pickup next Friday at Chicago Union Station.",
+        "There are 5 carsthat match your criteria. There is a nice Standard Ford Fusion car for pickup next Friday at Chicago Union Station."
+    ],
+    [
+        "OFFER(pickup_location=\"Chicago Union Station\";pickup_date=\"next Friday\";car_type=\"Standard\";car_name=\"Ford Fusion\")@INFORM_COUNT(count=\"5\")",
+        "There are 5 carsthat match your criteria. There is a nice Standard Ford Fusion car for pickup next Friday at Chicago Union Station.",
+        "There are 5 carsthat match your criteria. There is a nice Standard Ford Fusion car for pickup next Friday at Chicago Union Station."
+    ],
+    [
+        "OFFER(pickup_location=\"O'Hare International Airport\";pickup_date=\"March 12th\";car_type=\"Standard\";car_name=\"Honda Accord\")",
+        "There is Standard Honda Accord card for pickup on March 12th at O'Hare International Airport.",
+        "There is Standard Honda Accord card for pickup on March 12th at O'Hare International Airport."
+    ],
+    [
+        "INFORM(total_price=\"$31\")",
+        "It has a total cost of $31.",
+        "It has a total cost of $31."
+    ],
+    [
+        "OFFER(pickup_location=\"O'Hare International Airport\";pickup_date=\"March 12th\";car_type=\"Standard\";car_name=\"Nissan Altima\")",
+        "There is also a nice Standard Nissan Altima car for pickup on March 12th at O'Hare International Airport.",
+        "There is also a nice Standard Nissan Altima car for pickup on March 12th at O'Hare International Airport."
+    ],
+    [
+        "CONFIRM(pickup_location=\"O'Hare International Airport\";pickup_date=\"March 12th\";pickup_time=\"2 pm\";dropoff_date=\"March 13th\";car_type=\"Standard\")",
+        "Please confirm: Booking Standard Nissan Altima car for pickup at 2 pm on March 12th and drop-off at March 13th at O'Hare International Airport",
+        "Please confirm: Booking Standard Nissan Altima car for pickup at 2 pm on March 12th and drop-off at March 13th at O'Hare International Airport"
+    ],
+    [
+        "INFORM(total_price=\"$36\")",
+        "The car has been reserved. It has a total cost of $36.",
+        "The car has been reserved. It has a total cost of $36."
+    ],
+    [
+        "INFORM(total_price=\"$36\")@NOTIFY_SUCCESS()",
+        "The car has been reserved. It has a total cost of $36.",
+        "The car has been reserved. It has a total cost of $36."
+    ],
+    [
+        "OFFER(pickup_location=\"Indira Gandhi International Airport\";pickup_date=\"next Wednesday\";car_type=\"Standard\";car_name=\"Ford Fusion\")",
+        "I've found a standard Ford Fusion at Indira Gandhi International Airport. You can pick it up next Wednesday.",
+        "I've found a standard Ford Fusion at Indira Gandhi International Airport. You can pick it up next Wednesday."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Indira Gandhi International Airport\";pickup_date=\"Next Wednesday\";pickup_time=\"1:30 pm\";dropoff_date=\"March 10th\";car_type=\"Standard\")",
+        "Okay, please confirm: Next Wednesday, you are picking up a standard car from Indira Gandhi International Airport at 1:30 pm. The drop off date is March 10th.",
+        "Okay, please confirm: Next Wednesday, you are picking up a standard car from Indira Gandhi International Airport at 1:30 pm. The drop off date is March 10th."
+    ],
+    [
+        "INFORM(total_price=\"$128\")",
+        "The car has been reserve. It costs $128.",
+        "The car has been reserve. It costs $128."
+    ],
+    [
+        "INFORM(total_price=\"$128\")@NOTIFY_SUCCESS()",
+        "The car has been reserve. It costs $128.",
+        "The car has been reserve. It costs $128."
+    ],
+    [
+        "OFFER(pickup_location=\"YVR International Airport\";pickup_date=\"March 11th\";car_type=\"Standard\";car_name=\"Honda Accord\")",
+        "There's a nice Honda Accord, standard model at YVR International Airport on March 11th availble",
+        "There's a nice Honda Accord, standard model at YVR International Airport on March 11th availble"
+    ],
+    [
+        "INFORM(total_price=\"$99\")",
+        "It'll be $99 to reserve",
+        "It'll be $99 to reserve"
+    ],
+    [
+        "OFFER(pickup_location=\"YVR International Airport\";pickup_date=\"March 11th\";car_type=\"Standard\";car_name=\"Hyundai Elantra\")",
+        "Well at YVR International Airport on March 11th there's another Standard car, a Hyundai Elantra",
+        "Well at YVR International Airport on March 11th there's another Standard car, a Hyundai Elantra"
+    ],
+    [
+        "INFORM(total_price=\"$102\")",
+        "That's $102 total",
+        "That's $102 total"
+    ],
+    [
+        "OFFER(pickup_location=\"YVR International Airport\";pickup_date=\"MArch 11th\";car_type=\"Standard\";car_name=\"Nissan Altima\")",
+        "YVR International Airport carries a standard Nissan Altima also available on MArch 11th.",
+        "YVR International Airport carries a standard Nissan Altima also available on MArch 11th."
+    ],
+    [
+        "CONFIRM(pickup_location=\"YVR International Airport\";pickup_date=\"March 11th\";pickup_time=\"11 am\";dropoff_date=\"March 14th\";car_type=\"Standard\")",
+        "Confirming your YVR International Airport car rental from March 11th to March 14th at 11 am, the Standard Altima",
+        "Confirming your YVR International Airport car rental from March 11th to March 14th at 11 am, the Standard Altima"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "It's been booked",
+        "It's been booked"
+    ],
+    [
+        "OFFER(pickup_location=\"LGB Airport\";pickup_date=\"March 10th\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "I found a Standard car, Chevrolet Cruze, at LGB Airport for pickup on March 10th.",
+        "I found a Standard car, Chevrolet Cruze, at LGB Airport for pickup on March 10th."
+    ],
+    [
+        "OFFER(pickup_location=\"Downtown Station\";pickup_date=\"March 10th\";car_type=\"Standard\";car_name=\"Ford Fusion\")",
+        "I found another Standard car, Ford Fusion, at Downtown Station for pickup on March 10th.",
+        "I found another Standard car, Ford Fusion, at Downtown Station for pickup on March 10th."
+    ],
+    [
+        "INFORM(total_price=\"$96\")",
+        "$96 total.",
+        "$96 total."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Downtown Station\";pickup_date=\"March 10th\";pickup_time=\"1:30 pm\";dropoff_date=\"March 13th\";car_type=\"Standard\")",
+        "Please confirm a Standard car from Downtown Station with pickup date on March 10th at 1:30 pm and drop-off date on March 13th.",
+        "Please confirm a Standard car from Downtown Station with pickup date on March 10th at 1:30 pm and drop-off date on March 13th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've reserved your car.",
+        "I've reserved your car."
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"next Thursday\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "I found 6 cars which suits you.There is a good car at John Wayne Airport for pickup on next Thursday which is a Chevrolet Cruze Standard car",
+        "I found 6 cars which suits you.There is a good car at John Wayne Airport for pickup on next Thursday which is a Chevrolet Cruze Standard car"
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"next Thursday\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")@INFORM_COUNT(count=\"6\")",
+        "I found 6 cars which suits you.There is a good car at John Wayne Airport for pickup on next Thursday which is a Chevrolet Cruze Standard car",
+        "I found 6 cars which suits you.There is a good car at John Wayne Airport for pickup on next Thursday which is a Chevrolet Cruze Standard car"
+    ],
+    [
+        "INFORM(total_price=\"$224\")",
+        "Your booking costs $224 in total",
+        "Your booking costs $224 in total"
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"next Thursday\";car_type=\"Standard\";car_name=\"Ford Fusion\")",
+        "There is a good car in John Wayne Airport for pickup on next Thursday which is a Standard car. What about Ford Fusion?",
+        "There is a good car in John Wayne Airport for pickup on next Thursday which is a Standard car. What about Ford Fusion?"
+    ],
+    [
+        "INFORM(total_price=\"$301\")",
+        "Your booking costs $301 in total.",
+        "Your booking costs $301 in total."
+    ],
+    [
+        "CONFIRM(pickup_location=\"John Wayne Airport\";pickup_date=\"next Thursday\";pickup_time=\"10:30 am\";dropoff_date=\"March 14th\";car_type=\"Standard\")",
+        "Please confirm this : You are picking from John Wayne Airport on next Thursday at 10:30 am. The drop off is next March 14th. its a Standard car.",
+        "Please confirm this : You are picking from John Wayne Airport on next Thursday at 10:30 am. The drop off is next March 14th. its a Standard car."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car has been booked.",
+        "Your car has been booked."
+    ],
+    [
+        "OFFER(pickup_location=\"SFO International AIrport\";pickup_date=\"day after tomorrow\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "How about a Standard Car, a Chevrolet Cruze, pickup at SFO International AIrport the day after tomorrow",
+        "How about a Standard Car, a Chevrolet Cruze, pickup at SFO International AIrport the day after tomorrow"
+    ],
+    [
+        "CONFIRM(pickup_location=\"SFO International Airport\";pickup_date=\"day after tomorrow\";pickup_time=\"7:30 pm\";dropoff_date=\"next Thursday\";car_type=\"Standard\")",
+        "Please confirm: a standard car from SFO International Airport the day after tomorrow, pickup at 7:30 pm. You'll return it next Thursday",
+        "Please confirm: a standard car from SFO International Airport the day after tomorrow, pickup at 7:30 pm. You'll return it next Thursday"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation is confirmed",
+        "Your reservation is confirmed"
+    ],
+    [
+        "OFFER(pickup_location=\"Chicago Union Station\";pickup_date=\"today\";car_type=\"Standard\";car_name=\"Ford Fusion\")",
+        "There is a Standard car available today at Chicago Union Station. Are you okay with a Ford Fusion?",
+        "There is a Standard car available today at Chicago Union Station. Are you okay with a Ford Fusion?"
+    ],
+    [
+        "INFORM(total_price=\"$116\")",
+        "The reservation will be $116 total.",
+        "The reservation will be $116 total."
+    ],
+    [
+        "OFFER(pickup_location=\"O'Hare International Airport\";pickup_date=\"today\";car_type=\"Standard\";car_name=\"Honda Accord\")",
+        "I found 4 cars that fit your needs. There is a Standard car available today at O'Hare International Airport. Are you okay with a Honda Accord?",
+        "I found 4 cars that fit your needs. There is a Standard car available today at O'Hare International Airport. Are you okay with a Honda Accord?"
+    ],
+    [
+        "OFFER(pickup_location=\"O'Hare International Airport\";pickup_date=\"today\";car_type=\"Standard\";car_name=\"Honda Accord\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 cars that fit your needs. There is a Standard car available today at O'Hare International Airport. Are you okay with a Honda Accord?",
+        "I found 4 cars that fit your needs. There is a Standard car available today at O'Hare International Airport. Are you okay with a Honda Accord?"
+    ],
+    [
+        "CONFIRM(pickup_location=\"O'Hare International Airport\";pickup_date=\"today\";pickup_time=\"12:30 pm\";dropoff_date=\"next Tuesday\";car_type=\"Standard\")",
+        "Okay, can you confirm these details? You're reserving a Standard car at 12:30 pm today from O'Hare International Airport. You'll drop off next Tuesday.",
+        "Okay, can you confirm these details? You're reserving a Standard car at 12:30 pm today from O'Hare International Airport. You'll drop off next Tuesday."
+    ],
+    [
+        "INFORM(total_price=\"$144\")",
+        "Your car is reserved at a total cost of $144.",
+        "Your car is reserved at a total cost of $144."
+    ],
+    [
+        "INFORM(total_price=\"$144\")@NOTIFY_SUCCESS()",
+        "Your car is reserved at a total cost of $144.",
+        "Your car is reserved at a total cost of $144."
+    ],
+    [
+        "OFFER(pickup_location=\"Union Station\";pickup_date=\"next Tuesday\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "There is a nice one avaliable at Union Station for pickup next Tuesday. It is a Chevrolet Cruze, a Standard car.",
+        "There is a nice one avaliable at Union Station for pickup next Tuesday. It is a Chevrolet Cruze, a Standard car."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Union Station\";pickup_date=\"next Tuesday\";pickup_time=\"12 pm\";dropoff_date=\"March 9th\";car_type=\"Standard\")",
+        "Please confirm the following details: you'll be picking up the car from Union Station next Tuesday. You'll be picking it uo at 12 pm. The drop-off date is March 9th, and it is a Standard car.",
+        "Please confirm the following details: you'll be picking up the car from Union Station next Tuesday. You'll be picking it uo at 12 pm. The drop-off date is March 9th, and it is a Standard car."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car has been reserved.",
+        "Your car has been reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"Estacion Buenavista\";pickup_date=\"next Monday\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "There is a nice Standard Chevrolet Cruze at Estacion Buenavista available for pickup next Monday.",
+        "There is a nice Standard Chevrolet Cruze at Estacion Buenavista available for pickup next Monday."
+    ],
+    [
+        "OFFER(pickup_location=\"Estacion Buenavista\";pickup_date=\"next Monday\";car_type=\"Standard\";car_name=\"Honda Civic\")",
+        "There is a Standard Honda Civic available for pickup next Monday at Estacion Buenavista. What do you think?",
+        "There is a Standard Honda Civic available for pickup next Monday at Estacion Buenavista. What do you think?"
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"next Monday\";car_type=\"Standard\";car_name=\"Ford Fusion\")",
+        "You can pick up a nice car next Monday at John Wayne Airport. It's a Standard Ford Fusion.",
+        "You can pick up a nice car next Monday at John Wayne Airport. It's a Standard Ford Fusion."
+    ],
+    [
+        "INFORM(total_price=\"$34\")",
+        "It will be $34 in total.",
+        "It will be $34 in total."
+    ],
+    [
+        "CONFIRM(pickup_location=\"John Wayne Airport\";pickup_date=\"next Monday\";pickup_time=\"11 am\";dropoff_date=\"next Tuesday\";car_type=\"Standard\")",
+        "Please confirm that you will pick up a Standard car at John Wayne Airport on next Monday at 11 am and will drop it off next Tuesday.",
+        "Please confirm that you will pick up a Standard car at John Wayne Airport on next Monday at 11 am and will drop it off next Tuesday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The reservation has been confirmed.",
+        "The reservation has been confirmed."
+    ],
+    [
+        "OFFER(pickup_location=\"Sky Harbor International Airport\";pickup_date=\"day after tomorrow\";car_type=\"Standard\";car_name=\"Honda Accord\")",
+        "A nice car available at Sky Harbor International Airport for pick on on the day after tomorrow. How about a Honda Accord, a standard car. If not, I have 3 cars which you may like.",
+        "A nice car available at Sky Harbor International Airport for pick on on the day after tomorrow. How about a Honda Accord, a standard car. If not, I have 3 cars which you may like."
+    ],
+    [
+        "OFFER(pickup_location=\"Sky Harbor International Airport\";pickup_date=\"day after tomorrow\";car_type=\"Standard\";car_name=\"Honda Accord\")@INFORM_COUNT(count=\"3\")",
+        "A nice car available at Sky Harbor International Airport for pick on on the day after tomorrow. How about a Honda Accord, a standard car. If not, I have 3 cars which you may like.",
+        "A nice car available at Sky Harbor International Airport for pick on on the day after tomorrow. How about a Honda Accord, a standard car. If not, I have 3 cars which you may like."
+    ],
+    [
+        "OFFER(pickup_location=\"Phoenix Union Station\";pickup_date=\"day after tomorrow\";car_type=\"Compact\";car_name=\"Chevrolet Bolt\")",
+        "There is a nice car at Phoenix Union Station for pick up on the day after tomorrow. A Chevrolet Bolt, a Compact car. I have 5 cars for you to choose from.",
+        "There is a nice car at Phoenix Union Station for pick up on the day after tomorrow. A Chevrolet Bolt, a Compact car. I have 5 cars for you to choose from."
+    ],
+    [
+        "OFFER(pickup_location=\"Phoenix Union Station\";pickup_date=\"day after tomorrow\";car_type=\"Compact\";car_name=\"Chevrolet Bolt\")@INFORM_COUNT(count=\"5\")",
+        "There is a nice car at Phoenix Union Station for pick up on the day after tomorrow. A Chevrolet Bolt, a Compact car. I have 5 cars for you to choose from.",
+        "There is a nice car at Phoenix Union Station for pick up on the day after tomorrow. A Chevrolet Bolt, a Compact car. I have 5 cars for you to choose from."
+    ],
+    [
+        "OFFER(pickup_location=\"Phoenix Union Station\";pickup_date=\"day after tomorrow\";car_type=\"Compact\";car_name=\"Honda Fit\")",
+        "There is a nice car at Phoenix Union Station for pick up on the day after tomorrow. A Honda Fit a Compact car.",
+        "There is a nice car at Phoenix Union Station for pick up on the day after tomorrow. A Honda Fit a Compact car."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Phoenix Union Station\";pickup_date=\"day after tomorrow\";pickup_time=\"6 pm\";dropoff_date=\"next Tuesday\";car_type=\"Compact\")",
+        "Please confirm, picking up the car at Phoenix Union Station on the day after tomorrow at 6 pm. Drop off date is next Tuesday for a Compact car.",
+        "Please confirm, picking up the car at Phoenix Union Station on the day after tomorrow at 6 pm. Drop off date is next Tuesday for a Compact car."
+    ],
+    [
+        "INFORM(total_price=\"$56\")",
+        "Total is $56. Car has been reserved.",
+        "Total is $56. Car has been reserved."
+    ],
+    [
+        "INFORM(total_price=\"$56\")@NOTIFY_SUCCESS()",
+        "Total is $56. Car has been reserved.",
+        "Total is $56. Car has been reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"Charles de Gaulle International Airport\";pickup_date=\"next Friday\";car_type=\"Compact\";car_name=\"Chevrolet Bolt\")",
+        "There is a nice Chevrolet Bolt available next Friday at Charles de Gaulle International Airport. Its a compact car. Would this work for you?",
+        "There is a nice Chevrolet Bolt available next Friday at Charles de Gaulle International Airport. Its a compact car. Would this work for you?"
+    ],
+    [
+        "CONFIRM(pickup_location=\"Charles de Gaulle International Airport\";pickup_date=\"next Friday\";pickup_time=\"5 pm\";dropoff_date=\"March 9th\";car_type=\"Compact\")",
+        "No problem, Please confirm the following detials: You would like to pickup a compact car next Friday at 5 pm. The pick up location is Charles de Gaulle International Airport. Drop off is March 9th. Correct?",
+        "No problem, Please confirm the following detials: You would like to pickup a compact car next Friday at 5 pm. The pick up location is Charles de Gaulle International Airport. Drop off is March 9th. Correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car has been reserved",
+        "Your car has been reserved"
+    ],
+    [
+        "INFORM(total_price=\"$30\")",
+        "The total cost of your reservation will be $30.",
+        "The total cost of your reservation will be $30."
+    ],
+    [
+        "OFFER(pickup_location=\"SFO International Airport\";pickup_date=\"tomorrow\";car_type=\"Compact\";car_name=\"Kia Forte\")",
+        "I've got a Kia Forte, a Compact, available for pickup tomorrow. It's at SFO International Airport.",
+        "I've got a Kia Forte, a Compact, available for pickup tomorrow. It's at SFO International Airport."
+    ],
+    [
+        "CONFIRM(pickup_location=\"SFO International Airport\";pickup_date=\"tomorrow\";pickup_time=\"9 am\";dropoff_date=\"next Thursday\";car_type=\"Compact\")",
+        "Okay. Just to confirm, it's a Compact car, and you'll be picking it up tomorrow at 9 am at SFO International Airport, and you'll be dropping it off next Thursday.",
+        "Okay. Just to confirm, it's a Compact car, and you'll be picking it up tomorrow at 9 am at SFO International Airport, and you'll be dropping it off next Thursday."
+    ],
+    [
+        "INFORM(total_price=\"$135\")",
+        "That reservation will be $135. I've got the car all reserved.",
+        "That reservation will be $135. I've got the car all reserved."
+    ],
+    [
+        "INFORM(total_price=\"$135\")@NOTIFY_SUCCESS()",
+        "That reservation will be $135. I've got the car all reserved.",
+        "That reservation will be $135. I've got the car all reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"LGB Airport\";pickup_date=\"next Wednesday\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "There is a standard Chevrolet Cruze available at the LGB Airport next Wednesday, how does that sound?",
+        "There is a standard Chevrolet Cruze available at the LGB Airport next Wednesday, how does that sound?"
+    ],
+    [
+        "OFFER(pickup_location=\"Downtown Station\";pickup_date=\"next Wednesday\";car_type=\"Standard\";car_name=\"Ford Fusion\")",
+        "There is a standard Ford Fusion available for pickup next Wednesday at Downtown Station.",
+        "There is a standard Ford Fusion available for pickup next Wednesday at Downtown Station."
+    ],
+    [
+        "OFFER(pickup_location=\"LGB Airport\";pickup_date=\"next Wednesday\";car_type=\"Standard\";car_name=\"Honda Accord\")",
+        "There is a standard Honda Accord available at LGB Airport next Wednesday.",
+        "There is a standard Honda Accord available at LGB Airport next Wednesday."
+    ],
+    [
+        "INFORM(total_price=\"$160\")",
+        "It will be $160.",
+        "It will be $160."
+    ],
+    [
+        "CONFIRM(pickup_location=\"LGB Airport\";pickup_date=\"Next Wednesday\";pickup_time=\"12:30 pm\";dropoff_date=\"March 11th\";car_type=\"Standard\")",
+        "Okay, please confirm the following: Next Wednesday you will be picking up a standard car from the LGB Airport at 12:30 pm. The car will be dropped off on March 11th.",
+        "Okay, please confirm the following: Next Wednesday you will be picking up a standard car from the LGB Airport at 12:30 pm. The car will be dropped off on March 11th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The reservation has been made.",
+        "The reservation has been made."
+    ],
+    [
+        "OFFER(pickup_location=\"Kingsford Smith International Airport\";pickup_date=\"day after tomorrow\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "Kingsford Smith International Airport has a standard Chevrolet Cruze available the day after tomorrow. Or I have 4 other cars you may like.",
+        "Kingsford Smith International Airport has a standard Chevrolet Cruze available the day after tomorrow. Or I have 4 other cars you may like."
+    ],
+    [
+        "OFFER(pickup_location=\"Kingsford Smith International Airport\";pickup_date=\"day after tomorrow\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")@INFORM_COUNT(count=\"4\")",
+        "Kingsford Smith International Airport has a standard Chevrolet Cruze available the day after tomorrow. Or I have 4 other cars you may like.",
+        "Kingsford Smith International Airport has a standard Chevrolet Cruze available the day after tomorrow. Or I have 4 other cars you may like."
+    ],
+    [
+        "INFORM(total_price=\"$116\")",
+        "The reservation will be $116.",
+        "The reservation will be $116."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Kingsford Smith International Airport\";pickup_date=\"day after tomorrow\";pickup_time=\"12:30 pm\";dropoff_date=\"next Thursday\";car_type=\"Standard\")",
+        "Please confirm your details: your standard car rental is from Kingsford Smith International Airport. Pick up is scheduled for the day after tomorrow at 12:30 pm and drop off is next Thursday.",
+        "Please confirm your details: your standard car rental is from Kingsford Smith International Airport. Pick up is scheduled for the day after tomorrow at 12:30 pm and drop off is next Thursday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Car reservation booked.",
+        "Car reservation booked."
+    ],
+    [
+        "OFFER(pickup_location=\"Estacion Buenavista\";pickup_date=\"March 10th\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "Okay, I have a standard style Chevrolet Cruze available for pick up March 10th in Estacion Buenavista. Would that work?",
+        "Okay, I have a standard style Chevrolet Cruze available for pick up March 10th in Estacion Buenavista. Would that work?"
+    ],
+    [
+        "CONFIRM(pickup_location=\"Estacion Buenavista\";pickup_date=\"March 10th\";pickup_time=\"9:30 am\";dropoff_date=\"March 13th\";car_type=\"Standard\")",
+        "Okay, can you confirm, you will picking up a standard car on March 10th at 9:30 am in Estacion Buenavista and you will be returning the car March 13th, is the correct?",
+        "Okay, can you confirm, you will picking up a standard car on March 10th at 9:30 am in Estacion Buenavista and you will be returning the car March 13th, is the correct?"
+    ],
+    [
+        "INFORM(total_price=\"$51\")",
+        "Great, you car has been reserved and the total charge is $51.",
+        "Great, you car has been reserved and the total charge is $51."
+    ],
+    [
+        "INFORM(total_price=\"$51\")@NOTIFY_SUCCESS()",
+        "Great, you car has been reserved and the total charge is $51.",
+        "Great, you car has been reserved and the total charge is $51."
+    ],
+    [
+        "OFFER(pickup_location=\"Toronto Pearson International Airport\";pickup_date=\"next Tuesday\";car_type=\"Full-size\";car_name=\"Chevrolet Equinox\")",
+        "An option is a Full-size Chevrolet Equinox available next Tuesday at the Toronto Pearson International Airport.",
+        "An option is a Full-size Chevrolet Equinox available next Tuesday at the Toronto Pearson International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"Toronto Pearson International Airport\";pickup_date=\"next Tuesday\";car_type=\"Compact\";car_name=\"Honda Fit\")",
+        "I found 4 possibilities. There is a compact Honda Fit available next Tuesday at the Toronto Pearson International Airport.",
+        "I found 4 possibilities. There is a compact Honda Fit available next Tuesday at the Toronto Pearson International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"Toronto Pearson International Airport\";pickup_date=\"next Tuesday\";car_type=\"Compact\";car_name=\"Honda Fit\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 possibilities. There is a compact Honda Fit available next Tuesday at the Toronto Pearson International Airport.",
+        "I found 4 possibilities. There is a compact Honda Fit available next Tuesday at the Toronto Pearson International Airport."
+    ],
+    [
+        "INFORM(total_price=\"$112\")",
+        "The total reservation cost is $112.",
+        "The total reservation cost is $112."
+    ],
+    [
+        "OFFER(pickup_location=\"Toronto Pearson International Airport\";pickup_date=\"next Tuesday\";car_type=\"Compact\";car_name=\"Kia Forte\")",
+        "There is a compact Kia Forte available next Tuesday at the Toronto Pearson International Airport.",
+        "There is a compact Kia Forte available next Tuesday at the Toronto Pearson International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"Grand Central Station\";pickup_date=\"next Thursday\";car_type=\"Standard\";car_name=\"Honda Accord\")",
+        "There's a Standard Honda Accord available from next Thursday at Grand Central Station. Is that okay?",
+        "There's a Standard Honda Accord available from next Thursday at Grand Central Station. Is that okay?"
+    ],
+    [
+        "INFORM(total_price=\"$64\")",
+        "It'll be $64 total.",
+        "It'll be $64 total."
+    ],
+    [
+        "OFFER(pickup_location=\"Port Authority Station\";pickup_date=\"tomorrow\";car_type=\"Standard\";car_name=\"Hyundai Elantra\")",
+        "I've found a standard Hyundai Elantra at Port Authority Station for pickup tomorrow.",
+        "I've found a standard Hyundai Elantra at Port Authority Station for pickup tomorrow."
+    ],
+    [
+        "INFORM(total_price=\"$144\")",
+        "It will cost $144.",
+        "It will cost $144."
+    ],
+    [
+        "OFFER(pickup_location=\"Anaheim Intermodal Center\";pickup_date=\"tomorrow\";car_type=\"Full-size\";car_name=\"Hyundai Tucson\")",
+        "I've found you a full-size Hyundai Tucson available tomorrow at Anaheim Intermodal Center.",
+        "I've found you a full-size Hyundai Tucson available tomorrow at Anaheim Intermodal Center."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Anaheim Intermodal Center\";pickup_date=\"tomorrow\";pickup_time=\"3 pm\";dropoff_date=\"next Friday\";car_type=\"Full-size\")",
+        "No problem, please confirm: you are picking up a full-size car tomorrow at Anaheim Intermodal Center. You will drop it off at 3 pm next Friday.",
+        "No problem, please confirm: you are picking up a full-size car tomorrow at Anaheim Intermodal Center. You will drop it off at 3 pm next Friday."
+    ],
+    [
+        "INFORM(total_price=\"$216\")",
+        "The car has been reserved. It costs $216.",
+        "The car has been reserved. It costs $216."
+    ],
+    [
+        "INFORM(total_price=\"$216\")@NOTIFY_SUCCESS()",
+        "The car has been reserved. It costs $216.",
+        "The car has been reserved. It costs $216."
+    ],
+    [
+        "OFFER(pickup_location=\"Heathrow International Airport\";pickup_date=\"day after tomorrow\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "I found 5 cars which might suit you. There is a nice one avaliable for pickup at Heathrow International Airport the day after tomorrow. It is a Standard car, a Chevrolet Cruze.",
+        "I found 5 cars which might suit you. There is a nice one avaliable for pickup at Heathrow International Airport the day after tomorrow. It is a Standard car, a Chevrolet Cruze."
+    ],
+    [
+        "OFFER(pickup_location=\"Heathrow International Airport\";pickup_date=\"day after tomorrow\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")@INFORM_COUNT(count=\"5\")",
+        "I found 5 cars which might suit you. There is a nice one avaliable for pickup at Heathrow International Airport the day after tomorrow. It is a Standard car, a Chevrolet Cruze.",
+        "I found 5 cars which might suit you. There is a nice one avaliable for pickup at Heathrow International Airport the day after tomorrow. It is a Standard car, a Chevrolet Cruze."
+    ],
+    [
+        "INFORM(total_price=\"$58\")",
+        "It'd be $58 in total.",
+        "It'd be $58 in total."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Heathrow International Airport\";pickup_date=\"day after tomorrow\";pickup_time=\"12 pm\";dropoff_date=\"next Tuesday\";car_type=\"Standard\")",
+        "Please, confirm the following details. You'll be picking up the car from Heathrow International Airport the day after tomorrow. You'll be picking up the car at 12 pm. The drop-off date is next Tuesday, and it is a Standard car.",
+        "Please, confirm the following details. You'll be picking up the car from Heathrow International Airport the day after tomorrow. You'll be picking up the car at 12 pm. The drop-off date is next Tuesday, and it is a Standard car."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car has been reserved.",
+        "Your car has been reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"Estacion Buenavista\";pickup_date=\"March 11th\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "Estacion Buenavista has a standard car available for pickup on March 11th. Does a Chevrolet Cruze work?",
+        "Estacion Buenavista has a standard car available for pickup on March 11th. Does a Chevrolet Cruze work?"
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"next Monday\";car_type=\"Standard\";car_name=\"Chevrolet Cruze\")",
+        "There is standard car available at John Wayne Airport for pickup next Monday. The car is a Chevrolet Cruze.",
+        "There is standard car available at John Wayne Airport for pickup next Monday. The car is a Chevrolet Cruze."
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"tomorrow\";car_type=\"Compact\";car_name=\"Chevrolet Bolt\")",
+        "There is compact car available at John Wayne Airport for pickup tomorrow. The car is a Chevrolet Bolt.",
+        "There is compact car available at John Wayne Airport for pickup tomorrow. The car is a Chevrolet Bolt."
+    ],
+    [
+        "INFORM(total_price=\"$165\")",
+        "The car rental reservation costs $165 in total.",
+        "The car rental reservation costs $165 in total."
+    ],
+    [
+        "OFFER(pickup_location=\"Anaheim Intermodal Center\";pickup_date=\"tomorrow\";car_type=\"Compact\";car_name=\"Honda Fit\")",
+        "There is compact car available at Anaheim Intermodal Center for pickup tomorrow. The car is a Honda Fit.",
+        "There is compact car available at Anaheim Intermodal Center for pickup tomorrow. The car is a Honda Fit."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Anaheim Intermodal Center\";pickup_date=\"tomorrow\";pickup_time=\"4:30 pm\";dropoff_date=\"next Thursday\";car_type=\"Compact\")",
+        "Please confirm: You are picking up a compact car from Anaheim Intermodal Center tomorrow at 4:30 pm. The drop of date will be next Thursday.",
+        "Please confirm: You are picking up a compact car from Anaheim Intermodal Center tomorrow at 4:30 pm. The drop of date will be next Thursday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The cars has been reserved.",
+        "The cars has been reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"LGB Airport\";pickup_date=\"tomorrow\";type=\"Standard\";car_name=\"Accord\")",
+        "Great, one moment while I work. I've located a standard vehicle for pickup tomorrow at LGB Airport. This car is an Accord, will that work?",
+        "Great, one moment while I work. I've located a standard vehicle for pickup tomorrow at LGB Airport. This car is an Accord, will that work?"
+    ],
+    [
+        "INFORM(total_price=\"$90\")",
+        "Sure, your reservation would run you $90 total.",
+        "Sure, your reservation would run you $90 total."
+    ],
+    [
+        "CONFIRM(pickup_location=\"LGB Airport\";pickup_date=\"tomorrow\";pickup_time=\"2 pm\";dropoff_date=\"next Tuesday\";type=\"Standard\")",
+        "One moment. Please confirm: Picking up a standard car, tomorrow at LGB Airport at 2 pm. Your return drop off date is next Tuesday. Does this sound correct?",
+        "One moment. Please confirm: Picking up a standard car, tomorrow at LGB Airport at 2 pm. Your return drop off date is next Tuesday. Does this sound correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, I have made your reservation.",
+        "Great, I have made your reservation."
+    ],
+    [
+        "OFFER(pickup_location=\"Seattle-Tacoma International Airport\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"civic\")",
+        "There is a standard civic available next Tuesday at the Seattle-Tacoma International Airport.",
+        "There is a standard civic available next Tuesday at the Seattle-Tacoma International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"King Street Station\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"elantra\")",
+        "There are 4 other suitable options. I would like to recommend a standard elantra that is available at the King Street Station for next Tuesday.",
+        "There are 4 other suitable options. I would like to recommend a standard elantra that is available at the King Street Station for next Tuesday."
+    ],
+    [
+        "OFFER(pickup_location=\"King Street Station\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"elantra\")@INFORM_COUNT(count=\"4\")",
+        "There are 4 other suitable options. I would like to recommend a standard elantra that is available at the King Street Station for next Tuesday.",
+        "There are 4 other suitable options. I would like to recommend a standard elantra that is available at the King Street Station for next Tuesday."
+    ],
+    [
+        "OFFER(pickup_location=\"King Street Station\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"fusion\")",
+        "There is a lovely standard fusion car available at the King Street Station next Tuesday.",
+        "There is a lovely standard fusion car available at the King Street Station next Tuesday."
+    ],
+    [
+        "INFORM(total_price=\"$145\")",
+        "The cost is $145",
+        "The cost is $145"
+    ],
+    [
+        "CONFIRM(pickup_location=\"King Street Station\";pickup_date=\"next Tuesday\";pickup_time=\"2 pm\";dropoff_date=\"March 10th\";type=\"Standard\")",
+        "You would like to reserve a standard car at the King Street Station for next Tuesday at 2 pm and dropping it back on March 10th?",
+        "You would like to reserve a standard car at the King Street Station for next Tuesday at 2 pm and dropping it back on March 10th?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have reserved the vehicle.",
+        "I have reserved the vehicle."
+    ],
+    [
+        "OFFER(pickup_location=\"Dulles International Airport\";pickup_date=\"today\";type=\"Compact\";car_name=\"Bolt\")",
+        "Then Bolt available from Dulles International Airport will be the right one. It is a Compact one and you can pickup on today.",
+        "Then Bolt available from Dulles International Airport will be the right one. It is a Compact one and you can pickup on today."
+    ],
+    [
+        "INFORM(total_price=\"$100\")",
+        "You have to pay $100.",
+        "You have to pay $100."
+    ],
+    [
+        "OFFER(pickup_location=\"Dulles International Airport\";pickup_date=\"today\";type=\"Compact\";car_name=\"Fit\")",
+        "Fit is available also from Dulles International Airport from today. It is also a compact one.",
+        "Fit is available also from Dulles International Airport from today. It is also a compact one."
+    ],
+    [
+        "OFFER(pickup_location=\"Dulles International Airport\";pickup_date=\"today\";type=\"Compact\";car_name=\"Golf\")",
+        "Another compact one Golf is also there at Dulles International Airport and can be picked up today.",
+        "Another compact one Golf is also there at Dulles International Airport and can be picked up today."
+    ],
+    [
+        "INFORM(total_price=\"$124\")",
+        "You have to pay $124.",
+        "You have to pay $124."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Dulles International Airport\";pickup_date=\"today\";pickup_time=\"1:30 pm\";dropoff_date=\"next Tuesday\";type=\"Compact\")",
+        "Confirm details, you need Compact car from today 1:30 pm to next Tuesday from Dulles International Airport",
+        "Confirm details, you need Compact car from today 1:30 pm to next Tuesday from Dulles International Airport"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Congrats. Your car is ready.",
+        "Congrats. Your car is ready."
+    ],
+    [
+        "OFFER(pickup_location=\"Grand Central Station\";pickup_date=\"today\";type=\"Standard\";car_name=\"Accord\")",
+        "There's a standard Accord available today from Grand Central Station",
+        "There's a standard Accord available today from Grand Central Station"
+    ],
+    [
+        "INFORM(total_price=\"$62\")",
+        "That will cost $62 total.",
+        "That will cost $62 total."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Grand Central Station\";pickup_date=\"today\";pickup_time=\"6:30 pm\";dropoff_date=\"day after tomorrow\";type=\"Standard\")",
+        "Confirming you want to rent this standard car today at 6:30 pm from Grand Central Station and with a drop-off the day after tomorrow",
+        "Confirming you want to rent this standard car today at 6:30 pm from Grand Central Station and with a drop-off the day after tomorrow"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car is reserved for you",
+        "Your car is reserved for you"
+    ],
+    [
+        "OFFER(pickup_location=\"Charles de Gaulle International Airport\";pickup_date=\"today\";type=\"Standard\";car_name=\"Accord\")",
+        "At Charles de Gaulle International Airport is a nice Standard Accord car available for pick up today.",
+        "At Charles de Gaulle International Airport is a nice Standard Accord car available for pick up today."
+    ],
+    [
+        "OFFER(pickup_location=\"O'Hare International Airport\";pickup_date=\"today\";type=\"Standard\";car_name=\"Altima\")",
+        "2 option I have for you.First is a nice car that you can take it today ,is a Standard car Altima.You can take it from O'Hare International Airport.",
+        "2 option I have for you.First is a nice car that you can take it today ,is a Standard car Altima.You can take it from O'Hare International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"O'Hare International Airport\";pickup_date=\"today\";type=\"Standard\";car_name=\"Altima\")@INFORM_COUNT(count=\"2\")",
+        "2 option I have for you.First is a nice car that you can take it today ,is a Standard car Altima.You can take it from O'Hare International Airport.",
+        "2 option I have for you.First is a nice car that you can take it today ,is a Standard car Altima.You can take it from O'Hare International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"O'Hare International Airport\";pickup_date=\"today\";type=\"Standard\";car_name=\"Prius\")",
+        "A nice Standard Prius car available today at O'Hare International Airport..",
+        "A nice Standard Prius car available today at O'Hare International Airport.."
+    ],
+    [
+        "INFORM(total_price=\"$144\")",
+        "In total the reservation is $144.",
+        "In total the reservation is $144."
+    ],
+    [
+        "CONFIRM(pickup_location=\"O'Hare International Airport\";pickup_date=\"today\";pickup_time=\"6:30 pm\";dropoff_date=\"next Tuesday\";type=\"Standard\")",
+        "A Standard car from O'Hare International Airport with pickup date today at 6:30 pm and drop-off will be next Tuesday.",
+        "A Standard car from O'Hare International Airport with pickup date today at 6:30 pm and drop-off will be next Tuesday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The reservation for the car was done.",
+        "The reservation for the car was done."
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"March 11th\";type=\"Standard\";car_name=\"Accord\")",
+        "I've found 4 cars that would fit your needs. There is one particular car that I think you'd like. It is available at John Wayne Airport for pickup on March 11th. It is an Accord, and it's a standard.",
+        "I've found 4 cars that would fit your needs. There is one particular car that I think you'd like. It is available at John Wayne Airport for pickup on March 11th. It is an Accord, and it's a standard."
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"March 11th\";type=\"Standard\";car_name=\"Accord\")@INFORM_COUNT(count=\"4\")",
+        "I've found 4 cars that would fit your needs. There is one particular car that I think you'd like. It is available at John Wayne Airport for pickup on March 11th. It is an Accord, and it's a standard.",
+        "I've found 4 cars that would fit your needs. There is one particular car that I think you'd like. It is available at John Wayne Airport for pickup on March 11th. It is an Accord, and it's a standard."
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"March 11th\";type=\"Full-size\";car_name=\"Escape\")",
+        "I've found another vehicle available at John Wayne Airport for pickup on March 11th. This vehicle is an Escape, which is a full-size car.",
+        "I've found another vehicle available at John Wayne Airport for pickup on March 11th. This vehicle is an Escape, which is a full-size car."
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"March 11th\";type=\"Full-size\";car_name=\"Forester\")",
+        "At John Wayne Airport on March 11th there is also a Forester available, which is a full-size car.",
+        "At John Wayne Airport on March 11th there is also a Forester available, which is a full-size car."
+    ],
+    [
+        "INFORM(total_price=\"$39\")",
+        "Your reservation would cost $39 in total.",
+        "Your reservation would cost $39 in total."
+    ],
+    [
+        "CONFIRM(pickup_location=\"John Wayne Airport\";pickup_date=\"March 11th\";pickup_time=\"12 pm\";dropoff_date=\"March 12th\";type=\"Full-size\")",
+        "Please confirm the following: reservation for Forester at John Wayne Airport for pickup on March 11th at 12 pm. The drop off date is March 12th. The vehicle will be a full-size car.",
+        "Please confirm the following: reservation for Forester at John Wayne Airport for pickup on March 11th at 12 pm. The drop off date is March 12th. The vehicle will be a full-size car."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation has successfully been made.",
+        "Your reservation has successfully been made."
+    ],
+    [
+        "OFFER(pickup_location=\"30th Street Station\";pickup_date=\"next Monday\";type=\"Standard\";car_name=\"Altima\")",
+        "There is a Standard Altima available at the 30th Street Station for pickup next Monday. Would that interest you?",
+        "There is a Standard Altima available at the 30th Street Station for pickup next Monday. Would that interest you?"
+    ],
+    [
+        "OFFER(pickup_location=\"30th Street Station\";pickup_date=\"today\";type=\"Standard\";car_name=\"Fusion\")",
+        "You can pickup a Standard Fusion at the 30th Street Station today.",
+        "You can pickup a Standard Fusion at the 30th Street Station today."
+    ],
+    [
+        "CONFIRM(pickup_location=\"30th Street station\";pickup_date=\"today\";pickup_time=\"10:30 am\";dropoff_date=\"next Thursday\";type=\"Standard\")",
+        "Before I complete the reservation, let me review the details. You will be picking up a Standard car from the 30th Street station today at 10:30 am and returning it next Thursday. Is that correct?",
+        "Before I complete the reservation, let me review the details. You will be picking up a Standard car from the 30th Street station today at 10:30 am and returning it next Thursday. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Congratulations. Your reservation is successful.",
+        "Congratulations. Your reservation is successful."
+    ],
+    [
+        "OFFER(pickup_location=\"Charles de Gaulle International Airport\";pickup_date=\"March 9th\";type=\"Standard\";car_name=\"Accord\")",
+        "A standard Accord Car at Charles de Gaulle International Airport for the pickup date March 9th is found. Is that okay for you?",
+        "A standard Accord Car at Charles de Gaulle International Airport for the pickup date March 9th is found. Is that okay for you?"
+    ],
+    [
+        "CONFIRM(pickup_location=\"Charles de Gaulle International Airport\";pickup_date=\"March 9th\";pickup_time=\"3 pm\";dropoff_date=\"March 11th\";type=\"Standard\")",
+        "Pleas confirm to reserve a standard Accord Car at Charles de Gaulle International Airport for the pickup date March 9th at 3 pm and the drop-off date will be March 11th.",
+        "Pleas confirm to reserve a standard Accord Car at Charles de Gaulle International Airport for the pickup date March 9th at 3 pm and the drop-off date will be March 11th."
+    ],
+    [
+        "INFORM(total_price=\"$68\")",
+        "Your reservation was successfully confirmed and the cost is $68 in total.",
+        "Your reservation was successfully confirmed and the cost is $68 in total."
+    ],
+    [
+        "INFORM(total_price=\"$68\")@NOTIFY_SUCCESS()",
+        "Your reservation was successfully confirmed and the cost is $68 in total.",
+        "Your reservation was successfully confirmed and the cost is $68 in total."
+    ],
+    [
+        "OFFER(pickup_location=\"Charles de Gaulle International Airport\";pickup_date=\"March 10th\";type=\"Standard\";car_name=\"Accord\")",
+        "I found 4 cars that might suit your fancy. There is a Standard Accord which you can pick up at Charles de Gaulle International Airport on March 10th.",
+        "I found 4 cars that might suit your fancy. There is a Standard Accord which you can pick up at Charles de Gaulle International Airport on March 10th."
+    ],
+    [
+        "OFFER(pickup_location=\"Charles de Gaulle International Airport\";pickup_date=\"March 10th\";type=\"Standard\";car_name=\"Accord\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 cars that might suit your fancy. There is a Standard Accord which you can pick up at Charles de Gaulle International Airport on March 10th.",
+        "I found 4 cars that might suit your fancy. There is a Standard Accord which you can pick up at Charles de Gaulle International Airport on March 10th."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Charles de Gaulle International Airport\";pickup_date=\"March 10th\";pickup_time=\"5 pm\";dropoff_date=\"March 12th\";type=\"Standard\")",
+        "Okay, so you want to pick up a Standard car from Charles de Gaulle International Airport at 5 pm on March 10th, and drop it off at March 12th?",
+        "Okay, so you want to pick up a Standard car from Charles de Gaulle International Airport at 5 pm on March 10th, and drop it off at March 12th?"
+    ],
+    [
+        "INFORM(total_price=\"$72\")",
+        "I've reserved the car for you. It costs $72.",
+        "I've reserved the car for you. It costs $72."
+    ],
+    [
+        "INFORM(total_price=\"$72\")@NOTIFY_SUCCESS()",
+        "I've reserved the car for you. It costs $72.",
+        "I've reserved the car for you. It costs $72."
+    ],
+    [
+        "OFFER(pickup_location=\"Santa Fe Depot\";pickup_date=\"today\";type=\"Full-size\";car_name=\"Cherokee\")",
+        "There are 6 options. Santa Fe Depot has a full-size Cherokee available for pickup today.",
+        "There are 6 options. Santa Fe Depot has a full-size Cherokee available for pickup today."
+    ],
+    [
+        "OFFER(pickup_location=\"Santa Fe Depot\";pickup_date=\"today\";type=\"Full-size\";car_name=\"Cherokee\")@INFORM_COUNT(count=\"6\")",
+        "There are 6 options. Santa Fe Depot has a full-size Cherokee available for pickup today.",
+        "There are 6 options. Santa Fe Depot has a full-size Cherokee available for pickup today."
+    ],
+    [
+        "OFFER(pickup_location=\"Santa Fe Depot\";pickup_date=\"today\";type=\"Full-size\";car_name=\"Equinox\")",
+        "Santa Fe Depot also has a full-size Equinox available today.",
+        "Santa Fe Depot also has a full-size Equinox available today."
+    ],
+    [
+        "OFFER(pickup_location=\"PDX International Airport\";pickup_date=\"today\";type=\"Full-size\";car_name=\"CR-V\")",
+        "There are 2 options at PDX International Airport. There is a full-size CR-V available today.",
+        "There are 2 options at PDX International Airport. There is a full-size CR-V available today."
+    ],
+    [
+        "OFFER(pickup_location=\"PDX International Airport\";pickup_date=\"today\";type=\"Full-size\";car_name=\"CR-V\")@INFORM_COUNT(count=\"2\")",
+        "There are 2 options at PDX International Airport. There is a full-size CR-V available today.",
+        "There are 2 options at PDX International Airport. There is a full-size CR-V available today."
+    ],
+    [
+        "INFORM(total_price=\"$108\")",
+        "The cost would be $108.",
+        "The cost would be $108."
+    ],
+    [
+        "CONFIRM(pickup_location=\"PDX International Airport\";pickup_date=\"today\";pickup_time=\"11 am\";dropoff_date=\"next Monday\";type=\"Full-size\")",
+        "To confirm: you wish to reserve a full-size car at PDX International Airport. Pickup time is 11 am today, return date is next Monday. Is this correct?",
+        "To confirm: you wish to reserve a full-size car at PDX International Airport. Pickup time is 11 am today, return date is next Monday. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Reservation was successfull",
+        "Reservation was successfull"
+    ],
+    [
+        "OFFER(pickup_location=\"Estacion Buenavista\";pickup_date=\"today\";type=\"Standard\";car_name=\"Camry\")",
+        "Yup! We've got 6 cars which suits your preference. The best one would be a Camry, a Standard car and it would be available at Estacion Buenavista for pickup by today. Will that be Okay for you?",
+        "Yup! We've got 6 cars which suits your preference. The best one would be a Camry, a Standard car and it would be available at Estacion Buenavista for pickup by today. Will that be Okay for you?"
+    ],
+    [
+        "OFFER(pickup_location=\"Estacion Buenavista\";pickup_date=\"today\";type=\"Standard\";car_name=\"Camry\")@INFORM_COUNT(count=\"6\")",
+        "Yup! We've got 6 cars which suits your preference. The best one would be a Camry, a Standard car and it would be available at Estacion Buenavista for pickup by today. Will that be Okay for you?",
+        "Yup! We've got 6 cars which suits your preference. The best one would be a Camry, a Standard car and it would be available at Estacion Buenavista for pickup by today. Will that be Okay for you?"
+    ],
+    [
+        "INFORM(total_price=\"$20\")",
+        "It would be $20 in total for your reservation.",
+        "It would be $20 in total for your reservation."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Estacion Buenavista\";pickup_date=\"today\";pickup_time=\"12 pm\";dropoff_date=\"tomorrow\";type=\"Standard\")",
+        "sure! Confirm me that you wish to reserve the Standard car and wish to have the pick up at Estacion Buenavista, today at 12 pm and the drop-off would be by tomorrow, right?",
+        "sure! Confirm me that you wish to reserve the Standard car and wish to have the pick up at Estacion Buenavista, today at 12 pm and the drop-off would be by tomorrow, right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alright! I reserved the car for you",
+        "Alright! I reserved the car for you"
+    ],
+    [
+        "OFFER(pickup_location=\"YVR International Airport\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"Accord\")",
+        "I have 6 cars that fit that, maybe a nice Standard Accord which is available next Tuesday from YVR International Airport.",
+        "I have 6 cars that fit that, maybe a nice Standard Accord which is available next Tuesday from YVR International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"YVR International Airport\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"Accord\")@INFORM_COUNT(count=\"6\")",
+        "I have 6 cars that fit that, maybe a nice Standard Accord which is available next Tuesday from YVR International Airport.",
+        "I have 6 cars that fit that, maybe a nice Standard Accord which is available next Tuesday from YVR International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"YVR International Airport\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"Altima\")",
+        "There's a good standard Altima available next Tuesday, also at YVR International Airport",
+        "There's a good standard Altima available next Tuesday, also at YVR International Airport"
+    ],
+    [
+        "INFORM(total_price=\"$195\")",
+        "That will cost $195 total",
+        "That will cost $195 total"
+    ],
+    [
+        "CONFIRM(pickup_location=\"YVR International Airport\";pickup_date=\"next tuesday\";pickup_time=\"3 pm\";dropoff_date=\"March 10th\";type=\"Standard\")",
+        "Confirming your pickup next tuesday for the standard car from YVR International Airport for pickup at 3 pm and drop off on March 10th.",
+        "Confirming your pickup next tuesday for the standard car from YVR International Airport for pickup at 3 pm and drop off on March 10th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've reserved your car",
+        "I've reserved your car"
+    ],
+    [
+        "OFFER(pickup_location=\"Santa Fe Depot\";pickup_date=\"next Thursday\";type=\"Standard\";car_name=\"Accord\")",
+        "I have found 6 car options for you. There is one available at Santa Fe Depot for collection next Thursday. This is an Accord which is a standard car.",
+        "I have found 6 car options for you. There is one available at Santa Fe Depot for collection next Thursday. This is an Accord which is a standard car."
+    ],
+    [
+        "OFFER(pickup_location=\"Santa Fe Depot\";pickup_date=\"next Thursday\";type=\"Standard\";car_name=\"Accord\")@INFORM_COUNT(count=\"6\")",
+        "I have found 6 car options for you. There is one available at Santa Fe Depot for collection next Thursday. This is an Accord which is a standard car.",
+        "I have found 6 car options for you. There is one available at Santa Fe Depot for collection next Thursday. This is an Accord which is a standard car."
+    ],
+    [
+        "OFFER(pickup_location=\"Estacion Buenavista\";pickup_date=\"next Thursday\";type=\"Standard\";car_name=\"Camry\")",
+        "I have found a standard car available at Estacion Buenavista next Thursday. The car is a Camry.",
+        "I have found a standard car available at Estacion Buenavista next Thursday. The car is a Camry."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Estacion Buenavista\";pickup_date=\"next Thursday\";pickup_time=\"3:30 pm\";dropoff_date=\"March 11th\";type=\"Standard\")",
+        "Sure, so for confirmation: You would like to collect a standard car from Estacion Buenavista next Thursday at 3:30 pm and you be returning the car on March 11th.",
+        "Sure, so for confirmation: You would like to collect a standard car from Estacion Buenavista next Thursday at 3:30 pm and you be returning the car on March 11th."
+    ],
+    [
+        "INFORM(total_price=\"$72\")",
+        "Your car has been successfully reserved. The total cost is $72.",
+        "Your car has been successfully reserved. The total cost is $72."
+    ],
+    [
+        "INFORM(total_price=\"$72\")@NOTIFY_SUCCESS()",
+        "Your car has been successfully reserved. The total cost is $72.",
+        "Your car has been successfully reserved. The total cost is $72."
+    ],
+    [
+        "OFFER(pickup_location=\"Sky Harbor International Airport\";pickup_date=\"March 10th\";type=\"Standard\";car_name=\"Accord\")",
+        "At Sky Harbor International Airport, I have a Standard Accord for pick up March 10th.",
+        "At Sky Harbor International Airport, I have a Standard Accord for pick up March 10th."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Sky Harbor International Airport\";pickup_date=\"March 10th\";pickup_time=\"9 am\";dropoff_date=\"March 11th\";type=\"Standard\")",
+        "Please confirm At Sky Harbor International Airport, I have a Standard Accord for 9 am pick up March 10th to March 11th.",
+        "Please confirm At Sky Harbor International Airport, I have a Standard Accord for 9 am pick up March 10th to March 11th."
+    ],
+    [
+        "INFORM(total_price=\"$35\")",
+        "Your cost is $35.",
+        "Your cost is $35."
+    ],
+    [
+        "INFORM(total_price=\"$35\")@NOTIFY_SUCCESS()",
+        "Your cost is $35.",
+        "Your cost is $35."
+    ],
+    [
+        "OFFER(pickup_location=\"Union Station\";pickup_date=\"next Monday\";type=\"Standard\";car_name=\"Accord\")",
+        "There is a nice Standard Accord at Union Station. You can pick it up next Monday.",
+        "There is a nice Standard Accord at Union Station. You can pick it up next Monday."
+    ],
+    [
+        "OFFER(pickup_location=\"Dulles International Airport\";pickup_date=\"next Monday\";type=\"Standard\";car_name=\"Camry\")",
+        "I have a Standard Camry available next Monday at Dulles International Airport.",
+        "I have a Standard Camry available next Monday at Dulles International Airport."
+    ],
+    [
+        "INFORM(total_price=\"$29\")",
+        "It is $29 in total.",
+        "It is $29 in total."
+    ],
+    [
+        "OFFER(pickup_location=\"Union Station\";pickup_date=\"next Monday\";type=\"Standard\";car_name=\"Civic\")",
+        "I have 2 other cars that you may like. What about this Standard Civic at Union Station available next Monday?",
+        "I have 2 other cars that you may like. What about this Standard Civic at Union Station available next Monday?"
+    ],
+    [
+        "OFFER(pickup_location=\"Union Station\";pickup_date=\"next Monday\";type=\"Standard\";car_name=\"Civic\")@INFORM_COUNT(count=\"2\")",
+        "I have 2 other cars that you may like. What about this Standard Civic at Union Station available next Monday?",
+        "I have 2 other cars that you may like. What about this Standard Civic at Union Station available next Monday?"
+    ],
+    [
+        "INFORM(total_price=\"$28\")",
+        "It will be $28 in total.",
+        "It will be $28 in total."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Union Station\";pickup_date=\"next Monday\";pickup_time=\"5 pm\";dropoff_date=\"next Tuesday\";type=\"Standard\")",
+        "Okay. COuld you confirm that you will pick up the Standard car from Union Station? The pick up will be next Monday at 5 pm and return will be next Tuesday.",
+        "Okay. COuld you confirm that you will pick up the Standard car from Union Station? The pick up will be next Monday at 5 pm and return will be next Tuesday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car was reserved.",
+        "Your car was reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"Charles de Gaulle International Airport\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"Accord\")",
+        "I found 1 car that is available at Charles de Gaulle International Airport for pickup and Check in date is on next Tuesday. It is a Standard and it is a Accord type car.",
+        "I found 1 car that is available at Charles de Gaulle International Airport for pickup and Check in date is on next Tuesday. It is a Standard and it is a Accord type car."
+    ],
+    [
+        "OFFER(pickup_location=\"John Wayne Airport\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"Altima\")",
+        "I found 1 car available at John Wayne Airport and for pickup on next Tuesday. It is a Standard and Altima type car.",
+        "I found 1 car available at John Wayne Airport and for pickup on next Tuesday. It is a Standard and Altima type car."
+    ],
+    [
+        "CONFIRM(pickup_location=\"John Wayne Airport\";pickup_date=\"next tuesday\";pickup_time=\"12 pm\";dropoff_date=\"Next thursday\";type=\"Standard\")",
+        "Ok Please review the following details so that i will confirm. Rental car pick up from John Wayne Airport and pick date is next tuesday and time is 12 pm and the drop-off date is Next thursday .It is a standard type car.",
+        "Ok Please review the following details so that i will confirm. Rental car pick up from John Wayne Airport and pick date is next tuesday and time is 12 pm and the drop-off date is Next thursday .It is a standard type car."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Fine, As per your confirmation car has been reserved.",
+        "Fine, As per your confirmation car has been reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"LAX International Airport\";pickup_date=\"today\";type=\"Compact\";car_name=\"Bolt\")",
+        "I found 4 cars for you. One is a Bolt available at LAX International Airport. The car is a Compact and available for pickup today.",
+        "I found 4 cars for you. One is a Bolt available at LAX International Airport. The car is a Compact and available for pickup today."
+    ],
+    [
+        "OFFER(pickup_location=\"LAX International Airport\";pickup_date=\"today\";type=\"Compact\";car_name=\"Bolt\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 cars for you. One is a Bolt available at LAX International Airport. The car is a Compact and available for pickup today.",
+        "I found 4 cars for you. One is a Bolt available at LAX International Airport. The car is a Compact and available for pickup today."
+    ],
+    [
+        "OFFER(pickup_location=\"LAX International Airport\";pickup_date=\"today\";type=\"Compact\";car_name=\"Fit\")",
+        "I also found a Compact Fit available for pickup today at LAX International Airport.",
+        "I also found a Compact Fit available for pickup today at LAX International Airport."
+    ],
+    [
+        "INFORM(total_price=\"$135\")",
+        "Your reservation will be $135 total.",
+        "Your reservation will be $135 total."
+    ],
+    [
+        "OFFER(pickup_location=\"Union Station\";pickup_date=\"today\";type=\"Compact\";car_name=\"GTI\")",
+        "I also found a Compact GTI available for pickup today at Union Station.",
+        "I also found a Compact GTI available for pickup today at Union Station."
+    ],
+    [
+        "INFORM(total_price=\"$115\")",
+        "Your reservation will cost $115 in total.",
+        "Your reservation will cost $115 in total."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Union Station\";pickup_date=\"today\";pickup_time=\"5 pm\";dropoff_date=\"next Wednesday\";type=\"Compact\")",
+        "I am reserving a Compact GTI car for pickup today at Union Station. Your pickup time is 5 pm. Your drop-off date is next Wednesday. Is that correct?",
+        "I am reserving a Compact GTI car for pickup today at Union Station. Your pickup time is 5 pm. Your drop-off date is next Wednesday. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car is reserved.",
+        "Your car is reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"30th Street Station\";pickup_date=\"next Friday\";type=\"Standard\";car_name=\"Altima\")",
+        "Well, I found a Standard Car available at 30th Street Station in Altima for pick up on next Friday. It's a nice one. Do you wish to rent it?",
+        "Well, I found a Standard Car available at 30th Street Station in Altima for pick up on next Friday. It's a nice one. Do you wish to rent it?"
+    ],
+    [
+        "CONFIRM(pickup_location=\"30th Street Station\";pickup_date=\"next Friday\";pickup_time=\"12 pm\";dropoff_date=\"March 9th\";type=\"Standard\")",
+        "Okay! Please can you confirm me the details before booking it for you. You wish to book a Standard Car in the name JAMES WILLIAMS for next Friday. Your pickup time would be 12 pm from 30th Street Station and drop-off would be on March 9th, right?",
+        "Okay! Please can you confirm me the details before booking it for you. You wish to book a Standard Car in the name JAMES WILLIAMS for next Friday. Your pickup time would be 12 pm from 30th Street Station and drop-off would be on March 9th, right?"
+    ],
+    [
+        "INFORM(total_price=\"$30\")",
+        "You have to pay $30 in total. Your car is successful booked and reay for a ride.",
+        "You have to pay $30 in total. Your car is successful booked and reay for a ride."
+    ],
+    [
+        "INFORM(total_price=\"$30\")@NOTIFY_SUCCESS()",
+        "You have to pay $30 in total. Your car is successful booked and reay for a ride.",
+        "You have to pay $30 in total. Your car is successful booked and reay for a ride."
+    ],
+    [
+        "OFFER(pickup_location=\"YVR International Airport\";pickup_date=\"March 10th\";type=\"Standard\";car_name=\"Accord\")",
+        "There is a Accord Standard at YVR International Airport available on March 10th.",
+        "There is a Accord Standard at YVR International Airport available on March 10th."
+    ],
+    [
+        "CONFIRM(pickup_location=\"YVR International Airport\";pickup_date=\"March 10th\";pickup_time=\"3 pm\";dropoff_date=\"March 11th\";type=\"Standard\")",
+        "You are picking up the Standard car at YVR International Airport on March 10th at 3 pm and returning it on March 11th.",
+        "You are picking up the Standard car at YVR International Airport on March 10th at 3 pm and returning it on March 11th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car has been reserved.",
+        "Your car has been reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"LAX International Airport\";pickup_date=\"March 12th\";type=\"Standard\";car_name=\"Camry\")",
+        "There's a lovely car available for pickup from LAX International Airport on March 12th. It's a Standard car, the make is Camry.",
+        "There's a lovely car available for pickup from LAX International Airport on March 12th. It's a Standard car, the make is Camry."
+    ],
+    [
+        "OFFER(pickup_location=\"McCarran International Airport\";pickup_date=\"March 12th\";type=\"Compact\";car_name=\"Bolt\")",
+        "There's a good option available for pickup from McCarran International Airport on March 12th. It's a compact, make is Bolt.",
+        "There's a good option available for pickup from McCarran International Airport on March 12th. It's a compact, make is Bolt."
+    ],
+    [
+        "OFFER(pickup_location=\"McCarran International Airport\";pickup_date=\"March 12th\";type=\"Standard\";car_name=\"Civic\")",
+        "There's another good option available for pickup from McCarran International Airport on March 12th. It's a standard care, make is Civic.",
+        "There's another good option available for pickup from McCarran International Airport on March 12th. It's a standard care, make is Civic."
+    ],
+    [
+        "CONFIRM(pickup_location=\"McCarran International Airport\";pickup_date=\"March 12th\";pickup_time=\"1:30 pm\";dropoff_date=\"March 13th\";type=\"Standard\")",
+        "Confirming you want to book a standard car. Pick up from McCarran International Airport on March 12th at 1:30 pm and drop off March 13th.",
+        "Confirming you want to book a standard car. Pick up from McCarran International Airport on March 12th at 1:30 pm and drop off March 13th."
+    ],
+    [
+        "INFORM(total_price=\"$35\")",
+        "I have confirmed the reservation. The total cost is $35.",
+        "I have confirmed the reservation. The total cost is $35."
+    ],
+    [
+        "INFORM(total_price=\"$35\")@NOTIFY_SUCCESS()",
+        "I have confirmed the reservation. The total cost is $35.",
+        "I have confirmed the reservation. The total cost is $35."
+    ],
+    [
+        "OFFER(pickup_location=\"O'Hare International Airport\";pickup_date=\"next Friday\";type=\"Standard\";car_name=\"Accord\")",
+        "Okay, O'Hare International Airport has an Accord - which is a Standard - available next Friday.",
+        "Okay, O'Hare International Airport has an Accord - which is a Standard - available next Friday."
+    ],
+    [
+        "OFFER(pickup_location=\"O'Hare International Airport\";pickup_date=\"next Friday\";type=\"Standard\";car_name=\"Altima\")",
+        "How about another Standard? O'Hare International Airport has an Altima available next Friday.",
+        "How about another Standard? O'Hare International Airport has an Altima available next Friday."
+    ],
+    [
+        "OFFER(pickup_location=\"30th street station\";pickup_date=\"next wednesday\";type=\"Standard\";car_name=\"Altima\")",
+        "I have a standard car, an Altima ready for pickup from next wednesday at 30th street station",
+        "I have a standard car, an Altima ready for pickup from next wednesday at 30th street station"
+    ],
+    [
+        "OFFER(pickup_location=\"PHL international Airport\";pickup_date=\"next wednesday\";type=\"Standard\";car_name=\"Civic\")",
+        "Ok, i got 7 cars. I have a standard car, a Civic ready for pickup from next wednesday at PHL international Airport",
+        "Ok, i got 7 cars. I have a standard car, a Civic ready for pickup from next wednesday at PHL international Airport"
+    ],
+    [
+        "OFFER(pickup_location=\"PHL international Airport\";pickup_date=\"next wednesday\";type=\"Standard\";car_name=\"Civic\")@INFORM_COUNT(count=\"7\")",
+        "Ok, i got 7 cars. I have a standard car, a Civic ready for pickup from next wednesday at PHL international Airport",
+        "Ok, i got 7 cars. I have a standard car, a Civic ready for pickup from next wednesday at PHL international Airport"
+    ],
+    [
+        "INFORM(total_price=\"$31\")",
+        "The reservation cost is $31 totally",
+        "The reservation cost is $31 totally"
+    ],
+    [
+        "OFFER(pickup_location=\"intercity Terminal\";pickup_date=\"next Wednesday\";type=\"Standard\";car_name=\"Corolla\")",
+        "I have a standard car, a Corolla ready for pickup from next Wednesday at intercity Terminal",
+        "I have a standard car, a Corolla ready for pickup from next Wednesday at intercity Terminal"
+    ],
+    [
+        "INFORM(total_price=\"$26\")",
+        "The reservation cost is $26 totally",
+        "The reservation cost is $26 totally"
+    ],
+    [
+        "CONFIRM(pickup_location=\"intercity Terminal\";pickup_date=\"next Wednesday\";pickup_time=\"2 pm\";dropoff_date=\"next Thursday\";type=\"Standard\")",
+        "Please confirm: Pickup a standard car from intercity Terminal next Wednesday 2 pm and drop off on next Thursday.",
+        "Please confirm: Pickup a standard car from intercity Terminal next Wednesday 2 pm and drop off on next Thursday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "You reservation is done",
+        "You reservation is done"
+    ],
+    [
+        "OFFER(pickup_location=\"Kingsford Smith International Airport\";pickup_date=\"next Monday\";type=\"Standard\";car_name=\"Elantra\")",
+        "Of the 2 cars I have found with those requirements one is a standard Elantra, located at Kingsford Smith International Airport, available for pick up next Monday.",
+        "Of the 2 cars I have found with those requirements one is a standard Elantra, located at Kingsford Smith International Airport, available for pick up next Monday."
+    ],
+    [
+        "OFFER(pickup_location=\"Kingsford Smith International Airport\";pickup_date=\"next Monday\";type=\"Standard\";car_name=\"Elantra\")@INFORM_COUNT(count=\"2\")",
+        "Of the 2 cars I have found with those requirements one is a standard Elantra, located at Kingsford Smith International Airport, available for pick up next Monday.",
+        "Of the 2 cars I have found with those requirements one is a standard Elantra, located at Kingsford Smith International Airport, available for pick up next Monday."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Kingsford Smith International Airport\";pickup_date=\"next Monday\";pickup_time=\"3 pm\";dropoff_date=\"March 9th\";type=\"Standard\")",
+        "Okay, before I proceed please verify that you will be picking up a standard car from Kingsford Smith International Airport, next Monday, at 3 pm, and returning it on March 9th.",
+        "Okay, before I proceed please verify that you will be picking up a standard car from Kingsford Smith International Airport, next Monday, at 3 pm, and returning it on March 9th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully made that reservation for you.",
+        "I have successfully made that reservation for you."
+    ],
+    [
+        "OFFER(pickup_location=\"PDX International Airport\";pickup_date=\"next Thursday\";type=\"Standard\";car_name=\"Accord\")",
+        "I've found 6 for you, there's a standard Accord you can pick up from PDX International Airport next Thursday. How does that sound?",
+        "I've found 6 for you, there's a standard Accord you can pick up from PDX International Airport next Thursday. How does that sound?"
+    ],
+    [
+        "OFFER(pickup_location=\"PDX International Airport\";pickup_date=\"next Thursday\";type=\"Standard\";car_name=\"Accord\")@INFORM_COUNT(count=\"6\")",
+        "I've found 6 for you, there's a standard Accord you can pick up from PDX International Airport next Thursday. How does that sound?",
+        "I've found 6 for you, there's a standard Accord you can pick up from PDX International Airport next Thursday. How does that sound?"
+    ],
+    [
+        "OFFER(pickup_location=\"Intercity Terminal\";pickup_date=\"next Thursday\";type=\"Standard\";car_name=\"Corolla\")",
+        "Sure, there's 7 - how about a standard Corolla? You can pick it up next Thursday at Intercity Terminal?",
+        "Sure, there's 7 - how about a standard Corolla? You can pick it up next Thursday at Intercity Terminal?"
+    ],
+    [
+        "OFFER(pickup_location=\"Intercity Terminal\";pickup_date=\"next Thursday\";type=\"Standard\";car_name=\"Corolla\")@INFORM_COUNT(count=\"7\")",
+        "Sure, there's 7 - how about a standard Corolla? You can pick it up next Thursday at Intercity Terminal?",
+        "Sure, there's 7 - how about a standard Corolla? You can pick it up next Thursday at Intercity Terminal?"
+    ],
+    [
+        "OFFER(pickup_location=\"Intercity Terminal\";pickup_date=\"next Thursday\";type=\"Standard\";car_name=\"Elantra\")",
+        "There's a standard Elantra you can pick up from Intercity Terminal next Thursday. How's that?",
+        "There's a standard Elantra you can pick up from Intercity Terminal next Thursday. How's that?"
+    ],
+    [
+        "INFORM(total_price=\"$35\")",
+        "It'll cost you $35",
+        "It'll cost you $35"
+    ],
+    [
+        "CONFIRM(pickup_location=\"Intercity Terminal\";pickup_date=\"next Thursday\";pickup_time=\"9:30 am\";dropoff_date=\"next Friday\";type=\"Standard\")",
+        "Sure, just to confirm, are you happy for me to book the standard car from Intercity Terminal? You'll pick it up next Thursday at 9:30 am and drop it off next Friday.",
+        "Sure, just to confirm, are you happy for me to book the standard car from Intercity Terminal? You'll pick it up next Thursday at 9:30 am and drop it off next Friday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Excellent. It's all been booked for you!",
+        "Excellent. It's all been booked for you!"
+    ],
+    [
+        "OFFER(pickup_location=\"SFO International Airport\";pickup_date=\"day after tomorrow\";type=\"Standard\";car_name=\"Altima\")",
+        "There are 4 cars available including a standard Altima available at SFO International Airport the day after tomorrow.",
+        "There are 4 cars available including a standard Altima available at SFO International Airport the day after tomorrow."
+    ],
+    [
+        "OFFER(pickup_location=\"SFO International Airport\";pickup_date=\"day after tomorrow\";type=\"Standard\";car_name=\"Altima\")@INFORM_COUNT(count=\"4\")",
+        "There are 4 cars available including a standard Altima available at SFO International Airport the day after tomorrow.",
+        "There are 4 cars available including a standard Altima available at SFO International Airport the day after tomorrow."
+    ],
+    [
+        "CONFIRM(pickup_location=\"SFO International Airport\";pickup_date=\"day after tomorrow\";pickup_time=\"8 pm\";dropoff_date=\"next Thursday\";type=\"Standard\")",
+        "Please confirm you are picking up the standard car from SFO International Airport the day after tomorrow at 8 pm and returning it next Thursday.",
+        "Please confirm you are picking up the standard car from SFO International Airport the day after tomorrow at 8 pm and returning it next Thursday."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The reservation is successful.",
+        "The reservation is successful."
+    ],
+    [
+        "OFFER(pickup_location=\"SFO International Airport\";pickup_date=\"March 9th\";type=\"Standard\";car_name=\"Altima\")",
+        "I found 6 cars, one of these is a Standard car, a Altima available at SFO International Airport on March 9th",
+        "I found 6 cars, one of these is a Standard car, a Altima available at SFO International Airport on March 9th"
+    ],
+    [
+        "OFFER(pickup_location=\"SFO International Airport\";pickup_date=\"March 9th\";type=\"Standard\";car_name=\"Altima\")@INFORM_COUNT(count=\"6\")",
+        "I found 6 cars, one of these is a Standard car, a Altima available at SFO International Airport on March 9th",
+        "I found 6 cars, one of these is a Standard car, a Altima available at SFO International Airport on March 9th"
+    ],
+    [
+        "OFFER(pickup_location=\"Salesforce Transit Center\";pickup_date=\"March 9th\";type=\"Standard\";car_name=\"Civic\")",
+        "There are 5 cars, one of these is a Standard, a Civic available at Salesforce Transit Center on March 9th",
+        "There are 5 cars, one of these is a Standard, a Civic available at Salesforce Transit Center on March 9th"
+    ],
+    [
+        "OFFER(pickup_location=\"Salesforce Transit Center\";pickup_date=\"March 9th\";type=\"Standard\";car_name=\"Civic\")@INFORM_COUNT(count=\"5\")",
+        "There are 5 cars, one of these is a Standard, a Civic available at Salesforce Transit Center on March 9th",
+        "There are 5 cars, one of these is a Standard, a Civic available at Salesforce Transit Center on March 9th"
+    ],
+    [
+        "OFFER(pickup_location=\"Salesforce Transit Center\";pickup_date=\"March 11th\";type=\"Compact\";car_name=\"Bolt\")",
+        "There are 5 cars, for example a Compact car, a Bolt available at Salesforce Transit Center on March 11th",
+        "There are 5 cars, for example a Compact car, a Bolt available at Salesforce Transit Center on March 11th"
+    ],
+    [
+        "OFFER(pickup_location=\"Salesforce Transit Center\";pickup_date=\"March 11th\";type=\"Compact\";car_name=\"Bolt\")@INFORM_COUNT(count=\"5\")",
+        "There are 5 cars, for example a Compact car, a Bolt available at Salesforce Transit Center on March 11th",
+        "There are 5 cars, for example a Compact car, a Bolt available at Salesforce Transit Center on March 11th"
+    ],
+    [
+        "CONFIRM(pickup_location=\"Salesforce Transit Center\";pickup_date=\"March 11th\";pickup_time=\"3:30 pm\";dropoff_date=\"March 12th\";type=\"Compact\")",
+        "A Compact car from Salesforce Transit Center, from March 11th at 3:30 pm, till March 12th: do you confirm?",
+        "A Compact car from Salesforce Transit Center, from March 11th at 3:30 pm, till March 12th: do you confirm?"
+    ],
+    [
+        "INFORM(total_price=\"$27\")",
+        "$27 in total. Your car has been booked",
+        "$27 in total. Your car has been booked"
+    ],
+    [
+        "INFORM(total_price=\"$27\")@NOTIFY_SUCCESS()",
+        "$27 in total. Your car has been booked",
+        "$27 in total. Your car has been booked"
+    ],
+    [
+        "OFFER(pickup_location=\"Grand Central Station\";pickup_date=\"next tuesday\";type=\"Compact\";car_name=\"Bolt\")",
+        "I have looked into 5 cars of your likings.One among them is a nice Compact car Bolt available at Grand Central Station for pick up next tuesday",
+        "I have looked into 5 cars of your likings.One among them is a nice Compact car Bolt available at Grand Central Station for pick up next tuesday"
+    ],
+    [
+        "OFFER(pickup_location=\"Grand Central Station\";pickup_date=\"next tuesday\";type=\"Compact\";car_name=\"Bolt\")@INFORM_COUNT(count=\"5\")",
+        "I have looked into 5 cars of your likings.One among them is a nice Compact car Bolt available at Grand Central Station for pick up next tuesday",
+        "I have looked into 5 cars of your likings.One among them is a nice Compact car Bolt available at Grand Central Station for pick up next tuesday"
+    ],
+    [
+        "OFFER(pickup_location=\"JFK International Airport\";pickup_date=\"next tuesday\";type=\"Compact\";car_name=\"Cooper\")",
+        "nice Compact car Cooper available at JFK International Airport for pick up next tuesday",
+        "nice Compact car Cooper available at JFK International Airport for pick up next tuesday"
+    ],
+    [
+        "INFORM(total_price=\"$120\")",
+        "Your booking will cost $120",
+        "Your booking will cost $120"
+    ],
+    [
+        "CONFIRM(pickup_location=\"JFK International Airport\";pickup_date=\"next tuesday\";pickup_time=\"5 pm\";dropoff_date=\"March 9th\";type=\"Compact\")",
+        "Please give confirmation details: You are picking up Compact car from JFK International Airport on next tuesday at 5 pm.The drop off date is March 9th",
+        "Please give confirmation details: You are picking up Compact car from JFK International Airport on next tuesday at 5 pm.The drop off date is March 9th"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car is booked",
+        "Your car is booked"
+    ],
+    [
+        "OFFER(pickup_location=\"Fresno Station\";pickup_date=\"next Thursday\";type=\"Standard\";car_name=\"Accord\")",
+        "There's a really nice Standard Accord available at Fresno Station next Thursday.",
+        "There's a really nice Standard Accord available at Fresno Station next Thursday."
+    ],
+    [
+        "OFFER(pickup_location=\"Fresno Yosemite International Airport\";pickup_date=\"next Tuesday\";type=\"Standard\";car_name=\"Altima\")",
+        "You might like this Standard Altima at Fresno Yosemite International Airport for next Tuesday.",
+        "You might like this Standard Altima at Fresno Yosemite International Airport for next Tuesday."
+    ],
+    [
+        "INFORM(total_price=\"$175\")",
+        "It's only $175.",
+        "It's only $175."
+    ],
+    [
+        "OFFER(pickup_location=\"YVR International Airport\";pickup_date=\"next Wednesday\";type=\"Standard\";car_name=\"Accord\")",
+        "I have for you 7 option.First is a nice Standard car Accord available next Wednesday at YVR International Airport.",
+        "I have for you 7 option.First is a nice Standard car Accord available next Wednesday at YVR International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"YVR International Airport\";pickup_date=\"next Wednesday\";type=\"Standard\";car_name=\"Accord\")@INFORM_COUNT(count=\"7\")",
+        "I have for you 7 option.First is a nice Standard car Accord available next Wednesday at YVR International Airport.",
+        "I have for you 7 option.First is a nice Standard car Accord available next Wednesday at YVR International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"Warsaw Chopin Airport\";car_type=\"SUV\";car_name=\"Skoda Kodiaq\")",
+        "There is 1 car available at Warsaw Chopin Airport. This is a nice car, a SUV of Skoda Kodiaq.",
+        "There is 1 car available at Warsaw Chopin Airport. This is a nice car, a SUV of Skoda Kodiaq."
+    ],
+    [
+        "OFFER(pickup_location=\"Warsaw Chopin Airport\";car_type=\"SUV\";car_name=\"Skoda Kodiaq\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 car available at Warsaw Chopin Airport. This is a nice car, a SUV of Skoda Kodiaq.",
+        "There is 1 car available at Warsaw Chopin Airport. This is a nice car, a SUV of Skoda Kodiaq."
+    ],
+    [
+        "INFORM(price_per_day=\"$48.00\")",
+        "The price is $48.00 a day.",
+        "The price is $48.00 a day."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Warsaw Chopin Airport\";start_date=\"March 7th\";pickup_time=\"4:30 pm\";end_date=\"March 12th\";car_type=\"SUV\";add_insurance=\"False\")",
+        "Okay, confirm these details: You will pick up the car from Warsaw Chopin Airport on March 7th at 4:30 pm. You are renting an SUV without insurance and will be returning it on March 12th.",
+        "Okay, confirm these details: You will pick up the car from Warsaw Chopin Airport on March 7th at 4:30 pm. You are renting an SUV without insurance and will be returning it on March 12th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The reservation for the car has been made for you.",
+        "The reservation for the car has been made for you."
+    ],
+    [
+        "OFFER(pickup_location=\"PHL International Airport\";car_type=\"SUV\";car_name=\"Citroen C5\")",
+        "I found 9 cars you can choose from.There is a SUV at PHL International Airport of Citroen C5.",
+        "I found 9 cars you can choose from.There is a SUV at PHL International Airport of Citroen C5."
+    ],
+    [
+        "OFFER(pickup_location=\"PHL International Airport\";car_type=\"SUV\";car_name=\"Citroen C5\")@INFORM_COUNT(count=\"9\")",
+        "I found 9 cars you can choose from.There is a SUV at PHL International Airport of Citroen C5.",
+        "I found 9 cars you can choose from.There is a SUV at PHL International Airport of Citroen C5."
+    ],
+    [
+        "OFFER(pickup_location=\"Intercity Terminal\";car_type=\"Sedan\";car_name=\"Dodge Charger\")",
+        "There is a Dodge Charger Sedan at Intercity Terminal.",
+        "There is a Dodge Charger Sedan at Intercity Terminal."
+    ],
+    [
+        "INFORM(price_per_day=\"$30.00\")",
+        "It is priced at $30.00 a day.",
+        "It is priced at $30.00 a day."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Intercity Terminal\";start_date=\"March 8th\";pickup_time=\"3 pm\";end_date=\"March 14th\";car_type=\"Sedan\";add_insurance=\"False\")",
+        "You want the Sedan from March 8th through March 14th and you will be picking it up from the Intercity Terminal at 3 pm with no extra insurance is that correct?",
+        "You want the Sedan from March 8th through March 14th and you will be picking it up from the Intercity Terminal at 3 pm with no extra insurance is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your vehicle is booked.",
+        "Your vehicle is booked."
+    ],
+    [
+        "OFFER(pickup_location=\"LAX International Airport\";car_type=\"Sedan\";car_name=\"Audi A8\")",
+        "There is a lovely Audi A8 Sedan that is available at LAX International Airport.",
+        "There is a lovely Audi A8 Sedan that is available at LAX International Airport."
+    ],
+    [
+        "CONFIRM(pickup_location=\"LAX International Airport\";start_date=\"March 13th\";pickup_time=\"2 pm\";end_date=\"March 14th\";car_type=\"Sedan\";add_insurance=\"False\")",
+        "These are your rental details: On March 13th, you will pick up a Sedan from the LAX International Airport at 2 pm. You will be returning the car on March 14th. Do these details sound correct to you?",
+        "These are your rental details: On March 13th, you will pick up a Sedan from the LAX International Airport at 2 pm. You will be returning the car on March 14th. Do these details sound correct to you?"
+    ],
+    [
+        "INFORM(price_per_day=\"$38.00\")",
+        "Your car has been reserved and will cost you $38.00 per day to rent.",
+        "Your car has been reserved and will cost you $38.00 per day to rent."
+    ],
+    [
+        "INFORM(price_per_day=\"$38.00\")@NOTIFY_SUCCESS()",
+        "Your car has been reserved and will cost you $38.00 per day to rent.",
+        "Your car has been reserved and will cost you $38.00 per day to rent."
+    ],
+    [
+        "OFFER(pickup_location=\"Toronto Pearson International Airport\";car_type=\"Sedan\";car_name=\"Audi A8\")",
+        "OK, there's an Audi A8 Sedan that you can get from Toronto Pearson International Airport",
+        "OK, there's an Audi A8 Sedan that you can get from Toronto Pearson International Airport"
+    ],
+    [
+        "OFFER(pickup_location=\"Toronto Pearson International Airport\";car_type=\"Sedan\";car_name=\"Buick Regal Sportback\")",
+        "How about this Buick Regal Sportback Sedan also from Toronto Pearson International Airport",
+        "How about this Buick Regal Sportback Sedan also from Toronto Pearson International Airport"
+    ],
+    [
+        "INFORM(price_per_day=\"$30.00\")",
+        "It'll be $30.00 a day",
+        "It'll be $30.00 a day"
+    ],
+    [
+        "OFFER(pickup_location=\"Toronto Pearson International Airport\";car_type=\"Hatchback\";car_name=\"Nissan Qashqai\")",
+        "There's a Nissan Qashqai Hatchback also from Toronto Pearson International Airport",
+        "There's a Nissan Qashqai Hatchback also from Toronto Pearson International Airport"
+    ],
+    [
+        "CONFIRM(pickup_location=\"Toronto Pearson International Airport\";start_date=\"March 1st\";pickup_time=\"2 pm\";end_date=\"March 6th\";car_type=\"Hatchback\";add_insurance=\"False\")",
+        "So you are picking up your hatchback car from Toronto Pearson International Airport on March 1st 2 pm and returning it on March 6th with no insurance",
+        "So you are picking up your hatchback car from Toronto Pearson International Airport on March 1st 2 pm and returning it on March 6th with no insurance"
+    ],
+    [
+        "CONFIRM(car_type=\"Hatchback\";add_insurance=\"True\")",
+        "OK so booking this hatchback with insurance?",
+        "OK so booking this hatchback with insurance?"
+    ],
+    [
+        "INFORM(price_per_day=\"$47.00\")",
+        "It'll now cost $47.00 a day",
+        "It'll now cost $47.00 a day"
+    ],
+    [
+        "INFORM(price_per_day=\"$47.00\")@NOTIFY_SUCCESS()",
+        "It'll now cost $47.00 a day",
+        "It'll now cost $47.00 a day"
+    ],
+    [
+        "OFFER(pickup_location=\"Cape Town International Airport\";car_type=\"Sedan\";car_name=\"SEAT Cordoba\")",
+        "I found 2 cars that might interest you. One is a Sedan of SEAT Cordoba, available for pickup at Cape Town International Airport.",
+        "I found 2 cars that might interest you. One is a Sedan of SEAT Cordoba, available for pickup at Cape Town International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"Cape Town International Airport\";car_type=\"Sedan\";car_name=\"SEAT Cordoba\")@INFORM_COUNT(count=\"2\")",
+        "I found 2 cars that might interest you. One is a Sedan of SEAT Cordoba, available for pickup at Cape Town International Airport.",
+        "I found 2 cars that might interest you. One is a Sedan of SEAT Cordoba, available for pickup at Cape Town International Airport."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Cape Town International Airport\";start_date=\"March 10th\";pickup_time=\"6:30 pm\";end_date=\"March 14th\";car_type=\"Sedan\";add_insurance=\"False\")",
+        "Please confirm that you'd like to pick a Sedan car, that doesn't include insurance, from Cape Town International Airport on March 10th at 6:30 pm and drop it off on March 14th.",
+        "Please confirm that you'd like to pick a Sedan car, that doesn't include insurance, from Cape Town International Airport on March 10th at 6:30 pm and drop it off on March 14th."
+    ],
+    [
+        "INFORM(price_per_day=\"$31.00\")",
+        "I have successfully reserved your car. The daily cost is $31.00.",
+        "I have successfully reserved your car. The daily cost is $31.00."
+    ],
+    [
+        "INFORM(price_per_day=\"$31.00\")@NOTIFY_SUCCESS()",
+        "I have successfully reserved your car. The daily cost is $31.00.",
+        "I have successfully reserved your car. The daily cost is $31.00."
+    ],
+    [
+        "OFFER(pickup_location=\"Santa Fe Depot\";car_type=\"Hatchback\";car_name=\"Nissan Qashqai\")",
+        "There are 4 hatchback cars available. At Santa Fe Depot they have a Nissan Qashqai.",
+        "There are 4 hatchback cars available. At Santa Fe Depot they have a Nissan Qashqai."
+    ],
+    [
+        "OFFER(pickup_location=\"Santa Fe Depot\";car_type=\"Hatchback\";car_name=\"Nissan Qashqai\")@INFORM_COUNT(count=\"4\")",
+        "There are 4 hatchback cars available. At Santa Fe Depot they have a Nissan Qashqai.",
+        "There are 4 hatchback cars available. At Santa Fe Depot they have a Nissan Qashqai."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Santa Fe Depot\";start_date=\"March 9th\";pickup_time=\"7:30 pm\";end_date=\"March 12th\";car_type=\"Hatchback\";add_insurance=\"False\")",
+        "To verify: You want to pick up the hatchback from Santa Fe Depot at 7:30 pm on March 9th and return it March 12th.",
+        "To verify: You want to pick up the hatchback from Santa Fe Depot at 7:30 pm on March 9th and return it March 12th."
+    ],
+    [
+        "CONFIRM(pickup_time=\"7:30 pm\";add_insurance=\"True\")",
+        "Okay, you still want to pick it up at 7:30 pm and add insurance.",
+        "Okay, you still want to pick it up at 7:30 pm and add insurance."
+    ],
+    [
+        "INFORM(price_per_day=\"$37.00\")",
+        "It will be $37.00 per day. Your car has been reserved.",
+        "It will be $37.00 per day. Your car has been reserved."
+    ],
+    [
+        "INFORM(price_per_day=\"$37.00\")@NOTIFY_SUCCESS()",
+        "It will be $37.00 per day. Your car has been reserved.",
+        "It will be $37.00 per day. Your car has been reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"PHL International Airport\";car_type=\"Sedan\";car_name=\"Buick Regal Sportback\")",
+        "Based on your requirements, that are 10 cars that are available. You can reserve a lovely Buick Regal Sportback Sedan, and it can be picked up at PHL International Airport.",
+        "Based on your requirements, that are 10 cars that are available. You can reserve a lovely Buick Regal Sportback Sedan, and it can be picked up at PHL International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"PHL International Airport\";car_type=\"Sedan\";car_name=\"Buick Regal Sportback\")@INFORM_COUNT(count=\"10\")",
+        "Based on your requirements, that are 10 cars that are available. You can reserve a lovely Buick Regal Sportback Sedan, and it can be picked up at PHL International Airport.",
+        "Based on your requirements, that are 10 cars that are available. You can reserve a lovely Buick Regal Sportback Sedan, and it can be picked up at PHL International Airport."
+    ],
+    [
+        "CONFIRM(pickup_location=\"PHL International Airport\";start_date=\"March 1st\";pickup_time=\"2 pm\";end_date=\"March 3rd\";car_type=\"Sedan\";add_insurance=\"False\")",
+        "So, you would like to reserve a Sedan for pick up on March 1st at 2 pm at the PHL International Airport, with a return date of March 3rd. You won't be needing the insurance option. Is this correct?",
+        "So, you would like to reserve a Sedan for pick up on March 1st at 2 pm at the PHL International Airport, with a return date of March 3rd. You won't be needing the insurance option. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "That reservation has been successfully made.",
+        "That reservation has been successfully made."
+    ],
+    [
+        "OFFER(pickup_location=\"Union Plaza\";car_type=\"SUV\";car_name=\"Alfa Romeo Stelvio\")",
+        "I found a nice SUV of Alfa Romeo Stelvio available for pick up at Union Plaza.",
+        "I found a nice SUV of Alfa Romeo Stelvio available for pick up at Union Plaza."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Union Plaza\";start_date=\"March 6th\";pickup_time=\"4:30 pm\";end_date=\"March 13th\";car_type=\"SUV\";add_insurance=\"False\")",
+        "Okay, no problem. Please confirm that you'd like to pick an SUV car, without insurance, from Union Plaza on March 6th at 4:30 pm and drop it off on March 13th.",
+        "Okay, no problem. Please confirm that you'd like to pick an SUV car, without insurance, from Union Plaza on March 6th at 4:30 pm and drop it off on March 13th."
+    ],
+    [
+        "CONFIRM(start_date=\"March 6th\";add_insurance=\"True\")",
+        "Sure. Please confirm that you'd like to pick up the car, which has insurance, on March 6th.",
+        "Sure. Please confirm that you'd like to pick up the car, which has insurance, on March 6th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully reserved your your car.",
+        "I have successfully reserved your your car."
+    ],
+    [
+        "INFORM(price_per_day=\"$66.00\")",
+        "The daily cost is $66.00.",
+        "The daily cost is $66.00."
+    ],
+    [
+        "OFFER(pickup_location=\"Union Plaza\";car_type=\"SUV\";car_name=\"Alfa Romeo Stelvio\")",
+        "I found a nice Car which is a SUV of Alfa Romeo Stelvio car which will be available for pick up at Union Plaza. Do you want to rent it?",
+        "I found a nice Car which is a SUV of Alfa Romeo Stelvio car which will be available for pick up at Union Plaza. Do you want to rent it?"
+    ],
+    [
+        "INFORM(price_per_day=\"$41.00\")",
+        "It will be around $41.00 per day. Shall I book it now?",
+        "It will be around $41.00 per day. Shall I book it now?"
+    ],
+    [
+        "OFFER(pickup_location=\"McCarran International Airport\";car_type=\"SUV\";car_name=\"Jaguar F-Pace\")",
+        "What about a SUV of Jaguar F-Pace Car available at McCarran International Airport?",
+        "What about a SUV of Jaguar F-Pace Car available at McCarran International Airport?"
+    ],
+    [
+        "CONFIRM(pickup_location=\"McCarran International Airport\";start_date=\"March 2nd\";pickup_time=\"2 pm\";end_date=\"March 3rd\";car_type=\"SUV\";add_insurance=\"False\")",
+        "Please confirm to book a SUV Car which is available for pick up at McCarran International Airport from March 2nd at 2 pm to the date of March 3rd.",
+        "Please confirm to book a SUV Car which is available for pick up at McCarran International Airport from March 2nd at 2 pm to the date of March 3rd."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have booked the car successfully.",
+        "I have booked the car successfully."
+    ],
+    [
+        "INFORM(price_per_day=\"$42.00\")",
+        "It will cost around $42.00 per day.",
+        "It will cost around $42.00 per day."
+    ],
+    [
+        "OFFER(pickup_location=\"JFK International Airport\";car_type=\"Sedan\";car_name=\"Audi A8\")",
+        "There are 6 cars available. There is a Sedan of Audi A8 available at JFK International Airport.",
+        "There are 6 cars available. There is a Sedan of Audi A8 available at JFK International Airport."
+    ],
+    [
+        "OFFER(pickup_location=\"JFK International Airport\";car_type=\"Sedan\";car_name=\"Audi A8\")@INFORM_COUNT(count=\"6\")",
+        "There are 6 cars available. There is a Sedan of Audi A8 available at JFK International Airport.",
+        "There are 6 cars available. There is a Sedan of Audi A8 available at JFK International Airport."
+    ],
+    [
+        "INFORM(price_per_day=\"$29.00\")",
+        "The rental is $29.00 per day.",
+        "The rental is $29.00 per day."
+    ],
+    [
+        "CONFIRM(pickup_location=\"JFK International Airport\";start_date=\"March 11th\";pickup_time=\"7:30 pm\";end_date=\"March 14th\";car_type=\"Sedan\";add_insurance=\"True\")",
+        "Booking Sedan from JFK International Airport on March 11th at 7:30 pm and drop off date is March 14th.",
+        "Booking Sedan from JFK International Airport on March 11th at 7:30 pm and drop off date is March 14th."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your car has been reserved.",
+        "Your car has been reserved."
+    ],
+    [
+        "OFFER(pickup_location=\"Dulles International Airport\";car_type=\"SUV\";car_name=\"Alfa Romeo Stelvio\")",
+        "There is a nice car at Dulles International Airport. It's a Alfa Romeo Stelvio SUV.",
+        "There is a nice car at Dulles International Airport. It's a Alfa Romeo Stelvio SUV."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Dulles International Airport\";start_date=\"March 5th\";pickup_time=\"1:30 pm\";end_date=\"March 8th\";car_type=\"SUV\";add_insurance=\"True\")",
+        "Could you confirm that you are picking up the car from Dulles International Airport on March 5th at 1:30 pm and drop it off on March 8th? It's an SUV with insurance.",
+        "Could you confirm that you are picking up the car from Dulles International Airport on March 5th at 1:30 pm and drop it off on March 8th? It's an SUV with insurance."
+    ],
+    [
+        "INFORM(price_per_day=\"$57.00\")",
+        "The car has been made and costs $57.00.",
+        "The car has been made and costs $57.00."
+    ],
+    [
+        "INFORM(price_per_day=\"$57.00\")@NOTIFY_SUCCESS()",
+        "The car has been made and costs $57.00.",
+        "The car has been made and costs $57.00."
+    ],
+    [
+        "OFFER(pickup_location=\"Warsaw Chopin Airport\";car_type=\"Hatchback\";car_name=\"Mazda 3\")",
+        "There are 3 cars which you might consider. One good cars which can be picked up at Warsaw Chopin Airport is a Hatchback model of Mazda 3.",
+        "There are 3 cars which you might consider. One good cars which can be picked up at Warsaw Chopin Airport is a Hatchback model of Mazda 3."
+    ],
+    [
+        "OFFER(pickup_location=\"Warsaw Chopin Airport\";car_type=\"Hatchback\";car_name=\"Mazda 3\")@INFORM_COUNT(count=\"3\")",
+        "There are 3 cars which you might consider. One good cars which can be picked up at Warsaw Chopin Airport is a Hatchback model of Mazda 3.",
+        "There are 3 cars which you might consider. One good cars which can be picked up at Warsaw Chopin Airport is a Hatchback model of Mazda 3."
+    ],
+    [
+        "INFORM(price_per_day=\"$31.00\")",
+        "Renting this car will be costing you $31.00 per day.",
+        "Renting this car will be costing you $31.00 per day."
+    ],
+    [
+        "OFFER(pickup_location=\"Warsaw Chopin Airport\";car_type=\"Hatchback\";car_name=\"Nissan Qashqai\")",
+        "Another good car which can be taken at Warsaw Chopin Airport, is a Hatchback of Nissan Qashqai.",
+        "Another good car which can be taken at Warsaw Chopin Airport, is a Hatchback of Nissan Qashqai."
+    ],
+    [
+        "CONFIRM(pickup_location=\"Warsaw Chopin Airport\";start_date=\"March 7th\";pickup_time=\"1:30 pm\";end_date=\"March 13th\";car_type=\"Hatchback\";add_insurance=\"False\")",
+        "Can you then please confirm to me that you want to rent a Hatchback car without insurance which you will pick up from Warsaw Chopin Airport on March 7th at 1:30 pm, and that you will need it till March 13th?",
+        "Can you then please confirm to me that you want to rent a Hatchback car without insurance which you will pick up from Warsaw Chopin Airport on March 7th at 1:30 pm, and that you will need it till March 13th?"
+    ],
+    [
+        "CONFIRM(car_type=\"Hatchback\";add_insurance=\"True\")",
+        "Can you then once again confirm that the car you want to book is a Hatchback one and for it to also have insurance?",
+        "Can you then once again confirm that the car you want to book is a Hatchback one and for it to also have insurance?"
+    ],
+    [
+        "INFORM(price_per_day=\"$50.00\")",
+        "Your requested car has been booked for you, and it will be costing you $50.00 per day.",
+        "Your requested car has been booked for you, and it will be costing you $50.00 per day."
+    ],
+    [
+        "INFORM(price_per_day=\"$50.00\")@NOTIFY_SUCCESS()",
+        "Your requested car has been booked for you, and it will be costing you $50.00 per day.",
+        "Your requested car has been booked for you, and it will be costing you $50.00 per day."
+    ],
+    [
+        "OFFER(pickup_location=\"PHL International Airport\";car_type=\"Hatchback\";car_name=\"Kia Ceed\")",
+        "There is a hatchback Kia Ceed available at the PHL International Airport.",
+        "There is a hatchback Kia Ceed available at the PHL International Airport."
+    ],
+    [
+        "CONFIRM(pickup_location=\"PHL International Airport\";start_date=\"March 1st\";pickup_time=\"6 pm\";end_date=\"March 4th\";car_type=\"Hatchback\";add_insurance=\"False\")",
+        "Please confirm: Picking up a hatchback from the PHL International Airport on March 1st at 6 pm until March 4th. No insurance added.",
+        "Please confirm: Picking up a hatchback from the PHL International Airport on March 1st at 6 pm until March 4th. No insurance added."
+    ],
+    [
+        "CONFIRM(start_date=\"March 1st\";add_insurance=\"True\")",
+        "Please confirm: The pickup date is March 1st. Insurance is added.",
+        "Please confirm: The pickup date is March 1st. Insurance is added."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation has been made.",
+        "Your reservation has been made."
+    ]
+]

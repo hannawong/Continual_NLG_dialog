@@ -1,0 +1,907 @@
+[
+    [
+        "restaurant_inform(area=\"centre\";choice=\"2\";food=\"Turkish\";name=\"Anatolia\";name=\"Efe's restaurant\")",
+        "There are two Turkish restaurants in the centre of town. They are Efe's restaurant and Anatolia.",
+        "There are two Turkish restaurants in the centre of town. They are Efe's restaurant and Anatolia."
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry, it looks like they are both booked during yoir preferred time and day. Would you like to try something else?",
+        "I'm sorry, it looks like they are both booked during yoir preferred time and day. Would you like to try something else?"
+    ],
+    [
+        "booking_book(name=\"efes restaurant\";ref=\"QXZ05J29\")",
+        "Booking was successful at efes restaurant. The table will be reserved for 15 minutes. Reference number is : QXZ05J29 .",
+        "Booking was successful at efes restaurant. The table will be reserved for 15 minutes. Reference number is : QXZ05J29 ."
+    ],
+    [
+        "booking_inform()",
+        "There is Sala Thong that's expensive would you like me to book a table for you?",
+        "There is Sala Thong that's expensive would you like me to book a table for you?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(name=\"Sala Thong\";pricerange=\"expensive\")",
+        "There is Sala Thong that's expensive would you like me to book a table for you?",
+        "There is Sala Thong that's expensive would you like me to book a table for you?"
+    ],
+    [
+        "booking_book(bookday=\"Thursday\";ref=\"07CI497H\")",
+        "I was able to book that for you for Thursday. Your reference number is 07CI497H .",
+        "I was able to book that for you for Thursday. Your reference number is 07CI497H ."
+    ],
+    [
+        "restaurant_inform(food=\"british\";name=\"The cambridge chop house\";pricerange=\"expensive\")",
+        "The cambridge chop house is expensive and it's british food. Is that okay?",
+        "The cambridge chop house is expensive and it's british food. Is that okay?"
+    ],
+    [
+        "booking_inform()",
+        "I found the Little Seoul restaurant. Would you like me to make a reservation?",
+        "I found the Little Seoul restaurant. Would you like me to make a reservation?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(name=\"Little Seoul restaurant\")",
+        "I found the Little Seoul restaurant. Would you like me to make a reservation?",
+        "I found the Little Seoul restaurant. Would you like me to make a reservation?"
+    ],
+    [
+        "booking_book(ref=\"GG3DCUFD\")",
+        "GG3DCUFD is your confirmation code, may I help you with anything else?",
+        "GG3DCUFD is your confirmation code, may I help you with anything else?"
+    ],
+    [
+        "restaurant_inform(area=\"centre of town\";area=\"east\";food=\"international\")",
+        "There is international food in the east and centre of town. The south has many cuisines but no international food.",
+        "There is international food in the east and centre of town. The south has many cuisines but no international food."
+    ],
+    [
+        "restaurant_inform(area=\"south\";food=\"Indian\";name=\"Taj tandoori\";phone=\"01223412299\")",
+        "Taj tandoori is a Indian place that is in the south. The number is 01223412299.",
+        "Taj tandoori is a Indian place that is in the south. The number is 01223412299."
+    ],
+    [
+        "booking_nobook()",
+        "Unfortunately, the time and day you've chosen is unavailable. Would you like to book a different time or day?",
+        "Unfortunately, the time and day you've chosen is unavailable. Would you like to book a different time or day?"
+    ],
+    [
+        "booking_book(booktime=\"15:15\";ref=\"XQA73LQL\")",
+        "Booking was successful for 15:15. The table will be reserved for 15 minutes. Your reference number is XQA73LQL . Anything else?",
+        "Booking was successful for 15:15. The table will be reserved for 15 minutes. Your reference number is XQA73LQL . Anything else?"
+    ],
+    [
+        "restaurant_inform(name=\"graffiti\")",
+        "How about graffiti? I've heard great things.",
+        "How about graffiti? I've heard great things."
+    ],
+    [
+        "restaurant_inform(area=\"west\")",
+        "It is in the west area.",
+        "It is in the west area."
+    ],
+    [
+        "booking_inform()",
+        "Graffiti is in the west area, address is Hotel Felix Whitehouse Lane Huntingdon Road, postcode cb30lx. Do you want reservations?",
+        "Graffiti is in the west area, address is Hotel Felix Whitehouse Lane Huntingdon Road, postcode cb30lx. Do you want reservations?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(address=\"Hotel Felix Whitehouse Lane Huntingdon Road\";area=\"west\";name=\"Graffiti\";postcode=\"cb30lx\")",
+        "Graffiti is in the west area, address is Hotel Felix Whitehouse Lane Huntingdon Road, postcode cb30lx. Do you want reservations?",
+        "Graffiti is in the west area, address is Hotel Felix Whitehouse Lane Huntingdon Road, postcode cb30lx. Do you want reservations?"
+    ],
+    [
+        "restaurant_inform(name=\"Nandos\";pricerange=\"cheap\")",
+        "Nandos is cheap in that area.",
+        "Nandos is cheap in that area."
+    ],
+    [
+        "booking_inform()",
+        "Nandos serves portuguese food in the south area. Would you like a reservation?",
+        "Nandos serves portuguese food in the south area. Would you like a reservation?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(area=\"south\";food=\"portuguese\";name=\"Nandos\")",
+        "Nandos serves portuguese food in the south area. Would you like a reservation?",
+        "Nandos serves portuguese food in the south area. Would you like a reservation?"
+    ],
+    [
+        "booking_nobook()",
+        "Booking was unsuccessful. Is there another day or time slot you would be interested in?",
+        "Booking was unsuccessful. Is there another day or time slot you would be interested in?"
+    ],
+    [
+        "booking_book(ref=\"OTN7HHGY\")",
+        "Yes, that did the trick! Your reference number is OTN7HHGY and they'll hold the table for 15 minutes. Is there anything else I can help you with?",
+        "Yes, that did the trick! Your reference number is OTN7HHGY and they'll hold the table for 15 minutes. Is there anything else I can help you with?"
+    ],
+    [
+        "restaurant_inform(choice=\"4 different\";name=\"HK Fusion\";pricerange=\"expensive\")",
+        "I found 4 different expensive Chinese restaurants that you could try. How does HK Fusion sound to you?",
+        "I found 4 different expensive Chinese restaurants that you could try. How does HK Fusion sound to you?"
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry I am not able to book for that day/time, would you like to try another time or different restaurant?",
+        "I'm sorry I am not able to book for that day/time, would you like to try another time or different restaurant?"
+    ],
+    [
+        "booking_book(booktime=\"10:15\";ref=\"7HQZ1TD6\")",
+        "I was able to book it for 10:15. You reference number is 7HQZ1TD6 .",
+        "I was able to book it for 10:15. You reference number is 7HQZ1TD6 ."
+    ],
+    [
+        "restaurant_inform(choice=\"several\")",
+        "i have several, can you be mores specific on price and area please?",
+        "i have several, can you be mores specific on price and area please?"
+    ],
+    [
+        "restaurant_inform(name=\"de luca cucina and bar\")",
+        "How about de luca cucina and bar?",
+        "How about de luca cucina and bar?"
+    ],
+    [
+        "restaurant_inform(food=\"modern european\";name=\"The de luca cucina and bar\")",
+        "The de luca cucina and bar serves modern european food.",
+        "The de luca cucina and bar serves modern european food."
+    ],
+    [
+        "restaurant_inform(phone=\"01223356666\";postcode=\"cb21aw\")",
+        "The post code is cb21aw and the phone number is 01223356666. Is there anything else I can do for you?",
+        "The post code is cb21aw and the phone number is 01223356666. Is there anything else I can do for you?"
+    ],
+    [
+        "restaurant_inform(choice=\"several\")",
+        "I've found several restaurants meeting your criteria. Is there a specific area of town you're looking for?",
+        "I've found several restaurants meeting your criteria. Is there a specific area of town you're looking for?"
+    ],
+    [
+        "booking_inform()",
+        "I have found Yu Garden in the East. Would you like me to go ahead and book that?",
+        "I have found Yu Garden in the East. Would you like me to go ahead and book that?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(area=\"East\";name=\"Yu Garden\")",
+        "I have found Yu Garden in the East. Would you like me to go ahead and book that?",
+        "I have found Yu Garden in the East. Would you like me to go ahead and book that?"
+    ],
+    [
+        "booking_nobook()",
+        "I was unable to book there, shall i try another time or place?",
+        "I was unable to book there, shall i try another time or place?"
+    ],
+    [
+        "booking_book(bookday=\"Tuesday\";ref=\"47ELJDK0\")",
+        "Your table is booked for Tuesday and will be reserved for 15 minutes. Your reference number is 47ELJDK0 . Anything else?",
+        "Your table is booked for Tuesday and will be reserved for 15 minutes. Your reference number is 47ELJDK0 . Anything else?"
+    ],
+    [
+        "restaurant_inform(name=\"Sala thong\")",
+        "Sala thong seems like a good match!",
+        "Sala thong seems like a good match!"
+    ],
+    [
+        "booking_nobook()",
+        "Thursday is not available.",
+        "Thursday is not available."
+    ],
+    [
+        "booking_book(booktime=\"11:15\";ref=\"SWZ8S95V\")",
+        "Booking was successful for 11:15. The table will be reserved for 15 minutes. Reference number is : SWZ8S95V .",
+        "Booking was successful for 11:15. The table will be reserved for 15 minutes. Reference number is : SWZ8S95V ."
+    ],
+    [
+        "restaurant_inform(address=\"183 East Road City Centre\";postcode=\"cb11bg\")",
+        "I have them at 183 East Road City Centre, cb11bg.",
+        "I have them at 183 East Road City Centre, cb11bg."
+    ],
+    [
+        "restaurant_inform(pricerange=\"moderate\")",
+        "Sure, they are in the moderate price range.",
+        "Sure, they are in the moderate price range."
+    ],
+    [
+        "booking_inform()",
+        "We have one. It is the city stop restaurant. Would you like me to book it for you?",
+        "We have one. It is the city stop restaurant. Would you like me to book it for you?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(name=\"city stop restaurant\")",
+        "We have one. It is the city stop restaurant. Would you like me to book it for you?",
+        "We have one. It is the city stop restaurant. Would you like me to book it for you?"
+    ],
+    [
+        "restaurant_inform(address=\"Cambridge City Football Club Milton Road Chesterton\";phone=\"01223363270\";pricerange=\"expensive\")",
+        "they are in the expensive price range. 01223363270 is their number. you can find them on Cambridge City Football Club Milton Road Chesterton",
+        "they are in the expensive price range. 01223363270 is their number. you can find them on Cambridge City Football Club Milton Road Chesterton"
+    ],
+    [
+        "booking_inform()",
+        "Charlie Chan is a great choice! would you like a reservation/",
+        "Charlie Chan is a great choice! would you like a reservation/"
+    ],
+    [
+        "booking_inform()@restaurant_recommend(name=\"Charlie Chan\")",
+        "Charlie Chan is a great choice! would you like a reservation/",
+        "Charlie Chan is a great choice! would you like a reservation/"
+    ],
+    [
+        "restaurant_inform(area=\"centre of town\")",
+        "It's in the centre of town.",
+        "It's in the centre of town."
+    ],
+    [
+        "restaurant_inform(address=\"22 Chesterton Road Chesterton\";address=\"Bridge Street City Centre\";area=\"centre\";area=\"north\";choice=\"two\";name=\"cote\";name=\"restaurant two two\";postcode=\"cb21uf\";postcode=\"cb43ax\")",
+        "Yes, there are two: restaurant two two in the north at 22 Chesterton Road Chesterton cb43ax and cote in the centre at Bridge Street City Centre cb21uf. Anything else?",
+        "Yes, there are two: restaurant two two in the north at 22 Chesterton Road Chesterton cb43ax and cote in the centre at Bridge Street City Centre cb21uf. Anything else?"
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry, there is no availability for Sunday at 17:30. Would you like to try a different day or time slot?",
+        "I'm sorry, there is no availability for Sunday at 17:30. Would you like to try a different day or time slot?"
+    ],
+    [
+        "booking_book(ref=\"48AQQ83Y\")",
+        "Booked! The table will be reserved for 15 minutes. Reference number is 48AQQ83Y .",
+        "Booked! The table will be reserved for 15 minutes. Reference number is 48AQQ83Y ."
+    ],
+    [
+        "restaurant_inform(choice=\"14\";food=\"indian\";pricerange=\"expensive\")",
+        "We have 14 indian restaurants in the expensive category. Do you have any more information to narrow down the search?",
+        "We have 14 indian restaurants in the expensive category. Do you have any more information to narrow down the search?"
+    ],
+    [
+        "booking_inform()",
+        "I would recommend the Maharajah Tandoori Restaurant. It's in the west end. The address is 41518 Castle Street City Centre. The postcode is cb30ah. Shall I make a booking?",
+        "I would recommend the Maharajah Tandoori Restaurant. It's in the west end. The address is 41518 Castle Street City Centre. The postcode is cb30ah. Shall I make a booking?"
+    ],
+    [
+        "booking_inform()@restaurant_recommend(address=\"41518 Castle Street City Centre\";area=\"the west end\";name=\"Maharajah Tandoori Restaurant\";postcode=\"cb30ah\")",
+        "I would recommend the Maharajah Tandoori Restaurant. It's in the west end. The address is 41518 Castle Street City Centre. The postcode is cb30ah. Shall I make a booking?",
+        "I would recommend the Maharajah Tandoori Restaurant. It's in the west end. The address is 41518 Castle Street City Centre. The postcode is cb30ah. Shall I make a booking?"
+    ],
+    [
+        "restaurant_inform(choice=\"five\")",
+        "Yes I there are five restaurants that match what you are looking for. Is there a food type you would prefer?",
+        "Yes I there are five restaurants that match what you are looking for. Is there a food type you would prefer?"
+    ],
+    [
+        "booking_book(bookday=\"thursday\";bookpeople=\"6\";booktime=\"12:00\";name=\"grafton hotel restaurant\";ref=\"SWDEOHLF\")",
+        "Sure, I have made a reservation for 6 people at 12:00 thursday at grafton hotel restaurant Reference number is : SWDEOHLF . May I help with anything else?",
+        "Sure, I have made a reservation for 6 people at 12:00 thursday at grafton hotel restaurant Reference number is : SWDEOHLF . May I help with anything else?"
+    ],
+    [
+        "booking_inform()",
+        "The Sala Thong serves Thai food. It is expensive but good. Can I reserve a table for you?",
+        "The Sala Thong serves Thai food. It is expensive but good. Can I reserve a table for you?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(food=\"Thai\";name=\"Sala Thong\";pricerange=\"expensive\")",
+        "The Sala Thong serves Thai food. It is expensive but good. Can I reserve a table for you?",
+        "The Sala Thong serves Thai food. It is expensive but good. Can I reserve a table for you?"
+    ],
+    [
+        "restaurant_inform(address=\"35 Newnham Road Newnham\";phone=\"01223323178\";postcode=\"cb39ey\")",
+        "The address is 35 Newnham Road Newnham, phone number is 01223323178, and finally their postcode is cb39ey. Is there anything else I can help with?",
+        "The address is 35 Newnham Road Newnham, phone number is 01223323178, and finally their postcode is cb39ey. Is there anything else I can help with?"
+    ],
+    [
+        "restaurant_inform(choice=\"five\")",
+        "There are five places, which type of food do you prefer?",
+        "There are five places, which type of food do you prefer?"
+    ],
+    [
+        "restaurant_inform(choice=\"five\")",
+        "I found five restaurants, what day and time would you like to go?",
+        "I found five restaurants, what day and time would you like to go?"
+    ],
+    [
+        "booking_book(ref=\"J8IGNS09\")",
+        "Okay. I have booked you at Saigon City that is quite elegant and serves Asian cuisine. Your reference number is J8IGNS09 .",
+        "Okay. I have booked you at Saigon City that is quite elegant and serves Asian cuisine. Your reference number is J8IGNS09 ."
+    ],
+    [
+        "booking_book(ref=\"J8IGNS09\")@restaurant_inform(food=\"Asian\";name=\"Saigon City\")",
+        "Okay. I have booked you at Saigon City that is quite elegant and serves Asian cuisine. Your reference number is J8IGNS09 .",
+        "Okay. I have booked you at Saigon City that is quite elegant and serves Asian cuisine. Your reference number is J8IGNS09 ."
+    ],
+    [
+        "restaurant_inform(choice=\"quite a few\";pricerange=\"expensive\")",
+        "There are quite a few places that are expensive. What type of cuisine would you like?",
+        "There are quite a few places that are expensive. What type of cuisine would you like?"
+    ],
+    [
+        "restaurant_inform(area=\"west\";choice=\"a couple of\";food=\"indian\")",
+        "There are a couple of indian resturants in the west, may I recommend Tandoori Palace?",
+        "There are a couple of indian resturants in the west, may I recommend Tandoori Palace?"
+    ],
+    [
+        "restaurant_inform(area=\"west\";choice=\"a couple of\";food=\"indian\")@restaurant_recommend(name=\"Tandoori Palace\")",
+        "There are a couple of indian resturants in the west, may I recommend Tandoori Palace?",
+        "There are a couple of indian resturants in the west, may I recommend Tandoori Palace?"
+    ],
+    [
+        "booking_inform()",
+        "Sure. 68 Histon Road Chesterton. Would you like for me to make reservations?",
+        "Sure. 68 Histon Road Chesterton. Would you like for me to make reservations?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(address=\"68 Histon Road Chesterton\")",
+        "Sure. 68 Histon Road Chesterton. Would you like for me to make reservations?",
+        "Sure. 68 Histon Road Chesterton. Would you like for me to make reservations?"
+    ],
+    [
+        "restaurant_inform(choice=\"5\")",
+        "I have 5 restaurants that would fit that, is there a particular area you want to dine in?",
+        "I have 5 restaurants that would fit that, is there a particular area you want to dine in?"
+    ],
+    [
+        "restaurant_inform(address=\"21 - 24 Northampton Road\")",
+        "How about Prezzo? It's located at 21 - 24 Northampton Road.",
+        "How about Prezzo? It's located at 21 - 24 Northampton Road."
+    ],
+    [
+        "restaurant_inform(address=\"21 - 24 Northampton Road\")@restaurant_select(name=\"Prezzo\")",
+        "How about Prezzo? It's located at 21 - 24 Northampton Road.",
+        "How about Prezzo? It's located at 21 - 24 Northampton Road."
+    ],
+    [
+        "restaurant_inform(area=\"centre of town\";choice=\"two\";name=\"Bloomsbury Restaurant\";name=\"The Varsity Restaurant\")",
+        "Yes, there are two in the centre of town. The Varsity Restaurant and the Bloomsbury Restaurant. Would you like more information?",
+        "Yes, there are two in the centre of town. The Varsity Restaurant and the Bloomsbury Restaurant. Would you like more information?"
+    ],
+    [
+        "restaurant_inform(address=\"Crowne Plaza Hotel 20 Downing Street\")",
+        "They are located at Crowne Plaza Hotel 20 Downing Street",
+        "They are located at Crowne Plaza Hotel 20 Downing Street"
+    ],
+    [
+        "booking_inform()",
+        "The phone number for the Bloomsbury Restaurant is 08719429180. Can I help you in arranging a reservation?",
+        "The phone number for the Bloomsbury Restaurant is 08719429180. Can I help you in arranging a reservation?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(phone=\"08719429180\")",
+        "The phone number for the Bloomsbury Restaurant is 08719429180. Can I help you in arranging a reservation?",
+        "The phone number for the Bloomsbury Restaurant is 08719429180. Can I help you in arranging a reservation?"
+    ],
+    [
+        "restaurant_inform(address=\"Crowne Plaza Hotel 20 Downing Street\";name=\"The Bloomsbury Restaurant\";postcode=\"CB23DT\")",
+        "The Bloomsbury Restaurant can be found at Crowne Plaza Hotel 20 Downing Street with a postcode of CB23DT.",
+        "The Bloomsbury Restaurant can be found at Crowne Plaza Hotel 20 Downing Street with a postcode of CB23DT."
+    ],
+    [
+        "restaurant_select(food=\"British\";pricerange=\"moderately priced\")",
+        "Sorry, I can't find any steakhouses. Would you be interested in moderately priced British cuisine instead?",
+        "Sorry, I can't find any steakhouses. Would you be interested in moderately priced British cuisine instead?"
+    ],
+    [
+        "booking_inform()",
+        "la tasca meets your standards. would you like to book this restaurant?",
+        "la tasca meets your standards. would you like to book this restaurant?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(name=\"la tasca\")",
+        "la tasca meets your standards. would you like to book this restaurant?",
+        "la tasca meets your standards. would you like to book this restaurant?"
+    ],
+    [
+        "restaurant_inform(name=\"la tasca\";phone=\"01223464630\")",
+        "The phone number for la tasca is 01223464630. Anything else?",
+        "The phone number for la tasca is 01223464630. Anything else?"
+    ],
+    [
+        "booking_inform()",
+        "I was able to find Efes Restaurant for you. This is a Turkish restaurant in the centre of town with a moderate price range. Would you like a booking?",
+        "I was able to find Efes Restaurant for you. This is a Turkish restaurant in the centre of town with a moderate price range. Would you like a booking?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(area=\"centre of town\";food=\"Turkish\";name=\"Efes Restaurant\";pricerange=\"moderate\")",
+        "I was able to find Efes Restaurant for you. This is a Turkish restaurant in the centre of town with a moderate price range. Would you like a booking?",
+        "I was able to find Efes Restaurant for you. This is a Turkish restaurant in the centre of town with a moderate price range. Would you like a booking?"
+    ],
+    [
+        "booking_nobook()",
+        "Unfortunately, the restaurant is full at this time. Is there another time or day I can reserve for you?",
+        "Unfortunately, the restaurant is full at this time. Is there another time or day I can reserve for you?"
+    ],
+    [
+        "booking_book(booktime=\"17:15\";ref=\"6LZYPIFZ\")",
+        "Sure, you're all set for 17:15 with reference number 6LZYPIFZ . The table will be reserved for 15 minutes. Would you like assistance with anything else?",
+        "Sure, you're all set for 17:15 with reference number 6LZYPIFZ . The table will be reserved for 15 minutes. Would you like assistance with anything else?"
+    ],
+    [
+        "restaurant_inform(address=\"32 Bridge Street City Centre\";area=\"centre\";food=\"Italian\";name=\"Caffe Uno\";phone=\"01223448620\";pricerange=\"expensive\")",
+        "Caffe Uno is an expensive Italian restaurant in the centre. It can be located at 32 Bridge Street City Centre and the phone number is 01223448620.",
+        "Caffe Uno is an expensive Italian restaurant in the centre. It can be located at 32 Bridge Street City Centre and the phone number is 01223448620."
+    ],
+    [
+        "restaurant_inform(postcode=\"cb21uj\")",
+        "Yes, it's cb21uj.",
+        "Yes, it's cb21uj."
+    ],
+    [
+        "restaurant_inform(choice=\"4\")",
+        "Yes, I have 4 results matching your request, is there a price range you're looking for?",
+        "Yes, I have 4 results matching your request, is there a price range you're looking for?"
+    ],
+    [
+        "restaurant_inform(name=\"de luca cucina and bar\";name=\"riverside brasserie\")",
+        "I found de luca cucina and bar and riverside brasserie. Does either of them sound good for you?",
+        "I found de luca cucina and bar and riverside brasserie. Does either of them sound good for you?"
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry, there are no available seats at either of those restaurants. Could you try another time or a different day perhaps?",
+        "I'm sorry, there are no available seats at either of those restaurants. Could you try another time or a different day perhaps?"
+    ],
+    [
+        "booking_book(ref=\"MJEOQ3R5\")",
+        "Okay, that worked! The table will be reserved for 15 minutes. Your reference number is : MJEOQ3R5 .",
+        "Okay, that worked! The table will be reserved for 15 minutes. Your reference number is : MJEOQ3R5 ."
+    ],
+    [
+        "booking_inform()",
+        "It is an expensive european restaurant in the north part of town. Would you like to make a booking?",
+        "It is an expensive european restaurant in the north part of town. Would you like to make a booking?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(area=\"north\";food=\"european\";pricerange=\"expensive\")",
+        "It is an expensive european restaurant in the north part of town. Would you like to make a booking?",
+        "It is an expensive european restaurant in the north part of town. Would you like to make a booking?"
+    ],
+    [
+        "booking_book(bookday=\"Thursday\";bookpeople=\"4\";booktime=\"17:30\";ref=\"VLG5U01Z\")",
+        "Alright, I've booked a table for 4 at 17:30 on Thursday. Your reference number is VLG5U01Z .",
+        "Alright, I've booked a table for 4 at 17:30 on Thursday. Your reference number is VLG5U01Z ."
+    ],
+    [
+        "restaurant_inform(choice=\"several\";food=\"european\")",
+        "I have several european restaurants to choose from. Did you want to dine in a certain area of the city?",
+        "I have several european restaurants to choose from. Did you want to dine in a certain area of the city?"
+    ],
+    [
+        "booking_book(name=\"Eraina\";ref=\"0IT4QD59\")",
+        "I think you'd enjoy Eraina, so I've booked you a table there. The reference number is 0IT4QD59 .",
+        "I think you'd enjoy Eraina, so I've booked you a table there. The reference number is 0IT4QD59 ."
+    ],
+    [
+        "booking_inform()",
+        "I have gourmet burger kitchen, it's an expensive north american food restaurant. Would you like to book a table?",
+        "I have gourmet burger kitchen, it's an expensive north american food restaurant. Would you like to book a table?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(food=\"north american\";name=\"gourmet burger kitchen\";pricerange=\"expensive\")",
+        "I have gourmet burger kitchen, it's an expensive north american food restaurant. Would you like to book a table?",
+        "I have gourmet burger kitchen, it's an expensive north american food restaurant. Would you like to book a table?"
+    ],
+    [
+        "booking_inform()",
+        "Yes, gourmet burger kitchen is in the centre of town. Would you like to book it?",
+        "Yes, gourmet burger kitchen is in the centre of town. Would you like to book it?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(area=\"centre of town\";name=\"gourmet burger kitchen\")",
+        "Yes, gourmet burger kitchen is in the centre of town. Would you like to book it?",
+        "Yes, gourmet burger kitchen is in the centre of town. Would you like to book it?"
+    ],
+    [
+        "booking_nobook()",
+        "sorry but booking was unsuccessful, what about another time?",
+        "sorry but booking was unsuccessful, what about another time?"
+    ],
+    [
+        "booking_nobook()",
+        "hmm that was also unsuccessful, does different time work for you?",
+        "hmm that was also unsuccessful, does different time work for you?"
+    ],
+    [
+        "booking_book(booktime=\"18:00\";ref=\"IKXBXWEO\")",
+        "I booked for you ugly duckling at 18:00, your ref number is IKXBXWEO",
+        "I booked for you ugly duckling at 18:00, your ref number is IKXBXWEO"
+    ],
+    [
+        "restaurant_inform(area=\"town centre\";food=\"Italian\";name=\"zizzi cambridge\";pricerange=\"cheap\")",
+        "Sure, how about zizzi cambridge, they offer cheap Italian food in the town centre.",
+        "Sure, how about zizzi cambridge, they offer cheap Italian food in the town centre."
+    ],
+    [
+        "restaurant_inform(name=\"zizzi cambridge\";phone=\"01223365599\")",
+        "Certainly, the phone number at zizzi cambridge is 01223365599. May I help with anything else?",
+        "Certainly, the phone number at zizzi cambridge is 01223365599. May I help with anything else?"
+    ],
+    [
+        "booking_inform()",
+        "The oak bistro is one of several restaurants that match your description. Would you like me to book a table there for that time?",
+        "The oak bistro is one of several restaurants that match your description. Would you like me to book a table there for that time?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(choice=\"several\";name=\"The oak bistro\")",
+        "The oak bistro is one of several restaurants that match your description. Would you like me to book a table there for that time?",
+        "The oak bistro is one of several restaurants that match your description. Would you like me to book a table there for that time?"
+    ],
+    [
+        "booking_nobook()",
+        "They do not have a table for 8 available at 14:15 Friday. Would you like to try for another day or time slot?",
+        "They do not have a table for 8 available at 14:15 Friday. Would you like to try for another day or time slot?"
+    ],
+    [
+        "booking_book(ref=\"X4U272EC\")",
+        "That time worked, your reservation was successful and your reference number is X4U272EC . Can I help you with anything else?",
+        "That time worked, your reservation was successful and your reference number is X4U272EC . Can I help you with anything else?"
+    ],
+    [
+        "restaurant_inform(area=\"that area\";choice=\"several\")",
+        "There are several good restaurant options in that area. Is there a specific type of food you are looking for?",
+        "There are several good restaurant options in that area. Is there a specific type of food you are looking for?"
+    ],
+    [
+        "restaurant_inform(choice=\"quite few\";food=\"african\";food=\"turkish\")",
+        "There are quite few expensive places there with many food types from african to turkish. Perhaps you would like local food - there are several expensive british restaurants.",
+        "There are quite few expensive places there with many food types from african to turkish. Perhaps you would like local food - there are several expensive british restaurants."
+    ],
+    [
+        "restaurant_inform(choice=\"quite few\";food=\"african\";food=\"turkish\")@restaurant_select(choice=\"several\";food=\"british\";pricerange=\"expensive\")",
+        "There are quite few expensive places there with many food types from african to turkish. Perhaps you would like local food - there are several expensive british restaurants.",
+        "There are quite few expensive places there with many food types from african to turkish. Perhaps you would like local food - there are several expensive british restaurants."
+    ],
+    [
+        "restaurant_inform(address=\"196 Mill Road City Centre\";postcode=\"cb13nf\")",
+        "The address is 196 Mill Road City Centre, postcode cb13nf.",
+        "The address is 196 Mill Road City Centre, postcode cb13nf."
+    ],
+    [
+        "restaurant_inform(name=\"the Meze Bar Restaurant\")",
+        "Enjoy your meal at the Meze Bar Restaurant. Goodbye.",
+        "Enjoy your meal at the Meze Bar Restaurant. Goodbye."
+    ],
+    [
+        "restaurant_inform(choice=\"69\")",
+        "We have 69 restaurants available. Could you specify type or price range please?",
+        "We have 69 restaurants available. Could you specify type or price range please?"
+    ],
+    [
+        "booking_book(ref=\"BA2MQ3EB\")",
+        "Okay I took the liberty of booking you into the Oak Bistro that serves traditional British food. Your reference number is BA2MQ3EB .",
+        "Okay I took the liberty of booking you into the Oak Bistro that serves traditional British food. Your reference number is BA2MQ3EB ."
+    ],
+    [
+        "booking_book(ref=\"BA2MQ3EB\")@restaurant_inform(food=\"traditional British\";name=\"Oak Bistro\")",
+        "Okay I took the liberty of booking you into the Oak Bistro that serves traditional British food. Your reference number is BA2MQ3EB .",
+        "Okay I took the liberty of booking you into the Oak Bistro that serves traditional British food. Your reference number is BA2MQ3EB ."
+    ],
+    [
+        "booking_inform()",
+        "Nandos has restaurants in the south and the centre of town. Would you like to book either of those?",
+        "Nandos has restaurants in the south and the centre of town. Would you like to book either of those?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(area=\"centre of town\";area=\"south\";name=\"Nandos\")",
+        "Nandos has restaurants in the south and the centre of town. Would you like to book either of those?",
+        "Nandos has restaurants in the south and the centre of town. Would you like to book either of those?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(area=\"centre of town\";area=\"south\";name=\"Nandos\")@restaurant_select()",
+        "Nandos has restaurants in the south and the centre of town. Would you like to book either of those?",
+        "Nandos has restaurants in the south and the centre of town. Would you like to book either of those?"
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry, there are no tables available for Monday at 15:30. Would you like to try for a different day or time?",
+        "I'm sorry, there are no tables available for Monday at 15:30. Would you like to try for a different day or time?"
+    ],
+    [
+        "booking_book(bookday=\"Monday\";name=\"Nando's south\";ref=\"HB047XSI\")",
+        "I made you a reservation at Nando's south, at 14:30 on Monday. The reference number is HB047XSI . They'll hold the table for 15 minutes. Do you need anything else?",
+        "I made you a reservation at Nando's south, at 14:30 on Monday. The reference number is HB047XSI . They'll hold the table for 15 minutes. Do you need anything else?"
+    ],
+    [
+        "restaurant_inform(choice=\"many\")",
+        "Yes I have many to choose from . Could we narrow it down by cuisine? What type of food sounds good to you?",
+        "Yes I have many to choose from . Could we narrow it down by cuisine? What type of food sounds good to you?"
+    ],
+    [
+        "restaurant_inform(choice=\"many\")@restaurant_select()",
+        "Yes I have many to choose from . Could we narrow it down by cuisine? What type of food sounds good to you?",
+        "Yes I have many to choose from . Could we narrow it down by cuisine? What type of food sounds good to you?"
+    ],
+    [
+        "restaurant_inform(area=\"center of town\";choice=\"lots of\";pricerange=\"expensive\")",
+        "While we have lots of expensive restaurants in the center of town, none of them serve Latin american food. Would you like another cuisine?",
+        "While we have lots of expensive restaurants in the center of town, none of them serve Latin american food. Would you like another cuisine?"
+    ],
+    [
+        "booking_inform()",
+        "Oh yes, we have several Indian restaurants! I recommend Panahar, located at 8 Norfolk Street City Centre. Would you like a table there?",
+        "Oh yes, we have several Indian restaurants! I recommend Panahar, located at 8 Norfolk Street City Centre. Would you like a table there?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(choice=\"several\";food=\"Indian\")",
+        "Oh yes, we have several Indian restaurants! I recommend Panahar, located at 8 Norfolk Street City Centre. Would you like a table there?",
+        "Oh yes, we have several Indian restaurants! I recommend Panahar, located at 8 Norfolk Street City Centre. Would you like a table there?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(choice=\"several\";food=\"Indian\")@restaurant_recommend(address=\"8 Norfolk Street City Centre\";name=\"Panahar\")",
+        "Oh yes, we have several Indian restaurants! I recommend Panahar, located at 8 Norfolk Street City Centre. Would you like a table there?",
+        "Oh yes, we have several Indian restaurants! I recommend Panahar, located at 8 Norfolk Street City Centre. Would you like a table there?"
+    ],
+    [
+        "booking_nobook()",
+        "There doesn't seem to be any availability for Saturday at 19:45. Is there another time slot, or possibly another day, that would work for you?",
+        "There doesn't seem to be any availability for Saturday at 19:45. Is there another time slot, or possibly another day, that would work for you?"
+    ],
+    [
+        "booking_book(booktime=\"18:45\";ref=\"XLWRECBF\")",
+        "The booking was successful at 18:45. Your reference number is : XLWRECBF . Is there anything else that I can do for you?",
+        "The booking was successful at 18:45. Your reference number is : XLWRECBF . Is there anything else that I can do for you?"
+    ],
+    [
+        "restaurant_recommend(name=\"Restaurant One Seven\")",
+        "Restaurant One Seven is a good choice. Which day?",
+        "Restaurant One Seven is a good choice. Which day?"
+    ],
+    [
+        "restaurant_select(choice=\"three\")",
+        "No, but I have three other options for you to choose from.",
+        "No, but I have three other options for you to choose from."
+    ],
+    [
+        "restaurant_inform(food=\"Chinese\";name=\"Jinling Noodle Bar\";name=\"the Lan Hong House\";name=\"the Shanghi Family Restaurant\";pricerange=\"moderately priced\")",
+        "I have the Lan Hong House, Jinling Noodle Bar and the Shanghi Family Restaurant that are all moderately priced and serving Chinese food.",
+        "I have the Lan Hong House, Jinling Noodle Bar and the Shanghi Family Restaurant that are all moderately priced and serving Chinese food."
+    ],
+    [
+        "booking_nobook()",
+        "I was not able to book that for you at that time. Is there another time that would work for you?",
+        "I was not able to book that for you at that time. Is there another time that would work for you?"
+    ],
+    [
+        "booking_book(ref=\"V0KCN2RI\")",
+        "That time is available! I have booked the reservation. The reference number is V0KCN2RI . Is there anything else?",
+        "That time is available! I have booked the reservation. The reference number is V0KCN2RI . Is there anything else?"
+    ],
+    [
+        "restaurant_inform(choice=\"quite a few\")",
+        "There are quite a few options. Do you have a preference for the area?",
+        "There are quite a few options. Do you have a preference for the area?"
+    ],
+    [
+        "booking_inform()",
+        "The Ugly Duckling located in the centre has great food and is very popular. Would you like me to make you a reservation?",
+        "The Ugly Duckling located in the centre has great food and is very popular. Would you like me to make you a reservation?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(area=\"centre\";name=\"The Ugly Duckling\")",
+        "The Ugly Duckling located in the centre has great food and is very popular. Would you like me to make you a reservation?",
+        "The Ugly Duckling located in the centre has great food and is very popular. Would you like me to make you a reservation?"
+    ],
+    [
+        "booking_inform()",
+        "Ugly Duckling's postcode is cb21tw. Can I book a table for you?",
+        "Ugly Duckling's postcode is cb21tw. Can I book a table for you?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(name=\"Ugly Duckling\";postcode=\"cb21tw\")",
+        "Ugly Duckling's postcode is cb21tw. Can I book a table for you?",
+        "Ugly Duckling's postcode is cb21tw. Can I book a table for you?"
+    ],
+    [
+        "restaurant_inform(food=\"British\";name=\"Grafton Hotel Restaurant\";postcode=\"cb58pa\";pricerange=\"expensive\")",
+        "Grafton Hotel Restaurant is an expensive British restaurant you might enjoy. The postcode is cb58pa.",
+        "Grafton Hotel Restaurant is an expensive British restaurant you might enjoy. The postcode is cb58pa."
+    ],
+    [
+        "restaurant_inform(address=\"8 Norfolk Street City Centre\";food=\"indian\";name=\"Panahar\";phone=\"01223355012\";postcode=\"cb12lf\";pricerange=\"expensive\")",
+        "Absolutely. Panahar is a more expensive indian restaurant. It is located at 8 Norfolk Street City Centre. Their postal code is cb12lf. Their phone number is 01223355012.",
+        "Absolutely. Panahar is a more expensive indian restaurant. It is located at 8 Norfolk Street City Centre. Their postal code is cb12lf. Their phone number is 01223355012."
+    ],
+    [
+        "booking_nobook()",
+        "Booking was unfortunately unsuccessful. Can we try another day or time slot?",
+        "Booking was unfortunately unsuccessful. Can we try another day or time slot?"
+    ],
+    [
+        "booking_book(booktime=\"10:00\";ref=\"12RTYGZ7\")",
+        "The 10:00 slot at Panahar was available. Your reference number is 12RTYGZ7 . Is there anything else I can help you with?",
+        "The 10:00 slot at Panahar was available. Your reference number is 12RTYGZ7 . Is there anything else I can help you with?"
+    ],
+    [
+        "booking_book(booktime=\"10:00\";ref=\"12RTYGZ7\")@restaurant_inform(name=\"Panahar\")",
+        "The 10:00 slot at Panahar was available. Your reference number is 12RTYGZ7 . Is there anything else I can help you with?",
+        "The 10:00 slot at Panahar was available. Your reference number is 12RTYGZ7 . Is there anything else I can help you with?"
+    ],
+    [
+        "restaurant_inform(choice=\"57\")",
+        "Okay, we have 57 restaurants in that price range. Are you looking for a place in a certain part of town?",
+        "Okay, we have 57 restaurants in that price range. Are you looking for a place in a certain part of town?"
+    ],
+    [
+        "restaurant_inform(area=\"center of town\";food=\"British\";name=\"Fitzbillies\";pricerange=\"expensive\")",
+        "Most of the expensive restaurants in Cambridge happen to be in the center of town! Would you like to try some British food at Fitzbillies?",
+        "Most of the expensive restaurants in Cambridge happen to be in the center of town! Would you like to try some British food at Fitzbillies?"
+    ],
+    [
+        "restaurant_inform(address=\"51 Trumpington Street City Centre\";phone=\"01223352500\";postcode=\"cb21rg\")",
+        "The address is 51 Trumpington Street City Centre, the phone number is 01223352500, and the postcode is cb21rg. Is there anything else I can help you with today?",
+        "The address is 51 Trumpington Street City Centre, the phone number is 01223352500, and the postcode is cb21rg. Is there anything else I can help you with today?"
+    ],
+    [
+        "restaurant_inform(choice=\"several\")",
+        "We have several options available. Is there a certain area of town you're looking for? If not, I recommend Graffiti in the west.",
+        "We have several options available. Is there a certain area of town you're looking for? If not, I recommend Graffiti in the west."
+    ],
+    [
+        "restaurant_inform(choice=\"several\")@restaurant_recommend(area=\"in the west\";name=\"Graffiti\")",
+        "We have several options available. Is there a certain area of town you're looking for? If not, I recommend Graffiti in the west.",
+        "We have several options available. Is there a certain area of town you're looking for? If not, I recommend Graffiti in the west."
+    ],
+    [
+        "booking_book(ref=\"S3Q9J1KJ\")",
+        "It is all booked, reference number is S3Q9J1KJ",
+        "It is all booked, reference number is S3Q9J1KJ"
+    ],
+    [
+        "restaurant_inform(choice=\"a couple of\")",
+        "I was able to get a couple of options for you, is there a certain area you would like to go to?",
+        "I was able to get a couple of options for you, is there a certain area you would like to go to?"
+    ],
+    [
+        "restaurant_recommend(name=\"stazione restaurant and coffee bar\")",
+        "How about stazione restaurant and coffee bar?",
+        "How about stazione restaurant and coffee bar?"
+    ],
+    [
+        "booking_nobook()",
+        "Booking was unfortunately unsuccessful. Let's try another day or time slot.",
+        "Booking was unfortunately unsuccessful. Let's try another day or time slot."
+    ],
+    [
+        "booking_book(booktime=\"10:30\";ref=\"4H1DRIF8\")",
+        "You are booked for 10:30. Your reference number is 4H1DRIF8 . Is there anything else I can assist you with?",
+        "You are booked for 10:30. Your reference number is 4H1DRIF8 . Is there anything else I can assist you with?"
+    ],
+    [
+        "booking_book(ref=\"CKO62HOH\")",
+        "Booking was successful. The table will be reserved for 15 minutes. Reference number is : CKO62HOH . Is there anything else I can help you with?",
+        "Booking was successful. The table will be reserved for 15 minutes. Reference number is : CKO62HOH . Is there anything else I can help you with?"
+    ],
+    [
+        "restaurant_inform(choice=\"21\")",
+        "Certainly, we have 21. Do you have a cuisine type or a price range?",
+        "Certainly, we have 21. Do you have a cuisine type or a price range?"
+    ],
+    [
+        "restaurant_recommend(area=\"centre of town\";food=\"British\";name=\"Cotto\";pricerange=\"moderately priced\")",
+        "Cotto is a moderately priced restaurant in the centre of town. It serves British food.",
+        "Cotto is a moderately priced restaurant in the centre of town. It serves British food."
+    ],
+    [
+        "booking_inform()",
+        "The cotto is located at 183 East Road City Centre and their postcode is cb11bg. Would you like me to make a reservation for you?",
+        "The cotto is located at 183 East Road City Centre and their postcode is cb11bg. Would you like me to make a reservation for you?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(address=\"183 East Road City Centre\";name=\"cotto\";postcode=\"cb11bg\")",
+        "The cotto is located at 183 East Road City Centre and their postcode is cb11bg. Would you like me to make a reservation for you?",
+        "The cotto is located at 183 East Road City Centre and their postcode is cb11bg. Would you like me to make a reservation for you?"
+    ],
+    [
+        "restaurant_select(food=\"Chinese\")",
+        "Sure, are you interested in Chinese food?",
+        "Sure, are you interested in Chinese food?"
+    ],
+    [
+        "booking_inform()",
+        "There is the Charlie Chan, Rice House and Golden House. Would you like to book a table at one of these?",
+        "There is the Charlie Chan, Rice House and Golden House. Would you like to book a table at one of these?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(name=\"Charlie Chan\";name=\"Golden House\";name=\"Rice House\")",
+        "There is the Charlie Chan, Rice House and Golden House. Would you like to book a table at one of these?",
+        "There is the Charlie Chan, Rice House and Golden House. Would you like to book a table at one of these?"
+    ],
+    [
+        "booking_book(ref=\"IYQ8FY20\")",
+        "All right, I've booked that for you. Your reference number is IYQ8FY20 . Can I help you with anything else?",
+        "All right, I've booked that for you. Your reference number is IYQ8FY20 . Can I help you with anything else?"
+    ],
+    [
+        "restaurant_inform(area=\"west side\";choice=\"one\";choice=\"one\";choice=\"two\";food=\"Italian\";food=\"Vietnamese\";pricerange=\"cheap\")",
+        "There are two cheap restaurants on the west side, one Italian and one Vietnamese. Do you have a preference?",
+        "There are two cheap restaurants on the west side, one Italian and one Vietnamese. Do you have a preference?"
+    ],
+    [
+        "restaurant_inform(area=\"west side\";choice=\"one\";choice=\"one\";choice=\"two\";food=\"Italian\";food=\"Vietnamese\";pricerange=\"cheap\")@restaurant_select()",
+        "There are two cheap restaurants on the west side, one Italian and one Vietnamese. Do you have a preference?",
+        "There are two cheap restaurants on the west side, one Italian and one Vietnamese. Do you have a preference?"
+    ],
+    [
+        "booking_inform()",
+        "I do have la margherita that meets your requests. Would you like me to book a table for you?",
+        "I do have la margherita that meets your requests. Would you like me to book a table for you?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(name=\"la margherita\")",
+        "I do have la margherita that meets your requests. Would you like me to book a table for you?",
+        "I do have la margherita that meets your requests. Would you like me to book a table for you?"
+    ],
+    [
+        "restaurant_inform(address=\"15 Magdalene Street City Centre\";name=\"La Margherita\";phone=\"01223315232\")",
+        "Certainly. La Margherita is located at 15 Magdalene Street City Centre and their phone number is 01223315232. Is there anything else I can help you with today?",
+        "Certainly. La Margherita is located at 15 Magdalene Street City Centre and their phone number is 01223315232. Is there anything else I can help you with today?"
+    ],
+    [
+        "restaurant_inform(food=\"asian oriental\";name=\"Yippee noodle bar\")",
+        "Yippee noodle bar serves asian oriental food.",
+        "Yippee noodle bar serves asian oriental food."
+    ],
+    [
+        "restaurant_inform(name=\"Yippee Noodle Bar\";postcode=\"cb11lh\")",
+        "Yes, Yippee Noodle Bar is in postcode cb11lh. Can I be of any further assistance today?",
+        "Yes, Yippee Noodle Bar is in postcode cb11lh. Can I be of any further assistance today?"
+    ],
+    [
+        "booking_inform()",
+        "Royal Standard is an expensive gastropub in the east. Would you like to book a table?",
+        "Royal Standard is an expensive gastropub in the east. Would you like to book a table?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(area=\"east\";food=\"gastropub\";name=\"Royal Standard\";pricerange=\"expensive\")",
+        "Royal Standard is an expensive gastropub in the east. Would you like to book a table?",
+        "Royal Standard is an expensive gastropub in the east. Would you like to book a table?"
+    ],
+    [
+        "restaurant_inform(address=\"290 Mill Road City Centre.\";phone=\"01223247877\")",
+        "The address is 290 Mill Road City Centre. The phone number is 01223247877. Is there anything else I can help you with?",
+        "The address is 290 Mill Road City Centre. The phone number is 01223247877. Is there anything else I can help you with?"
+    ],
+    [
+        "restaurant_inform(area=\"centre\";choice=\"10\")",
+        "I have 10 chinese restaurants in the centre area. What price range would you like?",
+        "I have 10 chinese restaurants in the centre area. What price range would you like?"
+    ],
+    [
+        "booking_inform()",
+        "Charlie Chan is amazing and cheap! Would you like me to book it for you?",
+        "Charlie Chan is amazing and cheap! Would you like me to book it for you?"
+    ],
+    [
+        "booking_inform()@restaurant_recommend(name=\"Charlie Chan\";pricerange=\"cheap\")",
+        "Charlie Chan is amazing and cheap! Would you like me to book it for you?",
+        "Charlie Chan is amazing and cheap! Would you like me to book it for you?"
+    ],
+    [
+        "booking_book(ref=\"U4UC246K\")",
+        "Your booking was successful and the reference number is U4UC246K . Is there anything else I can help with today?",
+        "Your booking was successful and the reference number is U4UC246K . Is there anything else I can help with today?"
+    ],
+    [
+        "restaurant_inform(choice=\"three\";name=\"Golden Wok\";name=\"Hakka\";name=\"The Hotpot\")",
+        "There are three - Hakka, Golden Wok, and The Hotpot. Would you like more information on one of these?",
+        "There are three - Hakka, Golden Wok, and The Hotpot. Would you like more information on one of these?"
+    ],
+    [
+        "restaurant_inform(area=\"north side\";choice=\"All three\";name=\"The Golden Wok\";pricerange=\"expensive\";pricerange=\"moderately priced\")",
+        "All three are located on the north side. Do you have a price range you'd prefer? The Golden Wok is moderately priced, while the others are expensive.",
+        "All three are located on the north side. Do you have a price range you'd prefer? The Golden Wok is moderately priced, while the others are expensive."
+    ],
+    [
+        "booking_inform()",
+        "The Golden Wok's phone number is 01223350688 and their address is 191 Histon Road Chesterton. Would you like to make a reservation?",
+        "The Golden Wok's phone number is 01223350688 and their address is 191 Histon Road Chesterton. Would you like to make a reservation?"
+    ],
+    [
+        "booking_inform()@restaurant_inform(address=\"191 Histon Road Chesterton\";name=\"The Golden Wok\";phone=\"01223350688\")",
+        "The Golden Wok's phone number is 01223350688 and their address is 191 Histon Road Chesterton. Would you like to make a reservation?",
+        "The Golden Wok's phone number is 01223350688 and their address is 191 Histon Road Chesterton. Would you like to make a reservation?"
+    ],
+    [
+        "hotel_inform(name=\"Pizza Express Fen Ditton\")",
+        "OK, I've Pizza Express Fen Ditton. Would you like the phone number or address for that?",
+        "OK, I've Pizza Express Fen Ditton. Would you like the phone number or address for that?"
+    ],
+    [
+        "restaurant_inform(address=\"Jesus Lane Fen Ditton\";food=\"Italian\";phone=\"01223324033\";postcode=\"cb58ba\")",
+        "They serve Italian food, and they're located at Jesus Lane Fen Ditton, cb58ba. Their phone number is 01223324033. Can I help with anything else today?",
+        "They serve Italian food, and they're located at Jesus Lane Fen Ditton, cb58ba. Their phone number is 01223324033. Can I help with anything else today?"
+    ]
+]

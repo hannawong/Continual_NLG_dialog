@@ -1,0 +1,283 @@
+auto_repair ( reason_appt = "tune-up") & ok, you just need a tune-up correct?
+auto_repair ( date_appt = "february 1st") & would that be for tomorrow or february 1st?
+auto_repair ( date_appt = "february 1st" ; time_appt = "8:30am") & i see they can take your car in on february 1st, their policy is to drop the car off in the morning at 8:30am and they will call you once the work is complete, does that work for you?
+auto_repair ( date_appt_accept = "february 1st" ; time_appt_accept = "8:30am" ; reason_appt_accept = "tune up" ; year_vehicle_accept = "2014" ; name_vehicle_accept = "acura rdx") & ok, i have booked an appointment on february 1st at 8:30am for a tune up for your 2014 acura rdx, is that correct?
+auto_repair ( name_customer_accept = "jack jones") & ok, we are scheduling an appointment for jack jones, phone number 202-456-1414.
+auto_repair ( reason_appt = "oil change") & will you need an oil change as well?
+auto_repair ( date_appt = "monday" ; time_appt = "8:30am") & ok, let me check the shops availability. there next opening is for next monday at 8:30am, is that ok?
+auto_repair ( date_appt_accept = "monday" ; time_appt_accept = "8:30am" ; name_vehicle_accept = "2015 lexus rx 350" ; reason_appt_accept = "oil change and tune up") & ok, i have scheduled an appointment for next monday at 8:30am for your 2015 lexus rx 350 for an oil change and tune up, is that correct?
+auto_repair ( location_store = "123 main street") & sure, it is 123 main street.
+auto_repair ( name_customer_accept = "john doe") & john doe, 555 444 3333, correct?
+auto_repair ( year_vehicle_accept = "2013" ; name_vehicle_accept = "honda pilot" ; reason_appt_accept = "tuneup") & so your 2013 honda pilot needs a tuneup, correct?
+auto_repair ( location_store_accept = "900 garcia avenue") & yes. they are located at 900 garcia avenue. can you confirm this address?
+auto_repair ( date_appt_accept = "tomorrow" ; time_appt_accept = "8:30am") & yes, you are confirmed for tomorrow at 8:30am.
+auto_repair ( name_customer_accept = "james simmons") & ok, we are booking an appointment for james simmons, phone number 956-328-0421, is that correct?
+auto_repair ( reason_appt = "exterior") & would that be on the interior or exterior?
+auto_repair ( date_appt = "next monday" ; time_appt_accept = "8:30am") & it looks like they are fully booked through the week. the next appointment would be for next monday at 8:30am, would you like me to book that for you?
+auto_repair ( date_appt_accept = "next monday" ; time_appt_accept = "8:30am" ; year_vehicle_accept = "2010" ; name_vehicle_accept = "subaru outback" ; reason_appt_accept = "has all the exterior lights out") & ok, i have booked an appointment for next monday at 8:30am for your 2010 subaru outback that has all the exterior lights out, is that correct?
+auto_repair ( name_customer = "Sal") & That's Sal at 3 1 4 7 6 2 1 7 3 9 right?
+auto_repair ( name_customer_accept = "Sal") & That's Sal at 3 1 4 7 6 2 1 7 3 9 right?
+auto_repair ( year_vehicle = "2008" ; name_vehicle = "Mercedes Benz C" ; reason_appt_accept = "electrical issues") & So that's a 2008 Mercedes Benz C class with electrical issues, right?
+auto_repair ( year_vehicle_accept = "2008" ; name_vehicle_accept = "Mercedes Benz C class" ; date_appt_accept = "February 1st" ; time_appt_accept = "before 8:30 am.") & Alright so I have an appointment for your 2008 Mercedes Benz C class on February 1st. Please drop your car off before 8:30 am.
+auto_repair ( name_customer_accept = "Jack Jones") & So that's Jack Jones at 202 456 1111.
+auto_repair ( time_appt = "8:30 am") & So now we'll need to pick a date for it. The store requires that you drop the car off at 8:30 am the day of your appointment.
+auto_repair ( date_appt = "monday") & THe next appointment slot is next monday is that okay?
+auto_repair ( year_vehicle_accept = "2015" ; name_vehicle_accept = "Lexus 350" ; date_appt_accept = "Monday" ; time_appt_accept = "8:30 am" ; reason_appt_accept = "steering issue") & SO just to confirm. That's an appointment for a 2015 Lexus 350 that's getting seen Monday at 8:30 am to find out why it's having a steering issue.
+auto_repair ( name_customer_accept = "Jack Ryan") & So that's Jack Ryan at 202 456 2121 right?
+auto_repair ( reason_appt = "axle issue or an engine issue") & Now would you say the turn is because of an axle issue or an engine issue?
+auto_repair ( name_vehicle = "bmw") & and that was a bmw right?
+auto_repair ( time_appt = "8:30 am") & Got it. Now when did you want this looked at? Keep in mind that all cars must be dropped off on the day of the appointment no later than 8:30 am.
+auto_repair ( date_appt = "Monday the 4th") & The next appointment is Monday the 4th, okay?
+auto_repair ( year_vehicle_accept = "2008" ; name_vehicle_accept = "Mercedes Benz C-class" ; reason_appt_accept = "steering inspection" ; date_appt_accept = "March 4th" ; time_appt_accept = "8:30 am") & Great, I've got a 2008 Mercedes Benz C-class being seen for a steering inspection March 4th at 8:30 am.
+auto_repair ( name_customer_accept = "martha") & martha, 249 7369 248, correct.
+auto_repair ( date_appt = "today" ; time_appt = "3pm") & the earliest available is today at 3pm.
+auto_repair ( year_vehicle_accept = "so, just to mak" ; name_vehicle_accept = "lexus rx350") & so, just to make sure i got that right: lexus rx350, 2015.
+auto_repair ( time_appt_accept = "3pm" ; date_appt_accept = "today") & thank you. so your appointment is for 3pm today.
+auto_repair ( name_customer_accept = "mike jones") & mike jones, 218 330 8004, is this correct?
+auto_repair ( year_vehicle_accept = "2008" ; name_vehicle_accept = "mercedes benz c class" ; reason_appt_accept = "leaking oil") & so your 2008 mercedes benz c class is leaking oil, correct?
+auto_repair ( date_appt = "february 15th" ; time_appt = "8:30am") & unfortunately, they are completely booked today. the next availability is friday, february 15th at 8:30am.
+auto_repair ( date_appt = "february 15th") & does february 15th work?
+auto_repair ( location_store_accept = "589 lincoln road") & ok. they are located at 589 lincoln road, can you confirm this address?
+auto_repair ( date_appt = "friday" ; date_appt_accept = "february 15th" ; time_appt_accept = "8:30am") & you're all set. your appointment has been booked for next friday, february 15th at 8:30am.
+auto_repair ( name_customer_accept = "ron paulson") & ron paulson, 808 293 8277, is this correct?
+auto_repair ( reason_appt = "stalling") & i will just summarize that as car is stalling, is that ok?
+auto_repair ( date_appt = "january 28th") & it looks like the next available time is on monday, january 28th.
+auto_repair ( time_appt = "8:30am") & ok, the shop requires customers to bring their vehicle before 8:30am, is that ok?
+auto_repair ( year_vehicle_accept = "2014" ; name_vehicle_accept = "accura rdx" ; reason_appt_accept = "stalling") & ok so let me confirm that: you are taking your 2014 accura rdx to the shop because the car is stalling, is that correct?
+auto_repair ( location_store_accept = "124 bayview boulevard") & thank you. the shop is located at 124 bayview boulevard, can you please confirm that address?
+auto_repair ( date_appt_accept = "january 28th" ; time_appt_accept = "8:30am") & great then! you are all set. next monday, january 28th. don't forget to take your car before 8:30am.
+auto_repair ( name_customer = "billy") & thanks billy.
+auto_repair ( name_customer = "billy jack") & sorry, thanks billy jack
+auto_repair ( name_customer = "billy jack") & and what's your number billy jack?
+auto_repair ( reason_appt = "mechanical repair for a steering issue.") & nice. what's wrong with it? sorry to hear. I'll categorize this as a mechanical repair for a steering issue.
+auto_repair ( time_appt = "8:30am") & great, 8:30am is available, is that ok?
+auto_repair ( name_customer = "Billy jack turnbuckel" ; year_vehicle_accept = "2014" ; name_vehicle_accept = "acura rdx" ; reason_appt_accept = "mechanical repair for a steering issue" ; date_appt_accept = "next friday" ; time_appt_accept = "8:30am.") & does that sound ok? ok sir. This is the info you gave me. Billy jack turnbuckel, phone number is 441-283-6184. 2014 acura rdx needs a mechanical repair for a steering issue. Appointment to be set to next friday at 8:30am.
+auto_repair ( name_customer_accept = "billy jack turn buckle.") & your name is billy jack turn buckle.
+auto_repair ( name_customer_accept = "Bamboo Panda") & So, the appointment is for Bamboo Panda , at 512 555 0000 is that correct?
+auto_repair ( reason_appt = "engine malfunctions") & Got it. I'll put that in as engine malfunctions.
+auto_repair ( date_appt = "monday of next week" ; time_appt = "8:30 am") & okay great. one moment while I check. So, it looks like the next appointment available is monday of next week is that okay? ANd it's store policy you drop off your car by 8:30 am the day of the appointment.
+auto_repair ( year_vehicle_accept = "2013" ; name_vehicle_accept = "Honda Pilot" ; reason_appt_accept = "engine malfunctions" ; date_appt_accept = "Monday, February 11th" ; time_appt_accept = "8:30 am.") & So, just to confirm, your green 2013 Honda Pilot is experiencing engine malfunctions and will be seen Monday, February 11th at 8:30 am.
+auto_repair ( name_customer_accept = "james john") & ok, we are booking for james john, 513-472-1711.
+auto_repair ( reason_appt = "oil leak") & ok, you have an oil leak?
+auto_repair ( year_vehicle_accept = "2013" ; name_vehicle_accept = "honda pilot" ; reason_appt_accept = "oil leak" ; date_appt_accept = "tomorrow" ; time_appt_accept = "8:30am") & ok, we are booking an appointment for your 2013 honda pilot, that has an oil leak for tomorrow at 8:30am. Is that correct?
+auto_repair ( reason_appt = "Pulling to the left") & Oh I see! Pulling to the left. Is that when driving at high speeds only?
+auto_repair ( time_appt = "4:30") & Let me check, one moment. I see availability at 4:30, can you drop it off then?
+auto_repair ( name_customer_accept = "Rebecca Fouler") & Did I get it right, Rebecca Fouler?
+auto_repair ( name_customer_accept = "john wade") & got it, we are booking an appointment for john wade, phone number 555-555-5555, correct?
+auto_repair ( reason_appt = "tune up") & ok, just a tune up is that correct?
+auto_repair ( time_appt = "3pm" ; date_appt = "today") & let me see if they have availability. it looks like they can squeeze you in for 3pm today, however they may not be able to complete the work and may have to keep the car overnight, is that ok?
+auto_repair ( time_appt = "3pm" ; date_appt = "tomorrow") & otherwise you can drop your car off at 8:30am tomorrow morning and they can fix it tomorrow. ok, i will book it at 3pm today then.
+auto_repair ( date_appt_accept = "today" ; time_appt_accept = "3pm" ; name_store_accept = "intelligent auto repairs" ; name_vehicle_accept = "acura rdx" ; year_vehicle_accept = "2014" ; reason_appt_accept = "tune-up") & ok, i have booked an appointment for today at 3pm at intelligent auto repairs for your acura rdx 2014 for a tune-up, is that correct?
+auto_repair ( name_customer_accept = "jack jones") & jack jones, 202 456 1111, did i get it right?
+auto_repair ( reason_appt = "noise coming from vehicle") & i will categorize that as noise coming from vehicle, is that ok?
+auto_repair ( time_appt = "8:30 am") & yes, however the normal procedure is for customers to take the car to the shop before 8:30 am, is that possible?
+auto_repair ( location_store = "973 oakridge drive") & the shop is located at 973 oakridge drive, can you please confirm that address?
+auto_repair ( location_store = "973 oakridge drive") & 973 oakridge drive.
+auto_repair ( year_vehicle_accept = "2010" ; name_vehicle_accept = "subaru outback" ; reason_appt_accept = "making noises") & thank you for confirming that. so just to make sure i got your information correctly: your 2010 subaru outback is making noises, is that correct?
+auto_repair ( date_appt_accept = "next friday, february 1st" ; time_appt_accept = "8:30 am") & okay, you are all set. next friday, february 1st at 8:30 am.
+auto_repair ( name_customer_accept = "Jennifer") & So I have Jennifer at 619 577 9067, is that right?
+auto_repair ( time_appt = "8:30 am") & Got it and when did you want the appointment for? Keep in mind their Policy states that you have to drop it in at 8:30 am the day of the appointment.
+auto_repair ( date_appt = "tomorrow") & The next possible one is tomorrow, is that okay?
+auto_repair ( time_appt_accept = "8:30 am") & Great, remember to drop your car off at 8:30 am . Now please hang on while i input the appointment.
+auto_repair ( year_vehicle_accept = "2010" ; name_vehicle_accept = "Subaru Outback" ; date_appt_accept = "tomorrow, the 13th of February" ; reason_appt_accept = "pulling to the left") & So your appointment is for a grey 2010 Subaru Outback and you wanted it for tomorrow, the 13th of February to find out why it's pulling to the left?
+auto_repair ( name_customer_accept = "sarah davis") & ok, we are scheduling for sarah davis, phone number 336-814-0000, is that correct?
+auto_repair ( time_appt = "8:30am") & sure, let me see if they have any availability. ok, it looks like they'll have some time to inspect your car, are you able to bring your car in by 8:30am?
+auto_repair ( date_appt_accept = "tomorrow" ; time_appt_accept = "8:30am" ; year_vehicle_accept = "2013" ; name_vehicle_accept = "honda pilot" ; reason_appt_accept = "potential oil leak") & just to let you know, there is an $89 inspection fee but that can be applied to the cost of repairs if you choose to repair at the shop. ok, i have scheduled your appointment for tomorrow at 8:30am for your 2013 honda pilot that has a potential oil leak.
+auto_repair ( name_customer_accept = "john doe") & ok, we are booking for john doe, phone number, 555-555-5555, is that correct?
+auto_repair ( date_appt = "22nd") & would that be friday the 15th or 22nd?
+auto_repair ( time_appt = "8:30am" ; date_appt = "15th") & ok, let me check the shops availability, one moment. it looks like their first opening is at 8:30am on the 15th, would that work for you?
+auto_repair ( date_appt_accept = "friday the 15th" ; time_appt_accept = "8:30am" ; year_vehicle_accept = "2011" ; name_vehicle_accept = "nissan rogue" ; reason_appt_accept = "several lights out") & ok, i have booked an appointment for friday the 15th at 8:30am for your 2011 nissan rogue that has several lights out. can i help with anything else?
+auto_repair ( year_vehicle = "2014" ; name_vehicle = "Acura RDX") & 2014 Acura RDX, is that correct?
+auto_repair ( name_customer = "Paul" ; date_appt_accept = "tomorrow" ; year_vehicle_accept = "2014" ; name_vehicle_accept = "Acura RDX" ; reason_appt_accept = "oil leak") & thanks so much. Alright Paul, I got an appointment for you tomorrow for your 2014 Acura RDX, that is having a oil leak.
+auto_repair ( name_customer_accept = "Paul Smith") & the name and number on your appointment is Paul Smith 725-122-9741.
+auto_repair ( name_customer_accept = "Jeff") & So I have Jeff at313 812 6451 right?
+auto_repair ( date_appt = "tomorrow") & Got it and you wanted it for tomorrow right?
+auto_repair ( time_appt = "before 8:30 am") & great. can you drop the car off before 8:30 am?
+auto_repair ( year_vehicle_accept = "2013" ; name_vehicle_accept = "Honda Import is" ; reason_appt_accept = "it's making a noise when it turns" ; time_appt_accept = "8:30 am" ; date_appt_accept = "tomorrow") & Great, so just to confirm, your 2013 Honda Import is being seen because it's making a noise when it turns on at 8:30 am tomorrow.
+auto_repair ( name_customer_accept = "james pat") & so james pat, 513-224-1182, correct?
+auto_repair ( year_vehicle_accept = "2014" ; name_vehicle_accept = "accura rdx" ; reason_appt_accept = "making noises") & so your 2014 accura rdx is making noises, correct?
+auto_repair ( date_appt = "tomorrow" ; time_appt = "8:30am") & ok, does tomorrow at 8:30am work?
+auto_repair ( location_store_accept = "500 garcia drive") & they are located at 500 garcia drive, can you confirm this address?
+auto_repair ( date_appt_accept = "tomorrow" ; time_appt_accept = "8:30am") & great, you're all set for tomorrow at 8:30am.
+auto_repair ( name_customer_accept = "Jose Biaz") & Alright, an appointment for Jose Biaz and your best phone number is 404-222-5555, correct?
+auto_repair ( year_vehicle = "2015" ; name_vehicle = "Lexus RX 350" ; reason_appt_accept = "leaking oil") & And your 2015 Lexus RX 350 is leaking oil, is that true?
+auto_repair ( date_appt = "afternoon" ; time_appt = "4:30") & Alright! let me see when the next available time is. If you'd like to go in and drop by today, they have an available time at 4:30 this afternoon.
+auto_repair ( time_appt_accept = "4:30PM" ; date_appt_accept = "today" ; year_vehicle_accept = "2015" ; name_vehicle_accept = "Lexus RX 350") & Great. Let me book the appointment for you. Alright, your all set for 4:30PM today for you 2015 Lexus RX 350.
+auto_repair ( name_customer_accept = "cory smith") & ok, we are booking an appointment for cory smith, phone number 141-569-8748, is that correct?
+auto_repair ( reason_appt = "oil change") & great, did you also need an oil change?
+auto_repair ( date_appt = "8:30am") & it looks like they are fully booked, they're next opening is tomorrow at 8:30am, will that work for you?
+auto_repair ( name_customer = "max") & first off what is your name? thanks max.
+auto_repair ( name_customer = "Max") & Thanks Max.
+auto_repair ( reason_appt = "oil leak") & ok, i'll categorize this as an oil leak appointment.
+auto_repair ( date_appt = "tomorrow" ; time_appt = "2:15pm") & ok, tomorrow there is an opening at 2:15pm.
+auto_repair ( name_customer_accept = "barney frank") & barney frank, 212 555 1626, correct?
+auto_repair ( year_vehicle_accept = "2008" ; name_vehicle_accept = "mercedes benz c class") & did you say 2008 mercedes benz c class?
+auto_repair ( date_appt = "tuesday, february 19th" ; time_appt = "8:30am") & their next availability is on tuesday, february 19th at 8:30am.
+auto_repair ( location_store = "3700 blue lake road") & they are located at 3700 blue lake road, can you confirm this address?
+auto_repair ( date_appt_accept = "tuesday, february 19th" ; time_appt_accept = "8:30am") & great. your appointment is confirmed for tuesday, february 19th at 8:30am.
+auto_repair ( year_vehicle = "2010" ; name_vehicle = "Subaru outback") & why do you need to bring in your 2010 Subaru outback?
+auto_repair ( name_customer_accept = "mark martin") & ok, please provide your name and number. ok, we are booking for mark martin, phone number 510-555-2846, is that correct?
+auto_repair ( reason_appt = "an oil leak") & ok, what problems are you having with your car? ok, you think you have an oil leak, is that correct?
+auto_repair ( date_appt = "march 8th") & would that me march 1st or march 8th?
+auto_repair ( time_appt = "8:30am" ; date_appt = "march 1st") & it looks like they will have an opening at 8:30am, is that ok with you? will 8:30am on march 1st work?
+auto_repair ( date_appt_accept = "friday, march 1st" ; time_appt_accept = "8:30am" ; year_vehicle_accept = "2011" ; name_vehicle_accept = "nissan rogue" ; reason_appt_accept = "an oil leak") & ok, i have booked an appointment for friday, march 1st at 8:30am for your 2011 nissan rogue that has an oil leak. can i help with anything else?
+auto_repair ( year_vehicle_accept = "2009" ; name_vehicle = "BMW 3 series") & Sure! what are you bringing your 2009 BMW 3 series in for?
+auto_repair ( name_store_accept = "Intelligent Auto Imports" ; date_appt_accept = "Tuesday" ; date_appt_reject = "Monday") & Okay, let me check! one moment. hmm.. unfortunately it seems to be a busy week at Intelligent Auto Imports. The next opening i can see is on Tuesday, since Monday is a holiday as well.
+auto_repair ( time_appt = "8:30am") & Okay, you'd have to drop it off by 8:30am, would that work too?
+auto_repair ( name_customer = "Argan") & Argan, do you mind spelling that for me please.
+auto_repair ( name_vehicle_accept = "BMW" ; time_appt_accept = "8:30AM") & Alright, your appointment is set. Please remember to drop your BMW off by 8:30AM.
+auto_repair ( name_customer = "larry david") & larry david, 777 631 5321. is this correct?
+auto_repair ( time_appt = "8:30 am") & are you able to take your car before 8:30 am?
+auto_repair ( year_vehicle_accept = "2015" ; name_vehicle_accept = "lexus rx350" ; reason_appt_accept = "a tune up") & so your 2015 lexus rx350 needs a tune up. is this correct?
+auto_repair ( date_appt_accept = "friday" ; time_appt_accept = "8:30 am") & thank you for confirming that. you're all set for next friday at 8:30 am.
+auto_repair ( name_customer_accept = "Rachel") & That's Rachel at 555 555 5555 correct?
+auto_repair ( date_appt_accept = "next Monday is") & I see. looks like next Monday is the time we have available.
+auto_repair ( time_appt_accept = "before 8am") & (deleted) OK looks like you are all set. PLease drop off before 8am.
+auto_repair ( name_customer_accept = "Joe") & So that's Joe at 365 4982.
+auto_repair ( date_appt = "monday" ; time_appt = "8:30 am") & Great and the next available appointment is monday at 8:30 am is that okay?
+auto_repair ( name_vehicle_accept = "2009 BMW 3-Series" ; date_appt_accept = "Monday" ; time_appt_accept = "8:30 am" ; reason_appt_accept = "turn noise issue") & That's an appointment for a 2009 BMW 3-Series that's getting seen Next Monday at 8:30 am for a turn noise issue.
+auto_repair ( year_vehicle_accept = "2014" ; name_vehicle_accept = "accura rdx" ; reason_appt_accept = "stalling at traffic lights") & so your 2014 accura rdx is stalling at traffic lights, correct?
+auto_repair ( date_appt = "tomorrow" ; time_appt = "11am") & does tomorrow at 11am work for you?
+auto_repair ( location_store = "705 fulton street") & ok, also, make sure that you have their address, it's 705 fulton street.
+auto_repair ( location_store_accept = "705 fulton street") & the address is: 705 fulton street.
+auto_repair ( date_appt = "tomorrow" ; time_appt = "2pm") & the next avaiability is tomorrow at 2pm is that ok?
+auto_repair ( year_vehicle_accept = "2011" ; name_vehicle_accept = "nissan rogue" ; reason_appt_accept = "making noises") & so let me sure i got that right: your 2011 nissan rogue is making noises, correct?
+auto_repair ( location_store_accept = "323 lincoln road") & the shop is located at 323 lincoln road. can you confirm that address?
+auto_repair ( date_appt_accept = "tomorrow" ; time_appt_accept = "2pm") & great, you're all set for tomorrow at 2pm.
+auto_repair ( name_customer = "Jane") & thanks Jane. what is your number?
+auto_repair ( year_vehicle = "2009" ; name_vehicle = "bmw 3 series") & why do u need to bring your 2009 bmw 3 series to the shop?
+auto_repair ( appointment_reject = "no appointments") & unfortunately, no. there are no appointments available today.
+auto_repair ( appointment_accept = "booked") & great, i've booked your appointment. do u need anything else?
+auto_repair ( name_customer_accept = "bob smith") & bob smith, 415-221-6356, correct?
+auto_repair ( date_appt = "february 6th") & their next availability is next wednesday, february 6th.
+auto_repair ( time_appt = "8:30am") & is it possible to take your car to the shop before 8:30am?
+auto_repair ( year_vehicle_accept = "2013" ; name_vehicle_accept = "honda pilot" ; reason_appt_accept = "pulling to the left") & thank you for repeating that. so just to confirm, your 2013 honda pilot is pulling to the left, correct?
+auto_repair ( location_store_accept = "319 lincoln drive") & they are located at 319 lincoln drive, can you confirm that?
+auto_repair ( date_appt = "wednesday" ; date_appt_accept = "february 6th" ; time_appt_accept = "8:30am") & you're all set for next wednesday, february 6th at 8:30am.
+auto_repair ( name_customer_accept = "william adama") & william adama, 555 2121, correct?
+auto_repair ( year_vehicle_accept = "2011" ; name_vehicle_accept = "nissan rogue" ; reason_appt_accept = "making noises when you turn") & so just to confirm: your 2011 nissan rogue is making noises when you turn, correct?
+auto_repair ( time_appt = "10am") & would 10am work?
+auto_repair ( time_appt = "11am") & sure, they can see you at 11am.
+auto_repair ( location_store_accept = "600 powerline road") & they're located at 600 powerline road, can you confirm this address?
+auto_repair ( date_appt = "friday" ; date_appt_accept = "march 1st" ; time_appt_accept = "10am") & great, you're all set for next friday, march 1st at 10am.
+auto_repair ( name_customer = "Doe") & How do you spell your first name mister Doe?
+auto_repair ( name_customer_accept = "John Doe") & So that's John Doe at 123 456 7899.
+auto_repair ( reason_appt = "oil check") & I'll put that in as an oil check okay?
+auto_repair ( time_appt = "8:30 am" ; date_appt = "monday") & So now we'll need to pick a date for it. The store requires that you drop the car off at 8:30 am the day of your appointment Does monday work for you?
+auto_repair ( location_store_accept = "333 Nathan Lane") & it's 333 Nathan Lane.
+auto_repair ( name_store_accept = "Intelligent Auto Imports" ; date_appt = "next week Tuesday") & Let me see! Intelligent Auto Imports is booked until the end of this week. Is next week Tuesday okay?
+auto_repair ( year_vehicle_accept = "2011" ; name_vehicle_accept = "NIssan ROgue" ; reason_appt_accept = "leaking oil") & thanks! Alright, so for the appointment i have it as your 2011 NIssan ROgue is leaking oil. Is that all?
+auto_repair ( name_customer_accept = "James") & So that's James at 831 246 6175.
+auto_repair ( name_customer = "charles") & thanks charles. what is the best number to reach you at?
+auto_repair ( year_vehicle = "2008" ; name_vehicle = "mercedes benz c") & why do u need to bring your 2008 mercedes benz c class to the shop?
+auto_repair ( name_customer_accept = "Reed Mullen") & So I have Reed Mullen at 258 434 5731.
+auto_repair ( time_appt = "8:30 am") & and when did you want your car looked at, keep in mind you can only choose the date as all cars are supposed to be dropped off at 8:30 am the day of.
+auto_repair ( date_appt = "friday the 22nd") & That's next friday the 22nd right?
+auto_repair ( location_store = "333 Nathan Lane") & First, do you know where the appointment is? 333 Nathan Lane.
+auto_repair ( year_vehicle_accept = "2008" ; name_vehicle_accept = "mercedes benze c classis" ; date_appt_accept = "22nd of February") & Great. So your 2008 mercedes benze c classis being seen on the 22nd of February for a general inspection.
+auto_repair ( time_appt_accept = "8:30 am" ; date_appt = "22nd") & Wonderful, you're all set, remember to drop it off at 8:30 am on the 22nd.
+auto_repair ( name_customer_accept = "Tori CLark") & So I have Tori CLark at 215 896 3342, is that right?
+auto_repair ( reason_appt = "electrical issues") & Alright, I'll say that's electrical issues, okay?
+auto_repair ( date_appt = "monday the 18th") & the next appointment I have is monday the 18th is that okay?
+auto_repair ( time_appt_accept = "8:30 am") & Great, so policy states that you have to drop it in at 8:30 am the day of the appointment, does that work for you?
+auto_repair ( year_vehicle_accept = "2015" ; name_vehicle_accept = "Lexus RX 350and" ; date_appt_accept = "Next Monday, the 18th of February" ; reason_appt = "electrical issues") & Perfect, hang on one moment. So your appointment is for a charcoal grey 2015 Lexus RX 350and you wanted it for Next Monday, the 18th of February to look at the electrical issues?
+auto_repair ( reason_appt_accept = "electrical issues") & Great. It's going to cost 89 $ for the inspection but that will go towards repairing electrical issues if you choose to repair through this shop.
+auto_repair ( name_customer_accept = "John Doe") & So I have John Doe at 417 219 8669.
+auto_repair ( time_appt = "8:30 am") & Great and when did you want this looked at? Policy states that you have to drop it in at 8:30 am the day of the appointment.
+auto_repair ( year_vehicle_accept = "2015" ; name_vehicle_accept = "Lexus Rx 350" ; date_appt = "22nd of February" ; reason_appt_accept = "front end is shaking, right") & So your appointment is for a silver 2015 Lexus Rx 350 and you wanted it for Next friday, the 22nd of February to find out why your front end is shaking, right?
+auto_repair ( time_appt_accept = "8:30 am" ; date_appt_accept = "February 22nd.") & Great. YOu're all set, remember to drop it off by 8:30 am February 22nd.
+auto_repair ( name_customer_accept = "ryan") & ok, we are scheduling for ryan, phone number 630-815-2211, is that correct?
+auto_repair ( name_vehicle = "lexus") & great, what problems are you having with your lexus?
+auto_repair ( date_appt = "15th") & would that be the 8th or the 15th?
+auto_repair ( time_appt = "8:30am") & got it, let me see what times they'll have available. it looks like they have an 8:30am opening, will that work for you?
+auto_repair ( date_appt_accept = "friday the 8th" ; time_appt_accept = "8:30am" ; year_vehicle_accept = "2015" ; name_vehicle_accept = "lexus rx 350" ; reason_appt_accept = "noises when turning") & ok, i have scheduled an appointment for friday the 8th at 8:30am for your 2015 lexus rx 350 that makes noises when turning. can i help with anything else?
+auto_repair ( name_customer_accept = "evan brown") & evan brown, 445 501 8674. did i get that correctly?
+auto_repair ( year_vehicle_accept = "2009" ; name_vehicle_accept = "bmw 3 series" ; reason_appt = "making noises") & so i'll summarize it as 2009 bmw 3 series making noises, is this ok?
+auto_repair ( location_store = "400 lincoln street") & also, they're located at 400 lincoln street. can you confirm this address?
+auto_repair ( date_appt_accept = "today" ; time_appt_accept = "3pm") & you're all set for today at 3pm.
+auto_repair ( name_store = "“Intelligent Auto Imports") & appointment at “Intelligent Auto Imports".
+auto_repair ( reason_appt = "when turning car you can hear noise") & ok so what seems to be the problem? when turning car you can hear noise, not sure why is that correct.
+auto_repair ( name_customer = "linda smith") & linda smith, is that the name?
+auto_repair ( date_appt = "Monday") & right now the shop is booked for the rest of this week and that the next appointment is Monday morning of next week.
+auto_repair ( date_appt = "monday morning") & ok shall we try monday morning?
+auto_repair ( name_store_accept = "“Intelligent Auto Imports" ; date_appt_accept = "monday" ; name_customer_accept = "linda smith") & so thats appointment with “Intelligent Auto Imports" next monday morning under the name linda smith.
+auto_repair ( year_vehicle_accept = "2015" ; name_vehicle_accept = "lexus rx 350") & car is 2015 lexus rx 350.
+auto_repair ( time_appt_accept = "before 8:30am on") & ok, reservation confirmed, please drop off your car before 8:30am on the day of the appointment.
+auto_repair ( name_customer = "Joe") & Ok, thanks Joe and what's the best number to reach you at?
+auto_repair ( name_customer = "burt realman") & sorry, did you say your name was burt realman?
+auto_repair ( reason_appt = "mechanical repair because car pulls to the left") & i'll categorize this as a mechanical repair because car pulls to the left. does that sound accurate?
+auto_repair ( date_appt_reject = "today" ; date_appt = "tomorrow" ; time_appt = "morning at 8:30am") & cool. and it looks like the shop is fully booked today. the next available appointment is actually tomorrow morning at 8:30am. does that work for you?
+auto_repair ( name_customer_accept = "john smith") & i have an appointment for john smith, phone number 123-321-0001, is that correct?
+auto_repair ( reason_appt = "your interior lights") & and you said your interior lights are not working?
+auto_repair ( date_appt = "monday" ; time_appt = "8:30 am") & it looks like the shop is fully booked through the week, the first appointment would be for this monday at 8:30 am, is that ok?
+auto_repair ( date_appt_accept = "monday" ; time_appt_accept = "8:30 am" ; name_store_accept = "intelligent auto imports" ; year_vehicle_accept = "2011" ; name_vehicle_accept = "nissan rogue" ; reason_appt_accept = "interior light problems") & ok, i have booked an appointment for next monday at 8:30 am at intelligent auto imports for your 2011 nissan rogue that has interior light problems, is that correct?
+auto_repair ( date_appt = "Friday February 1st") & Friday February 1st, is that correct.
+auto_repair ( time_appt = "3pm") & looks like they have a 3pm, does that work?
+auto_repair ( time_appt_accept = "8:30am") & Please drop off your car before 8:30am the day of your appointment.
+auto_repair ( name_customer = "jeff") & thanks jeff. What is your number?
+auto_repair ( reason_appt = "lights repair") & why do you need to bring it in. i'll categorize this as lights repair, does that sound ok?
+auto_repair ( time_appt = "morning" ; date_appt = "tomorrow") & let me check for the soonest appointment. it looks like there's a 3pm available today, or 8:30am tomorrow morning. Which did you want?
+auto_repair ( name_customer = "larry") & thanks larry and what is your number?
+auto_repair ( name_vehicle = "bmw") & what is wrong with your bmw?
+auto_repair ( reason_appt = "mechanical evaluation and repair since it's making a noise when turning") & i'll say the appointment is for a mechanical evaluation and repair since it's making a noise when turning. does that sound accurate?
+auto_repair ( time_appt = "3 pm") & ok. tomorrow there is availability at the following times: 1 pm, 2 pm, and 3 pm.
+auto_repair ( name_customer_accept = "john smith") & john smith, 555 555 5555, correct?
+auto_repair ( year_vehicle_accept = "2010" ; name_vehicle_accept = "subaru" ; reason_appt_accept = "leaking oil") & so your 2010 subaru is leaking oil, correct?
+auto_repair ( date_appt = "february" ; date_appt_accept = "15th" ; time_appt_accept = "8:30am") & their earliest open appointment is this friday, february 15th at 8:30am.
+auto_repair ( location_store = "1200 lincoln ave") & they are located at 1200 lincoln ave, can you confirm this address?
+auto_repair ( date_appt_accept = "tomorrow" ; time_appt_accept = "morning") & Ok, they have availability tomorrow morning. Would you like to book this?
+auto_repair ( name_customer_accept = "Sandra Smith") & That's Sandra Smith at 270 615 0012 correct?
+auto_repair ( year_vehicle_accept = "2010" ; name_vehicle_accept = "subaru outback" ; reason_appt_accept = "leaking oils right") & So that's on a red 2010 subaru outback leaking oils right?
+auto_repair ( date_appt_accept = "tomorrow" ; time_appt_accept = "8:30 am") & I've scheduled your appointment for tomorrow at 8:30 am.
+auto_repair ( name_customer = "Janette") & Hi Janette, thank you for all this info, sadly i can only do a few things at a time.
+auto_repair ( name_store_accept = "intelligent auto imports" ; date_appt_accept = "Tuesday") & okay, give me a moment to check. intelligent auto imports is booked throughout the week. I can schedule something for Tuesday, is that okay?
+auto_repair ( name_customer = "janette") & okay! janette, please spell your last name for me.
+auto_repair ( name_customer_accept = "Freels") & Freels, correct?
+auto_repair ( time_appt_accept = "8:30AM") & Alright, thank you for your patience! your appointment is set. Please remember to drop it off by 8:30AM. anything else i can help with.
+auto_repair ( name_customer_accept = "scottie") & got it, thanks scottie. and what's a good number to reach you at?
+auto_repair ( reason_appt = "oil leak") & got it, i'll categorize this as an oil leak appointment.
+auto_repair ( date_appt = "tomorrow") & did you have a time preference for tomorrow?
+auto_repair ( name_store_accept = "intelligent auto imports" ; time_appt = "11am") & let me check on that for you. hmm looks like intelligent auto imports has a 10am and 11am available. do either of these times work for you.
+auto_repair ( name_customer = "john") & thanks john. and what is your number?
+auto_repair ( name_vehicle = "subaru outback") & and why do you need to bring in your subaru outback?
+auto_repair ( reason_appt = "oil leakage") & got it, i'll categorize this as a oil leakage repair. does that sound accurate?
+auto_repair ( name_customer_accept = "john smith") & ok, we are booking an appointment for john smith, phone number 555-382-6595, is that correct?
+auto_repair ( date_appt = "february 8th") & would that be tomorrow or february 8th?
+auto_repair ( date_appt = "february 8th") & february 8th correct?
+auto_repair ( date_appt_accept = "february 8th" ; time_appt_accept = "8:30am" ; year_vehicle_accept = "2011" ; name_vehicle_accept = "nissan rogue" ; reason_appt_accept = "pulls to the left") & ok, i have scheduled an appointment for february 8th at 8:30am for your 2011 nissan rogue that pulls to the left, is that correct?
+auto_repair ( name_customer_accept = "kristen smith") & ok, we are booking for kristen smith, phone number 508-234-1169, is that correct?
+auto_repair ( reason_appt = "interior or exterior") & is that on the interior or exterior?
+auto_repair ( time_appt = "8:30am" ; date_appt = "tomorrow") & ok, let me check the shops availability. it looks like they'll have an opening at 8:30am tomorrow, will that work for you?
+auto_repair ( date_appt_accept = "tomorrow" ; time_appt_accept = "8:30am" ; year_vehicle_accept = "2009" ; name_vehicle_accept = "BMW 3 Series" ; reason_appt_accept = "interior and exterior lights out") & ok, i have booked an appointment for tomorrow at 8:30am for your 2009 BMW 3 Series that has interior and exterior lights out. can i help with anything else?
+auto_repair ( name_customer_accept = "jay smith") & jay smith, 757 222 1352, correct?
+auto_repair ( year_vehicle_accept = "2015" ; name_vehicle_accept = "lexus rx350" ; reason_appt_accept = "leaking oil") & so your 2015 lexus rx350 is leaking oil, did i get it right?
+auto_repair ( time_appt = "2 pm") & does 2 pm work?
+auto_repair ( location_store = "300 lyons road") & also, they are located at 300 lyons road, can you confirm this address?
+auto_repair ( location_store_accept = "300 lyons road") & it is 300 lyons road.
+auto_repair ( date_appt_accept = "next friday, march 1st" ; time_appt_accept = "2.pm") & great. you're confirmed for next friday, march 1st at 2.pm.
+auto_repair ( name_customer = "ryan") & Great, can I get a phone number too ryan?
+auto_repair ( name_customer_accept = "Ryan") & So that's Ryan at 555 863 2321 right?
+auto_repair ( date_appt = "monday" ; time_appt = "8:30 am") & The soonest available is monday at 8:30 am.
+auto_repair ( year_vehicle_accept = "2015" ; name_vehicle_accept = "Lexus RX 350" ; reason_appt_accept = "axle inspection" ; date_appt_accept = "Monday the 4th of March" ; time_appt_accept = "8:30 am") & Perfect. I've got a 2015 Lexus RX 350 with an axle inspection being seen on Monday the 4th of March at 8:30 am.
+auto_repair ( name_customer_accept = "tori parker") & tori parker, 847 929 3535, did i get it right?
+auto_repair ( reason_appt = "car making noises") & i'll categorize it as car making noises, is that ok?
+auto_repair ( date_appt_accept = "next tuesday") & unfortunately the shop is all booked this week. it looks like the next available time is next tuesday in the morning.
+auto_repair ( time_appt_accept = "8:30am") & as a policy they request that customers bring the vehicle before 8:30am, is that ok?
+auto_repair ( year_vehicle_accept = "2008" ; name_vehicle_accept = "mercedes benz c class" ; reason_appt_accept = "making noises") & ok. to summarize your request: you are taking your 2008 mercedes benz c class to the shop because it is making noises, is this correct?
+auto_repair ( location_store = "555 lincoln road") & good. the shop is located at 555 lincoln road, can you confirm that address?
+auto_repair ( name_customer_accept = "Bob Smith") & So the appointment is for Bob Smith ,at 503 221 7245 is that correct?
+auto_repair ( name_store_accept = "Intelligent Auto Imports") & Great one moment. And just to confirm this is with Intelligent Auto Imports, right?
+auto_repair ( reason_appt = "wheel noise") & Alright, I'll put that down as wheel noise in the appointment list.
+auto_repair ( time_appt = "8:30 am") & ALright great, it's the store's policy that you drop the car off by 8:30 am the day of your appointment. With that in mind can you tell me when you wanted this looked at?
+auto_repair ( date_appt = "18th") & Got it one moment. So that's next friday the 18th right?
+auto_repair ( year_vehicle_accept = "2013" ; name_vehicle_accept = "Honda Pilot" ; reason_appt_accept = "wheel noise check" ; date_appt = "Friday" ; date_appt_accept = "February 15th" ; time_appt_accept = "8:30 am") & So, your black 2013 Honda Pilot is in need of a wheel noise check and will be seen Friday, February 15th at 8:30 am.
+auto_repair ( date_appt_reject = "today" ; date_appt = "tomorrow" ; time_appt = "8:30AM") & Okay, let me check! it looks like they are all booked for today, but what about tomorrow, can you drop off your car by 8:30AM?
+auto_repair ( name_customer = "Jack") & And what is the best number to reach out at Jack?
+auto_repair ( name_customer_accept = "steve jennings") & ok, we are booking an appointment for steve jennings, phone number 123-555-5555, is that correct?
+auto_repair ( reason_appt = "the alignment off") & ok, is the alignment off?
+auto_repair ( year_vehicle_accept = "2014" ; name_vehicle_accept = "acura rdx") & i'll note that. and you said it's a 2014 acura rdx, correct?
+auto_repair ( name_customer_accept = "Dawn Doorstop") & So the appointment is for Dawn Doorstop at 555 599 1234.
+auto_repair ( reason_appt = "general inspection due to oil leak.") & ALright, I'll put that down as a general inspection due to oil leak.
+auto_repair ( year_vehicle_accept = "2013" ; name_vehicle_accept = "HOnda pilot" ; reason_appt_accept = "general inspection due to an oil leak.") & So your 2013 HOnda pilot is getting a general inspection due to an oil leak.
+auto_repair ( time_appt = "8:30 am") & Great Let me check. Okay so the store policy is that you drop your car off at 8:30 am the day of the appointment.
+auto_repair ( name_vehicle = "bmw") & why do you need to bring in your bmw?

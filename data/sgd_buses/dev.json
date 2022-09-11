@@ -1,0 +1,902 @@
+[
+    [
+        "OFFER(leaving_time=\"6:10 am\";fare=\"$26\";transfers=\"0\")",
+        "I found a bus that has 0 transfers, departs at 6:10 am and costs $26.",
+        "I found a bus that has 0 transfers, departs at 6:10 am and costs $26."
+    ],
+    [
+        "OFFER(leaving_time=\"6:50 am\";fare=\"$29\";transfers=\"0\")",
+        "there is another one that has 0 transfers, departs at 6:50 am and costs $29.",
+        "there is another one that has 0 transfers, departs at 6:50 am and costs $29."
+    ],
+    [
+        "OFFER(leaving_time=\"6:20 am\";fare=\"$48\";transfers=\"0\")",
+        "I found 10 buses that might be a good fit. One bus leaves at 6:20 am, has 0 transfers and costs $48.",
+        "I found 10 buses that might be a good fit. One bus leaves at 6:20 am, has 0 transfers and costs $48."
+    ],
+    [
+        "OFFER(leaving_time=\"6:20 am\";fare=\"$48\";transfers=\"0\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 buses that might be a good fit. One bus leaves at 6:20 am, has 0 transfers and costs $48.",
+        "I found 10 buses that might be a good fit. One bus leaves at 6:20 am, has 0 transfers and costs $48."
+    ],
+    [
+        "INFORM(to_station=\"Salesforce Transit Center\")",
+        "It will arrive at Salesforce Transit Center.",
+        "It will arrive at Salesforce Transit Center."
+    ],
+    [
+        "INFORM(from_station=\"Union Station\")",
+        "The bus departs from Union Station.",
+        "The bus departs from Union Station."
+    ],
+    [
+        "OFFER(leaving_time=\"6 am\";fare=\"$34\";transfers=\"0\")",
+        "The bus leaves at 6 am with 0 transfers. It will cost $34.",
+        "The bus leaves at 6 am with 0 transfers. It will cost $34."
+    ],
+    [
+        "INFORM(from_station=\"Port Authority Station\")",
+        "The bus station you are leaving from is called Port Authority Station.",
+        "The bus station you are leaving from is called Port Authority Station."
+    ],
+    [
+        "OFFER(leaving_time=\"6:50 am\";fare=\"$47\";transfers=\"0\")",
+        "The bus departs at 6:50 am, has 0 transfers and a ticket costs $47.",
+        "The bus departs at 6:50 am, has 0 transfers and a ticket costs $47."
+    ],
+    [
+        "OFFER(leaving_time=\"6:50 am\";fare=\"$45\";transfers=\"0\")",
+        "the bus costs $45 with 0 transfers at 6:50 am",
+        "the bus costs $45 with 0 transfers at 6:50 am"
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$22\";transfers=\"0\")",
+        "I have found 10 buses for you. There's one that will depart at 7:40 am and costs $22 and has 0 transfers.",
+        "I have found 10 buses for you. There's one that will depart at 7:40 am and costs $22 and has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$22\";transfers=\"0\")@INFORM_COUNT(count=\"10\")",
+        "I have found 10 buses for you. There's one that will depart at 7:40 am and costs $22 and has 0 transfers.",
+        "I have found 10 buses for you. There's one that will depart at 7:40 am and costs $22 and has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"8:30 am\";fare=\"$23\";transfers=\"0\")",
+        "Yes we do. We have one that departs at 8:30 am and costs $23 with 0 transfers.",
+        "Yes we do. We have one that departs at 8:30 am and costs $23 with 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"10:20 am\";fare=\"$21\";transfers=\"0\")",
+        "There's one that departs at 10:20 am and costs $21 with 0 transfers.",
+        "There's one that departs at 10:20 am and costs $21 with 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"6:50 am\";fare=\"$66\";transfers=\"1\")",
+        "There are 9 buses available for you. I've found a buss that departs at 6:50 am and has 1 transfer. The cost will be $66.",
+        "There are 9 buses available for you. I've found a buss that departs at 6:50 am and has 1 transfer. The cost will be $66."
+    ],
+    [
+        "OFFER(leaving_time=\"6:50 am\";fare=\"$66\";transfers=\"1\")@INFORM_COUNT(count=\"9\")",
+        "There are 9 buses available for you. I've found a buss that departs at 6:50 am and has 1 transfer. The cost will be $66.",
+        "There are 9 buses available for you. I've found a buss that departs at 6:50 am and has 1 transfer. The cost will be $66."
+    ],
+    [
+        "OFFER(leaving_time=\"7 am\";fare=\"$67\";transfers=\"1\")",
+        "There is another bus which departs at 7 am and has 1 transfer. This ticket costs $67.",
+        "There is another bus which departs at 7 am and has 1 transfer. This ticket costs $67."
+    ],
+    [
+        "OFFER(leaving_time=\"8:20 am\";fare=\"$24\";transfers=\"0\")",
+        "I found 10 buses for you. There is a bus that departs at 8:20 am and will cost $24. It has 0 transfers.",
+        "I found 10 buses for you. There is a bus that departs at 8:20 am and will cost $24. It has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"8:20 am\";fare=\"$24\";transfers=\"0\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 buses for you. There is a bus that departs at 8:20 am and will cost $24. It has 0 transfers.",
+        "I found 10 buses for you. There is a bus that departs at 8:20 am and will cost $24. It has 0 transfers."
+    ],
+    [
+        "INFORM(from_station=\"Santa Fe Depot\";to_station=\"Downtown Station\")",
+        "The origin station will be Santa Fe Depot. The destination station is Downtown Station.",
+        "The origin station will be Santa Fe Depot. The destination station is Downtown Station."
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$28\";transfers=\"0\")",
+        "The departure time of bus is 7:40 am and it has 0 transfers with ticket price $28.",
+        "The departure time of bus is 7:40 am and it has 0 transfers with ticket price $28."
+    ],
+    [
+        "OFFER(leaving_time=\"7:50 am\";fare=\"$28\";transfers=\"0\")",
+        "Yes, what about a bus leaves at 7:50 am with 0 transfers under ticket cost $28?",
+        "Yes, what about a bus leaves at 7:50 am with 0 transfers under ticket cost $28?"
+    ],
+    [
+        "OFFER(leaving_time=\"7 am\";fare=\"$50\";transfers=\"0\")",
+        "I found 10 buses. The first departs at 7 am, has 0 transfers and is $50.",
+        "I found 10 buses. The first departs at 7 am, has 0 transfers and is $50."
+    ],
+    [
+        "OFFER(leaving_time=\"7 am\";fare=\"$50\";transfers=\"0\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 buses. The first departs at 7 am, has 0 transfers and is $50.",
+        "I found 10 buses. The first departs at 7 am, has 0 transfers and is $50."
+    ],
+    [
+        "INFORM(to_station=\"Union Station\";from_station=\"Salesforce Transit Center\")",
+        "The destination is Union Station and it departs from Salesforce Transit Center.",
+        "The destination is Union Station and it departs from Salesforce Transit Center."
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$41\";transfers=\"0\")",
+        "I found 9 buses for you. The first depart at 7:40 am and cost $41. The bus has 0 transfers.",
+        "I found 9 buses for you. The first depart at 7:40 am and cost $41. The bus has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$41\";transfers=\"0\")@INFORM_COUNT(count=\"9\")",
+        "I found 9 buses for you. The first depart at 7:40 am and cost $41. The bus has 0 transfers.",
+        "I found 9 buses for you. The first depart at 7:40 am and cost $41. The bus has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"8:40 am\";fare=\"$41\";transfers=\"0\")",
+        "One departs at 8:40 am and costs $41. It has 0 transfers.",
+        "One departs at 8:40 am and costs $41. It has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"7:50 am\";fare=\"$43\";transfers=\"0\")",
+        "There is a direct bus with 0 transfers, departing at 7:50 am and this will cost you $43.",
+        "There is a direct bus with 0 transfers, departing at 7:50 am and this will cost you $43."
+    ],
+    [
+        "OFFER(leaving_time=\"2:10 pm\";fare=\"$36\";transfers=\"0\")",
+        "I have found a bus for you. The bus departs at 2:10 pm and it will cost you $36. This bus has 0 transfers.",
+        "I have found a bus for you. The bus departs at 2:10 pm and it will cost you $36. This bus has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"10:10 am\";fare=\"$23\";transfers=\"0\")",
+        "There are 8 options available as per your information provided. I also have best option for you. The bus will depart at 10:10 am and it will cost you $23. This bus has 0 transfers.",
+        "There are 8 options available as per your information provided. I also have best option for you. The bus will depart at 10:10 am and it will cost you $23. This bus has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"10:10 am\";fare=\"$23\";transfers=\"0\")@INFORM_COUNT(count=\"8\")",
+        "There are 8 options available as per your information provided. I also have best option for you. The bus will depart at 10:10 am and it will cost you $23. This bus has 0 transfers.",
+        "There are 8 options available as per your information provided. I also have best option for you. The bus will depart at 10:10 am and it will cost you $23. This bus has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"7:20 am\";fare=\"$41\";transfers=\"0\")",
+        "The bus leaves at 7:20 am and has 0 transfers. It costs $41.",
+        "The bus leaves at 7:20 am and has 0 transfers. It costs $41."
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$73\";transfers=\"1\")",
+        "I've found a result that has 1 transfer. It leaves at 7:40 am and costs $73.",
+        "I've found a result that has 1 transfer. It leaves at 7:40 am and costs $73."
+    ],
+    [
+        "INFORM(from_station=\"Sacramento Valley Station\")",
+        "You will depart from Sacramento Valley Station.",
+        "You will depart from Sacramento Valley Station."
+    ],
+    [
+        "INFORM(to_station=\"Downtown Station\")",
+        "You will arrive at Downtown Station.",
+        "You will arrive at Downtown Station."
+    ],
+    [
+        "OFFER(leaving_time=\"8:30 am\";fare=\"$69\";transfers=\"1\")",
+        "There is a bus departing at 8:30 am, with 1 transfer. Each ticket costs $69.",
+        "There is a bus departing at 8:30 am, with 1 transfer. Each ticket costs $69."
+    ],
+    [
+        "OFFER(leaving_time=\"7:10 am\";fare=\"$45\";transfers=\"0\")",
+        "There is a trip that departs at 7:10 am and has 0 transfers. A ticket is $45.",
+        "There is a trip that departs at 7:10 am and has 0 transfers. A ticket is $45."
+    ],
+    [
+        "OFFER(leaving_time=\"6:50 am\";fare=\"$69\";transfers=\"1\")",
+        "I have located 9 buses for you. The first one departs at 6:50 am and has 1 transfer. The cost is $69.",
+        "I have located 9 buses for you. The first one departs at 6:50 am and has 1 transfer. The cost is $69."
+    ],
+    [
+        "OFFER(leaving_time=\"6:50 am\";fare=\"$69\";transfers=\"1\")@INFORM_COUNT(count=\"9\")",
+        "I have located 9 buses for you. The first one departs at 6:50 am and has 1 transfer. The cost is $69.",
+        "I have located 9 buses for you. The first one departs at 6:50 am and has 1 transfer. The cost is $69."
+    ],
+    [
+        "INFORM(to_station=\"Sacramento Valley Station\")",
+        "The destination station is Sacramento Valley Station.",
+        "The destination station is Sacramento Valley Station."
+    ],
+    [
+        "OFFER(leaving_time=\"7 am\";fare=\"$68\";transfers=\"1\")",
+        "The bus departs at 7 am and costs $68. It has 1 transfer.",
+        "The bus departs at 7 am and costs $68. It has 1 transfer."
+    ],
+    [
+        "OFFER(leaving_time=\"6:40 am\";fare=\"$11\";transfers=\"0\")",
+        "There is a bus that departs at 6:40 am and costs $11 with 0 transfers.",
+        "There is a bus that departs at 6:40 am and costs $11 with 0 transfers."
+    ],
+    [
+        "INFORM(to_station=\"Union Station\";from_station=\"Downtown Station\")",
+        "You are leaving from Downtown Station and arriving at Union Station.",
+        "You are leaving from Downtown Station and arriving at Union Station."
+    ],
+    [
+        "OFFER(leaving_time=\"7:20 am\";fare=\"$83\";transfers=\"1\")",
+        "The bus leaves at 7:20 am and the ticket is $83. It has 1 transfers.",
+        "The bus leaves at 7:20 am and the ticket is $83. It has 1 transfers."
+    ],
+    [
+        "INFORM(from_station=\"Union Plaza\")",
+        "It's Union Plaza.",
+        "It's Union Plaza."
+    ],
+    [
+        "CONFIRM(from_location=\"Las Vegas\";to_location=\"Sacramento\";leaving_date=\"March 14th\";leaving_time=\"7:20 am\";travelers=\"2\")",
+        "Read carefully the information in my possession and tell me if you agree with them. You want me to buy 2 tickets for a bus leaving from Las Vegas to Sacramento. The date is March 14th at 7:20 am.",
+        "Read carefully the information in my possession and tell me if you agree with them. You want me to buy 2 tickets for a bus leaving from Las Vegas to Sacramento. The date is March 14th at 7:20 am."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Tickets are yours.",
+        "Tickets are yours."
+    ],
+    [
+        "OFFER(leaving_time=\"6 am\";fare=\"$23\";transfers=\"0\")",
+        "Among the 9 buses that I found is one that leaves at 6 am with 0 transfers, and costs $23.",
+        "Among the 9 buses that I found is one that leaves at 6 am with 0 transfers, and costs $23."
+    ],
+    [
+        "OFFER(leaving_time=\"6 am\";fare=\"$23\";transfers=\"0\")@INFORM_COUNT(count=\"9\")",
+        "Among the 9 buses that I found is one that leaves at 6 am with 0 transfers, and costs $23.",
+        "Among the 9 buses that I found is one that leaves at 6 am with 0 transfers, and costs $23."
+    ],
+    [
+        "OFFER(leaving_time=\"12:30 pm\";fare=\"$34\";transfers=\"0\")",
+        "Okay, no problem. I found a bus that costs $34, and it departs at 12:30 pm and has 0 transfers.",
+        "Okay, no problem. I found a bus that costs $34, and it departs at 12:30 pm and has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"2:50 pm\";fare=\"$41\";transfers=\"0\")",
+        "How about the $41 bus with 0 transfers, leaving at 2:50 pm?",
+        "How about the $41 bus with 0 transfers, leaving at 2:50 pm?"
+    ],
+    [
+        "INFORM(from_station=\"Anaheim Intermodal Center\";to_station=\"Union Plaza\")",
+        "You'll be leaving from Anaheim Intermodal Center station and arriving at Union Plaza station",
+        "You'll be leaving from Anaheim Intermodal Center station and arriving at Union Plaza station"
+    ],
+    [
+        "CONFIRM(from_location=\"Anaheim\";to_location=\"Las Vegas\";leaving_date=\"day after tomorrow\";leaving_time=\"2:50 pm\";travelers=\"3\")",
+        "Please confirm that you'd like to purchase tickets for 3 people travelling on the Anaheim to Las Vegas bus which leaves the day after tomorrow, at 2:50 pm.",
+        "Please confirm that you'd like to purchase tickets for 3 people travelling on the Anaheim to Las Vegas bus which leaves the day after tomorrow, at 2:50 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have confirmed your ticket.",
+        "I have confirmed your ticket."
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$24\";transfers=\"0\")",
+        "There are 7 buses available for that route. One of them leaves at 7:40 am and has 0 transfers. Its ticket is $24.",
+        "There are 7 buses available for that route. One of them leaves at 7:40 am and has 0 transfers. Its ticket is $24."
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$24\";transfers=\"0\")@INFORM_COUNT(count=\"7\")",
+        "There are 7 buses available for that route. One of them leaves at 7:40 am and has 0 transfers. Its ticket is $24.",
+        "There are 7 buses available for that route. One of them leaves at 7:40 am and has 0 transfers. Its ticket is $24."
+    ],
+    [
+        "OFFER(leaving_time=\"8 am\";fare=\"$19\";transfers=\"0\")",
+        "There is another bus which costs just $19. It leaves at 8 am and also has 0 transfers.",
+        "There is another bus which costs just $19. It leaves at 8 am and also has 0 transfers."
+    ],
+    [
+        "INFORM(from_station=\"Port Authority Station\";to_station=\"Intercity Terminal\")",
+        "It goes from Port Authority Station to the Intercity Terminal.",
+        "It goes from Port Authority Station to the Intercity Terminal."
+    ],
+    [
+        "OFFER(leaving_time=\"11:30 am\";fare=\"$21\";transfers=\"0\")",
+        "Sure. There are 5 such buses. One leaves at 11:30 am. Its ticket is $21 and its route has 0 transfers.",
+        "Sure. There are 5 such buses. One leaves at 11:30 am. Its ticket is $21 and its route has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"11:30 am\";fare=\"$21\";transfers=\"0\")@INFORM_COUNT(count=\"5\")",
+        "Sure. There are 5 such buses. One leaves at 11:30 am. Its ticket is $21 and its route has 0 transfers.",
+        "Sure. There are 5 such buses. One leaves at 11:30 am. Its ticket is $21 and its route has 0 transfers."
+    ],
+    [
+        "OFFER(leaving_time=\"7 am\";fare=\"$13\";transfers=\"0\")",
+        "ok, a bus with 0 transfers departs at 7 am and costs $13",
+        "ok, a bus with 0 transfers departs at 7 am and costs $13"
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$28\";transfers=\"0\")",
+        "ok, i have 10 buses and a bus with 0 transfers departs at 7:40 am and costs $28",
+        "ok, i have 10 buses and a bus with 0 transfers departs at 7:40 am and costs $28"
+    ],
+    [
+        "OFFER(leaving_time=\"7:40 am\";fare=\"$28\";transfers=\"0\")@INFORM_COUNT(count=\"10\")",
+        "ok, i have 10 buses and a bus with 0 transfers departs at 7:40 am and costs $28",
+        "ok, i have 10 buses and a bus with 0 transfers departs at 7:40 am and costs $28"
+    ],
+    [
+        "OFFER(leaving_time=\"6 am\";fare=\"$43\";transfers=\"0\")",
+        "A bus with 0 transfers departs at 6 am and costs $43",
+        "A bus with 0 transfers departs at 6 am and costs $43"
+    ],
+    [
+        "INFORM(from_station=\"Fresno station\";to_station=\"Santa Fe Depot\")",
+        "You leave form Fresno station and arrive at Santa Fe Depot.",
+        "You leave form Fresno station and arrive at Santa Fe Depot."
+    ],
+    [
+        "OFFER(leaving_time=\"7:20 am\";fare=\"$50\";transfers=\"0\")",
+        "7 buses are available for you.First departs at 7:20 am and have 0 transfers that cost $50.You can take it at 7:20.",
+        "7 buses are available for you.First departs at 7:20 am and have 0 transfers that cost $50.You can take it at 7:20."
+    ],
+    [
+        "OFFER(leaving_time=\"7:20 am\";fare=\"$50\";transfers=\"0\")@INFORM_COUNT(count=\"7\")",
+        "7 buses are available for you.First departs at 7:20 am and have 0 transfers that cost $50.You can take it at 7:20.",
+        "7 buses are available for you.First departs at 7:20 am and have 0 transfers that cost $50.You can take it at 7:20."
+    ],
+    [
+        "CONFIRM(from_location=\"San Francisco\";to_location=\"Las Vegas\";leaving_date=\"next Wednesday\";leaving_time=\"7:20 am\";travelers=\"4\")",
+        "Book 4 tickets at bus that leave at 7:20 am from San Francisco to Las Vegas on next Wednesday.I'm right?",
+        "Book 4 tickets at bus that leave at 7:20 am from San Francisco to Las Vegas on next Wednesday.I'm right?"
+    ],
+    [
+        "INFORM(from_station=\"Salesforce Transit Center\";to_station=\"Union Plaza\")",
+        "The ticket was bought.Salesforce Transit Center is the origin station and the destination station is Union Plaza.",
+        "The ticket was bought.Salesforce Transit Center is the origin station and the destination station is Union Plaza."
+    ],
+    [
+        "INFORM(from_station=\"Salesforce Transit Center\";to_station=\"Union Plaza\")@NOTIFY_SUCCESS()",
+        "The ticket was bought.Salesforce Transit Center is the origin station and the destination station is Union Plaza.",
+        "The ticket was bought.Salesforce Transit Center is the origin station and the destination station is Union Plaza."
+    ],
+    [
+        "OFFER(departure_time=\"12:30 pm\";price=\"$35\";fare_type=\"Economy\")",
+        "Great. I have found 4 buses for you. I see here there is a $35 Economy ticket available for a bus leaving at 12:30 pm.",
+        "Great. I have found 4 buses for you. I see here there is a $35 Economy ticket available for a bus leaving at 12:30 pm."
+    ],
+    [
+        "OFFER(departure_time=\"12:30 pm\";price=\"$35\";fare_type=\"Economy\")@INFORM_COUNT(count=\"4\")",
+        "Great. I have found 4 buses for you. I see here there is a $35 Economy ticket available for a bus leaving at 12:30 pm.",
+        "Great. I have found 4 buses for you. I see here there is a $35 Economy ticket available for a bus leaving at 12:30 pm."
+    ],
+    [
+        "CONFIRM(origin=\"Anaheim\";destination=\"Las Vegas\";departure_date=\"tomorrow\";departure_time=\"12:30 pm\";group_size=\"3\";fare_type=\"Economy\")",
+        "Great. Just to confirm: You are purchasing 3 Economy bus tickets going to Las Vegas from Anaheim. This bus leaves tomorrow at 12:30 pm.",
+        "Great. Just to confirm: You are purchasing 3 Economy bus tickets going to Las Vegas from Anaheim. This bus leaves tomorrow at 12:30 pm."
+    ],
+    [
+        "CONFIRM(departure_date=\"tomorrow\";group_size=\"2\")",
+        "Great! Just to confirm: You will be purchasing 2 bus tickets for tomorrow.",
+        "Great! Just to confirm: You will be purchasing 2 bus tickets for tomorrow."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, your tickets are confirmed.",
+        "Great, your tickets are confirmed."
+    ],
+    [
+        "INFORM(destination_station_name=\"Union Plaza\";origin_station_name=\"Anaheim Intermodal Center\")",
+        "The arrival station is Union Plaza and the departure station is Anaheim Intermodal Center.",
+        "The arrival station is Union Plaza and the departure station is Anaheim Intermodal Center."
+    ],
+    [
+        "OFFER(departure_time=\"7:20 am\";price=\"$25\";fare_type=\"Economy\")",
+        "The bus will leave at 7:20 am and the ticket costs $25. It is an economy ticket.",
+        "The bus will leave at 7:20 am and the ticket costs $25. It is an economy ticket."
+    ],
+    [
+        "OFFER(departure_time=\"9:40 am\";price=\"$26\";fare_type=\"Economy\")",
+        "The bus will depart at 9:40 am and the ticket costs $26. The ticket is an economy ticket.",
+        "The bus will depart at 9:40 am and the ticket costs $26. The ticket is an economy ticket."
+    ],
+    [
+        "CONFIRM(origin=\"San Francisco\";destination=\"Sacramento\";departure_date=\"tomorrow\";departure_time=\"9:40 am\";group_size=\"4\";fare_type=\"Economy\")",
+        "Okay, confirm these details for me please. The bus departs from San Francisco and goes to Sacramento. It will leave tomorrow at 9:40 am. The tickets are economy for 4 people.",
+        "Okay, confirm these details for me please. The bus departs from San Francisco and goes to Sacramento. It will leave tomorrow at 9:40 am. The tickets are economy for 4 people."
+    ],
+    [
+        "INFORM(origin_station_name=\"Salesforce Transit Center\")",
+        "The ticket is confirmed and the bus leaves from Salesforce Transit Center.",
+        "The ticket is confirmed and the bus leaves from Salesforce Transit Center."
+    ],
+    [
+        "INFORM(origin_station_name=\"Salesforce Transit Center\")@NOTIFY_SUCCESS()",
+        "The ticket is confirmed and the bus leaves from Salesforce Transit Center.",
+        "The ticket is confirmed and the bus leaves from Salesforce Transit Center."
+    ],
+    [
+        "OFFER(departure_time=\"6:30 am\";price=\"$11\";fare_type=\"Economy\")",
+        "I've found 10 buses that match your criteria. The one I've chosen will leave at 6:30 am, and the price of an Economy ticket is $11.",
+        "I've found 10 buses that match your criteria. The one I've chosen will leave at 6:30 am, and the price of an Economy ticket is $11."
+    ],
+    [
+        "OFFER(departure_time=\"6:30 am\";price=\"$11\";fare_type=\"Economy\")@INFORM_COUNT(count=\"10\")",
+        "I've found 10 buses that match your criteria. The one I've chosen will leave at 6:30 am, and the price of an Economy ticket is $11.",
+        "I've found 10 buses that match your criteria. The one I've chosen will leave at 6:30 am, and the price of an Economy ticket is $11."
+    ],
+    [
+        "OFFER(departure_time=\"7:20 am\";price=\"$41\";fare_type=\"Economy\")",
+        "I found 4 buses and one of them has an economy class ticket for $41 that leaves at 7:20 am.",
+        "I found 4 buses and one of them has an economy class ticket for $41 that leaves at 7:20 am."
+    ],
+    [
+        "OFFER(departure_time=\"7:20 am\";price=\"$41\";fare_type=\"Economy\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 buses and one of them has an economy class ticket for $41 that leaves at 7:20 am.",
+        "I found 4 buses and one of them has an economy class ticket for $41 that leaves at 7:20 am."
+    ],
+    [
+        "OFFER(departure_time=\"10:20 am\";price=\"$48\";fare_type=\"Economy\")",
+        "I have another bus that leaves at 10:20 am that has Economy tickets for $48 each.",
+        "I have another bus that leaves at 10:20 am that has Economy tickets for $48 each."
+    ],
+    [
+        "OFFER(departure_time=\"11:50 am\";price=\"$33\";fare_type=\"Economy\")",
+        "I have another but that leaves at 11:50 am that has Economy tickets for $33 each.",
+        "I have another but that leaves at 11:50 am that has Economy tickets for $33 each."
+    ],
+    [
+        "OFFER(departure_time=\"7:50 am\";price=\"$72\";fare_type=\"Flexible\")",
+        "I found 7 buses for you. The bus leaves at 7:50 am and the prices is $72 and it's a flexible ticket.",
+        "I found 7 buses for you. The bus leaves at 7:50 am and the prices is $72 and it's a flexible ticket."
+    ],
+    [
+        "OFFER(departure_time=\"7:50 am\";price=\"$72\";fare_type=\"Flexible\")@INFORM_COUNT(count=\"7\")",
+        "I found 7 buses for you. The bus leaves at 7:50 am and the prices is $72 and it's a flexible ticket.",
+        "I found 7 buses for you. The bus leaves at 7:50 am and the prices is $72 and it's a flexible ticket."
+    ],
+    [
+        "OFFER(departure_time=\"7:30 am\";price=\"$39\";fare_type=\"Economy extra\")",
+        "I found 6 buses for you. One bus has an economy extra ticket for $39 and leaves at 7:30 am.",
+        "I found 6 buses for you. One bus has an economy extra ticket for $39 and leaves at 7:30 am."
+    ],
+    [
+        "OFFER(departure_time=\"7:30 am\";price=\"$39\";fare_type=\"Economy extra\")@INFORM_COUNT(count=\"6\")",
+        "I found 6 buses for you. One bus has an economy extra ticket for $39 and leaves at 7:30 am.",
+        "I found 6 buses for you. One bus has an economy extra ticket for $39 and leaves at 7:30 am."
+    ],
+    [
+        "OFFER(departure_time=\"10:40 am\";price=\"$43\";fare_type=\"Economy extra\")",
+        "There are 5 other buses. This bus leaves at 10:40 am and costs $43. It's an economy extra ticket as well.",
+        "There are 5 other buses. This bus leaves at 10:40 am and costs $43. It's an economy extra ticket as well."
+    ],
+    [
+        "OFFER(departure_time=\"10:40 am\";price=\"$43\";fare_type=\"Economy extra\")@INFORM_COUNT(count=\"5\")",
+        "There are 5 other buses. This bus leaves at 10:40 am and costs $43. It's an economy extra ticket as well.",
+        "There are 5 other buses. This bus leaves at 10:40 am and costs $43. It's an economy extra ticket as well."
+    ],
+    [
+        "OFFER(departure_time=\"11 am\";price=\"$50\";fare_type=\"Flexible\")",
+        "There are 4 other buses. One bus has a flexible ticket that costs $50 and leaves at 11 am.",
+        "There are 4 other buses. One bus has a flexible ticket that costs $50 and leaves at 11 am."
+    ],
+    [
+        "OFFER(departure_time=\"11 am\";price=\"$50\";fare_type=\"Flexible\")@INFORM_COUNT(count=\"4\")",
+        "There are 4 other buses. One bus has a flexible ticket that costs $50 and leaves at 11 am.",
+        "There are 4 other buses. One bus has a flexible ticket that costs $50 and leaves at 11 am."
+    ],
+    [
+        "OFFER(departure_time=\"10:50 am\";price=\"$49\";fare_type=\"Economy\")",
+        "There is an economy ticket available for $49 leaving at 10:50 am. There are 6 options total if that one doesn't work for you.",
+        "There is an economy ticket available for $49 leaving at 10:50 am. There are 6 options total if that one doesn't work for you."
+    ],
+    [
+        "OFFER(departure_time=\"10:50 am\";price=\"$49\";fare_type=\"Economy\")@INFORM_COUNT(count=\"6\")",
+        "There is an economy ticket available for $49 leaving at 10:50 am. There are 6 options total if that one doesn't work for you.",
+        "There is an economy ticket available for $49 leaving at 10:50 am. There are 6 options total if that one doesn't work for you."
+    ],
+    [
+        "OFFER(departure_time=\"12:50 pm\";price=\"$50\";fare_type=\"Economy\")",
+        "Another option leaves at 12:50 pm. It is also an economy ticket priced at $50.",
+        "Another option leaves at 12:50 pm. It is also an economy ticket priced at $50."
+    ],
+    [
+        "OFFER(departure_time=\"2:40 pm\";price=\"$50\";fare_type=\"Economy\")",
+        "How about economy tickets for $50 leaving at 2:40 pm?",
+        "How about economy tickets for $50 leaving at 2:40 pm?"
+    ],
+    [
+        "OFFER(departure_time=\"9:20 am\";price=\"$43\";fare_type=\"Economy extra\")",
+        "I found 7 buses. There is one that leaves at 9:20 am; the Economy extra ticket is $43.",
+        "I found 7 buses. There is one that leaves at 9:20 am; the Economy extra ticket is $43."
+    ],
+    [
+        "OFFER(departure_time=\"9:20 am\";price=\"$43\";fare_type=\"Economy extra\")@INFORM_COUNT(count=\"7\")",
+        "I found 7 buses. There is one that leaves at 9:20 am; the Economy extra ticket is $43.",
+        "I found 7 buses. There is one that leaves at 9:20 am; the Economy extra ticket is $43."
+    ],
+    [
+        "OFFER(departure_time=\"11:10 am\";price=\"$50\";fare_type=\"Economy extra\")",
+        "There is one that leaves at 11:10 am that has Economy extra tickets available for $50.",
+        "There is one that leaves at 11:10 am that has Economy extra tickets available for $50."
+    ],
+    [
+        "OFFER(departure_time=\"1:50 pm\";price=\"$50\";fare_type=\"Economy extra\")",
+        "There is another $50 economy extra ticket that leaves at 1:50 pm.",
+        "There is another $50 economy extra ticket that leaves at 1:50 pm."
+    ],
+    [
+        "INFORM(origin_station_name=\"Downtown Station\";destination_station_name=\"Fresno Station\")",
+        "The bus leaves from the Downtown Station and arrives at Fresno Station.",
+        "The bus leaves from the Downtown Station and arrives at Fresno Station."
+    ],
+    [
+        "OFFER(departure_time=\"9:20 am\";price=\"$62\";fare_type=\"Flexible\")",
+        "The bus leaves at 9:20 am and the ticket costs $62. It is a Flexible ticket.",
+        "The bus leaves at 9:20 am and the ticket costs $62. It is a Flexible ticket."
+    ],
+    [
+        "INFORM(destination_station_name=\"Portland Bus Station\";origin_station_name=\"Pacific Central Station\")",
+        "You will be leaving from the Pacific Central Station to the Portland Bus Station.",
+        "You will be leaving from the Pacific Central Station to the Portland Bus Station."
+    ],
+    [
+        "OFFER(departure_time=\"9:30 am\";price=\"$56\";fare_type=\"Flexible\")",
+        "There's a Flexible one that leaves at 9:30 am and the ticket costs $56.",
+        "There's a Flexible one that leaves at 9:30 am and the ticket costs $56."
+    ],
+    [
+        "OFFER(departure_time=\"10:50 am\";price=\"$53\";fare_type=\"Economy\")",
+        "I've found 6 possible options for you, one of them is a $53 Economy ticket, leaving at 10:50 am.",
+        "I've found 6 possible options for you, one of them is a $53 Economy ticket, leaving at 10:50 am."
+    ],
+    [
+        "OFFER(departure_time=\"10:50 am\";price=\"$53\";fare_type=\"Economy\")@INFORM_COUNT(count=\"6\")",
+        "I've found 6 possible options for you, one of them is a $53 Economy ticket, leaving at 10:50 am.",
+        "I've found 6 possible options for you, one of them is a $53 Economy ticket, leaving at 10:50 am."
+    ],
+    [
+        "OFFER(departure_time=\"7:30 am\";price=\"$36\";fare_type=\"Economy\")",
+        "I have 9 options you may be interested in. The first leaves at 7:30 am. Economy tickets are $36 each.",
+        "I have 9 options you may be interested in. The first leaves at 7:30 am. Economy tickets are $36 each."
+    ],
+    [
+        "OFFER(departure_time=\"7:30 am\";price=\"$36\";fare_type=\"Economy\")@INFORM_COUNT(count=\"9\")",
+        "I have 9 options you may be interested in. The first leaves at 7:30 am. Economy tickets are $36 each.",
+        "I have 9 options you may be interested in. The first leaves at 7:30 am. Economy tickets are $36 each."
+    ],
+    [
+        "OFFER(departure_time=\"6:40 am\";price=\"$40\";fare_type=\"Economy\")",
+        "Okay, I have found one bus leaving at 6:40 am. The Economy tickets are $40 each.",
+        "Okay, I have found one bus leaving at 6:40 am. The Economy tickets are $40 each."
+    ],
+    [
+        "OFFER(departure_time=\"11:10 am\";price=\"$40\";fare_type=\"Economy\")",
+        "Okay, got it. There's a bus that leaves at 11:10 am and is an Economy ticket. The ticket costs $40.",
+        "Okay, got it. There's a bus that leaves at 11:10 am and is an Economy ticket. The ticket costs $40."
+    ],
+    [
+        "INFORM(destination_station_name=\"Fresno Station\")",
+        "The bus will arrive at Fresno Station.",
+        "The bus will arrive at Fresno Station."
+    ],
+    [
+        "OFFER(departure_time=\"6:50 am\";price=\"$62\";fare_type=\"Economy\")",
+        "The bus will be leaving at 6:50 am and the economy ticket price is $62",
+        "The bus will be leaving at 6:50 am and the economy ticket price is $62"
+    ],
+    [
+        "OFFER(departure_time=\"7 am\";price=\"$68\";fare_type=\"Economy\")",
+        "The bus will be leaving at 7 am and the price of the economy ticket is $68",
+        "The bus will be leaving at 7 am and the price of the economy ticket is $68"
+    ],
+    [
+        "OFFER(departure_time=\"10:10 am\";price=\"$25\";fare_type=\"Economy\")",
+        "I found 9 buses. One of them leaves at 10:10 am and costs $25 on Economy.",
+        "I found 9 buses. One of them leaves at 10:10 am and costs $25 on Economy."
+    ],
+    [
+        "OFFER(departure_time=\"10:10 am\";price=\"$25\";fare_type=\"Economy\")@INFORM_COUNT(count=\"9\")",
+        "I found 9 buses. One of them leaves at 10:10 am and costs $25 on Economy.",
+        "I found 9 buses. One of them leaves at 10:10 am and costs $25 on Economy."
+    ],
+    [
+        "OFFER(departure_time=\"10:40 am\";price=\"$24\";fare_type=\"Economy\")",
+        "I found one bus that leaves at 10:40 am. Economy ticket costs $24.",
+        "I found one bus that leaves at 10:40 am. Economy ticket costs $24."
+    ],
+    [
+        "OFFER(departure_time=\"7 am\";price=\"$37\";fare_type=\"Economy extra\")",
+        "I found a $37 Economy extra ticket for a bus that leaves at 7 am.",
+        "I found a $37 Economy extra ticket for a bus that leaves at 7 am."
+    ],
+    [
+        "OFFER(departure_time=\"9:50 am\";price=\"$51\";fare_type=\"Economy extra\")",
+        "There are $51 Economy extra tickets for the bus that leaves at 9:50 am.",
+        "There are $51 Economy extra tickets for the bus that leaves at 9:50 am."
+    ],
+    [
+        "INFORM(destination_station_name=\"Downtown Station\")",
+        "The station is Downtown Station.",
+        "The station is Downtown Station."
+    ],
+    [
+        "OFFER(departure_time=\"7 am\";price=\"$20\";fare_type=\"Economy\")",
+        "I found an Economy ticket for $20 that leaves at 7 am.",
+        "I found an Economy ticket for $20 that leaves at 7 am."
+    ],
+    [
+        "OFFER(departure_time=\"8:40 am\";price=\"$26\";fare_type=\"Economy\")",
+        "There is a $26 ticket in Economy that leaves at 8:40 am.",
+        "There is a $26 ticket in Economy that leaves at 8:40 am."
+    ],
+    [
+        "OFFER(departure_time=\"10:50 am\";price=\"$38\")",
+        "I found 1 bus departing at 10:50 am costing $38.",
+        "I found 1 bus departing at 10:50 am costing $38."
+    ],
+    [
+        "OFFER(departure_time=\"10:50 am\";price=\"$38\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 bus departing at 10:50 am costing $38.",
+        "I found 1 bus departing at 10:50 am costing $38."
+    ],
+    [
+        "CONFIRM(from_city=\"Las Vegas\";to_city=\"San Diego\";departure_date=\"March 2nd\";departure_time=\"10:50 am\";num_passengers=\"3\";additional_luggage=\"False\")",
+        "Please confirm a ticket leaving from Las Vegas to San Diego March 2nd at 10:50 am for 3 people. You won't have extra luggage.",
+        "Please confirm a ticket leaving from Las Vegas to San Diego March 2nd at 10:50 am for 3 people. You won't have extra luggage."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The ticket is confirmed.",
+        "The ticket is confirmed."
+    ],
+    [
+        "OFFER(departure_time=\"6:50 am\";price=\"$25\")",
+        "I looked in 10 buses for you and what is your opinion on a bus starting at 6:50 am with cost $25?",
+        "I looked in 10 buses for you and what is your opinion on a bus starting at 6:50 am with cost $25?"
+    ],
+    [
+        "OFFER(departure_time=\"6:50 am\";price=\"$25\")@INFORM_COUNT(count=\"10\")",
+        "I looked in 10 buses for you and what is your opinion on a bus starting at 6:50 am with cost $25?",
+        "I looked in 10 buses for you and what is your opinion on a bus starting at 6:50 am with cost $25?"
+    ],
+    [
+        "INFORM(category=\"direct\")",
+        "The bus is a direct one",
+        "The bus is a direct one"
+    ],
+    [
+        "INFORM(from_station=\"El Cajon Bus Stop\";to_station=\"Downtown Station\")",
+        "The bus will be starting from El Cajon Bus Stop which arrives at Downtown Station",
+        "The bus will be starting from El Cajon Bus Stop which arrives at Downtown Station"
+    ],
+    [
+        "CONFIRM(from_city=\"San Diego\";to_city=\"Long Beach\";departure_date=\"March 13th\";departure_time=\"6:50 am\";num_passengers=\"2\";additional_luggage=\"False\")",
+        "please give confirmation details: Your ticket requirement is for 2 people without extra luggage for leaving to Long Beach from San Diego on March 13th at 6:50 am",
+        "please give confirmation details: Your ticket requirement is for 2 people without extra luggage for leaving to Long Beach from San Diego on March 13th at 6:50 am"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ticket booking is done",
+        "Ticket booking is done"
+    ],
+    [
+        "OFFER(departure_time=\"7 am\";price=\"$33\")",
+        "There are a lot of options, at least 10. What about leaving at 7 am? It will only cost you $33.",
+        "There are a lot of options, at least 10. What about leaving at 7 am? It will only cost you $33."
+    ],
+    [
+        "OFFER(departure_time=\"7 am\";price=\"$33\")@INFORM_COUNT(count=\"10\")",
+        "There are a lot of options, at least 10. What about leaving at 7 am? It will only cost you $33.",
+        "There are a lot of options, at least 10. What about leaving at 7 am? It will only cost you $33."
+    ],
+    [
+        "INFORM(from_station=\"SW Arthur & 1st\")",
+        "It's from SW Arthur & 1st.",
+        "It's from SW Arthur & 1st."
+    ],
+    [
+        "OFFER(departure_time=\"11:20 am\";price=\"$37\")",
+        "Well, you could leave at 11:20 am for $37.",
+        "Well, you could leave at 11:20 am for $37."
+    ],
+    [
+        "CONFIRM(from_city=\"Portland\";to_city=\"Seattle\";departure_date=\"March 9th\";departure_time=\"11:20 am\";num_passengers=\"2\";additional_luggage=\"False\")",
+        "Sure, just to confirm: 2 tickets for a bus leaving Portland and going to Seattle on March 9th at 11:20 am.",
+        "Sure, just to confirm: 2 tickets for a bus leaving Portland and going to Seattle on March 9th at 11:20 am."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "You're all set.",
+        "You're all set."
+    ],
+    [
+        "OFFER(departure_time=\"7:40 am\";price=\"$23\")",
+        "How about this cheap $23 bus that leaves at 7:40 am",
+        "How about this cheap $23 bus that leaves at 7:40 am"
+    ],
+    [
+        "OFFER(departure_time=\"7:50 am\";price=\"$22\")",
+        "How about a 7:50 am bus for $22",
+        "How about a 7:50 am bus for $22"
+    ],
+    [
+        "OFFER(departure_time=\"8:50 am\";price=\"$25\")",
+        "8:50 am for $25?",
+        "8:50 am for $25?"
+    ],
+    [
+        "INFORM(category=\"direct\")",
+        "Yes it is a direct bus",
+        "Yes it is a direct bus"
+    ],
+    [
+        "CONFIRM(from_city=\"New York\";to_city=\"Philadelphia\";departure_date=\"March 3rd\";departure_time=\"8:50 am\";num_passengers=\"4\";additional_luggage=\"False\")",
+        "Confirming you want 4 tickets for the 8:50 am bus on March 3rd from New York to Philadelphia with no excess luggage",
+        "Confirming you want 4 tickets for the 8:50 am bus on March 3rd from New York to Philadelphia with no excess luggage"
+    ],
+    [
+        "INFORM(to_station=\"10th and Filbert\")",
+        "It arrives at 10th and Filbert, and your tickets have been reserved",
+        "It arrives at 10th and Filbert, and your tickets have been reserved"
+    ],
+    [
+        "INFORM(to_station=\"10th and Filbert\")@NOTIFY_SUCCESS()",
+        "It arrives at 10th and Filbert, and your tickets have been reserved",
+        "It arrives at 10th and Filbert, and your tickets have been reserved"
+    ],
+    [
+        "OFFER(departure_time=\"10:50 am\";price=\"$30\")",
+        "I found 8 buses available. How about the bus departing at 10:50 am? The cost is $30.",
+        "I found 8 buses available. How about the bus departing at 10:50 am? The cost is $30."
+    ],
+    [
+        "OFFER(departure_time=\"10:50 am\";price=\"$30\")@INFORM_COUNT(count=\"8\")",
+        "I found 8 buses available. How about the bus departing at 10:50 am? The cost is $30.",
+        "I found 8 buses available. How about the bus departing at 10:50 am? The cost is $30."
+    ],
+    [
+        "INFORM(from_station=\"2660 Tulare St\";to_station=\"Transbay Terminal\")",
+        "It departs from 2660 Tulare St.and arrives at Transbay Terminal.",
+        "It departs from 2660 Tulare St.and arrives at Transbay Terminal."
+    ],
+    [
+        "CONFIRM(from_city=\"Fresno\";to_city=\"San Francisco\";departure_date=\"March 5th\";departure_time=\"10:50 am\";num_passengers=\"3\";additional_luggage=\"False\")",
+        "Please confirm the following details: You want 3 tickets on the bus leaving from Fresno on March 5th at 10:50 am heading to San Francisco. You don't have extra luggage. Is this correct?",
+        "Please confirm the following details: You want 3 tickets on the bus leaving from Fresno on March 5th at 10:50 am heading to San Francisco. You don't have extra luggage. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your tickets are confirmed.",
+        "Your tickets are confirmed."
+    ],
+    [
+        "OFFER(departure_time=\"6:50 am\";price=\"$39\")",
+        "I searched and found 4 buses. It is starting at 6:50 am. The cost is $39.",
+        "I searched and found 4 buses. It is starting at 6:50 am. The cost is $39."
+    ],
+    [
+        "OFFER(departure_time=\"6:50 am\";price=\"$39\")@INFORM_COUNT(count=\"4\")",
+        "I searched and found 4 buses. It is starting at 6:50 am. The cost is $39.",
+        "I searched and found 4 buses. It is starting at 6:50 am. The cost is $39."
+    ],
+    [
+        "OFFER(departure_time=\"8:10 am\";price=\"$38\")",
+        "What do you think about a bus starting at 8:10 am? The cost is $38.",
+        "What do you think about a bus starting at 8:10 am? The cost is $38."
+    ],
+    [
+        "INFORM(category=\"direct\")",
+        "It is a direct bus only.",
+        "It is a direct bus only."
+    ],
+    [
+        "INFORM(from_station=\"Anaheim Bus Station\")",
+        "It starts from Anaheim Bus Station.",
+        "It starts from Anaheim Bus Station."
+    ],
+    [
+        "CONFIRM(from_city=\"Anaheim\";to_city=\"Las Vegas\";departure_date=\"March 12th\";departure_time=\"8:10 am\";num_passengers=\"1\";additional_luggage=\"False\")",
+        "Kindly ensure that, on March 12th, you need 1 ticket from Anaheim to Las Vegas at 8:10 am. You are not having any extra luggage.",
+        "Kindly ensure that, on March 12th, you need 1 ticket from Anaheim to Las Vegas at 8:10 am. You are not having any extra luggage."
+    ],
+    [
+        "CONFIRM(from_city=\"Anaheim\";additional_luggage=\"True\")",
+        "Kindly ensure that, you need a ticket to Anaheim. You have extra luggage.",
+        "Kindly ensure that, you need a ticket to Anaheim. You have extra luggage."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your ticket has been booked.",
+        "Your ticket has been booked."
+    ],
+    [
+        "OFFER(departure_time=\"7:10 am\";price=\"$39\")",
+        "There are 8 buses. There is one leaving at 7:10 am and the cost is $39.",
+        "There are 8 buses. There is one leaving at 7:10 am and the cost is $39."
+    ],
+    [
+        "OFFER(departure_time=\"7:10 am\";price=\"$39\")@INFORM_COUNT(count=\"8\")",
+        "There are 8 buses. There is one leaving at 7:10 am and the cost is $39.",
+        "There are 8 buses. There is one leaving at 7:10 am and the cost is $39."
+    ],
+    [
+        "CONFIRM(from_city=\"Vancouver\";to_city=\"Portland\";departure_date=\"March 4th\";departure_time=\"7:10 am\";num_passengers=\"1\";additional_luggage=\"False\")",
+        "Booking ticket for 1 person leaving at 7:10 am from Vancouver to Portland on March 4th.",
+        "Booking ticket for 1 person leaving at 7:10 am from Vancouver to Portland on March 4th."
+    ],
+    [
+        "INFORM(to_station=\"SW Arthur & 1st\")",
+        "Your ticket is booked and the station is SW Arthur & 1st.",
+        "Your ticket is booked and the station is SW Arthur & 1st."
+    ],
+    [
+        "INFORM(to_station=\"SW Arthur & 1st\")@NOTIFY_SUCCESS()",
+        "Your ticket is booked and the station is SW Arthur & 1st.",
+        "Your ticket is booked and the station is SW Arthur & 1st."
+    ],
+    [
+        "OFFER(departure_time=\"6:40 am\";price=\"$51\")",
+        "I got a bus which is leaving at 6:40 am for which the cost will be $51. Do you like to travel through this bus?",
+        "I got a bus which is leaving at 6:40 am for which the cost will be $51. Do you like to travel through this bus?"
+    ],
+    [
+        "CONFIRM(from_city=\"Los Angeles\";to_city=\"San Francisco\";departure_date=\"March 3rd\";departure_time=\"6:40 am\";num_passengers=\"1\";additional_luggage=\"False\")",
+        "Please confirm to book 1 ticket without extra luggage on a bus leaving from Los Angeles on March 3rd at 6:40 am to San Francisco.",
+        "Please confirm to book 1 ticket without extra luggage on a bus leaving from Los Angeles on March 3rd at 6:40 am to San Francisco."
+    ],
+    [
+        "INFORM(to_station=\"Transbay Terminal\")",
+        "It will arrive at Transbay Terminal station and your tickets are confirmed.",
+        "It will arrive at Transbay Terminal station and your tickets are confirmed."
+    ],
+    [
+        "INFORM(to_station=\"Transbay Terminal\")@NOTIFY_SUCCESS()",
+        "It will arrive at Transbay Terminal station and your tickets are confirmed.",
+        "It will arrive at Transbay Terminal station and your tickets are confirmed."
+    ],
+    [
+        "INFORM(from_station=\"North Hollywood Station\")",
+        "Yes, it departs from North Hollywood Station. Was that information useful to you?",
+        "Yes, it departs from North Hollywood Station. Was that information useful to you?"
+    ],
+    [
+        "OFFER(departure_time=\"6:30 am\";price=\"$58\")",
+        "I found 10 buses that work including a $58 bus that leaves at 6:30 am, how is that?",
+        "I found 10 buses that work including a $58 bus that leaves at 6:30 am, how is that?"
+    ],
+    [
+        "OFFER(departure_time=\"6:30 am\";price=\"$58\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 buses that work including a $58 bus that leaves at 6:30 am, how is that?",
+        "I found 10 buses that work including a $58 bus that leaves at 6:30 am, how is that?"
+    ],
+    [
+        "INFORM(from_station=\"El Cajon Bus Stop\";to_station=\"65th Light Rail Station\")",
+        "It leaves from El Cajon Bus Stop and arrives at 65th Light Rail Station",
+        "It leaves from El Cajon Bus Stop and arrives at 65th Light Rail Station"
+    ],
+    [
+        "OFFER(departure_time=\"6:50 am\";price=\"$58\")",
+        "How about this bust that leaves at 6:50 am and costs $58?",
+        "How about this bust that leaves at 6:50 am and costs $58?"
+    ],
+    [
+        "CONFIRM(from_city=\"San Diego\";to_city=\"Sacramento\";departure_date=\"March 2nd\";departure_time=\"6:50 am\";num_passengers=\"1\";additional_luggage=\"False\")",
+        "Confirming you want 1 ticket on the March 2nd bus at 6:50 am from San Diego to Sacramento with no luggage",
+        "Confirming you want 1 ticket on the March 2nd bus at 6:50 am from San Diego to Sacramento with no luggage"
+    ],
+    [
+        "CONFIRM(departure_date=\"March 2nd\";additional_luggage=\"True\")",
+        "OK confirming that you will have extra luggage on the March 2nd bus departure",
+        "OK confirming that you will have extra luggage on the March 2nd bus departure"
+    ],
+    [
+        "CONFIRM(departure_time=\"6:50 am\";num_passengers=\"3\")",
+        "Sure thing, so 3 people o the 6:50 am bus?",
+        "Sure thing, so 3 people o the 6:50 am bus?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your tickets are booked!",
+        "Your tickets are booked!"
+    ],
+    [
+        "INFORM(from_station=\"El Cajon Bus Stop\")",
+        "It leaves from El Cajon Bus Stop",
+        "It leaves from El Cajon Bus Stop"
+    ]
+]

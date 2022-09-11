@@ -1,0 +1,178 @@
+hotel_inform ( parking = "yes") & It does include free parking.
+booking_book ( ref = "RHWJ0F1Y") & Booking was successful. Reference number is : RHWJ0F1Y .
+hotel_select ( area = "east side" ; area = "north") & Do you prefer the north or east side of town?
+hotel_recommend ( name = "the Ashley hotel") & How about the Ashley hotel?
+hotel_inform ( name = "the ashley hotel" ; parking = "yes" ; phone = "yes") & Yes, the ashley hotel has both free internet and parking.
+hotel_inform ( address = "74 chesterton road" ; postcode = "cb41er") & The address is 74 chesterton road, postcode cb41er. Do you need more information?
+hotel_inform ( choice = "several") & I have found several options for you, sir. What part of town did you have in mind?
+hotel_inform ( choice = "14" ; pricerange = "moderate" ; type = "guesthouses") & I have 14 total moderate priced guesthouses. Do you have a preference of which area of town?
+booking_book ( ref = "9ZW11UHM") & Booking was successful. Reference number is : 9ZW11UHM .
+hotel_inform ( name = "Acorn guest house" ; parking = "yes") & Acorn guest house is nearby and provides free parking. What are the days of your stay?
+hotel_inform ( area = "town centre" ; name = "Acorn Guest House" ; name = "Alexander Bed and Breakfast" ; parking = "yes") & Acorn Guest House seems to be a good option. Alexander Bed and Breakfast also has parking but is in the town centre. Would you prefer one of those?
+hotel_inform ( area = "town centre" ; name = "Acorn Guest House" ; name = "Alexander Bed and Breakfast" ; parking = "yes") & Acorn Guest House seems to be a good option. Alexander Bed and Breakfast also has parking but is in the town centre. Would you prefer one of those?
+hotel_inform ( name = "acorn guest house") & I think acorn guest house is a good match for you!
+hotel_inform ( choice = "many" ; internet = "yes" ; type = "guesthouse") & There are many results for a guesthouse with free wifi, to help narrow the results what area are you looking to stay in?
+hotel_inform ( type = "guesthouse") & And will you need parking at the guesthouse?
+hotel_inform ( area = "eastern") & How do you feel about the A and B Guest House? It covers all your needs and is in the eastern area. Would you like a phone number or address?
+hotel_inform ( area = "eastern") & How do you feel about the A and B Guest House? It covers all your needs and is in the eastern area. Would you like a phone number or address?
+hotel_inform ( area = "eastern") & How do you feel about the A and B Guest House? It covers all your needs and is in the eastern area. Would you like a phone number or address?hotel_select ( name = "A and B Guest House") & How do you feel about the A and B Guest House? It covers all your needs and is in the eastern area. Would you like a phone number or address?
+booking_book ( bookday = "Monday" ; bookstay = "three" ; ref = "8BPFXM28") & Great, I've got you booked on Monday for three nights. The reference number is 8BPFXM28 . Is there anything else I can help you with?
+hotel_inform ( choice = "21" ; internet = "yes" ; stars = "4" ; type = "guesthouses" ; type = "hotels") & There are 21 guesthouses and hotels in the area that are 4 stars and have free wifi. Do you have a preference for price range or location?
+hotel_inform ( choice = "3") & There are 3 that fit your needs. Do you need parking?
+hotel_recommend ( name = "carolina bed and breakfast") & How about carolina bed and breakfast?
+booking_book ( bookday = "Wednesday" ; bookpeople = "5" ; ref = "4KJWHSTI") & I was able to make a reservation for Wednesday night for 5 people. The reservation number is 4KJWHSTI . Can I help with anything else?
+booking_book ( ref = "4HWMO5PZ") & Your booking was successful. The Reference number is : 4HWMO5PZ .
+hotel_inform ( choice = "5" ; name = "university arms hotel") & I found 5 places, university arms hotel has good ratings
+hotel_inform ( pricerange = "moderate" ; type = "guesthouses" ; type = "hotels") & I have both moderate guesthouses and hotels across the city. Do you have an area preference?
+booking_inform ( bookday = "Friday" ; bookstay = "5") & Sure, can I just make sure you want a moderate guesthouse, East part of town, free internet, for 5 days starting on Friday?
+hotel_inform ( area = "east" ; choice = "3" ; internet = "yes" ; name = "A&B" ; name = "Carolina B&B" ; parking = "yes" ; type = "guesthouses") & Yes. I have 3 guesthouses on the east part of town. A&B has no parking. Carolina B&B and Warkworth do provide free parking.
+hotel_inform ( area = "east part of town" ; choice = "6" ; parking = "yes") & There are 6 places to stay in the east part of town with free parking. Do you have a preferred price range?
+booking_book ( ref = "7NWCZEP1") & Booking was successful. Your reference number is : 7NWCZEP1 .
+hotel_inform ( area = "north" ; name = "Home from Home" ; stars = "4" ; type = "guesthouse") & Home from Home is a 4 star guesthouse on the north side.
+booking_book ( bookstay = "one" ; ref = "MCS16KSP") & I was able to book for one night. The reference number is MCS16KSP . Is there anything else I can help you with?
+hotel_inform ( choice = "many" ; internet = "yes" ; type = "guesthouses" ; type = "hotels") & Absolutely. We have many guesthouses and hotels with free Wifi. Any other preferences?
+hotel_inform ( internet = "yes" ; name = "Lovell Lodge" ; name = "The Ashley Hotel" ; parking = "yes" ; stars = "2") & The Ashley Hotel and Lovell Lodge are both 2 star hotels that offer free parking and free wifi.
+booking_book ( bookday = "Tuesday" ; bookpeople = "4" ; bookstay = "2" ; ref = "6HZB65QH") & Your room for 4 guests has been booked at the Ashley Hotel for 2 nights starting on Tuesday. Your reference number is 6HZB65QH . Can I assist you with anything else?
+hotel_inform ( phone = "01223311625") & Their phone number is: 01223311625
+hotel_inform ( choice = "1" ; choice = "2" ; pricerange = "cheap" ; pricerange = "expensive" ; pricerange = "moderately priced" ; type = "guesthouse" ; type = "guesthouses" ; type = "hotel") & I have a cheap guesthouse, 2 moderately priced guesthouses, and 1 expensive hotel - do you have a preference?
+hotel_inform ( choice = "1" ; choice = "2" ; pricerange = "cheap" ; pricerange = "expensive" ; pricerange = "moderately priced" ; type = "guesthouse" ; type = "guesthouses" ; type = "hotel") & I have a cheap guesthouse, 2 moderately priced guesthouses, and 1 expensive hotel - do you have a preference?
+booking_book ( ref = "Y113FEV7") & Your booking was successful. Reference numbr is Y113FEV7 . Can I assist you with anything else today?
+hotel_inform ( choice = "2" ; choice = "8" ; type = "guesthouses" ; type = "hotels") & We have 2 hotels and 8 guesthouses that match your needs. Do you have additional requirements?
+booking_book ( ref = "BOF076G4") & You have your reservation at the Ashley, reference number BOF076G4 .
+hotel_inform ( area = "centre of town" ; internet = "yes" ; name = "The University Arms hotel" ; parking = "yes" ; pricerange = "expensive" ; stars = "4" ; type = "hotel") & I sure do. The University Arms hotel is a more expensive hotel in the centre of town. It has 4 stars and includes free wifi and free parking.
+booking_book ( bookday = "Sunday" ; bookpeople = "1" ; bookstay = "2" ; ref = "YK9Z9AKE") & Booking was successful for 2 nights on Sunday for 1. Your reference number is YK9Z9AKE . Is there anything more I can assist you with?
+hotel_inform ( choice = "all" ; parking = "yes") & Yes, all of them do.
+booking_book ( ref = "DQOL6QE5") & Allenbell is available and fits all of your requirements. I have made a reservation for you. Your reference number is DQOL6QE5 .
+booking_book ( ref = "DQOL6QE5") & Allenbell is available and fits all of your requirements. I have made a reservation for you. Your reference number is DQOL6QE5 .
+booking_book ( ref = "DQOL6QE5") & Allenbell is available and fits all of your requirements. I have made a reservation for you. Your reference number is DQOL6QE5 .hotel_recommend ( name = "Allenbell") & Allenbell is available and fits all of your requirements. I have made a reservation for you. Your reference number is DQOL6QE5 .
+hotel_inform ( area = "west" ; choice = "2" ; choice = "2" ; internet = "yes" ; parking = "yes" ; type = "guesthouses" ; type = "hotels") & I have 2 hotels and 2 guesthouses in the west area with wifi and parking. Do you have a preference?
+hotel_inform ( area = "west" ; choice = "2" ; choice = "2" ; internet = "yes" ; parking = "yes" ; type = "guesthouses" ; type = "hotels") & I have 2 hotels and 2 guesthouses in the west area with wifi and parking. Do you have a preference?
+hotel_inform ( choice = "two" ; name = "Huntingdon Marriott Hotel" ; name = "the Cambridge Belfry") & We have two: Huntingdon Marriott Hotel, and the Cambridge Belfry.
+hotel_inform ( area = "north" ; internet = "yes" ; name = "Alpha-milton guest house" ; parking = "yes" ; pricerange = "moderate" ; stars = "3") & Alpha-milton guest house is in the north part of town, in the moderate price range, 3 stars rated, and has no internet or parking
+booking_book ( ref = "MXWS56BV") & I was able to successfully book that for you. Your reference number is MXWS56BV . Is there anything else I can assist you with?
+hotel_recommend ( area = "north part of town" ; name = "acorn guest house") & acorn guest house is in the north part of town and available, when would you like to stay?
+hotel_inform ( internet = "yes" ; parking = "yes") & Yes, it does! It also has free parking.
+hotel_inform ( phone = "01223353888") & Phone number is 01223353888.
+hotel_inform ( choice = "5") & I have about 5 great options for you. Do you prefer a certain area in the city?
+booking_book ( bookday = "Tuesday" ; ref = "BOHPJIFE") & You have a reservation at the carolina bed and breakfast for Tuesday. Your reference number is BOHPJIFE
+booking_book ( bookday = "Tuesday" ; ref = "BOHPJIFE") & You have a reservation at the carolina bed and breakfast for Tuesday. Your reference number is BOHPJIFE
+booking_book ( bookday = "Tuesday" ; ref = "BOHPJIFE") & You have a reservation at the carolina bed and breakfast for Tuesday. Your reference number is BOHPJIFEhotel_inform ( name = "the carolina bed and breakfast") & You have a reservation at the carolina bed and breakfast for Tuesday. Your reference number is BOHPJIFE
+hotel_inform ( area = "north" ; pricerange = "moderate" ; stars = "2" ; type = "hotel") & Yes! This hotel is located in the north. It has a 2 star rating and is in the moderate price range. Is there anything else I can assist you with?
+hotel_inform ( address = "365 Milton Road" ; name = "Lovell Lodge" ; phone = "01223425478") & The address for Lovell Lodge is 365 Milton Road, and the phone number is 01223425478. Is there anything else I can help you with?
+hotel_inform ( address = "328a histon road" ; phone = "01223312843" ; postcode = "cb43ht") & They are at 328a histon road postcod cb43ht, and their phone number is 01223312843
+booking_book ( bookpeople = "4" ; bookstay = "2" ; ref = "0FVDQUN1") & Your reservation is complete, 4 people for 2 nights at City Centre north B&B, reference 0FVDQUN1 . Can I help you with anything else?
+hotel_inform ( choice = "few") & I see a few choices here. Do you have any other requirements?
+hotel_inform ( choice = "7" ; type = "gueshouses") & There are 7 gueshouses that meet your requirements. Is there an area of town that you prefer?
+hotel_recommend ( address = "710 newmarket road" ; name = "autumn house" ; phone = "01223575122") & Can I recommend autumn house located at 710 newmarket road, the phone number is 01223575122.
+hotel_inform ( choice = "a number of") & There are a number of options in Cambridge. What area would you prefer to stay in? Price range?
+booking_book ( ref = "O6F5S5XY") & Yes, that'll be O6F5S5XY .
+hotel_inform ( area = "west" ; choice = "4" ; type = "guesthouse" ; type = "hotel") & There are 4 places in the west area. Two are listed as guesthouses and two are hotels. Would you like more information?
+hotel_inform ( area = "north" ; choice = "six" ; parking = "yes" ; pricerange = "moderately priced" ; stars = "4") & There are six moderately priced 4 star places in the north which offer free parking. The Acorn Guest House is a popular choice.
+hotel_inform ( area = "north" ; choice = "six" ; parking = "yes" ; pricerange = "moderately priced" ; stars = "4") & There are six moderately priced 4 star places in the north which offer free parking. The Acorn Guest House is a popular choice.
+hotel_inform ( area = "north" ; choice = "six" ; parking = "yes" ; pricerange = "moderately priced" ; stars = "4") & There are six moderately priced 4 star places in the north which offer free parking. The Acorn Guest House is a popular choice.hotel_recommend ( name = "The Acorn Guest House") & There are six moderately priced 4 star places in the north which offer free parking. The Acorn Guest House is a popular choice.
+hotel_inform ( choice = "17" ; type = "guesthouses" ; type = "hotels") & I have 17 guesthouses and hotels that fit your criteria, do you have a preference for area?
+hotel_inform ( area = "north" ; name = "The ashley hotel" ; name = "the lovell lodge" ; pricerange = "moderate" ; stars = "2") & The ashley hotel and the lovell lodge are both in the north and are in the moderate price range with 2 stars.
+booking_book ( ref = "VFGG7DOD") & Booking at the Ashley Hotel was successful. Reference number is : VFGG7DOD . Is there anything else I can help you with?
+booking_book ( ref = "VFGG7DOD") & Booking at the Ashley Hotel was successful. Reference number is : VFGG7DOD . Is there anything else I can help you with?
+booking_book ( ref = "VFGG7DOD") & Booking at the Ashley Hotel was successful. Reference number is : VFGG7DOD . Is there anything else I can help you with?hotel_inform ( name = "the Ashley Hotel") & Booking at the Ashley Hotel was successful. Reference number is : VFGG7DOD . Is there anything else I can help you with?
+booking_book ( ref = "JCVMJBRZ") & your booking was successful. your reference number is JCVMJBRZ .
+hotel_inform ( choice = "1" ; choice = "6" ; type = "guesthouse" ; type = "hotel") & There are 6 guesthouses and 1 hotel that match your request. Would you like to add additional preferences to narrow your search?
+hotel_inform ( choice = "three" ; parking = "yes") & Yes, all three have free parking. I personally recommend the Autumn House.
+hotel_inform ( choice = "three" ; parking = "yes") & Yes, all three have free parking. I personally recommend the Autumn House.
+hotel_inform ( choice = "three" ; parking = "yes") & Yes, all three have free parking. I personally recommend the Autumn House.hotel_recommend ( name = "the Autumn House") & Yes, all three have free parking. I personally recommend the Autumn House.
+hotel_inform ( address = "710 Newmarket Road") & Sure. It's located on 710 Newmarket Road. Anything else?
+hotel_inform ( area = "east" ; internet = "yes" ; name = "the a and b guest house" ; stars = "4" ; type = "hotel") & the a and b guest house is a 4 star hotel with free wifi. it is in the east part of town.
+booking_book ( ref = "FBDR5BNR") & Booking was successful. Reference number is : FBDR5BNR .
+hotel_inform ( choice = "5" ; type = "guest houses") & We found 5 guest houses for you, but I need to know your preferred area.
+hotel_inform ( pricerange = "cheap" ; stars = "4") & I could recommend the allenbell. It is priced cheap and has 4 stars.
+hotel_inform ( pricerange = "cheap" ; stars = "4") & I could recommend the allenbell. It is priced cheap and has 4 stars.
+hotel_inform ( pricerange = "cheap" ; stars = "4") & I could recommend the allenbell. It is priced cheap and has 4 stars.hotel_recommend ( name = "allenbell") & I could recommend the allenbell. It is priced cheap and has 4 stars.
+booking_book ( bookday = "Tuesday" ; bookpeople = "7" ; bookstay = "4" ; ref = "IX0QVRB4") & I have booked the allenbell for you starting on Tuesday for 4 nights for 7 people. Your reference number is IX0QVRB4 . Is there anything else I may assist with?
+hotel_inform ( area = "east part of town" ; choice = "1" ; choice = "several" ; type = "guesthouses" ; type = "hotel") & There are several guesthouses and 1 hotel in the east part of town. What price range are you looking for?
+hotel_inform ( choice = "3" ; name = "allenbell" ; name = "autumn house" ; name = "everton house" ; type = "guesthouses") & I have 3 guesthouses that match your criteria. everton house, autumn house, and allenbell. Does any of these interest you?
+hotel_inform ( choice = "3" ; name = "allenbell" ; name = "autumn house" ; name = "everton house" ; type = "guesthouses") & I have 3 guesthouses that match your criteria. everton house, autumn house, and allenbell. Does any of these interest you?
+hotel_recommend ( name = "Allenbell") & Everyone seems to enjoy the Allenbell.
+hotel_inform ( internet = "yes" ; postcode = "cb13js") & Yes, they have free Wifi. Their postcode is cb13js.
+hotel_inform ( choice = "8" ; parking = "yes") & We have 8 hotels offer free parking. Did you have a price range in mind? Or an area of town you want to stay in?
+hotel_inform ( area = "north end" ; choice = "Both" ; name = "Ashley Hotel" ; name = "Lovell Lodge" ; parking = "yes" ; pricerange = "moderately priced") & Both the Ashley Hotel and Lovell Lodge offer free parking and are moderately priced. They are also both on the north end of town. Do either of these sound good?
+hotel_inform ( area = "north end" ; choice = "Both" ; name = "Ashley Hotel" ; name = "Lovell Lodge" ; parking = "yes" ; pricerange = "moderately priced") & Both the Ashley Hotel and Lovell Lodge offer free parking and are moderately priced. They are also both on the north end of town. Do either of these sound good?
+hotel_inform ( choice = "both" ; stars = "2") & I'm sorry, but they are both 2 star hotels. Would you like to change your preferences?
+hotel_inform ( choice = "a number" ; parking = "yes" ; stars = "4" ; type = "guesthouses") & We have a number of 4 star guesthouses with free parking, but no hotels.
+hotel_inform ( area = "various parts of the city" ; choice = "9") & There are 9 locations to choose from that meet your criteria. They're in various parts of the city. Would you prefer to stay in the north, south, or east?
+booking_book ( ref = "A40VC3L5") & I have booked you at kirkwood house. Reference number: A40VC3L5 . Anything else you need?
+hotel_inform ( choice = "3") & Yes, there are three! How about Ashley Hotel?
+hotel_inform ( choice = "3") & Yes, there are three! How about Ashley Hotel?
+hotel_inform ( choice = "3") & Yes, there are three! How about Ashley Hotel?hotel_recommend ( name = "Ashley Hotel") & Yes, there are three! How about Ashley Hotel?
+hotel_select ( name = "Express by Holiday Inn" ; name = "Lovell Lodge") & Would you like to try Express by Holiday Inn or Lovell Lodge?
+hotel_inform ( choice = "three") & We have three, what area of town would you like?
+booking_book ( ref = "O1T3GRKQ") & Alright, you have a reservation at the ashley hotel. The reference number is O1T3GRKQ . Can I help you find anything else?
+booking_book ( ref = "O1T3GRKQ") & Alright, you have a reservation at the ashley hotel. The reference number is O1T3GRKQ . Can I help you find anything else?
+booking_book ( ref = "O1T3GRKQ") & Alright, you have a reservation at the ashley hotel. The reference number is O1T3GRKQ . Can I help you find anything else?hotel_inform ( name = "ashley hotel") & Alright, you have a reservation at the ashley hotel. The reference number is O1T3GRKQ . Can I help you find anything else?
+hotel_inform ( address = "74 chesterton road" ; phone = "01223350059") & They are located at 74 chesterton road. Their number is 01223350059.
+hotel_select ( type = "guesthouse" ; type = "hotel") & I can definitely help with that. Are you leaning toward a guesthouse or hotel?
+hotel_inform ( name = "Acorn Guest House") & Acorn Guest House is available.
+hotel_inform ( choice = "6" ; type = "guesthouses") & Sorry, it doesn't. However there are 6 guesthouses that do. Would you prefer something cheap?
+hotel_inform ( choice = "6" ; type = "guesthouses") & Sorry, it doesn't. However there are 6 guesthouses that do. Would you prefer something cheap?
+hotel_inform ( choice = "6" ; type = "guesthouses") & Sorry, it doesn't. However there are 6 guesthouses that do. Would you prefer something cheap?hotel_select ( pricerange = "cheap") & Sorry, it doesn't. However there are 6 guesthouses that do. Would you prefer something cheap?
+booking_book ( bookpeople = "2" ; bookstay = "4") & I was able to book the Allenbell for 2 people for 4 nights. Would that work for you?
+booking_book ( ref = "KT4UG66C") & Your reference number is KT4UG66C .
+hotel_inform ( area = "north" ; choice = "1" ; choice = "7" ; pricerange = "cheap" ; pricerange = "moderately priced" ; stars = "4") & I have 7 moderately priced properties in the north with 4 stars, and 1 cheap one. Do you have a preference for price?
+hotel_recommend ( name = "Avalon") & Avalon is my favorite. When do you want to stay?
+booking_book ( ref = "HWZZ651R") & Booked! Your reference number is HWZZ651R . Is there anything else you need?
+hotel_inform ( choice = "about 5" ; pricerange = "expensive") & I have about 5 different expensive hotels. Do you prefer a certain area of town?
+hotel_inform ( choice = "5" ; internet = "yes") & All 5 of the expensive hotels in have free wifi. Are you looking for any star rating, to help narrow the search?
+booking_book ( ref = "1H7F4GBJ") & Good news. I checked again at the Huntingdon Marriott, and they were able to accommodate your party. Your reference number is 1H7F4GBJ .
+hotel_inform ( choice = "many" ; stars = "4" ; type = "guesthouses") & I actually have many 4-star guesthouses in town. Is there a certain area that interests you?
+hotel_recommend ( address = "62 Gilbert Road" ; name = "Avalon" ; phone = "01223353071" ; postcode = "cb43pd") & I'd recommend that Avalon, as it fulfills your needs. It's located at 62 Gilbert Road cb43pd and the phone number is 01223353071. Would you like more information?
+booking_book ( ref = "DR0ZGF0P") & Booked! Reference number is: DR0ZGF0P
+hotel_inform ( choice = "variety") & I have a variety of options located all over town. Would you have a preference on the area or maybe a certain price range you prefer?
+hotel_recommend ( name = "Huntingdon Marriott") & Would you care to try the Huntingdon Marriott?
+hotel_inform ( name = "Huntingdon Marriott Hotel" ; postcode = "pe296fl") & The postcode fot eh Huntingdon Marriott Hotel is pe296fl. Would you like for any other information?
+hotel_inform ( choice = "6" ; stars = "4" ; type = "guesthouse") & There are 6 guesthouses all with 4 star ratings that fit your request. Would you like to add any other specifications?
+hotel_inform ( area = "east" ; choice = "3" ; internet = "yes" ; name = "Autumn House" ; name = "Leverton House" ; name = "the Allenbell" ; parking = "yes" ; stars = "4" ; type = "guesthouse") & I have 3 guesthouses in the east. All are 4-star rated and all of them have free wifi and parking. They are the Allenbell, Autumn House and Leverton House.
+hotel_inform ( pricerange = "expensive" ; type = "hotel") & I apologize. There are not any expensive guesthouses in the east area. There is a hotel that is expensive, or we could try a different area.
+hotel_inform ( address = "710 Newmarket Road" ; internet = "yes" ; name = "Autumn House" ; parking = "yes" ; postcode = "CB58RS") & Yes they have internet and parking at Autumn House. They are located at 710 Newmarket Road, CB58RS. Can I help you with anything else?
+hotel_inform ( choice = "9" ; internet = "yes") & Yes, we have 9 hotels that have free wifi. Do you have a preference for area of town or price range?
+hotel_inform ( address = "53-57 Lensfield Road" ; phone = "01223355017" ; stars = "3") & Sure. It's a 3 star hotel. The address is 53-57 Lensfield Road and the phone number is 01223355017. Anything else?
+hotel_inform ( choice = "10") & We have 10 possibilities for you. Do you have any additional preferences?
+booking_book ( ref = "5NA21JWO") & I've made your reservation, and the reference number is 5NA21JWO . What else can I help you with?
+hotel_inform ( area = "east" ; internet = "yes" ; parking = "yes" ; stars = "2") & I do, indeed! It is located in the east, is a 2 star hotel, and has both free internet and parking.
+booking_book ( ref = "OO8QDA62") & Booking was successful. Your reference number is : OO8QDA62 .
+hotel_inform ( choice = "1" ; choice = "7" ; type = "guesthouse" ; type = "hotel") & I have 7 guesthouse and 1 hotel matching your inquiry. Would you like a certain area or price range?
+hotel_inform ( internet = "yes" ; parking = "yes") & It's looking like they all offer both free parking and Wifi. Would you prefer to stay in a particular area of the city?
+booking_book ( ref = "BFT509GX") & You have a reservation at Autumn House, located at 710 newmarket road. Reference number BFT509GX . Can I help you with anything else today?
+hotel_inform ( area = "centre of town" ; area = "north" ; choice = "two" ; name = "City Centre North B & B" ; name = "El Shaddai") & I have two available. I have El Shaddai which is located in the centre of town. And I also have City Centre North B & B located in the north.
+hotel_inform ( choice = "both" ; internet = "yes" ; parking = "yes") & Yes, they both include free parking and wifi.
+booking_book ( ref = "542J9WOG") & I've reserved your room for you, your reference number is 542J9WOG .
+hotel_inform ( area = "north" ; name = "Limehouse" ; pricerange = "moderately") & Yes, the Limehouse is a moderately priced guesthouse on the north side. What other information can I get for you?
+hotel_inform ( name = "Super 5") & I am sorry, but this hotel is not in my records. There is another hotel that is very nice it calls Super 5.
+booking_book ( ref = "N3CVYHHJ") & Sorry about that - the Arbury Lodge guesthouse is, in fact, in my database. Your room is reserved, reference #N3CVYHHJ . Can I help with anything else today?
+booking_book ( ref = "N3CVYHHJ") & Sorry about that - the Arbury Lodge guesthouse is, in fact, in my database. Your room is reserved, reference #N3CVYHHJ . Can I help with anything else today?
+booking_book ( ref = "N3CVYHHJ") & Sorry about that - the Arbury Lodge guesthouse is, in fact, in my database. Your room is reserved, reference #N3CVYHHJ . Can I help with anything else today?hotel_inform ( name = "Arbury Lodge guesthouse") & Sorry about that - the Arbury Lodge guesthouse is, in fact, in my database. Your room is reserved, reference #N3CVYHHJ . Can I help with anything else today?
+hotel_inform ( choice = "3") & We offer three locations with those criteria. Any preference on area?
+hotel_select ( type = "hotel") & I apologize, but we don't have a guesthouse that fits your criteria. Would you like to try a hotel?
+booking_book ( bookday = "Thursday" ; bookpeople = "4" ; bookstay = "5" ; ref = "1KWO2DAQ") & I was able to book the Alexander B&B for you for 4 people and 5 nights starting on Thursday. The reference number is 1KWO2DAQ .
+hotel_inform ( area = "east" ; choice = "6" ; parking = "yes") & There are 6 hotels on the east side with free parking. Do you have a price preference?
+hotel_inform ( area = "east" ; name = "Autumn House" ; pricerange = "cheap" ; type = "guesthouse") & How about the Autumn House, it is a guesthouse that is cheap in the east?
+booking_book ( ref = "HWVZ52NK") & I have made your reservation at the Autumn House. Your reference number is HWVZ52NK . Is there anything else I can help you with?
+hotel_inform ( area = "west side" ; choice = "two" ; pricerange = "cheap" ; pricerange = "moderately priced" ; type = "guesthouses") & There are two guesthouses on the west side, one cheap and one moderately priced.
+hotel_inform ( choice = "both" ; internet = "yes" ; name = "Finches B & B" ; name = "Hobsons House" ; parking = "yes" ; pricerange = "cheaper" ; pricerange = "more moderately priced") & Actually, they both offer free wifi and free parking. Finches B & B is cheaper, and the Hobsons House is more moderately priced. Which do you prefer?
+hotel_inform ( choice = "both" ; internet = "yes" ; name = "Finches B & B" ; name = "Hobsons House" ; parking = "yes" ; pricerange = "cheaper" ; pricerange = "more moderately priced") & Actually, they both offer free wifi and free parking. Finches B & B is cheaper, and the Hobsons House is more moderately priced. Which do you prefer?
+booking_book ( ref = "E7R5KNP0") & Sure thing, your reference number is E7R5KNP0 . Would you like me to help you find anything else today?
+hotel_inform ( choice = "one" ; internet = "yes" ; name = "the Lensfield Hotel" ; parking = "yes" ; stars = "3") & I have one hotel that meets your needs. It's the Lensfield Hotel that offers free wifi and parking. They have a 3 star rating. Would you like more info on it?
+hotel_inform ( name = "The Lensfield Hotel" ; pricerange = "expensive") & The Lensfield Hotel is expensive.
+hotel_inform ( area = "south" ; choice = "2" ; internet = "yes" ; pricerange = "moderately priced" ; type = "guesthouses") & We have 2 locations that are in the south, moderately priced, and have free wifi. They are both guesthouses, would one of those meet your needs?
+hotel_inform ( address = "5 mowbray road" ; name = "aylesbray lodge guest house") & The address to aylesbray lodge guest house is 5 mowbray road! Is there anything else I can help you with?
+hotel_inform ( choice = "5") & I have 5 results that match your criteria, do you have a certain area of town you'd like to stay in or a price range you're looking for?
+hotel_inform ( choice = "two" ; type = "hotels") & Yes there are two hotels. One in the centre and one in the south. Any preference?
+hotel_inform ( choice = "two" ; type = "hotels") & Yes there are two hotels. One in the centre and one in the south. Any preference?
+hotel_inform ( choice = "two" ; type = "hotels") & Yes there are two hotels. One in the centre and one in the south. Any preference?hotel_select ( area = "centre" ; area = "south") & Yes there are two hotels. One in the centre and one in the south. Any preference?
+booking_book ( name = "Gonville Hotel" ; ref = "G6FAO56J") & OK, you are booked into the Gonville Hotel, located in the center of town on Gonville Place. The reference number is G6FAO56J .
+booking_book ( name = "Gonville Hotel" ; ref = "G6FAO56J") & OK, you are booked into the Gonville Hotel, located in the center of town on Gonville Place. The reference number is G6FAO56J .
+booking_book ( name = "Gonville Hotel" ; ref = "G6FAO56J") & OK, you are booked into the Gonville Hotel, located in the center of town on Gonville Place. The reference number is G6FAO56J .hotel_inform ( address = "Gonville Place" ; area = "center of town") & OK, you are booked into the Gonville Hotel, located in the center of town on Gonville Place. The reference number is G6FAO56J .
+hotel_inform ( internet = "yes" ; name = "bridge Guest House" ; parking = "yes" ; stars = "3") & I can get you into the bridge Guest House. It is rated with three stars and has both internet and parking amenitites.
+booking_inform ( bookday = "Tuesday" ; bookpeople = "1" ; bookstay = "3") & Just to verify, you wanted a room at the Lensfield Hotel for Tuesday with one guest and a 3 night stay? Is that correct?
+hotel_inform ( choice = "several") & I certainly can look for that for you. It looks like I have several. Do you prefer a certain price range?
+hotel_inform ( choice = "several") & We have several! Do you wish to stay in a certain part of town?
+booking_book ( ref = "UA3N0Q3R") & I have you book for that time, the reference code is UA3N0Q3R .
+booking_book ( ref = "UXVWQEL9") & Your reservation is set, reference number is UXVWQEL9 . Is there anything else I can help you with today?

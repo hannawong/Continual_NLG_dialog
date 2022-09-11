@@ -1,0 +1,140 @@
+CONFIRM ( account_type = "checking" ; amount = "$950" ; recipient_account_name = "Pranav" ; recipient_account_type = "checking") & Please confirm your banking details: Transfer $950 from the checking account to Pranav.
+OFFER ( balance = "$16,528.58" ; account_type = "checking") & Your checking account balance is $16,528.58.
+OFFER ( balance = "$1,450.64" ; account_type = "savings") & Your savings account balance is $1,450.64.
+CONFIRM ( account_type = "savings" ; amount = "$40" ; recipient_account_name = "Amir" ; recipient_account_type = "checking") & Ok, You asked for a transfer from your savings to checking account of Amir an amount of $40, correct?
+OFFER ( balance = "$2,776.78" ; account_type = "checking") & You have $2,776.78 in your checking account.
+OFFER ( balance = "$9,243.86" ; account_type = "savings") & Your savings account has a balance of $9,243.86.
+CONFIRM ( account_type = "checking" ; amount = "$1,790" ; recipient_account_name = "Maria" ; recipient_account_type = "savings") & Please confirm you want me to send Maria $1,790 from your checking account to her savings account.
+OFFER ( balance = "$19,301.47" ; account_type = "checking") & Your checking account has a balance of $19,301.47.
+OFFER ( balance = "$24,605.20" ; account_type = "savings") & There is a balance of $24,605.20 in your savings account.
+CONFIRM ( account_type = "savings" ; amount = "$1,320" ; recipient_account_name = "Raghav" ; recipient_account_type = "checking") & Please confirm the following: Transferring $1,320 to Raghav from your savings account to their checking account.
+OFFER ( balance = "$8,738.77" ; account_type = "checking") & The balance in your checking account is $8,738.77.
+CONFIRM ( account_type = "checking" ; amount = "$1,320" ; recipient_account_name = "Raghav" ; recipient_account_type = "checking") & You want to send $1,320 out of your checking account into the checking account of Raghav. Is that right?
+OFFER ( balance = "$13,893.90" ; account_type = "checking") & Your checking account balance is $13,893.90.
+CONFIRM ( account_type = "savings" ; amount = "$570" ; recipient_account_name = "Sanuj" ; recipient_account_type = "savings") & Please confirm the transfer of $570 from my savings account to Sanuj and their savings account.
+OFFER ( balance = "$10,909.29" ; account_type = "checking") & The balance in your checking account is $10,909.29.
+OFFER ( balance = "$23,217.82" ; account_type = "savings") & The balance in your savings account is $23,217.82 .
+CONFIRM ( account_type = "checking" ; amount = "$1,490" ; recipient_account_name = "Xiaoxue" ; recipient_account_type = "checking") & Please confirm that you want to transfer $1,490 to Xiaoxue from your checking account to their checking account.
+OFFER ( balance = "$3,275.40" ; account_type = "checking") & The balance is $3,275.40 in your checking account.
+OFFER ( balance = "$13,005.30" ; account_type = "savings") & You have $13,005.30 in your savings account.
+CONFIRM ( account_type = "savings" ; amount = "$560" ; recipient_account_name = "Maria" ; recipient_account_type = "checking") & Please confirm the following: You want to transfer $560 from savings to Maria's checking account.
+OFFER ( balance = "$21,274.22" ; account_type = "checking") & The balance of your checking account is $21,274.22.
+OFFER ( balance = "$23,926.36" ; account_type = "savings") & The balance of your savings account is $23,926.36.
+CONFIRM ( account_type = "savings" ; amount = "$1,710" ; recipient_account_name = "Amir" ; recipient_account_type = "savings") & Please confirm: transfer $1,710 from your savings account to Amir's savings account.
+OFFER ( balance = "$22,757.34" ; account_type = "checking") & Your checking account balance is $22,757.34.
+OFFER ( balance = "$13,663.78" ; account_type = "savings") & Your savings account balance is $13,663.78.
+CONFIRM ( account_type = "checking" ; amount = "$1,280" ; recipient_account_name = "Pranav" ; recipient_account_type = "checking") & Please confirm the following details: transfer of $1,280 from your checking account to Pranav's Checking account
+OFFER ( balance = "$15,546.24" ; account_type = "checking") & The balance from your checking account is $15,546.24
+CONFIRM ( account_type = "savings" ; amount = "$1,730" ; recipient_account_name = "Abhinav" ; recipient_account_type = "checking") & Okay, can you please confirm that you would like to transfer $1,730 from your savings account to the checking account of Abhinav.
+OFFER ( balance = "$11,521.70" ; account_type = "checking") & Your checking account balance is $11,521.70.
+OFFER ( balance = "$13,890.24" ; account_type = "savings") & Yes I can, your savings account balance is $13,890.24.
+CONFIRM ( account_type = "checking" ; amount = "$1,730" ; recipient_account_name = "Abhinav" ; recipient_account_type = "checking") & To be clear: $1,730. from your checking to Abhinav checking.
+OFFER ( balance = "$12,130.27" ; account_type = "checking") & You have $12,130.27 in your checking.
+CONFIRM ( account_type = "savings" ; amount = "$1,120" ; recipient_account_name = "Amir" ; recipient_account_type = "checking") & So you'd like to transfer $1,120 to Amir's checking account from your savings account. Is this correct?
+OFFER ( balance = "$18,980.51" ; account_type = "checking") & The balance in your checking account is $18,980.51.
+OFFER ( balance = "$17,533.43" ; account_type = "savings") & The balance in your savings account is $17,533.43.
+CONFIRM ( account_type = "checking" ; amount = "$1,120" ; recipient_account_name = "Amir" ; recipient_account_type = "checking") & To be sure, you want to send $1,120 from your checking account to the checking account belonging to Amir.
+OFFER ( balance = "$3,672.20" ; account_type = "checking") & Your balance is $3,672.20 in your checking account.
+CONFIRM ( account_type = "savings" ; amount = "$1,370" ; recipient_account_name = "Sanuj" ; recipient_account_type = "checking") & I have $1,370 being transferred from your savings account to Sanuj in his checking account.
+OFFER ( balance = "$5,328.52" ; account_type = "checking") & Your checking account has $5,328.52.
+CONFIRM ( account_type = "checking" ; amount = "$640" ; recipient_account_name = "Raghav" ; recipient_account_type = "checking") & Please confirm: transfer $640 from my checking account to checking account of Raghav.
+OFFER ( balance = "$20,892.84" ; account_type = "checking") & The balance of your checking account is $20,892.84.
+CONFIRM ( account_type = "savings" ; amount = "$1,650" ; recipient_account_name = "Abhinav" ; recipient_account_type = "checking") & Please confirm your transfer of $1,650 to Abhinav from your savings account to their checking account.
+OFFER ( balance = "$24,791.78" ; account_type = "checking") & You have a balance of $24,791.78 in your checking account
+CONFIRM ( account_type = "checking" ; amount = "$1,650" ; recipient_account_name = "Abhinav" ; recipient_account_type = "savings") & Please confirm: transfer $1,650 from my checking account to Abhinav's savings account
+OFFER ( balance = "$15,898.80" ; account_type = "checking") & Your checking account balance is $15,898.80.
+CONFIRM ( account_type = "savings" ; amount = "$140" ; recipient_account_name = "Pranav" ; recipient_account_type = "checking") & Please confirm the following details. Transfer $140 to Pranav from my savings account. Send it to their checking account.
+OFFER ( balance = "$19,756.64" ; account_type = "checking") & The balance from your checking account is $19,756.64.
+CONFIRM ( account_type = "checking" ; amount = "$1,720" ; recipient_account_name = "Xiaoxue" ; recipient_account_type = "checking") & To verify: You would like to send $1,720 from your checking account to Xiaoxue into their checking account.
+OFFER ( balance = "$14,257.61" ; account_type = "checking") & Your checking account balance is $14,257.61.
+CONFIRM ( account_type = "savings" ; amount = "$740" ; recipient_account_name = "Srinivas" ; recipient_account_type = "checking") & Please confirm, from you savings an amount of $740 to Mr. Srinivas to his checking account.
+OFFER ( balance = "$15,362.67" ; account_type = "checking") & You checking account shows a balance of $15,362.67
+CONFIRM ( account_type = "checking" ; amount = "$740" ; recipient_account_name = "Srinivas" ; recipient_account_type = "checking") & Please confirm; transfer $740 from my checking account to Srinivas' checking account.
+OFFER ( balance = "$15,464.11" ; account_type = "checking") & The balance of your checking account is $15,464.11.
+CONFIRM ( account_type = "savings" ; amount = "$1,530" ; recipient_account_name = "Sanuj" ; recipient_account_type = "checking") & I need a confirmation: You want me to transfer $1,530 from your savings account, and you would like to send it to Sanuj's checking account.
+OFFER ( balance = "$8,023.30" ; account_type = "checking") & Your checking balance is $8,023.30.
+CONFIRM ( account_type = "checking" ; amount = "$500" ; recipient_account_name = "Maria" ; recipient_account_type = "savings") & So you'll be sending $500 from your checking account to Maria's savings account?
+OFFER ( balance = "$334.86" ; account_type = "checking") & Your checking account has a balance of $334.86.
+OFFER ( balance = "$24,874.37" ; account_type = "savings") & Your savings account has a balance of $24,874.37.
+CONFIRM ( account_type = "savings" ; amount = "$350" ; recipient_account_name = "Srinivas" ; recipient_account_type = "checking") & Okay, please confirm that you'd like to send $350 from your savings account to Srinivas' checking account.
+OFFER ( balance = "$18,272.35" ; account_type = "checking") & The balance of your checking account is $18,272.35.
+OFFER ( balance = "$20,124.12" ; account_type = "savings") & The balance of your savings account is $20,124.12.
+CONFIRM ( account_type = "checking" ; amount = "$370" ; recipient_account_name = "Raghav" ; recipient_account_type = "checking") & Transfer $370 from my checking account to Raghav checking account. Do you confirm?
+OFFER ( balance = "$3,592.29" ; account_type = "checking") & The checking account balance is $3,592.29
+CONFIRM ( account_type = "savings" ; amount = "$370" ; recipient_account_name = "Raghav" ; recipient_account_type = "checking") & Okay confirming, transfer $370 from savings to Raghav's checking account.
+OFFER ( balance = "$8,347.10" ; account_type = "checking") & Checking account balance is $8,347.10.
+OFFER ( balance = "$4,483.90" ; account_type = "savings") & Savings account balance is $4,483.90.
+CONFIRM ( account_type = "checking" ; amount = "$1,420" ; recipient_account_name = "Amir" ; recipient_account_type = "savings") & Could you confirm the following details? Transfer $1,420 from my checking account to Amir's savings account.
+OFFER ( balance = "$2,731.34" ; account_type = "checking") & The balance from your checking account is $2,731.34.
+CONFIRM ( account_type = "savings" ; amount = "$1,650" ; recipient_account_name = "Pranav" ; recipient_account_type = "checking") & Of course. Just to confirm, are you happy for me to send $1,650 from your savings account to Pranav's checking account?
+OFFER ( balance = "$15,369.61" ; account_type = "checking") & Sure, you've got $15,369.61 in your checking account
+CONFIRM ( account_type = "checking" ; amount = "$120" ; recipient_account_name = "Pranav" ; recipient_account_type = "checking") & To confirm then that is $120 transferred from my checking account to Pranav to their checking account?
+OFFER ( balance = "$20,591.27" ; account_type = "checking") & In your checking account there is $20,591.27.
+CONFIRM ( account_type = "savings" ; amount = "$120" ; recipient_account_name = "Pranav" ; recipient_account_type = "checking") & To review: You would like to transfer $120 to Pranav's checking account, from your savings account.
+OFFER ( balance = "$11,097.42" ; account_type = "checking") & The total balance in your checking account today is $11,097.42
+CONFIRM ( account_type = "savings" ; amount = "$1,180" ; recipient_account_name = "Maria" ; recipient_account_type = "savings") & Just to be clear: Send $1,180 from my savings to savings of Maria.
+OFFER ( balance = "$18,272.54" ; account_type = "checking") & Easy enough, the balance in your checking is now $18,272.54.
+OFFER ( balance = "$23,294.20" ; account_type = "savings") & The savings account balance is now $23,294.20.
+CONFIRM ( account_type = "checking" ; amount = "$1,550" ; recipient_account_name = "Srinivas" ; recipient_account_type = "checking") & To verify: You would like to send $1,550 from your checking account to Srinivas checking account.
+OFFER ( balance = "$5,539.40" ; account_type = "checking") & Your checking account balance is $5,539.40
+OFFER ( balance = "$6,863.76" ; account_type = "savings") & Your savings account has a balance of $6,863.76.
+CONFIRM ( account_type = "savings" ; amount = "$1,550" ; recipient_account_name = "Srinivas" ; recipient_account_type = "checking") & Transfer $1,550 to Srinivas from your savings account to their checking account. Is this correct?
+OFFER ( balance = "$4,203.74" ; account_type = "checking") & Your checking account balance is $4,203.74.
+CONFIRM ( account_type = "checking" ; amount = "$1,320" ; recipient_account_name = "Sanuj" ; recipient_account_type = "checking") & I will be transferring $1,320 from your checking account to the checking account of Sanuj, is that correct?
+OFFER ( balance = "$16,171.43" ; account_type = "checking") & Your checking account balance is $16,171.43.
+CONFIRM ( account_type = "checking" ; amount = "$110" ; recipient_account_name = "Abhinav" ; recipient_account_type = "checking") & Okay. Can you confirm the following details, please? You are transferring $110 from your checking account into the checking account of Abhinav.
+OFFER ( balance = "$10,179.46" ; account_type = "checking") & All right. Your checking account balance is now $10,179.46.
+OFFER ( balance = "$10,105.16" ; account_type = "savings") & Your savings account balance is now $10,105.16.
+CONFIRM ( account_type = "savings" ; amount = "$110" ; recipient_account_name = "Abhinav" ; recipient_account_type = "checking") & Please do confirm the following details: transfer from your savings account an amount of $110 to Abhinav's checking account.
+OFFER ( balance = "$12,824.59" ; account_type = "checking") & Your current balance is $12,824.59 in your checking account.
+CONFIRM ( account_type = "checking" ; amount = "$820" ; recipient_account_name = "Abhinav" ; recipient_account_type = "checking") & Please confirm that you want to transfer $820 from your checking account to Abhinav's checking account.
+OFFER ( balance = "$1,696.61" ; account_type = "checking") & The balance in your 1 checking account is $1,696.61.
+OFFER ( balance = "$1,696.61" ; account_type = "checking") & The balance in your 1 checking account is $1,696.61.
+OFFER ( balance = "$1,696.61" ; account_type = "checking") & The balance in your 1 checking account is $1,696.61.INFORM_COUNT ( count = "1") & The balance in your 1 checking account is $1,696.61.
+CONFIRM ( account_type = "savings" ; amount = "$820" ; recipient_account_name = "Abhinav" ; recipient_account_type = "checking") & Kindly ensure that, $820 has been transferred from savings account to Abhinav's checking account.
+OFFER ( balance = "$7,489.74" ; account_type = "checking") & Your checking account balance is $7,489.74.
+CONFIRM ( account_type = "checking" ; amount = "$240" ; recipient_account_name = "Sanuj" ; recipient_account_type = "checking") & We are almost done. Please confirm that the following is correct: Transfer $240 from my checking account to Sanuj's checking account.
+OFFER ( balance = "$23,717.17" ; account_type = "checking") & Okay. The balance in your checking account is $23,717.17.
+OFFER ( balance = "$15,670.49" ; account_type = "savings") & Okay, your savings account has a balance of $15,670.49.
+CONFIRM ( account_type = "savings" ; amount = "$490" ; recipient_account_name = "Xiaoxue" ; recipient_account_type = "checking") & Transferring $490 from savings and depositing into Xiaoxue checking account. Is that correct?
+OFFER ( balance = "$15,443.12" ; account_type = "checking") & $15,443.12 is your checking account balance.
+OFFER ( balance = "$22,561.39" ; account_type = "savings") & $22,561.39 is your savings account balance.
+CONFIRM ( account_type = "checking" ; amount = "$590" ; recipient_account_name = "Amir" ; recipient_account_type = "checking") & Confirm the following details: Transfer $590 form the checking account to Amir's checking account
+OFFER ( balance = "$16,833.74" ; account_type = "checking") & The balance in your checking account is $16,833.74
+OFFER ( account_type = "checking" ; account_balance = "$24,819.36") & Yes, I can help. Your checking account balance is currently $24,819.36.
+CONFIRM ( account_type = "checking" ; transfer_amount = "$1,200" ; recipient_name = "Yumi" ; recipient_account_type = "savings") & Please confirm: You will be sending Yumi $1,200 from your checking out to their savings account.
+INFORM ( transfer_time = "3") & Your transfer is successfully initiated. It will take about 3 business days.
+INFORM ( transfer_time = "3") & Your transfer is successfully initiated. It will take about 3 business days.
+OFFER ( account_type = "checking" ; account_balance = "$12,886.54") & Your checking account has $12,886.54.
+OFFER ( account_type = "savings" ; account_balance = "$3,232.84") & Your savings account has $3,232.84.
+CONFIRM ( account_type = "savings" ; transfer_amount = "$1,630" ; recipient_name = "Diego" ; recipient_account_type = "savings") & Kindly ensure that, transfer $1,630 from my savings account to Diego 's savings account.
+INFORM ( transfer_time = "3") & It will be done in 3 business days.
+OFFER ( account_type = "savings" ; account_balance = "$19,703.30") & Your savings account balance is $19,703.30.
+OFFER ( account_type = "checking" ; account_balance = "$4,165.22") & Your checking account balance is $4,165.22.
+CONFIRM ( account_type = "checking" ; transfer_amount = "$710" ; recipient_name = "Grace" ; recipient_account_type = "checking") & Please confirm that you want me to transfer $710 from your checking account to the checking account of Grace.
+INFORM ( transfer_time = "1") & Your transfer has been successfully initiated and will take 1 business day to complete.
+INFORM ( transfer_time = "1") & Your transfer has been successfully initiated and will take 1 business day to complete.
+OFFER ( account_type = "checking" ; account_balance = "$843.14") & The balance of your checking account is $843.14
+OFFER ( account_type = "savings" ; account_balance = "$17,106.16") & The balance of your savings account is $17,106.16
+CONFIRM ( account_type = "savings" ; transfer_amount = "$1,170" ; recipient_name = "Jasbir" ; recipient_account_type = "savings") & Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir?
+INFORM ( transfer_time = "3") & Your transfer has been initiated; it should take around 3 business days.
+INFORM ( transfer_time = "3") & Your transfer has been initiated; it should take around 3 business days.
+OFFER ( account_type = "checking" ; account_balance = "$11,570.74") & Your checking account balance is found to be $11,570.74
+OFFER ( account_type = "savings" ; account_balance = "$19,945.43") & The balance amount in savings is $19,945.43
+CONFIRM ( account_type = "savings" ; transfer_amount = "$50" ; recipient_name = "JUstin" ; recipient_account_type = "checking") & Please confirm your transfer details, an amount of $50 from your savings account to the checking account of Mr.JUstin
+INFORM ( transfer_time = "3") & In 3 business days it will be transferred which has been already initiated.
+INFORM ( transfer_time = "3") & In 3 business days it will be transferred which has been already initiated.
+OFFER ( account_type = "checking" ; account_balance = "$23,352.71") & Your checking balance is $23,352.71
+OFFER ( account_type = "savings" ; account_balance = "$7,976.46") & Your savings stands at $7,976.46
+CONFIRM ( account_type = "savings" ; transfer_amount = "$1,790" ; recipient_name = "mom" ; recipient_account_type = "checking") & Confirming a $1,790 transfer from your savings to the checking account of mom.
+INFORM ( transfer_time = "3") & It will take a total of 3 business days
+OFFER ( account_type = "savings" ; account_balance = "$3,520.45") & Your savings account currently has $3,520.45.
+OFFER ( account_type = "checking" ; account_balance = "$19,865.14") & Your checking account has $19,865.14.
+CONFIRM ( account_type = "checking" ; transfer_amount = "$1,150" ; recipient_name = "Grace" ; recipient_account_type = "checking") & So, send $1,150 from your checking account to the checking account of Grace?
+OFFER ( account_type = "checking" ; account_balance = "$23,389.17") & You have $23,389.17 in your checking account.
+OFFER ( account_type = "savings" ; account_balance = "$10,764.11") & You have $10,764.11 in your savings account.
+CONFIRM ( account_type = "savings" ; transfer_amount = "$730" ; recipient_name = "Philip" ; recipient_account_type = "checking") & Seeking approval to transfer $730 from your savings account to the checking account of Philip.
+INFORM ( transfer_time = "3") & The transfer has been initiated and it should be complete within 3 business days.
+INFORM ( transfer_time = "3") & The transfer has been initiated and it should be complete within 3 business days.
+OFFER ( account_type = "checking" ; account_balance = "$23,362.72") & OK, I have $23,362.72 in your checking.
+CONFIRM ( account_type = "checking" ; transfer_amount = "$550" ; recipient_name = "Philip" ; recipient_account_type = "checking") & Got it: Transfer $550 from your checking to Philip checking account, right?

@@ -1,0 +1,151 @@
+coffee_ordering ( location_store_accept = "So that's a small caffe mocha with 2%, no whipped cream f" ; size_drink_accept = "small" ; name_drink_accept = "caffe mocha" ; type_milk_accept = "2" ; preference_accept = "no whipped cream") & So that's a small caffe mocha with 2%, no whipped cream from the peets on washington square in new york.
+coffee_ordering ( preference = "whipped cream") & sure, any whipped cream?
+coffee_ordering ( size_drink_accept = "tall" ; preference_accept = "extra sugar" ; name_drink_accept = "blonde flat white") & so i have a tall iced blonde flat white with extra sugar, is that correct?
+coffee_ordering ( preference = "whipped cream") & any syrup or whipped cream?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "caffe americano" ; type_milk_accept = "2%, whipped" ; preference_accept = "chocolate syrup" ; location_store_accept = "the starbucks on 24th Avenue") & So I have a grande caffe americano with, 2%, whipped cream, and chocolate syrup from the starbucks on 24th Avenue.
+coffee_ordering ( preference = "whipped cream") & sure, Would you like whipped cream?
+coffee_ordering ( size_drink_accept = "venti" ; name_drink_accept = "mocha" ; type_milk_accept = "2% milk" ; preference_accept = "whipped cream") & so a venti mocha with 2% milk and whipped cream, correct?
+coffee_ordering ( location_store_accept = "colt st") & where would you like to pick it up? ok, your coffee will be ready for pickup soon at the starbucks on colt st.
+coffee_ordering ( preference_reject = "whipped cream") & ok would you like to add whipped cream?
+coffee_ordering ( size_drink_accept = "short" ; num_drink_accept = "caffe mocha" ; type_milk_accept = "2% milk" ; location_store_accept = "westlake mall in daly city starbucks") & ok, let me place that order for you. ok, i have a short caffe mocha with 2% milk, to be picked up in westlake mall in daly city starbucks.
+coffee_ordering ( name_drink_accept = "t, give me a moment to sen") & Alright, give me a moment to send over your order.
+coffee_ordering ( preference = "order has") & alright. Your order has been sent to your desired location. It will be ready for pickup in 5-8 min.
+coffee_ordering ( preference = "a great") & You're very welcome. Have a great day.
+coffee_ordering ( preference = "regular") & Iced or regular?
+coffee_ordering ( preference = "syrups") & Got it. did you want whipped cream or any syrups?
+coffee_ordering ( name_drink_accept = "venti iced caramel machiato" ; location_store_accept = "7th avenue") & got it. that's a venti iced caramel machiato from the starbucks on 7th avenue.
+coffee_ordering ( location_store_accept = "kansas city") & I've ordered your drink for you at Starbucks in kansas city. it should be ready for pick up in 9 minutes. Your receipt will be sent to your mobile device via text message shortly.
+coffee_ordering ( size_drink_accept = "venti" ; name_drink_accept = "white mocha" ; preference_accept = "whipped cream") & Got it. I'll go ahead and place an order for your venti iced black and white mocha with chocolate syrup, no whipped cream.
+coffee_ordering ( preference = "whipped cream" ; size_drink_accept = "tall" ; name_drink_accept = "cinnamon dolce latte" ; type_milk_accept = "whole milk" ; preference_accept = "whipped cream") & Would you like whipped cream? so i have a a tall cinnamon dolce latte, with whole milk and whipped cream. Did i get that right?
+coffee_ordering ( location_store_accept = "eerie pennsylvania.") & ok, your're all set. Your coffee will be ready for pickup soon at the starbucks in eerie pennsylvania.
+coffee_ordering ( preference = "whipped") & ok. would you like any whipped cream as well?
+coffee_ordering ( size_drink_accept = "grande" ; preference_accept = "whipped cream" ; num_drink = "caramel latte" ; type_milk_accept = "skim") & so just to confirm, it's a grande iced caramel latte with skim milk and whipped cream. is this correct?
+coffee_ordering ( location_store_accept = "the starbucks at danforth") & did you say the starbucks at danforth?
+coffee_ordering ( size_drink_accept = "medium" ; name_drink_accept = "golden caffe latte" ; preference_accept = "2% milk" ; location_store_accept = "northwest highway 99 in vancouver washington") & i have ordered you a medium golden caffe latte with 2% milk to be picked up at the pete's on northwest highway 99 in vancouver washington.
+coffee_ordering ( preference = "hot") & was that iced or hot?
+coffee_ordering ( type_milk = "whole milk") & and did you want another milk type, or should i keep it to the standard whole milk?
+coffee_ordering ( num_drink_accept = "1" ; size_drink_accept = "venti" ; preference_accept = "hot" ; name_drink_accept = "salted caramel mocha" ; type_milk_accept = "whole milk" ; location_store_accept = "horsham road in horsham, pennsylvania") & ok. so 1 venti hot salted caramel mocha with whole milk from starbucks on horsham road in horsham, pennsylvania will come out to $4.50. should i place the order now?
+coffee_ordering ( num_drink_accept = "1" ; preference_accept = "hot" ; size_drink_accept = "venti" ; name_drink_accept = "caramel macchiato" ; type_milk_accept = "2% milk" ; location_store_accept = "archer avenue in downtown chicago") & 1 hot venti caramel macchiato with 2% milk from starbucks on archer avenue in downtown chicago will be $4.55. should i place the order for you now?
+coffee_ordering ( name_drink_accept = "cappachino" ; type_milk_accept = "2% milk" ; preference_accept = "whipped cream" ; location_store_accept = "golden rod in orlando") & ok, let me place that order for you, one moment. so i have placed an order for a cappachino with 2% milk and whipped cream to be picked up at the starbucks at golden rod in orlando, is that correct?
+coffee_ordering ( type_milk = "Almond milk") & peets has Non-fat, 2%, Whole, Soy, and Almond milk.
+coffee_ordering ( preference = "sweetener or syrups") & ok, and do you want any sweetener or syrups in your drink.
+coffee_ordering ( location_store = "in chicago") & Got it, i've placed your order at the peets in chicago. The receipt will be sent to your mobile device.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "iced blonde cinnamon cloud machiatto" ; type_milk_accept = "coconut milk" ; preference_accept = "stevia") & so your order is: a grande iced blonde cinnamon cloud machiatto with coconut milk and stevia, correct?
+coffee_ordering ( type_milk = "soy milk") & did you say you want to order soy milk?
+coffee_ordering ( size_drink = "venti") & they have tall, grande and venti. pick one. they have tall, grande and venti pick one.
+coffee_ordering ( preference = "whipped cream") & alright! 2 extra shots and whipped cream.
+coffee_ordering ( size_drink_accept = "short" ; name_drink_accept = "caramel macchiato" ; type_milk_accept = "non-fat milk" ; location_store = "olympic and olive") & ok, i have ordered you a short caramel macchiato with non-fat milk to be picked up at the starbucks on olympic and olive.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "mocha latte" ; type_milk_accept = "2% milk" ; preference_accept = "no whipped cream") & ok, you are ordering a grande mocha latte with 2% milk and no whipped cream, is that correct?
+coffee_ordering ( location_store_accept = "57 main street") & ok, i'll send your order to the location on 57 main street.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "cinnamon cloud macchiato" ; type_milk_accept = "whole milk" ; location_store = "at fort gratiot") & ok, you are picking up a grande cinnamon cloud macchiato with whole milk to be picked up at the starbucks at fort gratiot, is that correct?
+coffee_ordering ( preference = "hot") & did you want it iced or hot?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "nitro brewed blonde coffee" ; preference_accept = "sweet cream") & one moment while i check. ok, confirming your order of grande nitro brewed blonde coffee with sweet cream is that correct?
+coffee_ordering ( location_store_accept = "stanschluter drive") & did you say stanschluter drive?
+coffee_ordering ( preference = "syrups") & would you like any whipped cream or syrups?
+coffee_ordering ( size_drink_accept = "tall" ; name_drink_accept = "caramel macchiato" ; preference_accept = "whipped cream" ; location_store_accept = "black forest drive") & So that's a tall caramel macchiato with whipped cream from the starbucks on black forest drive.
+coffee_ordering ( type_milk_reject = "skim milk") & and you said skim milk right?
+coffee_ordering ( type_milk_accept = "Whole milk") & Whole milk. very different, my apologies.
+coffee_ordering ( location_store = "central avenue") & it looks like the one on central avenue is closest, is that ok with you?
+coffee_ordering ( size_drink_accept = "venti" ; preference_accept = "iced" ; type_milk_accept = "half and half" ; location_store_accept = "central avenue") & great, i have ordered you a venti iced coffee with half and half to be picked up at the starbucks on central avenue, is that correct?
+coffee_ordering ( preference = "whipped cream") & do you want whipped cream?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "latte" ; type_milk_accept = "whole milk" ; preference_accept = "whipped cream") & so your order is a grande latte with whole milk and whipped cream, correct?
+coffee_ordering ( location_store_accept = "fort gratiot") & ok, your coffee will be ready for pickup soon at the starbucks in fort gratiot.
+coffee_ordering ( preference = "hot") & did you want that iced or hot?
+coffee_ordering ( size_drink = "venti" ; name_drink = "iced juniper latte" ; type_milk = "almond milk") & ok, so you are ordering a venti iced juniper latte with almond milk, correct?
+coffee_ordering ( size_drink_accept = "venti" ; name_drink_accept = "iced juniper latte" ; type_milk_accept = "almond milk" ; location_store = "starbucks in daly city, ca") & one moment while i place your order. ok, i have ordered you a venti iced juniper latte with almond milk to be picked up at the starbucks in daly city, ca, is that correct?
+coffee_ordering ( location_store_accept = "starbucks on san mateo blvd") & sure, let me find the starbucks closest to you. is the starbucks on san mateo blvd close to you?
+coffee_ordering ( preference = "whipped cream") & Would you like whipped cream?
+coffee_ordering ( name_drink_accept = "Cherry Mocha" ; preference_accept = "whipped cream" ; type_milk_accept = "2% milk") & So a Cherry Mocha with honey, 2% milk and whipped cream. Correct?
+coffee_ordering ( location_store_accept = "Downtown Wichita") & Ok, your coffee will be ready for pickup soon at the Starbucks in Downtown Wichita.
+coffee_ordering ( preference = "whipped cream") & Would you like whipped cream?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "frapuccino" ; preference_accept = "whipped cream") & so a grande frapuccino with whipped cream, correct?
+coffee_ordering ( location_store_accept = "1002 north dale north dale mabry highway") & ok, your coffee will be ready for pickup soon at the starbucks at 1002 north dale north dale mabry highway.
+coffee_ordering ( name_drink = "grande caffe latte" ; type_milk = "2% milk") & got it, so you are ordering a grande caffe latte with 2% milk.
+coffee_ordering ( location_store = "H street.") & did you say eighth street or H street.
+coffee_ordering ( size_drink_accept = "tall caffe" ; name_drink_accept = "caffe latte") & ok, a tall caffe latte. any milk preference?
+coffee_ordering ( preference_reject = "whipped cream") & Would you like whipped cream?
+coffee_ordering ( size_drink_accept = "venti" ; name_drink_accept = "cordusio" ; type_milk_accept = "almond milk") & So a venti cordusio with almond milk, correct?
+coffee_ordering ( location_store = "Starbucks at main and 1st") & Ok, your coffee will be ready for pickup soon at the Starbucks at main and 1st.
+coffee_ordering ( location_store = "4th street") & you said 4th street?
+coffee_ordering ( name_drink = "caffe latte") & great, and you said you wanted a caffe latte?
+coffee_ordering ( size_drink = "grande" ; name_drink = "caramel brulee latte" ; type_milk = "2% milk" ; preference = "whipped cream") & got it, so you are ordering a grande caramel brulee latte with 2% milk and whipped cream, is that correct?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "americano") & ok, your grande americano will be ready for pickup soon.
+coffee_ordering ( size_drink = "grande") & would a grande be ok?
+coffee_ordering ( size_drink = "grande" ; name_drink = "caffe latte" ; preference_accept = "no milk") & ok, so i have a grande caffe latte with no milk, is that correct?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "caffe latte" ; location_store_accept = "westlake starbucks, daly city, ca") & i have ordered your grande caffe latte to be picked up at westlake starbucks, daly city, ca, is that correct?
+coffee_ordering ( location_store = "highway 6") & Alright, one moment. I've found multiple locations along highway 6, which one do you prefer?
+coffee_ordering ( location_store_accept = "4751 State Hwy N") & oh i see, one sec. Okay, got it. 4751 State Hwy N.
+coffee_ordering ( size_drink_accept = "Venti" ; name_drink_accept = "Caffe Americano") & Alright, all set. you Venti Caffe Americano, will be ready for pickup in 5-8 min.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "cappuccino" ; type_milk_accept = "2% milk" ; preference_reject = "syrups") & got it. So that's a grande cappuccino with 2% milk no syrups on main street.
+coffee_ordering ( name_drink = "chai latte") & Great, I personally reccomend the chai latte from starbucks.
+coffee_ordering ( size_drink = "grande" ; name_drink = "chai latte") & Okay so I have a grande chai latte, anything else?
+coffee_ordering ( location_store = "Sunset") & Sunset?
+coffee_ordering ( location_store = "sunset ave") & Is that sunset blvd or sunset ave?
+coffee_ordering ( preference = "whipped cream") & any whipped cream?
+coffee_ordering ( size_drink = "grande" ; name_drink = "black and white mocha" ; type_milk = "whole milk" ; preference = "whipped cream") & ok, so you are ordering a grande black and white mocha with whole milk and whipped cream, is that correct?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "black and white mocha" ; type_milk_accept = "whole milk" ; preference_accept = "whipped cream" ; location_store_accept = "westlake, daly city, ca") & one moment while i place your order. i have ordered you a grande black and white mocha with whole milk and whipped cream to be picked up at the starbucks in westlake, daly city, ca, is that correct?
+coffee_ordering ( preference = "hot") & did you want the drink iced or hot?
+coffee_ordering ( preference = "whipped cream") & would you like whipped cream?
+coffee_ordering ( location_store_accept = "courtland") & and you want to pick it up at the starbucks in courtland, correct?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "americano" ; type_milk_accept = "nonfat milk") & so i have a grande americano, with nonfat milk. did i get it right?
+coffee_ordering ( location_store = "moss plaza") & let me check for you. what city and state are you in? i see one at gilmore station and one at moss plaza, are any of those close to you?
+coffee_ordering ( name_drink = "frappachino's") & one moment while i order that. it doesn't look like pete's does frappachino's would you like to order from starbucks instead?
+coffee_ordering ( name_drink = "the iced white chocolate mocha" ; preference = "whipped cream") & let me look through their menu and recommend a few drinks to you. would you like to try the iced caffe mocha or the iced white chocolate mocha? they both have whipped cream on top.
+coffee_ordering ( name_drink = "iced caffe mocha") & ok, what size would you like your iced caffe mocha?
+coffee_ordering ( size_drink_accept = "medium" ; name_drink_accept = "iced caffe mocha" ; type_milk_accept = "non-fat milk" ; preference_accept = "whipped cream" ; location_store_accept = "moss plaza") & i have ordered a medium iced caffe mocha with non-fat milk and whipped cream to be picked up at the pete's at moss plaza, is that correct?
+coffee_ordering ( preference_accept = "iced") & would you like that iced?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "iced caramel macchiato" ; type_milk_accept = "whole milk" ; location_store_accept = "daly city, ca, westlake shopping center") & ok, one moment while i order your coffee. ok, i have a grande iced caramel macchiato with whole milk to be picked up in daly city, ca, westlake shopping center, is that correct?
+coffee_ordering ( location_store_accept = "broadway in edmon oklahoma") & got it. I've ordered your drink for you at Starbucks on broadway in edmon oklahoma. it should be ready for pick up in about 9 minutes. Your receipt will be sent to your mobile device via text message shortly.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "cafe mocha" ; preference = "whipped cream" ; type_milk_accept = "2% milk") & ok, so a grande cafe mocha, no whipped cream and 2% milk, correct?
+coffee_ordering ( location_store_accept = "123 main street") & ok, your coffee will be ready for pickup soon at the starbucks at 123 main street.
+coffee_ordering ( preference = "whipped cream") & Would you like whipped cream?
+coffee_ordering ( size_drink_accept = "small" ; name_drink_accept = "golden macha latte" ; type_milk_accept = "2% milk" ; preference_accept = "whipped cream") & so a a small golden macha latte with 2% milk and whipped cream, correct?
+coffee_ordering ( location_store = "at 19th and south nevada") & ok. your coffee will be ready for pickup soon at the peet's coffee store at 19th and south nevada.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "cafe mocha" ; type_milk_accept = "2% milk" ; preference_accept = "whipped cream") & did you say a grande cafe mocha, 2% milk and whipped cream?
+coffee_ordering ( location_store = "28th 49 east new york avenue") & is the starbucks store located at 28th 49 east new york avenue?
+coffee_ordering ( location_store = "18555 N 59th Ave") & Is that the Starbucks at 18555 N 59th Ave?
+coffee_ordering ( location_store_accept = "Glendale") & Great!, let me send that over to the store in Glendale.
+coffee_ordering ( preference = "hot") & did you want that iced or hot?
+coffee_ordering ( size_drink = "tall") & and you said tall, right?
+coffee_ordering ( preference = "hot") & did you want that iced or hot?
+coffee_ordering ( preference = "iced or regular") & iced or regular?
+coffee_ordering ( name_drink_accept = "black and white mocha" ; type_milk_accept = "2% milk" ; size_drink_accept = "grande" ; location_store = "on 33rd and o") & Got it so that's a black and white mocha with 2% milk, sized grande from the starbucks on 33rd and o.
+coffee_ordering ( size_drink_accept = "grande" ; preference_accept = "whipped cream" ; name_drink_accept = "peppermint mocha" ; type_milk_accept = "2% and" ; location_store_accept = "east New York avenue in Aurora") & So that's a grande iced peppermint mocha with 2% and whipped cream from the starbucks on east New York avenue in Aurora.
+coffee_ordering ( preference = "regular") & Okay so did you want that to be iced or regular?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "caramel macchiato") & Great. I've got a grande caramel macchiato. what milk did you want?
+coffee_ordering ( preference = "syrups") & Okay, whipped cream or syrups?
+coffee_ordering ( location_store_accept = "Chippowah") & Got it. I'll place your order with the starbucks on Chippowah.
+coffee_ordering ( preference = "Iced" ; name_drink = "Latte") & I apologize, did you say you'd like a Iced Latte?
+coffee_ordering ( preference_accept = "Sugar Free" ; name_drink_accept = "Vanilla Latte") & Oh I see. Got it, a Iced Sugar Free Vanilla Latte . And what size did you want?
+coffee_ordering ( size_drink_accept = "Medium" ; type_milk_accept = "soy milk") & Medium with soy milk. Got it!
+coffee_ordering ( location_store = "Palo Alto") & Anything else? Alright. And this is for the location in Palo Alto, correct?
+coffee_ordering ( preference = "hot") & did you want this drink iced or hot?
+coffee_ordering ( size_drink = "Venti" ; preference = "hot") & Venti! Got it. And is this iced or hot?
+coffee_ordering ( size_drink_accept = "Venti" ; num_drink_accept = "Cinnamon Dolce Latte" ; type_milk_accept = "Whole milk") & Certainly. Let me make sure I got this all correctly. You'd like a Venti Cinnamon Dolce Latte with Whole milk.
+coffee_ordering ( name_drink = "Latte" ; preference = "whipped cream") & With your Latte, would you like to add whipped cream?
+coffee_ordering ( size_drink = "venti" ; name_drink = "iced caramel macchiato" ; type_milk = "whole milk" ; preference = "whipped cream") & ok, you are ordering a venti iced caramel macchiato with whole milk and whipped cream, is that correct?
+coffee_ordering ( size_drink_accept = "venti" ; name_drink_accept = "iced caramel macchiato" ; type_milk_accept = "whole milk" ; preference_accept = "whipped cream" ; location_store_accept = "sunset and crescent heights in west hollywood") & one moment while i place that order. ok, i have ordered you a venti iced caramel macchiato with whole milk and whipped cream to be picked up at the starbucks on sunset and crescent heights in west hollywood.
+coffee_ordering ( name_drink_accept = "triple espresso" ; type_milk_accept = "almond milk") & did you say a triple espresso with almond milk?
+coffee_ordering ( type_milk = "non fat milk") & starbucks has two percent and non fat milk, which did you want for the first drink?
+coffee_ordering ( preference = "hot") & and did you want these drinks iced or hot?
+coffee_ordering ( size_drink_accept = "venti" ; name_drink_accept = "caramel macchiato" ; type_milk_accept = "2% milk" ; preference_accept = "whipped cream" ; location_store_accept = "Sunset in Los Angeles.") & awesome. so to confirm, you said you want a grande regular coffee with 2% milk and a venti caramel macchiato with whipped cream Starbucks on Sunset in Los Angeles.
+coffee_ordering ( size_drink_accept = "venti" ; preference_accept = "heavy cream" ; name_drink_accept = "americano") & ok, you are ordering a venti iced americano with heavy cream, is that correct?
+coffee_ordering ( type_milk = "whole milk") & 2%, almond, coconut and whole milk.
+coffee_ordering ( preference = "whipped cream") & Would you like whipped cream?
+coffee_ordering ( name_drink_accept = "a golden cafe" ; size_drink_accept = "latte" ; type_milk_accept = "whole milk" ; preference_accept = "whipped cream") & so a golden cafe latte, with whole milk and whipped cream, correct?
+coffee_ordering ( location_store_accept = "the peet's on main st") & ok, your coffee will be ready for pickup soon at the peet's on main st.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "cafe mocha" ; type_milk_accept = "2% milk" ; preference_accept = "no whipped cream") & so a grande cafe mocha, 2% milk and no whipped cream. correct?
+coffee_ordering ( location_store_accept = "starbucks at 123 main street") & ok, your coffee will be ready for pickup soon at the starbucks at 123 main street.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "flat white" ; type_milk_accept = "coconut milk") & so your order is: a grande flat white with coconut milk, correct?
+coffee_ordering ( location_store_accept = "route 40") & ok, your coffee will be ready for pickup soon at the starbucks at route 40.
+coffee_ordering ( type_milk = "2% okay") & is 2% okay?
+coffee_ordering ( num_drink_accept = "1" ; size_drink_accept = "grande" ; name_drink_accept = "iced cafe Americano" ; type_milk_accept = "2% milk" ; location_store_accept = "Starbucks on wall street") & i have u down for 1 grande iced cafe Americano with 2% milk from the Starbucks on wall street. did you need anything else?
+coffee_ordering ( name_drink_accept = "cafe latte" ; size_drink_accept = "grande" ; type_milk_accept = "non fat milk") & ok, i have a cafe latte, grande size with non fat milk, is that correct?
+coffee_ordering ( name_drink = "Cinnamon Shortbread latte") & Cinnamon Shortbread latte, got it. What type of milk?
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "Cinnamon Shortbread latte" ; type_milk_accept = "sweet condensed milk" ; location_store_accept = "Springfield plaza") & Ok a grande Cinnamon Shortbread latte with sweet condensed milk. this will be read at the Springfield plaza shortly.
+coffee_ordering ( preference = "hot") & and did you want that iced or hot?
+coffee_ordering ( location_store_accept = "Starbucks near the university of houston") & cool. Your drink will be ready at the Starbucks near the university of houston in 7 minutes. Enjoy!
+coffee_ordering ( preference = "whipped cream") & do you want any whipped cream?
+coffee_ordering ( name_drink = "frappucino") & sorry did you want a caramel macchiato or a frappucino? those are two different drinks.
+coffee_ordering ( name_drink_accept = "caramel frappuccino" ; type_milk_accept = "coconut milk" ; preference_accept = "splenda" ; location_store_accept = "20th and market") & great, you said you want a caramel frappuccino with almond and coconut milk and splenda starbucks on 20th and market.
+coffee_ordering ( size_drink = "what" ; type_milk = "you like to") & what size would you like to order that in?

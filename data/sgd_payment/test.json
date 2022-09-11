@@ -1,0 +1,162 @@
+[
+    [
+        "CONFIRM(receiver=\"Mary\";amount=\"$60\";private_visibility=\"False\")",
+        "Great, so you would like to collect $60 from Mary and this transaction be be publicly visible. Would you like to proceed?",
+        "Great, so you would like to collect $60 from Mary and this transaction be be publicly visible. Would you like to proceed?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I was able to send that request for you.",
+        "I was able to send that request for you."
+    ],
+    [
+        "CONFIRM(payment_method=\"app balance\";amount=\"$115\";receiver=\"Bob\";private_visibility=\"False\")",
+        "Okay, so I am sending Bob $115 from your app balance and this transaction will also be publicly visible. Would you still like me to proceed?",
+        "Okay, so I am sending Bob $115 from your app balance and this transaction will also be publicly visible. Would you still like me to proceed?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I was able to confirm that payment for you and the recipient should receive your payment any moment.",
+        "I was able to confirm that payment for you and the recipient should receive your payment any moment."
+    ],
+    [
+        "CONFIRM(receiver=\"Margaret\";amount=\"$175\";private_visibility=\"False\")",
+        "You wish to request a payment from Margaret, a total of $175, will that be all for this public transaction?",
+        "You wish to request a payment from Margaret, a total of $175, will that be all for this public transaction?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The payment request was made successfully.",
+        "The payment request was made successfully."
+    ],
+    [
+        "CONFIRM(payment_method=\"app balance\";amount=\"$168\";receiver=\"Victoria\";private_visibility=\"False\")",
+        "You will be making a public payment to Victoria from your app balance, the total will be $168, is that correct?",
+        "You will be making a public payment to Victoria from your app balance, the total will be $168, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The payment was made successfully, the recipient will be notified shortly.",
+        "The payment was made successfully, the recipient will be notified shortly."
+    ],
+    [
+        "CONFIRM(receiver=\"Wilson\";amount=\"$42\";private_visibility=\"True\")",
+        "Sure. To confirm, you'd like to make a private transaction request with Wilson for $42, is that right?",
+        "Sure. To confirm, you'd like to make a private transaction request with Wilson for $42, is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, your payment request has been made.",
+        "Ok, your payment request has been made."
+    ],
+    [
+        "CONFIRM(payment_method=\"credit card\";amount=\"$155\";receiver=\"Yumi\";private_visibility=\"False\")",
+        "Sure. To confirm, you'd like to transfer $155 to Yumi using your credit card via public transaction.",
+        "Sure. To confirm, you'd like to transfer $155 to Yumi using your credit card via public transaction."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, your payment has been made and the recipient should see it in their account shortly.",
+        "Ok, your payment has been made and the recipient should see it in their account shortly."
+    ],
+    [
+        "CONFIRM(receiver=\"Isabella\";amount=\"$157\";private_visibility=\"False\")",
+        "Okay, please confirm the following for me. You are making a transaction with Isabella for $157. Note that this transaction will be visible to the public.",
+        "Okay, please confirm the following for me. You are making a transaction with Isabella for $157. Note that this transaction will be visible to the public."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, your payment request has been made successfully.",
+        "Okay, your payment request has been made successfully."
+    ],
+    [
+        "CONFIRM(payment_method=\"debit card\";amount=\"$51\";receiver=\"Peter\";private_visibility=\"False\")",
+        "No problem, just confirm the following for me. You are making a debit card transaction of $51 dollars to Peter. Please note that this transaction will be visible to the public.",
+        "No problem, just confirm the following for me. You are making a debit card transaction of $51 dollars to Peter. Please note that this transaction will be visible to the public."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, your payment was a success! The recipient should see their money soon.",
+        "Okay, your payment was a success! The recipient should see their money soon."
+    ],
+    [
+        "CONFIRM(receiver=\"Isabella\";amount=\"$79\";private_visibility=\"False\")",
+        "You will request a $79 payment from Isabella, this transaction will be made public, is that fine by you.",
+        "You will request a $79 payment from Isabella, this transaction will be made public, is that fine by you."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The payment request was made successfully, anything else I can help you with?",
+        "The payment request was made successfully, anything else I can help you with?"
+    ],
+    [
+        "CONFIRM(payment_method=\"debit card\";amount=\"$169\";receiver=\"Svetlana\";private_visibility=\"False\")",
+        "From your debit card, you will be making a public visible payment to Svetlana, the total amount being $169 is that correct?",
+        "From your debit card, you will be making a public visible payment to Svetlana, the total amount being $169 is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The payment was made successfully, the recipient will confirm the amount shortly.",
+        "The payment was made successfully, the recipient will confirm the amount shortly."
+    ],
+    [
+        "CONFIRM(receiver=\"Mahmoud\";amount=\"$83\";private_visibility=\"False\")",
+        "Kindly ensure that, $83 transaction has been made with Mahmoud and it is visible to public.",
+        "Kindly ensure that, $83 transaction has been made with Mahmoud and it is visible to public."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your demand has been made successfully.",
+        "Your demand has been made successfully."
+    ],
+    [
+        "CONFIRM(payment_method=\"debit card\";amount=\"$46\";receiver=\"Bob\";private_visibility=\"False\")",
+        "Kindly ensure that, $46 will be transferred from your debit card to Bob and it is visible to public.",
+        "Kindly ensure that, $46 will be transferred from your debit card to Bob and it is visible to public."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer has been done. Bob will receive the amount soon.",
+        "Transfer has been done. Bob will receive the amount soon."
+    ],
+    [
+        "CONFIRM(receiver=\"Amelia\";amount=\"$112\";private_visibility=\"False\")",
+        "Okay, before I submit your request, let's just make sure I have the details correct. You would like to collect a total of $112 from Amelia, correct?",
+        "Okay, before I submit your request, let's just make sure I have the details correct. You would like to collect a total of $112 from Amelia, correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I was successfully able to request that transaction for you.",
+        "I was successfully able to request that transaction for you."
+    ],
+    [
+        "CONFIRM(payment_method=\"credit card\";amount=\"$27\";receiver=\"Svetlana\";private_visibility=\"False\")",
+        "Great, before I proceed please confirm the following for me. You would like to send $27 from your credit card to Svetlana, is that right?",
+        "Great, before I proceed please confirm the following for me. You would like to send $27 from your credit card to Svetlana, is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I was able to successfully make that payment for you and the recipient will receive it shortly.",
+        "I was able to successfully make that payment for you and the recipient will receive it shortly."
+    ],
+    [
+        "CONFIRM(receiver=\"Mary\";amount=\"$30\";private_visibility=\"True\")",
+        "You would like to create a private transaction with Mary in the amount of $30, is that correct?",
+        "You would like to create a private transaction with Mary in the amount of $30, is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your payment request was made successfully.",
+        "Your payment request was made successfully."
+    ],
+    [
+        "CONFIRM(payment_method=\"app balance\";amount=\"$94\";receiver=\"Yumi\";private_visibility=\"False\")",
+        "You would like to send $94 to Yumi from your app balance, is this correct? This transaction will be visible to the public.",
+        "You would like to send $94 to Yumi from your app balance, is this correct? This transaction will be visible to the public."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your payment is successful. The recipient should be able to see the transaction soon.",
+        "Your payment is successful. The recipient should be able to see the transaction soon."
+    ]
+]

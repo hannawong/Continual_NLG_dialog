@@ -1,0 +1,198 @@
+OFFER ( attraction_name = "30 st Mary Axe) & There are 10 near you. But, why don't you look at 30 st Mary Axe (The Gherkin). It is really big and a historical landmark.
+OFFER ( attraction_name = "30 st Mary Axe) & There are 10 near you. But, why don't you look at 30 st Mary Axe (The Gherkin). It is really big and a historical landmark.
+OFFER ( attraction_name = "30 st Mary Axe) & There are 10 near you. But, why don't you look at 30 st Mary Axe (The Gherkin). It is really big and a historical landmark.
+OFFER ( attraction_name = "Alexandra Palace Ice Rink" ; category = "Sports Venue") & There are 9 others, but maybe you should check out the sports venue Alexandra Palace Ice Rink. It's really wet and slippery.
+OFFER ( attraction_name = "Alexandra Palace Ice Rink" ; category = "Sports Venue") & There are 9 others, but maybe you should check out the sports venue Alexandra Palace Ice Rink. It's really wet and slippery.
+OFFER ( attraction_name = "Alexandra Palace Ice Rink" ; category = "Sports Venue") & There are 9 others, but maybe you should check out the sports venue Alexandra Palace Ice Rink. It's really wet and slippery.INFORM_COUNT ( count = "9") & There are 9 others, but maybe you should check out the sports venue Alexandra Palace Ice Rink. It's really wet and slippery.
+OFFER ( attraction_name = "Angels Flight Railway" ; category = "Historical Landmark") & I found one Historical Landmark that is Angels Flight Railway, what about this place?
+OFFER ( attraction_name = "Alcatraz Island" ; category = "Historical Landmark") & There is an interesting Historical Landmark in the area called Alcatraz Island. Would this interest you?
+OFFER ( attraction_name = "Cable Car Museum" ; category = "Museum") & I've found 10 that could interest you. How about the Cable Car Museum?
+OFFER ( attraction_name = "Cable Car Museum" ; category = "Museum") & I've found 10 that could interest you. How about the Cable Car Museum?
+OFFER ( attraction_name = "Cable Car Museum" ; category = "Museum") & I've found 10 that could interest you. How about the Cable Car Museum?INFORM_COUNT ( count = "10") & I've found 10 that could interest you. How about the Cable Car Museum?
+OFFER ( attraction_name = "War Memorial Opera House" ; category = "Performing Arts Venue") & You should visit the War Memorial Opera House, this is a performing arts venue.
+INFORM ( phone_number = "415-865-2000") & Their phone number is 415-865-2000.
+OFFER ( attraction_name = "American Church in Paris" ; category = "Place of Worship") & I found 10 attractions I know you'll like. Try the American Church in Paris, a place of worship.
+OFFER ( attraction_name = "American Church in Paris" ; category = "Place of Worship") & I found 10 attractions I know you'll like. Try the American Church in Paris, a place of worship.
+OFFER ( attraction_name = "American Church in Paris" ; category = "Place of Worship") & I found 10 attractions I know you'll like. Try the American Church in Paris, a place of worship.INFORM_COUNT ( count = "10") & I found 10 attractions I know you'll like. Try the American Church in Paris, a place of worship.
+OFFER ( attraction_name = "Arizona Capitol Museum" ; category = "Museum") & Yup! There is vibrant cultural heritage Museum, Arizona Capitol Museum which you must visit in your days.
+OFFER ( attraction_name = "Acuario Inbursa" ; category = "Nature Preserve") & I got 10 Results for you, You should check out Acuario Inbursa Which is a nature preserve.
+OFFER ( attraction_name = "Acuario Inbursa" ; category = "Nature Preserve") & I got 10 Results for you, You should check out Acuario Inbursa Which is a nature preserve.
+OFFER ( attraction_name = "Acuario Inbursa" ; category = "Nature Preserve") & I got 10 Results for you, You should check out Acuario Inbursa Which is a nature preserve.INFORM_COUNT ( count = "10") & I got 10 Results for you, You should check out Acuario Inbursa Which is a nature preserve.
+INFORM ( phone_number = "55 5395 4586" ; free_entry = "False") & Their phone number is 55 5395 4586, Entry to this place is not free
+OFFER ( attraction_name = "92nd Street Y" ; category = "Performing Arts Venue") & Ok, You should try checking out 92nd Street Y, this is a performing Arts Venue.
+INFORM ( phone_number = ) & Their phone number is (212) 415-5788.
+INFORM ( phone_number = ) & Their phone number is (212) 415-5788.
+OFFER ( attraction_name = "Alcatraz" ; category = "Historical Landmark") & Sure, I've found 10 attractions that may interest you. How about The Historical Landmark Alcatraz?
+OFFER ( attraction_name = "Alcatraz" ; category = "Historical Landmark") & Sure, I've found 10 attractions that may interest you. How about The Historical Landmark Alcatraz?
+OFFER ( attraction_name = "Alcatraz" ; category = "Historical Landmark") & Sure, I've found 10 attractions that may interest you. How about The Historical Landmark Alcatraz?INFORM_COUNT ( count = "10") & Sure, I've found 10 attractions that may interest you. How about The Historical Landmark Alcatraz?
+OFFER ( attraction_name = "Chinatown San Francisco" ; category = "Tourist Attraction") & No problem, Why not check out the tourist attraction Chinatown San Francisco.
+OFFER ( attraction_name = "Oracle Park" ; category = "Sports Venue") & No problem. I've located 1 attraction. Oracle Park fits your sports venue request.
+OFFER ( attraction_name = "Oracle Park" ; category = "Sports Venue") & No problem. I've located 1 attraction. Oracle Park fits your sports venue request.
+OFFER ( attraction_name = "Oracle Park" ; category = "Sports Venue") & No problem. I've located 1 attraction. Oracle Park fits your sports venue request.INFORM_COUNT ( count = "1") & No problem. I've located 1 attraction. Oracle Park fits your sports venue request.
+INFORM ( phone_number = "415-972-2000" ; free_entry = "True") & Good new, the entry fee is free. The phone number is 415-972-2000.
+OFFER ( attraction_name = "360 Chicago" ; category = "Tourist Attraction") & You ought to look for the tourist attraction called 360 Chicago.
+OFFER ( attraction_name = "American Writers Museum" ; category = "Museum") & You ought to visit the American Writers Museum.
+INFORM ( phone_number = "312-374-8790" ; good_for_kids = "True") & Indeed, the museum is friendly to children, and the contract number is 312-374-8790.
+OFFER ( attraction_name = "30 St Mary Axe) & I found 10. How about 30 St Mary Axe (The Gherkin), a historical landmark.
+OFFER ( attraction_name = "30 St Mary Axe) & I found 10. How about 30 St Mary Axe (The Gherkin), a historical landmark.
+OFFER ( attraction_name = "30 St Mary Axe) & I found 10. How about 30 St Mary Axe (The Gherkin), a historical landmark.
+INFORM ( phone_number = "20 7071 5029") & It is 20 7071 5029.
+OFFER ( attraction_name = "Alexandra Palace" ; category = "Performing Arts Venue") & How about Alexandra Palace, a performing arts venue.
+INFORM ( free_entry = "False") & No it is not free.
+OFFER ( attraction_name = "99 Wonderland Park" ; category = "Park") & I have found 10 attractions in Kuala Lumpur that might interest you. You should check out the park at 99 Wonderland Park.
+OFFER ( attraction_name = "99 Wonderland Park" ; category = "Park") & I have found 10 attractions in Kuala Lumpur that might interest you. You should check out the park at 99 Wonderland Park.
+OFFER ( attraction_name = "99 Wonderland Park" ; category = "Park") & I have found 10 attractions in Kuala Lumpur that might interest you. You should check out the park at 99 Wonderland Park.INFORM_COUNT ( count = "10") & I have found 10 attractions in Kuala Lumpur that might interest you. You should check out the park at 99 Wonderland Park.
+INFORM ( phone_number = "12-559 9034" ; free_entry = "True") & The phone number is 12-559 9034 and it there is no entrance fee.
+OFFER ( attraction_name = "Aquaria KLCC, Kuala Lumpur." ; category = "Nature Preserve") & You could check out the Nature Preserve at Aquaria KLCC, Kuala Lumpur.
+OFFER ( attraction_name = "Balboa Park" ; category = "Park") & How about a Park in Balboa Park?
+OFFER ( attraction_name = "ANZ Stadium" ; category = "Sports Venue") & Search revealed 10 attractions. Doyou like the Sports Venue ANZ Stadium?
+OFFER ( attraction_name = "ANZ Stadium" ; category = "Sports Venue") & Search revealed 10 attractions. Doyou like the Sports Venue ANZ Stadium?
+OFFER ( attraction_name = "ANZ Stadium" ; category = "Sports Venue") & Search revealed 10 attractions. Doyou like the Sports Venue ANZ Stadium?INFORM_COUNT ( count = "10") & Search revealed 10 attractions. Doyou like the Sports Venue ANZ Stadium?
+OFFER ( attraction_name = "Burnham park" ; category = "Park") & There are 6 options. How about Burnham park. It's listed under Parks.
+OFFER ( attraction_name = "Burnham park" ; category = "Park") & There are 6 options. How about Burnham park. It's listed under Parks.
+OFFER ( attraction_name = "Burnham park" ; category = "Park") & There are 6 options. How about Burnham park. It's listed under Parks.INFORM_COUNT ( count = "6") & There are 6 options. How about Burnham park. It's listed under Parks.
+OFFER ( attraction_name = "Garfield Park Conservatory" ; category = "Park") & That gives me 3 choices. Try Garfield Park Conservatory. It's pretty great and has a lot of plants.
+OFFER ( attraction_name = "Garfield Park Conservatory" ; category = "Park") & That gives me 3 choices. Try Garfield Park Conservatory. It's pretty great and has a lot of plants.
+OFFER ( attraction_name = "Garfield Park Conservatory" ; category = "Park") & That gives me 3 choices. Try Garfield Park Conservatory. It's pretty great and has a lot of plants.INFORM_COUNT ( count = "3") & That gives me 3 choices. Try Garfield Park Conservatory. It's pretty great and has a lot of plants.
+INFORM ( phone_number = "773-638-1777" ; free_entry = "False") & Call 773-638-1777. It's not free to get in.
+OFFER ( attraction_name = "American Church in Paris" ; category = "Place of Worship") & You can try visiting a Place of Worship called American Church in Paris.
+INFORM ( phone_number = "1 40 62 05 00") & Sure, you can try contacting them at 1 40 62 05 00.
+OFFER ( attraction_name = "Aquaboulevard" ; category = "Theme Park") & How about visiting a Theme Park called Aquaboulevard?
+INFORM ( phone_number = "1 40 60 10 00" ; free_entry = "True") & You can contacgt them at 1 40 60 10 00, and fortunately, entry is free!
+OFFER ( attraction_name = "Choco-Story Paris - Musee du Chocolat" ; category = "Museum") & There are 10 museum in the area, one of which is Choco-Story Paris - Musee du Chocolat.
+OFFER ( attraction_name = "Choco-Story Paris - Musee du Chocolat" ; category = "Museum") & There are 10 museum in the area, one of which is Choco-Story Paris - Musee du Chocolat.
+OFFER ( attraction_name = "Choco-Story Paris - Musee du Chocolat" ; category = "Museum") & There are 10 museum in the area, one of which is Choco-Story Paris - Musee du Chocolat.INFORM_COUNT ( count = "10") & There are 10 museum in the area, one of which is Choco-Story Paris - Musee du Chocolat.
+OFFER ( attraction_name = "First Corinthian Baptist Church" ; category = "Place of Worship") & I've found a Place of Worship there. It's called First Corinthian Baptist Church. You should look into it.
+OFFER ( attraction_name = "Saint Thomas Church Fifth Avenue" ; category = "Place of Worship") & I've found 5 that would work. The first is Saint Thomas Church Fifth Avenue, which is another Place of Worship.
+OFFER ( attraction_name = "Saint Thomas Church Fifth Avenue" ; category = "Place of Worship") & I've found 5 that would work. The first is Saint Thomas Church Fifth Avenue, which is another Place of Worship.
+OFFER ( attraction_name = "Saint Thomas Church Fifth Avenue" ; category = "Place of Worship") & I've found 5 that would work. The first is Saint Thomas Church Fifth Avenue, which is another Place of Worship.INFORM_COUNT ( count = "5") & I've found 5 that would work. The first is Saint Thomas Church Fifth Avenue, which is another Place of Worship.
+INFORM ( free_entry = "True") & There is no entrance fee for this church.
+OFFER ( attraction_name = "American Folk Art Museum" ; category = "Museum") & I found 10 options. First, the American Folk Art Museum.
+OFFER ( attraction_name = "American Folk Art Museum" ; category = "Museum") & I found 10 options. First, the American Folk Art Museum.
+OFFER ( attraction_name = "American Folk Art Museum" ; category = "Museum") & I found 10 options. First, the American Folk Art Museum.INFORM_COUNT ( count = "10") & I found 10 options. First, the American Folk Art Museum.
+INFORM ( phone_number = ) & The phone number is (212) 265-1040.
+INFORM ( phone_number = ) & The phone number is (212) 265-1040.
+OFFER ( attraction_name = "American Museum of Natural History" ; category = "Museum") & Another option is the American Museum of Natural History.
+OFFER ( attraction_name = "Brooklyn Children's Museum" ; category = "Museum") & There are 8 more choices. Next, the Brooklyn Children's Museum.
+OFFER ( attraction_name = "Brooklyn Children's Museum" ; category = "Museum") & There are 8 more choices. Next, the Brooklyn Children's Museum.
+OFFER ( attraction_name = "Brooklyn Children's Museum" ; category = "Museum") & There are 8 more choices. Next, the Brooklyn Children's Museum.INFORM_COUNT ( count = "8") & There are 8 more choices. Next, the Brooklyn Children's Museum.
+OFFER ( attraction_name = "30 St Mary Axe) & How about the 30 St Mary Axe (The Gherkin). It's a historical landmark.
+OFFER ( attraction_name = "30 St Mary Axe) & How about the 30 St Mary Axe (The Gherkin). It's a historical landmark.
+OFFER ( attraction_name = "All Saints, Margaret Street" ; category = "Place of Worship") & I've found 10 attractions that meet your criteria. How about All Saints, Margaret Street. This fits your criteria of a Place of Worship.
+OFFER ( attraction_name = "All Saints, Margaret Street" ; category = "Place of Worship") & I've found 10 attractions that meet your criteria. How about All Saints, Margaret Street. This fits your criteria of a Place of Worship.
+OFFER ( attraction_name = "All Saints, Margaret Street" ; category = "Place of Worship") & I've found 10 attractions that meet your criteria. How about All Saints, Margaret Street. This fits your criteria of a Place of Worship.INFORM_COUNT ( count = "10") & I've found 10 attractions that meet your criteria. How about All Saints, Margaret Street. This fits your criteria of a Place of Worship.
+OFFER ( attraction_name = "Holy Trinity Brompton" ; category = "Place of Worship") & I've found 9 attractions that suit your criteria. How about Holy Trinity Brompton. This fits your criteria of a Place of Worship.
+OFFER ( attraction_name = "Holy Trinity Brompton" ; category = "Place of Worship") & I've found 9 attractions that suit your criteria. How about Holy Trinity Brompton. This fits your criteria of a Place of Worship.
+OFFER ( attraction_name = "Holy Trinity Brompton" ; category = "Place of Worship") & I've found 9 attractions that suit your criteria. How about Holy Trinity Brompton. This fits your criteria of a Place of Worship.INFORM_COUNT ( count = "9") & I've found 9 attractions that suit your criteria. How about Holy Trinity Brompton. This fits your criteria of a Place of Worship.
+OFFER ( attraction_name = "Apsley House" ; category = "Museum") & I've found a museum for you. It's Apsley House.
+INFORM ( phone_number = "1793 414926" ; good_for_kids = "True") & Reviewers have reported that this is a nice play to take children. Their number is 1793 414926.
+OFFER ( attraction_name = "Bloedel Conservatory" ; category = "Park") & I've found 10 options so far: Bloedel Conservatory is a floral Park in BC.
+OFFER ( attraction_name = "Bloedel Conservatory" ; category = "Park") & I've found 10 options so far: Bloedel Conservatory is a floral Park in BC.
+OFFER ( attraction_name = "Bloedel Conservatory" ; category = "Park") & I've found 10 options so far: Bloedel Conservatory is a floral Park in BC.INFORM_COUNT ( count = "10") & I've found 10 options so far: Bloedel Conservatory is a floral Park in BC.
+OFFER ( attraction_name = "The Orpheum" ; category = "Performing Arts Venue") & The Orpheum is a Performing Arts Venue, it's the permanent home of the Vancouver Symphony Orchestra.
+OFFER ( attraction_name = "Museum of Vancouver" ; category = "Museum") & Sure! The Museum of Vancouver is a popular Museum.
+INFORM ( good_for_kids = "False") & There are no areas specifically for children at this museum, it may not be the best option.
+INFORM ( phone_number = "604-736-4431") & The contact number is 604-736-4431, can I do anything else for you?
+OFFER ( attraction_name = "Arc de Triomphe" ; category = "Historical Landmark") & Arc de Triomphe is a popular historical landmark.
+OFFER ( attraction_name = "Crystal Springs Rhododendron Garden" ; category = "Park") & I've found 10 attractions, one of these is a Park: Crystal Springs Rhododendron Garden
+OFFER ( attraction_name = "Crystal Springs Rhododendron Garden" ; category = "Park") & I've found 10 attractions, one of these is a Park: Crystal Springs Rhododendron Garden
+OFFER ( attraction_name = "Crystal Springs Rhododendron Garden" ; category = "Park") & I've found 10 attractions, one of these is a Park: Crystal Springs Rhododendron GardenINFORM_COUNT ( count = "10") & I've found 10 attractions, one of these is a Park: Crystal Springs Rhododendron Garden
+OFFER ( attraction_name = "Lan Su Chinese Garden" ; category = "Park") & I found another park: Lan Su Chinese Garden
+OFFER ( attraction_name = "Aquarium of the Pacific" ; category = "Nature Preserve") & I have found 5 different attractions that you may like. The first one that comes up is a Nature Preserve called Aquarium of the Pacific.
+OFFER ( attraction_name = "Aquarium of the Pacific" ; category = "Nature Preserve") & I have found 5 different attractions that you may like. The first one that comes up is a Nature Preserve called Aquarium of the Pacific.
+OFFER ( attraction_name = "Aquarium of the Pacific" ; category = "Nature Preserve") & I have found 5 different attractions that you may like. The first one that comes up is a Nature Preserve called Aquarium of the Pacific.INFORM_COUNT ( count = "5") & I have found 5 different attractions that you may like. The first one that comes up is a Nature Preserve called Aquarium of the Pacific.
+OFFER ( attraction_name = "Harry Bridges Memorial park" ; category = "Park") & There is also a park called Harry Bridges Memorial park that you may be interested in.
+OFFER ( attraction_name = "30 St Mary Axe) & There's something at 30 St Mary Axe (The Gherkin). It's a historical landmark.
+OFFER ( attraction_name = "30 St Mary Axe) & There's something at 30 St Mary Axe (The Gherkin). It's a historical landmark.
+OFFER ( attraction_name = "Alexandra Palace Ice Rink" ; category = "Sports Venue") & How about the Alexandra Palace Ice Rink, it's a sports venue.
+INFORM ( phone_number = "20 8365 2121" ; good_for_kids = "True") & Their number is 20 8365 2121. It's very child friendly, they'd have a blast there.
+OFFER ( attraction_name = "American Church in Paris" ; category = "Place of Worship") & I found 10 attractions. Do you want to check out American Church in Paris? It's a Place of Worship.
+OFFER ( attraction_name = "American Church in Paris" ; category = "Place of Worship") & I found 10 attractions. Do you want to check out American Church in Paris? It's a Place of Worship.
+OFFER ( attraction_name = "American Church in Paris" ; category = "Place of Worship") & I found 10 attractions. Do you want to check out American Church in Paris? It's a Place of Worship.INFORM_COUNT ( count = "10") & I found 10 attractions. Do you want to check out American Church in Paris? It's a Place of Worship.
+INFORM ( free_entry = "True") & Yes.
+OFFER ( attraction_name = "Acuario Inbursa" ; category = "Nature Preserve") & I have 10 attractions you may like. Top of the list is Acuario Inbursa, a nature preserve.
+OFFER ( attraction_name = "Acuario Inbursa" ; category = "Nature Preserve") & I have 10 attractions you may like. Top of the list is Acuario Inbursa, a nature preserve.
+OFFER ( attraction_name = "Acuario Inbursa" ; category = "Nature Preserve") & I have 10 attractions you may like. Top of the list is Acuario Inbursa, a nature preserve.INFORM_COUNT ( count = "10") & I have 10 attractions you may like. Top of the list is Acuario Inbursa, a nature preserve.
+OFFER ( attraction_name = "Arte Carrillo Gil Museum" ; category = "Museum") & If you would like a museum, you should check out the Arte Carrillo Gil Museum.
+INFORM ( good_for_kids = "True" ; free_entry = "False") & Yes, it's a good place for children. But it is not free.
+OFFER ( attraction_name = "Castle Clinton National Monument" ; category = "Nature Preserve") & Ok, there are currently 4 attractions you may like. Try checking out Nature Preserve, Castle Clinton National Monument.
+OFFER ( attraction_name = "Castle Clinton National Monument" ; category = "Nature Preserve") & Ok, there are currently 4 attractions you may like. Try checking out Nature Preserve, Castle Clinton National Monument.
+OFFER ( attraction_name = "Castle Clinton National Monument" ; category = "Nature Preserve") & Ok, there are currently 4 attractions you may like. Try checking out Nature Preserve, Castle Clinton National Monument.INFORM_COUNT ( count = "4") & Ok, there are currently 4 attractions you may like. Try checking out Nature Preserve, Castle Clinton National Monument.
+OFFER ( attraction_name = "New York Aquarium" ; category = "Nature Preserve") & There are 3 attractions that may work for you. Let's start with New York Aquarium, this is also a Nature Preserve.
+OFFER ( attraction_name = "New York Aquarium" ; category = "Nature Preserve") & There are 3 attractions that may work for you. Let's start with New York Aquarium, this is also a Nature Preserve.
+OFFER ( attraction_name = "New York Aquarium" ; category = "Nature Preserve") & There are 3 attractions that may work for you. Let's start with New York Aquarium, this is also a Nature Preserve.INFORM_COUNT ( count = "3") & There are 3 attractions that may work for you. Let's start with New York Aquarium, this is also a Nature Preserve.
+OFFER ( attraction_name = "Christmas Tree Lane" ; category = "Tourist Attraction") & Christmas Tree Lane is nice Tourist Attraction.
+OFFER ( attraction_name = "Island Waterpark" ; category = "Theme Park") & Island Waterpark is a highly rated theme park.
+INFORM ( phone_number = "559-277-6800") & Thier number is 559-277-6800
+OFFER ( attraction_name = "Art Gallery of New South Wales" ; category = "Museum") & Okay! There is a public Museum, Art Gallery of New South Wales in The Domain in Sydney, New South Wales, Australia, which is one of the largest one in Australia. You can have a splendid time there with your children.
+OFFER ( attraction_name = "Allan Gardens" ; category = "Park") & You could go to the Park Allan Gardens
+OFFER ( attraction_name = "Alcatraz" ; category = "Historical Landmark") & I found a Historical Landmark: Alcatraz
+INFORM ( phone_number = "415-561-4900") & Of course! 415-561-4900
+OFFER ( attraction_name = "Alcatraz Island" ; category = "Historical Landmark") & Another Historical Landmark: Alcatraz Island
+INFORM ( phone_number = "415-561-4900") & Phone number is 415-561-4900
+OFFER ( attraction_name = "American Church in Paris" ; category = "Place of Worship") & There's the American Church in Paris. It's a kid-friendly Place of Worship. It's worth checking out.
+OFFER ( attraction_name = "Art Museum Steps" ; category = "Tourist Attraction") & There's a tourist attraction you might like: the Art Museum Steps
+OFFER ( attraction_name = "Barnes Foundation" ; category = "Museum") & The Barnes Foundation Museum is worth a visit
+OFFER ( attraction_name = "Benjamin Franklin Museum" ; category = "Museum") & Ah, the Benjamin Franklin Museum would be perfect for you
+OFFER ( attraction_name = "California State Capitol Museum" ; category = "Museum") & If you'd like to visit a museum, I can suggest the California State Capitol Museum.
+OFFER ( attraction_name = "Balboa Park" ; category = "Park") & There you can visit Balboa Park.
+INFORM ( phone_number = "619-239-0512" ; free_entry = "False") & Entry is charged, you can contact them with 619-239-0512.
+OFFER ( attraction_name = "Cabrillo National Monument" ; category = "Park") & 5 such places are there. What about Cabrillo National Monument, a park?
+OFFER ( attraction_name = "Cabrillo National Monument" ; category = "Park") & 5 such places are there. What about Cabrillo National Monument, a park?
+OFFER ( attraction_name = "Cabrillo National Monument" ; category = "Park") & 5 such places are there. What about Cabrillo National Monument, a park?INFORM_COUNT ( count = "5") & 5 such places are there. What about Cabrillo National Monument, a park?
+OFFER ( attraction_name = "Balboa Theatre" ; category = "Performing Arts Venue") & I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD.
+OFFER ( attraction_name = "Balboa Theatre" ; category = "Performing Arts Venue") & I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD.
+OFFER ( attraction_name = "Balboa Theatre" ; category = "Performing Arts Venue") & I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD.INFORM_COUNT ( count = "10") & I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD.
+OFFER ( attraction_name = "Fleet Science Center" ; category = "Museum") & The Fleet Science Center is a Museum in San Diego.
+OFFER ( attraction_name = "Art Gallery of New South Wales" ; category = "Museum") & I've got 4 options in Sydney: How about another Museum? The Art Gallery of New South Wales is popular.
+OFFER ( attraction_name = "Art Gallery of New South Wales" ; category = "Museum") & I've got 4 options in Sydney: How about another Museum? The Art Gallery of New South Wales is popular.
+OFFER ( attraction_name = "Art Gallery of New South Wales" ; category = "Museum") & I've got 4 options in Sydney: How about another Museum? The Art Gallery of New South Wales is popular.INFORM_COUNT ( count = "4") & I've got 4 options in Sydney: How about another Museum? The Art Gallery of New South Wales is popular.
+OFFER ( attraction_name = "92nd Street Y" ; category = "Performing Arts Venue") & Great, i've located 10 attractions for you. May I recommend 92nd Street Y, this is a performing Arts Venue.
+OFFER ( attraction_name = "92nd Street Y" ; category = "Performing Arts Venue") & Great, i've located 10 attractions for you. May I recommend 92nd Street Y, this is a performing Arts Venue.
+OFFER ( attraction_name = "92nd Street Y" ; category = "Performing Arts Venue") & Great, i've located 10 attractions for you. May I recommend 92nd Street Y, this is a performing Arts Venue.INFORM_COUNT ( count = "10") & Great, i've located 10 attractions for you. May I recommend 92nd Street Y, this is a performing Arts Venue.
+OFFER ( attraction_name = "Balto Statue" ; category = "Tourist Attraction") & There is a great Tourist Attraction, Balto Statue you should check out.
+OFFER ( attraction_name = "American Museum of Natural History" ; category = "Museum") & Sure, There are 10 attractions I can recommend. How about the American Museum of Natural History.
+OFFER ( attraction_name = "American Museum of Natural History" ; category = "Museum") & Sure, There are 10 attractions I can recommend. How about the American Museum of Natural History.
+OFFER ( attraction_name = "American Museum of Natural History" ; category = "Museum") & Sure, There are 10 attractions I can recommend. How about the American Museum of Natural History.INFORM_COUNT ( count = "10") & Sure, There are 10 attractions I can recommend. How about the American Museum of Natural History.
+INFORM ( phone_number = ) & Sure, this is a kid friendly establishment. The phone number you requested is (212) 769-5100.
+INFORM ( phone_number = ) & Sure, this is a kid friendly establishment. The phone number you requested is (212) 769-5100.
+OFFER ( attraction_name = "Arab World Institute" ; category = "Performing Arts Venue") & There's the Arab World Institute, which is a Performing Arts Venue.
+INFORM ( good_for_kids = "False" ; free_entry = "False") & I don't think children would enjoy this venue, and it is not free.
+OFFER ( attraction_name = "3D Toronto Sign" ; category = "Tourist Attraction") & There's a cool tourist attraction called 3D Toronto Sign, what do you think about that?
+OFFER ( attraction_name = "Harbourfront Centre" ; category = "Performing Arts Venue") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront Centre
+OFFER ( attraction_name = "Harbourfront Centre" ; category = "Performing Arts Venue") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront Centre
+OFFER ( attraction_name = "Harbourfront Centre" ; category = "Performing Arts Venue") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront CentreINFORM_COUNT ( count = "2") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront Centre
+OFFER ( attraction_name = "War Memorial Opera House" ; category = "Performing Arts Venue") & Okay, what about this: I've found a performing arts venue called War Memorial Opera House. What do you think about that?
+INFORM ( phone_number = "415-865-2000") & Sure, it's 415-865-2000
+OFFER ( attraction_name = "Apsley House" ; category = "Museum") & Here you are, 10 sightseeing locations that you might like. There is a Museum at Apsley House.
+OFFER ( attraction_name = "Apsley House" ; category = "Museum") & Here you are, 10 sightseeing locations that you might like. There is a Museum at Apsley House.
+OFFER ( attraction_name = "Apsley House" ; category = "Museum") & Here you are, 10 sightseeing locations that you might like. There is a Museum at Apsley House.INFORM_COUNT ( count = "10") & Here you are, 10 sightseeing locations that you might like. There is a Museum at Apsley House.
+OFFER ( attraction_name = "American Folk Art Museum" ; category = "Museum") & I found 10 attractions. How about the Museum, American Folk Art Museum?
+OFFER ( attraction_name = "American Folk Art Museum" ; category = "Museum") & I found 10 attractions. How about the Museum, American Folk Art Museum?
+OFFER ( attraction_name = "American Folk Art Museum" ; category = "Museum") & I found 10 attractions. How about the Museum, American Folk Art Museum?INFORM_COUNT ( count = "10") & I found 10 attractions. How about the Museum, American Folk Art Museum?
+OFFER ( attraction_name = "American Museum of Natural History" ; category = "Museum") & There is also the museum, American Museum of Natural History.
+OFFER ( attraction_name = "Balboa Park" ; category = "Park") & There is a park called Balboa Park.
+INFORM ( phone_number = "619-239-0512") & The number is 619-239-0512.
+OFFER ( attraction_name = "Alexandra Palace" ; category = "Performing Arts Venue") & There are 10 things that you might want to do. One is this palce called Alexandra Palace and it's a Performing Arts Venue
+OFFER ( attraction_name = "Alexandra Palace" ; category = "Performing Arts Venue") & There are 10 things that you might want to do. One is this palce called Alexandra Palace and it's a Performing Arts Venue
+OFFER ( attraction_name = "Alexandra Palace" ; category = "Performing Arts Venue") & There are 10 things that you might want to do. One is this palce called Alexandra Palace and it's a Performing Arts VenueINFORM_COUNT ( count = "10") & There are 10 things that you might want to do. One is this palce called Alexandra Palace and it's a Performing Arts Venue
+INFORM ( phone_number = "20 8365 2121" ; free_entry = "False") & Entry is actullay paid admission and their number is 20 8365 2121
+OFFER ( attraction_name = "Barbican Centre" ; category = "Performing Arts Venue") & Another Performing Arts Venue you could check out is Barbican Centre
+OFFER ( attraction_name = "Cambridge Theatre" ; category = "Performing Arts Venue") & Another Performing Arts Venue is the Cambridge Theatre
+OFFER ( attraction_name = "Acuario Inbursa" ; category = "Nature Preserve") & Hello! I'd be happy to assist you. May I recommend Acuario Inbursa? It's a Nature Preserve.
+OFFER ( attraction_name = "Interactive Museum of Economics" ; category = "Museum") & I have found 10 things that may work for you. The Interactive Museum of Economics is a museum that may interest you.
+OFFER ( attraction_name = "Interactive Museum of Economics" ; category = "Museum") & I have found 10 things that may work for you. The Interactive Museum of Economics is a museum that may interest you.
+OFFER ( attraction_name = "Interactive Museum of Economics" ; category = "Museum") & I have found 10 things that may work for you. The Interactive Museum of Economics is a museum that may interest you.INFORM_COUNT ( count = "10") & I have found 10 things that may work for you. The Interactive Museum of Economics is a museum that may interest you.
+OFFER ( attraction_name = "Leon Trotsky House Museum" ; category = "Museum") & There are 9 child-friendly attractions that you may like. The Leon Trotsky House Museum is a museum near you.
+OFFER ( attraction_name = "Leon Trotsky House Museum" ; category = "Museum") & There are 9 child-friendly attractions that you may like. The Leon Trotsky House Museum is a museum near you.
+OFFER ( attraction_name = "Leon Trotsky House Museum" ; category = "Museum") & There are 9 child-friendly attractions that you may like. The Leon Trotsky House Museum is a museum near you.INFORM_COUNT ( count = "9") & There are 9 child-friendly attractions that you may like. The Leon Trotsky House Museum is a museum near you.
+OFFER ( attraction_name = "92nd Street Y" ; category = "Performing Arts Venue") & How about the Performing Arts Venue on 92nd Street Y?
+OFFER ( attraction_name = "American Museum of Natural History" ; category = "Museum") & How about a museum? The American Museum of Natural History could be a good option, and it's free entry.
+OFFER ( attraction_name = "Angels Flight Railway" ; category = "Historical Landmark") & There's Angels Flight Railway. It's a Historical Landmark.
+OFFER ( attraction_name = "Autry Museum of the American West" ; category = "Museum") & There's the Autry Museum of the American West. It's a museum.
+OFFER ( attraction_name = "30 st Mary axe) & please visit 30 st Mary axe (the gherkin) which is a a historical landmark
+OFFER ( attraction_name = "30 st Mary axe) & please visit 30 st Mary axe (the gherkin) which is a a historical landmark
+INFORM ( good_for_kids = "True" ; free_entry = "False") & no entry to the place is is not free of cost and it is a nice place to take kids
+OFFER ( attraction_name = "American church in Paris" ; category = "Place of Worship") & please check out American church in Paris which is a place of worship
+INFORM ( free_entry = "True") & yes entry free
+OFFER ( attraction_name = "Arc de Triomphe" ; category = "Historical Landmark") & May I suggest the Arc de Triomphe a wonderful historical landmark.

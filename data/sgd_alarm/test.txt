@@ -1,0 +1,48 @@
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "Cleaning") & You would like to create a new alarm called Cleaning for 3:15 pm
+CONFIRM ( new_alarm_time = "3 pm" ; new_alarm_name = "Cleaning") & You would like to create a new alarm called Cleaning for 3 pm?
+CONFIRM ( new_alarm_time = "3 pm" ; new_alarm_name = "Music practice") & You would like to create an alarm for 3 pm and call it Music practice?
+CONFIRM ( new_alarm_time = "3:30 pm" ; new_alarm_name = "new alarm") & Please confirm that creating an alarm at 3:30 pm with name new alarm
+CONFIRM ( new_alarm_time = "3:30 pm" ; new_alarm_name = "cleaning") & Please confirm that creating an alarm at 3:30 pm with name cleaning
+CONFIRM ( new_alarm_time = "4:15 pm" ; new_alarm_name = "cleaning") & Please confirm creating alarm at 4:15 pm with name cleaning
+CONFIRM ( new_alarm_time = "5:15 pm" ; new_alarm_name = "music practice") & OK, please confirm alarm at 5:15 pm named music practice.
+CONFIRM ( new_alarm_time = "5:15 pm" ; new_alarm_name = "Grocery run") & OK, new alarm at 5:15 pm titled Grocery run.
+CONFIRM ( new_alarm_time = "4:30 pm" ; new_alarm_name = "Grocery run") & OK, the details are alarm at 4:30 pm titled Grocery run.
+CONFIRM ( new_alarm_time = "5:15 pm" ; new_alarm_name = "new alarm") & please confirm the details creating an alarm at 5:15 pm. with name new alarm
+CONFIRM ( new_alarm_time = "4:30 pm" ; new_alarm_name = "new alarm") & please confirm creating an alarm at 4:30 pm with name new alarm
+CONFIRM ( new_alarm_time = "4:30 pm" ; new_alarm_name = "grocery run") & please confirm creating an alarm at 4:30 pm. with the name grocery run
+CONFIRM ( new_alarm_time = "3:30 pm" ; new_alarm_name = "Cleaning") & Please confirm that you want to set an alarm named Cleaning for 3:30 pm.
+CONFIRM ( new_alarm_time = "3:30 pm" ; new_alarm_name = "Phone home") & Please confirm that you want to set an alarm named Phone home for 3:30 pm.
+CONFIRM ( new_alarm_time = "3:45 pm" ; new_alarm_name = "Phone home") & So you want to set an alarm named Phone home for 3:45 pm. Is that correct?
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "New Alarm") & please confirm the following details. Alarm is set at 3:15 pm with name New Alarm.
+CONFIRM ( new_alarm_time = "4:15 pm" ; new_alarm_name = "Leave for home") & Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home.
+CONFIRM ( new_alarm_time = "4:15 pm" ; new_alarm_name = "Grocery run") & Please confirm the following details. Alarm is set at 4:15 pm with name Grocery run.
+CONFIRM ( new_alarm_time = "3:45 pm" ; new_alarm_name = "Leave for home") & I think I have it: Creating alarm for 3:45 pm for Leave for home.
+CONFIRM ( new_alarm_time = "4:30 pm" ; new_alarm_name = "Leave for home") & All right, I think I can correct that: Alarm for 4:30 pm for Leave for home.
+CONFIRM ( new_alarm_time = "4:30 pm" ; new_alarm_name = "Phone home") & Sure I'm creating it now for 4:30 pm with the name Phone home.
+CONFIRM ( new_alarm_time = "3:45 pm" ; new_alarm_name = "grocery run") & Confirming new alarm, grocery run, for 3:45 pm.
+CONFIRM ( new_alarm_time = "5:15 pm" ; new_alarm_name = "Grocery run") & Let's confirm the details. You want Grocery run alarm set for 5:15 pm.
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "Grocery run") & Okay, let's confirm the details. Grocery run at 3:15 pm.
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "Phone home") & Okay, let's confirm the details. New alarm Phone home at 3:15 pm.
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "new alarm") & Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm.
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "cleaning") & Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning.
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "music practice") & Okay, confirm these details: Creating an alarm for 5 pm that is called music practice.
+CONFIRM ( new_alarm_time = "4:30 pm" ; new_alarm_name = "Leave for home") & Yes, I need your final confirmation to make a new alarm at 4:30 pm in the name Leave for home.
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "Leave for home") & Okay. Please confirm to make a new alarm at 3:15 pm in the name Leave for home.
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "Grocery run") & Please confirm finally to make a new alarm at 3:15 pm in the new name Grocery run.
+CONFIRM ( new_alarm_time = "3 pm" ; new_alarm_name = "New alarm") & Sure, please confirm you'd like me to set a New alarm for 3 pm.
+CONFIRM ( new_alarm_time = "3 pm" ; new_alarm_name = "Leave for home") & Okay, confirm you'd like a new alarm set for 3 pm titled Leave for home.
+CONFIRM ( new_alarm_time = "4:30 pm" ; new_alarm_name = "cleaning") & Sure, confirm you'd like an alarm set called cleaning at 4:30 pm?
+CONFIRM ( new_alarm_time = "5:15 pm" ; new_alarm_name = "Phone home") & Verify the upcoming information: Name the new alarm as Phone home and set it for 5:15 pm.
+CONFIRM ( new_alarm_time = "5:15 pm" ; new_alarm_name = "Cleaning") & Please verify the upcoming details: The new alarm will be called Cleaning and the time will be 5:15 pm.
+CONFIRM ( new_alarm_time = "4:45 pm" ; new_alarm_name = "Grocery run") & Please confirm: You want me to add an alarm at 4:45 pm with name Grocery run.
+CONFIRM ( new_alarm_time = "3 pm" ; new_alarm_name = "Grocery run") & Please confirm: You want me to add an alarm at 3 pm with name Grocery run.
+CONFIRM ( new_alarm_time = "3 pm" ; new_alarm_name = "Cooking") & Please confirm: You want me to add an alarm at 3 pm with name Cooking.
+CONFIRM ( new_alarm_time = "4:45 pm" ; new_alarm_name = "Music Practice") & Okay, creating an alarm for 4:45 pm titles Music Practice, correct?
+CONFIRM ( new_alarm_time = "4:45 pm" ; new_alarm_name = "Leave for Home") & Okay, you want to create a new alarm at 4:45 pm titled Leave for Home, right?
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "Leave for Home") & Okay, creating an alarm titled Leave for Home at 5 pm, sound good?
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "New Alarm") & Okay, you want me to create an alarm at 5 pm with name New Alarm. Please confirm.
+OFFER ( new_alarm_time = "5:15 pm" ; new_alarm_name = "New Alarm") & Apologies, I wasn't able to set it. Do you prefer 5:15 pm and call it New Alarm?
+OFFER ( new_alarm_time = "5:15 pm" ; new_alarm_name = "New Alarm") & Apologies, I wasn't able to set it. Do you prefer 5:15 pm and call it New Alarm?
+CONFIRM ( new_alarm_time = "4 pm" ; new_alarm_name = "New alarm") & Understood, I will create an alarm at 4 pm titled New alarm.
+CONFIRM ( new_alarm_time = "4 pm" ; new_alarm_name = "Cleaning") & An alarm called Cleaning will be set for 4 pm, is that correct?
+CONFIRM ( new_alarm_time = "4:45 pm" ; new_alarm_name = "Leave for home") & The alarm Leave for home will be set at 4:45 pm, correct?

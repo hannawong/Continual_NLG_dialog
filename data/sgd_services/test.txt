@@ -1,0 +1,804 @@
+OFFER ( doctor_name = "Aaron Tward, M.D." ; city = "San Francisco" ; type = "ENT Specialist") & Would Aaron Tward, M.D. an ENT Specialist, who is located in San Francisco work for you?
+INFORM ( phone_number = "415-353-2757" ; average_rating = "5.0") & They have a 5.0 rating, and you can reach them at 415-353-2757.
+CONFIRM ( doctor_name = "Aaron Tward, M.D." ; appointment_time = "11:15 am" ; appointment_date = "March 10th") & You want to schedule an appointment with Aaron Tward, M.D. at 11:15 am, on March 10th. Is this correct?
+OFFER ( doctor_name = "Aaron Tward, M.D." ; appointment_date = "March 10th" ; appointment_time = "11 am") & Sorry, I was unable to book an appointment for the time slot you requested. Would March 10th at 11 am with doctor Aaron Tward, M.D. work instead?
+OFFER ( doctor_name = "Aaron Tward, M.D." ; appointment_date = "March 10th" ; appointment_time = "11 am") & Sorry, I was unable to book an appointment for the time slot you requested. Would March 10th at 11 am with doctor Aaron Tward, M.D. work instead?
+INFORM ( street_address = "2380 Sutter Street") & Their office is at 2380 Sutter Street.
+OFFER ( doctor_name = "Dr. Hoang M. Duong, MD" ; city = "Milpitas" ; type = "Dermatologist") & I have 3 hits of Dr. Hoang M. Duong, MD in Milpitas for a Dermatologist
+OFFER ( doctor_name = "Dr. Hoang M. Duong, MD" ; city = "Milpitas" ; type = "Dermatologist") & I have 3 hits of Dr. Hoang M. Duong, MD in Milpitas for a Dermatologist
+OFFER ( doctor_name = "Dr. Hoang M. Duong, MD" ; city = "Milpitas" ; type = "Dermatologist") & I have 3 hits of Dr. Hoang M. Duong, MD in Milpitas for a DermatologistINFORM_COUNT ( count = "3") & I have 3 hits of Dr. Hoang M. Duong, MD in Milpitas for a Dermatologist
+CONFIRM ( doctor_name = "Dr. Hoang M. Duong, MD" ; appointment_time = "10 am" ; appointment_date = "March 11th") & Please confirm the booking details schedule an appointment with Dr. Hoang M. Duong, MD at 10 am, March 11th
+CONFIRM ( doctor_name = "Dr. Hoang M. Duong, MD" ; appointment_time = "2:30 pm") & Please confirm the booking details appointment with Dr. Hoang M. Duong, MD at 2:30 pm
+CONFIRM ( appointment_time = "2:30 pm" ; appointment_date = "March 13th") & Ok Please confirm the booking details appointment at 2:30 pm on March 13th
+INFORM ( phone_number = "408-263-6073") & Your booking is completed, you may reach them at 408-263-6073
+INFORM ( phone_number = "408-263-6073") & Your booking is completed, you may reach them at 408-263-6073
+OFFER ( doctor_name = "Antioch family Practice: Copeland John W MD" ; city = "Antioch" ; type = "General Practitioner") & Okay I have Antioch family Practice: Copeland John W MD, a General practitioner in Antioch.
+OFFER ( doctor_name = "Baart Antioch: Quismorio William L MD" ; city = "Antioch" ; type = "General Practitioner") & What about Baart Antioch: Quismorio William L MD, a General practitioner in Antioch.
+OFFER ( doctor_name = "Howard L Friesen Inc" ; city = "Antioch" ; type = "General Practitioner") & Okay I have Howard L Friesen Inc, a General practitioner in Antioch.
+CONFIRM ( doctor_name = "Howard L Friesen Inc" ; appointment_time = "3:30 pm" ; appointment_date = "March 13th") & Confirming: book appointment with Howard L Friesen Inc at 3:30 pm on March 13th?
+INFORM ( street_address = "3436 Hillcrest Avenue # 200" ; average_rating = "5.0") & They are at 3436 Hillcrest Avenue # 200 and they have a 5.0 rating.
+OFFER ( doctor_name = "Clifford Hoffman DO, MPH Family Doctor" ; city = "Benicia" ; type = "General Practitioner") & I found one good rated General Practitioner. His name is Clifford Hoffman DO, MPH Family Doctor located in Benicia. Is that sounds good for you?
+CONFIRM ( doctor_name = "Clifford Hoffman DO, MPH Family Doctor" ; appointment_time = "1 pm" ; appointment_date = "March 14th") & Yup! I have scheduled for you. Please can you confirm me the details - Your appointment is with Clifford Hoffman DO, MPH Family Doctor at 1 pm on March 14th.
+OFFER ( doctor_name = "Anne Han, M.D." ; city = "San Francisco" ; type = "Dermatologist") & There are 10 doctors I found, one Dermatologist is Anne Han, M.D. in San Francisco.
+OFFER ( doctor_name = "Anne Han, M.D." ; city = "San Francisco" ; type = "Dermatologist") & There are 10 doctors I found, one Dermatologist is Anne Han, M.D. in San Francisco.
+OFFER ( doctor_name = "Anne Han, M.D." ; city = "San Francisco" ; type = "Dermatologist") & There are 10 doctors I found, one Dermatologist is Anne Han, M.D. in San Francisco.INFORM_COUNT ( count = "10") & There are 10 doctors I found, one Dermatologist is Anne Han, M.D. in San Francisco.
+OFFER ( doctor_name = "Aura Skin Spa" ; city = "San Francisco" ; type = "Dermatologist") & Another option is Aura Skin Spa a Dermatologist in San Francisco.
+OFFER ( doctor_name = "Neil Fruman, MD - Retired" ; city = "Lafayette" ; type = "General Practitioner") & Neil Fruman, MD - Retired General Practitioner in Lafayette is the 1 result.
+OFFER ( doctor_name = "Neil Fruman, MD - Retired" ; city = "Lafayette" ; type = "General Practitioner") & Neil Fruman, MD - Retired General Practitioner in Lafayette is the 1 result.
+OFFER ( doctor_name = "Neil Fruman, MD - Retired" ; city = "Lafayette" ; type = "General Practitioner") & Neil Fruman, MD - Retired General Practitioner in Lafayette is the 1 result.INFORM_COUNT ( count = "1") & Neil Fruman, MD - Retired General Practitioner in Lafayette is the 1 result.
+INFORM ( street_address = "1450 Treat Boulevard Suite 120B" ; phone_number = "925-296-7490") & Their location is 1450 Treat Boulevard Suite 120B. Their number is 925-296-7490.
+CONFIRM ( doctor_name = "Neil Fruman, MD - Retired" ; appointment_time = "12:30 pm" ; appointment_date = "March 14th") & Confirm the appointment with Neil Fruman, MD - Retired at 12:30 pm on March 14th
+INFORM ( average_rating = "5.0") & Their rating is 5.0. Your appointment has been booked.
+INFORM ( average_rating = "5.0") & Their rating is 5.0. Your appointment has been booked.
+OFFER ( doctor_name = "Dr. Ani Tajirian" ; city = "Lafayette" ; type = "Dermatologist") & I have found 3 results, one of which is Dr. Ani Tajirian, a dermatologist located in Lafayette.
+OFFER ( doctor_name = "Dr. Ani Tajirian" ; city = "Lafayette" ; type = "Dermatologist") & I have found 3 results, one of which is Dr. Ani Tajirian, a dermatologist located in Lafayette.
+OFFER ( doctor_name = "Dr. Ani Tajirian" ; city = "Lafayette" ; type = "Dermatologist") & I have found 3 results, one of which is Dr. Ani Tajirian, a dermatologist located in Lafayette.INFORM_COUNT ( count = "3") & I have found 3 results, one of which is Dr. Ani Tajirian, a dermatologist located in Lafayette.
+INFORM ( average_rating = "5.0") & Their overall customer rating is a 5.0
+CONFIRM ( doctor_name = "Dr. Ani Tajirian" ; appointment_time = "2:30 pm" ; appointment_date = "next Tuesday") & Please confirm the following details: Schedule a 2:30 pm appointment with Dr. Ani Tajirian next Tuesday.
+CONFIRM ( appointment_time = "2:30 pm" ; appointment_date = "March 14th") & Please confirm the following details: Schedule a 2:30 pm appointment with Dr. Ani Tajirian on March 14th.
+CONFIRM ( appointment_time = "1 pm" ; appointment_date = "March 14th") & Please confirm the following details: Schedule a 1 pm appointment with Dr. Ani Tajirian on March 14th.
+INFORM ( street_address = "20400 Lake Chabot Road #202" ; phone_number = "510-839-2937") & Your appointment has been successfully scheduled. They are located at 20400 Lake Chabot Road #202 and their number is 510-839-2937.
+INFORM ( street_address = "20400 Lake Chabot Road #202" ; phone_number = "510-839-2937") & Your appointment has been successfully scheduled. They are located at 20400 Lake Chabot Road #202 and their number is 510-839-2937.
+OFFER ( doctor_name = "Optima Ophthalmic Med Associates: Mandel Mark R MD" ; city = "Hayward" ; type = "Ophthalmologist") & 1 ophthalmologist found. It is Optima Ophthalmic Med Associates: Mandel Mark R MD, in Hayward.
+OFFER ( doctor_name = "Optima Ophthalmic Med Associates: Mandel Mark R MD" ; city = "Hayward" ; type = "Ophthalmologist") & 1 ophthalmologist found. It is Optima Ophthalmic Med Associates: Mandel Mark R MD, in Hayward.
+OFFER ( doctor_name = "Optima Ophthalmic Med Associates: Mandel Mark R MD" ; city = "Hayward" ; type = "Ophthalmologist") & 1 ophthalmologist found. It is Optima Ophthalmic Med Associates: Mandel Mark R MD, in Hayward.INFORM_COUNT ( count = "1") & 1 ophthalmologist found. It is Optima Ophthalmic Med Associates: Mandel Mark R MD, in Hayward.
+INFORM ( street_address = "706 Webster Street") & Yes, 706 Webster Street.
+INFORM ( average_rating = "4.0" ; phone_number = "510-886-3937") & Rating is 4.0 and number 510-886-3937.
+CONFIRM ( doctor_name = "Optima Ophthalmic Med Associates: Mandel Mark R MD" ; appointment_time = "11 am" ; appointment_date = "March 11th") & Please confirm: Optima Ophthalmic Med Associates: Mandel Mark R MD, at 11 am on March 11th.
+CONFIRM ( doctor_name = "Optima Ophthalmic Med Associates: Mandel Mark R MD" ; appointment_time = "11 am" ; appointment_date = "today") & Please confirm: Optima Ophthalmic Med Associates: Mandel Mark R MD, today at 11 am.
+OFFER ( doctor_name = "Arthur D. Fu, MD" ; city = "San Mateo" ; type = "Ophthalmologist") & Okay, I have found an Ophthalmologist named Arthur D. Fu, MD located in San Mateo, would you like to visit his office?
+OFFER ( doctor_name = "Dr. Dan R. Lightfoot, MD" ; city = "Santa Rosa" ; type = "Ophthalmologist") & Sure, I have located an Ophthalmologist name Dr. Dan R. Lightfoot, MD located in Santa Rosa, would you like to visit his office?I
+OFFER ( doctor_name = "Dr. James E. Hunt, MD" ; city = "Santa Rosa" ; type = "Ophthalmologist") & I have also located a Ophthalmologist name Dr. James E. Hunt, MD located in Santa Rosa, would that be okay?
+INFORM ( average_rating = "5.0") & He has a rating of 5.0.
+INFORM ( street_address = "4501 Rosewood Drive") & Yes, the address is 4501 Rosewood Drive.
+CONFIRM ( doctor_name = "Dr. James E. Hunt, MD" ; appointment_time = "3 pm" ; appointment_date = "today") & Yes I can. I see Dr. James E. Hunt, MD has an opening today @ 3 pm. Would you like to confirm this available opening?
+CONFIRM ( doctor_name = "Dr. James E. Hunt, MD" ; appointment_time = "10:15 am") & Okay, I am confirming an appointment with Dr. James E. Hunt, MD for 10:15 am, is that correct?
+CONFIRM ( doctor_name = "Dr. James E. Hunt, MD" ; appointment_time = "10:15 am" ; appointment_date = "March 10th") & Okay let me see. I can schedule for 10:15 am with Dr. James E. Hunt, MD for March 10th, correct?
+OFFER ( doctor_name = "Dr. James E. Hunt, MD" ; appointment_date = "March 10th" ; appointment_time = "10 am") & Sorry, I do not show that Dr. James E. Hunt, MD has an opening for 10 am on March 10th.
+OFFER ( doctor_name = "Dr. James E. Hunt, MD" ; appointment_date = "March 10th" ; appointment_time = "10 am") & Sorry, I do not show that Dr. James E. Hunt, MD has an opening for 10 am on March 10th.
+OFFER ( doctor_name = "Dr. Arthur C. O'brien Jr, MD" ; city = "Castro Valley" ; type = "General Practitioner") & I found 6 results. How does a general practitioner by the name of Dr. Arthur C. O'brien Jr, MD sound? He's located in Castro Valley.
+OFFER ( doctor_name = "Dr. Arthur C. O'brien Jr, MD" ; city = "Castro Valley" ; type = "General Practitioner") & I found 6 results. How does a general practitioner by the name of Dr. Arthur C. O'brien Jr, MD sound? He's located in Castro Valley.
+OFFER ( doctor_name = "Dr. Arthur C. O'brien Jr, MD" ; city = "Castro Valley" ; type = "General Practitioner") & I found 6 results. How does a general practitioner by the name of Dr. Arthur C. O'brien Jr, MD sound? He's located in Castro Valley.INFORM_COUNT ( count = "6") & I found 6 results. How does a general practitioner by the name of Dr. Arthur C. O'brien Jr, MD sound? He's located in Castro Valley.
+OFFER ( doctor_name = "Dr. Maryam Fortani, MD" ; city = "Castro Valley" ; type = "General Practitioner") & What about Dr. Maryam Fortani, MD in Castro Valley? He's a general Practitioner as well.
+INFORM ( phone_number = "510-357-3023" ; average_rating = "5.0") & You can reach them at 510-357-3023, they have a 5.0 rating.
+CONFIRM ( doctor_name = "Dr. Maryam fortani, MD" ; appointment_time = "10:30 am" ; appointment_date = "next Tuesday") & Please confirm: We will schedule an appointment with Dr. Maryam fortani, MD at 10:30 am for next Tuesday.
+CONFIRM ( doctor_name = "Dr. Maryam Fortani, MD" ; appointment_time = "11:30 am") & Please confirm these details: We will schedule an appointment with Dr. Maryam Fortani, MD at 11:30 am.
+OFFER ( doctor_name = "Dr. Maryam Fortani, MD" ; appointment_date = "next Tuesday" ; appointment_time = "11 am") & Sorry, I couldn't book the appointment. How about next Tuesday at 11 am with Dr. Maryam Fortani, MD.
+OFFER ( doctor_name = "Dr. Maryam Fortani, MD" ; appointment_date = "next Tuesday" ; appointment_time = "11 am") & Sorry, I couldn't book the appointment. How about next Tuesday at 11 am with Dr. Maryam Fortani, MD.
+OFFER ( doctor_name = "Berman Skin Institute" ; city = "Pleasanton" ; type = "Dermatologist") & 5 options found. I suggest Berman Skin Institute, it is a Dermatologist place in Pleasanton
+OFFER ( doctor_name = "Berman Skin Institute" ; city = "Pleasanton" ; type = "Dermatologist") & 5 options found. I suggest Berman Skin Institute, it is a Dermatologist place in Pleasanton
+OFFER ( doctor_name = "Berman Skin Institute" ; city = "Pleasanton" ; type = "Dermatologist") & 5 options found. I suggest Berman Skin Institute, it is a Dermatologist place in PleasantonINFORM_COUNT ( count = "5") & 5 options found. I suggest Berman Skin Institute, it is a Dermatologist place in Pleasanton
+INFORM ( street_address = "2700 Grant Street #309" ; average_rating = "4.7") & The address is 2700 Grant Street #309, and the rating is 4.7
+CONFIRM ( doctor_name = "Berman Skin Institute" ; appointment_time = "1 pm" ; appointment_date = "March 14th") & Ok! Appointment scheduled for March 14th, at 1 pm, with Berman Skin Institute. Can you confirm the details, please?
+CONFIRM ( appointment_time = "3:30 pm" ; appointment_date = "March 13th") & Sure. Appointment scheduled for March 13th, at 3:30 pm, same place. Can you confirm the details, please?
+OFFER ( doctor_name = "Alphaeus Wise, MD" ; city = "Walnut Creek" ; type = "General Practitioner") & I located 10 doctors. First, Alphaeus Wise, MD is a General Practitioner in Walnut Creek.
+OFFER ( doctor_name = "Alphaeus Wise, MD" ; city = "Walnut Creek" ; type = "General Practitioner") & I located 10 doctors. First, Alphaeus Wise, MD is a General Practitioner in Walnut Creek.
+OFFER ( doctor_name = "Alphaeus Wise, MD" ; city = "Walnut Creek" ; type = "General Practitioner") & I located 10 doctors. First, Alphaeus Wise, MD is a General Practitioner in Walnut Creek.INFORM_COUNT ( count = "10") & I located 10 doctors. First, Alphaeus Wise, MD is a General Practitioner in Walnut Creek.
+INFORM ( street_address = "1181 Boulevard Way B") & The office is located at 1181 Boulevard Way B.
+CONFIRM ( doctor_name = "Alphaeus Wise, MD" ; appointment_time = "11:30 am" ; appointment_date = "March 9th") & Please confirm: appointment with Alphaeus Wise, MD on March 9th at 11:30 am.
+CONFIRM ( appointment_time = "11:30 am" ; appointment_date = "next Friday") & Please confirm, appointment is at 11:30 am next Friday.
+CONFIRM ( doctor_name = "Alphaeus Wise, MD" ; appointment_time = "3 pm" ; appointment_date = "next Friday") & Please confirm, appointment with Alphaeus Wise, MD at 3 pm next Friday.
+INFORM ( phone_number = "925-935-3113" ; average_rating = "4.6") & Their phone number is 925-935-3113. Their rating is 4.6.
+OFFER ( doctor_name = "Abazari Mina MD" ; city = "San Francisco" ; type = "General Practitioner") & There is one General Practitioner Abazari Mina MD in San Francisco
+CONFIRM ( doctor_name = "Abazari Mina MD" ; appointment_time = "11:30 am" ; appointment_date = "March 14th") & Are you sure you want Abazari Mina MD at 11:30 am on March 14th?
+CONFIRM ( appointment_time = "4 pm" ; appointment_date = "march 14th") & Alright so the appointment is at 4 pm on march 14th right?
+OFFER ( doctor_name = "Linder Alan M MD" ; city = "San Lorenzo" ; type = "General Practitioner") & Does Linder Alan M MD who is a General Practitioner in San Lorenzo please you?
+INFORM ( average_rating = "5.0") & The rating is 5.0
+INFORM ( street_address = "3100 Telegraph Avenue #2102" ; phone_number = "510-276-3150") & The address location is 3100 Telegraph Avenue #2102 and their mobile is 510-276-3150
+CONFIRM ( doctor_name = "Linder Alan M MD" ; appointment_time = "12:30 pm" ; appointment_date = "March 9th") & Kindly confirm the details. Schedule appointment with Linder Alan M MD at 12:30 pm on March 9th.
+CONFIRM ( appointment_time = "10:30 am" ; appointment_date = "Next Thursday") & Kindly confirm appointment at 10:30 am Next Thursday
+OFFER ( doctor_name = "Anne Han, M.D." ; city = "San Francisco" ; type = "Dermatologist") & There are 10 results. There is Anne Han, M.D. in San Francisco, a Dermatologist.
+OFFER ( doctor_name = "Anne Han, M.D." ; city = "San Francisco" ; type = "Dermatologist") & There are 10 results. There is Anne Han, M.D. in San Francisco, a Dermatologist.
+OFFER ( doctor_name = "Anne Han, M.D." ; city = "San Francisco" ; type = "Dermatologist") & There are 10 results. There is Anne Han, M.D. in San Francisco, a Dermatologist.INFORM_COUNT ( count = "10") & There are 10 results. There is Anne Han, M.D. in San Francisco, a Dermatologist.
+INFORM ( street_address = "655 Redwood Highway Suite 100" ; average_rating = "5.0") & She is located at 655 Redwood Highway Suite 100. The rating is 5.0.
+CONFIRM ( doctor_name = "Anne Han, M.D." ; appointment_time = "11:45 am" ; appointment_date = "March 12th") & Confirming appointment details: a scheduled appointment with Anne Han, M.D. at 11:45 am on March 12th.
+INFORM ( phone_number = "415-600-3800") & The booking is successful. The phone number is 415-600-3800.
+INFORM ( phone_number = "415-600-3800") & The booking is successful. The phone number is 415-600-3800.
+OFFER ( doctor_name = "Anjali Tate, M.D." ; city = "San Jose" ; type = "Gynecologist") & I've found a Gynecologist in San Jose named Anjali Tate, M.D.
+INFORM ( phone_number = "510-845-8035" ; average_rating = "5.0") & You can find them at 510-845-8035. They have a 5.0 rating!
+OFFER ( doctor_name = "Dr. Ali A. Zaki, MD" ; city = "San Jose" ; type = "Gynecologist") & There is another similar Gynecologist in San Jose named Dr. Ali A. Zaki, MD
+OFFER ( doctor_name = "Access Health" ; city = "San Jose" ; type = "General Practitioner") & There is a General Practitioner in San Jose called Access Health
+CONFIRM ( doctor_name = "Access Health" ; appointment_time = "3 pm" ; appointment_date = "March 13th") & Just to confirm, 3 pm on March 13th with Access Health?
+INFORM ( street_address = "301 Old San Francisco Road Level 2" ; average_rating = "4.0") & It's booked! They're at 301 Old San Francisco Road Level 2, with a 4.0 rating
+INFORM ( street_address = "301 Old San Francisco Road Level 2" ; average_rating = "4.0") & It's booked! They're at 301 Old San Francisco Road Level 2, with a 4.0 rating
+OFFER ( doctor_name = "Antioch Family Practice: Copeland John W MD" ; city = "Antioch" ; type = "General Practitioner") & There is a General Practitioner, Antioch Family Practice: Copeland John W MD in Antioch
+CONFIRM ( doctor_name = "Antioch Family Practice: Copeland John W MD" ; appointment_time = "2 pm" ; appointment_date = "next Thursday") & Let's comfirm the details: Appointment with Antioch Family Practice: Copeland John W MD appointment is at 2 pm next Thursday.
+INFORM ( phone_number = "925-778-7233" ; average_rating = "5.0") & You can reach them on 925-778-7233. They have a rating of 5.0.
+OFFER ( doctor_name = "Access Health" ; city = "San Jose" ; type = "General Practitioner") & If you are looking for a General Practitioner in San Jose, I would recommend Access Health.
+CONFIRM ( doctor_name = "Access Health" ; appointment_time = "3 pm" ; appointment_date = "March 13th") & I would like to confirm that my appointment with Access Health is on March 13th at 3 pm in the afternoon.
+INFORM ( phone_number = "408-729-7690" ; average_rating = "4.0") & Here is their phone number - 408-729-7690. They will confirm that your appointment has been booked. They have a rating of 4.0.
+INFORM ( phone_number = "408-729-7690" ; average_rating = "4.0") & Here is their phone number - 408-729-7690. They will confirm that your appointment has been booked. They have a rating of 4.0.
+OFFER ( doctor_name = "Bay Area House Call Physicians" ; city = "Palo Alto" ; type = "General Practitioner") & Look into Bay Area House Call Physicians in Palo Alto to find a General Practitioner
+INFORM ( street_address = "701 E El Camino Real 2nd Floor") & 701 E El Camino Real 2nd Floor
+INFORM ( average_rating = "5.0" ; phone_number = "650-384-0986") & Their number is 650-384-0986. Their rate is 5.0.
+OFFER ( doctor_name = "Byrne Eileen MD" ; city = "Palo Alto" ; type = "General Practitioner") & Byrne Eileen MD is another General Practitioner in Palo Alto
+CONFIRM ( doctor_name = "Byrne Eileen MD" ; appointment_time = "12:30 pm" ; appointment_date = "March 14th") & Please confirm these details: appointment with Byrne Eileen MD on March 14th at 12:30 pm
+CONFIRM ( appointment_time = "12:30 pm" ; appointment_date = "March 13th") & Please confirm these details: appointment on March 13th at 12:30 pm
+CONFIRM ( appointment_time = "12 pm" ; appointment_date = "March 13th") & Please confirm: appointment on March 13th at 12 pm.
+OFFER ( doctor_name = "Access Health" ; city = "San Jose" ; type = "General Practitioner") & There are 10 results I found for you located in San Jose who is a General Practitioner. What do you think of Access Health?
+OFFER ( doctor_name = "Access Health" ; city = "San Jose" ; type = "General Practitioner") & There are 10 results I found for you located in San Jose who is a General Practitioner. What do you think of Access Health?
+OFFER ( doctor_name = "Access Health" ; city = "San Jose" ; type = "General Practitioner") & There are 10 results I found for you located in San Jose who is a General Practitioner. What do you think of Access Health?INFORM_COUNT ( count = "10") & There are 10 results I found for you located in San Jose who is a General Practitioner. What do you think of Access Health?
+OFFER ( doctor_name = "Advanced Dermatology & Skin Surgery, George Hsieh, M.D." ; city = "San Jose" ; type = "Dermatologist") & What do you think of Advanced Dermatology & Skin Surgery, George Hsieh, M.D. located in San Jose is a Dermatologist?
+CONFIRM ( doctor_name = "Advanced Dermatology & Skin Surgery, George Hsieh, M.D." ; appointment_time = "12 pm" ; appointment_date = "next Monday") & Please confirm the details: You want me to schedule an appointment with Advanced Dermatology & Skin Surgery, George Hsieh, M.D. at 12 pm on next Monday.
+CONFIRM ( appointment_time = "1 pm" ; appointment_date = "March 11th") & Please confirm the details again: Appointment is at 1 pm on March 11th.
+OFFER ( doctor_name = "Alchemy John MD" ; city = "Santa Rosa" ; type = "General Practitioner") & I found a General Practitioner in Santa Rosa named Alchemy John MD.
+CONFIRM ( doctor_name = "Alchemy John MD" ; appointment_time = "3:30 pm" ; appointment_date = "today") & Just to confirm, you want an appointment today at 3:30 pm with Alchemy John MD?
+INFORM ( average_rating = "5.0") & I've booked it. They're rated a 5.0.
+INFORM ( average_rating = "5.0") & I've booked it. They're rated a 5.0.
+OFFER ( doctor_name = "Daisy Manuel-Arguelles, DO" ; city = "Sonoma" ; type = "General Practitioner") & Okay I found 3 results. Daisy Manuel-Arguelles, DO is located in Sonoma and is a General Practitioner.
+OFFER ( doctor_name = "Daisy Manuel-Arguelles, DO" ; city = "Sonoma" ; type = "General Practitioner") & Okay I found 3 results. Daisy Manuel-Arguelles, DO is located in Sonoma and is a General Practitioner.
+OFFER ( doctor_name = "Daisy Manuel-Arguelles, DO" ; city = "Sonoma" ; type = "General Practitioner") & Okay I found 3 results. Daisy Manuel-Arguelles, DO is located in Sonoma and is a General Practitioner.INFORM_COUNT ( count = "3") & Okay I found 3 results. Daisy Manuel-Arguelles, DO is located in Sonoma and is a General Practitioner.
+OFFER ( doctor_name = "Sonoma Dermatology" ; city = "Sonoma" ; type = "Dermatologist") & I was able to find 1 result. Sonoma Dermatology is a Dermatologist located in Sonoma.
+OFFER ( doctor_name = "Sonoma Dermatology" ; city = "Sonoma" ; type = "Dermatologist") & I was able to find 1 result. Sonoma Dermatology is a Dermatologist located in Sonoma.
+OFFER ( doctor_name = "Sonoma Dermatology" ; city = "Sonoma" ; type = "Dermatologist") & I was able to find 1 result. Sonoma Dermatology is a Dermatologist located in Sonoma.INFORM_COUNT ( count = "1") & I was able to find 1 result. Sonoma Dermatology is a Dermatologist located in Sonoma.
+INFORM ( street_address = "1104 Adams Street # 201") & The address is 1104 Adams Street # 201.
+CONFIRM ( doctor_name = "Sonoma Dermatology" ; appointment_time = "12:45 pm" ; appointment_date = "today") & Please confirm the following details for your upcoming appointment: Your appointment is scheduled with Sonoma Dermatology at 12:45 pm today.
+OFFER ( doctor_name = "Borodulin Tatyana MD" ; city = "Campbell" ; type = "General Practitioner") & I found 3 results, Borodulin Tatyana MD is located in Campbell and is a General Practitioner.
+OFFER ( doctor_name = "Borodulin Tatyana MD" ; city = "Campbell" ; type = "General Practitioner") & I found 3 results, Borodulin Tatyana MD is located in Campbell and is a General Practitioner.
+OFFER ( doctor_name = "Borodulin Tatyana MD" ; city = "Campbell" ; type = "General Practitioner") & I found 3 results, Borodulin Tatyana MD is located in Campbell and is a General Practitioner.INFORM_COUNT ( count = "3") & I found 3 results, Borodulin Tatyana MD is located in Campbell and is a General Practitioner.
+INFORM ( phone_number = "408-378-3300") & There you go: 408-378-3300
+CONFIRM ( doctor_name = "Borodulin Tatyana MD" ; appointment_time = "1:30 pm" ; appointment_date = "tomorrow") & So you need an appointment with Borodulin Tatyana MD at 1:30 pm tomorrow, is that correct?
+INFORM ( street_address = "340 Dardanelli LN # 24" ; average_rating = "4.0") & I have booked the appointment for you. You can find them at 340 Dardanelli LN # 24 and they are rated with a 4.0.
+INFORM ( street_address = "340 Dardanelli LN # 24" ; average_rating = "4.0") & I have booked the appointment for you. You can find them at 340 Dardanelli LN # 24 and they are rated with a 4.0.
+OFFER ( doctor_name = "Babak Edraki MD" ; city = "Walnut Creek" ; type = "Gynecologist") & There are 10 results of Gynecologist in Walnut Creek including Babak Edraki MD.
+OFFER ( doctor_name = "Babak Edraki MD" ; city = "Walnut Creek" ; type = "Gynecologist") & There are 10 results of Gynecologist in Walnut Creek including Babak Edraki MD.
+OFFER ( doctor_name = "Babak Edraki MD" ; city = "Walnut Creek" ; type = "Gynecologist") & There are 10 results of Gynecologist in Walnut Creek including Babak Edraki MD.INFORM_COUNT ( count = "10") & There are 10 results of Gynecologist in Walnut Creek including Babak Edraki MD.
+INFORM ( phone_number = "925-627-3440" ; average_rating = "4.6") & The rating is 4.6 and you can call them at 925-627-3440.
+CONFIRM ( doctor_name = "Babak Edraki MD" ; appointment_time = "4 pm" ; appointment_date = "next Wednesday") & To confirm your appointment is at 4 pm next Wednesday with Babak Edraki MD.
+CONFIRM ( appointment_time = "12 pm" ; appointment_date = "March 13th") & So the new appointment is on March 13th at 12 pm.
+OFFER ( doctor_name = "Jonathan Kurss, MD" ; city = "Santa Rosa" ; type = "Gynecologist") & I have found 4 different doctors. How does Jonathan Kurss, MD in Santa Rosa sound? He's a gynecologist.
+OFFER ( doctor_name = "Jonathan Kurss, MD" ; city = "Santa Rosa" ; type = "Gynecologist") & I have found 4 different doctors. How does Jonathan Kurss, MD in Santa Rosa sound? He's a gynecologist.
+OFFER ( doctor_name = "Jonathan Kurss, MD" ; city = "Santa Rosa" ; type = "Gynecologist") & I have found 4 different doctors. How does Jonathan Kurss, MD in Santa Rosa sound? He's a gynecologist.INFORM_COUNT ( count = "4") & I have found 4 different doctors. How does Jonathan Kurss, MD in Santa Rosa sound? He's a gynecologist.
+OFFER ( doctor_name = "Ratcliffe Jennifer V MD" ; city = "Santa Rosa" ; type = "Gynecologist") & What about Ratcliffe Jennifer V MD in Santa Rosa? She's also a gynecologist.
+INFORM ( street_address = "1111 Sonoma Avenue #214" ; phone_number = "707-575-5831") & You'll find them at 1111 Sonoma Avenue #214. Their phone number is 707-575-5831.
+CONFIRM ( doctor_name = "Ratcliffe Jennifer V MD" ; appointment_time = "1:30 PM" ; appointment_date = "tomorrow") & Please confirm the details of your appointment: 1:30 PM tomorrow with Ratcliffe Jennifer V MD.
+OFFER ( doctor_name = "Dr. Elizabeth A. Abel, MD" ; city = "Mountain View" ; type = "Dermatologist") & First, Dr. Elizabeth A. Abel, MD is a Dermatologist in Mountain View.
+INFORM ( average_rating = "5.0") & They have a 5.0.
+OFFER ( doctor_name = "F. Landon Clark, M.D., MPH" ; city = "Mountain View" ; type = "Dermatologist") & Next, F. Landon Clark, M.D., MPH is a Dermatologist located in Mountain View.
+CONFIRM ( doctor_name = "F. Landon Clark, M.D., MPH" ; appointment_time = "5:30 PM" ; appointment_date = "next Friday") & Confirm the following appointment with F. Landon Clark, M.D., MPH at 5:30 PM next Friday.
+CONFIRM ( doctor_name = "F. Landon Clark, M.D., MPH" ; appointment_date = "next Monday") & Please confirm the following appointment with F. Landon Clark, M.D., MPH next Monday.
+INFORM ( average_rating = "5.0") & The doctor's rating is 5.0.
+OFFER ( doctor_name = "Anne Han, M.D." ; city = "San Francisco" ; type = "Dermatologist") & I have found Anne Han, M.D., a Dermatologist located in San Francisco.
+OFFER ( doctor_name = "Aura Skin Spa" ; city = "San Francisco" ; type = "Dermatologist") & You could try Aura Skin Spa, a Dermatologist from San Francisco.
+OFFER ( doctor_name = "Bay Area Cosmetic Dermatology" ; city = "San Francisco" ; type = "Dermatologist") & You could also try a Dermatologist based in San Francisco called Bay Area Cosmetic Dermatology
+INFORM ( phone_number = "415-440-6356" ; average_rating = "4.2") & You will be able to contact them at 415-440-6356. They have a rating of 4.2.
+CONFIRM ( doctor_name = "Bay Area Cosmetic Dermatology" ; appointment_time = "2 pm" ; appointment_date = "next Thursday") & Your appointment will be with Bay Area Cosmetic Dermatology, at 2 pm next Thursday. Could you confirm these details are correct?
+INFORM ( street_address = "2211 Post Street #404") & The appointment will be at 2211 Post Street #404.
+OFFER ( doctor_name = "Alphaeus Wise, MD" ; city = "Walnut Creek" ; type = "General Practitioner") & I have found you 10 options. Would you like Alphaeus Wise, MD who is a General Practitioner in Walnut Creek.
+OFFER ( doctor_name = "Alphaeus Wise, MD" ; city = "Walnut Creek" ; type = "General Practitioner") & I have found you 10 options. Would you like Alphaeus Wise, MD who is a General Practitioner in Walnut Creek.
+OFFER ( doctor_name = "Alphaeus Wise, MD" ; city = "Walnut Creek" ; type = "General Practitioner") & I have found you 10 options. Would you like Alphaeus Wise, MD who is a General Practitioner in Walnut Creek.INFORM_COUNT ( count = "10") & I have found you 10 options. Would you like Alphaeus Wise, MD who is a General Practitioner in Walnut Creek.
+OFFER ( doctor_name = "4D Miracles" ; city = "Fremont" ; type = "Gynecologist") & I have 8 results for you. Would you like a Gynecologist at 4D Miracles in Fremont?
+OFFER ( doctor_name = "4D Miracles" ; city = "Fremont" ; type = "Gynecologist") & I have 8 results for you. Would you like a Gynecologist at 4D Miracles in Fremont?
+OFFER ( doctor_name = "4D Miracles" ; city = "Fremont" ; type = "Gynecologist") & I have 8 results for you. Would you like a Gynecologist at 4D Miracles in Fremont?INFORM_COUNT ( count = "8") & I have 8 results for you. Would you like a Gynecologist at 4D Miracles in Fremont?
+CONFIRM ( doctor_name = "4D Miracles" ; appointment_time = "12:15 pm" ; appointment_date = "March 10th") & Make sure I got all the information right. You want an appointment with 4D Miracles on March 10th at 12:15 pm.
+CONFIRM ( appointment_time = "2:45 pm" ; appointment_date = "today") & Let me confirm. You want an appointment for today at 2:45 pm.
+OFFER ( doctor_name = "Aaron Tward, M.D." ; city = "San Francisco" ; type = "ENT Specialist") & No problem. How about Aaron Tward, M.D. location in San Francisco. He's an ENT Specialist.
+OFFER ( doctor_name = "Clifford Chew, MD" ; city = "San Francisco" ; type = "ENT Specialist") & How about Clifford Chew, MD? He's also in San Francisco and is an ENT Specialist.
+OFFER ( doctor_name = "Abazari Mina MD" ; city = "San Francisco" ; type = "General Practitioner") & There's Abazari Mina MD listed in San Francisco as a General Practitioner.
+CONFIRM ( doctor_name = "Abazari Mina MD" ; appointment_time = "4 pm" ; appointment_date = "today") & No problem. Just to confirm: Appointment scheduled with Abazari Mina MD today at 4 pm.
+CONFIRM ( appointment_time = "4 pm" ; appointment_date = "March 13th") & Sure, no problem. Again to confirm: Appointment schedule for 4 pm on March 13th
+INFORM ( phone_number = "949-916-9100") & They can be reached at 949-916-9100. I apologize but I was unable to book the appointment for the time you requested for Abazari Mina MD. Is March 13th ad 3:30 pm ok with you?
+INFORM ( phone_number = "949-916-9100") & They can be reached at 949-916-9100. I apologize but I was unable to book the appointment for the time you requested for Abazari Mina MD. Is March 13th ad 3:30 pm ok with you?
+INFORM ( phone_number = "949-916-9100") & They can be reached at 949-916-9100. I apologize but I was unable to book the appointment for the time you requested for Abazari Mina MD. Is March 13th ad 3:30 pm ok with you?OFFER ( doctor_name = "Abazari Mina MD" ; appointment_date = "March 13th" ; appointment_time = "3:30 pm") & They can be reached at 949-916-9100. I apologize but I was unable to book the appointment for the time you requested for Abazari Mina MD. Is March 13th ad 3:30 pm ok with you?
+INFORM ( phone_number = "949-916-9100") & They can be reached at 949-916-9100. I apologize but I was unable to book the appointment for the time you requested for Abazari Mina MD. Is March 13th ad 3:30 pm ok with you?
+INFORM ( phone_number = "949-916-9100") & They can be reached at 949-916-9100. I apologize but I was unable to book the appointment for the time you requested for Abazari Mina MD. Is March 13th ad 3:30 pm ok with you?OFFER ( doctor_name = "Abazari Mina MD" ; appointment_date = "March 13th" ; appointment_time = "3:30 pm") & They can be reached at 949-916-9100. I apologize but I was unable to book the appointment for the time you requested for Abazari Mina MD. Is March 13th ad 3:30 pm ok with you?
+INFORM ( street_address = "5050 West El Camino Real # 110") & They are located at 5050 West El Camino Real # 110.
+OFFER ( doctor_name = "James A. Watson, MD" ; city = "Gilroy" ; type = "Gynecologist") & There is 1 result. The doctor is James A. Watson, MD who a Gynecologist in Gilroy.
+OFFER ( doctor_name = "James A. Watson, MD" ; city = "Gilroy" ; type = "Gynecologist") & There is 1 result. The doctor is James A. Watson, MD who a Gynecologist in Gilroy.
+OFFER ( doctor_name = "James A. Watson, MD" ; city = "Gilroy" ; type = "Gynecologist") & There is 1 result. The doctor is James A. Watson, MD who a Gynecologist in Gilroy.INFORM_COUNT ( count = "1") & There is 1 result. The doctor is James A. Watson, MD who a Gynecologist in Gilroy.
+INFORM ( phone_number = "408-842-6500" ; average_rating = "4.0") & The phone number is 408-842-6500 and the rating is 4.0.
+CONFIRM ( doctor_name = "James A. Watson, MD" ; appointment_time = "10 am" ; appointment_date = "March 12th") & Will you confirm this request? Visit booked at 10 am on March 12th with James A. Watson, MD.
+INFORM ( street_address = "8833 Monterey Road") & Ok, your appointment has been reserved successfully. The address is 8833 Monterey Road.
+INFORM ( street_address = "8833 Monterey Road") & Ok, your appointment has been reserved successfully. The address is 8833 Monterey Road.
+OFFER ( doctor_name = "Dr. Dan R. Lightfoot, MD" ; city = "Santa Rosa" ; type = "Ophthalmologist") & I found 4 results. Dr. Dan R. Lightfoot, MD is an ophthalmologist located in Santa Rosa
+OFFER ( doctor_name = "Dr. Dan R. Lightfoot, MD" ; city = "Santa Rosa" ; type = "Ophthalmologist") & I found 4 results. Dr. Dan R. Lightfoot, MD is an ophthalmologist located in Santa Rosa
+OFFER ( doctor_name = "Dr. Dan R. Lightfoot, MD" ; city = "Santa Rosa" ; type = "Ophthalmologist") & I found 4 results. Dr. Dan R. Lightfoot, MD is an ophthalmologist located in Santa RosaINFORM_COUNT ( count = "4") & I found 4 results. Dr. Dan R. Lightfoot, MD is an ophthalmologist located in Santa Rosa
+INFORM ( phone_number = "707-575-3800" ; average_rating = "5.0") & They have a 5.0 rating. Their number is 707-575-3800
+CONFIRM ( doctor_name = "Dr. Dan R. Lightfoot, MD" ; appointment_time = "1:30 pm" ; appointment_date = "March 10th") & You are scheduling an appointment with Dr. Dan R. Lightfoot, MD at 1:30 pm on March 10th. Is this correct?
+CONFIRM ( appointment_time = "1:30 pm" ; appointment_date = "March 12th") & You're scheduling an appointment at 1:30 pm on March 12th. Is this correct?
+CONFIRM ( doctor_name = "Dr. Dan R. Lightfoot, MD" ; appointment_time = "11:30 am") & You're scheduling an appointment with Dr. Dan R. Lightfoot, MD at 11:30 am. Are these details correct?
+OFFER ( doctor_name = "Claudio A Bet Inc" ; city = "Burlingame" ; type = "General Practitioner") & I found 4 results. What about general Practitioner Claudio A Bet Inc in Burlingame?
+OFFER ( doctor_name = "Claudio A Bet Inc" ; city = "Burlingame" ; type = "General Practitioner") & I found 4 results. What about general Practitioner Claudio A Bet Inc in Burlingame?
+OFFER ( doctor_name = "Claudio A Bet Inc" ; city = "Burlingame" ; type = "General Practitioner") & I found 4 results. What about general Practitioner Claudio A Bet Inc in Burlingame?INFORM_COUNT ( count = "4") & I found 4 results. What about general Practitioner Claudio A Bet Inc in Burlingame?
+CONFIRM ( doctor_name = "Claudio A Bet Inc" ; appointment_time = "12:15 pm" ; appointment_date = "next Tuesday") & So please confirm that you'd like to see Claudio A Bet Inc next Tuesday at 12:15 pm.
+CONFIRM ( appointment_time = "2 pm" ; appointment_date = "March 9th") & So confirm that you would like to make a 2 pm appointment on March 9th.
+INFORM ( average_rating = "5.0") & Your appointment was booked and their rating is 5.0.
+INFORM ( average_rating = "5.0") & Your appointment was booked and their rating is 5.0.
+OFFER ( doctor_name = "John Nguyen, M.D." ; city = "Mountain View" ; type = "ENT Specialist") & I found 1 ENT Specialist located in Mountain View. His name is John Nguyen, M.D.
+OFFER ( doctor_name = "John Nguyen, M.D." ; city = "Mountain View" ; type = "ENT Specialist") & I found 1 ENT Specialist located in Mountain View. His name is John Nguyen, M.D.
+OFFER ( doctor_name = "John Nguyen, M.D." ; city = "Mountain View" ; type = "ENT Specialist") & I found 1 ENT Specialist located in Mountain View. His name is John Nguyen, M.D.INFORM_COUNT ( count = "1") & I found 1 ENT Specialist located in Mountain View. His name is John Nguyen, M.D.
+INFORM ( street_address = "4906 West El Camino Real # A" ; average_rating = "5.0") & He has a rating of 5.0 and can be found at 4906 West El Camino Real # A.
+CONFIRM ( doctor_name = "John Nguyen, M.D." ; appointment_time = "4:45 pm" ; appointment_date = "March 9th") & Just to make sure you want an appointment with John Nguyen, M.D. for 4:45 pm on March 9th?
+CONFIRM ( appointment_time = "12:15 pm" ; appointment_date = "March 14th") & Sure so to make sure the appointment is for 12:15 pm on March 14th?
+INFORM ( phone_number = "650-934-7900") & Great I booked it for you and their number is 650-934-7900
+INFORM ( phone_number = "650-934-7900") & Great I booked it for you and their number is 650-934-7900
+OFFER ( doctor_name = "Alex De Moraes, MD" ; city = "Napa" ; type = "General Practitioner") & Alex De Moraes, MD is a General Practitioner located in Napa. What do you think about him?
+INFORM ( street_address = "935 Trancas Street" ; average_rating = "5.0") & His rating is 5.0 and is located at 935 Trancas Street.
+CONFIRM ( doctor_name = "Alex De Moraes, MD" ; appointment_time = "12:15 pm" ; appointment_date = "March 13th") & Is the following correct: schedule an appointment with Alex De Moraes, MD for March 13th at 12:15 pm
+OFFER ( doctor_name = "Alex De Moraes, MD" ; appointment_date = "March 13th" ; appointment_time = "12 pm") & Sorry there are no appoints available at that time. Will 12 pm on March 13th with Alex De Moraes, MD work?
+OFFER ( doctor_name = "Alex De Moraes, MD" ; appointment_date = "March 13th" ; appointment_time = "12 pm") & Sorry there are no appoints available at that time. Will 12 pm on March 13th with Alex De Moraes, MD work?
+OFFER ( doctor_name = "Harrup Kaur, MD" ; city = "Los Gatos" ; type = "Ophthalmologist") & I found 3 options for an Ophthalmologist in Los Gatos. How about Harrup Kaur, MD?
+OFFER ( doctor_name = "Harrup Kaur, MD" ; city = "Los Gatos" ; type = "Ophthalmologist") & I found 3 options for an Ophthalmologist in Los Gatos. How about Harrup Kaur, MD?
+OFFER ( doctor_name = "Harrup Kaur, MD" ; city = "Los Gatos" ; type = "Ophthalmologist") & I found 3 options for an Ophthalmologist in Los Gatos. How about Harrup Kaur, MD?INFORM_COUNT ( count = "3") & I found 3 options for an Ophthalmologist in Los Gatos. How about Harrup Kaur, MD?
+INFORM ( phone_number = "408-940-3930") & Their number is 408-940-3930.
+INFORM ( street_address = "2120 McKee Road" ; average_rating = "4.2") & They have a 4.2 rating and are located at 2120 McKee Road.
+CONFIRM ( doctor_name = "Harrup Kaur, MD" ; appointment_time = "5:15 pm" ; appointment_date = "next Friday") & No problem. Just to confirm, I am making an appointment with Harrup Kaur, MD at 5:15 pm next Friday.
+CONFIRM ( appointment_time = "5 pm" ; appointment_date = "today") & Sure. Just to confirm, I'm making the appointment for 5 pm today.
+OFFER ( doctor_name = "Alex De Moraes, MD" ; city = "Napa" ; type = "General Practitioner") & I found Alex De Moraes, MD in Napa. He is a General Practitioner.
+CONFIRM ( doctor_name = "Alex De Moraes, MD" ; appointment_time = "10:30 am" ; appointment_date = "next Monday") & I'm to schedule your appointment with Alex De Moraes, MD at 10:30 am for next Monday, correct?
+CONFIRM ( appointment_time = "3:45 pm" ; appointment_date = "next Monday") & I'm to schedule your appointment for 3:45 pm next Monday, correct?
+OFFER ( doctor_name = "Alan B. Scott, M.D." ; city = "San Francisco" ; type = "Ophthalmologist") & I found an Alan B. Scott, M.D. who is an Ophthalmologist located in San Francisco.
+INFORM ( street_address = "2100 Webster Street suite 214" ; phone_number = "415-923-3120") & The address is 2100 Webster Street suite 214 and you can reach them at 415-923-3120.
+CONFIRM ( doctor_name = "Alan B. Scott, M.D." ; appointment_time = "1:30 pm" ; appointment_date = "March 10th") & Please confirm the following details: Your scheduled appointment will be with Alan B. Scott, M.D. at 1:30 pm on March 10th.
+OFFER ( doctor_name = "Abazari Mina MD" ; city = "San Francisco" ; type = "General Practitioner") & There are 10 results which match your request. One is Abazari Mina MD, located in San Francisco, who is a General Practitioner.
+OFFER ( doctor_name = "Abazari Mina MD" ; city = "San Francisco" ; type = "General Practitioner") & There are 10 results which match your request. One is Abazari Mina MD, located in San Francisco, who is a General Practitioner.
+OFFER ( doctor_name = "Abazari Mina MD" ; city = "San Francisco" ; type = "General Practitioner") & There are 10 results which match your request. One is Abazari Mina MD, located in San Francisco, who is a General Practitioner.INFORM_COUNT ( count = "10") & There are 10 results which match your request. One is Abazari Mina MD, located in San Francisco, who is a General Practitioner.
+OFFER ( doctor_name = "Arthur H Coleman Medical Center: Dickey Jan V MD" ; city = "San Francisco" ; type = "General Practitioner") & Another doctor who matches your search is Arthur H Coleman Medical Center: Dickey Jan V MD, located in San Francisco, who is a General Practitioner.
+CONFIRM ( doctor_name = "Arthur H Coleman Medical Center: Dickey Jan V MD" ; appointment_time = "3:30 PM" ; appointment_date = "next Friday") & Please confirm the following information: Appointment scheduled with Arthur H Coleman Medical Center: Dickey Jan V MD, appointment next Friday, at 3:30 PM. Is this correct?
+OFFER ( doctor_name = "California Skin Institute" ; city = "Dublin" ; type = "Dermatologist") & The California Skin Institute Dublin has a Dermatologist.
+CONFIRM ( doctor_name = "California Skin Institute" ; appointment_time = "1:45 PM" ; appointment_date = "March 14th") & Confirming my appointment at the California Skin Institute at 1:45 PM on March 14th.
+CONFIRM ( appointment_time = "1:15 PM" ; appointment_date = "March 14th") & Confirming my appointment at the California Skin Institute at 1:15 PM on March 14th.
+INFORM ( street_address = "400 El Cerro Boulevard #204" ; average_rating = "3.3") & Their rating is 3.3 and the address is 400 El Cerro Boulevard #204.
+INFORM ( street_address = "400 El Cerro Boulevard #204" ; average_rating = "3.3") & Their rating is 3.3 and the address is 400 El Cerro Boulevard #204.
+CONFIRM ( dentist_name = "Access Dental - Santa Rosa" ; appointment_time = "12 pm" ; appointment_date = "day after tomorrow") & Please confirm: Access Dental - Santa Rosa appointment booked for 12 pm day after tomorrow.
+CONFIRM ( dentist_name = "Montgomery Heath M" ; appointment_time = "4:30 pm" ; appointment_date = "next Friday") & Yes! Dr. Montgomery Heath M is available next Friday at 4:30 pm. Would you like to confirm that date?
+INFORM ( city = "Palo Alto" ; phone_number = "800-455-0057") & We are in Palo Alto. You can reach us at 800-455-0057.
+CONFIRM ( dentist_name = "Ahmed Sameena" ; appointment_time = "2:30 pm" ; appointment_date = "tomorrow") & An appointment with Ahmed Sameena at 2:30 pm tomorrow. Is this correct?
+INFORM ( address = "1150 Scott Boulevard # A2") & Your appointment has been booked. They are located at 1150 Scott Boulevard # A2.
+INFORM ( address = "1150 Scott Boulevard # A2") & Your appointment has been booked. They are located at 1150 Scott Boulevard # A2.
+CONFIRM ( dentist_name = "Sonrisas Community Dental Center" ; appointment_time = "10:15 am" ; appointment_date = "next Wednesday") & Sonrisas Community Dental Center. 10:15 am on next Wednesday. Correct?
+CONFIRM ( appointment_time = "5:30 pm" ; appointment_date = "March 10th") & March 10th at 5:30 pm, correct?
+CONFIRM ( dentist_name = "Hasaimoto Family Dentistry" ; appointment_time = "5:30 pm" ; appointment_date = "March 10th") & Hasaimoto Family Dentistry. 5:30 pm. March 10th. Correct?
+CONFIRM ( dentist_name = "C K Dental Lab" ; appointment_time = "11 am" ; appointment_date = "next Tuesday") & Ok you want an appointment with C K Dental Lab at 11 am next Tuesday. Is that correct?
+OFFER ( dentist_name = "C K Dental Lab" ; appointment_date = "next Tuesday" ; appointment_time = "11:30 am") & Sorry they are all booked up at 11 am. How about C K Dental Lab on next Tuesday at 11:30 am?
+OFFER ( dentist_name = "C K Dental Lab" ; appointment_date = "next Tuesday" ; appointment_time = "11:30 am") & Sorry they are all booked up at 11 am. How about C K Dental Lab on next Tuesday at 11:30 am?
+INFORM ( city = "Campbell" ; address = "621 East Campbell Avenue # 2A") & They are located at 621 East Campbell Avenue # 2A in Campbell .
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & There are 10 dentists. Are you interested in Amazing Smile Dental in Sunnyvale?
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & There are 10 dentists. Are you interested in Amazing Smile Dental in Sunnyvale?
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & There are 10 dentists. Are you interested in Amazing Smile Dental in Sunnyvale?INFORM_COUNT ( count = "10") & There are 10 dentists. Are you interested in Amazing Smile Dental in Sunnyvale?
+OFFER ( dentist_name = "A J Dental Lab" ; city = "San Jose") & I found A J Dental Lab in San Jose.
+OFFER ( dentist_name = "A J Dental Lab" ; city = "San Jose") & A J Dental Lab is located in San Jose, on 2664 Berryessa Rd # 206 - how does that sound?
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & Showing a result for Amazing Smile Dental located in Sunnyvale.
+INFORM ( offers_cosmetic_services = "False" ; address = "689 East Remington Drive Ste A") & I'm sorry but they do not offer any cosmetic services. The address is 689 East Remington Drive Ste A.
+OFFER ( dentist_name = "Andrei Simel , Family & Cosmetic Dentisry" ; city = "Sunnyvale") & Showing one result for Andrei Simel , Family & Cosmetic Dentisry in Sunnyvale.
+OFFER ( dentist_name = "Boyer Dental Arts" ; city = "Sunnyvale") & Showing one result for Boyer Dental Arts in Sunnyvale.
+OFFER ( dentist_name = "Ahmed Sameena" ; city = "Santa Clara") & I found 6 dentists in Santa Clara, including Ahmed Sameena
+OFFER ( dentist_name = "Ahmed Sameena" ; city = "Santa Clara") & I found 6 dentists in Santa Clara, including Ahmed Sameena
+OFFER ( dentist_name = "Ahmed Sameena" ; city = "Santa Clara") & I found 6 dentists in Santa Clara, including Ahmed SameenaINFORM_COUNT ( count = "6") & I found 6 dentists in Santa Clara, including Ahmed Sameena
+OFFER ( dentist_name = "Advanced Ceramics Dental Sudio" ; city = "San Ramon") & Okay, no problem! How does Advanced Ceramics Dental Sudio in San Ramon sound?
+OFFER ( dentist_name = "Dr. Keller & Dr. Burk - Antioch Premier Dental" ; city = "Antioch") & I did find 1 dentist. It's Dr. Keller & Dr. Burk - Antioch Premier Dental and it's in Antioch.
+OFFER ( dentist_name = "Dr. Keller & Dr. Burk - Antioch Premier Dental" ; city = "Antioch") & I did find 1 dentist. It's Dr. Keller & Dr. Burk - Antioch Premier Dental and it's in Antioch.
+OFFER ( dentist_name = "Dr. Keller & Dr. Burk - Antioch Premier Dental" ; city = "Antioch") & I did find 1 dentist. It's Dr. Keller & Dr. Burk - Antioch Premier Dental and it's in Antioch.INFORM_COUNT ( count = "1") & I did find 1 dentist. It's Dr. Keller & Dr. Burk - Antioch Premier Dental and it's in Antioch.
+OFFER ( dentist_name = "A J Dental Lab" ; city = "San Jose") & There are 10 available with A J Dental Lab in San Jose first.
+OFFER ( dentist_name = "A J Dental Lab" ; city = "San Jose") & There are 10 available with A J Dental Lab in San Jose first.
+OFFER ( dentist_name = "A J Dental Lab" ; city = "San Jose") & There are 10 available with A J Dental Lab in San Jose first.INFORM_COUNT ( count = "10") & There are 10 available with A J Dental Lab in San Jose first.
+OFFER ( dentist_name = "Apple Dental Practice" ; city = "Mountain View") & Apple Dental Practice in Mountain View is available.
+OFFER ( dentist_name = "Bares William R" ; city = "Mountain View") & Bares William R in Mountain View is also available.
+INFORM ( address = "2500 Hospital Dr # 5D") & Their address is 2500 Hospital Dr # 5D.
+OFFER ( dentist_name = "Cosmetic Dentistry Antioch Ca" ; city = "Antioch") & What do you think about Cosmetic Dentistry Antioch Ca in Antioch?
+INFORM ( phone_number = "925-757-2422") & You can call them at 925-757-2422.
+OFFER ( dentist_name = "dr oscar ventanilla" ; city = "petaluma") & I would like to recommend dr oscar ventanilla as a top recommendation in petaluma.
+INFORM ( address = "1580 East Washington street # 105") & 1580 East Washington street # 105 is where your dentist is located..
+OFFER ( dentist_name = "Danielson Gordon" ; city = "Larkspur") & I discovered 2 dentists. What do you think about Danielson Gordon in Larkspur?
+OFFER ( dentist_name = "Danielson Gordon" ; city = "Larkspur") & I discovered 2 dentists. What do you think about Danielson Gordon in Larkspur?
+OFFER ( dentist_name = "Danielson Gordon" ; city = "Larkspur") & I discovered 2 dentists. What do you think about Danielson Gordon in Larkspur?INFORM_COUNT ( count = "2") & I discovered 2 dentists. What do you think about Danielson Gordon in Larkspur?
+OFFER ( dentist_name = "Albert Lee" ; city = "Gilroy") & I have found an Albert Lee that is located in Gilroy.
+OFFER ( dentist_name = "Amine G Khoury" ; city = "Napa") & Alright. I've found 3 different dentists. The first one is Amine G Khoury in Napa.
+OFFER ( dentist_name = "Amine G Khoury" ; city = "Napa") & Alright. I've found 3 different dentists. The first one is Amine G Khoury in Napa.
+OFFER ( dentist_name = "Amine G Khoury" ; city = "Napa") & Alright. I've found 3 different dentists. The first one is Amine G Khoury in Napa.INFORM_COUNT ( count = "3") & Alright. I've found 3 different dentists. The first one is Amine G Khoury in Napa.
+OFFER ( dentist_name = "Artistic Smiles" ; city = "Napa") & What about the Artistic Smiles office in Napa?
+OFFER ( dentist_name = "Ocean Dental Lab" ; city = "Napa") & That's Ocean Dental Lab in Napa.
+INFORM ( address = "1732 Jefferson Street # 5" ; phone_number = "707-253-8914") & You can find them at 1732 Jefferson Street # 5 and their number is 707-253-8914.
+OFFER ( dentist_name = "Balboa Dental Care" ; city = "San Francisco") & I found 4 dentists and the one in San Francisco is Balboa Dental Care.
+OFFER ( dentist_name = "Balboa Dental Care" ; city = "San Francisco") & I found 4 dentists and the one in San Francisco is Balboa Dental Care.
+OFFER ( dentist_name = "Balboa Dental Care" ; city = "San Francisco") & I found 4 dentists and the one in San Francisco is Balboa Dental Care.INFORM_COUNT ( count = "4") & I found 4 dentists and the one in San Francisco is Balboa Dental Care.
+INFORM ( offers_cosmetic_services = "False" ; address = "3544 Balboa Street") & They are located at 3544 Balboa Street, however they don't offer comestic services.
+OFFER ( dentist_name = "A J Dental Lab" ; city = "San Jose") & Would you like to try going to A J Dental Lab in San Jose?
+INFORM ( phone_number = "408-316-8226") & Their phone number is 408-316-8226.
+INFORM ( offers_cosmetic_services = "False") & I'm sorry, they do not offer cosmetics services.
+OFFER ( dentist_name = "A-1 Dental Care" ; city = "San Jose") & Would you like to try A-1 Dental Care in San Jose instead?
+OFFER ( dentist_name = "Dr. Svetlana Naret" ; city = "San Jose") & How about Dr. Svetlana Naret located in San Jose?
+OFFER ( dentist_name = "Greenview Dental Care, Yvonne Yang" ; city = "San Jose") & How about Greenview Dental Care, Yvonne Yang located in San Jose
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & There are 10 dentists. There is Amazing Smile Dental in Sunnyvale.
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & There are 10 dentists. There is Amazing Smile Dental in Sunnyvale.
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & There are 10 dentists. There is Amazing Smile Dental in Sunnyvale.INFORM_COUNT ( count = "10") & There are 10 dentists. There is Amazing Smile Dental in Sunnyvale.
+OFFER ( dentist_name = "Dr Pucan Dental Office" ; city = "Vallejo") & OK, there are 3 dentists in Vallejo. What about Dr Pucan Dental Office?
+OFFER ( dentist_name = "Dr Pucan Dental Office" ; city = "Vallejo") & OK, there are 3 dentists in Vallejo. What about Dr Pucan Dental Office?
+OFFER ( dentist_name = "Dr Pucan Dental Office" ; city = "Vallejo") & OK, there are 3 dentists in Vallejo. What about Dr Pucan Dental Office?INFORM_COUNT ( count = "3") & OK, there are 3 dentists in Vallejo. What about Dr Pucan Dental Office?
+OFFER ( dentist_name = "Cofield Marianne" ; city = "San Carlos") & There are 7 dentists listed in San Carlos. Cofield Marianne is the first listed.
+OFFER ( dentist_name = "Cofield Marianne" ; city = "San Carlos") & There are 7 dentists listed in San Carlos. Cofield Marianne is the first listed.
+OFFER ( dentist_name = "Cofield Marianne" ; city = "San Carlos") & There are 7 dentists listed in San Carlos. Cofield Marianne is the first listed.INFORM_COUNT ( count = "7") & There are 7 dentists listed in San Carlos. Cofield Marianne is the first listed.
+INFORM ( offers_cosmetic_services = "False" ; address = "1785 San Carlos Ave # 3") & They are located at 1785 San Carlos Ave # 3. but it does not look like they offer cosmetic services.
+OFFER ( dentist_name = "Ahmed Sameena" ; city = "Santa Clara") & How about Ahmed Sameena located in Santa Clara?
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & I found 10 results. How does Amazing Smile Dental sound? It's located in Sunnyvale.
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & I found 10 results. How does Amazing Smile Dental sound? It's located in Sunnyvale.
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & I found 10 results. How does Amazing Smile Dental sound? It's located in Sunnyvale.INFORM_COUNT ( count = "10") & I found 10 results. How does Amazing Smile Dental sound? It's located in Sunnyvale.
+OFFER ( dentist_name = "A J Dental Lab" ; city = "San Jose") & I found A J Dental Lab which is a dentist located in San Jose.
+OFFER ( dentist_name = "Ahmed Sameena" ; city = "Santa Clara") & I know Ahmed Sameena in Santa Clara.
+INFORM ( phone_number = "408-985-7933") & 408-985-7933 is the number.
+OFFER ( dentist_name = "Dr Oscar Ventanilla" ; city = "Petaluma") & I found 6 dentists in Petaluma. How about Dr Oscar Ventanilla?
+OFFER ( dentist_name = "Dr Oscar Ventanilla" ; city = "Petaluma") & I found 6 dentists in Petaluma. How about Dr Oscar Ventanilla?
+OFFER ( dentist_name = "Dr Oscar Ventanilla" ; city = "Petaluma") & I found 6 dentists in Petaluma. How about Dr Oscar Ventanilla?INFORM_COUNT ( count = "6") & I found 6 dentists in Petaluma. How about Dr Oscar Ventanilla?
+OFFER ( dentist_name = "Centerville Dental Care" ; city = "Fremont") & How does Centerville Dental Care in Fremont sound?
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & Sure, there's a dentist office called Amazing Smile Dental in Sunnyvale.
+OFFER ( dentist_name = "Cabanas Carol L" ; city = "Cupertino") & Cabanas Carol L is located in Cupertino.
+OFFER ( dentist_name = "Amazing Smile Dental" ; city = "Sunnyvale") & Amazing Smile Dental is a recommend option in Sunnyvale .Would you like to visit here.
+OFFER ( dentist_name = "A J Dental Lab" ; city = "San Jose") & I found A J Dental Lab. It's in San Jose.
+INFORM ( offers_cosmetic_services = "False") & It doesn't appear that cosmetic services are offered there.
+OFFER ( dentist_name = "Centerville Dental care" ; city = "fremont") & I found 10, what about Centerville Dental care, they're in fremont.
+OFFER ( dentist_name = "Centerville Dental care" ; city = "fremont") & I found 10, what about Centerville Dental care, they're in fremont.
+OFFER ( dentist_name = "Centerville Dental care" ; city = "fremont") & I found 10, what about Centerville Dental care, they're in fremont.INFORM_COUNT ( count = "10") & I found 10, what about Centerville Dental care, they're in fremont.
+INFORM ( address = "37149 fremont boulevard") & They're at 37149 fremont boulevard.
+INFORM ( offers_cosmetic_services = "True" ; phone_number = "510-797-6000") & Yes they do, and their number is 510-797-6000
+OFFER ( dentist_name = "Dr. John Y. Park" ; city = "Fremont") & Dr. John Y. Park, he's located in Fremont too.
+OFFER ( dentist_name = "Dr. Pascuala Geraldine T. Ocampo" ; city = "Fairfield") & I found 9, what about Dr. Pascuala Geraldine T. Ocampo, in Fairfield.
+OFFER ( dentist_name = "Dr. Pascuala Geraldine T. Ocampo" ; city = "Fairfield") & I found 9, what about Dr. Pascuala Geraldine T. Ocampo, in Fairfield.
+OFFER ( dentist_name = "Dr. Pascuala Geraldine T. Ocampo" ; city = "Fairfield") & I found 9, what about Dr. Pascuala Geraldine T. Ocampo, in Fairfield.INFORM_COUNT ( count = "9") & I found 9, what about Dr. Pascuala Geraldine T. Ocampo, in Fairfield.
+OFFER ( dentist_name = "A j Dental Lab" ; city = "San Jose") & I found this one: A j Dental Lab in San Jose
+OFFER ( dentist_name = "Cofield Marianne" ; city = "San Carlos") & How does Cofield Marianne in San Carlos sound?
+INFORM ( phone_number = "650-591-0995") & Their number is 650-591-0995.
+OFFER ( dentist_name = "A J Dental Lab" ; city = "San Jose") & In San Jose there is A J Dental Lab. Is it ok for you?
+OFFER ( dentist_name = "A-1 Dental Care" ; city = "San Jose") & There's A-1 Dental Care also in San Jose
+INFORM ( phone_number = "408-258-6669" ; address = "2664 Berryessa Road # 205") & The contact number is 408-258-6669. The adress is 2664 Berryessa Road # 205
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & It appears there are 10 salons you may chose from in the San Francisco area. There is a nice salon you may like called 1512 Barber Shop.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & It appears there are 10 salons you may chose from in the San Francisco area. There is a nice salon you may like called 1512 Barber Shop.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & It appears there are 10 salons you may chose from in the San Francisco area. There is a nice salon you may like called 1512 Barber Shop.INFORM_COUNT ( count = "10") & It appears there are 10 salons you may chose from in the San Francisco area. There is a nice salon you may like called 1512 Barber Shop.
+INFORM ( street_address = "1532 20th Street") & The salon's address is 1532 20th Street.
+INFORM ( average_rating = "4.8" ; phone_number = "415-286-4371") & The salon has a rating of 4.8 and may be reached at 415-286-4371.
+OFFER ( stylist_name = "20th Salon and Barber" ; city = "San Francisco") & There is another nice salon in San Francisco called 20th Salon and Barber.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San Jose") & How about Atelier Salon Willow Glen in San Jose?
+INFORM ( average_rating = "4.3") & They have an average rating of 4.3.
+OFFER ( stylist_name = "Atelier salon willow glen" ; city = "San Jose") & There are 10 that might work, but how about Atelier salon willow glen in San Jose, that might be for you
+OFFER ( stylist_name = "Atelier salon willow glen" ; city = "San Jose") & There are 10 that might work, but how about Atelier salon willow glen in San Jose, that might be for you
+OFFER ( stylist_name = "Atelier salon willow glen" ; city = "San Jose") & There are 10 that might work, but how about Atelier salon willow glen in San Jose, that might be for youINFORM_COUNT ( count = "10") & There are 10 that might work, but how about Atelier salon willow glen in San Jose, that might be for you
+INFORM ( phone_number = "408-293-3494") & They have a phone number, it's 408-293-3494
+OFFER ( stylist_name = "18/8 Fine Men's Salons - Palo Alto" ; city = "Palo Alto") & I've found 10 Salons in Palo Alto. How about the 18/8 Fine Men's Salons - Palo Alto?
+OFFER ( stylist_name = "18/8 Fine Men's Salons - Palo Alto" ; city = "Palo Alto") & I've found 10 Salons in Palo Alto. How about the 18/8 Fine Men's Salons - Palo Alto?
+OFFER ( stylist_name = "18/8 Fine Men's Salons - Palo Alto" ; city = "Palo Alto") & I've found 10 Salons in Palo Alto. How about the 18/8 Fine Men's Salons - Palo Alto?INFORM_COUNT ( count = "10") & I've found 10 Salons in Palo Alto. How about the 18/8 Fine Men's Salons - Palo Alto?
+OFFER ( stylist_name = "A+ Haircuts For Men" ; city = "Sunnyvale") & Sure. How about A+ Haircuts For Men in Sunnyvale?
+INFORM ( average_rating = "4.1" ; street_address = "450 East El Camino Real") & They have an average rating of 4.1, and their address is listed as 450 East El Camino Real.
+OFFER ( stylist_name = "dukes and dolls salon" ; city = "petaluma") & I've found dukes and dolls salon in petaluma
+OFFER ( stylist_name = "himc barber studio" ; city = "antioch") & I've found himc barber studio in antioch
+OFFER ( stylist_name = "latinos hair salon & spa" ; city = "antioch") & there's latinos hair salon & spa, always in antioch
+OFFER ( stylist_name = "Cosmo's Barber Shop" ; city = "Pleasanton") & There's a nice one in Pleasanton, the name is Cosmo's Barber Shop.
+INFORM ( street_address = "4275 First Street") & It's in 4275 First Street.
+OFFER ( stylist_name = "Philgood Cuts" ; city = "South San Francisco") & Sure, Philgood Cuts is a nice salon in South San Francisco.
+INFORM ( phone_number = "650-873-5887") & Yes, the phone number is 650-873-5887.
+OFFER ( stylist_name = "Bella Capelli Salon" ; city = "Campbell") & I got 5 salons. Do you like to go to Bella Capelli Salon in Campbell, which is the nice one.
+OFFER ( stylist_name = "Bella Capelli Salon" ; city = "Campbell") & I got 5 salons. Do you like to go to Bella Capelli Salon in Campbell, which is the nice one.
+OFFER ( stylist_name = "Bella Capelli Salon" ; city = "Campbell") & I got 5 salons. Do you like to go to Bella Capelli Salon in Campbell, which is the nice one.INFORM_COUNT ( count = "5") & I got 5 salons. Do you like to go to Bella Capelli Salon in Campbell, which is the nice one.
+INFORM ( is_unisex = "True") & Yes, It is a Unisex Salon.
+OFFER ( stylist_name = "Blow Dry Bar" ; city = "Walnut Creek") & What about a nice Salon named Blow Dry Bar at Walnut Creek?
+OFFER ( stylist_name = "Dipietro Todd Salon" ; city = "Walnut Creek") & What about Dipietro Todd Salon in Walnut Creek?
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I'd be happy to help. May I suggest 1512 Barber Shop in San Francisco?
+OFFER ( stylist_name = "Blow Dry Bar" ; city = "Walnut Creek") & Blow Dry Bar is located in Walnut Creek.
+OFFER ( stylist_name = "Berkeley Hair Studio" ; city = "Berkeley") & A good salon in Berkeley which I can suggest is Berkeley Hair Studio.
+CONFIRM ( stylist_name = "Berkeley Hair Studio" ; appointment_time = "10 am" ; appointment_date = "March 12th") & Can you please confirm that you want to book an appointment for March 12th at 10 am at Berkeley Hair Studio salon?
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I discovered 10 salons you may enjoy. There is a lovely salon known as 1512 Barber Shop in San Francisco.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I discovered 10 salons you may enjoy. There is a lovely salon known as 1512 Barber Shop in San Francisco.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I discovered 10 salons you may enjoy. There is a lovely salon known as 1512 Barber Shop in San Francisco.INFORM_COUNT ( count = "10") & I discovered 10 salons you may enjoy. There is a lovely salon known as 1512 Barber Shop in San Francisco.
+INFORM ( is_unisex = "True" ; street_address = "1532 20th Street") & The barber shop is unisex, and is located at 1532 20th Street.
+OFFER ( stylist_name = "20th Salon and Barber" ; city = "San Francisco") & There is a lovely barber shop called 20th Salon and Barber in San Francisco.
+OFFER ( stylist_name = "Olive Hill Salon" ; city = "Woodside") & I discovered 1 salon you might enjoy. There is a lovely hair shop called Olive Hill Salon in Woodside.
+OFFER ( stylist_name = "Olive Hill Salon" ; city = "Woodside") & I discovered 1 salon you might enjoy. There is a lovely hair shop called Olive Hill Salon in Woodside.
+OFFER ( stylist_name = "Olive Hill Salon" ; city = "Woodside") & I discovered 1 salon you might enjoy. There is a lovely hair shop called Olive Hill Salon in Woodside.INFORM_COUNT ( count = "1") & I discovered 1 salon you might enjoy. There is a lovely hair shop called Olive Hill Salon in Woodside.
+CONFIRM ( stylist_name = "Olive Hill Salon" ; appointment_time = "5:15 pm" ; appointment_date = "March 3rd") & Please verify the following information: a reservation at Olive Hill Salon on March 3rd, at 5:15 pm.
+CONFIRM ( appointment_time = "10:30 am" ; appointment_date = "March 3rd") & Please verify the following information: a reservation on March 3rd, at 10:30 am.
+CONFIRM ( stylist_name = "Olive Hill Salon" ; appointment_time = "10:30 am" ; appointment_date = "March 1st") & Please verify the following information: a reservation for Olive Hill Salon on March 1st, 10:30 am.
+OFFER ( stylist_name = "Best Coast Cuts" ; city = "San Rafael") & May I recommend Best Coast Cuts, located in San Rafael.
+CONFIRM ( stylist_name = "Best Coast Cuts" ; appointment_time = "6:30 pm" ; appointment_date = "March 7th") & You wish to visit Best Coast Cuts on March 7th at 6:30 pm, is that correct?
+CONFIRM ( stylist_name = "Best Coast Cuts" ; appointment_time = "1 pm") & The appointment will be made at 1 pm, for Best Coast Cuts correct?
+OFFER ( stylist_name = "Best Coast Cuts" ; appointment_date = "March 7th" ; appointment_time = "12:30 pm") & The appointment could not be made at Best Coast Cuts, would March 7th at 12:30 pm work for you?
+OFFER ( stylist_name = "Best Coast Cuts" ; appointment_date = "March 7th" ; appointment_time = "12:30 pm") & The appointment could not be made at Best Coast Cuts, would March 7th at 12:30 pm work for you?
+OFFER ( stylist_name = "Berkeley Hair Studio" ; city = "Berkeley") & Of the 10 nice, Berkeley salons I found, you may want to try Berkeley Hair Studio.
+OFFER ( stylist_name = "Berkeley Hair Studio" ; city = "Berkeley") & Of the 10 nice, Berkeley salons I found, you may want to try Berkeley Hair Studio.
+OFFER ( stylist_name = "Berkeley Hair Studio" ; city = "Berkeley") & Of the 10 nice, Berkeley salons I found, you may want to try Berkeley Hair Studio.INFORM_COUNT ( count = "10") & Of the 10 nice, Berkeley salons I found, you may want to try Berkeley Hair Studio.
+INFORM ( average_rating = "4.8" ; phone_number = "510-540-1261") & Sure. It's rated 4.8 stars, and its contact number is 510-540-1261.
+OFFER ( stylist_name = "Edge Hair Salon" ; city = "Berkeley") & Okay. How about Edge Hair Salon, another nice salon in Berkeley?
+OFFER ( stylist_name = "Elixir Salon An Aveda And Eufora Eco Boutique Salon" ; city = "Berkeley") & Sure, no problem. May I suggest Elixir Salon An Aveda And Eufora Eco Boutique Salon, another nice salon in Berkeley?
+CONFIRM ( stylist_name = "Elixir Salon An Aveda And Eufora Eco Boutique Salon" ; appointment_time = "3:15 pm" ; appointment_date = "March 6th") & Sure. Let me see if I got everything correctly: You'd like to book a 3:15 pm appointment on March 6th, with Elixir Salon An Aveda And Eufora Eco Boutique Salon. Is that correct?
+CONFIRM ( stylist_name = "Elixir Salon An Aveda And Eufora Eco Boutique Salon" ; appointment_date = "March 12th") & Sure, no problem. Please confirm that you'd like to book a March 12th appointment with Elixir Salon An Aveda And Eufora Eco Boutique Salon.
+CONFIRM ( stylist_name = "Elixir Salon An Aveda And Eufora Eco Boutique Salon" ; appointment_time = "11:15 am") & Okay. You'd like to book an 11:15 am appointment with Elixir Salon An Aveda And Eufora Eco Boutique Salon. Is that correct?
+OFFER ( stylist_name = "Elixir Salon An Aveda And Eufora Eco Boutique Salon" ; appointment_date = "March 12th" ; appointment_time = "11 am") & Unfortunately, I was unable to make your preferred appointment at the nice Elixir Salon An Aveda And Eufora Eco Boutique Salon. Would March 12th at 11 am work for you?
+OFFER ( stylist_name = "Elixir Salon An Aveda And Eufora Eco Boutique Salon" ; appointment_date = "March 12th" ; appointment_time = "11 am") & Unfortunately, I was unable to make your preferred appointment at the nice Elixir Salon An Aveda And Eufora Eco Boutique Salon. Would March 12th at 11 am work for you?
+OFFER ( stylist_name = "Berkeley Hair Studio" ; city = "Berkeley") & How about Berkeley Hair Studio in Berkeley?
+CONFIRM ( stylist_name = "Berkeley Hair Studio" ; appointment_time = "11 am" ; appointment_date = "March 9th") & Will do, please confirm your appointment with the Berkeley Hair Studio at 11 am on March 9th.
+CONFIRM ( appointment_time = "11 am" ; appointment_date = "March 3rd") & Will do, please confirm your appointment with the Berkeley Hair Studio at 11 am on March 3rd.
+INFORM ( street_address = "2556 Telegraph Avenue #4" ; phone_number = "510-540-1261") & You can visit them at 2556 Telegraph Avenue #4 and contact them at 510-540-1261. Your reservation has been made!
+INFORM ( street_address = "2556 Telegraph Avenue #4" ; phone_number = "510-540-1261") & You can visit them at 2556 Telegraph Avenue #4 and contact them at 510-540-1261. Your reservation has been made!
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San Jose") & I have 10 salons that you may like. Atelier Salon Willow Glen is a nice San Jose salon.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San Jose") & I have 10 salons that you may like. Atelier Salon Willow Glen is a nice San Jose salon.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San Jose") & I have 10 salons that you may like. Atelier Salon Willow Glen is a nice San Jose salon.INFORM_COUNT ( count = "10") & I have 10 salons that you may like. Atelier Salon Willow Glen is a nice San Jose salon.
+INFORM ( average_rating = "4.3") & The average rating is 4.3.
+OFFER ( stylist_name = "Barba & Co. San Jose" ; city = "San Jose") & Barba & Co. San Jose is a nice San Jose salon.
+CONFIRM ( stylist_name = "Barba & Co. San Jose" ; appointment_time = "5 pm" ; appointment_date = "March 12th") & I'd like to book for 5 pm. The hair stylist is Barba & Co. San Jose on March 12th.
+OFFER ( stylist_name = "Berkeley Hair Studio" ; city = "Berkeley") & There are 10 salons you may like, how about Berkeley Hair Studio in Berkeley?
+OFFER ( stylist_name = "Berkeley Hair Studio" ; city = "Berkeley") & There are 10 salons you may like, how about Berkeley Hair Studio in Berkeley?
+OFFER ( stylist_name = "Berkeley Hair Studio" ; city = "Berkeley") & There are 10 salons you may like, how about Berkeley Hair Studio in Berkeley?INFORM_COUNT ( count = "10") & There are 10 salons you may like, how about Berkeley Hair Studio in Berkeley?
+INFORM ( average_rating = "4.8" ; phone_number = "510-540-1261") & They have an average rating of 4.8 and you can contact them at 510-540-1261.
+CONFIRM ( stylist_name = "Berkeley Hair Studio" ; appointment_time = "6:15 pm" ; appointment_date = "March 6th") & Sure, please confirm your appointment with Berkeley Hair Studio at 6:15 pm on March 6th.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & How about 1512 Barber Shop in San Francisco, I hear it's nice
+CONFIRM ( stylist_name = "1512 Barber Shop" ; appointment_time = "6 pm" ; appointment_date = "March 9th") & Sure, just to make sure I have it right, you want a appointment at 6 pm on March 9th at 1512 Barber Shop yes?
+INFORM ( street_address = "1532 20th Street" ; average_rating = "4.8") & They are rated 4.8 and are at 1532 20th Street, your appointment has been confirmed too by the way
+INFORM ( street_address = "1532 20th Street" ; average_rating = "4.8") & They are rated 4.8 and are at 1532 20th Street, your appointment has been confirmed too by the way
+OFFER ( stylist_name = "Sport Clips Haircuts Of Benicia" ; city = "Benicia") & I found 2 Salons you may enjoy. The Sport Clips Haircuts Of Benicia is one of the best ones in Benicia.
+OFFER ( stylist_name = "Sport Clips Haircuts Of Benicia" ; city = "Benicia") & I found 2 Salons you may enjoy. The Sport Clips Haircuts Of Benicia is one of the best ones in Benicia.
+OFFER ( stylist_name = "Sport Clips Haircuts Of Benicia" ; city = "Benicia") & I found 2 Salons you may enjoy. The Sport Clips Haircuts Of Benicia is one of the best ones in Benicia.INFORM_COUNT ( count = "2") & I found 2 Salons you may enjoy. The Sport Clips Haircuts Of Benicia is one of the best ones in Benicia.
+CONFIRM ( stylist_name = "Sport Clips Haircuts of Benicia" ; appointment_time = "3:45 pm" ; appointment_date = "March 1st") & So an appointment at the Sport Clips Haircuts of Benicia on March 1st at 3:45 pm?
+CONFIRM ( appointment_time = "11:45 am" ; appointment_date = "March 12th") & So an appointment at 11:45 am on March 12th?
+INFORM ( is_unisex = "True" ; phone_number = "707-751-1775") & Your appointment is confirmed. And yes, it is a unisex salon. Their number is 707-751-1775.
+INFORM ( is_unisex = "True" ; phone_number = "707-751-1775") & Your appointment is confirmed. And yes, it is a unisex salon. Their number is 707-751-1775.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & There is one nice saloon called 1512 Barber Shop at San Francisco.
+INFORM ( street_address = "1532 20th street") & 1532 20th street is the address.
+OFFER ( stylist_name = "20th Salon And Barber" ; city = "San francisco") & There is one good saloon at San francisco called 20th Salon And Barber.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San Jose") & I have short listed 10 saloons of your choice and one among them is Atelier Salon Willow Glen at San Jose.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San Jose") & I have short listed 10 saloons of your choice and one among them is Atelier Salon Willow Glen at San Jose.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San Jose") & I have short listed 10 saloons of your choice and one among them is Atelier Salon Willow Glen at San Jose.INFORM_COUNT ( count = "10") & I have short listed 10 saloons of your choice and one among them is Atelier Salon Willow Glen at San Jose.
+CONFIRM ( stylist_name = "Atelier Salon Willow Glen" ; appointment_time = "5:15 pm" ; appointment_date = "march 5th") & please give confirmation details: Your appointment with Atelier Salon Willow Glen on march 5th at 5:15 pm.
+INFORM ( phone_number = "408-293-3494") & 408-293-3494 is the contact number. Sorry i was not able to book the appointment. Atelier Salon Willow Glen is a good saloon. Can i try the appointment on march 5th at 5 pm?
+INFORM ( phone_number = "408-293-3494") & 408-293-3494 is the contact number. Sorry i was not able to book the appointment. Atelier Salon Willow Glen is a good saloon. Can i try the appointment on march 5th at 5 pm?
+INFORM ( phone_number = "408-293-3494") & 408-293-3494 is the contact number. Sorry i was not able to book the appointment. Atelier Salon Willow Glen is a good saloon. Can i try the appointment on march 5th at 5 pm?OFFER ( stylist_name = "Atelier Salon Willow Glen" ; appointment_date = "march 5th" ; appointment_time = "5 pm") & 408-293-3494 is the contact number. Sorry i was not able to book the appointment. Atelier Salon Willow Glen is a good saloon. Can i try the appointment on march 5th at 5 pm?
+INFORM ( phone_number = "408-293-3494") & 408-293-3494 is the contact number. Sorry i was not able to book the appointment. Atelier Salon Willow Glen is a good saloon. Can i try the appointment on march 5th at 5 pm?
+INFORM ( phone_number = "408-293-3494") & 408-293-3494 is the contact number. Sorry i was not able to book the appointment. Atelier Salon Willow Glen is a good saloon. Can i try the appointment on march 5th at 5 pm?OFFER ( stylist_name = "Atelier Salon Willow Glen" ; appointment_date = "march 5th" ; appointment_time = "5 pm") & 408-293-3494 is the contact number. Sorry i was not able to book the appointment. Atelier Salon Willow Glen is a good saloon. Can i try the appointment on march 5th at 5 pm?
+OFFER ( stylist_name = "Aya Salon & Spa" ; city = "Berkeley") & I found 10 salons for you. How about Aya Salon & Spa in Berkeley?
+OFFER ( stylist_name = "Aya Salon & Spa" ; city = "Berkeley") & I found 10 salons for you. How about Aya Salon & Spa in Berkeley?
+OFFER ( stylist_name = "Aya Salon & Spa" ; city = "Berkeley") & I found 10 salons for you. How about Aya Salon & Spa in Berkeley?INFORM_COUNT ( count = "10") & I found 10 salons for you. How about Aya Salon & Spa in Berkeley?
+INFORM ( is_unisex = "False" ; phone_number = "510-527-3100") & The phone number is 510-527-3100 and it is not a unisex salon.
+CONFIRM ( stylist_name = "Aya Salon & Spa" ; appointment_time = "4 pm" ; appointment_date = "March 13th") & Okay, I have an appointment at Aya Salon & Spa on March 13th at 4 pm, right?
+CONFIRM ( appointment_time = "4 pm" ; appointment_date = "March 10th") & Okay, the appointment is now on March 10th at 4 pm, correct?
+OFFER ( stylist_name = "Fusion 3 Salon Livermore" ; city = "Livermore") & Fusion 3 Salon Livermore is nice one located in Livermore.
+INFORM ( street_address = "1776 First Street" ; phone_number = "925-447-1776") & The telephone is 925-447-1776, they are located at 1776 First Street
+CONFIRM ( stylist_name = "Fusion 3 Salon Livermore" ; appointment_time = "2:30 pm" ; appointment_date = "March 10th") & To confirm: You would like an appointment at Fusion 3 Salon Livermore on March 10th at 2:30 pm. Is this correct?
+INFORM ( is_unisex = "False" ; average_rating = "4.8") & Your appointment is confirmed. They have a rating of 4.8, they are not unisex.
+INFORM ( is_unisex = "False" ; average_rating = "4.8") & Your appointment is confirmed. They have a rating of 4.8, they are not unisex.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San Jose") & How about Atelier Salon Willow Glen in San Jose?
+OFFER ( stylist_name = "Barba & Co. San Jose" ; city = "San Jose") & How about Barba & Co. San Jose in San Jose?
+INFORM ( street_address = "1775 Park Avenue" ; average_rating = "5.0") & You can visit them at 1775 Park Avenue and they have an average rating of 5.0.
+CONFIRM ( stylist_name = "Barba & Co. San Jose" ; appointment_time = "6 pm" ; appointment_date = "March 10th") & Sure, please confirm your reservation with Barba & Co. San Jose at 6 pm on March 10th.
+CONFIRM ( stylist_name = "Barba & Co. San Jose" ; appointment_time = "12:30 pm") & No problem, please confirm your reservation with Barba & Co. San Jose at 12:30 pm on March 10th.
+INFORM ( phone_number = "669-258-9601") & Your appointment has been made, and you can call them at 669-258-9601.
+INFORM ( phone_number = "669-258-9601") & Your appointment has been made, and you can call them at 669-258-9601.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I have 10 options. There is one called 1512 Barber Shop in San Francisco.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I have 10 options. There is one called 1512 Barber Shop in San Francisco.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I have 10 options. There is one called 1512 Barber Shop in San Francisco.INFORM_COUNT ( count = "10") & I have 10 options. There is one called 1512 Barber Shop in San Francisco.
+CONFIRM ( stylist_name = "1512 Barber Shop" ; appointment_time = "11:15 am" ; appointment_date = "March 4th") & Confirming appointment at 11:15 am on March 4th at 1512 Barber Shop.
+CONFIRM ( appointment_time = "2 pm" ; appointment_date = "March 4th") & OK, Confirming appointment at 2 pm on March 4th.
+CONFIRM ( appointment_time = "2 pm" ; appointment_date = "March 8th") & Confirming appointment at 2 pm on March 8th at 1512 Barber Shop.
+INFORM ( phone_number = "415-286-4371") & Your time is confirmed. The number is 415-286-4371.
+INFORM ( phone_number = "415-286-4371") & Your time is confirmed. The number is 415-286-4371.
+INFORM ( street_address = "1532 20th Street") & The address is 1532 20th Street.
+OFFER ( stylist_name = "18|8 Fine Men'S Salons - Lafayette" ; city = "Lafayette") & 18|8 Fine Men'S Salons - Lafayette is a nice salon that you can consider in Lafayette.
+INFORM ( street_address = "15 Fiesta Lane") & They are located at 15 Fiesta Lane.
+INFORM ( average_rating = "4.3" ; phone_number = "925-297-5127") & They have an average rating of 4.3 and their phone number is 925-297-5127.
+CONFIRM ( stylist_name = "18|8 Fine Men'S Salons - Lafayette" ; appointment_time = "9:45 am" ; appointment_date = "March 10th") & Please confirm that you want an appointment at 18|8 Fine Men'S Salons - Lafayette at 9:45 am on March 10th.
+CONFIRM ( appointment_time = "2:15 pm" ; appointment_date = "March 9th") & Sure. So, you would like the appointment at 2:15 pm on March 9th. Is that correct?
+OFFER ( stylist_name = "C C Beauty Salon" ; city = "Sonoma") & There's a salon called C C Beauty Salon in Sonoma that might work?
+CONFIRM ( stylist_name = "C C Beauty Salon" ; appointment_time = "5:30 pm" ; appointment_date = "March 4th") & Confirming you want a 5:30 pm appointent on March 4th at C C Beauty Salon?
+INFORM ( average_rating = "4.4") & They currently hold a 4.4 rating
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San jose") & In San jose I have found 10 salons you may enjoy. One of the nicer salons I may suggest is the Atelier Salon Willow Glen.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San jose") & In San jose I have found 10 salons you may enjoy. One of the nicer salons I may suggest is the Atelier Salon Willow Glen.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San jose") & In San jose I have found 10 salons you may enjoy. One of the nicer salons I may suggest is the Atelier Salon Willow Glen.INFORM_COUNT ( count = "10") & In San jose I have found 10 salons you may enjoy. One of the nicer salons I may suggest is the Atelier Salon Willow Glen.
+OFFER ( stylist_name = "Barba & CO. San Jose" ; city = "San JOse") & With that criteria I have found 9 salons in San JOse. May I suggest Barba & CO. San Jose?
+OFFER ( stylist_name = "Barba & CO. San Jose" ; city = "San JOse") & With that criteria I have found 9 salons in San JOse. May I suggest Barba & CO. San Jose?
+OFFER ( stylist_name = "Barba & CO. San Jose" ; city = "San JOse") & With that criteria I have found 9 salons in San JOse. May I suggest Barba & CO. San Jose?INFORM_COUNT ( count = "9") & With that criteria I have found 9 salons in San JOse. May I suggest Barba & CO. San Jose?
+CONFIRM ( stylist_name = "Barba & CO. San Jose" ; appointment_time = "10:45 am" ; appointment_date = "March 10th") & Please confirm you would like a March 10th appointment at 10:45 am at Barba & CO. San Jose salon.
+CONFIRM ( appointment_time = "11:15 am" ; appointment_date = "March 12th") & Please confirm you would like a 11:15 am appointment on March 12th.
+INFORM ( street_address = "1775 Park Avenue") & Your appointment has been scheduled and their address is 1775 Park Avenue.
+INFORM ( street_address = "1775 Park Avenue") & Your appointment has been scheduled and their address is 1775 Park Avenue.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "san francisco") & How about 1512 Barber Shop located in san francisco?
+INFORM ( average_rating = "4.8" ; phone_number = "415-286-4371") & THey have a 4.8 rating, and are reachable at 415-286-4371
+CONFIRM ( stylist_name = "1512 barber shop" ; appointment_time = "10:30 am" ; appointment_date = "march 1st") & Please confirm: You want an appointment at 1512 barber shop at 10:30 am on march 1st.
+CONFIRM ( stylist_name = "1512 barber shop" ; appointment_time = "12:30 pm" ; appointment_date = "march 8th") & Please confirm: You want an appointment at 1512 barber shop on march 8th at 12:30 pm.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & There is a good salon called 1512 Barber Shop in San Francisco.
+OFFER ( stylist_name = "20Th Salon and Barber" ; city = "San Francisco") & Another good salon in San Francisco is 20Th Salon and Barber.
+INFORM ( is_unisex = "True" ; phone_number = "415-824-1335") & The salon can be reached at 415-824-1335. They serve both men and women.
+CONFIRM ( stylist_name = "20Th Salon And Barber" ; appointment_time = "10:30 am" ; appointment_date = "March 6th") & I will reserve an appointment at the 20Th Salon And Barber on March 6th at 10:30 am if that is right.
+INFORM ( average_rating = "4.5") & The clients have given them an average rating of 4.5. I have set your appointment for you.
+INFORM ( average_rating = "4.5") & The clients have given them an average rating of 4.5. I have set your appointment for you.
+OFFER ( stylist_name = "Alex'S Classic Barber Shop" ; city = "Fremont") & Alex'S Classic Barber Shop is a salon on Fremont that meets your criteria.
+CONFIRM ( stylist_name = "Alex'S Classic Barber Shop" ; appointment_time = "1:30 pm" ; appointment_date = "March 8th") & You would like to make an appointment for Alex'S Classic Barber Shop at 1:30 pm on March 8th, is that correct?
+CONFIRM ( stylist_name = "Alex'S Classic Barber Shop" ; appointment_date = "March 11th") & You would like to make an appointment at Alex'S Classic Barber Shop on March 11th, is that correct?
+INFORM ( average_rating = "4.7" ; phone_number = "510-623-1635") & Your appointment is booked. The contact number for the barber shop is 510-623-1635. The average rating for the salon is 4.7.
+INFORM ( average_rating = "4.7" ; phone_number = "510-623-1635") & Your appointment is booked. The contact number for the barber shop is 510-623-1635. The average rating for the salon is 4.7.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I found 10 salons. 1512 Barber Shop in San Francisco.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I found 10 salons. 1512 Barber Shop in San Francisco.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I found 10 salons. 1512 Barber Shop in San Francisco.INFORM_COUNT ( count = "10") & I found 10 salons. 1512 Barber Shop in San Francisco.
+INFORM ( street_address = "1532 20th Street" ; average_rating = "4.8") & The rating is 4.8 and the address is 1532 20th Street.
+OFFER ( stylist_name = "20th Salon and Barber" ; city = "San Francisco") & 20th Salon and Barber is also good and in San Francisco,
+CONFIRM ( stylist_name = "20th Salon and Barber" ; appointment_time = "10:30 am" ; appointment_date = "March 7th") & Please confirm your 10:30 am appointment on March 7th at 20th Salon and Barber.
+OFFER ( stylist_name = "Great Clips" ; city = "Windsor") & There are 3 salons in Windsor matching your description, how about Great Clips?
+OFFER ( stylist_name = "Great Clips" ; city = "Windsor") & There are 3 salons in Windsor matching your description, how about Great Clips?
+OFFER ( stylist_name = "Great Clips" ; city = "Windsor") & There are 3 salons in Windsor matching your description, how about Great Clips?INFORM_COUNT ( count = "3") & There are 3 salons in Windsor matching your description, how about Great Clips?
+CONFIRM ( stylist_name = "Great Clips" ; appointment_time = "2:30 pm" ; appointment_date = "March 2nd") & You wish to make an appointment to Great Clips, on March 2nd at 2:30 pm, was that all correct?
+OFFER ( stylist_name = "Apple Salon Hair & Nails" ; city = "Milpitas") & What about Apple Salon Hair & Nails located in Milpitas?
+INFORM ( street_address = "1216 south Abel Street") & It is located in 1216 south Abel Street. Is it comfortable to you?
+INFORM ( average_rating = "4.1" ; phone_number = "408-644-5852") & It has 4.1 rating and phone number is 408-644-5852.
+CONFIRM ( stylist_name = "Apple Salon Hair & Nails" ; appointment_time = "2:30 pm" ; appointment_date = "March 1st") & Please confirm to book an appointment with Apple Salon Hair & Nails at 2:30 pm on March 1st.
+OFFER ( stylist_name = "Atelier Salon Willow Glen" ; city = "San Jose") & How about this nice place in San Jose called Atelier Salon Willow Glen
+CONFIRM ( stylist_name = "Atelier Salon Willow Glen" ; appointment_time = "11:15 am" ; appointment_date = "march 8th") & Confirming you want a 11:15 am appointment on march 8th at the Atelier Salon Willow Glen?
+INFORM ( street_address = "1047 Lincoln Highway suite 101" ; phone_number = "408-293-3494") & Atelier Salon Willow Glen is located at 1047 Lincoln Highway suite 101 and can be called at 408-293-3494. But I couldn't book that one, do you want me to try at 11 am on March 8th instead?
+INFORM ( street_address = "1047 Lincoln Highway suite 101" ; phone_number = "408-293-3494") & Atelier Salon Willow Glen is located at 1047 Lincoln Highway suite 101 and can be called at 408-293-3494. But I couldn't book that one, do you want me to try at 11 am on March 8th instead?
+INFORM ( street_address = "1047 Lincoln Highway suite 101" ; phone_number = "408-293-3494") & Atelier Salon Willow Glen is located at 1047 Lincoln Highway suite 101 and can be called at 408-293-3494. But I couldn't book that one, do you want me to try at 11 am on March 8th instead?OFFER ( stylist_name = "Atelier Salon Willow Glen" ; appointment_date = "March 8th" ; appointment_time = "11 am") & Atelier Salon Willow Glen is located at 1047 Lincoln Highway suite 101 and can be called at 408-293-3494. But I couldn't book that one, do you want me to try at 11 am on March 8th instead?
+INFORM ( street_address = "1047 Lincoln Highway suite 101" ; phone_number = "408-293-3494") & Atelier Salon Willow Glen is located at 1047 Lincoln Highway suite 101 and can be called at 408-293-3494. But I couldn't book that one, do you want me to try at 11 am on March 8th instead?
+INFORM ( street_address = "1047 Lincoln Highway suite 101" ; phone_number = "408-293-3494") & Atelier Salon Willow Glen is located at 1047 Lincoln Highway suite 101 and can be called at 408-293-3494. But I couldn't book that one, do you want me to try at 11 am on March 8th instead?OFFER ( stylist_name = "Atelier Salon Willow Glen" ; appointment_date = "March 8th" ; appointment_time = "11 am") & Atelier Salon Willow Glen is located at 1047 Lincoln Highway suite 101 and can be called at 408-293-3494. But I couldn't book that one, do you want me to try at 11 am on March 8th instead?
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & Sure thing. I've found 10 salons you may like. How about the 1512 Barber Shop in San Francisco? I hear it is pretty nice.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & Sure thing. I've found 10 salons you may like. How about the 1512 Barber Shop in San Francisco? I hear it is pretty nice.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & Sure thing. I've found 10 salons you may like. How about the 1512 Barber Shop in San Francisco? I hear it is pretty nice.INFORM_COUNT ( count = "10") & Sure thing. I've found 10 salons you may like. How about the 1512 Barber Shop in San Francisco? I hear it is pretty nice.
+INFORM ( average_rating = "4.8") & They are rated at 4.8 stars.
+CONFIRM ( stylist_name = "1512 Barber Shop" ; appointment_time = "6:15 pm" ; appointment_date = "March 5th") & Okay, first let me confirm the following details. You want to make an appointment at 1512 Barber Shop for 6:15 pm on March 5th. Is this correct?
+INFORM ( phone_number = "415-286-4371") & Okay, your appointment is confirmed. Their phone number is 415-286-4371.
+INFORM ( phone_number = "415-286-4371") & Okay, your appointment is confirmed. Their phone number is 415-286-4371.
+OFFER ( stylist_name = "A+ Haircuts For Men" ; city = "Sunnyvale") & I have for you 10 results that you may like.First is a nice salon in Sunnyvale called A+ Haircuts For Men.
+OFFER ( stylist_name = "A+ Haircuts For Men" ; city = "Sunnyvale") & I have for you 10 results that you may like.First is a nice salon in Sunnyvale called A+ Haircuts For Men.
+OFFER ( stylist_name = "A+ Haircuts For Men" ; city = "Sunnyvale") & I have for you 10 results that you may like.First is a nice salon in Sunnyvale called A+ Haircuts For Men.INFORM_COUNT ( count = "10") & I have for you 10 results that you may like.First is a nice salon in Sunnyvale called A+ Haircuts For Men.
+OFFER ( stylist_name = "Alpha Barbershop" ; city = "Sunnyvale") & A nice salon in Sunnyvale is Alpha Barbershop.
+CONFIRM ( stylist_name = "Alpha Barbershop" ; appointment_time = "5 pm" ; appointment_date = "March 7th") & You want an appointment at Alpha Barbershop on March 7th at 5 pm.Is that correct?
+INFORM ( street_address = "472 North Mathilda Avenue") & Appointment is confirmed.472 North Mathilda Avenue is their address.
+INFORM ( street_address = "472 North Mathilda Avenue") & Appointment is confirmed.472 North Mathilda Avenue is their address.
+INFORM ( is_unisex = "True") & Yes this is an unisex salon
+OFFER ( stylist_name = "Elle Lui Hair Salon" ; city = "Santa Rosa") & How about Elle Lui Hair Salon? It is a nice salon in Santa Rosa.
+INFORM ( average_rating = "4.8" ; phone_number = "707-575-1474") & The average rating of the salon is 4.8. Their phone number is 707-575-1474.
+CONFIRM ( stylist_name = "Elle Lui Hair Salon" ; appointment_time = "12 pm" ; appointment_date = "March 7th") & Can you confirm the following? You want an appointment at the Elle Lui Hair Salon for March 7th at 12 pm?
+CONFIRM ( stylist_name = "Elle Lui Hair Salon" ; appointment_date = "March 2nd") & Confirming that you want to visit the Elle Lui Hair Salon on March 2nd.
+INFORM ( street_address = "205 5th Street D") & The salon is located at 205 5th Street D. Your appointment is confirmed.
+INFORM ( street_address = "205 5th Street D") & The salon is located at 205 5th Street D. Your appointment is confirmed.
+OFFER ( stylist_name = "About Time Barber Shop" ; city = "Santa Clara") & There are 8 salons in Santa Clara that may suit your needs. One such salon is About Time Barber Shop.
+OFFER ( stylist_name = "About Time Barber Shop" ; city = "Santa Clara") & There are 8 salons in Santa Clara that may suit your needs. One such salon is About Time Barber Shop.
+OFFER ( stylist_name = "About Time Barber Shop" ; city = "Santa Clara") & There are 8 salons in Santa Clara that may suit your needs. One such salon is About Time Barber Shop.INFORM_COUNT ( count = "8") & There are 8 salons in Santa Clara that may suit your needs. One such salon is About Time Barber Shop.
+CONFIRM ( stylist_name = "About Time Barber Shop" ; appointment_time = "11 am" ; appointment_date = "March 7th") & So, you would like to schedule a visit to About Time Barber Shop for March 7th at 11 am, correct?
+INFORM ( average_rating = "4.8") & Your visit has been scheduled. The establishment has an average rating of 4.8
+INFORM ( average_rating = "4.8") & Your visit has been scheduled. The establishment has an average rating of 4.8
+INFORM ( street_address = "2485 De La Cruz Boulevard") & They are located at 2485 De La Cruz Boulevard
+OFFER ( stylist_name = "18/8 Fine Men's Salons - Palo Alto" ; city = "Palo Alto") & 18/8 Fine Men's Salons - Palo Alto is a stylish place to get your hair did in Palo Alto.
+CONFIRM ( stylist_name = "18/8 Fine Men's Salons - Palo Alto" ; appointment_time = "12 pm" ; appointment_date = "March 7th") & Please confirm, appointment at 18/8 Fine Men's Salons - Palo Alto on March 7th at 12 pm.
+OFFER ( stylist_name = "17 jewels salon" ; city = "Oakland") & I found 10 salons. 17 jewels salon is a good one in Oakland
+OFFER ( stylist_name = "17 jewels salon" ; city = "Oakland") & I found 10 salons. 17 jewels salon is a good one in Oakland
+OFFER ( stylist_name = "17 jewels salon" ; city = "Oakland") & I found 10 salons. 17 jewels salon is a good one in OaklandINFORM_COUNT ( count = "10") & I found 10 salons. 17 jewels salon is a good one in Oakland
+OFFER ( stylist_name = "Benny Adem grooming parlor" ; city = "oakland") & Benny Adem grooming parlor is a good salon in oakland
+CONFIRM ( stylist_name = "benny Adem grooming parlor" ; appointment_time = "1 pm" ; appointment_date = "March 2nd") & please confirm the name of the hair stylist benny Adem grooming parlor appointment is at 1 pm. on March 2nd
+INFORM ( is_unisex = "True" ; street_address = "408 14th street") & your booking is confirmed.its a unisex salon and the address is 408 14th street
+INFORM ( is_unisex = "True" ; street_address = "408 14th street") & your booking is confirmed.its a unisex salon and the address is 408 14th street
+OFFER ( stylist_name = "Ap Luxe Salon" ; city = "Mill Valley") & I found 7 salons. Ap Luxe Salon is located in Mill Valley.
+OFFER ( stylist_name = "Ap Luxe Salon" ; city = "Mill Valley") & I found 7 salons. Ap Luxe Salon is located in Mill Valley.
+OFFER ( stylist_name = "Ap Luxe Salon" ; city = "Mill Valley") & I found 7 salons. Ap Luxe Salon is located in Mill Valley.INFORM_COUNT ( count = "7") & I found 7 salons. Ap Luxe Salon is located in Mill Valley.
+OFFER ( stylist_name = "D&O Salon" ; city = "Mill Valley") & D&O Salon is another option in Mill Valley.
+INFORM ( average_rating = "4.4") & The average rating is 4.4 for that salon.
+INFORM ( is_unisex = "True" ; street_address = "800 Redwood Highway #220") & The salon is at 800 Redwood Highway #220. Yes, it is a unisex salon.
+OFFER ( stylist_name = "Edward'S Salon" ; city = "Mill Valley") & Edward'S Salon is also in Mill Valley.
+CONFIRM ( stylist_name = "Edward'S Salon" ; appointment_time = "3 pm" ; appointment_date = "March 10th") & You would like to make an appointment at Edward'S Salon at 3 pm on March 10th, is that correct?
+CONFIRM ( appointment_time = "5:15 pm" ; appointment_date = "March 4th") & You would like the appointment at 5:15 pm on March 4th, is that correct?
+INFORM ( street_address = "655 Redwood Highway #140" ; phone_number = "415-381-1950") & Your appointment is confirmed. The salon is located at 655 Redwood Highway #140, and its phone number is 415-381-1950.
+INFORM ( street_address = "655 Redwood Highway #140" ; phone_number = "415-381-1950") & Your appointment is confirmed. The salon is located at 655 Redwood Highway #140, and its phone number is 415-381-1950.
+OFFER ( stylist_name = "aya salon & spa" ; city = "berkeley") & You can pick among 10 choices. What do you say about aya salon & spa in berkeley?
+OFFER ( stylist_name = "aya salon & spa" ; city = "berkeley") & You can pick among 10 choices. What do you say about aya salon & spa in berkeley?
+OFFER ( stylist_name = "aya salon & spa" ; city = "berkeley") & You can pick among 10 choices. What do you say about aya salon & spa in berkeley?INFORM_COUNT ( count = "10") & You can pick among 10 choices. What do you say about aya salon & spa in berkeley?
+INFORM ( is_unisex = "False") & it is not.
+OFFER ( stylist_name = "himc barber studio" ; city = "antioch") & I've found 3 options. I can suggest you himc barber studio in antioch
+OFFER ( stylist_name = "himc barber studio" ; city = "antioch") & I've found 3 options. I can suggest you himc barber studio in antioch
+OFFER ( stylist_name = "himc barber studio" ; city = "antioch") & I've found 3 options. I can suggest you himc barber studio in antiochINFORM_COUNT ( count = "3") & I've found 3 options. I can suggest you himc barber studio in antioch
+INFORM ( average_rating = "4.0" ; phone_number = "925-238-0059") & rating is 4.0 and the phone number is 925-238-0059
+CONFIRM ( stylist_name = "himc barber studio" ; appointment_time = "2 pm" ; appointment_date = "march 2nd") & confirm before I proceed. I'm going to book an appointment at himc barber studio on march 2nd at 2 pm
+CONFIRM ( stylist_name = "himc barber studio" ; appointment_time = "11:45 am" ; appointment_date = "march 2nd") & confirm the new data. you want to visit the himc barber studio on march 2nd at 11:45 am
+CONFIRM ( stylist_name = "himc barber studio" ; appointment_date = "march 4th") & confirm the new acquired data. you want to pay a visit to himc barber studio on march 4th
+OFFER ( stylist_name = "18|8 Fine Men'S Salons - Lafayette" ; city = "Lafayette") & 18|8 Fine Men'S Salons - Lafayette is in Lafayette.
+INFORM ( is_unisex = "True" ; phone_number = "925-297-5127") & Yes. It is a unisex salon. They can be reached directly at 925-297-5127.
+CONFIRM ( stylist_name = "18|8 Fine Men's Salons - Lafayette" ; appointment_time = "4:45 pm" ; appointment_date = "March 14th") & Please confirm you want to book an appointment at 18|8 Fine Men's Salons - Lafayette on March 14th at 4:45 pm.
+INFORM ( average_rating = "4.3") & Their rating is 4.3 and your booking was a success.
+INFORM ( average_rating = "4.3") & Their rating is 4.3 and your booking was a success.
+INFORM ( street_address = "15 Fiesta Lane") & They're located at 15 Fiesta Lane.
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & Sure thing. How about 1512 Barber Shop? It's a very nice salon in San Francisco.
+INFORM ( is_unisex = "True" ; street_address = "1532 20th Street") & Yes it is unisex. The address is 1532 20th Street.
+CONFIRM ( stylist_name = "1512 Barber Shop" ; appointment_time = "2:15 pm" ; appointment_date = "March 9th") & Sure thing, just confirm the following for me. Booking an appointment at the 1512 Barber Shop for March 9th at 2:15 pm. Correct?
+OFFER ( stylist_name = "1512 Barber Shop" ; appointment_date = "March 9th" ; appointment_time = "2 pm") & I'm sorry I couldn't make an appointment at that time, would you like to make an appoint for March 9th at 2 pm at the 1512 Barber Shop?
+OFFER ( stylist_name = "1512 Barber Shop" ; appointment_date = "March 9th" ; appointment_time = "2 pm") & I'm sorry I couldn't make an appointment at that time, would you like to make an appoint for March 9th at 2 pm at the 1512 Barber Shop?
+OFFER ( stylist_name = "Blow Dry Bar" ; city = "Walnut Creek") & A nice salon in Walnut Creek is Blow Dry Bar.
+CONFIRM ( stylist_name = "Blow Dry Bar" ; appointment_time = "3:15 pm" ; appointment_date = "March 3rd") & You want an appointment on March 3rd at 3:15 pm and Blow Dry Bar is the name of the hair stylist.I'm right?
+INFORM ( average_rating = "4.4" ; phone_number = "925-837-2990") & 4.4 is the average rating and phone number is 925-837-2990.I'm sorry but the appointment at Blow Dry Bar could not be achieved.What you think about change it on March 3rd at 3 pm because is a nice salon.
+INFORM ( average_rating = "4.4" ; phone_number = "925-837-2990") & 4.4 is the average rating and phone number is 925-837-2990.I'm sorry but the appointment at Blow Dry Bar could not be achieved.What you think about change it on March 3rd at 3 pm because is a nice salon.
+INFORM ( average_rating = "4.4" ; phone_number = "925-837-2990") & 4.4 is the average rating and phone number is 925-837-2990.I'm sorry but the appointment at Blow Dry Bar could not be achieved.What you think about change it on March 3rd at 3 pm because is a nice salon.OFFER ( stylist_name = "Blow Dry Bar" ; appointment_date = "March 3rd" ; appointment_time = "3 pm") & 4.4 is the average rating and phone number is 925-837-2990.I'm sorry but the appointment at Blow Dry Bar could not be achieved.What you think about change it on March 3rd at 3 pm because is a nice salon.
+INFORM ( average_rating = "4.4" ; phone_number = "925-837-2990") & 4.4 is the average rating and phone number is 925-837-2990.I'm sorry but the appointment at Blow Dry Bar could not be achieved.What you think about change it on March 3rd at 3 pm because is a nice salon.
+INFORM ( average_rating = "4.4" ; phone_number = "925-837-2990") & 4.4 is the average rating and phone number is 925-837-2990.I'm sorry but the appointment at Blow Dry Bar could not be achieved.What you think about change it on March 3rd at 3 pm because is a nice salon.OFFER ( stylist_name = "Blow Dry Bar" ; appointment_date = "March 3rd" ; appointment_time = "3 pm") & 4.4 is the average rating and phone number is 925-837-2990.I'm sorry but the appointment at Blow Dry Bar could not be achieved.What you think about change it on March 3rd at 3 pm because is a nice salon.
+OFFER ( stylist_name = "Blow Dry bar" ; city = "Walnut Creek") & I've found Blow Dry bar in Walnut Creek.
+CONFIRM ( stylist_name = "Blow Dry Bar" ; appointment_time = "10:45 am" ; appointment_date = "March 5th") & Confirming you want to book an appointment at Blow Dry Bar on March 5th at 10:45 am?
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I found 10 salons for you. How about 1512 Barber Shop in San Francisco?
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I found 10 salons for you. How about 1512 Barber Shop in San Francisco?
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & I found 10 salons for you. How about 1512 Barber Shop in San Francisco?INFORM_COUNT ( count = "10") & I found 10 salons for you. How about 1512 Barber Shop in San Francisco?
+CONFIRM ( stylist_name = "1512 Barber Shop" ; appointment_time = "11 am" ; appointment_date = "March 7th") & Okay, I have an appointment at 1512 Barber Shop at 11 am on March 7th, correct?
+OFFER ( stylist_name = "Kim P Beauty Care" ; city = "Newark") & I have located 3 salons you might like. One of these is a nice location in Newark called Kim P Beauty Care.
+OFFER ( stylist_name = "Kim P Beauty Care" ; city = "Newark") & I have located 3 salons you might like. One of these is a nice location in Newark called Kim P Beauty Care.
+OFFER ( stylist_name = "Kim P Beauty Care" ; city = "Newark") & I have located 3 salons you might like. One of these is a nice location in Newark called Kim P Beauty Care.INFORM_COUNT ( count = "3") & I have located 3 salons you might like. One of these is a nice location in Newark called Kim P Beauty Care.
+CONFIRM ( stylist_name = "Kim P Beauty Care" ; appointment_time = "11:45 am" ; appointment_date = "March 4th") & Okay, confirm these details: the hairstylist will be Kim P Beauty Care and the appointment is set for March 4th at 11:45 am.
+INFORM ( street_address = "36935 Sycamore Street" ; average_rating = "4.4") & Your appointment is now set. The address of the salon is 36935 Sycamore Street and they have an average rating of 4.4
+INFORM ( street_address = "36935 Sycamore Street" ; average_rating = "4.4") & Your appointment is now set. The address of the salon is 36935 Sycamore Street and they have an average rating of 4.4
+OFFER ( stylist_name = "Cool Tops" ; city = "Pleasant Hill") & Cool Tops is a popular salon in Pleasant Hill.
+OFFER ( stylist_name = "Great Clips" ; city = "Pleasant Hill") & Great Clips is a salon located in Pleasant Hill.
+INFORM ( phone_number = "925-681-2547") & The phone number is 925-681-2547.
+CONFIRM ( stylist_name = "Great Clips" ; appointment_time = "5:30 pm" ; appointment_date = "March 8th") & Please confirm: an appointment at Great Clips salon on March 8th at 5:30 pm.
+INFORM ( street_address = "790 Oak Grove Road Ste B" ; average_rating = "3.3") & Your appointment has been made. The address is 790 Oak Grove Road Ste B. They're rated 3.3
+INFORM ( street_address = "790 Oak Grove Road Ste B" ; average_rating = "3.3") & Your appointment has been made. The address is 790 Oak Grove Road Ste B. They're rated 3.3
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & Your search yielded 10 suitable salons. How about 1512 Barber Shop, a nice salon in San Francisco?
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & Your search yielded 10 suitable salons. How about 1512 Barber Shop, a nice salon in San Francisco?
+OFFER ( stylist_name = "1512 Barber Shop" ; city = "San Francisco") & Your search yielded 10 suitable salons. How about 1512 Barber Shop, a nice salon in San Francisco?INFORM_COUNT ( count = "10") & Your search yielded 10 suitable salons. How about 1512 Barber Shop, a nice salon in San Francisco?
+CONFIRM ( stylist_name = "1512 Barber Shop" ; appointment_time = "10:15 am" ; appointment_date = "March 1st") & Let me see if I got everything correctly: You'd like to schedule a 10:15 am appointment with 1512 Barber Shop, on March 1st?
+OFFER ( stylist_name = "Wash & Brushup Co." ; city = "Healdsburg") & 1 option I found that you may like.A nice salon called Wash & Brushup Co. in Healdsburg.
+OFFER ( stylist_name = "Wash & Brushup Co." ; city = "Healdsburg") & 1 option I found that you may like.A nice salon called Wash & Brushup Co. in Healdsburg.
+OFFER ( stylist_name = "Wash & Brushup Co." ; city = "Healdsburg") & 1 option I found that you may like.A nice salon called Wash & Brushup Co. in Healdsburg.INFORM_COUNT ( count = "1") & 1 option I found that you may like.A nice salon called Wash & Brushup Co. in Healdsburg.
+CONFIRM ( stylist_name = "Wash & Brushup Co." ; appointment_time = "4:15 pm" ; appointment_date = "March 12th") & You want an appointment on March 12th at 4:15 pm.Wash & Brushup Co. is the name of the hair stylist.Is that okay?
+CONFIRM ( appointment_time = "9:30 am" ; appointment_date = "March 12th") & On March 12th at 9:30 am.I'm right?
+CONFIRM ( appointment_time = "9:30 am" ; appointment_date = "March 1st") & On March 1st at 9:30 am.Confirm me please.
+INFORM ( street_address = "340 Healdsburg Avenue") & 340 Healdsburg Avenue is the address.I'm sorry the reservation was not made.You would like to try on March 1st at 10 am because Wash & Brushup Co. is a nice salon.
+INFORM ( street_address = "340 Healdsburg Avenue") & 340 Healdsburg Avenue is the address.I'm sorry the reservation was not made.You would like to try on March 1st at 10 am because Wash & Brushup Co. is a nice salon.
+INFORM ( street_address = "340 Healdsburg Avenue") & 340 Healdsburg Avenue is the address.I'm sorry the reservation was not made.You would like to try on March 1st at 10 am because Wash & Brushup Co. is a nice salon.OFFER ( stylist_name = "Wash & Brushup Co." ; appointment_date = "March 1st" ; appointment_time = "10 am") & 340 Healdsburg Avenue is the address.I'm sorry the reservation was not made.You would like to try on March 1st at 10 am because Wash & Brushup Co. is a nice salon.
+INFORM ( street_address = "340 Healdsburg Avenue") & 340 Healdsburg Avenue is the address.I'm sorry the reservation was not made.You would like to try on March 1st at 10 am because Wash & Brushup Co. is a nice salon.
+INFORM ( street_address = "340 Healdsburg Avenue") & 340 Healdsburg Avenue is the address.I'm sorry the reservation was not made.You would like to try on March 1st at 10 am because Wash & Brushup Co. is a nice salon.OFFER ( stylist_name = "Wash & Brushup Co." ; appointment_date = "March 1st" ; appointment_time = "10 am") & 340 Healdsburg Avenue is the address.I'm sorry the reservation was not made.You would like to try on March 1st at 10 am because Wash & Brushup Co. is a nice salon.
+INFORM ( average_rating = "5.0") & 5.0 is the average rating.
+OFFER ( stylist_name = "Dukes and Dolls Salon" ; city = "Petaluma") & I found 7 spots in Petaluma including Dukes and Dolls Salon which you might be interested in
+OFFER ( stylist_name = "Dukes and Dolls Salon" ; city = "Petaluma") & I found 7 spots in Petaluma including Dukes and Dolls Salon which you might be interested in
+OFFER ( stylist_name = "Dukes and Dolls Salon" ; city = "Petaluma") & I found 7 spots in Petaluma including Dukes and Dolls Salon which you might be interested inINFORM_COUNT ( count = "7") & I found 7 spots in Petaluma including Dukes and Dolls Salon which you might be interested in
+INFORM ( average_rating = "4.9") & They have a really high 4.9 average score
+CONFIRM ( stylist_name = "Dukes And Dolls Salon" ; appointment_time = "3:30 pm" ; appointment_date = "March 2nd") & Confirming you want a 3:30 pm appointment at Dukes And Dolls Salon on March 2nd yes?
+INFORM ( phone_number = "707-769-8000") & You can reach them at 707-769-8000
+OFFER ( stylist_name = "Great Clips" ; city = "Windsor") & There are 3 salons available in Windsor. Would you like to try the Great Clips?
+OFFER ( stylist_name = "Great Clips" ; city = "Windsor") & There are 3 salons available in Windsor. Would you like to try the Great Clips?
+OFFER ( stylist_name = "Great Clips" ; city = "Windsor") & There are 3 salons available in Windsor. Would you like to try the Great Clips?INFORM_COUNT ( count = "3") & There are 3 salons available in Windsor. Would you like to try the Great Clips?
+CONFIRM ( stylist_name = "Great Clips" ; appointment_time = "12:30 pm" ; appointment_date = "March 1st") & You would like to schedule an appointment at Great Clips for March 1st at 12:30 pm
+CONFIRM ( appointment_time = "10 am" ; appointment_date = "March 10th") & You would like the appointment for March 10th at 10 am?
+INFORM ( street_address = "4055 Evergreen Village Square Ste 110") & I have scheduled your visit. The salon is located at 4055 Evergreen Village Square Ste 110.
+INFORM ( street_address = "4055 Evergreen Village Square Ste 110") & I have scheduled your visit. The salon is located at 4055 Evergreen Village Square Ste 110.
+OFFER ( therapist_name = "Dillon Charles R" ; type = "Psychiatrist" ; city = "Novato") & There is a psychiatrist called Dillon Charles R in Novato.
+OFFER ( therapist_name = "Center For Well Being" ; type = "Family Counselor" ; city = "Fremont") & I have come up with 3. There is Center For Well Being in Fremont with a Family Counselor.
+OFFER ( therapist_name = "Center For Well Being" ; type = "Family Counselor" ; city = "Fremont") & I have come up with 3. There is Center For Well Being in Fremont with a Family Counselor.
+OFFER ( therapist_name = "Center For Well Being" ; type = "Family Counselor" ; city = "Fremont") & I have come up with 3. There is Center For Well Being in Fremont with a Family Counselor.INFORM_COUNT ( count = "3") & I have come up with 3. There is Center For Well Being in Fremont with a Family Counselor.
+INFORM ( phone_number = "510-797-3941" ; address = "1301 Mowry Avenue") & 1301 Mowry Avenue and their phone number is 510-797-3941.
+CONFIRM ( therapist_name = "Center For Well Being" ; appointment_time = "12:30 pm" ; appointment_date = "March 14th") & To confirm then that is an appointment with Center For Well Being at 12:30 pm on March 14th.
+CONFIRM ( appointment_time = "10:30 am" ; appointment_date = "March 6th") & To confirm then that is March 6th at 10:30 am.
+OFFER ( therapist_name = "Alameda Children's Specialized" ; type = "Psychologist" ; city = "Oakland") & How about Alameda Children's Specialized, they're a psychologist in Oakland.
+CONFIRM ( therapist_name = "Alameda Children's SPecialized" ; appointment_time = "3:45 pm" ; appointment_date = "March 12th") & Please confirm: You want an appointment with Alameda Children's SPecialized at 3:45 pm on March 12th?
+INFORM ( address = "7200 Bancroft Ave # 125C") & 7200 Bancroft Ave # 125C
+INFORM ( phone_number = "510-383-5100") & 510-383-5100.
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "Lafayette") & You can try a Psychologist in Lafayette called Alissa Scanlin Psyd.
+CONFIRM ( therapist_name = "Alissa Scanlin Psyd" ; appointment_time = "5 pm" ; appointment_date = "March 5th") & Book an appointment with Alissa Scanlin Psyd on March 5th at 5 pm.Is that correct?
+CONFIRM ( appointment_time = "3:30 pm" ; appointment_date = "March 10th") & On March 10th at 3:30 pm.Is that okay for you?
+INFORM ( phone_number = "707-371-2433" ; address = "3468 Mount Diablo Boulevard") & 707-371-2433 is the contact number and the address is 3468 Mount Diablo Boulevard.
+OFFER ( therapist_name = "Rachelle Coate" ; type = "Psychologist" ; city = "Gilroy") & There are 3 options. Rachelle Coate is a psychologist in Gilroy.
+OFFER ( therapist_name = "Rachelle Coate" ; type = "Psychologist" ; city = "Gilroy") & There are 3 options. Rachelle Coate is a psychologist in Gilroy.
+OFFER ( therapist_name = "Rachelle Coate" ; type = "Psychologist" ; city = "Gilroy") & There are 3 options. Rachelle Coate is a psychologist in Gilroy.INFORM_COUNT ( count = "3") & There are 3 options. Rachelle Coate is a psychologist in Gilroy.
+OFFER ( therapist_name = "Bacosa Frances" ; type = "Psychiatrist" ; city = "Gilroy") & There are 3 Psychiatrist in Gilroy. Bacosa Frances is one.
+OFFER ( therapist_name = "Bacosa Frances" ; type = "Psychiatrist" ; city = "Gilroy") & There are 3 Psychiatrist in Gilroy. Bacosa Frances is one.
+OFFER ( therapist_name = "Bacosa Frances" ; type = "Psychiatrist" ; city = "Gilroy") & There are 3 Psychiatrist in Gilroy. Bacosa Frances is one.INFORM_COUNT ( count = "3") & There are 3 Psychiatrist in Gilroy. Bacosa Frances is one.
+INFORM ( phone_number = "408-842-1119" ; address = "8339 Church St # 106") & Sure, phone is 408-842-1119 and they are located at 8339 Church St # 106.
+OFFER ( therapist_name = "Galindo Jaime" ; type = "Psychiatrist" ; city = "Gilroy") & Galindo Jaime is in Gilroy. They are a Psychiatrist.
+CONFIRM ( therapist_name = "Galindo Jaime" ; appointment_time = "4 pm" ; appointment_date = "March 1st") & Sure to confirm: Appointment with Galindo Jaime at 4 pm on March 1st.
+CONFIRM ( therapist_name = "Galindo Jaime" ; appointment_time = "12 pm" ; appointment_date = "March 8th") & Sure, I'm booking an appointment with Galindo Jaime on March 8th at 12 pm.
+INFORM ( phone_number = "408-846-2443" ; address = "290 Ioof Avenue") & Phone is 408-846-2443. They are at 290 Ioof Avenue.
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "Lafayette") & I found 10 therapists in in Lafayette including Psychologist Alissa Scanlin Psyd
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "Lafayette") & I found 10 therapists in in Lafayette including Psychologist Alissa Scanlin Psyd
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "Lafayette") & I found 10 therapists in in Lafayette including Psychologist Alissa Scanlin PsydINFORM_COUNT ( count = "10") & I found 10 therapists in in Lafayette including Psychologist Alissa Scanlin Psyd
+INFORM ( address = "3468 Mount Diablo Boulevard") & They can be found at 3468 Mount Diablo Boulevard
+INFORM ( phone_number = "707-371-2433") & You can reach them at 707-371-2433
+OFFER ( therapist_name = "Ariela Ora Karasov" ; type = "Psychiatrist" ; city = "Palo Alto") & You can try Ariela Ora Karasov who is a Psychiatrist in Palo Alto
+CONFIRM ( therapist_name = "Ariela Ora Karasov" ; appointment_time = "6 pm" ; appointment_date = "March 13th") & Confirm you want to book aa 6 pm appointment with Ariela Ora Karasov on March 13th?
+CONFIRM ( therapist_name = "Ariela Ora Karasov" ; appointment_time = "12 pm" ; appointment_date = "March 13th") & OK so a 12 pm with Ariela Ora Karasov on March 13th yes?
+CONFIRM ( appointment_time = "12 pm" ; appointment_date = "March 14th") & So 12 pm on March 14th?
+OFFER ( therapist_name = "Emily Rosenbaum" ; type = "Family Counselor" ; city = "Los Gatos") & I found 5 therapists. How about Emily Rosenbaum, she's a family counselor in Los Gatos.
+OFFER ( therapist_name = "Emily Rosenbaum" ; type = "Family Counselor" ; city = "Los Gatos") & I found 5 therapists. How about Emily Rosenbaum, she's a family counselor in Los Gatos.
+OFFER ( therapist_name = "Emily Rosenbaum" ; type = "Family Counselor" ; city = "Los Gatos") & I found 5 therapists. How about Emily Rosenbaum, she's a family counselor in Los Gatos.INFORM_COUNT ( count = "5") & I found 5 therapists. How about Emily Rosenbaum, she's a family counselor in Los Gatos.
+CONFIRM ( therapist_name = "Emily Rosenbaum" ; appointment_time = "1 pm" ; appointment_date = "march 13th") & Please confirm: You want an appointment with Emily Rosenbaum at 1 pm on march 13th?
+CONFIRM ( therapist_name = "Emily Rosenbaum" ; appointment_time = "1 pm" ; appointment_date = "march 9th") & Please confirm the following: Book an appointment on march 9th at 1 pm with Emily Rosenbaum?
+INFORM ( phone_number = "408-641-7353" ; address = "401 alberto way #1") & Your appointment has been successfully booked! You'll get an email confirmation soon. You can contact them at 408-641-7353, and their address is 401 alberto way #1
+INFORM ( phone_number = "408-641-7353" ; address = "401 alberto way #1") & Your appointment has been successfully booked! You'll get an email confirmation soon. You can contact them at 408-641-7353, and their address is 401 alberto way #1
+OFFER ( therapist_name = "Christopher J. Celio" ; type = "Psychologist" ; city = "pleasant Hill") & There are 4 options. There is a psychologist in pleasant Hill called Christopher J. Celio.
+OFFER ( therapist_name = "Christopher J. Celio" ; type = "Psychologist" ; city = "pleasant Hill") & There are 4 options. There is a psychologist in pleasant Hill called Christopher J. Celio.
+OFFER ( therapist_name = "Christopher J. Celio" ; type = "Psychologist" ; city = "pleasant Hill") & There are 4 options. There is a psychologist in pleasant Hill called Christopher J. Celio.INFORM_COUNT ( count = "4") & There are 4 options. There is a psychologist in pleasant Hill called Christopher J. Celio.
+CONFIRM ( therapist_name = "Christopher J. Celio" ; appointment_time = "2 pm" ; appointment_date = "March 2nd") & You would like to make an appointment at Christopher J. Celio at 2 pm on March 2nd?
+INFORM ( address = "101 Gregory Lane") & I have made the reservation and confirmation would be done via email. The location is 101 Gregory Lane.
+INFORM ( address = "101 Gregory Lane") & I have made the reservation and confirmation would be done via email. The location is 101 Gregory Lane.
+OFFER ( therapist_name = "Ellsworth Elizabeth" ; type = "Family Counselor" ; city = "St. Helena") & You could try Ellsworth Elizabeth a Family Counselor in St. Helena.
+CONFIRM ( therapist_name = "Ellsworth Elizabeth" ; appointment_time = "2 pm" ; appointment_date = "March 9th") & Please confirm an appointment with Ellsworth Elizabeth 2 pm March 9th.
+INFORM ( address = "999 Adams Street # 300") & The appointment was successfully booked and you'll get an email confirmation soon for 999 Adams Street # 300.
+INFORM ( address = "999 Adams Street # 300") & The appointment was successfully booked and you'll get an email confirmation soon for 999 Adams Street # 300.
+OFFER ( therapist_name = "Caldwell Leslie" ; type = "Psychologist" ; city = "Vacaville") & Well if we're talking about a Psychologist in the Vacaville area, maybe you can try Caldwell Leslie
+CONFIRM ( therapist_name = "Caldwell Leslie" ; appointment_time = "3 pm" ; appointment_date = "March 12th") & Confirming a 3 pm March 12th meeting with Caldwell Leslie is what you want
+INFORM ( phone_number = "707-624-4000" ; address = "1 Quality drive") & You can find them at 1 Quality drive and their number is 707-624-4000
+OFFER ( therapist_name = "Caldwell Leslie" ; type = "Psychologist" ; city = "Vacaville") & There are 4 psychologist in the Vacaville area, how about Caldwell Leslie?
+OFFER ( therapist_name = "Caldwell Leslie" ; type = "Psychologist" ; city = "Vacaville") & There are 4 psychologist in the Vacaville area, how about Caldwell Leslie?
+OFFER ( therapist_name = "Caldwell Leslie" ; type = "Psychologist" ; city = "Vacaville") & There are 4 psychologist in the Vacaville area, how about Caldwell Leslie?INFORM_COUNT ( count = "4") & There are 4 psychologist in the Vacaville area, how about Caldwell Leslie?
+CONFIRM ( therapist_name = "Caldwell Leslie" ; appointment_time = "12:15 pm" ; appointment_date = "March 14th") & Sure, please confirm your appointment with Caldwell Leslie at 12:15 pm on March 14th.
+INFORM ( address = "1 Quality Drive") & Your appointment has been made, and a email confirmation will be sent soon. You can visit them at 1 Quality Drive.
+INFORM ( address = "1 Quality Drive") & Your appointment has been made, and a email confirmation will be sent soon. You can visit them at 1 Quality Drive.
+OFFER ( therapist_name = "Schmall Rahima S" ; type = "Psychologist" ; city = "St. Helena") & There's a Psychologist in St. Helena named Schmall Rahima S you might want to visit
+CONFIRM ( therapist_name = "Schmall Rahima S" ; appointment_time = "3:45 pm" ; appointment_date = "March 1st") & Confirming a 3:45 pm appointment on March 1st with Schmall Rahima S right?
+INFORM ( address = "1030 Main Street #205") & It's been booked and you'll get an e-mail confirmation in a bit, also find them at 1030 Main Street #205
+INFORM ( address = "1030 Main Street #205") & It's been booked and you'll get an e-mail confirmation in a bit, also find them at 1030 Main Street #205
+INFORM ( phone_number = "707-318-4470") & You can reach them at 707-318-4470
+OFFER ( therapist_name = "Alvarez Scott" ; type = "Psychologist" ; city = "Walnut Creek") & I found 4 therapists in Walnut Creek. Alvarez Scott is a Psychologist.
+OFFER ( therapist_name = "Alvarez Scott" ; type = "Psychologist" ; city = "Walnut Creek") & I found 4 therapists in Walnut Creek. Alvarez Scott is a Psychologist.
+OFFER ( therapist_name = "Alvarez Scott" ; type = "Psychologist" ; city = "Walnut Creek") & I found 4 therapists in Walnut Creek. Alvarez Scott is a Psychologist.INFORM_COUNT ( count = "4") & I found 4 therapists in Walnut Creek. Alvarez Scott is a Psychologist.
+OFFER ( therapist_name = "Leininger Anne" ; type = "Family Counselor" ; city = "Gilroy") & I found 5 therapists in Gilroy, including Leininger Anne, a Family Counselor.
+OFFER ( therapist_name = "Leininger Anne" ; type = "Family Counselor" ; city = "Gilroy") & I found 5 therapists in Gilroy, including Leininger Anne, a Family Counselor.
+OFFER ( therapist_name = "Leininger Anne" ; type = "Family Counselor" ; city = "Gilroy") & I found 5 therapists in Gilroy, including Leininger Anne, a Family Counselor.INFORM_COUNT ( count = "5") & I found 5 therapists in Gilroy, including Leininger Anne, a Family Counselor.
+INFORM ( phone_number = "408-847-2100" ; address = "8339 Church Street # 212") & The phone number is 408-847-2100. The address is 8339 Church Street # 212.
+CONFIRM ( therapist_name = "Leininger Anne" ; appointment_time = "3 pm" ; appointment_date = "March 14th") & You would like to make an appointment with Leininger Anne at 3 pm on March 14th, is this correct?
+CONFIRM ( appointment_time = "3 pm" ; appointment_date = "March 13th") & Would like the appointment at 3 pm on March 13th?
+CONFIRM ( therapist_name = "Leininger Anne" ; appointment_time = "3:45 pm" ; appointment_date = "March 13th") & You would like to set an appointment with Leininger Anne at 3:45 pm on March 13th, is this correct?
+OFFER ( therapist_name = "Karrah T. Fowler, Ms" ; type = "Psychologist" ; city = "Concord") & I recommend Karrah T. Fowler, Ms, who is a psychologist in Concord.
+INFORM ( phone_number = "925-682-8000" ; address = "1026 Oak Grove Road") & the location is 1026 Oak Grove Road, and the phone number is 925-682-8000.
+CONFIRM ( therapist_name = "Karrah T. Fowler, Ms" ; appointment_time = "4:30 pm" ; appointment_date = "March 11th") & Please verify the following information: make a reservation with Karrah T. Fowler, Ms for March 11th, at 4:30 pm.
+CONFIRM ( therapist_name = "Karrah T. Fowler, Ms" ; appointment_time = "5 pm") & Please verify the following information: make a reservation with Karrah T. Fowler, Ms for 5 pm.
+OFFER ( therapist_name = "Mayer Johanna M" ; type = "Psychologist" ; city = "Portola Valley") & You may want to try Mayer Johanna M, who is a Psychologist in Portola Valley.
+CONFIRM ( therapist_name = "Mayer Johanna M" ; appointment_time = "3:30 pm" ; appointment_date = "March 12th") & Please confirm the following details: Booking an appointment with Mayer Johanna M at 3:30 pm on March 12th.
+CONFIRM ( therapist_name = "Mayer Johanna M" ; appointment_time = "12 pm") & Please confirm the following details: Booking an appointment with Mayer Johanna M at 12 pm.
+CONFIRM ( therapist_name = "Mayer Johanna M" ; appointment_time = "12 pm" ; appointment_date = "March 1st") & Please confirm the following details: Booking an appointment with Mayer Johanna M at 12 pm on March 1st.
+INFORM ( address = "4370 Alpine Rd # 102") & The address is 4370 Alpine Rd # 102.
+OFFER ( therapist_name = "Auer Patience" ; type = "Family Counselor" ; city = "Santa Rosa") & Sure, how about a Family Counselor in Santa Rosa called Auer Patience?
+OFFER ( therapist_name = "Becker Hubert J" ; type = "Psychologist" ; city = "Redwood City") & How about a psychologist in Redwood City. called Becker Hubert J?
+CONFIRM ( therapist_name = "Becker Hubert J" ; appointment_time = "3:45 pm" ; appointment_date = "March 14th") & Sure, please confirm your appointment at 3:45 pm on March 14th with Becker Hubert J.
+OFFER ( therapist_name = "Bacosa Frances" ; type = "Psychiatrist" ; city = "Gilroy") & There are 3 Psychiatrist in Gilroy, for example Bacosa Frances
+OFFER ( therapist_name = "Bacosa Frances" ; type = "Psychiatrist" ; city = "Gilroy") & There are 3 Psychiatrist in Gilroy, for example Bacosa Frances
+OFFER ( therapist_name = "Bacosa Frances" ; type = "Psychiatrist" ; city = "Gilroy") & There are 3 Psychiatrist in Gilroy, for example Bacosa FrancesINFORM_COUNT ( count = "3") & There are 3 Psychiatrist in Gilroy, for example Bacosa Frances
+INFORM ( address = "8339 Church St # 106") & Bacosa Frances is in 8339 Church St # 106
+INFORM ( phone_number = "408-842-1119") & The phone number is 408-842-1119
+OFFER ( therapist_name = "Rachelle Coate" ; type = "Psychologist" ; city = "Gilroy") & In Gilroy there's Rachelle Coate, a Psychologist
+CONFIRM ( therapist_name = "Rachelle Coate" ; appointment_time = "12:30 pm" ; appointment_date = "March 4th") & An appointment with Rachelle Coate on March 4th at 12:30 pm. Is it correct?
+CONFIRM ( therapist_name = "Rachelle Coate" ; appointment_time = "9:30 am") & An appointment with Rachelle Coate at 9:30 am. Do you confirm?
+CONFIRM ( appointment_time = "9:30 am" ; appointment_date = "March 11th") & An appointment on March 11th at 9:30 am. Is it correct?
+INFORM ( address = "8339 Church Street") & The appointment has been fixed and you will soon receive confirmation via e-mail. The address is 8339 Church Street.
+INFORM ( address = "8339 Church Street") & The appointment has been fixed and you will soon receive confirmation via e-mail. The address is 8339 Church Street.
+OFFER ( therapist_name = "Bacosa Frances" ; type = "Psychiatrist" ; city = "Gilroy") & You could try Bacosa Frances a psychiatrist in Gilroy.
+CONFIRM ( therapist_name = "Bacosa Frances" ; appointment_time = "12 pm" ; appointment_date = "March 1st") & Please confirm an appointment with Bacosa Frances 12 pm March 1st.
+INFORM ( phone_number = "408-842-1119" ; address = "8339 Church St # 106") & The appointment was successfully booked and you'll get an email soon. Call them at 408-842-1119 and the address 8339 Church St # 106.
+INFORM ( phone_number = "408-842-1119" ; address = "8339 Church St # 106") & The appointment was successfully booked and you'll get an email soon. Call them at 408-842-1119 and the address 8339 Church St # 106.
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "Lafayette") & I found 10 therapists in the Lafayette vicinity including Psychologist Alissa Scanlin Psyd
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "Lafayette") & I found 10 therapists in the Lafayette vicinity including Psychologist Alissa Scanlin Psyd
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "Lafayette") & I found 10 therapists in the Lafayette vicinity including Psychologist Alissa Scanlin PsydINFORM_COUNT ( count = "10") & I found 10 therapists in the Lafayette vicinity including Psychologist Alissa Scanlin Psyd
+CONFIRM ( therapist_name = "Alissa Scanlin Psyd" ; appointment_time = "10 am" ; appointment_date = "March 5th") & Confirming you want a meeting with Alissa Scanlin Psyd on March 5th at 10 am yes?
+CONFIRM ( therapist_name = "Alissa Scanlin Psyd" ; appointment_time = "5 pm" ; appointment_date = "March 5th") & Confirming you want a meeting with Alissa Scanlin Psyd at 5 pm on March 5th
+CONFIRM ( therapist_name = "Alissa Scanlin Psyd" ; appointment_date = "March 10th") & OK so a March 10th meeting with Alissa Scanlin Psyd?
+INFORM ( phone_number = "707-371-2433") & It's been booked and you'll get an e-mail soon! Also reach them at 707-371-2433
+INFORM ( phone_number = "707-371-2433") & It's been booked and you'll get an e-mail soon! Also reach them at 707-371-2433
+OFFER ( therapist_name = "Alameda Children'S Specialized" ; type = "Psychologist" ; city = "Oakland") & I have found 10 options that meet your criteria. The top choice I found is Alameda Children'S Specialized. They are a local psychologist in Oakland.
+OFFER ( therapist_name = "Alameda Children'S Specialized" ; type = "Psychologist" ; city = "Oakland") & I have found 10 options that meet your criteria. The top choice I found is Alameda Children'S Specialized. They are a local psychologist in Oakland.
+OFFER ( therapist_name = "Alameda Children'S Specialized" ; type = "Psychologist" ; city = "Oakland") & I have found 10 options that meet your criteria. The top choice I found is Alameda Children'S Specialized. They are a local psychologist in Oakland.INFORM_COUNT ( count = "10") & I have found 10 options that meet your criteria. The top choice I found is Alameda Children'S Specialized. They are a local psychologist in Oakland.
+INFORM ( address = "7200 Bancroft Ave # 125C") & The psychologist is located at 7200 Bancroft Ave # 125C.
+CONFIRM ( therapist_name = "Alameda Children'S Specialized" ; appointment_time = "5:30 pm" ; appointment_date = "March 6th") & I am booking an appointment with Alameda Children'S Specialized on March 6th at 5:30 pm. Is that okay?
+INFORM ( phone_number = "510-383-5100") & I have successfully booked your appointment. There will be a confirmation email provided to you soon. The phone number is 510-383-5100.
+INFORM ( phone_number = "510-383-5100") & I have successfully booked your appointment. There will be a confirmation email provided to you soon. The phone number is 510-383-5100.
+OFFER ( therapist_name = "Leininger Anne" ; type = "Family Counselor" ; city = "Gilroy") & Among the 5 suitable therapists I found is Leininger Anne, who is a Family Counselor based in Gilroy.
+OFFER ( therapist_name = "Leininger Anne" ; type = "Family Counselor" ; city = "Gilroy") & Among the 5 suitable therapists I found is Leininger Anne, who is a Family Counselor based in Gilroy.
+OFFER ( therapist_name = "Leininger Anne" ; type = "Family Counselor" ; city = "Gilroy") & Among the 5 suitable therapists I found is Leininger Anne, who is a Family Counselor based in Gilroy.INFORM_COUNT ( count = "5") & Among the 5 suitable therapists I found is Leininger Anne, who is a Family Counselor based in Gilroy.
+CONFIRM ( therapist_name = "Leininger Anne" ; appointment_time = "2:45 pm" ; appointment_date = "March 11th") & Sure, no problem. Let me see if I got everything correctly: You'd like to an appointment with Leininger Anne at 2:45 pm on March 11th?
+OFFER ( therapist_name = "Barskyex Bryna G" ; type = "Psychologist" ; city = "San jose") & You could try Barskyex Bryna G a psychologist in San jose
+INFORM ( phone_number = "408-363-4418") & You can reach them on 408-363-4418
+CONFIRM ( therapist_name = "Barskyex Bryna G" ; appointment_time = "1:15 pm" ; appointment_date = "March 7th") & Okay confirming you want to book an appointment with Barskyex Bryna G at 1:15 pm on March 7th.
+CONFIRM ( therapist_name = "Barskyex Bryna G" ; appointment_date = "March 8th") & Okay confirming you want to book an appointment with Barskyex Bryna G on March 8th.
+OFFER ( therapist_name = "Banner Linda L" ; type = "Family Counselor" ; city = "San Jose") & OK, how about Banner Linda L who is a Family Counselor in San Jose?
+INFORM ( address = "2516 Samaritan Drive") & They can be found at 2516 Samaritan Drive
+INFORM ( phone_number = "408-358-7401") & Call them at 408-358-7401
+OFFER ( therapist_name = "Carney-Carder Gail D" ; type = "Family Counselor" ; city = "San Jose") & There's another Family Counselor in San Jose named Carney-Carder Gail D
+CONFIRM ( therapist_name = "Carney-Carder Gail D" ; appointment_time = "2 pm" ; appointment_date = "March 9th") & Confirming your meeting with Carney-Carder Gail D at 2 pm on March 9th
+INFORM ( phone_number = "408-296-2926" ; address = "1101 South Winchester Boulevard # A101") & You can reach them at 408-296-2926 and they can be found at 1101 South Winchester Boulevard # A101. But wait, I couldn't book that time and date with Carney-Carder Gail D. Do you want me to try for 2:30 pm on March 9th?
+INFORM ( phone_number = "408-296-2926" ; address = "1101 South Winchester Boulevard # A101") & You can reach them at 408-296-2926 and they can be found at 1101 South Winchester Boulevard # A101. But wait, I couldn't book that time and date with Carney-Carder Gail D. Do you want me to try for 2:30 pm on March 9th?
+INFORM ( phone_number = "408-296-2926" ; address = "1101 South Winchester Boulevard # A101") & You can reach them at 408-296-2926 and they can be found at 1101 South Winchester Boulevard # A101. But wait, I couldn't book that time and date with Carney-Carder Gail D. Do you want me to try for 2:30 pm on March 9th?OFFER ( therapist_name = "Carney-Carder Gail D" ; appointment_date = "March 9th" ; appointment_time = "2:30 pm") & You can reach them at 408-296-2926 and they can be found at 1101 South Winchester Boulevard # A101. But wait, I couldn't book that time and date with Carney-Carder Gail D. Do you want me to try for 2:30 pm on March 9th?
+INFORM ( phone_number = "408-296-2926" ; address = "1101 South Winchester Boulevard # A101") & You can reach them at 408-296-2926 and they can be found at 1101 South Winchester Boulevard # A101. But wait, I couldn't book that time and date with Carney-Carder Gail D. Do you want me to try for 2:30 pm on March 9th?
+INFORM ( phone_number = "408-296-2926" ; address = "1101 South Winchester Boulevard # A101") & You can reach them at 408-296-2926 and they can be found at 1101 South Winchester Boulevard # A101. But wait, I couldn't book that time and date with Carney-Carder Gail D. Do you want me to try for 2:30 pm on March 9th?OFFER ( therapist_name = "Carney-Carder Gail D" ; appointment_date = "March 9th" ; appointment_time = "2:30 pm") & You can reach them at 408-296-2926 and they can be found at 1101 South Winchester Boulevard # A101. But wait, I couldn't book that time and date with Carney-Carder Gail D. Do you want me to try for 2:30 pm on March 9th?
+OFFER ( therapist_name = "Banner Linda L" ; type = "Family Counselor" ; city = "San Jose") & I found 8 therapists. Banner Linda L is a family counselor in San Jose.
+OFFER ( therapist_name = "Banner Linda L" ; type = "Family Counselor" ; city = "San Jose") & I found 8 therapists. Banner Linda L is a family counselor in San Jose.
+OFFER ( therapist_name = "Banner Linda L" ; type = "Family Counselor" ; city = "San Jose") & I found 8 therapists. Banner Linda L is a family counselor in San Jose.INFORM_COUNT ( count = "8") & I found 8 therapists. Banner Linda L is a family counselor in San Jose.
+CONFIRM ( therapist_name = "Banner Linda L" ; appointment_time = "11:30 am" ; appointment_date = "March 1st") & An appointment with Banner Linda L at 11:30 am on March 1st. Is this right?
+CONFIRM ( appointment_time = "5:15 pm" ; appointment_date = "March 5th") & At 5:15 pm on March 5th. Is this right?
+INFORM ( phone_number = "408-358-7401" ; address = "2516 Samaritan Drive") & Their phone number is 408-358-7401. Their address is 2516 Samaritan Drive. Sorry, I was not able to book your appointment with Banner Linda L. 5:30 pm on March 5th would work.
+INFORM ( phone_number = "408-358-7401" ; address = "2516 Samaritan Drive") & Their phone number is 408-358-7401. Their address is 2516 Samaritan Drive. Sorry, I was not able to book your appointment with Banner Linda L. 5:30 pm on March 5th would work.
+INFORM ( phone_number = "408-358-7401" ; address = "2516 Samaritan Drive") & Their phone number is 408-358-7401. Their address is 2516 Samaritan Drive. Sorry, I was not able to book your appointment with Banner Linda L. 5:30 pm on March 5th would work.OFFER ( therapist_name = "Banner Linda L" ; appointment_date = "March 5th" ; appointment_time = "5:30 pm") & Their phone number is 408-358-7401. Their address is 2516 Samaritan Drive. Sorry, I was not able to book your appointment with Banner Linda L. 5:30 pm on March 5th would work.
+INFORM ( phone_number = "408-358-7401" ; address = "2516 Samaritan Drive") & Their phone number is 408-358-7401. Their address is 2516 Samaritan Drive. Sorry, I was not able to book your appointment with Banner Linda L. 5:30 pm on March 5th would work.
+INFORM ( phone_number = "408-358-7401" ; address = "2516 Samaritan Drive") & Their phone number is 408-358-7401. Their address is 2516 Samaritan Drive. Sorry, I was not able to book your appointment with Banner Linda L. 5:30 pm on March 5th would work.OFFER ( therapist_name = "Banner Linda L" ; appointment_date = "March 5th" ; appointment_time = "5:30 pm") & Their phone number is 408-358-7401. Their address is 2516 Samaritan Drive. Sorry, I was not able to book your appointment with Banner Linda L. 5:30 pm on March 5th would work.
+OFFER ( therapist_name = "Pamela Culver Psy" ; type = "Psychologist" ; city = "Sebastopol") & I located 2 psychologists. How does Pamela Culver Psy, a Psychologist in Sebastopol, sound?
+OFFER ( therapist_name = "Pamela Culver Psy" ; type = "Psychologist" ; city = "Sebastopol") & I located 2 psychologists. How does Pamela Culver Psy, a Psychologist in Sebastopol, sound?
+OFFER ( therapist_name = "Pamela Culver Psy" ; type = "Psychologist" ; city = "Sebastopol") & I located 2 psychologists. How does Pamela Culver Psy, a Psychologist in Sebastopol, sound?INFORM_COUNT ( count = "2") & I located 2 psychologists. How does Pamela Culver Psy, a Psychologist in Sebastopol, sound?
+CONFIRM ( therapist_name = "Pamela Culver Psy" ; appointment_time = "1:15 pm" ; appointment_date = "March 2nd") & With your approval I will set the appointment up on March 2nd at 1:15 pm with Pamela Culver Psy.
+INFORM ( phone_number = "707-823-7300") & The office can be reached at 707-823-7300. I was unable to make the appointment. Try march 2nd at 1:30 pm with Pamela Culver Psy.
+INFORM ( phone_number = "707-823-7300") & The office can be reached at 707-823-7300. I was unable to make the appointment. Try march 2nd at 1:30 pm with Pamela Culver Psy.
+INFORM ( phone_number = "707-823-7300") & The office can be reached at 707-823-7300. I was unable to make the appointment. Try march 2nd at 1:30 pm with Pamela Culver Psy.OFFER ( therapist_name = "Pamela Culver Psy" ; appointment_date = "march 2nd" ; appointment_time = "1:30 pm") & The office can be reached at 707-823-7300. I was unable to make the appointment. Try march 2nd at 1:30 pm with Pamela Culver Psy.
+INFORM ( phone_number = "707-823-7300") & The office can be reached at 707-823-7300. I was unable to make the appointment. Try march 2nd at 1:30 pm with Pamela Culver Psy.
+INFORM ( phone_number = "707-823-7300") & The office can be reached at 707-823-7300. I was unable to make the appointment. Try march 2nd at 1:30 pm with Pamela Culver Psy.OFFER ( therapist_name = "Pamela Culver Psy" ; appointment_date = "march 2nd" ; appointment_time = "1:30 pm") & The office can be reached at 707-823-7300. I was unable to make the appointment. Try march 2nd at 1:30 pm with Pamela Culver Psy.
+OFFER ( therapist_name = "Ellsworth Elizabeth" ; type = "Family Counselor" ; city = "St. Helena") & You may wish to see Ellsworth Elizabeth, a Family Counselor practicing in St. Helena.
+CONFIRM ( therapist_name = "Ellsworth Elizabeth" ; appointment_time = "11 am" ; appointment_date = "March 3rd") & No problem. Let me see if I got everything correctly: You'd like to book a March 3rd, 11 am. appointment with Ellsworth Elizabeth.

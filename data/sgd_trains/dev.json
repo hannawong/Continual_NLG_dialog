@@ -1,0 +1,257 @@
+[
+    [
+        "OFFER(journey_start_time=\"6:50 am\";total=\"$132\")",
+        "Me research tells me that there are 10 trains meeting your needs. What about leaving at 6:50 am? The price to pay is $132.",
+        "Me research tells me that there are 10 trains meeting your needs. What about leaving at 6:50 am? The price to pay is $132."
+    ],
+    [
+        "OFFER(journey_start_time=\"6:50 am\";total=\"$132\")@INFORM_COUNT(count=\"10\")",
+        "Me research tells me that there are 10 trains meeting your needs. What about leaving at 6:50 am? The price to pay is $132.",
+        "Me research tells me that there are 10 trains meeting your needs. What about leaving at 6:50 am? The price to pay is $132."
+    ],
+    [
+        "INFORM(to_station=\"sacramento valley station\";from_station=\"Anaheim intermodal center\")",
+        "You'll leave from Anaheim intermodal center and arrive at sacramento valley station",
+        "You'll leave from Anaheim intermodal center and arrive at sacramento valley station"
+    ],
+    [
+        "CONFIRM(from=\"anaheim\";to=\"sacramento\";date_of_journey=\"march 12th\";journey_start_time=\"6:50 am\";number_of_adults=\"1\";trip_protection=\"True\";class=\"Value\")",
+        "Confirm the procedure before it's final. I'm about to buy 1 value train ticket that will leave from anaheim on march 12th at 6:50 am and will reach sacramento",
+        "Confirm the procedure before it's final. I'm about to buy 1 value train ticket that will leave from anaheim on march 12th at 6:50 am and will reach sacramento"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I confirm you that the tickets are yours.",
+        "I confirm you that the tickets are yours."
+    ],
+    [
+        "OFFER(journey_start_time=\"7:20 am\";total=\"$110\")",
+        "There are 9 trains working that depart 7:20 am costing $110 total.",
+        "There are 9 trains working that depart 7:20 am costing $110 total."
+    ],
+    [
+        "OFFER(journey_start_time=\"7:20 am\";total=\"$110\")@INFORM_COUNT(count=\"9\")",
+        "There are 9 trains working that depart 7:20 am costing $110 total.",
+        "There are 9 trains working that depart 7:20 am costing $110 total."
+    ],
+    [
+        "OFFER(journey_start_time=\"8:20 am\";total=\"$88\")",
+        "Leaving 8:20 am costing $88 total.",
+        "Leaving 8:20 am costing $88 total."
+    ],
+    [
+        "CONFIRM(from=\"New York\";to=\"Washington\";date_of_journey=\"March 1st\";journey_start_time=\"8:20 am\";number_of_adults=\"1\";trip_protection=\"True\";class=\"Flexible\")",
+        "Please confirm the following details that you want a ticket on the train leaving New York with a destination of Washington. The train is leaving March 1st at 8:20 am for 1 person with trip insurance is a flexible ticket.",
+        "Please confirm the following details that you want a ticket on the train leaving New York with a destination of Washington. The train is leaving March 1st at 8:20 am for 1 person with trip insurance is a flexible ticket."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The tickets were booked successfully.",
+        "The tickets were booked successfully."
+    ],
+    [
+        "OFFER(journey_start_time=\"6:20 am\";total=\"$106\")",
+        "The first ticket I found leaves at 6:20 am costing $106.",
+        "The first ticket I found leaves at 6:20 am costing $106."
+    ],
+    [
+        "OFFER(journey_start_time=\"11:50 am\";total=\"$109\")",
+        "There are 5 others starting with one that leaves at 11:50 am costing $109. Does that interest you?",
+        "There are 5 others starting with one that leaves at 11:50 am costing $109. Does that interest you?"
+    ],
+    [
+        "OFFER(journey_start_time=\"11:50 am\";total=\"$109\")@INFORM_COUNT(count=\"5\")",
+        "There are 5 others starting with one that leaves at 11:50 am costing $109. Does that interest you?",
+        "There are 5 others starting with one that leaves at 11:50 am costing $109. Does that interest you?"
+    ],
+    [
+        "INFORM(to_station=\"Union Station\")",
+        "This train is scheduled to arrive at Union Station.",
+        "This train is scheduled to arrive at Union Station."
+    ],
+    [
+        "INFORM(from_station=\"Chicago Union Station\")",
+        "The information I see here shows it leaving from Chicago Union Station.",
+        "The information I see here shows it leaving from Chicago Union Station."
+    ],
+    [
+        "CONFIRM(from=\"Chicago\";to=\"Washington\";date_of_journey=\"March 9th\";journey_start_time=\"11:50 am\";number_of_adults=\"1\";trip_protection=\"True\";class=\"Value\")",
+        "Okay, I can do that. First let me just make sure everything I have is correct. You would like 1 Value ticket for the train that is leaving Chicago on March 9th, at 11:50 am, and travelling to Washington. Does that sound right?",
+        "Okay, I can do that. First let me just make sure everything I have is correct. You would like 1 Value ticket for the train that is leaving Chicago on March 9th, at 11:50 am, and travelling to Washington. Does that sound right?"
+    ],
+    [
+        "CONFIRM(trip_protection=\"True\";class=\"Flexible\")",
+        "Alright, I have change that to a flexible ticket for you. Is that the only change you would like to make before submitting?",
+        "Alright, I have change that to a flexible ticket for you. Is that the only change you would like to make before submitting?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I am happy to inform you that I have reserved those tickets for you.",
+        "I am happy to inform you that I have reserved those tickets for you."
+    ],
+    [
+        "OFFER(journey_start_time=\"7:10 am\";total=\"$76\")",
+        "There are 6 options. The train departs at 7:10 am and the cost is $76.",
+        "There are 6 options. The train departs at 7:10 am and the cost is $76."
+    ],
+    [
+        "OFFER(journey_start_time=\"7:10 am\";total=\"$76\")@INFORM_COUNT(count=\"6\")",
+        "There are 6 options. The train departs at 7:10 am and the cost is $76.",
+        "There are 6 options. The train departs at 7:10 am and the cost is $76."
+    ],
+    [
+        "CONFIRM(from=\"Anaheim\";to=\"Fresno\";date_of_journey=\"March 4th\";journey_start_time=\"7:10 am\";number_of_adults=\"1\";trip_protection=\"True\";class=\"Value\")",
+        "You would like 1 value ticket on a train leaving Anaheim at 7:10 am on March 4th, heading Fresno?",
+        "You would like 1 value ticket on a train leaving Anaheim at 7:10 am on March 4th, heading Fresno?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have booked the tickets.",
+        "I have booked the tickets."
+    ],
+    [
+        "OFFER(journey_start_time=\"8:30 am\";total=\"$48\")",
+        "There is one train which is departing at 8:30 am . Its costs $48 in total.",
+        "There is one train which is departing at 8:30 am . Its costs $48 in total."
+    ],
+    [
+        "OFFER(journey_start_time=\"9:10 am\";total=\"$52\")",
+        "There is one train which is departing at 9:10 am . Its costs $52 in total.",
+        "There is one train which is departing at 9:10 am . Its costs $52 in total."
+    ],
+    [
+        "CONFIRM(from=\"San Diego\";to=\"Anaheim\";date_of_journey=\"march 13th\";journey_start_time=\"9:10 am\";number_of_adults=\"1\";trip_protection=\"True\";class=\"Value\")",
+        "Please check and confirm the following details. Train ticket need to be booked which will depart from San Diego. The destination place is Anaheim. The train leaves on march 13th and Leaves at 9:10 am. Number of Passengers is 1 people. It is a value ticket and it has trip insurance.",
+        "Please check and confirm the following details. Train ticket need to be booked which will depart from San Diego. The destination place is Anaheim. The train leaves on march 13th and Leaves at 9:10 am. Number of Passengers is 1 people. It is a value ticket and it has trip insurance."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ticket has been booked successfully.",
+        "Ticket has been booked successfully."
+    ],
+    [
+        "INFORM(from_station=\"Santa Fe Depot\")",
+        "the train is leaving from Santa Fe Depot.",
+        "the train is leaving from Santa Fe Depot."
+    ],
+    [
+        "INFORM(to_station=\"Anaheim Intermodal Center\")",
+        "The train arrives at Anaheim Intermodal Center.",
+        "The train arrives at Anaheim Intermodal Center."
+    ],
+    [
+        "OFFER(journey_start_time=\"6:50 am\";total=\"$83\")",
+        "I see 8 trains that work for this. One leaves at 6:50 am and the price is $83 total.",
+        "I see 8 trains that work for this. One leaves at 6:50 am and the price is $83 total."
+    ],
+    [
+        "OFFER(journey_start_time=\"6:50 am\";total=\"$83\")@INFORM_COUNT(count=\"8\")",
+        "I see 8 trains that work for this. One leaves at 6:50 am and the price is $83 total.",
+        "I see 8 trains that work for this. One leaves at 6:50 am and the price is $83 total."
+    ],
+    [
+        "INFORM(to_station=\"Union Station\")",
+        "The train will end up at Union Station.",
+        "The train will end up at Union Station."
+    ],
+    [
+        "CONFIRM(from=\"Vancouver\";to=\"Portland\";date_of_journey=\"March 13th\";journey_start_time=\"6:50 am\";number_of_adults=\"1\";trip_protection=\"True\";class=\"Value\")",
+        "Okay sir, can you confirm these details: you would like a ticket on the train departing out of Vancouver and going to Portland. This train departs at 6:50 am on March 13th. The ticket is a Value ticket for 1 person, with trip insurance.",
+        "Okay sir, can you confirm these details: you would like a ticket on the train departing out of Vancouver and going to Portland. This train departs at 6:50 am on March 13th. The ticket is a Value ticket for 1 person, with trip insurance."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The tickets have been booked successfully for you.",
+        "The tickets have been booked successfully for you."
+    ],
+    [
+        "OFFER(journey_start_time=\"6 am\";total=\"$38\")",
+        "There is train which departs at 6 am and costs $38.",
+        "There is train which departs at 6 am and costs $38."
+    ],
+    [
+        "INFORM(from_station=\"Union Station\")",
+        "The name of the station is Union Station.",
+        "The name of the station is Union Station."
+    ],
+    [
+        "CONFIRM(from=\"Los Angeles\";to=\"Anaheim\";date_of_journey=\"March 13th\";journey_start_time=\"6 am\";number_of_adults=\"1\";trip_protection=\"True\";class=\"Value\")",
+        "Please confirm: You want me to book 1 value ticket in a train leaving from Los Angeles to Anaheim on March 13th at 6 am.",
+        "Please confirm: You want me to book 1 value ticket in a train leaving from Los Angeles to Anaheim on March 13th at 6 am."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully booked the tickets for you.",
+        "I have successfully booked the tickets for you."
+    ],
+    [
+        "INFORM(to_station=\"Anaheim Intermodal Center\")",
+        "The name of the station is Anaheim Intermodal Center.",
+        "The name of the station is Anaheim Intermodal Center."
+    ],
+    [
+        "OFFER(journey_start_time=\"9:40 am\";total=\"$157\")",
+        "There's one for $157 at 9:40 am if that works for you?",
+        "There's one for $157 at 9:40 am if that works for you?"
+    ],
+    [
+        "CONFIRM(from=\"Washington\";to=\"Chicago\";date_of_journey=\"March 12th\";journey_start_time=\"9:40 am\";number_of_adults=\"1\";trip_protection=\"True\";class=\"Business\")",
+        "Confirming you want 1 business ticket to Chicago from Washington on the 9:40 am train that leaves on March 12th?",
+        "Confirming you want 1 business ticket to Chicago from Washington on the 9:40 am train that leaves on March 12th?"
+    ],
+    [
+        "INFORM(to_station=\"Chicago Union Station\";from_station=\"Union Station\")",
+        "Your tickets are booked! And it leaves from Union Station with a final destination at Chicago Union Station",
+        "Your tickets are booked! And it leaves from Union Station with a final destination at Chicago Union Station"
+    ],
+    [
+        "INFORM(to_station=\"Chicago Union Station\";from_station=\"Union Station\")@NOTIFY_SUCCESS()",
+        "Your tickets are booked! And it leaves from Union Station with a final destination at Chicago Union Station",
+        "Your tickets are booked! And it leaves from Union Station with a final destination at Chicago Union Station"
+    ],
+    [
+        "OFFER(journey_start_time=\"6:10 am\";total=\"$148\")",
+        "You can go at 6:10 am for $148.",
+        "You can go at 6:10 am for $148."
+    ],
+    [
+        "INFORM(from_station=\"Santa Fe Depot\")",
+        "It departs from Santa Fe Depot.",
+        "It departs from Santa Fe Depot."
+    ],
+    [
+        "OFFER(journey_start_time=\"6:40 am\";total=\"$274\")",
+        "There are 8 others. Next departing would be 6:40 am for $274.",
+        "There are 8 others. Next departing would be 6:40 am for $274."
+    ],
+    [
+        "OFFER(journey_start_time=\"6:40 am\";total=\"$274\")@INFORM_COUNT(count=\"8\")",
+        "There are 8 others. Next departing would be 6:40 am for $274.",
+        "There are 8 others. Next departing would be 6:40 am for $274."
+    ],
+    [
+        "INFORM(from_station=\"Santa Fe Depot\")",
+        "It also leaves from Santa Fe Depot.",
+        "It also leaves from Santa Fe Depot."
+    ],
+    [
+        "OFFER(journey_start_time=\"6:50 am\";total=\"$233\")",
+        "There are 10 trains from there, starting as early as 6:50 am. The cost is $233.",
+        "There are 10 trains from there, starting as early as 6:50 am. The cost is $233."
+    ],
+    [
+        "OFFER(journey_start_time=\"6:50 am\";total=\"$233\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 trains from there, starting as early as 6:50 am. The cost is $233.",
+        "There are 10 trains from there, starting as early as 6:50 am. The cost is $233."
+    ],
+    [
+        "CONFIRM(from=\"Anaheim\";to=\"Sacramento\";date_of_journey=\"March 7th\";journey_start_time=\"6:50 am\";number_of_adults=\"2\";trip_protection=\"True\";class=\"Value\")",
+        "To confirm: 2 tickets for train leaving Anaheim going to Sacramento on March 7th at 6:50 am. You are getting a value ticket with trip insurance.",
+        "To confirm: 2 tickets for train leaving Anaheim going to Sacramento on March 7th at 6:50 am. You are getting a value ticket with trip insurance."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your tickets are all set.",
+        "Your tickets are all set."
+    ]
+]

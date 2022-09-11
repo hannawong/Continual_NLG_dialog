@@ -1,0 +1,367 @@
+[
+    [
+        "OFFER(event_date=\"next Tuesday\";available_start_time=\"8 am\";available_end_time=\"3:30 pm\")",
+        "The date is next Tuesday. You are free between 8 am and 3:30 pm.",
+        "The date is next Tuesday. You are free between 8 am and 3:30 pm."
+    ],
+    [
+        "OFFER(event_date=\"next Friday\";available_start_time=\"2:30 pm\";available_end_time=\"5 pm\")",
+        "You are available next Friday between 2:30 pm and 5 pm.",
+        "You are available next Friday between 2:30 pm and 5 pm."
+    ],
+    [
+        "CONFIRM(event_name=\"General Practitioner Appointment\";event_date=\"next Friday\";event_location=\"50 South San Mateo Drive\";event_time=\"3 pm\")",
+        "Ok so just to check this is correct: You would like to create an event called General Practitioner Appointment next Friday at 3 pm. The address is 50 South San Mateo Drive.",
+        "Ok so just to check this is correct: You would like to create an event called General Practitioner Appointment next Friday at 3 pm. The address is 50 South San Mateo Drive."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The event has been successfully created in your calendar.",
+        "The event has been successfully created in your calendar."
+    ],
+    [
+        "OFFER(available_start_time=\"8 am\";available_end_time=\"10 am\")",
+        "There are 4 empty slots for that day. One of them is between 8 am and 10 am.",
+        "There are 4 empty slots for that day. One of them is between 8 am and 10 am."
+    ],
+    [
+        "OFFER(available_start_time=\"8 am\";available_end_time=\"10 am\")@INFORM_COUNT(count=\"4\")",
+        "There are 4 empty slots for that day. One of them is between 8 am and 10 am.",
+        "There are 4 empty slots for that day. One of them is between 8 am and 10 am."
+    ],
+    [
+        "OFFER(available_start_time=\"4:30 pm\";available_end_time=\"5:30 pm\")",
+        "You have 2 empty slots on March 11th. One of them is between 4:30 pm to 5:30 pm.",
+        "You have 2 empty slots on March 11th. One of them is between 4:30 pm to 5:30 pm."
+    ],
+    [
+        "OFFER(available_start_time=\"4:30 pm\";available_end_time=\"5:30 pm\")@INFORM_COUNT(count=\"2\")",
+        "You have 2 empty slots on March 11th. One of them is between 4:30 pm to 5:30 pm.",
+        "You have 2 empty slots on March 11th. One of them is between 4:30 pm to 5:30 pm."
+    ],
+    [
+        "OFFER(available_start_time=\"8:30 pm\";available_end_time=\"10 pm\")",
+        "There is another between 8:30 pm and 10 pm.",
+        "There is another between 8:30 pm and 10 pm."
+    ],
+    [
+        "CONFIRM(event_name=\"Hairdresser appointment\";event_date=\"March 11th\";event_location=\"4175, 42151 Blacow Road\";event_time=\"3 pm\")",
+        "Can you confirm the details? You want to set a Hairdresser appointment on March 11th. The location is 4175, 42151 Blacow Road. It is scheduled to begin at 3 pm.",
+        "Can you confirm the details? You want to set a Hairdresser appointment on March 11th. The location is 4175, 42151 Blacow Road. It is scheduled to begin at 3 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I successfully added it to your calendar.",
+        "I successfully added it to your calendar."
+    ],
+    [
+        "OFFER(available_start_time=\"8 am\";available_end_time=\"10 am\")",
+        "You have 3 empty slots. You have an empty slot from 8 am to 10 am",
+        "You have 3 empty slots. You have an empty slot from 8 am to 10 am"
+    ],
+    [
+        "OFFER(available_start_time=\"8 am\";available_end_time=\"10 am\")@INFORM_COUNT(count=\"3\")",
+        "You have 3 empty slots. You have an empty slot from 8 am to 10 am",
+        "You have 3 empty slots. You have an empty slot from 8 am to 10 am"
+    ],
+    [
+        "OFFER(available_start_time=\"2 pm\";available_end_time=\"6 pm\")",
+        "There are 2 empty slots on that date, you have one from 2 pm to 6 pm",
+        "There are 2 empty slots on that date, you have one from 2 pm to 6 pm"
+    ],
+    [
+        "OFFER(available_start_time=\"2 pm\";available_end_time=\"6 pm\")@INFORM_COUNT(count=\"2\")",
+        "There are 2 empty slots on that date, you have one from 2 pm to 6 pm",
+        "There are 2 empty slots on that date, you have one from 2 pm to 6 pm"
+    ],
+    [
+        "OFFER(available_start_time=\"9 pm\";available_end_time=\"12 pm\")",
+        "Another slot from 9 pm to 12 pm",
+        "Another slot from 9 pm to 12 pm"
+    ],
+    [
+        "CONFIRM(event_name=\"hairdresser appointment\";event_date=\"day after tomorrow\";event_location=\"1880 Solano Avenue\";event_time=\"2 pm\")",
+        "Confirming you have a 2 pm hairdresser appointment at 1880 Solano Avenue the day after tomorrow",
+        "Confirming you have a 2 pm hairdresser appointment at 1880 Solano Avenue the day after tomorrow"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've added it",
+        "I've added it"
+    ],
+    [
+        "OFFER(event_date=\"March 14th\";available_start_time=\"11 am\";available_end_time=\"5 pm\")",
+        "On March 14th, you are available from 11 am until 5 pm.",
+        "On March 14th, you are available from 11 am until 5 pm."
+    ],
+    [
+        "CONFIRM(event_name=\"Apartment viewing\";event_date=\"March 14th\";event_location=\"1015 Fitzuren Road #7\";event_time=\"12 pm\")",
+        "Alright, I will add the event, Apartment viewing, to you calendar for 12 pm on March 14th at 1015 Fitzuren Road #7. Is that correct?",
+        "Alright, I will add the event, Apartment viewing, to you calendar for 12 pm on March 14th at 1015 Fitzuren Road #7. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alright, the event has successfully been added to your calendar. Do you need anything else?",
+        "Alright, the event has successfully been added to your calendar. Do you need anything else?"
+    ],
+    [
+        "OFFER(event_date=\"March 13th\";available_start_time=\"8:30 pm\";available_end_time=\"10:30 pm\")",
+        "On March 13th you are available from 8:30 pm to 10:30 pm",
+        "On March 13th you are available from 8:30 pm to 10:30 pm"
+    ],
+    [
+        "OFFER(event_date=\"March 9th\";available_start_time=\"8 am\";available_end_time=\"1 pm\")",
+        "On March 9th you are available from 8 am to 1 pm",
+        "On March 9th you are available from 8 am to 1 pm"
+    ],
+    [
+        "CONFIRM(event_name=\"Joe Hisaishi concert\";event_date=\"March 9th\";event_location=\"881 7th Avenue\";event_time=\"9:45 am\")",
+        "Just to confirm, you want to add the Joe Hisaishi concert on March 9th and 9:45 am to your calendar? It is at 881 7th Avenue.",
+        "Just to confirm, you want to add the Joe Hisaishi concert on March 9th and 9:45 am to your calendar? It is at 881 7th Avenue."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, I have added that event to your calendar",
+        "Great, I have added that event to your calendar"
+    ],
+    [
+        "OFFER(event_date=\"today\";available_start_time=\"3 pm\";available_end_time=\"5:30 pm\")",
+        "The event is on today, Yo have an empty slot starting at 3 pm and ends at 5:30 pm",
+        "The event is on today, Yo have an empty slot starting at 3 pm and ends at 5:30 pm"
+    ],
+    [
+        "OFFER(event_date=\"next Thursday\";available_start_time=\"1 pm\";available_end_time=\"4:30 pm\")",
+        "The event is on next Thursday, Yo have an empty slot starting at 1 pm and ends at 4:30 pm",
+        "The event is on next Thursday, Yo have an empty slot starting at 1 pm and ends at 4:30 pm"
+    ],
+    [
+        "CONFIRM(event_name=\"Appointment with Quach Catherine\";event_date=\"next Thursday\";event_location=\"2664 berryessa Road # 210\";event_time=\"2:30 pm\")",
+        "Please confirm the details: The event name is Appointment with Quach Catherine and scheduled date is next Thursday and time is 2:30 pm, Event location is 2664 berryessa Road # 210.",
+        "Please confirm the details: The event name is Appointment with Quach Catherine and scheduled date is next Thursday and time is 2:30 pm, Event location is 2664 berryessa Road # 210."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Congrats, The event successfully added to your calendar",
+        "Congrats, The event successfully added to your calendar"
+    ],
+    [
+        "OFFER(event_date=\"March 9th\";available_start_time=\"10:30 am\";available_end_time=\"6 pm\")",
+        "You have a chunk of available time that starts at 10:30 am and ends at 6 pm on March 9th.",
+        "You have a chunk of available time that starts at 10:30 am and ends at 6 pm on March 9th."
+    ],
+    [
+        "OFFER(event_date=\"March 13th\";available_start_time=\"7 pm\";available_end_time=\"7:30 pm\")",
+        "March 13th has one slot open from 7 pm to 7:30 pm.",
+        "March 13th has one slot open from 7 pm to 7:30 pm."
+    ],
+    [
+        "CONFIRM(event_name=\"Doctor appointment\";event_date=\"March 13th\";event_location=\"1447 Cedarwood Lane # A\";event_time=\"7 pm\")",
+        "You would like the following entry made on your calendar: Name of event is Doctor appointment to be held at 1447 Cedarwood Lane # A in the time slot 7 pm on March 13th. Is this the correct information?",
+        "You would like the following entry made on your calendar: Name of event is Doctor appointment to be held at 1447 Cedarwood Lane # A in the time slot 7 pm on March 13th. Is this the correct information?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The event is on your calendar.",
+        "The event is on your calendar."
+    ],
+    [
+        "OFFER(event_date=\"next Monday\";available_start_time=\"8 am\";available_end_time=\"12:30 pm\")",
+        "For next Monday, you have availability at 8 am to 12:30 pm.",
+        "For next Monday, you have availability at 8 am to 12:30 pm."
+    ],
+    [
+        "OFFER(event_date=\"Next Friday\";available_start_time=\"8 am\";available_end_time=\"11 am\")",
+        "Next Friday you are available at 8 am to 11 am.",
+        "Next Friday you are available at 8 am to 11 am."
+    ],
+    [
+        "CONFIRM(event_name=\"Movie booking for HIgh Life\";event_date=\"next friday\";event_location=\"1722 First Street\";event_time=\"8:15 am\")",
+        "Please confirm next friday 8:15 am at 1722 First Street title Movie booking for HIgh Life",
+        "Please confirm next friday 8:15 am at 1722 First Street title Movie booking for HIgh Life"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Added to your calendar.",
+        "Added to your calendar."
+    ],
+    [
+        "OFFER(available_start_time=\"8 am\";available_end_time=\"2:30 pm\")",
+        "There are 3 empty slots. 8 am to 2:30 pm is open.",
+        "There are 3 empty slots. 8 am to 2:30 pm is open."
+    ],
+    [
+        "OFFER(available_start_time=\"8 am\";available_end_time=\"2:30 pm\")@INFORM_COUNT(count=\"3\")",
+        "There are 3 empty slots. 8 am to 2:30 pm is open.",
+        "There are 3 empty slots. 8 am to 2:30 pm is open."
+    ],
+    [
+        "OFFER(available_start_time=\"3 pm\";available_end_time=\"4:30 pm\")",
+        "There are 2 slots. You have 3 pm to 4:30 pm available.",
+        "There are 2 slots. You have 3 pm to 4:30 pm available."
+    ],
+    [
+        "OFFER(available_start_time=\"3 pm\";available_end_time=\"4:30 pm\")@INFORM_COUNT(count=\"2\")",
+        "There are 2 slots. You have 3 pm to 4:30 pm available.",
+        "There are 2 slots. You have 3 pm to 4:30 pm available."
+    ],
+    [
+        "OFFER(available_start_time=\"5 pm\";available_end_time=\"12 pm\")",
+        "5 pm to 12 pm is open",
+        "5 pm to 12 pm is open"
+    ],
+    [
+        "CONFIRM(event_name=\"Baseball game\";event_date=\"next Friday\";event_location=\"1500 South Capitol Street Southeast\";event_time=\"7:30 pm\")",
+        "Please confirm: The event name is Baseball game. It will be next Friday at 7:30 pm at 1500 South Capitol Street Southeast.",
+        "Please confirm: The event name is Baseball game. It will be next Friday at 7:30 pm at 1500 South Capitol Street Southeast."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The event was added to your calendar.",
+        "The event was added to your calendar."
+    ],
+    [
+        "OFFER(event_date=\"March 13th\";available_start_time=\"4 pm\";available_end_time=\"10:30 pm\")",
+        "On March 13th you are available from 4 pm to 10:30 pm.",
+        "On March 13th you are available from 4 pm to 10:30 pm."
+    ],
+    [
+        "OFFER(event_date=\"tomorrow\";available_start_time=\"8 am\";available_end_time=\"12:30 pm\")",
+        "You have 1 empty slot tomorrow from 8 am until 12:30 pm.",
+        "You have 1 empty slot tomorrow from 8 am until 12:30 pm."
+    ],
+    [
+        "OFFER(event_date=\"tomorrow\";available_start_time=\"8 am\";available_end_time=\"12:30 pm\")@INFORM_COUNT(count=\"1\")",
+        "You have 1 empty slot tomorrow from 8 am until 12:30 pm.",
+        "You have 1 empty slot tomorrow from 8 am until 12:30 pm."
+    ],
+    [
+        "CONFIRM(event_name=\"Dentist appointment with Mark A Watson\";event_date=\"tomorrow\";event_location=\"2505 Samaritan Dr\";event_time=\"9:30 am\")",
+        "Please confirm: Dentist appointment with Mark A Watson tomorrow at 9:30 am at 2505 Samaritan Dr.",
+        "Please confirm: Dentist appointment with Mark A Watson tomorrow at 9:30 am at 2505 Samaritan Dr."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your event has been added.",
+        "Your event has been added."
+    ],
+    [
+        "OFFER(event_date=\"today\";available_start_time=\"8 am\";available_end_time=\"11:30 am\")",
+        "Okay, that's today. You have an empty slot from 8 am until 11:30 am.",
+        "Okay, that's today. You have an empty slot from 8 am until 11:30 am."
+    ],
+    [
+        "CONFIRM(event_name=\"Viewing at Fountain Plaza Apartments\";event_date=\"today\";event_location=\"300 Hilary Way\";event_time=\"9 am\")",
+        "Okay, please confirm that I'm scheduling you for a Viewing at Fountain Plaza Apartments at 300 Hilary Way which will take place today at 9 am.",
+        "Okay, please confirm that I'm scheduling you for a Viewing at Fountain Plaza Apartments at 300 Hilary Way which will take place today at 9 am."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've added it to your calendar.",
+        "I've added it to your calendar."
+    ],
+    [
+        "OFFER(event_date=\"next Thursday\";available_start_time=\"8 am\";available_end_time=\"5 pm\")",
+        "You have an upcoming event next Thursday. You would be free from 8 am to 5 pm",
+        "You have an upcoming event next Thursday. You would be free from 8 am to 5 pm"
+    ],
+    [
+        "CONFIRM(event_name=\"appointment with Dr. Jaswinder Ghuman\";event_date=\"next Thursday\";event_location=\"540 North Santa Cruz Avenue Suite B1\";event_time=\"8:15 am\")",
+        "I would like to confirm the following information: You have an appointment with Dr. Jaswinder Ghuman next Thursday at 8:15 am at 540 North Santa Cruz Avenue Suite B1.",
+        "I would like to confirm the following information: You have an appointment with Dr. Jaswinder Ghuman next Thursday at 8:15 am at 540 North Santa Cruz Avenue Suite B1."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have made the appointment.",
+        "I have made the appointment."
+    ],
+    [
+        "OFFER(event_date=\"next Tuesday\";available_start_time=\"6 pm\";available_end_time=\"10:30 pm\")",
+        "For next Tuesday, you have availability from 6 pm to 10:30 pm.",
+        "For next Tuesday, you have availability from 6 pm to 10:30 pm."
+    ],
+    [
+        "CONFIRM(event_name=\"Reservation for 3 people at Market\";event_date=\"next Tuesday\";event_location=\"1347 Main Street\";event_time=\"6:15 pm\")",
+        "Please confirm that you want to add an event titled Reservation for 3 people at Market, to be held at 1347 Main Street, for next Tuesday at 6:15 pm.",
+        "Please confirm that you want to add an event titled Reservation for 3 people at Market, to be held at 1347 Main Street, for next Tuesday at 6:15 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Event has been added to your calendar.",
+        "Event has been added to your calendar."
+    ],
+    [
+        "OFFER(event_date=\"next Tuesday\";available_start_time=\"12:30 pm\";available_end_time=\"midnight\")",
+        "For next Tuesday you're free between 12:30 pm and midnight.",
+        "For next Tuesday you're free between 12:30 pm and midnight."
+    ],
+    [
+        "CONFIRM(event_name=\"Football Game: Usc Vs Utah\";event_date=\"next Tuesday\";event_location=\"3911 Figueroa Street\";event_time=\"1:30 pm\")",
+        "To confirm: You'd like me to schedule the event Football Game: Usc Vs Utah on 3911 Figueroa Street for next Tuesday at 1:30 pm, correct?",
+        "To confirm: You'd like me to schedule the event Football Game: Usc Vs Utah on 3911 Figueroa Street for next Tuesday at 1:30 pm, correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The event has been successfully added to your calendar.",
+        "The event has been successfully added to your calendar."
+    ],
+    [
+        "OFFER(event_date=\"next Friday\";available_start_time=\"6 pm\";available_end_time=\"midnight\")",
+        "Ok, you have an empty slot from 6 pm to midnight next Friday. Would you like me to set the date for the event?",
+        "Ok, you have an empty slot from 6 pm to midnight next Friday. Would you like me to set the date for the event?"
+    ],
+    [
+        "OFFER(event_date=\"March 10th\";available_start_time=\"8 am\";available_end_time=\"10:30 pm\")",
+        "Ok, you have an empty slot from 8 am to 10:30 pm on March 10th. Would you like me to set the date for the event?",
+        "Ok, you have an empty slot from 8 am to 10:30 pm on March 10th. Would you like me to set the date for the event?"
+    ],
+    [
+        "CONFIRM(event_name=\"Murder City Devils concert\";event_date=\"March 10th\";event_location=\"1234 West 7th Street\";event_time=\"8:45 am\")",
+        "Please confirm the following: The event is named Murder City Devils concert. It is scheduled for March 10th at 8:45 am and will be happening at 1234 West 7th Street.",
+        "Please confirm the following: The event is named Murder City Devils concert. It is scheduled for March 10th at 8:45 am and will be happening at 1234 West 7th Street."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The event has been successfully added to your calendar.",
+        "The event has been successfully added to your calendar."
+    ],
+    [
+        "OFFER(available_start_time=\"8 am\";available_end_time=\"11 am\")",
+        "You have 3 openings. One of them is from 8 am to 11 am.",
+        "You have 3 openings. One of them is from 8 am to 11 am."
+    ],
+    [
+        "OFFER(available_start_time=\"8 am\";available_end_time=\"11 am\")@INFORM_COUNT(count=\"3\")",
+        "You have 3 openings. One of them is from 8 am to 11 am.",
+        "You have 3 openings. One of them is from 8 am to 11 am."
+    ],
+    [
+        "CONFIRM(event_name=\"Apartment viewing at Pointe At Cupertino\";event_date=\"tomorrow\";event_location=\"19920 Olivewood Street\";event_time=\"1 pm\")",
+        "So schedule Apartment viewing at Pointe At Cupertino at 19920 Olivewood Street for tomorrow at 1 pm?",
+        "So schedule Apartment viewing at Pointe At Cupertino at 19920 Olivewood Street for tomorrow at 1 pm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, I've added it to your schedule.",
+        "Okay, I've added it to your schedule."
+    ],
+    [
+        "OFFER(event_date=\"next Tuesday\";available_start_time=\"1:30 pm\";available_end_time=\"5 pm\")",
+        "The date for the event is scheduled for next Tuesday and you have an empty slot starting at 1:30 pm ending at 5 pm.",
+        "The date for the event is scheduled for next Tuesday and you have an empty slot starting at 1:30 pm ending at 5 pm."
+    ],
+    [
+        "OFFER(event_date=\"next Thursday\";available_start_time=\"2 pm\";available_end_time=\"6:30 pm\")",
+        "The date for event is scheduled for next Thursday and you have an empty slot starting at 2 pm and it will end at 6:30 pm.",
+        "The date for event is scheduled for next Thursday and you have an empty slot starting at 2 pm and it will end at 6:30 pm."
+    ],
+    [
+        "CONFIRM(event_name=\"Hairdresser appointment\";event_date=\"next Thursday\";event_location=\"65 West Main Street\";event_time=\"3 pm\")",
+        "Can you please confirm the following details. The event Hairdresser appointment is scheduled for next Thursday at 65 West Main Street with scheduled time of 3 pm.",
+        "Can you please confirm the following details. The event Hairdresser appointment is scheduled for next Thursday at 65 West Main Street with scheduled time of 3 pm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The event has been successfully added to your calendar.",
+        "The event has been successfully added to your calendar."
+    ]
+]

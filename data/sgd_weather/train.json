@@ -1,0 +1,617 @@
+[
+    [
+        "OFFER(temperature=\"76\";precipitation=\"9\")",
+        "The average temperature for the day should be 76 degrees Fahrenheit, with a 9 percent chance of rain.",
+        "The average temperature for the day should be 76 degrees Fahrenheit, with a 9 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"89\";precipitation=\"11\")",
+        "The average temperature for the day should be 89 degrees Fahrenheit with an 11 percent chance of rain.",
+        "The average temperature for the day should be 89 degrees Fahrenheit with an 11 percent chance of rain."
+    ],
+    [
+        "INFORM(humidity=\"28\")",
+        "There should be around 28 percent humidity.",
+        "There should be around 28 percent humidity."
+    ],
+    [
+        "OFFER(temperature=\"105\";precipitation=\"0\")",
+        "The temperature average during the day is 105 degrees Fahrenheit. And there's also a 0 percent chance it will rain.",
+        "The temperature average during the day is 105 degrees Fahrenheit. And there's also a 0 percent chance it will rain."
+    ],
+    [
+        "OFFER(temperature=\"90\";precipitation=\"27\")",
+        "It will be 90 degrees Farhrenheit on average during the day, and there's a 27 percent chance it will rain.",
+        "It will be 90 degrees Farhrenheit on average during the day, and there's a 27 percent chance it will rain."
+    ],
+    [
+        "OFFER(temperature=\"92\";precipitation=\"23\")",
+        "It will be 92 degrees Fahrenheight on average during the day, and there's a 23 percent chance it will rain.",
+        "It will be 92 degrees Fahrenheight on average during the day, and there's a 23 percent chance it will rain."
+    ],
+    [
+        "OFFER(temperature=\"89\";precipitation=\"8\")",
+        "The average temperature for today is 89 degrees Fahrenheit, and there is a 8 percent chance of rain.",
+        "The average temperature for today is 89 degrees Fahrenheit, and there is a 8 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"70\";precipitation=\"1\")",
+        "The temperature is forecasted to be 70 degrees with a 1 percent chance of rain.",
+        "The temperature is forecasted to be 70 degrees with a 1 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"75\";precipitation=\"14\")",
+        "The temperature should be 75 degrees with a 14 percent chance of rain.",
+        "The temperature should be 75 degrees with a 14 percent chance of rain."
+    ],
+    [
+        "INFORM(wind=\"10\")",
+        "The wind should be around 10 mph.",
+        "The wind should be around 10 mph."
+    ],
+    [
+        "INFORM(humidity=\"36\")",
+        "The humidity is expected to be around 36 percent.",
+        "The humidity is expected to be around 36 percent."
+    ],
+    [
+        "OFFER(temperature=\"73\";precipitation=\"2\")",
+        "The average temperature should be 73 degrees Fahrenheit with a 2 percent chance of rain.",
+        "The average temperature should be 73 degrees Fahrenheit with a 2 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"89\";precipitation=\"28\")",
+        "The average day temperature need be 89 degrees Fahrenheit.There it is 28 percent chance of rain",
+        "The average day temperature need be 89 degrees Fahrenheit.There it is 28 percent chance of rain"
+    ],
+    [
+        "INFORM(humidity=\"23\";wind=\"3\")",
+        "The humidity level there is 23 percent with average wind speed around 3 miles per hour",
+        "The humidity level there is 23 percent with average wind speed around 3 miles per hour"
+    ],
+    [
+        "OFFER(temperature=\"73\";precipitation=\"29\")",
+        "Sure thing. On March 1st 2019 the weather is estimated to be 73 degrees Fahrenheit. Please keep in mind there will be a 29 percent chance of rain.",
+        "Sure thing. On March 1st 2019 the weather is estimated to be 73 degrees Fahrenheit. Please keep in mind there will be a 29 percent chance of rain."
+    ],
+    [
+        "INFORM(humidity=\"47\")",
+        "Sure, humidity is expected to be around 47 percent.",
+        "Sure, humidity is expected to be around 47 percent."
+    ],
+    [
+        "OFFER(temperature=\"91\";precipitation=\"18\")",
+        "I can see that the average temperature for the day you specified should be 91 degrees Fahrenheit with an 18 percent chance of rain.",
+        "I can see that the average temperature for the day you specified should be 91 degrees Fahrenheit with an 18 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"88\";precipitation=\"18\")",
+        "The average temperature for the day should be 88 degrees Fahrenheit, with an 18 percent chance of rain.",
+        "The average temperature for the day should be 88 degrees Fahrenheit, with an 18 percent chance of rain."
+    ],
+    [
+        "INFORM(humidity=\"25\";wind=\"1\")",
+        "The humidity should be around 25 percent, with an average wind speed of 1 mile per hour.",
+        "The humidity should be around 25 percent, with an average wind speed of 1 mile per hour."
+    ],
+    [
+        "OFFER(temperature=\"81\";precipitation=\"12\")",
+        "The average temperature today should be 81 degrees. There's also a 12 percent chance of rain.",
+        "The average temperature today should be 81 degrees. There's also a 12 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"77\";precipitation=\"6\")",
+        "The average temperature should be 77 degrees and there's a 6 percent chance of rain.",
+        "The average temperature should be 77 degrees and there's a 6 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"71\";precipitation=\"1\")",
+        "Average temperature should be 71 degrees with a 1 percent chance of rain.",
+        "Average temperature should be 71 degrees with a 1 percent chance of rain."
+    ],
+    [
+        "INFORM(wind=\"3\")",
+        "Wind speed should be about 3 miles per hour.",
+        "Wind speed should be about 3 miles per hour."
+    ],
+    [
+        "OFFER(temperature=\"77\";precipitation=\"9\")",
+        "77 degrees Fahrenheit is the average temperature and a 9 percent chance of rain",
+        "77 degrees Fahrenheit is the average temperature and a 9 percent chance of rain"
+    ],
+    [
+        "OFFER(temperature=\"70\";precipitation=\"23\")",
+        "70 degrees Fahrenheit is the average temperature and there is 23 percent chance of rain",
+        "70 degrees Fahrenheit is the average temperature and there is 23 percent chance of rain"
+    ],
+    [
+        "OFFER(temperature=\"85\";precipitation=\"15\")",
+        "85 degrees Fahrenheit is the average temperature for the day and 15 percent chance of rain",
+        "85 degrees Fahrenheit is the average temperature for the day and 15 percent chance of rain"
+    ],
+    [
+        "OFFER(temperature=\"74\";precipitation=\"18\")",
+        "The average day temperature have to be 74 degrees Fahrenheit and there is 18 percent chance of rain",
+        "The average day temperature have to be 74 degrees Fahrenheit and there is 18 percent chance of rain"
+    ],
+    [
+        "OFFER(temperature=\"80\";precipitation=\"28\")",
+        "The average temperature at daytime is 80 degrees and there is only a 28 percent chance of rain.",
+        "The average temperature at daytime is 80 degrees and there is only a 28 percent chance of rain."
+    ],
+    [
+        "INFORM(humidity=\"44\")",
+        "Humidity is around 44 percent.",
+        "Humidity is around 44 percent."
+    ],
+    [
+        "OFFER(temperature=\"64\";precipitation=\"14\")",
+        "The average temperature for the day will be 64 degrees. There's a 14 percent chance of rain.",
+        "The average temperature for the day will be 64 degrees. There's a 14 percent chance of rain."
+    ],
+    [
+        "INFORM(humidity=\"13\")",
+        "The humidity is forecast at 13 percent.",
+        "The humidity is forecast at 13 percent."
+    ],
+    [
+        "INFORM(wind=\"5\")",
+        "The average wind speed will be around 5 miles per hour.",
+        "The average wind speed will be around 5 miles per hour."
+    ],
+    [
+        "OFFER(temperature=\"70\";precipitation=\"38\")",
+        "On March 4th, the temperature should be 70 degrees Fahrenheit with a 38 percent chance of rain.",
+        "On March 4th, the temperature should be 70 degrees Fahrenheit with a 38 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"70\";precipitation=\"23\")",
+        "The average day temperature is running at 70 degrees Fahrenheit and the chances of rain is 23 percent.",
+        "The average day temperature is running at 70 degrees Fahrenheit and the chances of rain is 23 percent."
+    ],
+    [
+        "OFFER(temperature=\"73\";precipitation=\"12\")",
+        "The average day temperature is running at 73 degrees Fahrenheit and the chances of rain is 12 percent.",
+        "The average day temperature is running at 73 degrees Fahrenheit and the chances of rain is 12 percent."
+    ],
+    [
+        "OFFER(temperature=\"86\";precipitation=\"21\")",
+        "The average temperature will be 86 degrees Fahrenheit with a 21 percent chance of rain",
+        "The average temperature will be 86 degrees Fahrenheit with a 21 percent chance of rain"
+    ],
+    [
+        "OFFER(temperature=\"84\";precipitation=\"18\")",
+        "It will be 84 degrees Fahrenheit and will have an 18 percent chance of rain",
+        "It will be 84 degrees Fahrenheit and will have an 18 percent chance of rain"
+    ],
+    [
+        "OFFER(temperature=\"75\";precipitation=\"7\")",
+        "Sure, the average temperature will be 75 degrees. There's only a 7 % chance of rain.",
+        "Sure, the average temperature will be 75 degrees. There's only a 7 % chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"72\";precipitation=\"29\")",
+        "The average temperature there is 72 Degrees F. There is a 29 % chance of rain.",
+        "The average temperature there is 72 Degrees F. There is a 29 % chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"75\";precipitation=\"14\")",
+        "There's a 14 percent chance of rain and the temperature will average 75 degrees.",
+        "There's a 14 percent chance of rain and the temperature will average 75 degrees."
+    ],
+    [
+        "OFFER(temperature=\"86\";precipitation=\"1\")",
+        "The temperature will be 86 degrees on average and there's only a 1 percent chance of rain.",
+        "The temperature will be 86 degrees on average and there's only a 1 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"92\";precipitation=\"22\")",
+        "There's a 22 percent chance of rain and the temperature will average about 92 degrees.",
+        "There's a 22 percent chance of rain and the temperature will average about 92 degrees."
+    ],
+    [
+        "OFFER(temperature=\"80\";precipitation=\"13\")",
+        "There the average temperature for the day is at 80 degrees Fahrenheit and there is also 13 percent chance of rain.",
+        "There the average temperature for the day is at 80 degrees Fahrenheit and there is also 13 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"85\";precipitation=\"23\")",
+        "There the average temperature for the day is at 85 degrees Fahrenheit and there is also 23 percent chance of rain.",
+        "There the average temperature for the day is at 85 degrees Fahrenheit and there is also 23 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"91\";precipitation=\"10\")",
+        "The average temperature for the day is 91 degrees fahrenheit and there is a 10 percent chance of rain.",
+        "The average temperature for the day is 91 degrees fahrenheit and there is a 10 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"71\";precipitation=\"19\")",
+        "In union city the average temperature for the day should be 71 degrees Fahrenheit. There is a 19 percent chance of rain.",
+        "In union city the average temperature for the day should be 71 degrees Fahrenheit. There is a 19 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"79\";precipitation=\"1\")",
+        "The average temperature for the day will be 79 degrees Fahrenheit and there is a 1 percent chance of rain.",
+        "The average temperature for the day will be 79 degrees Fahrenheit and there is a 1 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"102\";precipitation=\"8\")",
+        "The average temperature should be 102 Fahrenheit with an 8 percent chance of rain.",
+        "The average temperature should be 102 Fahrenheit with an 8 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"72\";precipitation=\"6\")",
+        "The average temperature should be 72 degrees Fahrenheit with a 6 percent chance of rain.",
+        "The average temperature should be 72 degrees Fahrenheit with a 6 percent chance of rain."
+    ],
+    [
+        "INFORM(wind=\"10\")",
+        "10 miles per hour on average.",
+        "10 miles per hour on average."
+    ],
+    [
+        "OFFER(temperature=\"89\";precipitation=\"23\")",
+        "The average temperature for the day is 89 degrees and there is a 23 percent chance of rain.",
+        "The average temperature for the day is 89 degrees and there is a 23 percent chance of rain."
+    ],
+    [
+        "INFORM(humidity=\"25\";wind=\"2\")",
+        "The humidity is low at 25 percent as is the wind at around 2 miles per hour.",
+        "The humidity is low at 25 percent as is the wind at around 2 miles per hour."
+    ],
+    [
+        "OFFER(temperature=\"85\";precipitation=\"28\")",
+        "I can see that the average temperature in Tomales for the day will be 85 degrees Fahrenheit, and there is a 28 percent chance that there will be rain.",
+        "I can see that the average temperature in Tomales for the day will be 85 degrees Fahrenheit, and there is a 28 percent chance that there will be rain."
+    ],
+    [
+        "OFFER(temperature=\"62\";precipitation=\"1\")",
+        "I can see that the temperature in Toronto, Ontario for the day will be 62 degrees Fahrenheit, also there is a 1 percent chance that it will be raining.",
+        "I can see that the temperature in Toronto, Ontario for the day will be 62 degrees Fahrenheit, also there is a 1 percent chance that it will be raining."
+    ],
+    [
+        "OFFER(temperature=\"91\";precipitation=\"21\")",
+        "The average temperature for the day in Olema is 91 degrees Farenheit. Today, there is a 21 percent chance of rain.",
+        "The average temperature for the day in Olema is 91 degrees Farenheit. Today, there is a 21 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"87\";precipitation=\"23\")",
+        "On the 3rd of March 2019 in Olema, California, the temperature is expected to average around 87 degrees Fahrenheit, and there will be a 23 percent chance of rain.",
+        "On the 3rd of March 2019 in Olema, California, the temperature is expected to average around 87 degrees Fahrenheit, and there will be a 23 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"86\";precipitation=\"5\")",
+        "In Marshall on that date the average temperature is expected to be around 86 degrees Fahrenheit, and there will be a 5 percent chance of rain.",
+        "In Marshall on that date the average temperature is expected to be around 86 degrees Fahrenheit, and there will be a 5 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"85\";precipitation=\"15\")",
+        "Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain.",
+        "Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain."
+    ],
+    [
+        "OFFER(temperature=\"94\";precipitation=\"20\")",
+        "It is reported that the average high fo that day is expected to be 94 degrees Fahrenheit with a 20 percent possibility that it will rain.",
+        "It is reported that the average high fo that day is expected to be 94 degrees Fahrenheit with a 20 percent possibility that it will rain."
+    ],
+    [
+        "OFFER(temperature=\"73\";precipitation=\"12\")",
+        "The report for that city is showing an average high of 73 degrees Fahrenheit for the day with a 12 percent possibility that rain will come.",
+        "The report for that city is showing an average high of 73 degrees Fahrenheit for the day with a 12 percent possibility that rain will come."
+    ],
+    [
+        "OFFER(temperature=\"86\";precipitation=\"28\")",
+        "Today's average temperature in Rutherford will be 86 degrees Fahrenheit with a 28 percent chance to rain.",
+        "Today's average temperature in Rutherford will be 86 degrees Fahrenheit with a 28 percent chance to rain."
+    ],
+    [
+        "INFORM(wind=\"10\")",
+        "The average wind speed will be around 10 miles per hour.",
+        "The average wind speed will be around 10 miles per hour."
+    ],
+    [
+        "OFFER(temperature=\"91\";precipitation=\"10\")",
+        "The average temperature should be 91 degrees Fahrenheit with a 10 percent chance of rain.",
+        "The average temperature should be 91 degrees Fahrenheit with a 10 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"77\";precipitation=\"18\")",
+        "The average temperature should be 77 degrees Fahrenheit with a 18 percent chance of rain.",
+        "The average temperature should be 77 degrees Fahrenheit with a 18 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"76\";precipitation=\"28\")",
+        "It will be a nice 76 degrees Fahrenheit with a 28 percent chance of rain.",
+        "It will be a nice 76 degrees Fahrenheit with a 28 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"93\";precipitation=\"29\")",
+        "It will be 93 degrees Fahrenheit with a 29 percent chance of rain.",
+        "It will be 93 degrees Fahrenheit with a 29 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"79\";precipitation=\"4\")",
+        "The average temperature should be 79 degrees Fahrenheit for the day and chance of rain is 4 percent.",
+        "The average temperature should be 79 degrees Fahrenheit for the day and chance of rain is 4 percent."
+    ],
+    [
+        "INFORM(humidity=\"19\";wind=\"4\")",
+        "The wind average speed should be 4 miles per hour and humidity is around 19 percent.",
+        "The wind average speed should be 4 miles per hour and humidity is around 19 percent."
+    ],
+    [
+        "OFFER(temperature=\"90\";precipitation=\"3\")",
+        "The temperature is expected to be 90 degree Fahrenheit with a 3 percent chance of rain.",
+        "The temperature is expected to be 90 degree Fahrenheit with a 3 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"86\";precipitation=\"9\")",
+        "The average temperature is 86 degrees Fahrenheit with a 9 percent chance of rain.",
+        "The average temperature is 86 degrees Fahrenheit with a 9 percent chance of rain."
+    ],
+    [
+        "INFORM(humidity=\"23\";wind=\"6\")",
+        "The humidity is expected to be around 23 percent, wind 6 mph.",
+        "The humidity is expected to be around 23 percent, wind 6 mph."
+    ],
+    [
+        "OFFER(temperature=\"94\";precipitation=\"24\")",
+        "There is a 24 percent chance of showers with an average temperature of 94.",
+        "There is a 24 percent chance of showers with an average temperature of 94."
+    ],
+    [
+        "OFFER(temperature=\"81\";precipitation=\"12\")",
+        "A 12 percent chance of showers with an average temperature of 81.",
+        "A 12 percent chance of showers with an average temperature of 81."
+    ],
+    [
+        "OFFER(temperature=\"80\";precipitation=\"9\")",
+        "A 9 percent chance of showers with an average temperature of 80.",
+        "A 9 percent chance of showers with an average temperature of 80."
+    ],
+    [
+        "OFFER(temperature=\"85\";precipitation=\"24\")",
+        "The daily average should be 85 degrees with a 24 percent chance of rain.",
+        "The daily average should be 85 degrees with a 24 percent chance of rain."
+    ],
+    [
+        "INFORM(wind=\"6\")",
+        "Predicted wind speed of 6 miles per hour.",
+        "Predicted wind speed of 6 miles per hour."
+    ],
+    [
+        "OFFER(temperature=\"86\";precipitation=\"6\")",
+        "The temperature of Nairobi has an average of 86 degrees for March 2nd.There's also a slight 6 percent chance that it will rain.",
+        "The temperature of Nairobi has an average of 86 degrees for March 2nd.There's also a slight 6 percent chance that it will rain."
+    ],
+    [
+        "OFFER(temperature=\"92\";precipitation=\"11\")",
+        "Valley Ford's average temperature for March 12th is 92 degrees. The percentage of precipitation is 11.",
+        "Valley Ford's average temperature for March 12th is 92 degrees. The percentage of precipitation is 11."
+    ],
+    [
+        "INFORM(humidity=\"34\";wind=\"1\")",
+        "The wind has an average of just 1 mile per hour, and the humidity is expected to be about 34 percent.",
+        "The wind has an average of just 1 mile per hour, and the humidity is expected to be about 34 percent."
+    ],
+    [
+        "OFFER(temperature=\"77\";precipitation=\"9\")",
+        "The temperature today will be around 77 degrees Fahrenheit with a 9 percent chance of rain.",
+        "The temperature today will be around 77 degrees Fahrenheit with a 9 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"89\";precipitation=\"11\")",
+        "The temperature for your requested day will be around 89 degrees Fahrenheit with an 11 percent chance of rain.",
+        "The temperature for your requested day will be around 89 degrees Fahrenheit with an 11 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"83\";precipitation=\"9\")",
+        "The average temperature is predicted to be around 83 degrees Farenheit. There is also a 9 percent chance of rain.",
+        "The average temperature is predicted to be around 83 degrees Farenheit. There is also a 9 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"80\";precipitation=\"16\")",
+        "It should be around 80 degrees Fahrenheit with a 16 percent chance of rain.",
+        "It should be around 80 degrees Fahrenheit with a 16 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"79\";precipitation=\"4\")",
+        "It is said 79 degrees Fahrenheit of average temperature and 4 percent chance of rain.",
+        "It is said 79 degrees Fahrenheit of average temperature and 4 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"72\";precipitation=\"13\")",
+        "Temperature is 72 degrees Fahrenheit with a 13 percent probability of rain.",
+        "Temperature is 72 degrees Fahrenheit with a 13 percent probability of rain."
+    ],
+    [
+        "OFFER(temperature=\"86\";precipitation=\"24\")",
+        "Certainly, Woodside will have an average temperature of 86 degrees Fahrenheit and a 24 percent chance of rain on that day.",
+        "Certainly, Woodside will have an average temperature of 86 degrees Fahrenheit and a 24 percent chance of rain on that day."
+    ],
+    [
+        "OFFER(temperature=\"77\";precipitation=\"8\")",
+        "Yes, the temperature will average 77 degrees Fahrenheit that day and there will be an 8 percent possibility of precipitation.",
+        "Yes, the temperature will average 77 degrees Fahrenheit that day and there will be an 8 percent possibility of precipitation."
+    ],
+    [
+        "OFFER(temperature=\"83\";precipitation=\"26\")",
+        "The expected average temperature through the day is 83 degrees Fahrenheit with 26 percent chance of rain.",
+        "The expected average temperature through the day is 83 degrees Fahrenheit with 26 percent chance of rain."
+    ],
+    [
+        "INFORM(wind=\"6\")",
+        "The expected average speed of the wind is 6 mph.",
+        "The expected average speed of the wind is 6 mph."
+    ],
+    [
+        "OFFER(temperature=\"73\";precipitation=\"15\")",
+        "It seems like it will be around 73 degrees Fahrenheit on average with a low 15 percent chance of rain",
+        "It seems like it will be around 73 degrees Fahrenheit on average with a low 15 percent chance of rain"
+    ],
+    [
+        "INFORM(wind=\"7\")",
+        "It'll be around 7 miles per hour wind speed averages",
+        "It'll be around 7 miles per hour wind speed averages"
+    ],
+    [
+        "OFFER(temperature=\"84\";precipitation=\"0\")",
+        "Yes, Please note that the average temperature will be 84 degrees Fahrenheit and the chance for rain will be 0 percent on that day.",
+        "Yes, Please note that the average temperature will be 84 degrees Fahrenheit and the chance for rain will be 0 percent on that day."
+    ],
+    [
+        "INFORM(wind=\"1\";humidity=\"15\")",
+        "The average wind speed will be 1 miles per hour and the humidity is around 15 percent. Hope this information was useful to you.",
+        "The average wind speed will be 1 miles per hour and the humidity is around 15 percent. Hope this information was useful to you."
+    ],
+    [
+        "OFFER(temperature=\"84\";precipitation=\"13\")",
+        "The average temperature is 84 degress on that day with a 13 percent chance of rain.",
+        "The average temperature is 84 degress on that day with a 13 percent chance of rain."
+    ],
+    [
+        "INFORM(humidity=\"28\")",
+        "It should be averaging around 28 percent.",
+        "It should be averaging around 28 percent."
+    ],
+    [
+        "OFFER(temperature=\"91\";precipitation=\"25\")",
+        "It is expected to be about 91 degrees with a 25 percent chance of rain.",
+        "It is expected to be about 91 degrees with a 25 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"81\";precipitation=\"3\")",
+        "Temperature is 81 degrees Fahrenheit and the chance of rain is 3 percent.",
+        "Temperature is 81 degrees Fahrenheit and the chance of rain is 3 percent."
+    ],
+    [
+        "INFORM(wind=\"9\";humidity=\"16\")",
+        "Humidity is 16 percent and the wind will blow at 9 miles per hour.",
+        "Humidity is 16 percent and the wind will blow at 9 miles per hour."
+    ],
+    [
+        "OFFER(temperature=\"85\";precipitation=\"28\")",
+        "The expected average temperature for the day is 85 degrees Fahrenheit with 28 percent chance of rain.",
+        "The expected average temperature for the day is 85 degrees Fahrenheit with 28 percent chance of rain."
+    ],
+    [
+        "INFORM(humidity=\"56\")",
+        "The expected humidity is 56 percent.",
+        "The expected humidity is 56 percent."
+    ],
+    [
+        "OFFER(temperature=\"76\";precipitation=\"4\")",
+        "Well, the temp will be 76 degrees and there is only a 4 % chance of rain.",
+        "Well, the temp will be 76 degrees and there is only a 4 % chance of rain."
+    ],
+    [
+        "INFORM(wind=\"2\")",
+        "No, only 2 mph wind.",
+        "No, only 2 mph wind."
+    ],
+    [
+        "INFORM(humidity=\"23\")",
+        "No, not relatively. 23 percent.",
+        "No, not relatively. 23 percent."
+    ],
+    [
+        "OFFER(temperature=\"84\";precipitation=\"18\")",
+        "Well right now it's 84 degrees Fahrenheit with a rough 18 percent chance of rain",
+        "Well right now it's 84 degrees Fahrenheit with a rough 18 percent chance of rain"
+    ],
+    [
+        "OFFER(temperature=\"81\";precipitation=\"28\")",
+        "The temperature there is around 81 degrees with a 28 percent chance of it raining",
+        "The temperature there is around 81 degrees with a 28 percent chance of it raining"
+    ],
+    [
+        "INFORM(wind=\"2\";humidity=\"15\")",
+        "Wind speeds are pretty low at 2 miles per hour, and humidity is at around 15 percent",
+        "Wind speeds are pretty low at 2 miles per hour, and humidity is at around 15 percent"
+    ],
+    [
+        "OFFER(temperature=\"92\";precipitation=\"0\")",
+        "For your requested location the average temperature for the day should be 92 degrees Fahrenheit, and with a chance of raining at 0 percent.",
+        "For your requested location the average temperature for the day should be 92 degrees Fahrenheit, and with a chance of raining at 0 percent."
+    ],
+    [
+        "OFFER(temperature=\"91\";precipitation=\"15\")",
+        "In the location you are interested the temperature for the day should be at 91 degrees Fahrenheit, and there will be a raining chance of 15 percent.",
+        "In the location you are interested the temperature for the day should be at 91 degrees Fahrenheit, and there will be a raining chance of 15 percent."
+    ],
+    [
+        "OFFER(temperature=\"91\";precipitation=\"12\")",
+        "Sure. The average temperature for that day is expected to be 91 degrees Fahrenheit, and there is a 12 percent chance of rain.",
+        "Sure. The average temperature for that day is expected to be 91 degrees Fahrenheit, and there is a 12 percent chance of rain."
+    ],
+    [
+        "INFORM(wind=\"10\")",
+        "The average wind speed is expected to be 10 miles per hour.",
+        "The average wind speed is expected to be 10 miles per hour."
+    ],
+    [
+        "INFORM(humidity=\"31\")",
+        "Around 31 percent.",
+        "Around 31 percent."
+    ],
+    [
+        "OFFER(temperature=\"76\";precipitation=\"25\")",
+        "The temperature on average for the day is 76 degrees F. with a 25 percent chance of rain.",
+        "The temperature on average for the day is 76 degrees F. with a 25 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"91\";precipitation=\"18\")",
+        "The average temperature for the day is 91 degrees F with an 18 percent chance of rain.",
+        "The average temperature for the day is 91 degrees F with an 18 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"70\";precipitation=\"12\")",
+        "The average temperature for the day should be 70 degrees Fahrenheit with 12 percent chance of rainfall.",
+        "The average temperature for the day should be 70 degrees Fahrenheit with 12 percent chance of rainfall."
+    ],
+    [
+        "OFFER(temperature=\"77\";precipitation=\"6\")",
+        "The forecasted temperature is set to be about 77 degrees Fahrenheit, and there is a 6 percent chance of precipitation.",
+        "The forecasted temperature is set to be about 77 degrees Fahrenheit, and there is a 6 percent chance of precipitation."
+    ],
+    [
+        "INFORM(wind=\"6\")",
+        "The average wind speed is forecasted to be around 6 MPH.",
+        "The average wind speed is forecasted to be around 6 MPH."
+    ],
+    [
+        "OFFER(temperature=\"88\";precipitation=\"22\")",
+        "The average temperature for the day should be 88 degrees Fahrenheit. And there is a 22 percent chance of rain.",
+        "The average temperature for the day should be 88 degrees Fahrenheit. And there is a 22 percent chance of rain."
+    ],
+    [
+        "INFORM(wind=\"3\")",
+        "the average wind speed should be 3 miles per hour.",
+        "the average wind speed should be 3 miles per hour."
+    ],
+    [
+        "OFFER(temperature=\"76\";precipitation=\"1\")",
+        "The mean temperature for that day ought to be 76 degrees Fahrenheit, with a 1 percent probability of raining.",
+        "The mean temperature for that day ought to be 76 degrees Fahrenheit, with a 1 percent probability of raining."
+    ],
+    [
+        "OFFER(temperature=\"75\";precipitation=\"13\")",
+        "Sure, the average temperature is 75 degrees on that day with a 13 percent chance of rain.",
+        "Sure, the average temperature is 75 degrees on that day with a 13 percent chance of rain."
+    ],
+    [
+        "INFORM(wind=\"6\";humidity=\"36\")",
+        "The average wind speed is 6 miles per hour with an expected humidity around 36 percent.",
+        "The average wind speed is 6 miles per hour with an expected humidity around 36 percent."
+    ],
+    [
+        "OFFER(temperature=\"89\";precipitation=\"28\")",
+        "It should be around 89 degrees Fahrenheit with a 28 percent chance of rain.",
+        "It should be around 89 degrees Fahrenheit with a 28 percent chance of rain."
+    ],
+    [
+        "OFFER(temperature=\"87\";precipitation=\"28\")",
+        "It should be around 87 degrees Fahrenheit with a 28 percent chance of rain.",
+        "It should be around 87 degrees Fahrenheit with a 28 percent chance of rain."
+    ]
+]

@@ -1,0 +1,317 @@
+[
+    [
+        "OFFER(title=\"Hackers\";aggregate_rating=\"6.2\")",
+        "Hackers has a rating of 6.2.",
+        "Hackers has a rating of 6.2."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\";aggregate_rating=\"4.2\")",
+        "I found 10 movies including A Madea Family Funeral rated 4.2.",
+        "I found 10 movies including A Madea Family Funeral rated 4.2."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\";aggregate_rating=\"4.2\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 movies including A Madea Family Funeral rated 4.2.",
+        "I found 10 movies including A Madea Family Funeral rated 4.2."
+    ],
+    [
+        "OFFER(title=\"Josie and the Pussycats\";aggregate_rating=\"5.4\")",
+        "There is 1 movie rated 5.4 called Josie and the Pussycats.",
+        "There is 1 movie rated 5.4 called Josie and the Pussycats."
+    ],
+    [
+        "OFFER(title=\"Josie and the Pussycats\";aggregate_rating=\"5.4\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 movie rated 5.4 called Josie and the Pussycats.",
+        "There is 1 movie rated 5.4 called Josie and the Pussycats."
+    ],
+    [
+        "OFFER(title=\"Pillow Talk\";aggregate_rating=\"7.5\")",
+        "I found 10 you might like. How about Pillow Talk? It's rated 7.5",
+        "I found 10 you might like. How about Pillow Talk? It's rated 7.5"
+    ],
+    [
+        "OFFER(title=\"Pillow Talk\";aggregate_rating=\"7.5\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 you might like. How about Pillow Talk? It's rated 7.5",
+        "I found 10 you might like. How about Pillow Talk? It's rated 7.5"
+    ],
+    [
+        "INFORM(director=\"Michael Gordon\")",
+        "It was directed by Michael Gordon",
+        "It was directed by Michael Gordon"
+    ],
+    [
+        "OFFER(title=\"Hotel Mumbai\";aggregate_rating=\"7.8\")",
+        "I found the Hotel Mumbai, it has a 7.8 rating",
+        "I found the Hotel Mumbai, it has a 7.8 rating"
+    ],
+    [
+        "OFFER(title=\"Breakthrough\";aggregate_rating=\"5.6\")",
+        "I found 1, how about Breakthrough, it is rated 5.6",
+        "I found 1, how about Breakthrough, it is rated 5.6"
+    ],
+    [
+        "OFFER(title=\"Breakthrough\";aggregate_rating=\"5.6\")@INFORM_COUNT(count=\"1\")",
+        "I found 1, how about Breakthrough, it is rated 5.6",
+        "I found 1, how about Breakthrough, it is rated 5.6"
+    ],
+    [
+        "INFORM(director=\"Roxann Dawson\")",
+        "It was directed by Roxann Dawson",
+        "It was directed by Roxann Dawson"
+    ],
+    [
+        "OFFER(title=\"The Visitor\";aggregate_rating=\"7.7\")",
+        "I found 1 you might want: The Visitor. It has a 7.7 star rating",
+        "I found 1 you might want: The Visitor. It has a 7.7 star rating"
+    ],
+    [
+        "OFFER(title=\"The Visitor\";aggregate_rating=\"7.7\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 you might want: The Visitor. It has a 7.7 star rating",
+        "I found 1 you might want: The Visitor. It has a 7.7 star rating"
+    ],
+    [
+        "OFFER(title=\"Josie and the Pussycats\";aggregate_rating=\"5.4\")",
+        "There's Josie and the Pussycats, rated 5.4",
+        "There's Josie and the Pussycats, rated 5.4"
+    ],
+    [
+        "OFFER(title=\"Say Anything\";aggregate_rating=\"7.4\")",
+        "I have 10 movies. How about Say Anything that has a 7.4 review?",
+        "I have 10 movies. How about Say Anything that has a 7.4 review?"
+    ],
+    [
+        "OFFER(title=\"Say Anything\";aggregate_rating=\"7.4\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 movies. How about Say Anything that has a 7.4 review?",
+        "I have 10 movies. How about Say Anything that has a 7.4 review?"
+    ],
+    [
+        "INFORM(genre=\"Romance\")",
+        "The genre is Romance.",
+        "The genre is Romance."
+    ],
+    [
+        "INFORM(director=\"Cameron Crowe\";starring=\"Joan Cusack\")",
+        "It is a movie with Joan Cusack and directed by Cameron Crowe.",
+        "It is a movie with Joan Cusack and directed by Cameron Crowe."
+    ],
+    [
+        "OFFER(title=\"Ramen Shop\";aggregate_rating=\"6.8\")",
+        "I found 10 movies. How about Ramen Shop that was rated 6.8?",
+        "I found 10 movies. How about Ramen Shop that was rated 6.8?"
+    ],
+    [
+        "OFFER(title=\"Ramen Shop\";aggregate_rating=\"6.8\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 movies. How about Ramen Shop that was rated 6.8?",
+        "I found 10 movies. How about Ramen Shop that was rated 6.8?"
+    ],
+    [
+        "OFFER(title=\"The Visitor\";aggregate_rating=\"7.7\")",
+        "I have a 7.7 movie called The Visitor.",
+        "I have a 7.7 movie called The Visitor."
+    ],
+    [
+        "OFFER(title=\"Josie and the Pussycats\";aggregate_rating=\"5.4\")",
+        "I have for you 1 movies with average rating 5.4.Is called Josie and the Pussycats.",
+        "I have for you 1 movies with average rating 5.4.Is called Josie and the Pussycats."
+    ],
+    [
+        "OFFER(title=\"Josie and the Pussycats\";aggregate_rating=\"5.4\")@INFORM_COUNT(count=\"1\")",
+        "I have for you 1 movies with average rating 5.4.Is called Josie and the Pussycats.",
+        "I have for you 1 movies with average rating 5.4.Is called Josie and the Pussycats."
+    ],
+    [
+        "OFFER(title=\"Auntie Mame\";aggregate_rating=\"8.0\")",
+        "Sure. I have 10 ideas for movies you'll love. Maybe Auntie Mame? It has an 8.0 rating",
+        "Sure. I have 10 ideas for movies you'll love. Maybe Auntie Mame? It has an 8.0 rating"
+    ],
+    [
+        "OFFER(title=\"Auntie Mame\";aggregate_rating=\"8.0\")@INFORM_COUNT(count=\"10\")",
+        "Sure. I have 10 ideas for movies you'll love. Maybe Auntie Mame? It has an 8.0 rating",
+        "Sure. I have 10 ideas for movies you'll love. Maybe Auntie Mame? It has an 8.0 rating"
+    ],
+    [
+        "OFFER(title=\"Dumbo\";aggregate_rating=\"6.6\")",
+        "I found 1 for you. How about Dumbo? It has a 6.6 rating",
+        "I found 1 for you. How about Dumbo? It has a 6.6 rating"
+    ],
+    [
+        "OFFER(title=\"Dumbo\";aggregate_rating=\"6.6\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 for you. How about Dumbo? It has a 6.6 rating",
+        "I found 1 for you. How about Dumbo? It has a 6.6 rating"
+    ],
+    [
+        "OFFER(title=\"Pillow Talk\";aggregate_rating=\"7.5\")",
+        "I'd recommend Pillow Talk. People tend to agree it's a pretty good movie, with an average rating of 7.5.",
+        "I'd recommend Pillow Talk. People tend to agree it's a pretty good movie, with an average rating of 7.5."
+    ],
+    [
+        "INFORM(director=\"Michael Gordon\";genre=\"romance\")",
+        "It is a romance movie that was directed by Michael Gordon.",
+        "It is a romance movie that was directed by Michael Gordon."
+    ],
+    [
+        "OFFER(title=\"The Visitor\";aggregate_rating=\"7.7\")",
+        "I found 1 movie. The Visitor with a rating of 7.7.",
+        "I found 1 movie. The Visitor with a rating of 7.7."
+    ],
+    [
+        "OFFER(title=\"The Visitor\";aggregate_rating=\"7.7\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 movie. The Visitor with a rating of 7.7.",
+        "I found 1 movie. The Visitor with a rating of 7.7."
+    ],
+    [
+        "INFORM(genre=\"Romance\")",
+        "Romance.",
+        "Romance."
+    ],
+    [
+        "OFFER(movie_title=\"One Cut of the Dead\";percent_rating=\"100\")",
+        "Sure,of the first 10 movies I can see, how does One Cut of the Dead sound? I see here that it has a 100 percent rating!",
+        "Sure,of the first 10 movies I can see, how does One Cut of the Dead sound? I see here that it has a 100 percent rating!"
+    ],
+    [
+        "OFFER(movie_title=\"One Cut of the Dead\";percent_rating=\"100\")@INFORM_COUNT(count=\"10\")",
+        "Sure,of the first 10 movies I can see, how does One Cut of the Dead sound? I see here that it has a 100 percent rating!",
+        "Sure,of the first 10 movies I can see, how does One Cut of the Dead sound? I see here that it has a 100 percent rating!"
+    ],
+    [
+        "INFORM(cast=\"Manabu Hosoi\")",
+        "It looks like one of the main actors name is Manabu Hosoi.",
+        "It looks like one of the main actors name is Manabu Hosoi."
+    ],
+    [
+        "INFORM(directed_by=\"Shinichirou Ueda\";genre=\"Horror\")",
+        "This movie is classified as a Horror and seems to be directed by Shinichirou Ueda.",
+        "This movie is classified as a Horror and seems to be directed by Shinichirou Ueda."
+    ],
+    [
+        "OFFER(movie_title=\"Tel Aviv on Fire\";percent_rating=\"92\")",
+        "There is Tel Aviv on Fire that has a rating of 92 percent.",
+        "There is Tel Aviv on Fire that has a rating of 92 percent."
+    ],
+    [
+        "INFORM(cast=\"Amer Hlehel\")",
+        "Amer Hlehel acted in the movie.",
+        "Amer Hlehel acted in the movie."
+    ],
+    [
+        "INFORM(directed_by=\"Sameh Zoabi\")",
+        "The director of the movie is Sameh Zoabi.",
+        "The director of the movie is Sameh Zoabi."
+    ],
+    [
+        "OFFER(movie_title=\"My Big Fat Greek Wedding\";percent_rating=\"76\")",
+        "There is a movie called My Big Fat Greek Wedding with an average rating of 76 percent.",
+        "There is a movie called My Big Fat Greek Wedding with an average rating of 76 percent."
+    ],
+    [
+        "INFORM(directed_by=\"Joel Zwick\")",
+        "Joel Zwick is the director of the movie.",
+        "Joel Zwick is the director of the movie."
+    ],
+    [
+        "INFORM(cast=\"Andrea Martin\";genre=\"comedy\")",
+        "This is a comedy movie and the name of the actor is Andrea Martin.",
+        "This is a comedy movie and the name of the actor is Andrea Martin."
+    ],
+    [
+        "OFFER(movie_title=\"Tigers Are not Afraid\";percent_rating=\"96\")",
+        "Yes, I am glad and what is your opinion about the movie Tigers Are not Afraid and which has the rating of 96 percent in average.",
+        "Yes, I am glad and what is your opinion about the movie Tigers Are not Afraid and which has the rating of 96 percent in average."
+    ],
+    [
+        "OFFER(movie_title=\"Riot Girls\";percent_rating=\"100\")",
+        "Yes, What about a movie named Riot Girls which has 100 percent rating in average. I hope you will definitely like this one.",
+        "Yes, What about a movie named Riot Girls which has 100 percent rating in average. I hope you will definitely like this one."
+    ],
+    [
+        "INFORM(genre=\"Action\")",
+        "It is an Action movie and you will definitely like this.",
+        "It is an Action movie and you will definitely like this."
+    ],
+    [
+        "OFFER(movie_title=\"Hobbs and Shaw\";percent_rating=\"67\")",
+        "How about Hobbs and Shaw? It has an average rating of 67 percent.",
+        "How about Hobbs and Shaw? It has an average rating of 67 percent."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry, I couldn't find any other movies. Is there anything else I can help you with?",
+        "Sorry, I couldn't find any other movies. Is there anything else I can help you with?"
+    ],
+    [
+        "OFFER(movie_title=\"47 Meters Down: Uncaged\";percent_rating=\"45\")",
+        "I found 6 movies to choose from. 47 Meters Down: Uncaged has an average rating of 45 percent.",
+        "I found 6 movies to choose from. 47 Meters Down: Uncaged has an average rating of 45 percent."
+    ],
+    [
+        "OFFER(movie_title=\"47 Meters Down: Uncaged\";percent_rating=\"45\")@INFORM_COUNT(count=\"6\")",
+        "I found 6 movies to choose from. 47 Meters Down: Uncaged has an average rating of 45 percent.",
+        "I found 6 movies to choose from. 47 Meters Down: Uncaged has an average rating of 45 percent."
+    ],
+    [
+        "OFFER(movie_title=\"In Fabric\";percent_rating=\"96\")",
+        "In Fabric has an average rating of 96 percent.",
+        "In Fabric has an average rating of 96 percent."
+    ],
+    [
+        "INFORM(cast=\"Hayley Squires\";directed_by=\"Peter Strickland\")",
+        "Hayley Squires acted in the movie, and Peter Strickland directed.",
+        "Hayley Squires acted in the movie, and Peter Strickland directed."
+    ],
+    [
+        "OFFER(movie_title=\"Give me Liberty\";percent_rating=\"92\")",
+        "I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent.",
+        "I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent."
+    ],
+    [
+        "OFFER(movie_title=\"Give me Liberty\";percent_rating=\"92\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent.",
+        "I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent."
+    ],
+    [
+        "INFORM(cast=\"Daria Ekamasova\")",
+        "Daria Ekamasova acted in the movie.",
+        "Daria Ekamasova acted in the movie."
+    ],
+    [
+        "OFFER(movie_title=\"Angel Has Fallen\";percent_rating=\"39\")",
+        "You can select from 10 movies. Do you prefer Angel Has Fallen with average rating of 39 percent.",
+        "You can select from 10 movies. Do you prefer Angel Has Fallen with average rating of 39 percent."
+    ],
+    [
+        "OFFER(movie_title=\"Angel Has Fallen\";percent_rating=\"39\")@INFORM_COUNT(count=\"10\")",
+        "You can select from 10 movies. Do you prefer Angel Has Fallen with average rating of 39 percent.",
+        "You can select from 10 movies. Do you prefer Angel Has Fallen with average rating of 39 percent."
+    ],
+    [
+        "INFORM(directed_by=\"Ric Roman Waugh\")",
+        "It is by Ric Roman Waugh.",
+        "It is by Ric Roman Waugh."
+    ],
+    [
+        "INFORM(genre=\"Action\")",
+        "It is an Action one.",
+        "It is an Action one."
+    ],
+    [
+        "OFFER(movie_title=\"Once Upon a Time in Hollywood\";percent_rating=\"85\")",
+        "With a rating of 85 percent, Once Upon a Time in Hollywood is very popular.",
+        "With a rating of 85 percent, Once Upon a Time in Hollywood is very popular."
+    ],
+    [
+        "INFORM(directed_by=\"Quentin Tarantino\";cast=\"Timothy Olyphant\")",
+        "Certainly. The movie stars Timothy Olyphant and was directed by Quentin Tarantino.",
+        "Certainly. The movie stars Timothy Olyphant and was directed by Quentin Tarantino."
+    ],
+    [
+        "OFFER(movie_title=\"The Angry Birds Movie 2\";percent_rating=\"72\")",
+        "How about The Angry Birds Movie 2 ? The average rating of the movie is 72 percent.",
+        "How about The Angry Birds Movie 2 ? The average rating of the movie is 72 percent."
+    ],
+    [
+        "INFORM(genre=\"Animation\")",
+        "It is a Animation movie.",
+        "It is a Animation movie."
+    ]
+]

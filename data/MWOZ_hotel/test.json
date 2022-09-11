@@ -1,0 +1,1682 @@
+[
+    [
+        "hotel_inform(area=\"west\";name=\"The Cambridge Belfry\";pricerange=\"cheap\";type=\"hotel\")",
+        "Yes, The Cambridge Belfry is a cheap hotel in the West.",
+        "Yes, The Cambridge Belfry is a cheap hotel in the West."
+    ],
+    [
+        "booking_inform()",
+        "Yes, they have internet would you like me to book it for you?",
+        "Yes, they have internet would you like me to book it for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(internet=\"yes\")",
+        "Yes, they have internet would you like me to book it for you?",
+        "Yes, they have internet would you like me to book it for you?"
+    ],
+    [
+        "hotel_inform(address=\"back lane\";address=\"cambourne\";phone=\"01954714600\";postcode=\"cb236bw\")",
+        "The address is back lane, cambourne, postcode cb236bw and phone number 01954714600",
+        "The address is back lane, cambourne, postcode cb236bw and phone number 01954714600"
+    ],
+    [
+        "booking_inform()",
+        "gonville hotel is a nice hotel that I can book for you.",
+        "gonville hotel is a nice hotel that I can book for you."
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"gonville hotel\";type=\"hotel\")",
+        "gonville hotel is a nice hotel that I can book for you.",
+        "gonville hotel is a nice hotel that I can book for you."
+    ],
+    [
+        "booking_inform()",
+        "It sure does! WOuld you like to book a room?",
+        "It sure does! WOuld you like to book a room?"
+    ],
+    [
+        "booking_book(ref=\"P16VJZDH\")",
+        "Booking was successful. Reference number is : P16VJZDH .",
+        "Booking was successful. Reference number is : P16VJZDH ."
+    ],
+    [
+        "hotel_inform(choice=\"many\";internet=\"yes\";parking=\"yes\")",
+        "There are many results with free wifi and parking, to help narrow it down, what area do you want to stay in?",
+        "There are many results with free wifi and parking, to help narrow it down, what area do you want to stay in?"
+    ],
+    [
+        "booking_nobook()",
+        "Booking was not successful for that night at the acorn guest house, would you like me to try a different place?",
+        "Booking was not successful for that night at the acorn guest house, would you like me to try a different place?"
+    ],
+    [
+        "booking_nobook()",
+        "Booking was unsuccessful. Would you like to try a different location?",
+        "Booking was unsuccessful. Would you like to try a different location?"
+    ],
+    [
+        "hotel_inform(name=\"Arbury Lodge Guesthouse\")",
+        "I'm going to try for the Arbury Lodge Guesthouse, sir. Is that all right?",
+        "I'm going to try for the Arbury Lodge Guesthouse, sir. Is that all right?"
+    ],
+    [
+        "booking_book(bookday=\"Thursday\";bookpeople=\"two\";bookstay=\"2\";name=\"Arbury Lodge Guesthouse\";ref=\"K9ZNS97G\")",
+        "I was able to book the Arbury Lodge Guesthouse on Thursday for 2 nights for two people and your reference number is K9ZNS97G . Is there anything else you need?",
+        "I was able to book the Arbury Lodge Guesthouse on Thursday for 2 nights for two people and your reference number is K9ZNS97G . Is there anything else you need?"
+    ],
+    [
+        "hotel_inform(choice=\"2\";stars=\"3\")",
+        "I have two hotels that match the description of 3 star ratings. Are you looking for a hotel in the centre or south area?",
+        "I have two hotels that match the description of 3 star ratings. Are you looking for a hotel in the centre or south area?"
+    ],
+    [
+        "booking_inform()",
+        "The Gonville Hotel is supposed to be great and it offers free wifi. Would you like me to book you a room?",
+        "The Gonville Hotel is supposed to be great and it offers free wifi. Would you like me to book you a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(internet=\"yes\";name=\"The Gonville Hotel\")",
+        "The Gonville Hotel is supposed to be great and it offers free wifi. Would you like me to book you a room?",
+        "The Gonville Hotel is supposed to be great and it offers free wifi. Would you like me to book you a room?"
+    ],
+    [
+        "booking_nobook()",
+        "Sorry, it looks like the hotel can't accommodate you for that amount of time.",
+        "Sorry, it looks like the hotel can't accommodate you for that amount of time."
+    ],
+    [
+        "booking_book(ref=\"O8VH7VL6\")",
+        "Great, your reference number is O8VH7VL6 . Is there anything else I can help with?",
+        "Great, your reference number is O8VH7VL6 . Is there anything else I can help with?"
+    ],
+    [
+        "hotel_inform(choice=\"plenty\")",
+        "Yes there are plenty. What area would you like to stay in?",
+        "Yes there are plenty. What area would you like to stay in?"
+    ],
+    [
+        "hotel_inform(choice=\"two\")",
+        "There are two hotels that fit that criteria. I would recommend Alexander Bed and Breakfast, it has four stars.",
+        "There are two hotels that fit that criteria. I would recommend Alexander Bed and Breakfast, it has four stars."
+    ],
+    [
+        "hotel_inform(choice=\"two\")@hotel_recommend(name=\"Alexander Bed and Breakfast\";stars=\"4\")",
+        "There are two hotels that fit that criteria. I would recommend Alexander Bed and Breakfast, it has four stars.",
+        "There are two hotels that fit that criteria. I would recommend Alexander Bed and Breakfast, it has four stars."
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry, your booking was unsuccessful. Would you like to book another day or a shorter stay?",
+        "I'm sorry, your booking was unsuccessful. Would you like to book another day or a shorter stay?"
+    ],
+    [
+        "booking_book(ref=\"QHR6UO6I\")",
+        "Booking was successful. Reference number is : QHR6UO6I .",
+        "Booking was successful. Reference number is : QHR6UO6I ."
+    ],
+    [
+        "hotel_inform(choice=\"32\";internet=\"yes\";type=\"guesthouses\";type=\"hotels\")",
+        "There are 32 hotels or guesthouses with free wifi. What price range are you looking for?",
+        "There are 32 hotels or guesthouses with free wifi. What price range are you looking for?"
+    ],
+    [
+        "hotel_select(area=\"East\";area=\"north\";area=\"south\")",
+        "What part of town are you interested in? East, north or south?",
+        "What part of town are you interested in? East, north or south?"
+    ],
+    [
+        "hotel_recommend(name=\"a and b guest house\")",
+        "How about a and b guest house?",
+        "How about a and b guest house?"
+    ],
+    [
+        "booking_nobook()",
+        "Sorry, the hotel can't accommodate you for that time frame? Want to try a different date?",
+        "Sorry, the hotel can't accommodate you for that time frame? Want to try a different date?"
+    ],
+    [
+        "hotel_recommend(address=\"Chesterton Road\";name=\"the Acorn Guest House\")",
+        "I can try for the Acorn Guest House, if you'd like. They're on Chesterton Road.",
+        "I can try for the Acorn Guest House, if you'd like. They're on Chesterton Road."
+    ],
+    [
+        "booking_nobook()",
+        "Sorry, the Acorn Guest house is not able to accomodate you either. I checked with the other moderately priced 4 star lodgings with free wifi, and none have those dates available. Will any other stay work for you?",
+        "Sorry, the Acorn Guest house is not able to accomodate you either. I checked with the other moderately priced 4 star lodgings with free wifi, and none have those dates available. Will any other stay work for you?"
+    ],
+    [
+        "booking_nobook()@hotel_inform(internet=\"yes\";name=\"the Acorn Guest house\";pricerange=\"moderately priced\";stars=\"4\")",
+        "Sorry, the Acorn Guest house is not able to accomodate you either. I checked with the other moderately priced 4 star lodgings with free wifi, and none have those dates available. Will any other stay work for you?",
+        "Sorry, the Acorn Guest house is not able to accomodate you either. I checked with the other moderately priced 4 star lodgings with free wifi, and none have those dates available. Will any other stay work for you?"
+    ],
+    [
+        "booking_book(ref=\"3CRY3DDP\")",
+        "I've booked that for you. The reference number is 3CRY3DDP . May I help with anything else?",
+        "I've booked that for you. The reference number is 3CRY3DDP . May I help with anything else?"
+    ],
+    [
+        "booking_inform()",
+        "It is in the east, and moderately priced. Would you like to book a room?",
+        "It is in the east, and moderately priced. Would you like to book a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(area=\"east\";pricerange=\"moderately priced\")",
+        "It is in the east, and moderately priced. Would you like to book a room?",
+        "It is in the east, and moderately priced. Would you like to book a room?"
+    ],
+    [
+        "hotel_inform(address=\"124 tenison road\";phone=\"01223315702\";postcode=\"cb12dp\")",
+        "The address is 124 tenison road, postcode cb12dp. The phone number is 01223315702. Anything else?",
+        "The address is 124 tenison road, postcode cb12dp. The phone number is 01223315702. Anything else?"
+    ],
+    [
+        "booking_inform()",
+        "it is available. can i book one for you?",
+        "it is available. can i book one for you?"
+    ],
+    [
+        "booking_nobook()",
+        "Thank you for your patience. I am checking many hotels as so far I have been unsuccessful booking a room for you.",
+        "Thank you for your patience. I am checking many hotels as so far I have been unsuccessful booking a room for you."
+    ],
+    [
+        "hotel_inform(choice=\"16\";parking=\"yes\";stars=\"4\";type=\"guest houses\")",
+        "Yes, there are 16 4 star guest houses that have free parking. Do you have an area you are looking at?",
+        "Yes, there are 16 4 star guest houses that have free parking. Do you have an area you are looking at?"
+    ],
+    [
+        "hotel_recommend(area=\"centre\";name=\"The alexander bed and breakfast\";parking=\"yes\";pricerange=\"cheap\";type=\"guesthouse\")",
+        "The alexander bed and breakfast is a guesthouse in the centre in the cheap price range with parking. When are you arriving? How many people?",
+        "The alexander bed and breakfast is a guesthouse in the centre in the cheap price range with parking. When are you arriving? How many people?"
+    ],
+    [
+        "booking_nobook()",
+        "This booking was unsuccessful. Is there a different day or area you would like to stay?",
+        "This booking was unsuccessful. Is there a different day or area you would like to stay?"
+    ],
+    [
+        "booking_book(bookday=\"Tuesday\";ref=\"SID7A0H4\")",
+        "Okay, that booking was successful for Tuesday. The reference number is SID7A0H4 . Is there anything else you need?",
+        "Okay, that booking was successful for Tuesday. The reference number is SID7A0H4 . Is there anything else you need?"
+    ],
+    [
+        "booking_inform()",
+        "Cityroomz is a 0 star hotel with no parking, would you like me to check on available dates for you?",
+        "Cityroomz is a 0 star hotel with no parking, would you like me to check on available dates for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"Cityroomz\";parking=\"yes\";stars=\"0\")",
+        "Cityroomz is a 0 star hotel with no parking, would you like me to check on available dates for you?",
+        "Cityroomz is a 0 star hotel with no parking, would you like me to check on available dates for you?"
+    ],
+    [
+        "hotel_inform(area=\"centre\")",
+        "It is indeed in the centre.",
+        "It is indeed in the centre."
+    ],
+    [
+        "booking_nobook()",
+        "Booking was not successful. Perhaps another day or shorter stay?",
+        "Booking was not successful. Perhaps another day or shorter stay?"
+    ],
+    [
+        "booking_inform(bookday=\"monday\";bookstay=\"five\")",
+        "five nights starting monday would do better",
+        "five nights starting monday would do better"
+    ],
+    [
+        "booking_nobook()",
+        "Sorry, it was not successful. Can I check another hotel or shorten the stay?",
+        "Sorry, it was not successful. Can I check another hotel or shorten the stay?"
+    ],
+    [
+        "booking_book(ref=\"DFHZ0ZL8\")",
+        "I was able to book that for you, your reference number is DFHZ0ZL8 .",
+        "I was able to book that for you, your reference number is DFHZ0ZL8 ."
+    ],
+    [
+        "hotel_inform(choice=\"two\";parking=\"yes\";stars=\"3\")",
+        "I'm sorry for the confusion. There are two expensive hotels with 3 stars and parking. Do you prefer the centre or the south?",
+        "I'm sorry for the confusion. There are two expensive hotels with 3 stars and parking. Do you prefer the centre or the south?"
+    ],
+    [
+        "hotel_inform(choice=\"two\";parking=\"yes\";stars=\"3\")@hotel_select(area=\"centre\";area=\"south\")",
+        "I'm sorry for the confusion. There are two expensive hotels with 3 stars and parking. Do you prefer the centre or the south?",
+        "I'm sorry for the confusion. There are two expensive hotels with 3 stars and parking. Do you prefer the centre or the south?"
+    ],
+    [
+        "hotel_inform(address=\"Gonville Place\";name=\"Gonville Hotel\")",
+        "All right, sir, that would be the Gonville Hotel on Gonville Place.",
+        "All right, sir, that would be the Gonville Hotel on Gonville Place."
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry, Booking was unsuccessful. Would you like to try a shorter stay?",
+        "I'm sorry, Booking was unsuccessful. Would you like to try a shorter stay?"
+    ],
+    [
+        "booking_book(ref=\"PU74EXCQ\")",
+        "Very good, sir. That worked and I have a reference number for you: PU74EXCQ .",
+        "Very good, sir. That worked and I have a reference number for you: PU74EXCQ ."
+    ],
+    [
+        "hotel_inform(choice=\"a number of\";parking=\"yes\";type=\"guesthouses\")",
+        "There are a number of guesthouses in the area with free parking. Do you have a preference for price range or area that you want to stay?",
+        "There are a number of guesthouses in the area with free parking. Do you have a preference for price range or area that you want to stay?"
+    ],
+    [
+        "hotel_inform(name=\"Bridge Guest House\")",
+        "How about Bridge Guest House?",
+        "How about Bridge Guest House?"
+    ],
+    [
+        "booking_nobook()",
+        "Booking was not successful. Perhaps another day or shorter stay?",
+        "Booking was not successful. Perhaps another day or shorter stay?"
+    ],
+    [
+        "booking_book(bookday=\"Monday\";bookpeople=\"8\";bookstay=\"3\";ref=\"7CKEPRO5\")",
+        "Sorry, there must have been a glitch in the system. You are booked at bridge guest house starting Monday for 3 days, 8 guests. Reference # is 7CKEPRO5",
+        "Sorry, there must have been a glitch in the system. You are booked at bridge guest house starting Monday for 3 days, 8 guests. Reference # is 7CKEPRO5"
+    ],
+    [
+        "booking_book(bookday=\"Monday\";bookpeople=\"8\";bookstay=\"3\";ref=\"7CKEPRO5\")@hotel_inform(name=\"bridge guest house\")",
+        "Sorry, there must have been a glitch in the system. You are booked at bridge guest house starting Monday for 3 days, 8 guests. Reference # is 7CKEPRO5",
+        "Sorry, there must have been a glitch in the system. You are booked at bridge guest house starting Monday for 3 days, 8 guests. Reference # is 7CKEPRO5"
+    ],
+    [
+        "hotel_inform(phone=\"01223363682\")",
+        "Call them at 01223363682",
+        "Call them at 01223363682"
+    ],
+    [
+        "booking_nobook()",
+        "Your booking was unsuccessful. Could you book another day or a shorter stay?",
+        "Your booking was unsuccessful. Could you book another day or a shorter stay?"
+    ],
+    [
+        "booking_book(ref=\"0DW45IKS\")",
+        "Your booking was successful and your Reference number is : 0DW45IKS",
+        "Your booking was successful and your Reference number is : 0DW45IKS"
+    ],
+    [
+        "hotel_inform(area=\"north\";choice=\"many\";type=\"guesthouse\")",
+        "There are many results for a guesthouse in the north, what price range are you looking for?",
+        "There are many results for a guesthouse in the north, what price range are you looking for?"
+    ],
+    [
+        "hotel_inform(choice=\"8\";type=\"Guesthouse\")",
+        "I have 8 options. Guesthouse for all of them. Do you have a price range preference?",
+        "I have 8 options. Guesthouse for all of them. Do you have a price range preference?"
+    ],
+    [
+        "hotel_recommend(name=\"Acorn Guest House\")",
+        "Okay, how about the Acorn Guest House?",
+        "Okay, how about the Acorn Guest House?"
+    ],
+    [
+        "hotel_inform(internet=\"yes\";pricerange=\"moderately priced\")",
+        "Yes, they have free wifi and it's moderately priced.",
+        "Yes, they have free wifi and it's moderately priced."
+    ],
+    [
+        "hotel_inform(area=\"centre\";area=\"north\";choice=\"Two\";choice=\"one\";choice=\"three\";type=\"hotels\")",
+        "I have three hotels. Two in the north and one in the centre. Do you have a preference?",
+        "I have three hotels. Two in the north and one in the centre. Do you have a preference?"
+    ],
+    [
+        "hotel_inform(area=\"centre\";area=\"north\";choice=\"Two\";choice=\"one\";choice=\"three\";type=\"hotels\")@hotel_select()",
+        "I have three hotels. Two in the north and one in the centre. Do you have a preference?",
+        "I have three hotels. Two in the north and one in the centre. Do you have a preference?"
+    ],
+    [
+        "hotel_recommend(internet=\"yes\";name=\"Lovell Lodge\";parking=\"yes\";pricerange=\"moderately priced\")",
+        "How does the Lovell Lodge sound? It has internet and free parking and is moderately priced.",
+        "How does the Lovell Lodge sound? It has internet and free parking and is moderately priced."
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry but the booking was unsuccessful. Would you like to book starting another day? Or perhaps a shorter stay?",
+        "I'm sorry but the booking was unsuccessful. Would you like to book starting another day? Or perhaps a shorter stay?"
+    ],
+    [
+        "booking_book(bookday=\"Wednesday\";ref=\"J4Q4W07K\")",
+        "yes, that booking was successful for Wednesday. The reference number is J4Q4W07K . Anything else you need?",
+        "yes, that booking was successful for Wednesday. The reference number is J4Q4W07K . Anything else you need?"
+    ],
+    [
+        "booking_inform()",
+        "i got it. may i get the day youd like to move in so i can book",
+        "i got it. may i get the day youd like to move in so i can book"
+    ],
+    [
+        "booking_book(ref=\"TUCGJ6DX\")",
+        "Booking was successful. Reference number is : TUCGJ6DX .",
+        "Booking was successful. Reference number is : TUCGJ6DX ."
+    ],
+    [
+        "hotel_inform(choice=\"5\";type=\"guesthouses\")",
+        "There are 5 guesthouses with your criteria. Do you have a preference in pricerange?",
+        "There are 5 guesthouses with your criteria. Do you have a preference in pricerange?"
+    ],
+    [
+        "booking_book(name=\"allenbell\";ref=\"S0JDZBTQ\")",
+        "I have you booked at allenbell at 710 newmarket road. The reference number is : S0JDZBTQ .",
+        "I have you booked at allenbell at 710 newmarket road. The reference number is : S0JDZBTQ ."
+    ],
+    [
+        "booking_inform()",
+        "I have found the guesthouse you were wanting. Would you like me to book this for you?",
+        "I have found the guesthouse you were wanting. Would you like me to book this for you?"
+    ],
+    [
+        "booking_book(ref=\"BE1VD9EH\")",
+        "Your booking was successful. The reference number is : BE1VD9EH .",
+        "Your booking was successful. The reference number is : BE1VD9EH ."
+    ],
+    [
+        "hotel_recommend(name=\"Huntingdon Marriott Hotel\")",
+        "I don't have a guesthouse type of hotel, but I could suggest the Huntingdon Marriott Hotel",
+        "I don't have a guesthouse type of hotel, but I could suggest the Huntingdon Marriott Hotel"
+    ],
+    [
+        "booking_inform()",
+        "It does have free parking. Would you like me to book it for you?",
+        "It does have free parking. Would you like me to book it for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(parking=\"yes\")",
+        "It does have free parking. Would you like me to book it for you?",
+        "It does have free parking. Would you like me to book it for you?"
+    ],
+    [
+        "hotel_inform(choice=\"nine\";pricerange=\"cheap\")",
+        "There are nine cheap guesthouses, all in different areas. Any preference?",
+        "There are nine cheap guesthouses, all in different areas. Any preference?"
+    ],
+    [
+        "hotel_inform(choice=\"nine\";pricerange=\"cheap\")@hotel_select()",
+        "There are nine cheap guesthouses, all in different areas. Any preference?",
+        "There are nine cheap guesthouses, all in different areas. Any preference?"
+    ],
+    [
+        "hotel_inform(name=\"Allenbell\";stars=\"4\")",
+        "Allenbell has a star rating of 4.",
+        "Allenbell has a star rating of 4."
+    ],
+    [
+        "booking_inform()",
+        "The Allenbell is in the cheap price range. Do you want me to book it?",
+        "The Allenbell is in the cheap price range. Do you want me to book it?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"Allenbell\";pricerange=\"cheap\")",
+        "The Allenbell is in the cheap price range. Do you want me to book it?",
+        "The Allenbell is in the cheap price range. Do you want me to book it?"
+    ],
+    [
+        "hotel_inform(stars=\"0\";stars=\"4\")",
+        "Okay. There is a 0 star place, and a 4 star place. Which do you prefer?",
+        "Okay. There is a 0 star place, and a 4 star place. Which do you prefer?"
+    ],
+    [
+        "hotel_inform(stars=\"0\";stars=\"4\")@hotel_select()",
+        "Okay. There is a 0 star place, and a 4 star place. Which do you prefer?",
+        "Okay. There is a 0 star place, and a 4 star place. Which do you prefer?"
+    ],
+    [
+        "hotel_recommend(name=\"Worth House\")",
+        "I think the Worth House is your best bet!",
+        "I think the Worth House is your best bet!"
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry I don't have anything for Sunday night. Would you like to try a different hotel?",
+        "I'm sorry I don't have anything for Sunday night. Would you like to try a different hotel?"
+    ],
+    [
+        "booking_inform()",
+        "Yes, there i the worth house and also city centre north b and b. Would you like me to book you a room at either one?",
+        "Yes, there i the worth house and also city centre north b and b. Would you like me to book you a room at either one?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"city centre north b and b\";name=\"worth house\")",
+        "Yes, there i the worth house and also city centre north b and b. Would you like me to book you a room at either one?",
+        "Yes, there i the worth house and also city centre north b and b. Would you like me to book you a room at either one?"
+    ],
+    [
+        "booking_book()",
+        "I have booked you at worth house. It is a 4 star accommodation, and the postcode is cb41da. Do you have any further questions?",
+        "I have booked you at worth house. It is a 4 star accommodation, and the postcode is cb41da. Do you have any further questions?"
+    ],
+    [
+        "hotel_inform(choice=\"3\")",
+        "we have 3 with your specification",
+        "we have 3 with your specification"
+    ],
+    [
+        "hotel_recommend(name=\"allenbell\")",
+        "How about allenbell? It looks great.",
+        "How about allenbell? It looks great."
+    ],
+    [
+        "booking_nobook()",
+        "Booking was unsuccessful. Perhaps another day or shorter stay?",
+        "Booking was unsuccessful. Perhaps another day or shorter stay?"
+    ],
+    [
+        "booking_book(bookday=\"Friday\";ref=\"VRX491JS\")",
+        "Booking was successful for Friday. Reference number is : VRX491JS .",
+        "Booking was successful for Friday. Reference number is : VRX491JS ."
+    ],
+    [
+        "hotel_inform(name=\"bridge guest house\")",
+        "You are looking for the bridge guest house",
+        "You are looking for the bridge guest house"
+    ],
+    [
+        "booking_nobook()",
+        "Booking was unsuccessful.",
+        "Booking was unsuccessful."
+    ],
+    [
+        "booking_book(ref=\"EPWUAWM5\")",
+        "Booking was successful. Reference number is : EPWUAWM5 .",
+        "Booking was successful. Reference number is : EPWUAWM5 ."
+    ],
+    [
+        "hotel_inform(choice=\"2\";name=\"ashley hotel\";name=\"lovell lodge\")",
+        "There are two such hotels in the north area. The first is the ashley hotel and the second is the lovell lodge. Do you have a preference?",
+        "There are two such hotels in the north area. The first is the ashley hotel and the second is the lovell lodge. Do you have a preference?"
+    ],
+    [
+        "hotel_inform(choice=\"2\";name=\"ashley hotel\";name=\"lovell lodge\")@hotel_select()",
+        "There are two such hotels in the north area. The first is the ashley hotel and the second is the lovell lodge. Do you have a preference?",
+        "There are two such hotels in the north area. The first is the ashley hotel and the second is the lovell lodge. Do you have a preference?"
+    ],
+    [
+        "hotel_inform(choice=\"both\";internet=\"yes\")",
+        "They both have internet and parking, so it is really up to you.",
+        "They both have internet and parking, so it is really up to you."
+    ],
+    [
+        "hotel_inform(choice=\"both\";internet=\"yes\")@hotel_select()",
+        "They both have internet and parking, so it is really up to you.",
+        "They both have internet and parking, so it is really up to you."
+    ],
+    [
+        "booking_inform()",
+        "The number for the Ashley Hotel is 01223350059. Can I book that for you?",
+        "The number for the Ashley Hotel is 01223350059. Can I book that for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"Ashley Hotel\";phone=\"01223350059\")",
+        "The number for the Ashley Hotel is 01223350059. Can I book that for you?",
+        "The number for the Ashley Hotel is 01223350059. Can I book that for you?"
+    ],
+    [
+        "hotel_inform(address=\"74 chesterton road\")",
+        "That hotel is located at 74 chesterton road.",
+        "That hotel is located at 74 chesterton road."
+    ],
+    [
+        "hotel_inform(choice=\"a few\";internet=\"yes\")",
+        "I have quite a few places that offer wifi, is there is a certain price range you are looking for?",
+        "I have quite a few places that offer wifi, is there is a certain price range you are looking for?"
+    ],
+    [
+        "hotel_inform(choice=\"about 10\")",
+        "I have about 10 different places. Do you have a preference on the area of town?",
+        "I have about 10 different places. Do you have a preference on the area of town?"
+    ],
+    [
+        "booking_inform()",
+        "The Cambridge belfry is a hotel in the west that is cheap and has both free internet and wifi. Would you like to book this?",
+        "The Cambridge belfry is a hotel in the west that is cheap and has both free internet and wifi. Would you like to book this?"
+    ],
+    [
+        "booking_inform()@hotel_inform(area=\"west\";internet=\"yes\";name=\"The Cambridge belfry\";pricerange=\"cheap\";type=\"hotel\")",
+        "The Cambridge belfry is a hotel in the west that is cheap and has both free internet and wifi. Would you like to book this?",
+        "The Cambridge belfry is a hotel in the west that is cheap and has both free internet and wifi. Would you like to book this?"
+    ],
+    [
+        "booking_nobook()",
+        "Unfortunately, that day doesn't work. Can we try booking another day or a shorter stay, perhaps?",
+        "Unfortunately, that day doesn't work. Can we try booking another day or a shorter stay, perhaps?"
+    ],
+    [
+        "hotel_inform(choice=\"only\";type=\"hotel\")",
+        "Unfortunately that's the only hotel that suits your criteria.",
+        "Unfortunately that's the only hotel that suits your criteria."
+    ],
+    [
+        "hotel_inform(choice=\"10\")",
+        "There are 10 places that match your criteria. What part of town would you like to stay in?",
+        "There are 10 places that match your criteria. What part of town would you like to stay in?"
+    ],
+    [
+        "booking_book(ref=\"ZTRMOKWM\")",
+        "You are booked at the Alexander B & B. It is cheap, with wifi and parking included. Your reference number is ZTRMOKWM . Is there anything else?",
+        "You are booked at the Alexander B & B. It is cheap, with wifi and parking included. Your reference number is ZTRMOKWM . Is there anything else?"
+    ],
+    [
+        "booking_book(ref=\"ZTRMOKWM\")@hotel_inform(internet=\"yes\";name=\"Alexander B & B\";parking=\"yes\";pricerange=\"cheap\")",
+        "You are booked at the Alexander B & B. It is cheap, with wifi and parking included. Your reference number is ZTRMOKWM . Is there anything else?",
+        "You are booked at the Alexander B & B. It is cheap, with wifi and parking included. Your reference number is ZTRMOKWM . Is there anything else?"
+    ],
+    [
+        "hotel_inform(area=\"north\";choice=\"two\";pricerange=\"moderate\")",
+        "There are two hotels in the north part of town in the moderate price range, does that price range work for you?",
+        "There are two hotels in the north part of town in the moderate price range, does that price range work for you?"
+    ],
+    [
+        "hotel_inform(stars=\"2\")",
+        "I'm sorry, they are both 2 star hotels. Would you like to try a different area or star number?",
+        "I'm sorry, they are both 2 star hotels. Would you like to try a different area or star number?"
+    ],
+    [
+        "hotel_inform(choice=\"one\";choice=\"several\";pricerange=\"cheap\";pricerange=\"moderate\")",
+        "There are several in the moderate price range and one that is cheap. Does price matter?",
+        "There are several in the moderate price range and one that is cheap. Does price matter?"
+    ],
+    [
+        "booking_inform(name=\"Worth House\")",
+        "I recommend Worth House because it is in the cheap price range and has a high rating. Do you want me to book Worth House for you?",
+        "I recommend Worth House because it is in the cheap price range and has a high rating. Do you want me to book Worth House for you?"
+    ],
+    [
+        "booking_inform(name=\"Worth House\")@hotel_recommend(name=\"Worth House\";pricerange=\"cheap\")",
+        "I recommend Worth House because it is in the cheap price range and has a high rating. Do you want me to book Worth House for you?",
+        "I recommend Worth House because it is in the cheap price range and has a high rating. Do you want me to book Worth House for you?"
+    ],
+    [
+        "booking_book(bookday=\"Sunday\";bookpeople=\"3\";bookstay=\"3\")",
+        "I have made reservations for 3 starting on Sunday for 3 nights.",
+        "I have made reservations for 3 starting on Sunday for 3 nights."
+    ],
+    [
+        "booking_book(ref=\"7PUKE6MS\")",
+        "All set! Your reference number is 7PUKE6MS . Do you need any more help?",
+        "All set! Your reference number is 7PUKE6MS . Do you need any more help?"
+    ],
+    [
+        "hotel_inform(choice=\"21\";stars=\"4\";type=\"guesthouses\";type=\"hotels\")",
+        "There are a total of 21 hotels and guesthouses in the city that have 4 stars. Is there a particular area or price range you would like?",
+        "There are a total of 21 hotels and guesthouses in the city that have 4 stars. Is there a particular area or price range you would like?"
+    ],
+    [
+        "hotel_inform(area=\"centre\";choice=\"one\";internet=\"yes\";name=\"University Arms Hotel\";parking=\"yes\";pricerange=\"expensive\";stars=\"4\";type=\"hotel\")",
+        "We have one 4 star hotel that is in the centre, University Arms Hotel, it has internet and parking and is expensive, would this one suit you?",
+        "We have one 4 star hotel that is in the centre, University Arms Hotel, it has internet and parking and is expensive, would this one suit you?"
+    ],
+    [
+        "booking_nobook()",
+        "Unfortunately, we cannot book you for those days. Could you change the number of days?",
+        "Unfortunately, we cannot book you for those days. Could you change the number of days?"
+    ],
+    [
+        "booking_nobook()",
+        "That was unsuccessful too. Wanna try something else?",
+        "That was unsuccessful too. Wanna try something else?"
+    ],
+    [
+        "hotel_inform(stars=\"4\";type=\"hotel\")",
+        "No, I'm sorry. I am searching for a 4 star hotel in the centre for 2 nights on Saturday. Is that correct?",
+        "No, I'm sorry. I am searching for a 4 star hotel in the centre for 2 nights on Saturday. Is that correct?"
+    ],
+    [
+        "booking_nobook()",
+        "Would you like to change the number of days you are staying. I was unable to find anything.",
+        "Would you like to change the number of days you are staying. I was unable to find anything."
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry, but the University Arms does not have anything available on Saturday for 3 people, for a 3 night stay. Would you like to try a different day?",
+        "I'm sorry, but the University Arms does not have anything available on Saturday for 3 people, for a 3 night stay. Would you like to try a different day?"
+    ],
+    [
+        "booking_nobook()@hotel_inform(name=\"University Arms\")",
+        "I'm sorry, but the University Arms does not have anything available on Saturday for 3 people, for a 3 night stay. Would you like to try a different day?",
+        "I'm sorry, but the University Arms does not have anything available on Saturday for 3 people, for a 3 night stay. Would you like to try a different day?"
+    ],
+    [
+        "booking_book(ref=\"PR0ABUBI\")",
+        "That worked, I guess you just needed a larger room. Your reference number is PR0ABUBI . Can I be of further assistance?",
+        "That worked, I guess you just needed a larger room. Your reference number is PR0ABUBI . Can I be of further assistance?"
+    ],
+    [
+        "hotel_inform(choice=\"four\")",
+        "I was able to get four results for what you are looking for, is there a certain price range you would like?",
+        "I was able to get four results for what you are looking for, is there a certain price range you would like?"
+    ],
+    [
+        "hotel_inform(area=\"north\";area=\"south\";area=\"west\";choice=\"four\";type=\"guesthouse\")",
+        "We have four guesthouses that fit the bill, two in the north, one in the south, and one in the west.",
+        "We have four guesthouses that fit the bill, two in the north, one in the south, and one in the west."
+    ],
+    [
+        "hotel_inform(choice=\"3\";name=\"Hamilton Lodge\")",
+        "We have 3 that match your criteria but Hamilton Lodge is very popular. Would you like to try there?",
+        "We have 3 that match your criteria but Hamilton Lodge is very popular. Would you like to try there?"
+    ],
+    [
+        "booking_inform()",
+        "Just let us know when you are ready to book and we will be happy to assist you. Have a great day!",
+        "Just let us know when you are ready to book and we will be happy to assist you. Have a great day!"
+    ],
+    [
+        "hotel_inform()",
+        "Yes, there are 6 I can recommend to you. Do you have other specifications, or shall I select one for you?",
+        "Yes, there are 6 I can recommend to you. Do you have other specifications, or shall I select one for you?"
+    ],
+    [
+        "hotel_inform()@hotel_recommend(choice=\"6\")",
+        "Yes, there are 6 I can recommend to you. Do you have other specifications, or shall I select one for you?",
+        "Yes, there are 6 I can recommend to you. Do you have other specifications, or shall I select one for you?"
+    ],
+    [
+        "hotel_inform(choice=\"2\";pricerange=\"more moderately priced\";pricerange=\"rather expensive\")",
+        "I have two different choices. One is rather expensive and the other more moderately priced. Do you prefer one over the other?",
+        "I have two different choices. One is rather expensive and the other more moderately priced. Do you prefer one over the other?"
+    ],
+    [
+        "hotel_inform(choice=\"2\";pricerange=\"more moderately priced\";pricerange=\"rather expensive\")@hotel_select()",
+        "I have two different choices. One is rather expensive and the other more moderately priced. Do you prefer one over the other?",
+        "I have two different choices. One is rather expensive and the other more moderately priced. Do you prefer one over the other?"
+    ],
+    [
+        "booking_book(ref=\"11XDM9CC\")",
+        "Ok. I have booked the lensfield hotel for you. The reference number is 11XDM9CC .",
+        "Ok. I have booked the lensfield hotel for you. The reference number is 11XDM9CC ."
+    ],
+    [
+        "booking_book(ref=\"11XDM9CC\")@hotel_inform(name=\"lensfield hotel\")",
+        "Ok. I have booked the lensfield hotel for you. The reference number is 11XDM9CC .",
+        "Ok. I have booked the lensfield hotel for you. The reference number is 11XDM9CC ."
+    ],
+    [
+        "hotel_inform(address=\"53-57 Lensfield road\";phone=\"01223355017\")",
+        "Of course. The address is 53-57 Lensfield road. Phone number is 01223355017.",
+        "Of course. The address is 53-57 Lensfield road. Phone number is 01223355017."
+    ],
+    [
+        "hotel_inform(choice=\"5\";parking=\"yes\";pricerange=\"expensive\")",
+        "There are 5 different hotels that are expensive and all include free parking. Is there a particular area you would like to stay in?",
+        "There are 5 different hotels that are expensive and all include free parking. Is there a particular area you would like to stay in?"
+    ],
+    [
+        "hotel_inform(choice=\"2\";name=\"Huntingdon Marriott\";name=\"University Arms Hotel\";parking=\"yes\";stars=\"four-star\")",
+        "There are two four-star hotels with free parking in this price range, the Huntingdon Marriott and the University Arms Hotel.",
+        "There are two four-star hotels with free parking in this price range, the Huntingdon Marriott and the University Arms Hotel."
+    ],
+    [
+        "hotel_inform(phone=\"01480446000\")",
+        "Of course! It's 01480446000. May I help with anything else?",
+        "Of course! It's 01480446000. May I help with anything else?"
+    ],
+    [
+        "booking_inform()",
+        "Yes ma'am. I have the Warkworth House guesthouse on Warkworth Terrace, with is the east section of the city. Can I help book a reservation for you?",
+        "Yes ma'am. I have the Warkworth House guesthouse on Warkworth Terrace, with is the east section of the city. Can I help book a reservation for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(address=\"Warkworth Terrace\";area=\"east\";name=\"Warkworkth House\";type=\"guesthouse\")",
+        "Yes ma'am. I have the Warkworth House guesthouse on Warkworth Terrace, with is the east section of the city. Can I help book a reservation for you?",
+        "Yes ma'am. I have the Warkworth House guesthouse on Warkworth Terrace, with is the east section of the city. Can I help book a reservation for you?"
+    ],
+    [
+        "booking_inform()",
+        "Warkworth House falls in the moderate price range. Would you like me to book a room for you?",
+        "Warkworth House falls in the moderate price range. Would you like me to book a room for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(pricerange=\"moderate\")",
+        "Warkworth House falls in the moderate price range. Would you like me to book a room for you?",
+        "Warkworth House falls in the moderate price range. Would you like me to book a room for you?"
+    ],
+    [
+        "hotel_inform(choice=\"18\")",
+        "There are 18 matching your request. Do you have any preferences such as area, price, parking, or internet?",
+        "There are 18 matching your request. Do you have any preferences such as area, price, parking, or internet?"
+    ],
+    [
+        "booking_inform()",
+        "There are 2: Rosa's Bed and Breakfast is cheap, located at 53 roseford road cb22ha and Aylesbray Lodge Guest House is moderate, located at 5 mowbray road cb17sr. Shall we book?",
+        "There are 2: Rosa's Bed and Breakfast is cheap, located at 53 roseford road cb22ha and Aylesbray Lodge Guest House is moderate, located at 5 mowbray road cb17sr. Shall we book?"
+    ],
+    [
+        "booking_inform()@hotel_inform(address=\"5 mowbray road\";address=\"53 roseford road\";choice=\"2\";name=\"Aylesbray Lodge Guest House\";name=\"Rosa's Bed and Breakfast\";postcode=\"cb17sr\";postcode=\"cb22ha\";pricerange=\"cheap\";pricerange=\"moderate\")",
+        "There are 2: Rosa's Bed and Breakfast is cheap, located at 53 roseford road cb22ha and Aylesbray Lodge Guest House is moderate, located at 5 mowbray road cb17sr. Shall we book?",
+        "There are 2: Rosa's Bed and Breakfast is cheap, located at 53 roseford road cb22ha and Aylesbray Lodge Guest House is moderate, located at 5 mowbray road cb17sr. Shall we book?"
+    ],
+    [
+        "booking_book(bookday=\"Friday\";ref=\"32GMTM5V\")",
+        "You are all set for checking in on Friday. Your reference number is 32GMTM5V . Can I help with anything else?",
+        "You are all set for checking in on Friday. Your reference number is 32GMTM5V . Can I help with anything else?"
+    ],
+    [
+        "hotel_inform(choice=\"21\")",
+        "There are 21 locations, do you have any other requirements?",
+        "There are 21 locations, do you have any other requirements?"
+    ],
+    [
+        "hotel_inform(choice=\"7\";type=\"guesthouse\")",
+        "There are 7 guesthouses meeting your requirements. Is there a particular area you wish to stay in?",
+        "There are 7 guesthouses meeting your requirements. Is there a particular area you wish to stay in?"
+    ],
+    [
+        "attraction_inform(name=\"the Autumn House\")",
+        "Sure the Autumn House is a personal favorite. Your booking was successful.",
+        "Sure the Autumn House is a personal favorite. Your booking was successful."
+    ],
+    [
+        "attraction_inform(name=\"the Autumn House\")@booking_book()",
+        "Sure the Autumn House is a personal favorite. Your booking was successful.",
+        "Sure the Autumn House is a personal favorite. Your booking was successful."
+    ],
+    [
+        "booking_book(ref=\"1GFITCAU\")",
+        "Yes, it's 1GFITCAU .",
+        "Yes, it's 1GFITCAU ."
+    ],
+    [
+        "booking_inform()",
+        "Wonderful. Have a nice time. Can I reserve a taxi for you?",
+        "Wonderful. Have a nice time. Can I reserve a taxi for you?"
+    ],
+    [
+        "hotel_inform(choice=\"29\";internet=\"yes\";parking=\"yes\")",
+        "There are 29 places with free internet and parking. Do you have an area, price, star, or hotel type preference?",
+        "There are 29 places with free internet and parking. Do you have an area, price, star, or hotel type preference?"
+    ],
+    [
+        "hotel_inform(choice=\"12\";type=\"guesthouses\")",
+        "I have 12 guesthouses that match your needs. Do you have additional requirements to narrow down the search?",
+        "I have 12 guesthouses that match your needs. Do you have additional requirements to narrow down the search?"
+    ],
+    [
+        "hotel_recommend(name=\"Acorn Guest House\";phone=\"01223353888\";stars=\"4\")",
+        "Acorn Guest House is a 4 star place that meets your requirements. The phone number is 01223353888.",
+        "Acorn Guest House is a 4 star place that meets your requirements. The phone number is 01223353888."
+    ],
+    [
+        "hotel_inform(choice=\"5\")",
+        "We have 5 hotels that fit that description. What area of town do you prefer?",
+        "We have 5 hotels that fit that description. What area of town do you prefer?"
+    ],
+    [
+        "hotel_inform(choice=\"all of\";internet=\"yes\";pricerange=\"expensive\";type=\"hotels\")",
+        "I'm sorry, but all of the places that have free wifi and who have an expensive price range are hotels rather than guesthouses. Would you be interested in a hotel instead?",
+        "I'm sorry, but all of the places that have free wifi and who have an expensive price range are hotels rather than guesthouses. Would you be interested in a hotel instead?"
+    ],
+    [
+        "hotel_inform(choice=\"all of\";internet=\"yes\";pricerange=\"expensive\";type=\"hotels\")@hotel_select()",
+        "I'm sorry, but all of the places that have free wifi and who have an expensive price range are hotels rather than guesthouses. Would you be interested in a hotel instead?",
+        "I'm sorry, but all of the places that have free wifi and who have an expensive price range are hotels rather than guesthouses. Would you be interested in a hotel instead?"
+    ],
+    [
+        "hotel_inform(choice=\"9\")",
+        "There are 9 locations that meet your requirements. Is there a particular star rating you'd prefer?",
+        "There are 9 locations that meet your requirements. Is there a particular star rating you'd prefer?"
+    ],
+    [
+        "booking_inform()",
+        "I could recommend the el shaddai. It has free internet and parking and is in the centre. Would you like me to book that for you?",
+        "I could recommend the el shaddai. It has free internet and parking and is in the centre. Would you like me to book that for you?"
+    ],
+    [
+        "booking_inform()@hotel_recommend(area=\"in the centre\";internet=\"yes\";name=\"the el shaddai\";parking=\"yes\")",
+        "I could recommend the el shaddai. It has free internet and parking and is in the centre. Would you like me to book that for you?",
+        "I could recommend the el shaddai. It has free internet and parking and is in the centre. Would you like me to book that for you?"
+    ],
+    [
+        "booking_inform()",
+        "Their phone number is 01223327978, would you like help booking a room?",
+        "Their phone number is 01223327978, would you like help booking a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(phone=\"01223327978\")",
+        "Their phone number is 01223327978, would you like help booking a room?",
+        "Their phone number is 01223327978, would you like help booking a room?"
+    ],
+    [
+        "hotel_inform(address=\"63 milton road\";area=\"north end\";name=\"The Alpha-Milton Guest House\";phone=\"01223311625\";postcode=\"cb41xa\";pricerange=\"moderately priced\";stars=\"3\";type=\"guesthouse\")",
+        "The Alpha-Milton Guest House is a moderately priced 3 star guesthouse on the north end. The address is 63 milton road, postcode cb41xa. Their phone number is 01223311625.",
+        "The Alpha-Milton Guest House is a moderately priced 3 star guesthouse on the north end. The address is 63 milton road, postcode cb41xa. Their phone number is 01223311625."
+    ],
+    [
+        "hotel_inform(choice=\"3\";type=\"guesthouses\";type=\"hotel\")",
+        "There are 3 guesthouses and a hotel. Do you have a star rating that you enjoy staying at?",
+        "There are 3 guesthouses and a hotel. Do you have a star rating that you enjoy staying at?"
+    ],
+    [
+        "hotel_inform(choice=\"four\";type=\"hotels\")",
+        "I have four hotels. Do you know the area you would like to stay?",
+        "I have four hotels. Do you know the area you would like to stay?"
+    ],
+    [
+        "booking_inform()",
+        "I've got two options. The Alpha-Milton and the Avalon. Would you like me to book a room at either one?",
+        "I've got two options. The Alpha-Milton and the Avalon. Would you like me to book a room at either one?"
+    ],
+    [
+        "booking_inform()@hotel_inform(choice=\"two\";name=\"The Alpha-Milton\";name=\"the Avalon\")",
+        "I've got two options. The Alpha-Milton and the Avalon. Would you like me to book a room at either one?",
+        "I've got two options. The Alpha-Milton and the Avalon. Would you like me to book a room at either one?"
+    ],
+    [
+        "booking_inform()",
+        "I'd be happy to make your reservation for you. When would you like to arrive and how many are in your party?",
+        "I'd be happy to make your reservation for you. When would you like to arrive and how many are in your party?"
+    ],
+    [
+        "booking_book(ref=\"89S3ZAGS\")",
+        "Your reservation is all set. Your reference number is 89S3ZAGS .",
+        "Your reservation is all set. Your reference number is 89S3ZAGS ."
+    ],
+    [
+        "hotel_inform(area=\"centre of town\";choice=\"5\";type=\"guesthouses\";type=\"hotels\")",
+        "I can definitely help with that. I have about 5 different hotels and guesthouses that are in the centre of town. Do you prefer a hotel or guesthouse?",
+        "I can definitely help with that. I have about 5 different hotels and guesthouses that are in the centre of town. Do you prefer a hotel or guesthouse?"
+    ],
+    [
+        "booking_inform()",
+        "The University Arms Hotel is in the centre of town, falls in the expensive price range, and has 4 stars. Would you like to book a room?",
+        "The University Arms Hotel is in the centre of town, falls in the expensive price range, and has 4 stars. Would you like to book a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(area=\"centre\";name=\"The University Arms Hotel\";pricerange=\"expensive\";stars=\"4\")",
+        "The University Arms Hotel is in the centre of town, falls in the expensive price range, and has 4 stars. Would you like to book a room?",
+        "The University Arms Hotel is in the centre of town, falls in the expensive price range, and has 4 stars. Would you like to book a room?"
+    ],
+    [
+        "booking_book(bookpeople=\"5\";bookstay=\"4\")",
+        "It is available for four nights for five people! I've taken the liberty of booking these rooms for you. Is that agreeable to you?",
+        "It is available for four nights for five people! I've taken the liberty of booking these rooms for you. Is that agreeable to you?"
+    ],
+    [
+        "booking_book(ref=\"8L6LVYYT\")",
+        "8L6LVYYT is your reference number.",
+        "8L6LVYYT is your reference number."
+    ],
+    [
+        "hotel_inform(choice=\"a great number\";type=\"guesthouses\")",
+        "You're in luck, there are a great number of guesthouses that might work. Did you have an area in mind?",
+        "You're in luck, there are a great number of guesthouses that might work. Did you have an area in mind?"
+    ],
+    [
+        "hotel_recommend(name=\"the Acorn Guest House\")",
+        "How about the Acorn Guest House?",
+        "How about the Acorn Guest House?"
+    ],
+    [
+        "booking_book(ref=\"LULJ5N6X\")",
+        "I have that booked, the reference number is LULJ5N6X .",
+        "I have that booked, the reference number is LULJ5N6X ."
+    ],
+    [
+        "booking_inform()",
+        "I have two options to offer you, the 4 star Alexander Bed and Breakfast and the unrated El Shaddai. Would you like me to book you a room at one?",
+        "I have two options to offer you, the 4 star Alexander Bed and Breakfast and the unrated El Shaddai. Would you like me to book you a room at one?"
+    ],
+    [
+        "booking_inform()@hotel_inform(choice=\"two\";name=\"Alexander Bed and Breakfast\";name=\"El Shaddai\";stars=\"4\";stars=\"unrated\")",
+        "I have two options to offer you, the 4 star Alexander Bed and Breakfast and the unrated El Shaddai. Would you like me to book you a room at one?",
+        "I have two options to offer you, the 4 star Alexander Bed and Breakfast and the unrated El Shaddai. Would you like me to book you a room at one?"
+    ],
+    [
+        "booking_inform()",
+        "The El Shaddai meets your needs. Would you like to book a room?",
+        "The El Shaddai meets your needs. Would you like to book a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"El Shaddai\")",
+        "The El Shaddai meets your needs. Would you like to book a room?",
+        "The El Shaddai meets your needs. Would you like to book a room?"
+    ],
+    [
+        "hotel_inform(postcode=\"cb11eg\")",
+        "Sure, the postcode is cb11eg. Is there anything else I can help you with?",
+        "Sure, the postcode is cb11eg. Is there anything else I can help you with?"
+    ],
+    [
+        "hotel_inform(name=\"El Shaddai\";type=\"guesthouse\";type=\"hotel\")",
+        "El Shaddai is a guesthouse, not a hotel.",
+        "El Shaddai is a guesthouse, not a hotel."
+    ],
+    [
+        "hotel_inform(choice=\"just\";name=\"el shaddai\";type=\"guesthouse\")",
+        "Nope, just el shaddai, a guesthouse. Sorry!",
+        "Nope, just el shaddai, a guesthouse. Sorry!"
+    ],
+    [
+        "hotel_inform(area=\"in the center\";area=\"on the west side\";choice=\"2\";name=\"The Huntingdon Marriot\";name=\"the University Arms\")",
+        "I have 2 options for you - The Huntingdon Marriott on the west side, and the University Arms in the center. Are you interested in one of these?",
+        "I have 2 options for you - The Huntingdon Marriott on the west side, and the University Arms in the center. Are you interested in one of these?"
+    ],
+    [
+        "hotel_inform(area=\"in the center\";area=\"on the west side\";choice=\"2\";name=\"The Huntingdon Marriot\";name=\"the University Arms\")@hotel_select()",
+        "I have 2 options for you - The Huntingdon Marriott on the west side, and the University Arms in the center. Are you interested in one of these?",
+        "I have 2 options for you - The Huntingdon Marriott on the west side, and the University Arms in the center. Are you interested in one of these?"
+    ],
+    [
+        "booking_inform()",
+        "Both are 4 stars. How many days would you be staying, and how many people are in your party? I can see if something is available.",
+        "Both are 4 stars. How many days would you be staying, and how many people are in your party? I can see if something is available."
+    ],
+    [
+        "booking_inform()@hotel_inform(stars=\"4\")",
+        "Both are 4 stars. How many days would you be staying, and how many people are in your party? I can see if something is available.",
+        "Both are 4 stars. How many days would you be staying, and how many people are in your party? I can see if something is available."
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry, but there is nothing available at that time at either hotel. Would you like to try fewer nights or perhaps a different arrival day?",
+        "I'm sorry, but there is nothing available at that time at either hotel. Would you like to try fewer nights or perhaps a different arrival day?"
+    ],
+    [
+        "booking_nobook()",
+        "Yes, I tried Sunday but it isn't available. Can you shorten your stay at all?",
+        "Yes, I tried Sunday but it isn't available. Can you shorten your stay at all?"
+    ],
+    [
+        "booking_nobook()",
+        "Neither hotel appears to have three days available starting on Sunday for three people, can I look something else up for you?",
+        "Neither hotel appears to have three days available starting on Sunday for three people, can I look something else up for you?"
+    ],
+    [
+        "booking_book(ref=\"IHGCTXH9\")",
+        "Sure. I was able to book you for the Huntingdon Marriott Hotel. Reference #IHGCTXH9 . Anything else I can help with?",
+        "Sure. I was able to book you for the Huntingdon Marriott Hotel. Reference #IHGCTXH9 . Anything else I can help with?"
+    ],
+    [
+        "hotel_inform(choice=\"33\";internet=\"yes\";type=\"guesthouse\")",
+        "I have 33 guesthouses with internet, which area would you prefer?",
+        "I have 33 guesthouses with internet, which area would you prefer?"
+    ],
+    [
+        "hotel_inform(choice=\"a few\";internet=\"yes\";name=\"Alexander b&b\";parking=\"yes\";pricerange=\"inexpensive\";stars=\"4\")",
+        "You do have a few options, including the Alexander b&b which offers free WiFi as well as free parking. It is also inexpensive, and rated 4 stars.",
+        "You do have a few options, including the Alexander b&b which offers free WiFi as well as free parking. It is also inexpensive, and rated 4 stars."
+    ],
+    [
+        "booking_book(ref=\"5CB11JQ8\")",
+        "OK, the booking was successful. Your reference number is 5CB11JQ8 . Is there anythng else I can help you with today?",
+        "OK, the booking was successful. Your reference number is 5CB11JQ8 . Is there anythng else I can help you with today?"
+    ],
+    [
+        "hotel_inform(choice=\"29\")",
+        "Okay, I have 29 options for you. Is there an area of town that you'd prefer to stay in?",
+        "Okay, I have 29 options for you. Is there an area of town that you'd prefer to stay in?"
+    ],
+    [
+        "hotel_inform(area=\"north\";name=\"The Acorn Guest House\";stars=\"4\")",
+        "That narrows it down a bit. The Acorn Guest House is a nice place, with 4 stars. It's in the north area of town.",
+        "That narrows it down a bit. The Acorn Guest House is a nice place, with 4 stars. It's in the north area of town."
+    ],
+    [
+        "booking_inform()",
+        "The acorn guest house also has free internet. Shall I book you a room?",
+        "The acorn guest house also has free internet. Shall I book you a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(internet=\"yes\";name=\"acorn guest house\")",
+        "The acorn guest house also has free internet. Shall I book you a room?",
+        "The acorn guest house also has free internet. Shall I book you a room?"
+    ],
+    [
+        "hotel_inform(phone=\"01223353888\")",
+        "Absolutely! The phone number is 01223353888. Is there anything else I can help you with today?",
+        "Absolutely! The phone number is 01223353888. Is there anything else I can help you with today?"
+    ],
+    [
+        "hotel_inform(choice=\"10\";pricerange=\"cheap\")",
+        "I can certainly help you with that. We have 10 listings for cheap lodgings. Do you have any other requirements?",
+        "I can certainly help you with that. We have 10 listings for cheap lodgings. Do you have any other requirements?"
+    ],
+    [
+        "hotel_inform(choice=\"2\";choice=\"One\";choice=\"one\";stars=\"0\";stars=\"4\";type=\"guesthouses\")",
+        "Sure. I found 2 guesthouses. One with 4 stars and one with 0 stars. Do you have a preference?",
+        "Sure. I found 2 guesthouses. One with 4 stars and one with 0 stars. Do you have a preference?"
+    ],
+    [
+        "hotel_inform(choice=\"2\";choice=\"One\";choice=\"one\";stars=\"0\";stars=\"4\";type=\"guesthouses\")@hotel_select()",
+        "Sure. I found 2 guesthouses. One with 4 stars and one with 0 stars. Do you have a preference?",
+        "Sure. I found 2 guesthouses. One with 4 stars and one with 0 stars. Do you have a preference?"
+    ],
+    [
+        "booking_inform()",
+        "Yes, they both do. The Alexander B&B is our inexpensive 4 star guesthouse. Would you like me to see if I could book you room?",
+        "Yes, they both do. The Alexander B&B is our inexpensive 4 star guesthouse. Would you like me to see if I could book you room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"The Alexander B&B\";pricerange=\"inexpensive\";stars=\"4\";type=\"guesthouse\")",
+        "Yes, they both do. The Alexander B&B is our inexpensive 4 star guesthouse. Would you like me to see if I could book you room?",
+        "Yes, they both do. The Alexander B&B is our inexpensive 4 star guesthouse. Would you like me to see if I could book you room?"
+    ],
+    [
+        "booking_inform()",
+        "The Arbury Lodge Guesthouse is a 4-star guesthouse in the north area. Would like like to book a room there?",
+        "The Arbury Lodge Guesthouse is a 4-star guesthouse in the north area. Would like like to book a room there?"
+    ],
+    [
+        "booking_inform()@hotel_inform(area=\"north\";name=\"The Arbury Lodge Guesthouse\";stars=\"4\";type=\"guesthouse\")",
+        "The Arbury Lodge Guesthouse is a 4-star guesthouse in the north area. Would like like to book a room there?",
+        "The Arbury Lodge Guesthouse is a 4-star guesthouse in the north area. Would like like to book a room there?"
+    ],
+    [
+        "booking_book(ref=\"PWYHRHPR\")",
+        "You are all set. The reference number is PWYHRHPR . Can I help you with anything else today?",
+        "You are all set. The reference number is PWYHRHPR . Can I help you with anything else today?"
+    ],
+    [
+        "booking_inform()",
+        "The Bridge Guest House is a 3 star guesthouse. It is in the south area. Would you like to book a room?",
+        "The Bridge Guest House is a 3 star guesthouse. It is in the south area. Would you like to book a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(area=\"south\";name=\"The Bridge Guest House\";stars=\"3\";type=\"guesthouse\")",
+        "The Bridge Guest House is a 3 star guesthouse. It is in the south area. Would you like to book a room?",
+        "The Bridge Guest House is a 3 star guesthouse. It is in the south area. Would you like to book a room?"
+    ],
+    [
+        "booking_nobook()",
+        "I am afraid that booking is unsuccessful. Would you like a different day or amount of days?",
+        "I am afraid that booking is unsuccessful. Would you like a different day or amount of days?"
+    ],
+    [
+        "booking_book(bookstay=\"1\";ref=\"85BGKWO4\")",
+        "This booking is successful for 1 night. Your reference number is 85BGKWO4 . Is there anything else I can assist you with?",
+        "This booking is successful for 1 night. Your reference number is 85BGKWO4 . Is there anything else I can assist you with?"
+    ],
+    [
+        "hotel_inform(choice=\"6\";stars=\"3\";type=\"guesthouses\";type=\"hotels\")",
+        "We have 6 hotels and guesthouses that have 3 star ratings. Is there a particular part of town, or a particular price range that you're interested in?",
+        "We have 6 hotels and guesthouses that have 3 star ratings. Is there a particular part of town, or a particular price range that you're interested in?"
+    ],
+    [
+        "booking_inform()",
+        "The gonville hotel is in the centre and the lensfield hotel is in the south.They both have free wifi. Would you like me to book one for you?",
+        "The gonville hotel is in the centre and the lensfield hotel is in the south.They both have free wifi. Would you like me to book one for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(area=\"centre\";area=\"south\";internet=\"yes\";name=\"The gonville hotel\";name=\"lensfield hotel\")",
+        "The gonville hotel is in the centre and the lensfield hotel is in the south.They both have free wifi. Would you like me to book one for you?",
+        "The gonville hotel is in the centre and the lensfield hotel is in the south.They both have free wifi. Would you like me to book one for you?"
+    ],
+    [
+        "hotel_inform(choice=\"4\")",
+        "We have 4 to choose from now. Any other preferences?",
+        "We have 4 to choose from now. Any other preferences?"
+    ],
+    [
+        "hotel_inform(type=\"guesthouses\")",
+        "Yes, they are all guesthouses. Can I suggest the hamilton lodge, a 3 star, moderately priced guesthouse with wifi, in the north area?",
+        "Yes, they are all guesthouses. Can I suggest the hamilton lodge, a 3 star, moderately priced guesthouse with wifi, in the north area?"
+    ],
+    [
+        "hotel_inform(type=\"guesthouses\")@hotel_recommend(area=\"north\";internet=\"yes\";name=\"the hamilton lodge\";pricerange=\"moderately priced\";stars=\"3\";type=\"guesthouse\")",
+        "Yes, they are all guesthouses. Can I suggest the hamilton lodge, a 3 star, moderately priced guesthouse with wifi, in the north area?",
+        "Yes, they are all guesthouses. Can I suggest the hamilton lodge, a 3 star, moderately priced guesthouse with wifi, in the north area?"
+    ],
+    [
+        "booking_inform()",
+        "Certainly. It's 01223365664. Would you like me to book it for you?",
+        "Certainly. It's 01223365664. Would you like me to book it for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(phone=\"01223365664\")",
+        "Certainly. It's 01223365664. Would you like me to book it for you?",
+        "Certainly. It's 01223365664. Would you like me to book it for you?"
+    ],
+    [
+        "hotel_inform(address=\"156 chesterton road\")",
+        "Sure, it is at 156 chesterton road. Do you need any other information today?",
+        "Sure, it is at 156 chesterton road. Do you need any other information today?"
+    ],
+    [
+        "hotel_inform(choice=\"many\";pricerange=\"moderately priced\")",
+        "Certainly, we have many moderately priced options. Which area of town do you prefer to stay in?",
+        "Certainly, we have many moderately priced options. Which area of town do you prefer to stay in?"
+    ],
+    [
+        "booking_inform()",
+        "The A and B Guest House is in the moderate price range and has free wifi. Would you like to book a room?",
+        "The A and B Guest House is in the moderate price range and has free wifi. Would you like to book a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(internet=\"yes\";name=\"A and B Guest House\";pricerange=\"moderate\")",
+        "The A and B Guest House is in the moderate price range and has free wifi. Would you like to book a room?",
+        "The A and B Guest House is in the moderate price range and has free wifi. Would you like to book a room?"
+    ],
+    [
+        "booking_inform()",
+        "The Archway House would meet your needs. Would you like to make a reservation?",
+        "The Archway House would meet your needs. Would you like to make a reservation?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"Archway House\")",
+        "The Archway House would meet your needs. Would you like to make a reservation?",
+        "The Archway House would meet your needs. Would you like to make a reservation?"
+    ],
+    [
+        "hotel_inform(area=\"north\";phone=\"01223575314\")",
+        "The phone number is 01223575314 and it is in the north area of town.",
+        "The phone number is 01223575314 and it is in the north area of town."
+    ],
+    [
+        "hotel_inform(choice=\"ten\")",
+        "I have ten entries that meet your requirements! What area of town would you like?",
+        "I have ten entries that meet your requirements! What area of town would you like?"
+    ],
+    [
+        "hotel_inform(choice=\"3\";pricerange=\"moderately priced\";stars=\"3\";type=\"guesthouses\")",
+        "We have 3 moderately priced 3 star guesthouses.",
+        "We have 3 moderately priced 3 star guesthouses."
+    ],
+    [
+        "booking_inform()",
+        "I'm going to book you for bridge guest house, but I need to know the number of days you plan to stay and the number of people with you.",
+        "I'm going to book you for bridge guest house, but I need to know the number of days you plan to stay and the number of people with you."
+    ],
+    [
+        "booking_inform()@hotel_recommend(name=\"bridge guest house\")",
+        "I'm going to book you for bridge guest house, but I need to know the number of days you plan to stay and the number of people with you.",
+        "I'm going to book you for bridge guest house, but I need to know the number of days you plan to stay and the number of people with you."
+    ],
+    [
+        "booking_book(ref=\"IZE1WK61\")",
+        "Your booking is successful! Your reference number is IZE1WK61 . Can I help you with anything else?",
+        "Your booking is successful! Your reference number is IZE1WK61 . Can I help you with anything else?"
+    ],
+    [
+        "hotel_inform(choice=\"lots of them\")",
+        "I have lots of them to choose from. Is there any area of town that I can check into for you?",
+        "I have lots of them to choose from. Is there any area of town that I can check into for you?"
+    ],
+    [
+        "hotel_inform(choice=\"16\";type=\"guest houses\")",
+        "There are 16 such guest houses. You might like the Alexander B and B, which is rated 4 stars, yet inexpensive, and offers all the luxury the others choices do.",
+        "There are 16 such guest houses. You might like the Alexander B and B, which is rated 4 stars, yet inexpensive, and offers all the luxury the others choices do."
+    ],
+    [
+        "hotel_inform(choice=\"16\";type=\"guest houses\")@hotel_recommend(name=\"Alexander B and B\";pricerange=\"inexpensive\";stars=\"4\")",
+        "There are 16 such guest houses. You might like the Alexander B and B, which is rated 4 stars, yet inexpensive, and offers all the luxury the others choices do.",
+        "There are 16 such guest houses. You might like the Alexander B and B, which is rated 4 stars, yet inexpensive, and offers all the luxury the others choices do."
+    ],
+    [
+        "booking_nobook()",
+        "I am afraid that was unsuccessful. Would like to book another day or a shorter stay?",
+        "I am afraid that was unsuccessful. Would like to book another day or a shorter stay?"
+    ],
+    [
+        "booking_book(bookstay=\"2\";ref=\"X7VU6Y8Y\")",
+        "Your booking at the Alexander for 2 nights was successful. Your reference number is X7VU6Y8Y . Is there anything else I can help you with today?",
+        "Your booking at the Alexander for 2 nights was successful. Your reference number is X7VU6Y8Y . Is there anything else I can help you with today?"
+    ],
+    [
+        "hotel_inform(address=\"53-57 lensfield road\";area=\"south\";name=\"The Lensfield Hotel\";postcode=\"cb21en\")",
+        "The Lensfield Hotel is located on the south end. The address is 53-57 lensfield road, postcode cb21en. Can I get you any more information?",
+        "The Lensfield Hotel is located on the south end. The address is 53-57 lensfield road, postcode cb21en. Can I get you any more information?"
+    ],
+    [
+        "booking_book(ref=\"OSP4TRB9\")",
+        "The Lensfield has been booked according to your specifications. Your reference number is: OSP4TRB9 . Is there anything else we can help you with?",
+        "The Lensfield has been booked according to your specifications. Your reference number is: OSP4TRB9 . Is there anything else we can help you with?"
+    ],
+    [
+        "booking_inform()",
+        "There are 8 such hotels. I recommend gonville hotel. Would you like me to book you a room?",
+        "There are 8 such hotels. I recommend gonville hotel. Would you like me to book you a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(choice=\"8\")",
+        "There are 8 such hotels. I recommend gonville hotel. Would you like me to book you a room?",
+        "There are 8 such hotels. I recommend gonville hotel. Would you like me to book you a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(choice=\"8\")@hotel_recommend(name=\"gonville hotel\")",
+        "There are 8 such hotels. I recommend gonville hotel. Would you like me to book you a room?",
+        "There are 8 such hotels. I recommend gonville hotel. Would you like me to book you a room?"
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry but there is no availability for 2 nights starting on Saturday. Is there another day that works for you? Perhaps a different hotel?",
+        "I'm sorry but there is no availability for 2 nights starting on Saturday. Is there another day that works for you? Perhaps a different hotel?"
+    ],
+    [
+        "booking_book(bookstay=\"one\";ref=\"AJUGHITG\")",
+        "Sure, you're booked for one night. The reference number is AJUGHITG . May I help with anything else?",
+        "Sure, you're booked for one night. The reference number is AJUGHITG . May I help with anything else?"
+    ],
+    [
+        "hotel_inform(choice=\"1\";choice=\"3\";type=\"guesthouses\";type=\"hotel\")",
+        "We have 3 guesthouses and 1 hotel that fit your needs. Would you like to stay in a hotel or a guesthouse?",
+        "We have 3 guesthouses and 1 hotel that fit your needs. Would you like to stay in a hotel or a guesthouse?"
+    ],
+    [
+        "hotel_inform(choice=\"1\";choice=\"3\";type=\"guesthouses\";type=\"hotel\")@hotel_select(type=\"guesthouse\";type=\"hotel\")",
+        "We have 3 guesthouses and 1 hotel that fit your needs. Would you like to stay in a hotel or a guesthouse?",
+        "We have 3 guesthouses and 1 hotel that fit your needs. Would you like to stay in a hotel or a guesthouse?"
+    ],
+    [
+        "booking_book(ref=\"YTMC5LL4\")",
+        "All right, I've booked you a room at The Lensfield Hotel. The reference number is YTMC5LL4 . What else can I do for you?",
+        "All right, I've booked you a room at The Lensfield Hotel. The reference number is YTMC5LL4 . What else can I do for you?"
+    ],
+    [
+        "booking_book(ref=\"YTMC5LL4\")@hotel_inform(name=\"The Lensfield Hotel\")",
+        "All right, I've booked you a room at The Lensfield Hotel. The reference number is YTMC5LL4 . What else can I do for you?",
+        "All right, I've booked you a room at The Lensfield Hotel. The reference number is YTMC5LL4 . What else can I do for you?"
+    ],
+    [
+        "hotel_inform(choice=\"13\";type=\"guesthouses\";type=\"hotels\")",
+        "Alright, there are 13 guesthouses and hotels on the north side. You have a price range in mind, or is there a particular amenity you need?",
+        "Alright, there are 13 guesthouses and hotels on the north side. You have a price range in mind, or is there a particular amenity you need?"
+    ],
+    [
+        "booking_inform()",
+        "City Centre North B and B is just what you're looking for. It's a guesthouse with free wifi and parking at 328a histon road cb43ht. Would you like to book?",
+        "City Centre North B and B is just what you're looking for. It's a guesthouse with free wifi and parking at 328a histon road cb43ht. Would you like to book?"
+    ],
+    [
+        "booking_inform()@hotel_recommend(address=\"328a histon road\";internet=\"yes\";name=\"City Centre North B and B\";parking=\"yes\";postcode=\"cb43ht\";type=\"guesthouse\")",
+        "City Centre North B and B is just what you're looking for. It's a guesthouse with free wifi and parking at 328a histon road cb43ht. Would you like to book?",
+        "City Centre North B and B is just what you're looking for. It's a guesthouse with free wifi and parking at 328a histon road cb43ht. Would you like to book?"
+    ],
+    [
+        "hotel_inform(pricerange=\"cheap\")",
+        "Sure, it's a cheap hotel.",
+        "Sure, it's a cheap hotel."
+    ],
+    [
+        "hotel_inform(choice=\"19\")",
+        "Of course! There are 19 places that fit that description. Is there an area or price range that you prefer?",
+        "Of course! There are 19 places that fit that description. Is there an area or price range that you prefer?"
+    ],
+    [
+        "booking_inform()",
+        "Yes, there is a total of 6 places to stay in the North side of town. Would you like me to book you into one?",
+        "Yes, there is a total of 6 places to stay in the North side of town. Would you like me to book you into one?"
+    ],
+    [
+        "booking_inform()@hotel_inform(area=\"north\";choice=\"6\")",
+        "Yes, there is a total of 6 places to stay in the North side of town. Would you like me to book you into one?",
+        "Yes, there is a total of 6 places to stay in the North side of town. Would you like me to book you into one?"
+    ],
+    [
+        "hotel_inform(choice=\"6\")",
+        "Yes, there are 6 places that will meet your needs. I suggest the Kirkwood House. Would you like any more information about it?",
+        "Yes, there are 6 places that will meet your needs. I suggest the Kirkwood House. Would you like any more information about it?"
+    ],
+    [
+        "hotel_inform(choice=\"6\")@hotel_recommend(name=\"Kirkwood House\")",
+        "Yes, there are 6 places that will meet your needs. I suggest the Kirkwood House. Would you like any more information about it?",
+        "Yes, there are 6 places that will meet your needs. I suggest the Kirkwood House. Would you like any more information about it?"
+    ],
+    [
+        "hotel_inform(name=\"Kirkwood House\";postcode=\"cb41da\")",
+        "The postcode for Kirkwood House is cb41da. Is there anything else I can help you with?",
+        "The postcode for Kirkwood House is cb41da. Is there anything else I can help you with?"
+    ],
+    [
+        "hotel_inform(choice=\"4\";choice=\"two\";choice=\"two\";pricerange=\"cheap\";pricerange=\"expensive\";type=\"gueshouses\";type=\"hotels\")",
+        "I certainly can. I have 4 different options for you. I have two cheap gueshouses and two expensive hotels. Do you have a preference?",
+        "I certainly can. I have 4 different options for you. I have two cheap gueshouses and two expensive hotels. Do you have a preference?"
+    ],
+    [
+        "hotel_inform(choice=\"4\";choice=\"two\";choice=\"two\";pricerange=\"cheap\";pricerange=\"expensive\";type=\"gueshouses\";type=\"hotels\")@hotel_select()",
+        "I certainly can. I have 4 different options for you. I have two cheap gueshouses and two expensive hotels. Do you have a preference?",
+        "I certainly can. I have 4 different options for you. I have two cheap gueshouses and two expensive hotels. Do you have a preference?"
+    ],
+    [
+        "booking_inform()",
+        "How about the Alexander bed and breakfast, I can book it for you now if you like?",
+        "How about the Alexander bed and breakfast, I can book it for you now if you like?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"Alexander bed and breakfast\")",
+        "How about the Alexander bed and breakfast, I can book it for you now if you like?",
+        "How about the Alexander bed and breakfast, I can book it for you now if you like?"
+    ],
+    [
+        "booking_book(ref=\"EY36GH17\")",
+        "Your booking was and your reference number is EY36GH17 . Is there anything else you need help with today?",
+        "Your booking was and your reference number is EY36GH17 . Is there anything else you need help with today?"
+    ],
+    [
+        "hotel_inform(area=\"centre of town\";choice=\"3\";pricerange=\"expensive\";pricerange=\"moderate\";type=\"hotels\")",
+        "Ok. There are 3 hotels located in the centre of town. They are in the moderate and expensive price ranges. Do you have a preference?",
+        "Ok. There are 3 hotels located in the centre of town. They are in the moderate and expensive price ranges. Do you have a preference?"
+    ],
+    [
+        "hotel_inform(area=\"centre of town\";choice=\"3\";pricerange=\"expensive\";pricerange=\"moderate\";type=\"hotels\")@hotel_select()",
+        "Ok. There are 3 hotels located in the centre of town. They are in the moderate and expensive price ranges. Do you have a preference?",
+        "Ok. There are 3 hotels located in the centre of town. They are in the moderate and expensive price ranges. Do you have a preference?"
+    ],
+    [
+        "booking_inform()",
+        "The Gonville Hotel has 3 stars, and the University Arms Hotel has 4. Both meet your other criteria. Would you like to book a room at one of these?",
+        "The Gonville Hotel has 3 stars, and the University Arms Hotel has 4. Both meet your other criteria. Would you like to book a room at one of these?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"The Gonville Hotel\";name=\"University Arms Hotel\";stars=\"3\";stars=\"4\")",
+        "The Gonville Hotel has 3 stars, and the University Arms Hotel has 4. Both meet your other criteria. Would you like to book a room at one of these?",
+        "The Gonville Hotel has 3 stars, and the University Arms Hotel has 4. Both meet your other criteria. Would you like to book a room at one of these?"
+    ],
+    [
+        "booking_book(ref=\"SWVV72FS\")",
+        "Okay, your room is reserved. The reference number is SWVV72FS . Is there anything else I can help with?",
+        "Okay, your room is reserved. The reference number is SWVV72FS . Is there anything else I can help with?"
+    ],
+    [
+        "hotel_inform(choice=\"5\")",
+        "I have about 5 different ones all spread out over town. Do you have a certain preference on the area to stay in?",
+        "I have about 5 different ones all spread out over town. Do you have a certain preference on the area to stay in?"
+    ],
+    [
+        "hotel_inform(choice=\"9\";internet=\"yes\";pricerange=\"cheap\")",
+        "We have 9 guesthouse that are cheap with free wifi. Do you have any other specific needs?",
+        "We have 9 guesthouse that are cheap with free wifi. Do you have any other specific needs?"
+    ],
+    [
+        "booking_inform()",
+        "I think you'd enjoy the El Shaddai. Would you like to make a reservation?",
+        "I think you'd enjoy the El Shaddai. Would you like to make a reservation?"
+    ],
+    [
+        "booking_inform()@hotel_inform(name=\"El Shaddai\")",
+        "I think you'd enjoy the El Shaddai. Would you like to make a reservation?",
+        "I think you'd enjoy the El Shaddai. Would you like to make a reservation?"
+    ],
+    [
+        "booking_inform()",
+        "The El Shaddai is, indeed a cheaply priced guesthouse with free Wi-fi, according to our database. Perhaps they do both. May I make a reservation for you?",
+        "The El Shaddai is, indeed a cheaply priced guesthouse with free Wi-fi, according to our database. Perhaps they do both. May I make a reservation for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(internet=\"yes\";name=\"El Shaddai\";pricerange=\"cheap\";type=\"guesthouse\")",
+        "The El Shaddai is, indeed a cheaply priced guesthouse with free Wi-fi, according to our database. Perhaps they do both. May I make a reservation for you?",
+        "The El Shaddai is, indeed a cheaply priced guesthouse with free Wi-fi, according to our database. Perhaps they do both. May I make a reservation for you?"
+    ],
+    [
+        "booking_nobook()",
+        "Sorry, it is booked up then. Would you like to try a shorter stay?",
+        "Sorry, it is booked up then. Would you like to try a shorter stay?"
+    ],
+    [
+        "booking_nobook()",
+        "I apologize, there are not any cheap guesthouses available for your dates. Would you like to try a hotel or a shorter stay?",
+        "I apologize, there are not any cheap guesthouses available for your dates. Would you like to try a hotel or a shorter stay?"
+    ],
+    [
+        "booking_inform(ref=\"H02PSC79\")",
+        "I have booked you for alexander bed and breakfast. Reference number: H02PSC79 . Is there anything else you need?",
+        "I have booked you for alexander bed and breakfast. Reference number: H02PSC79 . Is there anything else you need?"
+    ],
+    [
+        "hotel_inform(address=\"63 milton road\")",
+        "Sure. It's at 63 milton road. Would you like the phone number?",
+        "Sure. It's at 63 milton road. Would you like the phone number?"
+    ],
+    [
+        "booking_book(ref=\"4R3BMWNK\")",
+        "Your reservation is all set. Your reference number is 4R3BMWNK .",
+        "Your reservation is all set. Your reference number is 4R3BMWNK ."
+    ],
+    [
+        "hotel_inform(choice=\"21\";parking=\"yes\";type=\"guesthouses\")",
+        "There are 21 guesthouses that have parking available. Is there a certain price range or part of the city you are interested in?",
+        "There are 21 guesthouses that have parking available. Is there a certain price range or part of the city you are interested in?"
+    ],
+    [
+        "hotel_select(pricerange=\"cheap\";pricerange=\"cheap\";type=\"guesthouse\";type=\"hotel\")",
+        "Do you want a cheap hotel or a cheap guesthouse?",
+        "Do you want a cheap hotel or a cheap guesthouse?"
+    ],
+    [
+        "hotel_recommend(name=\"Alexander Bed and Breakfast\")",
+        "How about Alexander Bed and Breakfast?",
+        "How about Alexander Bed and Breakfast?"
+    ],
+    [
+        "booking_book(ref=\"2V7EJVA7\")",
+        "Booked. Your reference number is 2V7EJVA7 . Is there anything else you need?",
+        "Booked. Your reference number is 2V7EJVA7 . Is there anything else you need?"
+    ],
+    [
+        "hotel_inform(address=\"52 Gilbert Road.\";name=\"Archway House\")",
+        "How about Archway House? It's located at 52 Gilbert Road.",
+        "How about Archway House? It's located at 52 Gilbert Road."
+    ],
+    [
+        "hotel_inform(area=\"north\";name=\"Archway House\";pricerange=\"moderate\")",
+        "Certainly! The Archway House is in the north area and has a moderate price range.",
+        "Certainly! The Archway House is in the north area and has a moderate price range."
+    ],
+    [
+        "hotel_inform(address=\"52 Gilbert Road.\")",
+        "It's located at 52 Gilbert Road.",
+        "It's located at 52 Gilbert Road."
+    ],
+    [
+        "hotel_inform(choice=\"11\";pricerange=\"moderately priced\";type=\"guest house\")",
+        "We have 11 guest houses which are moderately priced, but no hotels.",
+        "We have 11 guest houses which are moderately priced, but no hotels."
+    ],
+    [
+        "hotel_inform(name=\"Acorn guest house\")",
+        "Acorn guest house is available if that works for you.",
+        "Acorn guest house is available if that works for you."
+    ],
+    [
+        "booking_nobook()",
+        "I'm not able to book for those nights. Would you want to try a shorter stay?",
+        "I'm not able to book for those nights. Would you want to try a shorter stay?"
+    ],
+    [
+        "booking_book(bookstay=\"1\";ref=\"E45FQB5O\")",
+        "I was able to get you 1 night at the Acorn Ref# E45FQB5O . Can I help you with anything else today?",
+        "I was able to get you 1 night at the Acorn Ref# E45FQB5O . Can I help you with anything else today?"
+    ],
+    [
+        "booking_book(bookstay=\"1\";ref=\"E45FQB5O\")@hotel_inform(name=\"the Acorn\")",
+        "I was able to get you 1 night at the Acorn Ref# E45FQB5O . Can I help you with anything else today?",
+        "I was able to get you 1 night at the Acorn Ref# E45FQB5O . Can I help you with anything else today?"
+    ],
+    [
+        "hotel_inform(choice=\"four\";type=\"guesthouses\")",
+        "We have four such guesthouses. Do you have a preferred location?",
+        "We have four such guesthouses. Do you have a preferred location?"
+    ],
+    [
+        "booking_inform(name=\"Bridge Gue House\";name=\"Hamilton Lodge\";name=\"Hobsons House\")",
+        "Bridge Gue House, Hamilton Lodge, and Hobsons House are all available if you'd like one of those?",
+        "Bridge Gue House, Hamilton Lodge, and Hobsons House are all available if you'd like one of those?"
+    ],
+    [
+        "booking_inform(name=\"Bridge Gue House\";name=\"Hamilton Lodge\";name=\"Hobsons House\")@hotel_select()",
+        "Bridge Gue House, Hamilton Lodge, and Hobsons House are all available if you'd like one of those?",
+        "Bridge Gue House, Hamilton Lodge, and Hobsons House are all available if you'd like one of those?"
+    ],
+    [
+        "booking_nobook()",
+        "I'm sorry, my reservation attempt was unsuccessful. Will another day or length of stay work?",
+        "I'm sorry, my reservation attempt was unsuccessful. Will another day or length of stay work?"
+    ],
+    [
+        "booking_book(bookpeople=\"6\";bookstay=\"2\";ref=\"4WNGILMF\")",
+        "I've got you a reservation for 6 at Hobson's House for 2 nights. Your reference number is 4WNGILMF .",
+        "I've got you a reservation for 6 at Hobson's House for 2 nights. Your reference number is 4WNGILMF ."
+    ],
+    [
+        "hotel_inform(address=\"41 warkworth street\";area=\"centre\";internet=\"yes\";name=\"El Shaddai\";parking=\"yes\";phone=\"01223327978\";pricerange=\"cheap\";stars=\"0\";type=\"guesthouse\")",
+        "El Shaddai is a cheap guesthouse in the centre area. It has a 0 star rating and includes parking and wifi. It's located at 41 warkworth street. Phone number 01223327978.",
+        "El Shaddai is a cheap guesthouse in the centre area. It has a 0 star rating and includes parking and wifi. It's located at 41 warkworth street. Phone number 01223327978."
+    ],
+    [
+        "booking_nobook()",
+        "Booking was unfortunately unsuccessful. Can we try another day or a shorter stay?",
+        "Booking was unfortunately unsuccessful. Can we try another day or a shorter stay?"
+    ],
+    [
+        "booking_book(ref=\"820WCJZQ\")",
+        "That did the trick, your booking was successful and your reference number is 820WCJZQ . Is there anything else you need help with today?",
+        "That did the trick, your booking was successful and your reference number is 820WCJZQ . Is there anything else you need help with today?"
+    ],
+    [
+        "hotel_inform(name=\"Acorn guest house\";parking=\"yes\";pricerange=\"moderately\")",
+        "Acorn guest house has free parking and is moderately priced. Would you like more information?",
+        "Acorn guest house has free parking and is moderately priced. Would you like more information?"
+    ],
+    [
+        "hotel_inform(name=\"Ashley Hotel\";parking=\"yes\";pricerange=\"moderate\";stars=\"2\")",
+        "No it doesn't. But the Ashley Hotel has 2 stars and free parking. It is a moderate also.",
+        "No it doesn't. But the Ashley Hotel has 2 stars and free parking. It is a moderate also."
+    ],
+    [
+        "booking_inform()",
+        "Yes. The Ashley Hotel has both free wifi and parking. Would you like to make a reservation?",
+        "Yes. The Ashley Hotel has both free wifi and parking. Would you like to make a reservation?"
+    ],
+    [
+        "booking_inform()@hotel_inform(internet=\"yes\";name=\"The Ashley Hotel\";parking=\"yes\")",
+        "Yes. The Ashley Hotel has both free wifi and parking. Would you like to make a reservation?",
+        "Yes. The Ashley Hotel has both free wifi and parking. Would you like to make a reservation?"
+    ],
+    [
+        "hotel_inform(address=\"74 chesterton road\";name=\"The ashley hotel\")",
+        "The ashley hotel is located at 74 chesterton road. Would you like any other information about it?",
+        "The ashley hotel is located at 74 chesterton road. Would you like any other information about it?"
+    ],
+    [
+        "hotel_inform(postcode=\"cb41er\")",
+        "The postcode is cb41er. Can I help you with anything else?",
+        "The postcode is cb41er. Can I help you with anything else?"
+    ],
+    [
+        "hotel_inform(area=\"north\")",
+        "They are located in the north.",
+        "They are located in the north."
+    ],
+    [
+        "booking_inform()",
+        "The the cambridge belfry is a hotel in the west part of town in the cheap price range. Would you like me to book a room for you?",
+        "The the cambridge belfry is a hotel in the west part of town in the cheap price range. Would you like me to book a room for you?"
+    ],
+    [
+        "booking_inform()@hotel_inform(area=\"west\";name=\"The the cambridge belfry\";pricerange=\"cheap\";type=\"hotel\")",
+        "The the cambridge belfry is a hotel in the west part of town in the cheap price range. Would you like me to book a room for you?",
+        "The the cambridge belfry is a hotel in the west part of town in the cheap price range. Would you like me to book a room for you?"
+    ],
+    [
+        "booking_inform()",
+        "The Cambridge Belfry is cheap and includes free parking and wifi. Would you like to book a room?",
+        "The Cambridge Belfry is cheap and includes free parking and wifi. Would you like to book a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(internet=\"yes\";name=\"The Cambridge Belfry\";parking=\"yes\";pricerange=\"cheap\")",
+        "The Cambridge Belfry is cheap and includes free parking and wifi. Would you like to book a room?",
+        "The Cambridge Belfry is cheap and includes free parking and wifi. Would you like to book a room?"
+    ],
+    [
+        "hotel_inform(name=\"the Cambridge Belfry\";parking=\"yes\";pricerange=\"cheap\";stars=\"4\";type=\"hotel\")",
+        "Yes, the Cambridge Belfry is a cheap 4 star hotel that includes free parking.",
+        "Yes, the Cambridge Belfry is a cheap 4 star hotel that includes free parking."
+    ],
+    [
+        "booking_inform()",
+        "Yes, there is free internet provided. Would you like me to book a room?",
+        "Yes, there is free internet provided. Would you like me to book a room?"
+    ],
+    [
+        "booking_inform()@hotel_inform(internet=\"yes\")",
+        "Yes, there is free internet provided. Would you like me to book a room?",
+        "Yes, there is free internet provided. Would you like me to book a room?"
+    ],
+    [
+        "hotel_inform(choice=\"33\";parking=\"yes\";type=\"guesthouses\")",
+        "I've got 33 guesthouses that offer free parking, do you have any more preferences?",
+        "I've got 33 guesthouses that offer free parking, do you have any more preferences?"
+    ],
+    [
+        "hotel_inform(choice=\"2\";choice=\"3\";choice=\"five\";pricerange=\"cheap\";pricerange=\"moderate\";type=\"guesthouses\")",
+        "There are five guesthouses that offer free parking. 3 are cheap and 2 are moderate. Which pricerange do you prefer?",
+        "There are five guesthouses that offer free parking. 3 are cheap and 2 are moderate. Which pricerange do you prefer?"
+    ],
+    [
+        "hotel_inform(choice=\"2\";choice=\"3\";choice=\"five\";pricerange=\"cheap\";pricerange=\"moderate\";type=\"guesthouses\")@hotel_select()",
+        "There are five guesthouses that offer free parking. 3 are cheap and 2 are moderate. Which pricerange do you prefer?",
+        "There are five guesthouses that offer free parking. 3 are cheap and 2 are moderate. Which pricerange do you prefer?"
+    ],
+    [
+        "booking_inform()",
+        "I found allenbell to meet your needs. Would you like me to book that for you?",
+        "I found allenbell to meet your needs. Would you like me to book that for you?"
+    ],
+    [
+        "booking_inform()@hotel_recommend(name=\"allenbell\")",
+        "I found allenbell to meet your needs. Would you like me to book that for you?",
+        "I found allenbell to meet your needs. Would you like me to book that for you?"
+    ],
+    [
+        "hotel_inform(address=\"517a coldham lane\";phone=\"01223210353\";postcode=\"cb13js\")",
+        "Let me give you their phone number which is 01223210353. Allenbell's address is 517a coldham lane, cb13js. Is there anything else I can help you with?",
+        "Let me give you their phone number which is 01223210353. Allenbell's address is 517a coldham lane, cb13js. Is there anything else I can help you with?"
+    ],
+    [
+        "booking_inform()",
+        "I remind you that you can check-in in this guesthouse after 3:00 pm. You can leave your suitcases anytime.",
+        "I remind you that you can check-in in this guesthouse after 3:00 pm. You can leave your suitcases anytime."
+    ],
+    [
+        "booking_inform()@hotel_inform(type=\"guesthouse\")",
+        "I remind you that you can check-in in this guesthouse after 3:00 pm. You can leave your suitcases anytime.",
+        "I remind you that you can check-in in this guesthouse after 3:00 pm. You can leave your suitcases anytime."
+    ],
+    [
+        "hotel_inform(choice=\"29\")",
+        "There are 29 places that meet your needs. Do you have additional preferences such as lodging type, price range or area?",
+        "There are 29 places that meet your needs. Do you have additional preferences such as lodging type, price range or area?"
+    ],
+    [
+        "hotel_inform(choice=\"1\";choice=\"9\";type=\"guesthouses\";type=\"hotel\")",
+        "There are 9 guesthouses and 1 hotel that fall in that price range. Is there a particular part of town that you'd like to stay in?",
+        "There are 9 guesthouses and 1 hotel that fall in that price range. Is there a particular part of town that you'd like to stay in?"
+    ],
+    [
+        "booking_nobook()",
+        "Sorry I tried alexander bed and breakfast but it seems that they have all booked out at for these days. Do you want to change to another place?",
+        "Sorry I tried alexander bed and breakfast but it seems that they have all booked out at for these days. Do you want to change to another place?"
+    ],
+    [
+        "booking_nobook()@hotel_inform(name=\"alexander bed and breakfast\")",
+        "Sorry I tried alexander bed and breakfast but it seems that they have all booked out at for these days. Do you want to change to another place?",
+        "Sorry I tried alexander bed and breakfast but it seems that they have all booked out at for these days. Do you want to change to another place?"
+    ],
+    [
+        "booking_book(ref=\"YFLKM9UU\")",
+        "okay it went through. So you will be staying at the alexander bed and breakfast and your reference is YFLKM9UU . Can I help you with anything else today?",
+        "okay it went through. So you will be staying at the alexander bed and breakfast and your reference is YFLKM9UU . Can I help you with anything else today?"
+    ],
+    [
+        "booking_book(ref=\"YFLKM9UU\")@hotel_inform(name=\"alexander bed and breakfast\")",
+        "okay it went through. So you will be staying at the alexander bed and breakfast and your reference is YFLKM9UU . Can I help you with anything else today?",
+        "okay it went through. So you will be staying at the alexander bed and breakfast and your reference is YFLKM9UU . Can I help you with anything else today?"
+    ],
+    [
+        "hotel_inform(choice=\"5\")",
+        "We have 5 places that offer all of that. Any preference on star rating or area?",
+        "We have 5 places that offer all of that. Any preference on star rating or area?"
+    ],
+    [
+        "hotel_inform(name=\"the Allenbell\";stars=\"4\";type=\"guesthouse\")",
+        "Sure, the Allenbell is a 4 star guesthouse. Does that sound good?",
+        "Sure, the Allenbell is a 4 star guesthouse. Does that sound good?"
+    ],
+    [
+        "booking_book(ref=\"E8NPWA4B\")",
+        "I've made your reservation. The reference number is E8NPWA4B . What else can I help you with?",
+        "I've made your reservation. The reference number is E8NPWA4B . What else can I help you with?"
+    ]
+]

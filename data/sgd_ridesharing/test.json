@@ -1,0 +1,642 @@
+[
+    [
+        "CONFIRM(destination=\"770 San Ramon Valley Boulevard\";number_of_seats=\"1\";ride_type=\"Luxury\")",
+        "Please confirm: You need 1 seat for a Luxury ride to 770 San Ramon Valley Boulevard.",
+        "Please confirm: You need 1 seat for a Luxury ride to 770 San Ramon Valley Boulevard."
+    ],
+    [
+        "INFORM(wait_time=\"9\")",
+        "I booked your ride and the cab is expected to arrive in 9 minutes.",
+        "I booked your ride and the cab is expected to arrive in 9 minutes."
+    ],
+    [
+        "INFORM(wait_time=\"9\")@NOTIFY_SUCCESS()",
+        "I booked your ride and the cab is expected to arrive in 9 minutes.",
+        "I booked your ride and the cab is expected to arrive in 9 minutes."
+    ],
+    [
+        "INFORM(ride_fare=\"$16.88\")",
+        "The ride price is $16.88.",
+        "The ride price is $16.88."
+    ],
+    [
+        "CONFIRM(destination=\"660 Gail Avenue\";number_of_seats=\"2\";ride_type=\"Pool\")",
+        "Please confirm you would like a pool ride for 2 people to 660 Gail Avenue.",
+        "Please confirm you would like a pool ride for 2 people to 660 Gail Avenue."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your cab has been booked and is on its way here.",
+        "Your cab has been booked and is on its way here."
+    ],
+    [
+        "INFORM(ride_fare=\"$23.90\")",
+        "The ride will cost around $23.90.",
+        "The ride will cost around $23.90."
+    ],
+    [
+        "CONFIRM(destination=\"Gum Kuo\";number_of_seats=\"1\";ride_type=\"Pool\")",
+        "To confirm: You would like 1 seat on a Pool ride to Gum Kuo.",
+        "To confirm: You would like 1 seat on a Pool ride to Gum Kuo."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your ride is on it's way.",
+        "Your ride is on it's way."
+    ],
+    [
+        "INFORM(ride_fare=\"$6.22\")",
+        "It will be $6.22.",
+        "It will be $6.22."
+    ],
+    [
+        "INFORM(wait_time=\"5\")",
+        "It should arrive in 5 minutes.",
+        "It should arrive in 5 minutes."
+    ],
+    [
+        "CONFIRM(destination=\"226 Edelen Avenue\";number_of_seats=\"1\";ride_type=\"Pool\")",
+        "Okay, you want 1 seats going to 226 Edelen Avenue and you prefer Pool rie, please confirm.",
+        "Okay, you want 1 seats going to 226 Edelen Avenue and you prefer Pool rie, please confirm."
+    ],
+    [
+        "INFORM(wait_time=\"3\")",
+        "Ride is booked and it should be here in 3 minutes.",
+        "Ride is booked and it should be here in 3 minutes."
+    ],
+    [
+        "INFORM(wait_time=\"3\")@NOTIFY_SUCCESS()",
+        "Ride is booked and it should be here in 3 minutes.",
+        "Ride is booked and it should be here in 3 minutes."
+    ],
+    [
+        "CONFIRM(destination=\"2550 El Camino Real\";number_of_seats=\"2\";ride_type=\"Regular\")",
+        "Alright, can you please confirm that you would like to book a regular cab for 2 to 2550 El Camino Real.",
+        "Alright, can you please confirm that you would like to book a regular cab for 2 to 2550 El Camino Real."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "OK, the ride is booked and the cab is on its way to you.",
+        "OK, the ride is booked and the cab is on its way to you."
+    ],
+    [
+        "CONFIRM(destination=\"Lin Jia Asian Kitchen\";number_of_seats=\"1\";ride_type=\"Luxury\")",
+        "To be clear: 1 seat in Luxury cab ride going to Lin Jia Asian Kitchen.",
+        "To be clear: 1 seat in Luxury cab ride going to Lin Jia Asian Kitchen."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I booked your ride. Its coming now.",
+        "I booked your ride. Its coming now."
+    ],
+    [
+        "INFORM(ride_fare=\"$31.32\")",
+        "Your total will be $31.32.",
+        "Your total will be $31.32."
+    ],
+    [
+        "INFORM(wait_time=\"10\")",
+        "You only have to wait 10 minutes.",
+        "You only have to wait 10 minutes."
+    ],
+    [
+        "CONFIRM(destination=\"1270 Linford Lane\";number_of_seats=\"2\";ride_type=\"Luxury\")",
+        "Please confirm: a 2 seater Luxury cab to 1270 Linford Lane.",
+        "Please confirm: a 2 seater Luxury cab to 1270 Linford Lane."
+    ],
+    [
+        "INFORM(ride_fare=\"$42.40\";wait_time=\"8\")",
+        "The cost of the ride will be $42.40, and it will be there in 8 minutes. It's on it's way!",
+        "The cost of the ride will be $42.40, and it will be there in 8 minutes. It's on it's way!"
+    ],
+    [
+        "INFORM(ride_fare=\"$42.40\";wait_time=\"8\")@NOTIFY_SUCCESS()",
+        "The cost of the ride will be $42.40, and it will be there in 8 minutes. It's on it's way!",
+        "The cost of the ride will be $42.40, and it will be there in 8 minutes. It's on it's way!"
+    ],
+    [
+        "CONFIRM(destination=\"Kusakabe\";number_of_seats=\"2\";ride_type=\"Pool\")",
+        "Please confirm your reservation for a pool ride for 2 to Kusakabe.",
+        "Please confirm your reservation for a pool ride for 2 to Kusakabe."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your reservation has been made and the cab is on its way to you now.",
+        "Your reservation has been made and the cab is on its way to you now."
+    ],
+    [
+        "CONFIRM(destination=\"Capers Eat & Drink\";number_of_seats=\"4\";ride_type=\"Regular\")",
+        "You would like a Regular cab ride that seats 4 to Capers Eat & Drink, correct?",
+        "You would like a Regular cab ride that seats 4 to Capers Eat & Drink, correct?"
+    ],
+    [
+        "INFORM(wait_time=\"7\")",
+        "The cab is booked and on its way. The expected time is 7 minutes.",
+        "The cab is booked and on its way. The expected time is 7 minutes."
+    ],
+    [
+        "INFORM(wait_time=\"7\")@NOTIFY_SUCCESS()",
+        "The cab is booked and on its way. The expected time is 7 minutes.",
+        "The cab is booked and on its way. The expected time is 7 minutes."
+    ],
+    [
+        "INFORM(ride_fare=\"$47.16\")",
+        "The cost of the ride is $47.16.",
+        "The cost of the ride is $47.16."
+    ],
+    [
+        "CONFIRM(destination=\"7880 Wren Avenue\";number_of_seats=\"3\";ride_type=\"Regular\")",
+        "Kindly ensure that, you wish to go to 7880 Wren Avenue. Regular ride has been booked for 3 persons.",
+        "Kindly ensure that, you wish to go to 7880 Wren Avenue. Regular ride has been booked for 3 persons."
+    ],
+    [
+        "INFORM(ride_fare=\"$30.54\")",
+        "Your ride has been reserved and it is on its way. The cost is $30.54.",
+        "Your ride has been reserved and it is on its way. The cost is $30.54."
+    ],
+    [
+        "INFORM(ride_fare=\"$30.54\")@NOTIFY_SUCCESS()",
+        "Your ride has been reserved and it is on its way. The cost is $30.54.",
+        "Your ride has been reserved and it is on its way. The cost is $30.54."
+    ],
+    [
+        "CONFIRM(destination=\"Peacock Indian Cuisine\";number_of_seats=\"1\";ride_type=\"Regular\")",
+        "Confirming that you want a regular cab for 1 to Peacock Indian Cuisine?",
+        "Confirming that you want a regular cab for 1 to Peacock Indian Cuisine?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "OK, it's booked and on the way to you",
+        "OK, it's booked and on the way to you"
+    ],
+    [
+        "CONFIRM(destination=\"10544 San Pablo Avenue\";number_of_seats=\"4\";ride_type=\"Luxury\")",
+        "Can you please confirm that you want to have 4 seats for a Luxury ride to 10544 San Pablo Avenue?",
+        "Can you please confirm that you want to have 4 seats for a Luxury ride to 10544 San Pablo Avenue?"
+    ],
+    [
+        "INFORM(wait_time=\"13\";ride_fare=\"$52.72\")",
+        "Your requested cab is already on the way, and it should arrive to you in 13 minutes. The cost for this ride is $52.72",
+        "Your requested cab is already on the way, and it should arrive to you in 13 minutes. The cost for this ride is $52.72"
+    ],
+    [
+        "INFORM(wait_time=\"13\";ride_fare=\"$52.72\")@NOTIFY_SUCCESS()",
+        "Your requested cab is already on the way, and it should arrive to you in 13 minutes. The cost for this ride is $52.72",
+        "Your requested cab is already on the way, and it should arrive to you in 13 minutes. The cost for this ride is $52.72"
+    ],
+    [
+        "CONFIRM(destination=\"140 HOmer Avenue\";number_of_seats=\"2\";ride_type=\"Pool\")",
+        "Please confirm you would like a pool ride for 2 to 140 HOmer Avenue.",
+        "Please confirm you would like a pool ride for 2 to 140 HOmer Avenue."
+    ],
+    [
+        "CONFIRM(number_of_seats=\"2\";ride_type=\"Luxury\")",
+        "Please cofnirm you would like 2 seats on a luxury ride.",
+        "Please cofnirm you would like 2 seats on a luxury ride."
+    ],
+    [
+        "CONFIRM(destination=\"140 Homer Avenue\";number_of_seats=\"3\")",
+        "Please confirm you would like a ride for 3 people to 140 Homer Avenue.",
+        "Please confirm you would like a ride for 3 people to 140 Homer Avenue."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your cab has been booked and is on its way.",
+        "Your cab has been booked and is on its way."
+    ],
+    [
+        "INFORM(wait_time=\"11\")",
+        "Your wait time is approximately 11 minutes.",
+        "Your wait time is approximately 11 minutes."
+    ],
+    [
+        "CONFIRM(destination=\"Ariake\";number_of_seats=\"1\";ride_type=\"Pool\")",
+        "Okay, I'll recap it for you. You need to reach Ariake on a Pool ride for 1 person.",
+        "Okay, I'll recap it for you. You need to reach Ariake on a Pool ride for 1 person."
+    ],
+    [
+        "INFORM(wait_time=\"6\";ride_fare=\"$15.46\")",
+        "The ride will be there in 6 minutes and the sum to pay is $15.46",
+        "The ride will be there in 6 minutes and the sum to pay is $15.46"
+    ],
+    [
+        "INFORM(wait_time=\"6\";ride_fare=\"$15.46\")@NOTIFY_SUCCESS()",
+        "The ride will be there in 6 minutes and the sum to pay is $15.46",
+        "The ride will be there in 6 minutes and the sum to pay is $15.46"
+    ],
+    [
+        "CONFIRM(destination=\"4906 West El Camino Real # A\";number_of_seats=\"3\";ride_type=\"Pool\")",
+        "You prefer a Pool ride for 3 people to 4906 West El Camino Real # A.I'm right?",
+        "You prefer a Pool ride for 3 people to 4906 West El Camino Real # A.I'm right?"
+    ],
+    [
+        "INFORM(wait_time=\"8\")",
+        "Your ride was booked and the cab is on its way.Should arrive in 8 minutes.",
+        "Your ride was booked and the cab is on its way.Should arrive in 8 minutes."
+    ],
+    [
+        "INFORM(wait_time=\"8\")@NOTIFY_SUCCESS()",
+        "Your ride was booked and the cab is on its way.Should arrive in 8 minutes.",
+        "Your ride was booked and the cab is on its way.Should arrive in 8 minutes."
+    ],
+    [
+        "INFORM(ride_fare=\"$22.17\")",
+        "$22.17 is the total cost.",
+        "$22.17 is the total cost."
+    ],
+    [
+        "CONFIRM(destination=\"Newport Street Gallery\";number_of_seats=\"1\";ride_type=\"Pool\")",
+        "You want a Pool ride to Newport Street Gallery.This will be for 1 person.Is that okay for you?",
+        "You want a Pool ride to Newport Street Gallery.This will be for 1 person.Is that okay for you?"
+    ],
+    [
+        "INFORM(wait_time=\"4\")",
+        "The ride is booked and the cab is on its way.In 4 minutes is expected to arrive.",
+        "The ride is booked and the cab is on its way.In 4 minutes is expected to arrive."
+    ],
+    [
+        "INFORM(wait_time=\"4\")@NOTIFY_SUCCESS()",
+        "The ride is booked and the cab is on its way.In 4 minutes is expected to arrive.",
+        "The ride is booked and the cab is on its way.In 4 minutes is expected to arrive."
+    ],
+    [
+        "INFORM(ride_fare=\"$14.43\")",
+        "$14.43 is the cost for your ride.",
+        "$14.43 is the cost for your ride."
+    ],
+    [
+        "CONFIRM(destination=\"Bella Vista at Hilltop\";number_of_seats=\"4\";ride_type=\"Pool\")",
+        "Okay, let's confirm the details. You want to go to Bella Vista at Hilltop. You need 4 seats and you would prefer a pool ride.",
+        "Okay, let's confirm the details. You want to go to Bella Vista at Hilltop. You need 4 seats and you would prefer a pool ride."
+    ],
+    [
+        "INFORM(ride_fare=\"$19.00\")",
+        "I booked your ride and it should be on it's way. It will cost $19.00.",
+        "I booked your ride and it should be on it's way. It will cost $19.00."
+    ],
+    [
+        "INFORM(ride_fare=\"$19.00\")@NOTIFY_SUCCESS()",
+        "I booked your ride and it should be on it's way. It will cost $19.00.",
+        "I booked your ride and it should be on it's way. It will cost $19.00."
+    ],
+    [
+        "CONFIRM(destination=\"Museum of Astronomy and Related Sciences\";number_of_seats=\"1\";ride_type=\"Regular\")",
+        "Please confirm the following: You need a regular cab for 1 person to the Museum of Astronomy and Related Sciences.",
+        "Please confirm the following: You need a regular cab for 1 person to the Museum of Astronomy and Related Sciences."
+    ],
+    [
+        "INFORM(wait_time=\"2\")",
+        "The ride is booked and on its way. It will be arriving in approximately 2 minutes.",
+        "The ride is booked and on its way. It will be arriving in approximately 2 minutes."
+    ],
+    [
+        "INFORM(wait_time=\"2\")@NOTIFY_SUCCESS()",
+        "The ride is booked and on its way. It will be arriving in approximately 2 minutes.",
+        "The ride is booked and on its way. It will be arriving in approximately 2 minutes."
+    ],
+    [
+        "CONFIRM(destination=\"Astoria Park\";number_of_seats=\"4\";ride_type=\"Luxury\")",
+        "Please confirm the following details: You would like a Luxury ride for 4 to Astoria Park.",
+        "Please confirm the following details: You would like a Luxury ride for 4 to Astoria Park."
+    ],
+    [
+        "INFORM(wait_time=\"9\")",
+        "I have booked your ride and the cab is on its way. It's reported as being 9 minutes away.",
+        "I have booked your ride and the cab is on its way. It's reported as being 9 minutes away."
+    ],
+    [
+        "INFORM(wait_time=\"9\")@NOTIFY_SUCCESS()",
+        "I have booked your ride and the cab is on its way. It's reported as being 9 minutes away.",
+        "I have booked your ride and the cab is on its way. It's reported as being 9 minutes away."
+    ],
+    [
+        "CONFIRM(destination=\"1671 Willow Pass Road\";number_of_riders=\"2\";shared_ride=\"True\")",
+        "Please confirm the following details: Securing a shared ride cab for 2 people going to 1671 Willow Pass Road.",
+        "Please confirm the following details: Securing a shared ride cab for 2 people going to 1671 Willow Pass Road."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your ride is booked and on the way.",
+        "Your ride is booked and on the way."
+    ],
+    [
+        "CONFIRM(destination=\"Silvercrest Housing for Snrs\";number_of_riders=\"2\";shared_ride=\"True\")",
+        "Please confirm you want a shared ride for 2 people to Silvercrest Housing for Snrs.",
+        "Please confirm you want a shared ride for 2 people to Silvercrest Housing for Snrs."
+    ],
+    [
+        "INFORM(ride_fare=\"$11.33\")",
+        "The taxi is on the way and will cost $11.33.",
+        "The taxi is on the way and will cost $11.33."
+    ],
+    [
+        "INFORM(ride_fare=\"$11.33\")@NOTIFY_SUCCESS()",
+        "The taxi is on the way and will cost $11.33.",
+        "The taxi is on the way and will cost $11.33."
+    ],
+    [
+        "CONFIRM(destination=\"5801 Norris Canyon Road #200\";number_of_riders=\"3\";shared_ride=\"True\")",
+        "Please confirm: A shared ride for 3 people to 5801 Norris Canyon Road #200.",
+        "Please confirm: A shared ride for 3 people to 5801 Norris Canyon Road #200."
+    ],
+    [
+        "CONFIRM(destination=\"the Clover Theater\";shared_ride=\"True\")",
+        "Please confirm: A shared ride to the Clover Theater.",
+        "Please confirm: A shared ride to the Clover Theater."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your ride is on the way.",
+        "Your ride is on the way."
+    ],
+    [
+        "INFORM(ride_fare=\"$24.39\")",
+        "The price is $24.39.",
+        "The price is $24.39."
+    ],
+    [
+        "CONFIRM(destination=\"1850 El Camino Real\";number_of_riders=\"2\";shared_ride=\"True\")",
+        "Please confirm: A shared ride for 2 people to 1850 El Camino Real.",
+        "Please confirm: A shared ride for 2 people to 1850 El Camino Real."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your ride has been booked. The cab is on the way.",
+        "Your ride has been booked. The cab is on the way."
+    ],
+    [
+        "CONFIRM(destination=\"The Studio Museum in Harlem\";number_of_riders=\"1\";shared_ride=\"True\")",
+        "Please confirm the following: You want a cab ride for 1 person to The Studio Museum in Harlem. You want a shared ride.",
+        "Please confirm the following: You want a cab ride for 1 person to The Studio Museum in Harlem. You want a shared ride."
+    ],
+    [
+        "CONFIRM(destination=\"1621 Travis Boulevard #300\";number_of_riders=\"1\")",
+        "Please confirm the following: You want a cab ride for 1 person to 1621 Travis Boulevard #300.",
+        "Please confirm the following: You want a cab ride for 1 person to 1621 Travis Boulevard #300."
+    ],
+    [
+        "INFORM(ride_fare=\"$17.39\";approximate_ride_duration=\"17\")",
+        "Your ride is booked and the cab is on the way now. The ride costs $17.39 and the ride will last about 17 minutes.",
+        "Your ride is booked and the cab is on the way now. The ride costs $17.39 and the ride will last about 17 minutes."
+    ],
+    [
+        "INFORM(ride_fare=\"$17.39\";approximate_ride_duration=\"17\")@NOTIFY_SUCCESS()",
+        "Your ride is booked and the cab is on the way now. The ride costs $17.39 and the ride will last about 17 minutes.",
+        "Your ride is booked and the cab is on the way now. The ride costs $17.39 and the ride will last about 17 minutes."
+    ],
+    [
+        "CONFIRM(destination=\"1460 Halford Avenue\";number_of_riders=\"3\";shared_ride=\"True\")",
+        "Let me confirm the details. You'd like a shared ride for 3 people to 1460 Halford Avenue. Is this correct?",
+        "Let me confirm the details. You'd like a shared ride for 3 people to 1460 Halford Avenue. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your ride has been confirmed and is on it's way.",
+        "Your ride has been confirmed and is on it's way."
+    ],
+    [
+        "INFORM(ride_fare=\"$16.90\";approximate_ride_duration=\"19\")",
+        "It is a 19 minute ride and will total $16.90.",
+        "It is a 19 minute ride and will total $16.90."
+    ],
+    [
+        "CONFIRM(destination=\"Chengdu Style Restaurant\";number_of_riders=\"1\";shared_ride=\"True\")",
+        "Ok, I'll recap it for you. You need a shared ride to Chengdu Style Restaurant for 1 passenger.",
+        "Ok, I'll recap it for you. You need a shared ride to Chengdu Style Restaurant for 1 passenger."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "You got your seat, the car will be here any minute.",
+        "You got your seat, the car will be here any minute."
+    ],
+    [
+        "CONFIRM(destination=\"100 Van Ness Avenue\";number_of_riders=\"2\";shared_ride=\"True\")",
+        "You would like to get a cab to take 2 people to 100 Van Ness Avenue. Is this correct?",
+        "You would like to get a cab to take 2 people to 100 Van Ness Avenue. Is this correct?"
+    ],
+    [
+        "INFORM(ride_fare=\"$18.89\")",
+        "A cab has successfully been contacted and is on its way. The total cost will be $18.89.",
+        "A cab has successfully been contacted and is on its way. The total cost will be $18.89."
+    ],
+    [
+        "INFORM(ride_fare=\"$18.89\")@NOTIFY_SUCCESS()",
+        "A cab has successfully been contacted and is on its way. The total cost will be $18.89.",
+        "A cab has successfully been contacted and is on its way. The total cost will be $18.89."
+    ],
+    [
+        "CONFIRM(destination=\"140 New Montgomery Street #1\";number_of_riders=\"1\";shared_ride=\"True\")",
+        "Please confirm this: Your ride is to 140 New Montgomery Street #1 for one person. You want a shared ride",
+        "Please confirm this: Your ride is to 140 New Montgomery Street #1 for one person. You want a shared ride"
+    ],
+    [
+        "INFORM(ride_fare=\"$15.13\";approximate_ride_duration=\"17\")",
+        "Your can is booked and is on its way.It takes 17 minutes which costs $15.13",
+        "Your can is booked and is on its way.It takes 17 minutes which costs $15.13"
+    ],
+    [
+        "INFORM(ride_fare=\"$15.13\";approximate_ride_duration=\"17\")@NOTIFY_SUCCESS()",
+        "Your can is booked and is on its way.It takes 17 minutes which costs $15.13",
+        "Your can is booked and is on its way.It takes 17 minutes which costs $15.13"
+    ],
+    [
+        "CONFIRM(destination=\"185 Estancia drive\";number_of_riders=\"2\";shared_ride=\"True\")",
+        "Confirming you want a shared ride for 2 to 185 Estancia drive",
+        "Confirming you want a shared ride for 2 to 185 Estancia drive"
+    ],
+    [
+        "CONFIRM(number_of_riders=\"1\";shared_ride=\"True\")",
+        "So 1 shared ride yes?",
+        "So 1 shared ride yes?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your cab is booked and on the way",
+        "Your cab is booked and on the way"
+    ],
+    [
+        "CONFIRM(destination=\"Chili's Grill & Bar\";number_of_riders=\"4\";shared_ride=\"True\")",
+        "Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar.",
+        "Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar."
+    ],
+    [
+        "CONFIRM(destination=\"SS United States\";number_of_riders=\"3\")",
+        "Please confirm to book a cab for 3 persons to SS United States.",
+        "Please confirm to book a cab for 3 persons to SS United States."
+    ],
+    [
+        "INFORM(ride_fare=\"$28.04\";approximate_ride_duration=\"20\")",
+        "Your cab was booked successfully and the cost for that ride is $28.04 and it will lost about 20 minutes. Is that okay?",
+        "Your cab was booked successfully and the cost for that ride is $28.04 and it will lost about 20 minutes. Is that okay?"
+    ],
+    [
+        "INFORM(ride_fare=\"$28.04\";approximate_ride_duration=\"20\")@NOTIFY_SUCCESS()",
+        "Your cab was booked successfully and the cost for that ride is $28.04 and it will lost about 20 minutes. Is that okay?",
+        "Your cab was booked successfully and the cost for that ride is $28.04 and it will lost about 20 minutes. Is that okay?"
+    ],
+    [
+        "CONFIRM(destination=\"San Francisco\";number_of_riders=\"2\";shared_ride=\"True\")",
+        "Can you please confirm that you want a cab for 2 people with whom you are going to share it and your destination will be San Francisco.",
+        "Can you please confirm that you want a cab for 2 people with whom you are going to share it and your destination will be San Francisco."
+    ],
+    [
+        "CONFIRM(number_of_riders=\"1\";shared_ride=\"True\")",
+        "Can you please confirm that you need a cab for 1 person and for your ride to be a shared one.",
+        "Can you please confirm that you need a cab for 1 person and for your ride to be a shared one."
+    ],
+    [
+        "INFORM(ride_fare=\"$10.09\";approximate_ride_duration=\"15\")",
+        "The booking of your car has been made is on the way. The cab ride will be costing you $10.09 and it will last for 15 minutes.",
+        "The booking of your car has been made is on the way. The cab ride will be costing you $10.09 and it will last for 15 minutes."
+    ],
+    [
+        "INFORM(ride_fare=\"$10.09\";approximate_ride_duration=\"15\")@NOTIFY_SUCCESS()",
+        "The booking of your car has been made is on the way. The cab ride will be costing you $10.09 and it will last for 15 minutes.",
+        "The booking of your car has been made is on the way. The cab ride will be costing you $10.09 and it will last for 15 minutes."
+    ],
+    [
+        "CONFIRM(destination=\"1698 Bonanza Street\";number_of_riders=\"1\";shared_ride=\"True\")",
+        "You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct?",
+        "You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct?"
+    ],
+    [
+        "CONFIRM(destination=\"Vineyard Meadows Apartments\";number_of_riders=\"1\")",
+        "Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct?",
+        "Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your cab is on it's way.",
+        "Your cab is on it's way."
+    ],
+    [
+        "CONFIRM(destination=\"2100 Avy Avenue\";number_of_riders=\"3\";shared_ride=\"True\")",
+        "You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct?",
+        "You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Was booked and the cab is on its way.",
+        "Was booked and the cab is on its way."
+    ],
+    [
+        "CONFIRM(destination=\"770 9th Avenue\";number_of_riders=\"2\";shared_ride=\"True\")",
+        "Just to make sure, you want a shared ride for 2 people going to 770 9th Avenue.",
+        "Just to make sure, you want a shared ride for 2 people going to 770 9th Avenue."
+    ],
+    [
+        "CONFIRM(number_of_riders=\"1\";shared_ride=\"True\")",
+        "Just to make sure, you want a shared ride for 1 person.",
+        "Just to make sure, you want a shared ride for 1 person."
+    ],
+    [
+        "INFORM(ride_fare=\"$9.61\";approximate_ride_duration=\"29\")",
+        "Your $9.61 cab in on its way with a 29 minute travel time to your destination.",
+        "Your $9.61 cab in on its way with a 29 minute travel time to your destination."
+    ],
+    [
+        "INFORM(ride_fare=\"$9.61\";approximate_ride_duration=\"29\")@NOTIFY_SUCCESS()",
+        "Your $9.61 cab in on its way with a 29 minute travel time to your destination.",
+        "Your $9.61 cab in on its way with a 29 minute travel time to your destination."
+    ],
+    [
+        "CONFIRM(destination=\"453 Fleming Avenue East\";number_of_riders=\"1\";shared_ride=\"True\")",
+        "A cab for 1 people to go to 453 Fleming Avenue East. A shared ride. Do you confirm?",
+        "A cab for 1 people to go to 453 Fleming Avenue East. A shared ride. Do you confirm?"
+    ],
+    [
+        "INFORM(ride_fare=\"$9.40\";approximate_ride_duration=\"12\")",
+        "About 12 minutes. It costs $9.40. Your ride is booked",
+        "About 12 minutes. It costs $9.40. Your ride is booked"
+    ],
+    [
+        "INFORM(ride_fare=\"$9.40\";approximate_ride_duration=\"12\")@NOTIFY_SUCCESS()",
+        "About 12 minutes. It costs $9.40. Your ride is booked",
+        "About 12 minutes. It costs $9.40. Your ride is booked"
+    ],
+    [
+        "CONFIRM(destination=\"National Gallery of Modern Art\";number_of_riders=\"3\";shared_ride=\"True\")",
+        "Okay! Lemme check.... You are looking for a shared ride to go to National Gallery of Modern Art and 3 of you will be travelling. Is that right?",
+        "Okay! Lemme check.... You are looking for a shared ride to go to National Gallery of Modern Art and 3 of you will be travelling. Is that right?"
+    ],
+    [
+        "CONFIRM(number_of_riders=\"1\";shared_ride=\"True\")",
+        "Sure! So, the shared ride would be for 1 people, right?",
+        "Sure! So, the shared ride would be for 1 people, right?"
+    ],
+    [
+        "INFORM(ride_fare=\"$14.92\")",
+        "You have to pay $14.92 for the ride. Your cab is booked and its on the way.",
+        "You have to pay $14.92 for the ride. Your cab is booked and its on the way."
+    ],
+    [
+        "INFORM(ride_fare=\"$14.92\")@NOTIFY_SUCCESS()",
+        "You have to pay $14.92 for the ride. Your cab is booked and its on the way.",
+        "You have to pay $14.92 for the ride. Your cab is booked and its on the way."
+    ],
+    [
+        "CONFIRM(destination=\"California State Capitol Museum\";number_of_riders=\"1\";shared_ride=\"True\")",
+        "I just need you to confirm the details I have before I proceed with acquiring you a cab. You will need a ride for 1 person to the California State Capitol Museum. Is that correct?",
+        "I just need you to confirm the details I have before I proceed with acquiring you a cab. You will need a ride for 1 person to the California State Capitol Museum. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I was able to confirm a ride for you and they are currently on their way to you.",
+        "I was able to confirm a ride for you and they are currently on their way to you."
+    ],
+    [
+        "CONFIRM(destination=\"Mathilda Garden Apartments\";number_of_riders=\"2\";shared_ride=\"True\")",
+        "So, you want to go on a shared ride for 2 people to Mathilda Garden Apartments?",
+        "So, you want to go on a shared ride for 2 people to Mathilda Garden Apartments?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have booked your ride and the cab will be here shortly.",
+        "I have booked your ride and the cab will be here shortly."
+    ],
+    [
+        "CONFIRM(destination=\"1700 Laguna Street\";number_of_riders=\"2\";shared_ride=\"True\")",
+        "Please confirm to book a cab with shared ride to 1700 Laguna Street for 2 persons.",
+        "Please confirm to book a cab with shared ride to 1700 Laguna Street for 2 persons."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have made the booking and your cab will reach you at any time.",
+        "I have made the booking and your cab will reach you at any time."
+    ],
+    [
+        "INFORM(approximate_ride_duration=\"8\")",
+        "It will take 8 minutes to reach your destination.",
+        "It will take 8 minutes to reach your destination."
+    ],
+    [
+        "INFORM(ride_fare=\"$15.90\")",
+        "for your information, the cost is $15.90",
+        "for your information, the cost is $15.90"
+    ],
+    [
+        "CONFIRM(destination=\"2050 Broadway\";number_of_riders=\"3\";shared_ride=\"True\")",
+        "Please confirm to book a cab with shared ride for 3 persons to 2050 Broadway.",
+        "Please confirm to book a cab with shared ride for 3 persons to 2050 Broadway."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your booking was successfully confirmed and your cab is on the way to your place.",
+        "Your booking was successfully confirmed and your cab is on the way to your place."
+    ],
+    [
+        "CONFIRM(destination=\"1100 Foster Square Lane #150\";number_of_riders=\"1\";shared_ride=\"True\")",
+        "You want a shared cab for 1 person with destination 1100 Foster Square Lane #150?",
+        "You want a shared cab for 1 person with destination 1100 Foster Square Lane #150?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have made the booking and the cab will arrive shortly.",
+        "I have made the booking and the cab will arrive shortly."
+    ],
+    [
+        "INFORM(ride_fare=\"$14.78\";approximate_ride_duration=\"16\")",
+        "The price is $14.78 and the duration of the trip is 16 minutes.",
+        "The price is $14.78 and the duration of the trip is 16 minutes."
+    ]
+]

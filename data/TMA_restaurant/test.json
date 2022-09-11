@@ -1,0 +1,1667 @@
+[
+    [
+        "restaurant_reservation(name_restaurant=\"i love teriyaki\")",
+        "ok, let me find some options for you. i found shoki ramen house and i love teriyaki, would you like to hear more about each option?",
+        "ok, let me find some options for you. i found shoki ramen house and i love teriyaki, would you like to hear more about each option?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"franciscan crab restaurant\")",
+        "i found a few options, woodhouse fish company and franciscan crab restaurant, do any of these seem good?",
+        "i found a few options, woodhouse fish company and franciscan crab restaurant, do any of these seem good?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"franciscan crab restaurant\")",
+        "sure, the first options is woodhouse fish company, the second is franciscan crab restaurant.",
+        "sure, the first options is woodhouse fish company, the second is franciscan crab restaurant."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"franciscan\")",
+        "woodhouse is rated at 4.4 out of 5 and franciscan is at 4.2 out of 5.",
+        "woodhouse is rated at 4.4 out of 5 and franciscan is at 4.2 out of 5."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"franciscan\";location_restaurant_accept=\"downtown\";location_restaurant=\"pier\")",
+        "woodhouse is located in downtown and franciscan is near the pier.",
+        "woodhouse is located in downtown and franciscan is near the pier."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"woodhouse\";type_seating_reject=\"outdoor\";type_seating=\"franciscan\")",
+        "it looks like woodhouse has a few outdoor seats but franciscan does not have outdoor seating but they have large windows with view of the bay.",
+        "it looks like woodhouse has a few outdoor seats but franciscan does not have outdoor seating but they have large windows with view of the bay."
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"7:30\";name_restaurant_accept=\"woodhouse fish company\";num_guests_accept=\"4\")",
+        "ok, i have made a reservation for 7:30 tonight at woodhouse fish company, table for 4 with 1 booster seat, is that correct?",
+        "ok, i have made a reservation for 7:30 tonight at woodhouse fish company, table for 4 with 1 booster seat, is that correct?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mama Ji's\")",
+        "Got it, one moment. So I found Z & Y Restaurant, Fang, and Mama Ji's.",
+        "Got it, one moment. So I found Z & Y Restaurant, Fang, and Mama Ji's."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mama Ji's\")",
+        "Mama Ji's.",
+        "Mama Ji's."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mama Ji's\")",
+        "Also Mama Ji's but they're all roughly the same.",
+        "Also Mama Ji's but they're all roughly the same."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mama Ji's\")",
+        "It looks like Mama Ji's also has the biggest menu variety.",
+        "It looks like Mama Ji's also has the biggest menu variety."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"booth\")",
+        "any notes for the reservation? Like birthday, or booth preferred?",
+        "any notes for the reservation? Like birthday, or booth preferred?"
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"4\";name_restaurant_accept=\"Mama Ji's\";time_reservation_accept=\"6pm tomorrow\";type_seating_accept=\"booth seating\")",
+        "So I have a table for 4 people at Mama Ji's for 6pm tomorrow, booth seating preferred, right?",
+        "So I have a table for 4 people at Mama Ji's for 6pm tomorrow, booth seating preferred, right?"
+    ],
+    [
+        "pizza_ordering(location_store=\"sacramento\")",
+        "where in sacramento are you?",
+        "where in sacramento are you?"
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "ok, where in sacramento?",
+        "ok, where in sacramento?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"tahnk house bbq and bar\")",
+        "i found buckhorn grill and tahnk house bbq and bar, would you like to hear more about each option?",
+        "i found buckhorn grill and tahnk house bbq and bar, would you like to hear more about each option?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"buckhorn grill\")",
+        "ok, do you need to know anything else about buckhorn grill?",
+        "ok, do you need to know anything else about buckhorn grill?"
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento california\")",
+        "find a place to eat in sacramento california right.",
+        "find a place to eat in sacramento california right."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mulvaney's B&L\")",
+        "yes Mulvaney's B&L serves alcohol.",
+        "yes Mulvaney's B&L serves alcohol."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Squeeze Burger, they\";type_seating_reject=\"outdoor seating.\")",
+        "the first one is Squeeze Burger, they do not have outdoor seating.",
+        "the first one is Squeeze Burger, they do not have outdoor seating."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"Mulvaney's B&L\")",
+        "Mulvaney's B&L sure, what information can i provide for you?",
+        "Mulvaney's B&L sure, what information can i provide for you?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"rooh\")",
+        "one moment while i search for you. ok, i found 2 options for you. tara indian cuisine and rooh.",
+        "one moment while i search for you. ok, i found 2 options for you. tara indian cuisine and rooh."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"tara indian cuisine's\")",
+        "tara indian cuisine's dishes are typically under 15 dollars.",
+        "tara indian cuisine's dishes are typically under 15 dollars."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"tara\";location_restaurant_accept=\"2217 market street.\")",
+        "tara is on 2217 market street.",
+        "tara is on 2217 market street."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"rooh\";location_restaurant=\"333 brannan street.\")",
+        "rooh is on 333 brannan street.",
+        "rooh is on 333 brannan street."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"tara\")",
+        "tara has a lunch buffet but not for dinner.",
+        "tara has a lunch buffet but not for dinner."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"4\";name_restaurant_accept=\"tara's indian cuisine\";time_reservation_accept=\"tomorrow at 7 pm\")",
+        "give me one moment while i check for you. ok, i have booked a table for 4 at tara's indian cuisine for tomorrow at 7 pm.",
+        "give me one moment while i check for you. ok, i have booked a table for 4 at tara's indian cuisine for tomorrow at 7 pm."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"mugubkoka restaurant\")",
+        "got it, let me find a few options for you. ok, i found han kwan and mugubkoka restaurant, would you like to hear more about each restaurant?",
+        "got it, let me find a few options for you. ok, i found han kwan and mugubkoka restaurant, would you like to hear more about each restaurant?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"mugubokoka restaurant\")",
+        "ok, you would like to make a reservation at mugubokoka restaurant?",
+        "ok, you would like to make a reservation at mugubokoka restaurant?"
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"3\";name_restaurant_accept=\"mugubokoka restaurant\";time_reservation_accept=\"3pm\")",
+        "ok, i have made a reservation for 3 people at mugubokoka restaurant for tomorrow at 3pm, is that correct?",
+        "ok, i have made a reservation for 3 people at mugubokoka restaurant for tomorrow at 3pm, is that correct?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"the italian homemade company\")",
+        "cotogna is one option. Popular eatery serving spit-roasted and grilled meat & fish, wood-fired pizza and house-made pasta. the second option that meets your preferences is the italian homemade company.",
+        "cotogna is one option. Popular eatery serving spit-roasted and grilled meat & fish, wood-fired pizza and house-made pasta. the second option that meets your preferences is the italian homemade company."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"cotogna\")",
+        "Italian deli & market offering housemade pasta, imported cheese, charcuterie & more in homey digs. cotogna is 2 dollar signs, meaning meals average $20 per person.",
+        "Italian deli & market offering housemade pasta, imported cheese, charcuterie & more in homey digs. cotogna is 2 dollar signs, meaning meals average $20 per person."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"the italian homemade company\")",
+        "the italian homemade company has 592 reviews and a 4.6 star rating.",
+        "the italian homemade company has 592 reviews and a 4.6 star rating."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"cotogna\")",
+        "ok, cotogna it is. when do you want me to book this reservation?",
+        "ok, cotogna it is. when do you want me to book this reservation?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"cotogna\";time_reservation_accept=\"5 pm\")",
+        "reservation at cotogna for tomorrow at 5 pm is available. how many people are in the party total?",
+        "reservation at cotogna for tomorrow at 5 pm is available. how many people are in the party total?"
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"So that's a meal for 4 p\";num_guests=\"4 people\")",
+        "So that's a meal for 4 people at 4pm",
+        "So that's a meal for 4 people at 4pm"
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "what area of sacramento should i help search in.",
+        "what area of sacramento should i help search in."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"crepeville\")",
+        "ok, let me look for some options. one moment please. i found a few options. the first is buckhorn grill. Family-friendly chain offering large portions of steaks, sandwiches, burgers & other American fare. the second is called jack's urban eats. Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine. and the third is crepeville. Busy counter-serve eatery offering an array of sweet & savory crepes & casual fare in a roomy space.",
+        "ok, let me look for some options. one moment please. i found a few options. the first is buckhorn grill. Family-friendly chain offering large portions of steaks, sandwiches, burgers & other American fare. the second is called jack's urban eats. Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine. and the third is crepeville. Busy counter-serve eatery offering an array of sweet & savory crepes & casual fare in a roomy space."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"jack's urban\")",
+        "jack's urban eats does have a children's menu?",
+        "jack's urban eats does have a children's menu?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"crepeville\")",
+        "crepeville does have a couple vegan menu items according to the google reviews.",
+        "crepeville does have a couple vegan menu items according to the google reviews."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Jack's Urban Eats\")",
+        "it's called Jack's Urban Eats.",
+        "it's called Jack's Urban Eats."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"Sac\")",
+        "Sure, where in Sac?",
+        "Sure, where in Sac?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"La Garnacha Mexican Food\")",
+        "Alright, give me a moment to see what you might like. I'd say the best option is La Garnacha Mexican Food, an establishment that's open 24hr a day.",
+        "Alright, give me a moment to see what you might like. I'd say the best option is La Garnacha Mexican Food, an establishment that's open 24hr a day."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"mid-town taqueria\")",
+        "let's see, mid-town taqueria does not show a kids menu.",
+        "let's see, mid-town taqueria does not show a kids menu."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"La Garnacha Mexican Food\")",
+        "La Garnacha Mexican Food is rated at 3.8 stars on google.",
+        "La Garnacha Mexican Food is rated at 3.8 stars on google."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"The Old Spaghetti Factory\")",
+        "The first option is The Old Spaghetti Factory, Family-friendly chain eatery featuring traditional Italian entrees amid turn-of-the-century decor.",
+        "The first option is The Old Spaghetti Factory, Family-friendly chain eatery featuring traditional Italian entrees amid turn-of-the-century decor."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Pronto\")",
+        "We also have Pronto.",
+        "We also have Pronto."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Tropisue\u00f1o\")",
+        "Excellent. One moment please. I'll find a few options. So I found a few options, the better one is Don PIstos which has a higher rating, the second one is Tropisue\u00f1o.",
+        "Excellent. One moment please. I'll find a few options. So I found a few options, the better one is Don PIstos which has a higher rating, the second one is Tropisue\u00f1o."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Nopalito\")",
+        "Nopalito.",
+        "Nopalito."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"3\";name_restaurant_accept=\"Nopalitos\";time_reservation_accept=\"2pm\";type_seating_accept=\"table seating\")",
+        "SO that's 3 people at Nopalitos at 2pm right with table seating preferred? Any reservation notes?",
+        "SO that's 3 people at Nopalitos at 2pm right with table seating preferred? Any reservation notes?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Nara\")",
+        "Nara would be the most romantic.",
+        "Nara would be the most romantic."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2\";name_restaurant_accept=\"Nara\";time_reservation_accept=\"8pm tomorrow night.\")",
+        "So that's a table for 2 at Nara at 8pm tomorrow night.",
+        "So that's a table for 2 at Nara at 8pm tomorrow night."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "hi, how can i help you? ok, what part of sacramento?",
+        "hi, how can i help you? ok, what part of sacramento?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"esquire grill\")",
+        "i found buckhorn grill, tank house bbq and beer, and esquire grill, would you like to hear more about each option?",
+        "i found buckhorn grill, tank house bbq and beer, and esquire grill, would you like to hear more about each option?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"buckhorn grill\")",
+        "ok, did you need to know anything else about buckhorn grill?",
+        "ok, did you need to know anything else about buckhorn grill?"
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "which part of sacramento are you in?",
+        "which part of sacramento are you in?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"gam le sing\")",
+        "gam le sing has a 4.6 star rating and over 120 reviews on google.",
+        "gam le sing has a 4.6 star rating and over 120 reviews on google."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"tea cup house\")",
+        "tea cup house has a 4.2 star rating and over 190 reviews on google.",
+        "tea cup house has a 4.2 star rating and over 190 reviews on google."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Gam Le Sing Chinese Restaurant\")",
+        "Gam Le Sing Chinese Restaurant it is. did you need any other information about this place.",
+        "Gam Le Sing Chinese Restaurant it is. did you need any other information about this place."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Sushi Hon\";type_seating_accept=\"seat indoors\")",
+        "Great, one moment please. So Robin, Okoze Sushi, and Sushi Hon all look to fit your request. they each have great reviews and only seat indoors.",
+        "Great, one moment please. So Robin, Okoze Sushi, and Sushi Hon all look to fit your request. they each have great reviews and only seat indoors."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"4\";name_restaurant_accept=\"Robin\";time_reservation_accept=\"tomorrow at 7 pm\")",
+        "SO that's a table for 4 at Robin for tomorrow at 7 pm.",
+        "SO that's a table for 4 at Robin for tomorrow at 7 pm."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Chili's Grill & Bar\")",
+        "sure, i can search that for you? i found Dos Coyotes Border Cafe: Colorful local chain cafe serving Mexican & Southwestern favorites, salsa & seasonal specials, Kico's Mexican Food, Traditional fare (tacos, enchiladas & quesadillas) & margaritas served in a colorful, casual setup. and Chili's Grill & Bar: Family-friendly chain serving classic Tex-Mex & American fare in a Southwestern-style setting.",
+        "sure, i can search that for you? i found Dos Coyotes Border Cafe: Colorful local chain cafe serving Mexican & Southwestern favorites, salsa & seasonal specials, Kico's Mexican Food, Traditional fare (tacos, enchiladas & quesadillas) & margaritas served in a colorful, casual setup. and Chili's Grill & Bar: Family-friendly chain serving classic Tex-Mex & American fare in a Southwestern-style setting."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Dos Coyotes Border Cafe.\")",
+        "Dos Coyotes Border Cafe.",
+        "Dos Coyotes Border Cafe."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Kico's Mexican Food.\")",
+        "Kico's Mexican Food.",
+        "Kico's Mexican Food."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"Kico's Mexican Food.\")",
+        "correct, Kico's Mexican Food.",
+        "correct, Kico's Mexican Food."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"memphis southern kitchen\")",
+        "ok, let me find some options for you, one moment. i found cafe europa and memphis southern kitchen, would you like to hear more about each option?",
+        "ok, let me find some options for you, one moment. i found cafe europa and memphis southern kitchen, would you like to hear more about each option?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"memphis southern kitchen\")",
+        "cafe europa is described as a Comfy, counter-serve outpost offering Greek & American eats like gyros, burgers, falafel & kebabs. memphis southern kitchen serves casual comfort food and is a place to grab quick bites.",
+        "cafe europa is described as a Comfy, counter-serve outpost offering Greek & American eats like gyros, burgers, falafel & kebabs. memphis southern kitchen serves casual comfort food and is a place to grab quick bites."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"cafe europa\")",
+        "it looks like cafe europa is quieter and there is only a small crowd usually at this time.",
+        "it looks like cafe europa is quieter and there is only a small crowd usually at this time."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"cafe europa\")",
+        "great, do you need to know anything else about cafe europa?",
+        "great, do you need to know anything else about cafe europa?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"acquerello\")",
+        "sure, i found seven hills and acquerello, would you like to hear more about each?",
+        "sure, i found seven hills and acquerello, would you like to hear more about each?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"acquerello\")",
+        "seven hills is described as a Lively Italian eatery serving farm-to-table Roman fare with an inventive twist in a candlelit space. acquerello is described as a High-end Italian cuisine & wines served in a converted chapel with vaulted, wood-beam ceilings.",
+        "seven hills is described as a Lively Italian eatery serving farm-to-table Roman fare with an inventive twist in a candlelit space. acquerello is described as a High-end Italian cuisine & wines served in a converted chapel with vaulted, wood-beam ceilings."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"seven hills\")",
+        "seven hills is rated at 3 out of 5 stars in terms or price so typically in the 25-40 range and acquerello is rated at 4 out of 5 stars so typically 40-60.",
+        "seven hills is rated at 3 out of 5 stars in terms or price so typically in the 25-40 range and acquerello is rated at 4 out of 5 stars so typically 40-60."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2\";name_restaurant_accept=\"acquerello\";time_reservation_accept=\"6pm\")",
+        "ok, i have booked a table for 2 at acquerello for tomorrow night at 6pm. Can i help with anything else?",
+        "ok, i have booked a table for 2 at acquerello for tomorrow night at 6pm. Can i help with anything else?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Acquiolo\")",
+        "One is New Delhi Indian Food and the other is Acquiolo.",
+        "One is New Delhi Indian Food and the other is Acquiolo."
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"1 pm\";num_guests_accept=\"6\";name_restaurant_accept=\"New Delhi Indian Restaurant\")",
+        "Alright, one moment. I have a reservation for Tuesday, the 15th at 1 pm for 6 people at New Delhi Indian Restaurant. Is this correct?",
+        "Alright, one moment. I have a reservation for Tuesday, the 15th at 1 pm for 6 people at New Delhi Indian Restaurant. Is this correct?"
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"arden fair mall\")",
+        "arden fair mall is that correct?",
+        "arden fair mall is that correct?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"The Mandarin Restaurant\")",
+        "we have the The Mandarin Restaurant, Family-run establishment serving classic Chinese dishes.",
+        "we have the The Mandarin Restaurant, Family-run establishment serving classic Chinese dishes."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Teriyaki Grill\")",
+        "we have Teriyaki Grill, japanese express food.",
+        "we have Teriyaki Grill, japanese express food."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Panda Express\")",
+        "we have Panda Express fast food chain for chinese standard.",
+        "we have Panda Express fast food chain for chinese standard."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"mandarin restaurant\")",
+        "yes, mandarin restaurant is family owned.",
+        "yes, mandarin restaurant is family owned."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"panda express\")",
+        "yes the rating for panda express in sacramento is 3.6 stars.",
+        "yes the rating for panda express in sacramento is 3.6 stars."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"mandarin restaurant\")",
+        "ok sure, the mandarin restaurant correct?",
+        "ok sure, the mandarin restaurant correct?"
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento would\")",
+        "Sure, where in sacramento would you like me to look for them?",
+        "Sure, where in sacramento would you like me to look for them?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Charleys Philly steaks\")",
+        "the first three are, 1st Sbarro, then 2nd Charleys Philly steaks, and then 3rd Pluto's.",
+        "the first three are, 1st Sbarro, then 2nd Charleys Philly steaks, and then 3rd Pluto's."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Sbarro\";location_restaurant=\"the west wing\")",
+        "They are all in the bottom floor of the mall. Sbarro is on the west wing, and the other who in the center by the food court.",
+        "They are all in the bottom floor of the mall. Sbarro is on the west wing, and the other who in the center by the food court."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"manna\")",
+        "ok, let me find some options for you. i found muguboka restaurant and manna, would you like to hear more about each?",
+        "ok, let me find some options for you. i found muguboka restaurant and manna, would you like to hear more about each?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"manna\")",
+        "manna has an average review of 4.5 out of 5 stars.",
+        "manna has an average review of 4.5 out of 5 stars."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"manna\")",
+        "manna has an average review of 4.5 out of 5 stars.",
+        "manna has an average review of 4.5 out of 5 stars."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"muguboka\")",
+        "it looks like muguboka has more items on their menu.",
+        "it looks like muguboka has more items on their menu."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"3\";name_restaurant_accept=\"muguboka restaurant\";time_reservation_accept=\"tomorrow at 3pm\")",
+        "ok, let me book that for you, one moment. i have booked a table for 3 at muguboka restaurant for tomorrow at 3pm. can i help with anything else?",
+        "ok, let me book that for you, one moment. i have booked a table for 3 at muguboka restaurant for tomorrow at 3pm. can i help with anything else?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Tacolicious\")",
+        "So, Lol\u00f3, The Little Chihuahua, and Tacolicious all fit your request.",
+        "So, Lol\u00f3, The Little Chihuahua, and Tacolicious all fit your request."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Lolo\")",
+        "Lolo is priced 10 to 20 dollars a plate.",
+        "Lolo is priced 10 to 20 dollars a plate."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Tacolicious\")",
+        "Tacolicious is also $10 to $20 a plate.",
+        "Tacolicious is also $10 to $20 a plate."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"6pm\")",
+        "how about 6pm?",
+        "how about 6pm?"
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2\";name_restaurant_accept=\"Lolo\";time_reservation_accept=\"6 pm\")",
+        "So I have a reservation for 2 People at Lolo at 6 pm tonight.",
+        "So I have a reservation for 2 People at Lolo at 6 pm tonight."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Matador\")",
+        "Got it. One moment. So Garaje, The Little Chihuahua, and Matador all fit your request. Did you have any questions about any of them",
+        "Got it. One moment. So Garaje, The Little Chihuahua, and Matador all fit your request. Did you have any questions about any of them"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Matador\")",
+        "Garaje does so does Matador.",
+        "Garaje does so does Matador."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Garaje\")",
+        "Yes, Garaje does.",
+        "Yes, Garaje does."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"booths\")",
+        "Their booths only accomodate 4 people, is it okay to split the party?",
+        "Their booths only accomodate 4 people, is it okay to split the party?"
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"8\";name_restaurant_accept=\"garaje\";time_reservation_accept=\"7:30\";type_seating=\"booth\";type_seating_accept=\"booths\")",
+        "SO that's a table for 8 people at garaje, tomorrow at 7:30 I've requested a booth for you and made a note that you can split the party into two booths if necessary.",
+        "SO that's a table for 8 people at garaje, tomorrow at 7:30 I've requested a booth for you and made a note that you can split the party into two booths if necessary."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"calzone's restaurant\")",
+        "thanks, give me a moment to find restaurants that fit your preferences. ok, i found 2 options. victor's pizzeria and italian restaurant and calzone's restaurant.",
+        "thanks, give me a moment to find restaurants that fit your preferences. ok, i found 2 options. victor's pizzeria and italian restaurant and calzone's restaurant."
+    ],
+    [
+        "restaurant_reservation(num_guests=\"10\";time_reservation=\"february 2nd at 7pm\";name_restaurant=\"calzone's restaurant\")",
+        "ok, give me a moment to book that for you. alright, i have booked a table for 10 on february 2nd at 7pm at calzone's restaurant.",
+        "ok, give me a moment to book that for you. alright, i have booked a table for 10 on february 2nd at 7pm at calzone's restaurant."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"10\";name_restaurant_accept=\"calzone's restaurant\";time_reservation_accept=\"february 2nd at 7pm\")",
+        "sure, i have booked a table for 10 at calzone's restaurant on february 2nd at 7pm, is that correct?",
+        "sure, i have booked a table for 10 at calzone's restaurant on february 2nd at 7pm, is that correct?"
+    ],
+    [
+        "restaurant_reservation(type_seating=\"Mikuni, it's a\")",
+        "let me see, hmmm... Mikuni, it's a sushi restaurants, are you interested in that one?",
+        "let me see, hmmm... Mikuni, it's a sushi restaurants, are you interested in that one?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Yes, P.F. Ch\")",
+        "Yes, P.F. Change has a kids menu.",
+        "Yes, P.F. Change has a kids menu."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Sure,\")",
+        "Sure, Mikuni's phone number is (916) 447-2112.",
+        "Sure, Mikuni's phone number is (916) 447-2112."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"P.F. Chang's\")",
+        "P.F. Chang's also does not have an open bar. P.F. Chang's also does not have an open bar.",
+        "P.F. Chang's also does not have an open bar. P.F. Chang's also does not have an open bar."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"patio\")",
+        "It also does not allow smoking outside on it's patio. It also does not allow smoking outside on it's patio.",
+        "It also does not allow smoking outside on it's patio. It also does not allow smoking outside on it's patio."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"P.F. Change\")",
+        "Yes, P.F. Change has a kids menu. Yes, P.F. Change has a kids menu.",
+        "Yes, P.F. Change has a kids menu. Yes, P.F. Change has a kids menu."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"Mikuni's\")",
+        "Sure, Mikuni's phone number is (916) 447-2112. Sure, Mikuni's phone number is (916) 447-2112.",
+        "Sure, Mikuni's phone number is (916) 447-2112. Sure, Mikuni's phone number is (916) 447-2112."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"golden star vietnamese restaurant\")",
+        "sure, what kind of food do you like? are there any other characteristics you would like the restaurant to have? ok, i found tin and golden star vietnamese restaurant, would you like to hear more about each?",
+        "sure, what kind of food do you like? are there any other characteristics you would like the restaurant to have? ok, i found tin and golden star vietnamese restaurant, would you like to hear more about each?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"golden star vietnamese restaurant\")",
+        "tin is described as This family-run eatery serves traditional Vietnamese fare in a casual, contemporary dining room. golden star vietnamese restaurant is described as No-frills Vietnamese spot dishing savory pho noodle soups topped with meats & vegetables.",
+        "tin is described as This family-run eatery serves traditional Vietnamese fare in a casual, contemporary dining room. golden star vietnamese restaurant is described as No-frills Vietnamese spot dishing savory pho noodle soups topped with meats & vegetables."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"booster seats\")",
+        "they have booster seats available upon request.",
+        "they have booster seats available upon request."
+    ],
+    [
+        "restaurant_reservation(reservation_accept=\"booked\";num_guests_accept=\"3\";name_restaurant_accept=\"golden star vietnamese restaurant\";time_reservation_accept=\"saturday the 16th at 5pm\")",
+        "ok, i have booked a table for 3 at golden star vietnamese restaurant for this saturday the 16th at 5pm. Can i help with anything else?",
+        "ok, i have booked a table for 3 at golden star vietnamese restaurant for this saturday the 16th at 5pm. Can i help with anything else?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"club Waziema.\")",
+        "Give me a moment to check! Not all of them do, but some. The top two choices are New Eritrea Restaurant. and club Waziema.",
+        "Give me a moment to check! Not all of them do, but some. The top two choices are New Eritrea Restaurant. and club Waziema."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"5\")",
+        "yes of course! They are fully booked next week friday at 5.",
+        "yes of course! They are fully booked next week friday at 5."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"7pm\")",
+        "is a later time okay? they have an opening at 6:30 is that is okay? 7pm seems to also be booked.",
+        "is a later time okay? they have an opening at 6:30 is that is okay? 7pm seems to also be booked."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2\";name_restaurant_accept=\"Woodhouse Fish Co\";time_reservation_accept=\"6:30pm\")",
+        "Alright! give me a moment to confirm. A table for 2 at Woodhouse Fish Co. for Friday February 1st at 6:30pm, is all set.",
+        "Alright! give me a moment to confirm. A table for 2 at Woodhouse Fish Co. for Friday February 1st at 6:30pm, is all set."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Hong kong clay pot\")",
+        "WOk-in Cafeteria, Cathay express, and Hong kong clay pot match your request.",
+        "WOk-in Cafeteria, Cathay express, and Hong kong clay pot match your request."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Wok-in Cafeteria\")",
+        "Wok-in Cafeteria.",
+        "Wok-in Cafeteria."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"cathay express\")",
+        "Also Wok-in Cafeteria, but cathay express isn't too far behind it.",
+        "Also Wok-in Cafeteria, but cathay express isn't too far behind it."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"4\";name_restaurant_accept=\"Wok-in Cafeteria\";time_reservation_accept=\"5pm today\")",
+        "SO that's a table for 4 at Wok-in Cafeteria at 5pm today.",
+        "SO that's a table for 4 at Wok-in Cafeteria at 5pm today."
+    ],
+    [
+        "restaurant_reservation(name_reservation=\"manna\";name_restaurant=\"my tofu house\")",
+        "ok, let me find some options for you. i found manna and my tofu house, would you like to hear more about each option?",
+        "ok, let me find some options for you. i found manna and my tofu house, would you like to hear more about each option?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"manna\")",
+        "ok, let me find a brief description. manna is described as a Cozy spot serving classic Korean fare such as spicy tofu stews & seafood pancakes, plus lunch deals.",
+        "ok, let me find a brief description. manna is described as a Cozy spot serving classic Korean fare such as spicy tofu stews & seafood pancakes, plus lunch deals."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"my tofu house\")",
+        "sure, let me find a brief description. my tofu house is described as a Unassuming spot for Korean fare such as specialty tofu soups, barbecue & bibimbop (but no liquor).",
+        "sure, let me find a brief description. my tofu house is described as a Unassuming spot for Korean fare such as specialty tofu soups, barbecue & bibimbop (but no liquor)."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"3\";name_restaurant_accept=\"my tofu house\";time_reservation_accept=\"2pm\")",
+        "ok, i have booked a reservation for 3 at my tofu house for tomorrow at 2pm, can i help with anything else?",
+        "ok, i have booked a reservation for 3 at my tofu house for tomorrow at 2pm, can i help with anything else?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"hillstone\")",
+        "hillstone has a 4.5 star rating and 800 reviews.",
+        "hillstone has a 4.5 star rating and 800 reviews."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Tad's Steak house\")",
+        "Tad's Steak house tends to be busy around 8pm.",
+        "Tad's Steak house tends to be busy around 8pm."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Tad's ateak house\")",
+        "Tad's ateak house has a 3.9 rating and over 1000 reviews.",
+        "Tad's ateak house has a 3.9 rating and over 1000 reviews."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Hillstone\";num_guests=\"2\";time_reservation=\"7pm\")",
+        "Hillstone for 2 people, tonight at 7pm. would you like me to book this now?",
+        "Hillstone for 2 people, tonight at 7pm. would you like me to book this now?"
+    ],
+    [
+        "restaurant_reservation(num_guests=\"sur\")",
+        "sure, cioppino's sounds good. for how many people?",
+        "sure, cioppino's sounds good. for how many people?"
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"at w\")",
+        "at what time?",
+        "at what time?"
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"no\")",
+        "it looks like there is no tables available at 7:30pm tonight. Should i try another time or maybe another restaurant?",
+        "it looks like there is no tables available at 7:30pm tonight. Should i try another time or maybe another restaurant?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"pushkin's restaurant\")",
+        "the price range for crepevine and pushkin's restaurant are the same, about $15 per person.",
+        "the price range for crepevine and pushkin's restaurant are the same, about $15 per person."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"pushkin's restaurant\")",
+        "the number for pushkin's restaurant is 9 1 6, 8 2 3, 5 5 2 0.",
+        "the number for pushkin's restaurant is 9 1 6, 8 2 3, 5 5 2 0."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "sure, what part of sacramento are you in?",
+        "sure, what part of sacramento are you in?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"tank house bbq and bar\")",
+        "ok, i found buckhorn grill and tank house bbq and bar, would you like to hear more about each?",
+        "ok, i found buckhorn grill and tank house bbq and bar, would you like to hear more about each?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"tank house bbq\";type_seating=\"outdoor seating\")",
+        "buckhorn grill is described as a Family-friendly chain offering large portions of steaks, sandwiches, burgers & other American fare. tank house bbq is described as a Family-owned nook with local craft beers & homemade BBQ eats, plus outdoor seating & weekend brunch.",
+        "buckhorn grill is described as a Family-friendly chain offering large portions of steaks, sandwiches, burgers & other American fare. tank house bbq is described as a Family-owned nook with local craft beers & homemade BBQ eats, plus outdoor seating & weekend brunch."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"outdoor seating\")",
+        "were there any restaurant specifications or criteria i should b aware of, for example, outdoor seating.",
+        "were there any restaurant specifications or criteria i should b aware of, for example, outdoor seating."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"nopalito\")",
+        "yes, nopalito accept all credit cards.",
+        "yes, nopalito accept all credit cards."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"nopalito\")",
+        "don pistos. no, don pistos does not require a reservation but it is highly encouraged to avoid wait time. nopalito generally has a larger traffic flow from 7 to 8pm.",
+        "don pistos. no, don pistos does not require a reservation but it is highly encouraged to avoid wait time. nopalito generally has a larger traffic flow from 7 to 8pm."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"don pistos\")",
+        "yes, you can order take out from don pistos.",
+        "yes, you can order take out from don pistos."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"don pistos\";time_reservation_accept=\"5pm\";num_guests_accept=\"4 people\")",
+        "a reservation at don pistos at 5pm for 4 people is available. should i book it now?",
+        "a reservation at don pistos at 5pm for 4 people is available. should i book it now?"
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "sure, what part of sacramento are you in?",
+        "sure, what part of sacramento are you in?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"firestone public house\")",
+        "i found mulvaney's B&L and firestone public house, would you like to hear more about both?",
+        "i found mulvaney's B&L and firestone public house, would you like to hear more about both?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"mulvaney's\")",
+        "mulvaney's is described as a Refined eatery plating seasonal New American fare in a converted firehouse or on the garden patio.",
+        "mulvaney's is described as a Refined eatery plating seasonal New American fare in a converted firehouse or on the garden patio."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"firestone public house\")",
+        "firestone public house is described as a Industrial-chic hangout pairing upmarket bar fare with an extensive beer menu, plus sports on TV.",
+        "firestone public house is described as a Industrial-chic hangout pairing upmarket bar fare with an extensive beer menu, plus sports on TV."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"firestone\")",
+        "ok, did you need to know anything else about firestone?",
+        "ok, did you need to know anything else about firestone?"
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"1132 16th street\")",
+        "the address is 1132 16th street.",
+        "the address is 1132 16th street."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "ok, is that in sacramento?",
+        "ok, is that in sacramento?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"hot dog on a stick\")",
+        "ok, i found a few options for you, bj's restaurant and brewhouse and hot dog on a stick, would you like to hear more about each option?",
+        "ok, i found a few options for you, bj's restaurant and brewhouse and hot dog on a stick, would you like to hear more about each option?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"hot dog on a stick\")",
+        "the other option was hot dog on a stick, would you like me to find a 3rd option?",
+        "the other option was hot dog on a stick, would you like me to find a 3rd option?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"bj's\";location_restaurant=\"food court\";location_restaurant_accept=\"within the mall\")",
+        "it looks like they are close to each other, hot dog on a stick is located in the food court and bj's is a stand alone location within the mall.",
+        "it looks like they are close to each other, hot dog on a stick is located in the food court and bj's is a stand alone location within the mall."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"bj's\")",
+        "bj's has burgers on their menu.",
+        "bj's has burgers on their menu."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Aster\")",
+        "yes, liho liho yacht club is in the $30 range per person, and Aster is in the $40 range per person.",
+        "yes, liho liho yacht club is in the $30 range per person, and Aster is in the $40 range per person."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"aster\")",
+        "yes, liho liho yacht club has a 4.6 star rating and over 800 google reviews, and aster has a 4.5 rating and over 200 reviews.",
+        "yes, liho liho yacht club has a 4.6 star rating and over 800 google reviews, and aster has a 4.5 rating and over 200 reviews."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mikuni\")",
+        "ALright, let me take a look. Give me about 2 minutes to find some good options for you. So the first place I found that I\"m really excited to share with you is Mikuni which is a Japanese sushi place that also serves steak on it's menu. It's moderately priced and the blurb states Local Japanese chain serving sushi, small plates & hot entrees in a stylish space.",
+        "ALright, let me take a look. Give me about 2 minutes to find some good options for you. So the first place I found that I\"m really excited to share with you is Mikuni which is a Japanese sushi place that also serves steak on it's menu. It's moderately priced and the blurb states Local Japanese chain serving sushi, small plates & hot entrees in a stylish space."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Seasons 52\")",
+        "Then I also have Seasons 52 which offers Rotating menu of seasonal American dishes alongside international wines in an upscale setting.",
+        "Then I also have Seasons 52 which offers Rotating menu of seasonal American dishes alongside international wines in an upscale setting."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Nopalito\")",
+        "I found Tropisue\u00f1o and Nopalito.",
+        "I found Tropisue\u00f1o and Nopalito."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Nopalito\")",
+        "Nopalito does not serve alcohol.",
+        "Nopalito does not serve alcohol."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Tropisue\u00f1o\")",
+        "Tropisue\u00f1o serves alcohol.",
+        "Tropisue\u00f1o serves alcohol."
+    ],
+    [
+        "restaurant_reservation(num_guests=\"4 people\";time_reservation=\"10pm\";name_restaurant_accept=\"Nopalito\")",
+        "Reserved! 4 people at 10pm at Nopalito.",
+        "Reserved! 4 people at 10pm at Nopalito."
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"Friday, the 18th at 10pm\";num_guests_accept=\"4 people\")",
+        "There. Friday, the 18th at 10pm for 4 people.",
+        "There. Friday, the 18th at 10pm for 4 people."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"basil\")",
+        "that sounds delicious. sure, one moment please. i found a few options that may work for you. the first is called basil. Lively neighborhood spot with a stylish interior serving Thai food & Asian-inspired cocktails. the other option is called lers ros. Popular late-night Thai spot with long menu of exotic game specials & more traditional Thai dishes. did you need any more information on basil or lers ros.",
+        "that sounds delicious. sure, one moment please. i found a few options that may work for you. the first is called basil. Lively neighborhood spot with a stylish interior serving Thai food & Asian-inspired cocktails. the other option is called lers ros. Popular late-night Thai spot with long menu of exotic game specials & more traditional Thai dishes. did you need any more information on basil or lers ros."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"basil\")",
+        "yes, basil has non alcoholic beverages including thai iced tea.",
+        "yes, basil has non alcoholic beverages including thai iced tea."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Ichi Sushi\")",
+        "Ok, I'll find some options for you. I found Ozumo and Ichi Sushi, would you like to hear more about both restaurants?",
+        "Ok, I'll find some options for you. I found Ozumo and Ichi Sushi, would you like to hear more about both restaurants?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Ozumo\")",
+        "Ozumo is described as a Creative sushi, Robata grilled items & an extensive sake menu in a contemporary space.",
+        "Ozumo is described as a Creative sushi, Robata grilled items & an extensive sake menu in a contemporary space."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Ichi Sushi\")",
+        "Ichi Sushi is described as a Acclaimed destination for sustainably sourced Sashimi & Nigiri, plus sake, in classy environs.",
+        "Ichi Sushi is described as a Acclaimed destination for sustainably sourced Sashimi & Nigiri, plus sake, in classy environs."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"10:30pm\")",
+        "Tonight they are open until 10:30pm.",
+        "Tonight they are open until 10:30pm."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"6 pm\")",
+        "You said at 6 pm?",
+        "You said at 6 pm?"
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"3\";name_restaurant_accept=\"Ozumo\";time_reservation_accept=\"6pm\")",
+        "Ok, let me book your table, one moment. Ok, I have booked a table for 3 at Ozumo for friday march 1st at 6pm. Can I help with anything else?",
+        "Ok, let me book your table, one moment. Ok, I have booked a table for 3 at Ozumo for friday march 1st at 6pm. Can I help with anything else?"
+    ],
+    [
+        "restaurant_reservation(location_restaurant_reject=\"downtown SF\")",
+        "to avoid crowds, i would avoid downtown SF.",
+        "to avoid crowds, i would avoid downtown SF."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Vixi Cucina Italiana\")",
+        "How about Vixi Cucina Italiana?",
+        "How about Vixi Cucina Italiana?"
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"5:45pm\")",
+        "For tonight, they show an open reservation a 5:45pm and one later one.",
+        "For tonight, they show an open reservation a 5:45pm and one later one."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"7:45pm\")",
+        "The later one is at 7:45pm.",
+        "The later one is at 7:45pm."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"4\";time_reservation_accept=\"7:45pm\")",
+        "Alright! Your reservation for 4 people at 7:45pm has been confirmed. You will find the status on your mobile device.",
+        "Alright! Your reservation for 4 people at 7:45pm has been confirmed. You will find the status on your mobile device."
+    ],
+    [
+        "restaurant_reservation(time_reservation_reject=\"6pm\";time_reservation=\"7pm\")",
+        "it looks like 6pm will be completely booked, they do have a few 7pm tables available.",
+        "it looks like 6pm will be completely booked, they do have a few 7pm tables available."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2\";name_restaurant_accept=\"birdsong\";time_reservation_accept=\"7pm\")",
+        "got it, i have booked a table for 2 at birdsong for this sunday at 7pm, can i help with anything else?",
+        "got it, i have booked a table for 2 at birdsong for this sunday at 7pm, can i help with anything else?"
+    ],
+    [
+        "restaurant_reservation(name_reservation=\"BJ's Restaurant and Brewhouse\")",
+        "Great. Give me 2 minutes to find a few options. So first, and I think it's the closest option, we have BJ's Restaurant and Brewhouse, THis Family-friendly chain outpost pairs familiar pub fare with an extensive list of house brews.",
+        "Great. Give me 2 minutes to find a few options. So first, and I think it's the closest option, we have BJ's Restaurant and Brewhouse, THis Family-friendly chain outpost pairs familiar pub fare with an extensive list of house brews."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Causwells\")",
+        "awesome, let me search that up for you. i found a few possibilities. the first is called level 3 restaurant. Vibrant New American hotel restaurant, serving all-day fare & cocktails in contemporary surrounds. the second is called Causwells. European-inspired bistro serves up American cuisine amid a quartzite bar & stained concrete floors.",
+        "awesome, let me search that up for you. i found a few possibilities. the first is called level 3 restaurant. Vibrant New American hotel restaurant, serving all-day fare & cocktails in contemporary surrounds. the second is called Causwells. European-inspired bistro serves up American cuisine amid a quartzite bar & stained concrete floors."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Causwells\")",
+        "that would be Causwells, with a 4.3 star rating.",
+        "that would be Causwells, with a 4.3 star rating."
+    ],
+    [
+        "restaurant_reservation(num_guests=\"2\";time_reservation=\"3pm\")",
+        "Causwells for 2 people at 2pm tomorrow is not available. however, i see there is a 3pm option available. did you want me to book this time slot instead?",
+        "Causwells for 2 people at 2pm tomorrow is not available. however, i see there is a 3pm option available. did you want me to book this time slot instead?"
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2\";name_restaurant_accept=\"Causwells\";time_reservation_accept=\"3pm\")",
+        "great, a table for 2 at Causwells tomorrow at 3pm it is. you're all set. did u need anything else?",
+        "great, a table for 2 at Causwells tomorrow at 3pm it is. you're all set. did u need anything else?"
+    ],
+    [
+        "restaurant_reservation(type_seating=\"Outdoor seating\")",
+        "Did you have any restaurant preferences? For example, Outdoor seating, full bar, etc.",
+        "Did you have any restaurant preferences? For example, Outdoor seating, full bar, etc."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"54 mint sf\")",
+        "Yes, 54 mint sf has a good variety of lunch items.",
+        "Yes, 54 mint sf has a good variety of lunch items."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Spqr\")",
+        "Spqr closes tonight at 10:30pm.",
+        "Spqr closes tonight at 10:30pm."
+    ],
+    [
+        "restaurant_reservation(name_reservation_accept=\"Adama\")",
+        "you got it, the reservation is set and saved under Adama.",
+        "you got it, the reservation is set and saved under Adama."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"piatti\")",
+        "yes, piatti has a wine and beer menu.",
+        "yes, piatti has a wine and beer menu."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"piatti\")",
+        "piatti has a 4.5 star rating and over 200 reviews on google.",
+        "piatti has a 4.5 star rating and over 200 reviews on google."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mamma Susanna's Ristorante Italiano\")",
+        "yes, Mamma Susanna's Ristorante Italiano serves wine, beer, and a few cocktails.",
+        "yes, Mamma Susanna's Ristorante Italiano serves wine, beer, and a few cocktails."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mamma Susanna's Ristorante Italiano\")",
+        "yes, they do have call ahead ordering. yes, Mamma Susanna's Ristorante Italiano does accept all major credit cards.",
+        "yes, they do have call ahead ordering. yes, Mamma Susanna's Ristorante Italiano does accept all major credit cards."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"new eritrea\")",
+        "that sounds great. let me look into that for u. one moment please? i found a few places that you may like. the first is called massawa restaurant sf. Compact cafe offering Ethiopian & Eritrean classics in low-key digs with picnic tables. the second is called new eritrea restaurant. Diners eat Eritrean & Ethiopian cuisine with their hands while drinkers sit at the long bar. did you need any more information? new eritrea is family style.",
+        "that sounds great. let me look into that for u. one moment please? i found a few places that you may like. the first is called massawa restaurant sf. Compact cafe offering Ethiopian & Eritrean classics in low-key digs with picnic tables. the second is called new eritrea restaurant. Diners eat Eritrean & Ethiopian cuisine with their hands while drinkers sit at the long bar. did you need any more information? new eritrea is family style."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"new eritrea restaurant\")",
+        "sure. the number for new eritrea restaurant is. (4 1 5.) 6 8 1. 1 2 8 8.",
+        "sure. the number for new eritrea restaurant is. (4 1 5.) 6 8 1. 1 2 8 8."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"massawa restaurant\")",
+        "and the number for massawa restaurant sf is: (4 1 5.) 6 2 1. 4 1 2 9.",
+        "and the number for massawa restaurant sf is: (4 1 5.) 6 2 1. 4 1 2 9."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"new eritrea restaurant\")",
+        "sure. for new eritrea restaurant, right?",
+        "sure. for new eritrea restaurant, right?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Firepie\")",
+        "The restaurant Firepie seems to fit your interests but there are other options as well.",
+        "The restaurant Firepie seems to fit your interests but there are other options as well."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Tricolore Caffe and Pizzeria Restaurant\")",
+        "How about Tricolore Caffe and Pizzeria Restaurant? It's mid range and very cozy.",
+        "How about Tricolore Caffe and Pizzeria Restaurant? It's mid range and very cozy."
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"2:30 pm\";name_restaurant_accept=\"Tricolore Caffe and Pizzeria Restaurant\")",
+        "one moment please. I have your reservation for 2:30 pm at Tricolore Caffe and Pizzeria Restaurant for tomorrow. Is this correct?",
+        "one moment please. I have your reservation for 2:30 pm at Tricolore Caffe and Pizzeria Restaurant for tomorrow. Is this correct?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Gran Milan Italian Bakery & Caf\u00e9\")",
+        "ok let me see what 2 best options I can find for you. we have Paesanos Casual Italian eatery offering gourmet pizzas, pasta dishes & salads, plus a bar & wine list. and Gran Milan Italian Bakery & Caf\u00e9 . what would you like to know about each restaurant?",
+        "ok let me see what 2 best options I can find for you. we have Paesanos Casual Italian eatery offering gourmet pizzas, pasta dishes & salads, plus a bar & wine list. and Gran Milan Italian Bakery & Caf\u00e9 . what would you like to know about each restaurant?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"gran milan\")",
+        "ok, let me check their price range for you. for Paesanos, they are moderately priced at $11-$20 per person and for Gran Milan is moderately priced as well. ok what would you like to know about gran milan?",
+        "ok, let me check their price range for you. for Paesanos, they are moderately priced at $11-$20 per person and for Gran Milan is moderately priced as well. ok what would you like to know about gran milan?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"gran mila\")",
+        "the average waiting time . at gran mila is 15 to 30 min.",
+        "the average waiting time . at gran mila is 15 to 30 min."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Paesanos\")",
+        "do you want to hear the waiting time for Paesanos?",
+        "do you want to hear the waiting time for Paesanos?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Paesanos\")",
+        "ok the average waiting time for Paesanos is 10 to 15 minutes.",
+        "ok the average waiting time for Paesanos is 10 to 15 minutes."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"kabob house\")",
+        "yes, kabob house is a family style restaurant.",
+        "yes, kabob house is a family style restaurant."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Cafe Europa\")",
+        "yes, Cafe Europa does have a section of their menu dedicated to more low calorie diets.",
+        "yes, Cafe Europa does have a section of their menu dedicated to more low calorie diets."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"kabob house\")",
+        "sounds good. did u need any more information about kabob house?",
+        "sounds good. did u need any more information about kabob house?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Tad's Steak house\")",
+        "Got it, one moment. So, Harris', Izzy's, and Tad's Steak house all fit your request.",
+        "Got it, one moment. So, Harris', Izzy's, and Tad's Steak house all fit your request."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Izzy's\")",
+        "Izzy's.",
+        "Izzy's."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"4\";name_restaurant_accept=\"Izzy's\";type_seating_accept=\"booth\";time_reservation_accept=\"Saturday, March 9th at 8:30 pm\")",
+        "So your reservation is for 4 people at Izzy's in a booth for Saturday, March 9th at 8:30 pm.",
+        "So your reservation is for 4 people at Izzy's in a booth for Saturday, March 9th at 8:30 pm."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Schroeders\")",
+        "Schroeders is closer by 3 miles.",
+        "Schroeders is closer by 3 miles."
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"6pm\";num_guests_accept=\"2\")",
+        "Yes, I've confirmed a reservation for 6pm for 2 people.",
+        "Yes, I've confirmed a reservation for 6pm for 2 people."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"arden fair mall\")",
+        "lunch inside arden fair mall is that right.",
+        "lunch inside arden fair mall is that right."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mikuni Local Japanese chain\")",
+        "ok let me see what 2 best options I can find for you. here are the 2 restaurants with high health, carryout, and online ordering. we have Sushirrito Sushi house known for burrito-size rolls with Asian & Latin flavors and Mikuni Local Japanese chain serving sushi, small plates & hot entrees.",
+        "ok let me see what 2 best options I can find for you. here are the 2 restaurants with high health, carryout, and online ordering. we have Sushirrito Sushi house known for burrito-size rolls with Asian & Latin flavors and Mikuni Local Japanese chain serving sushi, small plates & hot entrees."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mikuni\")",
+        "what would you like to know about each restaurant? Mikuni have many vegetarian dishes.",
+        "what would you like to know about each restaurant? Mikuni have many vegetarian dishes."
+    ],
+    [
+        "restaurant_reservation(name_reservation=\"Mikuni\";name_restaurant=\"Sushirrito\")",
+        "Mikuni is rated 4.3 stars, Sushirrito is rated 4.4 stars.",
+        "Mikuni is rated 4.3 stars, Sushirrito is rated 4.4 stars."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Sushirrito\")",
+        "Sushirrito offers menu for children under 12.",
+        "Sushirrito offers menu for children under 12."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"shushirrito\")",
+        "yes, the phone number for shushirrito is (916) 564-2114.",
+        "yes, the phone number for shushirrito is (916) 564-2114."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"lark\";type_seating=\"indoor seating\")",
+        "I found Lale cafe mystique and lark. do you have any preference for outdoor or indoor seating?",
+        "I found Lale cafe mystique and lark. do you have any preference for outdoor or indoor seating?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"lale\")",
+        "ok. lale is a Casual, contemporary cafe with tulip murals serving a mix of Mediterranean & American entrees.",
+        "ok. lale is a Casual, contemporary cafe with tulip murals serving a mix of Mediterranean & American entrees."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"lark\";type_seating=\"outdoor seating\")",
+        "they are all average priced, and only lark has outdoor seating.",
+        "they are all average priced, and only lark has outdoor seating."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"lark\")",
+        "do you want to book a reservation at lark?",
+        "do you want to book a reservation at lark?"
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"7pm\";num_guests_accept=\"4 people\";name_restaurant_accept=\"lark\";type_seating_accept=\"seating outdoors\")",
+        "ok, so your reservation for tonight at 7pm for 4 people is confirmed at lark. you will be seating outdoors.",
+        "ok, so your reservation for tonight at 7pm for 4 people is confirmed at lark. you will be seating outdoors."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Katana Ya\")",
+        "one moment please. So Sanraku, Kippu, and Katana Ya fit your request.",
+        "one moment please. So Sanraku, Kippu, and Katana Ya fit your request."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Kippu\")",
+        "Kippu.",
+        "Kippu."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Sanraku\")",
+        "Sanraku was the first one.",
+        "Sanraku was the first one."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Katana Ya\")",
+        "Yes, the third was Katana Ya.",
+        "Yes, the third was Katana Ya."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2\";name_restaurant_accept=\"Katana Ya\";time_reservation_accept=\"11:30 am tomorrow\")",
+        "So I have a reservation for 2 people at Katana Ya at 11:30 am tomorrow.",
+        "So I have a reservation for 2 people at Katana Ya at 11:30 am tomorrow."
+    ],
+    [
+        "restaurant_reservation(name_reservation_reject=\"dos cyoytes\")",
+        "sounds great. did you need any more information on dos cyoytes?",
+        "sounds great. did you need any more information on dos cyoytes?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"yank sing.\")",
+        "mama ji's and yank sing.",
+        "mama ji's and yank sing."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"yank sing\")",
+        "let me check for you. they don't have full bars but yank sing serves beer and wine.",
+        "let me check for you. they don't have full bars but yank sing serves beer and wine."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"mama ji's\")",
+        "it looks like mama ji's has a small parking lot but there seems to be lots of street parking.",
+        "it looks like mama ji's has a small parking lot but there seems to be lots of street parking."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"7 pm\";num_guests=\"2\")",
+        "there is an opening at 7 pm for a table for 2, do you want me to book that?",
+        "there is an opening at 7 pm for a table for 2, do you want me to book that?"
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2\";name_restaurant_accept=\"yank sing\";time_reservation_accept=\"7pm\")",
+        "ok, i have booked a table for 2 at yank sing at 7pm tonight.",
+        "ok, i have booked a table for 2 at yank sing at 7pm tonight."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"outdoors\")",
+        "would you like to sit indoors or outdoors?",
+        "would you like to sit indoors or outdoors?"
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"3\";time_reservation_accept=\"2:30pm\";name_restaurant_accept=\"auntie april's\")",
+        "ok. your reservation is confirmed. 3 people at 2:30pm at auntie april's.",
+        "ok. your reservation is confirmed. 3 people at 2:30pm at auntie april's."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Ryoko's Japanese restuarant and bar\")",
+        "I have a couple options for you, did you have any seating preferences? There's two great options for you. Live Sushi Bar and Ryoko's Japanese restuarant and bar.",
+        "I have a couple options for you, did you have any seating preferences? There's two great options for you. Live Sushi Bar and Ryoko's Japanese restuarant and bar."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2 people\";name_restaurant_accept=\"Live Sushi Bar\";time_reservation_accept=\"3 pm tomorrow\")",
+        "Okay so that's for 2 people at Live Sushi Bar at 3 pm tomorrow right?",
+        "Okay so that's for 2 people at Live Sushi Bar at 3 pm tomorrow right?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"hot dog on a stick\")",
+        "i found two options. first is johnny rockets. Burgers, shakes & fries arrive in a '50s diner setting at this outpost of the international chain. second is hot dog on a stick. Counter-serve chain for American classics such as corn dogs, lemonade, french fries & funnel cakes. which sounds good to you? great, hot dog on a stick it is.",
+        "i found two options. first is johnny rockets. Burgers, shakes & fries arrive in a '50s diner setting at this outpost of the international chain. second is hot dog on a stick. Counter-serve chain for American classics such as corn dogs, lemonade, french fries & funnel cakes. which sounds good to you? great, hot dog on a stick it is."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"India Oven\")",
+        "sure, name is India Oven.",
+        "sure, name is India Oven."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Bombay Bar and Grill\")",
+        "Bombay Bar and Grill have take outs available yes.",
+        "Bombay Bar and Grill have take outs available yes."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Bombay Bar and Grill\")",
+        "Bombay Bar and Grill accept all major credit cards and cash.",
+        "Bombay Bar and Grill accept all major credit cards and cash."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"India Oven\")",
+        "India Oven have highest traffic from 1pm to 2 pm monday through sunday.",
+        "India Oven have highest traffic from 1pm to 2 pm monday through sunday."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"china live\")",
+        "china live and mission chinese. china live.",
+        "china live and mission chinese. china live."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"china live\")",
+        "china live has a 4.5 rating.",
+        "china live has a 4.5 rating."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"3\";name_restaurant_accept=\"china live\";time_reservation_accept=\"7pm\")",
+        "how many people in your party? ok, i have booked a table for 3 at china live for tonight at 7pm.",
+        "how many people in your party? ok, i have booked a table for 3 at china live for tonight at 7pm."
+    ],
+    [
+        "restaurant_reservation(name_reservation=\"Elephant Bar Restaurant\")",
+        "Sorry that took so long. Hm... My best recommendation would be the Elephant Bar Restaurant down the road. It offers a menu built on Pan-Asian, wok-fired plates & global fare and has a family friendly atmosphere.",
+        "Sorry that took so long. Hm... My best recommendation would be the Elephant Bar Restaurant down the road. It offers a menu built on Pan-Asian, wok-fired plates & global fare and has a family friendly atmosphere."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Ananda Fuara\")",
+        "i found Golden Era: Vegan eatery for Asian-fusion dishes served in a bright, casual space with banquette seating. and i also found: Ananda Fuara: Spiritual guru Sri Chinmoy is the driving force behind this celebrated vegetarian & vegan eatery.",
+        "i found Golden Era: Vegan eatery for Asian-fusion dishes served in a bright, casual space with banquette seating. and i also found: Ananda Fuara: Spiritual guru Sri Chinmoy is the driving force behind this celebrated vegetarian & vegan eatery."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"ananda fuara\";time_reservation_accept=\"8pm\";num_guests_accept=\"3\")",
+        "ok, your reservation is confirmed for tomorrow at ananda fuara at 8pm for 3 people.",
+        "ok, your reservation is confirmed for tomorrow at ananda fuara at 8pm for 3 people."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "i sure can. is that in sacramento?",
+        "i sure can. is that in sacramento?"
+    ],
+    [
+        "restaurant_reservation(type_seating=\"outdoor seating\")",
+        "what are some restaurant preferences i should look up with that search? for example, outdoor seating.",
+        "what are some restaurant preferences i should look up with that search? for example, outdoor seating."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"jack's urban eats\")",
+        "i found a few options. the first is jack's urban eats. Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine. the second is make fish poke and sushi burrito. Sushi burritos & other Japanese fusion bites are prepared at this informal counter-serve outfit.",
+        "i found a few options. the first is jack's urban eats. Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine. the second is make fish poke and sushi burrito. Sushi burritos & other Japanese fusion bites are prepared at this informal counter-serve outfit."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"jack's urban eat's\")",
+        "did you need any more information? jack's urban eat's phone number is (916) 444-0307.",
+        "did you need any more information? jack's urban eat's phone number is (916) 444-0307."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"1230 20th St, Sacramento, CA 95811\")",
+        "the address is 1230 20th St, Sacramento, CA 95811.",
+        "the address is 1230 20th St, Sacramento, CA 95811."
+    ],
+    [
+        "restaurant_reservation(type_seating_accept=\"private indoor\")",
+        "Okay SO you're looking for a fine dine steakhouse with friendly staff reviews and private indoor seating.",
+        "Okay SO you're looking for a fine dine steakhouse with friendly staff reviews and private indoor seating."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Epic Steak\";location_restaurant_accept=\"Embarcadero\")",
+        "the first one called Epic Steak on Embarcadero.",
+        "the first one called Epic Steak on Embarcadero."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"Epic Stake\";num_guests_accept=\"2\";time_reservation_accept=\"tonight at 8:30pm\")",
+        "Not a problem, give me one moment to get that all down for you. They seem to have a private spot open at 8:30 tonight, would that work for you? Sure! One moment. Alright, i have a private table at Epic Stake for 2 people tonight at 8:30pm.",
+        "Not a problem, give me one moment to get that all down for you. They seem to have a private spot open at 8:30 tonight, would that work for you? Sure! One moment. Alright, i have a private table at Epic Stake for 2 people tonight at 8:30pm."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Taquer\u00eda El Farolito\")",
+        "La Taqueria, Garaje, and Taquer\u00eda El Farolito fit those requests.",
+        "La Taqueria, Garaje, and Taquer\u00eda El Farolito fit those requests."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Garaje\")",
+        "Garaje.",
+        "Garaje."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"La Taqueria\")",
+        "La Taqueria.",
+        "La Taqueria."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Tacolicious\")",
+        "I found Taqueria Can Cun, Papito and Tacolicious.",
+        "I found Taqueria Can Cun, Papito and Tacolicious."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"farallon\")",
+        "sure, the price range at waterbar is 20 to $30 per person, and for farallon it's 30 to $40 per person.",
+        "sure, the price range at waterbar is 20 to $30 per person, and for farallon it's 30 to $40 per person."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"farallon\")",
+        "waterbar restaurant has a 4.4 star review and over 1400 reviews on google, while farallon has a 4.4 star rating and over 500 reviews on google.",
+        "waterbar restaurant has a 4.4 star review and over 1400 reviews on google, while farallon has a 4.4 star rating and over 500 reviews on google."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"waterbar restaurant\")",
+        "waterbar restaurant it is.",
+        "waterbar restaurant it is."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"tony's pizza napoletana\")",
+        "tony's pizza napoletana.",
+        "tony's pizza napoletana."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"delarosa\")",
+        "delarosa.",
+        "delarosa."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Ernesto's\";type_seating=\"patio seating\")",
+        "So Mayahuel is a Spacious eatery featuring elevated Mexican cuisine & a wide-ranging tequila menu in a stylish space and seems like the best option. It's closest to public transit, then also Ernesto's, a Vibrant Mexican eatery offering classic plates & margaritas in a spacious venue with patio seating.",
+        "So Mayahuel is a Spacious eatery featuring elevated Mexican cuisine & a wide-ranging tequila menu in a stylish space and seems like the best option. It's closest to public transit, then also Ernesto's, a Vibrant Mexican eatery offering classic plates & margaritas in a spacious venue with patio seating."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mayahuel\")",
+        "Mayahuel is located near some public bicycle parking.",
+        "Mayahuel is located near some public bicycle parking."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Trattoria Contadina\")",
+        "ok. give me a second while i search that for you. i found Tommaso's: Family-run institution (since 1935) firing up thin-crust pizzas in its original wood-burning oven. and i also found Trattoria Contadina: Cozy, unpretentious fixture for classic Italian fare such as pasta, meatballs & gnocchi.",
+        "ok. give me a second while i search that for you. i found Tommaso's: Family-run institution (since 1935) firing up thin-crust pizzas in its original wood-burning oven. and i also found Trattoria Contadina: Cozy, unpretentious fixture for classic Italian fare such as pasta, meatballs & gnocchi."
+    ],
+    [
+        "restaurant_reservation(time_reservation_reject=\"tomorrow at 7pm\")",
+        "there is no availability tomorrow at 7pm. would you like to try another time or maybe a different restaurant?",
+        "there is no availability tomorrow at 7pm. would you like to try another time or maybe a different restaurant?"
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"sunday, march third at 7 pm\";name_restaurant_accept=\"tommaso's\")",
+        "ok, your reservation is confirmed for sunday, march third at 7 pm at tommaso's.",
+        "ok, your reservation is confirmed for sunday, march third at 7 pm at tommaso's."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Mela Tandoori Kitchen\")",
+        "ok, let's see what i can find. i found DOSA on Fillmore: Eatery dispensing namesake South-Indian cr\u00eapes & spice-infused cocktails in loftlike surroundings. and i also found: Mela Tandoori Kitchen, Colorful, inviting restaurant serving family-style Indian-Pakistani dishes plus Indian beers & wine.",
+        "ok, let's see what i can find. i found DOSA on Fillmore: Eatery dispensing namesake South-Indian cr\u00eapes & spice-infused cocktails in loftlike surroundings. and i also found: Mela Tandoori Kitchen, Colorful, inviting restaurant serving family-style Indian-Pakistani dishes plus Indian beers & wine."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"chick fil\";time_reservation=\"10pm\")",
+        "chick fil a closes at 10pm.",
+        "chick fil a closes at 10pm."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "i sure can. where in sacramento are you?",
+        "i sure can. where in sacramento are you?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"kru\")",
+        "definitely. the customer rating for skool restaurant is 4.4 stars and over 100 reviews, while kru has a 4.7 star rating and over 500 reviews.",
+        "definitely. the customer rating for skool restaurant is 4.4 stars and over 100 reviews, while kru has a 4.7 star rating and over 500 reviews."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"kru\")",
+        "you're very welcome. have a great meal at kru.",
+        "you're very welcome. have a great meal at kru."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"rancho cucamonga\")",
+        "would you like to find a restaurant in sacramento or rancho cucamonga?",
+        "would you like to find a restaurant in sacramento or rancho cucamonga?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Lazy Dog Restaurant & Bar\")",
+        "give me a second while i search that for you. i found Paul Martin's American Grill, Stylish, eco-minded local chain serving seasonal American fare, craft beers & artisanal cocktails. and Lazy Dog Restaurant & Bar. Relaxed, lodge-chic chain serving global comfort fare, including stir-fries, pot roast & pastas.",
+        "give me a second while i search that for you. i found Paul Martin's American Grill, Stylish, eco-minded local chain serving seasonal American fare, craft beers & artisanal cocktails. and Lazy Dog Restaurant & Bar. Relaxed, lodge-chic chain serving global comfort fare, including stir-fries, pot roast & pastas."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"school restaurant\")",
+        "yes, school restaurant is locally owned and operated.",
+        "yes, school restaurant is locally owned and operated."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"Sacramento\")",
+        "Sure, what part of Sacramento are you in?",
+        "Sure, what part of Sacramento are you in?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"California pizza kitchen\")",
+        "Ok, I found Sbarro and California pizza kitchen, would you like to hear more about each?",
+        "Ok, I found Sbarro and California pizza kitchen, would you like to hear more about each?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Sbarro\")",
+        "Sbarro is described as a Italian fast-food chain offering thin-crust pizza by the slice, plus pastas & salads.",
+        "Sbarro is described as a Italian fast-food chain offering thin-crust pizza by the slice, plus pastas & salads."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"outdoor\")",
+        "great!, do you want indoor or outdoor seating?",
+        "great!, do you want indoor or outdoor seating?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Eliza's\")",
+        "Yes Eliza's is reviewed at 4 stars with 118 reviews.",
+        "Yes Eliza's is reviewed at 4 stars with 118 reviews."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Hakka\")",
+        "Certainly, Hakka is open until 9:30 Monday through Friday.",
+        "Certainly, Hakka is open until 9:30 Monday through Friday."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"7pm\";num_guests=\"4\")",
+        "Yes, 7pm for 4 people, is that correct?",
+        "Yes, 7pm for 4 people, is that correct?"
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"4\";name_restaurant_accept=\"Eliza's\";time_reservation_accept=\"7pm\")",
+        "Wonderful! so a table for 4 at Eliza's for 7pm. shall i go ahead and confirm your reservation?",
+        "Wonderful! so a table for 4 at Eliza's for 7pm. shall i go ahead and confirm your reservation?"
+    ],
+    [
+        "restaurant_reservation(type_seating=\"sit down\")",
+        "alright, and are you looking for quick food or a sit down restaurant?",
+        "alright, and are you looking for quick food or a sit down restaurant?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Station 16\";type_seating=\"outdoor\")",
+        "alright, give me a moment. Okay i got a few options, the first is Azul | Mexican Food & Tequila Bar, Contemporary Mexican fare & tequila-based cocktails are served in a stylish art-filled setting. The next is Station 16. Industrial-chic seafood specialist with outdoor seating, a raw bar & inventive cocktails.",
+        "alright, give me a moment. Okay i got a few options, the first is Azul | Mexican Food & Tequila Bar, Contemporary Mexican fare & tequila-based cocktails are served in a stylish art-filled setting. The next is Station 16. Industrial-chic seafood specialist with outdoor seating, a raw bar & inventive cocktails."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Station 16\")",
+        "The second one, Station 16 is open until 10PM.",
+        "The second one, Station 16 is open until 10PM."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "ok, what part of sacramento are you in?",
+        "ok, what part of sacramento are you in?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"california pizza kitchen\")",
+        "ok, i found a few options, sbarro and california pizza kitchen, would you like to know more about each option?",
+        "ok, i found a few options, sbarro and california pizza kitchen, would you like to know more about each option?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"sbarro\")",
+        "sbarro is described as a Italian fast-food chain offering thin-crust pizza by the slice, plus pastas & salads.",
+        "sbarro is described as a Italian fast-food chain offering thin-crust pizza by the slice, plus pastas & salads."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Kusina Ni Tess\")",
+        "ok so you would like to placement reservation with Kusina Ni Tess, is that right.",
+        "ok so you would like to placement reservation with Kusina Ni Tess, is that right."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"3pm\";num_guests=\"5\";type_seating=\"indoor booth\")",
+        "march 14th 2019 3pm, 5 people with indoor booth, ok let me make that reservation for you.",
+        "march 14th 2019 3pm, 5 people with indoor booth, ok let me make that reservation for you."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"5\";type_seating_accept=\"indoor booth\";time_reservation_accept=\"3pm\";name_restaurant_accept=\"Kusina Ni Tess\")",
+        "ok reservation for 5 people with indoor booth on march 14th 2019 3pm at Kusina Ni Tess has been reserved, anything else i can do for you?",
+        "ok reservation for 5 people with indoor booth on march 14th 2019 3pm at Kusina Ni Tess has been reserved, anything else i can do for you?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"cotogna\")",
+        "great. let me check on that. one moment please. trattoria contadina is a great option. Cozy, unpretentious fixture for classic Italian fare such as pasta, meatballs & gnocchi. another well known place is cotogna. Popular eatery serving spit-roasted and grilled meat & fish, wood-fired pizza and house-made pasta.",
+        "great. let me check on that. one moment please. trattoria contadina is a great option. Cozy, unpretentious fixture for classic Italian fare such as pasta, meatballs & gnocchi. another well known place is cotogna. Popular eatery serving spit-roasted and grilled meat & fish, wood-fired pizza and house-made pasta."
+    ],
+    [
+        "restaurant_reservation(location_restaurant_accept=\"san francisco\")",
+        "both restaurants are in san francisco, and are about a mile away from you.",
+        "both restaurants are in san francisco, and are about a mile away from you."
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"8pm\";num_guests_accept=\"2\")",
+        "sure. trattoria contadina has an opening tonight at 8pm for 2. i'll book that for you now.",
+        "sure. trattoria contadina has an opening tonight at 8pm for 2. i'll book that for you now."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"sacramento\")",
+        "sure, where in sacramento?",
+        "sure, where in sacramento?"
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"san francisco\")",
+        "hmm, san francisco is known for their fresh sea food options as well as mexican food in the mission.",
+        "hmm, san francisco is known for their fresh sea food options as well as mexican food in the mission."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"outside seating\")",
+        "do either sound good? Were there any restaurant specifications you were looking for? For example, outside seating, open bar, etc.",
+        "do either sound good? Were there any restaurant specifications you were looking for? For example, outside seating, open bar, etc."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Velvet Cantina\")",
+        "got it. let me look up some options for you. give me a moment. I found two options for you. The first is called Gracias Madre. Fans of Mexican sustainable eats grab a seat at the long bar & communal tables in blonde-wood decor. THe second is called Velvet Cantina. Dim red lighting & festive music set the scene for this bar's Latin cocktails, snacks & more.",
+        "got it. let me look up some options for you. give me a moment. I found two options for you. The first is called Gracias Madre. Fans of Mexican sustainable eats grab a seat at the long bar & communal tables in blonde-wood decor. THe second is called Velvet Cantina. Dim red lighting & festive music set the scene for this bar's Latin cocktails, snacks & more."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"velvet cantina\")",
+        "velvet cantina is about $20 per person.",
+        "velvet cantina is about $20 per person."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"3349 23rd St, San Francisco, CA 94110\")",
+        "it is located at 3349 23rd St, San Francisco, CA 94110.",
+        "it is located at 3349 23rd St, San Francisco, CA 94110."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"Velvet Cantina\";time_reservation_accept=\"This saturday at 8 pm\";num_guests_accept=\"4\";type_seating_accept=\"outdoor seating\")",
+        "Velvet Cantina, This saturday at 8 pm for 4 people with outdoor seating is available.",
+        "Velvet Cantina, This saturday at 8 pm for 4 people with outdoor seating is available."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Broderick Roadhouse\")",
+        "i found Jack's Urban Eats, Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine. Broderick Roadhouse, and Magpie Caf\u00e9, Industrial-chic spot with a patio for seasonal New American eats, clever drinks & craft beer.",
+        "i found Jack's Urban Eats, Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine. Broderick Roadhouse, and Magpie Caf\u00e9, Industrial-chic spot with a patio for seasonal New American eats, clever drinks & craft beer."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Jack's Urban Eats\")",
+        "Jack's Urban Eats, Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine.",
+        "Jack's Urban Eats, Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine."
+    ],
+    [
+        "restaurant_reservation(location_restaurant=\"the arden fair mall in sacramento.\")",
+        "i couldn't find any caribbean food restaurant inside the arden fair mall in sacramento.",
+        "i couldn't find any caribbean food restaurant inside the arden fair mall in sacramento."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"The Porch Restaurant & Bar\")",
+        "i found The Porch Restaurant & Bar This relaxed eatery serves familiar Southern classics that feature locally-sourced ingredients.",
+        "i found The Porch Restaurant & Bar This relaxed eatery serves familiar Southern classics that feature locally-sourced ingredients."
+    ],
+    [
+        "restaurant_reservation(location_restaurant_accept=\"arden fair mall.\")",
+        "i only found this restaurant based on your preferences and distance from the arden fair mall.",
+        "i only found this restaurant based on your preferences and distance from the arden fair mall."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Hollywood Cafe\")",
+        "Great. So Gary Danko, Franciscan Crab, and Hollywood Cafe Fit your request.",
+        "Great. So Gary Danko, Franciscan Crab, and Hollywood Cafe Fit your request."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Gary Danko\";name_restaurant_accept=\"chef Gary Danko's\")",
+        "So for Gary Danko we have Renowned chef Gary Danko's fixed-price menus of American cuisine in an elegant but unstuffy setting.",
+        "So for Gary Danko we have Renowned chef Gary Danko's fixed-price menus of American cuisine in an elegant but unstuffy setting."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"Hollywood cafe\")",
+        "Then for Franciscan Crab it's described as Veteran seafood specialist where huge windows & nautical decor complement the waterside setting. And lastly Hollywood cafe is Head shots of Hollywood stars decorate this casual cafe, which serves breakfast & lunch standards.",
+        "Then for Franciscan Crab it's described as Veteran seafood specialist where huge windows & nautical decor complement the waterside setting. And lastly Hollywood cafe is Head shots of Hollywood stars decorate this casual cafe, which serves breakfast & lunch standards."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"2\";name_restaurant_accept=\"Gary Danko\";time_reservation_accept=\"March 8th, at 8 pm\";type_seating=\"outside\")",
+        "So your reservation is for 2 people at Gary Danko on March 8th, at 8 pm, outside.",
+        "So your reservation is for 2 people at Gary Danko on March 8th, at 8 pm, outside."
+    ],
+    [
+        "restaurant_reservation(type_seating_accept=\"inside\")",
+        "They can do inside, I think they do automatic placement.",
+        "They can do inside, I think they do automatic placement."
+    ],
+    [
+        "restaurant_reservation(num_guests_accept=\"4 People\";name_restaurant_accept=\"Pacific Catch\";time_reservation_accept=\"7:30 pm Saturday March 16th\")",
+        "So I have a reservation for 4 People at Pacific Catch at 7:30 pm Saturday March 16th.",
+        "So I have a reservation for 4 People at Pacific Catch at 7:30 pm Saturday March 16th."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"The Italian Homemade Company\")",
+        "Great, let me take a look. I found Trattoria Contadina and The Italian Homemade Company. which one would you like?",
+        "Great, let me take a look. I found Trattoria Contadina and The Italian Homemade Company. which one would you like?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Trattoria Contadina\")",
+        "Trattoria Contadina.",
+        "Trattoria Contadina."
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"Trattoria Contadina\")",
+        "for the Trattoria Contadina?",
+        "for the Trattoria Contadina?"
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"3pm\";num_guests_accept=\"2\";type_seating_accept=\"booth\")",
+        "okay, 3pm, 2 people in a booth. your reservation is booked.",
+        "okay, 3pm, 2 people in a booth. your reservation is booked."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Valencia\")",
+        "Valencia Pizza and Pasta is 0.8 miles from the Bay.",
+        "Valencia Pizza and Pasta is 0.8 miles from the Bay."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Italian Homemade Company\")",
+        "Italian Homemade Company is 0.7 miles from the bay.",
+        "Italian Homemade Company is 0.7 miles from the bay."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Valencia\")",
+        "Italian Homemade Company has 563 reviews and a 4.6 star rating. Valencia has 4.3 star rating and 133 reviews.",
+        "Italian Homemade Company has 563 reviews and a 4.6 star rating. Valencia has 4.3 star rating and 133 reviews."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Cotogna\")",
+        "ok, give me a second while i look that up. i found Cotogna, Popular eatery serving spit-roasted and grilled meat & fish, wood-fired pizza and house-made pasta.",
+        "ok, give me a second while i look that up. i found Cotogna, Popular eatery serving spit-roasted and grilled meat & fish, wood-fired pizza and house-made pasta."
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"Perbacco\")",
+        "also: Perbacco, Upscale, bi-level restaurant serving a seasonal menu of Piedmont-influenced Italian fare & wines.",
+        "also: Perbacco, Upscale, bi-level restaurant serving a seasonal menu of Piedmont-influenced Italian fare & wines."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"booth\")",
+        "would you like to sit at a table or booth?",
+        "would you like to sit at a table or booth?"
+    ],
+    [
+        "restaurant_reservation(num_guests=\"4\";name_restaurant=\"perbacco\";time_reservation=\"8pm\")",
+        "ok. your reservation is confirmed for 4 people at perbacco on sunday, the 24th at 8pm.",
+        "ok. your reservation is confirmed for 4 people at perbacco on sunday, the 24th at 8pm."
+    ],
+    [
+        "restaurant_reservation(time_reservation=\"9pm\")",
+        "i can update the reservation for 9pm?",
+        "i can update the reservation for 9pm?"
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"9pm\";name_restaurant_accept=\"perbacco\";num_guests_accept=\"4\")",
+        "all set, 9pm at perbacco on sunday the 24th, for 4 people.",
+        "all set, 9pm at perbacco on sunday the 24th, for 4 people."
+    ],
+    [
+        "restaurant_reservation(type_seating=\"outdoor seating\")",
+        "any preference on indoor or outdoor seating?",
+        "any preference on indoor or outdoor seating?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant_accept=\"McCormick & Kuleto's Seafood & Steaks\")",
+        "Alright, give me a moment. Firstly i found McCormick & Kuleto's Seafood & Steaks. Expansive waterfront views & daily menus are highlights at this tri-level seafood specialist. Would you like to hear the next option?",
+        "Alright, give me a moment. Firstly i found McCormick & Kuleto's Seafood & Steaks. Expansive waterfront views & daily menus are highlights at this tri-level seafood specialist. Would you like to hear the next option?"
+    ],
+    [
+        "restaurant_reservation(name_restaurant=\"John's Grill\")",
+        "Sure, next i got John's Grill. Steaks & seafood offered in an old-school, wood-paneled space with photos of famous past patrons.",
+        "Sure, next i got John's Grill. Steaks & seafood offered in an old-school, wood-paneled space with photos of famous past patrons."
+    ],
+    [
+        "restaurant_reservation(time_reservation_accept=\"7pm\";num_guests_accept=\"2\")",
+        "Sure, give me a moment to check availability. Alright this thursday at 7pm for 2 people is available. Should i book it?",
+        "Sure, give me a moment to check availability. Alright this thursday at 7pm for 2 people is available. Should i book it?"
+    ]
+]

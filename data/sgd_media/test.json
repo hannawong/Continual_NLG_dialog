@@ -1,0 +1,1997 @@
+[
+    [
+        "OFFER(title=\"The Last Dragon\")",
+        "There is 1 movie named The Last Dragon.",
+        "There is 1 movie named The Last Dragon."
+    ],
+    [
+        "OFFER(title=\"The Last Dragon\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 movie named The Last Dragon.",
+        "There is 1 movie named The Last Dragon."
+    ],
+    [
+        "CONFIRM(title=\"The Last Dragon\";subtitles=\"True\")",
+        "Yes, please confirm The Last Dragon with sibtitles.",
+        "Yes, please confirm The Last Dragon with sibtitles."
+    ],
+    [
+        "INFORM(directed_by=\"Michael Schultz\")",
+        "The movie is directed by Michael Schultz and it has started playing.",
+        "The movie is directed by Michael Schultz and it has started playing."
+    ],
+    [
+        "INFORM(directed_by=\"Michael Schultz\")@NOTIFY_SUCCESS()",
+        "The movie is directed by Michael Schultz and it has started playing.",
+        "The movie is directed by Michael Schultz and it has started playing."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")",
+        "Will \" A Madea Family Funeral \" an option for you ? I also have Auntie Mame and Dr. strangelove for you.",
+        "Will \" A Madea Family Funeral \" an option for you ? I also have Auntie Mame and Dr. strangelove for you."
+    ],
+    [
+        "OFFER(title=\"Family\")",
+        "Family , Gloria Bell or green book are some other good ones in the list.",
+        "Family , Gloria Bell or green book are some other good ones in the list."
+    ],
+    [
+        "OFFER(title=\"Josie and the pussycats\")",
+        "So what about Josie and the pussycats ? Little and long shot are other two movies worth consideriation .",
+        "So what about Josie and the pussycats ? Little and long shot are other two movies worth consideriation ."
+    ],
+    [
+        "CONFIRM(title=\"little\";subtitles=\"False\")",
+        "Shall I proceed to play little without subtitles sir?",
+        "Shall I proceed to play little without subtitles sir?"
+    ],
+    [
+        "INFORM(directed_by=\"Tina Gordon\")",
+        "The movie has started sir , and this film is directed by Tina Gordon .",
+        "The movie has started sir , and this film is directed by Tina Gordon ."
+    ],
+    [
+        "INFORM(directed_by=\"Tina Gordon\")@NOTIFY_SUCCESS()",
+        "The movie has started sir , and this film is directed by Tina Gordon .",
+        "The movie has started sir , and this film is directed by Tina Gordon ."
+    ],
+    [
+        "OFFER(title=\"Wild Nights with Emily\")",
+        "I found 1 movie you might enjoy named Wild Nights with Emily.",
+        "I found 1 movie you might enjoy named Wild Nights with Emily."
+    ],
+    [
+        "OFFER(title=\"Wild Nights with Emily\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 movie you might enjoy named Wild Nights with Emily.",
+        "I found 1 movie you might enjoy named Wild Nights with Emily."
+    ],
+    [
+        "CONFIRM(title=\"Wild Nights with Emily\";subtitles=\"True\")",
+        "You'd like me to play Wild Nights with Emily with subtitles",
+        "You'd like me to play Wild Nights with Emily with subtitles"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Starting the movie now",
+        "Starting the movie now"
+    ],
+    [
+        "OFFER(title=\"The Visitor\")",
+        "There is 1 movie called The Visitor",
+        "There is 1 movie called The Visitor"
+    ],
+    [
+        "OFFER(title=\"The Visitor\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 movie called The Visitor",
+        "There is 1 movie called The Visitor"
+    ],
+    [
+        "CONFIRM(title=\"The Visitor\";subtitles=\"False\")",
+        "Please confirm you want me to play The Visitor",
+        "Please confirm you want me to play The Visitor"
+    ],
+    [
+        "CONFIRM(title=\"the Visitor\";subtitles=\"True\")",
+        "Please confirm to play the Visitor with subtitles",
+        "Please confirm to play the Visitor with subtitles"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "movie played",
+        "movie played"
+    ],
+    [
+        "OFFER(title=\"Breakthrough\")",
+        "Do you prefer Breakthrough, JT LeRoy or Searching for Sugar Man?",
+        "Do you prefer Breakthrough, JT LeRoy or Searching for Sugar Man?"
+    ],
+    [
+        "CONFIRM(title=\"Breakthrough\";subtitles=\"True\")",
+        "Play Breakthrough with subtitles: do you confirm?",
+        "Play Breakthrough with subtitles: do you confirm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie starts",
+        "The movie starts"
+    ],
+    [
+        "OFFER(title=\"The Visitor\")",
+        "I found 1 movie you might like: The Visitor.",
+        "I found 1 movie you might like: The Visitor."
+    ],
+    [
+        "OFFER(title=\"The Visitor\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 movie you might like: The Visitor.",
+        "I found 1 movie you might like: The Visitor."
+    ],
+    [
+        "CONFIRM(title=\"The Visitor\";subtitles=\"True\")",
+        "Play The Visitor with subtitles: Is it confirmed?",
+        "Play The Visitor with subtitles: Is it confirmed?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has begun.",
+        "The movie has begun."
+    ],
+    [
+        "OFFER(title=\"How to Train Your Dragon: The Hidden World\")",
+        "I've found 1 movie you might like. Would you like to watch How to Train Your Dragon: The Hidden World?",
+        "I've found 1 movie you might like. Would you like to watch How to Train Your Dragon: The Hidden World?"
+    ],
+    [
+        "OFFER(title=\"How to Train Your Dragon: The Hidden World\")@INFORM_COUNT(count=\"1\")",
+        "I've found 1 movie you might like. Would you like to watch How to Train Your Dragon: The Hidden World?",
+        "I've found 1 movie you might like. Would you like to watch How to Train Your Dragon: The Hidden World?"
+    ],
+    [
+        "CONFIRM(title=\"How To Train Your Dragon: The Hidden World\";subtitles=\"True\")",
+        "You want to watch How To Train Your Dragon: The Hidden World right now with subtitles?",
+        "You want to watch How To Train Your Dragon: The Hidden World right now with subtitles?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie will commence playing now.",
+        "The movie will commence playing now."
+    ],
+    [
+        "INFORM(directed_by=\"Dean Deblois\")",
+        "The director is Dean Deblois",
+        "The director is Dean Deblois"
+    ],
+    [
+        "OFFER(title=\"Breakthrough\")",
+        "There are 4 movies I think you would really enjoy; Breakthrough, JT LeRoy or Searching for Sugar Man.",
+        "There are 4 movies I think you would really enjoy; Breakthrough, JT LeRoy or Searching for Sugar Man."
+    ],
+    [
+        "OFFER(title=\"Breakthrough\")@INFORM_COUNT(count=\"4\")",
+        "There are 4 movies I think you would really enjoy; Breakthrough, JT LeRoy or Searching for Sugar Man.",
+        "There are 4 movies I think you would really enjoy; Breakthrough, JT LeRoy or Searching for Sugar Man."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")",
+        "A Madea Family Funeral, Auntie Mame or Dr. Strangelove are good comedy movies.",
+        "A Madea Family Funeral, Auntie Mame or Dr. Strangelove are good comedy movies."
+    ],
+    [
+        "OFFER(title=\"Family\")",
+        "How about Family, Gloria Bell, or Green Book?",
+        "How about Family, Gloria Bell, or Green Book?"
+    ],
+    [
+        "CONFIRM(title=\"Family\";subtitles=\"True\")",
+        "Please confirm the following details: Play Family with subtitles.",
+        "Please confirm the following details: Play Family with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has started playing.",
+        "The movie has started playing."
+    ],
+    [
+        "OFFER(title=\"Auntie Mame\")",
+        "how about Auntie Mame?",
+        "how about Auntie Mame?"
+    ],
+    [
+        "OFFER(title=\"Wild Nights with Emily\")",
+        "You might like 1 movie. How about Wild Nights with Emily?",
+        "You might like 1 movie. How about Wild Nights with Emily?"
+    ],
+    [
+        "OFFER(title=\"Wild Nights with Emily\")@INFORM_COUNT(count=\"1\")",
+        "You might like 1 movie. How about Wild Nights with Emily?",
+        "You might like 1 movie. How about Wild Nights with Emily?"
+    ],
+    [
+        "CONFIRM(title=\"Wild Nights with Emily\";subtitles=\"False\")",
+        "Confirm Wild Nights with Emily with no subtitles.",
+        "Confirm Wild Nights with Emily with no subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started playing movie",
+        "Started playing movie"
+    ],
+    [
+        "OFFER(title=\"The Curse of La Llorona\")",
+        "I have 1 of those. The Curse of La Llorona.",
+        "I have 1 of those. The Curse of La Llorona."
+    ],
+    [
+        "OFFER(title=\"The Curse of La Llorona\")@INFORM_COUNT(count=\"1\")",
+        "I have 1 of those. The Curse of La Llorona.",
+        "I have 1 of those. The Curse of La Llorona."
+    ],
+    [
+        "CONFIRM(title=\"The Curse of La Llorona\";subtitles=\"False\")",
+        "The Curse of La Llorona without subtitles coming up. Please confirm.",
+        "The Curse of La Llorona without subtitles coming up. Please confirm."
+    ],
+    [
+        "CONFIRM(title=\"The Curse of La Llorona\";subtitles=\"True\")",
+        "The Curse of La Llorona with subtitles. Please confirm.",
+        "The Curse of La Llorona with subtitles. Please confirm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie is playing.",
+        "The movie is playing."
+    ],
+    [
+        "INFORM(directed_by=\"Michael Chaves\")",
+        "Michael Chaves is listed as director.",
+        "Michael Chaves is listed as director."
+    ],
+    [
+        "OFFER(title=\"Dogman\")",
+        "The first three out of 10 movies that I have located matching that criteria are Dogman, Hackers, and High Life. Do any of those sound like something you would be interested in?",
+        "The first three out of 10 movies that I have located matching that criteria are Dogman, Hackers, and High Life. Do any of those sound like something you would be interested in?"
+    ],
+    [
+        "OFFER(title=\"Dogman\")@INFORM_COUNT(count=\"10\")",
+        "The first three out of 10 movies that I have located matching that criteria are Dogman, Hackers, and High Life. Do any of those sound like something you would be interested in?",
+        "The first three out of 10 movies that I have located matching that criteria are Dogman, Hackers, and High Life. Do any of those sound like something you would be interested in?"
+    ],
+    [
+        "CONFIRM(title=\"High Life\";subtitles=\"False\")",
+        "Okay, please simply confirm with either a yes or no that you would like me to proceed with playing the movie High Life.",
+        "Okay, please simply confirm with either a yes or no that you would like me to proceed with playing the movie High Life."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, your movie will now begin to play.",
+        "Great, your movie will now begin to play."
+    ],
+    [
+        "INFORM(directed_by=\"Claire Denis\")",
+        "Certainly, Claire Denis is the director of the movie High Life.",
+        "Certainly, Claire Denis is the director of the movie High Life."
+    ],
+    [
+        "OFFER(title=\"Dogman\")",
+        "Three possible matches include Dogman, Hackers or High Life. Do any of these sound good?",
+        "Three possible matches include Dogman, Hackers or High Life. Do any of these sound good?"
+    ],
+    [
+        "OFFER(title=\"The Man Who Knew Too Much\")",
+        "Would you consider The Man Who Knew Too Much?",
+        "Would you consider The Man Who Knew Too Much?"
+    ],
+    [
+        "CONFIRM(title=\"The Man Who Knew Too Much\";subtitles=\"False\")",
+        "Just to confirm, you want to watch The Man Who Knew Too Much without subtitles?",
+        "Just to confirm, you want to watch The Man Who Knew Too Much without subtitles?"
+    ],
+    [
+        "CONFIRM(title=\"The Man Who Knew Too Much\";subtitles=\"True\")",
+        "The film you would like to watch is The Man Who Knew Too Much and you want subtitles on?",
+        "The film you would like to watch is The Man Who Knew Too Much and you want subtitles on?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has begun playing.",
+        "The movie has begun playing."
+    ],
+    [
+        "OFFER(title=\"Dumbo\")",
+        "I've found 4 movies that might interest you. What do you think about Dumbo, Hellboy, or Mad Max: Fury Road?",
+        "I've found 4 movies that might interest you. What do you think about Dumbo, Hellboy, or Mad Max: Fury Road?"
+    ],
+    [
+        "OFFER(title=\"Dumbo\")@INFORM_COUNT(count=\"4\")",
+        "I've found 4 movies that might interest you. What do you think about Dumbo, Hellboy, or Mad Max: Fury Road?",
+        "I've found 4 movies that might interest you. What do you think about Dumbo, Hellboy, or Mad Max: Fury Road?"
+    ],
+    [
+        "OFFER(title=\"Penguin Highway\")",
+        "What do you think about Penguin Highway?",
+        "What do you think about Penguin Highway?"
+    ],
+    [
+        "CONFIRM(title=\"Penguin Highway\";subtitles=\"False\")",
+        "I'll play Penguin Highway without subtitles, is this correct?",
+        "I'll play Penguin Highway without subtitles, is this correct?"
+    ],
+    [
+        "CONFIRM(title=\"Penguin Highway\";subtitles=\"True\")",
+        "I'll play Penguin Highway with subtitles, is this correct.",
+        "I'll play Penguin Highway with subtitles, is this correct."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I'm playing the movie now.",
+        "I'm playing the movie now."
+    ],
+    [
+        "OFFER(title=\"Breakthrough\")",
+        "i have 4 of them, Breakthrough, JT Leroy, Searching for sugar man",
+        "i have 4 of them, Breakthrough, JT Leroy, Searching for sugar man"
+    ],
+    [
+        "OFFER(title=\"Breakthrough\")@INFORM_COUNT(count=\"4\")",
+        "i have 4 of them, Breakthrough, JT Leroy, Searching for sugar man",
+        "i have 4 of them, Breakthrough, JT Leroy, Searching for sugar man"
+    ],
+    [
+        "OFFER(title=\"After\")",
+        "Ok, how about Pillow talk, Say anything or After?",
+        "Ok, how about Pillow talk, Say anything or After?"
+    ],
+    [
+        "OFFER(title=\"The visitor\")",
+        "Viva Las Vegas or The visitor?",
+        "Viva Las Vegas or The visitor?"
+    ],
+    [
+        "CONFIRM(title=\"Viva Las Vegas\";subtitles=\"True\")",
+        "Just confir: play Viva Las Vegas with subtitles",
+        "Just confir: play Viva Las Vegas with subtitles"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started the movie",
+        "Started the movie"
+    ],
+    [
+        "OFFER(title=\"Breakthrough\")",
+        "I see 4. You got Breakthrough, JT LeRoy, and Searching for Sugar Man.",
+        "I see 4. You got Breakthrough, JT LeRoy, and Searching for Sugar Man."
+    ],
+    [
+        "OFFER(title=\"Breakthrough\")@INFORM_COUNT(count=\"4\")",
+        "I see 4. You got Breakthrough, JT LeRoy, and Searching for Sugar Man.",
+        "I see 4. You got Breakthrough, JT LeRoy, and Searching for Sugar Man."
+    ],
+    [
+        "CONFIRM(title=\"Searching for Sugar Man\";subtitles=\"False\")",
+        "Searching for Sugar Man without subtitles coming up. Correct?",
+        "Searching for Sugar Man without subtitles coming up. Correct?"
+    ],
+    [
+        "INFORM(directed_by=\"Malik Bendjelloul\")",
+        "Malik Bendjelloul. The film has started.",
+        "Malik Bendjelloul. The film has started."
+    ],
+    [
+        "INFORM(directed_by=\"Malik Bendjelloul\")@NOTIFY_SUCCESS()",
+        "Malik Bendjelloul. The film has started.",
+        "Malik Bendjelloul. The film has started."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")",
+        "Are A Madea Family Funeral, Auntie Mame and Dr. Strangelove movies that interest you?",
+        "Are A Madea Family Funeral, Auntie Mame and Dr. Strangelove movies that interest you?"
+    ],
+    [
+        "OFFER(title=\"Captain Marvel\")",
+        "How about Captain Marvel, Shazam! or The Poseidon Adventure?",
+        "How about Captain Marvel, Shazam! or The Poseidon Adventure?"
+    ],
+    [
+        "OFFER(title=\"True Grit\")",
+        "Would you like True Grit?",
+        "Would you like True Grit?"
+    ],
+    [
+        "CONFIRM(title=\"True Grit\";subtitles=\"True\")",
+        "You want to play True Grit with subtitles, correct?",
+        "You want to play True Grit with subtitles, correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started playing the movie.",
+        "Started playing the movie."
+    ],
+    [
+        "OFFER(title=\"Captain Marvel\")",
+        "There are 4 movies: Captain Marvel, Shazam! or the Poseidon Adventure?",
+        "There are 4 movies: Captain Marvel, Shazam! or the Poseidon Adventure?"
+    ],
+    [
+        "OFFER(title=\"Captain Marvel\")@INFORM_COUNT(count=\"4\")",
+        "There are 4 movies: Captain Marvel, Shazam! or the Poseidon Adventure?",
+        "There are 4 movies: Captain Marvel, Shazam! or the Poseidon Adventure?"
+    ],
+    [
+        "OFFER(title=\"Ash Is Purest White\")",
+        "There is 1 movie: Ash Is Purest White.",
+        "There is 1 movie: Ash Is Purest White."
+    ],
+    [
+        "OFFER(title=\"Ash Is Purest White\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 movie: Ash Is Purest White.",
+        "There is 1 movie: Ash Is Purest White."
+    ],
+    [
+        "CONFIRM(title=\"Ash Is Purest White\";subtitles=\"False\")",
+        "Ash Is Purest White play without subtitles.",
+        "Ash Is Purest White play without subtitles."
+    ],
+    [
+        "CONFIRM(title=\"Ash is Purest White\";subtitles=\"True\")",
+        "Ash is Purest White with subtitles.",
+        "Ash is Purest White with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie will start playing.",
+        "The movie will start playing."
+    ],
+    [
+        "OFFER(title=\"breakthrough\")",
+        "How about breakthrough, jt leroy, or searching for sugar man?",
+        "How about breakthrough, jt leroy, or searching for sugar man?"
+    ],
+    [
+        "OFFER(title=\"Shine a light\")",
+        "Shine a light?",
+        "Shine a light?"
+    ],
+    [
+        "CONFIRM(title=\"shine a light\";subtitles=\"False\")",
+        "Do you want to watch shine a light without subtitles?",
+        "Do you want to watch shine a light without subtitles?"
+    ],
+    [
+        "CONFIRM(title=\"shine a light\";subtitles=\"True\")",
+        "Confirm that You want to watch shine a light with subtitles?",
+        "Confirm that You want to watch shine a light with subtitles?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have started the movie",
+        "I have started the movie"
+    ],
+    [
+        "OFFER(title=\"Blackmail - Cinemix Par Chloe\")",
+        "Would you be interested in Blackmail - Cinemix Par Chloe?",
+        "Would you be interested in Blackmail - Cinemix Par Chloe?"
+    ],
+    [
+        "OFFER(title=\"Dumbo\")",
+        "I've found 1 movie you might be interest in. What about Dumbo?",
+        "I've found 1 movie you might be interest in. What about Dumbo?"
+    ],
+    [
+        "OFFER(title=\"Dumbo\")@INFORM_COUNT(count=\"1\")",
+        "I've found 1 movie you might be interest in. What about Dumbo?",
+        "I've found 1 movie you might be interest in. What about Dumbo?"
+    ],
+    [
+        "CONFIRM(title=\"Dumbo\";subtitles=\"False\")",
+        "Shall I start Dumbo without subtitles?",
+        "Shall I start Dumbo without subtitles?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie is now playing.",
+        "The movie is now playing."
+    ],
+    [
+        "OFFER(title=\"After\")",
+        "Do the movies: After, Pillow Talk, or Say Anything sound good?",
+        "Do the movies: After, Pillow Talk, or Say Anything sound good?"
+    ],
+    [
+        "CONFIRM(title=\"After\";subtitles=\"False\")",
+        "To review: You would like to play After without subtitles.",
+        "To review: You would like to play After without subtitles."
+    ],
+    [
+        "CONFIRM(title=\"After\";subtitles=\"True\")",
+        "To review: You would like to play After with subtitles.",
+        "To review: You would like to play After with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie will start playing now.",
+        "The movie will start playing now."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")",
+        "I've got A Madea Family Funeral, Auntie Mame or Dr. Strangelove?",
+        "I've got A Madea Family Funeral, Auntie Mame or Dr. Strangelove?"
+    ],
+    [
+        "OFFER(title=\"Captain Marvel\")",
+        "I've got 4. How about Captain Marvel, Shazam! or The Poseidon Adventure?",
+        "I've got 4. How about Captain Marvel, Shazam! or The Poseidon Adventure?"
+    ],
+    [
+        "OFFER(title=\"Captain Marvel\")@INFORM_COUNT(count=\"4\")",
+        "I've got 4. How about Captain Marvel, Shazam! or The Poseidon Adventure?",
+        "I've got 4. How about Captain Marvel, Shazam! or The Poseidon Adventure?"
+    ],
+    [
+        "OFFER(title=\"True Grit\")",
+        "What about True Grit?",
+        "What about True Grit?"
+    ],
+    [
+        "CONFIRM(title=\"True Grit\";subtitles=\"False\")",
+        "No problem, please confirm: play True Grit.",
+        "No problem, please confirm: play True Grit."
+    ],
+    [
+        "CONFIRM(title=\"True Grit\";subtitles=\"True\")",
+        "Okay, please confirm: play True Grit with subtitles.",
+        "Okay, please confirm: play True Grit with subtitles."
+    ],
+    [
+        "INFORM(directed_by=\"Joel Coen\")",
+        "The movie is now playing. Joel Coen is the director.",
+        "The movie is now playing. Joel Coen is the director."
+    ],
+    [
+        "INFORM(directed_by=\"Joel Coen\")@NOTIFY_SUCCESS()",
+        "The movie is now playing. Joel Coen is the director.",
+        "The movie is now playing. Joel Coen is the director."
+    ],
+    [
+        "OFFER(title=\"Citizen Kane\")",
+        "There're 1 movie. How about Citizen Kane?",
+        "There're 1 movie. How about Citizen Kane?"
+    ],
+    [
+        "OFFER(title=\"Citizen Kane\")@INFORM_COUNT(count=\"1\")",
+        "There're 1 movie. How about Citizen Kane?",
+        "There're 1 movie. How about Citizen Kane?"
+    ],
+    [
+        "CONFIRM(title=\"Citizen Kane\";subtitles=\"False\")",
+        "Please confirm. Play Citizen Kane without subtitles",
+        "Please confirm. Play Citizen Kane without subtitles"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started playing the movie.",
+        "Started playing the movie."
+    ],
+    [
+        "OFFER(title=\"Pillow Talk\")",
+        "I have 1 movie you may like. How about Pillow Talk?",
+        "I have 1 movie you may like. How about Pillow Talk?"
+    ],
+    [
+        "OFFER(title=\"Pillow Talk\")@INFORM_COUNT(count=\"1\")",
+        "I have 1 movie you may like. How about Pillow Talk?",
+        "I have 1 movie you may like. How about Pillow Talk?"
+    ],
+    [
+        "CONFIRM(title=\"Pillow Talk\";subtitles=\"False\")",
+        "Please confirm, play Pillow Talk.",
+        "Please confirm, play Pillow Talk."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've started playing the movie.",
+        "I've started playing the movie."
+    ],
+    [
+        "OFFER(title=\"After\")",
+        "I found 5 movies. How about After, Pillow Talk or Say Anything?",
+        "I found 5 movies. How about After, Pillow Talk or Say Anything?"
+    ],
+    [
+        "OFFER(title=\"After\")@INFORM_COUNT(count=\"5\")",
+        "I found 5 movies. How about After, Pillow Talk or Say Anything?",
+        "I found 5 movies. How about After, Pillow Talk or Say Anything?"
+    ],
+    [
+        "OFFER(title=\"Supa Modo\")",
+        "I found 1 movie. Supa Modo.",
+        "I found 1 movie. Supa Modo."
+    ],
+    [
+        "OFFER(title=\"Supa Modo\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 movie. Supa Modo.",
+        "I found 1 movie. Supa Modo."
+    ],
+    [
+        "CONFIRM(title=\"Supa Modo\";subtitles=\"True\")",
+        "Ok, I am going to play Supa Modo with subtitles.",
+        "Ok, I am going to play Supa Modo with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Movie is playing.",
+        "Movie is playing."
+    ],
+    [
+        "OFFER(title=\"Hotel Mumbai\")",
+        "I found 2 movies that you may like. They are Hotel Mumbai and Pet Sematary.",
+        "I found 2 movies that you may like. They are Hotel Mumbai and Pet Sematary."
+    ],
+    [
+        "OFFER(title=\"Hotel Mumbai\")@INFORM_COUNT(count=\"2\")",
+        "I found 2 movies that you may like. They are Hotel Mumbai and Pet Sematary.",
+        "I found 2 movies that you may like. They are Hotel Mumbai and Pet Sematary."
+    ],
+    [
+        "CONFIRM(title=\"Hotel Mumbai\";subtitles=\"False\")",
+        "Please confirm you want me to play Hotel Mumbai without subtitles.",
+        "Please confirm you want me to play Hotel Mumbai without subtitles."
+    ],
+    [
+        "CONFIRM(title=\"hotel Mumbai\";subtitles=\"True\")",
+        "Please confirm: Play hotel Mumbai with subtitles.",
+        "Please confirm: Play hotel Mumbai with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I will start play the movie.",
+        "I will start play the movie."
+    ],
+    [
+        "OFFER(title=\"Fighting with My Family\")",
+        "How about Fighting with My Family?",
+        "How about Fighting with My Family?"
+    ],
+    [
+        "OFFER(title=\"Citizen Kane\")",
+        "Here is 1 movie you might like then - Citizen Kane.",
+        "Here is 1 movie you might like then - Citizen Kane."
+    ],
+    [
+        "OFFER(title=\"Citizen Kane\")@INFORM_COUNT(count=\"1\")",
+        "Here is 1 movie you might like then - Citizen Kane.",
+        "Here is 1 movie you might like then - Citizen Kane."
+    ],
+    [
+        "CONFIRM(title=\"Citizen Kane\";subtitles=\"False\")",
+        "Confirm the following please: play Citizen Kane without subtitles.",
+        "Confirm the following please: play Citizen Kane without subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has started.",
+        "The movie has started."
+    ],
+    [
+        "OFFER(title=\"Teen Spirit\")",
+        "There's 1 movie you may enjoy. It's called Teen Spirit.",
+        "There's 1 movie you may enjoy. It's called Teen Spirit."
+    ],
+    [
+        "OFFER(title=\"Teen Spirit\")@INFORM_COUNT(count=\"1\")",
+        "There's 1 movie you may enjoy. It's called Teen Spirit.",
+        "There's 1 movie you may enjoy. It's called Teen Spirit."
+    ],
+    [
+        "CONFIRM(title=\"Teen Spirit\";subtitles=\"True\")",
+        "Please confirm that you want to watch Teen Spirit with subtitles.",
+        "Please confirm that you want to watch Teen Spirit with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Teen Spirit is now playing.",
+        "Teen Spirit is now playing."
+    ],
+    [
+        "OFFER(title=\"Little Woods\")",
+        "Do you like Little Woods?",
+        "Do you like Little Woods?"
+    ],
+    [
+        "CONFIRM(title=\"Little Woods\";subtitles=\"False\")",
+        "Please confirm that Little Woods plays without subtitles.",
+        "Please confirm that Little Woods plays without subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie is playing.",
+        "The movie is playing."
+    ],
+    [
+        "OFFER(title=\"The Aftermath\")",
+        "I found 1 movie. Would you like to watch The Aftermath?",
+        "I found 1 movie. Would you like to watch The Aftermath?"
+    ],
+    [
+        "OFFER(title=\"The Aftermath\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 movie. Would you like to watch The Aftermath?",
+        "I found 1 movie. Would you like to watch The Aftermath?"
+    ],
+    [
+        "CONFIRM(title=\"The Aftermath\";subtitles=\"False\")",
+        "Okay that's The Aftermath with no subtitles. Is that correct?",
+        "Okay that's The Aftermath with no subtitles. Is that correct?"
+    ],
+    [
+        "CONFIRM(title=\"The Aftermath\";subtitles=\"True\")",
+        "Is this right? The Aftermath subtitles included.",
+        "Is this right? The Aftermath subtitles included."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie is now playing.",
+        "The movie is now playing."
+    ],
+    [
+        "OFFER(title=\"The Last Dragon\")",
+        "I found 1 result. The Last Dragon?",
+        "I found 1 result. The Last Dragon?"
+    ],
+    [
+        "OFFER(title=\"The Last Dragon\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 result. The Last Dragon?",
+        "I found 1 result. The Last Dragon?"
+    ],
+    [
+        "CONFIRM(title=\"The Last Dragon\";subtitles=\"True\")",
+        "Please confirm: play The Last Dragon with subtitles",
+        "Please confirm: play The Last Dragon with subtitles"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Movie playing now",
+        "Movie playing now"
+    ],
+    [
+        "OFFER(title=\"Penguin Highway\")",
+        "How about Penguin Highway?",
+        "How about Penguin Highway?"
+    ],
+    [
+        "OFFER(title=\"Mary Magdalene\")",
+        "How about this 1 movie about Mary Magdalene?",
+        "How about this 1 movie about Mary Magdalene?"
+    ],
+    [
+        "OFFER(title=\"Mary Magdalene\")@INFORM_COUNT(count=\"1\")",
+        "How about this 1 movie about Mary Magdalene?",
+        "How about this 1 movie about Mary Magdalene?"
+    ],
+    [
+        "CONFIRM(title=\"Mary Magdalene\";subtitles=\"True\")",
+        "Please confirm the following details: play Mary Magdalene with subtitles.",
+        "Please confirm the following details: play Mary Magdalene with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Starting to play movie.",
+        "Starting to play movie."
+    ],
+    [
+        "OFFER(title=\"Dogman\")",
+        "Ok, do you like Dogman, Hackers, or High Life?",
+        "Ok, do you like Dogman, Hackers, or High Life?"
+    ],
+    [
+        "OFFER(title=\"The Mustang\")",
+        "There is 1! It's called The Mustang.",
+        "There is 1! It's called The Mustang."
+    ],
+    [
+        "OFFER(title=\"The Mustang\")@INFORM_COUNT(count=\"1\")",
+        "There is 1! It's called The Mustang.",
+        "There is 1! It's called The Mustang."
+    ],
+    [
+        "CONFIRM(title=\"The Mustang\";subtitles=\"True\")",
+        "Yes, you can! So you'd like The Mustang, with subtitles to play now then?",
+        "Yes, you can! So you'd like The Mustang, with subtitles to play now then?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've started the movie for you now. Anything else I can help you with?",
+        "I've started the movie for you now. Anything else I can help you with?"
+    ],
+    [
+        "OFFER(title=\"Hotel Mumbai\")",
+        "I see that 1 movie suits what you need. Would you enjoy watching Hotel Mumbai?",
+        "I see that 1 movie suits what you need. Would you enjoy watching Hotel Mumbai?"
+    ],
+    [
+        "OFFER(title=\"Hotel Mumbai\")@INFORM_COUNT(count=\"1\")",
+        "I see that 1 movie suits what you need. Would you enjoy watching Hotel Mumbai?",
+        "I see that 1 movie suits what you need. Would you enjoy watching Hotel Mumbai?"
+    ],
+    [
+        "CONFIRM(title=\"Hotel Mumbai\";subtitles=\"True\")",
+        "Can you please confirm that you want to watch the Hotel Mumbai with subtitles?",
+        "Can you please confirm that you want to watch the Hotel Mumbai with subtitles?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has started playing.",
+        "The movie has started playing."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")",
+        "I found 10 movies for you. Would you like Auntie Mame, Dr. Strangelove, or A Madea Family Funeral?",
+        "I found 10 movies for you. Would you like Auntie Mame, Dr. Strangelove, or A Madea Family Funeral?"
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 movies for you. Would you like Auntie Mame, Dr. Strangelove, or A Madea Family Funeral?",
+        "I found 10 movies for you. Would you like Auntie Mame, Dr. Strangelove, or A Madea Family Funeral?"
+    ],
+    [
+        "CONFIRM(title=\"Dr. Strangelove\";subtitles=\"False\")",
+        "Please confirm that you would like to see Dr. Strangelove without subtitles.",
+        "Please confirm that you would like to see Dr. Strangelove without subtitles."
+    ],
+    [
+        "CONFIRM(title=\"Dr. Strangelove\";subtitles=\"True\")",
+        "Okay. Please confirm that you would like to see Dr. Strangelove with subtitles.",
+        "Okay. Please confirm that you would like to see Dr. Strangelove with subtitles."
+    ],
+    [
+        "INFORM(directed_by=\"Stanley Kubrick\")",
+        "The movie is directed by Stanley Kubrick. The movie is starting.",
+        "The movie is directed by Stanley Kubrick. The movie is starting."
+    ],
+    [
+        "INFORM(directed_by=\"Stanley Kubrick\")@NOTIFY_SUCCESS()",
+        "The movie is directed by Stanley Kubrick. The movie is starting.",
+        "The movie is directed by Stanley Kubrick. The movie is starting."
+    ],
+    [
+        "OFFER(title=\"Body Double\")",
+        "I found Body Double and Citizen Kane.",
+        "I found Body Double and Citizen Kane."
+    ],
+    [
+        "CONFIRM(title=\"Body Double\";subtitles=\"True\")",
+        "You want to watch Body Double with subtitles. Is this correct?",
+        "You want to watch Body Double with subtitles. Is this correct?"
+    ],
+    [
+        "INFORM(directed_by=\"Brian De Palma\")",
+        "The movie is now playing. Brian De Palma is the director.",
+        "The movie is now playing. Brian De Palma is the director."
+    ],
+    [
+        "INFORM(directed_by=\"Brian De Palma\")@NOTIFY_SUCCESS()",
+        "The movie is now playing. Brian De Palma is the director.",
+        "The movie is now playing. Brian De Palma is the director."
+    ],
+    [
+        "OFFER(title=\"After\")",
+        "I have watched After. But I have never watched Pillow Talk or Say Anything. Maybe I will try those.",
+        "I have watched After. But I have never watched Pillow Talk or Say Anything. Maybe I will try those."
+    ],
+    [
+        "OFFER(title=\"Viva Las Vegas\")",
+        "I have 1 movie here you may like. Ever watched Viva Las Vegas?",
+        "I have 1 movie here you may like. Ever watched Viva Las Vegas?"
+    ],
+    [
+        "OFFER(title=\"Viva Las Vegas\")@INFORM_COUNT(count=\"1\")",
+        "I have 1 movie here you may like. Ever watched Viva Las Vegas?",
+        "I have 1 movie here you may like. Ever watched Viva Las Vegas?"
+    ],
+    [
+        "CONFIRM(title=\"Viva Las Vegas\";subtitles=\"True\")",
+        "Do you confirm Viva Las Vegas with subtitles?",
+        "Do you confirm Viva Las Vegas with subtitles?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Plays the movie with subtitles.",
+        "Plays the movie with subtitles."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")",
+        "There are 10 movies available. A Madea Family Funeral, Auntie Mame, and Dr. Strangelove.",
+        "There are 10 movies available. A Madea Family Funeral, Auntie Mame, and Dr. Strangelove."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")@INFORM_COUNT(count=\"10\")",
+        "There are 10 movies available. A Madea Family Funeral, Auntie Mame, and Dr. Strangelove.",
+        "There are 10 movies available. A Madea Family Funeral, Auntie Mame, and Dr. Strangelove."
+    ],
+    [
+        "OFFER(title=\"After\")",
+        "There is 1 movie. It is called After.",
+        "There is 1 movie. It is called After."
+    ],
+    [
+        "OFFER(title=\"After\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 movie. It is called After.",
+        "There is 1 movie. It is called After."
+    ],
+    [
+        "CONFIRM(title=\"After\";subtitles=\"True\")",
+        "Please confirm; playing After with subtitles.",
+        "Please confirm; playing After with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Plays movie",
+        "Plays movie"
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")",
+        "I've found 10 movies you may like. How about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?",
+        "I've found 10 movies you may like. How about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?"
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")@INFORM_COUNT(count=\"10\")",
+        "I've found 10 movies you may like. How about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?",
+        "I've found 10 movies you may like. How about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?"
+    ],
+    [
+        "OFFER(title=\"The Aftermath\")",
+        "I've found 1 movie- how about The Aftermath?",
+        "I've found 1 movie- how about The Aftermath?"
+    ],
+    [
+        "OFFER(title=\"The Aftermath\")@INFORM_COUNT(count=\"1\")",
+        "I've found 1 movie- how about The Aftermath?",
+        "I've found 1 movie- how about The Aftermath?"
+    ],
+    [
+        "CONFIRM(title=\"The Aftermath\";subtitles=\"True\")",
+        "So I'll play The Aftermath with subtitles, okay?",
+        "So I'll play The Aftermath with subtitles, okay?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has started.",
+        "The movie has started."
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")",
+        "I have 10 movies that might interest you. Here are a few titles, A Madea Family Funeral, Auntie Mame, and Dr. Strangelove. Do any of those sound like a good match?",
+        "I have 10 movies that might interest you. Here are a few titles, A Madea Family Funeral, Auntie Mame, and Dr. Strangelove. Do any of those sound like a good match?"
+    ],
+    [
+        "OFFER(title=\"A Madea Family Funeral\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 movies that might interest you. Here are a few titles, A Madea Family Funeral, Auntie Mame, and Dr. Strangelove. Do any of those sound like a good match?",
+        "I have 10 movies that might interest you. Here are a few titles, A Madea Family Funeral, Auntie Mame, and Dr. Strangelove. Do any of those sound like a good match?"
+    ],
+    [
+        "OFFER(title=\"Family\")",
+        "Okay, I also have Family, Gloria Bell, or Green Book? How about those choices?",
+        "Okay, I also have Family, Gloria Bell, or Green Book? How about those choices?"
+    ],
+    [
+        "CONFIRM(title=\"Green Book\";subtitles=\"False\")",
+        "So, to confirm, you would like me to play Green Book without subtitles. Is that correct?",
+        "So, to confirm, you would like me to play Green Book without subtitles. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I will now play the movie.",
+        "I will now play the movie."
+    ],
+    [
+        "OFFER(title=\"The Last Dragon\")",
+        "Ok, I found 1 action movie directed by Michael Schultz. It's called The Last Dragon.",
+        "Ok, I found 1 action movie directed by Michael Schultz. It's called The Last Dragon."
+    ],
+    [
+        "OFFER(title=\"The Last Dragon\")@INFORM_COUNT(count=\"1\")",
+        "Ok, I found 1 action movie directed by Michael Schultz. It's called The Last Dragon.",
+        "Ok, I found 1 action movie directed by Michael Schultz. It's called The Last Dragon."
+    ],
+    [
+        "CONFIRM(title=\"the last dragon\";subtitles=\"True\")",
+        "Are you sure that you want to watch the last dragon with subtitles?",
+        "Are you sure that you want to watch the last dragon with subtitles?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie is starting.",
+        "The movie is starting."
+    ],
+    [
+        "OFFER(title=\"Dogman\")",
+        "Which one you like ? Dogman, Hackers or High life.",
+        "Which one you like ? Dogman, Hackers or High life."
+    ],
+    [
+        "CONFIRM(title=\"Dogman\";subtitles=\"False\")",
+        "please give the following details: I am interested in playing Dogman. but without subtitles.",
+        "please give the following details: I am interested in playing Dogman. but without subtitles."
+    ],
+    [
+        "INFORM(directed_by=\"Matteo Garrone\")",
+        "Movie show just started and the director is Matteo Garrone.",
+        "Movie show just started and the director is Matteo Garrone."
+    ],
+    [
+        "INFORM(directed_by=\"Matteo Garrone\")@NOTIFY_SUCCESS()",
+        "Movie show just started and the director is Matteo Garrone.",
+        "Movie show just started and the director is Matteo Garrone."
+    ],
+    [
+        "OFFER(title=\"Dogman\")",
+        "Sure, I can help. Would you be interested in Dogman, Hackers or High Life?",
+        "Sure, I can help. Would you be interested in Dogman, Hackers or High Life?"
+    ],
+    [
+        "CONFIRM(title=\"High Life\";subtitles=\"True\")",
+        "No problem, let's confirm the details: Play the movie High Life with the subtitles.",
+        "No problem, let's confirm the details: Play the movie High Life with the subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, the movie is starting.",
+        "Okay, the movie is starting."
+    ],
+    [
+        "OFFER(title=\"Citizen Kane\")",
+        "Here's 1 movie directed by Orson Welles, Citizen Kane.",
+        "Here's 1 movie directed by Orson Welles, Citizen Kane."
+    ],
+    [
+        "OFFER(title=\"Citizen Kane\")@INFORM_COUNT(count=\"1\")",
+        "Here's 1 movie directed by Orson Welles, Citizen Kane.",
+        "Here's 1 movie directed by Orson Welles, Citizen Kane."
+    ],
+    [
+        "CONFIRM(title=\"Citizen Kane\";subtitles=\"False\")",
+        "Please confirm that you want to watch Citizen Kane with no subtitles.",
+        "Please confirm that you want to watch Citizen Kane with no subtitles."
+    ],
+    [
+        "CONFIRM(title=\"Citizen Kane\";subtitles=\"True\")",
+        "Please confirm that you want to watch Citizen Kane with subtitles.",
+        "Please confirm that you want to watch Citizen Kane with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Playing the movie now.",
+        "Playing the movie now."
+    ],
+    [
+        "OFFER(title=\"Dogman\")",
+        "I see that 10 movies suit what you enjoy watching. What do you think about watching Dogman, Hackers or High Life?",
+        "I see that 10 movies suit what you enjoy watching. What do you think about watching Dogman, Hackers or High Life?"
+    ],
+    [
+        "OFFER(title=\"Dogman\")@INFORM_COUNT(count=\"10\")",
+        "I see that 10 movies suit what you enjoy watching. What do you think about watching Dogman, Hackers or High Life?",
+        "I see that 10 movies suit what you enjoy watching. What do you think about watching Dogman, Hackers or High Life?"
+    ],
+    [
+        "OFFER(title=\"Little Woods\")",
+        "I can see that the Little Woods, Mary Magdalene or Ramen Shop are some other movies which you may like watching.",
+        "I can see that the Little Woods, Mary Magdalene or Ramen Shop are some other movies which you may like watching."
+    ],
+    [
+        "CONFIRM(title=\"Little Woods\";subtitles=\"False\")",
+        "Can you please confirm that you want to watch Little Woods without the subtitles?",
+        "Can you please confirm that you want to watch Little Woods without the subtitles?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has started to play.",
+        "The movie has started to play."
+    ],
+    [
+        "OFFER(title=\"Hotel Mumbai\")",
+        "Does Hotel Mumbai or Pet Sematary interest you?",
+        "Does Hotel Mumbai or Pet Sematary interest you?"
+    ],
+    [
+        "CONFIRM(title=\"Pet Sematary\";subtitles=\"False\")",
+        "Please confirm the following : play Pet Sematary without subtitles.",
+        "Please confirm the following : play Pet Sematary without subtitles."
+    ],
+    [
+        "INFORM(directed_by=\"Kevin Kolsch\")",
+        "It is directed by Kevin Kolsch and I have played the movie.",
+        "It is directed by Kevin Kolsch and I have played the movie."
+    ],
+    [
+        "INFORM(directed_by=\"Kevin Kolsch\")@NOTIFY_SUCCESS()",
+        "It is directed by Kevin Kolsch and I have played the movie.",
+        "It is directed by Kevin Kolsch and I have played the movie."
+    ],
+    [
+        "OFFER(title=\"Breakthrough\")",
+        "How about Breakthrough, JT LeRoy or Searching for Sugar Man?",
+        "How about Breakthrough, JT LeRoy or Searching for Sugar Man?"
+    ],
+    [
+        "CONFIRM(title=\"JT LeRoy\";subtitles=\"True\")",
+        "Just to confirm, you want to play JT LeRoy with subtitles.",
+        "Just to confirm, you want to play JT LeRoy with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, started the movie.",
+        "Okay, started the movie."
+    ],
+    [
+        "OFFER(title=\"After\")",
+        "Have you watched After, Pillow Talk, or Say Anything? You might enjoy these.",
+        "Have you watched After, Pillow Talk, or Say Anything? You might enjoy these."
+    ],
+    [
+        "OFFER(title=\"Dumbo\")",
+        "Here are 4 movies you might enjoy: Dumbo, Hellboy, Mad Max: Fury Road",
+        "Here are 4 movies you might enjoy: Dumbo, Hellboy, Mad Max: Fury Road"
+    ],
+    [
+        "OFFER(title=\"Dumbo\")@INFORM_COUNT(count=\"4\")",
+        "Here are 4 movies you might enjoy: Dumbo, Hellboy, Mad Max: Fury Road",
+        "Here are 4 movies you might enjoy: Dumbo, Hellboy, Mad Max: Fury Road"
+    ],
+    [
+        "OFFER(title=\"Penguin Highway\")",
+        "You might enjoy Penguin Highway.",
+        "You might enjoy Penguin Highway."
+    ],
+    [
+        "CONFIRM(title=\"Penguin Highway\";subtitles=\"False\")",
+        "Would you like to watch Penguin Highway without subtitles?",
+        "Would you like to watch Penguin Highway without subtitles?"
+    ],
+    [
+        "CONFIRM(title=\"Penguin Highway\";subtitles=\"True\")",
+        "Penguin Highway will begin playing with subtitles momentarily.",
+        "Penguin Highway will begin playing with subtitles momentarily."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Penguin Highway with subtitles has started playing.",
+        "Penguin Highway with subtitles has started playing."
+    ],
+    [
+        "OFFER(title=\"High Life\")",
+        "Given that, there's only 1 movie I can think of. Have you seen High Life?",
+        "Given that, there's only 1 movie I can think of. Have you seen High Life?"
+    ],
+    [
+        "OFFER(title=\"High Life\")@INFORM_COUNT(count=\"1\")",
+        "Given that, there's only 1 movie I can think of. Have you seen High Life?",
+        "Given that, there's only 1 movie I can think of. Have you seen High Life?"
+    ],
+    [
+        "CONFIRM(title=\"High Life\";subtitles=\"False\")",
+        "Do you want to watch High Life without subtitles?",
+        "Do you want to watch High Life without subtitles?"
+    ],
+    [
+        "CONFIRM(title=\"High Life\";subtitles=\"True\")",
+        "So, you'd like to watch High Life with subtitles, then?",
+        "So, you'd like to watch High Life with subtitles, then?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "All right. The movie is starting!",
+        "All right. The movie is starting!"
+    ],
+    [
+        "CONFIRM(title=\"Hellboy\";subtitles=\"False\")",
+        "To be clear, you would like to watch Hellboy? It will play without subtitles.",
+        "To be clear, you would like to watch Hellboy? It will play without subtitles."
+    ],
+    [
+        "INFORM(directed_by=\"Neil Marshall\")",
+        "The movie will play momentarily. Neil Marshall is the director.",
+        "The movie will play momentarily. Neil Marshall is the director."
+    ],
+    [
+        "INFORM(directed_by=\"Neil Marshall\")@NOTIFY_SUCCESS()",
+        "The movie will play momentarily. Neil Marshall is the director.",
+        "The movie will play momentarily. Neil Marshall is the director."
+    ],
+    [
+        "CONFIRM(title=\"The Mustang\";subtitles=\"True\")",
+        "Please confirm the following details: The Mustang with subtitles.",
+        "Please confirm the following details: The Mustang with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started playing the movie.",
+        "Started playing the movie."
+    ],
+    [
+        "INFORM(directed_by=\"Laure de Clermont-Tonnerre\")",
+        "It's directed by Laure de Clermont-Tonnerre.",
+        "It's directed by Laure de Clermont-Tonnerre."
+    ],
+    [
+        "INFORM(genre=\"drama\")",
+        "It is a drama movie.",
+        "It is a drama movie."
+    ],
+    [
+        "CONFIRM(title=\"Searching for Sugar Man\";subtitles=\"False\")",
+        "Please confirm that you would like Searching for Sugar Man to play without subtitles.",
+        "Please confirm that you would like Searching for Sugar Man to play without subtitles."
+    ],
+    [
+        "INFORM(directed_by=\"Malik Bendjelloul\";genre=\"Biographical\")",
+        "The movie as started it's a Biographical directed by Malik Bendjelloul.",
+        "The movie as started it's a Biographical directed by Malik Bendjelloul."
+    ],
+    [
+        "INFORM(directed_by=\"Malik Bendjelloul\";genre=\"Biographical\")@NOTIFY_SUCCESS()",
+        "The movie as started it's a Biographical directed by Malik Bendjelloul.",
+        "The movie as started it's a Biographical directed by Malik Bendjelloul."
+    ],
+    [
+        "CONFIRM(title=\"How to Train Your Dragon: The HIdden World\";subtitles=\"True\")",
+        "Okay. Just to make sure - you want to watch How to Train Your Dragon: The HIdden World with the subtitles on?",
+        "Okay. Just to make sure - you want to watch How to Train Your Dragon: The HIdden World with the subtitles on?"
+    ],
+    [
+        "CONFIRM(title=\"Pet Sematary\";subtitles=\"True\")",
+        "Okay so you want to watch Pet Sematary with the subtitles on?",
+        "Okay so you want to watch Pet Sematary with the subtitles on?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I'll start the movie now.",
+        "I'll start the movie now."
+    ],
+    [
+        "CONFIRM(title=\"Mary Magdalene\";subtitles=\"True\")",
+        "Please confirm you want to watch Mary Magdalene with subtitles.",
+        "Please confirm you want to watch Mary Magdalene with subtitles."
+    ],
+    [
+        "CONFIRM(title=\"Shine a Light\";subtitles=\"True\")",
+        "Please confirm you want to watch Shine a Light with subtitles.",
+        "Please confirm you want to watch Shine a Light with subtitles."
+    ],
+    [
+        "INFORM(directed_by=\"Martin Scorsese\";genre=\"Biographical\")",
+        "The movie has started playing. It's a Biographical movie, directed by Martin Scorsese.",
+        "The movie has started playing. It's a Biographical movie, directed by Martin Scorsese."
+    ],
+    [
+        "INFORM(directed_by=\"Martin Scorsese\";genre=\"Biographical\")@NOTIFY_SUCCESS()",
+        "The movie has started playing. It's a Biographical movie, directed by Martin Scorsese.",
+        "The movie has started playing. It's a Biographical movie, directed by Martin Scorsese."
+    ],
+    [
+        "CONFIRM(title=\"Captain Marvel\";subtitles=\"False\")",
+        "Okay, Captain Marvel is available. There are no subtitles with this movie. Please confirm if this is the movie you want to see.",
+        "Okay, Captain Marvel is available. There are no subtitles with this movie. Please confirm if this is the movie you want to see."
+    ],
+    [
+        "CONFIRM(title=\"The Curse of La Llorona\";subtitles=\"True\")",
+        "Yes, The Curse of La Llorona film is available with subtitles. If you want to see that movie, please confirm.",
+        "Yes, The Curse of La Llorona film is available with subtitles. If you want to see that movie, please confirm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Confirmed. The movie The Curse of La Llorona will now start playing.",
+        "Confirmed. The movie The Curse of La Llorona will now start playing."
+    ],
+    [
+        "CONFIRM(title=\"Mary Magdalene\";subtitles=\"False\")",
+        "Please play Mary Magdalene without subtitles",
+        "Please play Mary Magdalene without subtitles"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Started playing the movie.",
+        "Started playing the movie."
+    ],
+    [
+        "CONFIRM(title=\"Fighting with My Family\";subtitles=\"False\")",
+        "Would you like to watch Fighting with My Family without subtitles?",
+        "Would you like to watch Fighting with My Family without subtitles?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Playing the movie now.",
+        "Playing the movie now."
+    ],
+    [
+        "INFORM(directed_by=\"Stephen Merchant\")",
+        "The director is Stephen Merchant.",
+        "The director is Stephen Merchant."
+    ],
+    [
+        "CONFIRM(title=\"Supa Modo\";subtitles=\"False\")",
+        "You want to watch Supa Modo without subtitles, correct?",
+        "You want to watch Supa Modo without subtitles, correct?"
+    ],
+    [
+        "INFORM(directed_by=\"Likarion Wainaina\")",
+        "The movie is now playing. It's directed by Likarion Wainaina.",
+        "The movie is now playing. It's directed by Likarion Wainaina."
+    ],
+    [
+        "INFORM(directed_by=\"Likarion Wainaina\")@NOTIFY_SUCCESS()",
+        "The movie is now playing. It's directed by Likarion Wainaina.",
+        "The movie is now playing. It's directed by Likarion Wainaina."
+    ],
+    [
+        "OFFER(movie_name=\"After\")",
+        "I've found these movies: After, Pillow Talk or Say Anything.",
+        "I've found these movies: After, Pillow Talk or Say Anything."
+    ],
+    [
+        "OFFER(movie_name=\"The Visitor\")",
+        "The Visitor and Viva Las Vegas.",
+        "The Visitor and Viva Las Vegas."
+    ],
+    [
+        "OFFER(movie_name=\"Body Double\")",
+        "I've found 1. Body Double?",
+        "I've found 1. Body Double?"
+    ],
+    [
+        "OFFER(movie_name=\"Body Double\")@INFORM_COUNT(count=\"1\")",
+        "I've found 1. Body Double?",
+        "I've found 1. Body Double?"
+    ],
+    [
+        "CONFIRM(movie_name=\"Body Double\";subtitle_language=\"Mandarin\")",
+        "Please confirm: rent Body Double with Mandarin subtitles.",
+        "Please confirm: rent Body Double with Mandarin subtitles."
+    ],
+    [
+        "INFORM(actors=\"Brinke Stevens\")",
+        "Movie has been rented. Please watch within 3 days. Brinke Stevens stars.",
+        "Movie has been rented. Please watch within 3 days. Brinke Stevens stars."
+    ],
+    [
+        "INFORM(actors=\"Brinke Stevens\")@NOTIFY_SUCCESS()",
+        "Movie has been rented. Please watch within 3 days. Brinke Stevens stars.",
+        "Movie has been rented. Please watch within 3 days. Brinke Stevens stars."
+    ],
+    [
+        "INFORM(price=\"$7\")",
+        "It costs $7.",
+        "It costs $7."
+    ],
+    [
+        "OFFER(movie_name=\"Dogman\")",
+        "I have 10 options for you. what do you think about these: Dogman, Hackers, and High Life.",
+        "I have 10 options for you. what do you think about these: Dogman, Hackers, and High Life."
+    ],
+    [
+        "OFFER(movie_name=\"Dogman\")@INFORM_COUNT(count=\"10\")",
+        "I have 10 options for you. what do you think about these: Dogman, Hackers, and High Life.",
+        "I have 10 options for you. what do you think about these: Dogman, Hackers, and High Life."
+    ],
+    [
+        "CONFIRM(movie_name=\"Dogman\";subtitle_language=\"None\")",
+        "Renting Dogman with no Subtitles. Is that correct?",
+        "Renting Dogman with no Subtitles. Is that correct?"
+    ],
+    [
+        "INFORM(director=\"matteo Garrone\")",
+        "It was directed by matteo Garrone. You movie rental was successful you have 3 days to watch it.",
+        "It was directed by matteo Garrone. You movie rental was successful you have 3 days to watch it."
+    ],
+    [
+        "INFORM(director=\"matteo Garrone\")@NOTIFY_SUCCESS()",
+        "It was directed by matteo Garrone. You movie rental was successful you have 3 days to watch it.",
+        "It was directed by matteo Garrone. You movie rental was successful you have 3 days to watch it."
+    ],
+    [
+        "OFFER(movie_name=\"A Madea Family Funeral\")",
+        "What about, A Madea Family Funeral, Auntie Mame, and Dr. Strangelove.",
+        "What about, A Madea Family Funeral, Auntie Mame, and Dr. Strangelove."
+    ],
+    [
+        "CONFIRM(movie_name=\"A Madea Family Funeral\";subtitle_language=\"Mandarin\")",
+        "Let's confirm the details quickly. You want to watch A Madea Family Funeral. You want it with Mandarin subtitles.",
+        "Let's confirm the details quickly. You want to watch A Madea Family Funeral. You want it with Mandarin subtitles."
+    ],
+    [
+        "INFORM(price=\"$4\";actors=\"David Dunston\")",
+        "That's all done for you. Watch it withing three days. It costs $4 and David Dunston is the main actor.",
+        "That's all done for you. Watch it withing three days. It costs $4 and David Dunston is the main actor."
+    ],
+    [
+        "INFORM(price=\"$4\";actors=\"David Dunston\")@NOTIFY_SUCCESS()",
+        "That's all done for you. Watch it withing three days. It costs $4 and David Dunston is the main actor.",
+        "That's all done for you. Watch it withing three days. It costs $4 and David Dunston is the main actor."
+    ],
+    [
+        "OFFER(movie_name=\"The Invisibles\")",
+        "There's 1 movie: The Invisibles",
+        "There's 1 movie: The Invisibles"
+    ],
+    [
+        "OFFER(movie_name=\"The Invisibles\")@INFORM_COUNT(count=\"1\")",
+        "There's 1 movie: The Invisibles",
+        "There's 1 movie: The Invisibles"
+    ],
+    [
+        "CONFIRM(movie_name=\"The Invisibles\";subtitle_language=\"None\")",
+        "The Invisibles, no subtitles: do you confirm?",
+        "The Invisibles, no subtitles: do you confirm?"
+    ],
+    [
+        "INFORM(director=\"Claus Rafle\";price=\"$3\")",
+        "$3 to rent. The director is Claus Rafle. Your movie has been rented, you can watch it within 3 days",
+        "$3 to rent. The director is Claus Rafle. Your movie has been rented, you can watch it within 3 days"
+    ],
+    [
+        "INFORM(director=\"Claus Rafle\";price=\"$3\")@NOTIFY_SUCCESS()",
+        "$3 to rent. The director is Claus Rafle. Your movie has been rented, you can watch it within 3 days",
+        "$3 to rent. The director is Claus Rafle. Your movie has been rented, you can watch it within 3 days"
+    ],
+    [
+        "OFFER(movie_name=\"Dumbo\")",
+        "I found 4 movies you might be interested in. How about Dumbo, Hellboy, or Mad Max: Fury Road.",
+        "I found 4 movies you might be interested in. How about Dumbo, Hellboy, or Mad Max: Fury Road."
+    ],
+    [
+        "OFFER(movie_name=\"Dumbo\")@INFORM_COUNT(count=\"4\")",
+        "I found 4 movies you might be interested in. How about Dumbo, Hellboy, or Mad Max: Fury Road.",
+        "I found 4 movies you might be interested in. How about Dumbo, Hellboy, or Mad Max: Fury Road."
+    ],
+    [
+        "OFFER(movie_name=\"Penguin Highway\")",
+        "How about Penguin Highway?",
+        "How about Penguin Highway?"
+    ],
+    [
+        "CONFIRM(movie_name=\"Penguin HIghway\";subtitle_language=\"None\")",
+        "Can you confirm that you want to rent Penguin HIghway with no subtitles.",
+        "Can you confirm that you want to rent Penguin HIghway with no subtitles."
+    ],
+    [
+        "INFORM(director=\"Hiroyasu Ishida\";actors=\"Megumi Han\")",
+        "Your movie was rented successfully. You can watch it anytime within 3 days. Hiroyasu Ishida directed the movie and Megumi Han acted in it.",
+        "Your movie was rented successfully. You can watch it anytime within 3 days. Hiroyasu Ishida directed the movie and Megumi Han acted in it."
+    ],
+    [
+        "INFORM(director=\"Hiroyasu Ishida\";actors=\"Megumi Han\")@NOTIFY_SUCCESS()",
+        "Your movie was rented successfully. You can watch it anytime within 3 days. Hiroyasu Ishida directed the movie and Megumi Han acted in it.",
+        "Your movie was rented successfully. You can watch it anytime within 3 days. Hiroyasu Ishida directed the movie and Megumi Han acted in it."
+    ],
+    [
+        "OFFER(movie_name=\"A Madea Family Funeral\")",
+        "I found 10 nice movies- how about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?",
+        "I found 10 nice movies- how about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?"
+    ],
+    [
+        "OFFER(movie_name=\"A Madea Family Funeral\")@INFORM_COUNT(count=\"10\")",
+        "I found 10 nice movies- how about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?",
+        "I found 10 nice movies- how about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?"
+    ],
+    [
+        "OFFER(movie_name=\"Family\")",
+        "How about Family, Gloria Bell, or Green Book?",
+        "How about Family, Gloria Bell, or Green Book?"
+    ],
+    [
+        "OFFER(movie_name=\"Josie and the Pussycats\")",
+        "How about Josie and the Pussycats, Little, or Long Shot?",
+        "How about Josie and the Pussycats, Little, or Long Shot?"
+    ],
+    [
+        "CONFIRM(movie_name=\"Little\";subtitle_language=\"None\")",
+        "So I'll rent Little, and play it with no subtitles, okay?",
+        "So I'll rent Little, and play it with no subtitles, okay?"
+    ],
+    [
+        "INFORM(director=\"Tina Gordon\";price=\"$4\")",
+        "The movie has been rented and will be available for 3 days, for a cost of $4. Tina Gordon is the director.",
+        "The movie has been rented and will be available for 3 days, for a cost of $4. Tina Gordon is the director."
+    ],
+    [
+        "INFORM(director=\"Tina Gordon\";price=\"$4\")@NOTIFY_SUCCESS()",
+        "The movie has been rented and will be available for 3 days, for a cost of $4. Tina Gordon is the director.",
+        "The movie has been rented and will be available for 3 days, for a cost of $4. Tina Gordon is the director."
+    ],
+    [
+        "OFFER(movie_name=\"Dogman\")",
+        "Sure, how about some of these movies: Dogman, Hackers, or High Life?",
+        "Sure, how about some of these movies: Dogman, Hackers, or High Life?"
+    ],
+    [
+        "CONFIRM(movie_name=\"High Life\";subtitle_language=\"None\")",
+        "Confirming you want to rent High Life without subtitles",
+        "Confirming you want to rent High Life without subtitles"
+    ],
+    [
+        "INFORM(price=\"$8\")",
+        "It'll cost $8 and it's good for 3 days. I've rented it for you.",
+        "It'll cost $8 and it's good for 3 days. I've rented it for you."
+    ],
+    [
+        "INFORM(price=\"$8\")@NOTIFY_SUCCESS()",
+        "It'll cost $8 and it's good for 3 days. I've rented it for you.",
+        "It'll cost $8 and it's good for 3 days. I've rented it for you."
+    ],
+    [
+        "INFORM(director=\"Claire Denis\";actors=\"Andre 3000\")",
+        "Andre 3000 is in that movie and it's directed by Claire Denis",
+        "Andre 3000 is in that movie and it's directed by Claire Denis"
+    ],
+    [
+        "OFFER(movie_name=\"Dumbo\")",
+        "I found 4. How about Dumbo, Hellboy, Mad Max: Fury Road?",
+        "I found 4. How about Dumbo, Hellboy, Mad Max: Fury Road?"
+    ],
+    [
+        "OFFER(movie_name=\"Dumbo\")@INFORM_COUNT(count=\"4\")",
+        "I found 4. How about Dumbo, Hellboy, Mad Max: Fury Road?",
+        "I found 4. How about Dumbo, Hellboy, Mad Max: Fury Road?"
+    ],
+    [
+        "OFFER(movie_name=\"Penguin Highway\")",
+        "How about Penguin Highway?",
+        "How about Penguin Highway?"
+    ],
+    [
+        "CONFIRM(movie_name=\"Penguin Highway\";subtitle_language=\"None\")",
+        "Confirm renting Penguin Highway without any subtitles.",
+        "Confirm renting Penguin Highway without any subtitles."
+    ],
+    [
+        "INFORM(price=\"$7\";actors=\"Megumi Han\")",
+        "The movie is confirmed for $7 and Megumi Han is the main actor.",
+        "The movie is confirmed for $7 and Megumi Han is the main actor."
+    ],
+    [
+        "INFORM(price=\"$7\";actors=\"Megumi Han\")@NOTIFY_SUCCESS()",
+        "The movie is confirmed for $7 and Megumi Han is the main actor.",
+        "The movie is confirmed for $7 and Megumi Han is the main actor."
+    ],
+    [
+        "OFFER(movie_name=\"Dogman\")",
+        "I found Dogman, Hackers, and High Life.",
+        "I found Dogman, Hackers, and High Life."
+    ],
+    [
+        "OFFER(movie_name=\"Little Woods\")",
+        "I also found Little Woods, Mary Magdalene, and Ramen Shop.",
+        "I also found Little Woods, Mary Magdalene, and Ramen Shop."
+    ],
+    [
+        "OFFER(movie_name=\"Red Joan\")",
+        "Yes, there is Red Joan, Suburban Birds, and Sunset.",
+        "Yes, there is Red Joan, Suburban Birds, and Sunset."
+    ],
+    [
+        "CONFIRM(movie_name=\"Suburban Birds\";subtitle_language=\"Spanish\")",
+        "Please confirm that the movie you want to see is Suburban Birds and you would like Spanish subtitles.",
+        "Please confirm that the movie you want to see is Suburban Birds and you would like Spanish subtitles."
+    ],
+    [
+        "CONFIRM(movie_name=\"Suburban Birds\";subtitle_language=\"None\")",
+        "Please confirm that you would like to watch Suburban Birds but subtitles would be None.",
+        "Please confirm that you would like to watch Suburban Birds but subtitles would be None."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your movie has successfully been rented an you should watch it within the next 3 days.",
+        "Your movie has successfully been rented an you should watch it within the next 3 days."
+    ],
+    [
+        "OFFER(movie_name=\"After\")",
+        "Are you interested in watching After, Pillow Talk or Say Anything?",
+        "Are you interested in watching After, Pillow Talk or Say Anything?"
+    ],
+    [
+        "OFFER(movie_name=\"Viva Las Vegas\")",
+        "There is 1 movie that match your criteria. Are you interested in Viva Las Vegas?",
+        "There is 1 movie that match your criteria. Are you interested in Viva Las Vegas?"
+    ],
+    [
+        "OFFER(movie_name=\"Viva Las Vegas\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 movie that match your criteria. Are you interested in Viva Las Vegas?",
+        "There is 1 movie that match your criteria. Are you interested in Viva Las Vegas?"
+    ],
+    [
+        "CONFIRM(movie_name=\"Viva Las Vegas\";subtitle_language=\"English\")",
+        "Please confirm: Renting Viva Las Vegas with English subtitles.",
+        "Please confirm: Renting Viva Las Vegas with English subtitles."
+    ],
+    [
+        "CONFIRM(movie_name=\"Viva Las Vegas\";subtitle_language=\"Spanish\")",
+        "Please confirm: Renting Viva Las Vegas with Spanish subtitles.",
+        "Please confirm: Renting Viva Las Vegas with Spanish subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Move was rented. You have 3 days to watch it.",
+        "Move was rented. You have 3 days to watch it."
+    ],
+    [
+        "OFFER(title=\"Chhichhore\")",
+        "What about Chhichhore, Good Boys or My Big Fat Greek Wedding?",
+        "What about Chhichhore, Good Boys or My Big Fat Greek Wedding?"
+    ],
+    [
+        "OFFER(title=\"Where'd You Go, Bernadette\")",
+        "Where'd You Go, Bernadette or Yesterday?",
+        "Where'd You Go, Bernadette or Yesterday?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I cannot find anything else. Can I assist you with something else?",
+        "I cannot find anything else. Can I assist you with something else?"
+    ],
+    [
+        "OFFER(title=\"The Angry Birds Movie 2\")",
+        "There is 1 called The Angry Birds Movie 2?",
+        "There is 1 called The Angry Birds Movie 2?"
+    ],
+    [
+        "OFFER(title=\"The Angry Birds Movie 2\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 called The Angry Birds Movie 2?",
+        "There is 1 called The Angry Birds Movie 2?"
+    ],
+    [
+        "CONFIRM(title=\"The Angry Birds Movie 2\";subtitle_language=\"English\")",
+        "To confirm then I will play The Angry Birds Movie 2 in English with subtitles.",
+        "To confirm then I will play The Angry Birds Movie 2 in English with subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Movie has started.",
+        "Movie has started."
+    ],
+    [
+        "OFFER(title=\"A Faithful Man\")",
+        "How about A Faithful Man, After the Wedding, or Blinded by the Light?",
+        "How about A Faithful Man, After the Wedding, or Blinded by the Light?"
+    ],
+    [
+        "CONFIRM(title=\"After the Wedding\";subtitle_language=\"Hindi\")",
+        "Please confirm you'd like me to play After the Wedding with Hindi subtitles.",
+        "Please confirm you'd like me to play After the Wedding with Hindi subtitles."
+    ],
+    [
+        "CONFIRM(title=\"After the Wedding\";subtitle_language=\"English\")",
+        "Okay, confirm you'd like me to play After the Wedding with english subtitles.",
+        "Okay, confirm you'd like me to play After the Wedding with english subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie is playing.",
+        "The movie is playing."
+    ],
+    [
+        "OFFER(title=\"Tel Aviv on Fire\")",
+        "There is 1 movie called Tel Aviv on Fire?",
+        "There is 1 movie called Tel Aviv on Fire?"
+    ],
+    [
+        "OFFER(title=\"Tel Aviv on Fire\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 movie called Tel Aviv on Fire?",
+        "There is 1 movie called Tel Aviv on Fire?"
+    ],
+    [
+        "CONFIRM(title=\"Tel Aviv on Fire\";subtitle_language=\"English\")",
+        "To confirm I will play Tel Aviv on Fire with subtitles in English.",
+        "To confirm I will play Tel Aviv on Fire with subtitles in English."
+    ],
+    [
+        "CONFIRM(title=\"Tel Aviv on Fire\";subtitle_language=\"Hindi\")",
+        "To confirm I will play Tel Aviv on Fire with Hindi subtitles.",
+        "To confirm I will play Tel Aviv on Fire with Hindi subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Movie has now started.",
+        "Movie has now started."
+    ],
+    [
+        "OFFER(title=\"Paprika\")",
+        "Would Paprika interest you?",
+        "Would Paprika interest you?"
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "Sorry no. Is there anything else I can help you with?",
+        "Sorry no. Is there anything else I can help you with?"
+    ],
+    [
+        "OFFER(title=\"The Lord of the Rings: The Return of the King\")",
+        "I have 1 option. The Lord of the Rings: The Return of the King. Would that interest you?",
+        "I have 1 option. The Lord of the Rings: The Return of the King. Would that interest you?"
+    ],
+    [
+        "OFFER(title=\"The Lord of the Rings: The Return of the King\")@INFORM_COUNT(count=\"1\")",
+        "I have 1 option. The Lord of the Rings: The Return of the King. Would that interest you?",
+        "I have 1 option. The Lord of the Rings: The Return of the King. Would that interest you?"
+    ],
+    [
+        "CONFIRM(title=\"The Lord of the Rings: The Return of the King\";subtitle_language=\"English\")",
+        "Please confirm you want me to play the film The Lord of the Rings: The Return of the King with English subtitles.",
+        "Please confirm you want me to play the film The Lord of the Rings: The Return of the King with English subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The film has started playing.",
+        "The film has started playing."
+    ],
+    [
+        "OFFER(title=\"Good Boys\")",
+        "I found 1 movie you may like. How about Good Boys?",
+        "I found 1 movie you may like. How about Good Boys?"
+    ],
+    [
+        "OFFER(title=\"Good Boys\")@INFORM_COUNT(count=\"1\")",
+        "I found 1 movie you may like. How about Good Boys?",
+        "I found 1 movie you may like. How about Good Boys?"
+    ],
+    [
+        "CONFIRM(title=\"Good Boys\";subtitle_language=\"English\")",
+        "Please confirm: playing the film Good Boys with English subtitles.",
+        "Please confirm: playing the film Good Boys with English subtitles."
+    ],
+    [
+        "CONFIRM(title=\"Good Boys\";subtitle_language=\"Hindi\")",
+        "Please confirm: playing the film Good Boys with Hindi subtitles",
+        "Please confirm: playing the film Good Boys with Hindi subtitles"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has started playing.",
+        "The movie has started playing."
+    ],
+    [
+        "OFFER(title=\"Madeline's Madeline\")",
+        "I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense?",
+        "I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense?"
+    ],
+    [
+        "OFFER(title=\"Madeline's Madeline\")@INFORM_COUNT(count=\"4\")",
+        "I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense?",
+        "I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense?"
+    ],
+    [
+        "CONFIRM(title=\"Rojo\";subtitle_language=\"Spanish\")",
+        "Please give confirmation details:Run Rojo with spanish subtitles.",
+        "Please give confirmation details:Run Rojo with spanish subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie started playing now.",
+        "The movie started playing now."
+    ],
+    [
+        "INFORM(starring=\"Rafael Federman\")",
+        "The actor is Rafael Federman.",
+        "The actor is Rafael Federman."
+    ],
+    [
+        "OFFER(title=\"The Lord of the Rings: The Return of the King\")",
+        "I got 1 which is The Lord of the Rings: The Return of the King. What about your opinion?",
+        "I got 1 which is The Lord of the Rings: The Return of the King. What about your opinion?"
+    ],
+    [
+        "OFFER(title=\"The Lord of the Rings: The Return of the King\")@INFORM_COUNT(count=\"1\")",
+        "I got 1 which is The Lord of the Rings: The Return of the King. What about your opinion?",
+        "I got 1 which is The Lord of the Rings: The Return of the King. What about your opinion?"
+    ],
+    [
+        "CONFIRM(title=\"The Lord of the Rings: The Return of the King\";subtitle_language=\"English\")",
+        "I need your confirmation to play The Lord of the Rings: The Return of the King with English subtitles.",
+        "I need your confirmation to play The Lord of the Rings: The Return of the King with English subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Movie started playing now and you can enjoy the same.",
+        "Movie started playing now and you can enjoy the same."
+    ],
+    [
+        "OFFER(title=\"The Lord of the Rings: The Return of the King\")",
+        "I have found 1 movie that might interest you. What is your opinion on The Lord of the Rings: The Return of the King?",
+        "I have found 1 movie that might interest you. What is your opinion on The Lord of the Rings: The Return of the King?"
+    ],
+    [
+        "OFFER(title=\"The Lord of the Rings: The Return of the King\")@INFORM_COUNT(count=\"1\")",
+        "I have found 1 movie that might interest you. What is your opinion on The Lord of the Rings: The Return of the King?",
+        "I have found 1 movie that might interest you. What is your opinion on The Lord of the Rings: The Return of the King?"
+    ],
+    [
+        "CONFIRM(title=\"The Lord of the Rings: The Return of the King\";subtitle_language=\"English\")",
+        "Please confirm these details: playing the movie The Lord of the Rings: The Return of the King with English subtitles.",
+        "Please confirm these details: playing the movie The Lord of the Rings: The Return of the King with English subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has begun to play.",
+        "The movie has begun to play."
+    ],
+    [
+        "OFFER(title=\"In Fabric\")",
+        "All right. The 1 movie I found that may interest you is In Fabric.",
+        "All right. The 1 movie I found that may interest you is In Fabric."
+    ],
+    [
+        "OFFER(title=\"In Fabric\")@INFORM_COUNT(count=\"1\")",
+        "All right. The 1 movie I found that may interest you is In Fabric.",
+        "All right. The 1 movie I found that may interest you is In Fabric."
+    ],
+    [
+        "CONFIRM(title=\"In Fabric\";subtitle_language=\"English\")",
+        "Sure, no problem. Please confirm that you'd like to watch In Fabric with English subtitles.",
+        "Sure, no problem. Please confirm that you'd like to watch In Fabric with English subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie is now playing.",
+        "The movie is now playing."
+    ],
+    [
+        "OFFER(title=\"Give Me Liberty\")",
+        "There's 1 movie called Give Me Liberty which you might like?",
+        "There's 1 movie called Give Me Liberty which you might like?"
+    ],
+    [
+        "OFFER(title=\"Give Me Liberty\")@INFORM_COUNT(count=\"1\")",
+        "There's 1 movie called Give Me Liberty which you might like?",
+        "There's 1 movie called Give Me Liberty which you might like?"
+    ],
+    [
+        "CONFIRM(title=\"Give Me Liberty\";subtitle_language=\"English\")",
+        "Confirming you want to play Give Me Liberty with English Subtitles",
+        "Confirming you want to play Give Me Liberty with English Subtitles"
+    ],
+    [
+        "INFORM(starring=\"Chris Galust\")",
+        "The movie is playing now, and it is Chris Galust who acts in it",
+        "The movie is playing now, and it is Chris Galust who acts in it"
+    ],
+    [
+        "INFORM(starring=\"Chris Galust\")@NOTIFY_SUCCESS()",
+        "The movie is playing now, and it is Chris Galust who acts in it",
+        "The movie is playing now, and it is Chris Galust who acts in it"
+    ],
+    [
+        "OFFER(title=\"Rojo\")",
+        "There is 1 movie you make like Rojo?",
+        "There is 1 movie you make like Rojo?"
+    ],
+    [
+        "OFFER(title=\"Rojo\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 movie you make like Rojo?",
+        "There is 1 movie you make like Rojo?"
+    ],
+    [
+        "CONFIRM(title=\"Rojo\";subtitle_language=\"English\")",
+        "Yes, playing Rojo with subtitles in English.",
+        "Yes, playing Rojo with subtitles in English."
+    ],
+    [
+        "NOTIFY_FAILURE()",
+        "I was unable to play the movie. Can I help further?",
+        "I was unable to play the movie. Can I help further?"
+    ],
+    [
+        "OFFER(title=\"A Faithful Man\")",
+        "I came across these 10. Would you like any of these: After The Wedding, A Faithful Man or what about Blinded by the Light?",
+        "I came across these 10. Would you like any of these: After The Wedding, A Faithful Man or what about Blinded by the Light?"
+    ],
+    [
+        "OFFER(title=\"A Faithful Man\")@INFORM_COUNT(count=\"10\")",
+        "I came across these 10. Would you like any of these: After The Wedding, A Faithful Man or what about Blinded by the Light?",
+        "I came across these 10. Would you like any of these: After The Wedding, A Faithful Man or what about Blinded by the Light?"
+    ],
+    [
+        "OFFER(title=\"Brittany Runs a Marathon\")",
+        "Would you be interested in Live Flesh or perhaps Hustlers or Brittany Runs a Marathon?",
+        "Would you be interested in Live Flesh or perhaps Hustlers or Brittany Runs a Marathon?"
+    ],
+    [
+        "OFFER(title=\"The Angry Birds Movie 2\")",
+        "Okay, I found 1 called The Angry Birds Movie 2.",
+        "Okay, I found 1 called The Angry Birds Movie 2."
+    ],
+    [
+        "OFFER(title=\"The Angry Birds Movie 2\")@INFORM_COUNT(count=\"1\")",
+        "Okay, I found 1 called The Angry Birds Movie 2.",
+        "Okay, I found 1 called The Angry Birds Movie 2."
+    ],
+    [
+        "CONFIRM(title=\"The Angry Birds Movie 2\";subtitle_language=\"English\")",
+        "You are asking me to play The Angry Birds Movie 2 and you want English subtitles correct?",
+        "You are asking me to play The Angry Birds Movie 2 and you want English subtitles correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have begun the movie for you.",
+        "I have begun the movie for you."
+    ],
+    [
+        "OFFER(title=\"steel magnolias\")",
+        "I got 2 of them, steel magnolias and the farewell.",
+        "I got 2 of them, steel magnolias and the farewell."
+    ],
+    [
+        "OFFER(title=\"steel magnolias\")@INFORM_COUNT(count=\"2\")",
+        "I got 2 of them, steel magnolias and the farewell.",
+        "I got 2 of them, steel magnolias and the farewell."
+    ],
+    [
+        "CONFIRM(title=\"the farewell\";subtitle_language=\"English\")",
+        "confirm me the next step. I'll play the farewell with english subtitles.",
+        "confirm me the next step. I'll play the farewell with english subtitles."
+    ],
+    [
+        "INFORM(starring=\"zhao shuzhen\")",
+        "the movie is playing. there's zhao shuzhen in the movie",
+        "the movie is playing. there's zhao shuzhen in the movie"
+    ],
+    [
+        "INFORM(starring=\"zhao shuzhen\")@NOTIFY_SUCCESS()",
+        "the movie is playing. there's zhao shuzhen in the movie",
+        "the movie is playing. there's zhao shuzhen in the movie"
+    ],
+    [
+        "OFFER(title=\"The Angry Birds Movie 2\")",
+        "Would The Angry Birds Movie 2 or Toy Story 4 interest you?",
+        "Would The Angry Birds Movie 2 or Toy Story 4 interest you?"
+    ],
+    [
+        "CONFIRM(title=\"The Angry Birds Movie 2\";subtitle_language=\"English\")",
+        "Please confirm you want me to play The Angry Birds Movie 2 with English subtitles.",
+        "Please confirm you want me to play The Angry Birds Movie 2 with English subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has started.",
+        "The movie has started."
+    ],
+    [
+        "INFORM(starring=\"Britta Steffenhagen\")",
+        "Britta Steffenhagen is an actor in the movie.",
+        "Britta Steffenhagen is an actor in the movie."
+    ],
+    [
+        "OFFER(title=\"The Load\")",
+        "There is 1 available. How about The Load?",
+        "There is 1 available. How about The Load?"
+    ],
+    [
+        "OFFER(title=\"The Load\")@INFORM_COUNT(count=\"1\")",
+        "There is 1 available. How about The Load?",
+        "There is 1 available. How about The Load?"
+    ],
+    [
+        "CONFIRM(title=\"the Load\";subtitle_language=\"English\")",
+        "You want to see the Load with English subtitles.",
+        "You want to see the Load with English subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The movie has started.",
+        "The movie has started."
+    ],
+    [
+        "OFFER(title=\"The Lord of the Rings: The Return of the King\")",
+        "How is The Lord of the Rings: The Return of the King? Do you like it?",
+        "How is The Lord of the Rings: The Return of the King? Do you like it?"
+    ],
+    [
+        "OFFER(title=\"Hustlers\")",
+        "Okay, I got Hustlers, do you like it?",
+        "Okay, I got Hustlers, do you like it?"
+    ],
+    [
+        "CONFIRM(title=\"Hustlers\";subtitle_language=\"English\")",
+        "Need your confirmation to play Hustlers with English subtitles.",
+        "Need your confirmation to play Hustlers with English subtitles."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Movie started playing and you can enjoy the same now.",
+        "Movie started playing and you can enjoy the same now."
+    ]
+]

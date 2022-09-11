@@ -1,0 +1,22 @@
+OFFER ( attraction_name = "30 St Mary Axe) & How about a Historical Landmark, 30 St Mary Axe (The Gherkin).
+OFFER ( attraction_name = "30 St Mary Axe) & How about a Historical Landmark, 30 St Mary Axe (The Gherkin).
+OFFER ( attraction_name = "Admiralty Arch" ; category = "Historical Landmark") & How about another Historical Landmark, Admiralty Arch.
+OFFER ( attraction_name = "Aquarium of the Bay" ; category = "Nature Preserve") & I have 1 for you. What about Aquarium of the Bay, it is a Nature Preserve.
+OFFER ( attraction_name = "Aquarium of the Bay" ; category = "Nature Preserve") & I have 1 for you. What about Aquarium of the Bay, it is a Nature Preserve.
+OFFER ( attraction_name = "Aquarium of the Bay" ; category = "Nature Preserve") & I have 1 for you. What about Aquarium of the Bay, it is a Nature Preserve.INFORM_COUNT ( count = "1") & I have 1 for you. What about Aquarium of the Bay, it is a Nature Preserve.
+INFORM ( phone_number = "415-623-5300") & It is 415-623-5300.
+OFFER ( attraction_name = "Choco-Story Paris - Musee du Chocolat" ; category = "Museum") & Oh in that case you should go see the Choco-Story Paris - Musee du Chocolat. It's a chocolate museum.
+OFFER ( attraction_name = "30 St Mary Axe) & Definitely, you might like to see 30 St Mary Axe (The Gherkin) which is actually a historical landmark.
+OFFER ( attraction_name = "30 St Mary Axe) & Definitely, you might like to see 30 St Mary Axe (The Gherkin) which is actually a historical landmark.
+OFFER ( attraction_name = "Aga Khan Museum" ; category = "Museum") & Maybe you might like to see Aga Khan Museum? It's a Museum in Ontario.
+INFORM ( phone_number = "416-646-4677") & Their number is 416-646-4677.
+OFFER ( attraction_name = "Dolby Theatre" ; category = "Performing Arts Venue") & I'd like to recommend the Dolby Theatre, which is a performing arts venue.
+INFORM ( good_for_kids = "False" ; phone_number = "323-308-6300") & It's not exactly a child friendly venue, no. The telephone number is 323-308-6300.
+OFFER ( attraction_name = "56 signers of the declaration of Independence Memorial" ; category = "Nature Preserve") & I have short listed 10 attractions of your choice and 56 signers of the declaration of Independence Memorial is one among them and it is nature preserve.
+OFFER ( attraction_name = "56 signers of the declaration of Independence Memorial" ; category = "Nature Preserve") & I have short listed 10 attractions of your choice and 56 signers of the declaration of Independence Memorial is one among them and it is nature preserve.
+OFFER ( attraction_name = "56 signers of the declaration of Independence Memorial" ; category = "Nature Preserve") & I have short listed 10 attractions of your choice and 56 signers of the declaration of Independence Memorial is one among them and it is nature preserve.INFORM_COUNT ( count = "10") & I have short listed 10 attractions of your choice and 56 signers of the declaration of Independence Memorial is one among them and it is nature preserve.
+INFORM ( phone_number = "202-426-6841") & 202-426-6841 is the contact number.
+OFFER ( attraction_name = "Bazylika Archikatedralna w Warszawie p.w. Meczenstwa sw. Jana Chrzciciela" ; category = "Place of Worship") & I have located 10 attractions that you might like. You can look into Bazylika Archikatedralna w Warszawie p.w. Meczenstwa sw. Jana Chrzciciela. This location is a Place of Worship.
+OFFER ( attraction_name = "Bazylika Archikatedralna w Warszawie p.w. Meczenstwa sw. Jana Chrzciciela" ; category = "Place of Worship") & I have located 10 attractions that you might like. You can look into Bazylika Archikatedralna w Warszawie p.w. Meczenstwa sw. Jana Chrzciciela. This location is a Place of Worship.
+OFFER ( attraction_name = "Bazylika Archikatedralna w Warszawie p.w. Meczenstwa sw. Jana Chrzciciela" ; category = "Place of Worship") & I have located 10 attractions that you might like. You can look into Bazylika Archikatedralna w Warszawie p.w. Meczenstwa sw. Jana Chrzciciela. This location is a Place of Worship.INFORM_COUNT ( count = "10") & I have located 10 attractions that you might like. You can look into Bazylika Archikatedralna w Warszawie p.w. Meczenstwa sw. Jana Chrzciciela. This location is a Place of Worship.
+OFFER ( attraction_name = "Center for Biological Diversity Conservation in Powsin" ; category = "Park") & You can also look at Center for Biological Diversity Conservation in Powsin. This location is a Park.

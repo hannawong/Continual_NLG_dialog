@@ -1,0 +1,278 @@
+uber_lyft ( num_people_reject = "3") & I'm sorry did you say that there would be 3 people?
+uber_lyft ( price_estimate_accept = "$4.71" ; time_pickup_accept = "10 minutes") & Sure, that's $4.71, asap or scheduled. It'll arrive in 10 minutes and you'll get updates via mobile. Anything else?
+uber_lyft ( duration_estimate_accept = "10 minutes.") & About 10 minutes.
+uber_lyft ( type_ride = "uber xl" ; num_people = "2" ; num_people_accept = "6") & sorry, uber pools can only accommodate 2 people. did you want an uber xl for your party of 6?
+uber_lyft ( type_ride = "xl" ; type_ride_accept = "xl" ; price_estimate_accept = "$9.80" ; duration_estimate_accept = "5 mins") & an xl would be more cost effective. ok. an xl for your party will b $9.80 and take about 5 mins to get to your destination.
+uber_lyft ( time_pickup_accept = "4 mins") & do you want the driver to pick you up now? great, i've booked the closest driver. they will be there in 4 mins.
+uber_lyft ( location_to = "south gate michigan") & got it, in south gate michigan. okay, and for when would you like to schedule it?
+uber_lyft ( type_ride_accept = "UberXL" ; num_people_accept = "6 passengers" ; price_estimate_accept = "$ 18.45") & okay, give me a moment to see what types of rides are available around you. I found a rate for an UberXL that fits your 6 passengers that has a rate of $ 18.45.
+uber_lyft ( time_pickup_accept = "10 minutes") & They should arrive within 10 minutes.
+uber_lyft ( duration_estimate_accept = "18 and 26 min") & the trip should take somewhere between 18 and 26 min.
+uber_lyft ( price_estimate_accept = "$13.41") & sure, your fare estimate is $13.41.
+uber_lyft ( time_pickup_accept = "11 minutes") & your driver's ETA is 11 minutes.
+uber_lyft ( type_ride_accept = "UberX" ; price_estimate_accept = "6 59") & I can book and UberX for 6 59 does that worK?
+uber_lyft ( time_pickup_accept = "9") & you got it. they'll arrive at 9 and update you via mobile when the driver is on their way.
+uber_lyft ( type_ride_accept = "UberXL" ; price_estimate_accept = "$38.67" ; duration_estimate = "19 mins") & an UberXL will come out to $38.67 and will take about 19 mins to get to your destination. did you want me to book the ride to pick you up now?
+uber_lyft ( num_people_accept = "6") & Alright and that's for 6 people right?
+uber_lyft ( price_estimate_accept = "$25.43") & Okay that will cost $25.43.
+uber_lyft ( time_pickup_accept = "10 minutes") & Great one moment. Your driver will arrive in 10 minutes, keep an eye on your phone for mobile updates.
+uber_lyft ( type_ride = "Uber Shared" ; num_people = "2") & Uber Shared is only available for 2 or fewer party members.
+uber_lyft ( type_ride = "Uber XL" ; price_estimate = "$70.52") & AN Uber XL will cost $70.52 is that okay?
+uber_lyft ( type_ride_accept = "Uber XL" ; time_pickup = "9pm" ; num_people_accept = "6" ; location_from_accept = "Pop's on main street" ; location_to_accept = "AMC Lake IN the Hills 12" ; time_pickup_accept = "9pm") & Great One moment. So I've scheduled your Uber XL for 9pm for 6 people. The pickup location is Pop's on main street and you're heading to AMC Lake IN the Hills 12. Your driver will arrive at 9pm.
+uber_lyft ( location_to = "the botanic garden") & got it and what's the name of the botanic garden?
+uber_lyft ( location_to = "botanical garden") & great, glad to help. enjoy the botanical garden.
+uber_lyft ( num_people_accept = "5" ; type_ride_accept = "uberxl" ; price_estimate_accept = "$8.84") & sure. for a group of 5 people i suggest that you take uberxl. your fare estimate is $8.84.
+uber_lyft ( time_pickup_accept = "6 minutes") & your ride has been requested. your driver will be there in 6 minutes.
+uber_lyft ( location_from = "LAX") & hello, how can i help you? sure, are you being picked up from LAX?
+uber_lyft ( price_estimate_accept = "$79.89. can") & your fare estimate will be $79.89. can i continue requesting your ride?
+uber_lyft ( time_pickup = "9 pm.") & correct. i am scheduling a pickup for 9 pm.
+uber_lyft ( duration_estimate_accept = "1 hour and 5 minutes.") & your fare estimate should be 1 hour and 5 minutes.
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "9 pm" ; location_from_accept = "LAX") & correct. it's an uberxl and your driver will pick you up at 9 pm from LAX.
+uber_lyft ( type_ride = "regular lyft") & Great. I can book an XL or a regular lyft which would you prefer?
+uber_lyft ( price_estimate_accept = "24-28 dollars" ; duration_estimate_accept = "half an hour") & That'll be 24-28 dollars and take half an hour okay?
+uber_lyft ( time_pickup_accept = "9 pm") & Great it'll arrive at 9 pm. Take care.
+uber_lyft ( location_from = "Manhattan") & Which one? THere's 3 of them in Manhattan.
+uber_lyft ( location_from = "2nd Avenue") & Did you mean 2nd Avenue?
+uber_lyft ( type_ride_accept = "uber X" ; price_estimate_accept = "$59.93") & Great, there's an uber X available for $59.93.
+uber_lyft ( num_people = "4 people" ; type_ride = "uberXL") & you can only take up to 4 people on uberX. i suggest that you request uberXL for larger groups.
+uber_lyft ( price_estimate_accept = "$25.59") & ok. your fare estimate is $25.59, can i continue booking the ride?
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "9pm") & sure. you're all set. your uberxl is booked for tonight at 9pm.
+uber_lyft ( price_estimate_accept = "$23.48") & your fare estimate is $23.48, can i continue booking your ride?
+uber_lyft ( time_pickup_accept = "8 minutes") & ok, is this for now or later? sure. your ride is booked. your driver will arrive in 8 minutes.
+uber_lyft ( location_from_accept = "AMC Village theater in New York City") & Did you mean the AMC Village theater in New York City?
+uber_lyft ( price_estimate_accept = "$10.58") & That's going to cost $10.58. Is that for now or for later tonight?
+uber_lyft ( time_pickup_accept = "8 pm") & Okay I"ve scheduled your uber for you. It'll arrive at 8 pm.
+uber_lyft ( price_estimate_accept = "between $9 and $12") & Of course. The fare estimate is between $9 and $12.
+uber_lyft ( time_pickup_accept = "3 minutes") & The driver should be arriving in 3 minutes.
+uber_lyft ( duration_estimate_accept = "7 minutes") & The duration of the trip is 7 minutes.
+uber_lyft ( location_to = "duncanville") & is that in duncanville?
+uber_lyft ( type_ride = "uberxl" ; price_estimate_accept = "$72.45") & ok, an uberxl will cost $72.45, is that ok?
+uber_lyft ( type_ride_accept = "uberxl" ; location_from_accept = "dallas love field airport" ; location_to_accept = "1234 johnson drive in duncanville" ; time_pickup = "9pm") & great, let me finish your booking. ok, i have booked an uberxl to pick you up from dallas love field airport going to 1234 johnson drive in duncanville. your driver is scheduled to pick you up at 9pm. your receipt will be texted to you. can i help with anything else?
+uber_lyft ( duration_estimate_accept = "31 minutes" ; time_pickup_accept = "9pm") & let me check that for you. it will take about 31 minutes depending on traffic at 9pm.
+uber_lyft ( price_estimate_accept = "$35.82" ; duration_estimate_accept = "25 mins") & the cost for that will be $35.82 and the drive should be about 25 mins. did you want me to book the driver to pick you up now?
+uber_lyft ( time_pickup_accept = "6 mins") & ok, i've booked your ride. the driver will be there in about 6 mins.
+uber_lyft ( type_ride = "uberxl") & you can only take up to 2 people with you on uber pool. I suggest that you request uberx or uberxl for larger groups.
+uber_lyft ( type_ride = "uberx") & correct. you can only take two people with you on uber pool and 4 people on uberx.
+uber_lyft ( price_estimate_accept = "$24.86") & your fare estimate is $24.86, can i confirm this request?
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "12 minutes") & all set. your uberxl is on the way, your driver should be arriving in 12 minutes.
+uber_lyft ( num_people_accept = "2" ; type_ride = "uberXL") & 2 passengers! perfect! did you want me to check rates for the Uber Pool option? or did you prefer an uberXL?
+uber_lyft ( time_pickup = "9pm tonight" ; price_estimate_accept = "$10.23" ; type_ride_accept = "UberX") & Oh i see! thanks for letting me know, let me add that. At 9pm tonight, the rates are estimated at $10.23 for an UberX.
+uber_lyft ( time_pickup_accept = "tonight at 9pm") & You're all set. The ride has been scheduled for tonight at 9pm. You can also check your status on your mobile device.
+uber_lyft ( location_to_reject = "north michigan") & and that's in north michigan, right?
+uber_lyft ( price_estimate_accept = "$41.29") & ok. the fare estimate is $41.29.
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "9pm") & all set. your uberxl ride is booked for tonight at 9pm.
+uber_lyft ( type_ride = "uber pool" ; price_estimate = "$4.78") & Ok. Your uber pool fare estimate is $4.78
+uber_lyft ( time_pickup_accept = "4 minutes.") & The driver's ETA is 4 minutes.
+uber_lyft ( duration_estimate_accept = "5 minutes.") & Your trip should take 5 minutes.
+uber_lyft ( type_ride_accept = "uber pool.") & You requested uber pool.
+uber_lyft ( price_estimate_accept = "$4.78.") & Your fare estimate is $4.78.
+uber_lyft ( location_to_reject = "bowling green") & did you say bowling green?
+uber_lyft ( type_ride = "uberxl" ; price_estimate_accept = "$83.47") & an uberxl will cost $83.47, is that ok?
+uber_lyft ( duration_estimate_accept = "47 minutes") & sure, let me check for you. it will take about 47 minutes.
+uber_lyft ( type_ride = "Uber XL" ; price_estimate = "$16.63" ; duration_estimate = "15 minutes") & Great, that'll be an Uber XL for $16.63 and it'll take 15 minutes. is that for tonight or now?
+uber_lyft ( time_pickup_accept = "10 minutes") & Great, I've ordered your driver. you'll get a text updating you to the trip but they should arrive in 10 minutes.
+uber_lyft ( type_ride_accept = "Uber XL" ; price_estimate_accept = "$16.63" ; duration_estimate_accept = "15 minutes") & Uber XL for $16.63 and it'll take 15 minutes.
+uber_lyft ( location_from = "new york") & you said in new york?
+uber_lyft ( location_to = "westfield mall") & ok, would that be the westfield mall you want to go to?
+uber_lyft ( location_to_accept = "amc village 7") & great, and which theater did you want to go to? ok, let me find that address. would that me amc village 7?
+uber_lyft ( num_people_accept = "5") & got it, and you said for 5 passengers?
+uber_lyft ( price_estimate_accept = "$28.50") & it will cost around $28.50 for an uberxl.
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "9") & ok, i have scheduled your uberxl to pick you up at 9, is there anything else i can help you with?
+uber_lyft ( type_ride = "pools" ; type_ride_accept = "Uber Pool" ; price_estimate_accept = "$12.22.") & Okay, sure! let's see if there are any pools around you. okay, it looks like there is! the fare for an Uber Pool is $12.22.
+uber_lyft ( time_pickup = "9pm") & Okay great. One moment. YOur uber driver will arrive at 9pm, please be outside. I hope you enjoy your meal.
+uber_lyft ( duration_estimate_accept = "15 and 45 minutes") & Depending on traffic it will take between 15 and 45 minutes.
+uber_lyft ( type_ride = "Uber XL" ; num_people = "6") & The Uber XL can seat 6 people.
+uber_lyft ( price_estimate_accept = "$16.27") & Ok, your fare will be around $16.27.
+uber_lyft ( type_ride = "Uber XL" ; location_from = "the Luxor hotel") & Yes, an Uber XL to pick up at the Luxor hotel.
+uber_lyft ( time_pickup = "9:00 pm") & Did you want to book for 9:00 pm tonight?
+uber_lyft ( duration_estimate_accept = "15 minutes") & Ok, the ride will take about 15 minutes.
+uber_lyft ( type_ride_accept = "Uber XL" ; time_pickup_accept = "9:00pm" ; location_from_accept = "the Luxor hotel" ; location_to = "the vegas strip") & Ok, I have booked an Uber XL for 9:00pm tonight, from the Luxor hotel to the vegas strip.
+uber_lyft ( type_ride = "Uber XL") & Just so you know, 5 or more people requires the Uber XL okay?
+uber_lyft ( type_ride_accept = "Uber X" ; price_estimate_accept = "4$3.84" ; duration_estimate_accept = "30 minutes") & Great. Your ride will be an Uber X and cost 4$3.84 and the trip will take about 30 minutes due to traffic.
+uber_lyft ( time_pickup_accept = "5 minutes") & So your driver will arrive in 5 minutes, keep an eye on your mobile for updates. Did you need anything else?
+uber_lyft ( type_ride_accept = "uber xl" ; num_people_accept = "4" ; price_estimate_accept = "$51.66" ; duration_estimate_accept = "25 mins" ; location_from_accept = "j f k airport" ; location_to = "34 junction boulevard" ; time_pickup = "9") & an uber xl for your party of 4 will b $51.66 and the duration of the trip is expected to be 25 mins. please confirm that you'd like to go from j f k airport to 34 junction boulevard before i schedule it for tonight at 9 by saying "yes".
+uber_lyft ( time_pickup_accept = "9") & ok. great, i've scheduled it for tonight at 9. do you need anything else?
+uber_lyft ( type_ride = "Uber XL") & okay so that'll be an Uber XL okay?
+uber_lyft ( price_estimate = "$67.87") & great, let me order that for you. It will cost $67.87.
+uber_lyft ( time_pickup_accept = "5 minutes") & Your driver will arrive in 5 minutes.
+uber_lyft ( num_people_accept = "5" ; location_from_accept = "Chicago Ridge mall" ; location_to_reject = "Silversmith hotel in Downtown Chicago" ; price_estimate_reject = "$67.87") & one moment please. That's 5 passengers from the Chicago Ridge mall to Silversmith hotel in Downtown Chicago for $67.87.
+uber_lyft ( price_estimate_accept = "$69.33") & My Mistake, that'll be $69.33 instead, okay?
+uber_lyft ( location_from = "santa fe") & is that also in santa fe?
+uber_lyft ( type_ride_accept = "uberx" ; price_estimate_accept = "$5.70.") & ok, an uberx will cost $5.70.
+uber_lyft ( time_pickup_accept = "7 minutes.") & ok, your driver will be arriving in 7 minutes.
+uber_lyft ( duration_estimate_accept = "15 minutes") & it will take around 15 minutes depending on traffic.
+uber_lyft ( location_from = "Albany, CA") & Is this in Albany, CA?
+uber_lyft ( type_ride_accept = "shared ride" ; price_estimate_accept = "$65-70") & Alright, i found a shared ride fare for $65-70 is that okay?
+uber_lyft ( type_ride = "Uber Pool" ; price_estimate = "$16.06" ; type_ride_accept = "uber X" ; price_estimate_accept = "$30.23") & Great, I cang get an Uber Pool For $16.06, or an uber X for $30.23.
+uber_lyft ( time_pickup_accept = "10 minutes") & Great, Your driver will arrive in 10 minutes and you'll get ride updates via mobile. Anything else?
+uber_lyft ( price_estimate_accept = "$13") & your fare estimate is $13, can i continue booking your ride?
+uber_lyft ( time_pickup_accept = "5 minutes") & done. your driver will be there in 5 minutes.
+uber_lyft ( type_ride = "uberxl" ; price_estimate_accept = "$132.77, is") & ok, an uberxl will cost $132.77, is that ok?
+uber_lyft ( time_pickup = "9pm" ; type_ride_accept = "uberxl" ; time_pickup_accept = "9pm" ; location_from_accept = "disneyland" ; location_to_accept = "magic mountain") & great, let me schedule your ride for 9pm, one moment. ok, i have scheduled or an uberxl to pick you up at 9pm from disneyland going to magic mountain, can i help you with anything else?
+uber_lyft ( type_ride = "uberx" ; price_estimate_accept = "$24.17") & ok, an uberx will cost $24.17, is that ok?
+uber_lyft ( type_ride_accept = "uberx" ; time_pickup_accept = "9pm" ; location_from_accept = "philadelphia international airport" ; location_to = "butcher and singer") & sure, one moment while i finish booking your ride. ok, i have booked an uberx to pick you up at 9pm from the philadelphia international airport going to butcher and singer. your receipt will be texted to you. can i help with anything else?
+uber_lyft ( price_estimate = "$12") & the fare estimate is $12.
+uber_lyft ( price_estimate_accept = "$21") & ok, the fare estimate is $21.
+uber_lyft ( time_pickup_accept = "6 minutes") & sure, your driver will be there in 6 minutes.
+uber_lyft ( duration_estimate_accept = "15 minutes") & the trip will take 15 minutes.
+uber_lyft ( type_ride = "uberx" ; num_people = "4 passengers") & ok, did you want to use an uberx? an uberx is the standard sedan that can seat up to 4 passengers.
+uber_lyft ( price_estimate = "$57.10") & sure, your total will be $57.10, is that ok?
+uber_lyft ( price_estimate_accept = "1 hour and 4 minutes" ; type_ride = "uberx" ; time_pickup_accept = "9pm" ; location_from_accept = "o'hare international airport" ; location_to_accept = "5701 south cicero avenue") & sure, one moment while i check that. your trip will take about 1 hour and 4 minutes, one moment while i book your ride. ok, i have booked an uberx to pick you up at 9pm going from o'hare international airport going to 5701 south cicero avenue. your receipt will be texted to you.
+uber_lyft ( price_estimate_accept = "an uberx will b" ; type_ride_accept = "uberx") & an uberx will be $57.10.
+uber_lyft ( location_to = "pelicans roost in north carolina") & i'm seeing a pelicans roost in north carolina, is that the one?
+uber_lyft ( location_from = "paradise") & is that also in paradise?
+uber_lyft ( type_ride = "xl" ; num_people_accept = "6") & that's correct. a xl will fit 6.
+uber_lyft ( price_estimate = "$7.10") & ok, i'll book that for you, one moment. the fare will be $7.10, is that ok?
+uber_lyft ( time_pickup = "9:00 p.m") & sure, you have scheduled your pickup for 9pm so your driver will be arriving at 9:00 p.m.
+uber_lyft ( duration_estimate_accept = "10 minutes" ; time_pickup = "9pm") & and it should take about 10 minutes from your destination depending on traffic at 9pm tonight.
+uber_lyft ( type_ride = "uberxl" ; time_pickup = "9pm") & ok, i have booked an uberxl to pick you up at 9pm tonight, can i help you with anything else?
+uber_lyft ( type_ride_accept = "lyft" ; price_estimate_accept = "$7.32") & my apologies, let me book the lyft for you? ok, the price will be $7.32, is that ok?
+uber_lyft ( time_pickup_accept = "9pm") & ok, you're still set for 9pm tonight.
+uber_lyft ( time_pickup = "9pm" ; time_pickup_accept = "UberXL" ; price_estimate_accept = "$17.33") & at 9pm the fare rate for an UberXL will be $17.33.
+uber_lyft ( time_pickup_accept = "9pm") & should I book it? okay, one moment. Okay, your ride has been scheduled for 9pm tonight.
+uber_lyft ( duration_estimate_accept = "15 to 30 min") & the trip will take between 15 to 30 min depending on traffic.
+uber_lyft ( type_ride_accept = "Uber X" ; num_people_accept = "4 people" ; price_estimate_accept = "$12.94" ; time_pickup = "10 mins") & great. an Uber X for 4 people will cost you $12.94 and the drive will be approximately 10 mins.
+uber_lyft ( time_pickup_accept = "9 mins") & i'll book a driver to pick you up now. the driver will be there in 9 mins. you can check their status on your mobile device as well.
+uber_lyft ( num_people_accept = "4" ; type_ride = "Uber XL" ; price_estimate_accept = "$14.35" ; duration_estimate_accept = "19 minutes" ; time_pickup = "9pm") & For 4 people riding an Uber XL, it will cost $14.35 and take about 19 minutes to get to your destination. Would you like to book this for 9pm?
+uber_lyft ( type_ride_accept = "XL") & Yes, I can confirm that this ride is an XL.
+uber_lyft ( time_pickup_accept = "9pm") & yes, 9pm tonight!
+uber_lyft ( location_to = "water tower place") & would that be water tower place?
+uber_lyft ( location_from = "hanover park") & is that in hanover park?
+uber_lyft ( type_ride = "uberxl" ; price_estimate_accept = "$96.81") & ok, an uberxl will cost $96.81.
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "8 minutes") & ok, i have booked an uberxl, your driver will be arriving in 8 minutes, your receipt will be texted to you.
+uber_lyft ( time_pickup_accept = "9pm") & Got it. For six people I recommend Uber XL. would that be alright. Got it. 9pm tonight.
+uber_lyft ( type_ride = "Lyft shared" ; type_ride_accept = "regular Lyft") & Got it. Lyft shared isn't available for this ride so is a regular Lyft okay?
+uber_lyft ( price_estimate = "-15 dollars" ; duration_estimate = "14 minutes") & Great, that's going to be 12-15 dollars and take about 14 minutes. Is that scheduled?
+uber_lyft ( time_pickup_accept = "9pm" ; price_estimate = "-15 dollars" ; duration_estimate_accept = "14 minutes") & SO let's confirm, it's a 9pm pickup for 12-15 dollars and it will take 14 minutes.
+uber_lyft ( num_people_accept = "2") & It's for 2 passengers and the driver will notify you when they're on their way.
+uber_lyft ( price_estimate_accept = "$44.08") & Sure. the fare estimate is $44.08.
+uber_lyft ( type_ride = "Uber Pool" ; time_pickup_accept = "9 p.m") & You're all set. Your Uber Pool is booked for tonight at 9 p.m.
+uber_lyft ( type_ride_accept = "Uber Pool") & Uber Pool.
+uber_lyft ( location_from = "perimeter mall") & where would you like to go? did you say perimeter mall?
+uber_lyft ( type_ride = "uberx") & ok, let me calculate your fare, one moment. would you like to take an express pool, pool, or uberx?
+uber_lyft ( type_ride = "lyft xl" ; price_estimate_accept = "$39.95") & ok, a lyft xl will cost $39.95, is that ok?
+uber_lyft ( price_estimate_accept = "$45 to $50") & Sure, the estimate price is $45 to $50.
+uber_lyft ( price_estimate_accept = "$18") & ok, the fare estimate is $18.
+uber_lyft ( time_pickup_accept = "9 minutes.") & you driver should be there in 9 minutes.
+uber_lyft ( duration_estimate_accept = "14 minutes") & your ETA is 14 minutes
+uber_lyft ( price_estimate_accept = "$6.10" ; duration_estimate_accept = "15 minutes") & Great that's going to cost $6.10 and take about 15 minutes.
+uber_lyft ( time_pickup_accept = "9 p.m") & Got it. Your driver will arrive at 9 p.m. but keep an eye on your mobile for updates.
+uber_lyft ( price_estimate_accept = "$21.50") & ok, the fare estimate is $21.50.
+uber_lyft ( duration_estimate_accept = "14 minutes") & it should take 14 minutes.
+uber_lyft ( time_pickup_accept = "9 pm") & you're all set for 9 pm.
+uber_lyft ( price_estimate = "$9.15") & ok, your fare estimate is $9.15, can i continue booking your ride?
+uber_lyft ( type_ride = "uberxl" ; time_pickup = "9pm") & you got it. Your uberxl is booked for tonight at 9pm.
+uber_lyft ( duration_estimate_accept = "5 minutes.") & your trip should take 5 minutes.
+uber_lyft ( price_estimate_accept = "$9.15.") & correct, you will receive a notification when the driver is on their way. your fare estimate is $9.15.
+uber_lyft ( time_pickup = "9 pm") & 9 am or 9 pm?
+uber_lyft ( type_ride_accept = "uberx" ; num_people_accept = "4 people" ; time_pickup_accept = "9pm") & Sure. your uberx ride for 4 people has been booked for 9pm.
+uber_lyft ( duration_estimate_accept = "10 minutes") & the ride will take about 10 minutes.
+uber_lyft ( type_ride = "XL") & Okay that's going to be either an UberX or XL okay?
+uber_lyft ( price_estimate_accept = "$19.28") & Great. That's $19.28 and you'll get a mobile notification when it is on it's way.
+uber_lyft ( type_ride = "Pool") & What type of ride would you like? Uber has UberX, Uber XL, Uber Select, Uber Black, and Pool.
+uber_lyft ( type_ride = "UberXL") & How about UberXL?
+uber_lyft ( type_ride_accept = "UberXL" ; location_to_accept = "house" ; price_estimate_accept = "$15.08" ; duration_estimate_accept = "20 minutes") & Awesome. For UberXL to your house it'll cost $15.08 and take about 20 minutes.
+uber_lyft ( type_ride = "UberXL" ; price_estimate = "16 dollars") & ok, an UberXL will cost around 16 dollars.
+uber_lyft ( time_pickup = "6 minutes") & your driver will be arriving in about 6 minutes.
+uber_lyft ( duration_estimate = "25 minutes") & the ride will take about 25 minutes.
+uber_lyft ( type_ride_accept = "UberXL" ; time_pickup_accept = "6 minutes") & ok, your UberXL will be arriving in 6 minutes, thank you.
+uber_lyft ( time_pickup = "9pm" ; type_ride_accept = "regular uber pool" ; location_to_accept = "white horse tavern" ; location_from_accept = "23 main street" ; price_estimate_accept = "$42.84" ; duration_estimate_accept = "24 minutes.") & got it. i'll set it for tonight at 9pm. the total for a regular uber pool to white horse tavern from 23 main street will be $42.84 and will take about 24 minutes. should i set it up for tonight at 9pm now?
+uber_lyft ( location_from = "lax") & ok, do you want to go to lax or you're at lax?
+uber_lyft ( type_ride = "uberx") & did you want to take an uber pool or uberx?
+uber_lyft ( type_ride = "uberxl" ; num_people = "5 passengers") & ok, an uberxl can seat 5 passengers.
+uber_lyft ( price_estimate_accept = "$45.30") & it will cost $45.30, is that ok?
+uber_lyft ( duration_estimate_accept = "50 minutes" ; time_pickup = "9pm") & let me check. it will take about 50 minutes, depending on traffic at 9pm.
+uber_lyft ( time_pickup_accept = "9pm") & i have scheduled your pickup to be at 9pm.
+uber_lyft ( type_ride_accept = "uberxl" ; num_people_accept = "5") & it is an uberxl, to accommodate 5 passengers.
+uber_lyft ( time_pickup_accept = "tonight at 9") & great, i've booked it for tonight at 9. do u need anything else?
+uber_lyft ( price_estimate_accept = "$21") & ok. Your fare estimate is $21. Is this for now or later?
+uber_lyft ( time_pickup_accept = "tonight at 9pm") & got it. You're all set. Your ride is booked for tonight at 9pm.
+uber_lyft ( location_from = "alameda, california") & hi, how can i help you? would that be in alameda, california?
+uber_lyft ( type_ride = "uberx") & ok, would you like to take a pool or uberx?
+uber_lyft ( type_ride = "pool" ; price_estimate_accept = "$12.42") & a pool will be $12.42, is that ok?
+uber_lyft ( type_ride_accept = "uber pool" ; location_from_accept = "naval air station north island" ; location_to = "chipotle" ; time_pickup_accept = "6 minutes") & ok, let me finish your booking and finding you a driver. ok, i have booked you an uber pool to pick you up from naval air station north island going to chipotle, your driver will be arriving in 6 minutes and your receipt will be texted to you.
+uber_lyft ( duration_estimate_accept = "12 minutes.") & can i help you with anything else? let me check that for you. it will take about 12 minutes.
+uber_lyft ( type_ride = "XL") & got it, let me calculate the fare. and you said you want an XL?
+uber_lyft ( type_ride = "uberxl" ; price_estimate_accept = "$185.70") & ok, an uberxl will cost $185.70, once i complete your booking i can see when your driver will be arriving.
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "9 minutes.") & sure, one moment please. ok, i have booked your uberxl and your driver will be arriving in 9 minutes.
+uber_lyft ( duration_estimate_accept = "1 hour and 55 minutes.") & it will take around 1 hour and 55 minutes.
+uber_lyft ( location_from = "Pine Street in Michigan City, IN") & Pine Street in Michigan City, IN does that sounds right?
+uber_lyft ( location_to = "restaurant") & Okay, and what is your destination? You're going to a restaurant?
+uber_lyft ( location_to = "restaurant") & can you tell me the name of the restaurant?
+uber_lyft ( location_to = "Rally's") & The next available restaurant is Rally's is that the one you want to go to?
+uber_lyft ( type_ride = "Lux Black XL" ; location_to_reject = "Shared") & and What type of ride would you like? Lyft has regular, Shared, XL, Lux, Lux Black, Lux Black XL.
+uber_lyft ( num_people_accept = "2" ; type_ride_accept = "Lyft regular" ; location_from_accept = "City Hall in Philadelphia" ; location_to_accept = "The children's hospital in Philadelphia" ; duration_estimate_accept = "18 minutes" ; price_estimate_accept = "cost between $9 and $12") & Ok, for a ride for 2 using Lyft regular going to City Hall in Philadelphia to The children's hospital in Philadelphia, it'll take 18 minutes and cost between $9 and $12.
+uber_lyft ( time_pickup_accept = "tonight at 9") & would you like to book this for right now? You got it, let me book it for tonight at 9 like you said.
+uber_lyft ( type_ride_accept = "uberxl" ; price_estimate_accept = "$14.42") & ok, an uberxl will cost $14.42, is that ok?
+uber_lyft ( time_pickup_accept = "immediate pickup") & did you need immediate pickup?
+uber_lyft ( location_from = "Bayview North Caroline.") & Could you say that again, I heard Bayview North Caroline.
+uber_lyft ( type_ride = "Uber X" ; price_estimate = "$20.38") & okay that's going to be an Uber X for $20.38, did you want that asap or scheduled?
+uber_lyft ( type_ride = "lyft") & would you like to use an uber or a lyft?
+uber_lyft ( location_from = "wooksbury") & and you said you were coming from wooksbury?
+uber_lyft ( type_ride = "uberxl" ; price_estimate_accept = "$24.57") & ok, an uberxl will cost $24.57, can i book that for you?
+uber_lyft ( time_pickup_accept = "8 minutes") & one moment while i find drivers in your area. ok, it looks like your driver will be arriving in 8 minutes.
+uber_lyft ( type_ride_accept = "uberxl") & sure, you have booked an uberxl.
+uber_lyft ( type_ride = "uberxl will" ; price_estimate_accept = "$65.77") & ok, an uberxl will cost $65.77.
+uber_lyft ( type_ride = "uberxl" ; time_pickup = "puente hills mall" ; time_dropoff = "glendale galleria") & ok, let me schedule that. i have scheduled an uberxl to pick you up at puente hills mall going to glendale galleria, is that correct?
+uber_lyft ( type_ride = "uberxl" ; time_pickup = "9pm but") & your uberxl is scheduled for 9pm but if you would like immediate pickup i can search for drivers in the area.
+uber_lyft ( duration_estimate_accept = "45 minutes" ; time_pickup = "9pm") & it will take about 45 minutes, depending on traffic during 9pm.
+uber_lyft ( time_pickup_accept = "puente hills mall" ; type_ride_accept = "uberxl going" ; time_dropoff_accept = "glendale galleria") & ok, confirming your ride for 9pm, an uberxl going from puente hills mall to glendale galleria.
+uber_lyft ( num_people_accept = "4" ; type_ride_accept = "lyft regular" ; price_estimate = "$18" ; duration_estimate_accept = "10 minutes") & a lyft for 4 people using lyft regular will be between 15 and $18, and the ride will take 10 minutes. did you want to book the ride to pick you up now?
+uber_lyft ( time_pickup_accept = "9pm") & ok, i'll schedule it for tonight at 9pm.
+uber_lyft ( type_ride = "uberxl" ; price_estimate_accept = "$12.67") & ok, an uberxl will cost $12.67, is that ok?
+uber_lyft ( type_ride = "Uber X") & sure, let me take a look. would you like an Uber pool, Uber X, or other options?
+uber_lyft ( num_people_accept = "5 people" ; type_ride_accept = "UberX" ; location_from_accept = "los angeles convention center" ; location_to_accept = "korea town") & got it. 5 people riding UberX from los angeles convention center to korea town.
+uber_lyft ( price_estimate_accept = "$8.72") & the cost will be $8.72.
+uber_lyft ( time_pickup_accept = "10 mins") & the driver will be arriving in 10 mins.
+uber_lyft ( duration_estimate_accept = "15 minutes") & the ride will be 15 minutes
+uber_lyft ( location_from = "mcdonalds") & which mcdonalds?
+uber_lyft ( type_ride_accept = "uber pool" ; num_people_accept = "2 people" ; price_estimate_accept = "$6.47" ; time_pickup = "7 minutes") & for an uber pool for 2 people it'll cost $6.47 and take about 7 minutes to get to your destination. Should i book a ride for you right now?
+uber_lyft ( time_pickup_accept = "5 mins") & great, i've booked the ride. the driver will be there in 5 mins.
+uber_lyft ( type_ride = "UberX") & would you like to take a pool or an UberX?
+uber_lyft ( type_ride = "pool" ; price_estimate_accept = "$3.00") & ok, a pool will be $3.00, is that ok?
+uber_lyft ( type_ride_accept = "Uber pool" ; location_from_accept = "11 higgins street" ; location_to = "the white horse tavern" ; time_pickup_accept = "5 minutes") & ok, one moment while i finish booking your ride. i have booked you an Uber pool to pick you up at 11 higgins street going to the white horse tavern. your driver will be arriving in 5 minutes and your receipt will be texted to you. can i help with anything else?
+uber_lyft ( type_ride = "uber X" ; price_estimate = "6 dollars") & an uber X will cost 6 dollars okay?
+uber_lyft ( type_ride_reject = "Pool") & Pool isn't available for this trip, I'm sorry.
+uber_lyft ( type_ride = "Black") & well the ride is fairly low cost, you could splurge for an XL or a Black.
+uber_lyft ( price_estimate = "9 dollars") & That'll be 9 dollars and is that now or scheduled?
+uber_lyft ( time_pickup_accept = "10 minutes" ; duration_estimate_accept = "5 minutes") & Got it. your driver will arrive in 10 minutes, the trip will take 5 minutes.
+uber_lyft ( price_estimate_accept = "9 dollars" ; type_ride_accept = "XL") & Yes, 9 dollars for an XL trip.
+uber_lyft ( location_from = "Maryland avenue") & WHich starbucks are you at, the one on Maryland avenue?
+uber_lyft ( location_to_accept = "McDonalds" ; type_ride = "UberX" ; price_estimate_accept = "7 dollars and 2 cents") & Great, I've found a McDonalds, an UberX will cost 7 dollars and 2 cents.
+uber_lyft ( type_ride_accept = "Uber X" ; time_pickup_accept = "9 pm") & So I've scheduled your Uber X for 9 pm tonight and the driver will let you know via mobile when they're on their way.
+uber_lyft ( price_estimate = "$23") & sure. the fare estimate is $23.
+uber_lyft ( num_people = "4" ; type_ride = "XL") & for parties larger than 4, you will need to request the XL option.
+uber_lyft ( price_estimate_accept = "$35") & sure. the fare estimate is $35, can i confirm your request?
+uber_lyft ( time_pickup = "5 minutes") & ok, your driver is on the way and should be there in 5 minutes.
+uber_lyft ( duration_estimate_accept = "23 minutes") & your trip will take 23 minutes.
+uber_lyft ( time_pickup_accept = "4 minutes") & yes, your driver will be there in 4 minutes.
+uber_lyft ( location_from = "Ann Arbor 20 Imax") & It's the Ann Arbor 20 Imax.
+uber_lyft ( type_ride_accept = "uber x") & great. I can book an uber x for 5 65.
+uber_lyft ( time_pickup_accept = "10 minutes") & Your driver will arrive in 10 minutes and will let you know via mobile if there's any updates to your trip. anything else for you?
+uber_lyft ( time_pickup = "4 minutes") & great. Did you want that for now or later? One moment. I've placed your uber. It will arrive in 4 minutes.
+uber_lyft ( time_pickup = "4 minutes") & Your driver's eta is in 4 minutes.
+uber_lyft ( type_ride_accept = "Uber x") & Uber x.
+uber_lyft ( price_estimate_accept = "$24.75") & $24.75.
+uber_lyft ( location_to = "austin") & ok, which movie theater did you want to go to in austin?
+uber_lyft ( location_from = "austin") & is that in austin as well?
+uber_lyft ( location_to_reject = "i see an orchard str" ; location_to = "orchard street") & i see an orchard street but no orchard way.
+uber_lyft ( location_from = "manchester") & Also in manchester?
+uber_lyft ( type_ride = "Lux") & So there's only Lyft, XL, and Lux available for this ride, shared is unavailable.
+uber_lyft ( price_estimate = "9 and 12" ; time_pickup = "10 minutes") & Great that's going to cost between 9 and 12 dollars and take about 10 minutes.
+uber_lyft ( time_pickup_accept = "10 minutes") & Great. Yeah, it'll take 10 minutes but your driver won't arrive for about 5.
+uber_lyft ( type_ride = "uberx" ; price_estimate_accept = "$8.01") & ok, an uberx will be $8.01, is that ok?
+uber_lyft ( type_ride_accept = "Uber XL") & That'll have to be an Uber XL okay?
+uber_lyft ( price_estimate_accept = "$22.74" ; duration_estimate_accept = "15 minutes") & It costs $22.74 and takes 15 minutes.
+uber_lyft ( time_pickup_accept = "5 mins") & great, i'll book it now. the driver will be there in 5 mins.
+uber_lyft ( num_people_accept = "4" ; type_ride_accept = "XL" ; price_estimate_accept = "$36.59" ; duration_estimate_accept = "30 minutes") & Got it. For 4 passengers an XL willl be $36.59 and take 30 minutes, okay?
+uber_lyft ( location_to = "the one on south avalon boulevard") & ok, the one on south avalon boulevard?
+uber_lyft ( type_ride = "uberxl" ; price_estimate_accept = "$23.35") & an uberxl will cost $23.35, is that ok?
+uber_lyft ( location_from_accept = "california state university, long beach") & and to confirm, you said the pickup location is california state university, long beach?
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "9pm" ; location_from = "cal state long beach" ; location_to_accept = "pizza hut in carson") & ok, let me book that for you, one moment. i have booked your uberxl to pick you up tonight at 9pm going from cal state long beach to the pizza hut in carson, can i help you with anything else?
+uber_lyft ( location_from = "I did, I'm not finding a m") & I did, I'm not finding a mall at that address. I did, I'm not finding a mall at that address.
+uber_lyft ( location_to = "Got it and what's") & Got it and what's the name of the bar?
+uber_lyft ( location_from_accept = "ple at 9pm ." ; location_to_accept = "ill cost 15 dollars a") & It's a Lyft XL for 4 people at 9pm . It will cost 15 dollars and take 10 minutes Yes I'm still here.
+uber_lyft ( type_ride = "uberx" ; price_estimate = "$6.62") & ok, an uberx will cost $6.62.
+uber_lyft ( num_people = "4 people" ; type_ride = "uberXL") & ok, how many people are riding with you? you can only take up to 4 people on uberX. i suggest that you request uberXL for larger groups.
+uber_lyft ( price_estimate_accept = "$12.69") & sure. your fare estimate is $12.69, can i confirm this request?
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "tonight at 9 pm") & ok. your uberxl is scheduled for tonight at 9 pm.

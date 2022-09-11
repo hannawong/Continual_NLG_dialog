@@ -1,0 +1,3712 @@
+[
+    [
+        "OFFER(balance=\"$5,118.77\";account_type=\"checking\")",
+        "Your checking account has $5,118.77.",
+        "Your checking account has $5,118.77."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,630\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Please confirm: Transfer $1,630 from your checking account to Amir's checking account.",
+        "Please confirm: Transfer $1,630 from your checking account to Amir's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is complete.",
+        "Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$3,488.77\";account_type=\"checking\")",
+        "Your checking account has $3,488.77.",
+        "Your checking account has $3,488.77."
+    ],
+    [
+        "OFFER(balance=\"$24,344.68\";account_type=\"checking\")",
+        "You have $24,344.68 in your checking account.",
+        "You have $24,344.68 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$6,175.85\";account_type=\"savings\")",
+        "You have $6,175.85 in your savings account.",
+        "You have $6,175.85 in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,180\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Please confirm: You want me to transfer $1,180 from savings account to Maria 's checking account.",
+        "Please confirm: You want me to transfer $1,180 from savings account to Maria 's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your fund has been transferred successfully.",
+        "Your fund has been transferred successfully."
+    ],
+    [
+        "OFFER(balance=\"$4,995.85\";account_type=\"savings\")",
+        "You have $4,995.85 in your savings account.",
+        "You have $4,995.85 in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$11,119.11\";account_type=\"checking\")",
+        "Your checking account balance is $11,119.11",
+        "Your checking account balance is $11,119.11"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$980\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Transfer $980 bucks from your checking account to Amir's checking account. Please confirm this.",
+        "Transfer $980 bucks from your checking account to Amir's checking account. Please confirm this."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer was successful.",
+        "The transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$10,139.11\";account_type=\"checking\")",
+        "Your checking account balance is $10,139.11",
+        "Your checking account balance is $10,139.11"
+    ],
+    [
+        "OFFER(balance=\"$15,382.30\";account_type=\"savings\")",
+        "Your savings account has a balance of $15,382.30.",
+        "Your savings account has a balance of $15,382.30."
+    ],
+    [
+        "OFFER(balance=\"$5,783.31\";account_type=\"checking\")",
+        "Your checking account has a balance of $5,783.31.",
+        "Your checking account has a balance of $5,783.31."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,740\";recipient_account_name=\"Abhinav\";recipient_account_type=\"savings\")",
+        "Let me see if I got everything correctly: Transfer $1,740 from my checking account to Abhinav's savings account.",
+        "Let me see if I got everything correctly: Transfer $1,740 from my checking account to Abhinav's savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been successful.",
+        "Your transfer has been successful."
+    ],
+    [
+        "OFFER(balance=\"$4,043.31\";account_type=\"checking\")",
+        "Your checking account balance is $4,043.31.",
+        "Your checking account balance is $4,043.31."
+    ],
+    [
+        "OFFER(balance=\"$8,903.46\";account_type=\"savings\")",
+        "I can! Your savings account balance is $8,903.46.",
+        "I can! Your savings account balance is $8,903.46."
+    ],
+    [
+        "OFFER(balance=\"$1,907.72\";account_type=\"checking\")",
+        "Your checking account balance is $1,907.72.",
+        "Your checking account balance is $1,907.72."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,290\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "All right! Can you confirm the following details, please? You are transferring $1,290 from your checking account into the checking account of Xiaoxue.",
+        "All right! Can you confirm the following details, please? You are transferring $1,290 from your checking account into the checking account of Xiaoxue."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is successful.",
+        "Your transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$617.72\";account_type=\"checking\")",
+        "Your checking account balance is now $617.72.",
+        "Your checking account balance is now $617.72."
+    ],
+    [
+        "OFFER(balance=\"$15,160.16\";account_type=\"checking\")",
+        "It looks like you have $15,160.16 in your checking account.",
+        "It looks like you have $15,160.16 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$810\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Sure. Just to confirm, you want to send $810 from your checking acocunt to Pranav.",
+        "Sure. Just to confirm, you want to send $810 from your checking acocunt to Pranav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, I've made the transfer.",
+        "Ok, I've made the transfer."
+    ],
+    [
+        "OFFER(balance=\"$14,350.16\";account_type=\"checking\")",
+        "Now you have $14,350.16 in your checking account.",
+        "Now you have $14,350.16 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$10,507.22\";account_type=\"checking\")",
+        "The balance of your checking account is $10,507.22.",
+        "The balance of your checking account is $10,507.22."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$950\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "Please confirm to transfer $950 from your checking account to checking account of Raghav.",
+        "Please confirm to transfer $950 from your checking account to checking account of Raghav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your money transfer was successfully made.",
+        "Your money transfer was successfully made."
+    ],
+    [
+        "OFFER(balance=\"$9,557.22\";account_type=\"checking\")",
+        "now the balance of your checking account is $9,557.22",
+        "now the balance of your checking account is $9,557.22"
+    ],
+    [
+        "OFFER(balance=\"$1,667.15\";account_type=\"checking\")",
+        "The balance in your checking account is $1,667.15",
+        "The balance in your checking account is $1,667.15"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,000\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Please confirm this: From my checking account, Transfer $1,000. Transfer the money to Amir. Send it to their checking account.",
+        "Please confirm this: From my checking account, Transfer $1,000. Transfer the money to Amir. Send it to their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transaction has been completed.",
+        "Your transaction has been completed."
+    ],
+    [
+        "OFFER(balance=\"$667.15\";account_type=\"checking\")",
+        "The current balance is $667.15 in your checking account.",
+        "The current balance is $667.15 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$3,098.30\";account_type=\"savings\")",
+        "Your savings account have a balance of $3,098.30 which is a good outstanding amount.",
+        "Your savings account have a balance of $3,098.30 which is a good outstanding amount."
+    ],
+    [
+        "OFFER(balance=\"$17,542.19\";account_type=\"checking\")",
+        "Your checking account holds a balance of $17,542.19 which is a very good outstanding amount.",
+        "Your checking account holds a balance of $17,542.19 which is a very good outstanding amount."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,340\";recipient_account_name=\"Maria\";recipient_account_type=\"savings\")",
+        "Please confirm me the transfer details. You would like to transfer $1,340 from your checking account to Maria 's savings account, right?",
+        "Please confirm me the transfer details. You would like to transfer $1,340 from your checking account to Maria 's savings account, right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, I've made your transfer. It's successful.",
+        "Okay, I've made your transfer. It's successful."
+    ],
+    [
+        "OFFER(balance=\"$16,202.19\";account_type=\"checking\")",
+        "Your checking account have a balance of $16,202.19",
+        "Your checking account have a balance of $16,202.19"
+    ],
+    [
+        "OFFER(balance=\"$19,533.12\";account_type=\"savings\")",
+        "Your savings account balance is $19,533.12.",
+        "Your savings account balance is $19,533.12."
+    ],
+    [
+        "OFFER(balance=\"$19,811.16\";account_type=\"checking\")",
+        "Your checking account balance is $19,811.16.",
+        "Your checking account balance is $19,811.16."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,200\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Confirming the following details, sending $1,200 from your checking account To the checking account of Srinivas.",
+        "Confirming the following details, sending $1,200 from your checking account To the checking account of Srinivas."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer was successful.",
+        "The transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$18,611.16\";account_type=\"checking\")",
+        "The checking account balance is $18,611.16.",
+        "The checking account balance is $18,611.16."
+    ],
+    [
+        "OFFER(balance=\"$15,443.10\";account_type=\"checking\")",
+        "Your checking has $15,443.10 right now",
+        "Your checking has $15,443.10 right now"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$800\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Confirm that I'll send $800 from your checking account to Srinivas' checking account.",
+        "Confirm that I'll send $800 from your checking account to Srinivas' checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is complete",
+        "Your transfer is complete"
+    ],
+    [
+        "OFFER(balance=\"$14,643.10\";account_type=\"checking\")",
+        "Your checking account now stands at $14,643.10",
+        "Your checking account now stands at $14,643.10"
+    ],
+    [
+        "OFFER(balance=\"$1,345.35\";account_type=\"checking\")",
+        "The balance in your checking account is $1,345.35.",
+        "The balance in your checking account is $1,345.35."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$930\";recipient_account_name=\"Abhinav\";recipient_account_type=\"checking\")",
+        "Please verify the following information: Transfer $930 from my checking account to the checking account of Abhinav.",
+        "Please verify the following information: Transfer $930 from my checking account to the checking account of Abhinav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is complete.",
+        "Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$415.35\";account_type=\"checking\")",
+        "Your checking account balance is $415.35.",
+        "Your checking account balance is $415.35."
+    ],
+    [
+        "OFFER(balance=\"$11,637.69\";account_type=\"savings\")",
+        "The balance in your savings account is $11,637.69.",
+        "The balance in your savings account is $11,637.69."
+    ],
+    [
+        "OFFER(balance=\"$17,867.24\";account_type=\"checking\")",
+        "The balance in your checking account is $17,867.24.",
+        "The balance in your checking account is $17,867.24."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,210\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Please confirm: Transfer $1,210 from my checking account to Amir in his checking account.",
+        "Please confirm: Transfer $1,210 from my checking account to Amir in his checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been made.",
+        "Your transfer has been made."
+    ],
+    [
+        "OFFER(balance=\"$16,657.24\";account_type=\"checking\")",
+        "The balance in your checking account is $16,657.24.",
+        "The balance in your checking account is $16,657.24."
+    ],
+    [
+        "OFFER(balance=\"$20,492.56\";account_type=\"savings\")",
+        "You have $20,492.56 in your savings",
+        "You have $20,492.56 in your savings"
+    ],
+    [
+        "OFFER(balance=\"$1,347.83\";account_type=\"checking\")",
+        "You have $1,347.83 in your checking account",
+        "You have $1,347.83 in your checking account"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$770\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Please confirm: sending $770 from my checking account to the checking account of Srinivas.",
+        "Please confirm: sending $770 from my checking account to the checking account of Srinivas."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer has been made.",
+        "Transfer has been made."
+    ],
+    [
+        "OFFER(balance=\"$577.83\";account_type=\"checking\")",
+        "You have $577.83 in your checking account",
+        "You have $577.83 in your checking account"
+    ],
+    [
+        "OFFER(balance=\"$11,150.42\";account_type=\"savings\")",
+        "Your savings account balance is $11,150.42.",
+        "Your savings account balance is $11,150.42."
+    ],
+    [
+        "OFFER(balance=\"$18,260.68\";account_type=\"checking\")",
+        "Your checking account balance is $18,260.68.",
+        "Your checking account balance is $18,260.68."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,780\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Let me confirm this information with you to make sure I have it correct. Transfer $1,780 from your checking account to Sanuj's checking account. Is that correct?",
+        "Let me confirm this information with you to make sure I have it correct. Transfer $1,780 from your checking account to Sanuj's checking account. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer was successful.",
+        "The transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$16,480.68\";account_type=\"checking\")",
+        "Your checking account balance is $16,480.68.",
+        "Your checking account balance is $16,480.68."
+    ],
+    [
+        "OFFER(balance=\"$11,440.25\";account_type=\"checking\")",
+        "The current balance of your checking account is $11,440.25.",
+        "The current balance of your checking account is $11,440.25."
+    ],
+    [
+        "OFFER(balance=\"$2,660.69\";account_type=\"savings\")",
+        "The current balance of you savings account is $2,660.69.",
+        "The current balance of you savings account is $2,660.69."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$990\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Okay, before I proceed I just need you to verify that you would like to send $990 from your savings account to the checking account belonging to Srinivas.",
+        "Okay, before I proceed I just need you to verify that you would like to send $990 from your savings account to the checking account belonging to Srinivas."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I was able to successfully make that transfer for you.",
+        "I was able to successfully make that transfer for you."
+    ],
+    [
+        "OFFER(balance=\"$1,670.69\";account_type=\"savings\")",
+        "Absolutely, now your current balance of your savings account is $1,670.69.",
+        "Absolutely, now your current balance of your savings account is $1,670.69."
+    ],
+    [
+        "OFFER(balance=\"$21,183.32\";account_type=\"checking\")",
+        "Right now your checking stands at $21,183.32",
+        "Right now your checking stands at $21,183.32"
+    ],
+    [
+        "OFFER(balance=\"$15,533.47\";account_type=\"savings\")",
+        "Your savings has $15,533.47 right now",
+        "Your savings has $15,533.47 right now"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$520\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "So just to make sure you want to send $520 from your savings account to Amir's checking account",
+        "So just to make sure you want to send $520 from your savings account to Amir's checking account"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Alright, it's done",
+        "Alright, it's done"
+    ],
+    [
+        "OFFER(balance=\"$15,013.47\";account_type=\"savings\")",
+        "Your savings now has $15,013.47 in it",
+        "Your savings now has $15,013.47 in it"
+    ],
+    [
+        "OFFER(balance=\"$9,664.62\";account_type=\"savings\")",
+        "Savings account balance is $9,664.62.",
+        "Savings account balance is $9,664.62."
+    ],
+    [
+        "OFFER(balance=\"$8,905.15\";account_type=\"checking\")",
+        "Checking account balance is $8,905.15.",
+        "Checking account balance is $8,905.15."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,620\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "You want to transfer $1,620 from your checking account to Amir's. Is that correct?",
+        "You want to transfer $1,620 from your checking account to Amir's. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$7,285.15\";account_type=\"checking\")",
+        "Your checking account balance is $7,285.15.",
+        "Your checking account balance is $7,285.15."
+    ],
+    [
+        "OFFER(balance=\"$10,659.49\";account_type=\"checking\")",
+        "The balance in your checking account is $10,659.49",
+        "The balance in your checking account is $10,659.49"
+    ],
+    [
+        "OFFER(balance=\"$12,976.62\";account_type=\"savings\")",
+        "The balance in your savings account is $12,976.62",
+        "The balance in your savings account is $12,976.62"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$650\";recipient_account_name=\"Pranav\";recipient_account_type=\"savings\")",
+        "Please confirm this : from my savings account making a transfer of $650 to Pranav to their savings account.",
+        "Please confirm this : from my savings account making a transfer of $650 to Pranav to their savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transaction has been made successfully.",
+        "Your transaction has been made successfully."
+    ],
+    [
+        "OFFER(balance=\"$12,326.62\";account_type=\"savings\")",
+        "The balance in your savings account is $12,326.62",
+        "The balance in your savings account is $12,326.62"
+    ],
+    [
+        "OFFER(balance=\"$18,934.13\";account_type=\"checking\")",
+        "Your checking account currently has $18,934.13.",
+        "Your checking account currently has $18,934.13."
+    ],
+    [
+        "OFFER(balance=\"$21,913.32\";account_type=\"savings\")",
+        "Your savings account currently has $21,913.32.",
+        "Your savings account currently has $21,913.32."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,500\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Sure, please confirm your transfer of $1,500 from your savings account to the checking account of Amir.",
+        "Sure, please confirm your transfer of $1,500 from your savings account to the checking account of Amir."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been successfully made.",
+        "Your transfer has been successfully made."
+    ],
+    [
+        "OFFER(balance=\"$20,413.32\";account_type=\"savings\")",
+        "You currently have $20,413.32 in your savings account.",
+        "You currently have $20,413.32 in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$7,606.45\";account_type=\"checking\")",
+        "Your checking balance is $7,606.45",
+        "Your checking balance is $7,606.45"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,550\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Please confirm the following information: Transfer $1,550 from my checking account to Maria's checking account.",
+        "Please confirm the following information: Transfer $1,550 from my checking account to Maria's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer was successful.",
+        "Transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$6,056.45\";account_type=\"checking\")",
+        "Your checking account balance is $6,056.45.",
+        "Your checking account balance is $6,056.45."
+    ],
+    [
+        "OFFER(balance=\"$10,132.76\";account_type=\"savings\")",
+        "The balance of your savings account is $10,132.76",
+        "The balance of your savings account is $10,132.76"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$430\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Ok. Please confirm. Transfer $430 from savings account to Amir checking account.",
+        "Ok. Please confirm. Transfer $430 from savings account to Amir checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is successful",
+        "Your transfer is successful"
+    ],
+    [
+        "OFFER(balance=\"$9,702.76\";account_type=\"savings\")",
+        "The balance of your savings account is $9,702.76.",
+        "The balance of your savings account is $9,702.76."
+    ],
+    [
+        "OFFER(balance=\"$19,799.10\";account_type=\"savings\")",
+        "Yes of course. The balance of your savings account is $19,799.10.",
+        "Yes of course. The balance of your savings account is $19,799.10."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$590\";recipient_account_name=\"AMir\";recipient_account_type=\"checking\")",
+        "To confirm: You request a transfer of $590 from your savings account to checking account of AMir. Is this correct?",
+        "To confirm: You request a transfer of $590 from your savings account to checking account of AMir. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer has been completed. Is there anything else?",
+        "The transfer has been completed. Is there anything else?"
+    ],
+    [
+        "OFFER(balance=\"$19,209.10\";account_type=\"savings\")",
+        "Your savings account balance is now $19,209.10.",
+        "Your savings account balance is now $19,209.10."
+    ],
+    [
+        "OFFER(balance=\"$13,522.87\";account_type=\"savings\")",
+        "The balance of your savings account is $13,522.87.",
+        "The balance of your savings account is $13,522.87."
+    ],
+    [
+        "OFFER(balance=\"$23,996.23\";account_type=\"checking\")",
+        "Your checking account balance is $23,996.23.",
+        "Your checking account balance is $23,996.23."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$780\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Okay, so you'd like to send $780 from your checking account to the checking account of Sanuj.",
+        "Okay, so you'd like to send $780 from your checking account to the checking account of Sanuj."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The money was successfully transfered.",
+        "The money was successfully transfered."
+    ],
+    [
+        "OFFER(balance=\"$23,216.23\";account_type=\"checking\")",
+        "The balance in your checking account is $23,216.23.",
+        "The balance in your checking account is $23,216.23."
+    ],
+    [
+        "OFFER(balance=\"$8,582.77\";account_type=\"checking\")",
+        "The balance is $8,582.77 is available in your checking account",
+        "The balance is $8,582.77 is available in your checking account"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,780\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Please confirm the details: From my checking account sending an amount of $1,780 to Maria in their checking account.",
+        "Please confirm the details: From my checking account sending an amount of $1,780 to Maria in their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transaction is successful.",
+        "Your transaction is successful."
+    ],
+    [
+        "OFFER(balance=\"$6,802.77\";account_type=\"checking\")",
+        "The balance in your checking account is $6,802.77",
+        "The balance in your checking account is $6,802.77"
+    ],
+    [
+        "OFFER(balance=\"$22,225.32\";account_type=\"checking\")",
+        "Your checking account balance is $22,225.32.",
+        "Your checking account balance is $22,225.32."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,130\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "So to double-check the details: Transfer $1,130 from my checking account to Amir and his checking account.",
+        "So to double-check the details: Transfer $1,130 from my checking account to Amir and his checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer is successful.",
+        "The transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$21,095.32\";account_type=\"checking\")",
+        "Your checking account balance is $21,095.32.",
+        "Your checking account balance is $21,095.32."
+    ],
+    [
+        "OFFER(balance=\"$7,717.10\";account_type=\"checking\")",
+        "$7,717.10 is your checking account.",
+        "$7,717.10 is your checking account."
+    ],
+    [
+        "OFFER(balance=\"$14,228.37\";account_type=\"savings\")",
+        "$14,228.37 is the balace in your savings account.",
+        "$14,228.37 is the balace in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,710\";recipient_account_name=\"srinivas\";recipient_account_type=\"checking\")",
+        "Sending $1,710 from your savings account to srinivas and depositing into their checking account. Is that correct?",
+        "Sending $1,710 from your savings account to srinivas and depositing into their checking account. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$12,518.37\";account_type=\"savings\")",
+        "$12,518.37 is your balance in your savings account.",
+        "$12,518.37 is your balance in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$17,480.31\";account_type=\"checking\")",
+        "Your checking account balance is $17,480.31.",
+        "Your checking account balance is $17,480.31."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$800\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Please confirm you are transferring $800 from your checking account the checking account of Pranav.",
+        "Please confirm you are transferring $800 from your checking account the checking account of Pranav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was a success.",
+        "Your transfer was a success."
+    ],
+    [
+        "OFFER(balance=\"$16,680.31\";account_type=\"checking\")",
+        "Your checking account balance is $16,680.31.",
+        "Your checking account balance is $16,680.31."
+    ],
+    [
+        "OFFER(balance=\"$4,072.35\";account_type=\"checking\")",
+        "Your checking balance is $4,072.35.",
+        "Your checking balance is $4,072.35."
+    ],
+    [
+        "OFFER(balance=\"$20,635.16\";account_type=\"savings\")",
+        "Savings? $20,635.16.",
+        "Savings? $20,635.16."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,200\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Ok. $1,200 from your savings to Pranav checking. Please confirm that for me.",
+        "Ok. $1,200 from your savings to Pranav checking. Please confirm that for me."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Done. Money has been transferred.",
+        "Done. Money has been transferred."
+    ],
+    [
+        "OFFER(balance=\"$19,435.16\";account_type=\"savings\")",
+        "There is $19,435.16 in your savings.",
+        "There is $19,435.16 in your savings."
+    ],
+    [
+        "OFFER(balance=\"$4,002.90\";account_type=\"savings\")",
+        "Its done and the balance in your savings account is $4,002.90",
+        "Its done and the balance in your savings account is $4,002.90"
+    ],
+    [
+        "OFFER(balance=\"$12,509.36\";account_type=\"checking\")",
+        "balance of you checking account is $12,509.36",
+        "balance of you checking account is $12,509.36"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,720\";recipient_account_name=\"Abhinav\";recipient_account_type=\"savings\")",
+        "Please confirm to transfer $1,720 from your checking account to savings account of Abhinav.",
+        "Please confirm to transfer $1,720 from your checking account to savings account of Abhinav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully transferred the amount.",
+        "I have successfully transferred the amount."
+    ],
+    [
+        "OFFER(balance=\"$10,789.36\";account_type=\"checking\")",
+        "The balance of your checking account is $10,789.36",
+        "The balance of your checking account is $10,789.36"
+    ],
+    [
+        "OFFER(balance=\"$17,982.31\";account_type=\"savings\")",
+        "Your savings account has $17,982.31 at the moment.",
+        "Your savings account has $17,982.31 at the moment."
+    ],
+    [
+        "OFFER(balance=\"$3,948.16\";account_type=\"checking\")",
+        "Your checking account currently has $3,948.16.",
+        "Your checking account currently has $3,948.16."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,500\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Okay then. You want to transfer $1,500 from your checking account to the checking account of Pranav?",
+        "Okay then. You want to transfer $1,500 from your checking account to the checking account of Pranav?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "You have successfully transferred the money.",
+        "You have successfully transferred the money."
+    ],
+    [
+        "OFFER(balance=\"$2,448.16\";account_type=\"checking\")",
+        "Your checking account now has $2,448.16.",
+        "Your checking account now has $2,448.16."
+    ],
+    [
+        "OFFER(balance=\"$13,703.79\";account_type=\"checking\")",
+        "You have a checking account balance of $13,703.79.",
+        "You have a checking account balance of $13,703.79."
+    ],
+    [
+        "OFFER(balance=\"$18,195.79\";account_type=\"savings\")",
+        "You have a savings account balance of $18,195.79.",
+        "You have a savings account balance of $18,195.79."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,520\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "Please confirm that you would like to transfer $1,520 from your savings account to the checking account of Raghav.",
+        "Please confirm that you would like to transfer $1,520 from your savings account to the checking account of Raghav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer has been successfully completed.",
+        "The transfer has been successfully completed."
+    ],
+    [
+        "OFFER(balance=\"$16,675.79\";account_type=\"savings\")",
+        "You have a current balance of $16,675.79 in your savings account.",
+        "You have a current balance of $16,675.79 in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$2,837.26\";account_type=\"savings\")",
+        "The balance is $2,837.26 in your savings account.",
+        "The balance is $2,837.26 in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$660\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Please confirm this : From my savings account, transfer to Amir to their checking account for $660",
+        "Please confirm this : From my savings account, transfer to Amir to their checking account for $660"
+    ],
+    [
+        "CONFIRM(amount=\"$1,740\";recipient_account_name=\"Raghav\")",
+        "Please confirm this : Making a transfer to Raghav for an amount of $1,740",
+        "Please confirm this : Making a transfer to Raghav for an amount of $1,740"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been made.",
+        "Your transfer has been made."
+    ],
+    [
+        "OFFER(balance=\"$1,097.26\";account_type=\"savings\")",
+        "The balance is $1,097.26 in your savings account",
+        "The balance is $1,097.26 in your savings account"
+    ],
+    [
+        "OFFER(balance=\"$22,494.33\";account_type=\"checking\")",
+        "The checking account has $22,494.33 for the balance.",
+        "The checking account has $22,494.33 for the balance."
+    ],
+    [
+        "OFFER(balance=\"$1,230.19\";account_type=\"savings\")",
+        "Your savings account has a balance of $1,230.19.",
+        "Your savings account has a balance of $1,230.19."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$600\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Please verify the following information: transfer $600 from my savings account to Xiaoxue's checking account.",
+        "Please verify the following information: transfer $600 from my savings account to Xiaoxue's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was made.",
+        "Your transfer was made."
+    ],
+    [
+        "OFFER(balance=\"$630.19\";account_type=\"savings\")",
+        "Your savings account balance is $630.19.",
+        "Your savings account balance is $630.19."
+    ],
+    [
+        "OFFER(balance=\"$21,219.36\";account_type=\"checking\")",
+        "You have $21,219.36 in your checking account",
+        "You have $21,219.36 in your checking account"
+    ],
+    [
+        "OFFER(balance=\"$24,384.31\";account_type=\"savings\")",
+        "You have $24,384.31 in your savings",
+        "You have $24,384.31 in your savings"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$830\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Please confirm: Transfer $830 from my savings to the checking account of Amir",
+        "Please confirm: Transfer $830 from my savings to the checking account of Amir"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have made the transfer",
+        "I have made the transfer"
+    ],
+    [
+        "OFFER(balance=\"$23,554.31\";account_type=\"savings\")",
+        "You have $23,554.31 in your savings",
+        "You have $23,554.31 in your savings"
+    ],
+    [
+        "OFFER(balance=\"$8,316.79\";account_type=\"checking\")",
+        "You have $8,316.79 in your checking.",
+        "You have $8,316.79 in your checking."
+    ],
+    [
+        "OFFER(balance=\"$20,335.27\";account_type=\"savings\")",
+        "You have $20,335.27 in savings.",
+        "You have $20,335.27 in savings."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,200\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "Please confirm: transfer $1,200 from savings to Raghav in their checking.",
+        "Please confirm: transfer $1,200 from savings to Raghav in their checking."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer is successful.",
+        "Transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$19,135.27\";account_type=\"savings\")",
+        "You have $19,135.27 in savings.",
+        "You have $19,135.27 in savings."
+    ],
+    [
+        "OFFER(balance=\"$16,494.74\";account_type=\"savings\")",
+        "Sure, Your current savings account balance is $16,494.74",
+        "Sure, Your current savings account balance is $16,494.74"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$260\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "OK, just to confirm: You want to transfer $260 from your savings to Raghav checking. Does this sound correct?",
+        "OK, just to confirm: You want to transfer $260 from your savings to Raghav checking. Does this sound correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great. Your transfer is complete.",
+        "Great. Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$16,234.74\";account_type=\"savings\")",
+        "OK, Your current savings account balance is $16,234.74.",
+        "OK, Your current savings account balance is $16,234.74."
+    ],
+    [
+        "OFFER(balance=\"$7,883.47\";account_type=\"savings\")",
+        "Savings is $7,883.47.",
+        "Savings is $7,883.47."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,330\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "OK. $1,330 from your savings account to Pranav checking account. Please confirm.",
+        "OK. $1,330 from your savings account to Pranav checking account. Please confirm."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Done. Transfer has been made.",
+        "Done. Transfer has been made."
+    ],
+    [
+        "OFFER(balance=\"$6,553.47\";account_type=\"savings\")",
+        "Savings balance is $6,553.47.",
+        "Savings balance is $6,553.47."
+    ],
+    [
+        "OFFER(balance=\"$1,597.61\";account_type=\"checking\")",
+        "Your checking account balance is $1,597.61.",
+        "Your checking account balance is $1,597.61."
+    ],
+    [
+        "OFFER(balance=\"$22,559.34\";account_type=\"savings\")",
+        "Savings account balance is $22,559.34.",
+        "Savings account balance is $22,559.34."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$730\";recipient_account_name=\"Amir\";recipient_account_type=\"savings\")",
+        "To confirm: You wish to transfer $730 from your savings count to savings account owned by Amir?",
+        "To confirm: You wish to transfer $730 from your savings count to savings account owned by Amir?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer is complete. Is there anything else I can do?",
+        "The transfer is complete. Is there anything else I can do?"
+    ],
+    [
+        "OFFER(balance=\"$21,829.34\";account_type=\"savings\")",
+        "Current savings balance is $21,829.34.",
+        "Current savings balance is $21,829.34."
+    ],
+    [
+        "OFFER(balance=\"$3,857.79\";account_type=\"savings\")",
+        "The current balance in your savings account is $3,857.79.",
+        "The current balance in your savings account is $3,857.79."
+    ],
+    [
+        "OFFER(balance=\"$13,174.25\";account_type=\"checking\")",
+        "Your checking account balance is at $13,174.25.",
+        "Your checking account balance is at $13,174.25."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$800\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "To review: You'd like to transfer $800 from your checking account to the checking account belonging to Srinivas.",
+        "To review: You'd like to transfer $800 from your checking account to the checking account belonging to Srinivas."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been completed.",
+        "Your transfer has been completed."
+    ],
+    [
+        "OFFER(balance=\"$12,374.25\";account_type=\"checking\")",
+        "Your checking account balance is now at $12,374.25",
+        "Your checking account balance is now at $12,374.25"
+    ],
+    [
+        "OFFER(balance=\"$1,274.55\";account_type=\"checking\")",
+        "The current balance in your checking account is $1,274.55.",
+        "The current balance in your checking account is $1,274.55."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$400\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Ok. You wish to transfer $400 from your checking account to Sanuj checking account. Is this correct?",
+        "Ok. You wish to transfer $400 from your checking account to Sanuj checking account. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer is complete.",
+        "The transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$874.55\";account_type=\"checking\")",
+        "The current balance in your checking account is $874.55.",
+        "The current balance in your checking account is $874.55."
+    ],
+    [
+        "OFFER(balance=\"$24,991.25\";account_type=\"savings\")",
+        "The savings account balance is $24,991.25.",
+        "The savings account balance is $24,991.25."
+    ],
+    [
+        "OFFER(balance=\"$22,020.31\";account_type=\"checking\")",
+        "Your checking account balance is $22,020.31.",
+        "Your checking account balance is $22,020.31."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$650\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Please confirm that you are transferring $650 to Srinivas checking account fom your checking account.",
+        "Please confirm that you are transferring $650 to Srinivas checking account fom your checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "You have made the transfer.",
+        "You have made the transfer."
+    ],
+    [
+        "OFFER(balance=\"$21,370.31\";account_type=\"checking\")",
+        "You have $21,370.31 in your checking.",
+        "You have $21,370.31 in your checking."
+    ],
+    [
+        "OFFER(balance=\"$22,326.22\";account_type=\"checking\")",
+        "The current balance of your checking account is $22,326.22.",
+        "The current balance of your checking account is $22,326.22."
+    ],
+    [
+        "OFFER(balance=\"$20,186.84\";account_type=\"savings\")",
+        "The current balance of your savings account is $20,186.84.",
+        "The current balance of your savings account is $20,186.84."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$720\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Please confirm that you would like to transfer $720 from your savings account to Maria's checking account.",
+        "Please confirm that you would like to transfer $720 from your savings account to Maria's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is complete.",
+        "Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$19,466.84\";account_type=\"savings\")",
+        "Your current balance of your savings account is $19,466.84",
+        "Your current balance of your savings account is $19,466.84"
+    ],
+    [
+        "OFFER(balance=\"$13,507.61\";account_type=\"checking\")",
+        "Your balance is $13,507.61 from your checking account.",
+        "Your balance is $13,507.61 from your checking account."
+    ],
+    [
+        "OFFER(balance=\"$12,087.67\";account_type=\"savings\")",
+        "Your balance is $12,087.67 from your savings account.",
+        "Your balance is $12,087.67 from your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,730\";recipient_account_name=\"Amir\";recipient_account_type=\"savings\")",
+        "please give confirmation details: Transfer $1,730 from my savings account to Amir",
+        "please give confirmation details: Transfer $1,730 from my savings account to Amir"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been done",
+        "Your transfer has been done"
+    ],
+    [
+        "OFFER(balance=\"$10,357.67\";account_type=\"savings\")",
+        "The total amount is $10,357.67 and this is from your savings account.",
+        "The total amount is $10,357.67 and this is from your savings account."
+    ],
+    [
+        "OFFER(balance=\"$960.16\";account_type=\"checking\")",
+        "Your checking account balance $960.16.",
+        "Your checking account balance $960.16."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$50\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Please confirm that you are sending $50 to the Srinivas checking account from your checking account.",
+        "Please confirm that you are sending $50 to the Srinivas checking account from your checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer has been completed.",
+        "The transfer has been completed."
+    ],
+    [
+        "OFFER(balance=\"$910.16\";account_type=\"checking\")",
+        "You have $910.16 available in your checking account.",
+        "You have $910.16 available in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$17,402.20\";account_type=\"checking\")",
+        "There is $17,402.20 in your checking account.",
+        "There is $17,402.20 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,770\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Okay, the transfer will be a total of $1,770 from your checking account to the checking account for Pranav. Is this correct?",
+        "Okay, the transfer will be a total of $1,770 from your checking account to the checking account for Pranav. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is complete.",
+        "Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$15,632.20\";account_type=\"checking\")",
+        "There is $15,632.20 in your checking account.",
+        "There is $15,632.20 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$4,482.60\";account_type=\"checking\")",
+        "the blance is $4,482.60 in your checking",
+        "the blance is $4,482.60 in your checking"
+    ],
+    [
+        "OFFER(balance=\"$9,032.11\";account_type=\"savings\")",
+        "the balance is $9,032.11 savings account",
+        "the balance is $9,032.11 savings account"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,630\";recipient_account_name=\"xiaoxue\";recipient_account_type=\"checking\")",
+        "from my savings $1,630 to xiaoxue their checking",
+        "from my savings $1,630 to xiaoxue their checking"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "your transfer is successful",
+        "your transfer is successful"
+    ],
+    [
+        "OFFER(balance=\"$7,402.11\";account_type=\"savings\")",
+        "the balance is $7,402.11 in your savings",
+        "the balance is $7,402.11 in your savings"
+    ],
+    [
+        "OFFER(balance=\"$20,611.26\";account_type=\"savings\")",
+        "Your savings account balance is $20,611.26.",
+        "Your savings account balance is $20,611.26."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,780\";recipient_account_name=\"Amir\";recipient_account_type=\"savings\")",
+        "Details to confirm: Transfer $1,780 to Amir's savings account from my savings account.",
+        "Details to confirm: Transfer $1,780 to Amir's savings account from my savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your funds have been successfully transferred.",
+        "Your funds have been successfully transferred."
+    ],
+    [
+        "OFFER(balance=\"$18,831.26\";account_type=\"savings\")",
+        "Your savings account has a balance of $18,831.26.",
+        "Your savings account has a balance of $18,831.26."
+    ],
+    [
+        "OFFER(balance=\"$13,053.62\";account_type=\"checking\")",
+        "The balance of your checking account is $13,053.62.",
+        "The balance of your checking account is $13,053.62."
+    ],
+    [
+        "OFFER(balance=\"$14,153.36\";account_type=\"savings\")",
+        "The balance is $14,153.36 in your savings account.",
+        "The balance is $14,153.36 in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$580\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "Please confirm these details: Transfer $580 from savings to Raghav in their checking account.",
+        "Please confirm these details: Transfer $580 from savings to Raghav in their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "It was successful.",
+        "It was successful."
+    ],
+    [
+        "OFFER(balance=\"$13,573.36\";account_type=\"savings\")",
+        "The balance is $13,573.36 in your savings account.",
+        "The balance is $13,573.36 in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$14,478.13\";account_type=\"checking\")",
+        "There is $14,478.13 in your checking account.",
+        "There is $14,478.13 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,010\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "You want to send Maria $1,010 from your checking account to her checking account. Is that correct?",
+        "You want to send Maria $1,010 from your checking account to her checking account. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer went through.",
+        "The transfer went through."
+    ],
+    [
+        "OFFER(balance=\"$13,468.13\";account_type=\"checking\")",
+        "The amount in your checking account is now $13,468.13.",
+        "The amount in your checking account is now $13,468.13."
+    ],
+    [
+        "OFFER(balance=\"$24,432.56\";account_type=\"checking\")",
+        "The balance is $24,432.56 in your checking account.",
+        "The balance is $24,432.56 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,550\";recipient_account_name=\"Maria\";recipient_account_type=\"savings\")",
+        "Please confirm the following: transfer $1,550 from my checking account to Maria for her savings account.",
+        "Please confirm the following: transfer $1,550 from my checking account to Maria for her savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been successful.",
+        "Your transfer has been successful."
+    ],
+    [
+        "OFFER(balance=\"$22,882.56\";account_type=\"checking\")",
+        "The balance is $22,882.56 in your checking account.",
+        "The balance is $22,882.56 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$6,819.68\";account_type=\"checking\")",
+        "Your checking account balance is $6,819.68.",
+        "Your checking account balance is $6,819.68."
+    ],
+    [
+        "OFFER(balance=\"$22,782.90\";account_type=\"savings\")",
+        "Your savings account balance is $22,782.90.",
+        "Your savings account balance is $22,782.90."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$300\";recipient_account_name=\"Srinivas\";recipient_account_type=\"savings\")",
+        "Please confirm: transfer $300 from my savings account to Srinivas' savings account.",
+        "Please confirm: transfer $300 from my savings account to Srinivas' savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer was successful.",
+        "Transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$22,482.90\";account_type=\"savings\")",
+        "Savings account balance is $22,482.90.",
+        "Savings account balance is $22,482.90."
+    ],
+    [
+        "OFFER(balance=\"$4,040.38\";account_type=\"checking\")",
+        "The balance of your checking account is $4,040.38.",
+        "The balance of your checking account is $4,040.38."
+    ],
+    [
+        "OFFER(balance=\"$6,376.55\";account_type=\"savings\")",
+        "The balance of your savings account is $6,376.55.",
+        "The balance of your savings account is $6,376.55."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,600\";recipient_account_name=\"Pranav\";recipient_account_type=\"savings\")",
+        "Please confirm the following: you would like to transfer $1,600 to Pranav's savings account from your savings account?",
+        "Please confirm the following: you would like to transfer $1,600 to Pranav's savings account from your savings account?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been a success.",
+        "Your transfer has been a success."
+    ],
+    [
+        "OFFER(balance=\"$4,776.55\";account_type=\"savings\")",
+        "The balance of your savings account is $4,776.55.",
+        "The balance of your savings account is $4,776.55."
+    ],
+    [
+        "OFFER(balance=\"$9,478.68\";account_type=\"savings\")",
+        "You have $9,478.68 in your savings.",
+        "You have $9,478.68 in your savings."
+    ],
+    [
+        "OFFER(balance=\"$20,638.21\";account_type=\"checking\")",
+        "your checking account has $20,638.21 in it.",
+        "your checking account has $20,638.21 in it."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,650\";recipient_account_name=\"Maria\";recipient_account_type=\"savings\")",
+        "Please confirm: Transfer $1,650 to Maria's savings from my checking account.",
+        "Please confirm: Transfer $1,650 to Maria's savings from my checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "transfer is succesfull.",
+        "transfer is succesfull."
+    ],
+    [
+        "OFFER(balance=\"$18,988.21\";account_type=\"checking\")",
+        "your checking balance is now $18,988.21",
+        "your checking balance is now $18,988.21"
+    ],
+    [
+        "OFFER(balance=\"$6,626.49\";account_type=\"savings\")",
+        "Your savings account balance is $6,626.49.",
+        "Your savings account balance is $6,626.49."
+    ],
+    [
+        "OFFER(balance=\"$4,194.63\";account_type=\"checking\")",
+        "Your checking account balance is $4,194.63.",
+        "Your checking account balance is $4,194.63."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$690\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Please confirm transfer $690 from your checking account to Maria.",
+        "Please confirm transfer $690 from your checking account to Maria."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$3,504.63\";account_type=\"checking\")",
+        "Your checking account balance is $3,504.63.",
+        "Your checking account balance is $3,504.63."
+    ],
+    [
+        "OFFER(balance=\"$20,612.85\";account_type=\"savings\")",
+        "You have $20,612.85 in your savings account.",
+        "You have $20,612.85 in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$7,531.24\";account_type=\"checking\")",
+        "You have $7,531.24 in your checking account.",
+        "You have $7,531.24 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$850\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Please confirm that you want to send $850 to Amir in their checking account from your checking account.",
+        "Please confirm that you want to send $850 to Amir in their checking account from your checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was a success.",
+        "Your transfer was a success."
+    ],
+    [
+        "OFFER(balance=\"$6,681.24\";account_type=\"checking\")",
+        "The balance is $6,681.24 in your checking accouont.",
+        "The balance is $6,681.24 in your checking accouont."
+    ],
+    [
+        "OFFER(balance=\"$21,541.36\";account_type=\"checking\")",
+        "Your checking account balance is $21,541.36.",
+        "Your checking account balance is $21,541.36."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,720\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Great, I have the following details that need to be confirmed: From your checking account, you are transferring $1,720 to their Pranav checking account.",
+        "Great, I have the following details that need to be confirmed: From your checking account, you are transferring $1,720 to their Pranav checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, your transfer is complete.",
+        "Okay, your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$19,821.36\";account_type=\"checking\")",
+        "Your remaining balance in your checking account is now $19,821.36.",
+        "Your remaining balance in your checking account is now $19,821.36."
+    ],
+    [
+        "OFFER(balance=\"$774.38\";account_type=\"checking\")",
+        "Your checking account balance is $774.38.",
+        "Your checking account balance is $774.38."
+    ],
+    [
+        "OFFER(balance=\"$16,608.24\";account_type=\"savings\")",
+        "The balance in your savings account is $16,608.24.",
+        "The balance in your savings account is $16,608.24."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,490\";recipient_account_name=\"XiaoXue\";recipient_account_type=\"checking\")",
+        "Please confirm: Transfer $1,490 from your savings account to XiaoXue's checking account.",
+        "Please confirm: Transfer $1,490 from your savings account to XiaoXue's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transferred successfully.",
+        "Transferred successfully."
+    ],
+    [
+        "OFFER(balance=\"$15,118.24\";account_type=\"savings\")",
+        "The balance in your savings account is $15,118.24.",
+        "The balance in your savings account is $15,118.24."
+    ],
+    [
+        "OFFER(balance=\"$5,703.30\";account_type=\"checking\")",
+        "Your checking account balance $5,703.30",
+        "Your checking account balance $5,703.30"
+    ],
+    [
+        "OFFER(balance=\"$16,188.77\";account_type=\"savings\")",
+        "Your savings account balance is $16,188.77",
+        "Your savings account balance is $16,188.77"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$850\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Please confirm you want to transfer $850 from your savings account to Pranav's checking account.",
+        "Please confirm you want to transfer $850 from your savings account to Pranav's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer successful.",
+        "Transfer successful."
+    ],
+    [
+        "OFFER(balance=\"$15,338.77\";account_type=\"savings\")",
+        "Your savings account balance is $15,338.77",
+        "Your savings account balance is $15,338.77"
+    ],
+    [
+        "OFFER(balance=\"$15,026.51\";account_type=\"savings\")",
+        "The current balance in your savings account is $15,026.51.",
+        "The current balance in your savings account is $15,026.51."
+    ],
+    [
+        "OFFER(balance=\"$17,898.68\";account_type=\"checking\")",
+        "The current balance in your checking account is $17,898.68.",
+        "The current balance in your checking account is $17,898.68."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$230\";recipient_account_name=\"Pranav\";recipient_account_type=\"savings\")",
+        "Got it. A total of $230 is being transferred out of your checking account and is being sent to the savings account of Pranav. Shall I confirm that?",
+        "Got it. A total of $230 is being transferred out of your checking account and is being sent to the savings account of Pranav. Shall I confirm that?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Confirmed. Your transfer has been completed.",
+        "Confirmed. Your transfer has been completed."
+    ],
+    [
+        "OFFER(balance=\"$17,668.68\";account_type=\"checking\")",
+        "The current balance in your checking account is $17,668.68.",
+        "The current balance in your checking account is $17,668.68."
+    ],
+    [
+        "OFFER(balance=\"$24,453.75\";account_type=\"savings\")",
+        "The balance of your savings account is currently $24,453.75.",
+        "The balance of your savings account is currently $24,453.75."
+    ],
+    [
+        "OFFER(balance=\"$6,321.86\";account_type=\"checking\")",
+        "The balance of your checking account is currently $6,321.86.",
+        "The balance of your checking account is currently $6,321.86."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,730\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"savings\")",
+        "Please confirm the following: Transfer $1,730 from Checking account to Xiaoxue's savings.",
+        "Please confirm the following: Transfer $1,730 from Checking account to Xiaoxue's savings."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$4,591.86\";account_type=\"checking\")",
+        "Certainly. The balance of your checking account is currently $4,591.86.",
+        "Certainly. The balance of your checking account is currently $4,591.86."
+    ],
+    [
+        "OFFER(balance=\"$7,065.60\";account_type=\"savings\")",
+        "The balance of your savings account is $7,065.60.",
+        "The balance of your savings account is $7,065.60."
+    ],
+    [
+        "OFFER(balance=\"$10,652.36\";account_type=\"checking\")",
+        "The balance of your checking account is $10,652.36.",
+        "The balance of your checking account is $10,652.36."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$610\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Please confirm: Sending $610 from checking account to Maria's checking account.",
+        "Please confirm: Sending $610 from checking account to Maria's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$10,042.36\";account_type=\"checking\")",
+        "The balance in your checking account is $10,042.36.",
+        "The balance in your checking account is $10,042.36."
+    ],
+    [
+        "OFFER(balance=\"$16,625.14\";account_type=\"savings\")",
+        "The balance in your savings account is $16,625.14.",
+        "The balance in your savings account is $16,625.14."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$400\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Please confirm that you want to transfer $400 from your savings account to the checking account of Pranav.",
+        "Please confirm that you want to transfer $400 from your savings account to the checking account of Pranav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer completed successfully.",
+        "Transfer completed successfully."
+    ],
+    [
+        "OFFER(balance=\"$16,225.14\";account_type=\"savings\")",
+        "You now have $16,225.14 in your savings account.",
+        "You now have $16,225.14 in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$6,812.68\";account_type=\"checking\")",
+        "Sure! You're checking account has $6,812.68 available.",
+        "Sure! You're checking account has $6,812.68 available."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$30\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Okay. Just to confirm, you would like to transfer $30 from your checking account to Xiaoxue's checking account. Is that right?",
+        "Okay. Just to confirm, you would like to transfer $30 from your checking account to Xiaoxue's checking account. Is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great! Your transfer is complete.",
+        "Great! Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$6,782.68\";account_type=\"checking\")",
+        "Sure! You have $6,782.68 in your checking account.",
+        "Sure! You have $6,782.68 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$24,359.89\";account_type=\"checking\")",
+        "You have a current checking account balance of $24,359.89.",
+        "You have a current checking account balance of $24,359.89."
+    ],
+    [
+        "OFFER(balance=\"$21,446.16\";account_type=\"savings\")",
+        "You have a savings account balance of $21,446.16.",
+        "You have a savings account balance of $21,446.16."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,710\";recipient_account_name=\"Abhinav\";recipient_account_type=\"checking\")",
+        "Please confirm that you would like transfer $1,710 from your savings account to the checking account of Abhinav.",
+        "Please confirm that you would like transfer $1,710 from your savings account to the checking account of Abhinav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer is complete.",
+        "The transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$19,736.16\";account_type=\"savings\")",
+        "You now have a current balance of $19,736.16 available in your savings account.",
+        "You now have a current balance of $19,736.16 available in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$8,388.60\";account_type=\"checking\")",
+        "Your checking account has a balance of $8,388.60.",
+        "Your checking account has a balance of $8,388.60."
+    ],
+    [
+        "OFFER(balance=\"$19,747.65\";account_type=\"savings\")",
+        "Your savings account has a balance of $19,747.65.",
+        "Your savings account has a balance of $19,747.65."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,630\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Please verify the following information: Transfer $1,630 from my savings account to Amir and put it in his checking account.",
+        "Please verify the following information: Transfer $1,630 from my savings account to Amir and put it in his checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was a success.",
+        "Your transfer was a success."
+    ],
+    [
+        "OFFER(balance=\"$18,117.65\";account_type=\"savings\")",
+        "Your savings account has a balance of $18,117.65.",
+        "Your savings account has a balance of $18,117.65."
+    ],
+    [
+        "OFFER(balance=\"$22,398.89\";account_type=\"savings\")",
+        "Your savings account balance is $22,398.89.",
+        "Your savings account balance is $22,398.89."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$980\";recipient_account_name=\"Maria\";recipient_account_type=\"savings\")",
+        "Okay, So you would like for me to transfer $980 from your savings account and to put it in the savings account of Maria, correct?",
+        "Okay, So you would like for me to transfer $980 from your savings account and to put it in the savings account of Maria, correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, your transfer has been completed.",
+        "Okay, your transfer has been completed."
+    ],
+    [
+        "OFFER(balance=\"$21,418.89\";account_type=\"savings\")",
+        "Yes, your savings account balance is now $21,418.89.",
+        "Yes, your savings account balance is now $21,418.89."
+    ],
+    [
+        "OFFER(balance=\"$1,305.32\";account_type=\"checking\")",
+        "The balance of your checking account is $1,305.32.",
+        "The balance of your checking account is $1,305.32."
+    ],
+    [
+        "OFFER(balance=\"$9,886.52\";account_type=\"savings\")",
+        "You have 1 savings account with a balance of $9,886.52.",
+        "You have 1 savings account with a balance of $9,886.52."
+    ],
+    [
+        "OFFER(balance=\"$9,886.52\";account_type=\"savings\")@INFORM_COUNT(count=\"1\")",
+        "You have 1 savings account with a balance of $9,886.52.",
+        "You have 1 savings account with a balance of $9,886.52."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,700\";recipient_account_name=\"Raghav\";recipient_account_type=\"savings\")",
+        "Please confirm the following: transfer $1,700 to Raghav from my savings to their savings account.",
+        "Please confirm the following: transfer $1,700 to Raghav from my savings to their savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is successful.",
+        "Your transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$8,186.52\";account_type=\"savings\")",
+        "The balance of your savings account is $8,186.52.",
+        "The balance of your savings account is $8,186.52."
+    ],
+    [
+        "OFFER(balance=\"$23,923.86\";account_type=\"checking\")",
+        "The balance in your 1 checking account is $23,923.86.",
+        "The balance in your 1 checking account is $23,923.86."
+    ],
+    [
+        "OFFER(balance=\"$23,923.86\";account_type=\"checking\")@INFORM_COUNT(count=\"1\")",
+        "The balance in your 1 checking account is $23,923.86.",
+        "The balance in your 1 checking account is $23,923.86."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,260\";recipient_account_name=\"Abhinav\";recipient_account_type=\"savings\")",
+        "Great. So to recap: you would like to send $1,260 from your checking account to Abhinav's savings account, correct?",
+        "Great. So to recap: you would like to send $1,260 from your checking account to Abhinav's savings account, correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your tansfer is confirmed.",
+        "Your tansfer is confirmed."
+    ],
+    [
+        "OFFER(balance=\"$22,663.86\";account_type=\"checking\")",
+        "The balance in your checking account is now $22,663.86.",
+        "The balance in your checking account is now $22,663.86."
+    ],
+    [
+        "OFFER(balance=\"$7,687.29\";account_type=\"savings\")",
+        "Savings account balance is $7,687.29",
+        "Savings account balance is $7,687.29"
+    ],
+    [
+        "OFFER(balance=\"$3,462.27\";account_type=\"checking\")",
+        "Checking account balance is $3,462.27",
+        "Checking account balance is $3,462.27"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$100\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Ok, let me confirm the details. Transfer $100 to Amir's checking account from your checking account. Is that correct?",
+        "Ok, let me confirm the details. Transfer $100 to Amir's checking account from your checking account. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, your transfer was successful.",
+        "Ok, your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$3,362.27\";account_type=\"checking\")",
+        "Your checking account balance is now $3,362.27.",
+        "Your checking account balance is now $3,362.27."
+    ],
+    [
+        "OFFER(balance=\"$4,847.27\";account_type=\"savings\")",
+        "easy enough, you have $4,847.27 savings.",
+        "easy enough, you have $4,847.27 savings."
+    ],
+    [
+        "OFFER(balance=\"$16,104.40\";account_type=\"checking\")",
+        "Checking balance is $16,104.40.",
+        "Checking balance is $16,104.40."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,580\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Please confirm, transfer $1,580 to Xiaoxue from your checking account.",
+        "Please confirm, transfer $1,580 to Xiaoxue from your checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Perfect, the money has been sent.",
+        "Perfect, the money has been sent."
+    ],
+    [
+        "OFFER(balance=\"$14,524.40\";account_type=\"checking\")",
+        "Sure, it is $14,524.40 in checking.",
+        "Sure, it is $14,524.40 in checking."
+    ],
+    [
+        "OFFER(balance=\"$5,059.69\";account_type=\"savings\")",
+        "The balance is $5,059.69 in your savings account.",
+        "The balance is $5,059.69 in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$6,008.27\";account_type=\"checking\")",
+        "The balance is $6,008.27 in your checking account.",
+        "The balance is $6,008.27 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$220\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Transferring $220 for my checking account to Amir and depositing in into their checking account. Is that correct?",
+        "Transferring $220 for my checking account to Amir and depositing in into their checking account. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was completed.",
+        "Your transfer was completed."
+    ],
+    [
+        "OFFER(balance=\"$5,788.27\";account_type=\"checking\")",
+        "$5,788.27 in your checking account.",
+        "$5,788.27 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$9,734.66\";account_type=\"checking\")",
+        "The balance for your checking account is $9,734.66.",
+        "The balance for your checking account is $9,734.66."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,580\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Please confirm these details: you want to transfer $1,580 from your checking account to Srinivas' checking account.",
+        "Please confirm these details: you want to transfer $1,580 from your checking account to Srinivas' checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The money has been successfully transferred.",
+        "The money has been successfully transferred."
+    ],
+    [
+        "OFFER(balance=\"$8,154.66\";account_type=\"checking\")",
+        "The balance for your checking account is $8,154.66.",
+        "The balance for your checking account is $8,154.66."
+    ],
+    [
+        "OFFER(balance=\"$22,116.23\";account_type=\"checking\")",
+        "You have $22,116.23 in your checking account",
+        "You have $22,116.23 in your checking account"
+    ],
+    [
+        "OFFER(balance=\"$20,001.74\";account_type=\"savings\")",
+        "You have $20,001.74 in your savings account",
+        "You have $20,001.74 in your savings account"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,090\";recipient_account_name=\"Raghav\";recipient_account_type=\"savings\")",
+        "Just to confirm, you want to transfer $1,090 from your savings to Raghav?",
+        "Just to confirm, you want to transfer $1,090 from your savings to Raghav?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, that transfer was a success",
+        "Ok, that transfer was a success"
+    ],
+    [
+        "OFFER(balance=\"$18,911.74\";account_type=\"savings\")",
+        "Your current balance in your savings account is $18,911.74",
+        "Your current balance in your savings account is $18,911.74"
+    ],
+    [
+        "OFFER(balance=\"$14,496.79\";account_type=\"savings\")",
+        "Your savings account has a balance of $14,496.79",
+        "Your savings account has a balance of $14,496.79"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$760\";recipient_account_name=\"Sanuj\";recipient_account_type=\"savings\")",
+        "Confiriming a $760 transfer from your savings account to Sanuj's savings account.",
+        "Confiriming a $760 transfer from your savings account to Sanuj's savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is done",
+        "Your transfer is done"
+    ],
+    [
+        "OFFER(balance=\"$13,736.79\";account_type=\"savings\")",
+        "Your savings now has a balance of $13,736.79",
+        "Your savings now has a balance of $13,736.79"
+    ],
+    [
+        "OFFER(balance=\"$20,262.81\";account_type=\"savings\")",
+        "You have $20,262.81 in your savings account.",
+        "You have $20,262.81 in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$950\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Just to confirm, you want to send Amir $950 from your savings account, into their checking account?",
+        "Just to confirm, you want to send Amir $950 from your savings account, into their checking account?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "It was successful.",
+        "It was successful."
+    ],
+    [
+        "OFFER(balance=\"$19,312.81\";account_type=\"savings\")",
+        "Your savings account has $19,312.81.",
+        "Your savings account has $19,312.81."
+    ],
+    [
+        "OFFER(balance=\"$20,179.68\";account_type=\"checking\")",
+        "Your checking account balance is $20,179.68.",
+        "Your checking account balance is $20,179.68."
+    ],
+    [
+        "OFFER(balance=\"$18,787.86\";account_type=\"savings\")",
+        "Your savings account balance is $18,787.86.",
+        "Your savings account balance is $18,787.86."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$450\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Okay. Let's review your pending transfer: you'd like to transfer $450 from your savings account to Sanuj's checking account. Is that correct?",
+        "Okay. Let's review your pending transfer: you'd like to transfer $450 from your savings account to Sanuj's checking account. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great. Your transfer is complete.",
+        "Great. Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$18,337.86\";account_type=\"savings\")",
+        "Your savings account balance is $18,337.86.",
+        "Your savings account balance is $18,337.86."
+    ],
+    [
+        "OFFER(balance=\"$4,503.52\";account_type=\"checking\")",
+        "Your current balance is $4,503.52 in your checking account.",
+        "Your current balance is $4,503.52 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$8,474.18\";account_type=\"savings\")",
+        "Your current balance is $8,474.18 in your savings account.",
+        "Your current balance is $8,474.18 in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$860\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Do you seriously want to transfer $860 from your savings account to Xiaoxue in their checking account?",
+        "Do you seriously want to transfer $860 from your savings account to Xiaoxue in their checking account?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is now complete.",
+        "Your transfer is now complete."
+    ],
+    [
+        "OFFER(balance=\"$7,614.18\";account_type=\"savings\")",
+        "The balance is $7,614.18 in your savings account.",
+        "The balance is $7,614.18 in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$12,012.66\";account_type=\"savings\")",
+        "Sure. The current balance in your savings account is $12,012.66.",
+        "Sure. The current balance in your savings account is $12,012.66."
+    ],
+    [
+        "OFFER(balance=\"$9,376.73\";account_type=\"checking\")",
+        "The balance in your checking account is $9,376.73.",
+        "The balance in your checking account is $9,376.73."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$640\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "All right. I'm transferring $640 from your checking account to Srinivas' checking account. Shall I confirm?",
+        "All right. I'm transferring $640 from your checking account to Srinivas' checking account. Shall I confirm?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been completed.",
+        "Your transfer has been completed."
+    ],
+    [
+        "OFFER(balance=\"$8,736.73\";account_type=\"checking\")",
+        "The current balance in your checking account is $8,736.73.",
+        "The current balance in your checking account is $8,736.73."
+    ],
+    [
+        "OFFER(balance=\"$21,254.82\";account_type=\"savings\")",
+        "Your savings account balance is $21,254.82.",
+        "Your savings account balance is $21,254.82."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$520\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Please confirm the transfer details: a transfer of $520 from your savings account to Xiaoxue in their checking account.",
+        "Please confirm the transfer details: a transfer of $520 from your savings account to Xiaoxue in their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$20,734.82\";account_type=\"savings\")",
+        "Your savings account balance is $20,734.82.",
+        "Your savings account balance is $20,734.82."
+    ],
+    [
+        "OFFER(balance=\"$5,459.64\";account_type=\"checking\")",
+        "The balance of your checking account is $5,459.64.",
+        "The balance of your checking account is $5,459.64."
+    ],
+    [
+        "OFFER(balance=\"$19,746.79\";account_type=\"savings\")",
+        "The balance of your savings account is $19,746.79.",
+        "The balance of your savings account is $19,746.79."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,050\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "Please confirm the following: Transfer $1,050 from my savings account to Raghav's checking account.",
+        "Please confirm the following: Transfer $1,050 from my savings account to Raghav's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successfully completed.",
+        "Your transfer was successfully completed."
+    ],
+    [
+        "OFFER(balance=\"$18,696.79\";account_type=\"savings\")",
+        "The balance of your savings account is $18,696.79.",
+        "The balance of your savings account is $18,696.79."
+    ],
+    [
+        "OFFER(balance=\"$7,169.13\";account_type=\"savings\")",
+        "The balance in your savings account is $7,169.13.",
+        "The balance in your savings account is $7,169.13."
+    ],
+    [
+        "OFFER(balance=\"$24,521.74\";account_type=\"checking\")",
+        "The balance in your checking account is $24,521.74",
+        "The balance in your checking account is $24,521.74"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$170\";recipient_account_name=\"Abhinav\";recipient_account_type=\"checking\")",
+        "Please confirm the following: you'd like to transfer $170 from your checking account to Abhinav's checking account.",
+        "Please confirm the following: you'd like to transfer $170 from your checking account to Abhinav's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer was successful.",
+        "The transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$24,351.74\";account_type=\"checking\")",
+        "The balance of your checking account is $24,351.74.",
+        "The balance of your checking account is $24,351.74."
+    ],
+    [
+        "OFFER(balance=\"$7,885.53\";account_type=\"savings\")",
+        "$7,885.53 is available in your savings account.",
+        "$7,885.53 is available in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$640\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Sending $640 from savings to Xiaoxue and deposit into their checking account. Is that correct?",
+        "Sending $640 from savings to Xiaoxue and deposit into their checking account. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is successful.",
+        "Your transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$7,245.53\";account_type=\"savings\")",
+        "$7,245.53 is your new savings balance.",
+        "$7,245.53 is your new savings balance."
+    ],
+    [
+        "OFFER(balance=\"$16,173.38\";account_type=\"checking\")",
+        "The balance in your checking account is $16,173.38",
+        "The balance in your checking account is $16,173.38"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,770\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "You want me to transfer $1,770 to Xiaoxue checking account from your checking account.",
+        "You want me to transfer $1,770 to Xiaoxue checking account from your checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Done. The transfer was successful.",
+        "Done. The transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$14,403.38\";account_type=\"checking\")",
+        "The balance in your checking account is $14,403.38",
+        "The balance in your checking account is $14,403.38"
+    ],
+    [
+        "OFFER(balance=\"$20,237.61\";account_type=\"savings\")",
+        "Your savings account balance is $20,237.61.",
+        "Your savings account balance is $20,237.61."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$650\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Can you confirm the details: Transfer $650 from your savings to Amir in their checking account.",
+        "Can you confirm the details: Transfer $650 from your savings to Amir in their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer was successful.",
+        "The transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$19,587.61\";account_type=\"savings\")",
+        "You savings balance is $19,587.61.",
+        "You savings balance is $19,587.61."
+    ],
+    [
+        "OFFER(balance=\"$3,717.38\";account_type=\"savings\")",
+        "Your savings account balance is $3,717.38.",
+        "Your savings account balance is $3,717.38."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$480\";recipient_account_name=\"Amir\";recipient_account_type=\"savings\")",
+        "Can you confirm that you want to transfer $480 from your savings account to Amir's savings account?",
+        "Can you confirm that you want to transfer $480 from your savings account to Amir's savings account?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was done.",
+        "Your transfer was done."
+    ],
+    [
+        "OFFER(balance=\"$3,237.38\";account_type=\"savings\")",
+        "Your balance in your savings account is $3,237.38",
+        "Your balance in your savings account is $3,237.38"
+    ],
+    [
+        "OFFER(balance=\"$21,181.35\";account_type=\"checking\")",
+        "The balance in your checking account is $21,181.35",
+        "The balance in your checking account is $21,181.35"
+    ],
+    [
+        "OFFER(balance=\"$10,411.72\";account_type=\"savings\")",
+        "The balance in your savings account is $10,411.72",
+        "The balance in your savings account is $10,411.72"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$310\";recipient_account_name=\"Raghav\";recipient_account_type=\"savings\")",
+        "Please confirm the details: Initiating a fund transfer to Raghav to their savings account for $310 from your saving account.",
+        "Please confirm the details: Initiating a fund transfer to Raghav to their savings account for $310 from your saving account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transaction is successful",
+        "Your transaction is successful"
+    ],
+    [
+        "OFFER(balance=\"$10,101.72\";account_type=\"savings\")",
+        "The balance in your savings account is $10,101.72",
+        "The balance in your savings account is $10,101.72"
+    ],
+    [
+        "OFFER(balance=\"$15,243.73\";account_type=\"savings\")",
+        "You have a balance of $15,243.73 in your savings account.",
+        "You have a balance of $15,243.73 in your savings account."
+    ],
+    [
+        "OFFER(balance=\"$18,521.45\";account_type=\"checking\")",
+        "Your checking account has a balance of $18,521.45",
+        "Your checking account has a balance of $18,521.45"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,320\";recipient_account_name=\"Abhinav\";recipient_account_type=\"checking\")",
+        "Please confirm: You are sending $1,320 from your checking account to the checking account of Abhinav.",
+        "Please confirm: You are sending $1,320 from your checking account to the checking account of Abhinav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transaction confirmed, your transfer is successful.",
+        "Transaction confirmed, your transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$17,201.45\";account_type=\"checking\")",
+        "Your checking account has a balance of $17,201.45.",
+        "Your checking account has a balance of $17,201.45."
+    ],
+    [
+        "OFFER(balance=\"$21,248.89\";account_type=\"checking\")",
+        "The balance remaining in your checking account is $21,248.89.",
+        "The balance remaining in your checking account is $21,248.89."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$600\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Please confirm if the following details are correct: I would like to transfer $600 from my checking account to Maria checking account.",
+        "Please confirm if the following details are correct: I would like to transfer $600 from my checking account to Maria checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$20,648.89\";account_type=\"checking\")",
+        "The balance in your checking account consists of $20,648.89",
+        "The balance in your checking account consists of $20,648.89"
+    ],
+    [
+        "OFFER(balance=\"$18,282.90\";account_type=\"savings\")",
+        "The balance of your savings account is $18,282.90",
+        "The balance of your savings account is $18,282.90"
+    ],
+    [
+        "OFFER(balance=\"$11,142.38\";account_type=\"checking\")",
+        "The balance of your checking account is $11,142.38",
+        "The balance of your checking account is $11,142.38"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$630\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Please confirm the transfer of $630 to Sanuj from your checking account to his checking account",
+        "Please confirm the transfer of $630 to Sanuj from your checking account to his checking account"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "done",
+        "done"
+    ],
+    [
+        "OFFER(balance=\"$10,512.38\";account_type=\"checking\")",
+        "The balance of your checking account is $10,512.38",
+        "The balance of your checking account is $10,512.38"
+    ],
+    [
+        "OFFER(balance=\"$21,630.40\";account_type=\"checking\")",
+        "You have $21,630.40 in your checking account.",
+        "You have $21,630.40 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$430\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "You want to send $430 to Srinivas from your checking account to their checking account. Is that right?",
+        "You want to send $430 to Srinivas from your checking account to their checking account. Is that right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer is complete.",
+        "The transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$21,200.40\";account_type=\"checking\")",
+        "Your new balance in your checking account is $21,200.40.",
+        "Your new balance in your checking account is $21,200.40."
+    ],
+    [
+        "OFFER(balance=\"$20,985.66\";account_type=\"savings\")",
+        "That account has $20,985.66 in savings",
+        "That account has $20,985.66 in savings"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,600\";recipient_account_name=\"xiaoxue\";recipient_account_type=\"savings\")",
+        "Please confirm the following. Transfer $1,600 from your savings to the savings account of xiaoxue",
+        "Please confirm the following. Transfer $1,600 from your savings to the savings account of xiaoxue"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer is complete",
+        "The transfer is complete"
+    ],
+    [
+        "OFFER(balance=\"$19,385.66\";account_type=\"savings\")",
+        "Your balance is $19,385.66 in savings",
+        "Your balance is $19,385.66 in savings"
+    ],
+    [
+        "OFFER(balance=\"$5,250.80\";account_type=\"savings\")",
+        "Your savings account balance is $5,250.80.",
+        "Your savings account balance is $5,250.80."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$320\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Please confirm the following details: Transfer $320 from your savings account to Sanuj's checking account.",
+        "Please confirm the following details: Transfer $320 from your savings account to Sanuj's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$4,930.80\";account_type=\"savings\")",
+        "Your savings account balance is now $4,930.80.",
+        "Your savings account balance is now $4,930.80."
+    ],
+    [
+        "OFFER(balance=\"$1,701.42\";account_type=\"checking\")",
+        "You have a balance of $1,701.42 in your checking account.",
+        "You have a balance of $1,701.42 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$570\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Please confirm you would like to do the following: Transfer $570 from my checking account to Srinivas into their checking account.",
+        "Please confirm you would like to do the following: Transfer $570 from my checking account to Srinivas into their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is successful.",
+        "Your transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$1,131.42\";account_type=\"checking\")",
+        "The new balance is $1,131.42 in your checking account.",
+        "The new balance is $1,131.42 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$20,394.30\";account_type=\"savings\")",
+        "No problem. Your savings account balance is $20,394.30.",
+        "No problem. Your savings account balance is $20,394.30."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$310\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Got it. Can you confirm the following details, please? You are transferring $310 from your savings account to Xiaoxue to their checking account.",
+        "Got it. Can you confirm the following details, please? You are transferring $310 from your savings account to Xiaoxue to their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Perfect! Your transfer is successful.",
+        "Perfect! Your transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$20,084.30\";account_type=\"savings\")",
+        "No problem! Your savings account balance is now $20,084.30.",
+        "No problem! Your savings account balance is now $20,084.30."
+    ],
+    [
+        "OFFER(balance=\"$13,680.23\";account_type=\"checking\")",
+        "You have $13,680.23 in your checking account.",
+        "You have $13,680.23 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,620\";recipient_account_name=\"Srinivas\";recipient_account_type=\"savings\")",
+        "Please confirm: You'd like to transfer $1,620 from your checking account to Srinivas' savings account.",
+        "Please confirm: You'd like to transfer $1,620 from your checking account to Srinivas' savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great. The transfer has been initiated.",
+        "Great. The transfer has been initiated."
+    ],
+    [
+        "OFFER(balance=\"$12,060.23\";account_type=\"checking\")",
+        "Your checking account balance is $12,060.23.",
+        "Your checking account balance is $12,060.23."
+    ],
+    [
+        "OFFER(balance=\"$19,121.51\";account_type=\"checking\")",
+        "Your balance in your checking account is $19,121.51",
+        "Your balance in your checking account is $19,121.51"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$220\";recipient_account_name=\"Amir\";recipient_account_type=\"savings\")",
+        "Confirming a $220 transfer from your checking account to the savings account of Amir",
+        "Confirming a $220 transfer from your checking account to the savings account of Amir"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "It is successful",
+        "It is successful"
+    ],
+    [
+        "OFFER(balance=\"$18,901.51\";account_type=\"checking\")",
+        "There is now $18,901.51 in your checking account",
+        "There is now $18,901.51 in your checking account"
+    ],
+    [
+        "OFFER(balance=\"$21,593.13\";account_type=\"savings\")",
+        "Your savings account balance is $21,593.13.",
+        "Your savings account balance is $21,593.13."
+    ],
+    [
+        "OFFER(balance=\"$7,548.43\";account_type=\"checking\")",
+        "Your checking account balance is $7,548.43.",
+        "Your checking account balance is $7,548.43."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,020\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Please confirm the following details: Transfer $1,020 from my checking account to Srinivas's checking account.",
+        "Please confirm the following details: Transfer $1,020 from my checking account to Srinivas's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$6,528.43\";account_type=\"checking\")",
+        "Your checking account balance is $6,528.43.",
+        "Your checking account balance is $6,528.43."
+    ],
+    [
+        "OFFER(balance=\"$2,115.71\";account_type=\"checking\")",
+        "You have exactly $2,115.71 in your checking.",
+        "You have exactly $2,115.71 in your checking."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,450\";recipient_account_name=\"Srinivas\";recipient_account_type=\"savings\")",
+        "That's good, just to confirm: Send Srinivas $1,450 from your checking account to their savings?",
+        "That's good, just to confirm: Send Srinivas $1,450 from your checking account to their savings?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, it is done.",
+        "Great, it is done."
+    ],
+    [
+        "OFFER(balance=\"$665.71\";account_type=\"checking\")",
+        "You Now have $665.71 in your checking now.",
+        "You Now have $665.71 in your checking now."
+    ],
+    [
+        "OFFER(balance=\"$23,434.76\";account_type=\"checking\")",
+        "I can help with that. I am showing a balance of $23,434.76 in your checking account.",
+        "I can help with that. I am showing a balance of $23,434.76 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$24,417.73\";account_type=\"savings\")",
+        "Yes, your savings account balance is $24,417.73.",
+        "Yes, your savings account balance is $24,417.73."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,210\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Can you please confirm I have this correct? You would like to transfer $1,210 from your savings account to the checking account of Pranav?",
+        "Can you please confirm I have this correct? You would like to transfer $1,210 from your savings account to the checking account of Pranav?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, your transferred has been successfully sent. Is there anything else I can do for you?",
+        "Okay, your transferred has been successfully sent. Is there anything else I can do for you?"
+    ],
+    [
+        "OFFER(balance=\"$23,207.73\";account_type=\"savings\")",
+        "Sure, your new savings account balance is $23,207.73.",
+        "Sure, your new savings account balance is $23,207.73."
+    ],
+    [
+        "OFFER(balance=\"$15,831.19\";account_type=\"checking\")",
+        "In your checking account you have $15,831.19",
+        "In your checking account you have $15,831.19"
+    ],
+    [
+        "OFFER(balance=\"$15,148.43\";account_type=\"savings\")",
+        "In your savings account you have $15,148.43",
+        "In your savings account you have $15,148.43"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$390\";recipient_account_name=\"Abhinav\";recipient_account_type=\"checking\")",
+        "From savings account transfer $390 to Abhinav in checking account is that correct?",
+        "From savings account transfer $390 to Abhinav in checking account is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer is successful",
+        "The transfer is successful"
+    ],
+    [
+        "OFFER(balance=\"$14,758.43\";account_type=\"savings\")",
+        "In savings account you have $14,758.43",
+        "In savings account you have $14,758.43"
+    ],
+    [
+        "OFFER(balance=\"$6,044.73\";account_type=\"checking\")",
+        "Your current checking account balance is $6,044.73",
+        "Your current checking account balance is $6,044.73"
+    ],
+    [
+        "OFFER(balance=\"$16,204.55\";account_type=\"savings\")",
+        "You current savings account balance is $16,204.55",
+        "You current savings account balance is $16,204.55"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,610\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "So to confirm, you would like to transfer $1,610 from your savings account to Amir's checking account?",
+        "So to confirm, you would like to transfer $1,610 from your savings account to Amir's checking account?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer has been successfully completed.",
+        "The transfer has been successfully completed."
+    ],
+    [
+        "OFFER(balance=\"$14,594.55\";account_type=\"savings\")",
+        "Your savings account balance is currently $14,594.55",
+        "Your savings account balance is currently $14,594.55"
+    ],
+    [
+        "OFFER(balance=\"$8,956.31\";account_type=\"savings\")",
+        "Your savings account balance is $8,956.31.",
+        "Your savings account balance is $8,956.31."
+    ],
+    [
+        "OFFER(balance=\"$12,578.30\";account_type=\"checking\")",
+        "The checking account balance is $12,578.30.",
+        "The checking account balance is $12,578.30."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$420\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Please confirm; $420 from my checking account to Xiaoxue to be deposited in their checking account.",
+        "Please confirm; $420 from my checking account to Xiaoxue to be deposited in their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer went through.",
+        "The transfer went through."
+    ],
+    [
+        "OFFER(balance=\"$12,158.30\";account_type=\"checking\")",
+        "Your checking account balance is $12,158.30.",
+        "Your checking account balance is $12,158.30."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$590\";recipient_account_name=\"AMir\";recipient_account_type=\"savings\")",
+        "To confirm: You wish to transfer $590 from your savings account to the savings account of AMir. Is this correct?",
+        "To confirm: You wish to transfer $590 from your savings account to the savings account of AMir. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been completed.",
+        "Your transfer has been completed."
+    ],
+    [
+        "OFFER(balance=\"$8,850.41\";account_type=\"checking\")",
+        "Current checking account balance is $8,850.41.",
+        "Current checking account balance is $8,850.41."
+    ],
+    [
+        "OFFER(balance=\"$4,529.35\";account_type=\"savings\")",
+        "Your savings account has a balance of $4,529.35.",
+        "Your savings account has a balance of $4,529.35."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$270\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Please confirm: trasfer $270 from checking to Pranav's checking account.",
+        "Please confirm: trasfer $270 from checking to Pranav's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is complete.",
+        "Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$13,129.46\";account_type=\"checking\")",
+        "Your balance in checking is $13,129.46.",
+        "Your balance in checking is $13,129.46."
+    ],
+    [
+        "OFFER(balance=\"$1,792.36\";account_type=\"savings\")",
+        "Your savings balance is $1,792.36.",
+        "Your savings balance is $1,792.36."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$170\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "Ok. Please check the details, from my savings account to checking account of Mr Raghav. The amount is $170.",
+        "Ok. Please check the details, from my savings account to checking account of Mr Raghav. The amount is $170."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Congratulations, its done.",
+        "Congratulations, its done."
+    ],
+    [
+        "OFFER(balance=\"$11,329.66\";account_type=\"checking\")",
+        "The balance is $11,329.66 in checking account.",
+        "The balance is $11,329.66 in checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$440\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Okay. Just to confirm: You would like to transfer $440 from your checking account to Maria's checking account.",
+        "Okay. Just to confirm: You would like to transfer $440 from your checking account to Maria's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great! Your transfer is successful.",
+        "Great! Your transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$22,026.46\";account_type=\"checking\")",
+        "Your checking account balance is $22,026.46",
+        "Your checking account balance is $22,026.46"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$440\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Please confirm you want to transfer $440 from your savings account to Maria's checking account.",
+        "Please confirm you want to transfer $440 from your savings account to Maria's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer is complete.",
+        "The transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$11,895.31\";account_type=\"checking\")",
+        "Your checking account's balance is $11,895.31.",
+        "Your checking account's balance is $11,895.31."
+    ],
+    [
+        "OFFER(balance=\"$11,025.88\";account_type=\"savings\")",
+        "Your savings account's balance is $11,025.88.",
+        "Your savings account's balance is $11,025.88."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$440\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Please confirm: You wish to transfer $440 dollars from your checking account to a checking account in Srinivas?",
+        "Please confirm: You wish to transfer $440 dollars from your checking account to a checking account in Srinivas?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transaction completed.",
+        "Transaction completed."
+    ],
+    [
+        "OFFER(balance=\"$2,351.61\";account_type=\"checking\")",
+        "Certainly. The current balance in your checking account is $2,351.61.",
+        "Certainly. The current balance in your checking account is $2,351.61."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$920\";recipient_account_name=\"Abhinav\";recipient_account_type=\"checking\")",
+        "Okay. Let me make sure. A transfer of $920 should be sent out of your savings account to Abhinav into their checking account.",
+        "Okay. Let me make sure. A transfer of $920 should be sent out of your savings account to Abhinav into their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has gone through.",
+        "Your transfer has gone through."
+    ],
+    [
+        "OFFER(balance=\"$11,159.44\";account_type=\"checking\")",
+        "Your balance is $11,159.44 in your checking account.",
+        "Your balance is $11,159.44 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,490\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "So I'll send $1,490 from your checking account to the checking account of Amir, okay?",
+        "So I'll send $1,490 from your checking account to the checking account of Amir, okay?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer was successful.",
+        "The transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$6,773.45\";account_type=\"checking\")",
+        "Your checking account has $6,773.45.",
+        "Your checking account has $6,773.45."
+    ],
+    [
+        "OFFER(balance=\"$15,172.67\";account_type=\"savings\")",
+        "Your savings account has $15,172.67.",
+        "Your savings account has $15,172.67."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,160\";recipient_account_name=\"Raghav\";recipient_account_type=\"savings\")",
+        "Please confirm: transfer $1,160 from my savings account to Raghav's savings account.",
+        "Please confirm: transfer $1,160 from my savings account to Raghav's savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is complete",
+        "Your transfer is complete"
+    ],
+    [
+        "OFFER(balance=\"$10,588.74\";account_type=\"checking\")",
+        "Your checking account balance is $10,588.74",
+        "Your checking account balance is $10,588.74"
+    ],
+    [
+        "OFFER(balance=\"$16,090.39\";account_type=\"savings\")",
+        "Your savings account balance is $16,090.39",
+        "Your savings account balance is $16,090.39"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,160\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "I will transfer $1,160 from your savings account to Raghav's checking account. Is that correct?",
+        "I will transfer $1,160 from your savings account to Raghav's checking account. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has successfully been completed.",
+        "Your transfer has successfully been completed."
+    ],
+    [
+        "OFFER(balance=\"$11,908.17\";account_type=\"checking\")",
+        "The balance of your checking account is $11,908.17.",
+        "The balance of your checking account is $11,908.17."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,310\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Confirm: Transfer $1,310 from savings account to Srinivas into their checking account.",
+        "Confirm: Transfer $1,310 from savings account to Srinivas into their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is successful.",
+        "Your transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$14,622.38\";account_type=\"checking\")",
+        "The balance of your checking is $14,622.38.",
+        "The balance of your checking is $14,622.38."
+    ],
+    [
+        "OFFER(balance=\"$22,232.58\";account_type=\"savings\")",
+        "The balance from your savings account is $22,232.58.",
+        "The balance from your savings account is $22,232.58."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$110\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Let me confirm to make sure I have the correct information. You would like to transfer $110 from your checking account to Sanuj's account?",
+        "Let me confirm to make sure I have the correct information. You would like to transfer $110 from your checking account to Sanuj's account?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was successful.",
+        "Your transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$10,558.50\";account_type=\"checking\")",
+        "Your checking account balance is $10,558.50.",
+        "Your checking account balance is $10,558.50."
+    ],
+    [
+        "OFFER(balance=\"$14,878.13\";account_type=\"savings\")",
+        "Savings account balance ia $14,878.13.",
+        "Savings account balance ia $14,878.13."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$110\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Please confirm: transfer $110 from your savings account to Sanuj's checking account.",
+        "Please confirm: transfer $110 from your savings account to Sanuj's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer was successful.",
+        "Transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$15,155.72\";account_type=\"checking\")",
+        "Your checking account balance is $15,155.72.",
+        "Your checking account balance is $15,155.72."
+    ],
+    [
+        "OFFER(balance=\"$698.90\";account_type=\"savings\")",
+        "Your savings account balance is $698.90.",
+        "Your savings account balance is $698.90."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,530\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Please confirm to transfer $1,530 from your Checking account to Checking account of Pranav.",
+        "Please confirm to transfer $1,530 from your Checking account to Checking account of Pranav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "successfully made the money transfer.",
+        "successfully made the money transfer."
+    ],
+    [
+        "OFFER(balance=\"$6,380.53\";account_type=\"checking\")",
+        "Your checking account balance is $6,380.53.",
+        "Your checking account balance is $6,380.53."
+    ],
+    [
+        "OFFER(balance=\"$16,117.87\";account_type=\"savings\")",
+        "balance of your savings account is $16,117.87.",
+        "balance of your savings account is $16,117.87."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$500\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Confirm the following please: You want to transfer $500 dollars from your savings account to Xiaoxue's checking account.",
+        "Confirm the following please: You want to transfer $500 dollars from your savings account to Xiaoxue's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "You have a successful transfer.",
+        "You have a successful transfer."
+    ],
+    [
+        "OFFER(balance=\"$13,427.19\";account_type=\"checking\")",
+        "You have a checking account balance of $13,427.19.",
+        "You have a checking account balance of $13,427.19."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$450\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Please confirm the transfer details: From your checking account, transfer $450 to Maria. Send it to her checking account.",
+        "Please confirm the transfer details: From your checking account, transfer $450 to Maria. Send it to her checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer was successful.",
+        "The transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$9,227.17\";account_type=\"checking\")",
+        "$9,227.17 is in your checking account.",
+        "$9,227.17 is in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$272.14\";account_type=\"savings\")",
+        "$272.14 in your savings account.",
+        "$272.14 in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$450\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Confirm it from the savings account and send $450 and give the money to Maria and send to their checking account.",
+        "Confirm it from the savings account and send $450 and give the money to Maria and send to their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer was succesful",
+        "The transfer was succesful"
+    ],
+    [
+        "OFFER(balance=\"$15,122.14\";account_type=\"checking\")",
+        "Balance is at $15,122.14 and it is from the checking account",
+        "Balance is at $15,122.14 and it is from the checking account"
+    ],
+    [
+        "OFFER(balance=\"$8,728.18\";account_type=\"savings\")",
+        "The current balance is $8,728.18 and it is from my savings account",
+        "The current balance is $8,728.18 and it is from my savings account"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$840\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Before submitting this payment I'll need you to verify the details please. You will be sending Amir $840 from your checking account to his checking account. Does that sound right?",
+        "Before submitting this payment I'll need you to verify the details please. You will be sending Amir $840 from your checking account to his checking account. Does that sound right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Great, I have successfully submitted that payment for you.",
+        "Great, I have successfully submitted that payment for you."
+    ],
+    [
+        "OFFER(balance=\"$1,003.30\";account_type=\"checking\")",
+        "After the transfer you just authorized your new checking account balance is $1,003.30.",
+        "After the transfer you just authorized your new checking account balance is $1,003.30."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$880\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Please give confirmation details: Transfer $880 from my checking account to Srinivas",
+        "Please give confirmation details: Transfer $880 from my checking account to Srinivas"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "your transfer is done",
+        "your transfer is done"
+    ],
+    [
+        "OFFER(balance=\"$10,740.79\";account_type=\"checking\")",
+        "From your checking account balance is showing $10,740.79",
+        "From your checking account balance is showing $10,740.79"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,240\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Just to make sure, you want to transfer $1,240 from your checking to Pranav's checking account.",
+        "Just to make sure, you want to transfer $1,240 from your checking to Pranav's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The money has been transferred.",
+        "The money has been transferred."
+    ],
+    [
+        "OFFER(balance=\"$14,048.81\";account_type=\"checking\")",
+        "There is $14,048.81 in your checking account.",
+        "There is $14,048.81 in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$9,830.41\";account_type=\"savings\")",
+        "There is $9,830.41 in your savings account.",
+        "There is $9,830.41 in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,060\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Okay I have a transfer from your checking to Xiaoxue for $1,060 to their checking.",
+        "Okay I have a transfer from your checking to Xiaoxue for $1,060 to their checking."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer was successful.",
+        "The transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$21,171.14\";account_type=\"checking\")",
+        "The balance in your checking is $21,171.14.",
+        "The balance in your checking is $21,171.14."
+    ],
+    [
+        "OFFER(balance=\"$20,845.87\";account_type=\"savings\")",
+        "Your Savings balance is $20,845.87.",
+        "Your Savings balance is $20,845.87."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,510\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Please confirm this : Transfer $1,510 from my checking account to Pranav. Send it to their checking account.",
+        "Please confirm this : Transfer $1,510 from my checking account to Pranav. Send it to their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transaction has been made.",
+        "Your transaction has been made."
+    ],
+    [
+        "OFFER(balance=\"$9,035.67\";account_type=\"checking\")",
+        "The balance is $9,035.67 in your checking account.",
+        "The balance is $9,035.67 in your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$120\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "Confirm; transfer $120 from my savings account to Raghav's checking account.",
+        "Confirm; transfer $120 from my savings account to Raghav's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was a success.",
+        "Your transfer was a success."
+    ],
+    [
+        "OFFER(balance=\"$14,928.33\";account_type=\"checking\")",
+        "Your checking account balance is $14,928.33,",
+        "Your checking account balance is $14,928.33,"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$400\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "Please confirm: transfer $400 from your checking account to Xiaoxue's checking account.",
+        "Please confirm: transfer $400 from your checking account to Xiaoxue's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer was successful.",
+        "Transfer was successful."
+    ],
+    [
+        "OFFER(balance=\"$2,033.83\";account_type=\"checking\")",
+        "Your checking account balance is $2,033.83.",
+        "Your checking account balance is $2,033.83."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$300\";recipient_account_name=\"Sanuj\";recipient_account_type=\"savings\")",
+        "please confirm the following details: transfer from my saving to Sanuj savings of $300",
+        "please confirm the following details: transfer from my saving to Sanuj savings of $300"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The money have been successfully transferred",
+        "The money have been successfully transferred"
+    ],
+    [
+        "OFFER(balance=\"$17,027.50\";account_type=\"checking\")",
+        "The balance of your checking is $17,027.50",
+        "The balance of your checking is $17,027.50"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,110\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Please confirm that you would like to transfer $1,110 from your checking account to Sanuj.",
+        "Please confirm that you would like to transfer $1,110 from your checking account to Sanuj."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is confirmed.",
+        "Your transfer is confirmed."
+    ],
+    [
+        "OFFER(balance=\"$197.45\";account_type=\"checking\")",
+        "Yes, your balance in your checking account is $197.45",
+        "Yes, your balance in your checking account is $197.45"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,110\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Please confirm: sending $1,110 to Srinivas from savings to their checking.",
+        "Please confirm: sending $1,110 to Srinivas from savings to their checking."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer successful.",
+        "Transfer successful."
+    ],
+    [
+        "OFFER(balance=\"$16,462.84\";account_type=\"checking\")",
+        "Your checking has $16,462.84.",
+        "Your checking has $16,462.84."
+    ],
+    [
+        "OFFER(balance=\"$11,420.24\";account_type=\"savings\")",
+        "You have $11,420.24 in savings.",
+        "You have $11,420.24 in savings."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,530\";recipient_account_name=\"Abhinav\";recipient_account_type=\"checking\")",
+        "$1,530 from my checking account to Abhinav checking account: that's correct?",
+        "$1,530 from my checking account to Abhinav checking account: that's correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer took place",
+        "The transfer took place"
+    ],
+    [
+        "OFFER(balance=\"$6,208.84\";account_type=\"checking\")",
+        "From your checking account the balance is $6,208.84",
+        "From your checking account the balance is $6,208.84"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,350\";recipient_account_name=\"Maria\";recipient_account_type=\"savings\")",
+        "Please confirm that you want to send $1,350 from your savings account to Maria's savings account.",
+        "Please confirm that you want to send $1,350 from your savings account to Maria's savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was a success.",
+        "Your transfer was a success."
+    ],
+    [
+        "OFFER(balance=\"$11,755.45\";account_type=\"checking\")",
+        "There is $11,755.45 in there in your checking account.",
+        "There is $11,755.45 in there in your checking account."
+    ],
+    [
+        "OFFER(balance=\"$21,422.65\";account_type=\"savings\")",
+        "You have $21,422.65 in your savings account.",
+        "You have $21,422.65 in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,760\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "Please give confirmation details : Transfer $1,760 from my checking account to checking account of Amir",
+        "Please give confirmation details : Transfer $1,760 from my checking account to checking account of Amir"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is done",
+        "Your transfer is done"
+    ],
+    [
+        "OFFER(balance=\"$148.54\";account_type=\"checking\")",
+        "Your checking account balance shows $148.54",
+        "Your checking account balance shows $148.54"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,760\";recipient_account_name=\"Amir\";recipient_account_type=\"checking\")",
+        "So you'd like to transfer $1,760 to Amir from your savings account to their checking account. Is this correct?",
+        "So you'd like to transfer $1,760 to Amir from your savings account to their checking account. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I successfully transferred the money.",
+        "I successfully transferred the money."
+    ],
+    [
+        "OFFER(balance=\"$17,111.71\";account_type=\"checking\")",
+        "The balance in your checking account is $17,111.71.",
+        "The balance in your checking account is $17,111.71."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$530\";recipient_account_name=\"Raghav\";recipient_account_type=\"checking\")",
+        "Please confirm the following: you want to transfer $530 from your savings account to Raghav, sent to their checking account.",
+        "Please confirm the following: you want to transfer $530 from your savings account to Raghav, sent to their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer was a success.",
+        "Your transfer was a success."
+    ],
+    [
+        "OFFER(balance=\"$20,946.10\";account_type=\"checking\")",
+        "Your checking account balance is $20,946.10.",
+        "Your checking account balance is $20,946.10."
+    ],
+    [
+        "OFFER(balance=\"$15,581.44\";account_type=\"savings\")",
+        "The balance of your savings account is $15,581.44.",
+        "The balance of your savings account is $15,581.44."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$730\";recipient_account_name=\"Abhinav\";recipient_account_type=\"checking\")",
+        "Ok, Please check and review the dtails: An amount of $730 send to Abhinav from savings account to their checking account",
+        "Ok, Please check and review the dtails: An amount of $730 send to Abhinav from savings account to their checking account"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Transfer is successful, any i help you to find something else?",
+        "Transfer is successful, any i help you to find something else?"
+    ],
+    [
+        "OFFER(balance=\"$4,677.17\";account_type=\"checking\")",
+        "Please check the details: Checking account balance is $4,677.17",
+        "Please check the details: Checking account balance is $4,677.17"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,400\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Okay, please confirm that you'd like to send $1,400 to Pranav's checking account from your savings account.",
+        "Okay, please confirm that you'd like to send $1,400 to Pranav's checking account from your savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is complete.",
+        "Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$16,335.70\";account_type=\"checking\")",
+        "Your checking account balance is $16,335.70.",
+        "Your checking account balance is $16,335.70."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,650\";recipient_account_name=\"Srinivas\";recipient_account_type=\"checking\")",
+        "Alright so $1,650 from your savings to Srinivas' checking right?",
+        "Alright so $1,650 from your savings to Srinivas' checking right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've made the transfer",
+        "I've made the transfer"
+    ],
+    [
+        "OFFER(balance=\"$1,500.71\";account_type=\"checking\")",
+        "Right now your checking has $1,500.71 balance",
+        "Right now your checking has $1,500.71 balance"
+    ],
+    [
+        "OFFER(balance=\"$11,339.61\";account_type=\"savings\")",
+        "Your savings is sitting at $11,339.61 right now",
+        "Your savings is sitting at $11,339.61 right now"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,590\";recipient_account_name=\"Xiaoxue\";recipient_account_type=\"checking\")",
+        "To confirm: You'd like my to send $1,590 from your savings account to Xiaoxue's checking account, correct?",
+        "To confirm: You'd like my to send $1,590 from your savings account to Xiaoxue's checking account, correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is complete.",
+        "Your transfer is complete."
+    ],
+    [
+        "OFFER(balance=\"$15,988.28\";account_type=\"checking\")",
+        "The current balance of your checking account is $15,988.28.",
+        "The current balance of your checking account is $15,988.28."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$1,500\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Pleas confirm: you want to send $1,500 dollars from your checking account to Pranav.",
+        "Pleas confirm: you want to send $1,500 dollars from your checking account to Pranav."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is successfull.",
+        "Your transfer is successfull."
+    ],
+    [
+        "OFFER(balance=\"$19,783.17\";account_type=\"checking\")",
+        "The balance from your checking account is $19,783.17.",
+        "The balance from your checking account is $19,783.17."
+    ],
+    [
+        "OFFER(balance=\"$4,481.72\";account_type=\"savings\")",
+        "The balance for the savings account is $4,481.72.",
+        "The balance for the savings account is $4,481.72."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,500\";recipient_account_name=\"Pranav\";recipient_account_type=\"checking\")",
+        "Please review the transaction. You'd like to transfer $1,500 from your savings account to the checking account of Pranav. Is this correct?",
+        "Please review the transaction. You'd like to transfer $1,500 from your savings account to the checking account of Pranav. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transaction is successful. Is there any other way I can help you today.",
+        "Your transaction is successful. Is there any other way I can help you today."
+    ],
+    [
+        "OFFER(balance=\"$2,794.73\";account_type=\"checking\")",
+        "Your checking account balance is $2,794.73",
+        "Your checking account balance is $2,794.73"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";amount=\"$720\";recipient_account_name=\"Sanuj\";recipient_account_type=\"checking\")",
+        "Sending $720 from your checking to Sanuj and depositing it into their checking account.",
+        "Sending $720 from your checking to Sanuj and depositing it into their checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your Transfer is successful.",
+        "Your Transfer is successful."
+    ],
+    [
+        "OFFER(balance=\"$18,076.57\";account_type=\"checking\")",
+        "$18,076.57 is your checking account balance.",
+        "$18,076.57 is your checking account balance."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$1,060\";recipient_account_name=\"Abhinav\";recipient_account_type=\"checking\")",
+        "Just confirm these details for me, you're transfering $1,060 from you savings account to Abhinav's checking account?",
+        "Just confirm these details for me, you're transfering $1,060 from you savings account to Abhinav's checking account?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I've successfully transferred the money.",
+        "I've successfully transferred the money."
+    ],
+    [
+        "OFFER(balance=\"$1,717.43\";account_type=\"checking\")",
+        "Your checking account balance is $1,717.43.",
+        "Your checking account balance is $1,717.43."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";amount=\"$300\";recipient_account_name=\"Maria\";recipient_account_type=\"checking\")",
+        "Okay, so I'll send $300 from your savings account to the checking account of Maria. Does that sound right?",
+        "Okay, so I'll send $300 from your savings account to the checking account of Maria. Does that sound right?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, great the transfer was a success.",
+        "Okay, great the transfer was a success."
+    ],
+    [
+        "OFFER(balance=\"$9,084.86\";account_type=\"checking\")",
+        "Of course, you have a balance of $9,084.86 in your checking account.",
+        "Of course, you have a balance of $9,084.86 in your checking account."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$3,814.44\")",
+        "You have $3,814.44 in checking.",
+        "You have $3,814.44 in checking."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$5,984.42\")",
+        "You have $5,984.42 in savings.",
+        "You have $5,984.42 in savings."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,210\";recipient_name=\"Diego\";recipient_account_type=\"savings\")",
+        "Please confirm: transfer $1,210 from savings to Diego in savings.",
+        "Please confirm: transfer $1,210 from savings to Diego in savings."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "Transfer successful. It will take 3 business days.",
+        "Transfer successful. It will take 3 business days."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "Transfer successful. It will take 3 business days.",
+        "Transfer successful. It will take 3 business days."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$19,663.10\")",
+        "Your checking account has a total balance of $19,663.10.",
+        "Your checking account has a total balance of $19,663.10."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$1,400\";recipient_name=\"Yumi\";recipient_account_type=\"checking\")",
+        "Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct?",
+        "Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer request has been made.",
+        "The transfer request has been made."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")",
+        "This transfer will take approximately 1 business day.",
+        "This transfer will take approximately 1 business day."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$17,883.87\")",
+        "The balance from your savings is $17,883.87",
+        "The balance from your savings is $17,883.87"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,470\";recipient_name=\"Justin\";recipient_account_type=\"checking\")",
+        "Please confirm the following details: Transfer from savings to checking of Justin of $1,470",
+        "Please confirm the following details: Transfer from savings to checking of Justin of $1,470"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer has been successfully initiated",
+        "Your transfer has been successfully initiated"
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$8,181.52\")",
+        "Your checking account balance is $8,181.52.",
+        "Your checking account balance is $8,181.52."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$5,849.47\")",
+        "The balance in your savings account is $5,849.47.",
+        "The balance in your savings account is $5,849.47."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$780\";recipient_name=\"Li\";recipient_account_type=\"checking\")",
+        "So you'd like to send $780 to Li to their checking account from their savings account. Is this correct?",
+        "So you'd like to send $780 to Li to their checking account from their savings account. Is this correct?"
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "Your transfer was successful. The transfer should take 3 business days.",
+        "Your transfer was successful. The transfer should take 3 business days."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "Your transfer was successful. The transfer should take 3 business days.",
+        "Your transfer was successful. The transfer should take 3 business days."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$6,089.81\")",
+        "The balance statement of your savings account is $6,089.81.",
+        "The balance statement of your savings account is $6,089.81."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$22,309.73\")",
+        "Your checking account balance is $22,309.73.",
+        "Your checking account balance is $22,309.73."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$1,330\";recipient_name=\"Mom\";recipient_account_type=\"checking\")",
+        "Please confirm the following: Transfer $1,330 from my checking account to the checking account of Mom.",
+        "Please confirm the following: Transfer $1,330 from my checking account to the checking account of Mom."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "Your transfer has been initiated and will take 3 business days to complete.",
+        "Your transfer has been initiated and will take 3 business days to complete."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "Your transfer has been initiated and will take 3 business days to complete.",
+        "Your transfer has been initiated and will take 3 business days to complete."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$5,348.16\")",
+        "You have $5,348.16 in your checking account.",
+        "You have $5,348.16 in your checking account."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$5,502.90\")",
+        "You have $5,502.90 in your savings account.",
+        "You have $5,502.90 in your savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,220\";recipient_name=\"Justin\";recipient_account_type=\"checking\")",
+        "Initiating transfer of $1,220 from your savings account to the checking account of Justin. Please confirm.",
+        "Initiating transfer of $1,220 from your savings account to the checking account of Justin. Please confirm."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "The transfer has been initiated successfully and it should take 3 business days to be completed.",
+        "The transfer has been initiated successfully and it should take 3 business days to be completed."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "The transfer has been initiated successfully and it should take 3 business days to be completed.",
+        "The transfer has been initiated successfully and it should take 3 business days to be completed."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$5,768.70\")",
+        "Sure, you currently have $5,768.70 in your savings account",
+        "Sure, you currently have $5,768.70 in your savings account"
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$2,452.32\")",
+        "You currently have $2,452.32 in your checking account",
+        "You currently have $2,452.32 in your checking account"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$170\";recipient_name=\"Diego\";recipient_account_type=\"checking\")",
+        "Just to confirm, you want to transfer $170 from your checking account to Diego? To his checking account.",
+        "Just to confirm, you want to transfer $170 from your checking account to Diego? To his checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Ok, it was successfully initiated",
+        "Ok, it was successfully initiated"
+    ],
+    [
+        "INFORM(transfer_time=\"1\")",
+        "It takes 1 business day",
+        "It takes 1 business day"
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$20,931.69\")",
+        "Yup! The balance in your checking account is $20,931.69.",
+        "Yup! The balance in your checking account is $20,931.69."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$15,627.82\")",
+        "Yup! The balance in your savings account is $15,627.82 which is a good outstanding amount to have.",
+        "Yup! The balance in your savings account is $15,627.82 which is a good outstanding amount to have."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$180\";recipient_name=\"Mom\";recipient_account_type=\"checking\")",
+        "Okay! Please can you affirm me that you wish to transfer $180 to your Mom 's checking account from your savings account. Am I right?",
+        "Okay! Please can you affirm me that you wish to transfer $180 to your Mom 's checking account from your savings account. Am I right?"
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "It would take 3 business day to get received and I wish to confirm that your transfer is initiated now.",
+        "It would take 3 business day to get received and I wish to confirm that your transfer is initiated now."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "It would take 3 business day to get received and I wish to confirm that your transfer is initiated now.",
+        "It would take 3 business day to get received and I wish to confirm that your transfer is initiated now."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$12,723.10\")",
+        "The current balance in your checking account is $12,723.10.",
+        "The current balance in your checking account is $12,723.10."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$9,183.90\")",
+        "The current balance in your savings account is $9,183.90.",
+        "The current balance in your savings account is $9,183.90."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,110\";recipient_name=\"Khadija\";recipient_account_type=\"checking\")",
+        "Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account.",
+        "Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "The transfer has been initiated. It will take 3 business days.",
+        "The transfer has been initiated. It will take 3 business days."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "The transfer has been initiated. It will take 3 business days.",
+        "The transfer has been initiated. It will take 3 business days."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$13,314.25\")",
+        "The balance in your checking account is $13,314.25.",
+        "The balance in your checking account is $13,314.25."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$9,434.73\")",
+        "Yup! The savings account have a balance of $9,434.73.",
+        "Yup! The savings account have a balance of $9,434.73."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$400\";recipient_name=\"Kagiso\";recipient_account_type=\"checking\")",
+        "Sure! I can do that for you....Please confirm me that you wish to transfer $400 from your savings account to Kagiso 's checking account. Is that correct?",
+        "Sure! I can do that for you....Please confirm me that you wish to transfer $400 from your savings account to Kagiso 's checking account. Is that correct?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer is scheduled for now.",
+        "The transfer is scheduled for now."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$14,570.75\")",
+        "The balance in your savings account is $14,570.75.",
+        "The balance in your savings account is $14,570.75."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$7,834.86\")",
+        "Your checking account balance is $7,834.86.",
+        "Your checking account balance is $7,834.86."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$1,130\";recipient_name=\"Mahmoud\";recipient_account_type=\"checking\")",
+        "Okay, confirm that you want to send $1,130 from you checking account to Mahmoud 's checking account.",
+        "Okay, confirm that you want to send $1,130 from you checking account to Mahmoud 's checking account."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")",
+        "The transfer has been initiated. It should take 1 business day.",
+        "The transfer has been initiated. It should take 1 business day."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")@NOTIFY_SUCCESS()",
+        "The transfer has been initiated. It should take 1 business day.",
+        "The transfer has been initiated. It should take 1 business day."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$5,370.53\")",
+        "The balance of your checking account is currently $5,370.53.",
+        "The balance of your checking account is currently $5,370.53."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$270\";recipient_name=\"Svetlana\";recipient_account_type=\"checking\")",
+        "You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct?",
+        "You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct?"
+    ],
+    [
+        "INFORM(transfer_time=\"1\")",
+        "Your transfer has successfully been initiated. It will take 1 business day for the transfer to complete.",
+        "Your transfer has successfully been initiated. It will take 1 business day for the transfer to complete."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")@NOTIFY_SUCCESS()",
+        "Your transfer has successfully been initiated. It will take 1 business day for the transfer to complete.",
+        "Your transfer has successfully been initiated. It will take 1 business day for the transfer to complete."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$23,260.13\")",
+        "You have $23,260.13 in you savings account.",
+        "You have $23,260.13 in you savings account."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,250\";recipient_name=\"Philip\";recipient_account_type=\"checking\")",
+        "Please confirm: You want me to make a transfer of $1,250 to Philip from savings to checking account.",
+        "Please confirm: You want me to make a transfer of $1,250 to Philip from savings to checking account."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "Your funds have been transferred successfully and will be complete within 3 business days.",
+        "Your funds have been transferred successfully and will be complete within 3 business days."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "Your funds have been transferred successfully and will be complete within 3 business days.",
+        "Your funds have been transferred successfully and will be complete within 3 business days."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$22,448.26\")",
+        "The balance in your checking account is $22,448.26.",
+        "The balance in your checking account is $22,448.26."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$1,330\";recipient_name=\"Diego\";recipient_account_type=\"checking\")",
+        "Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account.",
+        "Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")",
+        "The transfer will take 1 business day and it was successfully initiated.",
+        "The transfer will take 1 business day and it was successfully initiated."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")@NOTIFY_SUCCESS()",
+        "The transfer will take 1 business day and it was successfully initiated.",
+        "The transfer will take 1 business day and it was successfully initiated."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$9,520.80\")",
+        "Your savings has $9,520.80 in it",
+        "Your savings has $9,520.80 in it"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,290\";recipient_name=\"Jasbir\";recipient_account_type=\"checking\")",
+        "Confirming a $1,290 transfer to Jasbir from your savings to their checking account",
+        "Confirming a $1,290 transfer to Jasbir from your savings to their checking account"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is now complete",
+        "Your transfer is now complete"
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$18,051.39\")",
+        "Your checking account balances is $18,051.39.",
+        "Your checking account balances is $18,051.39."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$1,060\";recipient_name=\"Grace\";recipient_account_type=\"checking\")",
+        "Please confirm the following details: From your checking account, transfer $1,060 to Grace to their checking account.",
+        "Please confirm the following details: From your checking account, transfer $1,060 to Grace to their checking account."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")",
+        "Your transfer is initiated. It will take 1 business day.",
+        "Your transfer is initiated. It will take 1 business day."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")@NOTIFY_SUCCESS()",
+        "Your transfer is initiated. It will take 1 business day.",
+        "Your transfer is initiated. It will take 1 business day."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$24,934.51\")",
+        "$24,934.51 is the balance of your checking account.",
+        "$24,934.51 is the balance of your checking account."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$1,440\";recipient_name=\"Khadija\";recipient_account_type=\"savings\")",
+        "Okay, need your confirmation to transfer $1,440 to savings account of Khadija from your checking account.",
+        "Okay, need your confirmation to transfer $1,440 to savings account of Khadija from your checking account."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "It will take 3 business days for this transformation and it has been started already.",
+        "It will take 3 business days for this transformation and it has been started already."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "It will take 3 business days for this transformation and it has been started already.",
+        "It will take 3 business days for this transformation and it has been started already."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$22,496.82\")",
+        "Yup! Sure I can do that for you. You have $22,496.82 in your savings account, which is a good savings.",
+        "Yup! Sure I can do that for you. You have $22,496.82 in your savings account, which is a good savings."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,800\";recipient_name=\"Khadija\";recipient_account_type=\"checking\")",
+        "Okay! You wish to transfer $1,800 to Khadija 's checking account from your savings account. Please confirm me if that's right.",
+        "Okay! You wish to transfer $1,800 to Khadija 's checking account from your savings account. Please confirm me if that's right."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is initiated successfully and it will be in her account within 2-3 business days.",
+        "Your transfer is initiated successfully and it will be in her account within 2-3 business days."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$11,466.82\")",
+        "Your balance in your checking account is $11,466.82",
+        "Your balance in your checking account is $11,466.82"
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$16,754.52\")",
+        "Your savings account balance is $16,754.52.",
+        "Your savings account balance is $16,754.52."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,670\";recipient_name=\"Jasbir\";recipient_account_type=\"checking\")",
+        "Please verify the following information: transfer $1,670 from your savings account to the checking account of Jasbir.",
+        "Please verify the following information: transfer $1,670 from your savings account to the checking account of Jasbir."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "Your transfer began successfully, and will take 3 business days.",
+        "Your transfer began successfully, and will take 3 business days."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "Your transfer began successfully, and will take 3 business days.",
+        "Your transfer began successfully, and will take 3 business days."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$19,144.42\")",
+        "Okay, your savings account balance is $19,144.42.",
+        "Okay, your savings account balance is $19,144.42."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$10,755.44\")",
+        "Sure, your checking account balance is $10,755.44.",
+        "Sure, your checking account balance is $10,755.44."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$1,290\";recipient_name=\"Justin\";recipient_account_type=\"savings\")",
+        "Okay, let's confirm the details: From your checking account, transfer $1,290 to Justin, into his savings account.",
+        "Okay, let's confirm the details: From your checking account, transfer $1,290 to Justin, into his savings account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Okay, your transfer was successfully initiated.",
+        "Okay, your transfer was successfully initiated."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$8,238.58\")",
+        "Your checking account has a balance of $8,238.58.",
+        "Your checking account has a balance of $8,238.58."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$9,616.40\")",
+        "Your savings account has a balance of $9,616.40",
+        "Your savings account has a balance of $9,616.40"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,640\";recipient_name=\"Philip\";recipient_account_type=\"checking\")",
+        "Okay, no problem. Let me see if I got everything correctly: Transfer $1,640 from my savings account to the checking account of Philip.",
+        "Okay, no problem. Let me see if I got everything correctly: Transfer $1,640 from my savings account to the checking account of Philip."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "I have successfully initiated your transfer.",
+        "I have successfully initiated your transfer."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "It will take 3 business days for the transfer to be effected.",
+        "It will take 3 business days for the transfer to be effected."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$5,612.58\")",
+        "Your savings account has a balance of $5,612.58.",
+        "Your savings account has a balance of $5,612.58."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$20,894.39\")",
+        "Your checking account has a balance of $20,894.39",
+        "Your checking account has a balance of $20,894.39"
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$1,430\";recipient_name=\"Mahmoud\";recipient_account_type=\"checking\")",
+        "Just to confirm: you want me to send $1,430 from your checking account to the checking account of Mahmoud.",
+        "Just to confirm: you want me to send $1,430 from your checking account to the checking account of Mahmoud."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")",
+        "Your transfer was initiated. It will take 1 business day.",
+        "Your transfer was initiated. It will take 1 business day."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")@NOTIFY_SUCCESS()",
+        "Your transfer was initiated. It will take 1 business day.",
+        "Your transfer was initiated. It will take 1 business day."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$23,509.52\")",
+        "Your checking account has $23,509.52 at the moment.",
+        "Your checking account has $23,509.52 at the moment."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$18,456.66\")",
+        "Your savings has $18,456.66",
+        "Your savings has $18,456.66"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,540\";recipient_name=\"Svetlana\";recipient_account_type=\"checking\")",
+        "Confirming a $1,540 transfer from your savings account to the checking account of Svetlana",
+        "Confirming a $1,540 transfer from your savings account to the checking account of Svetlana"
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "Your transfer has gone through and will take 3 business days.",
+        "Your transfer has gone through and will take 3 business days."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "Your transfer has gone through and will take 3 business days.",
+        "Your transfer has gone through and will take 3 business days."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$7,686.21\")",
+        "The savings balance is $7,686.21",
+        "The savings balance is $7,686.21"
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$24,978.75\")",
+        "The checking balance is $24,978.75.",
+        "The checking balance is $24,978.75."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$720\";recipient_name=\"Mahmoud\";recipient_account_type=\"checking\")",
+        "Confirm a transfer of $720 to Mahmoud checking account.",
+        "Confirm a transfer of $720 to Mahmoud checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "Your transfer is confirmed.",
+        "Your transfer is confirmed."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$21,801.28\")",
+        "Sure, your savings account contains $21,801.28",
+        "Sure, your savings account contains $21,801.28"
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$14,298.13\")",
+        "You have a balance of $14,298.13 in your checking account today.",
+        "You have a balance of $14,298.13 in your checking account today."
+    ],
+    [
+        "CONFIRM(account_type=\"checking\";transfer_amount=\"$1,470\";recipient_name=\"Yumi\";recipient_account_type=\"checking\")",
+        "Alright, so you'd like to send $1,470 from your checking account to the checking account belonging to Yumi?",
+        "Alright, so you'd like to send $1,470 from your checking account to the checking account belonging to Yumi?"
+    ],
+    [
+        "INFORM(transfer_time=\"1\")",
+        "The transfer will take 1 day; I've put that through for you.",
+        "The transfer will take 1 day; I've put that through for you."
+    ],
+    [
+        "INFORM(transfer_time=\"1\")@NOTIFY_SUCCESS()",
+        "The transfer will take 1 day; I've put that through for you.",
+        "The transfer will take 1 day; I've put that through for you."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$17,349.49\")",
+        "Your checking account balance is $17,349.49.",
+        "Your checking account balance is $17,349.49."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$9,379.56\")",
+        "Your savings account balance is $9,379.56.",
+        "Your savings account balance is $9,379.56."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$100\";recipient_name=\"Jasbir\";recipient_account_type=\"checking\")",
+        "Please confirm you want to transfer $100 from your savings account to Jasbir 's checking account.",
+        "Please confirm you want to transfer $100 from your savings account to Jasbir 's checking account."
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer has been started.",
+        "The transfer has been started."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "It will be 3 business days.",
+        "It will be 3 business days."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$2,873.18\")",
+        "The balance in your savings account is $2,873.18.",
+        "The balance in your savings account is $2,873.18."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$380\";recipient_name=\"Li\";recipient_account_type=\"checking\")",
+        "You want me to send $380 from your savings account to the checking account of Li?",
+        "You want me to send $380 from your savings account to the checking account of Li?"
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "I have transferred the money. Li should receive it within 3 business days.",
+        "I have transferred the money. Li should receive it within 3 business days."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "I have transferred the money. Li should receive it within 3 business days.",
+        "I have transferred the money. Li should receive it within 3 business days."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$18,299.57\")",
+        "Your savings account holds $18,299.57",
+        "Your savings account holds $18,299.57"
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$780\";recipient_name=\"Diego\";recipient_account_type=\"checking\")",
+        "Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account.",
+        "Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")",
+        "The transfer has been initiated successfully and it will take 3 business days.",
+        "The transfer has been initiated successfully and it will take 3 business days."
+    ],
+    [
+        "INFORM(transfer_time=\"3\")@NOTIFY_SUCCESS()",
+        "The transfer has been initiated successfully and it will take 3 business days.",
+        "The transfer has been initiated successfully and it will take 3 business days."
+    ],
+    [
+        "OFFER(account_type=\"checking\";account_balance=\"$9,485.10\")",
+        "Your checking account has a balance of $9,485.10.",
+        "Your checking account has a balance of $9,485.10."
+    ],
+    [
+        "OFFER(account_type=\"savings\";account_balance=\"$3,368.48\")",
+        "Your savings account has a balance of $3,368.48.",
+        "Your savings account has a balance of $3,368.48."
+    ],
+    [
+        "CONFIRM(account_type=\"savings\";transfer_amount=\"$1,580\";recipient_name=\"Philip\";recipient_account_type=\"checking\")",
+        "So to confirm, I'll send $1,580 from your savings account to the checking account of Philip. Is that okay?",
+        "So to confirm, I'll send $1,580 from your savings account to the checking account of Philip. Is that okay?"
+    ],
+    [
+        "NOTIFY_SUCCESS()",
+        "The transfer has been successfully set up.",
+        "The transfer has been successfully set up."
+    ]
+]

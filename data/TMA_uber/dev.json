@@ -1,0 +1,1452 @@
+[
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "ok, so you want the driver to pick you up at 9pm, correct?",
+        "ok, so you want the driver to pick you up at 9pm, correct?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$10.15\")",
+        "okay. your fare estimate is $10.15.",
+        "okay. your fare estimate is $10.15."
+    ],
+    [
+        "uber_lyft(type_ride=\"lyft\";price_estimate=\"$7.16\")",
+        "ok, a lyft will be $7.16, is that ok?",
+        "ok, a lyft will be $7.16, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"lyft\";time_pickup_accept=\"9pm\";location_from_accept=\"Ado's restaurant and bar\";location_to_accept=\"marcus point cinema\")",
+        "ok, let me schedule that for you, one moment. i have scheduled a lyft to pick you up at 9pm at Ado's restaurant and bar going to marcus point cinema. your receipt will be texted to you. can i help with anything else?",
+        "ok, let me schedule that for you, one moment. i have scheduled a lyft to pick you up at 9pm at Ado's restaurant and bar going to marcus point cinema. your receipt will be texted to you. can i help with anything else?"
+    ],
+    [
+        "uber_lyft(type_ride=\"regular lyft\";duration_estimate_accept=\"7 minutes\")",
+        "sure, i have ordered you a regular lyft and your ride will take about 7 minutes.",
+        "sure, i have ordered you a regular lyft and your ride will take about 7 minutes."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"xl\";price_estimate_accept=\"$11.66\")",
+        "ok, an xl will cost $11.66, is that ok?",
+        "ok, an xl will cost $11.66, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberx\")",
+        "ok, would you like to take an uberx?",
+        "ok, would you like to take an uberx?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberx\";type_ride_reject=\"pools\")",
+        "a pool can only fit up to 2 passengers, would you like to take 2 pools or one uberx?",
+        "a pool can only fit up to 2 passengers, would you like to take 2 pools or one uberx?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$18.95\")",
+        "ok, it will be $18.95, is it ok to book your ride?",
+        "ok, it will be $18.95, is it ok to book your ride?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"25 minutes\")",
+        "it will take about 25 minutes.",
+        "it will take about 25 minutes."
+    ],
+    [
+        "uber_lyft(type_ride=\"uberpool\";num_people=\"2\")",
+        "okay, uberpool only applies when there are no more than 2 people.",
+        "okay, uberpool only applies when there are no more than 2 people."
+    ],
+    [
+        "uber_lyft(type_ride=\"lyft\")",
+        "uber or lyft?",
+        "uber or lyft?"
+    ],
+    [
+        "uber_lyft(location_from=\"uss hornet\")",
+        "ok, you said uss hornet?",
+        "ok, you said uss hornet?"
+    ],
+    [
+        "uber_lyft(num_people=\"4 passengers\")",
+        "got it, and you said for 4 passengers?",
+        "got it, and you said for 4 passengers?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberx\";price_estimate_accept=\"$10.87\")",
+        "ok, an uberx will cost $10.87, is that ok?",
+        "ok, an uberx will cost $10.87, is that ok?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"13 minutes.\")",
+        "i can check that for you. it will take about 13 minutes.",
+        "i can check that for you. it will take about 13 minutes."
+    ],
+    [
+        "uber_lyft(type_ride=\"Uber XL\";price_estimate_accept=\"$12.02\")",
+        "Okay so an Uber XL will cost $12.02 okay?",
+        "Okay so an Uber XL will cost $12.02 okay?"
+    ],
+    [
+        "uber_lyft(num_people=\"2 or less\")",
+        "Only wiht parties of 2 or less.",
+        "Only wiht parties of 2 or less."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uber XL\";time_pickup_accept=\"9pm\")",
+        "great one moment. I've scheduled your uber XL for 9pm. You'll recieve notifications via mobile",
+        "great one moment. I've scheduled your uber XL for 9pm. You'll recieve notifications via mobile"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"10 minutes\")",
+        "About 10 minutes.",
+        "About 10 minutes."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"UberXL\")",
+        "Alright, with that many riders, you'll need an UberXL, is that okay?",
+        "Alright, with that many riders, you'll need an UberXL, is that okay?"
+    ],
+    [
+        "uber_lyft(price_estimate=\"$14.55\")",
+        "The cost I found is $14.55.",
+        "The cost I found is $14.55."
+    ],
+    [
+        "uber_lyft(type_ride=\"2\")",
+        "unfortunately shared ride types only work if there are not more than 2 riders.",
+        "unfortunately shared ride types only work if there are not more than 2 riders."
+    ],
+    [
+        "uber_lyft(type_ride=\"Pool\";num_people=\"2\")",
+        "the same goes for those. Pool also cannot be used with more than 2 riders at a time.",
+        "the same goes for those. Pool also cannot be used with more than 2 riders at a time."
+    ],
+    [
+        "uber_lyft(time_pickup=\"5 mins\")",
+        "If you book your ride right now the driver is only 5 mins out.",
+        "If you book your ride right now the driver is only 5 mins out."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"20 mins\")",
+        "The trip would take about 20 mins.",
+        "The trip would take about 20 mins."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"5 minutes\")",
+        "most definitely! one moment. Alright, your driver has been notified. They should arrive within 5 minutes.",
+        "most definitely! one moment. Alright, your driver has been notified. They should arrive within 5 minutes."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$14.55\")",
+        "the cost is $14.55.",
+        "the cost is $14.55."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uber x\";price_estimate_accept=\"$8.14 and\";duration_estimate_accept=\"10 mins\")",
+        "ok, an uber x for your party will cost $8.14 and will take about 10 mins to get to your destination.",
+        "ok, an uber x for your party will cost $8.14 and will take about 10 mins to get to your destination."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"6 mins\")",
+        "did u want me to book the driver to pick u up asap? great, i've booked your ride. the driver will be there in 6 mins.",
+        "did u want me to book the driver to pick u up asap? great, i've booked your ride. the driver will be there in 6 mins."
+    ],
+    [
+        "uber_lyft(location_to_accept=\"paradise cove luau\")",
+        "i can help book that for you. where do you want to be picked up? and where should the driver drop you off? i love paradise cove luau. nice choice. how many people are in your party?",
+        "i can help book that for you. where do you want to be picked up? and where should the driver drop you off? i love paradise cove luau. nice choice. how many people are in your party?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uber xl\";num_people_accept=\"6\")",
+        "did you want an uber xl for your party of 6?",
+        "did you want an uber xl for your party of 6?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uber xl\";price_estimate_accept=\"$26.72\")",
+        "ok, an uber xl for your party will cost $26.72.",
+        "ok, an uber xl for your party will cost $26.72."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9 tonight\")",
+        "ok, i'll schedule it for 9 tonight.",
+        "ok, i'll schedule it for 9 tonight."
+    ],
+    [
+        "uber_lyft(location_to=\"washington ave\")",
+        "I can take a look. On washington ave?",
+        "I can take a look. On washington ave?"
+    ],
+    [
+        "uber_lyft(num_people=\"5\")",
+        "Got it. So you'll be going from the mall to the 5 guys right?",
+        "Got it. So you'll be going from the mall to the 5 guys right?"
+    ],
+    [
+        "uber_lyft(type_ride=\"shared rides\";num_people=\"4 people\")",
+        "It is, but it'll be cheaper as a regular ride since you'll need to book two shared rides for 4 people.",
+        "It is, but it'll be cheaper as a regular ride since you'll need to book two shared rides for 4 people."
+    ],
+    [
+        "uber_lyft(type_ride=\"Shared\";num_people=\"2\";price_estimate=\"20 dollars\";duration_estimate=\"25 minutes\")",
+        "Shared only allows 2 people per ride, so that'll be 20 dollars a ride and each ride will take 25 minutes.",
+        "Shared only allows 2 people per ride, so that'll be 20 dollars a ride and each ride will take 25 minutes."
+    ],
+    [
+        "uber_lyft(time_pickup=\"9pm\")",
+        "Great. I'll schedule your uber for 9pm and you'll get a notification when they're on their way.",
+        "Great. I'll schedule your uber for 9pm and you'll get a notification when they're on their way."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber Pool rides\";price_estimate_accept=\"20 dollars\";duration_estimate_accept=\"25 minutes\";time_pickup_accept=\"9 pm\";num_people_accept=\"4\")",
+        "Sure thing. One moment. So you have 2 Uber Pool rides for 20 dollars each and an estiamted duration of 25 minutes, for your trip tonight at 9 pm for 4 people.",
+        "Sure thing. One moment. So you have 2 Uber Pool rides for 20 dollars each and an estiamted duration of 25 minutes, for your trip tonight at 9 pm for 4 people."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber XL\")",
+        "got it. did you want the Uber XL to pick you up now?",
+        "got it. did you want the Uber XL to pick you up now?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$37.33\";duration_estimate_accept=\"15 mins\")",
+        "it'll be $37.33 for the ride, and it'll take about 15 mins to get to your destination.",
+        "it'll be $37.33 for the ride, and it'll take about 15 mins to get to your destination."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"5 mins.\")",
+        "i've booked the ride to pick you up, the driver will be there in 5 mins.",
+        "i've booked the ride to pick you up, the driver will be there in 5 mins."
+    ],
+    [
+        "uber_lyft(type_ride=\"uberxl\";price_estimate_accept=\"$28.75\")",
+        "ok, an uberxl will cost $28.75, is that ok?",
+        "ok, an uberxl will cost $28.75, is that ok?"
+    ],
+    [
+        "uber_lyft(num_people_accept=\"two\";type_ride_accept=\"uber x\";price_estimate_accept=\"$24.55\";duration_estimate_accept=\"20 mins\")",
+        "thanks for waiting. for two people using an uber x, it'll cost $24.55 and take 20 mins to get to your destination. did you want be to book this right now?",
+        "thanks for waiting. for two people using an uber x, it'll cost $24.55 and take 20 mins to get to your destination. did you want be to book this right now?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uber XL\";price_estimate_accept=\"$17.15\")",
+        "Okay! Your uber XL fare estimate is $17.15, shall I go ahead and request it?",
+        "Okay! Your uber XL fare estimate is $17.15, shall I go ahead and request it?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberXL\")",
+        "Sure. you requested uberXL.",
+        "Sure. you requested uberXL."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"20 minutes\")",
+        "Your trip should take about 20 minutes.",
+        "Your trip should take about 20 minutes."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "should i book it now. ok. i've set your ride up for 9pm tonight.",
+        "should i book it now. ok. i've set your ride up for 9pm tonight."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$45 and $50.\")",
+        "Great. That'll be between $45 and $50.",
+        "Great. That'll be between $45 and $50."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Shared\";num_people=\"2 or fewer\")",
+        "Shared requires 2 or fewer passengers.",
+        "Shared requires 2 or fewer passengers."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9 pm\";duration_estimate_accept=\"1 hour\")",
+        "Great. I'll book that now. Your driver will arrive at 9 pm and it will take 1 hour to complete the trip. Hope your flight is pleasant.",
+        "Great. I'll book that now. Your driver will arrive at 9 pm and it will take 1 hour to complete the trip. Hope your flight is pleasant."
+    ],
+    [
+        "uber_lyft(num_people_accept=\"6\";type_ride_accept=\"Uber XL\")",
+        "Okay, so for 6 people I'll have to order and Uber XL.",
+        "Okay, so for 6 people I'll have to order and Uber XL."
+    ],
+    [
+        "uber_lyft(time_pickup=\"9\")",
+        "The trip is for tonight at 9 right?",
+        "The trip is for tonight at 9 right?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"11 70\";duration_estimate_accept=\"10 to 15 minutes\")",
+        "Great then the trip will cost about 11 70 and take 10 to 15 minutes.",
+        "Great then the trip will cost about 11 70 and take 10 to 15 minutes."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9 pm\")",
+        "Great, I'm happy to help. remember to be outside at 9 pm.",
+        "Great, I'm happy to help. remember to be outside at 9 pm."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$17.18\")",
+        "the fare estimate is $17.18. when would you like to book this ride?",
+        "the fare estimate is $17.18. when would you like to book this ride?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9 minutes\")",
+        "done! your driver will be there in 9 minutes.",
+        "done! your driver will be there in 9 minutes."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"25 minutes\")",
+        "your trip should take 25 minutes.",
+        "your trip should take 25 minutes."
+    ],
+    [
+        "uber_lyft(type_ride=\"lyft XL\")",
+        "i'd suggest maybe a lyft XL.",
+        "i'd suggest maybe a lyft XL."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$45 to $50\";duration_estimate_accept=\"30 minutes\")",
+        "ok give me one moment please. For your ride, it will cost between $45 to $50 and take 30 minutes.",
+        "ok give me one moment please. For your ride, it will cost between $45 to $50 and take 30 minutes."
+    ],
+    [
+        "uber_lyft(location_to=\"brooke\")",
+        "did you say brooke?",
+        "did you say brooke?"
+    ],
+    [
+        "uber_lyft(location_to=\"200 brook avenue in the bronx, new york\")",
+        "ok, so 200 brook avenue in the bronx, new york?",
+        "ok, so 200 brook avenue in the bronx, new york?"
+    ],
+    [
+        "uber_lyft(location_from_accept=\"200 broadway, brooklyn\";location_to_accept=\"200 brook avenue, bronx\")",
+        "ok, so you are going from 200 broadway, brooklyn, to 200 brook avenue, bronx, is that correct?",
+        "ok, so you are going from 200 broadway, brooklyn, to 200 brook avenue, bronx, is that correct?"
+    ],
+    [
+        "uber_lyft(location_to_accept=\"CGV cinemas Movie theater\")",
+        "how about the CGV cinemas Movie theater?",
+        "how about the CGV cinemas Movie theater?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"UberX\")",
+        "With that many occupants, you can use an UberX, is that okay?",
+        "With that many occupants, you can use an UberX, is that okay?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$25.67\")",
+        "Great! give me one moment to catch the fare for you. The ride would cost $25.67.",
+        "Great! give me one moment to catch the fare for you. The ride would cost $25.67."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber xl\";num_people_accept=\"2 people\";location_from_accept=\"great lakes mall\";location_to_accept=\"dave and busters in flint, michigan\";price_estimate_accept=\"$302.96\";duration_estimate_accept=\"2.4 hours\")",
+        "an Uber xl for 2 people from great lakes mall to dave and busters in flint, michigan, it will cost $302.96 and take about 2.4 hours. did you want me to book this asap?",
+        "an Uber xl for 2 people from great lakes mall to dave and busters in flint, michigan, it will cost $302.96 and take about 2.4 hours. did you want me to book this asap?"
+    ],
+    [
+        "uber_lyft(type_ride=\"Uber XL\")",
+        "ok. let me look at options for you. Ok and finally, how many people will accompany you? For your party size, I recommend an Uber XL is that ok?",
+        "ok. let me look at options for you. Ok and finally, how many people will accompany you? For your party size, I recommend an Uber XL is that ok?"
+    ],
+    [
+        "uber_lyft(time_pickup=\"5 minutes\")",
+        "The nearest driver can be there in 5 minutes.",
+        "The nearest driver can be there in 5 minutes."
+    ],
+    [
+        "uber_lyft(time_pickup=\"9\")",
+        "ok got it, tonight at 9.",
+        "ok got it, tonight at 9."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\";location_from=\"chicago o hare\";location_to=\"5400 north lake\")",
+        "Got it 9pm, from chicago o hare to 5400 north lake .Your ride has been booked. The status of your ride will be available on your mobile device shortly.",
+        "Got it 9pm, from chicago o hare to 5400 north lake .Your ride has been booked. The status of your ride will be available on your mobile device shortly."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uber xl\")",
+        "correct, uber xl.",
+        "correct, uber xl."
+    ],
+    [
+        "uber_lyft(location_from=\"chicago\")",
+        "in chicago.",
+        "in chicago."
+    ],
+    [
+        "uber_lyft(type_ride=\"lyft xl\";price_estimate_accept=\"$47.69\")",
+        "ok, a lyft xl will cost $47.69, is that ok?",
+        "ok, a lyft xl will cost $47.69, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"shared\")",
+        "a shared can only seat up to 2 passengers.",
+        "a shared can only seat up to 2 passengers."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"25 minutes\")",
+        "ok, it will take about 25 minutes, i'll book your ride now and find you a driver, one moment.",
+        "ok, it will take about 25 minutes, i'll book your ride now and find you a driver, one moment."
+    ],
+    [
+        "uber_lyft(location_to=\"salt lake barbeque\")",
+        "you said salt lake barbeque?",
+        "you said salt lake barbeque?"
+    ],
+    [
+        "uber_lyft(location_from=\"6th street\")",
+        "is this the one on 6th street?",
+        "is this the one on 6th street?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberx\")",
+        "great, is an uberx ok?",
+        "great, is an uberx ok?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$32.87\")",
+        "your fare estimate is $32.87, is that ok?",
+        "your fare estimate is $32.87, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberx\";location_from=\"the alamo draft house\";location_to=\"salt lake bbq\";time_pickup_accept=\"5 minutes\")",
+        "ok, let me finish booking your ride. i have booked an uberx to pick you up at the alamo draft house house going to salt lake bbq, your driver will be arriving in 5 minutes. can i help you with anything else?",
+        "ok, let me finish booking your ride. i have booked an uberx to pick you up at the alamo draft house house going to salt lake bbq, your driver will be arriving in 5 minutes. can i help you with anything else?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"29 minutes\")",
+        "let me check that for you. it will take about 29 minutes.",
+        "let me check that for you. it will take about 29 minutes."
+    ],
+    [
+        "uber_lyft(type_ride=\"lux black xl\")",
+        "Did you want that as a lyft, xl, lux, lux black or lux black xl?",
+        "Did you want that as a lyft, xl, lux, lux black or lux black xl?"
+    ],
+    [
+        "uber_lyft(type_ride=\"regular lyft\")",
+        "It can either be 2 shared rides or a regular lyft.",
+        "It can either be 2 shared rides or a regular lyft."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"8 dollars\";duration_estimate=\"11 minute\")",
+        "Got it. that will be 8 dollars each ride and they'll take 11 minute each.",
+        "Got it. that will be 8 dollars each ride and they'll take 11 minute each."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9 pm\")",
+        "9 pm.",
+        "9 pm."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"11 minutes\")",
+        "11 minutes each ride.",
+        "11 minutes each ride."
+    ],
+    [
+        "uber_lyft(location_from=\"airport\")",
+        "which airport?",
+        "which airport?"
+    ],
+    [
+        "uber_lyft(location_to_accept=\"aloha stadium\")",
+        "got it. you want to go to aloha stadium?",
+        "got it. you want to go to aloha stadium?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber Xl\";price_estimate_accept=\"$48.54\")",
+        "Uber XL it is. let me check fare prices for you. For Uber Xl it will be $48.54. is this ok?",
+        "Uber XL it is. let me check fare prices for you. For Uber Xl it will be $48.54. is this ok?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"34 minutes\")",
+        "the duration of the ride is 34 minutes.",
+        "the duration of the ride is 34 minutes."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$8.92\")",
+        "Your fare estimate is $8.92. What time do you want to be picked up?",
+        "Your fare estimate is $8.92. What time do you want to be picked up?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"UberXL\";time_pickup_accept=\"9 p.m\")",
+        "Sure. You're all set. Your UberXL is booked for tonight at 9 p.m.",
+        "Sure. You're all set. Your UberXL is booked for tonight at 9 p.m."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$7.55\")",
+        "your fare estimate is $7.55, can i continue booking your ride?",
+        "your fare estimate is $7.55, can i continue booking your ride?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "ok, you're all set. your driver will be there at 9pm tonight.",
+        "ok, you're all set. your driver will be there at 9pm tonight."
+    ],
+    [
+        "uber_lyft(location_from_reject=\"red lobster on main street in corona\")",
+        "i couldn't find a red lobster on main street in corona.",
+        "i couldn't find a red lobster on main street in corona."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$35\")",
+        "your fare estimate is $35.",
+        "your fare estimate is $35."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber X pool\";num_people_accept=\"4\";price_estimate_accept=\"$6.41\")",
+        "What type of ride would you like? Uber has UberX, Uber XL, Uber Select, Uber Black, and Pool. and how many people are riding total? Uber X pool for 4 will be $6.41.",
+        "What type of ride would you like? Uber has UberX, Uber XL, Uber Select, Uber Black, and Pool. and how many people are riding total? Uber X pool for 4 will be $6.41."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"6 minutes\")",
+        "now. ok, asap it is. the ride will be there in 6 minutes.",
+        "now. ok, asap it is. the ride will be there in 6 minutes."
+    ],
+    [
+        "uber_lyft(location_to_reject=\"dallas\")",
+        "is this in dallas?",
+        "is this in dallas?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uber x\";price_estimate_accept=\"$28.42\")",
+        "ok, an uber x will be $28.42, is that ok?",
+        "ok, an uber x will be $28.42, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"Uber XL\";price_estimate_accept=\"$70.56\")",
+        "perfect, I'll get you an Uber XL for $70.56.",
+        "perfect, I'll get you an Uber XL for $70.56."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber XL\";time_pickup_accept=\"9 pm\")",
+        "So I've scheduled your Uber XL for 9 pm tonight and the driver will let you know via mobile when they're on their way.",
+        "So I've scheduled your Uber XL for 9 pm tonight and the driver will let you know via mobile when they're on their way."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"an hour and a half\")",
+        "About an hour and a half.",
+        "About an hour and a half."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber XL\";price_estimate_accept=\"$8.91\";time_pickup=\"asap\")",
+        "I can book and Uber XL for $8.91, did you need a scheduled ride or asap?",
+        "I can book and Uber XL for $8.91, did you need a scheduled ride or asap?"
+    ],
+    [
+        "uber_lyft(type_ride=\"'shared\")",
+        "Okay! are you hoping to use the \"shared\" ride option?",
+        "Okay! are you hoping to use the \"shared\" ride option?"
+    ],
+    [
+        "uber_lyft(location_from_accept=\"Valley fair mall\";location_to_accept=\"Santana row mall\";time_pickup_accept=\"9pm\")",
+        "pickup is at Valley fair mall and your going to Santana row mall. at 9pm.",
+        "pickup is at Valley fair mall and your going to Santana row mall. at 9pm."
+    ],
+    [
+        "uber_lyft(num_people_accept=\"two people\")",
+        "for two people?",
+        "for two people?"
+    ],
+    [
+        "uber_lyft(type_ride=\"XL\")",
+        "Okay that's going to require an XL is that okay?",
+        "Okay that's going to require an XL is that okay?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$40 and $45\";duration_estimate=\"30 minutes\")",
+        "Great your estimated total is between $40 and $45 and your travel time is 30 minutes.",
+        "Great your estimated total is between $40 and $45 and your travel time is 30 minutes."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Lyft XL\";time_pickup_accept=\"9 p.m\")",
+        "Sure thing. I've scheduled your Lyft XL for 9 p.m. remember to be outside waiting for it.",
+        "Sure thing. I've scheduled your Lyft XL for 9 p.m. remember to be outside waiting for it."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"30 minutes.\")",
+        "About 30 minutes.",
+        "About 30 minutes."
+    ],
+    [
+        "uber_lyft(location_to=\"Westfield Riccarton\")",
+        "ok, so you need a ride to Westfield Riccarton is that correct?",
+        "ok, so you need a ride to Westfield Riccarton is that correct?"
+    ],
+    [
+        "uber_lyft(location_to=\"11160 rosemil road\")",
+        "my mistake, where would would you like to go? i am sorry could you repeat the road name again please. is that 11160 rosemil road?",
+        "my mistake, where would would you like to go? i am sorry could you repeat the road name again please. is that 11160 rosemil road?"
+    ],
+    [
+        "uber_lyft(location_from=\"Aspen Manor Ln\")",
+        "ok so thats Aspen Manor Ln is that correct?",
+        "ok so thats Aspen Manor Ln is that correct?"
+    ],
+    [
+        "uber_lyft(num_people_accept=\"5\")",
+        "And you want to request for 5 people?",
+        "And you want to request for 5 people?"
+    ],
+    [
+        "uber_lyft(type_ride=\"Uber XL\";price_estimate=\"$15\")",
+        "Ok, I will request your Uber XL ride now. The fare estimate is $15.",
+        "Ok, I will request your Uber XL ride now. The fare estimate is $15."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"7 minutes\")",
+        "The driver's ETA is 7 minutes.",
+        "The driver's ETA is 7 minutes."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"13 minutes\")",
+        "13 minutes.",
+        "13 minutes."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$15\")",
+        "$15.",
+        "$15."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber XL\")",
+        "I requested an Uber XL ride for you.",
+        "I requested an Uber XL ride for you."
+    ],
+    [
+        "uber_lyft(type_ride=\"UberX\")",
+        "Sure, UberX.",
+        "Sure, UberX."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$6.15\")",
+        "your fare estimate is $6.15, can i confirm this request?",
+        "your fare estimate is $6.15, can i confirm this request?"
+    ],
+    [
+        "uber_lyft(time_pickup=\"9pm\")",
+        "sure, i can book this ride for tonight at 9pm.",
+        "sure, i can book this ride for tonight at 9pm."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"7 minutes\")",
+        "your trip should take 7 minutes.",
+        "your trip should take 7 minutes."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberx\")",
+        "i booked an uberx for you.",
+        "i booked an uberx for you."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "great, you're all set for tonight at 9pm.",
+        "great, you're all set for tonight at 9pm."
+    ],
+    [
+        "uber_lyft(time_pickup=\"9:00pm\")",
+        "oh, ok. 9:00pm tonight it is.",
+        "oh, ok. 9:00pm tonight it is."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9:00pm\")",
+        "i've scheduled the ride for you for tonight at 9:00pm. Did you need anything else?",
+        "i've scheduled the ride for you for tonight at 9:00pm. Did you need anything else?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"15 mins\")",
+        "the trip is about 15 mins, but it does depend on traffic. Also, i wanted to let you know that the drivers status will be available on your phone when it gets closer to the pick up time.",
+        "the trip is about 15 mins, but it does depend on traffic. Also, i wanted to let you know that the drivers status will be available on your phone when it gets closer to the pick up time."
+    ],
+    [
+        "uber_lyft(type_ride=\"uber xl\")",
+        "and you want an uber xl, is that right?",
+        "and you want an uber xl, is that right?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uber xl\";location_from_accept=\"jfk airport\";location_to_accept=\"wall street\";price_estimate_accept=\"$114.50\";duration_estimate_accept=\"45 mins\")",
+        "great, an uber xl from jfk airport to wall street will b $114.50 and take 45 mins. do you want to book the ride to pick you up now?",
+        "great, an uber xl from jfk airport to wall street will b $114.50 and take 45 mins. do you want to book the ride to pick you up now?"
+    ],
+    [
+        "uber_lyft(type_ride=\"Uber X\";price_estimate=\"12 76\")",
+        "Okay that's going to be an Uber X for 4 passengers at 12 76 total.",
+        "Okay that's going to be an Uber X for 4 passengers at 12 76 total."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"17 98\")",
+        "sure, your new total is 17 98.",
+        "sure, your new total is 17 98."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"10 to 15 minutes\")",
+        "about 10 to 15 minutes.",
+        "about 10 to 15 minutes."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$22.81\")",
+        "ok. your fare estimate is $22.81, can i continue with the request?",
+        "ok. your fare estimate is $22.81, can i continue with the request?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"3 minutes\")",
+        "Your ride is booked. your driver will arrive in 3 minutes.",
+        "Your ride is booked. your driver will arrive in 3 minutes."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"25 minutes\")",
+        "your trip will take 25 minutes.",
+        "your trip will take 25 minutes."
+    ],
+    [
+        "uber_lyft(location_from=\"west covina california\")",
+        "and you are in west covina california is that correct?",
+        "and you are in west covina california is that correct?"
+    ],
+    [
+        "uber_lyft(location_from_accept=\"edwards west covina\")",
+        "ok one moment please. so thats edwards west covina is that correct?",
+        "ok one moment please. so thats edwards west covina is that correct?"
+    ],
+    [
+        "uber_lyft(location_to_accept=\"Lazy Dog Restaurant & Bar in west covina\")",
+        "ok so thats Lazy Dog Restaurant & Bar in west covina is that correct?",
+        "ok so thats Lazy Dog Restaurant & Bar in west covina is that correct?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uber xl\";price_estimate=\"8.68\")",
+        "ok let me get an estimate for you from uber. so we have uber pool for $5.51, uber x for 5.80 and uber xl for 8.68.",
+        "ok let me get an estimate for you from uber. so we have uber pool for $5.51, uber x for 5.80 and uber xl for 8.68."
+    ],
+    [
+        "uber_lyft(type_ride=\"uberx\";price_estimate=\"5.80\")",
+        "ok, uberx will be 5.80 is that ok?",
+        "ok, uberx will be 5.80 is that ok?"
+    ],
+    [
+        "uber_lyft(duration_estimate=\"6 min\")",
+        "ok the traveling time is estimated at 6 min.",
+        "ok the traveling time is estimated at 6 min."
+    ],
+    [
+        "uber_lyft(type_ride=\"regular pool\")",
+        "do you mean regular pool ?",
+        "do you mean regular pool ?"
+    ],
+    [
+        "uber_lyft(type_ride=\"regular pool\";num_people=\"4\")",
+        "regular pool seats maximum 4 people.",
+        "regular pool seats maximum 4 people."
+    ],
+    [
+        "uber_lyft(type_ride=\"uberxl\";price_estimate=\"8.69\")",
+        "ok, confirm you like to reserve uberxl for 8.69.",
+        "ok, confirm you like to reserve uberxl for 8.69."
+    ],
+    [
+        "uber_lyft(time_pickup=\"9 am\")",
+        "would that be 9 pm or 9 am?",
+        "would that be 9 pm or 9 am?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"5 min\")",
+        "ok your estimated trip duration would be 5 min.",
+        "ok your estimated trip duration would be 5 min."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "your drive should arrive at your reserved time at 9pm.",
+        "your drive should arrive at your reserved time at 9pm."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberXL\";time_pickup_accept=\"5pm\";price_estimate_accept=\"$38.26\")",
+        "ok. your uberXL has been booked for 5pm. your fare estimate is $38.26.",
+        "ok. your uberXL has been booked for 5pm. your fare estimate is $38.26."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"15 minutes.\")",
+        "your trip duration will be 15 minutes.",
+        "your trip duration will be 15 minutes."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "ok. i've scheduled the ride for 9pm. do you need anything else?",
+        "ok. i've scheduled the ride for 9pm. do you need anything else?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"lyft XL\")",
+        "Got it. that's most efficient as a lyft XL okay?",
+        "Got it. that's most efficient as a lyft XL okay?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "Great. your driver will arrive at 9pm and notify you via mobile when he's on his way.",
+        "Great. your driver will arrive at 9pm and notify you via mobile when he's on his way."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"15 dollars\";duration_estimate_accept=\"11 minutes\")",
+        "your ride will cost 15 dollars and take 11 minutes.",
+        "your ride will cost 15 dollars and take 11 minutes."
+    ],
+    [
+        "uber_lyft(location_from=\"on south college street\")",
+        "on south college street?",
+        "on south college street?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberxl\";price_estimate=\"$18.26\")",
+        "ok, an uberxl will cost $18.26, is that ok?",
+        "ok, an uberxl will cost $18.26, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"regular uber\")",
+        "a regular uber can only seat up to 4 passengers.",
+        "a regular uber can only seat up to 4 passengers."
+    ],
+    [
+        "uber_lyft(type_ride=\"xl\")",
+        "is it ok to proceed with the xl?",
+        "is it ok to proceed with the xl?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberxl\";time_pickup=\"9pm\";location_from_accept=\"the westin\";location_to_accept=\"southpark mall, is\")",
+        "one moment while i book that for you. ok, i have booked an uberxl to pick you up at 9pm going from the westin to southpark mall, is that correct?",
+        "one moment while i book that for you. ok, i have booked an uberxl to pick you up at 9pm going from the westin to southpark mall, is that correct?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$11.68\";duration_estimate_accept=\"18 minutes\";time_pickup_accept=\"9pm\")",
+        "sure, the fare will be $11.68 and i will check the ride duration right now. it will take about 18 minutes depending on traffic at 9pm.",
+        "sure, the fare will be $11.68 and i will check the ride duration right now. it will take about 18 minutes depending on traffic at 9pm."
+    ],
+    [
+        "uber_lyft(type_ride=\"UberX\")",
+        "would you like to take an Uber pool or UberX?",
+        "would you like to take an Uber pool or UberX?"
+    ],
+    [
+        "uber_lyft(type_ride=\"UberX\")",
+        "ok, the regular ride type is UberX, is that ok?",
+        "ok, the regular ride type is UberX, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"UberX\";price_estimate_accept=\"$10.54\")",
+        "great, an UberX will cost $10.54 is that ok?",
+        "great, an UberX will cost $10.54 is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberXL\";time_pickup=\"9pm\")",
+        "ok, i will schedule a uberXL ride for tonight at 9pm.",
+        "ok, i will schedule a uberXL ride for tonight at 9pm."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberxl\";price_estimate=\"$30.23\")",
+        "your uberxl fare estimate is $30.23.",
+        "your uberxl fare estimate is $30.23."
+    ],
+    [
+        "uber_lyft(location_from_accept=\"Eastpoint Mall\";location_to_accept=\"the gallery at harborplace\";duration_estimate_accept=\"25 minutes\")",
+        "you will be picked up at Eastpoint Mall and dropped off at the gallery at harborplace. your trip will take about 25 minutes.",
+        "you will be picked up at Eastpoint Mall and dropped off at the gallery at harborplace. your trip will take about 25 minutes."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$30.23\")",
+        "your fare estimate is $30.23.",
+        "your fare estimate is $30.23."
+    ],
+    [
+        "uber_lyft(type_ride=\"uberxl\";price_estimate_accept=\"$36.41\")",
+        "an uberxl will cost $36.41, is that ok?",
+        "an uberxl will cost $36.41, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberxl\";time_pickup_accept=\"9pm\";location_from_accept=\"LAX\";location_to_accept=\"Craft La\")",
+        "ok, one moment while i book that for you. ok, i have booked an uberxl to pick you up at 9pm tonight going from LAX to Craft La, your receipt will be texted to you.",
+        "ok, one moment while i book that for you. ok, i have booked an uberxl to pick you up at 9pm tonight going from LAX to Craft La, your receipt will be texted to you."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"regular lyft\";price_estimate_accept=\"$17.34\")",
+        "Oh, my apologies! A regular lyft, not a problem. okay, a ride with lyft is estimated at $17.34.",
+        "Oh, my apologies! A regular lyft, not a problem. okay, a ride with lyft is estimated at $17.34."
+    ],
+    [
+        "uber_lyft(location_to=\"East South Street\")",
+        "You said East South Street right?",
+        "You said East South Street right?"
+    ],
+    [
+        "uber_lyft(time_pickup=\"9 pm\")",
+        "Okay and you wanted this for 9 pm right?",
+        "Okay and you wanted this for 9 pm right?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$7.22\")",
+        "Great that's going to cost $7.22.",
+        "Great that's going to cost $7.22."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9 pm\")",
+        "You'll get mobile updates about your ride and your driver will arive at 9 pm. anything else?",
+        "You'll get mobile updates about your ride and your driver will arive at 9 pm. anything else?"
+    ],
+    [
+        "uber_lyft(location_to=\"rs will there be?\")",
+        "how many passengers will there be?",
+        "how many passengers will there be?"
+    ],
+    [
+        "uber_lyft(location_from=\"u need immedia\")",
+        "great, did you need immediate pickup?",
+        "great, did you need immediate pickup?"
+    ],
+    [
+        "uber_lyft(num_people_accept=\"any\";type_ride=\"dc\")",
+        "ok, i have booked an UberXL to pick you up at the wildcat lounge going to the Santa Barbara Bowl, your driver will be arriving in 5 minutes and your receipt will be texted to you. can i help you with anything else?",
+        "ok, i have booked an UberXL to pick you up at the wildcat lounge going to the Santa Barbara Bowl, your driver will be arriving in 5 minutes and your receipt will be texted to you. can i help you with anything else?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"6 minutes\")",
+        "let me check that for you. let me check that for you. it will take about 6 minutes. it will take about 6 minutes.",
+        "let me check that for you. let me check that for you. it will take about 6 minutes. it will take about 6 minutes."
+    ],
+    [
+        "uber_lyft(type_ride=\"xl\";price_estimate_accept=\"$42.08\")",
+        "you said it's in las vegas? ok, an xl will cost $42.08, is that ok?",
+        "you said it's in las vegas? ok, an xl will cost $42.08, is that ok?"
+    ],
+    [
+        "uber_lyft(location_to=\"shopping mall in new york\")",
+        "where in new york? did you say a shopping mall in new york?",
+        "where in new york? did you say a shopping mall in new york?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uber x\";price_estimate_accept=\"600 dollars\")",
+        "an uber x will cost 600 dollars.",
+        "an uber x will cost 600 dollars."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"7 minutes\")",
+        "(deleted) would you like me to book that immediately? ok, your driver will be arriving in 7 minutes.",
+        "(deleted) would you like me to book that immediately? ok, your driver will be arriving in 7 minutes."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber XL\")",
+        "That's going to be an Uber XL okay?",
+        "That's going to be an Uber XL okay?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$29.60\")",
+        "$29.60 is your total. Is that for now or later?",
+        "$29.60 is your total. Is that for now or later?"
+    ],
+    [
+        "uber_lyft(time_pickup=\"10 minutes\")",
+        "Great. It'll arrive in 10 minutes. Be outside waiting. YOur phone will get text updates.",
+        "Great. It'll arrive in 10 minutes. Be outside waiting. YOur phone will get text updates."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"10 minutes.\")",
+        "10 minutes.",
+        "10 minutes."
+    ],
+    [
+        "uber_lyft(num_people_accept=\"4 people\";time_pickup=\"9pm\";price_estimate_accept=\"$10.18\";duration_estimate_accept=\"15 mins\")",
+        "an uber pool for 4 people at 9pm will cost $10.18 and take about 15 mins to get to your destination. should i book this for you at 9pm?",
+        "an uber pool for 4 people at 9pm will cost $10.18 and take about 15 mins to get to your destination. should i book this for you at 9pm?"
+    ],
+    [
+        "uber_lyft(location_from_accept=\"wood tavern\")",
+        "great, the ride will be there at wood tavern around that time. you can check your drivers status on your phone when it gets closer to that scheduled time.",
+        "great, the ride will be there at wood tavern around that time. you can check your drivers status on your phone when it gets closer to that scheduled time."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9 tonight\")",
+        "sure, i'll schedule that for 9 tonight.",
+        "sure, i'll schedule that for 9 tonight."
+    ],
+    [
+        "uber_lyft(num_people_accept=\"2\";type_ride_reject=\"Uber Pool\";type_ride=\"UberXL\")",
+        "You can only take up to 2 people with you on Uber Pool. I suggest that you request UberX or UberXL for larger groups.",
+        "You can only take up to 2 people with you on Uber Pool. I suggest that you request UberX or UberXL for larger groups."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"6 minutes\")",
+        "Ok, your driver will be there in 6 minutes.",
+        "Ok, your driver will be there in 6 minutes."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"12 minutes\")",
+        "The trip will take 12 minutes.",
+        "The trip will take 12 minutes."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber XL\";price_estimate_accept=\"$16.15\")",
+        "AN Uber XL for this trip will cost $16.15, did you want it asap or scheduled?",
+        "AN Uber XL for this trip will cost $16.15, did you want it asap or scheduled?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"10 minutes\")",
+        "Great, Your driver will arrive in 10 minutes and you'll get ride updates via mobile. anything else?",
+        "Great, Your driver will arrive in 10 minutes and you'll get ride updates via mobile. anything else?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberxl\";price_estimate_accept=\"$17.39\")",
+        "ok, an uberxl will cost $17.39, is that ok?",
+        "ok, an uberxl will cost $17.39, is that ok?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"13 minutes\";time_pickup_accept=\"9pm\")",
+        "let me check for you. it will take about 13 minutes depending on traffic at 9pm.",
+        "let me check for you. it will take about 13 minutes depending on traffic at 9pm."
+    ],
+    [
+        "uber_lyft(location_to=\"the shops of midtown miami\")",
+        "i see the shops of midtown miami is close, would you like to go there?",
+        "i see the shops of midtown miami is close, would you like to go there?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberxl\";price_estimate_accept=\"$27.28\")",
+        "ok, an uberxl will cost $27.28, is that ok?",
+        "ok, an uberxl will cost $27.28, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberxl\";time_pickup_accept=\"9pm\";location_from_accept=\"miami international\";location_to_accept=\"the shops at midtown miami\")",
+        "ok, i have scheduled an uberxl to pick you up at 9pm from miami international going to the shops at midtown miami, can i help with anything else?",
+        "ok, i have scheduled an uberxl to pick you up at 9pm from miami international going to the shops at midtown miami, can i help with anything else?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"14 minutes\")",
+        "it will take about 14 minutes.",
+        "it will take about 14 minutes."
+    ],
+    [
+        "uber_lyft(type_ride=\"uber select\")",
+        "your options are uberx, uberxl and uber select.",
+        "your options are uberx, uberxl and uber select."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberxl\")",
+        "did you say uberxl?",
+        "did you say uberxl?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$8.90\")",
+        "your fare estimate is $8.90, can i confirm your request?",
+        "your fare estimate is $8.90, can i confirm your request?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "sure, your ride is booked for 9pm.",
+        "sure, your ride is booked for 9pm."
+    ],
+    [
+        "uber_lyft(type_ride=\"UBER XL\";time_pickup=\"9pm\")",
+        "You got it. I've scheduled an UBER XL for 9pm.",
+        "You got it. I've scheduled an UBER XL for 9pm."
+    ],
+    [
+        "uber_lyft(price_estimate=\"$11.80\")",
+        "it'll cost $11.80.",
+        "it'll cost $11.80."
+    ],
+    [
+        "uber_lyft(num_people_accept=\"6\";price_estimate_accept=\"$67.90\";time_pickup_accept=\"9pm\")",
+        "The fare estimate for 6 people is $67.90, the driver will arrive at 9pm.",
+        "The fare estimate for 6 people is $67.90, the driver will arrive at 9pm."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"15 minutes\")",
+        "and the trip will take 15 minutes depending upon traffic.",
+        "and the trip will take 15 minutes depending upon traffic."
+    ],
+    [
+        "uber_lyft(location_from=\"new haven\")",
+        "That is new haven, correct?",
+        "That is new haven, correct?"
+    ],
+    [
+        "uber_lyft(num_people=\"2\";type_ride=\"uberXL\";price_estimate_accept=\"$8.84\")",
+        "You can only take up to 2 people on a shared ride. But you can uberXL for $8.84.",
+        "You can only take up to 2 people on a shared ride. But you can uberXL for $8.84."
+    ],
+    [
+        "uber_lyft(time_pickup=\"right now\";time_pickup_accept=\"5 minutes\")",
+        "sure, when would you like to book this ride? ok! I will request your ride right now. The driver's ETA is 5 minutes.",
+        "sure, when would you like to book this ride? ok! I will request your ride right now. The driver's ETA is 5 minutes."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"4 minutes\")",
+        "Your trip duration will be 4 minutes.",
+        "Your trip duration will be 4 minutes."
+    ],
+    [
+        "uber_lyft(num_people_accept=\"4\")",
+        "Alright one moment. This ride is for 4 passengers, correct?",
+        "Alright one moment. This ride is for 4 passengers, correct?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"between 12 to 20 min\")",
+        "The trip will take between 12 to 20 min, depending on traffic.",
+        "The trip will take between 12 to 20 min, depending on traffic."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9 p.m\")",
+        "Okay, just one more moment. Alright, you're all set. The Trip has been scheduled for tonight at 9 p.m.",
+        "Okay, just one more moment. Alright, you're all set. The Trip has been scheduled for tonight at 9 p.m."
+    ],
+    [
+        "uber_lyft(type_ride=\"Pool\")",
+        "What type of ride would you like? Uber has UberX, Uber XL, Uber Select, Uber Black, and Pool.",
+        "What type of ride would you like? Uber has UberX, Uber XL, Uber Select, Uber Black, and Pool."
+    ],
+    [
+        "uber_lyft(num_people=\"4\";type_ride=\"uberxl\")",
+        "ok, for 5 passengers you would have to take an uberxl as an uberx can only seat up to 4.",
+        "ok, for 5 passengers you would have to take an uberxl as an uberx can only seat up to 4."
+    ],
+    [
+        "uber_lyft(type_ride=\"uberxl\";price_estimate_accept=\"$105.85\")",
+        "an uberxl will cost $105.85, is that ok?",
+        "an uberxl will cost $105.85, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberxl\";location_from_accept=\"starbucks in time square\";location_to_accept=\"JFK airport\";time_pickup_accept=\"5 minutes\")",
+        "ok, let me complete your booking and find you a driver, one moment. ok, i have booked an uberxl to pick you up from the starbucks in time square going to JFK airport. your driver will be arriving in 5 minutes and your receipt will be texted to you.",
+        "ok, let me complete your booking and find you a driver, one moment. ok, i have booked an uberxl to pick you up from the starbucks in time square going to JFK airport. your driver will be arriving in 5 minutes and your receipt will be texted to you."
+    ],
+    [
+        "uber_lyft(time_pickup=\"9pm tonight\")",
+        "is that 9pm tonight?",
+        "is that 9pm tonight?"
+    ],
+    [
+        "uber_lyft(location_from=\"colorado\")",
+        "sure, what is the pickup location? where in colorado?",
+        "sure, what is the pickup location? where in colorado?"
+    ],
+    [
+        "uber_lyft(price_estimate=\"$15\")",
+        "ok, how many people are riding with you? sure, your fare estimate is $15.",
+        "ok, how many people are riding with you? sure, your fare estimate is $15."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberxl\";time_pickup=\"9 pm\")",
+        "your uberxl ride is booked for 9 pm.",
+        "your uberxl ride is booked for 9 pm."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"12 minutes\")",
+        "your trip should take 12 minutes.",
+        "your trip should take 12 minutes."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9 pm\")",
+        "you will receive a notification at 9 pm.",
+        "you will receive a notification at 9 pm."
+    ],
+    [
+        "uber_lyft(type_ride=\"Uber XL\";type_ride_reject=\"uber x\")",
+        "That's going to need an Uber XL, uber x only holds 4 passengers.",
+        "That's going to need an Uber XL, uber x only holds 4 passengers."
+    ],
+    [
+        "uber_lyft(price_estimate=\"$111.40\")",
+        "Great. It'll cost $111.40 okay?",
+        "Great. It'll cost $111.40 okay?"
+    ],
+    [
+        "uber_lyft(type_ride=\"Uber XL\";num_people=\"5\";time_pickup=\"9 pm\";price_estimate=\"111 dollars and 40 cents\";duration_estimate=\"30 minutes to an hour\")",
+        "Got it. I've scheduled your Uber XL for 5 people at 9 pm. It'll cost 111 dollars and 40 cents and the trip will take about 30 minutes to an hour depending on traffic.",
+        "Got it. I've scheduled your Uber XL for 5 people at 9 pm. It'll cost 111 dollars and 40 cents and the trip will take about 30 minutes to an hour depending on traffic."
+    ],
+    [
+        "uber_lyft(time_pickup=\"9 pm\";duration_estimate=\"30 minutes to an hour\";type_ride_accept=\"Uber XL\";num_people_accept=\"5\";time_pickup_accept=\"9 pm\";price_estimate_accept=\"111 dollars and 40 cents\";duration_estimate_accept=\"30 minutes to an hour\")",
+        "Your driver will arrive at 9 pm. the trip will take about 30 minutes to an hour depending on traffic. I've scheduled your Uber XL for 5 people at 9 pm. It'll cost 111 dollars and 40 cents and the trip will take about 30 minutes to an hour depending on traffic.",
+        "Your driver will arrive at 9 pm. the trip will take about 30 minutes to an hour depending on traffic. I've scheduled your Uber XL for 5 people at 9 pm. It'll cost 111 dollars and 40 cents and the trip will take about 30 minutes to an hour depending on traffic."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$9\")",
+        "your fare estimate is $9, can i confirm your request?",
+        "your fare estimate is $9, can i confirm your request?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"7 minutes\")",
+        "all set. your driver will be there in 7 minutes.",
+        "all set. your driver will be there in 7 minutes."
+    ],
+    [
+        "uber_lyft(location_from=\"phoenix\")",
+        "ok, where in phoenix should the driver pick you up?",
+        "ok, where in phoenix should the driver pick you up?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9:00pm\")",
+        "ok. i've scheduled it for tonight at 9:00pm. do you need anything else?",
+        "ok. i've scheduled it for tonight at 9:00pm. do you need anything else?"
+    ],
+    [
+        "uber_lyft(type_ride=\"UberX\";price_estimate=\"$5.48\")",
+        "ok, an UberX will cost $5.48, is that ok?",
+        "ok, an UberX will cost $5.48, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"XL\";price_estimate_accept=\"$9.00\")",
+        "yes, an XL will cost $9.00, is that ok?",
+        "yes, an XL will cost $9.00, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"XL\")",
+        "ok, i'll book you an XL, did you need immediate pickup?",
+        "ok, i'll book you an XL, did you need immediate pickup?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"UberXL\";location_from_accept=\"lucky's pub\";location_to_accept=\"minute maid park\";time_pickup_accept=\"5 minutes\")",
+        "ok, i have booked you an UberXL to pick you up at lucky's pub going to minute maid park. your driver will be arriving in 5 minutes and your receipt will be texted to you. can i help you with anything else?",
+        "ok, i have booked you an UberXL to pick you up at lucky's pub going to minute maid park. your driver will be arriving in 5 minutes and your receipt will be texted to you. can i help you with anything else?"
+    ],
+    [
+        "uber_lyft(num_people_accept=\"6\";type_ride_reject=\"Uber X\";type_ride=\"Uber XL\")",
+        "for 6 people i'd recommend the Uber XL, since the Uber X only can accommodate up to 4.",
+        "for 6 people i'd recommend the Uber XL, since the Uber X only can accommodate up to 4."
+    ],
+    [
+        "uber_lyft(time_pickup=\"10 mins or less\")",
+        "great, i've booked your ride. the driver should be there in 10 mins or less.",
+        "great, i've booked your ride. the driver should be there in 10 mins or less."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"6 mins\")",
+        "Got it. Your ride has been booked, the driver will pick u up in 6 mins. You can check your mobile device for the drivers status as well.",
+        "Got it. Your ride has been booked, the driver will pick u up in 6 mins. You can check your mobile device for the drivers status as well."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"5 mins\")",
+        "yes, it's been placed. the driver will be there in 5 mins.",
+        "yes, it's been placed. the driver will be there in 5 mins."
+    ],
+    [
+        "uber_lyft(price_estimate=\"$15\")",
+        "ok, the fare estimate is $15.",
+        "ok, the fare estimate is $15."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "sure, your ride is booked for tonight at 9pm.",
+        "sure, your ride is booked for tonight at 9pm."
+    ],
+    [
+        "uber_lyft(type_ride=\"uberxl\")",
+        "that will have to be uberxl.",
+        "that will have to be uberxl."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$37.24\")",
+        "the fare estimate is $37.24.",
+        "the fare estimate is $37.24."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uberxl\";time_pickup_accept=\"9pm\")",
+        "sure. You're all set. Your uberxl is booked for tonight at 9pm.",
+        "sure. You're all set. Your uberxl is booked for tonight at 9pm."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"15 minutes\")",
+        "the trip should take about 15 minutes.",
+        "the trip should take about 15 minutes."
+    ],
+    [
+        "uber_lyft(location_to=\"grays restaurant\")",
+        "do you know where is grays restaurant located?",
+        "do you know where is grays restaurant located?"
+    ],
+    [
+        "uber_lyft(num_people_accept=\"6\")",
+        "ok, got it. And you said a party of 6. Did you want an uber xl?",
+        "ok, got it. And you said a party of 6. Did you want an uber xl?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"uber xl is\";price_estimate=\"$216.02\";duration_estimate=\"an hour\")",
+        "ok. An uber xl is available. The total is going to b $216.02 and take about an hour. Did you want me to book the ride?",
+        "ok. An uber xl is available. The total is going to b $216.02 and take about an hour. Did you want me to book the ride?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$8.45\";duration_estimate_accept=\"5 mins.\")",
+        "i'm sorry, i miscalculated. The total is $8.45 and the ride is about 5 mins.",
+        "i'm sorry, i miscalculated. The total is $8.45 and the ride is about 5 mins."
+    ],
+    [
+        "uber_lyft(location_from_accept=\"veterans museum, but not in madison wisconsin\")",
+        "ok. I've booked your ride. I calculated from another veterans museum, but not in madison wisconsin. Thanks for being gracious with me.",
+        "ok. I've booked your ride. I calculated from another veterans museum, but not in madison wisconsin. Thanks for being gracious with me."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"5 mins.\")",
+        "the driver will be there in 5 mins.",
+        "the driver will be there in 5 mins."
+    ],
+    [
+        "uber_lyft(location_to_accept=\"walmart on 24th avenue\")",
+        "got it. I've found the walmart on 24th avenue. How many are in your party?",
+        "got it. I've found the walmart on 24th avenue. How many are in your party?"
+    ],
+    [
+        "uber_lyft(type_ride=\"lyft\";price_estimate=\"$25\")",
+        "great, a lyft will cost $25, is it ok to book that for you?",
+        "great, a lyft will cost $25, is it ok to book that for you?"
+    ],
+    [
+        "uber_lyft(type_ride=\"lyft\";time_pickup=\"at 9pm tonight\";location_from=\"arizona mills\";location_to=\"metrocenter\")",
+        "ok, let me schedule that. i have schedule a lyft to pick you up at 9pm tonight going from arizona mills to metrocenter, can i help you with anything else?",
+        "ok, let me schedule that. i have schedule a lyft to pick you up at 9pm tonight going from arizona mills to metrocenter, can i help you with anything else?"
+    ],
+    [
+        "uber_lyft(type_ride=\"regular lyft\")",
+        "it is a regular lyft.",
+        "it is a regular lyft."
+    ],
+    [
+        "uber_lyft(type_ride=\"xl\")",
+        "yes, you can book an xl, it will be slightly more expensive.",
+        "yes, you can book an xl, it will be slightly more expensive."
+    ],
+    [
+        "uber_lyft(type_ride=\"xl\";price_estimate_accept=\"$42\")",
+        "ok, an xl will be $42, is that ok?",
+        "ok, an xl will be $42, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"lyft xl\";location_from_accept=\"arizona mills\";location_to=\"metrocenter\";time_pickup=\"9pm tonight\")",
+        "let me edit your ride. ok, i have booked a lyft xl going from arizona mills to metrocenter, scheduled to pick you up at 9pm tonight, can i help with anything else?",
+        "let me edit your ride. ok, i have booked a lyft xl going from arizona mills to metrocenter, scheduled to pick you up at 9pm tonight, can i help with anything else?"
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"38 minutes depending\";time_pickup_accept=\"9pm\")",
+        "sure, it will take about 38 minutes depending on traffic tonight at 9pm.",
+        "sure, it will take about 38 minutes depending on traffic tonight at 9pm."
+    ],
+    [
+        "uber_lyft(type_ride=\"UberXL\";price_estimate_accept=\"$16.88\")",
+        "Ok, an UberXL will be $16.88, is that ok?",
+        "Ok, an UberXL will be $16.88, is that ok?"
+    ],
+    [
+        "uber_lyft(type_ride_reject=\"Uber X\";num_people=\"6\";type_ride=\"Uber XL\")",
+        "Unfortunately, Uber X does not accommodate 6 people. i recommend Uber XL.",
+        "Unfortunately, Uber X does not accommodate 6 people. i recommend Uber XL."
+    ],
+    [
+        "uber_lyft(type_ride=\"Lyft regular\";num_people=\"4\")",
+        "Lyft regular accomodates 4 people.",
+        "Lyft regular accomodates 4 people."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$13.83\";duration_estimate=\"15 minutes\";time_pickup=\"right now\")",
+        "you got it. it will cost $13.83 and the ride will take 15 minutes. would you like to book for right now?",
+        "you got it. it will cost $13.83 and the ride will take 15 minutes. would you like to book for right now?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"5 minutes\";duration_estimate_accept=\"15 minutes\")",
+        "Ok. the nearest driver is 5 minutes away. the ride will be 15 minutes.",
+        "Ok. the nearest driver is 5 minutes away. the ride will be 15 minutes."
+    ],
+    [
+        "uber_lyft(type_ride=\"2 shared\")",
+        "How many passengers? Great I can book a lyft, an XL, Lux, Lux BLack, Lux Black XL or 2 shared rides, which would you like?",
+        "How many passengers? Great I can book a lyft, an XL, Lux, Lux BLack, Lux Black XL or 2 shared rides, which would you like?"
+    ],
+    [
+        "uber_lyft(num_people=\"2\";type_ride=\"shared\")",
+        "Okay that's going to be 2 shared since they only take 2 passengers per pool okay?",
+        "Okay that's going to be 2 shared since they only take 2 passengers per pool okay?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"6 dollars\";duration_estimate=\"8 minutes\")",
+        "Great, your total is 6 dollars each ride and it will take 8 minutes. Is that scheduled or asap?",
+        "Great, your total is 6 dollars each ride and it will take 8 minutes. Is that scheduled or asap?"
+    ],
+    [
+        "uber_lyft(time_pickup=\"10 minutes\")",
+        "Alright, your driver will be here in 10 minutes, please keep an eye on your mobile for updates.",
+        "Alright, your driver will be here in 10 minutes, please keep an eye on your mobile for updates."
+    ],
+    [
+        "uber_lyft(duration_estimate_accept=\"8 minutes\")",
+        "about 8 minutes.",
+        "about 8 minutes."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"10 minutes\")",
+        "10 minutes from now.",
+        "10 minutes from now."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$48.51\")",
+        "got it, an uberxl will cost $48.51, is that ok?",
+        "got it, an uberxl will cost $48.51, is that ok?"
+    ],
+    [
+        "uber_lyft(location_from=\"new brunswick\")",
+        "your pickup location was in new brunswick you said?",
+        "your pickup location was in new brunswick you said?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberx\")",
+        "how many passengers will there be? ok, is an uberx ok?",
+        "how many passengers will there be? ok, is an uberx ok?"
+    ],
+    [
+        "uber_lyft(type_ride=\"uberxl\";price_estimate=\"$40.41\")",
+        "sure, an uberxl will cost $40.41.",
+        "sure, an uberxl will cost $40.41."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"7 minutes\";type_ride_accept=\"uberxl\";location_from=\"spring street\";location_to=\"princeton\")",
+        "will you need immediate pickup? ok, let me book your ride and find a driver. ok, your driver will be arriving in 7 minutes, you have booked an uberxl going from spring street to princeton and your receipt will be texted to you.",
+        "will you need immediate pickup? ok, let me book your ride and find a driver. ok, your driver will be arriving in 7 minutes, you have booked an uberxl going from spring street to princeton and your receipt will be texted to you."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$40.41\")",
+        "can i help you with anything else? sure, your fare estimate is $40.41.",
+        "can i help you with anything else? sure, your fare estimate is $40.41."
+    ],
+    [
+        "uber_lyft(type_ride_accept=\"Uber Pool\";price_estimate_accept=\"3 or 4 pounds\")",
+        "Got it. That's going to be an Uber Pool for 3 or 4 pounds okay?",
+        "Got it. That's going to be an Uber Pool for 3 or 4 pounds okay?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"10 minutes\")",
+        "Great. It'll arrive in 10 minutes, please keep an eye on your mobile for updates.",
+        "Great. It'll arrive in 10 minutes, please keep an eye on your mobile for updates."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"9pm\")",
+        "to confirm, you want me to schedule this ride for later tonight at 9pm and not right now, is that right?",
+        "to confirm, you want me to schedule this ride for later tonight at 9pm and not right now, is that right?"
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$60\")",
+        "your fare estimate is $60, can i confirm your ride?",
+        "your fare estimate is $60, can i confirm your ride?"
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"12 minutes.\")",
+        "ok, your ride is confirmed. your driver will be there in 12 minutes.",
+        "ok, your ride is confirmed. your driver will be there in 12 minutes."
+    ],
+    [
+        "uber_lyft(price_estimate_accept=\"$7.79\")",
+        "okay that's $7.79 okay?",
+        "okay that's $7.79 okay?"
+    ],
+    [
+        "uber_lyft(type_ride_reject=\"shared\")",
+        "There isn't shared in that area, and you would need two shared rides for that many passengers.",
+        "There isn't shared in that area, and you would need two shared rides for that many passengers."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"10 minutes\")",
+        "ALright, your driver will be here in 10 minutes, please keep an eye on your mobile for updates.",
+        "ALright, your driver will be here in 10 minutes, please keep an eye on your mobile for updates."
+    ],
+    [
+        "uber_lyft(time_pickup_accept=\"5 mins\")",
+        "great, i've booked the ride for you. The driver will be there in 5 mins.",
+        "great, i've booked the ride for you. The driver will be there in 5 mins."
+    ]
+]

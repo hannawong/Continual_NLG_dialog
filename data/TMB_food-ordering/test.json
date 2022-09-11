@@ -1,0 +1,1437 @@
+[
+    [
+        "food_order(name_item=\"one large pizza with 1/2 pepperoni and 1/2 mushroom\")",
+        "Yeah so you got one large pizza with 1/2 pepperoni and 1/2 mushroom is that correct?",
+        "Yeah so you got one large pizza with 1/2 pepperoni and 1/2 mushroom is that correct?"
+    ],
+    [
+        "food_order(name_item=\"a chocolate brownie\")",
+        "Ok sure thing. You got a chocolate brownie. Sure thing.",
+        "Ok sure thing. You got a chocolate brownie. Sure thing."
+    ],
+    [
+        "food_order(name_item=\"a chocolate brownie\")",
+        "You got it so you have one large pizza with half pepperoni and half mushroom and a chocolate brownie, anything else?",
+        "You got it so you have one large pizza with half pepperoni and half mushroom and a chocolate brownie, anything else?"
+    ],
+    [
+        "food_order(type_retrieval=\"Take out\";num_people=\"one\")",
+        "Take out for one, and what would you like?",
+        "Take out for one, and what would you like?"
+    ],
+    [
+        "food_order(name_item=\"a 2 liter of pepsi\")",
+        "An order of chow main, orange chicken, won ton soup with shrimp, and a 2 liter of pepsi. Is that correct?",
+        "An order of chow main, orange chicken, won ton soup with shrimp, and a 2 liter of pepsi. Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"2 bacon breakfast burritos\")",
+        "How many burritos would you like to order? 2 bacon breakfast burritos. Is that correct?",
+        "How many burritos would you like to order? 2 bacon breakfast burritos. Is that correct?"
+    ],
+    [
+        "food_order(name_item=\"hash browns\")",
+        "How many hash browns?",
+        "How many hash browns?"
+    ],
+    [
+        "food_order(name_item=\"Coffee\")",
+        "Coffee. What size?",
+        "Coffee. What size?"
+    ],
+    [
+        "food_order(other_description_item=\"1 large regular\")",
+        "1 medium decaf and 1 large regular. Is that correct?",
+        "1 medium decaf and 1 large regular. Is that correct?"
+    ],
+    [
+        "food_order(name_item=\"1 large regular coffee\";other_description_item=\"with extra bacon veggies, extra American cheese\")",
+        "2 bacon breakfast burritos with extra bacon veggies, extra American cheese and 2 hash browns. And 1 medium decaf and 1 large regular coffee.",
+        "2 bacon breakfast burritos with extra bacon veggies, extra American cheese and 2 hash browns. And 1 medium decaf and 1 large regular coffee."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"two Sweet Iced Teas\")",
+        "Included two Sweet Iced Teas.",
+        "Included two Sweet Iced Teas."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"one large coca cola\";other_description_item=\"jalapenos\")",
+        "2 hot dogs with ketchup, tomatoes, pickles, onions, jalapenos - one order of large fries - one large coca cola. Is that your order?",
+        "2 hot dogs with ketchup, tomatoes, pickles, onions, jalapenos - one order of large fries - one large coca cola. Is that your order?"
+    ],
+    [
+        "food_order(name_item=\"one beef brisket\")",
+        "Okay, I have one minced pork platter and one beef brisket. Anything else?",
+        "Okay, I have one minced pork platter and one beef brisket. Anything else?"
+    ],
+    [
+        "food_order(name_item=\"one order of potato salad\")",
+        "I will add an order of coleslaw and one order of potato salad. Anything else?",
+        "I will add an order of coleslaw and one order of potato salad. Anything else?"
+    ],
+    [
+        "food_order(name_item=\"Sweetened or unsweetened iced Teas\")",
+        "Sweetened or unsweetened iced Teas?",
+        "Sweetened or unsweetened iced Teas?"
+    ],
+    [
+        "food_order(other_description_item=\"one of each\")",
+        "I will order one of each.",
+        "I will order one of each."
+    ],
+    [
+        "food_order(name_item=\"caviar\")",
+        "Vegetable samosa, tandoori chicken, small naan, caviar.",
+        "Vegetable samosa, tandoori chicken, small naan, caviar."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"3 medium drinks\";other_description_item=\"with rice\")",
+        "Your welcome. This will just be a second please. Your order is 3 entree enchilada plates, with rice and loaded nachos and 3 medium drinks.",
+        "Your welcome. This will just be a second please. Your order is 3 entree enchilada plates, with rice and loaded nachos and 3 medium drinks."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "\"OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.\"",
+        "\"OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.\""
+    ],
+    [
+        "food_order(name_item=\"2 L of Mountain Dew\")",
+        "Okay, so I got chili burger, the Rodeo Burger, two orders of onion rings and order of fries and a 2 L of Mountain Dew?",
+        "Okay, so I got chili burger, the Rodeo Burger, two orders of onion rings and order of fries and a 2 L of Mountain Dew?"
+    ],
+    [
+        "food_order(type_meal=\"desserts\")",
+        "Okay great and before I end it anything else, just to make sure no desserts?",
+        "Okay great and before I end it anything else, just to make sure no desserts?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"drinks\")",
+        "Any drinks with that?",
+        "Any drinks with that?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"takeout\";type_food=\"Thai\")",
+        "I can help you with your takeout order. What would you like to order from the Thai restaurant?",
+        "I can help you with your takeout order. What would you like to order from the Thai restaurant?"
+    ],
+    [
+        "food_order(name_item=\"one order of chicken Pasta Thai\";num_people=\"two people\")",
+        "Okay, this is what I have one order of shrimp pad Thai, one order of chicken Pasta Thai for two people, is that correct?",
+        "Okay, this is what I have one order of shrimp pad Thai, one order of chicken Pasta Thai for two people, is that correct?"
+    ],
+    [
+        "food_order(name_item=\"an order of coconut rice\")",
+        "I will add an order of coconut rice to your order. Anything else?",
+        "I will add an order of coconut rice to your order. Anything else?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "\"OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.\"",
+        "\"OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.\""
+    ],
+    [
+        "food_order(name_item=\"1 large pizza with one half pepperoni and one half mushroom\")",
+        "Looks like you had 1 large pizza with one half pepperoni and one half mushroom.",
+        "Looks like you had 1 large pizza with one half pepperoni and one half mushroom."
+    ],
+    [
+        "food_order(name_item=\"Two iced teas\")",
+        "Two iced teas? Sure. I've added that to the order.",
+        "Two iced teas? Sure. I've added that to the order."
+    ],
+    [
+        "food_order(name_item=\"2 ice teas\")",
+        "1 large pizza with one half pepperoni and one half mushroom. And 2 ice teas.",
+        "1 large pizza with one half pepperoni and one half mushroom. And 2 ice teas."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"3 coca colas\")",
+        "Three orders of bbq ribs, three orders of medium fries and 3 coca colas.",
+        "Three orders of bbq ribs, three orders of medium fries and 3 coca colas."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Ok, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"Burritos\";other_description_item=\"with added cilantro\";type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Yes. Burritos with added cilantro. Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Yes. Burritos with added cilantro. Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"Coke\";num_people=\"two people\")",
+        "You would like Coke for two people, is that correct?",
+        "You would like Coke for two people, is that correct?"
+    ],
+    [
+        "food_order(time_pickup=\"about 20 minutes\";type_retrieval=\"pick-up\")",
+        "Okay, sure thing. Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes",
+        "Okay, sure thing. Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes"
+    ],
+    [
+        "food_order(type_retrieval=\"take over\";num_people=\"one person\";type_food=\"Italian\")",
+        "I can help you with your take over for one person, what would you like from the Italian restaurant?",
+        "I can help you with your take over for one person, what would you like from the Italian restaurant?"
+    ],
+    [
+        "food_order(name_item=\"garlic bread\";type_food=\"drink\")",
+        "Okay, just to confirm you would like one large order of spaghetti and meatballs and garlic bread, would you like to add anything to drink?",
+        "Okay, just to confirm you would like one large order of spaghetti and meatballs and garlic bread, would you like to add anything to drink?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"Tuna\";name_restaurant=\"South Restaurant's\";other_description_item=\"Rare with cheese\")",
+        "First\u00a0Turkey Club sandwich, Chicken salad with Lettuce and Tomato with Ciabatta Roll, and a South Restaurant's Tuna Rare with cheese and three bags of chips. Does that sound correct?",
+        "First\u00a0Turkey Club sandwich, Chicken salad with Lettuce and Tomato with Ciabatta Roll, and a South Restaurant's Tuna Rare with cheese and three bags of chips. Does that sound correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_meal=\"dinner\")",
+        "Enjoy your dinner tonight.",
+        "Enjoy your dinner tonight."
+    ],
+    [
+        "food_order(name_item=\"wings\")",
+        "What type of wings would you like to order, and how many?",
+        "What type of wings would you like to order, and how many?"
+    ],
+    [
+        "food_order(name_item=\"a dozen of the\u00a0barbecue\u00a0wings\";num_people=\"two\")",
+        "A stack of ribs for two, and a dozen of the\u00a0barbecue\u00a0wings. Does that complete your order?",
+        "A stack of ribs for two, and a dozen of the\u00a0barbecue\u00a0wings. Does that complete your order?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"One large pizza\")",
+        "One large pizza got it.",
+        "One large pizza got it."
+    ],
+    [
+        "food_order(other_description_item=\"Green peppers, onions and mushrooms for toppings\")",
+        "Green peppers, onions and mushrooms for toppings.",
+        "Green peppers, onions and mushrooms for toppings."
+    ],
+    [
+        "food_order(name_item=\"3 medium cokes\")",
+        "3 medium cokes, anything else?",
+        "3 medium cokes, anything else?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"pasta cruise\")",
+        "Okay, So fried rice, roasted duck, chicken beef and broccoli and pasta cruise. Is that correct?",
+        "Okay, So fried rice, roasted duck, chicken beef and broccoli and pasta cruise. Is that correct?"
+    ],
+    [
+        "food_order(type_food=\"drink\")",
+        "Would you like anything to drink?",
+        "Would you like anything to drink?"
+    ],
+    [
+        "food_order(name_item=\"A 2 liter of Pepsi\")",
+        "And A 2 liter of Pepsi to wrap up all the stuff, you got it.",
+        "And A 2 liter of Pepsi to wrap up all the stuff, you got it."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"take-out\";type_food=\"pizza\")",
+        "Okay, I can help you to get some take-out pizza. What size do you want?",
+        "Okay, I can help you to get some take-out pizza. What size do you want?"
+    ],
+    [
+        "food_order(name_item=\"one medium buffalo chicken pizza\")",
+        "To confirm I have one medium buffalo chicken pizza.",
+        "To confirm I have one medium buffalo chicken pizza."
+    ],
+    [
+        "food_order(type_retrieval=\"pick up\";time_pickup=\"in 20 minutes\")",
+        "I have your details on file and your order will be ready for pick up in 20 minutes.",
+        "I have your details on file and your order will be ready for pick up in 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"BBQ food\")",
+        "BBQ food, okay. Sure.",
+        "BBQ food, okay. Sure."
+    ],
+    [
+        "food_order(name_item=\"1 lb of pulled pork\";other_description_item=\"with mild BBQ sauce\")",
+        "Okay 1 lb of pulled pork with mild BBQ sauce and that is looking like all that will float your boat for the day is that correct.",
+        "Okay 1 lb of pulled pork with mild BBQ sauce and that is looking like all that will float your boat for the day is that correct."
+    ],
+    [
+        "food_order(name_item=\"1 lb of pulled pork\";other_description_item=\"with mild BBQ sauce\")",
+        "Okay great so I got 1 lb of pulled pork with mild BBQ sauce do you want anything else.",
+        "Okay great so I got 1 lb of pulled pork with mild BBQ sauce do you want anything else."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"Sweet potato fries\";other_description_item=\"well done with everything on them\")",
+        "Looks like you had two burgers well done with everything on them. Sweet potato fries with both.",
+        "Looks like you had two burgers well done with everything on them. Sweet potato fries with both."
+    ],
+    [
+        "food_order(name_item=\"A salad\";other_description_item=\"with house dressing\")",
+        "A salad with house dressing. Sure. I've added that to the order.",
+        "A salad with house dressing. Sure. I've added that to the order."
+    ],
+    [
+        "food_order(name_item=\"a salad\";other_description_item=\"with house dressing\")",
+        "Two burgers, well done with everything on them. Sweet potato fries with both and a salad with house dressing.",
+        "Two burgers, well done with everything on them. Sweet potato fries with both and a salad with house dressing."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. Your order will be ready for pick-up in about 20 minutes. Bye.",
+        "Okay. Your order will be ready for pick-up in about 20 minutes. Bye."
+    ],
+    [
+        "food_order(name_item=\"hot dogs\")",
+        "Perfect, what would you like with those hot dogs?",
+        "Perfect, what would you like with those hot dogs?"
+    ],
+    [
+        "food_order(name_item=\"two diet cokes\")",
+        "One hot dog with mustard relish and sour kraut and one hot dog with mustard and relish, fries and two diet cokes. Is that correct?",
+        "One hot dog with mustard relish and sour kraut and one hot dog with mustard and relish, fries and two diet cokes. Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_meal=\"dinner\")",
+        "No problem. Enjoy your dinner and have a great weekend.",
+        "No problem. Enjoy your dinner and have a great weekend."
+    ],
+    [
+        "food_order(type_food=\"Greek food\")",
+        "What would you like to order in Greek food?",
+        "What would you like to order in Greek food?"
+    ],
+    [
+        "food_order(name_item=\"to gyros with steak cheese pepper\";other_description_item=\"associated seasonings on it\")",
+        "Just to confirm you would like to order to gyros with steak cheese pepper and associated seasonings on it?",
+        "Just to confirm you would like to order to gyros with steak cheese pepper and associated seasonings on it?"
+    ],
+    [
+        "food_order(name_item=\"Greek coffee\";type_food=\"drink\")",
+        "Would you like to order anything to drink like the Greek coffee?",
+        "Would you like to order anything to drink like the Greek coffee?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"side of fruit\")",
+        "So one lamb gyro, sprite and a side of fruit?",
+        "So one lamb gyro, sprite and a side of fruit?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"Korean BBQ\")",
+        "Korean BBQ?",
+        "Korean BBQ?"
+    ],
+    [
+        "food_order(other_description_item=\"Chicken\")",
+        "Chicken. Do you want any sides with that?",
+        "Chicken. Do you want any sides with that?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"drink\")",
+        "Anything to drink?",
+        "Anything to drink?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Anything else? Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Anything else? Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"two cans of sprite\")",
+        "Small order of barbecue ribs and rice, an order of a small chicken with pork fried rice, and two cans of sprite. Is that correct?",
+        "Small order of barbecue ribs and rice, an order of a small chicken with pork fried rice, and two cans of sprite. Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"Greek\")",
+        "Okay, Greek food sounds good.",
+        "Okay, Greek food sounds good."
+    ],
+    [
+        "food_order(name_item=\"one Beef\")",
+        "2 Gryos, one Parmesan, and one Beef, will that complete your order?",
+        "2 Gryos, one Parmesan, and one Beef, will that complete your order?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "\"Okay, can I have your details on file. Your order will be ready for pick-up in about 20 minutes.\"",
+        "\"Okay, can I have your details on file. Your order will be ready for pick-up in about 20 minutes.\""
+    ],
+    [
+        "food_order(type_food=\"burrito\")",
+        "Hi Awesome, what kind of burrito would you like?",
+        "Hi Awesome, what kind of burrito would you like?"
+    ],
+    [
+        "food_order(name_item=\"Jalapenos\";other_description_item=\"on the side\")",
+        "Ok, that was a large steak burrito, with everything extra cheese. Hot sauce and Jalapenos on the side with a large Cherry Coke, is that correct?",
+        "Ok, that was a large steak burrito, with everything extra cheese. Hot sauce and Jalapenos on the side with a large Cherry Coke, is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"diet coke\";other_description_item=\"in the side\")",
+        "You ordered a pasta with salad, and crusty bread in the side and diet coke.",
+        "You ordered a pasta with salad, and crusty bread in the side and diet coke."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"3 pasta\")",
+        "Okay, takeout for 3 pasta got it.",
+        "Okay, takeout for 3 pasta got it."
+    ],
+    [
+        "food_order(name_item=\"Lasagna with mozzarella and Italian sausage\")",
+        "Lasagna with mozzarella and Italian sausage got it. Anything else?",
+        "Lasagna with mozzarella and Italian sausage got it. Anything else?"
+    ],
+    [
+        "food_order(name_item=\"breadsticks\")",
+        "One order of breadsticks.",
+        "One order of breadsticks."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"Italian\")",
+        "What would you like to order in Italian food?",
+        "What would you like to order in Italian food?"
+    ],
+    [
+        "food_order(type_food=\"pasta salads\")",
+        "How many pasta salads and what kind?",
+        "How many pasta salads and what kind?"
+    ],
+    [
+        "food_order(name_item=\"Seafood Pasta Salad\")",
+        "I have a few choices. Broccoli Pasta Salad, Chicken Pasta Salad, Tomato Pasta Salad. and Seafood Pasta Salad. Which one would you choose?",
+        "I have a few choices. Broccoli Pasta Salad, Chicken Pasta Salad, Tomato Pasta Salad. and Seafood Pasta Salad. Which one would you choose?"
+    ],
+    [
+        "food_order(name_item=\"two chicken pasta salad\";other_description_item=\"with a side of Italian dressing\")",
+        "Just to confirm, you would like to order two chicken pasta salad with a side of Italian dressing. Is that correct?",
+        "Just to confirm, you would like to order two chicken pasta salad with a side of Italian dressing. Is that correct?"
+    ],
+    [
+        "food_order(name_item=\"One bottle of red wine\")",
+        "One bottle of red wine added to the order.",
+        "One bottle of red wine added to the order."
+    ],
+    [
+        "food_order(name_item=\"1 bottle of red wine\";other_description_item=\"with a side of Italian dressing\")",
+        "Just to confirm, you would like to order two chicken pasta salad with a side of Italian dressing and 1 bottle of red wine.",
+        "Just to confirm, you would like to order two chicken pasta salad with a side of Italian dressing and 1 bottle of red wine."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"a roast beef fry\")",
+        "Just one moment. To confirm your order. I have one chicken Caesar wrap. One tuna salad wrap and a roast beef fry, is that correct?",
+        "Just one moment. To confirm your order. I have one chicken Caesar wrap. One tuna salad wrap and a roast beef fry, is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"takeout\")",
+        "I can help you order takeout. What would you like to eat?",
+        "I can help you order takeout. What would you like to eat?"
+    ],
+    [
+        "food_order(type_retrieval=\"takeout\";name_item=\"one order of Shrimp Fried rice\")",
+        "For your takeout order, I have one General Tso's Chicken, one order of Shrimp Fried rice and 2 Spring Rolls. Is that correct?",
+        "For your takeout order, I have one General Tso's Chicken, one order of Shrimp Fried rice and 2 Spring Rolls. Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"take out\")",
+        "I can help you are take out. How many people will you be ordering?",
+        "I can help you are take out. How many people will you be ordering?"
+    ],
+    [
+        "food_order(name_item=\"a Diet Coke\";other_description_item=\"a side of\")",
+        "So to confirm your order, I have one turkey sub with cheese mayo lettuce tomato, a side of fries and a Diet Coke, Is that correct?",
+        "So to confirm your order, I have one turkey sub with cheese mayo lettuce tomato, a side of fries and a Diet Coke, Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"soup\")",
+        "What kind of soup you want?",
+        "What kind of soup you want?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"3 chicken Gyros\")",
+        "Is that a total of 3 chicken Gyros or just two?",
+        "Is that a total of 3 chicken Gyros or just two?"
+    ],
+    [
+        "food_order(type_food=\"drinks\")",
+        "Would you like any sides or drinks with that?",
+        "Would you like any sides or drinks with that?"
+    ],
+    [
+        "food_order(name_item=\"1 pita on white naan bread\")",
+        "1 pita on white naan bread and 3 chicken gyros and a 2 liter of Pepsi. Is that correct?",
+        "1 pita on white naan bread and 3 chicken gyros and a 2 liter of Pepsi. Is that correct?"
+    ],
+    [
+        "food_order(type_food=\"pasta\")",
+        "What do you like to order a pizza or pasta?",
+        "What do you like to order a pizza or pasta?"
+    ],
+    [
+        "food_order(type_food=\"pasta\")",
+        "What kind of pasta would you like to order?",
+        "What kind of pasta would you like to order?"
+    ],
+    [
+        "food_order(name_item=\"Fettuccine Alfredo\")",
+        "Fettuccine Alfredo.",
+        "Fettuccine Alfredo."
+    ],
+    [
+        "food_order(name_item=\"angel hair\")",
+        "For the second person, you would like to order chicken masala and angel hair.",
+        "For the second person, you would like to order chicken masala and angel hair."
+    ],
+    [
+        "food_order(name_item=\"linguine with white clam sauce\")",
+        "For the third person, you would like to order linguine with white clam sauce.\u00a0Is that correct?",
+        "For the third person, you would like to order linguine with white clam sauce.\u00a0Is that correct?"
+    ],
+    [
+        "food_order(name_item=\"Bruschettas\";other_description_item=\"Two sides\")",
+        "Two sides Focaccia bread and Bruschettas.",
+        "Two sides Focaccia bread and Bruschettas."
+    ],
+    [
+        "food_order(name_item=\"Bruschetta\")",
+        "The second one would be Bruschetta.",
+        "The second one would be Bruschetta."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"Chinese\";type_retrieval=\"takeout\")",
+        "Okay, sure thing. Chinese takeout and anything else?",
+        "Okay, sure thing. Chinese takeout and anything else?"
+    ],
+    [
+        "food_order(name_item=\"a small Wong Tong soup\")",
+        "Two egg rolls, a large pork fried rice, as well as a small Wong Tong soup. Alright, and it will do it for you today?",
+        "Two egg rolls, a large pork fried rice, as well as a small Wong Tong soup. Alright, and it will do it for you today?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"burger\")",
+        "What would you like to order from the burger place?",
+        "What would you like to order from the burger place?"
+    ],
+    [
+        "food_order(name_item=\"two orders of large fries\")",
+        "Okay. We have three orders of double cheeseburgers, three large sweet teas and two orders of large fries?",
+        "Okay. We have three orders of double cheeseburgers, three large sweet teas and two orders of large fries?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"a caesar salad with breadsticks\";other_description_item=\"with extra cheese\")",
+        "Just to confirm, you would like to order beef lasagna with extra cheese and a caesar salad with breadsticks, is that correct?",
+        "Just to confirm, you would like to order beef lasagna with extra cheese and a caesar salad with breadsticks, is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"one order of butter chicken\")",
+        "Half an order of samosas, one order of butter chicken, anything else?",
+        "Half an order of samosas, one order of butter chicken, anything else?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Got it. \"OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.\"",
+        "Got it. \"OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.\""
+    ],
+    [
+        "food_order(name_item=\"3 large Cokes\")",
+        "3 large Cokes added to your order.",
+        "3 large Cokes added to your order."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"Pasta\";num_people=\"two people\")",
+        "Pasta for two people.",
+        "Pasta for two people."
+    ],
+    [
+        "food_order(name_item=\"2 meatball pastas\";num_people=\"2\")",
+        "I have 2 meatball pastas for 2.",
+        "I have 2 meatball pastas for 2."
+    ],
+    [
+        "food_order(name_item=\"two large diet cokes\";num_people=\"2 people\";other_description_item=\"salad with tomatoes\")",
+        "Pasta for 2 people, one salad with tomatoes and ranch, one salad with tomatoes, two large diet cokes.",
+        "Pasta for 2 people, one salad with tomatoes and ranch, one salad with tomatoes, two large diet cokes."
+    ],
+    [
+        "food_order(name_item=\"two large diet cokes\";num_people=\"2 people\";other_description_item=\"without tomatoes and ranch\")",
+        "Pasta for 2 people, one salad with tomatoes and ranch, one salad without tomatoes and ranch, two large diet cokes.",
+        "Pasta for 2 people, one salad with tomatoes and ranch, one salad without tomatoes and ranch, two large diet cokes."
+    ],
+    [
+        "food_order(name_item=\"Three large cherry cokes\";other_description_item=\"Pickles on the side as well as ketchup\")",
+        "Three gyro plates, extra tomatoes, onions and sour cream. Pickles on the side as well as ketchup. Three large cherry cokes. Does that complete your order?",
+        "Three gyro plates, extra tomatoes, onions and sour cream. Pickles on the side as well as ketchup. Three large cherry cokes. Does that complete your order?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_meal=\"dinner\")",
+        "Enjoy your dinner.",
+        "Enjoy your dinner."
+    ],
+    [
+        "food_order(other_description_item=\"crackers for the soups\")",
+        "Would you like crackers for the soups?",
+        "Would you like crackers for the soups?"
+    ],
+    [
+        "food_order(name_item=\"2 liter bottle of Pepsi\";other_description_item=\"some additional crackers\")",
+        "1 bowl of Clam Chowder, 1 bowl of low fat chicken noodle, one order of Brick Chili,\u00a0 a 2 liter bottle of Pepsi and some additional crackers. Is that right?",
+        "1 bowl of Clam Chowder, 1 bowl of low fat chicken noodle, one order of Brick Chili,\u00a0 a 2 liter bottle of Pepsi and some additional crackers. Is that right?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"a small Mountain Dew\")",
+        "Okay, so you want one\u00a0Chili dog and French Fires and a small Mountain Dew,\u00a0is that correct?",
+        "Okay, so you want one\u00a0Chili dog and French Fires and a small Mountain Dew,\u00a0is that correct?"
+    ],
+    [
+        "food_order(time_pickup=\"15 minutes\")",
+        "It will be ready in 15 minutes, enjoy your meal.",
+        "It will be ready in 15 minutes, enjoy your meal."
+    ],
+    [
+        "food_order(type_retrieval=\"takeout\";num_people=\"three people\";name_item=\"hot dogs\")",
+        "Okay, takeout for three people and you would like to have hot dogs, sounds good.",
+        "Okay, takeout for three people and you would like to have hot dogs, sounds good."
+    ],
+    [
+        "food_order(name_item=\"two with chili\")",
+        "Just to confirm, your order is\u00a0six hot dogs, two with ketchup and two with sauerkraut and mustard on it and two with chili.",
+        "Just to confirm, your order is\u00a0six hot dogs, two with ketchup and two with sauerkraut and mustard on it and two with chili."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"1 Greek Delight crepe\")",
+        "Sure, let me bring that up. Looks like you had 1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe. Is that right?",
+        "Sure, let me bring that up. Looks like you had 1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe. Is that right?"
+    ],
+    [
+        "food_order(name_item=\"A chocolate brownie\")",
+        "A chocolate brownie? Sure. I've added that to the order.",
+        "A chocolate brownie? Sure. I've added that to the order."
+    ],
+    [
+        "food_order(name_item=\"a brownie\")",
+        "Let me confirm what you have, 1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe and a brownie.",
+        "Let me confirm what you have, 1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe and a brownie."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Your order will be ready for pick-up in about 20 minutes.",
+        "Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(num_people=\"3 people\";type_food=\"Chinese\")",
+        "3 people for chinese food what would you prefer in Chinese food?",
+        "3 people for chinese food what would you prefer in Chinese food?"
+    ],
+    [
+        "food_order(name_item=\"2 egg rolls\")",
+        "Just to confirm your order large pork fried, small spare rib and 2 egg rolls.",
+        "Just to confirm your order large pork fried, small spare rib and 2 egg rolls."
+    ],
+    [
+        "food_order(name_item=\"Picture of sweet tea\")",
+        "Picture of sweet tea added to the order.",
+        "Picture of sweet tea added to the order."
+    ],
+    [
+        "food_order(type_food=\"soups\")",
+        "Would you like to try some soups.",
+        "Would you like to try some soups."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"pasta\";name_item=\"Tomato Sauce\";other_description_item=\"3 sides of\")",
+        "Absolutely, what kind of pasta would they like? One order of Fettuccine, Pal-Mini, two orders of Ravioli and 3 sides of Tomato Sauce. Is this correct?",
+        "Absolutely, what kind of pasta would they like? One order of Fettuccine, Pal-Mini, two orders of Ravioli and 3 sides of Tomato Sauce. Is this correct?"
+    ],
+    [
+        "food_order(other_description_item=\"1 of each\")",
+        "Correct, 1 of each.",
+        "Correct, 1 of each."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"drinks\")",
+        "Sounds good, would you like any drinks with that?",
+        "Sounds good, would you like any drinks with that?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "\"Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.\"",
+        "\"Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.\""
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"3 small orders of spaghetti and meatballs\";type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "One large meat lovers pizza,one lasagna, 3 small orders of spaghetti and meatballs. OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "One large meat lovers pizza,one lasagna, 3 small orders of spaghetti and meatballs. OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"a can of Coca-Cola\")",
+        "Just to confirm you would like to order the following. Barbecue spare ribs, barbecue pork ribs, ice tea and a can of Coca-Cola\u00a0.",
+        "Just to confirm you would like to order the following. Barbecue spare ribs, barbecue pork ribs, ice tea and a can of Coca-Cola\u00a0."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"a can of Diet Pepsi\")",
+        "One beef tongue quesadilla and a can of Diet Pepsi.",
+        "One beef tongue quesadilla and a can of Diet Pepsi."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"breakfast burrito\";num_people=\"Three orders\")",
+        "Three orders of breakfast burrito.",
+        "Three orders of breakfast burrito."
+    ],
+    [
+        "food_order(name_item=\"3 cokes\";other_description_item=\"extra sauce on the side\";type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "One moment.\u00a03 order of steak burritos, extra sauce on the side, 3 Spanish rice and 3 cokes.\u00a0Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "One moment.\u00a03 order of steak burritos, extra sauce on the side, 3 Spanish rice and 3 cokes.\u00a0Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"a basket of dinner rolls\";other_description_item=\"with meatballs and lasagna\")",
+        "Your order is spaghetti with meatballs and lasagna with a basket of dinner rolls, is it?",
+        "Your order is spaghetti with meatballs and lasagna with a basket of dinner rolls, is it?"
+    ],
+    [
+        "food_order(name_item=\"Two large Cokes\")",
+        "Two large Cokes?",
+        "Two large Cokes?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"Barbecue food\";num_people=\"three people\")",
+        "Hi. Barbecue food for three people?",
+        "Hi. Barbecue food for three people?"
+    ],
+    [
+        "food_order(name_item=\"baked beans\")",
+        "A full rack of ribs, chicken soup of the day and baked beans.",
+        "A full rack of ribs, chicken soup of the day and baked beans."
+    ],
+    [
+        "food_order(other_description_item=\"Naked ribs\")",
+        "Naked ribs?",
+        "Naked ribs?"
+    ],
+    [
+        "food_order(total_price=\"$65\";type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Sure. Your order total is $65. Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Sure. Your order total is $65. Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"Mexican\";num_people=\"three people\")",
+        "You would like to order Mexican food for three people. Correct?",
+        "You would like to order Mexican food for three people. Correct?"
+    ],
+    [
+        "food_order(type_food=\"burritos\";name_item=\"salsa\")",
+        "Just to confirm, you order is two burritos (one chicken and one beef); an enchilada with refried beans, chips and salsa.",
+        "Just to confirm, you order is two burritos (one chicken and one beef); an enchilada with refried beans, chips and salsa."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes. Bye.",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes. Bye."
+    ],
+    [
+        "food_order(name_item=\"Medium pepperoni and sausage pizza\")",
+        "Medium pepperoni and sausage pizza. Anything else?",
+        "Medium pepperoni and sausage pizza. Anything else?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"soup\";num_people=\"three people\")",
+        "What kind of soup would you like to order for three people?",
+        "What kind of soup would you like to order for three people?"
+    ],
+    [
+        "food_order(name_item=\"three clam chowder\";type_food=\"drinks\")",
+        "Just to confirm, you would like to order three clam chowder with some drinks.",
+        "Just to confirm, you would like to order three clam chowder with some drinks."
+    ],
+    [
+        "food_order(name_item=\"2 liter of Mountain Dew soda\")",
+        "2 liter of Mountain Dew soda.",
+        "2 liter of Mountain Dew soda."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"Mexican food\")",
+        "Okay, Mexican food, what would you like to order?",
+        "Okay, Mexican food, what would you like to order?"
+    ],
+    [
+        "food_order(name_item=\"one large tortilla\";other_description_item=\"and a side of\")",
+        "2 bean burritos and a side of Siracha and one large tortilla and anything else?",
+        "2 bean burritos and a side of Siracha and one large tortilla and anything else?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay, can I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay, can I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"pasta\")",
+        "What kind of pasta would you prefer?",
+        "What kind of pasta would you prefer?"
+    ],
+    [
+        "food_order(name_item=\"Rigatoni\u00a0in tomato sauce\")",
+        "Rigatoni\u00a0in tomato sauce?",
+        "Rigatoni\u00a0in tomato sauce?"
+    ],
+    [
+        "food_order(other_description_item=\"add additional pepper to it\")",
+        "Would you like to add additional pepper to it?",
+        "Would you like to add additional pepper to it?"
+    ],
+    [
+        "food_order(other_description_item=\"Additional pepper and parmesan cheese added to the the pasta\";name_item=\"pasta\")",
+        "Additional pepper and parmesan cheese added to the the pasta.",
+        "Additional pepper and parmesan cheese added to the the pasta."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"three porks\")",
+        "So just to confirm you would like to order three porks.",
+        "So just to confirm you would like to order three porks."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(num_people=\"3 people\";type_food=\"breakfast burritos\")",
+        "So you would like to order breakfast burritos for 3 people. Is that correct?",
+        "So you would like to order breakfast burritos for 3 people. Is that correct?"
+    ],
+    [
+        "food_order(type_food=\"Burritos\")",
+        "What kind of Burritos?",
+        "What kind of Burritos?"
+    ],
+    [
+        "food_order(name_item=\"sweet potato burrito with egg white, black beans and avocado\")",
+        "Just to confirm you would like to order the following. First sweet potato burrito with egg white, black beans and avocado.",
+        "Just to confirm you would like to order the following. First sweet potato burrito with egg white, black beans and avocado."
+    ],
+    [
+        "food_order(name_item=\"sausage with egg and avocado\")",
+        "Second sausage with egg and avocado.",
+        "Second sausage with egg and avocado."
+    ],
+    [
+        "food_order(name_item=\"sausage, tomato and egg burrito\")",
+        "Okay, so the second one is sausage, tomato and egg burrito, is that correct?",
+        "Okay, so the second one is sausage, tomato and egg burrito, is that correct?"
+    ],
+    [
+        "food_order(name_item=\"chorizo, red pepper, Monterey Jack Burrito\")",
+        "Okay and the third one is chorizo, red pepper, Monterey Jack Burrito.",
+        "Okay and the third one is chorizo, red pepper, Monterey Jack Burrito."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"Ceasar salad with lamb chops\")",
+        "Okay. A bowl of hummus, Ceasar salad with lamb chops and chicken shawarma?",
+        "Okay. A bowl of hummus, Ceasar salad with lamb chops and chicken shawarma?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"soup\")",
+        "I can help you with that. What kind of soup would you like to order?",
+        "I can help you with that. What kind of soup would you like to order?"
+    ],
+    [
+        "food_order(name_item=\"sourdough bread\")",
+        "Just to confirm you would like to order 2 soups. They are one large broccoli and cheese, one large chicken noodle soup and sourdough bread.",
+        "Just to confirm you would like to order 2 soups. They are one large broccoli and cheese, one large chicken noodle soup and sourdough bread."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"Chinese\";type_retrieval=\"takeout\")",
+        "Hi. How can I help you? I can help you order Chinese takeout. How many people will you be ordering for?",
+        "Hi. How can I help you? I can help you order Chinese takeout. How many people will you be ordering for?"
+    ],
+    [
+        "food_order(name_item=\"one egg roll\")",
+        "Pre-order, I have one Singapore spicy noodle with shrimp and fried egg. One order of spareribs and one egg roll, Is that correct?",
+        "Pre-order, I have one Singapore spicy noodle with shrimp and fried egg. One order of spareribs and one egg roll, Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"chicken\";type_food=\"Gyro\")",
+        "And would you like beef or chicken for that Gyro?",
+        "And would you like beef or chicken for that Gyro?"
+    ],
+    [
+        "food_order(name_item=\"a side salad\";other_description_item=\"with no anchovies\")",
+        "1 chicken gyro with extra sauce, a Greek salad, Souvlaki, and a side salad with no anchovies. Is that correct?",
+        "1 chicken gyro with extra sauce, a Greek salad, Souvlaki, and a side salad with no anchovies. Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_meal=\"dinner\")",
+        "No problem. Enjoy your dinner.",
+        "No problem. Enjoy your dinner."
+    ],
+    [
+        "food_order(name_item=\"1 large pizza\";other_description_item=\"with one half pepperoni and one half mushroom\")",
+        "Sure, let me bring that up. Your order was 1 large pizza with one half pepperoni and one half mushroom.",
+        "Sure, let me bring that up. Your order was 1 large pizza with one half pepperoni and one half mushroom."
+    ],
+    [
+        "food_order(name_item=\"1 large pizza\";other_description_item=\"with one half pepperoni and one half mushroom\")",
+        "Okay. Let me confirm what you have. 1 large pizza with one half pepperoni and one half mushroom 2 ice teas and a crazy bread.",
+        "Okay. Let me confirm what you have. 1 large pizza with one half pepperoni and one half mushroom 2 ice teas and a crazy bread."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"1 Greek Delight crepe\";other_description_item=\"with cheddar\")",
+        "Sure, let me bring that up looks like you had 1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe. is that right?",
+        "Sure, let me bring that up looks like you had 1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe. is that right?"
+    ],
+    [
+        "food_order(name_item=\"2 iced teas\";other_description_item=\"with cheddar\")",
+        "1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe. and 2 iced teas.",
+        "1 turkey-avocado crepe with cheddar and 1 Greek Delight crepe. and 2 iced teas."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok, Your order will be ready for pick-up in about 20 minutes.",
+        "Ok, Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"small cheese fries\";other_description_item=\"a side of\")",
+        "1 chilli hot dog, 1 chilli cheese hot dog, 1 can of orange fanta and a side of small cheese fries, do I have your order correct?",
+        "1 chilli hot dog, 1 chilli cheese hot dog, 1 can of orange fanta and a side of small cheese fries, do I have your order correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"takeout\")",
+        "I can help you order takeout. What kind of food would you like to order?",
+        "I can help you order takeout. What kind of food would you like to order?"
+    ],
+    [
+        "food_order(name_item=\"rice\")",
+        "What size rice would you like?",
+        "What size rice would you like?"
+    ],
+    [
+        "food_order(type_food=\"meat\")",
+        "What kind of meat would you like?",
+        "What kind of meat would you like?"
+    ],
+    [
+        "food_order(name_item=\"6 beef tacos\";other_description_item=\"with a side of beans and rice\")",
+        "So to review order I have three quesadillas with a side of beans and rice, one large Spanish rice and 6 beef tacos. Is that correct?",
+        "So to review order I have three quesadillas with a side of beans and rice, one large Spanish rice and 6 beef tacos. Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay, can I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay, can I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"fries\")",
+        "Po' Boy sandwich, a pastrami on rye, and a french cheese steak and three Fanta sodas with a large order of tater tots and fries. Is that correct?",
+        "Po' Boy sandwich, a pastrami on rye, and a french cheese steak and three Fanta sodas with a large order of tater tots and fries. Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"Mexican jumping bean salad\")",
+        "Your orders are three tacos, two enchiladas, and a Mexican jumping bean salad.",
+        "Your orders are three tacos, two enchiladas, and a Mexican jumping bean salad."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok, \"I have your details on file. Your order will be ready for pick-up in about 20 minutes.\"",
+        "Ok, \"I have your details on file. Your order will be ready for pick-up in about 20 minutes.\""
+    ],
+    [
+        "food_order(type_food=\"soup\")",
+        "What kind of soup would you like to order?",
+        "What kind of soup would you like to order?"
+    ],
+    [
+        "food_order(name_item=\"three baked potato soup\";other_description_item=\"with extra sour cream\")",
+        "Just to confirm, you would like to order three baked potato soup with extra sour cream.",
+        "Just to confirm, you would like to order three baked potato soup with extra sour cream."
+    ],
+    [
+        "food_order(name_item=\"3 diet sodas\")",
+        "3 diet sodas added to your order.",
+        "3 diet sodas added to your order."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"large coke\";other_description_item=\"with extra sauce on top\")",
+        "One order of pasta with extra sauce on top, Okay, Sure thing, do you want marinara sauce or Alfredo sauce and two sides of garlic bread on the side and extra cheese on the side the little parmesan pack and cheese and a large coke and anything else?",
+        "One order of pasta with extra sauce on top, Okay, Sure thing, do you want marinara sauce or Alfredo sauce and two sides of garlic bread on the side and extra cheese on the side the little parmesan pack and cheese and a large coke and anything else?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"3 tiramisu\")",
+        "Just to confirm you would like to order a large pepperoni with black Olive and a large Coke with 3 tiramisu.",
+        "Just to confirm you would like to order a large pepperoni with black Olive and a large Coke with 3 tiramisu."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"takeout\";num_people=\"3\";type_food=\"Italian style\")",
+        "Okay, takeout for 3 Italian style.",
+        "Okay, takeout for 3 Italian style."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Noted. Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Noted. Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"One chicken gyro\")",
+        "One chicken gyro. Anything else?",
+        "One chicken gyro. Anything else?"
+    ],
+    [
+        "food_order(name_item=\"2 litre of Mountain Dew\")",
+        "2 litre of Mountain Dew as well.",
+        "2 litre of Mountain Dew as well."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"three orders of pad thai\")",
+        "Just to confirm, you would like to order three orders of pad thai?",
+        "Just to confirm, you would like to order three orders of pad thai?"
+    ],
+    [
+        "food_order(type_food=\"meat\")",
+        "What kind of meat would you prefer with that?",
+        "What kind of meat would you prefer with that?"
+    ],
+    [
+        "food_order(name_item=\"three orders of pad thai with chicken\")",
+        "Okay, you would like to order three orders of pad thai with chicken.",
+        "Okay, you would like to order three orders of pad thai with chicken."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"takeout\")",
+        "Hi. How can I help you? Yes, absolutely. What would you like to order for takeout and for how many people?",
+        "Hi. How can I help you? Yes, absolutely. What would you like to order for takeout and for how many people?"
+    ],
+    [
+        "food_order(type_food=\"Pasta\")",
+        "Pasta, okay. What kind?",
+        "Pasta, okay. What kind?"
+    ],
+    [
+        "food_order(name_item=\"salad with ranch dressing\")",
+        "Just to confirm. You would like to order fettuccine alfredo garlic bread extra salad with ranch dressing.",
+        "Just to confirm. You would like to order fettuccine alfredo garlic bread extra salad with ranch dressing."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_food=\"Greek\";type_retrieval=\"takeout\";num_people=\"3\")",
+        "You were wanting to order Greek takeout for 3?",
+        "You were wanting to order Greek takeout for 3?"
+    ],
+    [
+        "food_order(name_item=\"2 liters of Mountain Dew\";other_description_item=\"with no onions\")",
+        "Two Pork gyros with extra onions, one chicken gyro with no onions, and 2 liters of Mountain Dew. Is this right?",
+        "Two Pork gyros with extra onions, one chicken gyro with no onions, and 2 liters of Mountain Dew. Is this right?"
+    ],
+    [
+        "food_order(name_item=\"3 gyros\")",
+        "Okay, 3 gyros. Anything else? Any specific toppings?",
+        "Okay, 3 gyros. Anything else? Any specific toppings?"
+    ],
+    [
+        "food_order(other_description_item=\"with pesto and lettuce on all three\")",
+        "1 lamb, and two chicken, with pesto and lettuce on all three. Anything else?",
+        "1 lamb, and two chicken, with pesto and lettuce on all three. Anything else?"
+    ],
+    [
+        "food_order(other_description_item=\"with pesto, lettuce and tomato on all three\")",
+        "Okay, 1 lamb, two chicken, with pesto, lettuce and tomato on all three, does that complete your order?",
+        "Okay, 1 lamb, two chicken, with pesto, lettuce and tomato on all three, does that complete your order?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(type_meal=\"dinner\")",
+        "You're welcome. Enjoy your dinner!",
+        "You're welcome. Enjoy your dinner!"
+    ],
+    [
+        "food_order(name_item=\"large pizza with banana peppers and pepperoni\")",
+        "A large pizza with banana peppers and pepperoni.",
+        "A large pizza with banana peppers and pepperoni."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"pizza\")",
+        "No worries enjoy your pizza.",
+        "No worries enjoy your pizza."
+    ],
+    [
+        "food_order(name_item=\"1 Lasagne\")",
+        "Just to confirm you would like to order 1 Lasagne.",
+        "Just to confirm you would like to order 1 Lasagne."
+    ],
+    [
+        "food_order(type_food=\"meat\")",
+        "Any preferred meat?",
+        "Any preferred meat?"
+    ],
+    [
+        "food_order(name_item=\"one beef Lasagna\")",
+        "Just to confirm you would like to order one beef Lasagna.",
+        "Just to confirm you would like to order one beef Lasagna."
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes. You're welcome. Bye.",
+        "Okay, I have your personal details on file. Your order will be ready for pick-up in about 20 minutes. You're welcome. Bye."
+    ],
+    [
+        "food_order(type_food=\"pork balls\")",
+        "Okay. What type of pork balls?",
+        "Okay. What type of pork balls?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"about 20 minutes\")",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes.",
+        "Okay, I have your details on file. Your order will be ready for pick-up in about 20 minutes."
+    ],
+    [
+        "food_order(name_item=\"three Water bottles\")",
+        "Just to confirm your order, you would like to order 2 pad Thai, one Drunken Noodles and three Water bottles. Is that correct?",
+        "Just to confirm your order, you would like to order 2 pad Thai, one Drunken Noodles and three Water bottles. Is that correct?"
+    ],
+    [
+        "food_order(type_retrieval=\"pick-up\";time_pickup=\"20 minutes\")",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.",
+        "Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes."
+    ]
+]

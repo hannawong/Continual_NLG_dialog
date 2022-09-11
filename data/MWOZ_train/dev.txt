@@ -1,0 +1,59 @@
+train_inform ( choice = "several") & I have found several, is there a day and time you are looking for?
+train_inform ( duration = "38 minutes" ; leaveat = "7:29" ; trainid = "TR4162") & TR4162 departs at 7:29 and total duration is 38 minutes. Do you need to reserve a seat?
+train_inform ( choice = "10" ; leaveat = "5:17") & There are 10 train departures that may match your needs. The earliest train departs at 5:17. Does this work for you or would you like a different time in particular?
+train_inform ( arriveby = "12:08" ; trainid = "TR2417") & Yes, TR2417 arrives at 12:08. Would you like me to book it?
+train_inform ( price = "23.60 pounds" ; trainid = "TR2417") & TR2417 is 23.60 pounds, would you like to book a seat?
+train_inform ( leaveat = "11:17" ; trainid = "TR2417") & TR2417 departs at 11:17. Do you need any further assistance?
+train_inform ( choice = "10 different" ; departure = "Stevenage" ; destination = "Cambridge") & I have 10 different trains that day from Stevenage to Cambridge. What time would you like to leave?
+train_inform ( leaveat = "13:54" ; trainid = "TR7785") & Ok, I have TR7785 that leaves Friday at 13:54. Would you like me to book it?
+train_inform ( arriveby = "13:58" ; leaveat = "13:11") & There is a train depart at 13:11 and arrive by 13:58. Would that work for you?
+train_inform ( departure = "London--King's Cross Station") & Please confirm where you are coming from. Are you leaving from London--King's Cross Station? Or from somewhere else?
+train_inform ( arriveby = "12:07" ; destination = "Cambridge" ; trainid = "TR4173") & I'm sorry for the mix-up, train TR0516 is not available on Tuesday. I do have TR4173 available but it arrives in Cambridge at 12:07. Will this work?
+train_inform ( arriveby = "07:07" ; day = "friday" ; departure = "Liverpool Street" ; destination = "Cambridge" ; leaveat = "05:39") & The train departs Liverpool Street on friday at 05:39 and arrives in Cambridge at 07:07. Is there anything else I can assist you with?
+train_inform ( duration = "88 minutes") & 88 minutes to travel
+train_inform ( choice = "many" ; day = "Sundays") & There are many trains on Sundays. Do you have a departure point or destination in mind?
+train_inform ( arriveby = "05:51" ; day = "sunday" ; departure = "cambridge" ; destination = "london kings cross" ; duration = "51 minutes" ; leaveat = "05:00" ; price = "18.88 pounds" ; trainid = "TR7423") & there is the information TR7423 cambridge london kings cross sunday 05:00 05:51 18.88 pounds 51 minutes
+train_inform ( choice = "a train" ; leaveat = "17:54") & I have a train that departs at 17:54 and meets your criteria. Would you like me to book it for you?
+train_inform ( choice = "19") & There are 19 total trips available to you
+train_inform ( trainid = "TR3447") & How about TR3447?
+train_inform ( arriveby = "09:58" ; day = "thursday" ; departure = "kings lynn" ; destination = "cambridge" ; duration = "47 minutes" ; leaveat = "09:11" ; price = "9.80 pounds" ; trainid = "TR3447") & trainID departure destination day leaveAt arriveBy price duration book (optional) TR3447 kings lynn cambridge thursday 09:11 09:58 9.80 pounds 47 minutes
+train_inform ( duration = "47 minutes" ; price = "9.80 pounds") & Sorry about that. The travel time is 47 minutes and the cost is 9.80 pounds. Anything else I can do for you?
+train_inform ( choice = "two trains an hour" ; departure = "peterborough") & There are two trains an hour leaving peterborough all evening. Do you know what time you plan to leave?
+train_inform ( arriveby = "19:09" ; departure = "Peterborough" ; destination = "Cambridge" ; leaveat = "18:19" ; trainid = "TR4182") & TR4182 leaves Peterborough at 18:19 and arrives in Cambridge at 19:09. Will this work for you?
+train_inform ( price = "16.50 pounds") & The price is 16.50 pounds.
+train_inform ( choice = "plenty" ; leaveat = "5:17") & you have plenty of trains leaving from 5:17 every second hour onwards. Do you want me to book one?
+train_inform ( choice = "11") & There are 11 choices that are available. At what time would you like to arrive?
+train_inform ( leaveat = "13:09" ; leaveat = "every hour") & First train leaves at 13:09 and then every hour. Do you want me to book for you?
+train_inform ( arriveby = "6:35" ; leaveat = "5:16" ; leaveat = "every hour") & I am sorry there are not trains to arrive at 13.31. The first train leaves at 5:16 and arrives at 6:35. The trains depart every hour.
+train_inform ( duration = "79 minutes") & The total travel time is 79 minutes.
+train_inform ( choice = "19" ; day = "tuesday" ; departure = "leicester") & I have 19 trains departing on tuesday from leicester, I can narrow it down a bit if you have a preferred time to leave at or arrive by.
+train_inform ( choice = "many available") & I have many available. Is your destination Cambridge or do you have another location in mind?
+train_inform ( arriveby = "13:54" ; leaveat = "12:09" ; trainid = "TR4354") & The first available train leaving after 11:15 would be train TR4354 which departs at 12:09 and arrives at 13:54. Would you like me to book you a ticket for this train?
+train_inform ( arriveby = "20:08" ; departure = "london kings cross" ; destination = "cambridge" ; leaveat = "19:17" ; price = "23.60 GBP" ; trainid = "TR8288") & You're in luck! TR8288 departs london kings cross at 19:17, arriving in cambridge at 20:08. The fare is 23.60 GBP. Can I help with anything else today?
+train_inform ( leaveat = "12:09" ; trainid = "TR7248") & The TR7248 leaves at 12:09, would you like a ticket on that train?
+train_inform ( arriveby = "13:54" ; destination = "Cambridge" ; price = "30.24 pounds") & Yes the train arrives in Cambridge at 13:54 and the total cost of the journey is 30.24 pounds.
+train_inform ( arriveby = "23:08" ; leaveat = "22:40" ; trainid = "TR3864") & How about TR3864, which leaves at 22:40? They arrive at 23:08.
+train_inform ( duration = "28 minutes") & The travel time for that train will be 28 minutes.
+train_inform ( choice = "two" ; duration = "49 minutes" ; leaveat = "21:54" ; leaveat = "23:54" ; price = "12.80 pounds" ; trainid = "TR3606" ; trainid = "TR9084") & Okay, I have two trains that might work. TR9084 departs at 21:54 and TR3606 leaves at 23:54. Both have a duration of 49 minutes and cost 12.80 pounds. Anything else today?
+train_inform ( leaveat = "10:09" ; trainid = "TR0032") & Very well. The earliest train is TR0032, which leaves at 10:09. Is that alright?
+train_inform ( leaveat = "11:54" ; price = "37.80 pounds" ; trainid = "TR0032") & TR0032 arrives at 11:54 and costs 37.80 pounds. May I book that for you?
+train_inform ( arriveby = "17:52" ; day = "Wednesday" ; leaveat = "17:35" ; price = "4.40 pounds") & The latest train arrives at 17:52 on a Wednesday, departs at 17:35 and the cost of the ticket is 4.40 pounds.
+train_inform ( choice = "several") & There are several trains available. Could you specify which day?
+train_inform ( arriveby = "6:09" ; leaveat = "5:19") & I have a train that leaves at 5:19 and arrives by 6:09. Does this work for you?
+train_inform ( choice = "221" ; day = "Sunday") & I would be happy to help you. I have 221 trains departing Sunday, what day/time will you be departing and what is your destination?
+train_inform ( choice = "lots") & Certainly, there are lots of trains available. Which day would you like to travel?
+train_inform ( arriveby = "18:07" ; departure = "Bishops Strotford" ; destination = "Cambridge" ; leaveat = "17:29" ; trainid = "TR5298") & Train TR5298 leaves at Bishops Strotford at 17:29 and arrives in Cambridge at 18:07. Would you like to book this trip?
+train_inform ( choice = "many" ; departure = "London Kings Cross" ; destination = "Cambridge") & I can assist you with that. There are many options available to you leaving London Kings Cross arriving in Cambridge, what day and time would you prefer?
+train_inform ( leaveat = "11:17" ; trainid = "TR7147") & TR7147 departs at 11:17 would that work?
+train_inform ( choice = "318") & There are 318 trains that fit your criteria. To narrow some information down, what is your destination, departure site and preferred departure time?
+train_inform ( arriveby = "07:06" ; day = "Sunday" ; departure = "Cambridge" ; destination = "Leicester" ; leaveat = "05:21" ; price = "30.24 pounds") & There is a train leaving Cambridge on Sunday 05:21, and arriving at Leicester at 07:06 for 30.24 pounds. Would you like me to book this for you?
+train_inform ( trainid = "TR2025") & The train ID is TR2025.
+train_inform ( arriveby = "12:45" ; choice = "14") & There are 14 trains that arrive by 12:45. What time would you like to leave?
+train_inform ( arriveby = "12:38" ; leaveat = "11:48" ; price = "13.20 GBP") & The latest train leaves at 11:48 and arrives at 12:38. The cost per ticket is 13.20 GBP. Would you like to book this train?
+train_inform ( day = "Monday" ; leaveat = "12:40" ; trainid = "TR8699") & TR8699 leaves at 12:40 on Monday. Would you like to book a ticket?
+train_inform ( arriveby = "14:08" ; departure = "london kings cross" ; destination = "cambridge" ; leaveat = "13:17" ; price = "23.60 pounds" ; trainid = "TR2512") & The TR2512 leaves london kings cross at 13:17 and arrives cambridge at 14:08. It's price is 23.60 pounds per person. Shall I book it?
+train_inform ( choice = "many" ; destination = "Leicester") & Certainly, there are many trains going to Leicester. Where is your departure location?
+train_inform ( arriveby = "17:06" ; departure = "Cambridge" ; destination = "Leicester" ; leaveat = "15:21" ; trainid = "TR9839") & I have train TR9839 that leaves Cambridge at 15:21 and arrives in Leicester at 17:06. Would that suit your needs? If so, I can book you a ticket.
+train_inform ( duration = "105 minutes" ; price = "37.80 pounds") & Price is 37.80 pounds and travel time is 105 minutes.
+train_inform ( choice = "19") & There are 19 trains do you have a time you'd like to travel?
+train_inform ( arriveby = "12:06" ; choice = "one" ; departure = "Cambridge" ; destination = "Leicester" ; leaveat = "10:21") & I have one leaving Cambridge at 10:21 and arriving in Leicester at 12:06. Would you like to book tickets?

@@ -1,0 +1,1722 @@
+[
+    [
+        "movie_ticket(time_start=\"7pm\";name_theater=\"Cinemark Movies 5\")",
+        "Alright there's a 7pm showing at Cinemark Movies 5.",
+        "Alright there's a 7pm showing at Cinemark Movies 5."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\")",
+        "Absolutely, that's 2 tickets right?",
+        "Absolutely, that's 2 tickets right?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";name_movie_accept=\"Bohemian Rhapsody\";location_theater_accept=\"Vacaville CA\";name_theater_accept=\"the Cinemark Movies 5\")",
+        "That's 2 tickets to Bohemian Rhapsody in Vacaville CA at the Cinemark Movies 5.",
+        "That's 2 tickets to Bohemian Rhapsody in Vacaville CA at the Cinemark Movies 5."
+    ],
+    [
+        "movie_ticket(time_start=\"4:40\")",
+        "okay, one moment please. I found a few show times you might like. The first starts at 4:05, the next is at 4:40. there are many other showtimes if you'd like to hear a later time.",
+        "okay, one moment please. I found a few show times you might like. The first starts at 4:05, the next is at 4:40. there are many other showtimes if you'd like to hear a later time."
+    ],
+    [
+        "movie_ticket(time_start=\"10:25\")",
+        "Sure the next is 6:30, then 7:15 and then 7:50. furthermore there is a 9:40 showing and a 10:25 showing.",
+        "Sure the next is 6:30, then 7:15 and then 7:50. furthermore there is a 9:40 showing and a 10:25 showing."
+    ],
+    [
+        "movie_ticket(type_screening=\"4dx\";name_movie_accept=\"Glass\")",
+        "sure, what city are you located? do you have any preference for standard, 3d or 4dx? when would you like to watch Glass?",
+        "sure, what city are you located? do you have any preference for standard, 3d or 4dx? when would you like to watch Glass?"
+    ],
+    [
+        "movie_ticket(type_screening_accept=\"4DX\";time_start=\"10pm\";name_theater=\"A Barco Innovation Center\")",
+        "for the 4DX, i found showtimes at 6:50pm and 10pm at the Regal L.A. LIVE: A Barco Innovation Center.",
+        "for the 4DX, i found showtimes at 6:50pm and 10pm at the Regal L.A. LIVE: A Barco Innovation Center."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$23.50\")",
+        "ok, the total is $23.50.",
+        "ok, the total is $23.50."
+    ],
+    [
+        "movie_ticket(time_start=\"11:30pm\")",
+        "ok, there is only one showing at 11:30pm will that work?",
+        "ok, there is only one showing at 11:30pm will that work?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\")",
+        "and you wanted 2 tickets?",
+        "and you wanted 2 tickets?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\")",
+        "did you want 2 tickets?",
+        "did you want 2 tickets?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";name_movie_accept=\"glass\";name_theater_accept=\"odeon luxe leicester square\";time_start_accept=\"11:30\")",
+        "i have booked 2 tickets to see glass at odeon luxe leicester square at 11:30 tonight.",
+        "i have booked 2 tickets to see glass at odeon luxe leicester square at 11:30 tonight."
+    ],
+    [
+        "movie_ticket(type_screening=\"3d\";time_start=\"8 pm\")",
+        "there is a standard showing at 10:15 and a 3d showing at 8 pm.",
+        "there is a standard showing at 10:15 and a 3d showing at 8 pm."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\";price_ticket=\"28 dollars\")",
+        "ok, give me one moment to book that for you. for 2 tickets the price will be 28 dollars, is that ok?",
+        "ok, give me one moment to book that for you. for 2 tickets the price will be 28 dollars, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start=\"10:30\")",
+        "I have shows between 6:30 and 10:30.",
+        "I have shows between 6:30 and 10:30."
+    ],
+    [
+        "movie_ticket(time_start=\"6:35\";name_theater=\"Regal Cinemas\")",
+        "Alright let's try at 6:35 at Regal Cinemas.",
+        "Alright let's try at 6:35 at Regal Cinemas."
+    ],
+    [
+        "movie_ticket(time_start=\"7 pm\")",
+        "The next showing is at 7 pm, does that work?",
+        "The next showing is at 7 pm, does that work?"
+    ],
+    [
+        "movie_ticket(time_start_accept=\"7pm\";name_theater_accept=\"AMC Southlake\";name_movie_accept=\"Vice\")",
+        "Great so I have 7pm at AMC Southlake to see Vice.",
+        "Great so I have 7pm at AMC Southlake to see Vice."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2 tickets\")",
+        "That's 2 tickets right?",
+        "That's 2 tickets right?"
+    ],
+    [
+        "movie_ticket(name_movie_reject=\"captain marvel\")",
+        "sorry, captain marvel hasn't been released yet. did u want another movie?",
+        "sorry, captain marvel hasn't been released yet. did u want another movie?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"4\";time_start=\"8pm\")",
+        "ok, and you said you wanted 4 tickets after 8pm, is that right?",
+        "ok, and you said you wanted 4 tickets after 8pm, is that right?"
+    ],
+    [
+        "movie_ticket(name_theater=\"United Artists Riverview Plaza 17 & RPX\";time_start=\"9:45pm\";num_tickets_accept=\"4\";name_movie_accept=\"lego movie 2: the second part\")",
+        "let me look into that for you. one moment please. United Artists Riverview Plaza 17 & RPX has a 9:45pm showing of the lego movie 2: the second part. did u want 4 tickets for this showing?",
+        "let me look into that for you. one moment please. United Artists Riverview Plaza 17 & RPX has a 9:45pm showing of the lego movie 2: the second part. did u want 4 tickets for this showing?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$40\")",
+        "great, it'll b $40. i'll charge the card on file now.",
+        "great, it'll b $40. i'll charge the card on file now."
+    ],
+    [
+        "movie_ticket(time_start=\"8pm\")",
+        "sorry, this showing is sold out. did you want me to search at another theater for a showtime after 8pm?",
+        "sorry, this showing is sold out. did you want me to search at another theater for a showtime after 8pm?"
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"1 hour and 47 mins\")",
+        "the movie is 1 hour and 47 mins.",
+        "the movie is 1 hour and 47 mins."
+    ],
+    [
+        "movie_ticket(time_start=\"8pm.\")",
+        "ok, let me look for showtimes after 8pm.",
+        "ok, let me look for showtimes after 8pm."
+    ],
+    [
+        "movie_ticket(time_start=\"9:15pm\";name_theater=\"Flint West 14\";name_theater_accept=\"NCG - Trillium Cinema\")",
+        "i found sessions at 8:25pm and 9pm at Flint West 14 and i also found a session at 9:15pm at NCG - Trillium Cinema.",
+        "i found sessions at 8:25pm and 9pm at Flint West 14 and i also found a session at 9:15pm at NCG - Trillium Cinema."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$12.50\")",
+        "sure, the total is $12.50.",
+        "sure, the total is $12.50."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"1\";name_movie_accept=\"How to Train Your Dragon: The Hidden World\";time_start_accept=\"9:15pm\")",
+        "you're all set. 1 ticket for How to Train Your Dragon: The Hidden World at 9:15pm.",
+        "you're all set. 1 ticket for How to Train Your Dragon: The Hidden World at 9:15pm."
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"1 hour and 44 minutes\")",
+        "this movie is 1 hour and 44 minutes long.",
+        "this movie is 1 hour and 44 minutes long."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"3\";name_movie_accept=\"glass\";name_theater_accept=\"amc metreon 16\";time_start_accept=\"10pm\";price_ticket_accept=\"$35\")",
+        "3 tickets to see glass at amc metreon 16 at 10pm is $35. should i order the tickets now?",
+        "3 tickets to see glass at amc metreon 16 at 10pm is $35. should i order the tickets now?"
+    ],
+    [
+        "movie_ticket(name_theater=\"amc champaign 13\")",
+        "are you near amc champaign 13?",
+        "are you near amc champaign 13?"
+    ],
+    [
+        "movie_ticket(time_start=\"7:30\")",
+        "ok, there are showings at 2:30, 5, and 7:30 tonight.",
+        "ok, there are showings at 2:30, 5, and 7:30 tonight."
+    ],
+    [
+        "movie_ticket(price_ticket=\"$12\")",
+        "ok, your total will be $12, is that ok?",
+        "ok, your total will be $12, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start_reject=\"2:30\";time_start=\"5pm\")",
+        "great, let me reserve your ticket, one moment. i'm sorry, it looks like the 2:30 showing is sold out, would you like to go to the 5pm showing or would you like me to find another theater with an earlier showing?",
+        "great, let me reserve your ticket, one moment. i'm sorry, it looks like the 2:30 showing is sold out, would you like to go to the 5pm showing or would you like me to find another theater with an earlier showing?"
+    ],
+    [
+        "movie_ticket(name_theater=\"gqt savoy theater\";time_start=\"3:05\")",
+        "let me check for you, one moment. the gqt savoy theater has a showing at 12:50 and 3:05, would you like to go to one of those showings at that theater?",
+        "let me check for you, one moment. the gqt savoy theater has a showing at 12:50 and 3:05, would you like to go to one of those showings at that theater?"
+    ],
+    [
+        "movie_ticket(time_start=\"3:05\")",
+        "great, i'll reserve your ticket for the 3:05 showing.",
+        "great, i'll reserve your ticket for the 3:05 showing."
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"isn't it romantic\";time_start_accept=\"3:05\";name_theater_accept=\"the gqt savoy theater\")",
+        "ok, i have purchased you 1 ticket to see isn't it romantic at 3:05 today at the gqt savoy theater, can i help you with anything else?",
+        "ok, i have purchased you 1 ticket to see isn't it romantic at 3:05 today at the gqt savoy theater, can i help you with anything else?"
+    ],
+    [
+        "movie_ticket(name_movie=\"san antonio\")",
+        "sure, you said san antonio right?",
+        "sure, you said san antonio right?"
+    ],
+    [
+        "movie_ticket(name_movie=\"stan and ollie's\";name_theater=\"santiko's embassy\";time_start=\"10:05pm\")",
+        "got it. one moment please. I see that stan and ollie's is playing at santiko's embassy tonight. 5:15pm, 7:40pm, and 10:05pm.",
+        "got it. one moment please. I see that stan and ollie's is playing at santiko's embassy tonight. 5:15pm, 7:40pm, and 10:05pm."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";time_start_accept=\"7:40\";name_movie_accept=\"stan and olli's\";name_theater_accept=\"santiko's embassy. that'll\";price_ticket_accept=\"$24\")",
+        "sure, 2 adult tickets for the 7:40 showing of stan and olli's at santiko's embassy. that'll be $24.",
+        "sure, 2 adult tickets for the 7:40 showing of stan and olli's at santiko's embassy. that'll be $24."
+    ],
+    [
+        "movie_ticket(name_movie=\"bohemian rhapsody\")",
+        "sure, i've heard glass is great. aquaman is a good choice. and bohemian rhapsody is good as well.",
+        "sure, i've heard glass is great. aquaman is a good choice. and bohemian rhapsody is good as well."
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"Captain Marvel\")",
+        "Captain Marvel does not come out until march, did you want to select another movie?",
+        "Captain Marvel does not come out until march, did you want to select another movie?"
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"regal cinemas\")",
+        "ok, i'll find theaters near you. are you near regal cinemas?",
+        "ok, i'll find theaters near you. are you near regal cinemas?"
+    ],
+    [
+        "movie_ticket(time_start=\"10pm\")",
+        "ok, there is a showing at 7:30 and 10pm.",
+        "ok, there is a showing at 7:30 and 10pm."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$26\")",
+        "the total will be $26, is that ok?",
+        "the total will be $26, is that ok?"
+    ],
+    [
+        "movie_ticket(name_theater=\"AMC Metreon 15\";name_movie=\"The Upside\";time_start=\"10:00pm\")",
+        "AMC Metreon 15 is playing The Upside today at 6:45pm and 10:00pm.",
+        "AMC Metreon 15 is playing The Upside today at 6:45pm and 10:00pm."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";name_movie_accept=\"The Upside\";time_start_accept=\"10pm\";name_theater_accept=\"the AMC Metron 15\";price_ticket_accept=\"$30\")",
+        "do either of these showtimes work for you sir? got it. 2 tickets to see The Upside at 10pm at the AMC Metron 15 will come out to $30.",
+        "do either of these showtimes work for you sir? got it. 2 tickets to see The Upside at 10pm at the AMC Metron 15 will come out to $30."
+    ],
+    [
+        "movie_ticket(time_start_reject=\"9:30\")",
+        "Got it. There's a 9:30 showing is that okay?",
+        "Got it. There's a 9:30 showing is that okay?"
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"Bow Tie Cinema palace 17\";time_start_accept=\"9:30.\")",
+        "ALrigh that'll be the Bow Tie Cinema palace 17 for 9:30.",
+        "ALrigh that'll be the Bow Tie Cinema palace 17 for 9:30."
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"amc phipps plaza\";num_tickets=\"2\";time_start=\"10:10\")",
+        "ok, let me look for showtimes near you. it looks like amc phipps plaza has 2 showings one at 7:40 and one at 10:10.",
+        "ok, let me look for showtimes near you. it looks like amc phipps plaza has 2 showings one at 7:40 and one at 10:10."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\";time_start_accept=\"10:10\";price_ticket_accept=\"$26\")",
+        "sure, i can book 2 tickets for the 10:10 showing. it will be $26 total, is that ok?",
+        "sure, i can book 2 tickets for the 10:10 showing. it will be $26 total, is that ok?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\")",
+        "i can reserve 2 tickets, but you will have to pay at the theater if you are using a gift card.",
+        "i can reserve 2 tickets, but you will have to pay at the theater if you are using a gift card."
+    ],
+    [
+        "movie_ticket(name_movie=\"cold pursuit\")",
+        "sure, did you want to watch cold pursuit today?",
+        "sure, did you want to watch cold pursuit today?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"3\")",
+        "oh okay, i'll change that to 3 tickets.",
+        "oh okay, i'll change that to 3 tickets."
+    ],
+    [
+        "movie_ticket(name_theater=\"AMC Fashion Valley 18\";location_theater_accept=\"san diego\";name_movie=\"cold pursuit\";time_start=\"9:20pm\")",
+        "let me look into options for you. ok sure thing. AMC Fashion Valley 18 in san diego is showing cold pursuit at 6:10pm and 9:20pm today. Which show time did you prefer?",
+        "let me look into options for you. ok sure thing. AMC Fashion Valley 18 in san diego is showing cold pursuit at 6:10pm and 9:20pm today. Which show time did you prefer?"
+    ],
+    [
+        "movie_ticket(time_start=\"9:20pm\")",
+        "sorry, the showtime you selected is actually sold out. Did you want the 9:20pm show time? or should i cancel?",
+        "sorry, the showtime you selected is actually sold out. Did you want the 9:20pm show time? or should i cancel?"
+    ],
+    [
+        "movie_ticket(time_start_accept=\"9:20pm\";price_ticket_accept=\"$36\";num_tickets_accept=\"3\")",
+        "9:20pm it is. The price is the same, $36. I'll process the payment for 3 tickets now.",
+        "9:20pm it is. The price is the same, $36. I'll process the payment for 3 tickets now."
+    ],
+    [
+        "movie_ticket(num_tickets_reject=\"two\")",
+        "and you said you needed a few tickets, did you want me to look up two tickets?",
+        "and you said you needed a few tickets, did you want me to look up two tickets?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"1\";time_start_reject=\"4:15\";price_ticket_accept=\"$13\")",
+        "1 ticket for the 4:15 showing will b $13. i'll charge the card on file now.",
+        "1 ticket for the 4:15 showing will b $13. i'll charge the card on file now."
+    ],
+    [
+        "movie_ticket(time_start=\"8pm\")",
+        "yes. they have 8pm.",
+        "yes. they have 8pm."
+    ],
+    [
+        "movie_ticket(time_start=\"9pm\")",
+        "and 9pm.",
+        "and 9pm."
+    ],
+    [
+        "movie_ticket(num_tickets=\"two\")",
+        "ok for two, correct?",
+        "ok for two, correct?"
+    ],
+    [
+        "movie_ticket(type_screening=\"3D\")",
+        "Did you want imax , 3D, or standard?",
+        "Did you want imax , 3D, or standard?"
+    ],
+    [
+        "movie_ticket(type_screening=\"3D\")@restaurant_reservation(type_seating=\"standard\")",
+        "Did you want imax , 3D, or standard?",
+        "Did you want imax , 3D, or standard?"
+    ],
+    [
+        "movie_ticket(type_screening_accept=\"imax\";time_start_accept=\"10:30\")",
+        "Great. I've got an imax showing at 10:30.",
+        "Great. I've got an imax showing at 10:30."
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"1h 47m\";num_tickets_accept=\"3 people\")",
+        "1h 47m That's for 3 people right?",
+        "1h 47m That's for 3 people right?"
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"AMC Lincoln square\")",
+        "Great. AMC Lincoln square is the theater and you'll be getting your tickets via mobile.",
+        "Great. AMC Lincoln square is the theater and you'll be getting your tickets via mobile."
+    ],
+    [
+        "movie_ticket(name_theater=\"century 10 downtown\")",
+        "are you near century 10 downtown?",
+        "are you near century 10 downtown?"
+    ],
+    [
+        "movie_ticket(name_movie=\"aaliyah battle angel\")",
+        "you said aaliyah battle angel?",
+        "you said aaliyah battle angel?"
+    ],
+    [
+        "movie_ticket(location_theater=\"ventura\")",
+        "i'm not seeing that movie being played in any theaters in ventura.",
+        "i'm not seeing that movie being played in any theaters in ventura."
+    ],
+    [
+        "movie_ticket(time_start_reject=\"2:30\")",
+        "ok, there is one at 2:30, would you be able to make that?",
+        "ok, there is one at 2:30, would you be able to make that?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$39\")",
+        "sure, your total will be $39, is that ok?",
+        "sure, your total will be $39, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start=\"4:15\")",
+        "ok, let me book that for you, one moment. i'm sorry, it looks like this showing is completely sold out, the next showing is at 4:15, is that ok?",
+        "ok, let me book that for you, one moment. i'm sorry, it looks like this showing is completely sold out, the next showing is at 4:15, is that ok?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"3\";name_movie_accept=\"the lego movie 2\";time_start_accept=\"4:15pm today\";name_theater_accept=\"century 10 downtown\")",
+        "ok, one moment while i book that. ok, i have booked 3 tickets to see the lego movie 2 at 4:15pm today at century 10 downtown, your tickets and receipt will be texted to you.",
+        "ok, one moment while i book that. ok, i have booked 3 tickets to see the lego movie 2 at 4:15pm today at century 10 downtown, your tickets and receipt will be texted to you."
+    ],
+    [
+        "movie_ticket(name_movie=\"lego\";type_screening=\"standard\")",
+        "it looks like the only theater showing lego movie has standard showings only.",
+        "it looks like the only theater showing lego movie has standard showings only."
+    ],
+    [
+        "movie_ticket(time_start=\"10pm\")",
+        "sure, they have showings at 3:45, 6:45, and 10pm.",
+        "sure, they have showings at 3:45, 6:45, and 10pm."
+    ],
+    [
+        "movie_ticket(num_tickets=\"3\";price_ticket=\"$39\")",
+        "got it, 3 tickets will be $39, is that ok?",
+        "got it, 3 tickets will be $39, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start=\"11 pm\")",
+        "Starting on Thursday Febraury 7th, 4 pm on through 11 pm.",
+        "Starting on Thursday Febraury 7th, 4 pm on through 11 pm."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";name_theater_accept=\"the AMC boston common\")",
+        "Got it. I've booked 2 tickets at the AMC boston common.",
+        "Got it. I've booked 2 tickets at the AMC boston common."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$25.99\")",
+        "It'll cost $25.99 and you'll get them via mobile.",
+        "It'll cost $25.99 and you'll get them via mobile."
+    ],
+    [
+        "movie_ticket(location_theater=\"pikeville\")",
+        "sure, did you say pikeville?",
+        "sure, did you say pikeville?"
+    ],
+    [
+        "movie_ticket(time_start=\"7 pm\")",
+        "i see there are 2 showings, one for 4 pm and one at 7 pm.",
+        "i see there are 2 showings, one for 4 pm and one at 7 pm."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\")",
+        "sure, and you needed 2 tickets?",
+        "sure, and you needed 2 tickets?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";time_start_accept=\"7 pm\";name_theater_accept=\"riverfill 10 cinemas\";name_movie_accept=\"aquaman\")",
+        "i have booked 2 tickets for 7 pm at riverfill 10 cinemas to watch aquaman.",
+        "i have booked 2 tickets for 7 pm at riverfill 10 cinemas to watch aquaman."
+    ],
+    [
+        "movie_ticket(name_theater=\"regal cinemas\")",
+        "sure, is regal cinemas ok for you?",
+        "sure, is regal cinemas ok for you?"
+    ],
+    [
+        "movie_ticket(time_start=\"1:50pm\")",
+        "the next showing is at 1:50pm, is that ok?",
+        "the next showing is at 1:50pm, is that ok?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$48\")",
+        "great, your total will be $48, is that ok?",
+        "great, your total will be $48, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start_reject=\"1:50\";time_start=\"4pm\")",
+        "i'm sorry, it looks like the 1:50 showing is sold out, the next showing is at 4pm, is that ok?",
+        "i'm sorry, it looks like the 1:50 showing is sold out, the next showing is at 4pm, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start=\"9pm\")",
+        "THe next showing at this theater is at 9pm.",
+        "THe next showing at this theater is at 9pm."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"two\";name_movie_accept=\"The Upside\";name_theater_accept=\"Charlestown 18\";time_start_accept=\"9pm\")",
+        "want. me to provide? awesome. so to confirm, two tickets for The Upside at Charlestown 18 at 9pm tonight.",
+        "want. me to provide? awesome. so to confirm, two tickets for The Upside at Charlestown 18 at 9pm tonight."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$24.00\")",
+        "is that correct? $24.00 is the total. would you like me to book the card on file?",
+        "is that correct? $24.00 is the total. would you like me to book the card on file?"
+    ],
+    [
+        "movie_ticket(time_start_reject=\"7pm\";name_theater=\"AMC Empire 25\")",
+        "There's one showing for 7pm at AMC Empire 25.",
+        "There's one showing for 7pm at AMC Empire 25."
+    ],
+    [
+        "movie_ticket(num_tickets=\"one\";name_movie_reject=\"Alita: battle angel\")",
+        "got it. I'll go ahead and book you one ticket to Alita: battle angel.",
+        "got it. I'll go ahead and book you one ticket to Alita: battle angel."
+    ],
+    [
+        "movie_ticket(location_theater=\"New york city\")",
+        "There's no other showtimes in New york city.",
+        "There's no other showtimes in New york city."
+    ],
+    [
+        "movie_ticket(location_theater=\"new york\")",
+        "I'm sorry but the only showing in new york is sold out.",
+        "I'm sorry but the only showing in new york is sold out."
+    ],
+    [
+        "movie_ticket(name_movie=\"aquaman\")",
+        "Sure. I'll look for aquaman showtimes.",
+        "Sure. I'll look for aquaman showtimes."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"1\";name_movie_accept=\"Aquaman\";name_theater_accept=\"AMC Village 7\";time_start_accept=\"7:30\")",
+        "Okay great. that's 1 ticket for Aquaman at AMC Village 7 at 7:30.",
+        "Okay great. that's 1 ticket for Aquaman at AMC Village 7 at 7:30."
+    ],
+    [
+        "movie_ticket(time_start=\"4pm\";name_theater=\"Regal Union Square Stadium 14\")",
+        "let me take a look at the showtimes. i found a 3:40pm at Regal Cinemas Battery Park 11 and a 4pm at Regal Union Square Stadium 14.",
+        "let me take a look at the showtimes. i found a 3:40pm at Regal Cinemas Battery Park 11 and a 4pm at Regal Union Square Stadium 14."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$37\")",
+        "ok. the total is $37.",
+        "ok. the total is $37."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"3\";name_movie_accept=\"glass\";time_start_accept=\"4pm\";name_theater_accept=\"regal union square stadium 14\")",
+        "all set. 3 tickets for glass at 4pm at regal union square stadium 14.",
+        "all set. 3 tickets for glass at 4pm at regal union square stadium 14."
+    ],
+    [
+        "movie_ticket(name_theater=\"amc plymouth meeting mall\")",
+        "are you near amc plymouth meeting mall?",
+        "are you near amc plymouth meeting mall?"
+    ],
+    [
+        "movie_ticket(time_start=\"4:15\")",
+        "there are showings at 1:30 and 4:15 in the afternoon today.",
+        "there are showings at 1:30 and 4:15 in the afternoon today."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$13\")",
+        "your total will be $13, is that ok?",
+        "your total will be $13, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start=\"4:15pm\")",
+        "great, let me book that ticket for you, one moment. i'm sorry, that showing is completely booked, would you like to go to the next showing at 4:15pm?",
+        "great, let me book that ticket for you, one moment. i'm sorry, that showing is completely booked, would you like to go to the next showing at 4:15pm?"
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"glass\";time_start_accept=\"9:15 pm\";name_theater_accept=\"AMC River East 21\")",
+        "Looks like there's a showing of glass at 9:15 pm at AMC River East 21.",
+        "Looks like there's a showing of glass at 9:15 pm at AMC River East 21."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"two tickets\";price_ticket_accept=\"$25\")",
+        "how many tickets do you want to purchase? ok. two tickets. that'll be $25.",
+        "how many tickets do you want to purchase? ok. two tickets. that'll be $25."
+    ],
+    [
+        "movie_ticket(num_tickets=\"3\";name_movie_accept=\"Madia family funeral\")",
+        "3 tickets to Madia family funeral movie correct.",
+        "3 tickets to Madia family funeral movie correct."
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"AMC CLASSIC Desert Star 15\")",
+        "ok we have AMC CLASSIC Desert Star 15 is that a good theater for you?",
+        "ok we have AMC CLASSIC Desert Star 15 is that a good theater for you?"
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"1h42m\")",
+        "perfect, sure today anytime after 5pm, let me see if they have showtime. in the mean time would you like to know anything about the film? the movie is 1h42m long.",
+        "perfect, sure today anytime after 5pm, let me see if they have showtime. in the mean time would you like to know anything about the film? the movie is 1h42m long."
+    ],
+    [
+        "movie_ticket(time_start_accept=\"7:35pm\")",
+        "sure, we have 5pm show time is that a good time? i am sorry, the tickets are sold out for the showtime, would you like to choose another time or cancel the reservation? the next show time is 7:35pm.",
+        "sure, we have 5pm show time is that a good time? i am sorry, the tickets are sold out for the showtime, would you like to choose another time or cancel the reservation? the next show time is 7:35pm."
+    ],
+    [
+        "movie_ticket(name_theater=\"regal cinemas northtown mall\")",
+        "are you near regal cinemas northtown mall?",
+        "are you near regal cinemas northtown mall?"
+    ],
+    [
+        "movie_ticket(time_start=\"1pm\")",
+        "ok, the next showing is at 1pm, is that ok?",
+        "ok, the next showing is at 1pm, is that ok?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$36\")",
+        "your total will be $36, is that ok?",
+        "your total will be $36, is that ok?"
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"2 hours and 9 minutes.\")",
+        "sure, it is 2 hours and 9 minutes.",
+        "sure, it is 2 hours and 9 minutes."
+    ],
+    [
+        "movie_ticket(time_start_reject=\"1pm\";time_start=\"3:55pm\")",
+        "i'm sorry, it looks like the 1pm showing is sold out, the next showing is at 3:55pm, is that ok?",
+        "i'm sorry, it looks like the 1pm showing is sold out, the next showing is at 3:55pm, is that ok?"
+    ],
+    [
+        "movie_ticket(location_theater_accept=\"New York\")",
+        "The new Spiderman movie, into the Spider-Verse. Is that correct? Okay, In which city would you like to look for movie theaters? Did you say, New York?",
+        "The new Spiderman movie, into the Spider-Verse. Is that correct? Okay, In which city would you like to look for movie theaters? Did you say, New York?"
+    ],
+    [
+        "movie_ticket(type_screening=\"3D\")",
+        "I see, you're looking for a 3D showing, let me find some theaters that have that option.",
+        "I see, you're looking for a 3D showing, let me find some theaters that have that option."
+    ],
+    [
+        "movie_ticket(num_tickets=\"Oka\")",
+        "Okay, how many tickets did you want?",
+        "Okay, how many tickets did you want?"
+    ],
+    [
+        "movie_ticket(name_movie_reject=\"the upside\")",
+        "sorry, i can't find the upside in your city. did you want to select another movie?",
+        "sorry, i can't find the upside in your city. did you want to select another movie?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"3\";time_start_reject=\"1:45pm\";name_movie_accept=\"isn't it romantic\";price_ticket_accept=\"$30\")",
+        "3 tickets to see the 1:45pm showing of isn't it romantic will b $30. i'll charge the tickets to your card now.",
+        "3 tickets to see the 1:45pm showing of isn't it romantic will b $30. i'll charge the tickets to your card now."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"3\";time_start_accept=\"4:15pm\")",
+        "ok, i'll book 3 tickets for the 4:15pm showing now.",
+        "ok, i'll book 3 tickets for the 4:15pm showing now."
+    ],
+    [
+        "movie_ticket(name_movie=\"aquaman\")",
+        "when would you like to see aquaman?",
+        "when would you like to see aquaman?"
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"aquaman\";time_start=\"6:35\";name_theater=\"alamo drafthouse cinema new mission\")",
+        "I found a few showtimes for aquaman at 6pm tonight. Century at tanforan and XD, century san francisco center 9 and xd and the alamo drafthouse cinema new mission at 6:35.",
+        "I found a few showtimes for aquaman at 6pm tonight. Century at tanforan and XD, century san francisco center 9 and xd and the alamo drafthouse cinema new mission at 6:35."
+    ],
+    [
+        "movie_ticket(time_start=\"10:10pm\";name_theater=\"century san francisco center 9 & XD\")",
+        "there is another showtime at 10:10pm tonight at the century san francisco center 9 & XD.",
+        "there is another showtime at 10:10pm tonight at the century san francisco center 9 & XD."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$24.89\")",
+        "Your total will be $24.89, can i confirm the purchase?",
+        "Your total will be $24.89, can i confirm the purchase?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";time_start_accept=\"10:10pm\";name_theater_accept=\"century san francisco center 9 & XD\")",
+        "Great! 2 tickets for tonight at 10:10pm at the century san francisco center 9 & XD. you will receive your tickets via text message.",
+        "Great! 2 tickets for tonight at 10:10pm at the century san francisco center 9 & XD. you will receive your tickets via text message."
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"a star is born\";time_start_accept=\"6:20pm\";name_theater=\"skylight cinema\")",
+        "there is one showing of a star is born at 6:20pm at skylight cinema, will that work for you?",
+        "there is one showing of a star is born at 6:20pm at skylight cinema, will that work for you?"
+    ],
+    [
+        "movie_ticket(time_start=\"3:15 pm\")",
+        "ok, let me check showtimes for you, one moment. i see showtimes at 12:30 pm and 3:15 pm today.",
+        "ok, let me check showtimes for you, one moment. i see showtimes at 12:30 pm and 3:15 pm today."
+    ],
+    [
+        "movie_ticket(num_tickets=\"3\";price_ticket_accept=\"$36\")",
+        "got it. i'll get you 3 adult tickets, one moment. your total will be $36, is that ok?",
+        "got it. i'll get you 3 adult tickets, one moment. your total will be $36, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start=\"like\";time_start_reject=\"also a\")",
+        "i'm sorry, it looks like the 3:15 pm showing is sold out, would you like to go to the 12:30 pm showing instead? ok, there is also a 6 pm showing if that works better.",
+        "i'm sorry, it looks like the 3:15 pm showing is sold out, would you like to go to the 12:30 pm showing instead? ok, there is also a 6 pm showing if that works better."
+    ],
+    [
+        "movie_ticket(location_theater_accept=\"new york city\")",
+        "new york city?",
+        "new york city?"
+    ],
+    [
+        "movie_ticket(time_start=\"10:30\")",
+        "there is a showing at 7 and one at 10:30.",
+        "there is a showing at 7 and one at 10:30."
+    ],
+    [
+        "movie_ticket(time_start=\"10:30\";num_tickets=\"2 tickets\")",
+        "i'm sorry, it looks like that showing is fully sold out, would you like to go to the 10:30 showing? ok, and you need 2 tickets?",
+        "i'm sorry, it looks like that showing is fully sold out, would you like to go to the 10:30 showing? ok, and you need 2 tickets?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$24\")",
+        "ok, your total will be $24, is that ok?",
+        "ok, your total will be $24, is that ok?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2 tickets\";name_movie_accept=\"aquaman\";time_start_accept=\"10:30pm\";name_theater_accept=\"amc empire 25\")",
+        "let me book those tickets for you, one moment. ok, i have booked 2 tickets to see aquaman at 10:30pm at amc empire 25, your tickets and receipt will be texted to you, can i help you with anything else?",
+        "let me book those tickets for you, one moment. ok, i have booked 2 tickets to see aquaman at 10:30pm at amc empire 25, your tickets and receipt will be texted to you, can i help you with anything else?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2 tickets\";name_movie_accept=\"Spiderman Into the Spiderverse\";name_theater_accept=\"Marcus Sycamore Cinema\";time_start_accept=\"7pm\")",
+        "let me check what's available around that time. there are 2 tickets to Spiderman Into the Spiderverse at Marcus Sycamore Cinema at 7pm today, does this work for you?",
+        "let me check what's available around that time. there are 2 tickets to Spiderman Into the Spiderverse at Marcus Sycamore Cinema at 7pm today, does this work for you?"
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"Cin\u00e9polis theater\")",
+        "Hi okay, one moment. how about the Cin\u00e9polis theater?",
+        "Hi okay, one moment. how about the Cin\u00e9polis theater?"
+    ],
+    [
+        "movie_ticket(time_start=\"11:15\")",
+        "Great, the next showtimes are 8:20 and 11:15.",
+        "Great, the next showtimes are 8:20 and 11:15."
+    ],
+    [
+        "movie_ticket(time_start_accept=\"8:20\";num_tickets=\"2 tickets\")",
+        "okay, 8:20 and did you say 2 tickets?",
+        "okay, 8:20 and did you say 2 tickets?"
+    ],
+    [
+        "movie_ticket(time_start=\"2:30\")",
+        "ok, the arclight has a showing at 11:45 and 2:30 today.",
+        "ok, the arclight has a showing at 11:45 and 2:30 today."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\")",
+        "ok, and you said you needed 2 tickets?",
+        "ok, and you said you needed 2 tickets?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";price_ticket_accept=\"$26\")",
+        "your total for 2 tickets will be $26, is that ok?",
+        "your total for 2 tickets will be $26, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start=\"11:45am\")",
+        "i'm sorry, that showing is completely booked, would you like to go to the 11:45am showing?",
+        "i'm sorry, that showing is completely booked, would you like to go to the 11:45am showing?"
+    ],
+    [
+        "movie_ticket(time_start=\"5:15pm\")",
+        "yes, they have a 5:15pm showing.",
+        "yes, they have a 5:15pm showing."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";name_movie_accept=\"alita battle angel\";time_start=\"5:15\";name_theater_accept=\"arclight\")",
+        "sure, i'll book that for you. ok, i have booked 2 tickets to see alita battle angel at 5:15 today at the arclight, your tickets and receipt will be texted to you.",
+        "sure, i'll book that for you. ok, i have booked 2 tickets to see alita battle angel at 5:15 today at the arclight, your tickets and receipt will be texted to you."
+    ],
+    [
+        "movie_ticket(name_theater=\"Regal Cinemas North Hills 14\";name_movie=\"Cold Pursuit\";time_start=\"6:55pm\";time_start_reject=\"9:50pm\")",
+        "got it. Regal Cinemas North Hills 14 is showing Cold Pursuit at 6:55pm and 9:50pm. did one of these show times work for you?",
+        "got it. Regal Cinemas North Hills 14 is showing Cold Pursuit at 6:55pm and 9:50pm. did one of these show times work for you?"
+    ],
+    [
+        "movie_ticket(time_start=\"6:55pm\")",
+        "sorry, when trying to book the ticket, it seems this show time is sold out. darn. did you want the earlier show time, which is 6:55pm?",
+        "sorry, when trying to book the ticket, it seems this show time is sold out. darn. did you want the earlier show time, which is 6:55pm?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"1\";name_movie=\"Cold Pursuit\";time_start_accept=\"6:55pm\";name_theater_accept=\"Regal Cinemas North Hills 14\";price_ticket_accept=\"$9\")",
+        "1 ticket to see Cold Pursuit at 6:55pm at Regal Cinemas North Hills 14 id $9. DId you want me to purchase the ticket on your behalf now?",
+        "1 ticket to see Cold Pursuit at 6:55pm at Regal Cinemas North Hills 14 id $9. DId you want me to purchase the ticket on your behalf now?"
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"Cold Pursuit\")",
+        "Yup. THe director of Cold Pursuit is Hans Petter Moland.",
+        "Yup. THe director of Cold Pursuit is Hans Petter Moland."
+    ],
+    [
+        "movie_ticket(name_movie=\"Into the Spiderverse\")",
+        "A few popular movies right now include Aquaman, Glass, The upside, and Into the Spiderverse.",
+        "A few popular movies right now include Aquaman, Glass, The upside, and Into the Spiderverse."
+    ],
+    [
+        "movie_ticket(time_start=\"10 pm\")",
+        "And that's for 10 pm right?",
+        "And that's for 10 pm right?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";name_movie_accept=\"The Favorite\";time_start_accept=\"10 pm\";name_theater_accept=\"Malco Studio\";location_theater=\"the Square\")",
+        "Great, I've ordered 2 tickets for The Favorite at 10 pm at Malco Studio on the Square.",
+        "Great, I've ordered 2 tickets for The Favorite at 10 pm at Malco Studio on the Square."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"24 99\")",
+        "Your total is 24 99 and you'll get your tickets via mobile shortly.",
+        "Your total is 24 99 and you'll get your tickets via mobile shortly."
+    ],
+    [
+        "movie_ticket(location_theater=\"Seattle\")",
+        "Sorry I'm not seeing it exactly where you requested but I do have several showtimes in Seattle.",
+        "Sorry I'm not seeing it exactly where you requested but I do have several showtimes in Seattle."
+    ],
+    [
+        "movie_ticket(time_start=\"5:40\";name_theater=\"Regal Cinemas Meridian 16\")",
+        "There's a 7:55 at AMC Pacific Place 11 and a 5:40 at Regal Cinemas Meridian 16.",
+        "There's a 7:55 at AMC Pacific Place 11 and a 5:40 at Regal Cinemas Meridian 16."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"3\";time_start_accept=\"5:40\";name_theater_accept=\"Regal Cinemas Meridian\")",
+        "Got it. That's going to be 3 tickets for 5:40 at Regal Cinemas Meridian.",
+        "Got it. That's going to be 3 tickets for 5:40 at Regal Cinemas Meridian."
+    ],
+    [
+        "movie_ticket(time_start=\"10:20pm\";name_theater=\"AMC Flatiron Crossing 14\")",
+        "i found a 10:10pm at Century Boulder and a 10:20pm at AMC Flatiron Crossing 14.",
+        "i found a 10:10pm at Century Boulder and a 10:20pm at AMC Flatiron Crossing 14."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2 tickets\")",
+        "ok, so 2 tickets?",
+        "ok, so 2 tickets?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$23.78\")",
+        "your total is $23.78, can i continue with the purchase?",
+        "your total is $23.78, can i continue with the purchase?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2 tickets\";name_movie_accept=\"aquaman\";time_start_accept=\"10:20pm\";name_theater_accept=\"AMC Flatiron Crossing 14\")",
+        "you're all set. 2 tickets for aquaman at 10:20pm at the AMC Flatiron Crossing 14.",
+        "you're all set. 2 tickets for aquaman at 10:20pm at the AMC Flatiron Crossing 14."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\")",
+        "was that 2 adult tickets?",
+        "was that 2 adult tickets?"
+    ],
+    [
+        "movie_ticket(type_screening=\"3D\")",
+        "Sure. Did you want standard, imax, or 3D?",
+        "Sure. Did you want standard, imax, or 3D?"
+    ],
+    [
+        "movie_ticket(type_screening_accept=\"Imax\";time_start=\"10:40 pm\")",
+        "There are three Imax showings today, 4:40, 7:40, and 10:40 pm, which would you prefer?",
+        "There are three Imax showings today, 4:40, 7:40, and 10:40 pm, which would you prefer?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"3\";time_start_reject=\"4:40\";name_movie_accept=\"Captain Marvel\")",
+        "Alright so that's 3 tickets for the 4:40 showing of Captain Marvel. Anything else while I process that?",
+        "Alright so that's 3 tickets for the 4:40 showing of Captain Marvel. Anything else while I process that?"
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"2h 5m\")",
+        "It's 2h 5m.",
+        "It's 2h 5m."
+    ],
+    [
+        "movie_ticket(time_start_accept=\"7:40\";name_theater_accept=\"Regal Cinemas Warrington\")",
+        "Great, so now it's 7:40 at the Regal Cinemas Warrington.",
+        "Great, so now it's 7:40 at the Regal Cinemas Warrington."
+    ],
+    [
+        "movie_ticket(name_movie=\"dragon ball\")",
+        "ok, let me find showtimes for you. im sorry, it doesn't look like this theater is not showing dragon ball, do you want to select a different movie or do you want me to find another theater?",
+        "ok, let me find showtimes for you. im sorry, it doesn't look like this theater is not showing dragon ball, do you want to select a different movie or do you want me to find another theater?"
+    ],
+    [
+        "movie_ticket(name_theater=\"amc river east 21\";name_movie=\"dragon ball\")",
+        "ok, one moment while i search for you. ok, it looks like amc river east 21 has multiple showings of dragon ball.",
+        "ok, one moment while i search for you. ok, it looks like amc river east 21 has multiple showings of dragon ball."
+    ],
+    [
+        "movie_ticket(time_start=\"9:45 pm\")",
+        "there's an 8 pm showing and 9:45 pm showing, which one did you want to go to?",
+        "there's an 8 pm showing and 9:45 pm showing, which one did you want to go to?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"30 dollars\")",
+        "the cost would be 30 dollars, is that ok?",
+        "the cost would be 30 dollars, is that ok?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";name_movie_accept=\"dragon ball super broly\";time_start_accept=\"9:45 pm\";name_theater_accept=\"amc river east 21\")",
+        "i have booked 2 tickets to see dragon ball super broly at 9:45 pm tonight at amc river east 21, is that correct?",
+        "i have booked 2 tickets to see dragon ball super broly at 9:45 pm tonight at amc river east 21, is that correct?"
+    ],
+    [
+        "movie_ticket(name_movie=\"green book\")",
+        "sure, where do you want to watch green book?",
+        "sure, where do you want to watch green book?"
+    ],
+    [
+        "movie_ticket(location_theater=\"roseville california\")",
+        "to confirm, you mean roseville california, right?",
+        "to confirm, you mean roseville california, right?"
+    ],
+    [
+        "movie_ticket(time_start=\"9:35pm\")",
+        "does the 9:35pm work for you?",
+        "does the 9:35pm work for you?"
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"theRegal Cinemas South Beach 18\";type_screening=\"IMAX\")",
+        "okay! one moment. Alright about theRegal Cinemas South Beach 18 & IMAX.",
+        "okay! one moment. Alright about theRegal Cinemas South Beach 18 & IMAX."
+    ],
+    [
+        "movie_ticket(time_start=\"9:30\")",
+        "It's has show times at 6:40pm, 7:20 and 9:30.",
+        "It's has show times at 6:40pm, 7:20 and 9:30."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2 tickets\")",
+        "sure, and you're only needing 2 tickets, correct?",
+        "sure, and you're only needing 2 tickets, correct?"
+    ],
+    [
+        "movie_ticket(type_screening_accept=\"Standard\")",
+        "Alright, Standard Adult tickets, got it.",
+        "Alright, Standard Adult tickets, got it."
+    ],
+    [
+        "movie_ticket(time_start=\"11:55pm\";name_theater=\"Century San Francisco Centre 9 & XD\")",
+        "sure, let me find showtimes. i found 6:15pm, 7:30, 9:15and 11:55pm at Century San Francisco Centre 9 & XD.",
+        "sure, let me find showtimes. i found 6:15pm, 7:30, 9:15and 11:55pm at Century San Francisco Centre 9 & XD."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$13\")",
+        "the total is $13.",
+        "the total is $13."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"1\";name_movie_accept=\"captain marvel\";time_start_accept=\"11:55pm\";name_theater_accept=\"Century San Francisco Centre 9 & XD\")",
+        "you're all set. 1 ticket for captain marvel at 11:55pm at Century San Francisco Centre 9 & XD.",
+        "you're all set. 1 ticket for captain marvel at 11:55pm at Century San Francisco Centre 9 & XD."
+    ],
+    [
+        "movie_ticket(time_start=\"/10:15pm\")",
+        "The only showtimes around 7:15pm/7:30pm or around 9:30pm/10:15pm.",
+        "The only showtimes around 7:15pm/7:30pm or around 9:30pm/10:15pm."
+    ],
+    [
+        "movie_ticket(time_duration=\"1h 40m\")",
+        "1h 40m.",
+        "1h 40m."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"1\";time_start_accept=\"7:15\";name_theater_accept=\"Park Cinemas\")",
+        "No problem. That's 1 for 7:15 at Park Cinemas. You'll get the ticket via mobile.",
+        "No problem. That's 1 for 7:15 at Park Cinemas. You'll get the ticket via mobile."
+    ],
+    [
+        "movie_ticket(name_movie=\"Glass\")",
+        "And what is the name of the film you'd like to see? ok, you would like to see the movie Glass is that correct?",
+        "And what is the name of the film you'd like to see? ok, you would like to see the movie Glass is that correct?"
+    ],
+    [
+        "movie_ticket(name_theater=\"glass\";location_theater=\"new york city\")",
+        "ok the movie glass in new york city is that correct?",
+        "ok the movie glass in new york city is that correct?"
+    ],
+    [
+        "movie_ticket(name_theater=\"regal union square movie theater\")",
+        "we have regal union square movie theater is that good for you?",
+        "we have regal union square movie theater is that good for you?"
+    ],
+    [
+        "movie_ticket(time_start=\"5 pm\")",
+        "ok you would like to see the movie around 5 pm is that right?",
+        "ok you would like to see the movie around 5 pm is that right?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"couple\")",
+        "couple of tickets is that correct?",
+        "couple of tickets is that correct?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\";name_theater=\"Regal Union Square Stadium\";price_ticket=\"40 dollars\")",
+        "so that would be 2 tickets at Regal Union Square Stadium. The total would be 40 dollars.",
+        "so that would be 2 tickets at Regal Union Square Stadium. The total would be 40 dollars."
+    ],
+    [
+        "movie_ticket(time_start=\"7:20pm\")",
+        "we have a showtime at 7:20pm would you like to book that time?",
+        "we have a showtime at 7:20pm would you like to book that time?"
+    ],
+    [
+        "movie_ticket(num_tickets_reject=\"no ticket\";time_start=\"10pm for tomorrow\")",
+        "no ticket for 7:20, would you like to change time or cancel? the next show time would be tomorrow after 10pm, would you like to book 10pm for tomorrow?",
+        "no ticket for 7:20, would you like to change time or cancel? the next show time would be tomorrow after 10pm, would you like to book 10pm for tomorrow?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";name_theater_accept=\"glass\";price_ticket_accept=\"40 diollars\";time_start_accept=\"10 pm tomorrow\")",
+        "ok so thats 2 tickets at Regal Uunion Square Stadium for a total of 40 diollars for the movie glass at 10 pm tomorrow?",
+        "ok so thats 2 tickets at Regal Uunion Square Stadium for a total of 40 diollars for the movie glass at 10 pm tomorrow?"
+    ],
+    [
+        "movie_ticket(time_start=\"6:30\")",
+        "there is a 6:30 showtime today.",
+        "there is a 6:30 showtime today."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$31.50\")",
+        "the total will be $31.50.",
+        "the total will be $31.50."
+    ],
+    [
+        "movie_ticket(name_movie=\"The Kid Who Would Be King\")",
+        "rebecca ferguson, patrick stewart and angus imrie are in the cast of The Kid Who Would Be King.",
+        "rebecca ferguson, patrick stewart and angus imrie are in the cast of The Kid Who Would Be King."
+    ],
+    [
+        "movie_ticket(time_start_reject=\"6:30pm\")",
+        "there is a showtime tonight at 6:30pm.",
+        "there is a showtime tonight at 6:30pm."
+    ],
+    [
+        "movie_ticket(time_start=\"9:25pm\")",
+        "there is another session tonight at 9:25pm.",
+        "there is another session tonight at 9:25pm."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"3\";name_movie_accept=\"the AMC Fashion Valley 18\";time_start_accept=\"9:25pm\")",
+        "okay, so 3 tickets for The Kid Who Would Be King at the AMC Fashion Valley 18 at 9:25pm.",
+        "okay, so 3 tickets for The Kid Who Would Be King at the AMC Fashion Valley 18 at 9:25pm."
+    ],
+    [
+        "movie_ticket(location_theater=\"; one moment whil\")",
+        "Perfect, one moment while I finish up.",
+        "Perfect, one moment while I finish up."
+    ],
+    [
+        "movie_ticket(time_start=\"CLas\";name_theater=\"Jubiliee.\")",
+        "1:45 at AMC CLassic Jubiliee.",
+        "1:45 at AMC CLassic Jubiliee."
+    ],
+    [
+        "movie_ticket(time_start=\"Sure\")",
+        "Sure thing. Give me a moment.",
+        "Sure thing. Give me a moment."
+    ],
+    [
+        "movie_ticket(time_duration=\"1h 44m\")",
+        "It's 1h 44m. It's 1h 44m.",
+        "It's 1h 44m. It's 1h 44m."
+    ],
+    [
+        "movie_ticket(time_start=\"1:45\";name_theater=\"AMC CLassic Jubiliee\";time_start_accept=\"1:45\";name_theater_accept=\"AMC CLassic Jubiliee\")",
+        "1:45 at AMC CLassic Jubiliee. 1:45 at AMC CLassic Jubiliee.",
+        "1:45 at AMC CLassic Jubiliee. 1:45 at AMC CLassic Jubiliee."
+    ],
+    [
+        "movie_ticket(location_theater_accept=\"kansas\")",
+        "okay, where are you located? where in kansas?",
+        "okay, where are you located? where in kansas?"
+    ],
+    [
+        "movie_ticket(time_start=\"4pm\";name_theater=\"Regal Cinemas Kansas City 18\")",
+        "i found a 4pm session at Regal Cinemas Kansas City 18.",
+        "i found a 4pm session at Regal Cinemas Kansas City 18."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$40\")",
+        "the total is $40.",
+        "the total is $40."
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"aquaman\";time_start_accept=\"4pm\";name_theater_accept=\"regal cinemas kansas city\")",
+        "all set for aquaman at 4pm at regal cinemas kansas city.",
+        "all set for aquaman at 4pm at regal cinemas kansas city."
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"Cinemark Fayette Mall & XD\";name_theater=\"RPX Regal Hamburg Pavilion Stadium 16\")",
+        "Okay, great. i've found a few theatres near you. Cinemark Fayette Mall & XD. or Showtimes at Regal Hamburg Pavilion Stadium 16 IMAX & RPX Regal Hamburg Pavilion Stadium 16.",
+        "Okay, great. i've found a few theatres near you. Cinemark Fayette Mall & XD. or Showtimes at Regal Hamburg Pavilion Stadium 16 IMAX & RPX Regal Hamburg Pavilion Stadium 16."
+    ],
+    [
+        "movie_ticket(time_start_reject=\"8:30pm\")",
+        "Okay, let me see. There doesn't seem to be another showtime after 8:30pm.",
+        "Okay, let me see. There doesn't seem to be another showtime after 8:30pm."
+    ],
+    [
+        "movie_ticket(time_start=\"5:15pm\")",
+        "However, if you're interested there is one earlier at 5:15pm.",
+        "However, if you're interested there is one earlier at 5:15pm."
+    ],
+    [
+        "movie_ticket(location_theater_accept=\"Plano TX\")",
+        "is that Plano TX?",
+        "is that Plano TX?"
+    ],
+    [
+        "movie_ticket(name_theater_reject=\"the Alamo Drafthouse Cinema Richardson\")",
+        "OKay, how about the Alamo Drafthouse Cinema Richardson.",
+        "OKay, how about the Alamo Drafthouse Cinema Richardson."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\")",
+        "2 tickets, got it.",
+        "2 tickets, got it."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\";price_ticket=\"$28.33\")",
+        "the total for 2 tickets will be $28.33, is that okay?",
+        "the total for 2 tickets will be $28.33, is that okay?"
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"the Studio Movie Grill Spring Valley\";time_start_accept=\"3:30pm\")",
+        "No unfortunately the movie is completely sold out. Okay, the Studio Movie Grill Spring Valley is showing the movie at 3:30pm.",
+        "No unfortunately the movie is completely sold out. Okay, the Studio Movie Grill Spring Valley is showing the movie at 3:30pm."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\")",
+        "Okay, again for 2 tickets?",
+        "Okay, again for 2 tickets?"
+    ],
+    [
+        "movie_ticket(name_movie=\"Glass\")",
+        "ok, about what time do you want to watch Glass?",
+        "ok, about what time do you want to watch Glass?"
+    ],
+    [
+        "movie_ticket(type_screening=\"imax\";time_start=\"2:30\";time_start_reject=\"4:15\")",
+        "ok, they have a standard showing at 2:30 and an imax showing at 4:15.",
+        "ok, they have a standard showing at 2:30 and an imax showing at 4:15."
+    ],
+    [
+        "movie_ticket(type_screening_accept=\"standard\")",
+        "ok, the standard showing is ok with you?",
+        "ok, the standard showing is ok with you?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"1\";name_movie=\"Glass\";time_start_accept=\"2:30\")",
+        "ok, i have booked 1 ticket to see Glass at 2:30, your ticket and receipt will be texted to you.",
+        "ok, i have booked 1 ticket to see Glass at 2:30, your ticket and receipt will be texted to you."
+    ],
+    [
+        "movie_ticket(name_movie=\"glass\")",
+        "sure, where do you want to watch glass?",
+        "sure, where do you want to watch glass?"
+    ],
+    [
+        "movie_ticket(name_theater=\"Edwards west covina 18\")",
+        "Edwards west covina 18 has a few show times today.",
+        "Edwards west covina 18 has a few show times today."
+    ],
+    [
+        "movie_ticket(time_start=\"10:50\";time_start_reject=\"10pm\")",
+        "did you want the 10:20 or 10:50 show time? there was no 10pm.",
+        "did you want the 10:20 or 10:50 show time? there was no 10pm."
+    ],
+    [
+        "movie_ticket(time_start=\"10:50pm\")",
+        "ok, did you want 8:30pm or 10:50pm?",
+        "ok, did you want 8:30pm or 10:50pm?"
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"glass\")",
+        "glass features stars like James Mcavoy, Bruce Willis, and Sara Paulson.",
+        "glass features stars like James Mcavoy, Bruce Willis, and Sara Paulson."
+    ],
+    [
+        "movie_ticket(name_movie=\"captain marvel\")",
+        "no, captain marvel isn't out yet.",
+        "no, captain marvel isn't out yet."
+    ],
+    [
+        "movie_ticket(time_start_reject=\"9:40pm\";name_movie_accept=\"The Lego Movie 2: The Second Part\";name_theater_accept=\"Marcus Century Cinema\";price_ticket_accept=\"$10\";time_duration_accept=\"1 hour 47 mins\")",
+        "ok. there's a 9:40pm showing of The Lego Movie 2: The Second Part at Marcus Century Cinema. it'll b $10. did you want me to book it now? the movie is 1 hour 47 mins.",
+        "ok. there's a 9:40pm showing of The Lego Movie 2: The Second Part at Marcus Century Cinema. it'll b $10. did you want me to book it now? the movie is 1 hour 47 mins."
+    ],
+    [
+        "movie_ticket(name_theater=\"Cinemark Orlando XD\")",
+        "The closest I have is a standard showing at Cinemark Orlando XD Does that work?",
+        "The closest I have is a standard showing at Cinemark Orlando XD Does that work?"
+    ],
+    [
+        "movie_ticket(time_start=\"5:30\";name_theater=\"Cinemark Orlando\")",
+        "got it. So 5:30 at Cinemark Orlando... while I book that do you need anything else?",
+        "got it. So 5:30 at Cinemark Orlando... while I book that do you need anything else?"
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"2h 2m\")",
+        "2h 2m.",
+        "2h 2m."
+    ],
+    [
+        "movie_ticket(time_start_accept=\"6:15\";name_theater_accept=\"aloma cinema grill\")",
+        "Great. The next showtime is 6:15 at aloma cinema grill, is that okay?",
+        "Great. The next showtime is 6:15 at aloma cinema grill, is that okay?"
+    ],
+    [
+        "movie_ticket(name_movie=\"the upside\";name_theater_reject=\"amc empire 25\";time_start=\"7:05pm\")",
+        "the soonest showtime for the upside at amc empire 25 is at 7:05pm. is that alright?",
+        "the soonest showtime for the upside at amc empire 25 is at 7:05pm. is that alright?"
+    ],
+    [
+        "movie_ticket(price_ticket_reject=\"$11\")",
+        "$11 is the total for the transaction. should i process the payment now?",
+        "$11 is the total for the transaction. should i process the payment now?"
+    ],
+    [
+        "movie_ticket(time_start_reject=\"7:05\")",
+        "it looks like the movie is sold out at 7:05. so sorry about that. should i look for another show time? or do you want to cancel?",
+        "it looks like the movie is sold out at 7:05. so sorry about that. should i look for another show time? or do you want to cancel?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"1\";price_ticket_accept=\"$12\")",
+        "great, 1 ticket here is $12.",
+        "great, 1 ticket here is $12."
+    ],
+    [
+        "movie_ticket(name_theater=\"Regal L.A\")",
+        "Okay one moment. We have Vista theater, Highland Theaters, and Regal L.A.",
+        "Okay one moment. We have Vista theater, Highland Theaters, and Regal L.A."
+    ],
+    [
+        "movie_ticket(name_theater=\"Regal\";time_start=\"11:40\")",
+        "Okay one moment. At Regal it's going to show from 7 through 11:40 tonight.",
+        "Okay one moment. At Regal it's going to show from 7 through 11:40 tonight."
+    ],
+    [
+        "movie_ticket(name_theater=\"Regal\";time_start=\"8:45\")",
+        "At Regal it's going to show from 7 through 11:40 tonight, at vista it has one showing at 8:45.",
+        "At Regal it's going to show from 7 through 11:40 tonight, at vista it has one showing at 8:45."
+    ],
+    [
+        "movie_ticket(name_theater=\"Highland\";time_start=\"10\")",
+        "and Highland has two showings at 7 and 10.",
+        "and Highland has two showings at 7 and 10."
+    ],
+    [
+        "movie_ticket(name_movie=\"A Dog's way home\")",
+        "One moment. Aquaman, The Upside, A Dog's way home, and many others are showing right now.",
+        "One moment. Aquaman, The Upside, A Dog's way home, and many others are showing right now."
+    ],
+    [
+        "movie_ticket(time_start_accept=\"8:45\";name_theater_accept=\"the Regal Theaters\";num_tickets_accept=\"2\")",
+        "Instead of Glass? Great one moment. That's 8:45 at the Regal Theaters for 2 people.",
+        "Instead of Glass? Great one moment. That's 8:45 at the Regal Theaters for 2 people."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$33.50\")",
+        "It'll be $33.50.",
+        "It'll be $33.50."
+    ],
+    [
+        "movie_ticket(time_start=\"6:20pm\";name_theater=\"Parkade Cinemas & Entertainment\")",
+        "i found a session at 6:40pm at Spotlight Theatres Front Street Stadium 4 and another at 6:20pm at Parkade Cinemas & Entertainment.",
+        "i found a session at 6:40pm at Spotlight Theatres Front Street Stadium 4 and another at 6:20pm at Parkade Cinemas & Entertainment."
+    ],
+    [
+        "movie_ticket(num_tickets=\"4\")",
+        "did you say 4 tickets?",
+        "did you say 4 tickets?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$44\")",
+        "ok, the total is $44.",
+        "ok, the total is $44."
+    ],
+    [
+        "movie_ticket(name_theater=\"marcus lincoln grand cinema\";name_movie=\"the lego movie 2\";time_start=\"8:30pm\";type_screening=\"3D\")",
+        "got it. let me look that up. one moment. the marcus lincoln grand cinema is playing the lego movie 2 at 5:50pm and 11:10pm and in 3D at 8:30pm.",
+        "got it. let me look that up. one moment. the marcus lincoln grand cinema is playing the lego movie 2 at 5:50pm and 11:10pm and in 3D at 8:30pm."
+    ],
+    [
+        "movie_ticket(num_tickets=\"3 tickets\";time_start_reject=\"5:50\";price_ticket_reject=\"$33\";time_duration_accept=\"1 hour and 47 mins\")",
+        "3 tickets for the 5:50 showing is going to be $33. the movie is 1 hour and 47 mins.",
+        "3 tickets for the 5:50 showing is going to be $33. the movie is 1 hour and 47 mins."
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"marcus south pointe cinema\";name_movie_accept=\"the lego movie 2\";time_start=\"7:00pm\")",
+        "got it. marcus south pointe cinema is playing the lego movie 2 at 4:30pm, 5:15pm, and 7:00pm.",
+        "got it. marcus south pointe cinema is playing the lego movie 2 at 4:30pm, 5:15pm, and 7:00pm."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$30\")",
+        "great, that will be $30.",
+        "great, that will be $30."
+    ],
+    [
+        "movie_ticket(name_theater_accept=\"AMC Atlantic Times Square 14\")",
+        "Okay, one moment. i've found the AMC Atlantic Times Square 14, does that sound goo?",
+        "Okay, one moment. i've found the AMC Atlantic Times Square 14, does that sound goo?"
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"Glass\";time_start=\"9:40\")",
+        "Great, the showtimes they have for Glass are 6:15pm and 9:40, which do you prefer?",
+        "Great, the showtimes they have for Glass are 6:15pm and 9:40, which do you prefer?"
+    ],
+    [
+        "movie_ticket(time_start_reject=\"6:15\")",
+        "Okay, so the 6:15 one. ANd how many tickets would you like?",
+        "Okay, so the 6:15 one. ANd how many tickets would you like?"
+    ],
+    [
+        "movie_ticket(time_start_accept=\"9:40\";num_tickets_accept=\"4 tickets\")",
+        "Okay, the 9:40 showing, got it. Again for 4 tickets?",
+        "Okay, the 9:40 showing, got it. Again for 4 tickets?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$46.55\")",
+        "alright!, the total will be $46.55, is that oaky?",
+        "alright!, the total will be $46.55, is that oaky?"
+    ],
+    [
+        "movie_ticket(type_screening=\"standard\")",
+        "ok, let me take a look at the sessions. would you like to see that movie in 3d or standard versions?",
+        "ok, let me take a look at the sessions. would you like to see that movie in 3d or standard versions?"
+    ],
+    [
+        "movie_ticket(time_start=\"9:30pm\";name_theater=\"Franklin Square Cinema\")",
+        "ok, i found 4:00,6:50 and 9:30pm at Franklin Square Cinema.",
+        "ok, i found 4:00,6:50 and 9:30pm at Franklin Square Cinema."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$48\")",
+        "the total is $48.",
+        "the total is $48."
+    ],
+    [
+        "movie_ticket(time_start_accept=\"9:30pm\";name_theater_accept=\"franklin square cinema\";name_movie_accept=\"alita battle angel\")",
+        "you're all set for the 9:30pm session at franklin square cinema for the movie alita battle angel.",
+        "you're all set for the 9:30pm session at franklin square cinema for the movie alita battle angel."
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"apollo\";location_theater_accept=\"florida\";time_start=\"8pm\")",
+        "you would like to see apollo the movie in florida after 8pm today, correct?",
+        "you would like to see apollo the movie in florida after 8pm today, correct?"
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"1h 33m long\")",
+        "the movie is 1h 33m long.",
+        "the movie is 1h 33m long."
+    ],
+    [
+        "movie_ticket(time_start=\"8:30pm\")",
+        "ok, we have a showtime at 8:30pm. shall we try that time?",
+        "ok, we have a showtime at 8:30pm. shall we try that time?"
+    ],
+    [
+        "movie_ticket(time_start=\"8pm\";time_start_accept=\"8:30pm\")",
+        "next show time after 8pm is tomorrow at 8:30pm.",
+        "next show time after 8pm is tomorrow at 8:30pm."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"4\";price_ticket_accept=\"52 dollars\")",
+        "ok, so 4 tickets tomorrow would be 52 dollars.",
+        "ok, so 4 tickets tomorrow would be 52 dollars."
+    ],
+    [
+        "movie_ticket(location_theater_accept=\"las vegas\")",
+        "movie theater las vegas, ok what movie do you want to see?",
+        "movie theater las vegas, ok what movie do you want to see?"
+    ],
+    [
+        "movie_ticket(name_movie=\"Alita: Battle Angel\")",
+        "Alita: Battle Angel is that the right movie?",
+        "Alita: Battle Angel is that the right movie?"
+    ],
+    [
+        "movie_ticket(name_theater=\"Regal Cinemas Boulder Station 11\")",
+        "ok Here are some theaters close to you. AMC Rainbow Promenade 10 or Regal Cinemas Boulder Station 11 which one do you prefer?",
+        "ok Here are some theaters close to you. AMC Rainbow Promenade 10 or Regal Cinemas Boulder Station 11 which one do you prefer?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"1\";time_start=\"9:50pm\";name_movie=\"Alita: Battle Angel\")",
+        "1 ticket after 8pm sure let me check. we only have 1 showtime after 8pm at 9:50pm for Alita: Battle Angel would you like to try that time?",
+        "1 ticket after 8pm sure let me check. we only have 1 showtime after 8pm at 9:50pm for Alita: Battle Angel would you like to try that time?"
+    ],
+    [
+        "movie_ticket(time_start=\"9:50pm\")",
+        "so there are no more showtime for today after 9:50pm, would you like to choose another day or cancel the reservation?",
+        "so there are no more showtime for today after 9:50pm, would you like to choose another day or cancel the reservation?"
+    ],
+    [
+        "movie_ticket(name_theater=\"Regal Cinemas Boulder Station 11\";num_tickets=\"1\";time_start=\"9:35pm\")",
+        "for Regal Cinemas Boulder Station 11 we have a showtime at 9:35pm and there is 1 ticket available.",
+        "for Regal Cinemas Boulder Station 11 we have a showtime at 9:35pm and there is 1 ticket available."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"1\";name_movie_accept=\"alita battle angel\";name_theater_accept=\"Regal Cinemas Boulder Station 11\";time_start_accept=\"9:35pm\";price_ticket_accept=\"13 dollars shall\")",
+        "ok so 1 standard ticket will be booked for the movie alita battle angel at Regal Cinemas Boulder Station 11 tonight at 9:35pm, and your ticket price comes to 13 dollars shall we go ahead.",
+        "ok so 1 standard ticket will be booked for the movie alita battle angel at Regal Cinemas Boulder Station 11 tonight at 9:35pm, and your ticket price comes to 13 dollars shall we go ahead."
+    ],
+    [
+        "movie_ticket(time_start=\"10 pm\")",
+        "7:05 or 10 pm?",
+        "7:05 or 10 pm?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"2 tickets\")",
+        "Great. 2 tickets?",
+        "Great. 2 tickets?"
+    ],
+    [
+        "movie_ticket(name_movie=\"glass\";location_theater_accept=\"new york city\")",
+        "ok, so you would like to see the movie glass in new york city, is that right?",
+        "ok, so you would like to see the movie glass in new york city, is that right?"
+    ],
+    [
+        "movie_ticket(name_theater=\"AMC in newport\")",
+        "we have AMC in newport is that a good place for you?",
+        "we have AMC in newport is that a good place for you?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\";name_movie_accept=\"glass\")",
+        "ok so to confirm 2 tickets for the movie glass is that correct?",
+        "ok so to confirm 2 tickets for the movie glass is that correct?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\";name_theater=\"AMC newport\";price_ticket=\"40 dollars\")",
+        "for 2 tickets at AMC newport, total cost would be 40 dollars is that ok?",
+        "for 2 tickets at AMC newport, total cost would be 40 dollars is that ok?"
+    ],
+    [
+        "movie_ticket(time_start=\"4pm\")",
+        "we have show time at 4pm, would you like to book that time?",
+        "we have show time at 4pm, would you like to book that time?"
+    ],
+    [
+        "movie_ticket(time_start_reject=\"4pm\")",
+        "i am sorry, ticket is sold out for 4pm, would you like to change to later time or cancel?",
+        "i am sorry, ticket is sold out for 4pm, would you like to change to later time or cancel?"
+    ],
+    [
+        "movie_ticket(time_start=\"10:20pm\")",
+        "would 10:20pm be good for you?",
+        "would 10:20pm be good for you?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";price_ticket_accept=\"40 dollars\";time_start_accept=\"10:20 pm\";name_theater=\"AMC Newport\")",
+        "ok so thats 2 tickets at 40 dollars, 10:20 pm showtime at AMC Newport, is that correct?",
+        "ok so thats 2 tickets at 40 dollars, 10:20 pm showtime at AMC Newport, is that correct?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"4\")",
+        "And what time did you want them 4?",
+        "And what time did you want them 4?"
+    ],
+    [
+        "movie_ticket(time_start=\"3:50 pm\";type_screening=\"regular\")",
+        "And did you have a theater in mind? The next showtime is 3:50 pm in either IMAX or regular.",
+        "And did you have a theater in mind? The next showtime is 3:50 pm in either IMAX or regular."
+    ],
+    [
+        "movie_ticket(num_tickets=\"4\";name_movie=\"glass\";time_start=\"3:50pm\";name_theater=\"Edwards West Covina\")",
+        "Great. so that's 4 tickets to glass at 3:50pm at Edwards West Covina.",
+        "Great. so that's 4 tickets to glass at 3:50pm at Edwards West Covina."
+    ],
+    [
+        "movie_ticket(location_theater=\"amc river east 21\")",
+        "are you near amc river east 21?",
+        "are you near amc river east 21?"
+    ],
+    [
+        "movie_ticket(name_movie=\"spiderman\")",
+        "ok, what time would you like to see spiderman?",
+        "ok, what time would you like to see spiderman?"
+    ],
+    [
+        "movie_ticket(time_start=\"10:30 pm tonight\")",
+        "there are showings at 7:40 pm and 10:30 pm tonight.",
+        "there are showings at 7:40 pm and 10:30 pm tonight."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2 tickets\")",
+        "ok, and you needed 2 tickets, correct?",
+        "ok, and you needed 2 tickets, correct?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$26\")",
+        "your total will be $26, is that ok?",
+        "your total will be $26, is that ok?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2 tickets\";name_movie_accept=\"spiderman into the spiderverse\";time_start_accept=\"10:30 pm\";location_theater_accept=\"am river east, your\")",
+        "i have booked 2 tickets to see spiderman into the spiderverse at 10:30 pm at am river east, your tickets and receipt will be texted to you.",
+        "i have booked 2 tickets to see spiderman into the spiderverse at 10:30 pm at am river east, your tickets and receipt will be texted to you."
+    ],
+    [
+        "movie_ticket(time_start=\"11 pm\";name_theater=\"AMC village\")",
+        "Got it. And what showtime would you like? Around 7 or around 10/11. got it, theres and 11 pm showtime at AMC village. how many tickets?",
+        "Got it. And what showtime would you like? Around 7 or around 10/11. got it, theres and 11 pm showtime at AMC village. how many tickets?"
+    ],
+    [
+        "movie_ticket(time_start_accept=\"11:10\";name_theater_accept=\"Regal Union Square Stadium\";num_tickets_accept=\"3\")",
+        "how about 11:10 at Regal Union Square Stadium? Great. I've booked you 3 tickets which will arrive via mobile.",
+        "how about 11:10 at Regal Union Square Stadium? Great. I've booked you 3 tickets which will arrive via mobile."
+    ],
+    [
+        "movie_ticket(name_theater_reject=\"amc cityplace 20\")",
+        "are you near amc cityplace 20?",
+        "are you near amc cityplace 20?"
+    ],
+    [
+        "movie_ticket(name_movie=\"wreck-it ralph\")",
+        "it doesn't look like they are showing wreck-it ralph at this theater, let me find another in your area.",
+        "it doesn't look like they are showing wreck-it ralph at this theater, let me find another in your area."
+    ],
+    [
+        "movie_ticket(name_theater=\"regal cinemas royal palm beach 18\";time_start=\"3:40 pm\")",
+        "they have one showing at regal cinemas royal palm beach 18 at 3:40 pm today.",
+        "they have one showing at regal cinemas royal palm beach 18 at 3:40 pm today."
+    ],
+    [
+        "movie_ticket(name_movie=\"ralph breaks the internet.\")",
+        "will that work for you? ralph breaks the internet.",
+        "will that work for you? ralph breaks the internet."
+    ],
+    [
+        "movie_ticket(location_theater=\"miami\")",
+        "i can check that for you. i have checked all theaters in miami and i don't see a movie by the name asap playing.",
+        "i can check that for you. i have checked all theaters in miami and i don't see a movie by the name asap playing."
+    ],
+    [
+        "movie_ticket(name_theater=\"amc boston common\")",
+        "are you near amc boston common?",
+        "are you near amc boston common?"
+    ],
+    [
+        "movie_ticket(name_movie=\"lego movie 2\")",
+        "great, when would you like to see lego movie 2?",
+        "great, when would you like to see lego movie 2?"
+    ],
+    [
+        "movie_ticket(type_screening=\"imax\")",
+        "would you like to watch in standard or imax?",
+        "would you like to watch in standard or imax?"
+    ],
+    [
+        "movie_ticket(time_start=\"4 pm\")",
+        "there is a showing at 1 pm and 4 pm, which would you like to go to?",
+        "there is a showing at 1 pm and 4 pm, which would you like to go to?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$39\")",
+        "ok, how many tickets do you need? your total will be $39, is that ok?",
+        "ok, how many tickets do you need? your total will be $39, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start=\"4pm\")",
+        "let me check that. it looks like jason mamoa and chris pratt are the main voice actors. i'm sorry, it looks like the showing at 4pm is sold out, would you like to go to the 1pm showing?",
+        "let me check that. it looks like jason mamoa and chris pratt are the main voice actors. i'm sorry, it looks like the showing at 4pm is sold out, would you like to go to the 1pm showing?"
+    ],
+    [
+        "movie_ticket(ticket_booking_accept=\"booked\";num_tickets_accept=\"3\";name_movie_accept=\"lego movie 2\";time_start_accept=\"1 pm\";name_theater_accept=\"the amc boston common\")",
+        "ok, let me book your tickets. i have booked 3 tickets to see lego movie 2 at 1 pm at the amc boston common.",
+        "ok, let me book your tickets. i have booked 3 tickets to see lego movie 2 at 1 pm at the amc boston common."
+    ],
+    [
+        "movie_ticket(location_theater_accept=\"plano\")",
+        "please tell me what city and state you are in and i'll find theaters near you. did you say plano?",
+        "please tell me what city and state you are in and i'll find theaters near you. did you say plano?"
+    ],
+    [
+        "movie_ticket(name_movie=\"spider man\")",
+        "sure, do you want to watch spider man?",
+        "sure, do you want to watch spider man?"
+    ],
+    [
+        "movie_ticket(time_start=\"8:30\")",
+        "ok, there are 2 showings, one at 5:25 and one at 8:30, which would you like to go to?",
+        "ok, there are 2 showings, one at 5:25 and one at 8:30, which would you like to go to?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\";price_ticket_accept=\"$26\")",
+        "ok, 2 tickets will be $26, is that ok?",
+        "ok, 2 tickets will be $26, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start_reject=\"5:25\";time_start=\"8:30\")",
+        "let me book that for you. i'm sorry, it looks like the 5:25 showing is completely sold out, would you like to go to the 8:30 showing?",
+        "let me book that for you. i'm sorry, it looks like the 5:25 showing is completely sold out, would you like to go to the 8:30 showing?"
+    ],
+    [
+        "movie_ticket(time_start=\"10:15\")",
+        "Okay I have two showtimes for you: 7 and 10:15.",
+        "Okay I have two showtimes for you: 7 and 10:15."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2 tickets\";time_start_accept=\"7:15 showing\";name_movie_accept=\"Aquaman\";name_theater_accept=\"iPic Theaters\";location_theater_accept=\"New YOrk\")",
+        "Okay that's 2 tickets for the 7:15 showing of Aquaman at iPic Theaters in New YOrk.",
+        "Okay that's 2 tickets for the 7:15 showing of Aquaman at iPic Theaters in New YOrk."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$24.99\")",
+        "Your total is $24.99.",
+        "Your total is $24.99."
+    ],
+    [
+        "movie_ticket(location_theater_accept=\"AMC Plymouth mall\")",
+        "ok, are you near AMC Plymouth mall?",
+        "ok, are you near AMC Plymouth mall?"
+    ],
+    [
+        "movie_ticket(name_theater=\"Regal Cinemas\";location_theater=\"Plymouth meeting\")",
+        "it doesn't look like they're playing that at this theater and i checked the Regal Cinemas in Plymouth meeting and they're not playing it there either.",
+        "it doesn't look like they're playing that at this theater and i checked the Regal Cinemas in Plymouth meeting and they're not playing it there either."
+    ],
+    [
+        "movie_ticket(name_theater=\"united artists theater\";time_start=\"9:55\")",
+        "ok, the united artists theater has showings at 4:40, 7:20, and 9:55.",
+        "ok, the united artists theater has showings at 4:40, 7:20, and 9:55."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$26\")",
+        "got it, your total will be $26, is that ok?",
+        "got it, your total will be $26, is that ok?"
+    ],
+    [
+        "movie_ticket(location_theater_accept=\"sacramento\")",
+        "movie theater in sacramento got it what movie you are the mood for.",
+        "movie theater in sacramento got it what movie you are the mood for."
+    ],
+    [
+        "movie_ticket(name_movie_accept=\"Greta\")",
+        "Greta is that right?",
+        "Greta is that right?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"3 tickets\")",
+        "3 tickets and a time after 8pm, ok let me check.",
+        "3 tickets and a time after 8pm, ok let me check."
+    ],
+    [
+        "movie_ticket(time_start=\"9:45pm\";name_theater_accept=\"Regal Cinemas Natomas Marketplace 16 & RPX theater.\")",
+        "9:45pm would that be good for you? ok and its at Regal Cinemas Natomas Marketplace 16 & RPX theater.",
+        "9:45pm would that be good for you? ok and its at Regal Cinemas Natomas Marketplace 16 & RPX theater."
+    ],
+    [
+        "movie_ticket(time_start_accept=\"9:45pm\";num_tickets=\"3 tickets\")",
+        "tomorrow after 7pm they have 9:45pm and they have 3 tickets available.",
+        "tomorrow after 7pm they have 9:45pm and they have 3 tickets available."
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"3 tickets\";price_ticket_accept=\"39 dollars\")",
+        "ok for 3 tickets your total is 39 dollars, confirm the booking?",
+        "ok for 3 tickets your total is 39 dollars, confirm the booking?"
+    ],
+    [
+        "movie_ticket(name_theater=\"amc boston common 19\")",
+        "are you near amc boston common 19?",
+        "are you near amc boston common 19?"
+    ],
+    [
+        "movie_ticket(time_start=\"4:15\")",
+        "ok, there is a showing at 1:40 and 4:15 today.",
+        "ok, there is a showing at 1:40 and 4:15 today."
+    ],
+    [
+        "movie_ticket(num_tickets=\"2\")",
+        "sure, and you said you needed 2 tickets?",
+        "sure, and you said you needed 2 tickets?"
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$24\")",
+        "your total will be $24, is that ok?",
+        "your total will be $24, is that ok?"
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"1 hour and 31 minutes\")",
+        "sure, let me search that. it is 1 hour and 31 minutes.",
+        "sure, let me search that. it is 1 hour and 31 minutes."
+    ],
+    [
+        "movie_ticket(time_start=\"1:40\")",
+        "i'm sorry, it looks like the 4:15 showing is sold out, would you like to go to the 1:40 showing?",
+        "i'm sorry, it looks like the 4:15 showing is sold out, would you like to go to the 1:40 showing?"
+    ],
+    [
+        "movie_ticket(name_theater=\"the arclight\")",
+        "ok, let me find theaters near you. are you near the arclight?",
+        "ok, let me find theaters near you. are you near the arclight?"
+    ],
+    [
+        "movie_ticket(time_start=\"11:30pm\")",
+        "ok, there is a showing at 9:45 and 11:30pm today.",
+        "ok, there is a showing at 9:45 and 11:30pm today."
+    ],
+    [
+        "movie_ticket(num_tickets=\"4\")",
+        "and you said you needed 4 tickets?",
+        "and you said you needed 4 tickets?"
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"1 hour and 28 minutes\")",
+        "sure, it is 1 hour and 28 minutes.",
+        "sure, it is 1 hour and 28 minutes."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$52\")",
+        "your total will be $52, is that ok?",
+        "your total will be $52, is that ok?"
+    ],
+    [
+        "movie_ticket(time_start_reject=\"9:45\";time_start=\"11:30\")",
+        "i'm sorry, it looks like the 9:45 showing is sold out, would you like to go to the 11:30 showing?",
+        "i'm sorry, it looks like the 9:45 showing is sold out, would you like to go to the 11:30 showing?"
+    ],
+    [
+        "movie_ticket(name_theater=\"starlight cinemas\")",
+        "are you near starlight cinemas?",
+        "are you near starlight cinemas?"
+    ],
+    [
+        "movie_ticket(name_movie=\"the upside\")",
+        "yes, they have multiple showings of the upside playing tonight.",
+        "yes, they have multiple showings of the upside playing tonight."
+    ],
+    [
+        "movie_ticket(price_ticket_accept=\"$52\")",
+        "ok, your total will be $52, is that ok?",
+        "ok, your total will be $52, is that ok?"
+    ],
+    [
+        "movie_ticket(time_duration_accept=\"one hour and 47 minutes\")",
+        "sure, let me check for you. the run time is one hour and 47 minutes.",
+        "sure, let me check for you. the run time is one hour and 47 minutes."
+    ],
+    [
+        "movie_ticket(time_start=\"8pm\")",
+        "i'm sorry, this showing is completely sold out, would you like to go to the 8pm showing?",
+        "i'm sorry, this showing is completely sold out, would you like to go to the 8pm showing?"
+    ],
+    [
+        "movie_ticket(name_movie=\"Glass\";location_theater_accept=\"new york\")",
+        "Cool. Where do you want to watch Glass? To confirm, you want me to search for tickets for Glass at any theater in new york, is that right?",
+        "Cool. Where do you want to watch Glass? To confirm, you want me to search for tickets for Glass at any theater in new york, is that right?"
+    ],
+    [
+        "movie_ticket(num_tickets=\"two\")",
+        "you want two tickets, is that correct?",
+        "you want two tickets, is that correct?"
+    ],
+    [
+        "movie_ticket(time_start=\"6pm\")",
+        "what time would you like to watch? ok, is that 6pm tonight?",
+        "what time would you like to watch? ok, is that 6pm tonight?"
+    ],
+    [
+        "movie_ticket(num_tickets_accept=\"2\";name_movie_accept=\"Glass\";name_theater_accept=\"AMC Empire 25\";price_ticket_accept=\"$25\")",
+        "2 tickets to see Glass at AMC Empire 25 at 6:30pm. The total cost will be $25. Would you like to purchase now?",
+        "2 tickets to see Glass at AMC Empire 25 at 6:30pm. The total cost will be $25. Would you like to purchase now?"
+    ]
+]
