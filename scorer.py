@@ -105,29 +105,29 @@ def evaluate(args,path,names,ent={}):
 perm1 = {0:"['sgd_travel']",1:"['sgd_payment']",2:"['TMA_restaurant']",3:"['TMB_music']",4:"['sgd_ridesharing']",5:"['TMA_auto']",6:"['sgd_music']",7:"['sgd_buses']",8:"['TMB_restaurant']",9:"['MWOZ_attraction']",10:"['TMB_sport']",11:"['sgd_movies']",12:"['sgd_homes']",13:"['TMA_coffee']",14:"['sgd_restaurants']",15:"['sgd_hotels']",16:"['sgd_weather']",17:"['sgd_trains']",18:"['MWOZ_train']",19:"['sgd_flights']",20:"['sgd_media']",21:"['MWOZ_taxi']",22:"['sgd_alarm']",23:"['TMA_movie']",24:"['sgd_banks']",25:"['TMA_pizza']",26:"['TMB_flight']",27:"['sgd_rentalcars']",28:"['TMB_movie']",29:"['sgd_events']",30:"['MWOZ_restaurant']",31:"['sgd_services']",32:"['sgd_calendar']",33:"['TMB_food-ordering']",34:"['MWOZ_hotel']",35:"['TMA_uber']",36:"['TMB_hotel']"}
 
 def score_folder():
-    ref_text = open("/data/jiayu_xiao/project/wzh/SC-GPT/data/TMB_music/test.txt").read().split("\n")
+    parser = ArgumentParser()
+    parser.add_argument("--domain", type=str, default="", help="domain")
+    
+    args = parser.parse_args()
+    ref_text = open("./data/"+args.domain+"/test.txt").read().split("\n")
     ref = []
     gen = []
     for line in ref_text:
         if len(line) == 0: continue
         ref_line = line.split("&")[1].strip()
         ref.append(ref_line.lower())
-    gen_text = json.load(open("/data/jiayu_xiao/project/wzh/SC-GPT/data/TMB_music/results.json"))
+    gen_text = json.load(open("./data/"+args.domain+"/results.json"))
     for gen_ in gen_text:
-        
         cl_idx = gen_[0].find('<|endoftext|>')
         gen_str = gen_[0][:cl_idx].strip().lower()
         gen_str = gen_str.replace('\xa0','')
         gen.append(gen_str)
-    print(len(ref),len(gen))
-    print(ref[0],"===",gen[0])
 
     BLEU = moses_multi_bleu(gen,ref)
-    print(BLEU)
+    print("BLEU",BLEU)
     ############################ SLOT ERR ##############################
     tot = 0
     cnt_bad = 0; cnt_superflous = 0
-    print(len(gen_text),len(ref_text))
     for i in range(len(gen_text)):
         line = ref_text[i]
         gen_ = gen_text[i]
@@ -141,7 +141,7 @@ def score_folder():
                     if(v.lower() not in gen_str.lower()):
                         cnt_bad += 1
     ERR = (cnt_bad+cnt_superflous)/float(tot)
-    print(ERR)
+    print("ERR",ERR)
     exit()
 
     parser = ArgumentParser()

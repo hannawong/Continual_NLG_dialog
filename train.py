@@ -5,18 +5,9 @@ import logging
 import os
 import pickle
 import random
-import re
-import shutil
-import sys
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, Dataset, SequentialSampler, RandomSampler
-from torch.utils.data.distributed import DistributedSampler
-try:
-    from torch.utils.tensorboard import SummaryWriter
-except:
-    from tensorboardX import SummaryWriter
-
 from tqdm import tqdm, trange
 
 from transformers import (WEIGHTS_NAME, AdamW, get_linear_schedule_with_warmup,
@@ -34,7 +25,6 @@ MODEL_CLASSES = {
     'roberta': (RobertaConfig, RobertaForMaskedLM, RobertaTokenizer),
     'distilbert': (DistilBertConfig, DistilBertForMaskedLM, DistilBertTokenizer)
 }
-
 
 
 
@@ -92,11 +82,6 @@ class TextSeqDataset(Dataset):
         return torch.tensor(self.examples[item]), torch.tensor(self.masks[item]), torch.tensor(self.labels[item])
 
 
-def load_and_cache_examples(args, tokenizer, evaluate=False):
-    dataset = TextSeqDataset(tokenizer, args, file_path=args.eval_data_file if evaluate else args.train_data_file, block_size=args.block_size, max_seq=args.max_seq)
-    return dataset
-
-
 def set_seed(args):
     random.seed(args.seed)
     np.random.seed(args.seed)
@@ -130,9 +115,8 @@ def mask_tokens(inputs, tokenizer, args):
 
 
 def train(args, train_dataset, model, tokenizer):  ### Train the model
-    tb_writer = SummaryWriter()
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu) ##1
-    train_sampler = RandomSampler(train_dataset) if args.local_rank == -1 else DistributedSampler(train_dataset)
+    train_sampler = RandomSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=args.train_batch_size)
 
     t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
@@ -189,10 +173,6 @@ def train(args, train_dataset, model, tokenizer):  ### Train the model
                     # Log metrics
                     if args.evaluate_during_training:  # Only evaluate when single GPU otherwise metrics may not average well
                         results = evaluate(args, model, tokenizer)
-                        for key, value in results.items():
-                            tb_writer.add_scalar('eval_{}'.format(key), value, global_step)
-                    tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
-                    tb_writer.add_scalar('loss', (tr_loss - logging_loss)/args.logging_steps, global_step)
                     print(f"  EVALERR:  {(tr_loss - logging_loss)/float(args.logging_steps)}")
                     logging_loss = tr_loss
 
@@ -206,7 +186,6 @@ def train(args, train_dataset, model, tokenizer):  ### Train the model
                     torch.save(args, os.path.join(output_dir, 'training_args.bin'))
                     print("Saving model checkpoint to", output_dir)
 
-    tb_writer.close()
     return global_step, tr_loss / global_step
 
 
@@ -381,7 +360,7 @@ def main():
   
     # Training
     if args.do_train:
-        train_dataset = dataset = TextSeqDataset(tokenizer, args, file_path= args.train_data_file, block_size=args.block_size, max_seq=args.max_seq)
+        train_dataset = TextSeqDataset(tokenizer, args, file_path= args.train_data_file, block_size=args.block_size, max_seq=args.max_seq)
 
         global_step, tr_loss = train(args, train_dataset, model, tokenizer)
         print(" global_step = ",global_step," average loss = ", tr_loss)

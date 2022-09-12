@@ -93,12 +93,7 @@ def sample_sequence(model, length, context, num_samples=1, temperature=1, top_k=
             inputs = {'input_ids': generated} ###shape:[5,25]
 
             outputs = model(**inputs) ###outputs[0].shape: [5,25,50527] 
-            next_token_logits = outputs[0][:, -1, :] / temperature ###[5,50527]
-
-            # repetition penalty from CTRL (https://arxiv.org/abs/1909.05858)
-            for i in range(num_samples):
-                for _ in set(generated[i].tolist()):
-                    next_token_logits[i, _] /= repetition_penalty
+            next_token_logits = outputs[0][:, -1, :] ###[5,50527]
                 
             filtered_logits = top_k_top_p_filtering(next_token_logits, top_k=top_k, top_p=top_p)  ###[5,50527], 只是大部分都变成了-inf
             next_token = torch.multinomial(F.softmax(filtered_logits, dim=-1), num_samples=1) ##[1222]重复5次
