@@ -1,125 +1,289 @@
 [
   [
-    "ive found 10 attractions. the arte carrillo gil museum is a museum.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm begin playing the movie. it is a museum.",
+    "ive found 1 movie you may like called arte Carrillo Gil museum.inform_count ( count = \"1\") & ive found 1 movie you may like called arte Carrillo Gil museum.",
+    "ive found 10 movies for you. would you like to see arte carrillo g museum, mantel or pet sematary?inform_count ( count = \"10\") & ive found 10 movies for you. would you like to see arte carrillo g museum",
+    "ive found 1 movie that you might like, arte carillo g museum.inform_count ( count = \"1\") & ive found 1 movie that you might like, arte carillo g museum.",
+    "ive found 1 movie you may like. how about the movie arte Carrillo g museum?inform_count ( count = \"1\") & ive found 1 movie you may like. how about the movie arte Carrillo g museum?"
   ],
   [
-    "ive found 10 attractions. how about the american church in paris?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie for you may like. would you like to watch the movie american church in chicago?inform_count ( count = \"1\") & ive found 1 movie for you may like. would you like to watch the movie american church in chicago?",
+    "ive found 1 movie that might interest you. how does that sound?inform_count ( count = \"1\") & ive found 1 movie that might interest you. how does that sound?",
+    "ive found 1 movie for you. do you like to watch the movie american church in paris?",
+    "irm your preference of american church in chris perry or place of worship",
+    "irm your request to rent the movie american church in paris."
   ],
   [
-    "ive found 10 attractions. how about the american church in paris?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you may like. would you like to see american church in paris?inform_count ( count = \"1\") & ive found 1 movie you may like. would you like to see american church in paris?",
+    "ive found 1 movie you might like. do you like to see the movie american church in paris?",
+    "ive found 1 movie you might like. do you like to watch the movie american church in Paris?",
+    "irm you want me to play the movie american church in Paris with no subtitles?",
+    "ive found 1 movie you may like. do you like the movie american church in chicago?"
   ],
   [
-    " & it is a great place for kids and the phone number is 1 40 62 05 00.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you might like, do you like to watch it?inform ( good_for_kids = \"true\") & ive found 1 movie you might like, do you like to watch it?",
+    "ive found 1 movie you may like, would you like to watch it?",
+    "ive found 1 movie for you, how about watching it now?",
+    "ive rented 1 movie, it is called good for kids and you want to see it now.",
+    "irm your request to play the movie without any details."
   ],
   [
-    "ive found 10 attractions. how about the performing arts venue, the Arab world institute?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm you would like to rent the movie Arab world institute with category playing.",
+    "ive found 1 movie for you i think is called Arab world institute.inform_count ( count = \"1\") & ive found 1 movie for you i think is called Arab world institute.",
+    "irm you want to watch the movie Arab world institute with subtitles.",
+    "ive found 1 movie that you might like. how about watching the movie Arab world institute?",
+    "ive found 1 movie you may like. what about opera?inform_count ( count = \"1\") & ive found 1 movie you may like. what about opera?"
   ],
   [
-    "ive found 10 attractions. how about the american church in paris?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you may like. do you like the movie american church in paris?",
+    "irm you would like to rent american church in paris for 1 day.",
+    "ive found 1 movie you may like. would you like to watch american church in paris?inform_count ( count = \"1\") & ive found 1 movie you may like. would you like to watch american church in paris?",
+    "ive found 1 movie that you might like. would you like to watch the movie american church in paris?",
+    "ive found 1 movie you might like, would you like to watch american church in paris?"
   ],
   [
-    " & it is a great place for kids and the phone number is 1 40 62 05 00.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive rented 1 movie. you would like to watch it?",
+    "ive rented 1 movie and it is considered a good for kids movie. do you like that one?",
+    "ive found 1 movie you may like. it is called true and it costs $1.",
+    "irm a rental for 1 child with good taste. is this correct?",
+    "irm you want to watch the movie, it is good for kids and the number 1 40 62 05 00 is 1."
   ],
   [
-    "ive found 10 attractions. how about Bagatelle park? it's a park.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 park that might suit you. how does bagatelle park sound?",
+    "ive found 1 movie you might like. how does bagatelle park sound?",
+    "ive found 10 movies. do you like bagatelle park, bak lor, or green book?inform_count ( count = \"10\") & ive found 10 movies. do you like bagatelle park, bak lor, or green book?",
+    "ive found 1 suitable movie called bagatelle park.inform_count ( count = \"1\") & ive found 1 suitable movie called bagatelle park.",
+    "ive found 1 movie you might enjoy. would you like to rent bagatelle park?inform_count ( count = \"1\") & ive found 1 movie you might enjoy. would you like to rent bagatelle park?"
   ],
   [
-    "ive found 10 attractions. how about 30 st mary axe?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 30 st mary axe movies",
+    "irma, dr. strangelove, and green book are some options.",
+    "ive found 1 movie that may interest you. it is called 30 st mary axe.inform_count ( count = \"1\") & ive found 1 movie that may interest you. it is called 30 st mary axe.",
+    "ive found 30 st mary axe, may i suggest it?",
+    "ive found 10 movies. would you like to watch 30 st mary axe?inform_count ( count = \"10\") & ive found 10 movies. would you like to watch 30 st mary axe?"
   ],
   [
-    "ive found 10 attractions. how about 30 st mary axe?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you may like. what about 30 st mary axe?",
+    "ive found 30 st mary axe movies.",
+    "ive found 30 st mary axe, may i suggest 30 st mary axe?",
+    "ive found 30 st mary axe, is that right?",
+    "ive found 10 movies you may like. would you like to watch 30 st mary axe?inform_count ( count = \"10\") & ive found 10 movies you may like. would you like to watch 30 st mary axe?"
   ],
   [
-    " & yes, it is a great place for kids. the phone number is 20 7071 5029.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm movie now, it's good for 5 days, it costs $20 and costs no more.",
+    "irma has started playing the movie now, with no need to confirm this.",
+    "ive found 1 movie you may like. would you like to rent it?inform ( good_for_kids = \"true\") & ive found 1 movie you may like. would you like to rent it?",
+    "ive found 1 movie you might like. would you like to watch that movie?",
+    "irm your confirmation. i will play the movie for you with the appropriate details."
   ],
   [
-    "ive found 10 attractions. how about a nature preserve called acuario inbursa?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you might like. would you like to see acuario in bursa?",
+    "ive found 1 movie for you i think you may like. it is called acuario inbursa.",
+    "ive found 1 movie you might like. would you like to see acuario inbursa?",
+    "ive found 1 movie you might like. would you like to see acuario inbursa?",
+    "llorona has been rented for 1 month and it has a nature preserve feelinform_count ( count = \"1\") & llorona has been rented for 1 month and it has a nature preserve feel"
   ],
   [
-    " & yes, it is free.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irma has started playing the movie.",
+    "irmary rent is $7 and the movie is playing.",
+    "ive booked your movie and it will be available shortly. i'll let you know what kind of entry it is.",
+    "irmary tickets are $4.50 and rental is beginning. begin playing.",
+    "irma is playing the movie. it is rented for a few days and is a movie"
   ],
   [
-    " & the phone number is 55 5395 4586.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive booked it. it will start playing within 3 days.",
+    "irm number is 555 5395 4586",
+    "ive found 555 5395 4586, do you like that?",
+    "irm number is 55 5395 4586",
+    "irm number is 55 5395 4586"
   ],
   [
-    "ive found 10 attractions. there is a museum called fleet science center.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you may like. how does the moviefleet science center?inform_count ( count = \"1\") & ive found 1 movie you may like. how does the moviefleet science center?",
+    "ive found 1 movie you may like, would you like to see fleform center?inform_count ( count = \"1\") & ive found 1 movie you may like, would you like to see fleform center?",
+    "ive found 1 movie you may like. how about fleet science center?",
+    "irma has just started playing the movie. it's a museum movie.",
+    "ive found 1 movie you may like. would you like to see fleformis science center?"
   ],
   [
-    "ive found 10 attractions. there is a museum called fleet science center.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irma has started playing the movie. you may like to watch it without any restrictions.",
+    "ive found 1 movie that you might like. would you like to rent the movie Fleet science center?",
+    "ive found 1 movie that fits your interests. do you like the movie Fleet Science Center?inform_count ( count = \"1\") & ive found 1 movie that fits your interests. do you like the movie Fleet Science center?",
+    "ive found 1 movie you may like. do you like to watch Fleet Science Center?",
+    "irma, i'll start Fleet Science Center with a museum category."
   ],
   [
-    "ive found 10 attractions. there is a museum called fleet science center.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you may like. would you like to see fleet science center?",
+    "ive found 1 movie you may like, it is called Fleet Science Center.",
+    "ive found 1 movie that may interest you. it is called fleet science center.inform_count ( count = \"1\") & ive found 1 movie that may interest you. it is called fleet science center.",
+    "ive found 1 movie for you may like. how about the fleform movie which depicts a museum?",
+    "ive found 1 movie for you. would you like to see fleet science center?"
   ],
   [
-    " & the phone number is 619-238-1233.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm number is 619-238-1233.",
+    "irm_of_attorney = \"true\" ; title = \"a faithful man\") & irm_of_attorney is now playing and it is a faithful man title",
+    "irm number is 619-238-1233",
+    "irma has started the movie. it is a movie rental.",
+    "irm number 619-238-1233 is located."
   ],
   [
-    "ive found 10 attractions. how about body lands london? it's a museum.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie called body wrylands that meets your requirements. is that right?",
+    "ive found 1 movie you may like. it is called body lore days, and it is considered museum.",
+    "ive found 1 movie that you might like to watch. it's called body lore days, and it's a museum.",
+    "ive found 1 movie you might like. how about body language?",
+    "ive found 1 movie called body lotters London."
   ],
   [
-    "ive found 10 attractions. how about body lands london? it's a museum.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you may like. would you like to see body lot words London?inform_count ( count = \"1\") & ive found 1 movie you may like. would you like to see body lot words London?",
+    "ive found 4 movies you may like, do you like body wrestlers London or museum?",
+    "ive found 10 movies. you may like body wands with museum, hackers, or high life elements?inform_count ( count = \"10\") & ive found 10 movies. you may like body wands with museum, hackers, or high life elements?",
+    "ive found 1 movie you may like, body swayers London.inform_count ( count = \"1\") & ive found 1 movie you may like, body swayers London.",
+    "ive found 1 movie you might like. how about body sway days London?"
   ],
   [
-    "ive found 10 attractions. how about body lands london? it's a museum.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you might like. would you like to watch body lot lights London?",
+    "ive found 2 movies you may like. how about body wolds London, museum or movie?",
+    "ive found 1 movie for you i think you would enjoy. how about body wrestlers London?",
+    "ive found 4 movies that might suit your interests. would you like to watch body wands London or museum?",
+    "ive found 1 movie you might like. it is called body worlds.inform_count ( count = \"1\") & ive found 1 movie you might like. it is called body worlds."
   ],
   [
-    "ive found 10 attractions. le village royal is a shopping area.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie for you. would you like to watch le village royal?",
+    "ive found 1 movie you may like, le village royal.inform_count ( count = \"1\") & ive found 1 movie you may like, le village royal.",
+    "ive found 10 movies that you may like. would you like to see le village royal, shopping area or suburban?inform_count ( count = \"10\") & ive found 10 movies that you may like. would you like to see le village royal, shopping area or suburban",
+    "ive found 10 options. would you like to rent le villain?inform_count ( count = \"10\") & ive found 10 options. would you like to rent le villain?",
+    "irm a movie for you. it will start playing shortly. it is a shopping area."
   ],
   [
-    "ive found 10 attractions. le village royal is a shopping area.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie for you. would you like to watch le village royal?",
+    "irm details: movie rental for 1 day.",
+    "ive found 1 movie you might like. what about le village royal?",
+    "ive found 1 movie you might like. how about le village royal?inform_count ( count = \"1\") & ive found 1 movie you might like. how about le village royal?",
+    "ive found 1 movie you may like. how does le village royal sound?inform_count ( count = \"1\") & ive found 1 movie you may like. how does le village royal sound?"
   ],
   [
-    "ive found 10 attractions. le village royal is a shopping area.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you may like. do you want to rent le village royal?inform_count ( count = \"1\") & ive found 1 movie you may like. do you want to rent le village royal?",
+    "ive found 1 movie you may like. how about le village royal?",
+    "ive found 1 suitable movie. would you like to see le village royal?",
+    "ive found 1 movie you may like. do you like le village royal?inform_count ( count = \"1\") & ive found 1 movie you may like. do you like le village royal?",
+    "irm a 1 movie titled le village royal with no subtitles"
   ],
   [
-    "ive found 10 attractions. angels flight railway is a historical landmark.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie that fits your interests. it is called angels flight railway.",
+    "ive found 1 movie you might like. how about angels flight train?inform_count ( count = \"1\") & ive found 1 movie you might like. how about angels flight train?",
+    "ive found 1 movie you may like. do you like the movie Angels Flight Railway?inform_count ( count = \"1\") & ive found 1 movie you may like. do you like the movie angels flight railway?",
+    "lloron is playing the movie. it is a historical landmark and is considered a historical landmark for the duration of the movie.",
+    "ive seen 10 movies. would you like to see angels flight railway, historical landmark or gloria bell?"
   ],
   [
-    "ive found 10 attractions. how about 30 st mary axe?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 10 movies. would you like to watch 30 st mary axe?inform_count ( count = \"10\") & ive found 10 movies. would you like to watch 30 st mary axe?",
+    "ive found 1 movie you may like. how about 30 st mary axe?",
+    "ive found 10 movies including 30 st mary axe.",
+    "ive found 1 you might like. how about 30 st mary axe?",
+    "ive found 10 movies you might like. would you like to see 30 st mary axe?inform_count ( count = \"10\") & ive found 10 movies you might like. would you like to see 30 st mary axe?"
   ],
   [
-    "ive found 10 attractions. how about 30 st mary axe?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 10 movies that you might enjoy. how about 30 st mary axe?inform_count ( count = \"10\") & ive found 10 movies that you might enjoy. how about 30 st mary axe?",
+    "ive found 30 st mary axe. would you like that movie?",
+    "irma clavijo, gloria bell, and gloria bello are some of the options.",
+    "ive found 1 movie you may like. would you like to see 30 st mary axe?",
+    "irma gloria theatre is a good name."
   ],
   [
-    "ive found 10 attractions. how about 30 st mary axe?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irma, the lord of the rings, and dr. strangelove are the only movies you can choose from.",
+    "ive found 30 movies. would you like to watch 30 st mary axe?inform_count ( count = \"30\") & ive found 30 movies. would you like to watch 30 st mary axe?",
+    "ive found 30 st mary axe. would you like to rent it?",
+    "ive found 30 movies and i think you would like to watch 30 st mary axe.",
+    "ive found 10 movies you might like. how about 30 st mary axe?inform_count ( count = \"10\") & ive found 10 movies you might like. how about 30 st mary axe?"
   ],
   [
-    "ive found 10 attractions. admiral arch is a historical landmark.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 historical landmark, please select your option. would you like to see admiralty arch?inform_count ( count = \"1\") & ive found 1 historical landmark, please select your option. would you like to see admiralty arch?",
+    "ive found 1 movie that might interest you. do you like the historical arch?",
+    "ive found 10 movies. how about emily arch?",
+    "ive found 10 historical landmarks you may like. do you like to watch the movie admiralty arch?",
+    "ive found 1 movie that you might like. how about watching the movie emily arch?"
   ],
   [
-    " & yes, it is a great place for kids. the phone number is 20 7276 5000.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive started playing it. you might like to rent it.",
+    "ive found 5 movies that you may like. would you like to see any of the following movies: good for kids, or vigilante justice?",
+    "ive rented the movie and it is good. the movie will start playing within a few days and it will cost $20.",
+    "ive started your search. you want to rent the movie good_for_kids with no children.",
+    "irm your request to rent the movie for 20 minutes. it is a movie made by the movie studio."
   ],
   [
-    "ive found 10 attractions. how about american church in paris?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you might like. how about watching the movie American church in Paris?",
+    "ive found 1 movie you might like, how about watching a movie called American church in Paris?",
+    "ive found 1 movie called american church in Paris.",
+    "ive found 1 place of worship, american church in Paris.",
+    "ive found 1 movie called american church in Paris. is this correct?"
   ],
   [
-    " & the phone number is 1 40 62 05 00.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive located 1 movie you might like. how about 1 40 62 05 00?",
+    "irm_of_family = \"true\" ; title = \"the innocent\") & irm_of_family = \"true\" ; title = \"the innocent\") & irm_of_family = \"true\" ; title = \"the innocent\") & irm_of_family ",
+    "irm movie number 1 40 62 05 00.",
+    "irm a 1 film for 1 dumbbell man?",
+    "ive started the search. you might like 1 40 62 05 00."
   ],
   [
-    " & it is a great place for kids.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irma, the movie, and the movie have been rented for 3 days and have been started. the movie is playing.",
+    "irma is playing the movie and it is good for 10 days.",
+    "irmary rental is confirmed. movie rental is confirmed.",
+    "ive found 1 movie that you may be interested in. how does that sound?inform ( good_for_kids = \"true\") & ive found 1 movie that you may be interested in. how does that sound?",
+    "irma, the movie is playing. it is a good for 5."
   ],
   [
-    "ive found 10 attractions. how about alki beach park?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ike the park, alki, beach, or the visitor's destination",
+    "ive found 1 movie for you. would you like to watch alki beach park?inform_count ( count = \"1\") & ive found 1 movie for you. would you like to watch alki beach park?",
+    "ive found 1 movie. would you like to watch alki beach park?inform_count ( count = \"1\") & ive found 1 movie. would you like to watch alki beach park?",
+    "ive found 1 movie. it's called alki beach park.inform_count ( count = \"1\") & ive found 1 movie. it's called alki beach park.",
+    "ive found 1 suitable movie for you. how about alki beach park?inform_count ( count = \"1\") & ive found 1 suitable movie for you. how about alki beach park?"
   ],
   [
-    "ive found 10 attractions. how about alki beach park?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ikki beach park is 1 of your choices. do you like to rent it?",
+    "ive found 1 movie you might like. it is called alki beach park.",
+    "ive found 1 movie you may like. it is called alki beach park.",
+    "irma kashner, alki beach park, and park are good options.",
+    "ive found 1 movie for you i think. it is called alki beach park.inform_count ( count = \"1\") & ive found 1 movie for you i think. it is called alki beach park."
   ],
   [
-    "ive found 10 attractions. how about alki beach park?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 1 movie you might like. would you like to watch alki beach park?",
+    "ive found 1 movie that you may like. what about alki beach park?",
+    "ive found 1 movie you might like. would you like to watch alki beach park?",
+    "ive found 1 suitable park. how about alki beach park?",
+    "ikki beach park is 1 movie you would like to see."
   ],
   [
-    "ive found 10 attractions. how about 56 signers of the declaration of independence memorial? it's a nature preserve.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 56 movie options including 4 that do not suit your interests",
+    "ive found 56 movies, do you like to watch any of the following movies?inform_count ( count = \"56\") & ive found 56 movies, do you like to watch any of the following movies?",
+    "ive found 1 movie, do you like to watch 56 signers of the declaration of independence?",
+    "ive found 1 movie for you. would you like to see 56 signers of the declaration of the independence memorial?",
+    "ive found 4 movies you might like. would you like to see 56 signers of the declaration of the independence memorial?"
   ],
   [
-    " & it is a great place for kids.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive started playing your movie. i'm happy to play any of the following: movie, play the movie now.",
+    "ive started the movie. you should be fine with that.",
+    "ive found 4 movies you may like. what do you think about watching movies like that?",
+    "irma has started playing the movie. it is considered a good option for you.",
+    "irma is now playing the movie. it is a movie made with good will"
   ],
   [
-    " & the phone number is 202-426-6841.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm number is 202-426-6841.",
+    "irm number is 202-426-6841.",
+    "lloron is now the number 1 called 202-426-6841",
+    "ive started the movie. it's called 202-426-6841.",
+    "irm number of calls is 202-426-6841."
   ],
   [
-    "ive found 10 attractions. there is a nature preserve called aquaria klcc.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive seen 1 movie that might interest you. would you like to rent aquaria kleck?",
+    "irm you would like to rent a movie called aquaria KLcc with no details?",
+    "ive found 1 movie you might like. would you like to see aquaria kleck?inform_count ( count = \"1\") & ive found 1 movie you might like. would you like to see aquaria kleck?",
+    "ive found 1 movie you might like, what about aquaria kleck?",
+    "ive seen 1 movie you might like. would you like to rent a canyon kleck?"
   ],
   [
-    " & it is a great place for kids.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irma, is that right?",
+    "irmary and movie rental is now confirmed. movie rental is confirmed.",
+    "ive rented it for you and it is a movie good for kids.",
+    "irma has started playing the movie. it was directed by irma and costs $5.",
+    "irma has started playing the movie. the movie is good for 5 days and it will cost you $5."
   ]
 ]

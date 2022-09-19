@@ -3,6 +3,7 @@ import argparse
 import glob
 import os
 import random
+from model.Seq2SeqToD import Seq2SeqToD
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, Dataset, SequentialSampler, RandomSampler
@@ -98,21 +99,33 @@ def mask_tokens(inputs, tokenizer, args):
     return inputs, labels
 
 
-def train(args, train_dataset, model, tokenizer):  ### Train the model
+def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu) ##1
     train_sampler = RandomSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=args.train_batch_size)
     t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
-
-    # Prepare optimizer and schedule (linear warmup and decay)
     no_decay = ['bias', 'LayerNorm.weight']
     optimizer_grouped_parameters = [
         {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
-        ]
-    optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate, eps=args.adam_epsilon)
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=t_total)
-    model.resize_token_embeddings(len(tokenizer))
+    ]
+    if args.mode == "GPT2":
+        optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate * 0.01, eps=args.adam_epsilon)
+    elif args.mode == "adapter":
+        optimizer_grouped_parameters = [
+        {'params': [p for n, p in model.named_parameters() if "adapter" in str(n) ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate},
+        {'params': [p for n, p in model.named_parameters() if "adapter" not in str(n) ], 'weight_decay': 0.0,'lr':0.0}
+    ]
+        parameters_to_update = [p for n, p in model.named_parameters() ]#if "adapter" in str(n) or "ln" in str(n) or "lm" in str(n)]
+        optimizer = AdamW(optimizer_grouped_parameters,  eps=args.adam_epsilon)
+    # Prepare optimizer and schedule (linear warmup and decay)
+    
+
+    #scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=t_total)
+    if args.mode == "adapter":
+        model.model.resize_token_embeddings(len(tokenizer))
+    elif args.mode == "GPT2":
+        model.resize_token_embeddings(len(tokenizer))
 
     global_step = 0
     tr_loss, logging_loss = 0.0, 0.0
@@ -121,42 +134,47 @@ def train(args, train_dataset, model, tokenizer):  ### Train the model
     set_seed(args)  
     for epoch in train_iterator:
         for step, batch in enumerate(train_dataloader):
-            print(f"  PROGRESS: {float(global_step)/t_total*100}%")
+            if step % 100 == 0:
+                print(f"  PROGRESS: {float(global_step)/t_total*100}%")
             inputs, masks, labels = batch
             inputs = inputs.to(args.device)
             labels = labels.to(args.device)
 
             model.train()
-            outputs = model(inputs, masked_lm_labels=labels) if args.mlm else model(inputs, labels=labels)
-            loss = outputs[0]  
+            if args.mode == "adapter":
+                outputs = model(inputs, labels=labels,task_id = task_id)  ###inputs:[32,80], labels:[32,80]
+                loss = outputs
+            elif args.mode == "GPT2":
+                outputs = model(inputs,labels = labels)
+                loss = outputs
             loss.backward()
+            if step % 100 == 0:
+                print(loss)
 
             tr_loss += loss.item()
             if (step + 1) % args.gradient_accumulation_steps == 0:
-                torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
+                parameters_to_update = [p for n, p in model.named_parameters() ]
+                if args.mode == "GPT2":
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
+                elif args.mode == "adapter":
+                    torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
                 optimizer.step()
-                scheduler.step()  
+                #scheduler.step()  
                 model.zero_grad()
                 global_step += 1
 
                 if global_step % args.logging_steps == 0:
                     print(f"  EVALERR:  {(tr_loss - logging_loss)/float(args.logging_steps)}")
                     logging_loss = tr_loss
-
-                if global_step % args.save_steps == 0:  ###5000
-                    checkpoint_prefix = 'checkpoint' # Save model checkpoint
-                    output_dir = os.path.join(args.output_dir, '{}-{}'.format(checkpoint_prefix, global_step))
-                    if not os.path.exists(output_dir):
-                        os.makedirs(output_dir)  
-                    model.save_pretrained(output_dir)
-                    tokenizer.save_pretrained(output_dir)
-                    torch.save(args, os.path.join(output_dir, 'training_args.bin'))
-                    print("Saving model checkpoint to", output_dir)
+    print("BEGIN EVAL!!!!!!!!!!!!!")
+    for task_id,domain in enumerate(args.eval_data_file.split(",")[:task_id+1]):
+        eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test")
+        evaluate(args, model, eval_dataset,task_id,tokenizer)
 
     return global_step, tr_loss / global_step
 
 
-def evaluate(args, model, eval_dataset):
+def evaluate(args, model, eval_dataset,task_id,tokenizer):
 
         args.eval_batch_size = args.per_gpu_eval_batch_size * max(1, args.n_gpu)
         eval_sampler = SequentialSampler(eval_dataset)
@@ -166,7 +184,7 @@ def evaluate(args, model, eval_dataset):
         eval_loss = 0.0
         nb_eval_steps = 0
         model.eval()
-
+        first = True
         for batch in tqdm(eval_dataloader, desc="Evaluating"):
             inputs, masks, labels = batch
             inputs = inputs.to(args.device)
@@ -174,10 +192,39 @@ def evaluate(args, model, eval_dataset):
             labels = labels.to(args.device)
 
             with torch.no_grad():
-                outputs = model(inputs, masked_lm_labels=labels) if args.mlm else model(inputs, labels=labels)
-                lm_loss = outputs[0]
+                if args.mode == "adapter":
+                    outputs =  model(inputs, labels=labels,task_id = task_id)
+                    lm_loss = outputs
+                        
+                elif args.mode == "GPT2":
+                    outputs =  model(inputs, labels=labels)
+                    lm_loss = outputs[0]
                 eval_loss += lm_loss.mean().item()
-            nb_eval_steps += 1
+                nb_eval_steps += 1
+
+                if first:
+                        first = False
+                        text = ""
+                        for _ in inputs[0]:
+                            _ = _.item()
+                            text += tokenizer.convert_ids_to_tokens(_)
+                        text = text.replace('Ġ',' ')
+                        raw_text = text[:-1].split(' & ')[0] + ' & '
+                        print(raw_text)
+                        tokenized_text = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_text))
+                        generated = torch.LongTensor(tokenized_text).unsqueeze(0).cuda()
+                        for step in range(60):
+                            outputs = model(generated,labels = None,task_id = task_id)
+                            next_token_logits = outputs[:,-1, :]
+                            next_tokens = torch.argmax(next_token_logits, dim=-1).unsqueeze(0)
+                            generated = torch.cat((generated, next_tokens), dim=1)
+                        out = generated.tolist() ###只取生成的后面
+                        examples = []
+                        for o in out:
+                            text = tokenizer.decode(o, clean_up_tokenization_spaces=True) ##只取到<endoftext>之前
+                            examples.append(text)
+                        print(examples)
+
 
         eval_loss = eval_loss / nb_eval_steps
         perplexity = torch.exp(torch.tensor(eval_loss))
@@ -258,7 +305,7 @@ def main():
                         help="Overwrite the content of the output directory")
     parser.add_argument('--overwrite_cache', action='store_true',
                         help="Overwrite the cached training and evaluation sets")
-    parser.add_argument('--seed', type=int, default=42,
+    parser.add_argument('--seed', type=int, default=1,
                         help="random seed for initialization")
     parser.add_argument('--fp16', action='store_true',
                         help="Whether to use 16-bit (mixed) precision (through NVIDIA apex) instead of 32-bit")
@@ -275,6 +322,7 @@ def main():
     parser.add_argument('--use_tokenize', action='store_true', help="")
     parser.add_argument("--max_seq", default=80, type=int,help="")
     parser.add_argument("--split", dest='split', default=False, action='store_false')
+    parser.add_argument('--mode', type=str, default=None, required = True,help="model type")
     args = parser.parse_args()
 
 
@@ -296,30 +344,44 @@ def main():
     
 
     args.block_size = min(args.block_size, tokenizer.max_len_single_sentence) ##min(80,1024)
-    model = model_class.from_pretrained(args.model_name_or_path,
+    if args.mode == "GPT2":
+        model = model_class.from_pretrained(args.model_name_or_path,
                                         from_tf=bool('.ckpt' in args.model_name_or_path),
                                         config=config,
                                         cache_dir=args.cache_dir if args.cache_dir else None)
+    elif args.mode == "adapter":
+        model = Seq2SeqToD(args)
     model.to(args.device)
     print("args:", args)
-  
+    args.split = True
     ################################# Training ########################################
-    domains = args.train_data_file.split(",")
+    if args.train_data_file == "all":
+        perm1 = {0:'sgd_travel',1:'sgd_payment',2:"TMA_restaurant",3:"TMB_music",4:"sgd_ridesharing",5:"TMA_auto",6:"sgd_music",7:"sgd_buses",8:"TMB_restaurant",9:"MWOZ_attraction",10:"TMB_sport",11:"sgd_movies",12:"sgd_homes",13:"TMA_coffee",14:"sgd_restaurants",15:"sgd_hotels",16:"sgd_weather",17:"sgd_trains",18:"MWOZ_train",19:"sgd_flights",20:"sgd_media",21:"MWOZ_taxi",22:"sgd_alarm",23:"TMA_movie",24:"sgd_banks",25:"TMA_pizza",26:"TMB_flight",27:"sgd_rentalcars",28:"TMB_movie",29:"sgd_events",30:"MWOZ_restaurant",31:"sgd_services",32:"sgd_calendar",33:"TMB_food-ordering",34:"MWOZ_hotel",35:"TMA_uber",36:"TMB_hotel"}
+        domains = list(perm1.values())
+    else:
+        domains = args.train_data_file.split(",")
+    print(domains)
     if args.split: ###分开训练
-        for domain in domains:
+        for task_id,domain in enumerate(domains):
             print("======================= domain:",domain,"===========================")
             train_dataset = TextSeqDataset(tokenizer, args, file_paths= [domain], max_seq=args.max_seq)
-            global_step, tr_loss = train(args, train_dataset, model, tokenizer)
-            print(" global_step = ",global_step," average loss = ", tr_loss)
-
+            global_step, tr_loss = train(args, train_dataset, model, tokenizer,task_id)
+            print(" global_step = ", global_step," average loss = ", tr_loss)
             print("Saving model checkpoint to", args.output_dir)
-            model.save_pretrained(args.output_dir)
+            if args.mode == "GPT2":
+                model.save_pretrained(args.output_dir)
+            elif args.mode == "adapter":
+                torch.save(model.state_dict(), args.output_dir + "/adapter.ckpt")
             tokenizer.save_pretrained(args.output_dir)
             torch.save(args, os.path.join(args.output_dir, 'training_args.bin')) ##save arg
 
             # Load a trained model and vocabulary that you have fine-tuned
             print("Loading Model checkpoint.....")
-            model = model_class.from_pretrained(args.output_dir)
+            if args.mode == "GPT2":
+                model = model_class.from_pretrained(args.output_dir)
+            elif args.mode == "adapter":
+                model = Seq2SeqToD(args)
+                model.load_state_dict(torch.load(args.output_dir+"/adapter.ckpt"))
             tokenizer = tokenizer_class.from_pretrained(args.output_dir, do_lower_case=args.do_lower_case)
             model.to(args.device)
     else: ##合在一起
@@ -328,13 +390,20 @@ def main():
         print(" global_step = ",global_step," average loss = ", tr_loss)
 
         print("Saving model checkpoint to", args.output_dir)
-        model.save_pretrained(args.output_dir)
+        if args.mode == "GPT2":
+            model.save_pretrained(args.output_dir)
+        elif args.mode == "adapter":
+            torch.save(model.state_dict(), args.output_dir + "/adapter.ckpt")
         tokenizer.save_pretrained(args.output_dir)
         torch.save(args, os.path.join(args.output_dir, 'training_args.bin')) ##save arg
 
             # Load a trained model and vocabulary that you have fine-tuned
         print("Loading Model checkpoint.....")
-        model = model_class.from_pretrained(args.output_dir)
+        if args.mode == "GPT2":
+            model = model_class.from_pretrained(args.output_dir)
+        elif args.mode == "adapter":
+            model = Seq2SeqToD(args)
+            model.load_state_dict(torch.load(args.output_dir+"/adapter.ckpt"))
         tokenizer = tokenizer_class.from_pretrained(args.output_dir, do_lower_case=args.do_lower_case)
         model.to(args.device)
 
@@ -342,15 +411,17 @@ def main():
     checkpoints = [args.output_dir]
     if args.eval_all_checkpoints:
         checkpoints = list(os.path.dirname(c) for c in sorted(glob.glob(args.output_dir + '/**/' + WEIGHTS_NAME, recursive=True)))
-    print("Evaluate the following checkpoints:", checkpoints)
-
     for checkpoint in checkpoints:
-        model = model_class.from_pretrained(checkpoint)
+        if args.mode == "GPT2":
+            model = model_class.from_pretrained(args.output_dir)
+        elif args.mode == "adapter":
+            model = Seq2SeqToD(args)
+            model.load_state_dict(torch.load(args.output_dir+"/adapter.ckpt"))
         model.to(args.device)
         domains = args.eval_data_file.split(",")
-        for domain in domains:
+        for task_id,domain in enumerate(domains):
             eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test")
-            evaluate(args, model, eval_dataset)    
+            evaluate(args, model, eval_dataset,task_id,tokenizer)    
 
 if __name__ == "__main__":
     main()

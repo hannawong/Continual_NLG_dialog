@@ -1,326 +1,758 @@
 [
   [
-    "ive confirmed your luxury ride for 1 to 770 san ramon valley boulevard.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! you want a luxury ride for 1 to 770 san ramon valley boulevard. does that sound right?",
+    " please confirm: luxury ride for 1 to 770 san ramon valley boulevard.",
+    "!!! you want a luxury ride for 1 to 770 san ramon valley boulevard. is this correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm: you want a luxury ride for 1 to 770 san ramon valley boulevard."
   ],
   [
-    " & it should arrive in 9 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "???????? i have booked your cab and it is headed to pick you up now. the cab is heading to pick you up in 9 minutes",
+    "irm ( ride_fare = \"$15.00\") & it is booked and coming. it's about 9 minutes and your ride is on route.",
+    "!!! can you confirm the details of your cab's arrival date? the cab will be for 9 minutes, and will arrive in 9 minutes",
+    "irm ( destination = \"10\" ; ride_fare = \"$13.48\") & the cab is expected in 10 minutes and the taxicab ride will cost $13.48.",
+    "!!! can you confirm the following: you are requesting a cab for 9 minutes to pick you up."
   ],
   [
-    " & it should arrive in 9 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( destination = \"1230 south el camino real\" ; ride_type = \"true\") & i have confirmed your destination is 1230 south el camino real. the cab is a true cab and costs $12.",
+    "irm ( approximate_ride_duration = \"9\" ; ride_fare = \"$13.48\") & the cab is on the way with an approximate ride time of 9 minutes. the cost is $13.48 and is expected in 9 minutes.",
+    "???????????????????????????????????????? you want a cab for 9 minutes and it will be there in 9 minutes.",
+    "!!! i've booked the cab and the cab is on its way. the cab is expected in 9 minutes.",
+    "???? is on the way to pick you up the cab and it is expected in 9 minutes."
   ],
   [
-    "ive booked your ride and it will be $16.88.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( approximate_ride_duration = \"7\") & the cab is booked and on the way with a cab expected in 7 minutes.",
+    "!!! your ride is booked and the cab is on it's way. the cost is $16.88 and it is on its way. the total for the trip will be $16.88.",
+    "irm ( approximate_ride_duration = \"13\") & your ride has successfully been booked and the cab is heading to pick you up. the ride will take about 13 minutes and cost $16.88.",
+    "!!! your ride is booked and the cab is on the way. the fare is $16.88.",
+    "!!! your ride has been confirmed and is on the way. the cost is $16.88."
   ],
   [
-    " & you want a pool ride for 2 to 660 gail avenue. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! can you confirm that? you want 2 seats for a pool ride to 660 gail avenue. does that sound right?",
+    "???????? you want 2 seats in a pool ride for 2 people?",
+    "!!! i've booked the pool ride for 2 going to 660 gail avenue. is that correct?",
+    "???????? i have confirmed 2 seats on a pool ride with a pool ride. i'm sure this is correct?",
+    "!!! can you please confirm the details? you want a pool ride for 2 people to 660 gail avenue and you want a pool ride?"
   ],
   [
-    "ive booked your ride and it will be $23.90.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( approximate_ride_duration = \"13\") & the cab ride will be for 13 minutes and the cost is $23.90.",
+    "!!! your ride has been confirmed its on the way. the ride cost $23.90 and the cab expected in about 23 minutes.",
+    "!!! your ride has been confirmed and is heading your way. the cab will be here in about 23 minutes and cost $23.90.",
+    "irm ( wait_time = \"3\") & it will be for 3 to 4 minutes and the cab is booked and on its way, arriving in about 3 minutes. the price is $23.90.",
+    "irm ( approximate_ride_duration = \"13 minutes\") & your ride is successfully confirmed and the cab is heading your way. the ride will take 13 minutes and cost $23.90."
   ],
   [
-    " & you want a pool ride for 1 to Gum Kuo. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! can you confirm that? you want a pool ride for 1 person to gum kuo. is that right?",
+    "???????? you want 1 pool ride to gum kuo for 1 person. is that correct?",
+    "!!! i have a pool ride for 1.",
+    "!!! can you confirm the following details? you want a pool ride to gum kuo for 1 person and you are interested in a pool ride?",
+    "!!! can you please confirm the details? you want a pool ride for 1 to gum kuo. you want a pool ride with 1 seat. is that correct?"
   ],
   [
-    "ive booked your ride and it will be $6.22.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( destination = \"1215 south east pike street\" ; ride_fare = \"$12.22\") & it will cost $6.22 and is on the way with a shared ride costing $12.22.",
+    "irm ( ride_fare = \"$6.22\") & i booked the cab for the trip and it's on the way. the total for the trip is $6.22 and is expected in about 12 minutes.",
+    "irm ( ride_fare = \"$6.22\" ; wait_time = \"4\") & it is confirmed then it will cost you $6.22 and it is on the way with an expected arrival time of 4 minutes.",
+    "irm ( wait_time = \"4\") & okay, so your cab will be there in 4 minutes and the fare will be $6.22.",
+    "irm ( approximate_ride_duration = \"13\") & your ride has been booked and the taxicab is on the way with an approximate ride duration of 13 minutes. the total cost will be $6.22."
   ],
   [
-    " & it should arrive in 5 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "iced and the cab is on its way with an eta of 5 minutes.",
+    "irm ( destination = \"1150 west el camino street\" ; ride_type = \"regular\") & just to make sure, your cab is on the way, and it will take about 5 minutes to get there right?",
+    "irm ( destination = \"5395 east san fernando boulevard\" ; ride_type = \"regular\") & please confirm. you would like to have your ride for 5 to 395 east san fernando boulevard in regular vehicle.",
+    "???? i booked your cab and it is headed to the market in 5 minutes.",
+    "!!! i booked the cab and it is heading to pick you up right now! it will take 5 minutes to arrive and it costs $5."
   ],
   [
-    " & you want a pool ride for 1 to 226 edelen avenue. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i have a pool ride with 1 seat and you want a pool ride.",
+    "!!! i'm ordering the pool ride for 1 person to 226 edelen avenue. is that correct?",
+    "!!! i'll give you a pool ride for 1, going to 226 edelen avenue, is that correct?",
+    "!!! i have a pool ride for 1 to 226 edelen avenue. is that correct?",
+    "???????? you want a pool ride for 1 person, is this correct?"
   ],
   [
-    "ive booked the ticket and it should arrive in 3 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "~~ it is on the way. it will take about 3 min. the cab ride will be here in 3 minute and the cab will be here in 3 minute.",
+    "~~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm ( approximate_ride_duration = \"3\") & the cab is expected in 3 minutes, and the cab is booked and on the way. the ride will be for 3 people and cost $39.",
+    "!!! i booked your cab and it is headed to pick you up now. it's about 3 minutes and will take 2 seats.",
+    "!!! can you confirm the following: cab's booked and on the way to you. the time will be 3 minutes."
   ],
   [
-    "ive booked the ticket and it should arrive in 3 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! the cab is on its way to pick you up right now and is headed to 5555 east lincoln avenue. the cab is on its way to pick you up right now.",
+    "irm ( destination = \"1040 west el camino real\" ; approximate_ride_duration = \"3\") & your cab will be here in 3 minutes, and the cab is expected in 3 minute.",
+    "!!! your cab is on the way, the time will be 3 minutes and it's gonna cost $43.",
+    "!!! i booked your cab and it is headed to pick you up now. your cab is expected in 3 minutes. your total cost is $13.",
+    "iced and it's on its way. it'll arrive in 3 minutes, and it's on its way"
   ],
   [
-    " & you want a regular ride for 2 to 2550 el camino real. is that right?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "???????? you want a regular ride for 2 people to 2550 el camino real?",
+    "???????? you want a regular ride with 2 seats to 2550 el camino real and you want a ride of 2 seats to ride?",
+    "! can you confirm then that you want a ride to 2550 el camino real?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    "ive confirmed your luxury ride for 1 to Lin jia Asian kitchen.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "???????????????????????? please confirm the details: 1 luxury ride for 1 to lin jia asian kitchen in an office.",
+    "irm you want a luxury ride to lin jia asian kitchen for 1.",
+    "!!! can you confirm the details? you want a ride to lin jia asian kitchen for 1. is this correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm ordering a luxury ride to lin jia asian kitchen for 1."
   ],
   [
-    "ive booked your ride and it will be $31.32.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( approximate_ride_duration = \"13\") & the cab is on its way with an expected arrival time of 13 minutes. the ride cost will be $31.32.",
+    "irm ( destination = \"1119 miller street\" ; number_of_seats = \"2\" ; ride_type = \"regular\") & okay, so you wanna ride to 1119 miller street and you want 2 seats, regular cab, and you want a regular ride?",
+    "!!! your ride is done and the cost is $31.32. the cab is expected in about 31 minutes.",
+    "!!! your cab is on the way and its on its way, arriving in about 31 minutes, will cost $31.32 and it's on its way.",
+    "irm ( wait_time = \"4\" ; ride_fare = \"$31.32\") & the cab is booked and on the way, the cost is $31.32. the total for this ride will be $31.32."
   ],
   [
-    " & it should arrive in 10 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i booked the cab which will reach in 10 minutes. the cab will be here in 10 minutes",
+    "irm ( wait_time = \"11\") & the cab will be there in 10 minutes and the cab is booked and on its way.",
+    "!!! your taxi is booked and on its way and it'll get to you in 10 minutes.",
+    "irm ( destination = \"1520 south el camino real\" ; ride_type = \"luxury\") & please confirm: luxury ride for 10 minutes.",
+    "~~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    "ive confirmed your luxury ride for 2 to 1270 linford lane.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a ride for 2 to 1270 linford lane and you are okay with a luxury ride?",
+    "!!! i have confirmed a luxury ride for 2 to 1270 linford lane and it is booked.",
+    " please confirm the details: 2 seats on a luxury ride to 1270 linford lane.",
+    "irm you want a ride to 1270 linford lane. is this correct?",
+    "!!! can you confirm the details of your luxury ride for 2 to 1270 linford lane?"
   ],
   [
-    " & the cab is booked and on the way. it will be there in 8 minutes and costs $42.40.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a taxi for 8 to take you to $42.40 and it's on the way to you. the cost is $42.40 total.",
+    "!!! i booked the cab successfully. it costs $42.40. the cab has been dispatched and is heading to your location. it will be $42.40 and the cab expected in 8 minutes.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "?????????? your ride is tonight and the costs is $42.40. the cab is expected in 8 minutes",
+    "!!! your ride is done and the cab is headed to pick you up now. it will cost you approximately $42.40. it will be for 8 minutes and it will cost you approximately $42.40."
   ],
   [
-    " & the cab is booked and on the way. it will be there in 8 minutes and costs $42.40.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a cab for 8 minutes to your location",
+    "irm ( destination = \"1333 park street\" ; ride_fare = \"$42.40\") & the cab is on it's way with an eta of 8 minutes and the price is $42.40.",
+    "irm ( destination = \"1245 north el camino real\" ; shared_ride = \"true\") & i booked the cab and it is headed to the 1245 real real real estate real estate real place. the ride cost will be $42.40 and the cab is expected in 8 minutes.",
+    "irm ( wait_time of 9 minutes) & i booked your cab and it's on the way with a total of $42.40 and it's on the way for 8 minutes.",
+    "irm a cab for 8 and it costs $42.40."
   ],
   [
-    " & you want a pool ride for 2 to Kusakabe. is that right?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "! please confirm the following: pool ride for 2 tokusakabe.",
+    "!!! can you confirm the details: you want a pool ride tokusakabe for 2 and you like a pool ride.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "???????? i have a pool ride tokusakabe with 2 seats and you prefer a pool ride.",
+    "???????? you want a pool ride for 2 people tokusakabe. is that correct?"
   ],
   [
-    "izakaya\" ; number_of_riders = \"1\" ; shared_ride = \"true\") & please confirm: you want a shared ride for 1 person to capes eat & izakaya.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "iced tea\" ; ride_type = \"pool\") & to confirm then, you would like a pool ride with a pool ride for 3 to capers eat & iced tea. you would like a shared ride?",
+    "iced tea\" ; number_of_seats = \"3\" ; ride_type = \"regular\") & so you want a regular ride to capers eat & ice tea for 3 to go to capers eat and ice tea is this correct?",
+    "iced drinks\") & please verify the following order: you want a beverage with ice cream for 3 passengers heading to capers eat & iced drinks.",
+    "vernacular restaurant\" ; number_of_seats = \"2\") & so that's 2 seats for a luxury ride?",
+    "iced coffee\" ; number_of_seats = \"3\" ; ride_type = \"regular\") & you wanna ride for 3 to capers eat & ice cream and you want a regular ride. does that sound right?"
   ],
   [
-    " & it should arrive in 7 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( destination = \"1130 south el camino real\" ; ride_type = \"regular\") & okay. your regular ride to 1130 south el camino real is this correct? you'd like a ride to 1130 south el camino real?",
+    "iced and the cab is on the way. the cab will be there in 7 minutes.",
+    "irm ( destination = \"1542 west oak grove avenue\" ; number_of_seats = \"1\" ; ride_type = \"regular\") & please confirm the following details: you want a regular ride for 1 to 1542 west oak grove avenue.",
+    "???? you're booked and on the way and it's on the way. its gonna cost you $7.",
+    "iced the cab for 7 minutes and your cab is on its way. it'll get to you in about 7 minutes."
   ],
   [
-    " & it should arrive in 7 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "iced and the cab has been booked and the cab is expected in 7 minutes.",
+    "???????? i've booked the cab successfully! the cab is heading your way. it's expected in 7 minutes and will cost you approximately $7.",
+    "irm ( destination = \"731 east el camino real\" ; ride_type = \"regular\") & i have a regular cab ride going to 731 east el camino real. the cab is regular) & i booked your ride, and it is expected in 7 minutes and will take about 7 minutes.",
+    "iced it and the cab will arrive in 7 minutes and it will cost $7.",
+    "iced the cab and it is on its way. the cab expected to reach in 7 minutes and the cab is headed your way."
   ],
   [
-    "ive booked your ride and it will be $47.16.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your $47.16 cab is on the way. the total for the trip will be $47.16.",
+    "!!! it is estimated to be $47.16 and will be there in approximately 12 minutes.",
+    "irm ( approximate_ride_duration = \"13\") & it's on it's way, so your ride is booked and on the way. the cab is expected in 13 minutes",
+    "irm ( ride_fare = \"$47.16\") & your cab is on the way, it'll cost you $47.16 and is expected in 5 minutes.",
+    "irm ( number_of_seats = \"2\" ; ride_fare = \"$47.16\") & i've booked a cab for 2 people to take you to 47.16 in a regular vehicle."
   ],
   [
-    "ive confirmed your ride to 7880 wren avenue with 3 seats. it is a regular ride.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! can you confirm the following details? you want a regular ride to 7880 wren avenue for 3 seats?",
+    "!!! can you confirm that? you want 3 seats on a regular ride to 7880 wren avenue?",
+    "???????? please confirm: you want a ride for 3 to 7880 wren avenue.",
+    "!!! you want a regular ride to 7880 wren avenue, and you want a regular ride?",
+    "!!! can you confirm this? you are looking for a ride to 7880 wren avenue. you want 3 seats in a regular vehicle?"
   ],
   [
-    "ive booked your ride and it will be $30.54.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( approximate_ride_duration = \"13\") & your ride should be around 13 minutes and it will cost you $30.54.",
+    "irm ( approximate_ride_duration = \"13\") & your ride has successfully been booked and the cab has been dispatched. the ride will take 13 minutes to reach your destination. the total for the trip is $30.54.",
+    "irm ( wait_time = \"3\") & the cab is on the way and the cost will be $30.54.",
+    "irm ( approximate_ride_duration = \"13\") & your ride is booked and the cab has been dispatched. the ride cost $30.54.",
+    "irm ( wait_time = \"7\") & it is coming and it will cost $30.54. i booked the cab and it is on its way."
   ],
   [
-    "ive booked your ride and it will be $30.54.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( approximate_ride_duration = \"13\") & the cab will arrive in 13 minutes and the ride cost $30.54.",
+    "irm ( destination = \"1065 north el camino street\" ; number_of_seats = \"1\" ; ride_type = \"pool\") & please confirm the following details: you want a pool ride for 1 seat pool ride with 1 seat pool ride.",
+    "irm ( destination = \"1250 east el camino real\" ; number_of_seats = \"3\" ; ride_type = \"luxury\") & please confirm: you want a 1 seat luxury ride to 1250 east el camino real.",
+    "!!! your cab has been dispatched. the cost is $30.54. it is expected in about 30 minutes.",
+    "irm ( approximate_ride_duration = \"30\") & okay, you are looking for a cab which will cost $30.54 and is expected in 30 minutes. the total for this ride will be 30 minutes."
   ],
   [
-    " & you want a regular ride to peacock indian cuisine for 1 person. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "???????? please confirm: you want a ride to peacock indian cuisine for 1 seat in a regular cab.",
+    "!!! can you confirm this? you want a ride to peacock indian cuisine, and you want a regular cab with 1 seat.",
+    "!!! please confirm the following details: 1 regular ride to acock indian cuisine for 1 person.",
+    "!!! please confirm the details: you want a regular ride for 1 to acock indian cuisine.",
+    "???????? please confirm the following details: you want a ride to lacock indian cuisine. you want 1 seat for 1 regular ride."
   ],
   [
-    "ive confirmed a luxury ride for 4 to 10544 san Pablo avenue.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " please confirm: you want a regular ride to 10544 san pablo avenue. you want a luxury ride.",
+    "!!! you want a luxury ride to 10544 san pablo avenue for 4 seats?",
+    "!!! you'd like a luxury vehicle for 4 to 10544 san pablo avenue?",
+    "!!! i'm ordering a luxury ride for 4 to 10544 san pablo avenue in a vehicle with a luxury ride to take them to you.",
+    "!!! please confirm: you want a luxury ride for 4 to 10544 san pablo avenue."
   ],
   [
-    "ive booked your ride and it will be here in 13 minutes. the cost is $52.72<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( wait_time = \"13\") & i booked your ride and it is on its way. its gonna cost $52.72 and should be there in 13 minutes.",
+    "irm ( approximate_ride_duration = \"13\") & your ride is booked and the cab will reach in 13 minutes and the total price will be $52.72.",
+    "irm ( approximate_ride_duration = \"13\") & it will take about 13 minutes depending on the traffic. your cab's expected in 13 minutes.",
+    "irm ( approximate_ride_duration = \"13\") & the ride will be for 13 minutes and it costs $52.72 total",
+    "irm a cab with the following parameters: 13 minutes and your ride is booked and on the way: $52.72"
   ],
   [
-    "ive booked your ride and it will be here in 13 minutes. the cost is $52.72<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a cab for 13 minutes and it will cost $52.72.",
+    "irm a cab for 13 minutes, will cost $52.72, and the ride will be for 13 minutes.",
+    "irm ( approximate_ride_duration = \"13\") & your ride was successfully booked and the cab is on its way, the ride will be about 13 minutes and cost $52.72.",
+    "irm a ride for 13 minutes and your cab is on its way. the cost is $52.72",
+    "!!! i booked the cab and it is headed to the bar in 13 minutes. it's gonna cost $52.72."
   ],
   [
-    "ive confirmed your ride to 140 HOmer avenue. you need 2 seats and a pool ride.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "?????????? can you confirm the following: you want a pool ride to 140 homer avenue?",
+    "!!! you want a pool ride to 140 homer avenue. is that correct?",
+    "???????? please confirm the following: a pool ride for 2 to 140 homer avenue.",
+    "!!! can you confirm the details? you need a pool ride for 2 to 140 homer avenue. is this correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have 2 seats in a luxury ride.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! so you want to get a luxury ride for 2 to 411 main street?",
+    "irm you want to go to 2 seats, and you want a luxury ride for 2 people. is that right?",
+    "!!! i've got 2 seats in a luxury ride. is that correct?",
+    "!!! so you'd like a luxury ride for 2 to 633 east el camino real?",
+    "!!! can you confirm the details? you want a luxury ride for 2 to 411 east el camino street?"
   ],
   [
-    "ive confirmed your reservation for 3 seats at 140 Homer avenue.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i've got 3 seats on a regular ride for 3 seats to 140 homer avenue. is that correct?",
+    "???????? i have a 3 seat luxury vehicle for 3 passengers heading to 140 homer avenue.",
+    "???????? you want a ride to 140 homer avenue, right?",
+    "???????????????? you want 3 seats in a taxi going to 140 homer avenue, correct?",
+    "!!! you want a 3 seats ride to 140 homer avenue. is that correct?"
   ],
   [
-    " & the train will arrive in 11 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! the cab will be there in 11 minutes and the cab will be here in 11 minutes.",
+    "irm ( destination = \"11\" ; ride_fare = \"$11.45\") & your cab will be there in 11 minutes and the cost will be $11.45.",
+    "iced and the cab is on the way. the wait will be around 11 minutes depending on the number of passengers.",
+    "iced it for 11 minutes and it'll be here in 11 minutes.",
+    "irm ( number_of_seats = \"3\" ; ride_type = \"pool\") & i've booked a pool ride to 11 and the cab will be there in about 11 minutes."
   ],
   [
-    " & you want a pool ride for 1 to Ariake. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "???????? please verify the following details: you want a pool ride for 1 to go to kayar i have 1 on the deck and you want a pool ride.",
+    "???? okay. please confirm the following details: pool ride for 1 to kayar is okay. is that correct?",
+    "!!! i have booked a pool ride for 1 toariake and it's a pool ride with 1 seat. is that right?",
+    "!!! please confirm: you want to go to arariake pool ride with 1 seat.",
+    "???????? please confirm the following. you would like a pool ride for 1 person and need 1 seat, and a pool ride?"
   ],
   [
-    "ive booked your cab and it will be here in 6 minutes. the cost is $15.46.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm the following order: your cab is on the way with an eta of 6 minutes and the cab should be here soon. the cost is $15.46.",
+    "irm a cab expected in 6 minutes and the cost is $15.46.",
+    "irm a cab for 6 to 6 and it costs you $15.46.",
+    "irm you want a cab for 6 minutes and it costs $15.46. the total ride will take about 6 minutes.",
+    "irm ( wait_time = \"6\" ; ride_fare = \"$15.46\") & the cab is on it's way, so it'll get to you in 6 minutes and it'll be $15.46."
   ],
   [
-    "ive booked your cab and it will be here in 6 minutes. the cost is $15.46.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm details: cab expected in 6 minutes and will cost $15.46",
+    "irm a cab for 6 to 6 minutes and the price is $15.46",
+    "irm a cab for 6 to 6 and you're alright with it. the cab is expected in 6 minutes. the fare is $15.46.",
+    "???????????????????????????????? you want a cab for 6 minutes and it'll cost you $15.46.",
+    "irm the following and you want a cab for 6 minutes and you are okay with an $15.46 budget."
   ],
   [
-    " & you want a pool ride for 3 to 4906 west el camino real # a.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "???????? you want anpool ride to 4906 west el camino real # a pool ride?",
+    "???????? i have a pool ride for 3 people to 4906 west el camino real # a.",
+    "!!! i have a pool taxi, with a pool ride for 3 to 4906 west el camino real # a",
+    "!!! you want a pool ride for 3 to 4906 west el camino real # a. does this make sense?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & it should arrive in 8 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( wait_time = \"8\") & i've booked the cab and the cab expected in 8 minutes.",
+    "!!! i'm booking the cab, the cab is expected in 8 minutes.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! the cab will reach your destination soon. the cab will be there in 8 minutes and it will cost you $8.",
+    "!!! the cab is on the way and the cab will reach in 8 minutes"
   ],
   [
-    " & it should arrive in 8 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( destination = \"1040 north el camino real place\" ; number_of_seats = \"1\" ; ride_type = \"luxury\") & please confirm the details: you want a luxury ride to 8 for 1 person and ride type is 1 seat.",
+    "irm ( ride_fare = \"$14.32\") & your cab has been booked and is heading to take you to the gymnasium of 8th place. the cost is $14.32.",
+    "irm ( destination = \"1250 south el camino verde road\" ; ride_fare = \"$15.40\") & the cab is expected in 1250 south el camino verde road and it is expected in 8 minutes",
+    "irm ( destination = \"1530 west el camino real\" ; ride_type = \"regular\") & okay, so you'd like a regular cab for 8 to 1530 west el camino real?",
+    "!!! i booked the cab and it is heading to pick you up in 8 minutes. the cab is on the way with an eta of 8 minutes."
   ],
   [
-    "ive booked your ride and it will be $22.17.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( wait_time = \"7\") & i booked your cab and its on its way. the ride will cost $22.17. the total for the trip will be about 7 minutes.",
+    "irm ( wait_time = \"3\") & it will be $22.17 and it will be for 3 people and you dont mind if i'm in the party.",
+    "irm ( wait_time = \"4\") & the cab is coming and the fare is $22.17. the ride is expected in 4 minutes.",
+    "!!! the ride costs $22.17 and it's on the way. it will cost you approximately $22.17.",
+    "irm ( approximate_ride_duration = \"7\") & your ride is on its way. the ride will be for 7 minutes, and the cost is $22.17."
   ],
   [
-    " & you want a pool ride for 1 to newport street gallery. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " please confirm the details of your pool ride. you prefer a pool ride for 1.",
+    "???????? you want a pool ride for 1 person to Newport street gallery and you want me to confirm?",
+    "!!! i'll order the pool ride for 1 person and you want me to share a ride?",
+    "irm you want a pool ride for 1 to newport street gallery. is that correct?",
+    "???????? you want a pool ride for 1 in a pool ride to Newport street gallery. is that correct?"
   ],
   [
-    "ive booked the ticket and it should arrive in 4 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "iced and the cab is on its way. it will be an 4 minute ride and cost $4.48.",
+    "iced and it will be here in about 4 minutes.",
+    "irm ( approximate_ride_duration = \"4\") & i've booked a cab and it's on the way. it'll get to you in about 4 minutes and it'll take you about 4 minutes.",
+    "???????? i've booked the cab and it's headed to pick you up now. the cab will be there in 4 minutes and it will cost $44.",
+    "?????? i booked the cab and it's on its way. it will be an 4 minute ride and cost you $14."
   ],
   [
-    "ive booked the ticket and it should arrive in 4 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "iced and the cab is heading to take about 4 minutes and will be there in 4 minutes.",
+    "irm ( destination = \"3306 lincoln avenue\" ; ride_fare = \"$12.32\") & i booked your cab and it is on the way with an expected arrival time of 4 minutes.",
+    "!!! can you please confirm that you want a cab for 4 to 4555 eastward?",
+    "!!! can you confirm the following details: you want a cab for 4 to 4500 square feet and your cab is on the way, so it should arrive in 4 minutes.",
+    "irm ( approximate_ride_duration = \"4\") & i booked the cab successfully. the cab will be there in 4 minutes and the cab is expected in 4 minutes."
   ],
   [
-    "ive booked your ride and it will be $14.43.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( wait_time = \"7\") & your ride is booked and on the way, so your ride should arrive in 7 minutes, and it will cost you approximately $14.43.",
+    "irm ( destination = \"saint thomas church church place\" ; number_of_riders = \"2\" ; shared_ride = \"true\") & okay, so you want a ride to saint thomas church place. is this correct?",
+    "irm ( destination = \"1333 east san genteel street\" ; number_of_seats = \"2\" ; ride_type = \"regular\") & i booked the regular ride for 2 to 1333 east san genteel street and it costs $14.43",
+    "~~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm ( approximate_ride_duration = \"13\") & i booked your ride and it is heading to the beach for 13 minutes, is this correct?"
   ],
   [
-    " & you want a pool ride for 4 to Bella Vista at hilltop. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i have a pool ride for 4 to take you to bella vista at hilltop. is that correct?",
+    "!!! you want a pool ride for 4 seats to bella vista at hilltop. is that correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " please confirm: you want a pool ride for 4 and you want to ride pool."
   ],
   [
-    "ive booked your ride and it will be $19.00.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( approximate_ride_duration = \"18 minutes) & your ride is confirmed its on route to pick you up now. the cab will be for 18 minutes and will cost $19.00.",
+    "irm ( approximate_ride_duration = \"19\") & your ride is done and the cab has been booked and it costs $19.00. the total for the ride will be 19 minutes and take around 19 minutes.",
+    "!!! i booked the cab and it will take about 19 minutes to get there in your party size.",
+    "irm ( approximate_ride_duration = \"18\") & the cab will be there in 18 minutes. the ride cost will be $19.00.",
+    "irm ( approximate_ride_duration = \"17\") & 17 minutes and the cab is on its way. the ride will be $19.00."
   ],
   [
-    "ive booked your ride and it will be $19.00.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( approximate_ride_duration = \"13\") & i booked your ride and it's on its way. the cab is expected to reach in 13 minutes and its costs will be $19.00.",
+    "irm ( ride_fare = \"$19.00) & i booked your cab which costs $19.00. the total for the ride is 19.00.",
+    "~~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "iced for $19.00.",
+    "!!! the price is $19.00 and the cab is on the way"
   ],
   [
-    " & please confirm: you want a regular ride for 1 to the museum of astrology and related sciences.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "???????? you want a regular ride for 1 person to museum of astronomy and related sciences. is that correct?",
+    "! please confirm that you are going to museum of astronomy and related sciences for 1 seat.",
+    "!!! can you confirm me the following information? you want a regular ride to museum of astronomy and related sciences. you want 1 seat for a ride, does this work correctly?",
+    "!!! please confirm the following order: you want a regular ride to museum of astronomy and related sciences for 1.",
+    "!!! can you confirm the details? 1 seat for a regular ride, is this correct?"
   ],
   [
-    "ive booked the ticket and it should arrive in 2 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( destination = \"1065 church road #101\" ; ride_type = \"regular\") & i've booked the regular cab for 2 people to 1065 church road #101. your ride should be here in 2 minute and it'll take about 2 minutes.",
+    "!!! i booked the cab and it is coming with 2 seats on a regular ride.",
+    "!!! the cab has been booked and it is heading to pick you up now. the total for the trip will be 2 passengers and the cab expected in 2 seats",
+    "iced it up and it's heading to pick up in 2 minutes and it'll arrive in 2 minutes.",
+    "!!! i booked the cab and it'll arrive in 2 to 4 minutes and its on the way."
   ],
   [
-    "ive booked the ticket and it should arrive in 2 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! the cab is on the way and will be there in 2 minutes.",
+    "!!! can you confirm that? the cab is on the way, is on its way, will be there in 2 minutes, and it's booked.",
+    "irm ( number_of_seats = \"3\" ; ride_type = \"regular\") & please confirm. the regular ride for 2 to 4 minutes.",
+    "iced the cab for 2 to 411 west lincoln drive, and the cab is expected to reach in 2 minutes.",
+    "irm ( destination = \"1201 stone pine avenue\" ; ride_type = \"pool\") & please confirm: you want to ride pool for 2 people and ride pool for 2 people."
   ],
   [
-    "ive confirmed a luxury ride for 4 to astoria park.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! can you confirm the following: you would like an luxury ride for 4 to astoria park. is that correct?",
+    "???????? you want a luxury ride for 4 to astoria park, is that correct?",
+    "!!! i have a luxury ride for 4 to astoria park in a regular vehicle.",
+    "???? you want a luxury ride to estoria park for 4 passengers?",
+    "!!! i have a luxury ride to the astoria park for 4 seats, will you please confirm?"
   ],
   [
-    " & it should arrive in 9 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "iced it up and it's on the way with an eta of 9 minutes.",
+    "irm ( destination = \"1201 mauville avenue\" ; ride_fare = \"$45.45\") & i booked the cab and it's headed to 1201 mauville avenue. the fare is $45.45 and the ride will be for 9 minutes.",
+    "iced for 9 minutes and the cab is on the way. the wait will be about 9 minutes.",
+    "irm ( destination = \"1701 lincoln avenue\" ; ride_type = \"luxury\") & please confirm: a luxury ride to 1701 lincoln avenue for 9 minutes.",
+    "irm ( approximate_ride_duration = \"9\") & the cab will be there in about 9 minutes and will be a regular ride."
   ],
   [
-    " & it should arrive in 9 minutes.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "iced the cab and the cab will be here in 9 minutes, is this correct?",
+    "irm ( ride_fare = \"$15.32\") & it is on the way with the following order: you need a cab for 9 minutes, is this correct?",
+    "irm ( approximate_ride_duration = \"9\") & it should be here in about 9 minutes, and should arrive in about 9 minutes.",
+    "!!! it'll take about 9 minutes and your cab is on the way",
+    "irm ( destination = \"1130 west lincoln road\" ; ride_type = \"regular\") & i have booked the regular cab for 9 minutes and a ride to 1130 west lincoln road. is that right?"
   ],
   [
-    " & please confirm: you want a shared ride for 2 people to 1671 Willow Pass road.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " please confirm: you need a cab for 2 people and for a shared ride.",
+    " please confirm the following details: you would like a cab to 1671 willow pass road for 2 people and you are okay with a shared ride.",
+    " please confirm: a shared ride for 2 people to 1671 willow pass road for 2 passengers.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " please confirm the following: you want a shared ride to 1671 willow pass road for 2 passengers. you prefer a cab with you."
   ],
   [
-    " & please confirm: you want a shared ride for 2 people to Silvercrest housing for snrs.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " please confirm: you want a cab for 2 people to silvercrest housing for snrs.",
+    " please confirm: shared ride for 2 people going to silvercrest housing for snrs",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "! you're gonna like a cab for 2 people to silvercrest housing for snrs. is that correct?",
+    "! please confirm the following: you want a cab for 2 people to ride share to silvercrest housing for snrs, and you want a cab for 1 cab for 1 person."
   ],
   [
-    "ive booked your ride and it will be $11.33.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( approximate_ride_duration = \"13\") & the ride is expected in 13 minutes and the cost is $11.33",
+    "irm ( approximate_ride_duration = \"13\") & your ride is booked and the cab is headed your way. the total for this trip will be $11.33 and take 13 minutes.",
+    "irm ( ride_fare = \"$11.33\") & the cab is on its way, the cost is $11.33 and the vehicle is expected in 11 minutes.",
+    "irm ( destination = \"sons of fish market place\" ; number_of_seats = \"3\" ; ride_type = \"regular\") & just to confirm then, you would like a ride to Sons of fish market place. you want a regular ride for 3 to you.",
+    "irm ( destination = \"sushi bar & grill & grill & grill in a cab in a regular car is $11.33) & i booked a cab and it is headed to sushi bar & grill & grill & grill & grill & grill & it will cost $11.33."
   ],
   [
-    "ive booked your ride and it will be $11.33.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your ride is booked and the cab is heading to pick you up right now. the total for the trip is $11.33.",
+    "irm ( approximate_ride_duration = \"7\") & the ride is for 7 minutes and its costs $11.33.",
+    "irm ( approximate_ride_duration = \"11\") & the cab is on the way with an eta of 11 minutes and it will run you $11.33.",
+    "!!! i booked your ride and it is on the way. the fare is $11.33.",
+    "irm ( wait_time = \"4\") & your ride has been confirmed and the taxicab is on the way. the total for the trip will be $11.33 and the vehicle is expected in 4 minutes."
   ],
   [
-    " & please confirm: you want a shared ride for 3 people to 5801 Norris canyon road #200.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i've confirmed the details: you want a cab for 3 people to go to 5801 norris canyon road #200, correct?",
+    " please confirm the following details: you would like to ride to 5801 norris canyon road #200 for 3 people.",
+    " definitely. so you would like a cab for 3 people to take you to 5801 norris canyon road #200?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " definitely? you want a shared ride to 5801 norris canyon road #200 for 3 people. is this correct?"
   ],
   [
-    " & you want a shared ride to the Clover theater. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "???????? i have a shared ride to the clover theater for $29. the cab expected to be there in about 3 seats and the cab is on route to take around 3 minutes.",
+    "!!! i want to share a cab with the clover theater for a shared ride?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm a shared cab for 2 people to the clover theater."
   ],
   [
-    "ive booked your ride and it will be $24.39.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "~~ it costs $24.39 and your cab is on the way. the total for the trip will be $24.39.",
+    "~~ your ride is confirmed and the cab is on the way. the total for this trip will be $24.39.",
+    "iced and the cab is on the way with an eta of $24.39.",
+    "!!! it will cost you $24.39. the cab will be there in about 24 minutes, will cost you $24.39 and is on the way with a shared ride",
+    "irm ( approximate_ride_duration = \"17 minutes) & the ride will be approx. 17 minutes and cost $24.39."
   ],
   [
-    " & please confirm: you want a shared ride for 2 people to 1850 el camino real.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! can you confirm me the details of your cab for 2 people to 1850 el camino real?",
+    "???????? you'd like a cab for 2 people, and you don't mind sharing a ride, right?",
+    "!!! i'm ordering a shared cab to 1850 el camino real for 2 people and a shared ride.",
+    "! so you'd like a shared cab for 2 people to 1850 el camino real?",
+    "!!! so you want a cab for 2 people, shared ride, to 1850 el camino real?"
   ],
   [
-    " & you want a shared ride for 1 person to the studio museum in Harlem. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i have a shared ride for 1 to the studio museum in harlem, is this correct?",
+    "!!! i have confirmed 1 person, shared ride, going to the studio museum in harlem, is this correct?",
+    "!!! can you confirm the following details: you want a shared ride for 1 person to the studio museum in harlem?",
+    " please confirm: you want to go to the studio museum in a shared cab for 1 person. is that correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & please confirm the following: you want a cab for 1 person to 1621 Travis Boulevard #300.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "! can you confirm that? you want a cab for 1 person and a shared ride to 1621 travis boulevard #300.",
+    "?????????? you want a cab for 1 person to 1621 travis boulevard #300 in a shared ride?",
+    " please confirm the following: you would like a cab for 1 person to 1621 travis boulevard #300.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm: you want a cab for 1 person and you prefer a shared ride."
   ],
   [
-    " & the ride is booked and on the way. the ride will take 17 minutes and costs $17.39.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( number_of_riders = \"1\" ; shared_ride = \"true\") & so i'll get you a cab for 1 person, and ride is confirmed then. your ride is confirmed and the cost you $17.39.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm a ride for 17 minutes and the cost is $17.39. the cab is expected in 17 minutes",
+    "!!! the ride will be for 17 minutes and the cost is $17.39. the total ride will be about 17 minutes.",
+    "~~ it's 17 minutes and you want a ride to 565 eastward for $17.39. your ride will be around 17 minutes and cost you $17.39."
   ],
   [
-    " & the ride is booked and on the way. the ride will take 17 minutes and costs $17.39.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( ride_fare = \"$17.39 and your ride is confirmed i have confirmed that your ride will be for 17 minutes.",
+    "irm ( destination = \"1782 east pico street\" ; number_of_seats = \"3\") & i booked the ride and the cab is heading to 1782 east pico street. the ride will take 17 minutes and cost $17.39).",
+    "irm the following details. your ride will be for 17 minutes and the cost will be $17.39 total:",
+    "irm ( wait_time = \"17\") & the ride is for 17 minutes and it is booked and on the way with an eta of $17.39 total.",
+    "!!! your ride is confirmed and the cab is heading to pick you up in 17 minutes and it will cost $17.39."
   ],
   [
-    " & please confirm: you want a shared ride for 3 people to 1460 halford avenue.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " please confirm: cab for 3 people to 1460 halford avenue.",
+    "!!! i have a shared ride for 3 people going to 1460 halford avenue and you are alright with a cab. is that correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " please confirm the following details: you want to go to 1460 halford avenue and are a shared ride going to start with 3 passengers and you want a shared ride?",
+    "! please confirm the details: you want to go to 1460 halford avenue and want a shared ride?"
   ],
   [
-    " & the ride is booked and on the way. the ride will take about 19 minutes and costs $16.90.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a cab for 19 minutes and the cost is $16.90. the total for the trip will be $16.90.",
+    "irm a cab for 19 minutes and the cost is $16.90.",
+    "???????????????? i booked a cab and its on its way with a 19 minute ride and the cost is $16.90. is that right?",
+    "?????????? you want a cab for 19 minutes and your ride will be $16.90.",
+    "irm a cab for 19 minutes and it costs $16.90."
   ],
   [
-    " & you want a shared ride for 1 person to Chengdu style restaurant. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! can you confirm that you want a shared cab for 1 person to go to the gongdu style restaurant in a cab?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! can you confirm the following details: you want a cab for 1 going to genteel style restaurant?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you want a shared ride for 2 people to 100 van Ness avenue. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " please confirm: a shared cab for 2 people to 100 van ness avenue.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " please confirm the details: you need a cab for 2 to 100 van ness avenue. a shared ride is okay?",
+    "!!! please confirm the following information: you want a cab for 2 people and you prefer shared riding."
   ],
   [
-    "ive booked your ride and it will be $18.89.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( approximate_ride_duration = \"17\") & your ride is confirmed and the cab is headed your way. it will take 17 minutes and cost you $18.89.",
+    "!!! the ride cost is $18.89 and the cab is on the way. the total for the trip is 18.89 and the total cost is $18.89.",
+    "irm ( approximate_ride_duration = \"17\") & your ride is booked and the cab is on its way! it should be there in 17 minutes and the fare is $18.89.",
+    "irm ( approximate_ride_duration = \"13\" ; ride_fare = \"$18.89\") & the cab will be for 13 minutes and the price is $18.89.",
+    "irm ( approximate_ride_duration = \"18 minutes) & the cab is expected in 18 minutes and it costs $18.89."
   ],
   [
-    "ive booked your ride and it will be $18.89.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( destination = \"sons of fish & chips at 12:45 a.m., and the price is $18.89) & it's gonna cost you $18.89 and your ride is confirmed. the ride will cost you $18.89. the ride should take 12 minutes and will cost you $18.89.",
+    "irm ( approximate_ride_duration = \"17\") & it'll be an 17 minute ride and costs $18.89 total.",
+    "irm ( approximate_ride_duration = \"13\") & okay, the ride will run for 13 minutes and cost $18.89. the total ride is expected in 13 minutes.",
+    "irm ( ride_fare = \"$18.89 total. the total cost is $18.89 total. your ride should be here soon. the total cost is $18.89 total.",
+    "irm ( approximate_ride_duration = \"18 minutes\") & i booked your ride and it is on its way. the total ride cost will be $18.89."
   ],
   [
-    " & please confirm: you want a shared ride for 1 person to 140 new Montgomery street #1.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " please confirm the following details: you want a ride to 140 new montgomery street #1. you are a cab for 1 person and want a shared ride.",
+    "???????????????? you want a cab for 1 people to 140 new montgomery street #1, right?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " please confirm: you want a cab for 1 person to 140 new montgomery street #1. you want a shared ride."
   ],
   [
-    " & the ride is booked and on the way. the ride will take 17 minutes and costs $15.13.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your ride is booked and on its way with an estimated arrival time of 17 minutes and will cost $15.13. the ride will take around 17 minutes and is expected in 17 minutes.",
+    "irm ( destination = \"1542 east lincoln avenue\" ; ride_fare = \"$15.13\") & the cab is on its way and the total for 17 minutes is $15.13 and it will take 17 minutes.",
+    "irm ( destination = \"1782 south pike road\" ; ride_fare = \"$15.13\") & the ride will cost you $15.13 and the ride is for 17 minutes.",
+    "irm ( ride_fare = \"$15.13\") & the ride is 17 minutes and the cab is on its way with an expected arrival time of 17 minutes.",
+    "irm ( destination = \"1789 south el camino real\" ; ride_fare = \"$15.13\") & i booked the cab which will cost $15.13 and will take 17 minutes."
   ],
   [
-    " & the ride is booked and on the way. the ride will take 17 minutes and costs $15.13.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! the cab will be here in 17 minutes and will cost $15.13. the ride will take 17 minutes and cost $15.13.",
+    "irm a ride for 17 minutes to reach your destination. the cab costs $15.13 and will reach you soon.",
+    "irm ( approximate_ride_duration = \"17\") & okay, so you want a ride to 542 east loma street, and it costs $15.13 and it'll be for 17 minutes.",
+    "!!! your ride is 17 minutes and your cab is booked and on its way. the ride will cost you $15.13. the ride will take 17 minutes and cost you $15.13.",
+    "!!! your ride was confirmed and the cab is on the way. it will be $15.13 and will take 17 minutes. your ride is confirmed."
   ],
   [
-    " & please confirm: you want a shared ride for 2 people to 185 estancia drive.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! so you want me to book a cab for 2 people to 185 estancia drive, right?",
+    " please confirm: cab for 2 people to 185 estancia drive.",
+    "! confirm, your cab is for 2 people to 185 estancia drive. the shared ride will be okay?",
+    "!!! can you confirm that? you want a shared ride for 2 people to 185 estancia drive, is this correct?",
+    "???????? please confirm the following details: you want a shared ride for 2 people to 185 estancia drive and you want a cab for 2 people?"
   ],
   [
-    " & you have 1 passenger and you want a shared ride.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "???????? i have a shared cab for 1 going to 411 north lincoln parkway. is this correct?",
+    " definitely. you want a shared ride for 1 person, going to 1150 west el camino road?",
+    "???????? i'm confirming a shared cab for 1 to 411 east london avenue, correct?",
+    "!!! can you confirm the details? there will be a shared ride for 1 person to take you to 411 grand for 1 person.",
+    " please confirm that you want to ride pool ride for 1 person to 411 east lincoln avenue. you want a shared ride."
   ],
   [
-    "izakaya\" ; number_of_riders = \"1\" ; shared_ride = \"true\") & please confirm: you want a shared ride for 1 person to chili's grill & izakaya.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "iced tea\" ; number_of_seats = \"1\" ; ride_type = \"regular\") & so you want a 1 seat ride to chili's grill & can you confirm that?",
+    "iced coffee\" ; ride_type = \"pool\") & so you want to ride pool ride for 1 person?",
+    "iced drink\" ; ride_type = \"pool\") & please confirm the details: you want a pool ride to chili's grill & sushi & can was the correct place?",
+    "iced coffee\" ; ride_type = \"regular\") & so that means a regular cab ride to chili's grill and the place is on the way?",
+    "iced coffee\") & so you want the chili's grill & the cab in the party for 3 to chili's grill & you want to ride?"
   ],
   [
-    " & you want a cab for 3 people to go to SS United states.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm a shared taxi for 3 people to take you to sss united states.",
+    "???????? please confirm: cab for 3 people to ss united states.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "?????? you want a shared cab for 3 people to sss united states and you dont mind if i have a cab for 3 people?"
   ],
   [
-    " & the ride is booked and on the way. the ride will take about 20 minutes and costs $28.04.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i booked the cab which is expected in 20 minutes and will cost $28.04. the cab ride will be for 20 minutes and cost $28.04.",
+    "irm ( ride_fare = \"$28.04\") & your ride is done successfully and the cab is on the way. the total cost will be $28.04 and the vehicle should be here soon.",
+    "irm ( ride_fare = \"$28.04\") & the vehicle will be for 20 minutes and the cab will cost $28.04.",
+    "!!! i booked your ride and it has successfully been booked. the cab is expected in 20 minutes and the ride will cost $28.04.",
+    "!!! i'm confirming the ride and the cab for 20 minutes. the cost will be $28.04."
   ],
   [
-    " & the ride is booked and on the way. the ride will take about 20 minutes and costs $28.04.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm the following details: you want to ride to 27.04 and it will cost you $28.04 total.",
+    "irm the following: you want a ride to 2804 for 20 minutes and you want to book a cab in the party. the total cost is $28.04.",
+    "irm ( wait_time = \"7\") & the cab is booked and the cab is on its way. the cab is expected in 15 minutes and the cost is $28.04",
+    "irm a cab for 20 minutes and it will be $28.04 and take about 20 minutes. your ride will be around 20 minutes and cost $28.04",
+    "irm a cab with 20 minutes and the ride will be for $28.04."
   ],
   [
-    " & you want a shared ride for 2 people to go to san francisco. is that right?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! can you confirm that the following order be for a shared ride to san francisco for 2 people?",
+    "!!! i have got a shared ride for 2 people to san francisco, is that correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! so you want to go to san francisco for 2 people and you're okay with a shared ride?"
   ],
   [
-    " & you have 1 passenger and you want a shared ride.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i have a shared cab for 1 person to 411 west london street?",
+    "!!! can you confirm the details? you want a shared ride for 1 person to go to 411 san fayla road, right?",
+    "!!! i have a shared cab for 1 person to 411 east loo bueno avenue?",
+    "!!! can you confirm that you want a shared ride for 1 person to go to 411 east loma avenue?",
+    "!!! so you want a shared cab for 1 person to go to 411 east loma avenue and you're ok with a shared ride?"
   ],
   [
-    " & the ride is booked and on the way. the ride will take 15 minutes and costs $10.09.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "?????????? your ride is booked and on the way and the cost is $10.09. the cab expected to reach in 15 minutes.",
+    "irm ( ride_fare = \"$10.09\") & it will be $10.09 and take 15 minutes. your ride will last about 15 minutes.",
+    "irm a taxi for 15 min to your location. it's a shared ride costing $10.09.",
+    "irm a taxi for 15 minutes to you. the ride cost will be $10.09 and the ride is scheduled to take 15 minutes.",
+    "irm a cab for 15 minutes to the 405 east pike street address. the cost is $10.09 and the ride last about 15 minutes"
   ],
   [
-    " & the ride is booked and on the way. the ride will take 15 minutes and costs $10.09.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a cab for 15 to 5355 south el camino street in a regular vehicle, correct?",
+    "irm a cab for 15 minutes and it's gonna cost you $10.09.",
+    "irm ( number_of_riders = \"2\") & please confirm: cab for 2 people to take you to the correct address?",
+    "!!! your cab is heading your way and it costs $10.09. your ride has successfully been booked and on the way with a 15 minute ride expected to take around 15 minutes.",
+    "irm ( destination = \"12\" ; shared_ride = \"true\") & so you wanna get a ride to 12 for 15 people?"
   ],
   [
-    " & please confirm: you want a shared ride for 1 person to 1698 bonanza street.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " definitely. i have 1 person going to 1698 bonanza street and you want a shared ride for 1 person?",
+    "!!! i want a shared ride taxicab for 1 person to 1698 bonanza street, correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "! so you'd like a shared cab for 1 person to 1698 bonanza street?",
+    " please confirm the following details: you want a cab for 1 person to 1698 bonanza street and you want a shared ride."
   ],
   [
-    " & you want a cab for 1 person to Vineyard Meadows apartments.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "???????? i have a cab with 1 person in a shared cab going to vineyard meadows apartments.",
+    "!!! please confirm. you need a cab for 1 person to ve to vineyard meadows apartments. you are looking for a shared ride",
+    " please confirm: cab for 1 person to vineyard meadows apartments. you want a shared cab for 1 person.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & please confirm: you want a shared ride for 3 people to 2100 avy avenue.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please confirm: you want a shared cab for 3 people to 2100 avy avenue. is that correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i have confirmed the details. you want a shared cab for 3 people to 2100 avy avenue in a taxi. is this correct?",
+    "!!! can you please confirm the details of your shared cab for 3 to 2100 avy avenue?"
   ],
   [
-    " & please confirm: you want a shared ride for 2 people to 770 9th avenue.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i have a shared cab going to 770 9th avenue, is that correct?",
+    "!!! can you confirm the following: you would like a shared cab ride to 770 9th avenue?",
+    "!!! please confirm that you want a shared ride to 770 9th avenue for 2 people and a cab for 2 people?",
+    " please confirm: cab for 2 people to 770 9th avenue.",
+    " please confirm: a shared ride for 2 people to 770 9th avenue."
   ],
   [
-    " & you have 1 passenger and you want a shared ride.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "???????? i have confirmed the details of a shared ride for 1 to 411 gondola street in a cab, going to 411 gondola street, is this correct?",
+    "!!! can you confirm the following details? 1 person wants to ride share to 411 west loma boulevard and need a cab for 1 person.",
+    " please confirm the following information: you want a shared cab for 1 person to go to 411 san genteel street. you prefer a shared ride.",
+    "???????? please confirm: you want a shared cab for 1 person to go to 411 east pike street in a cab, correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & the ride is booked and on the way. the ride will take 29 minutes and costs $9.61.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a ride for 29 minutes. the ride cost $9.61.",
+    "!!! the cab will be here momentarily, and it'll cost you approximately $9.61 total.",
+    "irm a cab ride for 29 minutes and your ride is booked and on the way. it will cost you $9.61 total.",
+    "!!! the cab has been booked and it is headed to your place. the ride will take about 30 minutes and cost $9.61 total.",
+    "irm the following and i have confirmed the following: your cab is on the way and the cost is $9.61. the ride will take 29 minutes and the total is approximately 29 minutes."
   ],
   [
-    " & the ride is booked and on the way. the ride will take 29 minutes and costs $9.61.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a cab for 29 minutes and it costs $9.61. is this correct?",
+    "irm a ride for 29 to 959 east lincoln avenue. your ride is estimated to be $9.61 total.",
+    "irm a cab for 29 minutes and your ride is booked and on its way. the cost is $9.61 total.",
+    "irm the following order: you want a cab for 29 minutes to take you to the park and the cost is $9.61.",
+    "????????????????????????! your ride is for 29 minutes with a cab, and the cab is on the way. the total for the trip is $9.61."
   ],
   [
-    " & you want a shared ride for 1 person to go to453 Fleming avenue east. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " please confirm the following: you want a shared ride for 1 person to 457 fleming avenue east, correct?",
+    "!!! please confirm the following details: a cab for 1 to 457 fleming avenue east, a shared ride would be acceptable and the cab will be for 1 person.",
+    "!!! i'm sure you want a cab for 1 person, going to 457 fleming avenue east. is that correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & the ride is booked and the cab is on its way. the ride will take 12 minutes and costs $9.40.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a taxi for 12 to take you to the park in a regular vehicle. the ride will last about 12 minutes and costs $9.40.",
+    "irm the following information: your cab is on the way with an approximate ride time of 12 minutes and the cost will be $9.40.",
+    "irm a cab for 12 to 411 west el camino del frita avenue. the ride cost is $9.40 and the cab is expected in 12 minutes.",
+    "!!! your ride is booked and the cab is on its way with an expected arrival time of 12 minutes to reach you.",
+    "irm a cab for 12 to 5555 mica street in a regular vehicle with a shared ride. the total for the trip is $9.40 and the vehicle will take 12 minutes."
   ],
   [
-    " & the ride is booked and the cab is on its way. the ride will take 12 minutes and costs $9.40.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your ride has been confirmed and the cab is heading to pick you up in 12 minutes and the cost is $9.40. the ride will take 12 minutes to reach your destination.",
+    "irm a taxi for 12 minutes with destination location = \"1201 south oak road\" ; ride_fare = \"$9.40\") & it'll cost you $9.40 and cost you $9.40.",
+    "irm ( destination = \"11 minutes) & i booked your ride and its on the way with an estimated cost of $9.40. the ride will be for 12 minutes and it costs you $9.40. your ride will last about 12 minutes",
+    "irm a cab ride for 12 minutes and your ride is booked and the cab is on its way. the ride will cost you $9.40 and take 12 minutes.",
+    "irm ( wait_time = \"7\") & i booked your ride and the cab is on its way. the ride cost is $9.40 and the cab will be here in 12 minutes."
   ],
   [
-    " & you want a shared ride for 3 people to the National gallery of modern art. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " definitely. you want a cab for 3 people to go to national gallery of modern art, correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " please confirm the following information: you'd like a shared ride for 3 people to the national gallery of modern art.",
+    "!!! i'm ordering a cab for 3 people to national gallery of modern art. shall i confirm this?"
   ],
   [
-    " & you have 1 passenger and you want a shared ride.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! can you confirm that you want a shared cab for 1 person to ride share in a cab for 1 person?",
+    "!!! i've got a shared cab for 1 person to take you to 411 west el camino real estate is this correct?",
+    " please confirm the following: you want a shared ride for 1 to 411 pike.",
+    "!!! can you confirm that you want a cab for 1 person to go to 411 east san fernando avenue, ride share, and you want shared ride?",
+    " please confirm the details. you would like to ride pool ride for 1 person and you want a cab for 1 shared ride."
   ],
   [
-    "ive booked your ride and it will be $14.92.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( number_of_seats = \"2\" ; ride_fare = \"$15.88\") & the ride is for 2 people to reach your destination. the cost is $14.92",
+    "!!! the ride will cost $14.92 and the cab is on the way. the total for this ride will be $14.92.",
+    "irm ( approximate_ride_duration = \"13\") & the cab is on its way with a total of 13 minutes and your ride is booked and on its way. it will cost you approximately $14.92.",
+    "irm ( destination = \"1245 south el camino real\" ; number_of_seats = \"2\") & okay, you want 2 seats in a cab, right?",
+    "irm ( approximate_ride_duration = \"13\") & your cab is headed your way, and it will be $14.92. the ride will be around 13 minutes."
   ],
   [
-    "ive booked your ride and it will be $14.92.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( ride_fare = \"$14.92) & i booked your ride and the cab successfully booked the taxicab and the ride cost $14.92.",
+    "irm ( destination = \"seiki sushi restaurant & bar & grill\" ; number_of_seats = \"1\" ; ride_type = \"pool\") & so you want a pool ride for 1 to reach $14.92?",
+    "irm ( approximate_ride_duration = \"12\") & the ride will be for 12 minutes and it is booked and on the way. the total cost is $14.92.",
+    "irm ( destination = \"1540 south pomona boulevard\" ; number_of_riders = \"2\" ; shared_ride = \"true\") & okay, can you confirm that? you want a cab going to 1540 south pomona boulevard in a shared ride?",
+    "!!! the ride is for 14.92 and your total cost is $14.92."
   ],
   [
-    " & you want a shared ride for 1 person to the California state capitol museum. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " please confirm the details: you want to ride for 1 to california state capitol museum.",
+    " definitely? you'd like a cab for 1 to california state capitol museum. a shared ride will be okay?",
+    " definitely. you want a cab for 1 to california state capitol museum. you prefer a shared ride. can you confirm that?",
+    " can you confirm the details? you want a cab for 1 people to california state capitol museum, is that right?",
+    "!!! you want a ride to california state capitol museum for 1 people and you want a shared ride."
   ],
   [
-    " & you want a shared ride for 2 people to Mathilda garden apartments. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " please confirm the following: you want to get a cab for 2 people to mathilda garden apartments and you want shared ride.",
+    " please confirm: cab for 2 people to mathilda garden apartments. you want a shared ride?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & please confirm: you want a shared ride for 2 people to 1700 laguna street.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i've booked the cab for 2 people to 1800 laguna street and shared-ride is okay.",
+    "!!! please confirm this: you want a shared cab for 2 people going to 1700 laguna street.",
+    "! so you want a shared cab for 2 people to 1700 laguna street and you want a shared ride?",
+    "!!! i'm confirming a shared ride to 1800 laguna street for 2 people, shared ride?",
+    " please confirm: you want a shared ride to 1800 laguna street for 2 people. you want a cab with a shared ride."
   ],
   [
-    " & the ride will be about 8 minutes and the cab will be here shortly.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( wait_time = \"7\") & the cab is heading to pick you up in about 8 minutes, is on the way. it'll take about 8 minutes, will reach your destination is about 7 minutes and cost $11.",
+    "irm ( wait_time = \"7\") & your cab has been booked and it is headed to your location. it will take about 8 minutes to get to you. the cab will be for 8 people, and your cost is $8.",
+    "irm ( ride_fare = \"$15.16\" ; wait_time = \"7\") & i booked the cab and it's on the way. the cab will reach in about 8 minutes and the cab is on its way.",
+    "irm ( ride_fare = \"$14.88\") & i booked your ride and the cab is expected in 8 minutes. it will cost you $14.88 total.",
+    "irm ( ride_fare = \"$13.88\") & the cab is booked and on its way and the journey will be an 8 minute long ride."
   ],
   [
-    "ive booked your ride and it will be $15.90.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your ride is booked and the cab is on the way. the cost is $15.90.",
+    "irm ( destination = \"1540 north el camino real\" ; number_of_seats = \"3\") & please confirm: you want a ride to 1540 north el camino real for 3 people and you prefer a regular one.",
+    "!!! i booked your ride and the cab and it is headed to pick you up now. the ride cost $15.90.",
+    "irm ( approximate_ride_duration = \"15 minutes\") & i booked the cab, it will be for 15 minutes and cost $15.90",
+    "irm ( destination = \"seats on the lakefront is $15.90). your booking is done and the vehicle is on its way. the ride will cost you $15.90."
   ],
   [
-    " & you want a shared ride for 3 people to 2050 Broadway. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a shared ride for 3 to 2050 broadway in a cab, is that correct?",
+    "irm a shared ride for 3 passengers to 2050 broadway.",
+    "!!! so you want a shared cab for 3 people to 2050 broadway?",
+    "!!! i'm ordering the cab and it will be with 3 people and ride sharing for 3 riders. is this correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you want a shared ride for 1 person to 1100 Foster square lane #150. is that correct?<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! can i confirm the following details? you want an cab for 1 person to go to 1100 foster square lane #150 and you prefer a shared ride for 1 person?",
+    "???????? please confirm the following: you want me to go to 1100 foster square lane #150 for 1 ride and you dont mind if i get a cab and you dont mind having a shared ride.",
+    "???????? you want a shared ride for 1 person to 1100 foster square lane #150?",
+    "!!! can you confirm me that you want a cab for 1 person to 1100 foster square lane #150 and a shared ride would be okay?",
+    "!!! can you confirm the details? you want a shared ride for 1 to 1100 foster square lane #150?"
   ],
   [
-    " & the ride is booked and on the way. the ride will take 16 minutes and costs $14.78.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! the cab is on its way to pick you up and start the journey. it will cost you approximately $14.78.",
+    "!!! i booked your ride and it's coming right now! the cab will be here in 16 minutes and it will cost $14.78 total.",
+    "irm ( destination = \"1345 south el camino avenue\" ; ride_fare = \"$14.78\") & your ride will be for 16 minutes and it's gonna cost you $14.78. your ride is booked and on the way",
+    "irm ( destination = \"1662 east el cahu ave, a cab is on the way) & to confirm then, the cab will arrive shortly. it will cost you approximately $14.78.",
+    "irm ( approximate_ride_duration = \"16\") & your ride to 1368 south loma avenue is for 16 minutes and it costs $14.78."
   ]
 ]

@@ -24,12 +24,14 @@ def parse_API(text):
     return API
 
 def score_folder():
+    out = open("result.txt","w")
     parser = ArgumentParser()
     parser.add_argument("--domain", type=str, default="", help="domain")
     args = parser.parse_args()
     domains = args.domain.split(",")
     for domain in domains:
         print(domain)
+        out.write(domain+"\n")
         ref_text = open("./data/"+domain+"/test.txt").read().split("\n")
         ref = []
         gen = []
@@ -38,35 +40,65 @@ def score_folder():
             ref_line = line.split("&")[1].strip()
             ref.append(ref_line.lower())
         gen_text = json.load(open("./data/"+domain+"/result.json"))
-        for gen_ in gen_text:
-            cl_idx = gen_[0].find('<|endoftext|>')
-            gen_str = gen_[0][:cl_idx].strip().lower()
-            gen_str = gen_str.replace('\xa0','')
-            gen.append(gen_str)
 
-        BLEU = moses_multi_bleu(gen,ref)
-        print("BLEU",BLEU)
+        for gen_ in gen_text:
+            gen_str_list = []
+            for i in range(len(gen_)):
+                cl_idx = gen_[i].find('<|endoftext|>')
+                gen_str = gen_[i][:cl_idx].strip().lower()
+                gen_str = gen_str.replace('\xa0','')
+                gen_str_list.append(gen_str)
+            gen.append(gen_str_list)
         ############################ SLOT ERR ##############################
         tot = 0
-        cnt_bad = 0; cnt_superflous = 0
+        cnt_bad_tot = 0; cnt_superflous = 0
+        my_result = []
         for i in range(len(gen_text)):
-            line = ref_text[i]
-            line = line.split("&")[0]
-            gen_ = gen_text[i]
-            cl_idx = gen_[0].find('<|endoftext|>')
-            gen_str = gen_[0][:cl_idx].strip().lower()[1:].strip()
-            line = line.split(")")
-            for item in line:
-                if "=" not in item:continue
-                item = item.split("(")[1].split(";")
-                for item1 in item:
-                    v = item1.split("=")[1].replace("\"","").strip().lower()
-                    if(v not in ["true", "false", "yes", "no", "?","none"]):
-                        if(v.lower() not in gen_str.lower()):
-                            cnt_bad += 1
-                        else:
-                            tot += 1
-        ERR = (cnt_bad+cnt_superflous)/float(tot)
+            gen_ = gen[i]
+            min_bad_cnt = 10000
+            ans = ""
+            res = []
+            for k in range(len(gen_)):
+                cnt_bad = 0
+                cnt_tot = 0
+                line = ref_text[i]
+                line = line.split("&")[0]
+                cl_idx = gen_[k].find('<|endoftext|>')
+                gen_str = gen_[k][:cl_idx].strip().lower()[1:].strip()
+                line = line.split(")")
+                for item in line:
+                    if "=" not in item:continue
+                    item = item.split("(")[1].split(";")
+                    for item1 in item:
+                        v = item1.split("=")[1].replace("\"","").strip().lower()
+                        print(v)
+                        if(v not in ["true", "false", "yes", "no", "?","none"," ",""]):
+                            if(v.lower() not in gen_str.lower()):
+                                cnt_bad += 1
+                            cnt_tot += 1
+                res.append([cnt_bad,len(gen_str),k])
+            res.sort()
+            print("===============================================")
+            print(res)
+            print("gen:",gen_)
+            print("ref:",line)
+            ans = gen_[res[0][-1]].strip().lower().strip()
+            ans = ans.replace('!','').replace('??','')
+            ans = ans.strip()
+            #ddd
+            print(ans,"***********",ref[i])
+            print(min_bad_cnt)
+            my_result.append(ans)
+            cnt_bad_tot += res[0][0]
+            tot += cnt_tot
+            print("===============================================")
+        ERR = (cnt_bad_tot+cnt_superflous)/float(tot)
         print("ERR",ERR)
+        out.write("ERR"+str(ERR)+"\n")
+        BLEU = moses_multi_bleu(my_result,ref)
+        print("BLEU",BLEU)
+        out.write("BLUE"+str(BLEU)+"\n")
+
+        
 
 score_folder()
