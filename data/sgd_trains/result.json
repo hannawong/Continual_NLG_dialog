@@ -1,251 +1,583 @@
 [
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "ive found 10 trains. one departs at 6:10 am and costs $145",
+    "!!! i've found 9 trains that might work for you. how about one departing at 6:10 am? it costs $145.inform_count ( count = \"9\") &!!! i've found 9 trains that might work for you. how about one departing at 6:10 a",
+    "ive found 8 trains. how about the one departing at 6:10 am for $145?inform_count ( count = \"8\") & ive found 8 trains. how about the one departing at 6:10 am for $145?",
+    "ia a train departing at 6:10 am costing $145."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i've booked your ticket. how about one that departs at 6:10 am and costs $145 in total?",
+    "!!! there are 9 trains that could be suitable. one departs at 6:10 am and costs $145.",
+    "!!! there are 10 trains that could work. there's one departing at 6:10 am and the costs of that ticket will be $145.",
+    "ia have 8 trains available. there is one departing at 6:10 am that is $145.",
+    "!!! there are 5 trains that fit your description which depart at 6:10 am and it costs $145"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ia depart at 6:10 am. the price is $145",
+    "!!! there is one leaving at 6:10 am that is a $145 ticket.inform_count ( count = \"8\") & there is one leaving at 6:10 am that is a $145 ticket.",
+    "ervises at 6:10 am and costs $145.",
+    "!!! there is one departing at 6:10 am for $145.",
+    "!!! there's a train that departs at 6:10 am for $145 in all."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 8 trains that may work for you. one departs at suanta fe depot and arrives at santa fe depot.",
+    "ive found a train that departs at santa fe depot. the tickets will be $76 total.",
+    "ich depart at suanta fe depot and the train will depart at suanta fe depot.",
+    "ive heard that you have a train departing at santa fe depot. it leaves atsanta fe depot.",
+    "ive found 10 trains. there is one leaving from ana fe depot. there is one departing at 7 am and it costs $76 for you."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please confirm that you want one departing in a 6:10 am for $76 in total",
+    "!!! your ticket has been booked. it will arrive on mar 8th.",
+    "!!! please confirm that you want a train ticket departing from san diego. you want a train ticket departing from san diego. please confirm that you want a train ticket departing from san diego.",
+    "!!! your booking confirmed that you are leaving from san diego to sacramento and the value ticket has been booked.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 10 trains which may work for you. one is departing for $76.",
+    "ive found 10 trains that might interest you. how about the one that departs at sacramento valley station? how about the one that departs at sacramento valley station?",
+    "ich leave at sacramento valley station.",
+    "ive booked a departure at sacramento valley station. the ticket is $76.",
+    "ich leave from union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ervises depart from sacramento valley station. the ticket is for one departing at sacramento valley station. the ticket is $57.",
+    "ive found 8 trains that suits your needs. how about one that departs at sacramento valley station and arrives at sacramento valley station?",
+    "ive found 7 trains that may work for you. how about one that leaves at sacramento valley station and costs $76 in all?",
+    "ive found 8 trains suitable. one departs at sacramento valley station.",
+    "ich will be leaving sacramento valley station. the train will arrive in sacramento valley station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 9 trains that could work for you. how about one that departs at 1 am and costs $115 in all?",
+    "!!! there's a train departing at 1 pm that costs $115.inform_count ( count = \"7\") &!!! there's a train departing at 1 am that costs $115.",
+    "ive found 10 trains. one of them departs at 1 pm and the cost is $115.",
+    "ive found 10 trains that might interest you. one departs at 1:50 am and the price is $115",
+    "!!! there are 8 trains that suits your needs. there is one departing at 1 pm that costs $115."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please confirm your interest in a value ticket booking from los angeles for a train ticket leaving los angeles for a train departing washington.",
+    "!!! you want me to confirm that you want me to confirm that you want me to confirm that you want me to confirm that you want me to confirm that you want me to confirm that you want me to confirm that you want me to confirm that you want me to confirm that you want me to confir",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! how about a train ticket that departs from los angeles and arrives at washington?",
+    "!!! you want 1 value ticket from los angeles to washington?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! how about one that leaves at union station? it is a train departing at union station. how about one that departs at union station? it is a train departing at union station.",
+    "ive found 9 trains for you to choose from. there is one leaving at union station. there is one leaving at union station. there is one leaving at union station.",
+    "ikon trains depart from union station.",
+    "ive found 7 trains that suits your criteria. how about a train departing at union station? it will cost $53 in all.",
+    "ich depart on the 7th. the train leaves union station and arrives at union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ikon is leaving from peachtree station.",
+    "ive booked a train leaving from peachtree station. it will arrive at the destination christmas eve.",
+    "ive found 8 trains which might work for you. one departing at peachtree station. one departing at 7:50 am and costs $76.",
+    "ive booked your tickets. you'll arrive at the seattle union station.",
+    "ive found a train that suits your requirements. how about one departing at 7 am? how about one departing at 7 am with the cost $76?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! there is a train departing at 8 am that could work for you. there is one leaving at 8 am. the price of that ticket is $66",
+    "!!! there are 9 trains for you to choose from that depart at 8 am. it costs $66.",
+    "!!! there are 10 trains available. there is one departing at 8 am which is $66.",
+    "ive found 7 trains that might work for you. there is a ticket starting at 8 am for $66.",
+    "!!! i have found 8 trains that could work. there is one departing at 8 am for $66.inform_count ( count = \"8\") &!!! i have found 8 trains that could work. there is one departing at 8 am for $66."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ia a train that departs at 8 am and costs $66.",
+    "!!! there are 5 trains available. there is one departing at 8 am that costs $66.",
+    "!!! there's one leaving at 8 am. there's a $66 ticket.",
+    "!!! i've found 10 trains that could be suitable for your departure. how about an 8 am departure that is suitable for you?",
+    "ervices will be departing at 8 am."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 10 trains. how about a train departing at 8 am? the ticket is $66 and it will arrive at 8 am. the tickets were booked in total.",
+    "ia depart at 8 am. your ticket was booked.",
+    "ia one leaving at 8 am and costs $66.",
+    "!!! there's 9 trains which fit that route, including one leaving at 8 am and it costs $66.",
+    "ive found 9 trains that could work for you. one departing at 8 am and costs $66."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your ticket has been confirmed. your ticket has been confirmed.",
+    "!!! you want 1 value ticket from the fresno station to fresno station.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm your interest and that you are leaving from los angeles. you are going to go to fresno and that is the one that suits you. how about one that departs at 8 am?",
+    "!!! please confirm that your ticket has been booked for you. it will depart from sacramento and fresno. please confirm that your ticket has been booked for you. it will depart from sacramento and fresno."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your ticket has been confirmed. you will be departing from sacramento valley station and arriving at the fresno station.",
+    " sure. your bus will depart from sacramento valley station and arrive at the fresno station.",
+    "!!! your reservation is confirmed. your destination is fresno station from the sacramento valley station.",
+    "!!! the bus departs from sacramento valley station and arrives at our destination is fresno station.",
+    "!!! your bus departs from sacramento valley station and arrives at fresno station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your ticket has been confirmed. you will be leaving from sacramento valley station and arriving at fresno station.",
+    "!!! i have confirmed your tickets. you are leaving from sacramento valley station and arriving at the fresno station.",
+    "!!! you would be departing from sacramento valley station and arriving at fresno station.",
+    "!!! the destination is fresno station from sacramento valley station.",
+    "!!! your ticket is confirmed. you will be leaving from sacramento valley station and your destination station is fresno station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! there is one leaving at 6:30 am. how about a train that costs $157?",
+    "ervices will be $157.",
+    "ia depart at 6:30 am. the ticket is $157.",
+    "!!! there are 9 trains that suits your requirements. there is one departing at 6:30 am that will cost $157.",
+    "!!! there are 8 trains available. there is a train departing at 6:30 am for $157."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found a train departing at 6:30 am with total cost $157.",
+    "ervide ( from_station = \"chicago union station\" ; to_station = \"union station\") & ervide ( from_station = \"union station\") & there is an option to board the train at 6:30 am and cost $157.",
+    "!!! how about a train that departs at 6:30 am?",
+    "ive found 10 train options. there is one departing at 6:30 am that costs $157.",
+    "ive found a train that suits your needs. how about a train departing at 6:30 am that costs $157?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "ia depart at 6:30 am. the ticket is $157",
+    "ervises 10 trains. there is a train that leaves at 6:30 am that costs $157 and the cost is $153 in all.",
+    "ive found 9 trains for sale. one departs at 6:30 am. it costs $157",
+    "!!! the ticket cost is $157."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you want 2 tickets from los angeles for the train from los angeles. it costs $76",
+    "!!! please confirm that the tickets will be for 2 tickets from los angeles to phoenix.",
+    "!!! your ticket has been booked.",
+    "!!! please confirm that the train is departing from los angeles for $52 in all."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 10 flexible trains for you. there is one departing at 6:30 am for $56.",
+    "!!! there is a ticket leaving at 6:30 am for you. there is a ticket leaving at 6:30 am for you.",
+    "ive found 10 flexible trains. how about one that departs at 6:30 am and costs $6 in total?",
+    "ive found 8 flexible tickets. one departs at 6:30 am and costs $6.",
+    "ive booked a flexible ticket. the price is $76."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 8 trains that suits your description. how about one that costs $76 in total and leaves at phoenix union station?",
+    "!!! there's a train leaving from phoenix union station. there's a train departing from phoenix union station. there's a train departing from phoenix union station.",
+    "ich leave from phoenix union station to phoenix union station.",
+    "!!! there's one departing at phoenix union station.",
+    "!!! there is one that departs at phoenix union station that is $59."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 7 trains that suits your need. one of them will leave at phoenix union station. the ticket price is $89 in all.",
+    "ive booked your ticket. the train leaves at phoenix union station. your ticket is confirmed.",
+    "ive found 9 trains that could be suitable. there is one departing at phoenix union station.",
+    "ervises at phoenix union station.",
+    "ich leave from phoenix union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! the train leaves union station.",
+    "ive found 8 trains. how about one that departs at union station and costs $56?",
+    "ervises at union station.",
+    "!!! the train will depart from union station.",
+    "ich depart from union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 8 trains. there is one departing at 6:30 am that costs $132.",
+    "!!! there's a train which leaves at 6:30 am and costs $132.",
+    "!!! the ticket was booked at 6:30 am. the cost of that ticket was $132.",
+    "!!! the tickets will be booked at 6:30 am for $132.",
+    "ia have 10 trains for you. how about one leaving at 6:30 am that costs $132."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! how about one that leaves from anaheim and costs $1?",
+    "!!! please confirm that you are booking 1 value ticket on journey to sacramento and that you are staying for 6:30 am and you want me to confirm that it will be leaving from los angeles for 6:30 am and you want me to confirm that it will be leaving from los angele",
+    "!!! your train will be departing from sacramento to anaheim on march 2nd.",
+    "!!!!!! your ticket has been booked! please confirm that you want 1 value ticket from sacramento, which is the ticket you would like? the value ticket to go from anaheim."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! you will be leaving from sacramento valley station and arriving at anaheim intermodal center.",
+    "ichth- said to purchase 1 ticket from anaheim intermodal center and would arrive at anaheim intermodal center.",
+    "!!! the bus goes from sacramento valley station to anaheim intermodal center.",
+    " sure, it leaves from sacramento valley station and arrives at anaheim intermodal center.",
+    "ico station is the destination and anaheim intermodal center is the station"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " sure, you'll like this one. you'll be departing from sacramento valley station and arriving at anaheim intermodal center.",
+    "ich from the sacramento valley station, going to anaheim intermodal center",
+    "!!! the bus arrives at anaheim intermodal center and leaves from sacramento valley station.",
+    "ive reserved your tickets. the departure station will be anaheim intermodal center. your destination station is anaheim intermodal center.",
+    "ichth- said bus departs from sacramento valley station and arrives at anaheim intermodal center."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found a ticket for a train departing at 6:10 am. the price is $60 in all.",
+    "ia one depart at 6:10 am and costs $60.",
+    "!!! the train will be departing at 6:10 am for which the ticket will be for the $60 ticket.",
+    "!!! there are 10 trains that could work. one departs at 6:10 am. it costs $60.",
+    "ive found 10 trains that fit that ticket. how about one which departs at 6:10 am and it costs $60 in total?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive booked your ticket. there's a train departing at 6:10 am that costs $60.",
+    "ia no tickets. there is one departing at 6:10 am that leaves at 6:10 am.",
+    "ive found 10 train options. there is one leaving at 6:10 am that costs $60.",
+    "ive found a train that suits your needs. how about one that departs at 6:10 am and costs $60.",
+    "!!! there is 9 trains available. there is one leaving at 6:10 am which costs $60"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 10 trains. there is one that departs at 6:10 am. it costs $60.",
+    "ive found 9 trains that fit your description. how about one that leaves at 6:10 am and costs $60.inform_count ( count = \"9\") & ive found 9 trains that fit your description. how about one that leaves at 6:10 am and costs $60",
+    "ive found 7 trains that could be suitable for the trip. the one departs at 6:10 am and costs $60.",
+    "ive found 10 trains that fit your need, including a 6:10 am train. how about one that departs at 6:10 am?inform_count ( count = \"10\") & ive found 10 trains that fit your need, including a 6:10 am train. how abou",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ichville station will be your destination.",
+    "ive found 10 trains that could work. how about one that departs at santa fe depot? it costs $76.",
+    "iaheim intermodal center. the train will be leaving from santa fe depot.",
+    "ive found 10 trains. it will depart at santa fe depot. the train costs $59 in all.",
+    "ichville station. the train is arriving at santa fe depot."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 7 trains which suits your need. there is one departing at union station. there is one departing at union station.",
+    "ikki will be leaving the union station.",
+    "ikapoints depart at union station.",
+    "!!! the train leaves at union station.",
+    "ich leave the union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! how about an 8 value ticket that departs from los angeles and arrives in los angeles?",
+    "!!! please confirm your interest in visiting los angeles and booking a ticket for 1 value ticket in las angeles.",
+    "!!! please confirm that you want 1 value ticket on march 12th and it will depart from los angeles and it costs $76.",
+    "!!! please confirm the following details: you want 1 value ticket to go to los angeles to buy a train ticket? please confirm you want 1 value ticket to go to los angeles to buy a train ticket?",
+    "!!! please confirm that you want to travel to san diego for a 6:10 am value ticket."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! there are 7 trains that could work for you. one leaves at 6:30 am. the cost is $164.",
+    "ia depart at 6:30 am. the ticket cost is $164.",
+    "ive found 10 trains that could be suitable. what about a train departing at 6:30 am with a cost of $164.",
+    "ive found 10 trains suitable for you to depart at 6:30 am. the ticket price is $164 in total.",
+    "ia one leaving at 6:30 am for $164."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! the train will depart at 6:30 am with a price tag of $164.",
+    "ive found 10 trains that fit your criteria. how about one that departs at 6:30 am and costs $164?inform_count ( count = \"10\") & ive found 10 trains that fit your criteria. how about one that departs at 6:30 am and costs ",
+    "ia no tickets available. there is an exit at 6:30 am for you to depart at 6:30 am with an estimated cost of $164.",
+    "!!! there's a train departing at 6:30 am that leaves at 6:30 am. the ticket is valid.",
+    "ive found 9 trains. there is one departing at 6:30 am and the cost is $164."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! how about one that leaves at 6:30 am and costs $164?inform_count ( count = \"6\") & how about one that leaves at 6:30 am and costs $164?",
+    "ive found 10 trains that suits your needs. how about a train departing at 6:30 am for $164 in total.",
+    "!!! there are 9 trains available. there is one departing at 6:30 am that costs $164.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "ive found 10 trains which suits your requirements. there is one departing at 6:30 am for $164.inform_count ( count = \"10\") & there is one departing at 6:30 am for $164."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ich leave from anaheim intermodal center.",
+    "ichville intermodal center. you will depart for a train that departs at the anaheim intermodal center.",
+    "ive found 8 trains that could be suitable. how about a train departing from anaheim intermodal center? how about the train departing at the anaheim intermodal center? how about the train departing at the anaheim intermodal center?",
+    "ive found 8 trains suitable for you. one departs at the anaheim intermodal center and costs $76 total.inform_count ( count = \"8\") & ive found 8 trains suitable for you. one departs at the anaheim intermodal center and costs $7",
+    "ive found 8 trains that could work for you. one departs at 6:40 am for $76."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ervises depart from phoenix union station.",
+    "ive found 10 trains that might interest you. one of them departs at phoenix union station. it costs $76",
+    "ive booked your tickets. the train arrives at phoenix union station.",
+    "ive found a train departing at phoenix union station. the train will arrive at phoenix union station.",
+    "ive found 8 trains that may work. how about one that departs at phoenix union station and leaves at phoenix union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! how about a train ticket departing from anaheim for a train ticket leaving from anaheim for a train ticket leaving from anaheim for a train ticket leaving from anaheim for a train ticket leaving from the union station in union station in union station",
+    "!!! you'd like 1 ticket from anaheim? please confirm your booking to a phoenix.",
+    "!!! you would like 1 train ticket?",
+    "!!!! please confirm that you want 1 train ticket from anaheim for the train departing from phoenix for the train leaving from anaheim for the train leaving from phoenix",
+    "!!! please confirm your booking. please confirm that the ticket will go to anaheim and that the ticket will go to phoenix."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! there are 10 trains which could be suitable. there's one departing at 8:30 am which is cheaper than the one departing at 8:20 am which is cheaper than the one departing at 8:20 am which is cheaper than the one departing at 8:20 am which is cheaper than th",
+    "ive found 10 trains. there's one departing at 8:30 am which costs $188 in total.",
+    "!!! there are 8 trains available. there is one departing at 8:30 am which costs $188.",
+    "ia have 7 trains that could be suitable. one departs at 8:30 am and costs about $188.",
+    "ive found 8 trains that suits your requirements. how about a train departing from the United States and costs $188?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please confirm your interest and booking resales for 3.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you want 3 tickets for a train departing from fresno to los angeles. you can confirm your interest in all 3 tickets for a train departing from fresno to los angeles.",
+    "!!! please confirm that your booking will be successful. your ticket has been booked. you will also be traveling to fresno.",
+    "!!! please confirm your interest, please confirm your interest, please confirm your interest, please confirm your interest, please confirm your interest, please confirm your interest, please confirm your interest, please confirm your interest, please confirm your interest, please confirm your interest, please confirm your interest, please confirm your interes"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 10 trains. how about a train leaving at 6:30 am? the ticket is $90.",
+    "ervices will be delivered to you.",
+    "!!! there are 10 trains that could work for you. there's one leaving at 6:30 am that's $90.",
+    "ive found 9 trains that may work for you. how about one that departs at 6:30 am and costs $90 total?",
+    "ia no tickets. there is a train leaving at 6:30 am which costs $90."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please confirm that you want 1 value ticket from sacramento to los angeles.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you need a ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 value ticket for 1 Valu",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm that you want a train ticket departing from sacramento to los angeles."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ich will be leaving union station.",
+    "ive found 10 trains. one departs at union station and arrives at union station.",
+    "ikap the train is leaving at union station. it will depart at union station. the ticket cost is $67.",
+    "!!! it leaves from union station to union station.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 9 trains that may interest you. how about a train departing from union station in union station for a train which departs from union station and arrives at union station?",
+    "ive found 8 trains which fit my requirements. there is one departing at union station. the ticket is $67.",
+    "ive found 10 trains. there is one departing at union station. the tickets were $59.",
+    "!!! there's a train departing at union station.",
+    "ive found a train departing at union station. the ticket will cost $76"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! there is one leaving at 6:30 am and it costs $118.",
+    "ive found 8 trains that could also work. how about one that departs at 6:30 am and costs $118 in total?",
+    "!!! the ticket was booked at 6:30 am. the price was $118.",
+    "ive found 7 trains that might interest you. how about one that leaves at 6:30 am that costs $118",
+    "ive found 10 trains that could work. how about one that leaves at 6:30 am that could be cheaper than the $118 ticket."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 9 trains that suits your criteria. how about a train departing at 6:30 am for $118?",
+    "!!! i've found 10 train options. there is one leaving at 6:30 am that costs $118.",
+    "!!! how about one that leaves at 6:30 am and costs $118",
+    "ervises a train departing at 6:30 am for a $118 ticket.\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! the ticket was $118."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 7 trains which may interest you the price of the ticket. one departs at 6:30 am and costs $118.",
+    "!!! there's a train leaving that day that leaves that train at 6:30 am for $118.",
+    "ive found 7 trains that suits your needs. one of which departs at 6:30 am and the costs $118.",
+    "ive found 10 trains for you that could work. there is one departing at 6:30 am which costs $118.",
+    "!!! there are 10 trains that could be suitable, which depart at 6:30 am and costs $118 total."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ervices will be delivered to the phoenix union station, which is departing at phoenix union station.",
+    "ive found 10 trains that fit your requirements. one departs at phoenix union station. the ticket will cost $76.",
+    "ive found 7 trains suitable. one departs at phoenix union station. the price of that ticket is $55 total.",
+    "ervises at phoenix union station. the train leaves at phoenix union station.",
+    "ive found 9 trains for you. how about one that departs at phoenix union station and arrives at phoenix union station?inform_count ( count = \"9\") & ive found 9 trains for you. how about one that departs at phoenix union station?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found a train departing from anaheim intermodal center. it will depart at 7:50 am for $55.",
+    "ich will be leaving at the anaheim intermodal center.",
+    "ive found 8 trains for you to choose from. how about a train departing from anaheim intermodal center and a train departing at the anaheim intermodal center?",
+    "ichthope transit service will depart from anaheim intermodal center.",
+    "ich it would be leaving from anaheim intermodal center to the city of anaheim intermodal center."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! how about a train that departs from anaheim and costs $76",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! how about a train ticket departing from anaheim and the value will cost me the price of the ticket in the form \"1 value\"?",
+    "!!! how about one of those tickets departing at 6:30 am and it costs $76 in total?",
+    "!!! your tickets arrived at anaheim on march 11th and your ticket is sold."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 10 train options. one of them departs at 6:30 am and costs $35.",
+    "!!! there's a train that departs at 6:30 am that is $35",
+    "ive found 10 trains that could be suitable. there is one departing at 6:30 am that costs $35.",
+    "!!! there are 10 trains available. there is one departing that departs at 6:30 am and costs $35.",
+    "ive found a train that suits your needs. one that departs at 6:30 am and costs $35."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive reserved your tickets. i have reserved the final ticket.the bus leaves anaheim intermodal center.",
+    "ich from anaheim intermodal center, going to union station",
+    "ichth bus leaves anaheim intermodal center and arrives at union station.",
+    "!!! your ticket is verified. the destination station is union station and it departs from anaheim intermodal center",
+    "you will be leaving anaheim intermodal center and arriving at union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please confirm that you want 1 value ticket from anaheim for a train ticket from los angeles.",
+    "!!! please confirm that you are traveling from anaheim to los angeles. your ticket is booked!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you are leaving from anaheim to los angeles. you can confirm that you are from anaheim and that you have a ticket to go to los angeles.",
+    "!!! please confirm that you are a VIP ticket on the train from anaheim to los angeles. the value ticket cost is $1 and the trip is free."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! the train will be departing at 6:10 am.",
+    "!!! there's a train departing at 6:10 am for $69",
+    "!!!! i've found a train leaving at 6:10 am that costs $69.",
+    "!!! there is one that leaves at 6:10 am and costs $69.",
+    "!!! the ticket is booked. the cost is $69."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ia depart at 6:10 am. the total cost is $69.",
+    "!!! how about a train departing at 6:10 am and it costs $69 in total?",
+    "ia have 10 trains which fit your criteria. one costs $69.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i've found a train that suits your requirements. there's one departing at 6:10 am that costs $69."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! there are 10 trains that might interest you. there is one departing at 6:10 am for $69.",
+    "ive found 8 trains which suits your needs. how about one which departs at 6:10 am and costs $69 in total?inform_count ( count = \"8\") & there are 8 trains which suits your needs. how about one which departs at 6:10 am and cost",
+    "!!! there are 10 trains for you. there is one departing at 6:10 am and it costs $69.inform_count ( count = \"10\") & there are 10 trains for you. there is one departing at 6:10 am and it costs $69.",
+    "!!! there are 5 trains which fit that route. there is one departing at 6:10 am and the cost is $69.",
+    "!!! the ticket was booked at 6:10 am and it is leaving at 6:10 am so it costs $69."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your ticket was booked. the day of the trip. the ticket will be $76 in all.",
+    "!!! you want 1 flexible ticket from san francisco. the train will depart from sacramento for a 6:10 am trip.",
+    "!\"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you want a train ticket departing from san francisco and a ticket going from sacramento."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! the bus departs from salesforce transit center and arrives at sacramento valley station.",
+    "!!! i've reserved your tickets. the bus will depart from salesforce transit center and arrive at sacramento valley station.",
+    " sure! i have found one that departs from salesforce transit center and arrives at sacramento valley station.",
+    "ive confirmed your reservation. you would like to leave from salesforce transit center station to sacramento valley station.",
+    "!!! the destination station is sacramento valley station and the origin station is salesforce transit center. i've placed the booking request to reserve 1 ticket."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive reserved your tickets. you are going to sacramento valley station. your destination is sacramento valley station.",
+    "!!! i've confirmed your tickets. you're leaving from salesforce transit center and arriving at sacramento valley station.",
+    "!!! you'll be leaving sacramento valley station and arriving at the new station.",
+    "!!! i've confirmed your tickets. you're leaving from the salesforce transit center station and arriving at the sacramento valley station.",
+    "ive reserved your tickets, you will be departing from salesforce transit center and arriving at sacramento valley station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 8 trains that could potentially work. one departs at 6:30 am. it will cost you $83 total.",
+    "ia depart at 6:30 am. the ticket price is $83.",
+    "ive found 10 trains that could work. one departs at 6:30 am. the cost is $83.",
+    "!!! there is a train departing at 6:30 am that costs $83.",
+    "!!! there are 10 trains that could work, starting at 6:30 am. the tickets for that train are $153 in all."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm that you want 1 value ticket for your class and you will leave from los angeles.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you are leaving from los angeles and sacramento.",
+    "!!! please confirm that you want to travel to sacramento to sacramento with a value ticket leaving from los angeles and the value is 1."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! your ticket has been confirmed.",
+    "ia depart from union station to sacramento valley station.",
+    "!!! there is one leaving at union station.",
+    "ia depart from union station.",
+    "!!! the train leaves from union station and arrives at sacramento valley station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 9 trains which could work. how about a train departing at union station that departs from sacramento valley station?",
+    "ia a train departing from union station and arrives at sacramento valley station.",
+    "ive found 8 trains that suits your requirements. one departs at union station and is suitable for you. it is departing at union station.",
+    "ich it is leaving from union station.",
+    "!!! there is one departing at union station. the ticket is $76."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! how about a train that leaves at 7:30 am that is the price of the ticket.",
+    "ive found 7 trains that might work for you. how about one that departs at 7:30 am that costs $229?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! there's one leaving at 7:30 am for $229",
+    "ia have 10 trains for you. one departs at 7:30 am for $229."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found a train departing from chicago union station. the ticket is for a train from chicago union station.",
+    "ive booked the ticket for chicago union station.",
+    "ive booked a train from chicago union station. your ticket arrived at chicago union station.",
+    "ervises from chicago union station to chicago union station.",
+    "ich train will leave from chicago union station and arrives at chicago union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found a train that suits your requirements. one departs at 8 am and costs $248.",
+    "!!! how about one leaving at 8 am? the tickets will be booked for you. the price is $248.",
+    "!!! i found a flight departing at 8 am that costs $248.",
+    "!!! there are 8 trains that could potentially work. there is one that departs at 8 am. the cost of that ticket is $248.",
+    "ive booked a ticket for 8 am. the price is $248"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! your ticket has been booked!",
+    "!!! how about one leaving from chicago and a train ticket will arrive at new york.",
+    "!!! please confirm that you would like 2 flexible tickets on the train from chicago to new york.",
+    "!!! how about a train ticket for you to depart chicago?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found a train departing chicago union station. the train will be leaving at 7:30 am. the ticket cost is $55.",
+    "ich depart from chicago union station and arrives at chicago union station.",
+    "ervasive service will be departing at chicago union station.",
+    "ich leave chicago union station.",
+    "ich depart at chicago union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ervasive. the train is arriving at chicago union station. there is one departing at chicago union station.",
+    "ervises depart from chicago union station.",
+    "ich leave chicago union station.",
+    "!!! how about one which is departing at chicago union station and it costs $76 total in total.",
+    "ikapoints will be arriving at chicago union station."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! there is one departing that day which leaves at 6:20 am and costs $88.",
+    "ive found 9 trains that may work for you. one departs at 6:20 am costing $88.",
+    "!!! there's one leaving at 6:20 am for $88.",
+    "ive found 7 trains that might interest you. how about one that leaves at 6:20 am and costs $88 in total?",
+    "ive found 7 trains that may work for you. one of them departs at 6:20 am and costs $88."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! there is one leaving at 6:20 am for $88.",
+    "!!! how about one departing at 6:20 am that leaves at 6:20 am?",
+    "ive found 8 trains for you. how about one that departs at 6:20 am and costs $88?",
+    "!!! i found 7 trains that suits your need. one departs at 6:20 am. the ticket price is $88.",
+    "ive found 8 trains that suits your need. one departs at 6:20 am for the cost of the ticket.inform_count ( count = \"8\") & ive found 8 trains that suits your need. one departs at 6:20 am for the cost of the ticket"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!! there are 8 trains that could work. there is one departing at 6:20 am for $88.",
+    "ive found 10 trains that suits your needs. how about one that departs at 6:20 am that costs $88?",
+    "ive found a train that will work for you. there is one departing at 6:20 am that costs $88.",
+    "!!! i found a train that may work for you. how about one that departs at 6:20 am and costs $88?inform_count ( count = \"1\") & i found a train that may work for you. how about one that departs at 6:20 am an"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! how about a train ticket departing from los angeles to san francisco and the price is $1.",
+    "!!! your ticket has been confirmed. it will depart for a value ticket in san francisco.",
+    "!!!!!! your ticket has been confirmed. your ticket has been confirmed!!!!!! your ticket has been confirmed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! how about 1 value ticket leaving from san francisco and the value one leaving from los angeles?",
+    "!!!!!!! how about one leaving from san francisco and a ticket costs $76?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 10 flexible trains that might interest you. there is one departing at the march 8th for $58.",
+    "ive booked a flexible visa for the 6th. there is a train departing at march 8th. the date of the departure at the flexible price is 7th.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "ive found 9 trains that may suit your needs. how about a flexible booking that departs at 7th and costs $76?",
+    "ive found a flexible ticket. there is one leaving at 8 am and it costs $59"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found a train departing from salesforce transit center. how about a train departing from salesforce transit center that costs $76?inform_count ( count = \"76\") & how about a train departing from salesforce transit center that costs $76?",
+    "ive found a train departing from the salesforce transit center.",
+    "ervises a train leaving from salesforce transit center. the ticket cost is $76.",
+    "ervices will be departing from salesforce transit center for the trip you want to take.",
+    "ive found 8 trains for you to choose from. how about one departing at salesforce transit center and arriving at salesforce transit center? how about one departing at salesforce transit center and arriving at salesforce transit center?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ervises a train which is suitable for salesforce transit center. the ticket is for the ticket at the salesforce transit center.",
+    "ive found 10 trains that suits your requirements. there is a train departing at the salesforce transit center that is departing at the salesforce transit center.",
+    "ervide ( from_station = \"sacramento valley station\") & you need the train from salesforce transit center to salesforce transit center.",
+    "ervices will be available. your ticket has arrived in salesforce transit center.",
+    "ive found 10 trains. there's one that leaves at salesforce transit center."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 8 trains for your need. how about one that departs at 1:10 am and costs $118?inform_count ( count = \"8\") & ive found 8 trains for your need. how about one that departs at 1:10 am and costs $118",
+    "ive found a train departing at 1 am. the ticket cost is $118.",
+    "!!! there is one that departs at 1:20 am. there is one that departs at 1:20 am. there is one that departs at 1:20 am. it costs $118",
+    "ive found 8 trains that might interest you. how about one that departs at 1:40 am for $118 in all?",
+    "!!! i've found 10 trains that could work. one costs $118."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! you would like a train ticket that is departing at washington for the value of tickets.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm that you want 1 value ticket for your family to travel from azanta to awashington for your family to go to washington.",
+    "!!!! please confirm that your booking successfully confirmed that you would like 1 value ticket on the 6th of August for your ticket to washington.",
+    "!!! please confirm that you will depart from the city of washington for the value value ticket you want."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ia one that leaves at 8:30 am costing $90",
+    "ive found 8 trains that could work. one of the trains departs at 8:30 am and costs $90.",
+    "ia one that departs at 8:30 am.",
+    "!!! there's one leaving at 8:30 am that will be a $90 ticket.inform_count ( count = \"8\") & there's one leaving at 8:30 am that will be a $90 ticket.",
+    "!!! there is a train departing at 8:30 am for the price of the ticket."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!! how about a flight insurance ticket for one that leaves from anaheim and arrives in a free ticket for the price of the ticket 1",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! how about one that leaves at 8:30 am and costs $76 in total?",
+    "!!! there is one leaving at de facto christmas ticket booking.",
+    "!!! please confirm your interest in the following details:"
   ]
 ]

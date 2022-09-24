@@ -153,7 +153,7 @@ if ($length_reference==0){
 if ($length_translation<$length_reference) {
   $brevity_penalty = exp(1-$length_reference/$length_translation);
 }
-$bleu = $brevity_penalty * exp((my_log( $bleu[1] ) +
+$bleu = 1 * exp((my_log( $bleu[1] ) +
 				my_log( $bleu[2] ) +
 				my_log( $bleu[3] ) +
 				my_log( $bleu[4] ) ) / 4) ;
@@ -169,7 +169,7 @@ printf "BLEU = %.2f, %.1f/%.1f/%.1f/%.1f (BP=%.3f, ratio=%.3f, hyp_len=%d, ref_l
     $length_reference;
 
 
-print STDERR "It is in-advisable to publish scores from multi-bleu.perl.  The scores depend on your tokenizer, which is unlikely to be reproducible from your paper or consistent across research groups.  Instead you should detokenize then use mteval-v14.pl, which has a standard tokenization.  Scores from multi-bleu.perl can still be used for internal purposes when you have a consistent tokenizer.\n";
+#print STDERR "It is in-advisable to publish scores from multi-bleu.perl.  The scores depend on your tokenizer, which is unlikely to be reproducible from your paper or consistent across research groups.  Instead you should detokenize then use mteval-v14.pl, which has a standard tokenization.  Scores from multi-bleu.perl can still be used for internal purposes when you have a consistent tokenizer.\n";
 
 sub my_log {
   return -9999999999 unless $_[0];

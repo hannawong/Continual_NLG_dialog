@@ -1,437 +1,1017 @@
 [
   [
-    " & you have an empty slot from 11:30 pm to midnight next Monday.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for next monday. one is from 11:30 pm to midnight.",
+    "ive found 3 empty slots on your calendar for next monday that you want to start on that day. you don't have anything between 11:30 pm and midnight.",
+    "ive found 3 empty slots on your calendar next monday for 11:30 pm to midnight.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar next monday for 11:30 pm to midnight.",
+    "ive found 3 empty slots on your calendar next monday that start at 11:30 pm and end at midnight.",
+    "ive found 3 empty slots on your calendar next monday, one of which is from 11:30 pm to midnight."
   ],
   [
-    " & you have an empty slot from 12:30 pm to 10:30 pm on march 12th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar on march 12th, one starting at 12:30 pm and ending at 10:30 pm on march 12th.",
+    "ive found 4 empty slots on your calendar for march 12th from 12:30 pm to 10:30 pm.inform_count ( count = \"4\") & ive found 4 empty slots on your calendar for march 12th from 12:30 pm to 10:30 pm.",
+    "ive found 3 empty slots on march 12th from 12:30 pm to 10:30 pm.",
+    "ive found 3 empty slots on your calendar for march 12th from 12:30 pm to 10:30 pm.",
+    "ive found 3 empty slots on your calendar for march 12th, one starting at 12:30 pm and ending at 10:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for march 12th, one starting at 12:30 p"
   ],
   [
-    " & you have a viewing at viewing at felson management corporation on march 12th at 12:30 pm at 41277 Roberts avenue # 32.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled on march 12th at 41277 roberts ave # 32 at 12:30 pm. do you confirm?",
+    "ive found 3 events scheduled for march 12th at 41277 roberts ave # 32 located at 12:30 pm.",
+    "ive found 3 events on march 12th that show how to schedule a viewing at felson management corporation for march 12th at 41277 roberts ave # 32 starting at 12:30 pm on march 12th. the date for that event is march 12th and the location is 4127",
+    "ive found 4 events on march 12th at 41277 roberts ave # 32 at 12:30 pm. is that correct?",
+    "ive found 3 events scheduled on march 12th that are going to begin at 12:30 pm and ending at 41277 roberts ave # 32."
   ],
   [
-    " & the day after tomorrow you have an empty slot from 4 pm to 7:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar on that day and you're free from 4 pm to 7:30 pm.",
+    "ive found 3 empty slots on your calendar on march 1st, including a 4 pm slot.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar on march 1st, including a 4 pm slot.",
+    "ive found 3 empty slots on your calendar from 4 pm to 7:30 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. one starts at 4 pm and ends at 7:30 pm.",
+    "ive found 3 empty slots in your calendar on march 3rd. the nearest one is 4 pm to 7:30 pminform_count ( count = \"3\") & ive found 3 empty slots in your calendar on march 3rd. the nearest one is 4 pm to 7:30 "
   ],
   [
-    " & you have an empty slot from 4:30 pm to midnight next Thursday.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots from 4:30 pm to midnight on next thursday.",
+    "ive found 3 empty slots on calendar-includes dentist appointment on next thursday.",
+    "ive found 3 empty slots on your calendar next thursday and you are free from 4:30 pm to midnight.",
+    "irm ( event_name = \"appointment at donna m cotner\" ; event_time = \"7:30 pm\") & irm ( event_date = \"next thursday\" ; available_start_time = \"4:30 pm\" ; available_end_tim",
+    "ive found 3 empty slots on your calendar next thursday, one being from 4:30 pm to midnight.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar next thursday, one being from 4:30 pm to midnight."
   ],
   [
-    " & you have a viewing at Villa Fontana apartments next Thursday at 6:15 pm at 50 east market street.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled for next thursday at 6:15 pm that are not on your calendar. you'd like to add a viewing at villa fontana apartments which is going to start at 5:30 pm.",
+    "ive found 3 events which are scheduled for next thursday at 6:15 pm in 50 eastern market street. you have found a viewing at villa fontana apartments which will start at 6:15 pm.",
+    "ive found 2 events scheduled on that date on calendar. you have found a viewing at villa fontana apartments which begins at 5:15 pm on next thursday.",
+    "ive found 3 events scheduled for you on next thursday. you want to see at villa fontana apartments which is going to start at 6:15 pm.",
+    "ive found 2 events scheduled that day at 6:15 pm on your calendar. for march 1st you have viewing at villa fontana apartments which is for a 10 pm startinform_count ( count = \"2\") & ive found 2 events scheduled that day at 6:15 p"
   ],
   [
-    " & you have an empty slot from 11 am to 8:30 pm next Monday.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on the calender for next monday from 11 am to 8:30 pm.",
+    "ive found 2 empty slots on your calendar next monday, one of which is from 11 am to 8:30 pm.",
+    "ive found 2 empty slots on your calendar next monday that you want to schedule, starting at 11 am and ending at 8:30 pm.",
+    "ive found 3 empty slots on your calendar for next monday. you don't need to be called that many; it just goes from 11 am to 8:30 pm.",
+    "ive found 4 empty slots on your calendar for next monday, from 11 am to 8:30 pm."
   ],
   [
-    " & you have a stylist appointment at Kinder cuts kids hair salon next Monday at 11:30 am at 960 Blossom hill road.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events on calendar-includes stylist appointment at kinder cuts kids hair salon next monday at 11:30 am.",
+    "irm ( event_time = \"1:30 pm\") & irm ( event_date = \"next monday\") & irm ( event_location = \"960 blossom hill road\" ; event_time = \"11:30 am\") & irm ( event_time = ",
+    "ive found 3 events on calendar-includes stylist appointment at kinder cuts kids hair salon which is scheduled to start at 11:30 am on next monday",
+    "ive found 3 events on calendar-includes stylist appointment at kinder cuts kids hair salon which is scheduled for next monday at 11:30 am in 960 blossom hill road",
+    "ive found 3 events on calendar-includes stylist appointment at kinder cuts kids hair salon next monday at 11:30 am."
   ],
   [
-    " & you have an empty slot from 11:30 am to 3 pm next thursday.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar next thursday, from 11:30 am to 3 pm.",
+    "ive found 3 empty slots on your calendar next thursday for 1 empty slot in your diary from 11:30 am to 3 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar next thursday for 1 empty slot in your diary from 11",
+    "ive found 3 empty slots in your calendar from 11:30 am to 3 pm that next thursday.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar from 11:30 am to 3 pm that next thursday.",
+    "ive found 3 empty slots on your calendar for next thursday. you have empty slots from 11:30 am to 3 pm.",
+    "ive found 3 empty slots on your calendar next thursday. one is from 11:30 am to 3 pm."
   ],
   [
-    " & you have an empty slot from 12:30 pm to 1 pm on march 10th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for march 10th starting at 12:30 pm and ending 1 pm.",
+    "ive found 3 empty slots on your calendar on march 10th. you don't have anything between 12:30 pm to 1 pm.",
+    "ive found 3 empty slots on your calendar on march 10th. one is from 12:30 pm to 1 pm.",
+    "ive found 4 empty slots on your calendar for march 10th, starting at 12:30 pm and ending at 1 pm.",
+    "ive found 3 empty slots on your calendar from 12:30 pm to 1 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 12:30 pm to 1 pm."
   ],
   [
-    " & please confirm the following details: you would like to book an appointment with Roxanne C. Fiscella, m.d. at 2500 milvia street on march 10th at 12:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( event_date = \"march 10th\" ; event_location = \"2500 milvia street\" ; event_time = \"12:30 pm\") & please confirm: confirm the name is general practitioner appointment with roxanne c. fiscella, m.d",
+    "ive found 3 events on calendar: general practitioner appointment with roxanne c. fiscella, m.d. at 12:30 pm. is that correct?",
+    "ive found 3 events on calendar-includes general practitioner appointment with roxanne c. fiscella, m.d. on march 10th located at 2500 milvia street.",
+    "ive found 3 events on march 10th located at 2500 milvia street. is that correct?",
+    "ive found 2 events scheduled on march 10th at 2500 milvia street. the event will begin at 12:30 pm and the appointment is for general practitioner appointment with roxanne c. fiscella, m.d. at 12:30 pm.inform_count ( count "
   ],
   [
-    " & you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 11:30 am.",
+    "ive found 4 empty slots on your calendar from 8 am to 11:30 am.",
+    "ive found 3 empty slots from 8 am to 11:30 am on the calendar.inform_count ( count = \"3\") & ive found 3 empty slots from 8 am to 11:30 am on the calendar.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 11:30 am.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 11:30 am."
   ],
   [
-    " & you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 8 am - 11:30 am.",
+    "ive found 3 empty slots on your calendar for march 1st. the nearest one is 8 am to 11:30 am.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for march 1st. the nearest one is 8 am to 11:3",
+    "ive found 3 empty slots in your calendar from 8 am - 11:30 am.",
+    "ive found 3 empty slots in your calendar from 8 am to 11:30 am that day.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar from 8 am to 11:30 am that day.",
+    "ive found 3 empty slots on your calendar from 8 am to 11:30 am.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 11:30 am."
   ],
   [
-    " & you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty time slots on your calendar. you don't have anything between 8 am and 11:30 am.inform_count ( count = \"3\") & ive found 3 empty time slots on your calendar. you don't have anything between 8 am and 11:30 am",
+    "ive found 3 empty slots on your calendar from 8 am to 11:30 am.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 11:30 am.",
+    "ive found 2 empty slots on your calendar from 8 am to 11:30 am.inform_count ( count = \"2\") & ive found 2 empty slots on your calendar from 8 am to 11:30 am.",
+    "ive found 3 empty slots in your calendar from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar from 8 am to 11:30 am."
   ],
   [
-    " & you have 2 empty slots from 2 pm to 6:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 4 empty slots on your calendar. one is from 2 pm to 6:30 pm.",
+    "ive found 2 empty spots on your calendar from 2 pm to 6:30 pm.",
+    "ive found 2 empty slots on your calendar for march 1st and march 2nd. you're free from 2 pm to 6:30 pm.",
+    "ive found 4 empty slots on your calendar for 2 pm to 6:30 pm.",
+    "ive found 3 empty slots on your calendar for 1 pm to 6:30 pm."
   ],
   [
-    " & you have 2 empty slots from 2 pm to 6:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 empty slots from 2 pm to 6:30 pm.",
+    "ive found 3 empty slots on your calendar for 2 pm - 6:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you're free from 2 pm to 6:30 pm.",
+    "ive found 3 empty slots in your calendar for the 14th. you don't have anything between 2 pm and 6:30 pm.",
+    "ive found 3 empty slots on your calendar from 2 pm to 6:30 pm."
   ],
   [
-    " & you have 2 empty slots from 2 pm to 6:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 4 empty spots on your calendar for the 14th. you don't have any, from 2 pm to 6:30 pm.",
+    "ive found 3 empty slots on your calendar from 2 pm to 6:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 2 pm to 6:30 pm.",
+    "ive found 3 empty slots on your calendar from 2 pm through 6:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 2 pm through 6:30 pm.",
+    "ive found 3 empty time slots on your calendar for 2 pm to 6:30 pm.",
+    "ive found 2 empty slots on the calender from 2 pm to 6:30 pm."
   ],
   [
-    " & you have a 2 pm appointment at 10095 saich way #2 on march 12th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 events scheduled for march 12th at 10095 saich way #2 located at 900 pm.",
+    "ive found 3 events you want to add to your calendar on march 12th, including hairdresser appointment for march 12th at 10095 saich way #2. is that correct?",
+    "ive found 3 events on march 12th that are scheduled for you. the hairdresser appointment at 10095 saich way #2 on march 12th at 2 pm.",
+    "ive found 3 events on calendar-includes hairdresser appointment which is booked on march 12th at 10095 saich way #2 in 2 pm. is that correct?",
+    "irm ( event_location = \"10095 saich way #2 pm\") & irm ( event_time = \"4 pm\") & please confirm the details: hairdresser appointment for march 12th at 10095 saich way #2 @ 200 pm"
   ],
   [
-    " & you have an empty slot from 8 pm to midnight next Thursday.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar next thursday from 8 pm to midnight.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar next thursday from 8 pm to midnight.",
+    "ive found 3 empty slots on your calendar for next thursday, from 8 pm to midnight.",
+    "ive found 3 empty slots on your calendar next thursday. you're free from 8 pm to midnight.",
+    "ive found 3 empty slots on your calendar for next thursday from 8 pm to midnight.",
+    "ive found 3 empty slots in your calendar from 8 pm to midnight for next thursday."
   ],
   [
-    " & you have a gym next Thursday at 9:15 pm at Community gym.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled for next thursday at 9:15 pm in the community gym. is that correct?",
+    "ive found 3 empty slots on your calendar for next thursday that are going to start at 9:15 pm, and you want something that looks like this: a community gym located at 9:15 pm.inform_count ( count = \"3\") & ive found 3 empty slots o",
+    "ive found 3 events on calendar-includes gym for 9:15 pm to 9:15 pm on next thursday and you're also free from 9:15 pm to 9:15 pm.",
+    "ive found 3 events scheduled for next thursday at 9:15 pm in the community gym. the address is 9:15 pm.",
+    "ive found 4 events on calendar-includes gym at 9:15 pm that day."
   ],
   [
-    " & you have an empty slot from 6:30 pm to 7 pm on next Monday.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 6:30 pm to 7 pm for next monday.",
+    "ive found 3 empty slots in your calendar for next monday that are going to start at 6:30 pm and ends at 7 pm",
+    "ive found 3 empty slots in your calendar from 6:30 pm to 7 pm that day.",
+    "ive found 3 empty slots on your calendar next monday. you have an empty slot from 6:30 pm to 7 pm.",
+    "ive found 3 empty slots on your calendar next monday. you have an empty slot from 6:30 pm to 7 pm."
   ],
   [
-    " & you have a scheduled apartment viewing at 6:45 pm next Monday at 3455 homestead road.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( event_name = \"property viewing\" ; event_time = \"10 pm\") & irm ( event_date = \"next monday\") & irm ( event_location = \"3455 homestead road\" ; event_time = \"6:45 pm\") &",
+    "ive found 3 events on calendar-includes apartment viewing that is scheduled for next monday.",
+    "ive found 3 events on calendar-includes apartment viewing which starts at 6:45 pm.inform_count ( count = \"3\") & ive found 3 events on calendar-includes apartment viewing which starts at 6:45 pm.",
+    "ive found 3 events scheduled on calendar-includes apartment viewing which begins at 6:45 pm.inform_count ( count = \"3\") & ive found 3 events scheduled on calendar-includes apartment viewing which begins at 6:45 pm.",
+    "ive found 3 events on calendar-includes the apartment viewing event on next monday at 3455 homestead road located at 6:45 pm."
   ],
   [
-    " & tomorrow you have an empty slot from 8 am to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar tomorrow starting at 8 am and ending at 12 pm.",
+    "ive found 4 empty slots in your calendar for that day to midnight.",
+    "ive found 3 empty slots on your calendar tomorrow from 8 am to 12 pm that are for atomorrow.",
+    "ive found 3 empty slots in your calendar from 8 am to 12 pm that day.",
+    "ive found 3 empty slots on your calendar for tomorrow starting at 8 am and ending at 12 pm."
   ],
   [
-    " & you have an empty slot from 9 pm to 10:30 pm on march 13th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar for march 13th and march 13th. you have empty time slots from 9 pm - 10:30 pm.",
+    "ive found 4 empty slots in march 13th from 9 pm to 10:30 pm.",
+    "ive found 3 empty slots on your calendar for march 13th from 9 pm to 10:30 pm.",
+    "ive found 3 empty slots on march 13th from 9 pm to 10:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on march 13th from 9 pm to 10:30 pm.",
+    "ive found 1 empty slot on your calendar for march 13th from 9 pm to 10:30 pm."
   ],
   [
-    " & you have a bedtime at home on march 13th at 9:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled for march 13th at 9:30 pm.",
+    "ive found 3 events which i see to have been scheduled on march 13th at 9:30 pm in your home for march 13th, which is exactly how I found the event.inform_count ( count = \"3\") & ive found 3 events which i see to have been schedule",
+    "ive found 3 events which i see to have been scheduled on march 13th at 9:30 pm.",
+    "ive found 3 events which i've found to add an event titled bingo at 9:30 pm on march 13th. the name is going to start at 9:30 pm and the time of the event is marillionaire hotel.",
+    "ive found 3 events you want me to add to your schedule to keep up with on march 13th. it's a long one that starts at 9:30 pm. until 9:30 pm. is that correct?"
   ],
   [
-    " & you have an empty slot from 7 pm to 10:30 pm on march 10th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for march 10th. you don't have anything between 7 pm and 10:30 pm on march 10th.",
+    "ive found 3 empty slots on march 10th from 7 pm to 10:30 pm.",
+    "ive found 4 empty slots on your calendar on march 10th. one of which is from 7 pm to 10:30 pm.",
+    "ive found 3 empty slots on your calendar for march 10th from 7 pm - 10:30 pm.",
+    "ive found 3 empty slots on your calendar for march 10th from 7 pm to 10:30 pm."
   ],
   [
-    " & you have an empty slot from 11 am to 6:30 pm on next Monday.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for next monday starting at 11 am and ending at 6:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for next monday starting at 11 am and ending at 6:30 pm",
+    "ive found 3 empty slots on your calendar for next monday. one is from 11 am to 6:30 pm.",
+    "ive found 3 empty slots on your calendar for next monday, from 11 am to 6:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for next monday, from 11 am to 6:30 pm.",
+    "ive found 3 empty slots on your calendar next monday that start at 11 am and end at 6:30 pm.",
+    "ive found 3 empty slots on your calendar next monday. one is from 11 am to 6:30 pm."
   ],
   [
-    " & you have a dentist appointment scheduled for next Monday at 11:15 am at 128 el cerrito plz.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled on calendar-includes dentist appointment which is going to start at 11:15 am on next monday",
+    "ive found 2 events scheduled on the calendar for that date on next monday. you want to add an event dentist appointment to your calendar for that time of day that starts at 11:15 am.",
+    "ive found 3 events scheduled to be scheduled on your calendar next monday that are going to start at 128 el cerrito plz. for that date on that date on that date you want to add a dentist appointment that is going to start at 11:15 am on that is going to start a",
+    "ive found 2 events scheduled on next monday which are dentist appointment which are going to start at 11:15 am in 12 el cerrito plz located at 128 el cerrito plz.",
+    "ive found a dentist appointment for 11:15 am on the 10th. is that correct?"
   ],
   [
-    " & you have an empty slot from 8 am to 1 pm on march 13th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 8 am to 1 pm that day.",
+    "ive found 2 empty slots on your calendar for march 13th. you don't have anything between 8 am and 1 pm.",
+    "ive found 3 empty slot on your calendar for march 13th. you don't have anything between 8 am and 1 pm.",
+    "ive found 2 empty slots on your calendar for march 13th from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar on march 13th. they're for march 13th from 8 am to 1 pm."
   ],
   [
-    " & the day after tomorrow you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar on the 14th. you don't have anything between 8 am and 11:30 am.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 11:30 am.",
+    "ive found 3 empty slots on your calendar for that day. one of which is from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar on that day as well. you have an empty slot from 8 am to 11:30 am.",
+    "ive found 3 empty slots in your calendar on march 9th and day after tomorrow from 8 am to 11:30 am."
   ],
   [
-    " & you have an appointment at the dreadlocks salon at 341 7th street at 8:45 am the day after tomorrow.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled that day after tomorrow that you want to add an appointment at the dreadlocks salon. it's the name of the appointment you want to add on that day and you want to schedule on march 3rd. it's the name of appointment you want to add on that day an",
+    "ive found 3 events you want to add to the calendar, including an appointment at the dreadlocks salon on march 9th. the address is 339 7th street in idina for 8:45 am.",
+    "ive found 3 events on calendar-includes an appointment at the dreadlocks salon on that date. the address is 339 7th street and it is noon on your calendar.",
+    "ive found 3 events scheduled on that day, one of which is an appointment at the dreadlocks salon. is that correct?",
+    "ive found 1 events on calendar-includes an appointment at the dreadlocks salon which is booked for a day after tomorrow at 8:45 am on the west coast of america"
   ],
   [
-    " & you have 1 empty slot from 8 am to 1 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14th. you have an empty slot from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar from 8 am - 1 pm.",
+    "ive found 3 empty slots on your calendar and time of empty slots from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. the nearest one is 8 am to 1 pminform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 14th. the nearest one is 8 am to 1 pminform_coun"
   ],
   [
-    " & you have 2 empty slots from 2:30 pm to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar for 2:30 pm to 12 pm.",
+    "ive found 3 empty time slots on your calendar for 2:30 pm to 12 pm.inform_count ( count = \"3\") & ive found 3 empty time slots on your calendar for 2:30 pm to 12 pm.",
+    "ive found 2 empty slots in your calendar from 2:30 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar for 2:30 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar from 2:30 pm to 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 2:30 pm to 12 pm."
   ],
   [
-    " & you have an empty slot from 4 pm to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar. you're free from 4 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar from 4 pm to 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 4 pm to 12 pm.",
+    "ive found 3 empty slots in your calendar from 4 pm to 12 pm.",
+    "ive found 3 empty slots in your calendar from 4 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar for 4 pm to 12 pm."
   ],
   [
-    " & you have a football game: golden bears vs trojans next Monday at 5:30 pm at 2227 piedmont avenue.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 events scheduled on the calendar: football game: golden bears vs trojans that will begin at 5:30 pm.inform_count ( count = \"2\") & ive found 2 events scheduled on the calendar: football game: golden bears vs trojans that will begi",
+    "ive found 3 events on calendar-includes football game: golden bears vs trojans at 2227 piedmont avenue on next monday at 5:30 pm.",
+    "ive found 3 events scheduled for next monday at 5:30 pm on your calendar, which is a sports game: golden bears vs trojans that is going to begin at 2227 piedmont avenue.",
+    "ive found 3 events scheduled on calendar-includes football game: golden bears vs trojans at 2227 piedmont avenue on next monday at 5:30 pm.",
+    "ive found 3 events scheduled for next monday on your calendar. you have found a football game: golden bears vs trojans that starts at 5:30 pm."
   ],
   [
-    " & the day after tomorrow you have an empty slot from 3:30 pm to 7 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for that day on march 3rd. you've found an empty slot from 3:30 pm to 7 pm on march 3rd.",
+    "ive found 4 empty slots in your calendar for march 1st to march 2nd for march 4th. the nearest one is 3:30 pm to 7 pm.",
+    "ive found 3 empty slots on your calendar for march 1st and march 2nd. you don't have anything between 3:30 pm and 7 pm.",
+    "ive found 3 empty slots on your calendar tomorrow starting at 3:30 pm to 7 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. you don't have anything between 3:30 pm and 7 pm."
   ],
   [
-    " & you have an empty slot from 8:30 pm to midnight next Monday.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 open slots on your calendar for next monday. the nearest one is 8:30 pm to midnight.",
+    "ive found 3 empty slots on your calendar next monday that start at 8:30 pm and end at midnight.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar next monday that start at 8:30 pm and end at midnight.",
+    "ive found 3 empty slots in your calendar for next monday from 8:30 pm to midnight.",
+    "ive found 3 empty slots on your calendar for next monday. one is from 8:30 pm to midnight.",
+    "ive found 3 empty slots on your calendar for next monday starting at 8:30 pm to midnight."
   ],
   [
-    " & you have a laundry event next Monday at 9:45 pm at laundry room.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( event_date = \"next monday\" ; event_location = \"laundry room\" ; event_time = \"9:45 pm\") & irm ( event_date = \"next monday\" ; event_time = \"9:45 pm\") & ir",
+    "ive found 2 events scheduled on that date on calendar. you also have found 2 events scheduled on that date on that calendar. you also have found 2 events scheduled on that date on that date on that calendar. you also have found 2 events scheduled on that date on that date on that calendar. yo",
+    "ive found 3 events scheduled for next monday on your calendar. you want to schedule the laundry room on march 9th at 9:45 pm.",
+    "ive found 3 events on calendar-includes the laundry room at 9:45 pm.",
+    "ive found 3 scheduled events on calendar-includes the laundry room which begins at 9:45 pm and ends at 9:45 pm. is that correct?"
   ],
   [
-    " & you have an empty slot from 8 am to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am through 12 pm that day.",
+    "ive found 3 empty slots on your calendar for the 14th. you have an empty slot from 8 am to 12 pm.",
+    "ive found 3 empty time slots on your calendar from 8 am to 12 pm.",
+    "ive found 3 empty slots in your calendar for that date on your calendar. you also find 3 empty slots in your calendar for that time on your calendar. you also find 3 empty slots in your calendar for that time on your calendar. you also find 3 empty slots in your calendar for that time o",
+    "ive found 2 empty slots on your calendar for march 1st. you don't have anything between 8 am and 12 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar from 8 am through 12 pm.",
+    "ive found 4 empty slots on your calendar from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 12 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 12 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 12 pm that day.",
+    "ive found 3 empty slots on your calendar for the 10 am to 12 pm start.",
+    "ive found 3 empty slots on your calendar for march 1st and march 2nd. you have empty slots from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar. one slot is from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 12 pm."
   ],
   [
-    " & you have 2 empty slots from 2 pm to 2:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for 2 pm and 2:30 pm.",
+    "ive found 3 empty slots on your calendar for 2 pm to 2:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 2 pm to 2:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you have an empty slot from 2 pm to 2:30 pm.",
+    "ive found 2 empty slots on your calendar for that day as well.",
+    "ive found 3 empty slots in you calendar for march 3rd from 2 pm to 2:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots in you calendar for march 3rd from 2 pm to 2:30 pm."
   ],
   [
-    " & you have 2 empty slots from 2 pm to 2:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 2 pm to 2:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar from 2 pm to 2:30 pm.",
+    "ive found 3 empty slots in your calendar from 2 pm to 2:30 pm.",
+    "ive found 3 empty slots on your calendar from 2 pm to 2:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 2 pm to 2:30 pm.",
+    "ive found 3 empty slots in your calendar from 2 pm to 2:30 pm that day.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar from 2 pm to 2:30 pm that day.",
+    "ive found 3 empty slots on your calendar for 2 pm to 2:30 pm."
   ],
   [
-    " & you have 2 empty slots from 2 pm to 2:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 2 pm to 2:30 pm that day.",
+    "ive found 3 empty slots on your calendar from 2 pm to 2:30 pm.",
+    "ive found 3 empty slots on your calendar from 2 pm to 2:30 pm that day.",
+    "ive found 3 empty slots on calender. the nearest one is 2 pm to 2:30 pm.",
+    "ive found 3 empty slots on your calendar for that time of day. you don't have anything between 2 pm and 2:30 pm."
   ],
   [
-    " & you have an empty slot from 3:30 pm to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 3:30 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. you do have 3 empty slots on your calendar for march 3rd, one of them is from 3:30 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. you don't have anything between 3:30 pm and 5 pm.",
+    "ive found 3 empty time slots on your calendar from 3:30 pm to 5 pm.",
+    "ive found 3 empty slots on the calender. you also have an empty slot from 3:30 pm to 5 pm.inform_count ( count = \"3\") & ive found 3 empty slots on the calender. you also have an empty slot from 3:30 pm to "
   ],
   [
-    " & you have a property viewing scheduled on march 14th at 11:30 am at 49 gold mine drive.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events on calendar-includes property viewing which starts at 11:30 am on march 14th. the event starts at 49 gold mine drive and ends at 11:30 am.",
+    "ive found 2 events on march 14th located at 49 gold mine drive and time of 11:30 am on march 14th.",
+    "ive found 2 events scheduled for march 14th in your schedule for march 14th. you want to add an event titled property viewing at 49 gold mine drive on march 14th at 11:30 am to your calendar?",
+    "ive found 3 events on calendar-includes property viewing which is scheduled for march 14th at 9:30 am.inform_count ( count = \"3\") & ive found 3 events on calendar-includes property viewing which is scheduled for march 14th at 9:30 am.",
+    "ive found 2 events on calendar maintenance on march 14th. for march 14th, you have a property viewing at 49 gold mine drive for 11:30 am."
   ],
   [
-    " & you have an empty slot from 8 am to 2:30 pm on march 12th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar on march 12th and march 12th for march 12th. you don't have anything between 8 am and 2:30 pm.",
+    "ive found 3 empty slots on your calendar this day, one starting at 8 am and ends at 2:30 pm.",
+    "ive found 3 empty slots on your calendar on march 12th. you don't have anything between 8 am and 2:30 pm.",
+    "ive found 4 empty slots in your calendar from 8 am to 2:30 pm.",
+    "ive found 3 empty slots on the calendar for march 12th and march 12th. you're free between 8 am and 2:30 pm."
   ],
   [
-    " & please confirm the following details: you want to book an appointment with general practitioner appointment on march 12th at 9:30 am at 31 panoramic way #201.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events which are scheduled on march 12th and march 12th for you. you also have an appointment with name as general practitioner appointment which is scheduled on march 12th and march 12th for you.inform_count ( count = \"3\") & i found 3 events which ar",
+    "ive found 3 events scheduled on march 12th that do not match your schedule. the nearest you have for march 12th is 201 at 9:30 am.",
+    "ive found 3 events on march 12th at 31 panoramic way #201 in your calendar for march 12th. is that correct?",
+    "ive found 3 events on march 12th that are scheduled on that day. you have a general practitioner appointment at 31 panoramic way at 9:30 am.",
+    "ive found 3 scheduled events on march 12th at 9:30 am that are free from 29 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you have an empty slot from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar and time of empty slots from 8 am to 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar and time of empty slots from 8 am to 12 pm."
   ],
   [
-    " & you have 1 empty slot from 1:30 pm to 4 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar to add a slot from 1:30 pm to 4 pm.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar to add a slot from 1:30 pm to 4 pm.",
+    "ive found 4 empty slots on your calendar from 1:30 pm to 4 pm.",
+    "ive found 3 empty slots in your calendar from 1:30 pm to 4 pm.",
+    "ive found 3 empty slots on your calendar from 1:30 pm to 4 pm.",
+    "ive found 3 empty slots on your calendar from 1:30 pm to 4 pm."
   ],
   [
-    " & you have 1 empty slot from 1 pm to 3 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for 1 pm to 3 pm.",
+    "ive found 3 open slots on your calendar for the 14th. you don't have anything between 1 pm and 3 pm.inform_count ( count = \"3\") & ive found 3 open slots on your calendar for the 14th. you don't have anything between 1 pm and ",
+    "ive found 3 empty slots on your calendar for the 14th. you're free from 1 pm to 3 pm.",
+    "ive found 3 empty time slots on your calendar for 1 pm to 3 pm.inform_count ( count = \"3\") & ive found 3 empty time slots on your calendar for 1 pm to 3 pm.",
+    "ive found 3 empty slots on your calendar and time of empty slots from 1 pm to 3 pm."
   ],
   [
-    " & you have a reservation for 3 people at Mexico Lindo next Thursday at 1 pm at 33306 alvarado-niles road.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled for you schedule on next thursday at 1 pm. the name is reservation for 3 people at mexico lindo and the date is on next thursday at 1 pm.",
+    "irm ( event_date = \"tomorrow\" ; event_location = \"33306 alvarado-niles road\" ; event_time = \"1 pm\") & irm ( event_date = \"tomorrow\" ; event_location = \"33306 alvarado-",
+    "ive found 3 events on calendar-includes the steak and the reservation for 3 people at mexico lindo on next thursday.",
+    "ive found 3 events scheduled that day on your calendar for the 15th. you want to schedule an event with the name as reservation for 3 people at mexico lindo starting at 1 pm.inform_count ( count = \"3\") & ive found 3 events scheduled that da",
+    "ive found 3 events scheduled on calendar-includes reservation for 3 people at mexico lindo for 1 pm - getting there is 3 events scheduled on calendar-includes reservation for 3 people at mexico lindo for 1 pm - getting there is 3 events scheduled on calendar-includes reservatio"
   ],
   [
-    " & you have an empty slot from 8 am to 2:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 empty slots on your calendar for march 1st and march 2nd. you're free from 8 am to 2:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you also find empty slots from 8 am to 2:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am - 2:30 pm.",
+    "ive found 3 empty slots in you calendar from 8 am to 2:30 pm.",
+    "ive found 4 empty slots on your calendar for the 14th. the nearest one is 8 am to 2:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 2:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 2:30 pm.",
+    "ive found 3 empty slots on your calendar for march 1st and march 2nd. you also have a empty slot from 8 am to 2:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 2:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 2:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 2:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 2:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 2:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 4 empty slots on your calendar for the 14th. you're available from 8 am to 2:30 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. you also have an empty slot from 8 am to 2:30 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. you don't have anything between 8 am and 2:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 2:30 pm.",
+    "ive found 3 empty slots from 8 am to 2:30 pm."
   ],
   [
-    " & you have an empty slot from 3 pm to 7 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 3 to 7 pm.",
+    "ive found 3 empty slots on your calendar from 3 pm - 7 pm.",
+    "ive found 3 empty slots on your calendar from 3 pm to 7 pm.",
+    "ive found 3 empty slots on your calendar from 3 pm to 7 pm.",
+    "ive found 3 empty slots on your calendar from 3 pm to 7 pm."
   ],
   [
-    " & you have 1 empty slot from 1 pm to 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for 1 pm to 1:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 1 pm to 1:30 pm.",
+    "ive found 3 empty slots from 1 pm to 1:30 pm.",
+    "ive found 3 empty slots on your calendar and time of empty slots from 1 pm to 1:30 pm.",
+    "ive found 3 empty slots in your calendar for march 1, 2, and 3.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar for march 1, 2, and 3.",
+    "ive found 3 empty slots in you calendar for march 1st, march 2nd, and march 3rd. you have empty slots from 1 pm to 1:30 pm."
   ],
   [
-    " & you have 1 empty slot from 1 pm to 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 1 pm to 1:30 pm.",
+    "ive found 3 empty slots on your calendar from 1 pm to 1:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. one slot is from 1 pm to 1:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 14th. one slot is from 1 pm to 1:3",
+    "ive found 4 empty slots in your calendar for march 1st and march 2nd. you don't have anything between 1 pm and 1:30 pm.",
+    "ive found 3 empty time slots on your calendar from 1 pm to 1:30 pm."
   ],
   [
-    " & you have 1 empty slot from 1 pm to 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 1 pm to 1:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 1 pm and 1:30 pm.",
+    "ive found 4 empty slots on your calendar for 1 pm to 1:30 pm.",
+    "ive found 3 empty slots on your calendar from 1 pm to 1:30 pm.",
+    "ive found 2 empty slots on your calendar for 1 pm and 2 pm.inform_count ( count = \"2\") & ive found 2 empty slots on your calendar for 1 pm and 2 pm."
   ],
   [
-    " & you have a scheduled appointment at 6:30 pm on march 14th at 1374 9th avenue.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events on calendar-includes hairdresser appointment on march 14th at 1374 9th avenue and it is scheduled for march 14th at 6:30 pm.",
+    "ive found 3 locations on your calendar for march 14th. you don't want to add that date to your calendar until after march 14th. it's a hairdresser appointment. it's a 7 pm startinform_count ( count = \"3\") & ive found 3 location",
+    "ive found 3 events which are scheduled for march 14th at 6:30 pm. the event is hairdresser appointment at 1374 9th avenue on march 14th located at 1374 9th avenue",
+    "ive found 3 events scheduled on march 14th at 6:30 pm in 1374 9th avenue.",
+    "ive found 3 events on calendar-includes the hairdresser appointment on march 14th at 6:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 5:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar for that day as well. you have an empty one from 8 am to 5:30 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 5:30 pm.",
+    "ive found 3 empty slots on your calendar for that date on this date on your calendar. you have an empty slot from 8 am to 5:30 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 5:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. the nearest one is 8 am to 5:30 pm."
   ],
   [
-    " & you have an empty slot from 7 pm to 7:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14 pm to 7:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you also have an empty slot from 7 pm to 7:30 pm.",
+    "ive found 3 empty spots on your calendar from 7 pm to 7:30 pm.",
+    "ive found 3 empty slots on your calendar for the 13th. you have an empty one from 7 pm to 7:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 13th. you have an empty one from 7 p",
+    "ive found 3 empty slots in your calendar from 7 pm to 7:30 pm."
   ],
   [
-    " & you have an empty slot from 4:30 pm to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 4:30 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar from 4:30 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar for 4:30 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar for 4:30 pm to 5 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 4:30 pm to 5 pm.",
+    "ive found 3 empty time slots on your calendar from 4:30 pm to 5 pm.inform_count ( count = \"3\") & ive found 3 empty time slots on your calendar from 4:30 pm to 5 pm."
   ],
   [
-    " & you have a reservation for alejandro sanz concert at 6:30 pm on march 14th at 5500 campanile drive.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events to add an event named elizabeth m.d.o. at 5500 campanile drive on march 14th. is that correct?",
+    "ive found 3 events scheduled that day on your calendar for march 14th and you want to add the elixir of success alejandro sanz concert to your calendar for march 14th schedule for march 14th. it is set for noon.",
+    "ive found 2 events on march 14th at 55500 campanile drive and it's been scheduled for march 14th at 6:30 pm.",
+    "ive found 2 events scheduled on march 14th that do not start at 550 campanile drive nor do they start at 6:30 pm.",
+    "ive found 2 events scheduled on march 14th at 5:30 pm. the event name is the orejandro sanz concert and the time of march 14th is at 5500 campanile drive."
   ],
   [
-    " & you have an empty slot from 8 am to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 empty slots on your calendar for the 14th. the nearest one is 8 am to 5 pm.",
+    "ive found 3 empty slots on your calendar for march 1st to march 2nd.",
+    "ive found 2 empty slots on your calendar for march 1st, next thursday and on march 2nd. you also have an empty slot from 8 am to 5 pm.",
+    "ive found 3 empty slots on your calendar for the 10 am to 5 pm period.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 10 am to 5 pm period.",
+    "ive found 4 empty slots on your calendar for the 14th, including the one that starts at 8 am and ends at 5 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for march 3rd. you also have a empty slot that goes from 8 am to 5 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you also have empty slots from 8 am to 5 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 5 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 5 pm.",
+    "ive found 3 empty slots on your calendar for march 1st. you don't have anything between 8 am and 5 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 5 pm.",
+    "ive found 3 empty slots in your calendar for march 1st, 2nd, and 3rd, from 8 am to 5 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 5 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 5 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am to ",
+    "ive found 3 empty slots on your calendar for the 14th. the nearest one is 8 am to 5 pm."
   ],
   [
-    " & you have 1 empty slot from 1:30 pm to 8 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 empty slots on your calendar for 1:30 pm to 8 pm.",
+    "ive found 3 empty slots in your calendar for 1:30 pm to 8 pm.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar for 1:30 pm to 8 pm.",
+    "ive found 3 empty slots on your calendar for 1:30 pm to 8 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 1:30 pm to 8 pm.",
+    "ive found 2 empty slots in your calendar for 1:30 pm to 8 pm.",
+    "ive found 3 empty slots in your calendar from 1:30 pm to 8 pm."
   ],
   [
-    " & you have an empty slot from 10 pm to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 10 pm to midnight on march 3rd.",
+    "ive found 3 empty slots on your calendar from 10 pm to 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 10 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar from 10 pm to 12 pm.",
+    "ive found 2 empty slots on your calendar from 10 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. the nearest one is 10 pm - 12 pm."
   ],
   [
-    " & you have a 2:30 pm appointment next Monday at 801 Welch road with ent specialist appointment.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 events scheduled next monday on your schedule. you want to schedule the nurse appointment with the name as the nurse appointment and the location as801 welch road at 2:30 pm.",
+    "ive found 3 events on calendar-includes dentist appointment which is scheduled to start at 2:30 pm on next monday.",
+    "ive found 3 events on calendar-includes dentist appointment which is scheduled for next monday at 1:30 pm.",
+    "ive found 3 events on calendar-includes dentist appointment which is booked for a 1 pm start",
+    "ive found 3 events scheduled on calendar-includes dentist appointment which is booked for next monday. ive found 3 events scheduled on calendar-includes dentist appointment which is booked for next monday."
   ],
   [
-    " & you have an empty slot from 8 am to 7:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 8 am to 7:30 pm for 3 empty slots.",
+    "ive found 3 empty slots on your calendar for that date on march 3rd. you also have a empty slot from 8 am to 7:30 pm.",
+    "ive found 3 empty slots on your calendar for that time range. you don't have anything between 8 am and 7:30 pm.",
+    "ive found 4 empty slots on your calendar for the 14th. you also have a empty slot from 8 am to 7:30 pm.",
+    "ive found 3 empty slots on your calendar. you have an empty slot from 8 am to 7:30 pm."
   ],
   [
-    " & you have a property viewing at 100 summerfield drive on march 14th at 3:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events on calendar-includes the property viewing for march 14th located at 100 summerfield drive on march 14th. is that correct?",
+    "ive found 2 scheduled events with an event name property viewing starting at 3:30 pm on march 14th. the event is property viewing at 100 summerfield drive which is going to start at 3:30 pm.",
+    "ive found 3 events scheduled on march 14th at 100 summerfield drive which will start at 3:30 pm.inform_count ( count = \"3\") & ive found 3 events scheduled on march 14th at 100 summerfield drive which will start at 3:30 pm.",
+    "ive found 3 events scheduled for march 13th at 100 summerfield drive and it is possible to schedule the event. you have found 2 events scheduled for march 13th at 100 summerfield drive and it is possible to schedule the event. you have found 2 events scheduled for march 13th at 100 summe",
+    "ive found 3 events scheduled on march 14th at 100 summerfield drive in which you would like to add an event with name as property viewing to your calendar on march 14th. is that correct?"
   ],
   [
-    " & you have 1 empty slot from 8 am to 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14th. the nearest one is 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you also have an empty slot from 8 am to 1:30 pm.",
+    "ive found 4 empty slots in your calendar from 8 am to 1:30 pm.",
+    "ive found 2 empty time slots on your calendar. one of which is from 8 am to 1:30 pm."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 1:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar. you also have an empty slot from 8 am to 1:30 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 1:30 pm.",
+    "ive found 3 empty slots in your calendar for the 14th. you don't have anything between 8 am and 1:30 pm."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty time slots on your calendar for that day as well. one slot is from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. one being from 8 am to 1:30 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 1:30 pm."
   ],
   [
-    " & you have 1 empty slot from 1 pm to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 empty slots on your calendar from 1 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar, one from 1 pm - 5 pm.",
+    "ive found 2 empty slots on your calendar for 1 pm and 5 pm.",
+    "ive found 3 empty slots in your calendar from 1 pm to 5 pm.",
+    "ive found 3 empty slots in your calendar from 1 pm to 5 pm."
   ],
   [
-    " & you have 1 empty slot from 1 pm to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for 1 pm - 5 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 1 pm - 5 pm.",
+    "ive found 3 empty slots on your calendar for 1 pm - 5 pm.",
+    "ive found 3 empty slots in your calendar for the 14th. you don't have anything between 1 pm and 5 pm.",
+    "ive found 3 empty slots in your calendar from 1 pm to 5 pm.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar from 1 pm to 5 pm.",
+    "ive found 3 empty time slots on your calendar for 1 pm, 5 pm and 5 pm to your calendar for 1:30 pm."
   ],
   [
-    " & you have 1 empty slot from 1 pm to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for 2 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar from 1 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar from 1 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. the nearest one is from 1 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar and time range 1 pm - 5 pm."
   ],
   [
-    " & you have a movie at THE LOT city center next Thursday at 7 pm at 6000 Bollinger canyon road suite 2300.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events on calendar-includes movie at the lot city center which is going to begin at 7 pm.",
+    "ive found 3 events on calendar-includes movie at the lot city center for 7 pm.",
+    "ive found 2 events scheduled on the calendar for you. a movie at the lot city center at 7 pm.inform_count ( count = \"2\") & ive found 2 events scheduled on the calendar for you. a movie at the lot city center at 7 pm.",
+    "ive found 3 events scheduled for you for next thursday. movie at the lot city center at 7 pm. is that correct?",
+    "ive found 3 events to add on your calendar for next thursday that you want to add to your calendar for next thursday, located at 6000 bollinger canyon road suite 2300."
   ],
   [
-    " & you have an empty slot from 8 am to 4:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 4 empty slots in your calendar for march 4th from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. it looks like you've found 3 empty slots on your calendar for the 14th. it looks like you've found 3 empty slots on your calendar for the 14th. it looks like you've found 3 empty slots on your calendar fo",
+    "ive found 4 empty slots on your calendar for the 14th. it looks like you've found 4 empty slots on your calendar for the 14th. it looks like you've found 4 empty slots on your calendar for the 14th. it looks like you've found 4 empty slots on your calendar fo",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 4:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 4:30 pm."
   ],
   [
-    " & you have an appointment at great clips next Monday at 6:30 pm at 4045 east Castro valley boulevard.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events on calendar am that will start at 6:30 pm and the appointment is scheduled for tomorrow. the appointment is scheduled for 4045 east castro valley boulevard and the appointment is scheduled for 4045 west castro valley boulevard.",
+    "ive found 3 events on calendar-includes an appointment at great clips and the appointment at 4045 east castro valley boulevard on next monday. the event is scheduled for next monday.",
+    "ive found 3 events scheduled on calendar-includes an appointment at great clips at 6:30 pm on next monday",
+    "ive found 1 events on calendar-includes an appointment at great clips for next monday which is booked for that location 4045 east castro valley boulevard.",
+    "ive found 3 events on calendar-includes an appointment at great clips at 6:30 pm on next monday."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 8 am to 1 pm.",
+    "ive found 2 empty slots on your calendar for the 14th. you have an empty slot from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 1 pm.",
+    "ive found 2 empty slots on your calendar from 8 am to 1 pm."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 1 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar. you don't have anything between 8 am and 1 pm.",
+    "ive found 4 empty slots on your calendar for the 14th. the nearest one is 8 am to 1 pm."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 empty slots on your calendar for the 14th. you don't have anything between 8 am and 1 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. the nearest one is 8 am to 1 pm.",
+    "ive found 3 empty slots in your calendar from 8 am - 1 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. it looks like you've found 3 empty slots on your calendar for the 14th. it looks like you've found 3 empty slots on your calendar for the 14th. it looks like you've found 3 empty slots on your calendar fo"
   ],
   [
-    " & you have 1 empty slot from 1:30 pm to 7 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty time slots on your calendar for 1:30 pm to 7 pm that day.",
+    "ive found 3 empty slots on your calendar from 1:30 pm to 7 pm for a 3rd.",
+    "ive found 3 empty slots in your calendar from 1:30 pm to 7 pm.",
+    "ive found 3 empty slots on your calendar for 1:30 pm and 7 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 1:30 pm and 7 pm.",
+    "ive found 3 empty slots on the calender and time of empty slots from 1:30 pm to 7 pm."
   ],
   [
-    " & you have a scheduled event at the struts concert on march 9th at 5 pm at 89 south street.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled for march 9th at 89 south street at 5 pm.",
+    "ive found 2 events scheduled on march 9th at 89 south street and it is the struts concert that is getting started at 5 pm.",
+    "ive found 3 events on march 9th at 89 south street on march 9th. is that correct?",
+    "ive found 3 events on calendar-includes the struts concert which starts at 5 pm on march 9th",
+    "ive found 3 events on calendar-includes the struts concert starting at 5 pm and ending at 89 south street on march 9th."
   ],
   [
-    " & you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14th. you also have an empty slot from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar, one from 8 am to 11:30 am.",
+    "ive found 3 open spots on your calendar, one of those spots is 8 am to 11:30 am."
   ],
   [
-    " & you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 4 empty slots on your calendar from 8 am to 11:30 am.",
+    "ive found 3 empty time slots on your calendar from 8 am to 11:30 am.",
+    "ive found 1 empty slot in your calendar from 8 am through 11:30 am for 1 empty time slot.",
+    "ive found 3 empty slots on your calendar for the 14th. you also have an empty slot from 8 am to 11:30 am.",
+    "ive found 4 empty slots in your calendar for the 13th. it looks like this one starts at 8 am and ends at 11:30 am."
   ],
   [
-    " & you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 11:30 am.",
+    "ive found 3 empty slots on your calendar for march 1st, march 2nd, and march 3rd. you have empty slots starting from 8 am to 11:30 am.",
+    "irm ( event_name is \"restaurant reservation for 2 at mcdonald's\" ; available_end_time = \"10:30 am\") & irm ( event_date = \"march 14th\" ; available_start_time = \"8 am\" ; available_en",
+    "ive found 3 empty slots on your calendar for march 8th to march 11th. you have an empty slot from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am to 11:30 am that day."
   ],
   [
-    " & you have 1 empty slot from 12 pm to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar. you don't have anything between 12 pm and 5 pm.",
+    "ive found 3 empty slots on your calendar for the 14 pm to 5 pm opening.",
+    "ive found 3 empty slots on your calendar. you don't have anything between 12 pm and 5 pm.",
+    "ive found 3 empty slots on your calendar. you don't have anything between 12 pm and 5 pm.",
+    "ive found 3 empty slots on your calendar and time range 12 pm to 5 pm."
   ],
   [
-    " & you have an empty slot from 8:30 pm to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar and time of empty slots from 8:30 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar from 8:30 pm - 12 pm.",
+    "ive found 3 empty slots on your calendar from 8:30 pm to 12 pm.",
+    "ive found 3 empty slots in your calendar for the 14th. you don't have anything between 8:30 pm and 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar for the 14th. you don't have anything between 8",
+    "ive found 3 empty slots on your calendar for march 3rd and march 4th. you're available from 8:30 pm to 12 pm."
   ],
   [
-    " & you have an empty slot from 8:30 pm to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8:30 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar for march 9th, starting at 8:30 pm and ending at 12 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8:30 pm and 12 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. you also have a empty slot from 8:30 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. it looks like you've got nothing between 8 pm to 12 pm."
   ],
   [
-    " & you have an empty slot from 8:30 pm to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty time slots in your calendar from 8:30 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8:30 pm and 12 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8:30 pm and 12 pm.",
+    "ive found 3 empty slots on your calendar from 8:30 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar. you don't have anything between 8:30 pm and 12 pm."
   ],
   [
-    " & you have a viewing at apricot pit apartments on the day after tomorrow at 3:30 pm at 400 east remington drive.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( event_date = \"8 am to 10:30 pm\") & irm ( event_date = \"day after tomorrow\" ; event_location = \"400 west remington drive\") & irm ( event_time = \"3:30 pm\") & irm ( event",
+    "ive found 3 events scheduled to be scheduled on that day, including viewing at apricot pit apartments, which is going to begin at 3:30 pm.",
+    "ive found 3 events scheduled that day after tomorrow to have a viewing at apricot pit apartments located 400 east remington drive.",
+    "ive found 3 events scheduled for you on this date on the calendar. you also find a viewing at apricot pit apartments which will start at 3:30 pm.",
+    "ive found 2 events scheduled on your calendar for that day. you don't have anything between 3:30 pm and 3:30 pm."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar for the 14th. you also have an empty slot from 8 am to 1:30 pm.",
+    "ive found 2 empty slots from 8 am - 1:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you also have an empty slot from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar. one being from 8 am to 1:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar. one being from 8 am to 1:30 pm."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in you calendar for the 14th. you have an empty slot from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 1:30 pm.",
+    "ive found 3 empty slots on your calendar for the 10th. you don't have anything between 8 am and 1:30 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 1:30 pm."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for that date on march 1st. you have an empty slot from 8 am to 1:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 1:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 a",
+    "ive found 2 empty slots on your calendar for the 14th. you also have 3 empty slots on your calendar for the 14th.",
+    "ive found 4 empty slots in your calendar for the 14th. it looks like you've got nothing between 8 am and 1:30 pm.",
+    "ive found 2 empty slots on your calendar for march 1st and march 2nd. one is from 8 am to 1:30 pm."
   ],
   [
-    " & you have a reservation for 3 at Perch + Plow today at 6 pm at 90 old courthouse square.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled for that date on your calendar today. you want to add restaurant reservation for 3 at perch + plow for 6 pm.",
+    "ive found 3 events scheduled on your calendar today that have a restaurant reservation for 3 at perch + plow for 6 pm.",
+    "ive found 3 events scheduled for that day on your calendar. you want to add an event that starts at 5 pm and ends at 6 pm.",
+    "ive found 3 events scheduled for that day on your calendar. you want to add an event restaurant reservation for 3 at perch + plow to your calendar on march 9th, starting at 6 pm.",
+    "ive found 3 events scheduled on calendar-includes dentist reservation for 3 at perch + plow starting at 6 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 11 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar for the 14th. you have empty slots from 8 am to 11 am.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar for the 14th. you have empty slots from 8 am to 11 am",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 11 am.",
+    "ive found 3 empty slots on your calendar for the 14th. the nearest one is 8 am to 11 am.",
+    "ive found 3 empty slots in your calendar for next tuesday from 8 am to 11 am.",
+    "ive found 3 empty slots on your calendar for the 14th. you also find empty slots from 8 am to 11 am.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 14th. you also find empty slots from 8 am to 1"
   ],
   [
-    " & you have an empty slot from 8 am to 11 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 8 am to 11 am.",
+    "ive found 2 empty slots on your calendar from 8 am to 11 am.",
+    "ive found 3 empty slots on your calendar for the 12th. you don't have anything between 8 am and 11 am.",
+    "ive found 3 empty slots in your calendar from 8 am to 11 am that day.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 11 am.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 1"
   ],
   [
-    " & you have an empty slot from 8 am to 11 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 empty slots on the calender. you're free from 8 am to 11 am.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am to 11 am.",
+    "ive found 3 empty slots on your calendar from 8 am to 11 am.\n\ninform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 11 am.",
+    "ive found 3 empty slots on your calendar and time of empty slots from 8 am to 11 am.",
+    "ive found 3 empty slots on your calendar from 8 am to 11 am.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 11 am."
   ],
   [
-    " & you have 1 empty slot from 11:30 am to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for that date on march 13th. you don't have anything between 11:30 am and 5 pm.",
+    "ive found 3 empty slots on your calendar from 11:30 am to 5 pm.",
+    "ive found 3 empty slots in your calendar for the 11:30 am to 5 pm that is a familiar one.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar for the 11:30 am to 5 pm that is a familiar one.",
+    "ive found 3 empty slots in your calendar and time of empty one from 11:30 am to 5 pm.",
+    "ive found 3 empty slots in your calendar from 11:30 am to 5 pm."
   ],
   [
-    " & you have an empty slot from 4 pm to 10:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar and time of empty slots from 4 pm to 10:30 pm.",
+    "ive found 3 empty slots on your calendar for that time slot. you're also free from 4 pm to 10:30 pm on that date.",
+    "ive found 3 empty slots on your calendar from 4 pm - 10:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 4 pm - 10:30 pm.",
+    "ive found 4 empty slots on your calendar for march 4, starting at 4 pm to 10:30 pm.",
+    "ive found 2 empty slots on your calendar. you also have empty slots from 4 pm to 10:30 pm."
   ],
   [
-    " & you have a reservation for 5 people at Mayflower Seafood restaurant at 34348 alvarado-niles road on march 14th at 11 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled on march 14th that are going to start at 9 am and finish at 9:30 am.",
+    "ive found 3 events on calendar-includes reservation for 5 people at mayflower seafood restaurant on march 14th located at 34348 alvarado-niles road.",
+    "ive found 3 events on march 14th at 9 am on march 14th. for march 14th you want a reservation for 5 people at mayflower seafood restaurant starting at 11 am.",
+    "ive found 3 events which are scheduled for march 14th. you want to add an event which starts at 11 am to the family resemblance restaurant on march 14th. is that correct?",
+    "ive found 3 events scheduled on march 14th at 9 am in 34348 alvarado-niles road. the event is reservation for 5 people at mayflower seafood restaurant which is going to start at 11 am."
   ],
   [
-    " & you have an empty slot from 8 am to 12:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14th. you're free from 8 am to 12:30 pm.",
+    "ive found 2 empty slots on your calendar from 8 am until 12:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 12:30 pm.",
+    "ive found 3 empty slots in your calendar for the 14th. you also have an empty slot from 8 am to 12:30 pm that day.",
+    "ive found 3 empty slots on your calendar from 8 am to 12:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 12:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty time slots on your calendar for that date on march 1st. you have an empty time slot from 8 am to 12:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. it looks like you're free from 8 am to 12:30 pm.",
+    "ive found 3 empty slots on your calendar for 8 am to 12:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 8 am to 12:30 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. you also have an empty slot from 8 am to 12:30 pm.",
+    "ive found 3 empty slots on your calendar. you don't have anything between 8 am - 12:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar. you don't have anything between 8 am - 12:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 12:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 4 empty slots on your calendar from 8 am to 12:30 pm.",
+    "ive found 3 empty slots in your calendar for the 14th. you also have a slot from 8 am to 12:30 pm.",
+    "ive found an empty slot on your calendar for 8 am to 12:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you also have empty slots on your calendar for the 14th.",
+    "ive found 3 empty slots on your calendar from 8 to 12:30 pm."
   ],
   [
-    " & you have a scheduled appointment at 5 pm tomorrow at994 the alameda.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events on calendar-includes hairdresser appointment at 5 pm ontomorrow and found 3 events on calendar-includes hairdresser appointment at 9 pm ontomorrow and found 3 events on calendar-includes hairdresser appointment at 9 pm ontomorrow and found ",
+    "ive found 3 events scheduled on calendar-includes hairdresser appointment which is scheduled for tomorrow at 5 pm.",
+    "ive found 3 events scheduled on calendar-includes hairdresser appointment which is scheduled fortomorrow at 5 pm.",
+    "ive found 3 events on calendar-includes dentist appointment which is scheduled for tomorrow at 5 pm",
+    "ive found 3 events on calendar-includes hairdresser appointment at 499 the alameda at 5 pm ontomorrow at 5 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 7:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 8 am to 7:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 7:30 pm.",
+    "ive found 3 empty slots in your calendar for the 14th. you also find an empty slot that starts at 8 am and ends at 7:30 pm.",
+    "ive found 4 empty slots on your calendar from 8 am to 7:30 pm.",
+    "ive found 3 empty slots on your calendar for march 3 and march 4. one is from 8 am to 7:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 7:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slot on your calendar from 8 am to 7:30 pm.",
+    "ive found 3 empty time slots on your calendar. you have an empty one from 8 am to 7:30 pm that day.",
+    "ive found 3 empty slots on your calendar for that date on march 13th. you also have a empty slot from 8 am to 7:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 7:30 pm.",
+    "ive found 3 empty time slots on your calendar. you have an empty time slot from 8 am to 7:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 7:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 7:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 7:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 7:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 7:30 pm.",
+    "ive found 4 empty slot on your calendar for that date on march 1st. it's a long one from 8 am to 7:30 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 7:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar from 8 am to 7:30 pm."
   ],
   [
-    " & you have an empty slot from 3:30 pm to 9 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for 3:30 pm to 9 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 3:30 pm to 9 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. that time of empty slots from 3:30 pm to 9 pm.",
+    "ive found 3 empty slots on your calendar for 3:30 pm to 9 pm.",
+    "ive found 3 empty slots on your calendar. one is from 3:30 pm to 9 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar. one is from 3:30 pm to 9 pm.",
+    "ive found 3 empty slots in your calendar for march 3rd from 3:30 pm to 9 pm.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar for march 3rd from 3:30 pm to 9 pm."
   ],
   [
-    " & you have an empty slot from 3:30 pm to 9 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for march 3rd. you don't have anything between 3:30 pm and 9 pm.",
+    "ive found 3 empty slots on your calendar, from 3:30 pm to 9 pm that day.",
+    "ive found 3 empty slots in your calendar from 3:30 pm to 9 pm.",
+    "ive found 3 empty slots in your calendar from 3:30 pm to 9 pm.",
+    "ive found 3 empty slots on your calendar from 3:30 pm to 9 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 3:30 pm to 9 pm."
   ],
   [
-    " & you have an empty slot from 3:30 pm to 9 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for march 3rd. you don't have anything between 3:30 pm and 9 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. you're free from 3:30 pm to 9 pm.",
+    "ive found 3 empty slots on your calendar. you don't have anything between 3:30 pm and 9 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar. you don't have anything between 3:30 pm and 9 pm.",
+    "ive found 3 empty slots on your calendar for march 1st and march 2nd. the nearest is 3:30 pm to 9 pm.",
+    "ive found 3 empty slots on your calendar for that time of day. you have an empty slot from 3:30 pm to 9 pm"
   ],
   [
-    " & you have an appointment with dr. edward j. saub at 344 east hamilton avenue at 11 am on march 9th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled on march 9th to be a thursday. you also have a thursday doctor appointment with dr. edward j. saub starting at 9 am.",
+    "ive found 3 events on calendar-includes dentist appointment with dr. edward j. saub located at 344 east hamilton avenue",
+    "ive found 3 scheduled events on march 9th at 450 east hamilton avenue. the date of march 9th at 11 am. is that correct?",
+    "ive found 3 events on march 9th at 358 east hamilton avenue, located at 11 am.",
+    "ive found 3 events scheduled on march 9th that are not part of your schedule for march 9th. you have found an event that begins at 9 am and ends at 448 east hamilton avenue."
   ],
   [
-    " & you have an empty slot from 8 am to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 12 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 12 pm that day.",
+    "ive found 3 empty slots on your calendar. one being from 8 am to 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar. one being from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 12 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 12 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 12 pm."
   ],
   [
-    " & you have a Young the Giant concert at 200 south 3rd street at 7 pm on march 12th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled for march 12th located at 200 south 3rd street in your calendar. for march 12th, march 12th will start at 7 pm.",
+    "ive found 4 events scheduled on march 12th that are not on your calendar. you also have a young the giant concert at 200 south 3rd street on march 12th that is scheduled for march 12th at 7 pm.",
+    "ive found 2 events scheduled on march 12th that are not listed on your calendar. you have found 2 events scheduled on march 12th that are not listed on your calendar. you have found 2 events scheduled on march 12th that are not listed on your calendar. you have found 2 events scheduled o",
+    "ive found 3 events scheduled for march 12th at 200 south 3rd street. you want to confirm the event name as young the giant concert which is going to start at 7 pm on march 12th.",
+    "irm ( event_name = \"restaurant reservation for 10 at bistro\" ; event_time = \"7 pm\") & ok irm ( event_date = \"march 13th\" ; event_location = \"200 south 3rd street\" ; event_time = "
   ],
   [
-    " & you have an empty slot from 8 am to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 5 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 5 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 5 pm.",
+    "ive found 2 empty slots on your calendar. you also have an empty slot from 8 am to 5 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 5 pm.",
+    "ive found 3 empty time slots on your calendar for 8 am to 5 pm."
   ],
   [
-    " & you have a 3 pm apartment viewing at the enclave tomorrow at 4343 Renaissance drive.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled on calendar-includes the apartment viewing at the enclave for 3 pm - bringing the family to life!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "ive found 3 events scheduled on your calendar for tomorrow that are going to begin at 3 pm and will start at 3 pm.inform_count ( count = \"3\") & ive found 3 events scheduled on your calendar for tomorrow that are going to begin at 3 pm and will start at ",
+    "ive found 3 events on calendar-includes apartment viewing at the enclave for tomorrow.tomorrow at 3 pm.",
+    "ive found 3 events scheduled for you today. you also have apartment viewing at the enclave for 3 pm that will start at 3 pm.",
+    "ive found 3 events scheduled for you today, one of which is apartment viewing at the enclave which is scheduled to begin at 3 pm.inform_count ( count = \"3\") & ive found 3 events scheduled for you today, one of which is apartment viewing at the enclave which is schedule"
   ],
   [
-    " & you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 11:30 am.",
+    "ive found 3 empty slots in your calender from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar. you don't have anything between 8 am and 11:30 am.",
+    "ive found 3 empty slots on your calendar for the 14th. that's it. you have an empty slot from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar from 8 am through 11:30 am."
   ],
   [
-    " & you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for march 3rd, from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar, one starting at 8 am to 11:30 am.",
+    "ive found 4 empty slots on your calendar for the 14th. you're free from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar. you don't have anything between 8 am and 11:30 am.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar. you don't have anything between 8 am and 11:30 am.",
+    "ive found 3 empty slots in your calendar from 8 am to 11:30 am."
   ],
   [
-    " & you have an empty slot from 8 am to 11:30 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots at 8 am to 11:30 am.inform_count ( count = \"3\") & ive found 3 empty slots at 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar for the 10 am to 11:30 am startinform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 10 am to 11:30 am start",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 11:30 am.",
+    "ive found 4 empty slots in your calendar from 8 am to 11:30 am.",
+    "ive found 3 empty slots on your calendar for march 9th. one is from 8 am to 11:30 am."
   ],
   [
-    " & you have an empty slot from 6:30 pm to 10:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for that date on march 9th. you don't have that time until 10:30 pm.",
+    "ive found 2 empty slots on your calendar for 6:30 pm and 10:30 pm for the west coast.",
+    "ive found 3 empty slots in your calendar from 6:30 pm to 10:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar from 6:30 pm to 10:30 pm.",
+    "ive found 3 empty slots on your calendar from 6:30 pm to 10:30 pm.",
+    "ive found 3 empty slots on your calendar from 6:30 pm - 10:30 pm."
   ],
   [
-    " & please confirm the following details: you would like to book an appointment with rona silkiss, md, FACS at 1440 North camino Alto for today at 1:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events scheduled for that day on your calendar. you want me to schedule an appointment with rona silkiss, md, facs for 1:30 pm to ensure that there is a phthalmologist appointment with rona silkiss, md, facs today.inform",
+    "ive found 4 events on calendar-includes dentist appointment with rona silkiss, md, facs on today at 1:30 pm.",
+    "ive found 3 events on calendar-includes dentist appointment with rona silkiss, md, facs for 1:30 pm that will start at 1460 north camino alto.",
+    "ive found 3 events on calendar morosemia that day to be correct? you also want me to add an event with the name as thursday's dentist appointment with rona silkiss, md, facs starting at 1:30 pm.",
+    "ive found 3 events on calendar-includes the 1st doctor appointment with rona silkiss, md, facs at 1:30 pm that is today scheduled for 1:30 pm.inform_count ( count = \"3\") & ive found 3 events on calendar-includes the "
   ],
   [
-    " & you have an empty slot from 8 am to 4:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar for march 1st, 2nd and 3rd, from 8 am to 4:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar for march 1st, 2nd and 3rd, fro",
+    "ive found 2 empty slots in your calendar from 8 am to 4:30 pm that day.",
+    "ive found 3 empty time slots on your calendar for that date on march 3rd. you have a empty time slot from 8 am to 4:30 pm.",
+    "ive found 2 empty slots on your calendar from 8 am to 4:30 pm.",
+    "ive found 3 empty slots in your calendar for the 14th. you don't have anything between 8 am to 4:30 pm that day.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar for the 14th. you don't have anything betwee"
   ],
   [
-    " & you have an empty slot from 8 am to 4:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty time slots on your calendar and time range 8 am to 4:30 pm.",
+    "ive found 3 empty slots on the calender. you have an empty slot from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar for that date on the calendar. you don't have anything between 8 am and 4:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 4:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 4:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 4:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 4:30 pm.",
+    "ive found 3 empty slots in your calendar for the 14th. you don't have anything between 8 am and 4:30 pm.",
+    "ive found 3 empty slots on your calendar, one from 8 am to 4:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar, one from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am - 4:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 4:30 pm."
   ],
   [
-    " & you have a 2 pm apartment viewing at arbors at mountain view at 2190 California street on march 10th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 2 events scheduled on march 10th at 2 pm to 228 pinchers mountain view.inform_count ( count = \"2\") & ive found 2 events scheduled on march 10th at 2 pm to 228 pinchers mountain view.",
+    "ive found 3 events on calendar-includes the apartment viewing at arbors at mountain view starting at 2290 california street on march 10th. is that correct?",
+    "ive found 2 empty slots on march 10th in 2290 california street at 2 pm.",
+    "ive found 2 events scheduled on march 10th at 2 pm. you'd like me to add an apartment viewing at arbors at mountain view to your calendar for march 10th. the event is apartment viewing at 2290 california street on march 10th.",
+    "irm ( event_date = \"march 10th\" ; event_location = \"2 pm\") & irm ( event_time = \"2 pm\") & irm ( event_time = \"2 pm\") & irm ( event_time = \"2 pm\") & ir"
   ],
   [
-    " & you have 1 empty slot from 8 am to 1 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14th. it looks like you've found 3 empty slots on your calendar for the 14th. it looks like you've found 3 empty slots on your calendar for the 14th. it looks like you've found 3 empty slots on your calendar fo",
+    "ive found 3 empty slots on your calendar for the 14th of this month. you do have an empty one from 8 am to 1 pm.",
+    "ive found 3 empty slots in your calendar for march 1st and march 2nd. you don't have anything between 8 am and 1 pm.",
+    "ive found 4 empty slots on your calendar. you have nothing between 8 am and 1 pm.",
+    "ive found 3 empty time slots on your calendar. you don't have anything between 8 am to 1 pm."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you have an empty slot from 8 am to 1 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 14th. you have an empty slot from 8 am to ",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 1 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you have an empty slot from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 1 pm."
   ],
   [
-    " & you have 1 empty slot from 8 am to 1 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for march 3rd. you don't have anything between 8 am and 1 pm.",
+    "ive found 3 empty slots in your calendar from 8 am to 1 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you're available from 8 am to 1 pm.",
+    "ive found 3 empty time slots on your calendar for the 14th. you also have an empty time slot from 8 am to 1 pm.",
+    "irm ( event_name = \"dentist appointment with dr. susana m. moore\" ; event_time = \"1 pm\") & irm ( event_date = \"march 13th\" ; event_location = \"1 east side of 8 am\" ; event"
   ],
   [
-    " & you have an empty slot from 4 pm to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar. you don't have anything between 4 pm and 5 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you do have an empty one from 4 pm to 5 pm that day.",
+    "ive found 3 empty slots on your calendar from 4 pm to 5 pm, which looks like it's going to start at 4 pm.",
+    "ive found 2 empty slots in your calendar for march 1st and march 2nd. you don't have anything between 4 pm - 5 pm.",
+    "ive found 3 empty slots on your calendar from 4 pm to 5 pm."
   ],
   [
-    " & you have an empty slot from 4 pm to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar. the nearest one is 4 pm to 5 pm.",
+    "ive found 4 pm to 5 pm available.",
+    "ive found 3 empty slots on your calendar from 4 pm to 5 pm.",
+    "ive found 3 empty time slots on your calendar for 4 pm and 5 pm.",
+    "ive found 3 empty slots on your calendar for 4 pm and 5 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 4 pm and 5 pm."
   ],
   [
-    " & you have an empty slot from 4 pm to 5 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for 4 pm to 5 pm.",
+    "ive found 3 empty slots on your calendar for 4 pm to 5 pm.",
+    "ive found 3 empty slots at 4 pm and 5 pm.",
+    "ive found 3 empty slots on your calendar for 4 pm to 5 pm.",
+    "ive found 4 empty slots on your calendar for march 4th. one is from 4 pm to 5 pm."
   ],
   [
-    " & you have an empty slot from 6:30 pm to 12 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for 6:30 pm to 12 pm.",
+    "ive found 3 empty slots in your calendar from 6:30 pm to 12 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 6:30 pm and 12 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 6:30 pm and 12 pm.",
+    "ive found 3 empty slots on your calendar for 6:30 pm - 12 pm."
   ],
   [
-    " & you have a reservation for taking back Sunday concert at 50 upper Alabama street at 7 pm on march 13th.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm ( event_name = \"dentist appointment with dentistry\" ; event_time = \"7:45 pm\") & irm ( event_date = \"march 13th\" ; event_location = \"50 upper alabama street\" ; event_time = \"7 p",
+    "ive found 1 events scheduled for march 13th at 7 pm. is that correct?",
+    "ive found 2 events scheduled for march 13th at 500 upper alabama street on march 13th. the event begins at 7 pm.",
+    "ive found 3 events scheduled on march 13th that you want to add to your schedule. the event is taking back sunday at 5 pm that is going to start at around 7 pm.",
+    "ive found 3 events on calendar-includes taking back sunday concert on march 13th at 500 upper alabama street at 7 pm on march 13th."
   ],
   [
-    " & you have an empty slot from 8 am to 11 am.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 11 am.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar from 8 am to 11 am.",
+    "ive found 3 empty slots in your calendar from 8 am to 11 am.inform_count ( count = \"3\") & ive found 3 empty slots in your calendar from 8 am to 11 am.",
+    "ive found 3 empty slots on your calendar for a total of 2 empty slots. one being from 8 am to 11 am.",
+    "ive found 3 empty slots in your calendar from 8 am - 11 am.",
+    "ive found 3 empty time slots on your calendar for that date on the calendar. you have an empty space from 8 am to 11 am."
   ],
   [
-    " & you have a scheduled event for 6:30 pm on march 9th at 1111 southwest broadway, erica Fernandez concert.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events on calendar-includes the 11th of march 9th at 6:30 pm.inform_count ( count = \"3\") & ive found 3 events on calendar-includes the 11th of march 9th at 6:30 pm.",
+    "ive found 3 events on calendar-includes an erica fernandez concert which starts at 6:30 pm on march 9th at1111 southwest broadway.",
+    "ive found 3 events on calendar-includes the dr. hairdresserica fernandez concert scheduled for march 9th at 6:30 pm.",
+    "ive found 3 events on calendar-includes the 10th scheduled for march 9th, 11:45 am in1111 southwest broadway.",
+    "ive found an ergica fernandez concert starting at 6:30 pm on march 9th at1111 southwest broadway at 6:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 4:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar for march 1st, 2nd, and 3rd. you're free from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you also have an empty slot from 8 am to 4:30 pm that day.",
+    "ive found 2 empty slots on your calendar from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 4:30 pm."
   ],
   [
-    " & you have an empty slot from 8 am to 4:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 4:30 pm.",
+    "ive found 3 empty slots on your calendar from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar for march 3, from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar for march 3rd. you also find an empty slot from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on calender. you don't have anything between 8 am and 4:30 pm that day."
   ],
   [
-    " & you have an empty slot from 8 am to 4:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots in your calendar from 8 am to 4:30 pm for the 10th.",
+    "ive found 3 empty slots on your calendar for the 14th. you don't have anything between 8 am and 4:30 pm.",
+    "ive found 4 empty slots in your calendar from 8 am to 4:30 pm.",
+    "ive found 3 empty slots on your calendar for the 14th. you have an empty slot from 8 am to 4:30 pm.",
+    "ive found 2 empty slots on your calendar from 8 am to 4:30 pm."
   ],
   [
-    " & you have 2 empty slots from 2 pm to 5:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 4 empty slots in your calendar from 2 pm to 5:30 pm.",
+    "ive found 3 empty slots on your calendar from 2 pm to 5:30 pm.",
+    "ive found 3 empty slots on your calendar and time of empty slots from 2 pm to 5:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar and time of empty slots from 2 pm to 5:30 pm.",
+    "ive found 2 empty slots on your calendar. you also have 3 empty slots on your calendar. you have an empty one from 2 pm to 5:30 pm.",
+    "ive found 3 empty slots in your calendar for that time slot. you also find an empty slot from 2 pm to 5:30 pm."
   ],
   [
-    " & you have 2 empty slots from 2 pm to 5:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty time slots on your calendar from 2 pm to 5:30 pm.",
+    "ive found 3 empty slots on your calendar for 2 pm to 5:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for 2 pm to 5:30 pm.",
+    "ive found 3 empty slots at 2 pm until 5:30 pm.",
+    "ive found 3 empty slots in your calendar for march 1st, 2 pm, and 5:30 pm.",
+    "ive found 3 empty time slots on your calendar for 2 pm to 5:30 pm."
   ],
   [
-    " & you have 2 empty slots from 2 pm to 5:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 empty slots on your calendar for 2 pm to 5:30 pm.",
+    "ive found 3 empty slots on your calendar from 2 pm to 5:30 pm.",
+    "ive found 3 empty time slots on your calendar for 2 pm to 5:30 pm.",
+    "ive found 3 empty slots on your calendar for the 12th. you also have an empty slot from 2 pm to 5:30 pm.inform_count ( count = \"3\") & ive found 3 empty slots on your calendar for the 12th. you also have an empty slot fro",
+    "ive found 3 empty time slots on your calendar for 2 pm to 5:30 pm.inform_count ( count = \"3\") & ive found 3 empty time slots on your calendar for 2 pm to 5:30 pm."
   ],
   [
-    " & you have a scheduled appointment at 11:30 am on march 9th at 1919 mount Diablo Boulevard.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "ive found 3 events on calendar: hairdresser appointment on march 9th at 11:30 am in 1919 mount diablo boulevard. the date for march 9th is 11:30 am in 1919 mountablo boulevard. is that correct?",
+    "irm ( event_name = \"hairdresser appointment\" ; event_time = \"11:30 am\") & irm ( event_date = \"march 9th\" ; event_location = \"1919 mount diablo boulevard\" ; event_time = \"11:3",
+    "ive found 3 events on calendar-includes hairdresser appointment on march 9th at 11:30 am on march 9th. the location is 1919 mount diablo boulevard. do you confirm that correct?",
+    "ive found 2 events scheduled on march 9th located at 1919 mount diablo boulevard in 9:30 am.",
+    "ive found 3 events on calendar-includes the hairdresser appointment at 11:30 am on march 9th located at 1919 mount diablo boulevard."
   ]
 ]

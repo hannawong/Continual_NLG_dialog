@@ -5,6 +5,7 @@ import torch.nn as nn
 from torch.nn import CrossEntropyLoss
 from collections import OrderedDict
 from typing import Any,Optional, Tuple,List
+from model.BertAdapterCapsuleMask_ import BertAdapterCapsuleMask
 
 class ModelOutput(OrderedDict):
     """
@@ -179,7 +180,7 @@ class MixAdapter(nn.Module):
         # 20 adapters with task_id 0--19, when task_id==-1 means dont use adapter
         self.mixadapter = nn.ModuleList([Adapter(config, bottleneck_size) for _ in range(adapter_num)])
 
-    def forward(self, x, task_id=-1):
+    def forward(self, x, task_id=-1,s = -1):
         if task_id==-1:
             return x
         else:
@@ -197,9 +198,12 @@ class GPT2Adapter(GPT2PreTrainedModel):
     def get_output_embeddings(self):
         return self.lm_head
 
-    def add_adapters(self,bottleneck_size=100,adapter_num=40):
-        self.adapter_blocks = nn.ModuleList([MixAdapter(self.config,bottleneck_size,adapter_num) for _ in range(self.config.n_layer)])
-
+    def add_adapters(self,args,bottleneck_size=100,adapter_num=40):
+        if args.mode == "adapter":
+            self.adapter_blocks = nn.ModuleList([MixAdapter(self.config,bottleneck_size,adapter_num) for _ in range(self.config.n_layer)])
+        elif args.mode == 'ctr':
+            self.adapter_blocks = nn.ModuleList([BertAdapterCapsuleMask(self.config,bottleneck_size,adapter_num) for _ in range(self.config.n_layer)])
+    
     def prepare_inputs_for_generation(self, input_ids, past=None, **kwargs):
         # only last token for inputs_ids if past is defined in kwargs
         if past:
@@ -240,7 +244,8 @@ class GPT2Adapter(GPT2PreTrainedModel):
             output_attentions=None,
             output_hidden_states=None,
             return_dict=None,
-            task_id = -1
+            task_id = -1,
+            s = -1,
         ):
 
         output_attentions = False
@@ -279,8 +284,7 @@ class GPT2Adapter(GPT2PreTrainedModel):
                     use_cache=use_cache, ##True
                     output_attentions=output_attentions, ##False
                 )
-            hidden_states = adapter(outputs[0], task_id=task_id) ##Adapter, [32,80,768]
-
+            hidden_states = adapter(outputs[0], task_id=task_id, s = s) ##Adapter, [32,80,768]
         hidden_states = self.transformer.ln_f(hidden_states)
         hidden_states = hidden_states.view(*output_shape)
 

@@ -8,6 +8,7 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader, Dataset, SequentialSampler, RandomSampler
 from tqdm import tqdm, trange
+from utils.util import *
 
 from transformers import (WEIGHTS_NAME, AdamW, get_linear_schedule_with_warmup,
                                   BertConfig, BertForMaskedLM, BertTokenizer,
@@ -111,10 +112,10 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
     ]
     if args.mode == "GPT2":
         optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate * 0.01, eps=args.adam_epsilon)
-    elif args.mode == "adapter":
+    elif args.mode == "adapter" or args.mode == 'ctr':
         optimizer_grouped_parameters = [
-        {'params': [p for n, p in model.named_parameters() if "adapter" in str(n) ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate},
-        {'params': [p for n, p in model.named_parameters() if "adapter" not in str(n) ], 'weight_decay': 0.0,'lr':0.0}
+        {'params': [p for n, p in model.named_parameters() if "adapter" in str(n).lower() ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate},
+        {'params': [p for n, p in model.named_parameters() if "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':0.0}
     ]
         parameters_to_update = [p for n, p in model.named_parameters() ]#if "adapter" in str(n) or "ln" in str(n) or "lm" in str(n)]
         optimizer = AdamW(optimizer_grouped_parameters,  eps=args.adam_epsilon)
@@ -122,7 +123,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
     
 
     #scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=t_total)
-    if args.mode == "adapter":
+    if args.mode == "adapter" or args.mode == 'ctr':
         model.model.resize_token_embeddings(len(tokenizer))
     elif args.mode == "GPT2":
         model.resize_token_embeddings(len(tokenizer))
@@ -132,7 +133,8 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
     model.zero_grad()
     train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=False)
     set_seed(args)  
-    for epoch in train_iterator:
+    for epoch in train_iterator: ##EPOCH
+        smax = 400
         for step, batch in enumerate(train_dataloader):
             if step % 100 == 0:
                 print(f"  PROGRESS: {float(global_step)/t_total*100}%")
@@ -141,14 +143,18 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
             labels = labels.to(args.device)
 
             model.train()
-            if args.mode == "adapter":
+            if args.mode == "adapter" :
                 outputs = model(inputs, labels=labels,task_id = task_id)  ###inputs:[32,80], labels:[32,80]
                 loss = outputs
             elif args.mode == "GPT2":
                 outputs = model(inputs,labels = labels)
                 loss = outputs
+            elif args.mode == 'ctr':
+                s=(smax-1/smax)*step/len(train_dataloader)+1/smax
+                outputs = model(inputs, labels=labels,task_id = task_id, s = s)
+                loss = outputs
             loss.backward()
-            if step % 100 == 0:
+            if step % 50 == 0:
                 print(loss)
 
             tr_loss += loss.item()
@@ -156,7 +162,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                 parameters_to_update = [p for n, p in model.named_parameters() ]
                 if args.mode == "GPT2":
                     torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
-                elif args.mode == "adapter":
+                elif args.mode == "adapter" or 'ctr':
                     torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
                 optimizer.step()
                 #scheduler.step()  
@@ -192,8 +198,8 @@ def evaluate(args, model, eval_dataset,task_id,tokenizer):
             labels = labels.to(args.device)
 
             with torch.no_grad():
-                if args.mode == "adapter":
-                    outputs =  model(inputs, labels=labels,task_id = task_id)
+                if args.mode == "adapter" or args.mode == "ctr":
+                    outputs =  model(inputs, labels=labels,task_id = task_id,s = 400)
                     lm_loss = outputs
                         
                 elif args.mode == "GPT2":
@@ -209,8 +215,7 @@ def evaluate(args, model, eval_dataset,task_id,tokenizer):
                             _ = _.item()
                             text += tokenizer.convert_ids_to_tokens(_)
                         text = text.replace('Ġ',' ')
-                        raw_text = text[:-1].split(' & ')[0] + ' & '
-                        print(raw_text)
+                        raw_text = text[:-1].split(' & ')[0]# + ' & '
                         tokenized_text = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_text))
                         generated = torch.LongTensor(tokenized_text).unsqueeze(0).cuda()
                         for step in range(60):
@@ -259,7 +264,7 @@ def main():
                         help="Optional pretrained tokenizer name or path if not the same as model_name_or_path")
     parser.add_argument("--cache_dir", default="", type=str,
                         help="Optional directory to store the pre-trained models downloaded from s3 (instread of the default one)")
-    parser.add_argument("--block_size", default=80, type=int,
+    parser.add_argument("--block_size", default=300, type=int,
                         help="Optional input sequence length after tokenization."
                              "The training dataset will be truncated in block of this size for training."
                              "Default to the model max input length for single sentence inputs (take into account special tokens).")
@@ -334,6 +339,14 @@ def main():
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
 
+    if args.train_data_file == "all":
+        perm1 = {0:'sgd_travel',1:'sgd_payment',2:"TMA_restaurant",3:"TMB_music",4:"sgd_ridesharing",5:"TMA_auto",6:"sgd_music",7:"sgd_buses",8:"TMB_restaurant",9:"MWOZ_attraction",10:"TMB_sport",11:"sgd_movies",12:"sgd_homes",13:"TMA_coffee",14:"sgd_restaurants",15:"sgd_hotels",16:"sgd_weather",17:"sgd_trains",18:"MWOZ_train",19:"sgd_flights",20:"sgd_media",21:"MWOZ_taxi",22:"sgd_alarm",23:"TMA_movie",24:"sgd_banks",25:"TMA_pizza",26:"TMB_flight",27:"sgd_rentalcars",28:"TMB_movie",29:"sgd_events",30:"MWOZ_restaurant",31:"sgd_services",32:"sgd_calendar",33:"TMB_food-ordering",34:"MWOZ_hotel",35:"TMA_uber",36:"TMB_hotel"}
+        domains = list(perm1.values())
+    else:
+        domains = args.train_data_file.split(",")
+    print(domains)
+    TASK_NUM = 40#len(domains)
+
     config_class, model_class, tokenizer_class = MODEL_CLASSES[args.model_type] ##<class 'transformers.models.gpt2.configuration_gpt2.GPT2Config'> <class 'transformers.models.gpt2.modeling_gpt2.GPT2LMHeadModel'> <class 'transformers.models.gpt2.tokenization_gpt2.GPT2Tokenizer'>
     config = config_class.from_pretrained(args.config_name if args.config_name else args.model_name_or_path,
                                           cache_dir=args.cache_dir if args.cache_dir else None)
@@ -349,29 +362,39 @@ def main():
                                         from_tf=bool('.ckpt' in args.model_name_or_path),
                                         config=config,
                                         cache_dir=args.cache_dir if args.cache_dir else None)
-    elif args.mode == "adapter":
-        model = Seq2SeqToD(args)
+    elif args.mode == "adapter" or args.mode == 'ctr':
+        model = Seq2SeqToD(args,TASK_NUM)
     model.to(args.device)
-    print("args:", args)
     args.split = True
     ################################# Training ########################################
-    if args.train_data_file == "all":
-        perm1 = {0:'sgd_travel',1:'sgd_payment',2:"TMA_restaurant",3:"TMB_music",4:"sgd_ridesharing",5:"TMA_auto",6:"sgd_music",7:"sgd_buses",8:"TMB_restaurant",9:"MWOZ_attraction",10:"TMB_sport",11:"sgd_movies",12:"sgd_homes",13:"TMA_coffee",14:"sgd_restaurants",15:"sgd_hotels",16:"sgd_weather",17:"sgd_trains",18:"MWOZ_train",19:"sgd_flights",20:"sgd_media",21:"MWOZ_taxi",22:"sgd_alarm",23:"TMA_movie",24:"sgd_banks",25:"TMA_pizza",26:"TMB_flight",27:"sgd_rentalcars",28:"TMB_movie",29:"sgd_events",30:"MWOZ_restaurant",31:"sgd_services",32:"sgd_calendar",33:"TMB_food-ordering",34:"MWOZ_hotel",35:"TMA_uber",36:"TMB_hotel"}
-        domains = list(perm1.values())
-    else:
-        domains = args.train_data_file.split(",")
-    print(domains)
     if args.split: ###分开训练
         for task_id,domain in enumerate(domains):
+            if args.mode == "adapter" or args.mode == 'ctr':
+                model.task_list_seen.append(domain)
             print("======================= domain:",domain,"===========================")
             train_dataset = TextSeqDataset(tokenizer, args, file_paths= [domain], max_seq=args.max_seq)
             global_step, tr_loss = train(args, train_dataset, model, tokenizer,task_id)
+            ########################### 此domain训练完成 ######################################
+            mask=model.get_masks(task_id,s = 400)
+            for key,value in mask.items():
+                mask[key]=torch.autograd.Variable(value.data.clone(),requires_grad=False)
+            #print(mask.keys())
+            if task_id==0:  ###mask_pre是所有之前domain的重要参数，之后不能更新的
+                mask_pre=mask
+            else:
+                for key,value in mask_pre.items():
+                    mask_pre[key]=torch.max(mask_pre[key],mask[key])
+            mask_back = {}
+            for n,p in model.named_parameters(): ##model.adapter_blocks.
+                vals=get_view_for(n,p,mask_pre)
+                if vals is not None:
+                    mask_back[n]=1-vals
             print(" global_step = ", global_step," average loss = ", tr_loss)
             print("Saving model checkpoint to", args.output_dir)
             if args.mode == "GPT2":
                 model.save_pretrained(args.output_dir)
-            elif args.mode == "adapter":
-                torch.save(model.state_dict(), args.output_dir + "/adapter.ckpt")
+            elif args.mode == "adapter" or args.mode == 'ctr':
+                torch.save(model, args.output_dir + "/adapter.ckpt")
             tokenizer.save_pretrained(args.output_dir)
             torch.save(args, os.path.join(args.output_dir, 'training_args.bin')) ##save arg
 
@@ -379,21 +402,20 @@ def main():
             print("Loading Model checkpoint.....")
             if args.mode == "GPT2":
                 model = model_class.from_pretrained(args.output_dir)
-            elif args.mode == "adapter":
+            elif args.mode == "adapter" or args.mode == 'ctr':
                 model = Seq2SeqToD(args)
-                model.load_state_dict(torch.load(args.output_dir+"/adapter.ckpt"))
+                model = torch.load(args.output_dir+"/adapter.ckpt")
             tokenizer = tokenizer_class.from_pretrained(args.output_dir, do_lower_case=args.do_lower_case)
             model.to(args.device)
     else: ##合在一起
         train_dataset = TextSeqDataset(tokenizer, args, file_paths= domains, max_seq=args.max_seq)
         global_step, tr_loss = train(args, train_dataset, model, tokenizer)
         print(" global_step = ",global_step," average loss = ", tr_loss)
-
         print("Saving model checkpoint to", args.output_dir)
         if args.mode == "GPT2":
             model.save_pretrained(args.output_dir)
-        elif args.mode == "adapter":
-            torch.save(model.state_dict(), args.output_dir + "/adapter.ckpt")
+        elif args.mode == "adapter" or args.mode == 'ctr':
+            torch.save(model, args.output_dir + "/adapter.ckpt")
         tokenizer.save_pretrained(args.output_dir)
         torch.save(args, os.path.join(args.output_dir, 'training_args.bin')) ##save arg
 
@@ -401,9 +423,9 @@ def main():
         print("Loading Model checkpoint.....")
         if args.mode == "GPT2":
             model = model_class.from_pretrained(args.output_dir)
-        elif args.mode == "adapter":
+        elif args.mode == "adapter" or args.mode == 'ctr':
             model = Seq2SeqToD(args)
-            model.load_state_dict(torch.load(args.output_dir+"/adapter.ckpt"))
+            model = torch.load(args.output_dir+"/adapter.ckpt")
         tokenizer = tokenizer_class.from_pretrained(args.output_dir, do_lower_case=args.do_lower_case)
         model.to(args.device)
 
@@ -414,9 +436,9 @@ def main():
     for checkpoint in checkpoints:
         if args.mode == "GPT2":
             model = model_class.from_pretrained(args.output_dir)
-        elif args.mode == "adapter":
+        elif args.mode == "adapter" or args.mode == 'ctr':
             model = Seq2SeqToD(args)
-            model.load_state_dict(torch.load(args.output_dir+"/adapter.ckpt"))
+            model = torch.load(args.output_dir+"/adapter.ckpt")
         model.to(args.device)
         domains = args.eval_data_file.split(",")
         for task_id,domain in enumerate(domains):

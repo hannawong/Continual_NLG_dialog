@@ -1,17 +1,16 @@
-CUDA_VISIBLE_DEVICES="0" \
-python train.py --output_dir=./output --model_type=gpt2 \
+CUDA_VISIBLE_DEVICES="3" \
+python train.py --output_dir=./output_ctr --model_type=gpt2 \
 --model_name_or_path=./gpt --do_train  \
 --do_eval \
---eval_data_file=sgd_rentalcars \
+--eval_data_file=sgd_weather \
 --learning_rate 0.00625 --use_tokenize \
 --overwrite_cache \
---train_data_file=sgd_rentalcars \
+--train_data_file=sgd_weather,sgd_alarm,sgd_trains \
 --overwrite_output_dir \
 --split \
---mode=adapter --gradient_accumulation_step=8 --num_train_epochs 10 --per_gpu_train_batch_size 10
+--block_size=80 \
+--mode=ctr --gradient_accumulation_step=8 --num_train_epochs 10 --per_gpu_train_batch_size 10
 
-##GPT2: 2.1417 -> 2.5708, 2.5570 --use_tokenize
-###adapter: (2.1034->2.1034, 2.4911)
 
 
 

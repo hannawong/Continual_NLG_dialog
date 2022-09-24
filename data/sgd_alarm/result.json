@@ -1,146 +1,338 @@
 [
   [
-    " & you have a new alarm set for 3:15 pm named cleaning.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm going to add another alarm for 3:15 pm called cleaning.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm making a new alarm called cleaning for 3:15 pm. is it right?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 3 pm named cleaning.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " i'm creating an alarm for cleaning at 3 pm.",
+    " i'm sure. i'm going to set an alarm called cleaning for 3 pm and it has the name of cleaning.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm an alarm that is set for 3 pm and is called cleaning.",
+    "!!! please confirm the following: creating an alarm at 3 pm. is there any way to correct this?"
   ],
   [
-    " & you have a new alarm set for 3 pm named music practice.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please verify the following details. you want to add a new alarm called music practice for 3 pm with a name of music practice?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i want to set up an alarm for 3 pm called music practice. is that right?",
+    "!!! i'm adding a new alarm at 3 pm. is that right?",
+    "!!! i am going to create an alarm music practice for 3 pm. is that right?"
   ],
   [
-    " & you have a new alarm set for 3:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm creating a new alarm called new alarm for 3:30 pm called new alarm.",
+    "!!! please verify this: creating alarm for 3:30 pm.",
+    "!!! at this time you have an alarm named new alarm set for 3:30 pm.",
+    "!!! i have one for 3:30 pm called new alarm."
   ],
   [
-    " & you have a new alarm set for 3:30 pm named cleaning.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " i'm going to create an alarm for cleaning and i'm creating an alarm for 3:30 pm.",
+    "!!! please confirm that you want me to create an alarm called cleaning for 3:30 pm. i have 2 alarms in total, one is titled cleaning.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 4:15 pm called cleaning.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i have an alarm called cleaning set for 4:15 pm.inform_count ( count = \"2\") & please verify that you wish to add another alarm to the list of alarms.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i am creating an alarm for 4:15 pm called cleaning."
   ],
   [
-    " & you have a new alarm set for 5:15 pm called music practice.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! you want a new alarm for 5:15 pm?",
+    "!!! i'm creating an alarm called music practice with the name music practice.inform_count ( count = \"5:15 pm\") & you've got an alarm called music practice.",
+    "!!! i'm going to set up an alarm for 5:15 pm that sounds like it has a name of music practice?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm making a new alarm at 5:15 pm called Music practice."
   ],
   [
-    " & you have an alarm set for 5:15 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i am creating an alarm called grocery run for 5:15 pm with the name grocery run. is that right?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm going to create an alarm at 5:15 pm called grocery run.",
+    "!!! i am creating an alarm named grocery run that goes off at 5:15 pm.",
+    " i would like to set an alarm at 5:15 pm called grocery run."
   ],
   [
-    " & you have an alarm set for 4:30 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please verify your request for an alarm called grocery run for 4:30 pm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i have a grocery run alarm for 4:30 pm.",
+    "!!! i'm creating a new alarm named grocery run at 4:30 pm in the name grocery run."
   ],
   [
-    " & you have a new alarm set for 5:15 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm an alarm at 5:15 pm.",
+    "!!! you want to create an alarm called new alarm for 5:15 pm called new alarm?",
+    "!!! at this point you have a new alarm set for 5:15 pm.inform_count ( count = \"4:15 pm\") & there is an alarm named new alarm.",
+    "!!! i'm going to set up a new alarm at 5:15 pm that's called new alarm for new alarm.",
+    "!!! at this time you want to create another alarm named new alarm for 5:15 pm and set it to be 5:15 pm. is that right?"
   ],
   [
-    " & you have a new alarm set for 4:30 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm going to make a new alarm at 4:30 pm and it is called new alarm.",
+    "!!! i have 2 alarms. one is 4:30 pm with name new alarm.inform_count ( count = \"2\") & i have 2 alarms. one is 4:30 pm with name new alarm.",
+    "irm ( new alarm at 4:30 pm\" ; new alarm at 4:30 pm\" ; new alarm at 4:30 am\" ; new alarm at 4:30 am\"",
+    "!!! i have 2 alarms set up. one for 4:30 pm called new alarm and it is titled new alarm. is it right?",
+    "!!! at this time you have a new alarm set for 4:30 pm called new alarm."
   ],
   [
-    " & you have an alarm set for 4:30 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i am creating an alarm called grocery run with a name of grocery run.",
+    "!!! i am creating an alarm called grocery run at 4:30 pm with the name grocery run.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm creating an alarm at 4:30 pm."
   ],
   [
-    " & you have a new alarm set for 3:30 pm named cleaning.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i've added a new alarm called cleaning.",
+    "irm an alarm at 3:30 pm with the name cleaning.",
+    "!!! i am creating an alarm named cleaning for 3:30 pm.inform_count ( count = \"3:30 pm\") & i am creating an alarm named cleaning for 3:30 pm.",
+    "!!! please confirm the following: creating alarm for 3:30 pm called cleaning.",
+    "!!! i'm making a new alarm for 3:30 pm that is called cleaning."
   ],
   [
-    " & you have a new alarm set for 3:30 pm called phone home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please verify that you want to make an alarm phone home at 3:30 pm with the name phone home.inform_count ( count = \"3:30 pm\") & please confirm that you want to make an alarm phone home at 3:30 pm and name phone home.",
+    "!!! i've got a new alarm called phone home. is it ok for you?",
+    "irm an alarm named phone home for 3:30 pm called phone home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 3:45 pm called phone home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! you would like a new alarm named phone home for 3:45 pm?",
+    "!!! i have 2 alarms, one is 3:45 pm that is a phone home alarm.",
+    "!!! please verify this: creating an alarm for 3:45 pm called phone home.",
+    "irm an additional alarm for 3:45 pm called phone home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 3:15 pm named new alarm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm creating an alarm at 3:15 pm called new alarm.",
+    "!!! you want to create an alarm named new alarm for 3:15 pm?",
+    " you would like an alarm to go off at 3:15 pm?",
+    "!!! i have 2 alarms in total. one of those is a 3:15 pm alarm named new alarm.",
+    "!!! please verify the following. please confirm me that you'd like to set a new alarm for 3:15 pm called new alarm."
   ],
   [
-    " & you have a new alarm set for 4:15 pm called leave for home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! you want me to create an alarm for 4:15 pm called leave for home for leave to home?",
+    "!!! please confirm that you want to add another alarm at 4:15 pm called leave for home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm the following details: creating alarm at 4:15 pm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have an alarm set for 4:15 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i am creating an alarm for 4:15 pm called grocery run.inform_count ( count = \"4:15 pm\" ; new_alarm_name = \"cleaning\") & i am creating an alarm for 4:15 pm called grocery run.",
+    "irm a new alarm for 4:15 pm.inform_count ( count = \"4:15 pm\") & i'm adding a new alarm for 4:15 pm.",
+    "!!! i am making an alarm at 4:15 pm called grocery run.",
+    "!!! at this time, i am creating an alarm called grocery run for 4:15 pm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 3:45 pm called leave for home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you want a 3:45 pm alarm called leave for home?",
+    " i'm going to make a new alarm for 3:45 pm called leave for home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 4:30 pm called leave for home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm adding this alarm at 4:30 pm with the name leave for home.",
+    "!!! i've added an alarm at 4:30 pm.",
+    " i'm not sure if i can get an alarm to go off at 4:30 pm, so i'm going to set up another alarm for 4:30 pm and it'll be called leave for home.",
+    "! i'm creating an alarm called leave for home for 4:30 pm.",
+    "irm new alarm for 4:30 pm"
   ],
   [
-    " & you have a new alarm set for 4:30 pm called phone home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm an alarm named phone home for 4:30 pm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i've created a new alarm named phone home at 4:30 pm called phone home.inform_count ( count = \"1\") & i've created a new alarm named phone home at 4:30 pm called phone home.",
+    "!!! i am creating an alarm named phone home for 4:30 pm and it is called phone home. is this correct?",
+    "!!! you would like to make a new alarm for 4:30 pm called phone home?"
   ],
   [
-    " & you have an alarm set for 3:45 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i am adding a new alarm called grocery run.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i have an alarm called grocery run that has the name grocery run."
   ],
   [
-    " & you have an alarm set for 5:15 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm creating an alarm called grocery run at 5:15 pm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm creating an alarm for 5:15 pm called grocery run.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm an alarm for 5:15 pm called grocery run."
   ],
   [
-    " & you have an alarm set for 3:15 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i am creating an alarm for 3:15 pm called grocery run.",
+    "!!! i am creating another alarm called grocery run at 3:15 pm and i am creating an alarm named grocery run for 3:15 pm and i am creating an alarm named grocery run for 3:15 pm. is this correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i am creating an alarm for grocery run at 3:15 pm."
   ],
   [
-    " & you have a new alarm set for 3:15 pm called phone home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm an alarm named phone home to be called phone home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "! i am creating an alarm phone home for 3:15 pm. is that correct?",
+    "!!! i'm adding an alarm called phone home for 3:15 pm.",
+    " i would like to set an alarm for 3:15 pm with the name phone home."
   ],
   [
-    " & you have a new alarm set for 3:15 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! you want to create an alarm for 3:15 pm called new alarm?",
+    " you'd like to create an alarm for 3:15 pm called new alarm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm going to set 2 alarms for 3:15 pm."
   ],
   [
-    " & you have a new alarm set for 3:15 pm named cleaning.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i am setting an alarm called cleaning to go off at 3:15 pm. is this correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm making a new alarm called cleaning at 3:15 pm, is it okay?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm that you would like an alarm to be called cleaning at 3:15 pm."
   ],
   [
-    " & you have a new alarm set for 5 pm called music practice.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm creating a new alarm called music practice for 5 pm. is that correct?",
+    "!!! you want me to set a new alarm for 5 pm called music practice?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i am creating an alarm named music practice that goes off at 5 pm."
   ],
   [
-    " & you have a new alarm set for 4:30 pm called leave for home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i am making an alarm that is called leave for home and is set for 4:30 pm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm an alarm for 4:30 pm with the name of leave for home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 3:15 pm called leave for home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm an alarm at 3:15 pm with the title leave for home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i have an alarm named leave for home that is set for 3:15 pm with the title leave for home.",
+    "!!! please make a confirmation for 3:15 pm.inform_count ( count = \"3:15 pm\") & please confirm the following details. you would like an alarm to go off at 3:15 pm and has an alarm named leave for home"
   ],
   [
-    " & you have an alarm set for 3:15 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm that you would like to set a alarm at 3:15 pm titled grocery run.",
+    "!!! i've added an alarm named grocery run for 3:15 pm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 3 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm creating an alarm called new alarm.inform_count ( count = \"3 pm\") & i'm creating an alarm called new alarm. is this correct?",
+    "!!! at this time you want the new alarm to be called new alarm?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!! at this time you have 2 alarms set, one of which is 3 pm. is that right?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 3 pm called leave for home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm a new alarm at 3 pm. is correct?",
+    "!!! please specify a new alarm called leave for home for 3 pm?",
+    "!!! i have a alarm that is called leave for home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm your second alarm for 3 pm called leave for home."
   ],
   [
-    " & you have a new alarm set for 4:30 pm called cleaning.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please verify the following details. please confirm the following details. you wish to create a new alarm for 4:30 pm titled cleaning.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm that you want me to add an alarm called cleaning for 4:30 pm and it is set for 4:30 pm. is it correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    " i'm creating a new alarm for 4:30 pm."
   ],
   [
-    " & you have a new alarm set for 5:15 pm called phone home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm making sure that the alarm goes off at 5:15 pm and that it has a name of phone home. is this correct?",
+    "!!! you want me to create an alarm called phone home for 5:15 pm?",
+    "!!! i am creating an alarm called phone home at 5:15 pm and i created an alarm phone home at 5:15 pm.",
+    "irm an alarm at 5:15 pm called phone home."
   ],
   [
-    " & you have a new alarm set for 5:15 pm named cleaning.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm creating an alarm called cleaning at 5:15 pm. is that right?",
+    "! i can confirm you want to set an alarm for cleaning to go off at 5:15 pm, correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i am creating an alarm called cleaning for 5:15 pm with the title cleaning.",
+    "!!! please verify your request for a new alarm at 5:15 pm with title cleaning."
   ],
   [
-    " & you have an alarm set for 4:45 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm creating an alarm called grocery run for four:45 pm.",
+    "!!! please verify this: creating alarm at 4:45 pm.",
+    " i'm creating a new alarm at 4 pm with the name grocery run.",
+    "!!! please confirm the following details: creating alarm for 4:45 pm with name grocery run.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have an alarm set for 3 pm called grocery run.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you want to make a grocery run for 3 pm?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you would like an alarm that goes off at 3 pm?",
+    "!!! i'm making an alarm called grocery run for 3 pm called grocery run."
   ],
   [
-    " & you have a new alarm set for 3 pm called cooking.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! please confirm your request to create an alarm at 3 pm with the name cooking.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! please confirm the following details: adding alarm cooking at 3 pm.",
+    "!!! i'm creating an alarm for 3 pm called cooking in the name cooking. is that right?",
+    "!!! i have a cooking alarm at 3 pm and i am creating one for 3 pm.inform_count ( count = \"3 pm\") & i have a cooking alarm at 3 pm and i am creating one for 3 pm."
   ],
   [
-    " & you have a new alarm set for 4:45 pm named music practice.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! you want an alarm for 4:45 pm called music practice?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "irm an alarm for 4:45 pm called music practice.inform_count ( count = \"4:45 pm\") & you want an alarm for 4:45 pm called music practice?",
+    "!!! i'm creating an alarm for 4:45 pm called music practice. is this correct?"
   ],
   [
-    " & you have a new alarm set for 4:45 pm called leave for home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "irm your new alarm for 4:45 pm. is this correct?",
+    "!!! i just want to create one alarm for 4:45 pm called leave for home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 5 pm called leave for home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm making a change to your alarm for 5 pm. is this correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i've added an alarm at 5 pm called leave for home.",
+    "!!! i'm creating an alarm for 5 pm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 5 pm named new alarm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm creating an alarm named new alarm for 5 pm called new alarm.",
+    "!!! i'm making an alarm for 5 pm. is that right?",
+    "!!! please confirm the following details. creating an alarm for 5 pm and creating an alarm for 5 pm.",
+    "!!! at this time, you have 2 alarms in total. there are 2 alarms that are active. one is 5 pm called new alarm."
   ],
   [
-    " & you have a new alarm called new alarm set for 5:15 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!! i can set a new alarm for 5:15 pm that is titled new alarm.",
+    "!!! a new alarm created for 5:15 pm with the title new alarm and is called new alarm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i've got one called new alarm set for 5:15 pm."
   ],
   [
-    " & you have a new alarm called new alarm set for 5:15 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i'm going to create an alarm named new alarm at 5:15 pm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i've added alarm new alarm. is this correct?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 4 pm.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i am creating an alarm for 4 pm and you want me to set an alarm that gets called new alarm?",
+    "!!! i've heard that you've got an alarm named new alarm for 4 pm. is this correct?",
+    "!!! i've added an alarm called new alarm for 4 pm. is this correct?",
+    "!!! i have a new alarm named new alarm. is this correct?",
+    "!!! please verify this. i am creating an alarm named new alarm for 4 pm with a name of new alarm and it goes off at 4 pm and has the name new alarm."
   ],
   [
-    " & you have a new alarm set for 4 pm named cleaning.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i want to add an alarm called cleaning for 4 pm and i'm creating an alarm called cleaning for 4 pm.",
+    "!!! you want an alarm to be called cleaning?",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm adding the following to your alarm.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   ],
   [
-    " & you have a new alarm set for 4:45 pm called leave for home.<|endoftext|>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    "!!! i've created a alarm named leave for home that goes off at 4:45 pm with the name leave for home",
+    "! alarm at 4:45 pm.inform_count ( count = \"4:45 pm\") & new alarm at 4:45 pm.",
+    " i am setting an alarm for 4:45 pm called leave for home and it has a name of leave for home.",
+    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "!!! i'm creating an alarm for 4:45 pm called leave for home. is that correct?"
   ]
 ]
