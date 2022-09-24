@@ -106,18 +106,28 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=args.train_batch_size)
     t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
     no_decay = ['bias', 'LayerNorm.weight']
+    #for n,p in model.named_parameters():
+    #    print(n)
+    
     optimizer_grouped_parameters = [
         {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
     ]
     if args.mode == "GPT2":
         optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate * 0.01, eps=args.adam_epsilon)
-    elif args.mode == "adapter" or args.mode == 'ctr':
+    elif args.mode == "adapter":
         optimizer_grouped_parameters = [
         {'params': [p for n, p in model.named_parameters() if "adapter" in str(n).lower() ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate},
         {'params': [p for n, p in model.named_parameters() if "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':0.0}
     ]
         parameters_to_update = [p for n, p in model.named_parameters() ]#if "adapter" in str(n) or "ln" in str(n) or "lm" in str(n)]
+        optimizer = AdamW(optimizer_grouped_parameters,  eps=args.adam_epsilon)
+    if args.mode == "ctr":
+        optimizer_grouped_parameters = [
+        {'params': [p for n, p in model.named_parameters() if "adapter" in str(n).lower() and "semantic_capsules.fc1."+str(task_id) in str(n).lower() ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate},
+        {'params': [p for n, p in model.named_parameters() if "adapter" in str(n).lower() and "semantic_capsules.fc1."+str(task_id) not in str(n).lower() ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate * 0.1},
+        {'params': [p for n, p in model.named_parameters() if "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':0.0}
+        ]
         optimizer = AdamW(optimizer_grouped_parameters,  eps=args.adam_epsilon)
     # Prepare optimizer and schedule (linear warmup and decay)
     
