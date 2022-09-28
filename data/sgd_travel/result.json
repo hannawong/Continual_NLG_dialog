@@ -1,289 +1,125 @@
 [
   [
-    "ive done 10 attractions. how about the museum?",
-    "ivia carrillo gil museum is a museum that you might want to visit.thearte carrillo gil museum is a museum that you might want to visit.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 1 attraction for you this is a museum called ae carrillo gil museum.",
-    "ive found 10 attractions. what about the museum?thearte carrillo gil museum.inform_count ( count = \"10\") & there is a museum in sd.thearte carrillo gil museum."
+    " izakaya is described as a museum."
   ],
   [
-    "ive found 10 attractions. how about the american church in paris. it's a place of worship.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions i know you'll like. try the american church in paris, a place of worship.inform_count ( count = \"10\") & there are 10 attractions you might like. try the american church in paris, a place of worship.inform",
-    "ive found 10 attractions, but how about the museum at american church in paris?inform_count ( count = \"10\") & i've found 10 attractions, but how about the museum at american church in paris?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is described as a place of worship."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 5 attractions that suit your criteria of a place of worship. what do you think about this place of worship?",
-    "ive found 10 things that could work for you. one is the american church in paris. it's a place of worship.inform_count ( count = \"10\") & ive found 10 things that could work for you. one is the american church in paris. i",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is described as a place of worship."
   ],
   [
-    "ive found 1, the number is 1 40 62 05 00.",
-    "ia entry fee is free.",
-    "!!! & great! the phone number you requested is (212) 573-5120.",
-    "!!!i've got 10 children, one of these things: a children's museum.inform_count ( count = \"10\") & i've got 10 children, one of these things: a children's museum.",
-    "icky, how about the first attraction, the first attraction you'll likely like, the first attraction, the family art museum."
+    " izakaya has a phone number 1 40 62 05 00."
   ],
   [
-    "iced it up with this:",
-    "ive found 10 attractions. how about the arab world institute, which is a performing arts venue in sydney.",
-    "iced water fountain, palinform_count ( count = \"5\") & sure, i've got 5 attractions. how about the performing arts venue, arab world institute.inform_count ( count = \"5\") & sure, i've got 5 attractions. how about the performing art",
-    "ive found 10 attractions for you. try checking out the performing arts venue arab world institute.inform_count ( count = \"10\") & ive found 10 attractions for you. try checking out the performing arts venue arab world institute.",
-    "ive found 10 attractions that you may like. how about the arab world institute which is a performing arts venue in australia.inform_count ( count = \"10\") & i've found 10 attractions that you may like. how about the arab world institute which is a performing art"
+    " izakaya is rated at 4.5 stars."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!",
-    "icky, how about the American church in paris, the fourth largest place of worship in paris.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions that might work for you. how about the american church in paris."
+    " izakaya is described as a place of worship."
   ],
   [
-    "icky, i've got a kid friendly number that you should check out. they're 1 40 62 05 00.",
-    "!!! i've located 10 attractions. how about the family museum?inform_count ( count = \"10\") & they're counting you! 10 attractions. how about the family museum?inform_count ( count = \"10\") & they're counting you! they're counting you! the",
-    "!!! & phone number is 1 40 62 05 00.",
-    "!!! & i've located a child friendly restaurant in sydney.inform_count ( count = \"true\") & i've located a child friendly restaurant in sydney.inform_count ( count = \"true\") & i've located a child friendly restaurant in sydney",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya has a phone number 1 40 62 05 00."
   ],
   [
-    "ive seen 3 options for you. try bagatelle park.it's pretty good for kids",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions that might interest you. how about bagatelle park, a park in the Philippines that you can check out.inform_count ( count = \"10\") & ive found 10 attractions that might interest you. how about bagatelle park, a park in the Philippine",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is rated at 4.5 out of 5 stars."
   ],
   [
-    "iced tea is another popular attraction.",
-    "ive found 10 attractions that may interest you. how about 30 st mary axe (the gherkin), a historical landmark.inform_count ( count = \"10\") & you should check out 30 st mary axe (the gherkin), a historical landmark.",
-    "ive found 10 that would suit your criteria of a historical landmark.inform_count ( count = \"10\") & you should check out 30 st mary axe (the gherkin), a historical landmark.",
-    "ive located 10 attractions, one of these is 30 st mary axe (the gherkin). it's also a historical landmark.",
-    "ive found 10, but you'd better check out 30 st mary axe (the gherkin). it's a historical landmark and a historical landmark."
+    " izakaya is described as a lively, rustic-chic eatery offering traditional american fare."
   ],
   [
-    "ive located 10 attractions. try the 30 st mary axe (the gherkin), another historical landmark.",
-    "!!! the 30 st mary axe (the gherkin) is a historical landmark.",
-    "iced tea at the gil museum?inform_count ( count = \"30 st mary axe) & iced tea at the gil museum?inform_count ( count = \"30 st mary axe) & iced tea at the gil museum?inform_coun",
-    "ive seen 10 so far: 30 st mary axe (the gherkin), a historical landmark.",
-    "ive found 10 that would suit your criteria. how about 30 st mary axe (the gherkin) which is a historical landmark.inform_count ( count = \"10\") & i know 10 that would suit your criteria. how about 30 st mary axe (the gherki"
+    " izakaya is described as a lively, rustic-chic eatery offering traditional american fare."
   ],
   [
-    "!!! 20 7071 5029.",
-    "!!!! 20 7071 5029",
-    "icky, how about the phone number? 20 7071 5029.",
-    "iauthi registered 10 children at the same time.",
-    "ive found 10 attractions. how about the family friendly museum?"
+    " izakaya has a phone number."
   ],
   [
-    "ive located 10 attractions in bc.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "iauario inbursa is a nature preserve.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iceda inbursa has a 4.5 star rating."
   ],
   [
-    "icky, but the checkbox on the checkbox is \"false\". this is an entry for you and you may not want to enter the checkbox.",
-    "!!! & sure, you should check out the true nature of the park, the parks at the park at the park at the park at the pacific.inform_count ( count = \"true\") & sure, you should check out the true nature of the park, the parks at the par",
-    "ive found 10 attractions. how about true, but there's no entry fee.",
-    "ive located 1 attraction. how about the museum, american museum?",
-    "ive found 10 attractions that might interest you. how about the true nature of nature museum?inform_count ( count = \"10\") & the nature of nature museum is a historical landmark."
+    " izakaya restaurant is described as a casual, upscale eatery offering traditional dishes."
   ],
   [
-    "!!!! 55 5395 4586 is a contactable number.",
-    "!!! 55 5395 4586",
-    "iced water is also available.",
-    "ive got 5 suggestions, one is the contact number 55 5395 4586, which is a contact number.",
-    "ive seen 10 attractions, how about 55 5395 4586?"
+    " izakaya is 55 5395 4586."
   ],
   [
-    "ive found 10 attractions. how about the fleet science center, an historical landmark?",
-    "ive located 10 attractions. how about fleet science center?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions. how about the fleet science center, it's a museum."
+    " iced tea is described as a lively, family-friendly institution."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive seen 10 attractions. try google \"fleet science center\" & there's something creepy about the fleet science center"
+    " iced tea is described as a lively, family-friendly institution."
   ],
   [
-    "ive found 10 attractions. how about the fleet science center. it's pretty great.inform_count ( count = \"10\") & ive found 10 attractions. how about the fleet science center. it's pretty great.",
-    "ive found 10 attractions. how about the fleet science center, which is a museum?inform_count ( count = \"10\") & there are 10 attractions. how about the fleet science center, which is a museum?inform_count ( count = \"10\") & there are 10 attraction",
-    "ive found 10 attractions. do you like the navy museum?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is described as a lively, family-friendly institution."
   ],
   [
-    "icky, the phone number is 619-238-1233.",
-    "icky, this is the 619-238-1233",
-    "iced tea is a popular drink in sd. it's not the first time you've tried this and it's not the first time you've tried this, but it's not the first time you've tried this.",
-    "!!! 619-238-1233.",
-    "icky, how about 619-238-1233, you should try contacting them. the first line is 619-238-1233."
+    " izakaya is open from 6pm to 8pm."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions. how about body worlds london, a museum?inform_count ( count = \"10\") & there's a museum in the area.",
-    "ive found 10 attractions. do you like the museum body worlds london?",
-    "ive located 10 attractions that could interest you. how about a museum?inform_count ( count = \"10\") & you should check out the body worlds london.inform_count ( count = \"10\") & you should check out the body worlds london.inform_coun",
-    "ive got 10 attractions for you. you should check out body worlds london, which is a museum."
+    " izakaya is described as a lively, contemporary institution with a lively menu."
   ],
   [
-    "ive found 10 options, one of those options is the body worlds london museum.inform_count ( count = \"10\") & there's a museum at the museum you may like.",
-    "ive found 10 attractions that might interest you. how about the body worlds london museum?inform_count ( count = \"10\") & i've found 10 attractions that might interest you. how about the body worlds london museum?inform_count ( count = \"10\") & ",
-    "ive found 10 attractions that suit your museum. how about body worlds london, which is a museum.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions. how about the body worlds london museum?inform_count ( count = \"10\") & how about the museum?inform_count ( count = \"10\") & how about the museum?inform_count ( count = \"10\") & how about th"
+    " izakaya is described as a lively, contemporary institution with a lively menu."
   ],
   [
-    "icky, this museum is a museum in the works.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions that may work for you. how about the nature preserve body worlds london, a museum in bc.",
-    "ive found 10 attractions that you might like. try checking out body worlds london, a museum.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is described as a lively, contemporary institution with a lively menu."
   ],
   [
-    "icky, i found 10 attractions. how about le village royal, a shopping area?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions. how about le village royal, a shopping area?inform_count ( count = \"10\") & there are 10 attractions. how about le village royal, a shopping area?",
-    "ive located 2 attractions. try le village royal, which is a shopping area of the country.inform_count ( count = \"2\") & there is a store at le village royal, another shopping area of the country."
+    " iced tea is described as a stylish, upscale mall."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "iced tea is a very popular tourist attraction.",
-    "ive found 10 attractions. how about le village royal, a shopping area?inform_count ( count = \"10\") & ive found 10 attractions. how about le village royal, a shopping area?",
-    "ive seen 4 that may work. try le village royal, a seaside resort.",
-    "ive seen 10 attractions so far: le village royal is a shopping area."
+    " iced tea is described as a stylish, upscale mall."
   ],
   [
-    "ive found 10 attractions. how about the le village royal.inform_count ( count = \"10\") & i've found 10 attractions. how about the le village royal.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive located 10 attractions. how about le village royal.inform_count ( count = \"10\") & the le village royal, a shopping area.",
-    "iced it a little bit, i've got 3 options. try le village royal, a shopping area.inform_count ( count = \"3\") & i've got 3 options. try le village royal, a shopping area.inform_count ( count = \"3\") & i'v",
-    "icky, i've found 10 things you might like. try le village royal.inform_count ( count = \"10\") & i've found 10 things you might like. try le village royal.inform_count ( count = \"10\") & i've found 10 things you might lik"
+    " iced tea is described as a stylish, upscale mall."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive got 10 attractions that may work for you. try the angels flight railway. it's a historical landmark.",
-    "iced tea is a historical landmark",
-    "iced tea house is a historical landmark.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " ichor restaurant is described as a historical landmark."
   ],
   [
-    "!!!inform_count ( count = \"30 st mary axe) & 30 st mary axe (the gherkin), this fits the criteria of a historical landmark.",
-    "ia recommend 30 st mary axe (the gherkin).",
-    "ive found 10 attractions for you, try 30 st mary axe (the gherkin). it's a historical landmark.",
-    "iced tea at 10 a.m.",
-    "ive found 10 attractions. what about 30 st mary axe (the gherkin), an old folk landmark?inform_count ( count = \"10\") & what about 30 st mary axe (the gherkin), an old folk landmark?"
+    " izakaya is described as a lively, rustic-chic eatery offering traditional american fare."
   ],
   [
-    "ive found 10 that would work. the first one is 30 st mary axe (the gherkin), which is an ancient landmark.",
-    "ive seen 10 in kuala lumpur that may interest you. try 30 st mary axe (the gherkin), a historical landmark.",
-    "ive located 10 attractions, one is 30 st mary axe (the gherkin).inform_count ( count = \"10\") & you should check out 30 st mary axe (the gherkin). it's a historical landmark.",
-    "ia called 30 st mary axe (the gherkin). this fits your description of a historical landmark.inform_count ( count = \"30 st mary axe (the gherkin\") & there are 10 historical landmarkes. how about 30 st mary axe (the ghe",
-    "iced tea house in paris, a seaside resort"
+    " izakaya is described as a lively, rustic-chic eatery offering traditional american fare."
   ],
   [
-    "iced water slide is also a great place to go.",
-    "iced tea at 30 st mary axe (the gherkin).",
-    "!!!inform_count ( count = \"30 st mary axe (the gherkin\") & there are 30 st mary axe (the gherkin\") & there is also 30 st mary axe (the gherkin\"). it is a historical landmark",
-    "ia located 10 attractions that would work for you. try 30 st mary axe (the gherkin). it's a historical landmark.",
-    "ive found 10 that could interest you. what about the 30 st mary axe (the gherkin), an old folk folk folk folk art museum?"
+    " izakaya is described as a lively, rustic-chic eatery offering traditional american fare."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions. how about the historical landmark memorial arch?inform_count ( count = \"10\") & there are 10 attractions. how about the historical landmark arch?",
-    "ive found 10 attractions for you. how about the historical landmark the memorial palce called the palce called the palce called the palce?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions. how about the historical landmark memorial arch?inform_count ( count = \"10\") & there are 10 attractions. how about the historical landmark arch?"
+    " izakaya is described as a historical landmark."
   ],
   [
-    "ive got 10 attractions in sydney, sydney, sydney, sydney and sydney.",
-    "ive found 10 things that would work. how about the good for kids, and they'd love to have a look at the good for kids, and they'd love to have a look at the good for children, and they'd love to have a look at the good for children, and they'",
-    "!!!! 20 7276 5000",
-    "!!!! there's the phone number 20 7276 5121 which is the number that you should check out.",
-    "icky, i've got 10 kids and one of them is 20 7276 5000."
+    " izakaya has a 4.5 star rating."
   ],
   [
-    "ive found 10 attractions, one of these is american church in paris,inform_count ( count = \"10\") & there's a place of worship there.inform_count ( count = \"10\") & there's a place of worship there.",
-    "iai have found 10 attractions that you might like. try the american church in paris. it's a place of worship.",
-    "icky, i have found one place of worship that you might like. the american church in paris.inform_count ( count = \"1\") & i have found one place of worship that you might like. the american church in paris.",
-    "ia called a place of worship but it's closed.",
-    "ive found 10 attractions. how about the american church in paris.inform_count ( count = \"10\") & i have found 10 attractions. how about the american church in paris."
+    " izakaya is described as a place of worship."
   ],
   [
-    "icky phone number is 1 40 62 05 00",
-    "icky, you should check out 1 40 62 05 00 and the phone number is 1 40 62 05 00.",
-    "iced it, the phone number is 1 40 62 05 00",
-    "ive seen 1, you should check out 1 40 62 05 00 and they're a museum.",
-    "iced it up and it is 1 40 62 05 00."
+    " izakaya is open from 11am to sunday."
   ],
   [
-    "!!! & i found 10 attractions for children. how about the children's museum?inform_count ( count = \"10\") & i found 10 attractions for children. how about the children's museum?",
-    "!!! & there are 9 children in this area. how about the child-friendly nature preserve called the palce called palce?inform_count ( count = \"9\") & there are 9 children in this area. how about the child-friendly nature preserve called the palce?",
-    "icky, i've found 10 possible attractions. the first is the museum, the gonginflakes museum.",
-    "\u3009 how about the good for children initiative, a children's museum?inform_count ( count = \"true\") & \u3009 how about the good for children initiative, a children's museum?",
-    "!!!inform_count ( count = \"true\") & entry count is 1, entry count is 1, entry count is 1, entry count is 1, entry count is 1, entry count is 1, entry count is 1, entry count is 1, entry count is 1, entry count i"
+    " izakaya restaurant has a 4.5 star rating."
   ],
   [
-    "ive found 10 attractions. how about the archival archival archival park?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "iced it out, it's a park in bc.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "iced it a bit. how about the arch bridge park.inform_count ( count = \"1\") & iced it a bit. how about the arch bridge park.inform_count ( count = \"1\") & iced it a bit. how about the arch bridge park"
+    " ikki beach park has a 4.5 star rating."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "iced it up with a park called alexandra palace, which is pretty great.",
-    "ive found 5 that would work. how about a park called archival parks?inform_count ( count = \"5\") & ok, i've found 5 that would work. how about a park called archival parks?inform_count ( count = \"5\") & ok, ",
-    "ive found 10 attractions. how about the arch bridge park, this is a parkinform_count ( count = \"10\") & ive found 10 attractions. how about the arch bridge park, this is a parkinform_count ( count = \"10\") & how about the arch bridg",
-    "ikapak is a park in bc."
+    " ikki beach park has a 4.5 star rating."
   ],
   [
-    "iced it up and got 10 attractions. how about the archival museum of popland park?inform_count ( count = \"10\") & there are 10 attractions. how about the archival museum of popland park?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 attractions that would interest you. what about the archival archival archival archival park?inform_count ( count = \"10\") & ive found 10 attractions that would interest you. what about the archival archival park?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! there are 6 options. what about a park called ae which is also a beach park."
+    " ikki beach park has a 4.5 star rating."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "iced water fountain is a nature preserve",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "iced bath tubs are a popular nature preserve",
-    "ive found 10 attractions. how about 56 signers a nature preserve?inform_count ( count = \"10\") & i've found 10 attractions. how about 56 signers a nature preserve?"
+    " ichor at 56 signers of the declaration of independence memorial."
   ],
   [
-    "ive found 10 attractions. how about the children's museum, chicago, and the american museum?",
-    "\u300a there's no need to ask kids for a child entry at this museum.",
-    "ive found 1 attraction. try the children's museum, the children's museum, christmas, christmas, christmas, christmas",
-    "!!!inform_count ( count = \"true\") &!!!inform_count ( count = \"true\") &!!!inform_count ( count = \"true\") &!!!inform_count ( count = \"true\") &!!!inform_count ( count ",
-    "ive found 10 attractions. how about the children's museum?inform_count ( count = \"10\") & good_for_kids = \"true\" & i found 10 attractions. how about the children's museum?inform_count = \"10 attractions. how about the children's museu"
+    " izakaya restaurant has a 4.5 star rating."
   ],
   [
-    " their phone number is 202-426-6841.",
-    " the address is 202-426-6841 and their number is 2248 cortland road",
-    " their phone number is 202-426-6841 and i am sorry but there is no reservation. shall i try a reservation for 2 at tabla indian restaurant today at 1:30 pm instead?",
-    " their contact number is 202-426-6841.",
-    " it is at 202-426-6841."
+    " izakaya is open from 11am to 5pm."
   ],
   [
-    "ive seen 10 attractions i know you'll like. how about this: a nature preserve?inform_count ( count = \"10\") & an exhibit at a nature preserve is a great way to start your trip.inform_count ( count = \"10\") & an exhibit at a natur",
-    "\u3009 how about nature preserve aquaria klcc, a nature preserve?inform_count ( count = \"5\") & how about nature preserve aquaria klcc, a nature preserve?inform_count ( count = \"5\") & how about nature preserve aquaria k",
-    "\u3009inform_count ( count = \"1\") & entry to the nature preserve is free and easy.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive got 10 attractions. how about the nature preserve, which is an aquatic preserve?"
+    " ive got it."
   ],
   [
-    "icky, this is an old school playground and there is a kid at a museum called alexandra palace.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "ive found 10 that would work. the first is the children's museum in paris, which has an interesting history of children's attractions.",
-    "icky, this is a children's museum.inform_count ( count = \"true\") & ok, i've found 5 that would interest you. how about a children's museum?inform_count ( count = \"true\") & ok, i've found 5 that would interest you"
+    " izakaya restaurant has a 4.5 star rating."
   ]
 ]

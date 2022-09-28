@@ -1,10 +1,10 @@
-CUDA_VISIBLE_DEVICES="3" \
-python 2.generate.py \
---model_type=gpt2 --model_name_or_path=./output_ctr --num_samples 5 \
---input_file MWOZ_attraction \
---top_k 5 --top_p 1.0 --length 60 \
+CUDA_VISIBLE_DEVICES="0" \
+python test.py \
+--model_type=gpt2 --model_name_or_path=./output --num_samples 5 \
+--input_file MWOZ_attraction,MWOZ_hotel,MWOZ_restaurant,MWOZ_taxi,MWOZ_train \
+--top_k 5 --top_p 1.0 --length 80 \
 --device cuda \
---mode ctr
+--mode adapter
 
 
 ##sgd_travel,sgd_payment,TMA_restaurant,TMB_music,sgd_ridesharing,

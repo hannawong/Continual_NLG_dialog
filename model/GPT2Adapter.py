@@ -181,10 +181,7 @@ class MixAdapter(nn.Module):
         self.mixadapter = nn.ModuleList([Adapter(config, bottleneck_size) for _ in range(adapter_num)])
 
     def forward(self, x, task_id=-1,s = -1):
-        if task_id==-1:
-            return x
-        else:
-            return self.mixadapter[task_id](x)
+        return self.mixadapter[0](x) ##change!!
 
 
 class GPT2Adapter(GPT2PreTrainedModel):

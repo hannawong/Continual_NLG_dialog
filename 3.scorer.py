@@ -113,8 +113,10 @@ def score_folder():
         print("ERR",ERR)
         out.write("ERR"+str(ERR)+"\n")
         print(len(ref),len(my_result))
-
-        BLEU = moses_multi_bleu(my_result,ref)
+        try:
+            BLEU = moses_multi_bleu(my_result,ref)
+        except:
+            BLEU = 0.0
         print("BLEU",BLEU)
         out.write("BLUE"+str(BLEU)+"\n")
 

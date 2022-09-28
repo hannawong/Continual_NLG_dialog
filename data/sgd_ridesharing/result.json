@@ -1,758 +1,326 @@
 [
   [
-    "!!! please confirm: luxury ride for 1 person to 780 san ramon valley boulevard.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm the details: 1 seat luxury ride for 1 to 770 san ramon valley boulevard.",
-    "!!! please confirm: luxury ride for 1 person to 780 san ramon valley boulevard.",
-    "!!! i've booked your ride and it is on its way. it should be here in 1 minute, and it costs $37.16."
+    " izakaya is the closest."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is available."
   ],
   [
-    "irm ( destination = \"the bar & grill\" ; ride_fare = \"$15.45\") & i booked the cab and it's on its way to the bar & grill. the cab is estimated to reach in 9 minutes.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1740 east leland boulevard\" ; number_of_seats = \"1\" ; ride_type = \"pool\") & so you would like 1 seat pool ride for 1 person to 1740 east leland boulevard, correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"lifestyle hotel & bistro\" ; number_of_riders = \"3\") & i booked your cab and it is on its way. it will take about 9 minutes and cost $39.16."
+    " iced tea is available."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1720 west san francisco plaza boulevard #105\" ; number_of_seats = \"3\") & please verify the following information: you want a ride to 1720 west san francisco plaza boulevard #105. you prefer a ride to 1720 wes",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $16.88."
   ],
   [
-    "irm ( destination = \"660 gail avenue\" ; ride_type = \"pool\") & you wanna get 2 seats and it will cost $660.",
-    "!!! please verify that you want a pool ride for 2 people to 6658 gail avenue and that you would like a ride to 660 gail avenue.",
-    "!!! i'll get you 2 seats to 660 gail avenue for 2 people.",
-    "irm ( destination = \"658 gail avenue\" ; ride_type = \"pool\") & can you confirm the details? you would like a pool ride with 2 seats to 660 gail avenue.",
-    "!!! you want to ride pool ride and a pool ride. is that correct?"
+    " izakaya is in 660 gail avenue."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $23.90."
   ],
   [
-    "!!! please confirm the following details: you want a ride to gum kuo for 1 and you dont mind a ride to gum kuo.",
-    "!!! please confirm the following details: you would like a pool ride, and you prefer a pool ride.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm the following details: you are ordering a pool ride to gum kuo."
+    " izakaya is 1."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"the gourmet restaurant & bar\" ; number_of_riders = \"2\" ; shared_ride = \"true\") & please confirm the details. a shared ride for 2 people to the gastourmet restaurant & bar. is that correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $6.22."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1201 east el camino avenue\" ; number_of_riders = \"3\" ; shared_ride = \"true\") & i have an ordered cab with 3 people heading to 1201 east el camino avenue. the cab is for 3 people and the share",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is available."
   ],
   [
-    "!!! please confirm: you need 1 seat pool ride to 226 edelen avenue.",
-    "!!! i have 1 person going to 226 edelen avenue.",
-    "irm ( destination = \"226 edelen avenue\", ride_type = \"pool\") & please confirm the following details: you'd like for a ride of 1 to 226 edelen avenue.",
-    "!!! please clarify: you would like to ride pool ride to 226 edelen avenue.",
-    "!!! can you confirm the following details: you would like to ride pool ride for 1."
+    " ive booked a table for 226 edelen avenue for 1 person."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is open until 11pm."
   ],
   [
-    "irm ( destination = \"1520 mauro's drive\" ; ride_fare = \"$19.77\") & the ride will be for 3 minutes and costs $19.77.",
-    "irm ( ride_fare = \"$11.88\") & i booked your cab's cab's on the way. it costs $11.88.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is open until 11pm."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm that you would like a regular ride to 2550 el camino real, ride_type = \"regular\") & please confirm that you would like a ride to 2550 el camino real, ride_type = regular."
+    " izakaya is rated at 5.4 stars."
   ],
   [
-    "!!! you want me to book a luxury ride to lin jia asian kitchen. you want 1 seat, 1 in a luxury ride.",
-    "!!! can you confirm the following details? you would like to ride to lin jia asian kitchen. luxury ride for 1.",
-    "!!! can i confirm that you need 1 seat in an luxury ride for 1 person.",
-    "!!! can you confirm the details? you want a ride to lin jia asian kitchen for 1. is that correct?",
-    "!!! please verify the following details. you would like a luxury ride to lin jian kitchen with 1 seat."
+    " izakaya is the cheapest."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1540 east el camino street\" ; ride_fare = \"$31.32\") & the cab is on its way. the cost is $31.32.",
-    "irm ( destination = \"1530 westchester boulevard #107\" ; ride_fare = \"$29.32\") & i've booked the ride and the cab is heading to 1530 westchester boulevard #107. the cost is $31.32"
+    " iced tea is $31.32."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1201 east el camino way\" ; number_of_seats = \"2\" ; ride_type = \"luxury\") & please confirm the following details: luxury ride for 2 to 1201 east el camino way.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is 10."
   ],
   [
-    "!!! please confirm this, a luxury ride to 1270 linford lane for 2 people.",
-    "!!! you would like a ride for 2 to 1270 linford lane.",
-    "!!! you would like a luxury ride to 1270 linford lane, is that correct?",
-    "!!! i booked your ride and it's on its way, it'll cost you about 2 minutes.",
-    "!!! please confirm that you would like a ride to 1270 linford lane, and that it will cost $2."
+    " izakaya is 1270 linford lane."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $42.40."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $42.40."
   ],
   [
-    "!!! you would like a pool ride for 2 tokusakabe. is that correct?",
-    "!!! please confirm: you want 2 seats on a pool ride for 2 and you prefer a pool ride.",
-    "!!! can you confirm that? you want a ride tokusakabe pool ride.",
-    "!!! please confirm the details: you need 2 seats for a pool ride tokusakabe.",
-    "!!! please confirm the following details: you need 2 seats and you dont mind a pool ride."
+    " izakaya is 2 people."
   ],
   [
-    "urny\" ; number_of_seats = \"3\") & please confirm that a cab with 3 seats to capers eat & urny.",
-    "urns\" ; number_of_seats = \"2\" ; ride_type = \"pool\") & you would like a pool ride for 2 people to caper eat & urns. is that correct?",
-    "urns\" ; number_of_seats = \"1\" ; ride_type = \"pool\") & please confirm this you want to ride pool for 1 and you want to go to capers eat & urns.",
-    "urns place\" ; number_of_seats = \"2\" ; ride_type = \"luxury\") & please confirm the details of the details. 2 seats to capers eat & urns place.",
-    "urns\" ; shared_ride = \"true\") & please confirm this to me the cab is on the way. the cab will get to you soon."
+    " iced tea\")"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination_ride = \"1776 west el camino avenue\" ; number_of_seats = \"2\" ; ride_type = \"luxury\") & please confirm the details: luxury ride for 2 to 1776 west el camino avenue."
+    " iced tea is available."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1220 east lincoln avenue\" ; ride_type = \"luxury\") & i've booked your ride and it will be here soon. the ride will cost $7.12. i have confirmed the details and it'll be a luxury ride to 1220 east ",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is available."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"london san francisco\" ; number_of_seats = \"1\" ; ride_type = \"luxury\") & i've booked a luxury ride to london san francisco for 1 person.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $47.16."
   ],
   [
-    "!!! please confirm that you need to book a regular ride to 7880 wren avenue and that you want to ride for 3 people.",
-    "!!! please confirm to book a regular ride to 7880 wren avenue. the regular ride will cost $13.32.",
-    "!!! please confirm: 3 seats to 7880 wren avenue.",
-    "!!! please confirm the details of your regular ride to 7880 wren avenue.",
-    "!!! please confirm: ride to 7880 wren avenue."
+    " iced tea is available in 7880 wren avenue."
   ],
   [
-    "irm ( destination = \"the bar & grill restaurant\" ; ride_fare = \"$30.54\") & your cab is on its way. its cost $30.54. i booked the cab and it is on its way. i will get to you shortly.",
-    "irm ( destination = \"the bar & grill restaurant & bar & grill\" ; number_of_seats = \"2\" ; ride_type = \"luxury\") & please verify the following information: you want a luxury ride to the bar & grill restaurant & bar & grill.",
-    "irm ( destination = \"1740 east san froy road\" ; ride_fare = \"$30.54\") & it will cost $30.54 and will take about 17 minutes to reach here.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"luna aquatics center drive #1\" ; ride_fare = \"$30.54\") & i booked your cab and it's on its way. it'll cost $30.54 and it'll reach in 5 minutes. your destination is in the plaza plaza, an"
+    " iced tea is $30.54."
   ],
   [
-    "irm ( destination = \"1204 south pike street #124\" ; number_of_seats = \"1\" ; ride_fare = \"$15.64\") & i have a ride to 1204 south pike street #124. is this correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $30.54."
   ],
   [
-    "! can you confirm that you'd like 1 seat regular cab ride to peacock indian cuisine?",
-    "!!! please verify the following order: you want a regular ride to peacock indian cuisine. you prefer one seat.",
-    "!!! please confirm the following details: regular ride to peacock indian cuisine with 1 seat.",
-    "irm this is to 3200 gacock indian cuisine. a regular ride to peacock indian cuisine.",
-    "irm ( destination is peacock indian cuisine, regular ride). i have booked your ride and it is on it to peacock indian cuisine. the ride will cost $19.32. the regular ride is to peacock indian cuisine."
+    " iced tea is available in peacock indian cuisine."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! can you confirm that you want a ride to 405 san pablo avenue for 4.",
-    "!!! please confirm the details below: luxury ride for 4 to 405 san pablo avenue.",
-    "!!! please confirm the details below. you would like a luxury ride to 405 san pablo avenue.",
-    "!!! please verify the following details: you need 4 seats to get to 10544 san pablo avenue."
+    " iced tea is available in 10544 san pablo avenue."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is 13."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is 13."
   ],
   [
-    "!!! please confirm the details of the booking and the cab is for 2 people to 140 homer avenue.",
-    "!!! you want a pool ride for 2, going to 140 homer avenue, is that correct?",
-    "!!! please confirm: you want a pool ride for 2 to 140 homer avenue, correct?",
-    "!!! you would like to get 2 seats to 140 homer avenue and you would like to ride pool ride",
-    "!!! please confirm the details of the cab ride. you want a ride to 140 homer avenue for 2 people."
+    " izakaya is on 140 homer avenue."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm: luxury ride for 2 to 602 loma boulevard.",
-    "!!! can you confirm a luxury ride to luxury ride to luxury road for 2 passengers to 4500 mooley avenue.",
-    "!!! please confirm: luxury ride for 2 to 2200 gentean road.",
-    "!!! please confirm the details: luxury ride for 2 to 3500 paseo square in a cab."
+    " iced tea is 2 people."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! i have 3 seats on a cab which is on a reserved ride to 140 homer avenue.",
-    "!!! please confirm that you want a ride to 140 homer avenue and that you need 3 seats.",
-    "!!! you wanna get 3 seats for a ride to 140 homer avenue and you prefer a ride to 3. is that correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is on 140 homer avenue."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is 11."
   ],
   [
-    "!!! can you confirm the following information: you need a pool ride for 1 person.",
-    "!!! please confirm that you want to ride pool to arariake and you need 1 seat for ride.",
-    "irm ( destination = \"ariake\" ; ride_type = \"pool\") & please confirm to book a pool ride to iiake for 1 person.",
-    "!!! please confirm the details: you want a pool ride for 1 to iiake.",
-    "!!! please confirm: 1 seat pool ride toariake."
+    " izakaya is 1."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $15.46."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $15.46."
   ],
   [
-    "!!! i have 3 pools for 3 people, ride to 4906 west el camino real # a",
-    "!!! you need 3 seats on pool ride and a pool ride.",
-    "!!! please confirm the details of the cab for 3 to 4906 west el camino real number_of_seats.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! you'd like 3 seats in a pool ride to 4906 west el camino real # a. i booked a cab, is this correct?"
+    " izakaya is rated at 4.5 stars."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"luna san fritro's del ride\" ; ride_fare = \"$15.88\") & i booked the cab and its on the way. the total price is $15.88 and it will be here soon.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is available."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is available."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1750 east paseo street apartment building #425\" ; number_of_riders = \"2\" ; shared_ride = \"true\") & so you would like a shared ride to 1750 east paseo street apartment building #425?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $22.17."
   ],
   [
-    "!!! you want a pool ride for 1 person to newport street gallery. is that correct?",
-    "!!! please confirm the details: 1 seat pool ride for 1 to newport street gallery.",
-    "irm ( destination = \"newport street gallery\" ; ride_type = \"pool\") & you want 1 seat pool ride to Newport street gallery, correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm: you want a pool ride to newport street gallery. you prefer a ride to pool ride."
+    " izakaya is 1."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is 4."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is 4."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1201 west el camino street\" ; number_of_seats = \"4\" ; ride_type = \"pool\") & i will get you to 1201 west el camino street. there will be 4 passengers and you are budget for ride. i booke",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $14.43."
   ],
   [
-    "!!! please confirm the cab's details and the details of your pool ride to bella vista at hilltop and a pool ride will be okay.",
-    "!!! i have a pool ride with 4 seats to bella vista at hilltop.",
-    "!!! please confirm the following information: there will be 4 passengers travelling to bella vista at hilltop and you would like to ride pool ride.",
-    "!!! please confirm the details of the taxi, you need 4 seats and you prefer a pool ride",
-    "!!! please confirm that you want to ride pool ride for 4 to bella vista at hilltop."
+    " izakaya at hilltop is 4 people."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $19.00."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $19.00."
   ],
   [
-    "!!! you need 1 seat on a regular ride to museum of astronomy and related sciences?",
-    "!!! please confirm: 1 regular ride for 1 to museum of astronomy and related sciences.",
-    "!!! please confirm: you want to go to museum of astronomy and related sciences, you prefer 1 seat, regular ride.",
-    "!!! please confirm to book a regular ride to museum of astronomy and related sciences. the ride to museum of astronomy and related sciences will be 1 seat.",
-    "!!! can you confirm the details, you need to go to museum of astronomy and related sciences and you prefer a regular ride."
+    " izakaya is described as a lively, contemporary institution offering a variety of seasonal"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1525 west lincoln street\" ; ride_type = \"pool\") & please confirm the details of your ride: you would like a pool ride for 2.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is available."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1205 east leland street #206\" ; ride_type = \"luxury\") & please confirm the details. you would like a luxury ride to 1205 east leland street #206.",
-    "irm ( destination = \"1520 south san gorgon boulevard\" ; number_of_seats = \"4\" ; ride_type = \"pool\") & you need 2 seats and your pool ride to 1600 south san gorgon boulevard. is that correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is available."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! you want a luxury ride for 4 to astoria park. is that correct?",
-    "!!! i have a luxury ride to astoria park for 4 to astoria park.",
-    "!!! i've booked a luxury ride for 4 to astoria park. the ride will cost i $39.",
-    "!!! please confirm: luxury ride for 4 to astoria park."
+    " izakaya park has 4 people."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is available."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is available."
   ],
   [
-    "!!! can you confirm this you'd like a cab for 2 people to 1671 willow pass road. is that correct?",
-    "!!! please confirm the details: you would like to ride to 1671 willow pass road. shared ride is okay, correct?",
-    "!!! please confirm this you are requesting a shared ride for 2 people to 1671 willow pass road.",
-    "!!! please confirm: cab for 2 with shared ride and 2 passengers to 1671 willow pass road.",
-    "!!! please confirm the details: you want to ride shared ride for 2 people and you dont mind going to 1671 willow pass road."
+    " izakaya is 1671 willow pass road."
   ],
   [
-    "irm ( destination silvercrest housing for snrs is on the way. a cab with 2 people and a shared ride. is this correct?",
-    "! i have 2 people in a shared ride to silvercrest housing for snrs.",
-    "irm ( destination silvercrest housing for snrs. is a shared ride?",
-    "!!! please confirm the details. you would like a cab for 2 people to silvercrest housing for snrs.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea for snrs?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"the bistro & the ride is on its way\" ; number_of_riders = \"3\" ; shared_ride = \"true\") & you want to ride share for 3 people. is that correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $11.33."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( approximate_ride_duration = \"11\") & it will take 11 minutes, will cost $11.33 and take 11 minutes. i booked your cab.",
-    "irm ( destination = \"the gourmet restaurant & bar\" ; number_of_riders = \"1\") & please confirm that you need a cab to go to the gourmet restaurant & bar and the driver is 1.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $11.33."
   ],
   [
-    "!!! please verify the details below: you want to ride share to 5801 norris canyon road #200.",
-    "!!! please confirm to book a shared ride to 5801 norris canyon road #200. a shared ride is okay, please confirm to book a ride to 5801 norris canyon road #200.",
-    "!!! please confirm that the following order will be a shared ride for 3 people to 5801 norris canyon road #200.",
-    "!!! please confirm the details of this booking: a shared ride to 5801 norris canyon road #200. a cab for 3 people to 459 north america.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is 5201 norris canyon road #200."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"the clover theater\" ; shared_ride = \"true\") & okay, you want a shared ride for 1 person to the clover theater, correct?"
+    " iced tea is in the clover theater."
   ],
   [
-    "irm ( destination = \"the gaboulevard restaurant & bar & grill place\" ; number_of_seats = \"2\" ; ride_type = \"luxury\") & okay, you want a luxury ride to the gaboulevard restaurant & bar & grill place for 2 peopl",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1789 south pike street\" ; ride_fare = \"$24.39\") & i have confirmed a destination for 1789 south pike street and it will be $24.39.",
-    "irm ( destination = \"london aacob's\" ; number_of_seats = \"1\" ; ride_type = \"pool\") & please confirm the details. 1 seat ride for 1 person to london aacob's.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $24.39."
   ],
   [
-    "!!! please let me confirm: shared cab for 2 to 1850 el camino real.",
-    "!!! please confirm the details of the cab ride to 1850 el camino real. shared ride for 2 people.",
-    "!!! please confirm the details: you want a shared ride for 2 people and you are interested in a cab.",
-    "!!! please confirm the details. the cab ride to 1850 el camino real. shared ride is ok and should be a shared ride.",
-    "!!! please confirm that there will be 2 in your party and that you want shared ride for 2 people to 1850 el camino real."
+    " izakaya is 1850 el camino real."
   ],
   [
-    "irm ( destination is the studio museum in harlem and you want a cab for 1 person. cab will be here soon.",
-    "!!! please confirm: shared cab ride for 1 to the studio museum in harlem.",
-    "!!! please confirm to the studio museum in harlem for 1 person and your shared ride is okay.",
-    "!!! please confirm the following details: you are looking for a shared ride for 1 person to the studio museum in harlem.",
-    "!!! please verify the following details: a taxi for 1 to the studio museum in harlem. shared ride is okay."
+    " izakaya in harlem is 1 person."
   ],
   [
-    "!!! please confirm the details. you would like a cab to 1621 travis boulevard #300. there are 1 going to 1621 travis boulevard #300, and you are looking for 1 person.",
-    "!!! please confirm the details: destination 1621 travis boulevard #300. cab sharing is okay with 1 person.",
-    "!!! can you confirm a ride to 1621 travis boulevard # 300 for 1 person?",
-    "!!! please confirm the following details: you would like to go to 1621 travis boulevard #300 in a cab.",
-    "!!! can you confirm that you are ordering a cab to 1621 travis boulevard #300?"
+    " izakaya is 1621 travis boulevard #300."
   ],
   [
-    "irm ( ride_fare = \"$17.39\") & your ride has been confirmed and it should reach in 17 minutes. the cab ride should be around 17 minutes.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $17.39."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! i booked your cab and it is heading to 3200 galta road. the cab ride will take 17 minutes and cost $17.39.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $17.39."
   ],
   [
-    "irm ( destination place = \"1460 quarterord avenue\" ; shared_ride = \"true\") & please confirm to book a cab for 3 to 1460 quarterord avenue.",
-    "irm ( destination = \"1360 halford avenue\" ; shared_ride = \"true\") & please confirm the details. you need a cab for 3 people and you would like to share a ride. is that correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm this: you would like a shared ride to 1460 halford avenue, cab sharing would get you there soon, and it would cost $39.",
-    "!!! i have a shared cab for 3 to 1460 halford avenue."
+    " iced tea is 1460 halford avenue."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $16.90."
   ],
   [
-    "!!! please confirm the following information: you want a shared ride for 1 person to go to gdu style restaurant.",
-    "!!! can you confirm that you want a shared ride for 1 person to the gym at 609 gdu style restaurant.",
-    "!!! please confirm the details: you need 1 cab for going to the gym. the cab will cost $19.16.",
-    "irm ( destination = \"chengdu style restaurant\" ; shared_ride = \"true\") & please confirm that you need a cab for 1 person to go to gengdu style restaurant.",
-    "!!! can you confirm that you want a cab for 1 person to go to the chengdu style restaurant. is that correct?"
+    " iced tea is available in chengdu style restaurant."
   ],
   [
-    "irm ( destination = \"100 van ness avenue\" ; shared_ride = \"true\") & please confirm the details. you need a cab to 100 van ness avenue. the shared ride is okay.",
-    "irm ( destination 100 van ness avenue for 2 people and shared ride to 100 van ness avenue for 2 people. does that sound right?",
-    "!!! please confirm the details of your shared cab ride to 100 van ness avenue, a cab reserved for 2 people.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination 100 van ness avenue is going to 100 van ness avenue. is this correct?"
+    " izakaya is in 100 van ness avenue."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $18.89."
   ],
   [
-    "irm ( destination = \"1520 south el camino street\" ; ride_fare = \"$18.89\" ; approximate_ride_duration = \"13\") & i booked your ride and it should be there in about 13 minutes, and its cost i $18.89.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $18.89."
   ],
   [
-    "!!! please confirm the details: you'd like a cab for 1 to 140 new montgomery street #1.",
-    "!!! please confirm the details: you would like a shared ride for 1 to 140 new montgomery street #1.",
-    "!!! i have a shared cab going to 140 new montgomery street #1, and you want a cab going to 3200 mowlin street #1. is that correct?",
-    "!!! please confirm: you want a cab for 1 person to 140 new montgomery street #1. you are a shared ride, so it will cost $19.19. i'll get you to 140 new montgomery street #1.",
-    "!!! please confirm the details: 1 person traveling to 140 new montgomery street #1. a shared ride will allow you to ride share to 4140 new montgomery street."
+    " erythritude."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $15.13."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $15.13."
   ],
   [
-    "!!! please confirm the details. you want a shared cab for 2 people to 185 estancia drive.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! you would like to go to 185 estancia drive for 2 people and you want to share a cab.",
-    "irm you want a shared cab for 2 people to 185 estancia drive. is that correct?",
-    "!!! please confirm this to me: you need to get to 185 estancia drive for 2 people and a shared ride."
+    " iced tea is in 185 estancia drive."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! can you confirm that you want to get a cab to 3200 m heading to 3200 m heading to 3200 m heading to 3200 m heading to 3200 m heading to 3200 m heading to 3200 m heading to 3200 m heading to 3200 m heading to 3200 ",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm that you would like a cab to ride sharing for 1 to 411 east lincoln drive. is that correct?"
+    " izakaya restaurant has 1 person."
   ],
   [
-    "urns\" ; number_of_riders = \"1\" ; shared_ride = \"true\") & i have confirmed a shared cab for 1 to chili's grill & urns.",
-    "iced tea\" ; number_of_seats = \"4\" ; ride_type = \"pool\") & please confirm the following details: you'd like a ride to chili's grill & iced tea, a pool ride.",
-    "iced coffee shop\" ; ride_type = \"luxury\") & so you want a luxury ride to chili's grill & iced coffee shop for 1.",
-    "irm ( destination = \"sushi bar & grill\" ; ride_type = \"luxury\") & i have confirmed a luxury ride to sushi bar & grill.",
-    "iced tea\" ; ride_type = \"luxury\") & i'm ordering a luxury ride for 1 person, on a luxury ride."
+    " izakaya\")"
   ],
   [
-    "irm ( destination = \"ss united states\" ; shared_ride = \"true\") & i will get to you now. you want an shared cab for 3 people to unite states. is that correct?",
-    "!!! please confirm the details. you want a cab with 3 people going to ss united states for 3 passengers, correct?",
-    "!!! i've booked the cab and it is on its way. the shared ride will run you $13.13.",
-    "!!! i've confirmed the details. a shared cab for 3 to ss united states.",
-    "irm ( destination = \"ss united states\" ; shared_ride = \"true\") & i've confirmed this for 3 people. you'd like a shared ride for 3 passengers."
+    " izakaya is in the area."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $28.04."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $28.04."
   ],
   [
-    "!!! confirm that you want a cab for 2 people going to san francisco. does that sound like a shared ride?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! you need 2 passengers for a cab to san francisco. is that correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm that you need a shared cab for 2 people to go to san francisco."
+    " izakaya is in san francisco."
   ],
   [
-    "!!! you want a cab for 1 person, going to the gym with 1 person. is that correct?",
-    "irm ( destination = \"1205 west pike street\" ; shared_ride = \"true\") & please confirm the following details: you would like a cab for 1 person to take you to 1205 west pike street",
-    "!!! you'd like a shared cab for 1 to 411 lincoln avenue. is that correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm the details: cab's on the way with 1 person and that cab's on the way with shared ride."
+    " izakaya restaurant has 1 person."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $10.09."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $10.09."
   ],
   [
-    "!!! please confirm that you need a shared cab for 1 person, ride sharing is acceptable.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm: you want a shared ride for 1 person to 1698 bonanza street.",
-    "!!! please verify the following information: you need a shared ride to 1698 bonanza street. a cab for 1 person.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is 1698 bonanza street."
   ],
   [
-    "!!! can you confirm the details? you want a cab for 1 person to vineyard meadows apartments. is that correct?",
-    "! please confirm the details: cab for 1 to vineyard meadows apartments.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm the following details: you would like to go to vineyard meadows apartments for 1 person and you prefer a shared ride.",
-    "!!! please confirm the details, please. you want to go to vevineyards meadows apartments in a cab with 1 person, with a shared ride to vineyard meadows apartments."
+    " izakaya meadows apartments is that right?"
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm the following details: cab for 3 people to 2100 avy avenue. shared ride is okay.",
-    "!!! can you confirm that you want a shared cab for 3 people to go to 2100 avy avenue?",
-    "irm ( destination = \"2100 avy avenue\" ; shared_ride = \"true\") & please confirm that you want a cab for 3 people to 2100 avy avenue, right?",
-    "!!! can you confirm that you would like to ride to 2100 avy avenue and 2 passengers."
+    " izakaya is at 2100 avy avenue."
   ],
   [
-    "!!! can you confirm the details? 2 people traveling to 770 9th avenue.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! confirm the details and confirm that you want a shared ride.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! can you confirm that you need a cab for 2 people to go to 770 9th avenue and that you want a shared ride."
+    " izakaya is closest to 770 9th avenue."
   ],
   [
-    "!!! please confirm that you want a cab for 1 person and you dont mind a shared ride.",
-    "!!! please verify the following details: you want a shared ride for 1 person to ride share to 6077 oconnor avenue in a cab.",
-    "!!! can you confirm the details? cab for 1 person to the gym. is that correct?",
-    "!!! please confirm this. the cab will be with 1 person and the shared ride will cost $19.32.",
-    "!!! can you confirm the details of your shared cab, cab for 1 to 411 paseo street."
+    " izakaya restaurant has 1 person."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $9.61."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $9.61."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! can you confirm that you are ordering a shared ride to 3453 fleming avenue east?",
-    "irm ( destination = \"453 fleming avenue east\" ; shared_ride = \"true\") & you wanna share a ride to 457 ealing avenue east?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is in the neighborhood."
   ],
   [
-    "!!! your ride is booked and on its way. it will take about 12 minutes. the ride cost $9.40.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $9.40."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $9.40."
   ],
   [
-    "!!! please confirm the details: cab for 3 to the national gallery of modern art.",
-    "irm this is a shared cab ride for 3 people to national gallery of modern art.",
-    "!!! can you confirm that you want a shared ride, cab for 3 people to national gallery of modern art. is that correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya is the closest."
   ],
   [
-    "!!! please confirm the following details: you want to ride to 3200 mooley street, and you want to ride share. is that correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm the following details. you want a cab for 1 person to travel to the gymnasium of the gymnasium of 1 person. a shared ride will be okay.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " izakaya restaurant has 1 person."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"the first floor apartment complex\" ; number_of_seats = \"1\") & i have 1 person in the apartment complex who needs 1 seat in a taxi, correct?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $14.92."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1530 south el camino way\" ; ride_fare = \"$14.92\") & i booked the cab and it's on the way. it'll cost you approximately $14.92.",
-    "irm ( destination = \"the park lot\" ; number_of_seats = \"1\" ; ride_type = \"regular\") & please confirm the details of your regular ride to the park lot. you want a ride with 1 seat to the park lot.",
-    "irm ( destination = \"1535 bancroft street\" ; number_of_seats = \"1\" ; ride_type = \"luxury\") & i'll let you know the details. the luxury ride will be for 1 to 1535 bancroft street, ride"
+    " iced tea is $14.92."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! can you confirm the details of the cab's for 1 to california state capitol museum. you want a shared ride to california state capitol museum. is that correct?",
-    "!!! please confirm the details: you want a shared ride to california state capitol museum for 1 person.",
-    "!!! can you confirm the details of a shared ride to california state capitol museum for 1 person?",
-    "!!! can you please confirm the details? a shared ride for 1 person to california state capitol museum."
+    " izakaya, california state capitol museum."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm the following details: you want a shared ride for 2 people to mathilda garden apartments",
-    "!!! can you confirm that you need a shared ride for 2 people. is that right?",
-    "irm ( destination = \"malloy apartments\" ; shared_ride = \"true\") & okay, you want a cab for 2 people and you want an intimate ride to mathilda garden apartments. is that correct?",
-    "!!! please verify the details of the following details: you would like a shared cab for 2 to mathilda garden apartments."
+    " izakaya, do you have any restaurant preferences?"
   ],
   [
-    "!!! please confirm that you want to ride sharing to 1700 laguna street.",
-    "!!! please confirm the details: you want a shared ride to 1700 laguna street, cab for 2 to 1600 laguna street.",
-    "!!! please confirm the details. you need a cab for 2 to 1800 laguna street, shared ride, okay.",
-    "!!! confirm this, you want a shared ride for 2 people. is that correct?",
-    "!!! please verify the following details: you want a shared cab ride to 1800 laguna street. you want a cab for 2 people and you prefer a cab."
+    " izakaya is 1700 laguna street."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is 8."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "irm ( destination = \"1700 south san francisco boulevard\" ; number_of_seats = \"2\" ; ride_type = \"luxury\") & please verify the following details: you need a ride to 1700 north san francisco boulevard, luxury ride",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $15.90."
   ],
   [
-    "!!! i have 3 seats on a shared ride for 3 people to 2050 broadway.",
-    "!!! can you confirm the details? you want a cab for 3 people traveling together to 2050 broadway, and you want shared ride.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm the following details: you would like to ride share on a cab for 3 people and you prefer shared ride.",
-    "!!! please confirm: you want to go to 2050 broadway for 3 people, going to 2050 broadway, shared ride is true."
+    " izakaya is 2050 broadway."
   ],
   [
-    "!!! please confirm: ride for 1 person to 1100 foster square lane #150.",
-    "irm ( destination = \"1100 foster square lane #150\" ; shared_ride = \"true\") & so you'd like a cab sharing a ride to 1100 foster square lane #150. does that sound right?",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!! please confirm: cab for 1 person to 1100 foster square lane #150, shared ride is true.",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is in 1100 foster square lane #150."
   ],
   [
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    " iced tea is $14.78."
   ]
 ]

@@ -1,9 +1,9 @@
 
-from site import abs_paths
 import torch
 import torch.nn as nn
 from torch.nn import CrossEntropyLoss
 from model.GPT2Adapter import GPT2Adapter
+from collections import defaultdict
 
 class Seq2SeqToD(nn.Module):
 
@@ -18,19 +18,12 @@ class Seq2SeqToD(nn.Module):
         self.first_task = True
         self.reply_memory = []
         self.task_list_seen = []
+        self.fisher = defaultdict(list)
+        self.optpar = defaultdict(list)
 
     def set_number_of_tasks(self,n_tasks):
         self.n_tasks = n_tasks
 
-    def get_masks(self,t,s):
-        masks = {}
-        for layer_id in range(12): ##12 hidden layers
-            fc1_key = 'model.adapter_blocks.'+str(layer_id)+'.fc1' 
-            fc2_key = 'model.adapter_blocks.'+str(layer_id)+'.fc2' 
-            masks[fc1_key],masks[fc2_key] = self.model.adapter_blocks[layer_id].mask(t,s)  ##gfc1, gfc2
-            key = 'model.adapter_blocks.'+str(layer_id)+'.capsule_net.tsv_capsules.larger' #gfc1
-            masks[key] =  self.model.adapter_blocks[layer_id].capsule_net.tsv_capsules.mask(t,s)
-        return masks
 
     def compute_PPL(self,input_ids,label,task_id=-1,device='cuda'):
         with torch.no_grad():

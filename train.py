@@ -18,7 +18,6 @@ from transformers import (WEIGHTS_NAME, AdamW, get_linear_schedule_with_warmup,
                                   DistilBertConfig, DistilBertForMaskedLM, DistilBertTokenizer,
                                   T5Config,T5ForConditionalGeneration,T5Tokenizer)
                                 
-
 MODEL_CLASSES = {
     'gpt2': (GPT2Config, GPT2LMHeadModel, GPT2Tokenizer),
     'openai-gpt': (OpenAIGPTConfig, OpenAIGPTLMHeadModel, OpenAIGPTTokenizer),
@@ -28,38 +27,59 @@ MODEL_CLASSES = {
     't5':(T5Config,T5ForConditionalGeneration,T5Tokenizer)
 }
 
+prompt = {"sgd_hotels":"find hotel and ratings","sgd_services":"book doctor appointments","sgd_alarm":"set up alarm time",\
+            "sgd_events":"show when and where event is","sgd_buses":"confirm leaving time, passengers and fare of buses","sgd_weather":"show temperature and wind","sgd_rentalcars":"rent cars"\
+                ,"sgd_calendar":"begin and end time","sgd_travel":"travel","sgd_ridesharing":"share a ride","sgd_media":"media",\
+                    "sgd_music":"music","sgd_movies":"find movie and theater","sgd_payment":"make payment to people","sgd_trains":"journey time and money","sgd_banks":"transfer and balance in checking/saving account"}
+
 class TextSeqDataset(Dataset):
-    def __init__(self, tokenizer, args, file_paths,max_seq=80,mode = "train"):
+    def __init__(self, tokenizer, args, file_paths,max_seq=80,mode = "train",with_lamol = False,with_replay = False, task_id = -1,task_name = ""):
         self.examples = []
         self.labels = []
         self.masks = []
+        if with_replay:
+            file_paths.append("replay")
         for filepath in file_paths:
             with open("./data/"+filepath+"/"+mode+".txt", encoding="utf-8") as f:
                 for line in f:
                     line = line.strip()      
                     raw_str = line.lower() ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced
+                    raw_str_lamol = "["+task_name.split("_")[1]+"] "+ prompt[task_name]+" "+line.lower() if task_name in prompt else  "["+task_name.split("_")[1]+"] "+ task_name.split("_")[1]+" "+line.lower()
                     if len(raw_str.split()) > max_seq -1: ##截断
                         raw_str = ' '.join(raw_str.split()[:max_seq -1])
                     raw_str += ' ' + tokenizer.eos_token ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced <|endoftext|>
-                    if args.use_tokenize: ###True
-                        tokenized_text = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_str))
-                    else:
-                        tokenized_text = tokenizer.convert_tokens_to_ids(raw_str.split())
+                    
+                    if len(raw_str_lamol.split()) > max_seq -1: ##截断
+                        raw_str_lamol = ' '.join(raw_str_lamol.split()[:max_seq -1])
+                    raw_str_lamol += ' ' + tokenizer.eos_token ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced <|endoftext|>
+                    
+                    tokenized_text_lamol = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_str_lamol))
+                    tokenized_text = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_str))
 
                     label = [-1] *  max_seq
                     label[:len(tokenized_text)] = tokenized_text ##raw_str
                     mask = [1] *  max_seq
 
 
-                    if len(tokenized_text) < max_seq: ##pad
+                    if len(tokenized_text) < max_seq: 
                         mask[-(max_seq - len(tokenized_text)):] = [0] * (max_seq - len(tokenized_text))
                         tokenized_text = tokenized_text + [0] * (max_seq - len(tokenized_text))  ###补零
                     else:
                         tokenized_text = tokenized_text[:max_seq]
                     
+
+                    if len(tokenized_text_lamol) < max_seq: 
+                        tokenized_text_lamol = tokenized_text_lamol + [0] * (max_seq - len(tokenized_text_lamol))  ###补零
+                    else:
+                        tokenized_text_lamol = tokenized_text_lamol[:max_seq]
+
                     self.examples.append(tokenized_text)
                     self.masks.append(mask)
                     self.labels.append(label)
+                    if mode == "train" and with_lamol:
+                        self.examples.append(tokenized_text_lamol)
+                        self.masks.append(mask)
+                        self.labels.append(mask)
 
         self.labels = self.examples
 
@@ -69,7 +89,6 @@ class TextSeqDataset(Dataset):
     def __getitem__(self, item):
         return torch.tensor(self.examples[item]), torch.tensor(self.masks[item]), torch.tensor(self.labels[item])
 
-
 def set_seed(args):
     random.seed(args.seed)
     np.random.seed(args.seed)
@@ -77,63 +96,34 @@ def set_seed(args):
     if args.n_gpu > 0:
         torch.cuda.manual_seed_all(args.seed)
 
-def mask_tokens(inputs, tokenizer, args):
-    """ Prepare masked tokens inputs/labels for masked language modeling: 80% MASK, 10% random, 10% original. """
-    labels = inputs.clone()
-    # We sample a few tokens in each sequence for masked-LM training (with probability args.mlm_probability defaults to 0.15 in Bert/RoBERTa)
-    probability_matrix = torch.full(labels.shape, args.mlm_probability)
-    special_tokens_mask = [tokenizer.get_special_tokens_mask(val, already_has_special_tokens=True) for val in labels.tolist()]
-    probability_matrix.masked_fill_(torch.tensor(special_tokens_mask, dtype=torch.bool), value=0.0)
-    masked_indices = torch.bernoulli(probability_matrix).bool()
-    labels[~masked_indices] = -1  # We only compute loss on masked tokens
-
-    # 80% of the time, we replace masked input tokens with tokenizer.mask_token ([MASK])
-    indices_replaced = torch.bernoulli(torch.full(labels.shape, 0.8)).bool() & masked_indices
-    inputs[indices_replaced] = tokenizer.convert_tokens_to_ids(tokenizer.mask_token)
-
-    # 10% of the time, we replace masked input tokens with random word
-    indices_random = torch.bernoulli(torch.full(labels.shape, 0.5)).bool() & masked_indices & ~indices_replaced
-    random_words = torch.randint(len(tokenizer), labels.shape, dtype=torch.long)
-    inputs[indices_random] = random_words[indices_random]
-
-    # The rest of the time (10% of the time) we keep the masked input tokens unchanged
-    return inputs, labels
-
 
 def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
     args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu) ##1
     train_sampler = RandomSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=args.train_batch_size)
     t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
-    no_decay = ['bias', 'LayerNorm.weight']
-    #for n,p in model.named_parameters():
-    #    print(n)
+    if args.mode == "GPT2":
+        no_decay = ['bias', 'LayerNorm.weight']
     
-    optimizer_grouped_parameters = [
+        optimizer_grouped_parameters = [
         {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': args.weight_decay},
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
     ]
-    if args.mode == "GPT2":
         optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate * 0.01, eps=args.adam_epsilon)
     elif args.mode == "adapter":
         optimizer_grouped_parameters = [
         {'params': [p for n, p in model.named_parameters() if "adapter" in str(n).lower() ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate},
-        {'params': [p for n, p in model.named_parameters() if "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':0.0}
+        {'params': [p for n, p in model.named_parameters() if "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':args.learning_rate * 0.01}
     ]
         parameters_to_update = [p for n, p in model.named_parameters() ]#if "adapter" in str(n) or "ln" in str(n) or "lm" in str(n)]
         optimizer = AdamW(optimizer_grouped_parameters,  eps=args.adam_epsilon)
-    if args.mode == "ctr":
-        optimizer_grouped_parameters = [
-        {'params': [p for n, p in model.named_parameters() if "adapter" in str(n).lower() and "semantic_capsules.fc1."+str(task_id) in str(n).lower() ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate},
-        {'params': [p for n, p in model.named_parameters() if "adapter" in str(n).lower() and "semantic_capsules.fc1."+str(task_id) not in str(n).lower() ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate * 0.1},
-        {'params': [p for n, p in model.named_parameters() if "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':0.0}
-        ]
+
         optimizer = AdamW(optimizer_grouped_parameters,  eps=args.adam_epsilon)
     # Prepare optimizer and schedule (linear warmup and decay)
     
 
     #scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=t_total)
-    if args.mode == "adapter" or args.mode == 'ctr':
+    if args.mode == "adapter":
         model.model.resize_token_embeddings(len(tokenizer))
     elif args.mode == "GPT2":
         model.resize_token_embeddings(len(tokenizer))
@@ -158,11 +148,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                 loss = outputs
             elif args.mode == "GPT2":
                 outputs = model(inputs,labels = labels)
-                loss = outputs
-            elif args.mode == 'ctr':
-                s=(smax-1/smax)*step/len(train_dataloader)+1/smax
-                outputs = model(inputs, labels=labels,task_id = task_id, s = s)
-                loss = outputs
+                loss = outputs["loss"]
             loss.backward()
             if step % 50 == 0:
                 print(loss)
@@ -172,7 +158,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                 parameters_to_update = [p for n, p in model.named_parameters() ]
                 if args.mode == "GPT2":
                     torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
-                elif args.mode == "adapter" or 'ctr':
+                elif args.mode == "adapter" :
                     torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
                 optimizer.step()
                 #scheduler.step()  
@@ -184,7 +170,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                     logging_loss = tr_loss
     print("BEGIN EVAL!!!!!!!!!!!!!")
     for task_id,domain in enumerate(args.eval_data_file.split(",")[:task_id+1]):
-        eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test")
+        eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test",task_id=task_id,task_name=domain)
         evaluate(args, model, eval_dataset,task_id,tokenizer)
 
     return global_step, tr_loss / global_step
@@ -208,7 +194,7 @@ def evaluate(args, model, eval_dataset,task_id,tokenizer):
             labels = labels.to(args.device)
 
             with torch.no_grad():
-                if args.mode == "adapter" or args.mode == "ctr":
+                if args.mode == "adapter" :
                     outputs =  model(inputs, labels=labels,task_id = task_id,s = 400)
                     lm_loss = outputs
                         
@@ -227,6 +213,7 @@ def evaluate(args, model, eval_dataset,task_id,tokenizer):
                         text = text.replace('Ġ',' ')
                         raw_text = text[:-1].split(' & ')[0]# + ' & '
                         tokenized_text = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_text))
+                        #tokenized_text = [0] * (80-len(tokenized_text)-1) +[50256]+tokenized_text ##change
                         generated = torch.LongTensor(tokenized_text).unsqueeze(0).cuda()
                         for step in range(60):
                             outputs = model(generated,labels = None,task_id = task_id)
@@ -355,7 +342,6 @@ def main():
     else:
         domains = args.train_data_file.split(",")
     print(domains)
-    TASK_NUM = 40#len(domains)
 
     config_class, model_class, tokenizer_class = MODEL_CLASSES[args.model_type] ##<class 'transformers.models.gpt2.configuration_gpt2.GPT2Config'> <class 'transformers.models.gpt2.modeling_gpt2.GPT2LMHeadModel'> <class 'transformers.models.gpt2.tokenization_gpt2.GPT2Tokenizer'>
     config = config_class.from_pretrained(args.config_name if args.config_name else args.model_name_or_path,
@@ -372,38 +358,25 @@ def main():
                                         from_tf=bool('.ckpt' in args.model_name_or_path),
                                         config=config,
                                         cache_dir=args.cache_dir if args.cache_dir else None)
-    elif args.mode == "adapter" or args.mode == 'ctr':
-        model = Seq2SeqToD(args,TASK_NUM)
+    elif args.mode == "adapter" :
+        model = Seq2SeqToD(args,1)
     model.to(args.device)
     args.split = True
     ################################# Training ########################################
     if args.split: ###分开训练
         for task_id,domain in enumerate(domains):
-            if args.mode == "adapter" or args.mode == 'ctr':
+            if args.mode == "adapter" :
                 model.task_list_seen.append(domain)
             print("======================= domain:",domain,"===========================")
-            train_dataset = TextSeqDataset(tokenizer, args, file_paths= [domain], max_seq=args.max_seq)
+            generate_replay(args,task_id=task_id,domain_names=domains,tokenizer=tokenizer,model = model,mode = "REPLAY",sample_size=10)
+            train_dataset = TextSeqDataset(tokenizer, args, file_paths= [domain], max_seq=args.max_seq,task_id=task_id,task_name=domain,with_lamol=False,with_replay=True)
             global_step, tr_loss = train(args, train_dataset, model, tokenizer,task_id)
             ########################### 此domain训练完成 ######################################
-            mask=model.get_masks(task_id,s = 400)
-            for key,value in mask.items():
-                mask[key]=torch.autograd.Variable(value.data.clone(),requires_grad=False)
-            #print(mask.keys())
-            if task_id==0:  ###mask_pre是所有之前domain的重要参数，之后不能更新的
-                mask_pre=mask
-            else:
-                for key,value in mask_pre.items():
-                    mask_pre[key]=torch.max(mask_pre[key],mask[key])
-            mask_back = {}
-            for n,p in model.named_parameters(): ##model.adapter_blocks.
-                vals=get_view_for(n,p,mask_pre)
-                if vals is not None:
-                    mask_back[n]=1-vals
             print(" global_step = ", global_step," average loss = ", tr_loss)
             print("Saving model checkpoint to", args.output_dir)
             if args.mode == "GPT2":
                 model.save_pretrained(args.output_dir)
-            elif args.mode == "adapter" or args.mode == 'ctr':
+            elif args.mode == "adapter" :
                 torch.save(model, args.output_dir + "/adapter.ckpt")
             tokenizer.save_pretrained(args.output_dir)
             torch.save(args, os.path.join(args.output_dir, 'training_args.bin')) ##save arg
@@ -412,7 +385,7 @@ def main():
             print("Loading Model checkpoint.....")
             if args.mode == "GPT2":
                 model = model_class.from_pretrained(args.output_dir)
-            elif args.mode == "adapter" or args.mode == 'ctr':
+            elif args.mode == "adapter" :
                 model = Seq2SeqToD(args)
                 model = torch.load(args.output_dir+"/adapter.ckpt")
             tokenizer = tokenizer_class.from_pretrained(args.output_dir, do_lower_case=args.do_lower_case)
@@ -424,7 +397,7 @@ def main():
         print("Saving model checkpoint to", args.output_dir)
         if args.mode == "GPT2":
             model.save_pretrained(args.output_dir)
-        elif args.mode == "adapter" or args.mode == 'ctr':
+        elif args.mode == "adapter":
             torch.save(model, args.output_dir + "/adapter.ckpt")
         tokenizer.save_pretrained(args.output_dir)
         torch.save(args, os.path.join(args.output_dir, 'training_args.bin')) ##save arg
@@ -433,27 +406,11 @@ def main():
         print("Loading Model checkpoint.....")
         if args.mode == "GPT2":
             model = model_class.from_pretrained(args.output_dir)
-        elif args.mode == "adapter" or args.mode == 'ctr':
+        elif args.mode == "adapter":
             model = Seq2SeqToD(args)
             model = torch.load(args.output_dir+"/adapter.ckpt")
         tokenizer = tokenizer_class.from_pretrained(args.output_dir, do_lower_case=args.do_lower_case)
         model.to(args.device)
-
-    #############################  Evaluation  ###################################
-    checkpoints = [args.output_dir]
-    if args.eval_all_checkpoints:
-        checkpoints = list(os.path.dirname(c) for c in sorted(glob.glob(args.output_dir + '/**/' + WEIGHTS_NAME, recursive=True)))
-    for checkpoint in checkpoints:
-        if args.mode == "GPT2":
-            model = model_class.from_pretrained(args.output_dir)
-        elif args.mode == "adapter" or args.mode == 'ctr':
-            model = Seq2SeqToD(args)
-            model = torch.load(args.output_dir+"/adapter.ckpt")
-        model.to(args.device)
-        domains = args.eval_data_file.split(",")
-        for task_id,domain in enumerate(domains):
-            eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test")
-            evaluate(args, model, eval_dataset,task_id,tokenizer)    
 
 if __name__ == "__main__":
     main()

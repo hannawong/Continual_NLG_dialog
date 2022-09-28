@@ -1,9 +1,8 @@
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-MAX_SEQ = 300
+MAX_SEQ = 200
 class MyAdapter(nn.Module):
     def __init__(self, config, bottleneck):
         super(MyAdapter, self).__init__()
@@ -20,6 +19,19 @@ class MyAdapter(nn.Module):
         x_ = self.project_up(x_)
         #x_  = x + x_ #residual connection
         return x_
+
+class MixAdapter(nn.Module):
+    def __init__(self, config, bottleneck_size=400, adapter_num=25):
+        super(MixAdapter, self).__init__()
+        # 20 adapters with task_id 0--19, when task_id==-1 means dont use adapter
+        self.mixadapter = nn.ModuleList([MyAdapter(config, bottleneck_size) for _ in range(adapter_num)])
+
+    def forward(self, x, task_id=-1,s = -1):
+        if task_id==-1:
+            return x
+        else:
+            return self.mixadapter[0](x) ###change!!!
+
 class CapsuleLayerSemantic(nn.Module): #it has its own number of capsule for output
     def __init__(self, config, adapter_num):
         super().__init__()
@@ -51,19 +63,61 @@ class CapsuleLayerTSV(nn.Module): #it has its own number of capsule for output
         self.elarger=torch.nn.Embedding(adapter_num,768)
         self.larger=torch.nn.Linear(3,768)##config.semantic_cap_size,config.bert_hidden_size),each task has its own larger way
         self.gate=torch.nn.Sigmoid()
-        self.softmax = torch.nn.Softmax()
+        self.softmax = torch.nn.Softmax(dim = -1)
         self.num_iterations = 3
-        self.route_weights = nn.Parameter(torch.randn(self.num_capsules, self.num_routes, self.in_channel, self.class_dim))
-        self.tsv = torch.ones(adapter_num,adapter_num).data.cuda()# for backward
+        #self.route_weights = nn.Parameter(torch.randn(self.num_capsules, self.num_routes, self.in_channel, self.class_dim))
+        self.route_weights = nn.ParameterList([nn.Parameter(torch.randn(self.num_capsules, 1, self.in_channel, self.class_dim)) for _ in range(adapter_num)] )
+        #self.W = nn.ParameterList([nn.Parameter(torch.randn(3,240,80)) for _ in range(adapter_num)])
+        self.tsv = torch.tril(torch.ones(40,40)).data.cuda()# for backward
         self.config = config
 
     def forward(self, t,x,s):
+        '''
+        x = x[:,t,:]
+        length = x.shape[1] // 3
+        bz = x.shape[0]
+        print(x.shape) ##[16,240]
+        u_j_i = x[None, :, None, None, :] @ self.W[t][:, None, None, :length*3, :length] ##[1,10,40,1,80*3],[3,1,40,80*3,80]
+        print(u_j_i.shape)
+        u_j_i = u_j_i.view(bz,3,length)
+        #u_j_i = torch.cat([self.W[t](x),self.W[t+1](x),self.W[t+2](x)],dim = 1) ####[16,3,80]
+        print(u_j_i.shape) ##[16,3,80]
+        b_j_i = torch.zeros(16,3).cuda() + 0.00001
+        s_j = u_j_i
+        for iter in range(3):
+            v_j = self.squash(s_j) ##[16,3,80]
+            a_i_j = (u_j_i * v_j).sum(dim=-1) ##[16,3]
+            print(b_j_i.shape,a_i_j.shape)
+            print(b_j_i)
+            b_j_i = torch.add(b_j_i,a_i_j) ##[16,3]
+            print(b_j_i)
+            c_i_j = self.my_softmax(b_j_i,dim=1)
+            print(c_i_j)
+            c_i_j = c_i_j.unsqueeze(2)
+
+            s_j = c_i_j * u_j_i #s_j, [16,3,80]
+            print(s_j.shape)
+        
+        h_output = s_j.view(bz,length,-1)
+
+        h_output= self.larger(h_output)
+        #glarger=self.mask(t=t,s=s)
+        #h_output=h_output*glarger.expand_as(h_output)
+        #print(h_output.shape)
+        return h_output
+        '''
+
+        
+        
+        
         batch_size = x.size(0) ##x:[10,40,80*3]; self.route_weights:[3,40,80*3,80]
+        
         length = int(x.size(2) // 3)
-        try:
-            priors = x[None, :, :, None, :] @ self.route_weights[:, None, :, :length*3, :length] ##[1,10,40,1,80*3],[3,1,40,80*3,80]
-        except:
-            print(x[None, :, :, None, :].shape,self.route_weights[:, None, :, :length*3, :length].shape)
+        priors = []
+        for k in range(40):
+            x_ = x[:,k,:]
+            priors.append(x_[None, :, None, None, :] @ self.route_weights[k][:, None, :, :length*3, :length]) ##[1,10,40,1,80*3],[3,1,40,80*3,80]
+        priors = torch.cat(priors,2)
 
         logits = torch.zeros(*priors.size()).cuda()
         mask=torch.zeros(self.adapter_num).data.cuda()
@@ -74,12 +128,12 @@ class CapsuleLayerTSV(nn.Module): #it has its own number of capsule for output
             logits = logits*self.tsv[t].data.view(1,1,-1,1,1) #multiply 0 to future task
             logits = logits + mask.data.view(1,1,-1,1,1) #add a very small negative number
             probs = self.my_softmax(logits, dim=2)
-            vote_outputs = (probs * priors).sum(dim=2, keepdim=True) #voted
-            outputs = self.squash(vote_outputs)
+            vote_outputs = (probs * priors).sum(dim=2, keepdim=True) #s_j
+            outputs = self.squash(vote_outputs) ##v_j
 
             if i != self.num_iterations - 1:
-                delta_logits = (priors * outputs).sum(dim=-1, keepdim=True)
-                logits = logits + delta_logits
+                delta_logits = (priors * outputs).sum(dim=-1, keepdim=True) ##logits: b_ij. prior: u_j|i; outputs: v_j
+                logits = logits + delta_logits   ##delta_logits: a_ij
 
         h_output = vote_outputs.view(batch_size,length,-1)
 
@@ -149,3 +203,45 @@ class BertAdapterCapsuleMask(nn.Module):
         h=h*gfc2.expand_as(h)
 
         return x+h
+
+'''
+class BertAdapterCapsuleMask(nn.Module):
+    def __init__(self,config, bottleneck, adapter_num):
+        super().__init__()
+        self.capsule_net = CapsNet(config,adapter_num)
+        self.config = config
+        self.adapter_num = adapter_num
+        self.gelu = torch.nn.GELU()
+        self.efc1=torch.nn.Embedding(adapter_num,bottleneck)
+        self.efc2=torch.nn.Embedding(adapter_num,768)
+        self.gate=torch.nn.Sigmoid()
+
+        self.fc1=torch.nn.Linear(768,bottleneck)
+        self.fc2=torch.nn.Linear(bottleneck,768)
+        self.activation = torch.nn.GELU()
+        self.mix_ffn = MixAdapter(config,bottleneck,adapter_num)
+
+    def mask(self,t,s=1):
+        efc1 = self.efc1(torch.LongTensor([t]).cuda())
+        efc2 = self.efc2(torch.LongTensor([t]).cuda())
+        gfc1=self.gate(s*efc1)
+        gfc2=self.gate(s*efc2)
+        return [gfc1,gfc2]
+
+    def forward(self,x,task_id,s):
+        # knowledge sharing module (KSM)
+        #capsule_output = self.capsule_net(task_id,x,s) ##x:[10,80,768]
+        #h = x + capsule_output #skip-connection, [10,80,768]
+
+        # task specifc module (TSM)
+        gfc1,gfc2=self.mask(t=task_id,s=s) 
+        h=self.gelu(self.fc1(x)) ##[10,80,50]
+        h=h*gfc1.expand_as(h)
+        h=self.gelu(self.fc2(h))
+        h=h*gfc2.expand_as(h)
+
+        x = x+h
+        x = self.mix_ffn(x,task_id)
+
+        return h
+'''

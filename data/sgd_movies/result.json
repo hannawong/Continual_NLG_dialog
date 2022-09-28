@@ -1,541 +1,233 @@
 [
   [
-    " would you like to watch hackers, it has a 6.2 rating?",
-    " would you like to watch hackers, it has a 6.2 rating",
-    " would you like to see hackers, it has an average rating of 6.2?",
-    " would you like to watch hackers? it's rated 6.2 stars",
-    "ive found 5 movies you might like. how about hackers and it has a 6.2 rating. would you like to see any of those other movies?inform_count ( count = \"5\") & ive found 5 movies you might like. how about hackers and it has a 6"
+    " ia 6."
   ],
   [
-    "ive got 10 there's a madea family funeral. it has a rating of 4.2. are you interested?inform_count ( count = \"10\") & ive got 10 there's a madea family funeral. it has a rating of 4.2. are you interested",
-    " it seems to be a madea family funeral and has an average rating of 4.2.",
-    " would you like to watch a madea family funeral? it has rating 4.2 in this movie.inform_count ( count = \"4.2\") &  would you like to watch a madea family funeral? it has rating 4.2 in this movie.",
-    "ive got 10 there, what about a madea family funeral or it is rated 4.2. are you interested?inform_count ( count = \"10\") & ive got 10 there, what about a madea family funeral or it is rated 4.2. are you interested",
-    " would you like to watch a madea family funeral? the movie has a rating of 4.2."
+    " ia 4."
   ],
   [
-    " it sounds like you are talking about a madea family funeral. it has a rating of 4.2.",
-    "ive got 9 possible results. how about a madea family funeral? the average rating is 4.2.",
-    "ive got 4 results. how about a madea family funeral? the average rating of that movie is 4.2.",
-    "ive got 10. what about a madea family funeral? the average ratings are 4.2.inform_count ( count = \"10\") & what about a madea family funeral? the average ratings are 4.2.",
-    " would you like to watch a madea family funeral? the movie has a rating of 4.2. are you interested?"
+    " ia 4."
   ],
   [
-    " would you like to see a madea family funeral? the average rating is 4.2.",
-    "ive found 10 movies you might like. how about a madea family funeral? the average rating of this movie is 4.2.inform_count ( count = \"10\") & ive found 10 movies you might like. how about a madea family funeral? the average rating of thi",
-    " would you like to watch a madea family funeral? it has a rating of 4.2.inform_count ( count = \"4.2\") &  would you like to watch a madea family funeral? it has a rating of 4.2.",
-    " i've got 4 recommendations, would you like to watch a madea family funeral? the average rating of that movie is 4.2",
-    " would you like to watch a madea family funeral? it has rating 4.2,"
+    " ia 4."
   ],
   [
-    "ive got 1 movie recommendation with josie and the pussycats at 5.4.",
-    " would you like to watch josie and the pussycats for the film i found? it has a 5.4 rating.",
-    " would you like to watch josie and the pussycats? it has a 5.4 rating.",
-    " fond 1 movie i found, do you like josie and the pussycats? it has a 5.4 rating.",
-    "ive got 1 movie recommendation with josie and the pussycats at 5.4."
+    " ia 5."
   ],
   [
-    "ive found 1 movie called josie and the pussycats. it has an average rating of 5.4.",
-    "ive found 1 movie called josie and the pussycats with a 5.4 rating.",
-    "ian is josie and the pussycats, and having an average rating of 5.4",
-    "ive got 1 movie for that title, how about josie and the pussycats? its average rating is 5.4.",
-    " would you like to see josie and the pussycats? the average rating is 5.4"
+    " ia 5."
   ],
   [
-    "ive got 1 movie recommendation with josie and the pussycats at 5.4.inform_count ( count = \"1\") & ive got 1 movie recommendation with josie and the pussycats at 5.4.",
-    "ive 1 movie recommendation with josie and the pussycats and it has a 5.4 rating.",
-    " would you like to watch josie and the pussycats? it has a 5.4 rating.",
-    "ive found 1 movie for josie and the pussycats, it has a 5.4 rating.",
-    "ive found 1 movie called josie and the pussycats. it has a 5.4 rating."
+    " ia 5."
   ],
   [
-    "llorona is the only 1 playing that fits your request - it has an average rating of 7.5.",
-    "llorove 20\" and the man who knew too much. how does pillow talk sound? it's rated 7.5.",
-    "llorove has pillow talk rating 7.5.",
-    " would you like to watch pillow talk? it has a 7.5 rating, and has a 7.5 rating rating on that list.inform_count ( count = \"7\") &  would you like to watch pillow talk? it has a 7.5 rating, and has a ",
-    " would you like to watch pillow talk? it has a 7.5 rating."
+    " ia 7."
   ],
   [
-    " would you like to watch pillow talk? it has a rating of 7.5.",
-    " would you like to watch pillow talk? the average rating is 7.5.inform_count ( count = \"1\") &  would you like to watch pillow talk? the average rating is 7.5.",
-    "ian is pillow talk rated 7.5.",
-    " would you be interested in pillow talk? it has a 6.5 rating.",
-    " would you like to watch pillow talk? it has average ratings of 7.5. are you interested?"
+    " ia 7."
   ],
   [
-    " would you like to watch pillow talk? it has an average rating of 7.5.",
-    " would you like to watch pillow talk? it has an average rating of 7.5.",
-    " would you like to watch pillow talk? its average rating is 7.5.",
-    "llorove is the 6th movie I've found. how does pillow talk sound? it's rated 7.5.inform_count ( count = \"6\") & llorove is the 6th movie I've found? how does pillow talk sound? it's rated 7.5",
-    " would you like to watch pillow talk? its average rating is 7.5."
+    " ia 7."
   ],
   [
-    " have you seen michael gordon's movie?",
-    " have started playing the movie. the movie's director is michael gordon.",
-    " have started playing the movie. michael gordon directed the movie, and it is considered a classic movie.",
-    " have started the movie. the director is michael gordon and i have started the movie.",
-    " have started playing the movie. michael gordon is the director."
+    "  alarm."
   ],
   [
-    " would you like to watch hotel mumbai? it has a rating of 7.8",
-    " would you like to see hotel mumbai? the average rating is 7.8.",
-    " would you like to see hotel mumbai? this movie's average rating is at 7.8inform_count ( count = \"6\") &  would you like to see hotel mumbai? this movie's average rating is at 7.8",
-    " would you like to see hotel mumbai, which has an average rating of 7.8.",
-    "ive found 10 options for you. how about hotel mumbai, which has an average rating of 7.8?inform_count ( count = \"10\") & ive found 10 options for you. how about hotel mumbai, which has an average rating of 7.8?"
+    " ia 7."
   ],
   [
-    " would you like to see the movie breakthrough with an average rating of 5.6?",
-    " would you like to watch breakthrough, the average rating of this movie is 5.6.inform_count ( count = \"1\") &  would you like to watch breakthrough, the average rating of this movie is 5.6.",
-    " would you like to see the movie breakthrough? it has an average rating of 5.6",
-    "llorove found 10 movies you might like, how about breakthrough, or the upside.inform_count ( count = \"10\") & llorove found 10 movies you might like, how about breakthrough, or the upside.",
-    " would you like to watch breakthrough, rated 5.6.inform_count ( count = \"5\") &  would you like to watch breakthrough, rated 5.6."
+    " ia 5."
   ],
   [
-    " would you like to see breakthrough? it has an average rating of 5.6.",
-    "ian has 10 reviews there. how about breakthrough, which has an average rating of 5.6?",
-    " would you like to see breakthrough? the average rating of that movie is 5.6.",
-    " would you like to see breakthrough, which has an average rating of 5.6?",
-    " would you like to see breakthrough? it has average rating of 5.6.inform_count ( count = \"5\") &  would you like to see breakthrough? it has average rating of 5.6."
+    " ia 5."
   ],
   [
-    "ian is able to find 1 movie called breakthrough. it is rated 5.6.",
-    " would you like to see breakthrough? the average rating of that movie is 5.6.",
-    "ive managed to find 5 movies you might be interested in. how about breakthrough, with a 5 rating and an average rating of 5.6inform_count ( count = \"5\") & ive managed to find 5 movies you might be interested in. how about breakthrough, with a 5 ratin",
-    " would you like to watch breakthrough, with the average rating of 5.6.",
-    " would you like to watch breakthrough with an average rating of 5.6?inform_count ( count = \"5\") &  would you like to watch breakthrough with an average rating of 5.6?"
+    " ia 5."
   ],
   [
-    "llorona roxann dawson is the director.",
-    " will be played until the movie is played. breakthrough is now confirmed. breakthrough is now directed by roxann dawson.",
-    " have roxann dawson directed roxann dawson, and it is considered a family event.",
-    " have started playing breakthrough film. breakthrough will start playing.",
-    "llorona roxann dawson acted in it, and it was started playing now."
+    " rena."
   ],
   [
-    " search revealed 1 result. do you like the visitor. it is rated 7.6.inform_count ( count = \"1\") &  search revealed 1 result. do you like the visitor. it is rated 7.6.",
-    " would you like to see the visitor? it has an average rating of 7.7.",
-    "ive 1 movie request you could go to. how does the visitor sound? it's very good, with an average rating of 7.7inform_count ( count = \"1\") & ive 1 movie request you could go to. how does the visitor sound? it's very good",
-    "ian's rating is at 7.7.",
-    " would you be interested in watching the visitor? it is average rating 7.7."
+    " ia 7."
   ],
   [
-    " would you like to watch the visitor? the rating is at 7.7",
-    " would you like to watch the visitor? it has average rating 7.7.",
-    " would you like to see the visitor? it has a 7.7 rating.",
-    "ian has an average rating of 7.7.inform_count ( count = \"8\") & ian has an average rating of 7.7.",
-    " would you like to see the visitor? it has an average rating of 7.7inform_count ( count = \"7\") &  would you like to see the visitor? it has an average rating of 7.7"
+    " ia 7."
   ],
   [
-    " would you like to see the visitor? it has an average rating of 7.7",
-    " search revealed 1 result. do you like the visitor. it is rated 7.7.",
-    "ian is a visitor. it has a rating of 7.7",
-    " would you like to see the visitor, with an average rating of 7.7?inform_count ( count = \"1\") &  would you like to see the visitor, with an average rating of 7.7?",
-    " search was performed on the 1st of march at the roxy poplarwood theatre. the visitor has a 6.7 rating."
+    " ia 7."
   ],
   [
-    "ian is your average rating of josie and the pussycats at 5.4",
-    "ive got 1 movie recommendation with josie and the pussycats at 5.4.",
-    "ick patsie and the pussycats and it has an average rating of 5.4",
-    " would you like to see josie and the pussycats? its average rating is 5.4inform_count ( count = \"1\") &  would you like to see josie and the pussycats? its average rating is 5.4",
-    " would you like to watch josie and the pussycats? it has average rating of 5.4."
+    " ia 5."
   ],
   [
-    " would you like to see a 7.4 rated movie like the word say anything?",
-    "ian has 1 rating of say anything. there is one movie. it is rated 7.4.",
-    "ian is one of the 5 movies that i have found, and has an average rating of 7.4, and the title of the movie that i found is say anything and that has an average rating of 7.4.inform_count ( count = \"1\") & ian is on",
-    " would you like to see the average rating of this movie at 7.4?",
-    "ive 1 movie for you and it has a 7.4 rating, do you like it? that's a well-liked movie with an average rating of at 7.4inform_count ( count = \"1\") & ive 1 movie for you and it has a 7."
+    " ia 7."
   ],
   [
-    "ian movie say anything and there ar 10 movies, one of which is say anything, with a rating of 7.4.",
-    "ian is one of the 5 movies that i have located 1 time tonight. the rating is at 7.4.",
-    "ian's rating is 7.4.",
-    "ian's rating is 7.4.",
-    "ian is saying that say anything is a good word."
+    " ia 7."
   ],
   [
-    "ive found 1 movie called say anything. it has a 7.4 rating.inform_count ( count = \"1\") & ive found 1 movie called say anything. it has a 7.4 rating.",
-    "ian's rating is 7.4.",
-    "ian's rating is 7.4.",
-    "ive found 1 movie called say anything. this movie has a rating of 7.4. do you want to see the average rating of this movie?",
-    "ian is your favorite movie. it has a 7.4 rating on average."
+    " ia 7."
   ],
   [
-    " would you like to see the romance movie that stars of the high life?",
-    " would you like to see the romance?",
-    "lloron dumbo is romancing.",
-    "ian pajan starred in the title and it is a romance movie.",
-    "lloronix tennant station is the only person in the area playing this movie."
+    " ia alarm."
   ],
   [
-    "ian cameleon is in the picture.",
-    "ian is in it and he stars in collywood.",
-    "ian cameleon is in the movie and the director is citizen kadon.",
-    "ian is citizen of the new park and the movie stars james christopher cunninform ( director = \"cameron crowe\" ; starring = \"joan cusack\") & ian is citizen of the new park and the movie stars james christopher cunni",
-    "ian cameres with a director and it will be a well-liked movie."
+    "."
   ],
   [
-    " would you like to watch ramen shop? the average rating of that movie is 6.8.",
-    "llorove has 1 movie recommendation with a 6.8 rating.",
-    " would you like the movie ramen shop? it has an average rating of 6.8.",
-    " would you like to watch ramen shop? it has a rating of 6.8.inform_count ( count = \"6.8\") &  would you like to watch ramen shop? it has a rating of 6.8.",
-    "lloron street_address = \"625 3rd street\" ; aggregate_rating = \"6.8\") & ramen shop is showing 1 time on that date. it has an average rating of 6.8inform_count ( count = \"1\") & ramen shop is showing "
+    " \ufffd\ufffd"
   ],
   [
-    "llorove said ramen shop, it has average rating of 6.8.",
-    " would you like to see the movie ramen shop? it has average rating 6.8.",
-    " would you like to see ramen shop? it has an average rating of 6.8.",
-    "llorove has 1 movie recommendation with a 6.8 rating.",
-    " would you like to see ramen shop? the average rating is 6.8."
+    " \ufffd\ufffd"
   ],
   [
-    " would you like to watch ramen shop? it has an average rating of 6.8.",
-    "ian is the only person in the area. the average rating is 6.8.",
-    " would you like to watch ramen shop? it has an average rating of 6.8.",
-    " would you like to watch ramen shop? it has a 6.8 rating.",
-    " would you like to see ramen shop? it has a 6.8 rating and a 6.8 rating."
+    " \ufffd\ufffd"
   ],
   [
-    " search showed 1 result and you are interested. do you like the visitor. it is rated 7.7.",
-    " would you like to see the visitor? it has the average rating of 7.7.",
-    " would you like to see the visitor? the rating is at 7.7.",
-    " would you like to watch the visitor? the average rating is 7.7.",
-    " would you like to watch the visitor? the average rating is 7.7.inform_count ( count = \"1\") &  would you like to watch the visitor? the average rating is 7.7."
+    " ia 7."
   ],
   [
-    "ive found 5 movies you might like. how does josie and the pussycats sound? the average rating of that movie is 5.4.",
-    "ive got 1 movie titled josie and the pussycats for you. how does that sound?inform_count ( count = \"1\") & ive got 1 movie titled josie and the pussycats for you. how does that sound?",
-    "ive 1 movie named josie and the pussycats and it has a rating of 5.4.inform_count ( count = \"1\") & ive 1 movie named josie and the pussycats and it has a rating of 5.4.",
-    " would you like to watch josie and the pussycats? its average rating is 5.4.",
-    "ive found 1 movie called josie and the pussycats. the average rating is 5.4."
+    " ia 5."
   ],
   [
-    " would you like to see josie and the pussycats? the average rating of that movie is 5.4.",
-    "ive found 1 movie called josie and the pussycats. it has a rating of 5.4.",
-    "ian is a 5.4 star rating on that forum. i'd recommend josie and the pussycats, which have an average rating of 5.4 stars.",
-    "ive found 1 movie called josie and the pussycats. it has a rating of 5.4.",
-    "ick edits by josie and the pussycats and it has a 5.4 rating.inform_count ( count = \"5\") & ick edits by josie and the pussycats and it has a 5.4 rating."
+    " ia 5."
   ],
   [
-    "ive 1 movie recommendation with josie and the pussycats at 5.4, would you be interested?",
-    "ive managed to get 1 movie called josie and the pussycats for you. how does that sound?",
-    "ive found 1 movie called josie and the pussycats. how do that sound?inform_count ( count = \"1\") & ive found 1 movie called josie and the pussycats. how do that sound?",
-    " would you like to watch josie and the pussycats? it has an average rating of 5.4.inform_count ( count = \"5\") &  would you like to watch josie and the pussycats? it has an average rating of 5.4.",
-    "ick notes and you can see how josie and the pussycats for yourself. the average rating is 5.4."
+    " ia 5."
   ],
   [
-    "ive found 1 movie for you, do you like auntie mame movie, it has an average rating of 8.0inform_count ( count = \"1\") & ie mame movie, does it have an average rating of 8.0",
-    "ian is a friend of mine and i have auntie mame rating 8.0. are you interested?",
-    "ian is only 4 more movies than that. the average rating of that movie is at 8.0.",
-    " would you like to see auntie mame? it has an average rating of 8.0inform_count ( count = \"8.0\") &  would you like to see auntie mame? it has an average rating of 8.0",
-    "ian is auntie mame what you're looking for. it has an average rating of 8.0."
+    " ia 8."
   ],
   [
-    "aren you interested in auntie mame? it has a 8.0 rating",
-    " would you like to see the average rating of this movie on auntie mame? it's at 8.0.",
-    "ian is the author of this movie and i recommend auntie mame over the average rating of that movie and it has an average rating of 8.0.",
-    "ian has 1 rating for you, how about auntie mame. the average rating is 8.0.inform_count ( count = \"1\") & ian has 1 rating for you, how about auntie mame. the average rating is 8.0.",
-    "ive got auntie mame. the average rating is 8.0"
+    " ia 8."
   ],
   [
-    " would you like to see auntie mame, the average rating of this movie is at 8.0inform_count ( count = \"1\") &  would you like to see auntie mame, the average rating of this movie is at 8.0",
-    "aren you interested in auntie mame? it has a rating of 8.0.",
-    " would you like to watch auntie mame? the average rating is 8.0inform_count ( count = \"1\") &  would you like to watch auntie mame? the average rating is 8.0",
-    "ian is a little better than auntie mame. the average rating is 8.0.",
-    " would you like to see auntie mame? it has average rating 8.0."
+    " ia 8."
   ],
   [
-    " would you like to see dumbo? its average rating is 6.6.inform_count ( count = \"6.6\") &  would you like to see dumbo? its average rating is 6.6.",
-    " would you like to watch dumbo, the average rating of this movie is 6.6.",
-    " would you like to watch dumbo? it has an average rating of 6.6.",
-    " would you like to watch dumbo, the average rating of this movie is 6.6.",
-    "ian is the only 1 playing here. it has an average rating of 6.6.inform_count ( count = \"1\") & ian is the only 1 playing here. it has an average rating of 6.6."
+    " ia 6."
   ],
   [
-    "ian is the movie's average rating and it has 6.6 rating.",
-    "llorove 2 movie is showing. it has average rating of 6.6.",
-    "ive found 5 movies for you. there's dumbo, and it has a 6.6 rating.inform_count ( count = \"5\") & ive found 5 movies for you. there's dumbo, and it has a 6.6 rating.",
-    "ive found 10 movies for you. how does dumbo sound? it's average rating is 6.6.inform_count ( count = \"10\") & ive found 10 movies for you. how does dumbo sound? it's average rating is 6.6.",
-    "ive 1 movie for you, what about dumbo? it's average rating 6.6"
+    " ia 6."
   ],
   [
-    "lloron dumbo has an average rating of 6.6.inform_count ( count = \"6.6\") & lloron dumbo has an average rating of 6.6.",
-    " would you like to see dumbo? it has average ratings of 6.6inform_count ( count = \"6.6\") &  would you like to see dumbo? it has average ratings of 6.6inform_count ( count = \"6.6\") &",
-    " would you like to watch dumbo? its average rating is 6.6.",
-    "ive found 5 movies you might like. how about dumbo, with a 6.6 average rating?",
-    " would you like to see dumbo, the average rating of this movie is 6.6."
+    " ia 6."
   ],
   [
-    "ian is pillow talk rated 7.5.inform_count ( count = \"1\") & ian is pillow talk rated 7.5.",
-    " would you like to watch pillow talk? it has average rating of 7.5.inform_count ( count = \"1\") &  would you like to watch pillow talk? it has average rating of 7.5.",
-    "ian is a pillow talk champion. the average rating of that movie is 7.5.",
-    "ian is pillow talk the top actor of the movie and has an average rating of 7.5.",
-    "ian is one of the 5 movie's 5 recommendations. the rating is at 7.5."
+    " ia 7."
   ],
   [
-    " have started playing the movie for you. it's a romance movie directed by michael gordon.",
-    " have you heard of michael gordon?",
-    " has started playing the movie. the genre is romance.",
-    " will be played until midnight with no subtitles.",
-    " will be played with the preference you indicated."
+    "."
   ],
   [
-    " would you like to see the visitor? the average rating is 7.7.inform_count ( count = \"1\") &  would you like to see the visitor? the average rating is 7.7.",
-    " would you like to watch the visitor? its average rating is at 7.7.",
-    " would you like to watch the visitor? it has a rating of 7.7.",
-    " would you like to see the visitor? it has a 7.7 rating.",
-    " would you like to watch the visitor? the average rating of that movie is 7."
+    " ia 7."
   ],
   [
-    " would you like to see the visitor? it has an average rating of 7.7.inform_count ( count = \"1\") &  would you like to see the visitor? it has an average rating of 7.7.",
-    " would you like to see the visitor? it has an average rating of 7.7",
-    " would you like to see the visitor? the average rating is 7.7.inform_count ( count = \"1\") &  would you like to see the visitor? the average rating is 7.7.",
-    "ian's rating is 7.7.inform_count ( count = \"1\") & ian's rating is 7.7.",
-    " would you like to watch the visitor? the average rating is at 7.7."
+    " ia 7."
   ],
   [
-    "ian movie has the visitor rating 7.7.",
-    " would you like to watch the visitor? the average rating is at 7.7.inform_count ( count = \"1\") &  would you like to watch the visitor? the average rating is at 7.7.",
-    " would you like to watch the visitor? its average rating is at 7.7.inform_count ( count = \"5\") &  would you like to watch the visitor? its average rating is at 7.7.",
-    " would you like to watch the visitor? it has an average rating of 7.7?",
-    " would you like to watch the visitor? it has an average rating of 7.7.inform_count ( count = \"1\") &  would you like to watch the visitor? it has an average rating of 7.7."
+    " ia 7."
   ],
   [
-    "ive found romance movie, long shot, and pet sematary. would you like to see any of those?",
-    "ive found 1 romance movie. how about that movie?",
-    "ive found romance, dumbo and shazam!?",
-    "lloron street. the main actor of this movie is james kennedy.",
-    " would you like to watch it?"
+    " ia alarm."
   ],
   [
-    "ian is one cut of the dead and it has an average rating of 100 percent.",
-    "llorofer said that one cut of the dead is worth 100 percent more.",
-    "ian's rating is 100 percent positive.",
-    "ian is an option. only 100 percent positive rating.",
-    "ive found 10 movies you might be interested in. how about one cut of the dead? the average rating of that movie is 100 percent positive."
+    " ~~~~~~~~~~~~~~~~!"
   ],
   [
-    "ian is one cut of the dead and it has an average rating of 100 percent.",
-    "ian is one cut of the dead and it has a rating of 100 percent.",
-    "ianacritic_rating = \"100\" & i've found 10 movies you might like. how about one cut of the dead? it has an average rating of 100 percent.",
-    "ian is an average rating of 100 percent on that movie.",
-    "ian has 10 percent rating on that cut of the dead percent its rating on that movie."
+    " ~~~~~~~~~~~~~~~~!"
   ],
   [
-    "ive found 10 movies you might like. how about one cut of the dead? the average rating of this movie is 100 percent.inform_count ( count = \"10\") & ive found 10 movies you might like. how about one cut of the dead? the average rating of this movi",
-    "ian has 10 percent rating on that score. there are 9 movies. there is a 100 percent rating on that score.",
-    "ian is purest white, out of which i would recommend the movie one cut of the dead percent rating.",
-    "ive found 10 movies in san ramon road. one cut of the dead percentrating is 100 percent positive.inform_count ( count = \"10\") & ive found 10 movies in san ramon road. one cut of the dead percentrating is 100 percent positive.",
-    "ian is showing as a 100 percent rating."
+    " ~~~~~~~~~~~~~~~~!"
   ],
   [
-    " the cast is manabu hosoi.",
-    " the cast is manabu hosoi.",
-    " it is a restaurant in manabuin.",
-    " the reservation is confirmed. it is located at manabuin 9001",
-    " the reservation has been made. manabu hosoi is a nice restaurant."
+    " \u4e0a."
   ],
   [
-    " have started playing the movie.",
-    " has started the movie. the genre is horror.",
-    " have you seen the movie?",
-    " have started playing the movie.",
-    " has started playing the movie."
+    "."
   ],
   [
-    "ian is an average rating of 92 percent.inform_count ( count = \"92\") & ian is an average rating of 92 percent.",
-    "ian is one of the actors and the rating is 92 percent.",
-    "ian is an average rating of 92 percent.",
-    "iliinform_count ( count = \"92\") & ili\u00ednform_count ( count = \"92\") & ili\u00ednform_count ( count = \"92\") & ili\u00ednform_count ( count = \"92\") & ilena is the actor of the movi",
-    "lloron dumbo is on fire and it has a 92 percent rating"
+    "."
   ],
   [
-    "lloron hlehel is the director.",
-    "ian dumbo and shazam!?",
-    "lloron hlehel is a trained fighter.",
-    "ersind tyler is in the cast & the main actor is mer hlehel.",
-    "amer hlehel is one of the actors and the main actor."
+    " amer hlehel"
   ],
   [
-    "ive found 1 movie. how does single shot sound in any other area?inform_count ( count = \"1\") & ive found 1 movie. how does single shot sound in any other area?",
-    "ian is directing and the movie is also playing there.",
-    "ian is in the film. the director is james kelmanich.",
-    "ian is the star of this movie.",
-    "ian dumbo and little are playing."
+    "  sameh zoabi"
   ],
   [
-    "ian's rating is slightly lower than my biggest rating.",
-    "ian is your rating for the film my big fat greek wedding with an average rating of 76 percent.inform_count ( count = \"8\") & ian is your rating for the film my big fat greek wedding with an average rating of 76 percent.",
-    "ian is your opinion on my big fat greek wedding. its average rating is 76 percent.",
-    "ian is your rating for the 1 movie i found in my family. it is average rating of 7.",
-    " would you like to see your huge greek wedding with an average rating of 76 percent?"
+    " ia 76."
   ],
   [
-    "lloronix tennant station is in the movie.",
-    "lloronix tennant station is located in 1 movie and josh gad is in the movie.",
-    "lloron bair is in the directing role and the movie is directed by jel xd.",
-    "ian has directed the movie.",
-    "ive managed to get 1 movie. the directed scene is at the guild theatre. the film starts at 9:30 pm in roxy park."
+    " ONSORED"
   ],
   [
-    " have begun playing it. it's a comedy with andrea martin.",
-    " have you heard of the movie and it is a comedy.",
-    " have it a comedy movie and the genre is comedy.",
-    " have started playing the movie for you. it is a comedy.",
-    " have begun playing the movie. it's a comedy, and it has a cast of andrea martin."
+    "."
   ],
   [
-    " search revealed 1 movie. do you like tiger highway? it is rated 96 percent.",
-    "ian is afraid to be an animal and it has a 96 percent rating.",
-    "ian is afraid of tigers and it has an average rating of 96 percent.",
-    "ian tiger is not afraid, it is a 96 percent rating.",
-    "ian is afraid of tigers and it has an average rating of 96 percent."
+    "  alarm."
   ],
   [
-    " would you like to see riot girls? it has a rating of 100 percent on average.",
-    "ian is the most popular movie out right now right now. there is 1 movie called riot girls, and that is currently rated 100 percent on average. do you want to see the other options?",
-    "io, little, or missing link is only 100 percent positive.inform_count ( count = \"100\") & io, little, or missing link is only 100 percent positive.",
-    "ian is one of the 5 movies that i have found, and has an average rating of 100 percent.",
-    " would you like to see riot girls? it has a rating of 100 percent on average."
+    " ia 100."
   ],
   [
-    " will be played shortly. it is an action film, and it includes 1 movie.",
-    " have started playing the movie for you. it's a action movie.",
-    " have begun playing the movie. the type of action is action, and it is an action film released in 2019.",
-    " have begun playing the movie. the movie's category is action, and it is directed by carlos coen.",
-    " have begun the movie. the genre is action, and it will start playing shortly."
+    " action."
   ],
   [
-    "ian is one of the 5 movies that got a 67 percent rating on that list.",
-    "ian is one of the 5 actors that got in hobbs and shaw. it has an average rating of 67 percent.",
-    "llorove and the curse of la llorona are the 2 movies i have found for you. the rating is 67 percent positive.inform_count ( count = \"2\") & llorove and the curse of la llorona are the 2 movies i have found for you. th",
-    " would you like to see hobbs and shaw? the average rating is 67 percent.",
-    "ian is only the 1 playing tonight at century union landing & xd, and has an average rating of 67 percent."
+    " ia 67."
   ],
   [
-    "ian is playing and scoring. the average rating is 45 percent.",
-    "lloron sweetinform_count ( count = \"63\") & lloron sweet",
-    "ian is playing in cinemas right now. the average rating is 45 percent.",
-    "ive got 1 movie recommendation with a 45 percent rating.inform_count ( count = \"1\") & ive got 1 movie recommendation with a 45 percent rating.",
-    " would you like to see the movie uncaged percent rating?"
+    "  it has a 45."
   ],
   [
-    "ian is playing. the average rating is 45 percent.",
-    "ian is one of the actors and the rating is 45 percent better than the movie that was last night.",
-    "ian is playing. the average rating of that movie is 45 percent.",
-    "ive found 1 movie called 47 meters down: uncaged",
-    "ian is one of the 10 movies that came out during that time period. the rating is at 45 percent.inform_count ( count = \"10\") & ian is one of the 10 movies that came out during that time period. the rating is at 45 percent."
+    "  it has a 45."
   ],
   [
-    "ian is playing. the average rating of that movie is 45 percent.",
-    "ive got 1 movie recommendation with a rating of 45 percent in the perimeters.inform_count ( count = \"1\") & ive got 1 movie recommendation with a rating of 45 percent in the perimeters.",
-    " would you like to see the uncaged percent? the average rating is 45 percent.",
-    "ian is playing it. the average rating is 45 percent.",
-    "ian is playing this movie. the rating is 45 percent."
+    "  it has a 45."
   ],
   [
-    "ian is in fabric and it has a 96 percent rating.",
-    "ian is one of the actors playing in that movie. the average rating of that movie is 96 percent.",
-    " would you like to see either in fabric or the curse of la llorona?",
-    "ian is a fan of fabric and it has an average rating of 96 percent.",
-    " would you like to see either in fabric? its average rating is 96 percent."
+    " ia 96."
   ],
   [
-    " have you seen dogman, hackers or high life?",
-    " have started playing the movie for you. hayley squires directed it, and it has started playing.",
-    " have you seen hayley squires directed by peter strickland?",
-    " have you been to the movie for the last 2 days?",
-    " have directed high life with subtitles. it is a directed by hayley squires."
+    "."
   ],
   [
-    "ive got 10, what about the movie give me liberty? it has a 92 percent rating",
-    "ian has the 92 percent rating, and the movie gives me liberty. how do you feel about that?",
-    "ive found 10 movies you might be interested in. how do you feel about give me liberty? the average rating of this movie is 92 percent.inform_count ( count = \"10\") & ive found 10 movies you might be interested in. how do you feel about give me liberty",
-    "ian is one of the 5 movies that came up. the rating is 92 percent.inform_count ( count = \"5\") & ian is one of the 5 movies that came up. the rating is 92 percent.",
-    " would you like to see gloria bell? it has a 92 percent rating.inform_count ( count = \"92\") &  would you like to see gloria bell? it has a 92 percent rating."
+    "."
   ],
   [
-    "ian is a 92 percent fan of the movie giving me liberty. the average rating of that movie is 92 percent.",
-    "ive got 1. it is a 92 percent rating.",
-    "ian is a free agent. the average rating of this movie is 92 percent.inform_count ( count = \"92\") & ian is a free agent. the average rating of this movie is 92 percent.",
-    "ian is one of the actors and the rating is 92 percent.",
-    " would you like the movie giving me liberty!?"
+    "."
   ],
   [
-    "ian is one of the actors. the average rating is 92 percent.",
-    "ian is purest white. the average rating of that movie is 92 percent.",
-    " would you like to have an opinion on giving me liberty? it's a well-liked movie with an average rating of 92 percent?",
-    "ian is a well-liked movie and has an average rating of 92 percent.inform_count ( count = \"92\") & ian is a well-liked movie and has an average rating of 92 percent.",
-    "ian is a well-liked movie. it has a 92 percent rating. would you like to see the movie give me liberty? it is playing in fairfield."
+    "."
   ],
   [
-    "ive seen 2. ive seen daria ekamasova.",
-    "arinform ( director = \"stanley kelman\") & arinform ( director = \"stanley kelman\") & arinform ( director = \"stanley kelman\") & arinform ( director = \"stanley kelman\") & arinform ( directo",
-    "aranix par chloe is also a star of the show.",
-    "arinform ( cast = \"james kavita\") & arin ( cast = \"jamie kavita\") & arin ( cast = \"james kavita\") & arin ( cast = \"james kavita\") & arin ( cast = \"jami",
-    "arinform ( cast = \"alejo konstad\") & arin ( cast = \"alejo konstad\") & arin ( cast = \"alejo konstad\") & arin ( cast = \"alejo konstad\") & arin ( cast = \"alej"
+    " ia."
   ],
   [
-    "ian is one of the 5 stars that i've found so far. do you think that angel has fallen? the average rating is 39 percent.inform_count ( count = \"1\") & ian is one of the 5 stars that i've found so far. do you think that ange",
-    " would you like to see angels with a 39 percent rating?inform_count ( count = \"1\") &  would you like to see angels with a 39 percent rating?",
-    "ive looked at 1 movie called angel has fallen. it has rating 39 percent.",
-    "ian is a well-known star of the movie angels falling with a 39 percent rating, do you like that?",
-    "ian is one of the 5 actors who fell. the rating is at 39 percent."
+    " ia 39."
   ],
   [
-    "llorove has fallen by a 39 percent!",
-    "ian is one of the 5 celebrities mentioned. the rating is 39 percent.",
-    "ive found 1 movie called angel has fallen with an average rating of 39 percent.inform_count ( count = \"1\") & ive found 1 movie called angel has fallen with an average rating of 39 percent.",
-    "ian is one of the 5 celebrities that came to this movie. the rating is at 39 percent.inform_count ( count = \"1\") & ian is one of the 5 celebrities that came to this movie. the rating is at 39 percent.",
-    "ive got 1 movie recommendation with a rating of 39 percent.inform_count ( count = \"1\") & ive got 1 movie recommendation with a rating of 39 percent."
+    " ia 39."
   ],
   [
-    "ian is one of the 10 movies that came out at century at tanforan. it has a rating of 39 percent.",
-    "ian says that angel has fallen by an average rating of 39 percent.",
-    "ian is one of those perimeters that I found and its rating is 39 percent.",
-    "ian is one of the 5 actors who lost an average rating of 39 percent.",
-    "ive only 1 rating, what about angel is falling? it's rated 39 percent."
+    " ia 39."
   ],
   [
-    "ian is the director.",
-    "ive been in this movie 1 movie and its director is roman waugh.",
-    "ive managed to find it for you. it stars of the very strictth man.",
-    "lloron berrett directed the movie",
-    "ive found 1 movie called roman waugh."
+    " ian."
   ],
   [
-    " have begun playing the movie. the movie has started.",
-    " have begun playing the movie. the movie's category is action and it has an option for you.",
-    " have begun playing the movie. it was considered an action movie and it was directed by a. it was an action movie released in 2019.",
-    " have begun playing the movie. it's a action film directed by eric schoena.",
-    " have started playing the movie. it's an action movie and is directed by eric tiperingon."
+    " action."
   ],
   [
-    "ian is only an average rating on that score.",
-    "ian is one of the 10 actors. the average rating is 85 percent.",
-    "ian is one of the 5 actors who once upon a time in hollywood has an average rating of 85 percent.inform_count ( count = \"1\") & ian is one of the 5 actors who once upon a time in hollywood has an average rating of 85 percent.",
-    " would you like to watch once upon a time in hollywood? the average rating is 85 percent.",
-    "llorobe posted 1 movie once upon a time in hollywood with an average rating of 85 percent."
+    " ia 85."
   ],
   [
-    "ive found 1 movie called quentin tarantino.",
-    "ive got 1 movie directed by quentin tarantino and it is playing.",
-    "ive got 1 directed by quentin tarantino and shot in auntie mame.",
-    "ive been in 1 movie for quite some time. how does quentin tarantino sound?",
-    "ian daguinform_count ( directed_by = \"quentin tarantino\" ; cast = \"quentin tarantino\") & ian daguinform_count ( directed_by = \"quentin tarantino\" ; cast = \"quentin tarantino\""
+    "."
   ],
   [
-    "llorobe posted the angry birds movie 2 percent rating at 72 percent.",
-    "ian is a well-liked movie. the rating is 72 percent positive.inform_count ( count = \"72\") & ian is a well-liked movie. the rating is 72 percent positive.",
-    "ian is one of the actors and the angry birds movie 2 rating is 72 percent percent on that list.",
-    "arinform_count ( count = \"72\") & arinform_count ( count = \"72\") & arinform_count ( count = \"72\") & arinform_count ( count = \"72\") & arinform_count ( count = \"72\") &",
-    " would you like to watch the angry birds movie 2? it has a rating of 72 percent.inform_count ( count = \"72\") &  would you like to watch the angry birds movie 2? it has a rating of 72 percent."
+    "."
   ],
   [
-    " would you like to see any creature that resembles little?",
-    " would you like to see animal creature?",
-    " would you like to see any of the creatures that you are currently interested in?",
-    "ive seen some animated gifs. how does animal hell sound?",
-    " would you like to watch animal little?"
+    " \ue634anim"
   ]
 ]
