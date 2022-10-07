@@ -9,8 +9,8 @@ class Seq2SeqToD(nn.Module):
 
     def __init__(self,args,adapter_num = 40):
         super().__init__()
-        model = GPT2Adapter.from_pretrained(args.model_name_or_path)
-        model.add_adapters(args,bottleneck_size=50,adapter_num=adapter_num)
+        model = GPT2Adapter.from_pretrained("gpt2")
+        model.add_adapters(args,bottleneck_size=50,adapter_num=1)
         print("hahah")
 
         self.model = model
@@ -42,8 +42,6 @@ class Seq2SeqToD(nn.Module):
         loss = torch.reshape(loss, shift_labels.size())
         return (loss.sum(1)/(loss!=0).sum(1)).tolist()
 
-    def forward(self, input_ids, labels = None, task_id = -1,attention_mask = None,position_ids=None,past_key_values = None,s = -1):
-
-        loss = self.model(input_ids=input_ids,labels=labels,task_id=task_id,attention_mask = attention_mask,position_ids = position_ids,past_key_values = past_key_values,s = s)
-
+    def forward(self, input_ids, labels = None, task_id = -1,attention_mask = None,position_ids=None,past_key_values = None,s = -1,with_adapter = True,last_hidden = False, input_ids_prev = None,labels_prev = None,mix_layer = None):
+        loss = self.model(input_ids=input_ids,labels=labels,task_id=task_id,attention_mask = attention_mask,position_ids = position_ids,past_key_values = past_key_values,s = s,with_adapter = with_adapter,last_hidden = last_hidden,input_ids_prev = input_ids_prev,labels_prev = labels_prev,mix_layer = mix_layer)
         return loss

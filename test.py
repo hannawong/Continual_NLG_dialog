@@ -2,16 +2,18 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import threading
 import time
 import torch
+from transformers import AdamW
 from model.Seq2SeqToD import Seq2SeqToD
-exitFlag = 0
 import argparse
-import torch,json
+import torch,json,copy
 import torch.nn.functional as F
 import numpy as np
 from model.Seq2SeqToD import Seq2SeqToD
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch.multiprocessing as mp # 这里不需要使用pytorch的multiprocessing
 from torch.utils.data import DataLoader
+import faiss
+from utils.util import *
 MODEL_CLASSES = {
     'gpt2': (GPT2LMHeadModel, GPT2Tokenizer),
 }
@@ -24,55 +26,113 @@ def set_seed(args):
     if args.n_gpu > 0:
         torch.cuda.manual_seed_all(args.seed)
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--model_type", default=None, type=str, required=True,
-                    help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
-parser.add_argument("--model_name_or_path", default=None, type=str, required=True,
-                    help="")
-parser.add_argument("--prompt", type=str, default="")
-parser.add_argument("--padding_text", type=str, default="")
-parser.add_argument("--xlm_lang", type=str, default="", help="Optional language when used with the XLM model.")
-parser.add_argument("--length", type=int, default=40)
-parser.add_argument("--mode", type = str, default="GPT2")
-parser.add_argument("--num_samples", type=int, default=1)
-parser.add_argument("--temperature", type=float, default=1.0,
-                    help="temperature of 0 implies greedy sampling")
-parser.add_argument("--repetition_penalty", type=float, default=1.0,
-                    help="primarily useful for CTRL model; in that case, use 1.2")
-parser.add_argument("--top_k", type=int, default=0)
-parser.add_argument("--top_p", type=float, default=1)
-parser.add_argument("--no_cuda", action='store_true',
-                    help="Avoid using CUDA when available")
-parser.add_argument('--seed', type=int, default=1,
-                    help="random seed for initialization")
-parser.add_argument('--stop_token', type=str, default=None,
-                    help="Token at which text generation is stopped")
-parser.add_argument('--device', type=str, default="cuda",
-                    help="Token at which text generation is stopped")
-parser.add_argument('--input_file', type=str, default=None,
-                    help="file")
+def get_parser():
+  parser = argparse.ArgumentParser()
+  parser.add_argument("--model_type", default=None, type=str, required=True,
+                      help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
+  parser.add_argument("--model_name_or_path", default=None, type=str, required=True,
+                      help="")
+  parser.add_argument("--prompt", type=str, default="")
+  parser.add_argument("--padding_text", type=str, default="")
+  parser.add_argument("--xlm_lang", type=str, default="", help="Optional language when used with the XLM model.")
+  parser.add_argument("--length", type=int, default=40)
+  parser.add_argument("--mode", type = str, default="GPT2")
+  parser.add_argument("--suffix", type = str, default="")
+  parser.add_argument("--num_samples", type=int, default=1)
+  parser.add_argument("--temperature", type=float, default=1.0,
+                      help="temperature of 0 implies greedy sampling")
+  parser.add_argument("--repetition_penalty", type=float, default=1.0,
+                      help="primarily useful for CTRL model; in that case, use 1.2")
+  parser.add_argument("--top_k", type=int, default=0)
+  parser.add_argument("--top_p", type=float, default=1)
+  parser.add_argument("--no_cuda", action='store_true',
+                      help="Avoid using CUDA when available")
+  parser.add_argument('--seed', type=int, default=1,
+                      help="random seed for initialization")
+  parser.add_argument('--stop_token', type=str, default=None,
+                      help="Token at which text generation is stopped")
+  parser.add_argument('--device', type=str, default="cuda",
+                      help="Token at which text generation is stopped")
+  parser.add_argument('--input_file', type=str, default=None,
+                      help="file")
 
-parser.add_argument('--output_file', type=str, default=None,
-                    help="file")
+  parser.add_argument('--output_file', type=str, default=None,
+                      help="file")
 
-parser.add_argument('--nc', type=int, default=1,
-                    help="number of sentence")
-args = parser.parse_args()
-args.n_gpu = torch.cuda.device_count()
-set_seed(args)
-args.model_type = args.model_type.lower()
+  parser.add_argument('--nc', type=int, default=1,
+                      help="number of sentence")
+  args = parser.parse_args()
+  args.n_gpu = torch.cuda.device_count()
+  set_seed(args)
+  args.model_type = args.model_type.lower()
+  args.no_cuda = False
+  return args
 
-print(args)
-args.no_cuda = False
+args = get_parser()
 model_class, tokenizer_class = MODEL_CLASSES[args.model_type]
-
-    
 tokenizer = tokenizer_class.from_pretrained(args.model_name_or_path)
 model = Seq2SeqToD(args)
 model= torch.load(args.model_name_or_path+"/adapter.ckpt")
-model.to("cuda:0")
+model.cuda()
 model.model.eval()
 print("load model!!!!")
+
+
+replay_represent_dic = {}
+
+def get_representations_for_replay():
+    with open("data/replay/train.txt") as f:
+        lines = f.read().split("\n")
+        for line in lines:
+            act = line.split("(")[0].strip().lower()
+            original_line = line.lower()
+            line = line.split(" & ")[0]
+            raw_text = line.lower()
+            if len(raw_text) == 0:
+              continue
+            context_tokens = tokenizer.encode(raw_text, add_special_tokens=True)
+            context_tokens = torch.tensor(context_tokens, dtype=torch.long, device="cuda")
+            context_tokens = context_tokens.unsqueeze(0)
+            representation = model(context_tokens,with_adapter = False) ###Don't go through adapter
+            if not act in replay_represent_dic.keys():
+              replay_represent_dic[act] = [[original_line,representation[0,-1,:]/torch.norm(representation[0,-1,:],2)]]
+            else:
+              replay_represent_dic[act].append([original_line,representation[0,-1,:]/torch.norm(representation[0,-1,:],2)]) ##last hidden state
+
+get_representations_for_replay()
+candidate_represent = {}
+for key in replay_represent_dic:
+  candidate_represent[key] = torch.stack([_[1] for _ in replay_represent_dic[key]]) ##[40,768]
+
+
+def get_top_k(query, K, threshold):
+
+    action = query.split("(")[0].strip().lower()
+    if action not in candidate_represent:
+      return [],[]
+    candidates = candidate_represent[action]
+
+    query_tokens = tokenizer.encode(query, add_special_tokens=False)
+    query_tokens = torch.tensor(query_tokens, dtype=torch.long, device="cuda")
+    query_tokens = query_tokens.unsqueeze(0)
+    query_embedding = model(query_tokens,with_adapter = True)
+    query_embedding = query_embedding[0,-1,:] / torch.norm(query_embedding[0,-1,:],2)
+    d = query_embedding.shape[-1]
+    
+    quantizer = faiss.IndexFlatL2(d)
+    index = faiss.IndexIVFFlat(quantizer, d, 1,faiss.METRIC_INNER_PRODUCT)
+    index.train(candidates.cpu().detach().numpy())
+    index.add(candidates.cpu().detach().numpy())
+    distances, neighbors = index.search(query_embedding.cpu().detach().numpy().reshape(1,-1).astype(np.float32), K)
+
+    ans = []
+    similarity = []
+    for i in range(len(neighbors[0])):
+        if distances[0][i] > threshold:
+          ans.append(replay_represent_dic[action][list(neighbors[0])[i]][0])
+          similarity.append(distances[0][i])
+    return ans,similarity
+
 
 def top_k_top_p_filtering(logits, top_k=0, top_p=0.0, filter_value=-float('Inf')):
     """ 
@@ -103,7 +163,6 @@ def top_k_top_p_filtering(logits, top_k=0, top_p=0.0, filter_value=-float('Inf')
 def sample_sequence(args,model, length, context, num_samples=1, temperature=1.1, top_k=0, top_p=0.0, repetition_penalty=1.0,
                     is_xlnet=False, is_xlm_mlm=False, xlm_mask_token=None, xlm_lang=None, device='cpu',task_id = -1):
     assert task_id != -1
-    num_samples = 5
     ##length:80, num_samples:5, temperature = 1.0,top_k = 5, top_p = 0.9,repetition_penalty = 1.0
     context = torch.tensor(context, dtype=torch.long, device=device)  ##shape:([25])
     context = context.unsqueeze(0).repeat(num_samples, 1) ##shape:[5,25]
@@ -154,14 +213,40 @@ def generate_thread(domainname):
         for idx in range(0, len(inputs), 1):
             if idx % 10 == 0:
                 print(f"PROGRESS: {int(idx/len(inputs)*100)}%",domainname)
+            start = time.time()
             lines = inputs[idx]
-            raw_text = lines.split(' & ')[0] + ' & ' ##inform ( name = arabian nights restaurant ; food = arabian ; goodformeal = dinner ) &
+            raw_text = lines.split(' & ')[0]  ##inform ( name = arabian nights restaurant ; food = arabian ; goodformeal = dinner ) &
             raw_text = raw_text.lower()
-
+            #print(raw_text)
+            
+            copy_model = copy.deepcopy(model)
+            
+            similar_text,similarity = get_top_k(raw_text, 2, 1.1)
+            #print(similar_text)
+            if len(similar_text) != 0:
+              train_dataset = TextSeqDataset(tokenizer, args, similar_text)
+              train_dataloader = DataLoader(train_dataset,batch_size=len(similar_text))
+              for epoch in range(5):
+                for step, batch in enumerate(train_dataloader):
+                  inputs_ids,mask,labels = batch
+                  inputs_ids = inputs_ids.cuda()
+                  labels = labels.cuda()
+                  copy_model.train()
+                  loss = copy_model(inputs_ids, labels=labels,task_id = 0)
+                  loss.backward()
+                  torch.nn.utils.clip_grad_norm_(copy_model.parameters(),1.0)
+                  optimizer_grouped_parameters = [
+                    {'params': [p for n, p in copy_model.named_parameters() if "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':0.00625 * 0.0001}
+                  ]
+                  parameters_to_update = [p for n, p in copy_model.named_parameters() ]#if "adapter" in str(n) or "ln" in str(n) or "lm" in str(n)]
+                  optimizer = AdamW(optimizer_grouped_parameters,  eps=1e-8)
+                  optimizer.step()
+                  copy_model.model.zero_grad()
+            
             context_tokens = tokenizer.encode(raw_text, add_special_tokens=False) ##[259, 687, 357, 1438, 796, 610, 397, 666, 12513, 7072, 2162, 2057, 796, 610, 397, 666, 2162, 922, 687, 2287, 796, 8073, 1267, 1222, 220]
             out = sample_sequence(
                 args,
-                model=model,
+                model=copy_model,
                 context=context_tokens,
                 num_samples=args.num_samples,
                 length=args.length,
@@ -182,12 +267,19 @@ def generate_thread(domainname):
                 text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
                 text = text[: text.find('<|endoftext|>')] ##只取到<endoftext>之前
                 examples.append(text)
+            #print("my ",examples[0])
             output_tests.append(examples)
-            #print(raw_text,"===",examples[0])
-        if args.mode == "adapter":
-            json.dump(output_tests, open("./data/"+domainname+"/result.json",'w'), indent=2)
-        elif args.mode == "ctr":
-            json.dump(output_tests, open("./data/"+domainname+"/result_ctr.json",'w'), indent=2)
+            end = time.time()
+            print(end-start)
+
+
+        json.dump(output_tests, open("./data/"+domainname+"/result"+args.suffix+".json",'w'), indent=2)
+
+for domain in args.input_file.split(","):
+    print(domain)
+    generate_thread(domain)
+
+exit()
 # 创建新线程
 threads = []
 for domain in args.input_file.split(","):
@@ -197,55 +289,3 @@ for domain in args.input_file.split(","):
 # 开启线程
 for thread in threads:
     thread.start()
-
-
-
-
-'''
-            out = sample_sequence(
-                args,
-                model=model,
-                context=context_tokens,
-                num_samples=args.num_samples,
-                length=args.length,
-                temperature=args.temperature,
-                top_k=args.top_k,
-                top_p=args.top_p,
-                repetition_penalty=args.repetition_penalty,
-                is_xlnet=bool(args.model_type == "xlnet"),
-                is_xlm_mlm=False,
-                xlm_mask_token=False,
-                xlm_lang=False,
-                device=args.device,
-                task_id = 0
-            )
-            out = out[:, len(context_tokens):].tolist() ###只取生成的后面
-            examples = []
-            for o in out:
-                text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
-                text = text[: text.find('<|endoftext|>')] ##只取到<endoftext>之前
-                examples.append(text)
-            output_tests.append(examples)
-            print(raw_text,"===",examples[0])
-            exit()
-
- 
-def print_time(threadName, delay, counter):
-    while counter:
-        if exitFlag:
-            (threading.Thread).exit()
-        time.sleep(delay)
-        print("%s: %s" % (threadName, time.ctime(time.time())))
-        counter -= 1
- 
-# 创建新线程
-thread1 = myThread(1, "Thread-1", 1,context_tokens)
-thread2 = myThread(2, "Thread-2", 2)
- 
-# 开启线程
-thread1.start()
-thread2.start()
- 
-print("Exiting Main Thread")
-
-'''

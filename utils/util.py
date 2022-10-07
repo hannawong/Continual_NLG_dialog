@@ -73,64 +73,26 @@ prompt = {"sgd_hotels":"find hotel and ratings","sgd_services":"book doctor appo
 
 
 class TextSeqDataset(Dataset):
-    def __init__(self, tokenizer, args, file_paths,task_id,task_name,max_seq=80,mode = "train",with_replay = False,with_lamol = False):
+    def __init__(self, tokenizer, args, raw_texts, max_seq=80):
         self.examples = []
         self.labels = []
         self.masks = []
-        if mode == "gen":
-            file_mode = "test"
-        else:
-            file_mode = mode
-        if with_replay:
-            file_paths.append("replay")
-        for filepath in file_paths:
-            with open("./data/"+filepath+"/"+file_mode+".txt", encoding="utf-8") as f:
-                for line in f:
-                    line = line.strip()   
-                    raw_str = line.lower() ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced
-                    raw_str_lamol = "["+task_name.split("_")[1]+"] "+ prompt[task_name]+" "+line.lower() if task_name in prompt else  "["+task_name.split("_")[1]+"] "+ task_name.split("_")[1]+" "+line.lower()
-                    if len(raw_str_lamol.split()) > max_seq -1: ##截断
-                        raw_str_lamol = ' '.join(raw_str_lamol.split()[:max_seq -1])
-                    raw_str_lamol += ' ' + tokenizer.eos_token ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced <|endoftext|>
-                    tokenized_text_lamol = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_str_lamol))
+  
+        for line in raw_texts:
+            self.masks.append([1] *  max_seq)
+            line = line.strip()   
+            raw_str = line.lower() ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced
+            if len(raw_str.split()) > max_seq -1: ##截断
+                raw_str = ' '.join(raw_str.split()[:max_seq -1])
+            raw_str += ' ' + tokenizer.eos_token ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced <|endoftext|>
+            tokenized_text = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_str))
 
-                    if len(raw_str.split()) > max_seq -1: ##截断
-                        raw_str = ' '.join(raw_str.split()[:max_seq -1])
-                    raw_str += ' ' + tokenizer.eos_token ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced <|endoftext|>
-                    if mode == "gen":
-                        raw_str = line.lower()[:-1].split(' & ')[0] + " & "
-                    tokenized_text = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_str))
-
-
-                    label = [-1] *  max_seq
-                    label[:len(tokenized_text)] = tokenized_text ##raw_str
-                    label_lamol = [-1] *  max_seq
-                    label_lamol[:len(tokenized_text_lamol)] = tokenized_text_lamol ##raw_str
-
-                    mask = [1] *  max_seq
-                    mask_lamol = [1] *  max_seq
-
-                    if len(tokenized_text) < max_seq: ##pad
-                        mask[:(max_seq - len(tokenized_text))]= [0] * (max_seq - len(tokenized_text))
-                        tokenized_text = [0] * (max_seq - len(tokenized_text)) + tokenized_text   ###pad
-                    else:
-                        tokenized_text = tokenized_text[:max_seq]
-
-                    if len(tokenized_text_lamol) < max_seq: ##pad
-                        
-                        mask_lamol[-(max_seq - len(tokenized_text_lamol)):] = [0] * (max_seq - len(tokenized_text_lamol))
-                        tokenized_text_lamol = [0] * (max_seq - len(tokenized_text_lamol)) + tokenized_text_lamol ###补零
-                    else:
-                        tokenized_text_lamol = tokenized_text_lamol[:max_seq]
-                    
-                    self.examples.append(tokenized_text)
-                    self.masks.append(mask)
-                    self.labels.append(label)
-                    if mode == "train" and with_lamol:
-                        self.examples.append(tokenized_text_lamol)
-                        self.masks.append(mask_lamol)
-                        self.labels.append(label_lamol)
-                    #print(len(tokenized_text_lamol),len(mask_lamol),len(label_lamol))
+            if len(tokenized_text) < max_seq: ##pad
+                tokenized_text = [0] * (max_seq - len(tokenized_text)) + tokenized_text   ###pad
+            else:
+                tokenized_text = tokenized_text[:max_seq]
+            
+            self.examples.append(tokenized_text)
 
         self.labels = self.examples
 
@@ -142,7 +104,7 @@ class TextSeqDataset(Dataset):
 
 
 
-def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "LAMOL",sample_size = 10):
+def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sample_frac = 0.01):
     file =  open("data/replay/train.txt","w")
     if mode == "LAMOL":
         print("Generate LAMOL!!")
@@ -196,6 +158,7 @@ def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "LAMOL",sam
         for prev_task_id in range(task_id):
             replay_buffer = []
             training = open("data/"+domain_names[prev_task_id]+"/train.txt").read().split("\n")
+            sample_size = int(len(training) * sample_frac)
             choose = sample(training,min(len(training),sample_size))
             for item in choose:
                 file.write(item+"\n")

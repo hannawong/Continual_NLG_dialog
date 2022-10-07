@@ -33,6 +33,7 @@ def score_folder():
     parser = ArgumentParser()
     parser.add_argument("--domain", type=str, default="", help="domain")
     parser.add_argument("--mode", type=str, default="adapter")
+    parser.add_argument("--suffix", type=str, default="")
     args = parser.parse_args()
     if args.domain == 'all':
         perm1 = {0:'sgd_travel',1:'sgd_payment',2:"TMA_restaurant",3:"TMB_music",4:"sgd_ridesharing",5:"TMA_auto",6:"sgd_music",7:"sgd_buses",8:"TMB_restaurant",9:"MWOZ_attraction",10:"TMB_sport",11:"sgd_movies",12:"sgd_homes",13:"TMA_coffee",14:"sgd_restaurants",15:"sgd_hotels",16:"sgd_weather",17:"sgd_trains",18:"MWOZ_train",19:"sgd_flights",20:"sgd_media",21:"MWOZ_taxi",22:"sgd_alarm",23:"TMA_movie",24:"sgd_banks",25:"TMA_pizza",26:"TMB_flight",27:"sgd_rentalcars",28:"TMB_movie",29:"sgd_events",30:"MWOZ_restaurant",31:"sgd_services",32:"sgd_calendar",33:"TMB_food-ordering",34:"MWOZ_hotel",35:"TMA_uber",36:"TMB_hotel"}
@@ -51,10 +52,9 @@ def score_folder():
             for s in string.punctuation:
                 ref_line = ref_line.replace(s,'')
             ref.append(ref_line.lower())
-        if args.mode == "adapter":
-            gen_text = json.load(open("./data/"+domain+"/result.json"))
-        if args.mode == "ctr":
-            gen_text = json.load(open("./data/"+domain+"/result_ctr.json"))
+
+        gen_text = json.load(open("./data/"+domain+"/result"+args.suffix+".json"))
+
         for gen_ in gen_text:
             gen_str_list = []
             for i in range(len(gen_)):
@@ -79,16 +79,16 @@ def score_folder():
                 line = line.split("&")[0]
                 cl_idx = gen_[k].find('<|endoftext|>')
                 gen_str = gen_[k].strip().lower()[1:].strip()
+                gen_str = gen_str.split("&")[-1].strip()
                 line = line.split(")")
                 for item in line:
                     if "=" not in item:continue
                     item = item.split("(")[1].split(";")
                     for item1 in item:
                         v = item1.split("=")[1].replace("\"","").strip().lower()
-                        #print(v)
                         #for s in string.punctuation:
                         #    v = v.replace(s,'')
-                        if(v not in ["true", "false", "yes", "no", "?","none",]):
+                        if(v not in ["true", "false", "yes", "no", "?","none"]):
                             if(v.lower() not in gen_str.lower()):
                                 cnt_bad += 1
                             cnt_tot += 1

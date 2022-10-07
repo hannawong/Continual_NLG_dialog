@@ -1,12 +1,12 @@
-CUDA_VISIBLE_DEVICES="0" \
+CUDA_VISIBLE_DEVICES="1" \
 python test.py \
---model_type=gpt2 --model_name_or_path=./output --num_samples 5 \
---input_file MWOZ_attraction,MWOZ_hotel,MWOZ_restaurant,MWOZ_taxi,MWOZ_train \
+--model_type=gpt2 --model_name_or_path=./output_mixup --num_samples 5 \
+--input_file sgd_calendar \
 --top_k 5 --top_p 1.0 --length 80 \
 --device cuda \
---mode adapter
+--mode adapter --suffix mixup_adapt
 
-
+##,sgd_payment,MWOZ_attraction,sgd_media,sgd_movies,sgd_rentalcars,MWOZ_taxi,sgd_ridesharing,sgd_weather,MWOZ_train
 ##sgd_travel,sgd_payment,TMA_restaurant,TMB_music,sgd_ridesharing,
 ##TMA_auto,sgd_music,sgd_buses,TMB_restaurant
 ##MWOZ_attraction,TMB_sport,sgd_movies,sgd_homes

@@ -153,7 +153,7 @@ if ($length_reference==0){
 if ($length_translation<$length_reference) {
   $brevity_penalty = exp(1-$length_reference/$length_translation);
 }
-$bleu = 1 * exp((my_log( $bleu[1] ) +
+$bleu = $brevity_penalty * exp((my_log( $bleu[1] ) +
 				my_log( $bleu[2] ) +
 				my_log( $bleu[3] ) +
 				my_log( $bleu[4] ) ) / 4) ;

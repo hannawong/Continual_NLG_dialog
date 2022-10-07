@@ -1,11 +1,12 @@
 
+from re import M
 from transformers import GPT2Model,GPT2PreTrainedModel
 import torch
 import torch.nn as nn
 from torch.nn import CrossEntropyLoss
 from collections import OrderedDict
 from typing import Any,Optional, Tuple,List
-from model.BertAdapterCapsuleMask_ import BertAdapterCapsuleMask
+import numpy as np
 
 class ModelOutput(OrderedDict):
     """
@@ -159,7 +160,7 @@ class Adapter(nn.Module):
     def __init__(self, config, bottleneck):
         super(Adapter, self).__init__()
         nx = config.n_embd
-        self.ln = nn.LayerNorm(nx, eps=config.layer_norm_epsilon)
+        self.ln = nn.LayerNorm(nx,eps=config.layer_norm_epsilon)
         self.project_down = nn.Linear(nx, bottleneck)
         self.relu = nn.ReLU()
         self.project_up = nn.Linear(bottleneck, nx)
@@ -196,10 +197,8 @@ class GPT2Adapter(GPT2PreTrainedModel):
         return self.lm_head
 
     def add_adapters(self,args,bottleneck_size=100,adapter_num=40):
-        if args.mode == "adapter":
-            self.adapter_blocks = nn.ModuleList([MixAdapter(self.config,bottleneck_size,adapter_num) for _ in range(self.config.n_layer)])
-        elif args.mode == 'ctr':
-            self.adapter_blocks = nn.ModuleList([BertAdapterCapsuleMask(self.config,bottleneck_size,adapter_num) for _ in range(self.config.n_layer)])
+        self.adapter_blocks = nn.ModuleList([MixAdapter(self.config,bottleneck_size,adapter_num) for _ in range(self.config.n_layer)])
+       
     
     def prepare_inputs_for_generation(self, input_ids, past=None, **kwargs):
         # only last token for inputs_ids if past is defined in kwargs
@@ -225,6 +224,66 @@ class GPT2Adapter(GPT2PreTrainedModel):
             "attention_mask": attention_mask,
         }
 
+
+    def forward_mix(self,input_ids_A, labels_A, input_ids_B, labels_B,mix_layer):
+        output_attentions = False
+        use_cache = True
+        batchsize = min(input_ids_A.shape[0],input_ids_B.shape[0])
+        input_ids_A = input_ids_A[:batchsize,:]; input_ids_B = input_ids_B[:batchsize,:]
+        labels_A = labels_A[:batchsize,:]; labels_B = labels_B[:batchsize,:]  ###unify the batchsize
+
+        input_shape = input_ids_A.size() ##input_ids:[32,80]
+        input_ids_A = input_ids_A.view(-1, input_shape[-1])
+        input_ids_B = input_ids_B.view(-1, input_shape[-1])
+
+        past_length = 0
+        past_key_values = [None] * len(self.transformer.h) ##12
+        device = input_ids_A.device
+        position_ids = torch.arange(past_length, input_shape[-1] + past_length, dtype=torch.long, device=device)
+        position_ids = position_ids.unsqueeze(0).view(-1, input_shape[-1])
+        encoder_attention_mask = None
+
+        head_mask = self.transformer.get_head_mask(None, self.transformer.config.n_layer) ##[None]*12
+
+        inputs_embeds_A = self.transformer.wte(input_ids_A) ### get token embedding
+        inputs_embeds_B = self.transformer.wte(input_ids_B)
+        position_embeds = self.transformer.wpe(position_ids) ##get position embedding
+        hidden_states_A = inputs_embeds_A + position_embeds 
+        hidden_states_A = self.transformer.drop(hidden_states_A)
+        hidden_states_B = inputs_embeds_B + position_embeds 
+        hidden_states_B = self.transformer.drop(hidden_states_B)
+
+        l = np.random.beta(0.75,0.75)
+        l = max(l,1-l) 
+
+        #hidden_states_A = (1.0-l) * hidden_states_A + l * hidden_states_B
+
+        output_shape = input_shape + (hidden_states_A.size(-1),) ##[32, 80, 768]
+
+        for i, (block, layer_past, adapter) in enumerate(zip(self.transformer.h, past_key_values, self.adapter_blocks)):
+            if i <= mix_layer:
+                hidden_states_A = block(hidden_states_A,layer_past=layer_past,use_cache=use_cache,output_attentions=output_attentions)[0]
+                hidden_states_B = block(hidden_states_B,layer_past=layer_past,use_cache=use_cache,output_attentions=output_attentions)[0]
+                #hidden_states_A = adapter(outputs_A[0]) ##Adapter, [32,80,768]
+                #hidden_states_B = adapter(outputs_B[0]) ##Adapter, [32,80,768]
+            if i == mix_layer:
+                hidden_states_mix = (1.0-l) * hidden_states_B + l * hidden_states_A
+            if i > mix_layer:
+                hidden_states_mix = block(hidden_states_mix,layer_past=layer_past,use_cache=use_cache,output_attentions=output_attentions)[0]
+                #hidden_states_mix = adapter(outputs_mix[0])
+        hidden_states_mix = self.transformer.ln_f(hidden_states_mix)
+        hidden_states_mix = hidden_states_mix.view(*output_shape)
+        lm_logits = self.lm_head(hidden_states_mix)
+        shift_logits = lm_logits[..., :-1, :].contiguous()
+        shift_labels_A = labels_A[..., 1:].contiguous()
+        shift_labels_B = labels_B[..., 1:].contiguous()
+        loss_fct = CrossEntropyLoss()
+        
+        loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels_A.view(-1)) * l + \
+              loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels_B.view(-1)) * (1.0-l)
+        return loss
+
+
     def forward(
             self,
             input_ids=None,
@@ -243,7 +302,13 @@ class GPT2Adapter(GPT2PreTrainedModel):
             return_dict=None,
             task_id = -1,
             s = -1,
+            with_adapter = True,
+            last_hidden = False,
+            input_ids_prev = None,labels_prev = None,mix_layer = None
+
         ):
+        if input_ids_prev != None:
+          return self.forward_mix(input_ids,labels,input_ids_prev,labels_prev,mix_layer)
 
         output_attentions = False
         use_cache = True
@@ -281,9 +346,13 @@ class GPT2Adapter(GPT2PreTrainedModel):
                     use_cache=use_cache, ##True
                     output_attentions=output_attentions, ##False
                 )
-            hidden_states = adapter(outputs[0], task_id=task_id, s = s) ##Adapter, [32,80,768]
+            hidden_states = outputs[0]
+            #if with_adapter:
+            #    hidden_states = adapter(outputs[0], task_id=task_id, s = s) ##Adapter, [32,80,768]
         hidden_states = self.transformer.ln_f(hidden_states)
         hidden_states = hidden_states.view(*output_shape)
+        if last_hidden:
+          return hidden_states
 
         lm_logits = self.lm_head(hidden_states)
 
