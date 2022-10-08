@@ -95,3 +95,72 @@ def test():
   BLEU = moses_multi_bleu(np.array([sent]),np.array([ref]))
   print(BLEU)
   BLEU = moses_multi_bleu(np.array([ref]),np.array([ref]))
+
+
+
+import datasets
+import sacrebleu as scb
+from packaging import version
+from sacrebleu import TER
+import evaluate
+
+class Ter(evaluate.Metric):
+    def _info(self):
+        if version.parse(scb.__version__) < version.parse("1.4.12"):
+            raise ImportWarning(
+                "To use `sacrebleu`, the module `sacrebleu>=1.4.12` is required, and the current version of `sacrebleu` doesn't match this condition.\n"
+                'You can install it with `pip install "sacrebleu>=1.4.12"`.'
+            )
+        return evaluate.MetricInfo(
+            description=_DESCRIPTION,
+            citation=_CITATION,
+            homepage="http://www.cs.umd.edu/~snover/tercom/",
+            inputs_description=_KWARGS_DESCRIPTION,
+            features=[
+                datasets.Features(
+                    {
+                        "predictions": datasets.Value("string", id="sequence"),
+                        "references": datasets.Sequence(datasets.Value("string", id="sequence"), id="references"),
+                    }
+                ),
+                datasets.Features(
+                    {
+                        "predictions": datasets.Value("string", id="sequence"),
+                        "references": datasets.Value("string", id="sequence"),
+                    }
+                ),
+            ],
+            codebase_urls=["https://github.com/mjpost/sacreBLEU#ter"],
+            reference_urls=[
+                "https://github.com/jhclark/tercom",
+            ],
+        )
+
+    def _compute(
+        self,
+        predictions,
+        references,
+        normalized: bool = False,
+        ignore_punct: bool = False,
+        support_zh_ja_chars: bool = False,
+        case_sensitive: bool = False,
+    ):
+        # if only one reference is provided make sure we still use list of lists
+        if isinstance(references[0], str):
+            references = [[ref] for ref in references]
+
+        references_per_prediction = len(references[0])
+        if any(len(refs) != references_per_prediction for refs in references):
+            raise ValueError("Sacrebleu requires the same number of references for each prediction")
+        transformed_references = [[refs[i] for refs in references] for i in range(references_per_prediction)]
+
+        sb_ter = TER(
+            normalized=normalized,
+            no_punct=ignore_punct,
+            asian_support=support_zh_ja_chars,
+            case_sensitive=case_sensitive,
+        )
+        output = sb_ter.corpus_score(predictions, transformed_references)
+
+        return {"score": output.score, "num_edits": output.num_edits, "ref_length": output.ref_length}
+

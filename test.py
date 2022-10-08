@@ -218,7 +218,7 @@ def generate_thread(domainname):
             raw_text = lines.split(' & ')[0]  ##inform ( name = arabian nights restaurant ; food = arabian ; goodformeal = dinner ) &
             raw_text = raw_text.lower()
             #print(raw_text)
-            
+            '''
             copy_model = copy.deepcopy(model)
             
             similar_text,similarity = get_top_k(raw_text, 2, 1.1)
@@ -242,11 +242,11 @@ def generate_thread(domainname):
                   optimizer = AdamW(optimizer_grouped_parameters,  eps=1e-8)
                   optimizer.step()
                   copy_model.model.zero_grad()
-            
+            '''
             context_tokens = tokenizer.encode(raw_text, add_special_tokens=False) ##[259, 687, 357, 1438, 796, 610, 397, 666, 12513, 7072, 2162, 2057, 796, 610, 397, 666, 2162, 922, 687, 2287, 796, 8073, 1267, 1222, 220]
             out = sample_sequence(
                 args,
-                model=copy_model,
+                model=model,
                 context=context_tokens,
                 num_samples=args.num_samples,
                 length=args.length,
@@ -267,7 +267,7 @@ def generate_thread(domainname):
                 text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
                 text = text[: text.find('<|endoftext|>')] ##只取到<endoftext>之前
                 examples.append(text)
-            #print("my ",examples[0])
+            print("my ",examples[0])
             output_tests.append(examples)
             end = time.time()
             print(end-start)
@@ -275,11 +275,6 @@ def generate_thread(domainname):
 
         json.dump(output_tests, open("./data/"+domainname+"/result"+args.suffix+".json",'w'), indent=2)
 
-for domain in args.input_file.split(","):
-    print(domain)
-    generate_thread(domain)
-
-exit()
 # 创建新线程
 threads = []
 for domain in args.input_file.split(","):

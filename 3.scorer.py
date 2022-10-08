@@ -1,8 +1,11 @@
 import json
 import string
+
+from bs4 import ResultSet
 from utils.eval_metric import moses_multi_bleu
 from argparse import ArgumentParser
 from collections import defaultdict
+import numpy as np
 
 perm1 = {0:"['sgd_travel']",1:"['sgd_payment']",2:"['TMA_restaurant']",3:"['TMB_music']",4:"['sgd_ridesharing']",5:"['TMA_auto']",6:"['sgd_music']",7:"['sgd_buses']",8:"['TMB_restaurant']",9:"['MWOZ_attraction']",10:"['TMB_sport']",11:"['sgd_movies']",12:"['sgd_homes']",13:"['TMA_coffee']",14:"['sgd_restaurants']",15:"['sgd_hotels']",16:"['sgd_weather']",17:"['sgd_trains']",18:"['MWOZ_train']",19:"['sgd_flights']",20:"['sgd_media']",21:"['MWOZ_taxi']",22:"['sgd_alarm']",23:"['TMA_movie']",24:"['sgd_banks']",25:"['TMA_pizza']",26:"['TMB_flight']",27:"['sgd_rentalcars']",28:"['TMB_movie']",29:"['sgd_events']",30:"['MWOZ_restaurant']",31:"['sgd_services']",32:"['sgd_calendar']",33:"['TMB_food-ordering']",34:"['MWOZ_hotel']",35:"['TMA_uber']",36:"['TMB_hotel']"}
 
@@ -23,12 +26,23 @@ def parse_API(text):
                 if(len(API)==0): API[intent]["none"] = "none"
     return API
 all_blue = 0
+all_ter = 0
 all_error = 0
+all_meteor = 0
+all_moverscore = 0
+all_bertscore = 0
 all = 0
+
+all_bleurt = 0
 def score_folder():
     global all_blue
+    global all_moverscore
     global all_error
+    global all_bertscore
+    global all_meteor
+    global all_ter
     global all
+    global all_bleurt
     out = open("result.txt","w")
     parser = ArgumentParser()
     parser.add_argument("--domain", type=str, default="", help="domain")
@@ -118,13 +132,40 @@ def score_folder():
         except:
             BLEU = 0.0
         print("BLEU",BLEU)
-        out.write("BLUE"+str(BLEU)+"\n")
-
         all_blue += BLEU
-        all_error += ERR
         all += 1
-
+        all_error += ERR
+        out.write("BLUE"+str(BLEU)+"\n")
+        '''
+        with open("/data/jiayu_xiao/project/wzh/CL/Continual_NLG_dialog/data/"+domain+"/my.txt","w") as file:
+            for __ in my_result:
+                file.write(__ + "\n")
+        with open("/data/jiayu_xiao/project/wzh/CL/Continual_NLG_dialog/data/"+domain+"/ref.txt","w") as file:
+            for __ in ref:
+                file.write(__ + "\n")
+        import os
+        os.system("python prepare_files.py "+"/data/jiayu_xiao/project/wzh/CL/Continual_NLG_dialog/data/"+domain+"/my.txt "+ "/data/jiayu_xiao/project/wzh/CL/Continual_NLG_dialog/data/"+domain+"/ref.txt")
+        os.system("java -Xmx2G -jar utils/meteor-1.5/meteor-1.5.jar "+"/data/jiayu_xiao/project/wzh/CL/Continual_NLG_dialog/data/"+domain+"/my.txt"+ " all-notdelex-refs-meteor.txt -l en -norm -r 8 > ../meteor.txt")
+        with open('../meteor.txt') as f:
+            meteor = float(f.readlines()[-1].strip().split()[-1])
+            all_meteor += meteor
+            print("METEOR: {:.2f}".format(meteor))
+        os.system("java -jar utils/tercom-0.7.25/tercom.7.25.jar -h relexicalised_predictions-ter.txt -r all-notdelex-refs-ter.txt > ../ter.txt")
+        #os.system("bert-score -r "+" /data/jiayu_xiao/project/wzh/CL/Continual_NLG_dialog/data/"+domain+"/ref.txt -c "+"/data/jiayu_xiao/project/wzh/CL/Continual_NLG_dialog/data/"+domain+"/my.txt --lang en > ../bertscore.txt")
         
-
+        #os.system("python utils/bleurt/score.py -candidate_file="+"/data/jiayu_xiao/project/wzh/CL/Continual_NLG_dialog/data/"+domain+"/ref.txt -reference_file="+"/data/jiayu_xiao/project/wzh/CL/Continual_NLG_dialog/data/"+domain+"/my.txt -bleurt_checkpoint=utils/bleurt/bleurt/test_checkpoint -scores_file=../bleurt.txt")
+        with open('../ter.txt') as f:
+            ter = float(f.readlines()[-4].strip().split()[2])
+            print("TER: {:.2f}".format(ter))
+            all_ter += ter
+        #with open('../bertscore.txt') as f:
+        #    bertscore = float(f.read().strip().split()[-1])
+        #    print("BERTScore F1: {:.2f}".format(bertscore))
+        #    all_bertscore += bertscore
+        '''
+        
 score_folder()
-print(all_blue / all, all_error / all)
+print("BLEU",all_blue / all, "ERR",all_error / all,"TER",all_ter/all,"BERT",all_bertscore / all,"METEOR",all_meteor/all,"BLEURT",all_bleurt/all)
+
+
+'''BLEU 23.210000000000004 ERR 0.042986155059941404 TER 0.8437680650894445 BERT 0.0 METEOR 0.2531906337579399 TER 0.8437680650894445 BLEURT 0.0'''

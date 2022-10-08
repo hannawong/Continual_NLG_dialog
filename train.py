@@ -105,7 +105,7 @@ def prepare_fisher_for_this_task(args,model,train_dataloader,t_total):
     print("="*10+"Preparing EWC for this task"+"="*10)
     if args.EWC:
       for n, p in model.model.named_parameters():
-          model.optpar[n] = torch.Tensor(p.data).cuda()
+          model.optpar[n] = torch.Tensor(p.data.cpu()).cuda()
           model.fisher[n] = torch.zeros(p.size()).cuda() #torch.Tensor(p.cpu().data).zero_()
 
       for _, batch in enumerate(train_dataloader):
@@ -274,6 +274,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
     set_seed(args)  
     for epoch in train_iterator: ##EPOCH
         mix_step = list(np.random.randint(0,len(train_dataloader)-1,len(replay_dataloader)))
+        bnm_step = list(np.random.randint(0,len(train_dataloader)-1,1))
 
         for step, batch in enumerate(train_dataloader):
             if step % 100 == 0:
@@ -309,12 +310,12 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                 model.model.zero_grad()
                 global_step += 1
             ###2.8376,1.9717 -> 3.2810, 2.4692, 1.9476 -> 3.6967, 2.6558, 2.3392, 1.8834 -> 3.9895, 3.0885
-            
+            #####mixup 
+            '''
             if task_id >= 1 and step in mix_step:
                 replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True)
                 replay_sampler = RandomSampler(replay_dataset)
                 replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=args.train_batch_size)
-                cnt = 0
                 for _, batch in enumerate(replay_dataloader):
                     if _ >= 1:
                         break
@@ -327,7 +328,6 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                     print("replay_loss",replay_loss)
                     replay_loss *= 0.5
                     replay_loss.backward()
-
                 parameters_to_update = [p for n, p in model.named_parameters() ]
 
                 not_gradient = ["wte","wpe"]
@@ -344,7 +344,27 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                 torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
                 optimizer_mix.step()
                 model.model.zero_grad()
-            
+            ######### mixup finish
+
+
+            #########BNM
+            if task_id >= 1 and step in bnm_step:
+                replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True)
+                replay_sampler = RandomSampler(replay_dataset)
+                replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=10000)
+                for _, batch in enumerate(replay_dataloader):
+                    inputs_B, masks_B, labels_B = batch
+                    inputs_B = inputs_B.to(args.device)
+                    labels_B = labels_B.to(args.device)
+                    model.train()
+                    bnm_loss = model(input_ids = inputs, labels=labels, input_ids_prev = inputs_B,labels_prev = labels_B) * 0.5
+                    print("bnm_loss",bnm_loss)
+                    bnm_loss.backward()
+                    parameters_to_update = [p for n, p in model.named_parameters() ]
+                    torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
+                    optimizer.step()
+                    model.model.zero_grad()
+            '''
 
     prepare_fisher_for_this_task(args,model,train_dataloader,t_total)
 

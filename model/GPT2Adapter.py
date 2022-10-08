@@ -190,6 +190,7 @@ class GPT2Adapter(GPT2PreTrainedModel):
         super().__init__(config)
         self.transformer = GPT2Model(config)
         self.lm_head = nn.Linear(config.n_embd, config.vocab_size, bias=False)
+        self.project = nn.Linear(config.vocab_size, 1000)
         self.init_weights()
         self.config = config
         
@@ -282,7 +283,64 @@ class GPT2Adapter(GPT2PreTrainedModel):
         loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels_A.view(-1)) * l + \
               loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels_B.view(-1)) * (1.0-l)
         return loss
+    def forward_bnm(self,input_ids_A, labels_A, input_ids_B, labels_B): 
+        input_ids = torch.cat([input_ids_A,input_ids_B]) ##concat
+        labels = torch.cat([labels_A,labels_B])
+        
+        output_attentions = False
+        use_cache = True
 
+        input_shape = input_ids.size() ##input_ids:[32,80]
+        input_ids = input_ids.view(-1, input_shape[-1])
+
+        past_length = 0
+        past_key_values = [None] * len(self.transformer.h) ##12
+
+
+        device = input_ids.device
+        position_ids = torch.arange(past_length, input_shape[-1] + past_length, dtype=torch.long, device=device)
+        position_ids = position_ids.unsqueeze(0).view(-1, input_shape[-1])
+
+        encoder_attention_mask = None
+
+        head_mask = self.transformer.get_head_mask(None, self.transformer.config.n_layer) ##[None]*12
+
+        inputs_embeds = self.transformer.wte(input_ids) ### get token embedding
+        position_embeds = self.transformer.wpe(position_ids) ##get position embedding
+        hidden_states = inputs_embeds + position_embeds 
+        hidden_states = self.transformer.drop(hidden_states)
+
+        output_shape = input_shape + (hidden_states.size(-1),) ##[32, 80, 768]
+
+        for i, (block, layer_past, adapter) in enumerate(zip(self.transformer.h, past_key_values, self.adapter_blocks)):
+            outputs = block( ##block: 一个GPT2Block
+                    hidden_states, ##[32,80,768]
+                    layer_past=layer_past, ##None
+                    attention_mask=None, ##None
+                    head_mask=head_mask[i], ##None
+                    encoder_hidden_states=None, ##None
+                    encoder_attention_mask=encoder_attention_mask, ##None
+                    use_cache=use_cache, ##True
+                    output_attentions=output_attentions, ##False
+                )
+            hidden_states = outputs[0]
+            #if with_adapter:
+            #    hidden_states = adapter(outputs[0], task_id=task_id, s = s) ##Adapter, [32,80,768]
+        hidden_states = self.transformer.ln_f(hidden_states)
+        hidden_states = hidden_states.view(*output_shape)
+        lm_logits = self.lm_head(hidden_states)
+        softmax_lm = nn.Softmax(dim=2)(lm_logits)
+        #lm_logits = self.project(lm_logits)
+        softmax_lm = softmax_lm.view(-1,softmax_lm.shape[-1])
+        _, s_tgt, _ = torch.svd(softmax_lm)
+        transfer_loss = -torch.mean(s_tgt)
+        print("transfer_loss",transfer_loss)
+
+        shift_logits = lm_logits[..., :-1, :].contiguous()
+        shift_labels = labels[..., 1:].contiguous()
+        loss_fct = CrossEntropyLoss()
+        cls_loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels.view(-1))
+        return transfer_loss + cls_loss
 
     def forward(
             self,
@@ -307,9 +365,10 @@ class GPT2Adapter(GPT2PreTrainedModel):
             input_ids_prev = None,labels_prev = None,mix_layer = None
 
         ):
-        if input_ids_prev != None:
+        if input_ids_prev != None and mix_layer != None:
           return self.forward_mix(input_ids,labels,input_ids_prev,labels_prev,mix_layer)
-
+        if input_ids_prev != None and mix_layer == None:
+            return self.forward_bnm(input_ids,labels,input_ids_prev,labels_prev)
         output_attentions = False
         use_cache = True
 
