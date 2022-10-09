@@ -12,6 +12,7 @@ from tqdm import tqdm, trange
 from utils.util import *
 import torch.nn as nn
 import copy
+from utils.data_augmentation import *
 
 from transformers import (WEIGHTS_NAME, AdamW, get_linear_schedule_with_warmup,
                                   BertConfig, BertForMaskedLM, BertTokenizer,
@@ -273,8 +274,9 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
     train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=False)
     set_seed(args)  
     for epoch in train_iterator: ##EPOCH
-        mix_step = list(np.random.randint(0,len(train_dataloader)-1,len(replay_dataloader)))
-        bnm_step = list(np.random.randint(0,len(train_dataloader)-1,1))
+        if task_id >= 1:
+            mix_step = list(np.random.randint(0,len(train_dataloader)-1,len(replay_dataloader)))
+            bnm_step = list(np.random.randint(0,len(train_dataloader)-1,1))
 
         for step, batch in enumerate(train_dataloader):
             if step % 100 == 0:
@@ -310,9 +312,32 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                 model.model.zero_grad()
                 global_step += 1
             ###2.8376,1.9717 -> 3.2810, 2.4692, 1.9476 -> 3.6967, 2.6558, 2.3392, 1.8834 -> 3.9895, 3.0885
-            #####mixup 
-            '''
-            if task_id >= 1 and step in mix_step:
+            #####mixup
+            if task_id >= 1 and step in mix_step and args.aug_method in ["replace","insert","del","swap"]:
+                with open("./data/replay/train.txt") as file:
+                    sentences = file.readlines()
+                    augs = []
+                    for sentence in sentences:
+                        print(sentence)
+                        if args.aug_method == "replace":
+                            aug = synonym_replacement(sentence.split(),min(1,int(len(sentence.split())*0.1)))
+                        if args.aug_method == "del":
+                            aug = random_deletion(sentence.split(),0.1)
+                        if args.aug_method == "insert":
+                            aug = random_insertion(sentence.split(),min(1,int(len(sentence.split())*0.1)))
+                        if args.aug_method == "swap":
+                            aug = random_swap(sentence.split(),min(1,int(len(sentence.split())*0.1)))
+                        if args.aug_method == "back_trans":
+                            from googletrans import Translator
+                            translator = Translator()
+                            trans_text = translator.translate(sentence, dest='fr').text
+                            aug = translator.translate(trans_text, dest='en').text
+                        aug = " ".join(aug)
+                        augs.append(aug)
+                with open("./data/replay/train.txt",'a') as file:
+                    for aug in augs:
+                        file.write(aug+"\n")
+            if task_id >= 1 and step in mix_step and args.aug_method == "mixup":
                 replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True)
                 replay_sampler = RandomSampler(replay_dataset)
                 replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=args.train_batch_size)
@@ -348,7 +373,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
 
 
             #########BNM
-            if task_id >= 1 and step in bnm_step:
+            if task_id >= 1 and step in bnm_step and args.BNM == True:
                 replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True)
                 replay_sampler = RandomSampler(replay_dataset)
                 replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=10000)
@@ -364,7 +389,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                     torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
                     optimizer.step()
                     model.model.zero_grad()
-            '''
+            
 
     prepare_fisher_for_this_task(args,model,train_dataloader,t_total)
 
@@ -523,9 +548,12 @@ def parse_arg():
     parser.add_argument("--split",  type=str, default='T')
     parser.add_argument('--mode', type=str, default=None, required = True,help="model type")
     parser.add_argument("--EWC", type=str, default='F')
+    parser.add_argument("--aug_method", type=str, default='None')
+    parser.add_argument("--BNM", type=str, default='F')
     args = parser.parse_args()
     args.split = args.split == "T"
     args.EWC = args.EWC == "T"
+    args.BNM = args.BNM == "T"
     return args
 
 def prepare_for_main():
