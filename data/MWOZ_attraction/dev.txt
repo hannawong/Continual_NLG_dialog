@@ -8,9 +8,9 @@ attraction_recommend ( entrancefee = "no entrance fee" ; name = "Christ's Colleg
 attraction_inform ( type = "parks" ; type = "theatres") & Nothing specifically marked entertainment, although we do offer quite a lot to do, from theatres to parks.
 attraction_inform ( choice = "13") & You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?
 attraction_inform ( choice = "13") & You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?
-attraction_inform ( choice = "13") & You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?attraction_recommend ( address = "Saint Andrew's Street" ; entrancefee = "free" ; name = "Downing College") & You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?
+attraction_inform ( choice = "13") @ attraction_recommend ( address = "Saint Andrew's Street" ; entrancefee = "free" ; name = "Downing College") & You're in luck  There are 13  I'd recommend visiting Downing College on Saint Andrew's Street  Entrance is free  Would that work for you
 attraction_inform ( choice = "13") & You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?
-attraction_inform ( choice = "13") & You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?attraction_recommend ( address = "Saint Andrew's Street" ; entrancefee = "free" ; name = "Downing College") & You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?
+attraction_inform ( choice = "13") @ attraction_recommend ( address = "Saint Andrew's Street" ; entrancefee = "free" ; name = "Downing College") & You're in luck  There are 13  I'd recommend visiting Downing College on Saint Andrew's Street  Entrance is free  Would that work for you
 attraction_inform ( address = "regent street" ; postcode = "cb21dq") & Yes, their post code is cb21dq and the address is on regent street.
 attraction_inform ( name = "Cherry Hinton Water Play") & Yes, there is Cherry Hinton Water Play. Would you like more information?
 attraction_inform ( name = "Cherry Hinton Water Play" ; phone = "01223446100") & The phone number for Cherry Hinton Water Play is 01223446100. Is there anything else I can help you with today?
@@ -31,3 +31,5 @@ attraction_inform ( entrancefee = "free" ; name = "Churchill College" ; name = "
 attraction_inform ( name = "Churchill College" ; name = "Magdalene College" ; phone = "01223332138" ; phone = "01223336233") & The phone number for Churchill College is 01223336233, and the phone number for Magdalene College is 01223332138. Can I help you with anything else today?
 attraction_inform ( area = "centre" ; choice = "4" ; name = "Cambridge Arts Theatre") & There are 4 theatres located in the centre of town. How does Cambridge Arts Theatre sound?
 attraction_inform ( name = "cambridge arts theatre" ; phone = "01223503333") & The phone number for the cambridge arts theatre is 01223503333. Can I offer you any other information today?
+
+

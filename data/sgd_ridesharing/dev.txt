@@ -41,3 +41,5 @@ CONFIRM ( destination = "899 Sir Francis Drake Boulevard" ; number_of_riders = "
 CONFIRM ( destination = "1027 Airport Boulevard" ; number_of_riders = "4" ; shared_ride = "True") & Please confirm to book a cab with shared ride for 4 people to 1027 Airport Boulevard.
 INFORM ( ride_fare = "$30.48" ; approximate_ride_duration = "12") & It costs $30.48 for this travel and it will take 12 minutes to reach your destination. Your booking was confirmed.
 INFORM ( ride_fare = "$30.48" ; approximate_ride_duration = "12") & It costs $30.48 for this travel and it will take 12 minutes to reach your destination. Your booking was confirmed.
+
+

@@ -106,3 +106,5 @@ INFORM ( ride_fare = "$15.90") & for your information, the cost is $15.90
 CONFIRM ( destination = "2050 Broadway" ; number_of_riders = "3" ; shared_ride = "True") & Please confirm to book a cab with shared ride for 3 persons to 2050 Broadway.
 CONFIRM ( destination = "1100 Foster Square Lane #150" ; number_of_riders = "1" ; shared_ride = "True") & You want a shared cab for 1 person with destination 1100 Foster Square Lane #150?
 INFORM ( ride_fare = "$14.78" ; approximate_ride_duration = "16") & The price is $14.78 and the duration of the trip is 16 minutes.
+
+

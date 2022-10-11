@@ -148,95 +148,6 @@ def prepare_optimizer(args,model,tokenizer):
         model.resize_token_embeddings(len(tokenizer))
     return optimizer,model,tokenizer
 
-def train_meta(args,train_dataset,model,tokenizer,task_id,domain):
-    args.train_batch_size = args.per_gpu_train_batch_size * max(1, args.n_gpu) ##1
-    train_sampler = RandomSampler(train_dataset)
-    train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=args.train_batch_size)
-    t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
-    train_len = len(train_dataloader) ##有几个batch
-    
-    meta_train_dataset = TextSeqDataset(tokenizer, args, file_paths= [domain], max_seq=args.max_seq,task_id=task_id,task_name=domain,with_lamol=True,with_replay = True)
-    meta_train_sampler = RandomSampler(meta_train_dataset)
-    meta_train_dataloader = DataLoader(meta_train_dataset, sampler=meta_train_sampler, batch_size= args.train_batch_size)
-
-    print("meta length",len(meta_train_dataloader)) ##12
-    print("train_length",len(train_dataloader)) ##11
-
-    meta_trainingset = []
-    for step, batch in enumerate(meta_train_dataloader):
-        meta_trainingset.append(batch)
-   
-    global_step = 0; tr_loss = 0.0
-    model.model.zero_grad()
-    model_copy = Seq2SeqToD(args)
-    model_copy = copy.deepcopy(model)
-    model_copy.model.zero_grad()
-    train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=False)
-    set_seed(args)  
-    for epoch in train_iterator: ##EPOCH
-        for step, batch in enumerate(train_dataloader):
-            if step % 100 == 0:
-                print(f"  PROGRESS: {float(global_step)/t_total*100}%")
-            model.model.zero_grad()
-            model_copy.model.zero_grad()
-            inputs, masks, labels = batch
-            inputs = inputs.to(args.device)
-            labels = labels.to(args.device)
-            model = copy.deepcopy(model_copy)
-            model.train()
-            model_copy.train()
-            TIMES = 2
-            
-            for i in range(TIMES):
-                len_input = inputs.shape[0] // TIMES
-                loss = model(inputs, labels ,task_id = task_id)  ###inputs:[32,80], labels:[32,80]
-                loss.backward()
-                optimizer_grouped_parameters = [
-                    {'params': [p for n, p in model.named_parameters() if "adapter" in str(n).lower() ], 'weight_decay': 0.0, 'lr':args.learning_rate*0.01},
-                    {'params': [p for n, p in model.named_parameters() if "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':args.learning_rate * 0.0001}
-                    ]
-
-                optimizer = AdamW(optimizer_grouped_parameters,  eps=args.adam_epsilon)
-                parameters_to_update = [p for n, p in model.named_parameters() ]
-                torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
-                optimizer.step() ###fast update 更新参数
-                model.model.zero_grad()
-            
-            metaloss = model(meta_trainingset[step][0].cuda(), labels=meta_trainingset[step][2].cuda(),task_id = task_id)
-            metaloss.backward()
-            parameters_to_update = [p for n, p in model.named_parameters() ] 
-            torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm) ##meta 梯度存储在model中
-
-            if step % 50 == 0:
-                print(metaloss)
-            
-            model_grads_dict = {} ##把目前model中的梯度放到model_copy中去
-            for n,f in model.named_parameters():
-                model_grads_dict[n] = f.grad
-            for n, f in model_copy.named_parameters():
-                f.grad = model_grads_dict[n]
-            
-            optimizer_grouped_parameters_meta = [
-            {'params': [p for n, p in model_copy.named_parameters() if "adapter" in str(n).lower() ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate},
-            {'params': [p for n, p in model_copy.named_parameters() if "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':args.learning_rate * 0.01}]
-            optimizer_meta = AdamW(optimizer_grouped_parameters_meta,  eps=args.adam_epsilon)
-            optimizer_meta.step() ##更新model_copy参数
-            model_copy.model.zero_grad()
-
-        for s in range(step+1,len(meta_trainingset)):
-            inputs, masks, labels = meta_trainingset[s]
-            loss = model_copy(inputs.cuda(), labels=labels.cuda(),task_id = task_id)
-            loss.backward()
-            parameters_to_update = [p for n, p in model_copy.named_parameters() ] 
-            torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
-            optimizer_meta.step()
-            model_copy.model.zero_grad()
-
-    for task_id,domain in enumerate(args.eval_data_file.split(",")[:task_id+1]):
-            eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test",task_id=task_id,task_name=domain)
-            evaluate(args, model_copy, eval_dataset,task_id,tokenizer,domain)
-    return global_step, tr_loss, model_copy
-
 
 def generate_text_ans(inputs,tokenizer,model):
       text = ""
@@ -264,18 +175,18 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=args.train_batch_size)
     t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
     optimizer,model,tokenizer = prepare_optimizer(args,model,tokenizer)
-    
-    replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True)
-    replay_sampler = RandomSampler(replay_dataset)
-    replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=args.train_batch_size)
+    if task_id >= 1 and args.replay:
+        replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True )
+        replay_sampler = RandomSampler(replay_dataset)
+        replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=args.train_batch_size)
 
     global_step = 0; tr_loss = 0.0
     model.zero_grad()
     train_iterator = trange(int(args.num_train_epochs), desc="Epoch", disable=False)
     set_seed(args)  
     for epoch in train_iterator: ##EPOCH
-        if task_id >= 1:
-            mix_step = list(np.random.randint(0,len(train_dataloader)-1,len(replay_dataloader)))
+        if task_id >= 1 and args.replay:
+            mix_step = list(np.random.randint(0,len(train_dataloader)-1,int(len(replay_dataloader)*1.2)))
             bnm_step = list(np.random.randint(0,len(train_dataloader)-1,1))
 
         for step, batch in enumerate(train_dataloader):
@@ -312,32 +223,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                 model.model.zero_grad()
                 global_step += 1
             ###2.8376,1.9717 -> 3.2810, 2.4692, 1.9476 -> 3.6967, 2.6558, 2.3392, 1.8834 -> 3.9895, 3.0885
-            #####mixup
-            if task_id >= 1 and step in mix_step and args.aug_method in ["replace","insert","del","swap"]:
-                with open("./data/replay/train.txt") as file:
-                    sentences = file.readlines()
-                    augs = []
-                    for sentence in sentences:
-                        print(sentence)
-                        if args.aug_method == "replace":
-                            aug = synonym_replacement(sentence.split(),min(1,int(len(sentence.split())*0.1)))
-                        if args.aug_method == "del":
-                            aug = random_deletion(sentence.split(),0.1)
-                        if args.aug_method == "insert":
-                            aug = random_insertion(sentence.split(),min(1,int(len(sentence.split())*0.1)))
-                        if args.aug_method == "swap":
-                            aug = random_swap(sentence.split(),min(1,int(len(sentence.split())*0.1)))
-                        if args.aug_method == "back_trans":
-                            from googletrans import Translator
-                            translator = Translator()
-                            trans_text = translator.translate(sentence, dest='fr').text
-                            aug = translator.translate(trans_text, dest='en').text
-                        aug = " ".join(aug)
-                        augs.append(aug)
-                with open("./data/replay/train.txt",'a') as file:
-                    for aug in augs:
-                        file.write(aug+"\n")
-            if task_id >= 1 and step in mix_step and args.aug_method == "mixup":
+            if args.aug_method == "mixup" and task_id >= 1 and step in mix_step:
                 replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True)
                 replay_sampler = RandomSampler(replay_dataset)
                 replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=args.train_batch_size)
@@ -348,10 +234,10 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                     inputs_B = inputs_B.to(args.device)
                     labels_B = labels_B.to(args.device)
                     model.train()
-                    mix_layer = np.random.choice([4,8,11],1)[0]
+                    mix_layer = np.random.choice([0,1,2,3,4,5,6,7,8,9,10,11],1)[0]
                     replay_loss = model(input_ids = inputs, labels=labels, input_ids_prev = inputs_B,labels_prev = labels_B,mix_layer = mix_layer)
                     print("replay_loss",replay_loss)
-                    replay_loss *= 0.5
+                    replay_loss *= 0.2
                     replay_loss.backward()
                 parameters_to_update = [p for n, p in model.named_parameters() ]
 
@@ -373,7 +259,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
 
 
             #########BNM
-            if task_id >= 1 and step in bnm_step and args.BNM == True:
+            if task_id >= 1 and args.replay and step in bnm_step and args.BNM == True:
                 replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True)
                 replay_sampler = RandomSampler(replay_dataset)
                 replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=10000)
@@ -393,9 +279,6 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
 
     prepare_fisher_for_this_task(args,model,train_dataloader,t_total)
 
-    for task_id,domain in enumerate(args.eval_data_file.split(",")[:task_id+1]):
-        eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test",task_id=task_id,task_name=domain)
-        evaluate(args, model, eval_dataset,task_id,tokenizer,domain)
     return global_step, tr_loss / global_step
 
 
@@ -550,10 +433,12 @@ def parse_arg():
     parser.add_argument("--EWC", type=str, default='F')
     parser.add_argument("--aug_method", type=str, default='None')
     parser.add_argument("--BNM", type=str, default='F')
+    parser.add_argument("--replay", type=str, default='F')
     args = parser.parse_args()
     args.split = args.split == "T"
     args.EWC = args.EWC == "T"
     args.BNM = args.BNM == "T"
+    args.replay = args.replay == "T"
     return args
 
 def prepare_for_main():
@@ -590,7 +475,6 @@ def prepare_for_main():
     elif args.mode == "adapter" :
         model = Seq2SeqToD(args,1)
     model.to(args.device)
-    args.split = True
     return args,device,domains,model_class,tokenizer_class,model,tokenizer,config,config_class
 
 def save_model_and_tokenizer(args,model,tokenizer):
@@ -619,21 +503,25 @@ def main():
     if args.split: ###分开训练
         for task_id,domain in enumerate(domains):
             print("======================= domain:",domain,"===========================")
-            train_dataset = TextSeqDataset(tokenizer, args, file_paths= [domain], max_seq=args.max_seq,task_id=task_id,task_name=domain,with_lamol=False,with_replay=True)
+            train_dataset = TextSeqDataset(tokenizer, args, file_paths= [domain], max_seq=args.max_seq,task_id=task_id,task_name=domain,with_lamol=False,with_replay=args.replay)
             global_step, tr_loss = train(args, train_dataset, model, tokenizer,task_id)
             #global_step, tr_loss,model = train_meta(args, train_dataset, model, tokenizer,task_id,domain)
             ########################### 此domain训练完成 ######################################
             print(" global_step = ", global_step," average loss = ", tr_loss)
-            generate_replay(args,task_id=task_id+1,domain_names=domains,tokenizer=tokenizer,model = model,mode = "REPLAY",sample_frac=0.01)
-
+            if args.replay:
+                generate_replay(args,task_id=task_id+1,domain_names=domains,tokenizer=tokenizer,model = model,mode = "REPLAY",sample_frac=0.01)
+        for task_id,domain in enumerate(args.eval_data_file.split(",")):
+            eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test",task_id=task_id,task_name=domain)
+            evaluate(args, model, eval_dataset,task_id,tokenizer,domain)
         save_model_and_tokenizer(args,model,tokenizer)
     else: ##合在一起
         train_dataset = TextSeqDataset(tokenizer, args, file_paths= domains, max_seq=args.max_seq)
-        global_step, tr_loss = train(args, train_dataset, model, tokenizer)
+        global_step, tr_loss = train(args, train_dataset, model, tokenizer,0)
         print(" global_step = ",global_step," average loss = ", tr_loss)
         save_model_and_tokenizer(args,model,tokenizer)
         model,tokenizer = load_model_and_tokenizer(args,model_class,tokenizer_class)
 
 
 if __name__ == "__main__":
+    file =  open("data/replay/train.txt","w")
     main()

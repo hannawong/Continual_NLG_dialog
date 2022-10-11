@@ -57,3 +57,5 @@ train_inform ( choice = "four") & Sure! It looks like we have four morning train
 train_inform ( arriveby = "08:52" ; departure = "airport" ; destination = "Cambridge" ; leaveat = "08:24" ; trainid = "TR9084") & I have train TR9084 that leaves the airport at 08:24 and gets to Cambridge at 08:52. Would that train work for you?
 train_inform ( choice = "133") & There are 133 trains making that trip, do you have a day and time you'd like to go?
 train_inform ( leaveat = "21:01" ; trainid = "TR7208") & TR7208 leaves at 21:01. Would you like me to book it?
+
+

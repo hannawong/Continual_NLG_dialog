@@ -21,3 +21,5 @@ OFFER ( temperature = "89" ; precipitation = "15") & There is a 15 percent chanc
 INFORM ( humidity = "22") & Yes The humidity is expected to bee 22 percent.
 OFFER ( temperature = "58" ; precipitation = "13") & The temperature is 58 degrees Fahrenheit with a chance of rain of 13 percent.
 INFORM ( humidity = "25") & It should be around 25 percent
+
+

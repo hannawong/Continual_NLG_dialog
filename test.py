@@ -78,60 +78,6 @@ model.model.eval()
 print("load model!!!!")
 
 
-replay_represent_dic = {}
-
-def get_representations_for_replay():
-    with open("data/replay/train.txt") as f:
-        lines = f.read().split("\n")
-        for line in lines:
-            act = line.split("(")[0].strip().lower()
-            original_line = line.lower()
-            line = line.split(" & ")[0]
-            raw_text = line.lower()
-            if len(raw_text) == 0:
-              continue
-            context_tokens = tokenizer.encode(raw_text, add_special_tokens=True)
-            context_tokens = torch.tensor(context_tokens, dtype=torch.long, device="cuda")
-            context_tokens = context_tokens.unsqueeze(0)
-            representation = model(context_tokens,with_adapter = False) ###Don't go through adapter
-            if not act in replay_represent_dic.keys():
-              replay_represent_dic[act] = [[original_line,representation[0,-1,:]/torch.norm(representation[0,-1,:],2)]]
-            else:
-              replay_represent_dic[act].append([original_line,representation[0,-1,:]/torch.norm(representation[0,-1,:],2)]) ##last hidden state
-
-get_representations_for_replay()
-candidate_represent = {}
-for key in replay_represent_dic:
-  candidate_represent[key] = torch.stack([_[1] for _ in replay_represent_dic[key]]) ##[40,768]
-
-
-def get_top_k(query, K, threshold):
-
-    action = query.split("(")[0].strip().lower()
-    if action not in candidate_represent:
-      return [],[]
-    candidates = candidate_represent[action]
-
-    query_tokens = tokenizer.encode(query, add_special_tokens=False)
-    query_tokens = torch.tensor(query_tokens, dtype=torch.long, device="cuda")
-    query_tokens = query_tokens.unsqueeze(0)
-    query_embedding = model(query_tokens,with_adapter = True)
-    query_embedding = query_embedding[0,-1,:] / torch.norm(query_embedding[0,-1,:],2)
-    d = query_embedding.shape[-1]
-    
-    quantizer = faiss.IndexFlatL2(d)
-    index = faiss.IndexIVFFlat(quantizer, d, 1,faiss.METRIC_INNER_PRODUCT)
-    index.train(candidates.cpu().detach().numpy())
-    index.add(candidates.cpu().detach().numpy())
-    distances, neighbors = index.search(query_embedding.cpu().detach().numpy().reshape(1,-1).astype(np.float32), K)
-
-    ans = []
-    similarity = []
-    for i in range(len(neighbors[0])):
-        if distances[0][i] > threshold:
-          ans.append(replay_represent_dic[action][list(neighbors[0])[i]][0])
-          similarity.append(distances[0][i])
-    return ans,similarity
 
 
 def top_k_top_p_filtering(logits, top_k=0, top_p=0.0, filter_value=-float('Inf')):
@@ -218,6 +164,8 @@ def generate_thread(domainname):
             raw_text = lines.split(' & ')[0]  ##inform ( name = arabian nights restaurant ; food = arabian ; goodformeal = dinner ) &
             raw_text = raw_text.lower()
             #print(raw_text)
+            if len(raw_text) == 0:
+                continue
             '''
             copy_model = copy.deepcopy(model)
             

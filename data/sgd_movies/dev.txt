@@ -1,86 +1,86 @@
 OFFER ( movie_name = "Breakthrough") & I have Breakthrough, Captain Marvel or Dumbo?
 OFFER ( show_time = "10:30 pm" ; theater_name = "Century at Tanforan & XD") & There is 1 show at 10:30 pm at Century at Tanforan & XD.
 OFFER ( show_time = "10:30 pm" ; theater_name = "Century at Tanforan & XD") & There is 1 show at 10:30 pm at Century at Tanforan & XD.
-OFFER ( show_time = "10:30 pm" ; theater_name = "Century at Tanforan & XD") & There is 1 show at 10:30 pm at Century at Tanforan & XD.INFORM_COUNT ( count = "1") & There is 1 show at 10:30 pm at Century at Tanforan & XD.
+OFFER ( show_time = "10:30 pm" ; theater_name = "Century at Tanforan @ There is 1 show at 10:30 pm at Century at Tanforan &  & There is 1 show at 10:30 pm at Century at Tanforan & XD.INFORM_COUNT ( count = "1") & There is 1 show at 10:30 pm at Century at Tanforan
 OFFER ( movie_name = "Breakthrough") & I have found 9 movies. Do you want to watch Breakthrough, Captain Marvel or Dumbo?
 OFFER ( movie_name = "Breakthrough") & I have found 9 movies. Do you want to watch Breakthrough, Captain Marvel or Dumbo?
-OFFER ( movie_name = "Breakthrough") & I have found 9 movies. Do you want to watch Breakthrough, Captain Marvel or Dumbo?INFORM_COUNT ( count = "9") & I have found 9 movies. Do you want to watch Breakthrough, Captain Marvel or Dumbo?
+OFFER ( movie_name = "Breakthrough") @ INFORM_COUNT ( count = "9") & I have found 9 movies  Do you want to watch Breakthrough, Captain Marvel or Dumbo
 OFFER ( movie_name = "Hellboy") & I have found 6 movies. Do you want to watch Hellboy, Little or Missing Link?
 OFFER ( movie_name = "Hellboy") & I have found 6 movies. Do you want to watch Hellboy, Little or Missing Link?
-OFFER ( movie_name = "Hellboy") & I have found 6 movies. Do you want to watch Hellboy, Little or Missing Link?INFORM_COUNT ( count = "6") & I have found 6 movies. Do you want to watch Hellboy, Little or Missing Link?
+OFFER ( movie_name = "Hellboy") @ INFORM_COUNT ( count = "6") & I have found 6 movies  Do you want to watch Hellboy, Little or Missing Link
 OFFER ( movie_name = "Pet Sematary") & I found 3 movies. Do you want to watch Pet Sematary, Shazam! or The Curse of La Llorona?
 OFFER ( movie_name = "Pet Sematary") & I found 3 movies. Do you want to watch Pet Sematary, Shazam! or The Curse of La Llorona?
-OFFER ( movie_name = "Pet Sematary") & I found 3 movies. Do you want to watch Pet Sematary, Shazam! or The Curse of La Llorona?INFORM_COUNT ( count = "3") & I found 3 movies. Do you want to watch Pet Sematary, Shazam! or The Curse of La Llorona?
+OFFER ( movie_name = "Pet Sematary") @ INFORM_COUNT ( count = "3") & I found 3 movies  Do you want to watch Pet Sematary, Shazam! or The Curse of La Llorona
 OFFER ( show_time = "4 pm" ; theater_name = "AMC NewPark 12") & There is 1 showtime for the movie at 4 pm at AMC NewPark 12.
 OFFER ( show_time = "4 pm" ; theater_name = "AMC NewPark 12") & There is 1 showtime for the movie at 4 pm at AMC NewPark 12.
-OFFER ( show_time = "4 pm" ; theater_name = "AMC NewPark 12") & There is 1 showtime for the movie at 4 pm at AMC NewPark 12.INFORM_COUNT ( count = "1") & There is 1 showtime for the movie at 4 pm at AMC NewPark 12.
+OFFER ( show_time = "4 pm" ; theater_name = "AMC NewPark 12") @ INFORM_COUNT ( count = "1") & There is 1 showtime for the movie at 4 pm at AMC NewPark 12
 OFFER ( movie_name = "Shazam!") & I have found 1 movie, what about the movie Shazam!?
 OFFER ( movie_name = "Shazam!") & I have found 1 movie, what about the movie Shazam!?
-OFFER ( movie_name = "Shazam!") & I have found 1 movie, what about the movie Shazam!?INFORM_COUNT ( count = "1") & I have found 1 movie, what about the movie Shazam!?
+OFFER ( movie_name = "Shazam!") @ INFORM_COUNT ( count = "1") & I have found 1 movie, what about the movie Shazam!
 OFFER ( show_time = "10:30 pm" ; theater_name = "Century 20 Daly City & XD") & There's 1 showtime at 10:30 pm in Century 20 Daly City & XD
 OFFER ( show_time = "10:30 pm" ; theater_name = "Century 20 Daly City & XD") & There's 1 showtime at 10:30 pm in Century 20 Daly City & XD
-OFFER ( show_time = "10:30 pm" ; theater_name = "Century 20 Daly City & XD") & There's 1 showtime at 10:30 pm in Century 20 Daly City & XDINFORM_COUNT ( count = "1") & There's 1 showtime at 10:30 pm in Century 20 Daly City & XD
+OFFER ( show_time = "10:30 pm" ; theater_name = "Century 20 Daly City @ There's 1 showtime at 10:30 pm in Century 20 Daly City &  & There's 1 showtime at 10:30 pm in Century 20 Daly City & XDINFORM_COUNT ( count = "1") & There's 1 showtime at 10:30 pm in Century 20 Daly City
 OFFER ( movie_name = "How to Train Your Dragon: The hidden World") & How to Train Your Dragon: The hidden World, Little or Pet Sematary?
 OFFER ( movie_name = "Shazam!") & How about Shazam!?I found 1 movie.
 OFFER ( movie_name = "Shazam!") & How about Shazam!?I found 1 movie.
-OFFER ( movie_name = "Shazam!") & How about Shazam!?I found 1 movie.INFORM_COUNT ( count = "1") & How about Shazam!?I found 1 movie.
+OFFER ( movie_name = "Shazam!") @ INFORM_COUNT ( count = "1") & How about Shazam! I found 1 movie
 OFFER ( show_time = "10:30 pm" ; theater_name = "Century at Pacific Commons & XD") & There's one show 10:30 pm in Century at Pacific Commons & XD.
 OFFER ( movie_name = "After") & Are you interested in After, Breakthrough or Captain Marvel
 OFFER ( show_time = "10:30 pm" ; theater_name = "Century Vallejo 14") & I found 1 showtimes at 10:30 pm in Century Vallejo 14
 OFFER ( show_time = "10:30 pm" ; theater_name = "Century Vallejo 14") & I found 1 showtimes at 10:30 pm in Century Vallejo 14
-OFFER ( show_time = "10:30 pm" ; theater_name = "Century Vallejo 14") & I found 1 showtimes at 10:30 pm in Century Vallejo 14INFORM_COUNT ( count = "1") & I found 1 showtimes at 10:30 pm in Century Vallejo 14
+OFFER ( show_time = "10:30 pm" ; theater_name = "Century Vallejo 14") @ I found 1 showtimes at 10:30 pm in Century Vallejo 14INFORM_COUNT ( count = "1") & 
 OFFER ( movie_name = "Breakthrough") & Sure. Do you like one of these: Breakthrough, Dr. Strangelove or Fighting with my Family?
 OFFER ( movie_name = "How to Train Your Dragon: The Hidden World") & Sure. Do you like one of these: How to Train Your Dragon: The Hidden World, Little or Stockholm?
 OFFER ( show_time = "10 pm" ; theater_name = "Regal Cinemas Jack London 9") & You have 1 option. It is at 10 pm in Regal Cinemas Jack London 9.
 OFFER ( show_time = "10 pm" ; theater_name = "Regal Cinemas Jack London 9") & You have 1 option. It is at 10 pm in Regal Cinemas Jack London 9.
-OFFER ( show_time = "10 pm" ; theater_name = "Regal Cinemas Jack London 9") & You have 1 option. It is at 10 pm in Regal Cinemas Jack London 9.INFORM_COUNT ( count = "1") & You have 1 option. It is at 10 pm in Regal Cinemas Jack London 9.
+OFFER ( show_time = "10 pm" ; theater_name = "Regal Cinemas Jack London 9") @ INFORM_COUNT ( count = "1") & You have 1 option  It is at 10 pm in Regal Cinemas Jack London 9
 INFORM ( street_address = "100 Washington Street" ; genre = "comedy") & The address of the theatre is 100 Washington Street. The movie is a comedy.
 OFFER ( movie_name = "Dumbo") & There are 7 movies playing. Does Dumbo, Family, or Little sounds good?
 OFFER ( movie_name = "Dumbo") & There are 7 movies playing. Does Dumbo, Family, or Little sounds good?
-OFFER ( movie_name = "Dumbo") & There are 7 movies playing. Does Dumbo, Family, or Little sounds good?INFORM_COUNT ( count = "7") & There are 7 movies playing. Does Dumbo, Family, or Little sounds good?
+OFFER ( movie_name = "Dumbo") @ INFORM_COUNT ( count = "7") & There are 7 movies playing  Does Dumbo, Family, or Little sounds good
 OFFER ( movie_name = "Missing Link") & Other movies playing are Missing Link, Pet Sematary and Shazam!. Do you like any of those?
 OFFER ( movie_name = "Teen Spirit") & Would you like to see Teen Spirit?
 OFFER ( show_time = "10 pm" ; theater_name = "AMC Bay Street 16") & Ok, there is 1 showing at the AMC Bay Street 16 theater at 10 pm.
 OFFER ( show_time = "10 pm" ; theater_name = "AMC Bay Street 16") & Ok, there is 1 showing at the AMC Bay Street 16 theater at 10 pm.
-OFFER ( show_time = "10 pm" ; theater_name = "AMC Bay Street 16") & Ok, there is 1 showing at the AMC Bay Street 16 theater at 10 pm.INFORM_COUNT ( count = "1") & Ok, there is 1 showing at the AMC Bay Street 16 theater at 10 pm.
+OFFER ( show_time = "10 pm" ; theater_name = "AMC Bay Street 16") @ INFORM_COUNT ( count = "1") & Ok, there is 1 showing at the AMC Bay Street 16 theater at 10 pm
 INFORM ( price = "$12" ; genre = "musical") & The movie is a musical and tickets are $12 each.
 OFFER ( movie_name = "Ash Is Purest White") & How does Ash Is Purest White, Body Double, or Captain Marvel sound?
 OFFER ( show_time = "9:30 pm" ; theater_name = "Alamo Drafthouse Cinema") & There's a 9:30 pm showing at Alamo Drafthouse Cinema.
 OFFER ( movie_name = "Captain Marvel") & There are 5 movies being shown. How would you feel about Captain Marvel, Little or Missing Link?
 OFFER ( movie_name = "Captain Marvel") & There are 5 movies being shown. How would you feel about Captain Marvel, Little or Missing Link?
-OFFER ( movie_name = "Captain Marvel") & There are 5 movies being shown. How would you feel about Captain Marvel, Little or Missing Link?INFORM_COUNT ( count = "5") & There are 5 movies being shown. How would you feel about Captain Marvel, Little or Missing Link?
+OFFER ( movie_name = "Captain Marvel") @ INFORM_COUNT ( count = "5") & There are 5 movies being shown  How would you feel about Captain Marvel, Little or Missing Link
 OFFER ( show_time = "10 pm" ; theater_name = "Century Walnut Creek 14 & XD") & There is 1 showtime at 10 pm in Century Walnut Creek 14 & XD.
 OFFER ( show_time = "10 pm" ; theater_name = "Century Walnut Creek 14 & XD") & There is 1 showtime at 10 pm in Century Walnut Creek 14 & XD.
-OFFER ( show_time = "10 pm" ; theater_name = "Century Walnut Creek 14 & XD") & There is 1 showtime at 10 pm in Century Walnut Creek 14 & XD.INFORM_COUNT ( count = "1") & There is 1 showtime at 10 pm in Century Walnut Creek 14 & XD.
+OFFER ( show_time = "10 pm" ; theater_name = "Century Walnut Creek 14 @ There is 1 showtime at 10 pm in Century Walnut Creek 14 &  & There is 1 showtime at 10 pm in Century Walnut Creek 14 & XD.INFORM_COUNT ( count = "1") & There is 1 showtime at 10 pm in Century Walnut Creek 14
 OFFER ( movie_name = "After") & Do you look for debut movies? Any genre preference do you have? Do you wish to watch After, Dumbo or Hellboy?
 OFFER ( movie_name = "Breakthrough") & Please give me a moment.... Hey! I can find 10 movies of your taste. What do you think about the movies Breakthrough, Dr. Strangelove or Fighting with my Family?
 OFFER ( movie_name = "Breakthrough") & Please give me a moment.... Hey! I can find 10 movies of your taste. What do you think about the movies Breakthrough, Dr. Strangelove or Fighting with my Family?
-OFFER ( movie_name = "Breakthrough") & Please give me a moment.... Hey! I can find 10 movies of your taste. What do you think about the movies Breakthrough, Dr. Strangelove or Fighting with my Family?INFORM_COUNT ( count = "10") & Please give me a moment.... Hey! I can find 10 movies of your taste. What do you think about the movies Breakthrough, Dr. Strangelove or Fighting with my Family?
+OFFER ( movie_name = "Breakthrough") @ INFORM_COUNT ( count = "10") & Please give me a moment     Hey! I can find 10 movies of your taste  What do you think about the movies Breakthrough, Dr  Strangelove or Fighting with my Family
 OFFER ( movie_name = "Gloria Bell") & Sure... Here you go! There is 1 movie, Gloria Bell? How about this movie?
 OFFER ( movie_name = "Gloria Bell") & Sure... Here you go! There is 1 movie, Gloria Bell? How about this movie?
-OFFER ( movie_name = "Gloria Bell") & Sure... Here you go! There is 1 movie, Gloria Bell? How about this movie?INFORM_COUNT ( count = "1") & Sure... Here you go! There is 1 movie, Gloria Bell? How about this movie?
+OFFER ( movie_name = "Gloria Bell") @ INFORM_COUNT ( count = "1") & Sure    Here you go! There is 1 movie, Gloria Bell  How about this movie
 OFFER ( show_time = "4 pm" ; theater_name = "The New Parkway Theater") & Yup! They have the shows at 10 am, 1 pm and 4 pm in The New Parkway Theater. Which one you wish to choose?
 OFFER ( movie_name = "After") & Yes, found 5. Can you tell me which is best suit to you among, After, Hotel Mumbai or Little?
 OFFER ( movie_name = "After") & Yes, found 5. Can you tell me which is best suit to you among, After, Hotel Mumbai or Little?
-OFFER ( movie_name = "After") & Yes, found 5. Can you tell me which is best suit to you among, After, Hotel Mumbai or Little?INFORM_COUNT ( count = "5") & Yes, found 5. Can you tell me which is best suit to you among, After, Hotel Mumbai or Little?
+OFFER ( movie_name = "After") @ INFORM_COUNT ( count = "5") & Yes, found 5  Can you tell me which is best suit to you among, After, Hotel Mumbai or Little
 OFFER ( show_time = "9:30 pm" ; theater_name = "Century 16 Downtown") & Yes, you can watch 1 show at 9:30 pm in Century 16 Downtown.
 OFFER ( show_time = "9:30 pm" ; theater_name = "Century 16 Downtown") & Yes, you can watch 1 show at 9:30 pm in Century 16 Downtown.
-OFFER ( show_time = "9:30 pm" ; theater_name = "Century 16 Downtown") & Yes, you can watch 1 show at 9:30 pm in Century 16 Downtown.INFORM_COUNT ( count = "1") & Yes, you can watch 1 show at 9:30 pm in Century 16 Downtown.
+OFFER ( show_time = "9:30 pm" ; theater_name = "Century 16 Downtown") @ INFORM_COUNT ( count = "1") & Yes, you can watch 1 show at 9:30 pm in Century 16 Downtown
 INFORM ( price = "$8" ; street_address = "125 Crescent drive") & ticket cost will be $8 per people and the address is 125 Crescent drive. Is that okay?
 OFFER ( movie_name = "Breakthrough") & I found 10 movies for you. What about Breakthrough, Captain Marvel or Dumbo?
 OFFER ( movie_name = "Breakthrough") & I found 10 movies for you. What about Breakthrough, Captain Marvel or Dumbo?
-OFFER ( movie_name = "Breakthrough") & I found 10 movies for you. What about Breakthrough, Captain Marvel or Dumbo?INFORM_COUNT ( count = "10") & I found 10 movies for you. What about Breakthrough, Captain Marvel or Dumbo?
+OFFER ( movie_name = "Breakthrough") @ INFORM_COUNT ( count = "10") & I found 10 movies for you  What about Breakthrough, Captain Marvel or Dumbo
 OFFER ( movie_name = "Hellboy") & I also found Hellboy, Little, and Long Shot.
 OFFER ( show_time = "7 pm" ; theater_name = "AMC Brentwood 14") & There's 1 show at 7 pm at AMC Brentwood 14.
 OFFER ( show_time = "7 pm" ; theater_name = "AMC Brentwood 14") & There's 1 show at 7 pm at AMC Brentwood 14.
-OFFER ( show_time = "7 pm" ; theater_name = "AMC Brentwood 14") & There's 1 show at 7 pm at AMC Brentwood 14.INFORM_COUNT ( count = "1") & There's 1 show at 7 pm at AMC Brentwood 14.
+OFFER ( show_time = "7 pm" ; theater_name = "AMC Brentwood 14") @ INFORM_COUNT ( count = "1") & There's 1 show at 7 pm at AMC Brentwood 14
 INFORM ( price = "6" ; genre = "Comedy") & Tickets are 6 dollars per person. It's a Comedy.
 OFFER ( movie_name = "Breakthrough") & I have located 6 movies. What do you think of Breakthrough, Captain Marvel, or Dumbo?
 OFFER ( movie_name = "Breakthrough") & I have located 6 movies. What do you think of Breakthrough, Captain Marvel, or Dumbo?
-OFFER ( movie_name = "Breakthrough") & I have located 6 movies. What do you think of Breakthrough, Captain Marvel, or Dumbo?INFORM_COUNT ( count = "6") & I have located 6 movies. What do you think of Breakthrough, Captain Marvel, or Dumbo?
+OFFER ( movie_name = "Breakthrough") @ INFORM_COUNT ( count = "6") & I have located 6 movies  What do you think of Breakthrough, Captain Marvel, or Dumbo
 OFFER ( movie_name = "Little") & I have located 4 movies. What do you think of Little, Missing Link, or Shazam!?
 OFFER ( movie_name = "Little") & I have located 4 movies. What do you think of Little, Missing Link, or Shazam!?
-OFFER ( movie_name = "Little") & I have located 4 movies. What do you think of Little, Missing Link, or Shazam!?INFORM_COUNT ( count = "4") & I have located 4 movies. What do you think of Little, Missing Link, or Shazam!?
+OFFER ( movie_name = "Little") @ INFORM_COUNT ( count = "4") & I have located 4 movies  What do you think of Little, Missing Link, or Shazam!
 OFFER ( movie_name = "Teen Spirit") & What do you think of Teen Spirit?
 OFFER ( show_time = "10 pm" ; theater_name = "AMC Bay Street 16") & There is a showing at 10 pm at AMC Bay Street 16.
 OFFER ( movie_name = "Hackers") & How does Hackers, High Life or Sunset sound?
@@ -88,54 +88,54 @@ OFFER ( movie_name = "After") & How about After, Breakthrough or Captain Marvel?
 OFFER ( movie_name = "Dumbo") & What about Dumbo, Hellboy or Hotel Mumbai?
 OFFER ( show_time = "9 pm" ; theater_name = "Century 25 Union Landing & XD") & I've got 1 showtime. There's a show at 9 pm in Century 25 Union Landing & XD.
 OFFER ( show_time = "9 pm" ; theater_name = "Century 25 Union Landing & XD") & I've got 1 showtime. There's a show at 9 pm in Century 25 Union Landing & XD.
-OFFER ( show_time = "9 pm" ; theater_name = "Century 25 Union Landing & XD") & I've got 1 showtime. There's a show at 9 pm in Century 25 Union Landing & XD.INFORM_COUNT ( count = "1") & I've got 1 showtime. There's a show at 9 pm in Century 25 Union Landing & XD.
+OFFER ( show_time = "9 pm" ; theater_name = "Century 25 Union Landing @  There's a show at 9 pm in Century 25 Union Landing & I've got 1 showtime & I've got 1 showtime. There's a show at 9 pm in Century 25 Union Landing & XD.INFORM_COUNT ( count = "1") & I've got 1 showtime. There's a show at 9 pm in Century 25 Union Landing
 OFFER ( movie_name = "Captain Marvel") & There is Captain Marvel, Dumbo, and Hellboy.
 OFFER ( show_time = "10 pm" ; theater_name = "United Artists Berkeley 7") & Captain Marvel is showing just 1 time today. It's at 10 pm at United Artists Berkeley 7.
 OFFER ( show_time = "10 pm" ; theater_name = "United Artists Berkeley 7") & Captain Marvel is showing just 1 time today. It's at 10 pm at United Artists Berkeley 7.
-OFFER ( show_time = "10 pm" ; theater_name = "United Artists Berkeley 7") & Captain Marvel is showing just 1 time today. It's at 10 pm at United Artists Berkeley 7.INFORM_COUNT ( count = "1") & Captain Marvel is showing just 1 time today. It's at 10 pm at United Artists Berkeley 7.
+OFFER ( show_time = "10 pm" ; theater_name = "United Artists Berkeley 7") @ INFORM_COUNT ( count = "1") & Captain Marvel is showing just 1 time today  It's at 10 pm at United Artists Berkeley 7
 OFFER ( movie_name = "Captain Marvel") & I found 1 such movie, how aout Captain Marvel?
 OFFER ( movie_name = "Captain Marvel") & I found 1 such movie, how aout Captain Marvel?
-OFFER ( movie_name = "Captain Marvel") & I found 1 such movie, how aout Captain Marvel?INFORM_COUNT ( count = "1") & I found 1 such movie, how aout Captain Marvel?
+OFFER ( movie_name = "Captain Marvel") @ INFORM_COUNT ( count = "1") & I found 1 such movie, how aout Captain Marvel
 OFFER ( show_time = "10 pm" ; theater_name = "Century Rowland Plaza") & There is a 10 pm in Century Rowland Plaza.
 INFORM ( price = "$9" ; street_address = "44 Rowland Way") & The address is 44 Rowland Way. Tickets are $9 per person.
 OFFER ( movie_name = "Breakthrough") & How about Breakthrough, Captain Marvel or Dumbo?
 OFFER ( movie_name = "Hellboy") & How about Hellboy, Little or Missing Link?
 OFFER ( movie_name = "Shazam!") & I found 3 movies. How about Shazam!, Teen Spirit or The Curse of La Llorona?
 OFFER ( movie_name = "Shazam!") & I found 3 movies. How about Shazam!, Teen Spirit or The Curse of La Llorona?
-OFFER ( movie_name = "Shazam!") & I found 3 movies. How about Shazam!, Teen Spirit or The Curse of La Llorona?INFORM_COUNT ( count = "3") & I found 3 movies. How about Shazam!, Teen Spirit or The Curse of La Llorona?
+OFFER ( movie_name = "Shazam!") @ INFORM_COUNT ( count = "3") & I found 3 movies  How about Shazam!, Teen Spirit or The Curse of La Llorona
 OFFER ( show_time = "5 pm" ; theater_name = "THE LOT City Center") & I found 1 show at 5 pm in THE LOT City Center.
 OFFER ( show_time = "5 pm" ; theater_name = "THE LOT City Center") & I found 1 show at 5 pm in THE LOT City Center.
-OFFER ( show_time = "5 pm" ; theater_name = "THE LOT City Center") & I found 1 show at 5 pm in THE LOT City Center.INFORM_COUNT ( count = "1") & I found 1 show at 5 pm in THE LOT City Center.
+OFFER ( show_time = "5 pm" ; theater_name = "THE LOT City Center") @ INFORM_COUNT ( count = "1") & I found 1 show at 5 pm in THE LOT City Center
 OFFER ( movie_name = "Breakthrough") & I found 6 movies there. There's Dumbo, Captain Marvel, and Breakthrough to name a few.
 OFFER ( movie_name = "Breakthrough") & I found 6 movies there. There's Dumbo, Captain Marvel, and Breakthrough to name a few.
-OFFER ( movie_name = "Breakthrough") & I found 6 movies there. There's Dumbo, Captain Marvel, and Breakthrough to name a few.INFORM_COUNT ( count = "6") & I found 6 movies there. There's Dumbo, Captain Marvel, and Breakthrough to name a few.
+OFFER ( movie_name = "Breakthrough") @ INFORM_COUNT ( count = "6") & I found 6 movies there  There's Dumbo, Captain Marvel, and Breakthrough to name a few
 OFFER ( show_time = "8:30 pm" ; theater_name = "CineLux Tennant Station Stadium 11") & There's 1 8:30 pm showtime at CineLux Tennant Station Stadium 11.
 OFFER ( show_time = "8:30 pm" ; theater_name = "CineLux Tennant Station Stadium 11") & There's 1 8:30 pm showtime at CineLux Tennant Station Stadium 11.
-OFFER ( show_time = "8:30 pm" ; theater_name = "CineLux Tennant Station Stadium 11") & There's 1 8:30 pm showtime at CineLux Tennant Station Stadium 11.INFORM_COUNT ( count = "1") & There's 1 8:30 pm showtime at CineLux Tennant Station Stadium 11.
+OFFER ( show_time = "8:30 pm" ; theater_name = "CineLux Tennant Station Stadium 11") @ INFORM_COUNT ( count = "1") & There's 1 8:30 pm showtime at CineLux Tennant Station Stadium 11
 INFORM ( price = "9") & It's 9 bucks per person.
 OFFER ( movie_name = "Hellboy") & How does Hellboy sound?
 OFFER ( show_time = "8 pm" ; theater_name = "The Clover Theater") & Okay, I found 1 showtime at 8 pm in The Clover Theater.
 OFFER ( show_time = "8 pm" ; theater_name = "The Clover Theater") & Okay, I found 1 showtime at 8 pm in The Clover Theater.
-OFFER ( show_time = "8 pm" ; theater_name = "The Clover Theater") & Okay, I found 1 showtime at 8 pm in The Clover Theater.INFORM_COUNT ( count = "1") & Okay, I found 1 showtime at 8 pm in The Clover Theater.
+OFFER ( show_time = "8 pm" ; theater_name = "The Clover Theater") @ INFORM_COUNT ( count = "1") & Okay, I found 1 showtime at 8 pm in The Clover Theater
 OFFER ( movie_name = "A Madea Family Funeral") & There's sessions for A Madea Family Funeral, After and Breakthrough.
 OFFER ( movie_name = "Dumbo") & Dumbo, Hellboy and Little are also available.
 OFFER ( movie_name = "Shazam!") & There's also Shazam! and The Curse of La Llorona.
 OFFER ( show_time = "10:30 pm" ; theater_name = "CineLux Almaden Cinema") & I found 1 session at 10:30 pm in CineLux Almaden Cinema.
 OFFER ( show_time = "10:30 pm" ; theater_name = "CineLux Almaden Cinema") & I found 1 session at 10:30 pm in CineLux Almaden Cinema.
-OFFER ( show_time = "10:30 pm" ; theater_name = "CineLux Almaden Cinema") & I found 1 session at 10:30 pm in CineLux Almaden Cinema.INFORM_COUNT ( count = "1") & I found 1 session at 10:30 pm in CineLux Almaden Cinema.
+OFFER ( show_time = "10:30 pm" ; theater_name = "CineLux Almaden Cinema") @ INFORM_COUNT ( count = "1") & I found 1 session at 10:30 pm in CineLux Almaden Cinema
 INFORM ( price = "$16" ; street_address = "2306 Almaden Road") & $16 per person. Their address is 2306 Almaden Road.
 OFFER ( movie_name = "Breakthrough") & Okay. There is 1 movie titled Breakthrough. Does that interest you?
 OFFER ( movie_name = "Breakthrough") & Okay. There is 1 movie titled Breakthrough. Does that interest you?
-OFFER ( movie_name = "Breakthrough") & Okay. There is 1 movie titled Breakthrough. Does that interest you?INFORM_COUNT ( count = "1") & Okay. There is 1 movie titled Breakthrough. Does that interest you?
+OFFER ( movie_name = "Breakthrough") @ INFORM_COUNT ( count = "1") & Okay  There is 1 movie titled Breakthrough  Does that interest you
 OFFER ( show_time = "9:30 pm" ; theater_name = "Century at Tanforan & XD") & The 1 showtime available is for 9:30 pm in Century at Tanforan & XD.
 OFFER ( show_time = "9:30 pm" ; theater_name = "Century at Tanforan & XD") & The 1 showtime available is for 9:30 pm in Century at Tanforan & XD.
-OFFER ( show_time = "9:30 pm" ; theater_name = "Century at Tanforan & XD") & The 1 showtime available is for 9:30 pm in Century at Tanforan & XD.INFORM_COUNT ( count = "1") & The 1 showtime available is for 9:30 pm in Century at Tanforan & XD.
+OFFER ( show_time = "9:30 pm" ; theater_name = "Century at Tanforan @ The 1 showtime available is for 9:30 pm in Century at Tanforan &  & The 1 showtime available is for 9:30 pm in Century at Tanforan & XD.INFORM_COUNT ( count = "1") & The 1 showtime available is for 9:30 pm in Century at Tanforan
 OFFER ( movie_name = "Breakthrough") & I have Breakthrough, Captain Marvel, or Dumbo.
 OFFER ( movie_name = "Hellboy") & I have Hellboy, Little, and Missing Link.
 OFFER ( movie_name = "Shazam!") & Ok, Heres Shazam!, Teen Spirit, and The Curse of La Llorona
 OFFER ( show_time = "4:30 pm" ; theater_name = "THE LOT city center") & I have 2 times for the movie. One at 4:30 pm at THE LOT city center
 OFFER ( show_time = "4:30 pm" ; theater_name = "THE LOT city center") & I have 2 times for the movie. One at 4:30 pm at THE LOT city center
-OFFER ( show_time = "4:30 pm" ; theater_name = "THE LOT city center") & I have 2 times for the movie. One at 4:30 pm at THE LOT city centerINFORM_COUNT ( count = "2") & I have 2 times for the movie. One at 4:30 pm at THE LOT city center
+OFFER ( show_time = "4:30 pm" ; theater_name = "THE LOT city center") @  One at 4:30 pm at THE LOT city centerINFORM_COUNT ( count = "2") & I have 2 times for the movie
 INFORM ( street_address = "6000 Bollinger Canyon Road Suite 2300") & Its located at 6000 Bollinger Canyon Road Suite 2300
 OFFER ( movie_name = "Breakthrough") & It is showing Breakthrough, Captain Marvel And Dumbo.
 OFFER ( movie_name = "Hellboy") & They are also showing Hellboy, Pet Sematary and Shazam!.
@@ -144,17 +144,17 @@ OFFER ( movie_name = "Ash Is Purest White") & How about Ash Is Purest White, Bod
 OFFER ( movie_name = "Family") & How about Family?
 OFFER ( show_time = "7 pm" ; theater_name = "United Artists Stonestown Twin") & i Found 1 show in United Artists Stonestown Twin at 7 pm.
 OFFER ( show_time = "7 pm" ; theater_name = "United Artists Stonestown Twin") & i Found 1 show in United Artists Stonestown Twin at 7 pm.
-OFFER ( show_time = "7 pm" ; theater_name = "United Artists Stonestown Twin") & i Found 1 show in United Artists Stonestown Twin at 7 pm.INFORM_COUNT ( count = "1") & i Found 1 show in United Artists Stonestown Twin at 7 pm.
+OFFER ( show_time = "7 pm" ; theater_name = "United Artists Stonestown Twin") @ INFORM_COUNT ( count = "1") & i Found 1 show in United Artists Stonestown Twin at 7 pm
 INFORM ( price = "$12" ; street_address = "501 Buckingham Way") & The Price is $12 per person. Address is 501 Buckingham Way.
 OFFER ( movie_name = "Ash Is Purest White") & I found a total of 10 movies, would you like to watch Ash Is Purest White, Body Double or Captain Marvel?
 OFFER ( movie_name = "Ash Is Purest White") & I found a total of 10 movies, would you like to watch Ash Is Purest White, Body Double or Captain Marvel?
-OFFER ( movie_name = "Ash Is Purest White") & I found a total of 10 movies, would you like to watch Ash Is Purest White, Body Double or Captain Marvel?INFORM_COUNT ( count = "10") & I found a total of 10 movies, would you like to watch Ash Is Purest White, Body Double or Captain Marvel?
+OFFER ( movie_name = "Ash Is Purest White") @ INFORM_COUNT ( count = "10") & I found a total of 10 movies, would you like to watch Ash Is Purest White, Body Double or Captain Marvel
 OFFER ( show_time = "9 pm" ; theater_name = "Landmark's Embarcadero Center Cinema") & I have one showing at Landmark's Embarcadero Center Cinema at 9 pm.
 INFORM ( price = "$14" ; genre = "crime") & Its a crime movie and cost $14.
 OFFER ( movie_name = "Dumbo") & Three movies come up for your consideration. There is the title Dumbo, the title Hellboy or the title Missing Link? Do you like to see either of those movies?
 OFFER ( show_time = "11 am" ; theater_name = "THE LOT City Center") & There is 1 showtime for the movie, 11 am at THE LOT City Center.
 OFFER ( show_time = "11 am" ; theater_name = "THE LOT City Center") & There is 1 showtime for the movie, 11 am at THE LOT City Center.
-OFFER ( show_time = "11 am" ; theater_name = "THE LOT City Center") & There is 1 showtime for the movie, 11 am at THE LOT City Center.INFORM_COUNT ( count = "1") & There is 1 showtime for the movie, 11 am at THE LOT City Center.
+OFFER ( show_time = "11 am" ; theater_name = "THE LOT City Center") @ INFORM_COUNT ( count = "1") & There is 1 showtime for the movie, 11 am at THE LOT City Center
 INFORM ( street_address = "6000 Bollinger Canyon Road Suite 2300") & The theater is located at 6000 Bollinger Canyon Road Suite 2300.
 OFFER ( movie_name = "After") & What about After, Breakthrough or Captain Marvel?
 OFFER ( movie_name = "Dumbo") & What about Dumbo, Hellboy or Hotel Mumbai?
@@ -164,51 +164,53 @@ OFFER ( movie_name = "Ash Is Purest White") & I found the movies Ash Is Purest W
 OFFER ( movie_name = "The Aftermath") & What about the movie The Aftermath?
 OFFER ( show_time = "7 pm" ; theater_name = "United Artists Stonestown Twin") & I found 1 showtime at 7 pm at the United Artists Stonestown Twin.
 OFFER ( show_time = "7 pm" ; theater_name = "United Artists Stonestown Twin") & I found 1 showtime at 7 pm at the United Artists Stonestown Twin.
-OFFER ( show_time = "7 pm" ; theater_name = "United Artists Stonestown Twin") & I found 1 showtime at 7 pm at the United Artists Stonestown Twin.INFORM_COUNT ( count = "1") & I found 1 showtime at 7 pm at the United Artists Stonestown Twin.
+OFFER ( show_time = "7 pm" ; theater_name = "United Artists Stonestown Twin") @ INFORM_COUNT ( count = "1") & I found 1 showtime at 7 pm at the United Artists Stonestown Twin
 INFORM ( price = "$13" ; street_address = "501 Buckingham Way") & The price is $13 and the address is 501 Buckingham Way.
 OFFER ( movie_name = "Breakthrough") & What do you think about Breakthrough, Dr. Strangelove, or Fighting with My Family?
 OFFER ( show_time = "10:30 pm" ; theater_name = "The New Parkway Theater") & I found 1 showtime at The New Parkway Theater for 10:30 pm.
 OFFER ( show_time = "10:30 pm" ; theater_name = "The New Parkway Theater") & I found 1 showtime at The New Parkway Theater for 10:30 pm.
-OFFER ( show_time = "10:30 pm" ; theater_name = "The New Parkway Theater") & I found 1 showtime at The New Parkway Theater for 10:30 pm.INFORM_COUNT ( count = "1") & I found 1 showtime at The New Parkway Theater for 10:30 pm.
+OFFER ( show_time = "10:30 pm" ; theater_name = "The New Parkway Theater") @ INFORM_COUNT ( count = "1") & I found 1 showtime at The New Parkway Theater for 10:30 pm
 INFORM ( genre = "Comedy") & It's a Comedy.
 INFORM ( street_address = "474 24th Street") & It's at 474 24th Street.
 OFFER ( title = "Gloria Bell" ; aggregate_rating = "6.7") & I have found 10 movies. Would you like to watch Gloria Bell. It has a rating of 6.7.
 OFFER ( title = "Gloria Bell" ; aggregate_rating = "6.7") & I have found 10 movies. Would you like to watch Gloria Bell. It has a rating of 6.7.
-OFFER ( title = "Gloria Bell" ; aggregate_rating = "6.7") & I have found 10 movies. Would you like to watch Gloria Bell. It has a rating of 6.7.INFORM_COUNT ( count = "10") & I have found 10 movies. Would you like to watch Gloria Bell. It has a rating of 6.7.
+OFFER ( title = "Gloria Bell" ; aggregate_rating = "6.7") @ INFORM_COUNT ( count = "10") & I have found 10 movies  Would you like to watch Gloria Bell  It has a rating of 6 7
 OFFER ( title = "Pillow Talk" ; aggregate_rating = "7.5") & There is a movie called Pillow Talk with a rating of 7.5.
 INFORM ( director = "Michael Gordon" ; genre = "romance") & This is a romance movie directed by Michael Gordon.
 OFFER ( title = "Auntie Mame" ; aggregate_rating = "8.0") & What do you think about Auntie Mame. It has an average rating of 8.0
 OFFER ( title = "Red Joan" ; aggregate_rating = "6.2") & I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2
 OFFER ( title = "Red Joan" ; aggregate_rating = "6.2") & I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2
-OFFER ( title = "Red Joan" ; aggregate_rating = "6.2") & I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2INFORM_COUNT ( count = "10") & I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2
+OFFER ( title = "Red Joan" ; aggregate_rating = "6.2") @ 2INFORM_COUNT ( count = "10") & I can help with that! I've got 10 movies here - how do you feel about Red Joan  I've had a look at it has an average rating of 6
 OFFER ( title = "Ramen Shop" ; aggregate_rating = "6.8") & What about Ramen Shop? It's got a rating of 6.8
 OFFER ( title = "Hellboy" ; aggregate_rating = "5.4") & Here's 1 for you: how about Hellboy? That's got a rating of 5.4
 OFFER ( title = "Hellboy" ; aggregate_rating = "5.4") & Here's 1 for you: how about Hellboy? That's got a rating of 5.4
-OFFER ( title = "Hellboy" ; aggregate_rating = "5.4") & Here's 1 for you: how about Hellboy? That's got a rating of 5.4INFORM_COUNT ( count = "1") & Here's 1 for you: how about Hellboy? That's got a rating of 5.4
+OFFER ( title = "Hellboy" ; aggregate_rating = "5.4") @ 4INFORM_COUNT ( count = "1") & Here's 1 for you: how about Hellboy  That's got a rating of 5
 OFFER ( title = "Dr. Strangelove" ; aggregate_rating = "8.4") & What about the movie Dr. Strangelove? It has an average rating of 8.4
 INFORM ( director = "Stanley Kubrick" ; starring = "Frank Berry") & The actor is Frank Berry directed by Stanley Kubrick.
 OFFER ( title = "The Curse of La Llorona" ; aggregate_rating = "5.9") & There's The Curse of La Llorona, with a rating of 5.9
 OFFER ( title = "Auntie Mame" ; aggregate_rating = "8.0") & There's Auntie Mame, with a rating of 8.0
 OFFER ( title = "The Aftermath" ; aggregate_rating = "6.3") & There's 1 movie: The Aftermath. Its rating is 6.3
 OFFER ( title = "The Aftermath" ; aggregate_rating = "6.3") & There's 1 movie: The Aftermath. Its rating is 6.3
-OFFER ( title = "The Aftermath" ; aggregate_rating = "6.3") & There's 1 movie: The Aftermath. Its rating is 6.3INFORM_COUNT ( count = "1") & There's 1 movie: The Aftermath. Its rating is 6.3
+OFFER ( title = "The Aftermath" ; aggregate_rating = "6.3") @ 3INFORM_COUNT ( count = "1") & There's 1 movie: The Aftermath  Its rating is 6
 OFFER ( title = "Transit" ; aggregate_rating = "7.0") & I propose you Transit, that has an average rating of 7.0
 INFORM ( director = "Christian Petzold" ; starring = "Justus von Dohnanyi") & The leading actor is Justus von Dohnanyi and the director is Christian Petzold
 OFFER ( movie_title = "Chhichhore" ; percent_rating = "60") & Yeah, there is 1, Chhichhore with average rating of 60 percent.
 OFFER ( movie_title = "Chhichhore" ; percent_rating = "60") & Yeah, there is 1, Chhichhore with average rating of 60 percent.
-OFFER ( movie_title = "Chhichhore" ; percent_rating = "60") & Yeah, there is 1, Chhichhore with average rating of 60 percent.INFORM_COUNT ( count = "1") & Yeah, there is 1, Chhichhore with average rating of 60 percent.
+OFFER ( movie_title = "Chhichhore" ; percent_rating = "60") @ INFORM_COUNT ( count = "1") & Yeah, there is 1, Chhichhore with average rating of 60 percent
 INFORM ( genre = "Comedy") & It belongs to Comedy genre.
 OFFER ( movie_title = "A Faithful Man" ; percent_rating = "78") & Have you heard of A Faithful Man? It is highly rated at 78 percent.
 OFFER ( movie_title = "This Is Not Berlin" ; percent_rating = "86") & Sure, you might like This Is Not Berlin. It's rating is 86 percent.
 OFFER ( movie_title = "Paprika" ; percent_rating = "84") & I've got 1 good suggestion what about Paprika? It's rated 84 percent on average.
 OFFER ( movie_title = "Paprika" ; percent_rating = "84") & I've got 1 good suggestion what about Paprika? It's rated 84 percent on average.
-OFFER ( movie_title = "Paprika" ; percent_rating = "84") & I've got 1 good suggestion what about Paprika? It's rated 84 percent on average.INFORM_COUNT ( count = "1") & I've got 1 good suggestion what about Paprika? It's rated 84 percent on average.
+OFFER ( movie_title = "Paprika" ; percent_rating = "84") @ INFORM_COUNT ( count = "1") & I've got 1 good suggestion what about Paprika  It's rated 84 percent on average
 OFFER ( movie_title = "Once Upon a Time In Hollywood" ; percent_rating = "85") & Of the 2 movies found, Once Upon a Time In Hollywood has an average rating of 85 percent.
 OFFER ( movie_title = "Once Upon a Time In Hollywood" ; percent_rating = "85") & Of the 2 movies found, Once Upon a Time In Hollywood has an average rating of 85 percent.
-OFFER ( movie_title = "Once Upon a Time In Hollywood" ; percent_rating = "85") & Of the 2 movies found, Once Upon a Time In Hollywood has an average rating of 85 percent.INFORM_COUNT ( count = "2") & Of the 2 movies found, Once Upon a Time In Hollywood has an average rating of 85 percent.
+OFFER ( movie_title = "Once Upon a Time In Hollywood" ; percent_rating = "85") @ INFORM_COUNT ( count = "2") & Of the 2 movies found, Once Upon a Time In Hollywood has an average rating of 85 percent
 INFORM ( cast = "Timothy Olyphant" ; genre = "offbeat") & It is an offbeat movie starring Timothy Olyphant.
 OFFER ( movie_title = "Madeline's Madeline" ; percent_rating = "88") & There's Madeline's Madeline, which got an average rating of 88 percent.
 INFORM ( cast = "Helena Howard" ; genre = "Thriller") & It's a Thriller starring Helena Howard.
 OFFER ( movie_title = "Close Encounters of the Third Kind" ; percent_rating = "95") & There's 1 movie called Close Encounters of the Third Kind. It got a 95.
 OFFER ( movie_title = "Close Encounters of the Third Kind" ; percent_rating = "95") & There's 1 movie called Close Encounters of the Third Kind. It got a 95.
-OFFER ( movie_title = "Close Encounters of the Third Kind" ; percent_rating = "95") & There's 1 movie called Close Encounters of the Third Kind. It got a 95.INFORM_COUNT ( count = "1") & There's 1 movie called Close Encounters of the Third Kind. It got a 95.
+OFFER ( movie_title = "Close Encounters of the Third Kind" ; percent_rating = "95") @ INFORM_COUNT ( count = "1") & There's 1 movie called Close Encounters of the Third Kind  It got a 95
+
+

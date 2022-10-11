@@ -14,3 +14,5 @@ CONFIRM ( receiver = "Amelia" ; amount = "$112" ; private_visibility = "False") 
 CONFIRM ( payment_method = "credit card" ; amount = "$27" ; receiver = "Svetlana" ; private_visibility = "False") & Great, before I proceed please confirm the following for me. You would like to send $27 from your credit card to Svetlana, is that right?
 CONFIRM ( receiver = "Mary" ; amount = "$30" ; private_visibility = "True") & You would like to create a private transaction with Mary in the amount of $30, is that correct?
 CONFIRM ( payment_method = "app balance" ; amount = "$94" ; receiver = "Yumi" ; private_visibility = "False") & You would like to send $94 to Yumi from your app balance, is this correct? This transaction will be visible to the public.
+
+

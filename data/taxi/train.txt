@@ -38,3 +38,5 @@ inform ( leaveat = 9:00 ; type = yellow lexus ) &  yes , the taxi will pick you 
 inform ( leaveat = 2:45 ; phone = 07078899267 ; destination = your hotel ; type = white honda ) &  okay i 've got a white honda booked for you to pick you up at 2:45 and take you back to your hotel , their number is 07078899267
 inform ( arriveby = by 3 ; leaveat = a little before 3 ) &  i ca n't tell the exact arrival time , but expect it a little before 3. it will get you to the theatre by 3 .
 inform ( departure = your hotel ; type = yellow audi ) &  your booking is completed , a yellow audi will be picking you up at your hotel .
+
+

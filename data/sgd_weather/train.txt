@@ -121,3 +121,5 @@ OFFER ( temperature = "75" ; precipitation = "13") & Sure, the average temperatu
 INFORM ( wind = "6" ; humidity = "36") & The average wind speed is 6 miles per hour with an expected humidity around 36 percent.
 OFFER ( temperature = "89" ; precipitation = "28") & It should be around 89 degrees Fahrenheit with a 28 percent chance of rain.
 OFFER ( temperature = "87" ; precipitation = "28") & It should be around 87 degrees Fahrenheit with a 28 percent chance of rain.
+
+

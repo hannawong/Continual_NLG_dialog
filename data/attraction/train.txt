@@ -48,3 +48,5 @@ inform ( name = soul tree ; area = center ; price = 4 pounds ; type = nightclubs
 inform ( address = mercers row industrial estate ; area = east ; name = funky fun house ) &  personally , i enjoy the funky fun house , it is located in the east area at 8 mercers row , mercers row industrial estate . will you be needing any further information ?
 recommend ( name = botanic gardens ; area = center of town ) @ inform ( choice = many ) &  there are many fine attractions in cambridge . if you do n't care about the area , i recommend the botanic gardens in the center of town .
 inform ( postcode = cb21st ) &  the post code is cb21st
+
+

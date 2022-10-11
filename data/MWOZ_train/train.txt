@@ -306,7 +306,7 @@ train_inform ( duration = "88 minutes") & Yes, it's 88 minutes. May I help with 
 train_inform ( choice = "many" ; departure = "Cambridge") & There are many different options for trains departing Cambridge. What date and time do you need a train on?
 train_inform ( arriveby = "13:24" ; choice = "first" ; destination = "Petersborough" ; leaveat = "12:34" ; trainid = "TR5650") & The first train leaving after 12:30 is TR5650 and leaves at 12:34 to get you to Petersborough at 13:24. Would this suit your needs or would you like a later one?
 train_inform ( arriveby = "13:24" ; choice = "first" ; destination = "Petersborough" ; leaveat = "12:34" ; trainid = "TR5650") & The first train leaving after 12:30 is TR5650 and leaves at 12:34 to get you to Petersborough at 13:24. Would this suit your needs or would you like a later one?
-train_inform ( arriveby = "13:24" ; choice = "first" ; destination = "Petersborough" ; leaveat = "12:34" ; trainid = "TR5650") & The first train leaving after 12:30 is TR5650 and leaves at 12:34 to get you to Petersborough at 13:24. Would this suit your needs or would you like a later one?train_select ( choice = "later one") & The first train leaving after 12:30 is TR5650 and leaves at 12:34 to get you to Petersborough at 13:24. Would this suit your needs or would you like a later one?
+train_inform ( arriveby = "13:24" ; choice = "first" ; destination = "Petersborough" ; leaveat = "12:34" ; trainid = "TR5650") @ train_select ( choice = "later one") & The first train leaving after 12:30 is TR5650 and leaves at 12:34 to get you to Petersborough at 13:24  Would this suit your needs or would you like a later one
 train_inform ( choice = "eleven") & There are eleven trains that will get you there by then, for how many people?
 train_inform ( price = "9.80 pound") & The price is $9.80 pound per ticket. Would you like to book it?
 train_inform ( day = "Friday" ; departure = "Ely" ; leaveat = "11:35" ; trainid = "TR0212") & TR0212 departs Ely Friday at 11:35, would you like to book a ticket for this train?
@@ -574,3 +574,5 @@ train_inform ( departure = "Stevenage" ; destination = "Cambridge" ; leaveat = "
 train_inform ( day = "saturday") & And what time would you like to leave after or arrive by on saturday?
 train_inform ( arriveby = "17:27" ; day = "Sunday" ; destination = "london liverpool street" ; trainid = "TR0189") & I am so sorry about the mix-up in days. I have TR0189 arriving Sunday at london liverpool street at 17:27. Would this be acceptable?
 train_inform ( arriveby = "17:27" ; day = "Sunday" ; destination = "london liverpool street" ; trainid = "TR0189") & I am so sorry about the mix-up in days. I have TR0189 arriving Sunday at london liverpool street at 17:27. Would this be acceptable?
+
+

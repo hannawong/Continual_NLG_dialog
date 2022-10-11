@@ -7,6 +7,7 @@ import numpy as np
 from model.Seq2SeqToD import Seq2SeqToD
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch.multiprocessing as mp # 这里不需要使用pytorch的multiprocessing
+from utils.data_augmentation import *
 
 
 def top_k_top_p_filtering(logits, top_k=0, top_p=0.0, filter_value=-float('Inf')):
@@ -105,11 +106,11 @@ class TextSeqDataset(Dataset):
 
 
 def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sample_frac = 0.01):
-    file =  open("data/replay/train.txt","w")
+    file =  open("data/replay/train.txt","a")
     if mode == "LAMOL":
-        print("Generate LAMOL!!")
-        
-        for prev_task_id in range(task_id):
+            print("Generate LAMOL!!")
+            prev_task_id = task_id-1
+
             if domain_names[prev_task_id] not in prompt:
                 prompt[domain_names[prev_task_id]] = domain_names[prev_task_id].split("_")[1]
             replay_buffer = []
@@ -155,13 +156,41 @@ def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sa
                 file.write(replay_buffer[item]+"\n")
     elif mode == "REPLAY":
         from random import sample
-        for prev_task_id in range(task_id):
-            replay_buffer = []
-            training = open("data/"+domain_names[prev_task_id]+"/train.txt").read().split("\n")
-            sample_size = int(len(training) * sample_frac)
-            choose = sample(training,min(len(training),sample_size))
-            for item in choose:
-                file.write(item+"\n")
+        prev_task_id = task_id - 1
+        replay_buffer = []
+        training = open("data/"+domain_names[prev_task_id]+"/train.txt").read().split("\n")
+        sample_size = int(len(training) * sample_frac)
+        choose = sample(training,min(len(training),sample_size))
+        print(len(choose))
+        augs = []
+        for sentence in choose:   
+            for i in range(2):    
+                if args.aug_method == "replace":
+                    aug = synonym_replacement(sentence.split(),min(1,int(len(sentence.split())*0.1)))
+                    aug = " ".join(aug)
+                    augs.append(aug)
+                if args.aug_method == "del":
+                    aug = random_deletion(sentence.split(),0.1)
+                    aug = " ".join(aug)
+                    augs.append(aug)
+                if args.aug_method == "insert":
+                    aug = random_insertion(sentence.split(),min(1,int(len(sentence.split())*0.1)))
+                    aug = " ".join(aug)
+                    augs.append(aug)
+                if args.aug_method == "swap":
+                    aug = random_swap(sentence.split(),min(1,int(len(sentence.split())*0.1)))
+                    aug = " ".join(aug)
+                    augs.append(aug)
+                if args.aug_method == "simcse":
+                    aug = sentence
+                    augs.append(aug)
+                
+            with open("./data/replay/train.txt",'a') as file:
+                if args.aug_method in ["del","replace","insert","swap","back_trans","simcse"]:
+                    for aug in augs:
+                        file.write(aug+"\n")
+                file.write(sentence+"\n")
+
 import random
 
 def shuffle_replay():

@@ -1,31 +1,31 @@
 OFFER ( title = "Dogman") & I've found 10, what do you think about Dogman, Hackers or High Life?
 OFFER ( title = "Dogman") & I've found 10, what do you think about Dogman, Hackers or High Life?
-OFFER ( title = "Dogman") & I've found 10, what do you think about Dogman, Hackers or High Life?INFORM_COUNT ( count = "10") & I've found 10, what do you think about Dogman, Hackers or High Life?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I've found 10, what do you think about Dogman, Hackers or High Life
 OFFER ( title = "Little Woods") & What about Little Woods, Mary Magdalene or Ramen Shop?
 OFFER ( title = "True Grit") & I've found 1, do you like True Grit?
 OFFER ( title = "True Grit") & I've found 1, do you like True Grit?
-OFFER ( title = "True Grit") & I've found 1, do you like True Grit?INFORM_COUNT ( count = "1") & I've found 1, do you like True Grit?
+OFFER ( title = "True Grit") @ INFORM_COUNT ( count = "1") & I've found 1, do you like True Grit
 CONFIRM ( title = "True Grit" ; subtitles = "True") & Sure, just to confirm, you want me to play True Grit with subtitles?
 OFFER ( title = "A Madea Family Funeral") & Here is 1 movie that may suit - A Madea Family Funeral?
 OFFER ( title = "A Madea Family Funeral") & Here is 1 movie that may suit - A Madea Family Funeral?
-OFFER ( title = "A Madea Family Funeral") & Here is 1 movie that may suit - A Madea Family Funeral?INFORM_COUNT ( count = "1") & Here is 1 movie that may suit - A Madea Family Funeral?
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "1") & Here is 1 movie that may suit - A Madea Family Funeral
 CONFIRM ( title = "A Madea Family Funeral" ; subtitles = "False") & To confirm then I will play A Madea Family Funeral without any subtitles.
 CONFIRM ( title = "A Madea Family Funeral" ; subtitles = "True") & I will play A Madea Family Funeral with subtitles.
 OFFER ( title = "Mikey and Nicky") & I found 1 movie called Mikey and Nicky
 OFFER ( title = "Mikey and Nicky") & I found 1 movie called Mikey and Nicky
-OFFER ( title = "Mikey and Nicky") & I found 1 movie called Mikey and NickyINFORM_COUNT ( count = "1") & I found 1 movie called Mikey and Nicky
+OFFER ( title = "Mikey and Nicky") @ I found 1 movie called Mikey and NickyINFORM_COUNT ( count = "1") & 
 OFFER ( title = "Dogman") & I've found 10 good options- how about Dogman, Hackers, or High Life?
 OFFER ( title = "Dogman") & I've found 10 good options- how about Dogman, Hackers, or High Life?
-OFFER ( title = "Dogman") & I've found 10 good options- how about Dogman, Hackers, or High Life?INFORM_COUNT ( count = "10") & I've found 10 good options- how about Dogman, Hackers, or High Life?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I've found 10 good options- how about Dogman, Hackers, or High Life
 OFFER ( title = "Shazam!") & What about Shazam!?
 CONFIRM ( title = "Shazam!" ; subtitles = "True") & I'll start playing Shazam! with subtitles, okay?
 OFFER ( title = "After") & Sure. I found 5 movies you may like. How about After, Pillow Talk or Say Anything?
 OFFER ( title = "After") & Sure. I found 5 movies you may like. How about After, Pillow Talk or Say Anything?
-OFFER ( title = "After") & Sure. I found 5 movies you may like. How about After, Pillow Talk or Say Anything?INFORM_COUNT ( count = "5") & Sure. I found 5 movies you may like. How about After, Pillow Talk or Say Anything?
+OFFER ( title = "After") @ INFORM_COUNT ( count = "5") & Sure  I found 5 movies you may like  How about After, Pillow Talk or Say Anything
 OFFER ( title = "The Visitor") & We also have The Visitor and Viva Las Vegas.
 OFFER ( title = "Family") & Sure, I found 1 movie you might like. Do you want to watch Family?
 OFFER ( title = "Family") & Sure, I found 1 movie you might like. Do you want to watch Family?
-OFFER ( title = "Family") & Sure, I found 1 movie you might like. Do you want to watch Family?INFORM_COUNT ( count = "1") & Sure, I found 1 movie you might like. Do you want to watch Family?
+OFFER ( title = "Family") @ INFORM_COUNT ( count = "1") & Sure, I found 1 movie you might like  Do you want to watch Family
 CONFIRM ( title = "Family" ; subtitles = "False") & Please confirm that you'd like to play Family without subtitles.
 CONFIRM ( title = "Family" ; subtitles = "True") & Okay sure, you'd like to watch Family with subtitles?
 OFFER ( title = "A Madea Family Funeral") & I found A Madea Family Funeral, Auntie Mame, and Dr. Strangelove. Do any of those sound good?
@@ -37,7 +37,7 @@ INFORM ( directed_by = "Tina Gordon") & I will start the movie. Tina Gordon is t
 OFFER ( title = "Dogman") & How about Dogman, Hackers or High Life?
 OFFER ( title = "Green Book") & Okay I have 1 idea you might like. How about Green Book?
 OFFER ( title = "Green Book") & Okay I have 1 idea you might like. How about Green Book?
-OFFER ( title = "Green Book") & Okay I have 1 idea you might like. How about Green Book?INFORM_COUNT ( count = "1") & Okay I have 1 idea you might like. How about Green Book?
+OFFER ( title = "Green Book") @ INFORM_COUNT ( count = "1") & Okay I have 1 idea you might like  How about Green Book
 CONFIRM ( title = "Green Book" ; subtitles = "True") & Alright, I'll play Green Book with subtitles. Sound good?
 OFFER ( title = "A Madea Family Funeral") & How about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove.
 CONFIRM ( title = "Auntie Mame" ; subtitles = "False") & Please confirm the following: play Auntie Mame without subtitles.
@@ -45,46 +45,46 @@ CONFIRM ( title = "Auntie Mame" ; subtitles = "True") & Please confirm the follo
 OFFER ( title = "Body Double") & What is your opinion on Body Double?
 OFFER ( title = "The Innocent") & There are only 1 movie of your liking and what is your opinion on The Innocent?
 OFFER ( title = "The Innocent") & There are only 1 movie of your liking and what is your opinion on The Innocent?
-OFFER ( title = "The Innocent") & There are only 1 movie of your liking and what is your opinion on The Innocent?INFORM_COUNT ( count = "1") & There are only 1 movie of your liking and what is your opinion on The Innocent?
+OFFER ( title = "The Innocent") @ INFORM_COUNT ( count = "1") & There are only 1 movie of your liking and what is your opinion on The Innocent
 CONFIRM ( title = "The Innocent" ; subtitles = "False") & Please give confirmation details? To play The Innocent movie without any suntitles
 CONFIRM ( title = "The Innocent" ; subtitles = "True") & Please confirm details: The movie The Innocent with subtitles
 OFFER ( title = "The Curse of La Llorona") & Okay. Do you want to watch The Curse of La Llorona?
 OFFER ( title = "Little") & I've found 1 movie you may like. What about Little?
 OFFER ( title = "Little") & I've found 1 movie you may like. What about Little?
-OFFER ( title = "Little") & I've found 1 movie you may like. What about Little?INFORM_COUNT ( count = "1") & I've found 1 movie you may like. What about Little?
+OFFER ( title = "Little") @ INFORM_COUNT ( count = "1") & I've found 1 movie you may like  What about Little
 CONFIRM ( title = "Little" ; subtitles = "False") & Please confirm this action: Play the movie Little without subtitles.
 CONFIRM ( title = "Little" ; subtitles = "True") & Please confirm this action: Play the movie Little with subtitles.
 OFFER ( title = "Body Double") & Do you like Body Double or Citizen Kane?
 OFFER ( title = "High Life") & I found 1 movie for you may like. It is called High Life.
 OFFER ( title = "High Life") & I found 1 movie for you may like. It is called High Life.
-OFFER ( title = "High Life") & I found 1 movie for you may like. It is called High Life.INFORM_COUNT ( count = "1") & I found 1 movie for you may like. It is called High Life.
+OFFER ( title = "High Life") @ INFORM_COUNT ( count = "1") & I found 1 movie for you may like  It is called High Life
 CONFIRM ( title = "High Life" ; subtitles = "True") & You want me to play the movie High Life with subtitles. Is this correct?
 OFFER ( title = "The Aftermath") & I have 1 movie you would like called The Aftermath.
 OFFER ( title = "The Aftermath") & I have 1 movie you would like called The Aftermath.
-OFFER ( title = "The Aftermath") & I have 1 movie you would like called The Aftermath.INFORM_COUNT ( count = "1") & I have 1 movie you would like called The Aftermath.
+OFFER ( title = "The Aftermath") @ INFORM_COUNT ( count = "1") & I have 1 movie you would like called The Aftermath
 CONFIRM ( title = "The Aftermath" ; subtitles = "False") & Please confirm The Aftermath without subtitles.
 OFFER ( title = "The Upside") & I have 1 movie that you may like. Would you be interested in The Upside?
 OFFER ( title = "The Upside") & I have 1 movie that you may like. Would you be interested in The Upside?
-OFFER ( title = "The Upside") & I have 1 movie that you may like. Would you be interested in The Upside?INFORM_COUNT ( count = "1") & I have 1 movie that you may like. Would you be interested in The Upside?
+OFFER ( title = "The Upside") @ INFORM_COUNT ( count = "1") & I have 1 movie that you may like  Would you be interested in The Upside
 CONFIRM ( title = "The Upside" ; subtitles = "True") & You'd like to view The Upside with subtitles. Is that right?
 OFFER ( title = "Knock Down the House") & I found 2 movies: Knock Down the House and The Invisibles.
 OFFER ( title = "Knock Down the House") & I found 2 movies: Knock Down the House and The Invisibles.
-OFFER ( title = "Knock Down the House") & I found 2 movies: Knock Down the House and The Invisibles.INFORM_COUNT ( count = "2") & I found 2 movies: Knock Down the House and The Invisibles.
+OFFER ( title = "Knock Down the House") @ INFORM_COUNT ( count = "2") & I found 2 movies: Knock Down the House and The Invisibles
 OFFER ( title = "Suburban Birds") & How about Suburban Birds?
 OFFER ( title = "Red Joan") & Does Red Joan sound good?
 CONFIRM ( title = "Red Joan" ; subtitles = "False") & Should I play Red Joan without subtitles?
 OFFER ( title = "Dogman") & I can find 10 movies you may be interested in. Do you like Dogman, Hackers, or High Life?
 OFFER ( title = "Dogman") & I can find 10 movies you may be interested in. Do you like Dogman, Hackers, or High Life?
-OFFER ( title = "Dogman") & I can find 10 movies you may be interested in. Do you like Dogman, Hackers, or High Life?INFORM_COUNT ( count = "10") & I can find 10 movies you may be interested in. Do you like Dogman, Hackers, or High Life?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I can find 10 movies you may be interested in  Do you like Dogman, Hackers, or High Life
 OFFER ( title = "Red Joan") & How about Red Joan?
 OFFER ( title = "Little Woods") & I have found 6 movies you may like. Would you like to watch any of the following movies: Little Woods, Mary Magdalene, or Ramen Shop?
 OFFER ( title = "Little Woods") & I have found 6 movies you may like. Would you like to watch any of the following movies: Little Woods, Mary Magdalene, or Ramen Shop?
-OFFER ( title = "Little Woods") & I have found 6 movies you may like. Would you like to watch any of the following movies: Little Woods, Mary Magdalene, or Ramen Shop?INFORM_COUNT ( count = "6") & I have found 6 movies you may like. Would you like to watch any of the following movies: Little Woods, Mary Magdalene, or Ramen Shop?
+OFFER ( title = "Little Woods") @ INFORM_COUNT ( count = "6") & I have found 6 movies you may like  Would you like to watch any of the following movies: Little Woods, Mary Magdalene, or Ramen Shop
 CONFIRM ( title = "Little Woods" ; subtitles = "False") & Please confirm the following details: play Little Woods without subtitles.
 OFFER ( title = "After") & What do you think about After, Pillow Talk or Say Anything?
 OFFER ( title = "Ash Is Purest White") & There's 1 movie that might suit your interests. What about Ash Is Purest White?
 OFFER ( title = "Ash Is Purest White") & There's 1 movie that might suit your interests. What about Ash Is Purest White?
-OFFER ( title = "Ash Is Purest White") & There's 1 movie that might suit your interests. What about Ash Is Purest White?INFORM_COUNT ( count = "1") & There's 1 movie that might suit your interests. What about Ash Is Purest White?
+OFFER ( title = "Ash Is Purest White") @ INFORM_COUNT ( count = "1") & There's 1 movie that might suit your interests  What about Ash Is Purest White
 CONFIRM ( title = "Ash Is Purest White" ; subtitles = "True") & Please confirm the following details: play Ash Is Purest White with subtitles.
 OFFER ( title = "After") & After you have to Say Anything or do the Pillow Talk.
 CONFIRM ( title = "Pillow Talk" ; subtitles = "False") & Please play Pillow Talk without subtitles
@@ -92,36 +92,36 @@ CONFIRM ( title = "Pillow Talk" ; subtitles = "True") & Please play Pillow Talk 
 OFFER ( title = "Teen Spirit") & Would you like to watch Teen Spirit?
 OFFER ( title = "Family") & I have located 1 movie titled Family.
 OFFER ( title = "Family") & I have located 1 movie titled Family.
-OFFER ( title = "Family") & I have located 1 movie titled Family.INFORM_COUNT ( count = "1") & I have located 1 movie titled Family.
+OFFER ( title = "Family") @ INFORM_COUNT ( count = "1") & I have located 1 movie titled Family
 CONFIRM ( title = "Family" ; subtitles = "True") & You would like for me to play the movie Family with subtitiles?
 OFFER ( title = "Dogman") & Ok, how does Hackers, Dogman or High life sound?
 OFFER ( title = "Little Woods") & Ok, Little Woods, Mary Magdalene or Ramen Shop?
 OFFER ( title = "Red Joan") & Ok, there are 4 more movies. Sunset, Red Joan, or Suburban Birds?
 OFFER ( title = "Red Joan") & Ok, there are 4 more movies. Sunset, Red Joan, or Suburban Birds?
-OFFER ( title = "Red Joan") & Ok, there are 4 more movies. Sunset, Red Joan, or Suburban Birds?INFORM_COUNT ( count = "4") & Ok, there are 4 more movies. Sunset, Red Joan, or Suburban Birds?
+OFFER ( title = "Red Joan") @ INFORM_COUNT ( count = "4") & Ok, there are 4 more movies  Sunset, Red Joan, or Suburban Birds
 CONFIRM ( title = "Sunset" ; subtitles = "True") & Ok, confirm: Play Sunset movie with subtitles.
 OFFER ( title = "Fighting with My Family") & Haw about Fighting with My Family? I think you would like this 1.
 OFFER ( title = "Fighting with My Family") & Haw about Fighting with My Family? I think you would like this 1.
-OFFER ( title = "Fighting with My Family") & Haw about Fighting with My Family? I think you would like this 1.INFORM_COUNT ( count = "1") & Haw about Fighting with My Family? I think you would like this 1.
+OFFER ( title = "Fighting with My Family") @ INFORM_COUNT ( count = "1") & Haw about Fighting with My Family  I think you would like this 1
 CONFIRM ( title = "Fighting with My Family" ; subtitles = "True") & Fighting with My Family with subtitles will be playing in a few, is this correct?
 OFFER ( title = "Mary Magdalene") & I have found 1 movie called Mary Magdalene that meets your requirements.
 OFFER ( title = "Mary Magdalene") & I have found 1 movie called Mary Magdalene that meets your requirements.
-OFFER ( title = "Mary Magdalene") & I have found 1 movie called Mary Magdalene that meets your requirements.INFORM_COUNT ( count = "1") & I have found 1 movie called Mary Magdalene that meets your requirements.
+OFFER ( title = "Mary Magdalene") @ INFORM_COUNT ( count = "1") & I have found 1 movie called Mary Magdalene that meets your requirements
 CONFIRM ( title = "Mary Magdalene" ; subtitles = "False") & So you want me to play Mary Magdalene without the subtitles for you right?
 CONFIRM ( title = "Mary Magdalene" ; subtitles = "True") & Is this the appropriate choice: Mary Magdalene including subtitles?
 OFFER ( title = "After") & I found 5 movies you may like. How about After, Pillow Talk, or Say Anything?
 OFFER ( title = "After") & I found 5 movies you may like. How about After, Pillow Talk, or Say Anything?
-OFFER ( title = "After") & I found 5 movies you may like. How about After, Pillow Talk, or Say Anything?INFORM_COUNT ( count = "5") & I found 5 movies you may like. How about After, Pillow Talk, or Say Anything?
+OFFER ( title = "After") @ INFORM_COUNT ( count = "5") & I found 5 movies you may like  How about After, Pillow Talk, or Say Anything
 OFFER ( title = "The Visitor") & What about The Visitor or Viva Las Vegas?
 OFFER ( title = "Knock Down the House") & There are 2: Knock Down the House and The Invisibles.
 OFFER ( title = "Knock Down the House") & There are 2: Knock Down the House and The Invisibles.
-OFFER ( title = "Knock Down the House") & There are 2: Knock Down the House and The Invisibles.INFORM_COUNT ( count = "2") & There are 2: Knock Down the House and The Invisibles.
+OFFER ( title = "Knock Down the House") @ INFORM_COUNT ( count = "2") & There are 2: Knock Down the House and The Invisibles
 CONFIRM ( title = "The Invisibles" ; subtitles = "False") & So you want to watch The Invisibles without subtitles?
 INFORM ( directed_by = "Claus Rafle") & Okay, I'm playing the movie. It's directed by Claus Rafle.
 INFORM ( directed_by = "Claus Rafle") & Okay, I'm playing the movie. It's directed by Claus Rafle.
 OFFER ( title = "A Madea Family Funeral") & I found 10 movies that you could like. Does A Madea Family Funeral, Auntie Mame or Dr. Strangelove sound good?
 OFFER ( title = "A Madea Family Funeral") & I found 10 movies that you could like. Does A Madea Family Funeral, Auntie Mame or Dr. Strangelove sound good?
-OFFER ( title = "A Madea Family Funeral") & I found 10 movies that you could like. Does A Madea Family Funeral, Auntie Mame or Dr. Strangelove sound good?INFORM_COUNT ( count = "10") & I found 10 movies that you could like. Does A Madea Family Funeral, Auntie Mame or Dr. Strangelove sound good?
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "10") & I found 10 movies that you could like  Does A Madea Family Funeral, Auntie Mame or Dr  Strangelove sound good
 OFFER ( title = "Family") & Yes. What about Family, Gloria Bell or Green Book?
 OFFER ( title = "Hotel Mumbai") & Are you interested in Hotel Mumbai?
 CONFIRM ( title = "Hotel Mumbai" ; subtitles = "False") & Would you like to play Hotel Mumbai without subtitles?
@@ -133,35 +133,35 @@ OFFER ( title = "Dogman") & Are you interested in any of the movies Dogman, Hack
 OFFER ( title = "Little Woods") & How about Little Woods, Mary Magdalene or Ramen Shop?
 OFFER ( title = "Blackmail - Cinemix Par Chloe") & We have found 1 movie you may be intrested in called Blackmail - Cinemix Par Chloe.
 OFFER ( title = "Blackmail - Cinemix Par Chloe") & We have found 1 movie you may be intrested in called Blackmail - Cinemix Par Chloe.
-OFFER ( title = "Blackmail - Cinemix Par Chloe") & We have found 1 movie you may be intrested in called Blackmail - Cinemix Par Chloe.INFORM_COUNT ( count = "1") & We have found 1 movie you may be intrested in called Blackmail - Cinemix Par Chloe.
+OFFER ( title = "Blackmail - Cinemix Par Chloe") @ INFORM_COUNT ( count = "1") & We have found 1 movie you may be intrested in called Blackmail - Cinemix Par Chloe
 OFFER ( title = "Blackmail - Cinemix Par Chloe") & I found 1 movie you might like. How about Blackmail - Cinemix Par Chloe?
 OFFER ( title = "Blackmail - Cinemix Par Chloe") & I found 1 movie you might like. How about Blackmail - Cinemix Par Chloe?
-OFFER ( title = "Blackmail - Cinemix Par Chloe") & I found 1 movie you might like. How about Blackmail - Cinemix Par Chloe?INFORM_COUNT ( count = "1") & I found 1 movie you might like. How about Blackmail - Cinemix Par Chloe?
+OFFER ( title = "Blackmail - Cinemix Par Chloe") @ INFORM_COUNT ( count = "1") & I found 1 movie you might like  How about Blackmail - Cinemix Par Chloe
 CONFIRM ( title = "Blackmail - Cinemix Par Chloe" ; subtitles = "False") & Okay, please confirm you would like me to play Blackmail - Cinemix Par Chloe, no subtitles.
 OFFER ( title = "Dogman") & I found 10 movies you might like. Some of them are Dogman, Hackers, and High Life. What do you think?
 OFFER ( title = "Dogman") & I found 10 movies you might like. Some of them are Dogman, Hackers, and High Life. What do you think?
-OFFER ( title = "Dogman") & I found 10 movies you might like. Some of them are Dogman, Hackers, and High Life. What do you think?INFORM_COUNT ( count = "10") & I found 10 movies you might like. Some of them are Dogman, Hackers, and High Life. What do you think?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I found 10 movies you might like  Some of them are Dogman, Hackers, and High Life  What do you think
 CONFIRM ( title = "High Life" ; subtitles = "True") & To confirm, you would like to watch High Life with subtitles now.
 INFORM ( directed_by = "Claire Denis") & Claire Denis is the director.
 OFFER ( title = "Dumbo") & I found three movies you might like. Dumbo, Hellboy, and Mad Max: Fury Road. Do any of those look good?
 OFFER ( title = "Viva Las Vegas") & Viva Las Vegas may be 1 movie that you would enjoy.
 OFFER ( title = "Viva Las Vegas") & Viva Las Vegas may be 1 movie that you would enjoy.
-OFFER ( title = "Viva Las Vegas") & Viva Las Vegas may be 1 movie that you would enjoy.INFORM_COUNT ( count = "1") & Viva Las Vegas may be 1 movie that you would enjoy.
+OFFER ( title = "Viva Las Vegas") @ INFORM_COUNT ( count = "1") & Viva Las Vegas may be 1 movie that you would enjoy
 CONFIRM ( title = "Viva Las Vegas" ; subtitles = "False") & To confirm, Viva Las Vegas will be played without subtitles.
 CONFIRM ( title = "Viva Las Vegas" ; subtitles = "True") & To confirm, Viva Las Vegas will be played with subtitles.
 OFFER ( title = "Dogman") & I found 10 movies that you might like to watch. Would you like to watch Dogman, Hackers or High Life?
 OFFER ( title = "Dogman") & I found 10 movies that you might like to watch. Would you like to watch Dogman, Hackers or High Life?
-OFFER ( title = "Dogman") & I found 10 movies that you might like to watch. Would you like to watch Dogman, Hackers or High Life?INFORM_COUNT ( count = "10") & I found 10 movies that you might like to watch. Would you like to watch Dogman, Hackers or High Life?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I found 10 movies that you might like to watch  Would you like to watch Dogman, Hackers or High Life
 OFFER ( title = "Little Woods") & Would you like to watch Little Woods, Mary Magdalene or Ramen Shop?
 OFFER ( title = "After") & I found 5 movies that you might like to watch. Would you like to watch After, Pillow Talk or Say Anything?
 OFFER ( title = "After") & I found 5 movies that you might like to watch. Would you like to watch After, Pillow Talk or Say Anything?
-OFFER ( title = "After") & I found 5 movies that you might like to watch. Would you like to watch After, Pillow Talk or Say Anything?INFORM_COUNT ( count = "5") & I found 5 movies that you might like to watch. Would you like to watch After, Pillow Talk or Say Anything?
+OFFER ( title = "After") @ INFORM_COUNT ( count = "5") & I found 5 movies that you might like to watch  Would you like to watch After, Pillow Talk or Say Anything
 CONFIRM ( title = "Pillow Talk" ; subtitles = "True") & Please verify that you would like to play Pillow Talk with subtitles.
 INFORM ( directed_by = "Michael Gordon") & The movie has started playing. The director of the movie is Michael Gordon.
 INFORM ( directed_by = "Michael Gordon") & The movie has started playing. The director of the movie is Michael Gordon.
 OFFER ( title = "Pillow Talk") & I've found 1 movie that might suit you. It's called Pillow Talk.
 OFFER ( title = "Pillow Talk") & I've found 1 movie that might suit you. It's called Pillow Talk.
-OFFER ( title = "Pillow Talk") & I've found 1 movie that might suit you. It's called Pillow Talk.INFORM_COUNT ( count = "1") & I've found 1 movie that might suit you. It's called Pillow Talk.
+OFFER ( title = "Pillow Talk") @ INFORM_COUNT ( count = "1") & I've found 1 movie that might suit you  It's called Pillow Talk
 CONFIRM ( title = "Pillow Talk" ; subtitles = "False") & Can you confirm you want to watch: Pillow Talk, no subtitles.
 CONFIRM ( title = "Pillow Talk" ; subtitles = "True") & So, to confirm: play Pillow Talk with subs.
 OFFER ( title = "A Madea Family Funeral") & Do you like movies? My favorites are A Madea Family Funeral, Auntie mame, and Dr. Strangelove!
@@ -169,7 +169,7 @@ OFFER ( title = "Family") & Have you seen Family, Gloria Bell, or Green Book?
 CONFIRM ( title = "Gloria Bell" ; subtitles = "True") & I'll start playing Gloria Bell with subtitles.
 OFFER ( title = "A Madea Family Funeral") & There's 10 movies you may like. Do you like A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
 OFFER ( title = "A Madea Family Funeral") & There's 10 movies you may like. Do you like A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
-OFFER ( title = "A Madea Family Funeral") & There's 10 movies you may like. Do you like A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?INFORM_COUNT ( count = "10") & There's 10 movies you may like. Do you like A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "10") & There's 10 movies you may like  Do you like A Madea Family Funeral, Auntie Mame, or Dr  Strangelove
 CONFIRM ( title = "Auntie Mame" ; subtitles = "True") & Please confirm the following details: play Auntie Mame with subtitles.
 INFORM ( directed_by = "Morton DaCosta") & Started playing the movie. It's directed by Morton DaCosta.
 INFORM ( directed_by = "Morton DaCosta") & Started playing the movie. It's directed by Morton DaCosta.
@@ -181,47 +181,47 @@ INFORM ( directed_by = "Martin Scorsese") & It was directed by Martin Scorsese a
 OFFER ( title = "Teen Spirit") & How about Teen Spirit?
 OFFER ( title = "Mad Max: Fury Road") & There is 1 movie you may like. How about Mad Max: Fury Road?
 OFFER ( title = "Mad Max: Fury Road") & There is 1 movie you may like. How about Mad Max: Fury Road?
-OFFER ( title = "Mad Max: Fury Road") & There is 1 movie you may like. How about Mad Max: Fury Road?INFORM_COUNT ( count = "1") & There is 1 movie you may like. How about Mad Max: Fury Road?
+OFFER ( title = "Mad Max: Fury Road") @ INFORM_COUNT ( count = "1") & There is 1 movie you may like  How about Mad Max: Fury Road
 CONFIRM ( title = "Mad Max: Fury Road" ; subtitles = "True") & Please confirm the following: play Mad Max: Fury Road with subtitles.
 OFFER ( title = "The Mustang") & I found 1 - How about The Mustang?
 OFFER ( title = "The Mustang") & I found 1 - How about The Mustang?
-OFFER ( title = "The Mustang") & I found 1 - How about The Mustang?INFORM_COUNT ( count = "1") & I found 1 - How about The Mustang?
+OFFER ( title = "The Mustang") @ INFORM_COUNT ( count = "1") & I found 1 - How about The Mustang
 CONFIRM ( title = "The Mustang" ; subtitles = "True") & To confirm: Start playing The Mustang with subtitles?
 OFFER ( title = "After") & There is 1 movie you may like it is called After
 OFFER ( title = "After") & There is 1 movie you may like it is called After
-OFFER ( title = "After") & There is 1 movie you may like it is called AfterINFORM_COUNT ( count = "1") & There is 1 movie you may like it is called After
+OFFER ( title = "After") @ There is 1 movie you may like it is called AfterINFORM_COUNT ( count = "1") & 
 CONFIRM ( title = "After" ; subtitles = "False") & The movie After will play without subtitles.
 CONFIRM ( title = "After" ; subtitles = "True") & we will play the movie After with subtitles.
 OFFER ( title = "Dogman") & I've found about 10 movies that look good. Dogman and Hackers both look good, how about High Life?
 OFFER ( title = "Dogman") & I've found about 10 movies that look good. Dogman and Hackers both look good, how about High Life?
-OFFER ( title = "Dogman") & I've found about 10 movies that look good. Dogman and Hackers both look good, how about High Life?INFORM_COUNT ( count = "10") & I've found about 10 movies that look good. Dogman and Hackers both look good, how about High Life?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I've found about 10 movies that look good  Dogman and Hackers both look good, how about High Life
 CONFIRM ( title = "Dogman" ; subtitles = "True") & So, you want to watch Dogman with subtitles on?
 INFORM ( directed_by = "Matteo Garrone") & Dogman was directed by Matteo Garrone.
 OFFER ( title = "A Madea Family Funeral") & I found 10 movies you might like. Would you like A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
 OFFER ( title = "A Madea Family Funeral") & I found 10 movies you might like. Would you like A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
-OFFER ( title = "A Madea Family Funeral") & I found 10 movies you might like. Would you like A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?INFORM_COUNT ( count = "10") & I found 10 movies you might like. Would you like A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "10") & I found 10 movies you might like  Would you like A Madea Family Funeral, Auntie Mame, or Dr  Strangelove
 OFFER ( title = "Family") & How about Family, Gloria Bell, or Green Book?
 CONFIRM ( title = "Family" ; subtitles = "True") & Just to confirm, you want to play the movie Family with subtitles?
 OFFER ( title = "dogman") & high life hackers or dogman will be good
 OFFER ( title = "The Mustang") & The Mustang was the no - 1 movie
 OFFER ( title = "The Mustang") & The Mustang was the no - 1 movie
-OFFER ( title = "The Mustang") & The Mustang was the no - 1 movieINFORM_COUNT ( count = "1") & The Mustang was the no - 1 movie
+OFFER ( title = "The Mustang") @ The Mustang was the no - 1 movieINFORM_COUNT ( count = "1") & 
 CONFIRM ( title = "The Mustang" ; subtitles = "False") & The Mustang is without the subtitles would be nice
 CONFIRM ( title = "The Mustang" ; subtitles = "True") & The Mustang with the subtitles please confirm me
 OFFER ( title = "Breakthrough") & There are 4 movies which you may like. Would you like to see Breakthrough, JT LeRoy or Searching for sugar man?
 OFFER ( title = "Breakthrough") & There are 4 movies which you may like. Would you like to see Breakthrough, JT LeRoy or Searching for sugar man?
-OFFER ( title = "Breakthrough") & There are 4 movies which you may like. Would you like to see Breakthrough, JT LeRoy or Searching for sugar man?INFORM_COUNT ( count = "4") & There are 4 movies which you may like. Would you like to see Breakthrough, JT LeRoy or Searching for sugar man?
+OFFER ( title = "Breakthrough") @ INFORM_COUNT ( count = "4") & There are 4 movies which you may like  Would you like to see Breakthrough, JT LeRoy or Searching for sugar man
 CONFIRM ( title = "jt leroy" ; subtitles = "True") & Please may you confirm you'd like to play jt leroy with subtitles
 INFORM ( directed_by = "justin kelly") & Your movie has started playing. It is directed by justin kelly
 INFORM ( directed_by = "justin kelly") & Your movie has started playing. It is directed by justin kelly
 OFFER ( title = "A Madea Family Funeral") & I found some comic movies that you might like. They are A Madea Family Funeral, Auntie Mame and Dr. Strangelove.
 OFFER ( title = "Missing Link") & I found 1 movie that you may like, it is called Missing Link.
 OFFER ( title = "Missing Link") & I found 1 movie that you may like, it is called Missing Link.
-OFFER ( title = "Missing Link") & I found 1 movie that you may like, it is called Missing Link.INFORM_COUNT ( count = "1") & I found 1 movie that you may like, it is called Missing Link.
+OFFER ( title = "Missing Link") @ INFORM_COUNT ( count = "1") & I found 1 movie that you may like, it is called Missing Link
 CONFIRM ( title = "Missing Link" ; subtitles = "True") & Please confirm you want me to play the movie Missing Link with subtitles.
 OFFER ( title = "How to train your Dragon: The hidden world") & 1 movie you may like is How to train your Dragon: The hidden world.
 OFFER ( title = "How to train your Dragon: The hidden world") & 1 movie you may like is How to train your Dragon: The hidden world.
-OFFER ( title = "How to train your Dragon: The hidden world") & 1 movie you may like is How to train your Dragon: The hidden world.INFORM_COUNT ( count = "1") & 1 movie you may like is How to train your Dragon: The hidden world.
+OFFER ( title = "How to train your Dragon: The hidden world") @ INFORM_COUNT ( count = "1") & 1 movie you may like is How to train your Dragon: The hidden world
 CONFIRM ( title = "How to train your Dragon: The Hidden World" ; subtitles = "True") & Please confirm these details, play How to train your Dragon: The Hidden World with subtitles.
 INFORM ( directed_by = "Dean DeBlois") & The movie has started, It's directed by Dean DeBlois.
 INFORM ( directed_by = "Dean DeBlois") & The movie has started, It's directed by Dean DeBlois.
@@ -229,12 +229,12 @@ OFFER ( title = "Little Woods") & ya sure , What about Little Woods?
 CONFIRM ( title = "Little Woods" ; subtitles = "False") & This movie doesn't have any subtitles is that fine? Please confirm the following details: play Little Woods without subtitles.
 OFFER ( title = "dumbo") & there're 4 moviers you may like, do you like dumbo, hellboy or mad max: fury road?
 OFFER ( title = "dumbo") & there're 4 moviers you may like, do you like dumbo, hellboy or mad max: fury road?
-OFFER ( title = "dumbo") & there're 4 moviers you may like, do you like dumbo, hellboy or mad max: fury road?INFORM_COUNT ( count = "4") & there're 4 moviers you may like, do you like dumbo, hellboy or mad max: fury road?
+OFFER ( title = "dumbo") @ INFORM_COUNT ( count = "4") & there're 4 moviers you may like, do you like dumbo, hellboy or mad max: fury road
 CONFIRM ( title = "dumbo" ; subtitles = "False") & please confirm the following details, play dumbo with sub titles
 INFORM ( directed_by = "tim burton") & it's directed by tim burton
 OFFER ( title = "the curse of la llorona") & 1 of the movies you may like: the curse of la llorona
 OFFER ( title = "the curse of la llorona") & 1 of the movies you may like: the curse of la llorona
-OFFER ( title = "the curse of la llorona") & 1 of the movies you may like: the curse of la lloronaINFORM_COUNT ( count = "1") & 1 of the movies you may like: the curse of la llorona
+OFFER ( title = "the curse of la llorona") @ 1 of the movies you may like: the curse of la lloronaINFORM_COUNT ( count = "1") & 
 CONFIRM ( title = "the curse of la llorona" ; subtitles = "False") & can you confirm whether to play the curse of la llorona with subtitles
 CONFIRM ( title = "The curse of la llorona" ; subtitles = "True") & confirm The curse of la llorona with subtitles
 OFFER ( title = "Auntie Mame") & Is Auntie Mame is okay for you?
@@ -243,34 +243,34 @@ CONFIRM ( title = "A Madea Family Funeral" ; subtitles = "True") & Please confir
 OFFER ( title = "Blackmail - Cinemix par chloe") & Blackmail - Cinemix par chloe about?
 OFFER ( title = "Stockholm") & you like 1 movie about Stockholm
 OFFER ( title = "Stockholm") & you like 1 movie about Stockholm
-OFFER ( title = "Stockholm") & you like 1 movie about StockholmINFORM_COUNT ( count = "1") & you like 1 movie about Stockholm
+OFFER ( title = "Stockholm") @ you like 1 movie about StockholmINFORM_COUNT ( count = "1") & 
 CONFIRM ( title = "Stockholm" ; subtitles = "False") & Play Stockholm without subtitles
 OFFER ( title = "A Madea Family Funeral") & Do you like any of the following: A Madea Family Funeral, Auntie Mame or Dr. Strangelove?
 OFFER ( title = "Searching for Sugar Man") & There're 1 movies that you may life. Would you like Searching for Sugar Man?
 OFFER ( title = "Searching for Sugar Man") & There're 1 movies that you may life. Would you like Searching for Sugar Man?
-OFFER ( title = "Searching for Sugar Man") & There're 1 movies that you may life. Would you like Searching for Sugar Man?INFORM_COUNT ( count = "1") & There're 1 movies that you may life. Would you like Searching for Sugar Man?
+OFFER ( title = "Searching for Sugar Man") @ INFORM_COUNT ( count = "1") & There're 1 movies that you may life  Would you like Searching for Sugar Man
 OFFER ( title = "Dumbo") & Do you like Dumbo, Hellboy or Mad Max: Fury Road?
 CONFIRM ( title = "Hellboy" ; subtitles = "False") & Please confirm the following details: play Hellboy without subtitles.
 OFFER ( title = "Green Book") & I found 1 movie you might, like: Green Book.
 OFFER ( title = "Green Book") & I found 1 movie you might, like: Green Book.
-OFFER ( title = "Green Book") & I found 1 movie you might, like: Green Book.INFORM_COUNT ( count = "1") & I found 1 movie you might, like: Green Book.
+OFFER ( title = "Green Book") @ INFORM_COUNT ( count = "1") & I found 1 movie you might, like: Green Book
 CONFIRM ( title = "Green Book" ; subtitles = "True") & To review: You would like to watch the movie Green Book, with subtitles.
 OFFER ( title = "Green Book") & I have found 1 movie, Green Book.
 OFFER ( title = "Green Book") & I have found 1 movie, Green Book.
-OFFER ( title = "Green Book") & I have found 1 movie, Green Book.INFORM_COUNT ( count = "1") & I have found 1 movie, Green Book.
+OFFER ( title = "Green Book") @ INFORM_COUNT ( count = "1") & I have found 1 movie, Green Book
 CONFIRM ( title = "Green Book" ; subtitles = "True") & Can you confirm: You are watching Green Book with subtitles on.
 OFFER ( title = "After") & I found 5 movies you may like. Would you like to watch After, Pillow Talk, or Say Anything?
 OFFER ( title = "After") & I found 5 movies you may like. Would you like to watch After, Pillow Talk, or Say Anything?
-OFFER ( title = "After") & I found 5 movies you may like. Would you like to watch After, Pillow Talk, or Say Anything?INFORM_COUNT ( count = "5") & I found 5 movies you may like. Would you like to watch After, Pillow Talk, or Say Anything?
+OFFER ( title = "After") @ INFORM_COUNT ( count = "5") & I found 5 movies you may like  Would you like to watch After, Pillow Talk, or Say Anything
 OFFER ( title = "The Visitor") & How about The Visitor or Viva Las Vegas?
 OFFER ( title = "Little") & I found 1 movie, how about Little?
 OFFER ( title = "Little") & I found 1 movie, how about Little?
-OFFER ( title = "Little") & I found 1 movie, how about Little?INFORM_COUNT ( count = "1") & I found 1 movie, how about Little?
+OFFER ( title = "Little") @ INFORM_COUNT ( count = "1") & I found 1 movie, how about Little
 CONFIRM ( title = "Little" ; subtitles = "False") & Would you like to play Little without subtitles?
 CONFIRM ( title = "Little" ; subtitles = "True") & You would like to play Little with subtitles, is that correct?
 OFFER ( title = "Say Anything") & There's 1 movie like that it's called Say Anything
 OFFER ( title = "Say Anything") & There's 1 movie like that it's called Say Anything
-OFFER ( title = "Say Anything") & There's 1 movie like that it's called Say AnythingINFORM_COUNT ( count = "1") & There's 1 movie like that it's called Say Anything
+OFFER ( title = "Say Anything") @ There's 1 movie like that it's called Say AnythingINFORM_COUNT ( count = "1") & 
 CONFIRM ( title = "Say Anything" ; subtitles = "False") & So play Say Anything without subtitles correct?
 CONFIRM ( title = "Say Anything" ; subtitles = "True") & Ok so Say Anything with subtitles
 OFFER ( title = "Captain Marvel") & Captain Marvel, Shazam!, and The Poseidon Adventure come to mind.
@@ -282,7 +282,7 @@ OFFER ( title = "family") & how is family?
 CONFIRM ( title = "family" ; subtitles = "True") & Should i play family with subtitles
 OFFER ( title = "Dogman") & I've found 10 drama movies. You may like Dogman, Hackers, or High Life.
 OFFER ( title = "Dogman") & I've found 10 drama movies. You may like Dogman, Hackers, or High Life.
-OFFER ( title = "Dogman") & I've found 10 drama movies. You may like Dogman, Hackers, or High Life.INFORM_COUNT ( count = "10") & I've found 10 drama movies. You may like Dogman, Hackers, or High Life.
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I've found 10 drama movies  You may like Dogman, Hackers, or High Life
 OFFER ( title = "Little Woods") & You may like Little Woods, Mary Magdalene or the Ramen Shop.
 OFFER ( title = "Red Joan") & You may be interested in Red Joan, Suburban Birds or Sunset.
 CONFIRM ( title = "Sunset" ; subtitles = "True") & Okay. Just to confirm, that is Sunset with subtitles, correct?
@@ -301,36 +301,36 @@ INFORM ( directed_by = "Joel Coen") & It is directed by Joel Coen, will start pl
 INFORM ( directed_by = "Joel Coen") & It is directed by Joel Coen, will start playing.
 OFFER ( title = "Dogman") & I've got a selection of 10 movies that may interest you. How about Dogman, Hackers, or High Life.
 OFFER ( title = "Dogman") & I've got a selection of 10 movies that may interest you. How about Dogman, Hackers, or High Life.
-OFFER ( title = "Dogman") & I've got a selection of 10 movies that may interest you. How about Dogman, Hackers, or High Life.INFORM_COUNT ( count = "10") & I've got a selection of 10 movies that may interest you. How about Dogman, Hackers, or High Life.
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I've got a selection of 10 movies that may interest you  How about Dogman, Hackers, or High Life
 CONFIRM ( title = "High Life" ; subtitles = "True") & Alright one last check: you're going to watch High Life with subtitles.
 INFORM ( directed_by = "Claire Denis") & Starting the movie now. Claire Denis directed High Life.
 INFORM ( directed_by = "Claire Denis") & Starting the movie now. Claire Denis directed High Life.
 OFFER ( title = "A Madea Family Funeral") & What bout A Madea Family Funeral, Auntie Mame or Dr. Strangelove?
 OFFER ( title = "Body Double") & I have 1 movie you might like. What about Body Double?
 OFFER ( title = "Body Double") & I have 1 movie you might like. What about Body Double?
-OFFER ( title = "Body Double") & I have 1 movie you might like. What about Body Double?INFORM_COUNT ( count = "1") & I have 1 movie you might like. What about Body Double?
+OFFER ( title = "Body Double") @ INFORM_COUNT ( count = "1") & I have 1 movie you might like  What about Body Double
 CONFIRM ( title = "Body Double" ; subtitles = "True") & So you want to play Body Double with subtitles?
 OFFER ( title = "A Madea Family Funeral") & Here are a few: A Madea Family Funeral, Auntie Mame, and Dr. Strangelove
 OFFER ( title = "Long Shot") & There's 1 movie called Long Shot
 OFFER ( title = "Long Shot") & There's 1 movie called Long Shot
-OFFER ( title = "Long Shot") & There's 1 movie called Long ShotINFORM_COUNT ( count = "1") & There's 1 movie called Long Shot
+OFFER ( title = "Long Shot") @ There's 1 movie called Long ShotINFORM_COUNT ( count = "1") & 
 CONFIRM ( title = "long shot" ; subtitles = "False") & Playing long shot without subtitles
 CONFIRM ( title = "long shot" ; subtitles = "True") & Ok playing long shot with subtitles
 OFFER ( title = "The Curse of La Llorona") & I've found 1. What do you think about The Curse of La Llorona?
 OFFER ( title = "The Curse of La Llorona") & I've found 1. What do you think about The Curse of La Llorona?
-OFFER ( title = "The Curse of La Llorona") & I've found 1. What do you think about The Curse of La Llorona?INFORM_COUNT ( count = "1") & I've found 1. What do you think about The Curse of La Llorona?
+OFFER ( title = "The Curse of La Llorona") @ INFORM_COUNT ( count = "1") & I've found 1  What do you think about The Curse of La Llorona
 CONFIRM ( title = "The Curse of La Llorona" ; subtitles = "True") & Can you just confirm, you want me to play The Curse of La Llorona with subtitles?
 INFORM ( directed_by = "Michael Chaves") & It's directed my Michael Chaves
 INFORM ( directed_by = "Michael Chaves") & It's directed my Michael Chaves
 OFFER ( title = "Teen Spirit") & I've found 1 movie you might enjoy. It's called Teen Spirit.
 OFFER ( title = "Teen Spirit") & I've found 1 movie you might enjoy. It's called Teen Spirit.
-OFFER ( title = "Teen Spirit") & I've found 1 movie you might enjoy. It's called Teen Spirit.INFORM_COUNT ( count = "1") & I've found 1 movie you might enjoy. It's called Teen Spirit.
+OFFER ( title = "Teen Spirit") @ INFORM_COUNT ( count = "1") & I've found 1 movie you might enjoy  It's called Teen Spirit
 CONFIRM ( title = "Teen Spirit" ; subtitles = "False") & Alright, you want to watch Teen Spirit without subtitles now, right?
 INFORM ( directed_by = "Max Minghella") & I've started your movie. The director is Max Minghella.
 INFORM ( directed_by = "Max Minghella") & I've started your movie. The director is Max Minghella.
 OFFER ( title = "The Upside") & I think there's 1 movie you might enjoy, have you seen The Upside?
 OFFER ( title = "The Upside") & I think there's 1 movie you might enjoy, have you seen The Upside?
-OFFER ( title = "The Upside") & I think there's 1 movie you might enjoy, have you seen The Upside?INFORM_COUNT ( count = "1") & I think there's 1 movie you might enjoy, have you seen The Upside?
+OFFER ( title = "The Upside") @ INFORM_COUNT ( count = "1") & I think there's 1 movie you might enjoy, have you seen The Upside
 CONFIRM ( title = "The Upside" ; subtitles = "False") & Okay please confirm: You'd like to play The Upside without subtitles?
 CONFIRM ( title = "The Upside" ; subtitles = "True") & Okay, confirm the following; you'd like to play The Upside with subtitles?
 OFFER ( title = "after") & Have you ever tried before after, pillow talk or say anything
@@ -346,20 +346,20 @@ OFFER ( title = "After") & Are After, Pillow Talk, Say Anything good?
 CONFIRM ( title = "Say Anything" ; subtitles = "True") & Please confirm that you want to play Say Anything with subtitles.
 OFFER ( title = "After") & 1 movie was found. You may like After?
 OFFER ( title = "After") & 1 movie was found. You may like After?
-OFFER ( title = "After") & 1 movie was found. You may like After?INFORM_COUNT ( count = "1") & 1 movie was found. You may like After?
+OFFER ( title = "After") @ INFORM_COUNT ( count = "1") & 1 movie was found  You may like After
 CONFIRM ( title = "After" ; subtitles = "True") & Please confirm the following details: play After with subtitles.
 OFFER ( title = "A Madea Family Funeral") & There are 10 movies I have found. Here are a few suggestions: A Madea Family Funeral, Auntie Mame, or Dr. Strangelove.
 OFFER ( title = "A Madea Family Funeral") & There are 10 movies I have found. Here are a few suggestions: A Madea Family Funeral, Auntie Mame, or Dr. Strangelove.
-OFFER ( title = "A Madea Family Funeral") & There are 10 movies I have found. Here are a few suggestions: A Madea Family Funeral, Auntie Mame, or Dr. Strangelove.INFORM_COUNT ( count = "10") & There are 10 movies I have found. Here are a few suggestions: A Madea Family Funeral, Auntie Mame, or Dr. Strangelove.
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "10") & There are 10 movies I have found  Here are a few suggestions: A Madea Family Funeral, Auntie Mame, or Dr  Strangelove
 OFFER ( title = "Dogman") & There are 10 Dramas that I've found. A few suggestions for you: Dogman, Hackers, or High Life.
 OFFER ( title = "Dogman") & There are 10 Dramas that I've found. A few suggestions for you: Dogman, Hackers, or High Life.
-OFFER ( title = "Dogman") & There are 10 Dramas that I've found. A few suggestions for you: Dogman, Hackers, or High Life.INFORM_COUNT ( count = "10") & There are 10 Dramas that I've found. A few suggestions for you: Dogman, Hackers, or High Life.
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & There are 10 Dramas that I've found  A few suggestions for you: Dogman, Hackers, or High Life
 OFFER ( title = "Little Woods") & You may like Little Woods, Mary Magdalene, or Ramen Shop.
 CONFIRM ( title = "Mary Magdalene" ; subtitles = "True") & Just to confirm: You want to see Mary Magdalene with subtitles.
 OFFER ( title = "A Madea Family Funeral") & I found some movies for you: A Madea Family Funeral, Auntie Mame, and Dr. Strangelove.
 OFFER ( title = "Pillow Talk") & I found 1 movie you may like called Pillow Talk.
 OFFER ( title = "Pillow Talk") & I found 1 movie you may like called Pillow Talk.
-OFFER ( title = "Pillow Talk") & I found 1 movie you may like called Pillow Talk.INFORM_COUNT ( count = "1") & I found 1 movie you may like called Pillow Talk.
+OFFER ( title = "Pillow Talk") @ INFORM_COUNT ( count = "1") & I found 1 movie you may like called Pillow Talk
 CONFIRM ( title = "Pillow Talk" ; subtitles = "False") & Should I Play Pillow Talk with no subtitles?
 OFFER ( title = "Dumbo") & Would you like Hellboy, Dumbo or Mad Max: Fury Road?
 OFFER ( title = "Stockholm") & What about the movie Stockholm?
@@ -367,7 +367,7 @@ CONFIRM ( title = "Stockholm" ; subtitles = "False") & Please confirm the follow
 CONFIRM ( title = "Stockholm" ; subtitles = "True") & Please confirm the following: play movie Stockholm with subtitles.
 OFFER ( title = "Breakthrough") & I can see 1 here that you might like, the title is Breakthrough. Do you want that?
 OFFER ( title = "Breakthrough") & I can see 1 here that you might like, the title is Breakthrough. Do you want that?
-OFFER ( title = "Breakthrough") & I can see 1 here that you might like, the title is Breakthrough. Do you want that?INFORM_COUNT ( count = "1") & I can see 1 here that you might like, the title is Breakthrough. Do you want that?
+OFFER ( title = "Breakthrough") @ INFORM_COUNT ( count = "1") & I can see 1 here that you might like, the title is Breakthrough  Do you want that
 CONFIRM ( title = "Breakthrough" ; subtitles = "False") & I will be playing Breakthrough movie without subtitles, are you sure you want it without subtitles?
 CONFIRM ( title = "Breakthrough" ; subtitles = "True") & I will be playing Breakthrough film with subtitles. Please confirm.
 OFFER ( title = "Dogman") & How do you feel about Dogman, Hackers, and High Life?
@@ -376,7 +376,7 @@ INFORM ( directed_by = "Claire Denis") & I have started playing High Life with s
 INFORM ( directed_by = "Claire Denis") & I have started playing High Life with subtitles, and it was directed by Claire Denis.
 OFFER ( title = "Mikey and Nicky") & Might you like this 1 movie called Mikey and Nicky?
 OFFER ( title = "Mikey and Nicky") & Might you like this 1 movie called Mikey and Nicky?
-OFFER ( title = "Mikey and Nicky") & Might you like this 1 movie called Mikey and Nicky?INFORM_COUNT ( count = "1") & Might you like this 1 movie called Mikey and Nicky?
+OFFER ( title = "Mikey and Nicky") @ INFORM_COUNT ( count = "1") & Might you like this 1 movie called Mikey and Nicky
 CONFIRM ( title = "Mikey and Nicky" ; subtitles = "False") & I will play Mikey and Nicky with no subtitles. Please confirm.
 OFFER ( title = "Breakthrough") & Have you seen Breakthrough, Jt LeRoy or Searching For Sugar Man
 OFFER ( title = "Shine a Light") & Would you like to watch Shine a Light?
@@ -385,67 +385,67 @@ INFORM ( directed_by = "Martin Scorsese") & Playing the movie now. The director 
 INFORM ( directed_by = "Martin Scorsese") & Playing the movie now. The director is Martin Scorsese
 OFFER ( title = "The Curse of La Llorona") & I've found 1 movie you might enjoy: The Curse of La Llorona.
 OFFER ( title = "The Curse of La Llorona") & I've found 1 movie you might enjoy: The Curse of La Llorona.
-OFFER ( title = "The Curse of La Llorona") & I've found 1 movie you might enjoy: The Curse of La Llorona.INFORM_COUNT ( count = "1") & I've found 1 movie you might enjoy: The Curse of La Llorona.
+OFFER ( title = "The Curse of La Llorona") @ INFORM_COUNT ( count = "1") & I've found 1 movie you might enjoy: The Curse of La Llorona
 CONFIRM ( title = "The Curse of La Llorona" ; subtitles = "False") & Just checking that you want to watch The Curse of La Llorona with no subtitles.
 OFFER ( title = "Dogman") & I found 10 that you may like. How does Dogman, Hackers, or High Life sound?
 OFFER ( title = "Dogman") & I found 10 that you may like. How does Dogman, Hackers, or High Life sound?
-OFFER ( title = "Dogman") & I found 10 that you may like. How does Dogman, Hackers, or High Life sound?INFORM_COUNT ( count = "10") & I found 10 that you may like. How does Dogman, Hackers, or High Life sound?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I found 10 that you may like  How does Dogman, Hackers, or High Life sound
 CONFIRM ( title = "High Life" ; subtitles = "False") & You want to watch High Life without subtitles, correct?
 CONFIRM ( subtitles = "True" ; title = "High Life") & Okay, you would like to watch High Life with subtitles?
 OFFER ( title = "Breakthrough") & I found 4 movies that you may enjoy. How about Breakthrough, JT Leroy or Searching for Sugar Man as some of your choices?
 OFFER ( title = "Breakthrough") & I found 4 movies that you may enjoy. How about Breakthrough, JT Leroy or Searching for Sugar Man as some of your choices?
-OFFER ( title = "Breakthrough") & I found 4 movies that you may enjoy. How about Breakthrough, JT Leroy or Searching for Sugar Man as some of your choices?INFORM_COUNT ( count = "4") & I found 4 movies that you may enjoy. How about Breakthrough, JT Leroy or Searching for Sugar Man as some of your choices?
+OFFER ( title = "Breakthrough") @ INFORM_COUNT ( count = "4") & I found 4 movies that you may enjoy  How about Breakthrough, JT Leroy or Searching for Sugar Man as some of your choices
 CONFIRM ( title = "Breakthrough" ; subtitles = "False") & Please verify this selection: Do not use subtitles when playing Breakthrough.
 OFFER ( title = "The Upside") & I have found 1 movie that fits your interests.  Have you heard of The Upside?
 OFFER ( title = "The Upside") & I have found 1 movie that fits your interests.  Have you heard of The Upside?
-OFFER ( title = "The Upside") & I have found 1 movie that fits your interests.  Have you heard of The Upside?INFORM_COUNT ( count = "1") & I have found 1 movie that fits your interests.  Have you heard of The Upside?
+OFFER ( title = "The Upside") @ INFORM_COUNT ( count = "1") & I have found 1 movie that fits your interests   Have you heard of The Upside
 CONFIRM ( title = "The Upside" ; subtitles = "False") & To watch the movie just confirm this: play The Upside with no subtitles.
 OFFER ( title = "Dogman") & There are 10 movies that you might like, do you like Dogman, Hackers or High Life?
 OFFER ( title = "Dogman") & There are 10 movies that you might like, do you like Dogman, Hackers or High Life?
-OFFER ( title = "Dogman") & There are 10 movies that you might like, do you like Dogman, Hackers or High Life?INFORM_COUNT ( count = "10") & There are 10 movies that you might like, do you like Dogman, Hackers or High Life?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & There are 10 movies that you might like, do you like Dogman, Hackers or High Life
 CONFIRM ( title = "Hackers" ; subtitles = "False") & Please confirm: you'd like to watch Hackers without subtitles?
 CONFIRM ( subtitles = "True" ; title = "Hackers") & Please confirm: you'd like to watch Hackers with subtitles_
 INFORM ( directed_by = "Iain Softley") & Starting movie. Hackers is directed by Iain Softley.
 INFORM ( directed_by = "Iain Softley") & Starting movie. Hackers is directed by Iain Softley.
 OFFER ( title = "Pet Sematary") & I have 1 movie in mind that you may like. I am thinking Pet Sematary.
 OFFER ( title = "Pet Sematary") & I have 1 movie in mind that you may like. I am thinking Pet Sematary.
-OFFER ( title = "Pet Sematary") & I have 1 movie in mind that you may like. I am thinking Pet Sematary.INFORM_COUNT ( count = "1") & I have 1 movie in mind that you may like. I am thinking Pet Sematary.
+OFFER ( title = "Pet Sematary") @ INFORM_COUNT ( count = "1") & I have 1 movie in mind that you may like  I am thinking Pet Sematary
 CONFIRM ( title = "Pet Sematary" ; subtitles = "False") & Just to be sure, you would like the movie Pet Sematary with no subtitles.
 CONFIRM ( subtitles = "True" ; title = "Pet Sematary") & Just to confirm, you want Pet Sematary with subtitles included.
 OFFER ( title = "A Madea Family Funeral") & There are 10 movies you might like. How about: A Madea Family Funeral, Auntie Mame or Dr. Strangelove?
 OFFER ( title = "A Madea Family Funeral") & There are 10 movies you might like. How about: A Madea Family Funeral, Auntie Mame or Dr. Strangelove?
-OFFER ( title = "A Madea Family Funeral") & There are 10 movies you might like. How about: A Madea Family Funeral, Auntie Mame or Dr. Strangelove?INFORM_COUNT ( count = "10") & There are 10 movies you might like. How about: A Madea Family Funeral, Auntie Mame or Dr. Strangelove?
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "10") & There are 10 movies you might like  How about: A Madea Family Funeral, Auntie Mame or Dr  Strangelove
 OFFER ( title = "Long Shot") & How about Long Shot?
 CONFIRM ( title = "Long Shot" ; subtitles = "False") & Okay, you'd like to watch Long Shot without subtitles?
 CONFIRM ( subtitles = "True" ; title = "Long Shot") & Okay, you'd like to watch Long Shot with subtitles?
 OFFER ( title = "How to Train Your Dragon: The Hidden World") & Here's 1 - do you want to see How to Train Your Dragon: The Hidden World?
 OFFER ( title = "How to Train Your Dragon: The Hidden World") & Here's 1 - do you want to see How to Train Your Dragon: The Hidden World?
-OFFER ( title = "How to Train Your Dragon: The Hidden World") & Here's 1 - do you want to see How to Train Your Dragon: The Hidden World?INFORM_COUNT ( count = "1") & Here's 1 - do you want to see How to Train Your Dragon: The Hidden World?
+OFFER ( title = "How to Train Your Dragon: The Hidden World") @ INFORM_COUNT ( count = "1") & Here's 1 - do you want to see How to Train Your Dragon: The Hidden World
 CONFIRM ( title = "How to Train Your Dragon: The Hidden World" ; subtitles = "False") & I'm going to go ahead and start How to Train Your Dragon: The Hidden World without subtitles, okay?
 CONFIRM ( subtitles = "True" ; title = "How to Train Your Dragon: the Hidden World") & Okay, I'll start How to Train Your Dragon: the Hidden World with subtitles.
 OFFER ( title = "Dogman") & I've found 10 movies that you might like. How does Dogman, Hackers, or High Life sound?
 OFFER ( title = "Dogman") & I've found 10 movies that you might like. How does Dogman, Hackers, or High Life sound?
-OFFER ( title = "Dogman") & I've found 10 movies that you might like. How does Dogman, Hackers, or High Life sound?INFORM_COUNT ( count = "10") & I've found 10 movies that you might like. How does Dogman, Hackers, or High Life sound?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I've found 10 movies that you might like  How does Dogman, Hackers, or High Life sound
 OFFER ( title = "Little Woods") & Little Woods, Mary Magdalene and Ramen Shop are some others.
 CONFIRM ( title = "Little Woods" ; subtitles = "False") & I can play that for you right now. So to make sure, you want to watch Little Woods without subtitles?
 INFORM ( directed_by = "Nia DaCosta") & Nia DaCosta directed Little Woods.
 OFFER ( title = "Breakthrough") & Alright, there's 4 movies you can choose from. Do you want to watch Breakthrough, JT LeROy, or Searching for Sugar Man?
 OFFER ( title = "Breakthrough") & Alright, there's 4 movies you can choose from. Do you want to watch Breakthrough, JT LeROy, or Searching for Sugar Man?
-OFFER ( title = "Breakthrough") & Alright, there's 4 movies you can choose from. Do you want to watch Breakthrough, JT LeROy, or Searching for Sugar Man?INFORM_COUNT ( count = "4") & Alright, there's 4 movies you can choose from. Do you want to watch Breakthrough, JT LeROy, or Searching for Sugar Man?
+OFFER ( title = "Breakthrough") @ INFORM_COUNT ( count = "4") & Alright, there's 4 movies you can choose from  Do you want to watch Breakthrough, JT LeROy, or Searching for Sugar Man
 OFFER ( title = "Body Double") & I have 2 movies you may like. How about Body Double or Citizen Kane?
 OFFER ( title = "Body Double") & I have 2 movies you may like. How about Body Double or Citizen Kane?
-OFFER ( title = "Body Double") & I have 2 movies you may like. How about Body Double or Citizen Kane?INFORM_COUNT ( count = "2") & I have 2 movies you may like. How about Body Double or Citizen Kane?
+OFFER ( title = "Body Double") @ INFORM_COUNT ( count = "2") & I have 2 movies you may like  How about Body Double or Citizen Kane
 CONFIRM ( title = "Body Double" ; subtitles = "True") & Please confirm the following: Play Body Double with subtitles.
 OFFER ( title = "Breakthrough") & I found a few. How about Breakthrough, JT Leroy, or Searching for Sugar Man?
 OFFER ( title = "Josie and the Pussycats") & How about Josie and the Pussycats?
 CONFIRM ( title = "Josie and the Pussycats" ; subtitles = "True") & Playing Josie and the Pussycats with subtitles.
 OFFER ( title = "Hotel Mumbai") & I've found 1 you should try Hotel Mumbai.
 OFFER ( title = "Hotel Mumbai") & I've found 1 you should try Hotel Mumbai.
-OFFER ( title = "Hotel Mumbai") & I've found 1 you should try Hotel Mumbai.INFORM_COUNT ( count = "1") & I've found 1 you should try Hotel Mumbai.
+OFFER ( title = "Hotel Mumbai") @ INFORM_COUNT ( count = "1") & I've found 1 you should try Hotel Mumbai
 CONFIRM ( title = "Hotel Mumbai" ; subtitles = "True") & You want to watch Hotel Mumbai with subtitles, correct?
 OFFER ( title = "Dogman") & I found 10 movies I think you may be interested in. How does Dogman, Hackers, or High Life sound?
 OFFER ( title = "Dogman") & I found 10 movies I think you may be interested in. How does Dogman, Hackers, or High Life sound?
-OFFER ( title = "Dogman") & I found 10 movies I think you may be interested in. How does Dogman, Hackers, or High Life sound?INFORM_COUNT ( count = "10") & I found 10 movies I think you may be interested in. How does Dogman, Hackers, or High Life sound?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I found 10 movies I think you may be interested in  How does Dogman, Hackers, or High Life sound
 OFFER ( title = "Red Joan") & How does Red Joan sound?
 CONFIRM ( title = "Red Joan" ; subtitles = "False") & Would you like to watch Red Joan without subtitles?
 OFFER ( title = "JT LeRoy") & Can I suggest JT LeRoy?
@@ -589,27 +589,27 @@ INFORM ( directed_by = "George Sidney" ; genre = "Romance") & THe movie has star
 INFORM ( directed_by = "George Sidney" ; genre = "Romance") & THe movie has started. It's considered a Romance movie and George Sidney was the director.
 OFFER ( title = "Family") & I have found 1 movie you may like. It is called Family, would you like to see that one?
 OFFER ( title = "Family") & I have found 1 movie you may like. It is called Family, would you like to see that one?
-OFFER ( title = "Family") & I have found 1 movie you may like. It is called Family, would you like to see that one?INFORM_COUNT ( count = "1") & I have found 1 movie you may like. It is called Family, would you like to see that one?
+OFFER ( title = "Family") @ INFORM_COUNT ( count = "1") & I have found 1 movie you may like  It is called Family, would you like to see that one
 CONFIRM ( title = "Family" ; subtitles = "True") & Please confirm, you would like to play Family with subtitles.
 OFFER ( title = "Captain Marvel") & I found 4 you might like, how about Captain Marvel? Shazam!? or The Poseidon Adventure?
 OFFER ( title = "Captain Marvel") & I found 4 you might like, how about Captain Marvel? Shazam!? or The Poseidon Adventure?
-OFFER ( title = "Captain Marvel") & I found 4 you might like, how about Captain Marvel? Shazam!? or The Poseidon Adventure?INFORM_COUNT ( count = "4") & I found 4 you might like, how about Captain Marvel? Shazam!? or The Poseidon Adventure?
+OFFER ( title = "Captain Marvel") @ INFORM_COUNT ( count = "4") & I found 4 you might like, how about Captain Marvel  Shazam!  or The Poseidon Adventure
 OFFER ( title = "True Grit") & How about True Grit?
 CONFIRM ( title = "True Grit" ; subtitles = "False") & Just to confirm, you want to play True Grit without subtitles?
 OFFER ( title = "A Madea Family Funeral") & There are 10 movies with the preference you have indicated. Would you like to see A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
 OFFER ( title = "A Madea Family Funeral") & There are 10 movies with the preference you have indicated. Would you like to see A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
-OFFER ( title = "A Madea Family Funeral") & There are 10 movies with the preference you have indicated. Would you like to see A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?INFORM_COUNT ( count = "10") & There are 10 movies with the preference you have indicated. Would you like to see A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "10") & There are 10 movies with the preference you have indicated  Would you like to see A Madea Family Funeral, Auntie Mame, or Dr  Strangelove
 OFFER ( title = "Supa Modo") & There is 1 movie like that that I've found. Does Supa Modo sound good?
 OFFER ( title = "Supa Modo") & There is 1 movie like that that I've found. Does Supa Modo sound good?
-OFFER ( title = "Supa Modo") & There is 1 movie like that that I've found. Does Supa Modo sound good?INFORM_COUNT ( count = "1") & There is 1 movie like that that I've found. Does Supa Modo sound good?
+OFFER ( title = "Supa Modo") @ INFORM_COUNT ( count = "1") & There is 1 movie like that that I've found  Does Supa Modo sound good
 CONFIRM ( title = "Supa Modo" ; subtitles = "False") & Please confirm that: I'd like to watch Supa Modo without subtitles.
 CONFIRM ( title = "Supa Modo" ; subtitles = "True") & Please confirm the following: Please play Supa Modo with subtitles.
 OFFER ( title = "Dumbo") & I can see that there are 4 movies which you might like. Would you enjoy watching Dumbo, Hellboy or Mad Max: Fury Road?
 OFFER ( title = "Dumbo") & I can see that there are 4 movies which you might like. Would you enjoy watching Dumbo, Hellboy or Mad Max: Fury Road?
-OFFER ( title = "Dumbo") & I can see that there are 4 movies which you might like. Would you enjoy watching Dumbo, Hellboy or Mad Max: Fury Road?INFORM_COUNT ( count = "4") & I can see that there are 4 movies which you might like. Would you enjoy watching Dumbo, Hellboy or Mad Max: Fury Road?
+OFFER ( title = "Dumbo") @ INFORM_COUNT ( count = "4") & I can see that there are 4 movies which you might like  Would you enjoy watching Dumbo, Hellboy or Mad Max: Fury Road
 OFFER ( title = "Josie and the Pussycats") & I have found a 1 movie which you might like. How would you consider watching Josie and the Pussycats?
 OFFER ( title = "Josie and the Pussycats") & I have found a 1 movie which you might like. How would you consider watching Josie and the Pussycats?
-OFFER ( title = "Josie and the Pussycats") & I have found a 1 movie which you might like. How would you consider watching Josie and the Pussycats?INFORM_COUNT ( count = "1") & I have found a 1 movie which you might like. How would you consider watching Josie and the Pussycats?
+OFFER ( title = "Josie and the Pussycats") @ INFORM_COUNT ( count = "1") & I have found a 1 movie which you might like  How would you consider watching Josie and the Pussycats
 CONFIRM ( title = "Josie and the Pussycats" ; subtitles = "False") & Can you please confirm that you want to watch Josie and the Pussycats without subtitles.
 CONFIRM ( title = "Josie and the Pussycats" ; subtitles = "True") & Can you please confirm again that you want to watch Josie and the Pussycats with subtitles?
 OFFER ( title = "A Madea Family Funeral") & Do you interest to watch A Madea Family Funeral, Auntie Mame or Dr. Strangelove?
@@ -619,17 +619,17 @@ INFORM ( directed_by = "Tyler Perry") & Movie playing. Movie directed by Tyler P
 OFFER ( title = "How to Train Your Dragon: The Hidden World") & Do you like How to Train Your Dragon: The Hidden World?
 OFFER ( title = "Breakthrough") & I found 4 movies including Breakthrough, JT LeRoy, and Searching for Sugar Man.
 OFFER ( title = "Breakthrough") & I found 4 movies including Breakthrough, JT LeRoy, and Searching for Sugar Man.
-OFFER ( title = "Breakthrough") & I found 4 movies including Breakthrough, JT LeRoy, and Searching for Sugar Man.INFORM_COUNT ( count = "4") & I found 4 movies including Breakthrough, JT LeRoy, and Searching for Sugar Man.
+OFFER ( title = "Breakthrough") @ INFORM_COUNT ( count = "4") & I found 4 movies including Breakthrough, JT LeRoy, and Searching for Sugar Man
 CONFIRM ( title = "Breakthrough" ; subtitles = "False") & Please confirm you want to play Breakthrough without subtitles.
 OFFER ( title = "Missing Link") & I found 1 you might like. Do you like Missing Link?
 OFFER ( title = "Missing Link") & I found 1 you might like. Do you like Missing Link?
-OFFER ( title = "Missing Link") & I found 1 you might like. Do you like Missing Link?INFORM_COUNT ( count = "1") & I found 1 you might like. Do you like Missing Link?
+OFFER ( title = "Missing Link") @ INFORM_COUNT ( count = "1") & I found 1 you might like  Do you like Missing Link
 CONFIRM ( title = "Missing Link" ; subtitles = "False") & Okay, please confirm that I should play Missing Link without subtitles.
 CONFIRM ( title = "Missing Link" ; subtitles = "True") & Please confirm that I should play Missing Link with subtitles.
 OFFER ( title = "Dogman") & are you a fan of Dogman, Hackers or High Life?
 OFFER ( title = "Wild Nights with Emily") & 1 movie. How about Wild Nights with Emily?
 OFFER ( title = "Wild Nights with Emily") & 1 movie. How about Wild Nights with Emily?
-OFFER ( title = "Wild Nights with Emily") & 1 movie. How about Wild Nights with Emily?INFORM_COUNT ( count = "1") & 1 movie. How about Wild Nights with Emily?
+OFFER ( title = "Wild Nights with Emily") @ INFORM_COUNT ( count = "1") & 1 movie  How about Wild Nights with Emily
 CONFIRM ( title = "Wild Nights with Emily" ; subtitles = "True") & Play subtitles on Wild Nights with Emily
 OFFER ( title = "A Madea Family Funeral") & How about A Madea Family Funeral, Auntie Mame, or Dr. Strangelove?
 CONFIRM ( title = "Dr. Strangelove" ; subtitles = "False") & Okay, can you confirm for me: play Dr. Strangelove without subtitles.
@@ -637,18 +637,18 @@ INFORM ( directed_by = "Stanley Kubrick") & I've started the movie.Stanley Kubri
 INFORM ( directed_by = "Stanley Kubrick") & I've started the movie.Stanley Kubrick is the director.
 OFFER ( title = "Supa Modo") & There is 1 movie that you may like. What do you think of Supa Modo?
 OFFER ( title = "Supa Modo") & There is 1 movie that you may like. What do you think of Supa Modo?
-OFFER ( title = "Supa Modo") & There is 1 movie that you may like. What do you think of Supa Modo?INFORM_COUNT ( count = "1") & There is 1 movie that you may like. What do you think of Supa Modo?
+OFFER ( title = "Supa Modo") @ INFORM_COUNT ( count = "1") & There is 1 movie that you may like  What do you think of Supa Modo
 CONFIRM ( title = "Supa Modo" ; subtitles = "False") & Sure. I just need a confirmation. You want me to play Supa Modo without subtitles?
 CONFIRM ( title = "Supa Modo" ; subtitles = "True") & Okay. Please confirm, Play Supa Modo with subtitles.
 OFFER ( title = "After") & Do you favor After, Pillow Talk or Say Anything?
 OFFER ( title = "The Visitor") & What do you think about The Visitor or Viva Las Vegas?
 OFFER ( title = "Suburban Birds") & There's 1 movie called Suburban Birds you might like.
 OFFER ( title = "Suburban Birds") & There's 1 movie called Suburban Birds you might like.
-OFFER ( title = "Suburban Birds") & There's 1 movie called Suburban Birds you might like.INFORM_COUNT ( count = "1") & There's 1 movie called Suburban Birds you might like.
+OFFER ( title = "Suburban Birds") @ INFORM_COUNT ( count = "1") & There's 1 movie called Suburban Birds you might like
 CONFIRM ( title = "Suburban Birds" ; subtitles = "False") & Please let me know if you can play Suburban Birds without subtitles.
 OFFER ( title = "Fighting with My Family") & There is 1 movie you may like and it is Fighting with My Family.
 OFFER ( title = "Fighting with My Family") & There is 1 movie you may like and it is Fighting with My Family.
-OFFER ( title = "Fighting with My Family") & There is 1 movie you may like and it is Fighting with My Family.INFORM_COUNT ( count = "1") & There is 1 movie you may like and it is Fighting with My Family.
+OFFER ( title = "Fighting with My Family") @ INFORM_COUNT ( count = "1") & There is 1 movie you may like and it is Fighting with My Family
 CONFIRM ( title = "Fighting with My Family" ; subtitles = "False") & Kindly confirm that you want to watch the movie Fighting with My Family without subtitles.
 CONFIRM ( title = "Fighting with My Family" ; subtitles = "True") & Okay. So shall I play Fighting with My Family with subtitles?
 INFORM ( directed_by = "Stephen Merchant") & The movie is directed by Stephen Merchant and the movie has now started playing.
@@ -657,38 +657,38 @@ OFFER ( title = "Mikey and Nicky") & Based on your preference I have found the m
 CONFIRM ( title = "Mikey and Nicky" ; subtitles = "False") & Would you like to play Mikey and Nicky with no sub titles?
 OFFER ( title = "Body Double") & I have found 2 movies. Would you like to watch Body Double or Citizen Kane?
 OFFER ( title = "Body Double") & I have found 2 movies. Would you like to watch Body Double or Citizen Kane?
-OFFER ( title = "Body Double") & I have found 2 movies. Would you like to watch Body Double or Citizen Kane?INFORM_COUNT ( count = "2") & I have found 2 movies. Would you like to watch Body Double or Citizen Kane?
+OFFER ( title = "Body Double") @ INFORM_COUNT ( count = "2") & I have found 2 movies  Would you like to watch Body Double or Citizen Kane
 CONFIRM ( title = "Citizen Kane" ; subtitles = "True") & Will you please confirm that you want to play Citizen Kane with subtitles?
 OFFER ( title = "Dogman") & What do you think of Dogman, Hackers or High Life?
 OFFER ( title = "Little Woods") & I found 1 called Little Woods. Does that sound good?
 OFFER ( title = "Little Woods") & I found 1 called Little Woods. Does that sound good?
-OFFER ( title = "Little Woods") & I found 1 called Little Woods. Does that sound good?INFORM_COUNT ( count = "1") & I found 1 called Little Woods. Does that sound good?
+OFFER ( title = "Little Woods") @ INFORM_COUNT ( count = "1") & I found 1 called Little Woods  Does that sound good
 CONFIRM ( title = "Little Woods" ; subtitles = "False") & Just to be sure you want to see Little Woods without subtitles?
 OFFER ( title = "Hotel Mumbai") & Hotel Mumbai is a good one
 OFFER ( title = "Blackmail - Cinemix Par Chloe") & How about Blackmail - Cinemix Par Chloe?
 CONFIRM ( title = "Blackmail - Cinemix Par Chloe" ; subtitles = "False") & Playing Blackmail - Cinemix Par Chloe without subtitles. Is that correct?
 OFFER ( title = "Dogman") & There are 1 movies you might like. How about Dogman?
 OFFER ( title = "Dogman") & There are 1 movies you might like. How about Dogman?
-OFFER ( title = "Dogman") & There are 1 movies you might like. How about Dogman?INFORM_COUNT ( count = "1") & There are 1 movies you might like. How about Dogman?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "1") & There are 1 movies you might like  How about Dogman
 CONFIRM ( title = "Dogman" ; subtitles = "True") & Confirm the Dogman movie with subtitles.
 OFFER ( title = "Breakthrough") & Okay, how about Breakthrough?
 OFFER ( title = "Josie and the Pussycats") & I found 1 movie matching that search. How about Josie and the Pussycats?
 OFFER ( title = "Josie and the Pussycats") & I found 1 movie matching that search. How about Josie and the Pussycats?
-OFFER ( title = "Josie and the Pussycats") & I found 1 movie matching that search. How about Josie and the Pussycats?INFORM_COUNT ( count = "1") & I found 1 movie matching that search. How about Josie and the Pussycats?
+OFFER ( title = "Josie and the Pussycats") @ INFORM_COUNT ( count = "1") & I found 1 movie matching that search  How about Josie and the Pussycats
 CONFIRM ( title = "Josie and the Pussycats" ; subtitles = "True") & Sure, please confirm that you'd like to watch Josie and the Pussycats with subtitles.
 OFFER ( title = "Supa modo") & Ok, what about Supa modo?
 CONFIRM ( title = "Supa Modo" ; subtitles = "True") & Ok, Please confirm the following details: pla Supa Modo with subtitles
 OFFER ( title = "Teen Spirit") & I have found 1 movie you may like. How about Teen Spirit?
 OFFER ( title = "Teen Spirit") & I have found 1 movie you may like. How about Teen Spirit?
-OFFER ( title = "Teen Spirit") & I have found 1 movie you may like. How about Teen Spirit?INFORM_COUNT ( count = "1") & I have found 1 movie you may like. How about Teen Spirit?
+OFFER ( title = "Teen Spirit") @ INFORM_COUNT ( count = "1") & I have found 1 movie you may like  How about Teen Spirit
 CONFIRM ( title = "Teen Spirit" ; subtitles = "True") & Okay, just to confirm, you want to watch the movie Teen Spirit now with subtitles. Is that correct?
 OFFER ( title = "Hotel Mumbai") & I have found 1, how about Hotel Mumbai?
 OFFER ( title = "Hotel Mumbai") & I have found 1, how about Hotel Mumbai?
-OFFER ( title = "Hotel Mumbai") & I have found 1, how about Hotel Mumbai?INFORM_COUNT ( count = "1") & I have found 1, how about Hotel Mumbai?
+OFFER ( title = "Hotel Mumbai") @ INFORM_COUNT ( count = "1") & I have found 1, how about Hotel Mumbai
 CONFIRM ( title = "Hotel Mumbai" ; subtitles = "False") & Please confirm: play Hotel Mumbai without subtitles
 OFFER ( title = "Penguin Highway") & I found 1 movie, how about Penguin Highway?
 OFFER ( title = "Penguin Highway") & I found 1 movie, how about Penguin Highway?
-OFFER ( title = "Penguin Highway") & I found 1 movie, how about Penguin Highway?INFORM_COUNT ( count = "1") & I found 1 movie, how about Penguin Highway?
+OFFER ( title = "Penguin Highway") @ INFORM_COUNT ( count = "1") & I found 1 movie, how about Penguin Highway
 CONFIRM ( title = "Penguin Highway" ; subtitles = "False") & Do you want to watch Penguin Highway without subtitles?
 CONFIRM ( title = "Penguin Highway" ; subtitles = "True") & Do you want to watch Penguin Highway with subtitles?
 OFFER ( title = "Dogman") & I found Dogman, Hackers and High Life. Do you like any of these movies?
@@ -702,27 +702,27 @@ CONFIRM ( title = "Little" ; subtitles = "False") & So play Little without subti
 INFORM ( directed_by = "Tina Gordon") & It was directed by Tina Gordon
 OFFER ( title = "Dogman") & There are 10 movies you might like. Do you want to watch Dogman, Hackers or High Life?
 OFFER ( title = "Dogman") & There are 10 movies you might like. Do you want to watch Dogman, Hackers or High Life?
-OFFER ( title = "Dogman") & There are 10 movies you might like. Do you want to watch Dogman, Hackers or High Life?INFORM_COUNT ( count = "10") & There are 10 movies you might like. Do you want to watch Dogman, Hackers or High Life?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & There are 10 movies you might like  Do you want to watch Dogman, Hackers or High Life
 CONFIRM ( title = "Dogman" ; subtitles = "True") & Please confirm: You want to watch Dogman with subtitles.
 INFORM ( directed_by = "Matteo Garrone") & The movie is now playing. It was directed by Matteo Garrone.
 INFORM ( directed_by = "Matteo Garrone") & The movie is now playing. It was directed by Matteo Garrone.
 OFFER ( title = "A Madea family funeral") & Do you like: A Madea family funeral, auntie mame or Dr. strangelove?
 OFFER ( title = "Long shot") & there's 1 you might like, Long shot.
 OFFER ( title = "Long shot") & there's 1 you might like, Long shot.
-OFFER ( title = "Long shot") & there's 1 you might like, Long shot.INFORM_COUNT ( count = "1") & there's 1 you might like, Long shot.
+OFFER ( title = "Long shot") @ INFORM_COUNT ( count = "1") & there's 1 you might like, Long shot
 CONFIRM ( title = "long shot" ; subtitles = "True") & please confirm the following: Play long shot with subtitles?
 OFFER ( title = "After") & How about After, Pillow Talk, or Say Anything?
 OFFER ( title = "JT LeRoy") & I found 1 movie that you may like. How does JT LeRoy sound?
 OFFER ( title = "JT LeRoy") & I found 1 movie that you may like. How does JT LeRoy sound?
-OFFER ( title = "JT LeRoy") & I found 1 movie that you may like. How does JT LeRoy sound?INFORM_COUNT ( count = "1") & I found 1 movie that you may like. How does JT LeRoy sound?
+OFFER ( title = "JT LeRoy") @ INFORM_COUNT ( count = "1") & I found 1 movie that you may like  How does JT LeRoy sound
 CONFIRM ( title = "JT LeRoy" ; subtitles = "True") & Please confirm that you'd like to start JT LeRoy, with subtitles.
 OFFER ( title = "The Poseidon Adventure") & I can think of 1 movie you might like. Have you seen The Poseidon Adventure?
 OFFER ( title = "The Poseidon Adventure") & I can think of 1 movie you might like. Have you seen The Poseidon Adventure?
-OFFER ( title = "The Poseidon Adventure") & I can think of 1 movie you might like. Have you seen The Poseidon Adventure?INFORM_COUNT ( count = "1") & I can think of 1 movie you might like. Have you seen The Poseidon Adventure?
+OFFER ( title = "The Poseidon Adventure") @ INFORM_COUNT ( count = "1") & I can think of 1 movie you might like  Have you seen The Poseidon Adventure
 CONFIRM ( title = "The Poseidon Adventure" ; subtitles = "False") & To confirm: You want to play The Poseidon Adventure without subtitles, correct?
 OFFER ( title = "A Madea Family Funeral") & Of course, I got 10 movies suit your taste and A Madea Family Funeral, Auntie Mame and Dr. Strangelove are nice among them, please select your option.
 OFFER ( title = "A Madea Family Funeral") & Of course, I got 10 movies suit your taste and A Madea Family Funeral, Auntie Mame and Dr. Strangelove are nice among them, please select your option.
-OFFER ( title = "A Madea Family Funeral") & Of course, I got 10 movies suit your taste and A Madea Family Funeral, Auntie Mame and Dr. Strangelove are nice among them, please select your option.INFORM_COUNT ( count = "10") & Of course, I got 10 movies suit your taste and A Madea Family Funeral, Auntie Mame and Dr. Strangelove are nice among them, please select your option.
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "10") & Of course, I got 10 movies suit your taste and A Madea Family Funeral, Auntie Mame and Dr  Strangelove are nice among them, please select your option
 OFFER ( title = "Stockholm") & Stockholm, which is best, do you like it?
 OFFER ( title = "Viva Las Vegas") & Yes, Viva Las Vegas, Is that okay for you?
 CONFIRM ( title = "Viva Las Vegas" ; subtitles = "True") & Yes, please confirm to play Viva Las Vegas movie with subtitles.
@@ -733,27 +733,27 @@ INFORM ( directed_by = "Peter Farrelly") & It's directed by Peter Farrelly. Movi
 INFORM ( directed_by = "Peter Farrelly") & It's directed by Peter Farrelly. Movie is now playing.
 OFFER ( title = "Dogman") & I found 10 movies. Some of the most recommended are Dogman, Hackers, and High Life
 OFFER ( title = "Dogman") & I found 10 movies. Some of the most recommended are Dogman, Hackers, and High Life
-OFFER ( title = "Dogman") & I found 10 movies. Some of the most recommended are Dogman, Hackers, and High LifeINFORM_COUNT ( count = "10") & I found 10 movies. Some of the most recommended are Dogman, Hackers, and High Life
+OFFER ( title = "Dogman") @  Some of the most recommended are Dogman, Hackers, and High LifeINFORM_COUNT ( count = "10") & I found 10 movies
 OFFER ( title = "Mikey and Nicky") & I think Mikey and Nicky might suit you
 OFFER ( title = "Captain Marvel") & Okay, I have found three titled for movies which match your request. Would you like to see Captain Marvel, Shazam! or The Poseidon Adventure.
 CONFIRM ( title = "Shazam!" ; subtitles = "True") & Please confirm the following information: Play Shazam! with subtitles.
 OFFER ( title = "Say Anything") & What do you think about Say Anything?
 OFFER ( title = "Green Book") & I found 1 movie that you may like. What do you think about Green Book?
 OFFER ( title = "Green Book") & I found 1 movie that you may like. What do you think about Green Book?
-OFFER ( title = "Green Book") & I found 1 movie that you may like. What do you think about Green Book?INFORM_COUNT ( count = "1") & I found 1 movie that you may like. What do you think about Green Book?
+OFFER ( title = "Green Book") @ INFORM_COUNT ( count = "1") & I found 1 movie that you may like  What do you think about Green Book
 CONFIRM ( title = "Green Book" ; subtitles = "False") & Before watching it, please confirm the following details: playing Green Book without subtitles.
 OFFER ( title = "Auntie Mame") & There is Auntie Mame.
 OFFER ( title = "Say Anything") & I have found 1 movie. Would you like to watch Say Anything?
 OFFER ( title = "Say Anything") & I have found 1 movie. Would you like to watch Say Anything?
-OFFER ( title = "Say Anything") & I have found 1 movie. Would you like to watch Say Anything?INFORM_COUNT ( count = "1") & I have found 1 movie. Would you like to watch Say Anything?
+OFFER ( title = "Say Anything") @ INFORM_COUNT ( count = "1") & I have found 1 movie  Would you like to watch Say Anything
 CONFIRM ( title = "Say Anything" ; subtitles = "True") & I will play Say Anything with subtitles when you are ready.
 OFFER ( title = "The Upside") & I'm showing 1 film available now, titled The Upside. Do you think you would like that movie?
 OFFER ( title = "The Upside") & I'm showing 1 film available now, titled The Upside. Do you think you would like that movie?
-OFFER ( title = "The Upside") & I'm showing 1 film available now, titled The Upside. Do you think you would like that movie?INFORM_COUNT ( count = "1") & I'm showing 1 film available now, titled The Upside. Do you think you would like that movie?
+OFFER ( title = "The Upside") @ INFORM_COUNT ( count = "1") & I'm showing 1 film available now, titled The Upside  Do you think you would like that movie
 CONFIRM ( title = "The Upside" ; subtitles = "True") & Okay. The film The Upside will start playing and include subtitles. Are you confirming that now?
 OFFER ( title = "After") & I've found 5 movies that might enjoy. What do you think about After, Pillow Talk, or Say Anything?
 OFFER ( title = "After") & I've found 5 movies that might enjoy. What do you think about After, Pillow Talk, or Say Anything?
-OFFER ( title = "After") & I've found 5 movies that might enjoy. What do you think about After, Pillow Talk, or Say Anything?INFORM_COUNT ( count = "5") & I've found 5 movies that might enjoy. What do you think about After, Pillow Talk, or Say Anything?
+OFFER ( title = "After") @ INFORM_COUNT ( count = "5") & I've found 5 movies that might enjoy  What do you think about After, Pillow Talk, or Say Anything
 CONFIRM ( title = "Pillow Talk" ; subtitles = "True") & I will play Pillow Talk with subtitles, is that right?
 INFORM ( directed_by = "Michael Gordon") & The director is Michael Gordon and I've started the movie.
 INFORM ( directed_by = "Michael Gordon") & The director is Michael Gordon and I've started the movie.
@@ -766,29 +766,29 @@ CONFIRM ( title = "Dogman" ; subtitles = "False") & You'd like to view Dogman wi
 OFFER ( title = "A Madea Family Funeral") & Some recommendations are A Madea Family Funeral, Auntie Mame, and Dr. Strangelove. Would you like to see any of these?
 OFFER ( title = "Dogman") & I've found 10 movies you might like. Some of the recommendations are Dogman, Hackers, and High Life.
 OFFER ( title = "Dogman") & I've found 10 movies you might like. Some of the recommendations are Dogman, Hackers, and High Life.
-OFFER ( title = "Dogman") & I've found 10 movies you might like. Some of the recommendations are Dogman, Hackers, and High Life.INFORM_COUNT ( count = "10") & I've found 10 movies you might like. Some of the recommendations are Dogman, Hackers, and High Life.
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "10") & I've found 10 movies you might like  Some of the recommendations are Dogman, Hackers, and High Life
 OFFER ( title = "Little Woods") & There's also Little Woods, Mary Magdalene, and Ramen Shop.
 CONFIRM ( title = "Ramen Shop" ; subtitles = "True") & So you'd like to see Ramen Shop with subtitles?
 OFFER ( title = "Pet sematary") & Pet sematary is 1 movie you will love
 OFFER ( title = "Pet sematary") & Pet sematary is 1 movie you will love
-OFFER ( title = "Pet sematary") & Pet sematary is 1 movie you will loveINFORM_COUNT ( count = "1") & Pet sematary is 1 movie you will love
+OFFER ( title = "Pet sematary") @ Pet sematary is 1 movie you will loveINFORM_COUNT ( count = "1") & 
 CONFIRM ( title = "pet sematary" ; subtitles = "False") & Confirm if you would love to watch pet sematary without subtitles
 CONFIRM ( title = "pet sematary" ; subtitles = "True") & Do you want to play pet sematary with subtitles
 OFFER ( title = "A Madea Family Funeral") & I've pulled up 10 movies for you. May I recommend A Madea Family Funeral or Auntie Mame? There is also Dr. Strangelove.
 OFFER ( title = "A Madea Family Funeral") & I've pulled up 10 movies for you. May I recommend A Madea Family Funeral or Auntie Mame? There is also Dr. Strangelove.
-OFFER ( title = "A Madea Family Funeral") & I've pulled up 10 movies for you. May I recommend A Madea Family Funeral or Auntie Mame? There is also Dr. Strangelove.INFORM_COUNT ( count = "10") & I've pulled up 10 movies for you. May I recommend A Madea Family Funeral or Auntie Mame? There is also Dr. Strangelove.
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "10") & I've pulled up 10 movies for you  May I recommend A Madea Family Funeral or Auntie Mame  There is also Dr  Strangelove
 OFFER ( title = "Fighting with My Family") & I've found 1 movie that may interest you, called Fighting with My Family. How does that sound?
 OFFER ( title = "Fighting with My Family") & I've found 1 movie that may interest you, called Fighting with My Family. How does that sound?
-OFFER ( title = "Fighting with My Family") & I've found 1 movie that may interest you, called Fighting with My Family. How does that sound?INFORM_COUNT ( count = "1") & I've found 1 movie that may interest you, called Fighting with My Family. How does that sound?
+OFFER ( title = "Fighting with My Family") @ INFORM_COUNT ( count = "1") & I've found 1 movie that may interest you, called Fighting with My Family  How does that sound
 CONFIRM ( title = "Fighting with My Family" ; subtitles = "False") & Please confirm: Play movie Fighting with My Family without the subtitles. Is this correct.
 CONFIRM ( title = "Fighting with My Family" ; subtitles = "True") & No problem. One moment. Please confirm: Play movie Fighting with My Family with subtitles on.
 OFFER ( title = "Dogman") & I think that have just 1 movie for you. What do you think of Dogman?
 OFFER ( title = "Dogman") & I think that have just 1 movie for you. What do you think of Dogman?
-OFFER ( title = "Dogman") & I think that have just 1 movie for you. What do you think of Dogman?INFORM_COUNT ( count = "1") & I think that have just 1 movie for you. What do you think of Dogman?
+OFFER ( title = "Dogman") @ INFORM_COUNT ( count = "1") & I think that have just 1 movie for you  What do you think of Dogman
 CONFIRM ( title = "Dogman" ; subtitles = "False") & Would you like me to play Dogman with subtitles for you now?
 OFFER ( title = "Shazam!") & I found 1 movie you might like to watch. Would you like to see Shazam!?
 OFFER ( title = "Shazam!") & I found 1 movie you might like to watch. Would you like to see Shazam!?
-OFFER ( title = "Shazam!") & I found 1 movie you might like to watch. Would you like to see Shazam!?INFORM_COUNT ( count = "1") & I found 1 movie you might like to watch. Would you like to see Shazam!?
+OFFER ( title = "Shazam!") @ INFORM_COUNT ( count = "1") & I found 1 movie you might like to watch  Would you like to see Shazam!
 CONFIRM ( title = "Shazam!" ; subtitles = "False") & Do you want to watch Shazam! without subtitles?
 CONFIRM ( title = "Shazam!" ; subtitles = "True") & You want to watch Shazam! with subtitles, right?
 OFFER ( title = "Teen Spirit") & Would you like to see Teen Spirit?
@@ -797,41 +797,41 @@ INFORM ( directed_by = "Max Minghella") & Teen Spirit, directed by Max Minghella
 INFORM ( directed_by = "Max Minghella") & Teen Spirit, directed by Max Minghella, is now playing.
 OFFER ( title = "The Best of Enemies") & I've found 1 movie you might just like. What about watching The Best of Enemies?
 OFFER ( title = "The Best of Enemies") & I've found 1 movie you might just like. What about watching The Best of Enemies?
-OFFER ( title = "The Best of Enemies") & I've found 1 movie you might just like. What about watching The Best of Enemies?INFORM_COUNT ( count = "1") & I've found 1 movie you might just like. What about watching The Best of Enemies?
+OFFER ( title = "The Best of Enemies") @ INFORM_COUNT ( count = "1") & I've found 1 movie you might just like  What about watching The Best of Enemies
 CONFIRM ( title = "The Best of Enemies" ; subtitles = "True") & Are you sure you want to watch The Best of Enemies with subtitles?
 OFFER ( title = "A Madea Family Funeral") & I've found 10. How does Auntie Mame, Dr. Strangelove or A Madea Family Funeral sound?
 OFFER ( title = "A Madea Family Funeral") & I've found 10. How does Auntie Mame, Dr. Strangelove or A Madea Family Funeral sound?
-OFFER ( title = "A Madea Family Funeral") & I've found 10. How does Auntie Mame, Dr. Strangelove or A Madea Family Funeral sound?INFORM_COUNT ( count = "10") & I've found 10. How does Auntie Mame, Dr. Strangelove or A Madea Family Funeral sound?
+OFFER ( title = "A Madea Family Funeral") @ INFORM_COUNT ( count = "10") & I've found 10  How does Auntie Mame, Dr  Strangelove or A Madea Family Funeral sound
 CONFIRM ( title = "Auntie Mame" ; subtitles = "True") & No problem. If you're happy I'll put on Auntie Mame with subtitles
 OFFER ( title = "Blackmail - Cinemix Par Chloe") & I found Blackmail - Cinemix Par Chloe. Do you like it?
 CONFIRM ( title = "Blackmail - Cinemix Par Chloe" ; subtitles = "False") & Please do confirm the following details: I will be playing the Blackmail - Cinemix Par Chloe without subtitles.
 OFFER ( title = "Captain marvel") & do you like Captain marvel, Shazam! or The poseidon Adventure?
 OFFER ( title = "the curse of La llorona") & what about the curse of La llorona?there're 1 movies
 OFFER ( title = "the curse of La llorona") & what about the curse of La llorona?there're 1 movies
-OFFER ( title = "the curse of La llorona") & what about the curse of La llorona?there're 1 moviesINFORM_COUNT ( count = "1") & what about the curse of La llorona?there're 1 movies
+OFFER ( title = "the curse of La llorona") @ there're 1 moviesINFORM_COUNT ( count = "1") & what about the curse of La llorona
 CONFIRM ( title = "The Curse of La Llorona" ; subtitles = "False") & please confirm the following details:play The Curse of La Llorona subtitles
 CONFIRM ( title = "The Curse of La Llorona" ; subtitles = "True") & please confirm the following details:play The Curse of La Llorona subtitles.
 OFFER ( title = "ash is purest white") & 1 movie you may like is ash is purest white
 OFFER ( title = "ash is purest white") & 1 movie you may like is ash is purest white
-OFFER ( title = "ash is purest white") & 1 movie you may like is ash is purest whiteINFORM_COUNT ( count = "1") & 1 movie you may like is ash is purest white
+OFFER ( title = "ash is purest white") @ 1 movie you may like is ash is purest whiteINFORM_COUNT ( count = "1") & 
 CONFIRM ( title = "ash is purest white" ; subtitles = "True") & is ash is purest white with subtitles ok
 OFFER ( title = "The Last Dragon") & I found 1 movie that might interest you. How does The Last Dragon sound?
 OFFER ( title = "The Last Dragon") & I found 1 movie that might interest you. How does The Last Dragon sound?
-OFFER ( title = "The Last Dragon") & I found 1 movie that might interest you. How does The Last Dragon sound?INFORM_COUNT ( count = "1") & I found 1 movie that might interest you. How does The Last Dragon sound?
+OFFER ( title = "The Last Dragon") @ INFORM_COUNT ( count = "1") & I found 1 movie that might interest you  How does The Last Dragon sound
 CONFIRM ( title = "The Last Dragon" ; subtitles = "False") & Let me see if I got everything correctly: Start playing The Last Dragon without subtitles. Correct?
 OFFER ( title = "Dumbo") & Here are 4 options you might be interested in. How about Dumbo, Hellboy, or Mad Max: Fury Road?
 OFFER ( title = "Dumbo") & Here are 4 options you might be interested in. How about Dumbo, Hellboy, or Mad Max: Fury Road?
-OFFER ( title = "Dumbo") & Here are 4 options you might be interested in. How about Dumbo, Hellboy, or Mad Max: Fury Road?INFORM_COUNT ( count = "4") & Here are 4 options you might be interested in. How about Dumbo, Hellboy, or Mad Max: Fury Road?
+OFFER ( title = "Dumbo") @ INFORM_COUNT ( count = "4") & Here are 4 options you might be interested in  How about Dumbo, Hellboy, or Mad Max: Fury Road
 OFFER ( movie_name = "Dogman") & Of the 10 movies that you might find interesting, may I suggest Dogman, Hackers or High Life?
 OFFER ( movie_name = "Dogman") & Of the 10 movies that you might find interesting, may I suggest Dogman, Hackers or High Life?
-OFFER ( movie_name = "Dogman") & Of the 10 movies that you might find interesting, may I suggest Dogman, Hackers or High Life?INFORM_COUNT ( count = "10") & Of the 10 movies that you might find interesting, may I suggest Dogman, Hackers or High Life?
+OFFER ( movie_name = "Dogman") @ INFORM_COUNT ( count = "10") & Of the 10 movies that you might find interesting, may I suggest Dogman, Hackers or High Life
 OFFER ( movie_name = "Captain Marvel") & How about Captain Marvel, Shazam! or the Poseidon Adventure?
 OFFER ( movie_name = "True Grit") & Would you like to watch True Grit?
 CONFIRM ( movie_name = "True grit" ; subtitle_language = "Spanish") & Please confirm that you want to rent the movie True grit with Spanish subtitles.
 CONFIRM ( movie_name = "True Grit" ; subtitle_language = "None") & Okay. So you want to watch True Grit with no subtitles?
 OFFER ( movie_name = "The Man Who Knew Too Much") & I found 1 movie. The Man Who Knew Too Much.
 OFFER ( movie_name = "The Man Who Knew Too Much") & I found 1 movie. The Man Who Knew Too Much.
-OFFER ( movie_name = "The Man Who Knew Too Much") & I found 1 movie. The Man Who Knew Too Much.INFORM_COUNT ( count = "1") & I found 1 movie. The Man Who Knew Too Much.
+OFFER ( movie_name = "The Man Who Knew Too Much") @ INFORM_COUNT ( count = "1") & I found 1 movie  The Man Who Knew Too Much
 CONFIRM ( movie_name = "The Man Who Knew Too Much" ; subtitle_language = "None") & Please confirm rental of The Man Who Knew Too Much with no subtitles.
 OFFER ( movie_name = "Body Double") & Yup! Do you like to watch the movie Body Double?
 CONFIRM ( movie_name = "Body Double" ; subtitle_language = "None") & Can you confirm me that you wish to watch the movie Body Double without bothering for subtitles, correct?
@@ -840,7 +840,7 @@ CONFIRM ( movie_name = "Body Double" ; subtitle_language = "English") & Okay! We
 INFORM ( price = "$6" ; actors = "B.J. Jones") & It would be $6 and B.J. Jones is the hero of the movie.
 OFFER ( movie_name = "Josie and the Pussycats") & I have 1 movie; Josie and the Pussycats?
 OFFER ( movie_name = "Josie and the Pussycats") & I have 1 movie; Josie and the Pussycats?
-OFFER ( movie_name = "Josie and the Pussycats") & I have 1 movie; Josie and the Pussycats?INFORM_COUNT ( count = "1") & I have 1 movie; Josie and the Pussycats?
+OFFER ( movie_name = "Josie and the Pussycats") @ INFORM_COUNT ( count = "1") & I have 1 movie; Josie and the Pussycats
 CONFIRM ( movie_name = "Josie and the Pussycats" ; subtitle_language = "None") & Let's confirm the details. You would like to watch Josie and the Pussycats. You want no subtitles.
 INFORM ( price = "$7" ; actors = "Kevin Blatch") & It will cost $7 and the lead actor is Kevin Blatch. Successful rent.
 INFORM ( price = "$7" ; actors = "Kevin Blatch") & It will cost $7 and the lead actor is Kevin Blatch. Successful rent.
@@ -855,7 +855,7 @@ OFFER ( movie_name = "How to Train Your Dragon: The Hidden World") & How about H
 CONFIRM ( movie_name = "How to Train Your Dragon: The Hidden World" ; subtitle_language = "None") & So you want How to Train Your Dragon: The Hidden World, without subtitles?
 OFFER ( movie_name = "Dogman") & I have 10 films, hoe about Dogman, Hackers or the High Life
 OFFER ( movie_name = "Dogman") & I have 10 films, hoe about Dogman, Hackers or the High Life
-OFFER ( movie_name = "Dogman") & I have 10 films, hoe about Dogman, Hackers or the High LifeINFORM_COUNT ( count = "10") & I have 10 films, hoe about Dogman, Hackers or the High Life
+OFFER ( movie_name = "Dogman") @ I have 10 films, hoe about Dogman, Hackers or the High LifeINFORM_COUNT ( count = "10") & 
 CONFIRM ( movie_name = "Dogman" ; subtitle_language = "None") & Please confirm: watch Dogman with no subtitles
 INFORM ( director = "Matteo Garrone" ; actors = "Edoardo Pesce") & I ahve rented it, Matteo Garrone direted and Edoardo Pesce is the actor.
 INFORM ( director = "Matteo Garrone" ; actors = "Edoardo Pesce") & I ahve rented it, Matteo Garrone direted and Edoardo Pesce is the actor.
@@ -870,22 +870,22 @@ CONFIRM ( movie_name = "Gloria Bell" ; subtitle_language = "Mandarin") & You wou
 INFORM ( price = "$7" ; actors = "Holland Taylor") & Holland Taylor is the principal actor and the cost is $7.
 OFFER ( movie_name = "Body Double") & There is 1 move for your satisfaction, Body Double. Will it work?
 OFFER ( movie_name = "Body Double") & There is 1 move for your satisfaction, Body Double. Will it work?
-OFFER ( movie_name = "Body Double") & There is 1 move for your satisfaction, Body Double. Will it work?INFORM_COUNT ( count = "1") & There is 1 move for your satisfaction, Body Double. Will it work?
+OFFER ( movie_name = "Body Double") @ INFORM_COUNT ( count = "1") & There is 1 move for your satisfaction, Body Double  Will it work
 CONFIRM ( movie_name = "Body Double" ; subtitle_language = "None") & Then verify the demand; You need Body Double on rent without subtitles.
 INFORM ( price = "$6") & Charge of rent is $6.
 OFFER ( movie_name = "The Mustang") & I have 1 option for you and it is The Mustang.
 OFFER ( movie_name = "The Mustang") & I have 1 option for you and it is The Mustang.
-OFFER ( movie_name = "The Mustang") & I have 1 option for you and it is The Mustang.INFORM_COUNT ( count = "1") & I have 1 option for you and it is The Mustang.
+OFFER ( movie_name = "The Mustang") @ INFORM_COUNT ( count = "1") & I have 1 option for you and it is The Mustang
 CONFIRM ( movie_name = "The Mustang" ; subtitle_language = "English") & Playing The Mustang with English subtitles. Is that correct?
 CONFIRM ( movie_name = "The Mustang" ; subtitle_language = "None") & Playing The Mustang with no subtitles. Is that correct?
 INFORM ( price = "$4" ; actors = "Matthias Schoenaerts") & It is $4 and Matthias Schoenaerts acted in the movie.
 OFFER ( movie_name = "The Man Who Knew Too Much") & I see 1 film you might enjoy: The Man Who Knew Too Much.
 OFFER ( movie_name = "The Man Who Knew Too Much") & I see 1 film you might enjoy: The Man Who Knew Too Much.
-OFFER ( movie_name = "The Man Who Knew Too Much") & I see 1 film you might enjoy: The Man Who Knew Too Much.INFORM_COUNT ( count = "1") & I see 1 film you might enjoy: The Man Who Knew Too Much.
+OFFER ( movie_name = "The Man Who Knew Too Much") @ INFORM_COUNT ( count = "1") & I see 1 film you might enjoy: The Man Who Knew Too Much
 CONFIRM ( movie_name = "The Man Who Knew Too Much" ; subtitle_language = "None") & You want to rent The Man Who Knew Too Much. I assume the type of subtitles you want on the movie is None?
 OFFER ( movie_name = "The Last Dragon") & Hello! I have 1 movie that may interest you. Would you like to watch The Last Dragon?
 OFFER ( movie_name = "The Last Dragon") & Hello! I have 1 movie that may interest you. Would you like to watch The Last Dragon?
-OFFER ( movie_name = "The Last Dragon") & Hello! I have 1 movie that may interest you. Would you like to watch The Last Dragon?INFORM_COUNT ( count = "1") & Hello! I have 1 movie that may interest you. Would you like to watch The Last Dragon?
+OFFER ( movie_name = "The Last Dragon") @ INFORM_COUNT ( count = "1") & Hello! I have 1 movie that may interest you  Would you like to watch The Last Dragon
 CONFIRM ( movie_name = "The Last Dragon" ; subtitle_language = "None") & Let me review. You would like to rent The Last Dragon and your subtitle preference would be none.
 INFORM ( actors = "Keshia Knight Pulliam") & One of the billed actors is Keshia Knight Pulliam.
 OFFER ( movie_name = "A Madea Family Funeral") & Do you like A Madea Family Funeral, Auntie Mame, or Dr. STrangelove?
@@ -904,18 +904,18 @@ INFORM ( price = "$4" ; actors = "Loren Dean") & Loren Dean is in it for $4 for 
 INFORM ( price = "$4" ; actors = "Loren Dean") & Loren Dean is in it for $4 for 3 days.
 OFFER ( movie_name = "Dumbo") & I found 1 movie that you might like. What about Dumbo?
 OFFER ( movie_name = "Dumbo") & I found 1 movie that you might like. What about Dumbo?
-OFFER ( movie_name = "Dumbo") & I found 1 movie that you might like. What about Dumbo?INFORM_COUNT ( count = "1") & I found 1 movie that you might like. What about Dumbo?
+OFFER ( movie_name = "Dumbo") @ INFORM_COUNT ( count = "1") & I found 1 movie that you might like  What about Dumbo
 CONFIRM ( movie_name = "Dumbo" ; subtitle_language = "None") & Please confirm: Watching Dumbo. Subtitles set to None.
 INFORM ( price = "$5") & The movie costs $5 to rent for 3 days. The movie was successfully rented.
 INFORM ( price = "$5") & The movie costs $5 to rent for 3 days. The movie was successfully rented.
 OFFER ( movie_name = "The Man Who Knew Too Much") & Search revealed 1 result. Do you like The Man Who Knew Too Much?
 OFFER ( movie_name = "The Man Who Knew Too Much") & Search revealed 1 result. Do you like The Man Who Knew Too Much?
-OFFER ( movie_name = "The Man Who Knew Too Much") & Search revealed 1 result. Do you like The Man Who Knew Too Much?INFORM_COUNT ( count = "1") & Search revealed 1 result. Do you like The Man Who Knew Too Much?
+OFFER ( movie_name = "The Man Who Knew Too Much") @ INFORM_COUNT ( count = "1") & Search revealed 1 result  Do you like The Man Who Knew Too Much
 CONFIRM ( movie_name = "The Man Who Knew Too Much" ; subtitle_language = "Spanish") & You want to rent The Man Who Knew Too Much with Spanish subtitles. Is hat correct?
 INFORM ( price = "$8" ; actors = "Bess Flowers") & Bess Flowers stars in the movie and the cost is $8.
 OFFER ( movie_name = "Hotel Mumbai") & There are 2 suitable options: Hotel Mumbai and Pet Sematary.
 OFFER ( movie_name = "Hotel Mumbai") & There are 2 suitable options: Hotel Mumbai and Pet Sematary.
-OFFER ( movie_name = "Hotel Mumbai") & There are 2 suitable options: Hotel Mumbai and Pet Sematary.INFORM_COUNT ( count = "2") & There are 2 suitable options: Hotel Mumbai and Pet Sematary.
+OFFER ( movie_name = "Hotel Mumbai") @ INFORM_COUNT ( count = "2") & There are 2 suitable options: Hotel Mumbai and Pet Sematary
 CONFIRM ( movie_name = "Pet sematary" ; subtitle_language = "None") & You want to see Pet sematary on a rental video where there aren't any subtitles.
 OFFER ( movie_name = "Dogman") & Okay: Dogman, Hackers, and High Life are some options? I can find others, too.
 CONFIRM ( movie_name = "Hackers" ; subtitle_language = "None") & Hackers it is - do you want subtitles, or do you prefer none at all?
@@ -935,51 +935,51 @@ INFORM ( price = "$6" ; actors = "Matt Damon") & $6 to rent. The leading actor i
 INFORM ( price = "$6" ; actors = "Matt Damon") & $6 to rent. The leading actor is Matt Damon. Your movie is booked and you will see it within 3 days
 OFFER ( movie_name = "Breakthrough") & I found 4 movies. How about Breakthrough, JT LeRoy or Searching for Sugar Man?
 OFFER ( movie_name = "Breakthrough") & I found 4 movies. How about Breakthrough, JT LeRoy or Searching for Sugar Man?
-OFFER ( movie_name = "Breakthrough") & I found 4 movies. How about Breakthrough, JT LeRoy or Searching for Sugar Man?INFORM_COUNT ( count = "4") & I found 4 movies. How about Breakthrough, JT LeRoy or Searching for Sugar Man?
+OFFER ( movie_name = "Breakthrough") @ INFORM_COUNT ( count = "4") & I found 4 movies  How about Breakthrough, JT LeRoy or Searching for Sugar Man
 OFFER ( movie_name = "Shine a Light") & How about Shine a Light?
 CONFIRM ( movie_name = "Shine a Light" ; subtitle_language = "Mandarin") & I have Shine a Light with Mandarin subtitles. Is that correct?
 OFFER ( movie_name = "Family") & I have found 1 movie called Family.
 OFFER ( movie_name = "Family") & I have found 1 movie called Family.
-OFFER ( movie_name = "Family") & I have found 1 movie called Family.INFORM_COUNT ( count = "1") & I have found 1 movie called Family.
+OFFER ( movie_name = "Family") @ INFORM_COUNT ( count = "1") & I have found 1 movie called Family
 CONFIRM ( movie_name = "Family" ; subtitle_language = "None") & You would like to rent Family with no subtitles?
 OFFER ( movie_name = "Dogman") & I've got 10 movies. How about Dogman, Hackers or High Life?
 OFFER ( movie_name = "Dogman") & I've got 10 movies. How about Dogman, Hackers or High Life?
-OFFER ( movie_name = "Dogman") & I've got 10 movies. How about Dogman, Hackers or High Life?INFORM_COUNT ( count = "10") & I've got 10 movies. How about Dogman, Hackers or High Life?
+OFFER ( movie_name = "Dogman") @ INFORM_COUNT ( count = "10") & I've got 10 movies  How about Dogman, Hackers or High Life
 CONFIRM ( movie_name = "Dogman" ; subtitle_language = "None") & Okay, please confirm: rent Dogman with no subtitles.
 INFORM ( price = "$7" ; actors = "Edoardo Pesce") & The movie has been rented. It expires in 3 days. It costs $7 and stars Edoardo Pesce.
 INFORM ( price = "$7" ; actors = "Edoardo Pesce") & The movie has been rented. It expires in 3 days. It costs $7 and stars Edoardo Pesce.
 OFFER ( movie_name = "A Madea Family Funeral") & I have found 1 suitable movie titled A Madea Family Funeral.
 OFFER ( movie_name = "A Madea Family Funeral") & I have found 1 suitable movie titled A Madea Family Funeral.
-OFFER ( movie_name = "A Madea Family Funeral") & I have found 1 suitable movie titled A Madea Family Funeral.INFORM_COUNT ( count = "1") & I have found 1 suitable movie titled A Madea Family Funeral.
+OFFER ( movie_name = "A Madea Family Funeral") @ INFORM_COUNT ( count = "1") & I have found 1 suitable movie titled A Madea Family Funeral
 CONFIRM ( movie_name = "A Madea Family Funeral" ; subtitle_language = "None") & Sure, please confirm your rental of A Madea Family Funeral with no subtitles.
 CONFIRM ( movie_name = "A Madea Family Funeral" ; subtitle_language = "Mandarin") & Sure, please confirm your rental of A Madea Family Funeral with Mandarin subtitles.
 OFFER ( movie_name = "Hackers") & I think Hackers is 1 you can watch of such genre.
 OFFER ( movie_name = "Hackers") & I think Hackers is 1 you can watch of such genre.
-OFFER ( movie_name = "Hackers") & I think Hackers is 1 you can watch of such genre.INFORM_COUNT ( count = "1") & I think Hackers is 1 you can watch of such genre.
+OFFER ( movie_name = "Hackers") @ INFORM_COUNT ( count = "1") & I think Hackers is 1 you can watch of such genre
 CONFIRM ( movie_name = "Hackers" ; subtitle_language = "None") & Ok confirm please, Hackers with no subtitles.
 CONFIRM ( movie_name = "Hackers" ; subtitle_language = "Spanish") & Ok, you demanded Hackers on rent with Spanish subtitles, right?
 OFFER ( movie_name = "Dogman") & Search revealed 1 movie for you. Do you like Dogman?
 OFFER ( movie_name = "Dogman") & Search revealed 1 movie for you. Do you like Dogman?
-OFFER ( movie_name = "Dogman") & Search revealed 1 movie for you. Do you like Dogman?INFORM_COUNT ( count = "1") & Search revealed 1 movie for you. Do you like Dogman?
+OFFER ( movie_name = "Dogman") @ INFORM_COUNT ( count = "1") & Search revealed 1 movie for you  Do you like Dogman
 CONFIRM ( movie_name = "Dogman" ; subtitle_language = "None") & You want to rent the movie Dogman with no subtitles. Is that right?
 INFORM ( director = "Matteo Garrone") & Matteo Garrone is the director and you movie rental is confirmed. Make sure to watch it within 3 days.
 INFORM ( director = "Matteo Garrone") & Matteo Garrone is the director and you movie rental is confirmed. Make sure to watch it within 3 days.
 OFFER ( movie_name = "After") & Sure, i've located 1 movie, called After.
 OFFER ( movie_name = "After") & Sure, i've located 1 movie, called After.
-OFFER ( movie_name = "After") & Sure, i've located 1 movie, called After.INFORM_COUNT ( count = "1") & Sure, i've located 1 movie, called After.
+OFFER ( movie_name = "After") @ INFORM_COUNT ( count = "1") & Sure, i've located 1 movie, called After
 CONFIRM ( movie_name = "After" ; subtitle_language = "None") & please confirm: You would like to rent the movie After. You would like no subtitles on the movie. is this correct?
 CONFIRM ( movie_name = "After" ; subtitle_language = "Spanish") & please confirm: watch movie After with spanish subtitles on. is this correct?
 CONFIRM ( movie_name = "After" ; subtitle_language = "English") & No problem, please confirm: watch the movie After with English subtitles on. is this correct?
 OFFER ( movie_name = "Dogman") & I've found 10 options that you might like - how does Hackers, Dogman, or High Life sound?
 OFFER ( movie_name = "Dogman") & I've found 10 options that you might like - how does Hackers, Dogman, or High Life sound?
-OFFER ( movie_name = "Dogman") & I've found 10 options that you might like - how does Hackers, Dogman, or High Life sound?INFORM_COUNT ( count = "10") & I've found 10 options that you might like - how does Hackers, Dogman, or High Life sound?
+OFFER ( movie_name = "Dogman") @ INFORM_COUNT ( count = "10") & I've found 10 options that you might like - how does Hackers, Dogman, or High Life sound
 CONFIRM ( movie_name = "Hackers" ; subtitle_language = "None") & Alright, so you'd like to rent Hackers? Do you want subtitles, or are you happy with none?
 CONFIRM ( movie_name = "Hackers" ; subtitle_language = "Mandarin") & Sure, so you'd like to rent Hackers and have Mandarin subtitles?
 CONFIRM ( movie_name = "Hackers" ; subtitle_language = "Spanish") & To review: You'd like to rent Hackers and have Spanish subtitles?
 OFFER ( movie_name = "A Madea Family Funeral") & How about A Madea Family Funeral, Auntie Mame, and Dr. Strangelove?
 OFFER ( movie_name = "Green Book") & There's 1 available you might like. How does Green Book sound?
 OFFER ( movie_name = "Green Book") & There's 1 available you might like. How does Green Book sound?
-OFFER ( movie_name = "Green Book") & There's 1 available you might like. How does Green Book sound?INFORM_COUNT ( count = "1") & There's 1 available you might like. How does Green Book sound?
+OFFER ( movie_name = "Green Book") @ INFORM_COUNT ( count = "1") & There's 1 available you might like  How does Green Book sound
 CONFIRM ( movie_name = "Green Book" ; subtitle_language = "English") & Just to make sure, you want to watch Green Book with English subtitles.
 INFORM ( director = "Peter Farrelly" ; price = "$5") & Your $5 movie directed by Peter Farrelly has been ordered with an expiration after 3 days.
 INFORM ( director = "Peter Farrelly" ; price = "$5") & Your $5 movie directed by Peter Farrelly has been ordered with an expiration after 3 days.
@@ -1123,12 +1123,12 @@ OFFER ( title = "Stage Door") & What about Stage Door?
 CONFIRM ( title = "Stage door" ; subtitle_language = "French") & Please review the details and confirm it . Playing Stage door with subtitles in French.
 OFFER ( title = "A Faithful Man") & I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light.
 OFFER ( title = "A Faithful Man") & I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light.
-OFFER ( title = "A Faithful Man") & I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light.INFORM_COUNT ( count = "10") & I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light.
+OFFER ( title = "A Faithful Man") @ INFORM_COUNT ( count = "10") & I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light
 CONFIRM ( title = "After The Wedding" ; subtitle_language = "English") & Please confirm, playing After The Wedding with English subtitles.
 OFFER ( title = "Ad Astra") & Would you like Ad Astra or Close Encounters of the Third Kind?
 OFFER ( title = "Chhichhore") & I found 1 it's called Chhichhore.
 OFFER ( title = "Chhichhore") & I found 1 it's called Chhichhore.
-OFFER ( title = "Chhichhore") & I found 1 it's called Chhichhore.INFORM_COUNT ( count = "1") & I found 1 it's called Chhichhore.
+OFFER ( title = "Chhichhore") @ INFORM_COUNT ( count = "1") & I found 1 it's called Chhichhore
 CONFIRM ( title = "Chhichhore" ; subtitle_language = "English") & To confirm: You would like to see Chhichhore with English subtitles.
 CONFIRM ( title = "Chhichhore" ; subtitle_language = "French") & Okay, you would like to see Chhichhore with French subtitles.
 OFFER ( title = "Chhichhore") & How about My Big Fat Greek Wedding, Chhichhore or Good Boys, which are all funny movies?
@@ -1143,29 +1143,31 @@ CONFIRM ( title = "Echo In The Canyon" ; subtitle_language = "French") & Please 
 CONFIRM ( title = "Echo In The Canyon" ; subtitle_language = "Spanish") & Please confirm the following details: playing Echo In The Canyon with subtitles in Spanish.
 OFFER ( title = "Stage Door") & There's 1 movie that matches. How about Stage Door?
 OFFER ( title = "Stage Door") & There's 1 movie that matches. How about Stage Door?
-OFFER ( title = "Stage Door") & There's 1 movie that matches. How about Stage Door?INFORM_COUNT ( count = "1") & There's 1 movie that matches. How about Stage Door?
+OFFER ( title = "Stage Door") @ INFORM_COUNT ( count = "1") & There's 1 movie that matches  How about Stage Door
 CONFIRM ( title = "Stage Door" ; subtitle_language = "English") & I'll play Stage Door with English subtitles, is that correct?
 OFFER ( title = "Labyrinth") & Yes, What is your interest to watch a movies like Labyrinth or The Lord of the Rings: The Return of the King?
 CONFIRM ( title = "Labyrinth" ; subtitle_language = "English") & Yes, I need your final confirmation to play Labyrinth with subtitles in English language.
 OFFER ( title = "The Art of Self-Defense") & I found 1 movie you might like. How about The Art of Self-Defense?
 OFFER ( title = "The Art of Self-Defense") & I found 1 movie you might like. How about The Art of Self-Defense?
-OFFER ( title = "The Art of Self-Defense") & I found 1 movie you might like. How about The Art of Self-Defense?INFORM_COUNT ( count = "1") & I found 1 movie you might like. How about The Art of Self-Defense?
+OFFER ( title = "The Art of Self-Defense") @ INFORM_COUNT ( count = "1") & I found 1 movie you might like  How about The Art of Self-Defense
 CONFIRM ( title = "The Art of Self-Defense" ; subtitle_language = "English") & Okay, I'm playing The Art of Self-Defense with English subtitles, correct?
 CONFIRM ( title = "The Art of Self-Defense" ; subtitle_language = "Hindi") & Okay, playing The Art of Self-Defense with Hindi subtitles, correct?
 OFFER ( title = "The Lord of the Rings: The Return of the King") & Would you like to watch The Lord of the Rings: The Return of the King?
 OFFER ( title = "Labyrinth") & I found 1 movie. Would you like to watch Labyrinth?
 OFFER ( title = "Labyrinth") & I found 1 movie. Would you like to watch Labyrinth?
-OFFER ( title = "Labyrinth") & I found 1 movie. Would you like to watch Labyrinth?INFORM_COUNT ( count = "1") & I found 1 movie. Would you like to watch Labyrinth?
+OFFER ( title = "Labyrinth") @ INFORM_COUNT ( count = "1") & I found 1 movie  Would you like to watch Labyrinth
 CONFIRM ( title = "Labyrinth" ; subtitle_language = "French") & To confirm: You would like me to play Labyrinth with French subtitles.
 OFFER ( title = "Echo in the Canyon") & Well, there is Echo in the Canyon for one.
 CONFIRM ( title = "Echo in the Canyon" ; subtitle_language = "Spanish") & Sure, to confirm: play Echo in the Canyon with spanish subtitles?
 OFFER ( title = "a faithful man") & I can tell you 10 titles. How do you feel about a faithful man, after the wedding or blinded by the light?
 OFFER ( title = "a faithful man") & I can tell you 10 titles. How do you feel about a faithful man, after the wedding or blinded by the light?
-OFFER ( title = "a faithful man") & I can tell you 10 titles. How do you feel about a faithful man, after the wedding or blinded by the light?INFORM_COUNT ( count = "10") & I can tell you 10 titles. How do you feel about a faithful man, after the wedding or blinded by the light?
+OFFER ( title = "a faithful man") @ INFORM_COUNT ( count = "10") & I can tell you 10 titles  How do you feel about a faithful man, after the wedding or blinded by the light
 CONFIRM ( title = "a faithful man" ; subtitle_language = "English") & confirm me the data I've acquired. You want to watch the movie a faithful man with english subtitles.
 INFORM ( starring = "bakary sangare") & The movie is playing. There's bakary sangare in it.
 INFORM ( starring = "bakary sangare") & The movie is playing. There's bakary sangare in it.
 OFFER ( title = "Steel Magnolias") & I've found 1 movie you might like. How about Steel Magnolias?
 OFFER ( title = "Steel Magnolias") & I've found 1 movie you might like. How about Steel Magnolias?
-OFFER ( title = "Steel Magnolias") & I've found 1 movie you might like. How about Steel Magnolias?INFORM_COUNT ( count = "1") & I've found 1 movie you might like. How about Steel Magnolias?
+OFFER ( title = "Steel Magnolias") @ INFORM_COUNT ( count = "1") & I've found 1 movie you might like  How about Steel Magnolias
 CONFIRM ( title = "Steel Magnolias" ; subtitle_language = "English") & Please confirm: play Steel Magnolias with subtitles on English.
+
+

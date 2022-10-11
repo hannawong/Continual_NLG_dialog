@@ -90,7 +90,7 @@ OFFER ( balance = "$12,824.59" ; account_type = "checking") & Your current balan
 CONFIRM ( account_type = "checking" ; amount = "$820" ; recipient_account_name = "Abhinav" ; recipient_account_type = "checking") & Please confirm that you want to transfer $820 from your checking account to Abhinav's checking account.
 OFFER ( balance = "$1,696.61" ; account_type = "checking") & The balance in your 1 checking account is $1,696.61.
 OFFER ( balance = "$1,696.61" ; account_type = "checking") & The balance in your 1 checking account is $1,696.61.
-OFFER ( balance = "$1,696.61" ; account_type = "checking") & The balance in your 1 checking account is $1,696.61.INFORM_COUNT ( count = "1") & The balance in your 1 checking account is $1,696.61.
+OFFER ( balance = "$1,696.61" ; account_type = "checking") @ INFORM_COUNT ( count = "1") & The balance in your 1 checking account is $1,696 61
 CONFIRM ( account_type = "savings" ; amount = "$820" ; recipient_account_name = "Abhinav" ; recipient_account_type = "checking") & Kindly ensure that, $820 has been transferred from savings account to Abhinav's checking account.
 OFFER ( balance = "$7,489.74" ; account_type = "checking") & Your checking account balance is $7,489.74.
 CONFIRM ( account_type = "checking" ; amount = "$240" ; recipient_account_name = "Sanuj" ; recipient_account_type = "checking") & We are almost done. Please confirm that the following is correct: Transfer $240 from my checking account to Sanuj's checking account.
@@ -138,3 +138,5 @@ INFORM ( transfer_time = "3") & The transfer has been initiated and it should be
 INFORM ( transfer_time = "3") & The transfer has been initiated and it should be complete within 3 business days.
 OFFER ( account_type = "checking" ; account_balance = "$23,362.72") & OK, I have $23,362.72 in your checking.
 CONFIRM ( account_type = "checking" ; transfer_amount = "$550" ; recipient_name = "Philip" ; recipient_account_type = "checking") & Got it: Transfer $550 from your checking to Philip checking account, right?
+
+

@@ -6,3 +6,5 @@ CONFIRM ( payment_method = "credit card" ; amount = "$93" ; receiver = "Mary" ; 
 CONFIRM ( receiver = "Diego" ; amount = "$108" ; private_visibility = "False") & Please confirm: requesting payment from Diego for $108. This transaction is visible to the public.
 CONFIRM ( receiver = "Diego" ; private_visibility = "True") & Please confirm: requesting a private transaction from Diego.
 CONFIRM ( payment_method = "credit card" ; amount = "$105" ; receiver = "Mary" ; private_visibility = "False") & Please confirm: Sending $105 to Mary from your credit card. This transaction is public.
+
+

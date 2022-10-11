@@ -48,3 +48,5 @@ inform ( day = friday ; leaveat = 5:36 ) @ book ( none = none ) &  of course . t
 inform ( price = 17.60 pounds ) @ book ( none = none ) @ request ( people = ? ) &  yes ! the price is 17.60 pounds . how many tickets would you like to book ?
 request ( day = ? ; leaveat = ? ) &  what day and time would you like to travel ?
 inform ( day = tuesday ; leaveat = 05:17 ; departure = london kings cross ) &  yes i have a train leaving on tuesday at 05:17 from london kings cross .
+
+

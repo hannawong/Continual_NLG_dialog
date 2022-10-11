@@ -391,3 +391,5 @@ taxi_inform ( phone = "07406139758" ; type = "grey volvo") & You are booked with
 taxi_inform ( phone = "07099074893" ; type = "white Tesla") & I have booked you a white Tesla. The contact number is 07099074893. Can I help you with anything else today?
 taxi_inform ( phone = "07622282042" ; type = "white toyota") & Booking completed! Booked car type : white toyota Contact number : 07622282042
 taxi_inform ( arriveby = "20:15" ; departure = "Lan Hong House" ; destination = "Great Saint Mary's Church" ; phone = "07224360909" ; type = "yellow BMW") & A yellow BMW will pick you up at Lan Hong House for arrival at Great Saint Mary's Church by 20:15. Their Contact number is 07224360909. Is there anything further today?
+
+

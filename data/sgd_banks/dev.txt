@@ -66,3 +66,5 @@ OFFER ( account_type = "checking" ; account_balance = "$11,130.35") & Alright, y
 CONFIRM ( account_type = "checking" ; transfer_amount = "$1,360" ; recipient_name = "Grace" ; recipient_account_type = "checking") & Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account?
 INFORM ( transfer_time = "1") & A transfer will take 1 business day, I've put that through for you.
 INFORM ( transfer_time = "1") & A transfer will take 1 business day, I've put that through for you.
+
+

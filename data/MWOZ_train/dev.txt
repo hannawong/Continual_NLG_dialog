@@ -57,3 +57,5 @@ train_inform ( arriveby = "17:06" ; departure = "Cambridge" ; destination = "Lei
 train_inform ( duration = "105 minutes" ; price = "37.80 pounds") & Price is 37.80 pounds and travel time is 105 minutes.
 train_inform ( choice = "19") & There are 19 trains do you have a time you'd like to travel?
 train_inform ( arriveby = "12:06" ; choice = "one" ; departure = "Cambridge" ; destination = "Leicester" ; leaveat = "10:21") & I have one leaving Cambridge at 10:21 and arriving in Leicester at 12:06. Would you like to book tickets?
+
+

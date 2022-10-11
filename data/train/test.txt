@@ -655,3 +655,5 @@ inform ( price = 18.88 pounds ; leaveat = 05:00 ; departure = london kings cross
 select ( day = friday ) @ sorry ( destination = cambridge ; day = saturday ; departure = ely ) &  could you leave on friday ? there are no trains available on saturday from ely to cambridge .
 book ( arriveby = 07:27 ; price = 13.28 pounds ; day = saturday ; leaveat = 05:59 ) &  you are all booked for saturday . the train departs at 05:59 and arrives at 07:27. the price is 13.28 pounds .
 request ( departure = ? ; day = ? ; leaveat = ? ; people = ? ) &  ok , i will need a little more information from you . how many tickets , for when and where are you departing from please .
+
+

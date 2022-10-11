@@ -6,7 +6,7 @@ OFFER ( event_name = "Westside Gunn concert" ; event_time = "7:30 pm") & You hav
 OFFER ( event_date = "next Wednesday" ; available_start_time = "9:30 pm" ; available_end_time = "midnight") & You have time available next Wednesday between 9:30 pm and midnight.
 OFFER ( event_name = "Doctor appointment" ; event_time = "11 am") & There are 3 events scheduled for you. The first one is Doctor appointment at 11 am.
 OFFER ( event_name = "Doctor appointment" ; event_time = "11 am") & There are 3 events scheduled for you. The first one is Doctor appointment at 11 am.
-OFFER ( event_name = "Doctor appointment" ; event_time = "11 am") & There are 3 events scheduled for you. The first one is Doctor appointment at 11 am.INFORM_COUNT ( count = "3") & There are 3 events scheduled for you. The first one is Doctor appointment at 11 am.
+OFFER ( event_name = "Doctor appointment" ; event_time = "11 am") @ INFORM_COUNT ( count = "3") & There are 3 events scheduled for you  The first one is Doctor appointment at 11 am
 OFFER ( event_name = "Baseball game" ; event_time = "5 pm") & You have a Baseball game at 5 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "4 pm") & You are free from 8 am to 4 pm.
 OFFER ( event_name = "movie at The New Parkway Theater" ; event_time = "10:30 pm") & On that day, you will be watching a 10:30 pm showing of a movie at The New Parkway Theater.
@@ -19,7 +19,7 @@ OFFER ( event_name = "movie show" ; event_time = "7 pm") & Okay, you have an eve
 OFFER ( event_name = "reservation for 6 people at Rocker Oysterfeller's" ; event_time = "11:30 am") & Yes, you have a reservation for 6 people at Rocker Oysterfeller's for 11:30 am.
 OFFER ( event_name = "Joe Hisaishi concert" ; event_time = "7:30 pm") & Yes, there are 2 scheduled events. There is a Joe Hisaishi concert that starts at 7:30 pm.
 OFFER ( event_name = "Joe Hisaishi concert" ; event_time = "7:30 pm") & Yes, there are 2 scheduled events. There is a Joe Hisaishi concert that starts at 7:30 pm.
-OFFER ( event_name = "Joe Hisaishi concert" ; event_time = "7:30 pm") & Yes, there are 2 scheduled events. There is a Joe Hisaishi concert that starts at 7:30 pm.INFORM_COUNT ( count = "2") & Yes, there are 2 scheduled events. There is a Joe Hisaishi concert that starts at 7:30 pm.
+OFFER ( event_name = "Joe Hisaishi concert" ; event_time = "7:30 pm") @ INFORM_COUNT ( count = "2") & Yes, there are 2 scheduled events  There is a Joe Hisaishi concert that starts at 7:30 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "7:30 pm") & There is an empty slot from 8 am to 7:30 pm.
 OFFER ( event_name = "baseball game: Diamondbacks Vs Rockies" ; event_time = "7:30 pm") & You have an event baseball game: Diamondbacks Vs Rockies at 7:30 pm.
 OFFER ( event_name = "movie at AMC Mercado 20" ; event_time = "10:30 pm") & You have a movie at AMC Mercado 20 at 10:30 pm.
@@ -39,12 +39,12 @@ OFFER ( event_name = "Dermatologist appointment with Karls Michael S" ; event_ti
 OFFER ( event_name = "restaurant reservation for 4 at Betty Spaghetti" ; event_time = "11:30 am") & You have a restaurant reservation for 4 at Betty Spaghetti starting at 11:30 am.
 OFFER ( event_date = "March 12th" ; available_start_time = "1 pm" ; available_end_time = "10:30 pm") & There is 1 empty slot in your calendar for March 12th from 1 pm to 10:30 pm.
 OFFER ( event_date = "March 12th" ; available_start_time = "1 pm" ; available_end_time = "10:30 pm") & There is 1 empty slot in your calendar for March 12th from 1 pm to 10:30 pm.
-OFFER ( event_date = "March 12th" ; available_start_time = "1 pm" ; available_end_time = "10:30 pm") & There is 1 empty slot in your calendar for March 12th from 1 pm to 10:30 pm.INFORM_COUNT ( count = "1") & There is 1 empty slot in your calendar for March 12th from 1 pm to 10:30 pm.
+OFFER ( event_date = "March 12th" ; available_start_time = "1 pm" ; available_end_time = "10:30 pm") @ INFORM_COUNT ( count = "1") & There is 1 empty slot in your calendar for March 12th from 1 pm to 10:30 pm
 OFFER ( event_name = "Table for 2 at Caputo" ; event_time = "7 pm") & This Saturday Table for 2 at Caputo is scheduled at 7 pm
 OFFER ( event_name = "Baseball game" ; event_time = "6 pm") & At 6 pm there is a Baseball game scheduled.
 OFFER ( event_date = "March 12th" ; available_start_time = "8 am" ; available_end_time = "12 pm") & March 12th there is 1 space from 8 am to 12 pm.
 OFFER ( event_date = "March 12th" ; available_start_time = "8 am" ; available_end_time = "12 pm") & March 12th there is 1 space from 8 am to 12 pm.
-OFFER ( event_date = "March 12th" ; available_start_time = "8 am" ; available_end_time = "12 pm") & March 12th there is 1 space from 8 am to 12 pm.INFORM_COUNT ( count = "1") & March 12th there is 1 space from 8 am to 12 pm.
+OFFER ( event_date = "March 12th" ; available_start_time = "8 am" ; available_end_time = "12 pm") @ INFORM_COUNT ( count = "1") & March 12th there is 1 space from 8 am to 12 pm
 OFFER ( event_name = "movie show" ; event_time = "11 pm") & You have a movie show beginning at 11 pm on that day.
 OFFER ( event_name = "Stylist appointment at Lotte Beauty Salon" ; event_time = "5 pm") & You have a Stylist appointment at Lotte Beauty Salon at 5 pm on that day.
 OFFER ( event_date = "tomorrow" ; available_start_time = "8 am" ; available_end_time = "5 pm") & It looks like tomorrow you are free from 8 am until 5 pm.
@@ -52,7 +52,7 @@ OFFER ( event_name = "Dermatologist appointment with Greenbrae Dermatology, cher
 OFFER ( event_name = "Juliana Hatfield concert" ; event_time = "5 pm") & Yes there is one at 5 pm at Juliana Hatfield concert
 OFFER ( available_start_time = "8 am" ; available_end_time = "11:30 am") & You are available on 3 slots, one from 8 am to 11:30 am
 OFFER ( available_start_time = "8 am" ; available_end_time = "11:30 am") & You are available on 3 slots, one from 8 am to 11:30 am
-OFFER ( available_start_time = "8 am" ; available_end_time = "11:30 am") & You are available on 3 slots, one from 8 am to 11:30 amINFORM_COUNT ( count = "3") & You are available on 3 slots, one from 8 am to 11:30 am
+OFFER ( available_start_time = "8 am" ; available_end_time = "11:30 am") @ You are available on 3 slots, one from 8 am to 11:30 amINFORM_COUNT ( count = "3") & 
 OFFER ( event_name = "Property viewing" ; event_time = "12 pm") & Your calendar has a Property viewing event that starts at 12 pm.
 OFFER ( event_name = "Reservation for 2 people at Acquolina" ; event_time = "6 pm") & You also have a Reservation for 2 people at Acquolina at 6 pm.
 OFFER ( event_date = "March 10th" ; available_start_time = "12 pm" ; available_end_time = "6 pm") & For March 10th, you have empty slots from 12 pm to 6 pm.
@@ -61,7 +61,7 @@ OFFER ( event_name = "Movie show" ; event_time = "7 pm") & You have Movie show s
 OFFER ( event_name = "Dermatologist appointment with Bernard Recht, Ph.D., M.D." ; event_time = "10:30 am") & You have a Dermatologist appointment with Bernard Recht, Ph.D., M.D. at 10:30 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & There is 3 empty slots on your calendar from 8 am to 10:30 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & There is 3 empty slots on your calendar from 8 am to 10:30 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & There is 3 empty slots on your calendar from 8 am to 10:30 am.INFORM_COUNT ( count = "3") & There is 3 empty slots on your calendar from 8 am to 10:30 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") @ INFORM_COUNT ( count = "3") & There is 3 empty slots on your calendar from 8 am to 10:30 am
 OFFER ( event_name = "Appointment with Darnell Jr Robert" ; event_time = "12:30 pm") & You have an Appointment with Darnell Jr Robert at 12:30 pm.
 OFFER ( event_date = "next Wednesday" ; available_start_time = "1:30 pm" ; available_end_time = "midnight") & Your appointment is next Wednesday, but you have an empty slot from 1:30 pm to midnight.
 OFFER ( event_name = "Restaurant reservation for 3 at Nick's Rockaway" ; event_time = "11 am") & I can see that you have a Restaurant reservation for 3 at Nick's Rockaway at 11 am on that day.
@@ -80,20 +80,20 @@ OFFER ( event_name = "Movie show" ; event_time = "8:30 pm") & I see: Movie show 
 OFFER ( event_name = "stylist appointment" ; event_time = "10 am") & You'll go to a stylist appointment. It is at 10 am.
 OFFER ( event_date = "March 9th" ; available_start_time = "10:30 am" ; available_end_time = "7:30 pm") & You have 1 empty slot. It's a long one from 10:30 am. until 7:30 pm. This is for March 9th.
 OFFER ( event_date = "March 9th" ; available_start_time = "10:30 am" ; available_end_time = "7:30 pm") & You have 1 empty slot. It's a long one from 10:30 am. until 7:30 pm. This is for March 9th.
-OFFER ( event_date = "March 9th" ; available_start_time = "10:30 am" ; available_end_time = "7:30 pm") & You have 1 empty slot. It's a long one from 10:30 am. until 7:30 pm. This is for March 9th.INFORM_COUNT ( count = "1") & You have 1 empty slot. It's a long one from 10:30 am. until 7:30 pm. This is for March 9th.
+OFFER ( event_date = "March 9th" ; available_start_time = "10:30 am" ; available_end_time = "7:30 pm") @ INFORM_COUNT ( count = "1") & You have 1 empty slot  It's a long one from 10:30 am  until 7:30 pm  This is for March 9th
 OFFER ( event_name = "Movie booking for Shazam!" ; event_time = "4 pm") & You have a Movie booking for Shazam! starting at 4 pm.
 OFFER ( event_date = "tomorrow" ; available_start_time = "3 pm" ; available_end_time = "4 pm") & You have an empty slot tomorrow from 3 pm to 4 pm.
 OFFER ( event_name = "Movie booking for Hotel Mumbai" ; event_time = "9 pm") & You have a Movie booking for Hotel Mumbai at 9 pm.
 OFFER ( event_name = "Baseball game" ; event_time = "7 pm") & You have 1 Baseball game starting at 7 pm.
 OFFER ( event_name = "Baseball game" ; event_time = "7 pm") & You have 1 Baseball game starting at 7 pm.
-OFFER ( event_name = "Baseball game" ; event_time = "7 pm") & You have 1 Baseball game starting at 7 pm.INFORM_COUNT ( count = "1") & You have 1 Baseball game starting at 7 pm.
+OFFER ( event_name = "Baseball game" ; event_time = "7 pm") @ INFORM_COUNT ( count = "1") & You have 1 Baseball game starting at 7 pm
 OFFER ( event_date = "March 14th" ; available_start_time = "4 pm" ; available_end_time = "7 pm") & You have an empty slot from 4 pm to 7 pm on March 14th.
 OFFER ( event_name = "Movie at Contra Costa Stadium Cinemas" ; event_time = "10 pm") & You have 2 events scheduled on that day. One of them is a Movie at Contra Costa Stadium Cinemas at 10 pm.
 OFFER ( event_name = "Movie at Contra Costa Stadium Cinemas" ; event_time = "10 pm") & You have 2 events scheduled on that day. One of them is a Movie at Contra Costa Stadium Cinemas at 10 pm.
-OFFER ( event_name = "Movie at Contra Costa Stadium Cinemas" ; event_time = "10 pm") & You have 2 events scheduled on that day. One of them is a Movie at Contra Costa Stadium Cinemas at 10 pm.INFORM_COUNT ( count = "2") & You have 2 events scheduled on that day. One of them is a Movie at Contra Costa Stadium Cinemas at 10 pm.
+OFFER ( event_name = "Movie at Contra Costa Stadium Cinemas" ; event_time = "10 pm") @ INFORM_COUNT ( count = "2") & You have 2 events scheduled on that day  One of them is a Movie at Contra Costa Stadium Cinemas at 10 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & You have 2 open slots available, one of them is from 8 am to 10:30 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & You have 2 open slots available, one of them is from 8 am to 10:30 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & You have 2 open slots available, one of them is from 8 am to 10:30 am.INFORM_COUNT ( count = "2") & You have 2 open slots available, one of them is from 8 am to 10:30 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") @ INFORM_COUNT ( count = "2") & You have 2 open slots available, one of them is from 8 am to 10:30 am
 OFFER ( available_start_time = "11 am" ; available_end_time = "10 pm") & Yes, from 11 am to 10 pm.
 OFFER ( event_name = "Restaurant reservation at Venticellos Ristorante Italiano" ; event_time = "12:30 pm") & On March 3rd, you have scheduled a Restaurant reservation at Venticellos Ristorante Italiano at 12:30 pm.
 OFFER ( event_name = "Appointment with Dr Ashmita Shetty" ; event_time = "10 am") & Concerning the 10th of this month, there is an Appointment with Dr Ashmita Shetty at 10 am.
@@ -104,38 +104,38 @@ OFFER ( event_name = "Movie show" ; event_time = "10:30 pm") & You have a Movie 
 OFFER ( available_start_time = "8 am" ; available_end_time = "7:30 pm") & You're free from 8 am to 7:30 pm.
 OFFER ( event_name = "Dentist Appointment" ; event_time = "10 am") & ok ive found 3 events on calendar-includes Dentist Appointment which is booked for a 10 am start
 OFFER ( event_name = "Dentist Appointment" ; event_time = "10 am") & ok ive found 3 events on calendar-includes Dentist Appointment which is booked for a 10 am start
-OFFER ( event_name = "Dentist Appointment" ; event_time = "10 am") & ok ive found 3 events on calendar-includes Dentist Appointment which is booked for a 10 am startINFORM_COUNT ( count = "3") & ok ive found 3 events on calendar-includes Dentist Appointment which is booked for a 10 am start
+OFFER ( event_name = "Dentist Appointment" ; event_time = "10 am") @ ok ive found 3 events on calendar-includes Dentist Appointment which is booked for a 10 am startINFORM_COUNT ( count = "3") & 
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & you are free from 8 am to 10 am how is that
 OFFER ( event_name = "Apartment viewing at Windsor Ridge" ; event_time = "12:30 pm") & There are 2 events scheduled on you calendar. Apartment viewing at Windsor Ridge for 12:30 pm.
 OFFER ( event_name = "Apartment viewing at Windsor Ridge" ; event_time = "12:30 pm") & There are 2 events scheduled on you calendar. Apartment viewing at Windsor Ridge for 12:30 pm.
-OFFER ( event_name = "Apartment viewing at Windsor Ridge" ; event_time = "12:30 pm") & There are 2 events scheduled on you calendar. Apartment viewing at Windsor Ridge for 12:30 pm.INFORM_COUNT ( count = "2") & There are 2 events scheduled on you calendar. Apartment viewing at Windsor Ridge for 12:30 pm.
+OFFER ( event_name = "Apartment viewing at Windsor Ridge" ; event_time = "12:30 pm") @ INFORM_COUNT ( count = "2") & There are 2 events scheduled on you calendar  Apartment viewing at Windsor Ridge for 12:30 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") & There's a slot open from 8 am to 12:30 pm.
 OFFER ( available_start_time = "1 pm" ; available_end_time = "5 pm") & 1 pm to 5 pm are available.
 OFFER ( available_start_time = "6:30 pm" ; available_end_time = "12 pm") & You are available 6:30 pm to 12 pm.
 OFFER ( event_name = "Appointment at Great Clips" ; event_time = "3 pm") & Friday next week, you have an Appointment at Great Clips at 3 pm.
 OFFER ( event_name = "Hairdresser appointment" ; event_time = "3 pm") & You have 3 events scheduled that day, including a Hairdresser appointment at 3 pm.
 OFFER ( event_name = "Hairdresser appointment" ; event_time = "3 pm") & You have 3 events scheduled that day, including a Hairdresser appointment at 3 pm.
-OFFER ( event_name = "Hairdresser appointment" ; event_time = "3 pm") & You have 3 events scheduled that day, including a Hairdresser appointment at 3 pm.INFORM_COUNT ( count = "3") & You have 3 events scheduled that day, including a Hairdresser appointment at 3 pm.
+OFFER ( event_name = "Hairdresser appointment" ; event_time = "3 pm") @ INFORM_COUNT ( count = "3") & You have 3 events scheduled that day, including a Hairdresser appointment at 3 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "3 pm") & You are available from 8 am to 3 pm.
 OFFER ( event_name = "Soccer Game: Sounders Vs United" ; event_time = "7 pm") & There is 1 event scheduled on that date. It is the Soccer Game: Sounders Vs United at 7 pm.
 OFFER ( event_name = "Soccer Game: Sounders Vs United" ; event_time = "7 pm") & There is 1 event scheduled on that date. It is the Soccer Game: Sounders Vs United at 7 pm.
-OFFER ( event_name = "Soccer Game: Sounders Vs United" ; event_time = "7 pm") & There is 1 event scheduled on that date. It is the Soccer Game: Sounders Vs United at 7 pm.INFORM_COUNT ( count = "1") & There is 1 event scheduled on that date. It is the Soccer Game: Sounders Vs United at 7 pm.
+OFFER ( event_name = "Soccer Game: Sounders Vs United" ; event_time = "7 pm") @ INFORM_COUNT ( count = "1") & There is 1 event scheduled on that date  It is the Soccer Game: Sounders Vs United at 7 pm
 OFFER ( event_date = "March 14th" ; available_start_time = "8 am" ; available_end_time = "6 pm") & On March 14th, you have available space from 8 am until 6 pm.
 OFFER ( event_name = "dentist appointment with Gerald E. Dixon Scott E. Dixon" ; event_time = "12 pm") & you have 3 events scheduled on that day. you have dentist appointment with Gerald E. Dixon Scott E. Dixon at 12 pm.
 OFFER ( event_name = "dentist appointment with Gerald E. Dixon Scott E. Dixon" ; event_time = "12 pm") & you have 3 events scheduled on that day. you have dentist appointment with Gerald E. Dixon Scott E. Dixon at 12 pm.
-OFFER ( event_name = "dentist appointment with Gerald E. Dixon Scott E. Dixon" ; event_time = "12 pm") & you have 3 events scheduled on that day. you have dentist appointment with Gerald E. Dixon Scott E. Dixon at 12 pm.INFORM_COUNT ( count = "3") & you have 3 events scheduled on that day. you have dentist appointment with Gerald E. Dixon Scott E. Dixon at 12 pm.
+OFFER ( event_name = "dentist appointment with Gerald E. Dixon Scott E. Dixon" ; event_time = "12 pm") @ INFORM_COUNT ( count = "3") & you have 3 events scheduled on that day  you have dentist appointment with Gerald E  Dixon Scott E  Dixon at 12 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & there are 4 empty slots from 8 am to 12 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & there are 4 empty slots from 8 am to 12 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & there are 4 empty slots from 8 am to 12 pm.INFORM_COUNT ( count = "4") & there are 4 empty slots from 8 am to 12 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") @ INFORM_COUNT ( count = "4") & there are 4 empty slots from 8 am to 12 pm
 OFFER ( available_start_time = "1 pm" ; available_end_time = "5:30 pm") & you have a another empty slot from 1 pm to 5:30 pm.
 OFFER ( available_start_time = "6 pm" ; available_end_time = "6:30 pm") & you have a another empty slot from 6 pm to 6:30 pm.
 OFFER ( event_name = "Table for 5 at Mcdonald's" ; event_time = "11:30 am") & There's 1 events on the calendar: a Table for 5 at Mcdonald's at 11:30 am
 OFFER ( event_name = "Table for 5 at Mcdonald's" ; event_time = "11:30 am") & There's 1 events on the calendar: a Table for 5 at Mcdonald's at 11:30 am
-OFFER ( event_name = "Table for 5 at Mcdonald's" ; event_time = "11:30 am") & There's 1 events on the calendar: a Table for 5 at Mcdonald's at 11:30 amINFORM_COUNT ( count = "1") & There's 1 events on the calendar: a Table for 5 at Mcdonald's at 11:30 am
+OFFER ( event_name = "Table for 5 at Mcdonald's" ; event_time = "11:30 am") @ There's 1 events on the calendar: a Table for 5 at Mcdonald's at 11:30 amINFORM_COUNT ( count = "1") & 
 OFFER ( event_date = "Next Wednesday" ; available_start_time = "1 pm" ; available_end_time = "10:30 pm") & Next Wednesday you have an empty slot starting 1 pm and ending at 10:30 pm
 OFFER ( event_name = "stylist appointment" ; event_time = "10 am") & You have 1 stylist appointment at 10 am scheduled for that date on the calendar.
 OFFER ( event_name = "stylist appointment" ; event_time = "10 am") & You have 1 stylist appointment at 10 am scheduled for that date on the calendar.
-OFFER ( event_name = "stylist appointment" ; event_time = "10 am") & You have 1 stylist appointment at 10 am scheduled for that date on the calendar.INFORM_COUNT ( count = "1") & You have 1 stylist appointment at 10 am scheduled for that date on the calendar.
+OFFER ( event_name = "stylist appointment" ; event_time = "10 am") @ INFORM_COUNT ( count = "1") & You have 1 stylist appointment at 10 am scheduled for that date on the calendar
 OFFER ( event_date = "next friday" ; available_start_time = "8 am" ; available_end_time = "10 am") & You have an empty slot from 8 am to 10 am next friday.
 OFFER ( event_name = "dentist appointment with Dr. Prakash Advani" ; event_time = "1:30 pm") & Yes, you have the dentist appointment with Dr. Prakash Advani at 1:30 pm.
 OFFER ( event_name = "movie at the new Parkway Theater" ; event_time = "10:30 pm") & Don't forget that you're watching a movie at the new Parkway Theater at 10:30 pm.
@@ -144,38 +144,38 @@ OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") & Yes, 
 OFFER ( event_name = "Movie at Century Vallejo 14" ; event_time = "10:30 pm") & You're going to a Movie at Century Vallejo 14 at 10:30 pm.
 OFFER ( event_date = "day after tomorrow" ; available_start_time = "8 am" ; available_end_time = "7:30 pm") & You have 1 empty slot the day after tomorrow from 8 am to 7:30 pm.
 OFFER ( event_date = "day after tomorrow" ; available_start_time = "8 am" ; available_end_time = "7:30 pm") & You have 1 empty slot the day after tomorrow from 8 am to 7:30 pm.
-OFFER ( event_date = "day after tomorrow" ; available_start_time = "8 am" ; available_end_time = "7:30 pm") & You have 1 empty slot the day after tomorrow from 8 am to 7:30 pm.INFORM_COUNT ( count = "1") & You have 1 empty slot the day after tomorrow from 8 am to 7:30 pm.
+OFFER ( event_date = "day after tomorrow" ; available_start_time = "8 am" ; available_end_time = "7:30 pm") @ INFORM_COUNT ( count = "1") & You have 1 empty slot the day after tomorrow from 8 am to 7:30 pm
 OFFER ( event_name = "Jason Isbell concert" ; event_time = "5:30 pm") & For that date, you have the Jason Isbell concert at 5:30 pm.
 OFFER ( event_name = "doctor appointment" ; event_time = "2:30 pm") & On March 9th you have a doctor appointment at 2:30 pm.
 OFFER ( event_date = "March 9th" ; available_start_time = "5:30 pm" ; available_end_time = "10 pm") & For March 9th, you have 1 empty slot at 5:30 pm until 10 pm.
 OFFER ( event_date = "March 9th" ; available_start_time = "5:30 pm" ; available_end_time = "10 pm") & For March 9th, you have 1 empty slot at 5:30 pm until 10 pm.
-OFFER ( event_date = "March 9th" ; available_start_time = "5:30 pm" ; available_end_time = "10 pm") & For March 9th, you have 1 empty slot at 5:30 pm until 10 pm.INFORM_COUNT ( count = "1") & For March 9th, you have 1 empty slot at 5:30 pm until 10 pm.
+OFFER ( event_date = "March 9th" ; available_start_time = "5:30 pm" ; available_end_time = "10 pm") @ INFORM_COUNT ( count = "1") & For March 9th, you have 1 empty slot at 5:30 pm until 10 pm
 OFFER ( event_name = "Damien Jurado concert" ; event_time = "6 pm") & You have a Damien Jurado concert. The event is going to start at 6 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "6 pm") & There are 2 empty slots on your calendar. The nearest one is 8 am to 6 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "6 pm") & There are 2 empty slots on your calendar. The nearest one is 8 am to 6 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "6 pm") & There are 2 empty slots on your calendar. The nearest one is 8 am to 6 pm.INFORM_COUNT ( count = "2") & There are 2 empty slots on your calendar. The nearest one is 8 am to 6 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "6 pm") @ INFORM_COUNT ( count = "2") & There are 2 empty slots on your calendar  The nearest one is 8 am to 6 pm
 OFFER ( event_name = "movie show" ; event_time = "10 pm") & You have a movie show at 10 pm.
 OFFER ( event_date = "tomorrow" ; available_start_time = "8 am" ; available_end_time = "12 pm") & There's 1 empty slot on your calendar tomorrow starting at 8 am and ending at 12 pm.
 OFFER ( event_date = "tomorrow" ; available_start_time = "8 am" ; available_end_time = "12 pm") & There's 1 empty slot on your calendar tomorrow starting at 8 am and ending at 12 pm.
-OFFER ( event_date = "tomorrow" ; available_start_time = "8 am" ; available_end_time = "12 pm") & There's 1 empty slot on your calendar tomorrow starting at 8 am and ending at 12 pm.INFORM_COUNT ( count = "1") & There's 1 empty slot on your calendar tomorrow starting at 8 am and ending at 12 pm.
+OFFER ( event_date = "tomorrow" ; available_start_time = "8 am" ; available_end_time = "12 pm") @ INFORM_COUNT ( count = "1") & There's 1 empty slot on your calendar tomorrow starting at 8 am and ending at 12 pm
 OFFER ( event_name = "Vampire Weekend concert" ; event_time = "5 pm") & You have a Vampire Weekend concert to attend at 5 pm
 OFFER ( event_name = "Dentist appointment" ; event_time = "1:30 pm") & There is a Dentist appointment marked off for 1:30 pm
 OFFER ( event_date = "March 13th" ; available_start_time = "8 am" ; available_end_time = "1:30 pm") & You have an empty slot on March 13th from 8 am to 1:30 pm.
 OFFER ( event_name = "Movie at AMC Brentwood 14" ; event_time = "10 pm") & There is a Movie at AMC Brentwood 14. It is going to start at 10 pm.
 OFFER ( event_date = "March 12th" ; available_start_time = "8 am" ; available_end_time = "1:30 pm") & There is 1 free slot on your calendar on March 12th. It starts at 8 am and ends at 1:30 pm.
 OFFER ( event_date = "March 12th" ; available_start_time = "8 am" ; available_end_time = "1:30 pm") & There is 1 free slot on your calendar on March 12th. It starts at 8 am and ends at 1:30 pm.
-OFFER ( event_date = "March 12th" ; available_start_time = "8 am" ; available_end_time = "1:30 pm") & There is 1 free slot on your calendar on March 12th. It starts at 8 am and ends at 1:30 pm.INFORM_COUNT ( count = "1") & There is 1 free slot on your calendar on March 12th. It starts at 8 am and ends at 1:30 pm.
+OFFER ( event_date = "March 12th" ; available_start_time = "8 am" ; available_end_time = "1:30 pm") @ INFORM_COUNT ( count = "1") & There is 1 free slot on your calendar on March 12th  It starts at 8 am and ends at 1:30 pm
 OFFER ( event_name = "hairdresser appointment" ; event_time = "2 pm") & You have hairdresser appointment at 2 pm
 OFFER ( event_name = "dermatologist appointment" ; event_time = "2 pm") & You have dermatologist appointment at 2 pm
 OFFER ( event_date = "March 10th" ; available_start_time = "11 am" ; available_end_time = "2 pm") & You have 1 available time slot on March 10th from 11 am to 2 pm
 OFFER ( event_date = "March 10th" ; available_start_time = "11 am" ; available_end_time = "2 pm") & You have 1 available time slot on March 10th from 11 am to 2 pm
-OFFER ( event_date = "March 10th" ; available_start_time = "11 am" ; available_end_time = "2 pm") & You have 1 available time slot on March 10th from 11 am to 2 pmINFORM_COUNT ( count = "1") & You have 1 available time slot on March 10th from 11 am to 2 pm
+OFFER ( event_date = "March 10th" ; available_start_time = "11 am" ; available_end_time = "2 pm") @ You have 1 available time slot on March 10th from 11 am to 2 pmINFORM_COUNT ( count = "1") & 
 OFFER ( event_name = "Through The Roots concert" ; event_time = "6 pm") & There is a Through The Roots concert beginning at 6 pm on your calendar.
 OFFER ( event_name = "Baseball game" ; event_time = "7:30 pm") & There is a Baseball game that begins at 7:30 pm on that date.
 OFFER ( event_date = "next Wednesday" ; available_start_time = "8 am" ; available_end_time = "11:30 am") & The event is next Wednesday and you have available time from 8 am to 11:30 am.
 OFFER ( event_name = "Appointment at World Cuts" ; event_time = "3 pm") & There are 3 events scheduled on this date. You have an Appointment at World Cuts at 3 pm.
 OFFER ( event_name = "Appointment at World Cuts" ; event_time = "3 pm") & There are 3 events scheduled on this date. You have an Appointment at World Cuts at 3 pm.
-OFFER ( event_name = "Appointment at World Cuts" ; event_time = "3 pm") & There are 3 events scheduled on this date. You have an Appointment at World Cuts at 3 pm.INFORM_COUNT ( count = "3") & There are 3 events scheduled on this date. You have an Appointment at World Cuts at 3 pm.
+OFFER ( event_name = "Appointment at World Cuts" ; event_time = "3 pm") @ INFORM_COUNT ( count = "3") & There are 3 events scheduled on this date  You have an Appointment at World Cuts at 3 pm
 OFFER ( event_name = "Dentist appointment" ; event_time = "1 pm") & You have a Dentist appointment at 1 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "1 pm") & You have an open time from 8 am to 1 pm.
 OFFER ( available_start_time = "2 pm" ; available_end_time = "7:30 pm") & You're available from 2 pm to 7:30 pm.
@@ -183,16 +183,16 @@ OFFER ( event_name = "stylist appointment at Supercuts" ; event_time = "12 pm") 
 OFFER ( event_name = "soccer game: sounders vs timbers" ; event_time = "6:30 pm") & You have a soccer game: sounders vs timbers at 6:30 pm
 OFFER ( event_date = "today" ; available_start_time = "8 am" ; available_end_time = "5 pm") & You have 1 space available today from 5 pm - 8 am.
 OFFER ( event_date = "today" ; available_start_time = "8 am" ; available_end_time = "5 pm") & You have 1 space available today from 5 pm - 8 am.
-OFFER ( event_date = "today" ; available_start_time = "8 am" ; available_end_time = "5 pm") & You have 1 space available today from 5 pm - 8 am.INFORM_COUNT ( count = "1") & You have 1 space available today from 5 pm - 8 am.
+OFFER ( event_date = "today" ; available_start_time = "8 am" ; available_end_time = "5 pm") @ INFORM_COUNT ( count = "1") & You have 1 space available today from 5 pm - 8 am
 OFFER ( event_name = "Dentist appointment with Kini Ramanand , Kini Lata" ; event_time = "1 pm") & You have 3 events scheduled. You have a Dentist appointment with Kini Ramanand , Kini Lata starting at 1 pm.
 OFFER ( event_name = "Dentist appointment with Kini Ramanand , Kini Lata" ; event_time = "1 pm") & You have 3 events scheduled. You have a Dentist appointment with Kini Ramanand , Kini Lata starting at 1 pm.
-OFFER ( event_name = "Dentist appointment with Kini Ramanand , Kini Lata" ; event_time = "1 pm") & You have 3 events scheduled. You have a Dentist appointment with Kini Ramanand , Kini Lata starting at 1 pm.INFORM_COUNT ( count = "3") & You have 3 events scheduled. You have a Dentist appointment with Kini Ramanand , Kini Lata starting at 1 pm.
+OFFER ( event_name = "Dentist appointment with Kini Ramanand , Kini Lata" ; event_time = "1 pm") @ INFORM_COUNT ( count = "3") & You have 3 events scheduled  You have a Dentist appointment with Kini Ramanand , Kini Lata starting at 1 pm
 OFFER ( event_name = "General Practitioner appointment" ; event_time = "3 pm") & You also have a General Practitioner appointment that begins at 3 pm.
 OFFER ( event_name = "Stylist appointment at Redline Barbers" ; event_time = "6:30 pm") & You have a Stylist appointment at Redline Barbers. The appointment is set for 6:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "1 pm") & You have an empty slot from 8 am to 1 pm.
 OFFER ( event_name = "Apartment Viewing" ; event_time = "10 am") & On March 9th you have 3 scheduled events. The first is Apartment Viewing at 10 am.
 OFFER ( event_name = "Apartment Viewing" ; event_time = "10 am") & On March 9th you have 3 scheduled events. The first is Apartment Viewing at 10 am.
-OFFER ( event_name = "Apartment Viewing" ; event_time = "10 am") & On March 9th you have 3 scheduled events. The first is Apartment Viewing at 10 am.INFORM_COUNT ( count = "3") & On March 9th you have 3 scheduled events. The first is Apartment Viewing at 10 am.
+OFFER ( event_name = "Apartment Viewing" ; event_time = "10 am") @ INFORM_COUNT ( count = "3") & On March 9th you have 3 scheduled events  The first is Apartment Viewing at 10 am
 OFFER ( event_name = "Apartment viewing at Reed Square" ; event_time = "2 pm") & On March 13th you have 1 event. The event id Apartment viewing at Reed Square at 2 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "11:30 am") & You are free between 8 am and 11:30 am.
 OFFER ( available_start_time = "12:30 pm" ; available_end_time = "2 pm") & You are free fom 12:30 pm to 2 pm.
@@ -205,11 +205,11 @@ OFFER ( event_name = "Apartment viewing" ; event_time = "11 am") & You have an A
 OFFER ( event_name = "Dentist appointment" ; event_time = "12:30 pm") & You also have a Dentist appointment at 12:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & There are 4 empty slots on your calendar from 8 am through 11 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & There are 4 empty slots on your calendar from 8 am through 11 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & There are 4 empty slots on your calendar from 8 am through 11 am.INFORM_COUNT ( count = "4") & There are 4 empty slots on your calendar from 8 am through 11 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") @ INFORM_COUNT ( count = "4") & There are 4 empty slots on your calendar from 8 am through 11 am
 OFFER ( event_name = "Appointment at Glam-Up" ; event_time = "2 pm") & There is a 2 pm Appointment at Glam-Up.
 OFFER ( event_name = "Appointment at Sport Clips Haircuts Of Brentwood" ; event_time = "3 pm") & You have 2 events including a 3 pm Appointment at Sport Clips Haircuts Of Brentwood.
 OFFER ( event_name = "Appointment at Sport Clips Haircuts Of Brentwood" ; event_time = "3 pm") & You have 2 events including a 3 pm Appointment at Sport Clips Haircuts Of Brentwood.
-OFFER ( event_name = "Appointment at Sport Clips Haircuts Of Brentwood" ; event_time = "3 pm") & You have 2 events including a 3 pm Appointment at Sport Clips Haircuts Of Brentwood.INFORM_COUNT ( count = "2") & You have 2 events including a 3 pm Appointment at Sport Clips Haircuts Of Brentwood.
+OFFER ( event_name = "Appointment at Sport Clips Haircuts Of Brentwood" ; event_time = "3 pm") @ INFORM_COUNT ( count = "2") & You have 2 events including a 3 pm Appointment at Sport Clips Haircuts Of Brentwood
 OFFER ( event_name = "Movie show" ; event_time = "9:30 pm") & At 9:30 pm you have a Movie show.
 OFFER ( available_start_time = "8 am" ; available_end_time = "3 pm") & You have availability from 8 am to 3 pm.
 OFFER ( event_name = "General Practitioner appointment with Kelly A. Welsh, M.D." ; event_time = "12:30 pm") & You have a General Practitioner appointment with Kelly A. Welsh, M.D. at 12:30 pm.
@@ -217,135 +217,135 @@ OFFER ( event_name = "Geto Boys concert" ; event_time = "7 pm") & You also have 
 OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") & You are available from 8 am to 12:30 pm.
 OFFER ( event_name = "Dentist appointment with Dr. Susana M. Chou" ; event_time = "10 am") & You have 2 events scheduled that day, one of them is a Dentist appointment with Dr. Susana M. Chou, starting at 10 am.
 OFFER ( event_name = "Dentist appointment with Dr. Susana M. Chou" ; event_time = "10 am") & You have 2 events scheduled that day, one of them is a Dentist appointment with Dr. Susana M. Chou, starting at 10 am.
-OFFER ( event_name = "Dentist appointment with Dr. Susana M. Chou" ; event_time = "10 am") & You have 2 events scheduled that day, one of them is a Dentist appointment with Dr. Susana M. Chou, starting at 10 am.INFORM_COUNT ( count = "2") & You have 2 events scheduled that day, one of them is a Dentist appointment with Dr. Susana M. Chou, starting at 10 am.
+OFFER ( event_name = "Dentist appointment with Dr. Susana M. Chou" ; event_time = "10 am") @ INFORM_COUNT ( count = "2") & You have 2 events scheduled that day, one of them is a Dentist appointment with Dr  Susana M  Chou, starting at 10 am
 OFFER ( event_name = "Restaurant reservation at Begoni Bistro" ; event_time = "1 pm") & You also have a Restaurant reservation at Begoni Bistro at 1 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have 3 empty slots in your calender from 8 am to 10 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have 3 empty slots in your calender from 8 am to 10 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have 3 empty slots in your calender from 8 am to 10 am.INFORM_COUNT ( count = "3") & You have 3 empty slots in your calender from 8 am to 10 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") @ INFORM_COUNT ( count = "3") & You have 3 empty slots in your calender from 8 am to 10 am
 OFFER ( event_name = "Apartment viewing" ; event_time = "11 am") & You have 2 events scheduled. You have an Apartment viewing at 11 am.
 OFFER ( event_name = "Apartment viewing" ; event_time = "11 am") & You have 2 events scheduled. You have an Apartment viewing at 11 am.
-OFFER ( event_name = "Apartment viewing" ; event_time = "11 am") & You have 2 events scheduled. You have an Apartment viewing at 11 am.INFORM_COUNT ( count = "2") & You have 2 events scheduled. You have an Apartment viewing at 11 am.
+OFFER ( event_name = "Apartment viewing" ; event_time = "11 am") @ INFORM_COUNT ( count = "2") & You have 2 events scheduled  You have an Apartment viewing at 11 am
 OFFER ( event_name = "Apartment viewing at Mission Pointe By Windsor" ; event_time = "12 pm") & You have an Apartment viewing at Mission Pointe By Windsor at 12 pm.
 OFFER ( event_name = "Dentist appointment" ; event_time = "2 pm") & You also have a Dentist appointment at 2 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & You are free from 8 am to 12 pm.
 OFFER ( available_start_time = "12:30 pm" ; available_end_time = "2 pm") & You're also free from 12:30 pm to 2 pm.
 OFFER ( event_name = "Apartment viewing" ; event_time = "5:30 pm") & You have 2 events scheduled on that day. One of them is an Apartment viewing at 5:30 pm.
 OFFER ( event_name = "Apartment viewing" ; event_time = "5:30 pm") & You have 2 events scheduled on that day. One of them is an Apartment viewing at 5:30 pm.
-OFFER ( event_name = "Apartment viewing" ; event_time = "5:30 pm") & You have 2 events scheduled on that day. One of them is an Apartment viewing at 5:30 pm.INFORM_COUNT ( count = "2") & You have 2 events scheduled on that day. One of them is an Apartment viewing at 5:30 pm.
+OFFER ( event_name = "Apartment viewing" ; event_time = "5:30 pm") @ INFORM_COUNT ( count = "2") & You have 2 events scheduled on that day  One of them is an Apartment viewing at 5:30 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "4 pm") & You have 3 empty slots on your calendar. One of them is from 8 am to 4 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "4 pm") & You have 3 empty slots on your calendar. One of them is from 8 am to 4 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "4 pm") & You have 3 empty slots on your calendar. One of them is from 8 am to 4 pm.INFORM_COUNT ( count = "3") & You have 3 empty slots on your calendar. One of them is from 8 am to 4 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "4 pm") @ INFORM_COUNT ( count = "3") & You have 3 empty slots on your calendar  One of them is from 8 am to 4 pm
 OFFER ( event_name = "Apartment viewing" ; event_time = "12:30 pm") & Sure. You have an Apartment viewing at 12:30 pm.
 OFFER ( event_name = "General Practitioner appointment with Dr. Leland M. Luna, MD" ; event_time = "2:30 pm") & At 2:30 pm you have your General Practitioner appointment with Dr. Leland M. Luna, MD.
 OFFER ( available_start_time = "8 am" ; available_end_time = "2:30 pm") & At the moment you have 3 empty slots in you calendar, one starting from 8 am to 2:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "2:30 pm") & At the moment you have 3 empty slots in you calendar, one starting from 8 am to 2:30 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "2:30 pm") & At the moment you have 3 empty slots in you calendar, one starting from 8 am to 2:30 pm.INFORM_COUNT ( count = "3") & At the moment you have 3 empty slots in you calendar, one starting from 8 am to 2:30 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "2:30 pm") @ INFORM_COUNT ( count = "3") & At the moment you have 3 empty slots in you calendar, one starting from 8 am to 2:30 pm
 OFFER ( available_start_time = "3:30 pm" ; available_end_time = "5 pm") & Yes, another empty slot from 3:30 pm to 5 pm.
 OFFER ( event_name = "General Practitioner appointment" ; event_time = "5:30 pm") & There are a total of 2 events. At 5:30 pm, there is a General Practitioner appointment.
 OFFER ( event_name = "General Practitioner appointment" ; event_time = "5:30 pm") & There are a total of 2 events. At 5:30 pm, there is a General Practitioner appointment.
-OFFER ( event_name = "General Practitioner appointment" ; event_time = "5:30 pm") & There are a total of 2 events. At 5:30 pm, there is a General Practitioner appointment.INFORM_COUNT ( count = "2") & There are a total of 2 events. At 5:30 pm, there is a General Practitioner appointment.
+OFFER ( event_name = "General Practitioner appointment" ; event_time = "5:30 pm") @ INFORM_COUNT ( count = "2") & There are a total of 2 events  At 5:30 pm, there is a General Practitioner appointment
 OFFER ( event_name = "Apartment viewing at Siena Pointe Apartments" ; event_time = "6 pm") & There are a total of 3 events. At 6 pm, there is an Apartment viewing at Siena Pointe Apartments.
 OFFER ( event_name = "Apartment viewing at Siena Pointe Apartments" ; event_time = "6 pm") & There are a total of 3 events. At 6 pm, there is an Apartment viewing at Siena Pointe Apartments.
-OFFER ( event_name = "Apartment viewing at Siena Pointe Apartments" ; event_time = "6 pm") & There are a total of 3 events. At 6 pm, there is an Apartment viewing at Siena Pointe Apartments.INFORM_COUNT ( count = "3") & There are a total of 3 events. At 6 pm, there is an Apartment viewing at Siena Pointe Apartments.
+OFFER ( event_name = "Apartment viewing at Siena Pointe Apartments" ; event_time = "6 pm") @ INFORM_COUNT ( count = "3") & There are a total of 3 events  At 6 pm, there is an Apartment viewing at Siena Pointe Apartments
 OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & You have free time between 8 am and 10:30 am.
 OFFER ( event_name = "Appointment at Stem Salon" ; event_time = "3 pm") & You have an Appointment at Stem Salon and it starts at 3 pm.
 OFFER ( event_name = "Dentist appointment with Dr. Minh B. Nguyen" ; event_time = "4:30 pm") & You also have a Dentist appointment with Dr. Minh B. Nguyen that starts at 4:30 pm.
 OFFER ( event_name = "Apartment viewing" ; event_time = "12 pm") & You have 3 events on your calendar for that day. You have an Apartment viewing that starts at 12 pm.
 OFFER ( event_name = "Apartment viewing" ; event_time = "12 pm") & You have 3 events on your calendar for that day. You have an Apartment viewing that starts at 12 pm.
-OFFER ( event_name = "Apartment viewing" ; event_time = "12 pm") & You have 3 events on your calendar for that day. You have an Apartment viewing that starts at 12 pm.INFORM_COUNT ( count = "3") & You have 3 events on your calendar for that day. You have an Apartment viewing that starts at 12 pm.
+OFFER ( event_name = "Apartment viewing" ; event_time = "12 pm") @ INFORM_COUNT ( count = "3") & You have 3 events on your calendar for that day  You have an Apartment viewing that starts at 12 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have an empty time slot from 8 am to 10 am.
 OFFER ( event_name = "Apartment viewing at Crestview Apartments" ; event_time = "1 pm") & There is an Apartment viewing at Crestview Apartments at 1 pm
 OFFER ( event_name = "baseball game" ; event_time = "6 pm") & There is a baseball game at 6 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "2:30 pm") & You have 3 open slots. One is from 8 am to 2:30 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "2:30 pm") & You have 3 open slots. One is from 8 am to 2:30 pm
-OFFER ( available_start_time = "8 am" ; available_end_time = "2:30 pm") & You have 3 open slots. One is from 8 am to 2:30 pmINFORM_COUNT ( count = "3") & You have 3 open slots. One is from 8 am to 2:30 pm
+OFFER ( available_start_time = "8 am" ; available_end_time = "2:30 pm") @  One is from 8 am to 2:30 pmINFORM_COUNT ( count = "3") & You have 3 open slots
 OFFER ( available_start_time = "3:30 pm" ; available_end_time = "6 pm") & Yes, from 3:30 pm to 6 pm
 OFFER ( event_name = "Appointment with Renew Dental Implant Specialists" ; event_time = "4 pm") & There are 3 events which I see to have been scheduled on the calendar. You have arranged an Appointment with Renew Dental Implant Specialists and the appointment is going to start at 4 pm.
 OFFER ( event_name = "Appointment with Renew Dental Implant Specialists" ; event_time = "4 pm") & There are 3 events which I see to have been scheduled on the calendar. You have arranged an Appointment with Renew Dental Implant Specialists and the appointment is going to start at 4 pm.
-OFFER ( event_name = "Appointment with Renew Dental Implant Specialists" ; event_time = "4 pm") & There are 3 events which I see to have been scheduled on the calendar. You have arranged an Appointment with Renew Dental Implant Specialists and the appointment is going to start at 4 pm.INFORM_COUNT ( count = "3") & There are 3 events which I see to have been scheduled on the calendar. You have arranged an Appointment with Renew Dental Implant Specialists and the appointment is going to start at 4 pm.
+OFFER ( event_name = "Appointment with Renew Dental Implant Specialists" ; event_time = "4 pm") @ INFORM_COUNT ( count = "3") & There are 3 events which I see to have been scheduled on the calendar  You have arranged an Appointment with Renew Dental Implant Specialists and the appointment is going to start at 4 pm
 OFFER ( event_name = "Apartment viewing at Lakeshore Apartments" ; event_time = "12 pm") & There are 2 other events scheduled on the calendar. You have arranged the Apartment viewing at Lakeshore Apartments which will start at 12 pm.
 OFFER ( event_name = "Apartment viewing at Lakeshore Apartments" ; event_time = "12 pm") & There are 2 other events scheduled on the calendar. You have arranged the Apartment viewing at Lakeshore Apartments which will start at 12 pm.
-OFFER ( event_name = "Apartment viewing at Lakeshore Apartments" ; event_time = "12 pm") & There are 2 other events scheduled on the calendar. You have arranged the Apartment viewing at Lakeshore Apartments which will start at 12 pm.INFORM_COUNT ( count = "2") & There are 2 other events scheduled on the calendar. You have arranged the Apartment viewing at Lakeshore Apartments which will start at 12 pm.
+OFFER ( event_name = "Apartment viewing at Lakeshore Apartments" ; event_time = "12 pm") @ INFORM_COUNT ( count = "2") & There are 2 other events scheduled on the calendar  You have arranged the Apartment viewing at Lakeshore Apartments which will start at 12 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & I can see that 3 slots are empty on your calendar. One of the slots is from 8 am to 12 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & I can see that 3 slots are empty on your calendar. One of the slots is from 8 am to 12 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & I can see that 3 slots are empty on your calendar. One of the slots is from 8 am to 12 pm.INFORM_COUNT ( count = "3") & I can see that 3 slots are empty on your calendar. One of the slots is from 8 am to 12 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") @ INFORM_COUNT ( count = "3") & I can see that 3 slots are empty on your calendar  One of the slots is from 8 am to 12 pm
 OFFER ( event_name = "appointment with Wafelbakker Anderson Orthodontics" ; event_time = "1:30 pm") & You have an appointment with Wafelbakker Anderson Orthodontics at 1:30 pm.
 OFFER ( event_name = "lunch at Marketbar" ; event_time = "5 pm") & Yes, lunch at Marketbar at 5 pm.
 OFFER ( event_name = "dentist appointment" ; event_time = "4:30 pm") & You have a dentist appointment at 4:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") & You have 3 empty time slots, from 8 am to 12:30 pm that day.
 OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") & You have 3 empty time slots, from 8 am to 12:30 pm that day.
-OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") & You have 3 empty time slots, from 8 am to 12:30 pm that day.INFORM_COUNT ( count = "3") & You have 3 empty time slots, from 8 am to 12:30 pm that day.
+OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") @ INFORM_COUNT ( count = "3") & You have 3 empty time slots, from 8 am to 12:30 pm that day
 OFFER ( available_start_time = "2 pm" ; available_end_time = "4:30 pm") & From 2 pm to 4:30 pm.
 OFFER ( event_name = "Dermatologist appointment" ; event_time = "12 pm") & There are 3 events one of which is a Dermatologist appointment at 12 pm.
 OFFER ( event_name = "Dermatologist appointment" ; event_time = "12 pm") & There are 3 events one of which is a Dermatologist appointment at 12 pm.
-OFFER ( event_name = "Dermatologist appointment" ; event_time = "12 pm") & There are 3 events one of which is a Dermatologist appointment at 12 pm.INFORM_COUNT ( count = "3") & There are 3 events one of which is a Dermatologist appointment at 12 pm.
+OFFER ( event_name = "Dermatologist appointment" ; event_time = "12 pm") @ INFORM_COUNT ( count = "3") & There are 3 events one of which is a Dermatologist appointment at 12 pm
 OFFER ( event_name = "Apartment viewing" ; event_time = "10 am") & There are 2 events. You have an Apartment viewing at 10 am.
 OFFER ( event_name = "Apartment viewing" ; event_time = "10 am") & There are 2 events. You have an Apartment viewing at 10 am.
-OFFER ( event_name = "Apartment viewing" ; event_time = "10 am") & There are 2 events. You have an Apartment viewing at 10 am.INFORM_COUNT ( count = "2") & There are 2 events. You have an Apartment viewing at 10 am.
+OFFER ( event_name = "Apartment viewing" ; event_time = "10 am") @ INFORM_COUNT ( count = "2") & There are 2 events  You have an Apartment viewing at 10 am
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & From 8 am to 10 am there are 2 empty slots.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & From 8 am to 10 am there are 2 empty slots.
-OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & From 8 am to 10 am there are 2 empty slots.INFORM_COUNT ( count = "2") & From 8 am to 10 am there are 2 empty slots.
+OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") @ INFORM_COUNT ( count = "2") & From 8 am to 10 am there are 2 empty slots
 OFFER ( available_start_time = "11:30 am" ; available_end_time = "12 pm") & 11:30 am to 12 pm is also free.
 OFFER ( event_name = "Girl In Red concert" ; event_time = "5 pm") & Sure. On March 5th you're going to the Girl In Red concert at 5 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & You're available from 8 am to 11 am.
 OFFER ( event_name = "Apartment viewing" ; event_time = "5 pm") & You currently have 3 scheduled events, one of them is Apartment viewing, starting at 5 pm.
 OFFER ( event_name = "Apartment viewing" ; event_time = "5 pm") & You currently have 3 scheduled events, one of them is Apartment viewing, starting at 5 pm.
-OFFER ( event_name = "Apartment viewing" ; event_time = "5 pm") & You currently have 3 scheduled events, one of them is Apartment viewing, starting at 5 pm.INFORM_COUNT ( count = "3") & You currently have 3 scheduled events, one of them is Apartment viewing, starting at 5 pm.
+OFFER ( event_name = "Apartment viewing" ; event_time = "5 pm") @ INFORM_COUNT ( count = "3") & You currently have 3 scheduled events, one of them is Apartment viewing, starting at 5 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "4 pm") & You're free from 8 am to 4 pm.
 OFFER ( event_name = "General Practitioner appointment" ; event_time = "2:30 pm") & At 2:30 pm you have a General Practitioner appointment.
 OFFER ( available_start_time = "8 am" ; available_end_time = "2:30 pm") & You are free from 8 am to 2:30 pm.
 OFFER ( event_name = "Movie booking for Pet Sematary" ; event_time = "9:30 pm") & There are 3 events scheduled on your calendar. You also have a Movie booking for Pet Sematary that is going to begin at 9:30 pm.
 OFFER ( event_name = "Movie booking for Pet Sematary" ; event_time = "9:30 pm") & There are 3 events scheduled on your calendar. You also have a Movie booking for Pet Sematary that is going to begin at 9:30 pm.
-OFFER ( event_name = "Movie booking for Pet Sematary" ; event_time = "9:30 pm") & There are 3 events scheduled on your calendar. You also have a Movie booking for Pet Sematary that is going to begin at 9:30 pm.INFORM_COUNT ( count = "3") & There are 3 events scheduled on your calendar. You also have a Movie booking for Pet Sematary that is going to begin at 9:30 pm.
+OFFER ( event_name = "Movie booking for Pet Sematary" ; event_time = "9:30 pm") @ INFORM_COUNT ( count = "3") & There are 3 events scheduled on your calendar  You also have a Movie booking for Pet Sematary that is going to begin at 9:30 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & You have 4 empty slots in your calendar from 8 am to 10:30 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & You have 4 empty slots in your calendar from 8 am to 10:30 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") & You have 4 empty slots in your calendar from 8 am to 10:30 am.INFORM_COUNT ( count = "4") & You have 4 empty slots in your calendar from 8 am to 10:30 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "10:30 am") @ INFORM_COUNT ( count = "4") & You have 4 empty slots in your calendar from 8 am to 10:30 am
 OFFER ( available_start_time = "11 am" ; available_end_time = "5 pm") & There is also an empty slot from 11 am to 5 pm.
 OFFER ( available_start_time = "7 pm" ; available_end_time = "9:30 pm") & There is also an empty slot from 7 pm to 9:30 pm.
 OFFER ( event_name = "Baseball game" ; event_time = "7:30 pm") & There is 2 events scheduled. A Baseball game that starts at 7:30 pm.
 OFFER ( event_name = "Baseball game" ; event_time = "7:30 pm") & There is 2 events scheduled. A Baseball game that starts at 7:30 pm.
-OFFER ( event_name = "Baseball game" ; event_time = "7:30 pm") & There is 2 events scheduled. A Baseball game that starts at 7:30 pm.INFORM_COUNT ( count = "2") & There is 2 events scheduled. A Baseball game that starts at 7:30 pm.
+OFFER ( event_name = "Baseball game" ; event_time = "7:30 pm") @ INFORM_COUNT ( count = "2") & There is 2 events scheduled  A Baseball game that starts at 7:30 pm
 OFFER ( event_name = "Dentist appointment" ; event_time = "10 am") & Yes you have a 10 am Dentist appointment.
 OFFER ( event_name = "General Practitioner Appointment" ; event_time = "5 pm") & A General Practitioner Appointment at 5 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have a total of 4 empty slots. One being from 8 am to 10 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have a total of 4 empty slots. One being from 8 am to 10 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have a total of 4 empty slots. One being from 8 am to 10 am.INFORM_COUNT ( count = "4") & You have a total of 4 empty slots. One being from 8 am to 10 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") @ INFORM_COUNT ( count = "4") & You have a total of 4 empty slots  One being from 8 am to 10 am
 OFFER ( available_start_time = "11 am" ; available_end_time = "11:30 am") & Yes from 11 am to 11:30 am.
 OFFER ( event_name = "Dentist appointment with Park Victoria Dental" ; event_time = "10 am") & There is a Dentist appointment with Park Victoria Dental at 10 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have 3 empty slots from 8 am to 10 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have 3 empty slots from 8 am to 10 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have 3 empty slots from 8 am to 10 am.INFORM_COUNT ( count = "3") & You have 3 empty slots from 8 am to 10 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") @ INFORM_COUNT ( count = "3") & You have 3 empty slots from 8 am to 10 am
 OFFER ( available_start_time = "11 am" ; available_end_time = "6 pm") & There are empty slots from 11 am to 6 pm.
 OFFER ( event_name = "dentist appointment" ; event_time = "3:30 pm") & Sure. You have a dentist appointment that is scheduled for 3:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "2 pm") & You currently have 3 open spots on your calendar. One slot is available from 8 am to 2 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "2 pm") & You currently have 3 open spots on your calendar. One slot is available from 8 am to 2 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "2 pm") & You currently have 3 open spots on your calendar. One slot is available from 8 am to 2 pm.INFORM_COUNT ( count = "3") & You currently have 3 open spots on your calendar. One slot is available from 8 am to 2 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "2 pm") @ INFORM_COUNT ( count = "3") & You currently have 3 open spots on your calendar  One slot is available from 8 am to 2 pm
 OFFER ( event_name = "Dentist appointment" ; event_time = "10:30 am") & You have a Dentist appointment at 10:30 am on the 5th.
 OFFER ( event_name = "Appointment with Dr. Julie M. Savant" ; event_time = "5 pm") & Yes, you have 2 events on the 14th. The first is an Appointment with Dr. Julie M. Savant at 5 pm.
 OFFER ( event_name = "Appointment with Dr. Julie M. Savant" ; event_time = "5 pm") & Yes, you have 2 events on the 14th. The first is an Appointment with Dr. Julie M. Savant at 5 pm.
-OFFER ( event_name = "Appointment with Dr. Julie M. Savant" ; event_time = "5 pm") & Yes, you have 2 events on the 14th. The first is an Appointment with Dr. Julie M. Savant at 5 pm.INFORM_COUNT ( count = "2") & Yes, you have 2 events on the 14th. The first is an Appointment with Dr. Julie M. Savant at 5 pm.
+OFFER ( event_name = "Appointment with Dr. Julie M. Savant" ; event_time = "5 pm") @ INFORM_COUNT ( count = "2") & Yes, you have 2 events on the 14th  The first is an Appointment with Dr  Julie M  Savant at 5 pm
 OFFER ( event_name = "Hairdresser appointment" ; event_time = "11 am") & You also have a Hairdresser appointment at 11 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & I found 3 empty slots on your calendar for the 14th. You don't have anything between 8 am and 11 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & I found 3 empty slots on your calendar for the 14th. You don't have anything between 8 am and 11 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & I found 3 empty slots on your calendar for the 14th. You don't have anything between 8 am and 11 am.INFORM_COUNT ( count = "3") & I found 3 empty slots on your calendar for the 14th. You don't have anything between 8 am and 11 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") @ INFORM_COUNT ( count = "3") & I found 3 empty slots on your calendar for the 14th  You don't have anything between 8 am and 11 am
 OFFER ( event_name = "Apartment viewing" ; event_time = "3 pm") & I was able to pull up 2 events you have going on. One of those events is an Apartment viewing at 3 pm.
 OFFER ( event_name = "Apartment viewing" ; event_time = "3 pm") & I was able to pull up 2 events you have going on. One of those events is an Apartment viewing at 3 pm.
-OFFER ( event_name = "Apartment viewing" ; event_time = "3 pm") & I was able to pull up 2 events you have going on. One of those events is an Apartment viewing at 3 pm.INFORM_COUNT ( count = "2") & I was able to pull up 2 events you have going on. One of those events is an Apartment viewing at 3 pm.
+OFFER ( event_name = "Apartment viewing" ; event_time = "3 pm") @ INFORM_COUNT ( count = "2") & I was able to pull up 2 events you have going on  One of those events is an Apartment viewing at 3 pm
 OFFER ( event_name = "Appointment at Fremont Barber Shop" ; event_time = "6:30 pm") & Looks like you have 3 events going on that day. One of which is an Appointment at Fremont Barber Shop at 6:30 pm.
 OFFER ( event_name = "Appointment at Fremont Barber Shop" ; event_time = "6:30 pm") & Looks like you have 3 events going on that day. One of which is an Appointment at Fremont Barber Shop at 6:30 pm.
-OFFER ( event_name = "Appointment at Fremont Barber Shop" ; event_time = "6:30 pm") & Looks like you have 3 events going on that day. One of which is an Appointment at Fremont Barber Shop at 6:30 pm.INFORM_COUNT ( count = "3") & Looks like you have 3 events going on that day. One of which is an Appointment at Fremont Barber Shop at 6:30 pm.
+OFFER ( event_name = "Appointment at Fremont Barber Shop" ; event_time = "6:30 pm") @ INFORM_COUNT ( count = "3") & Looks like you have 3 events going on that day  One of which is an Appointment at Fremont Barber Shop at 6:30 pm
 OFFER ( event_name = "Appointment with Arts Of Dentistry" ; event_time = "1:30 pm") & Yes, there as an Appointment with Arts Of Dentistry at 1:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "1:30 pm") & Looks like you've got 3 time slots open on the calendar. One of which is from 8 am to 1:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "1:30 pm") & Looks like you've got 3 time slots open on the calendar. One of which is from 8 am to 1:30 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "1:30 pm") & Looks like you've got 3 time slots open on the calendar. One of which is from 8 am to 1:30 pm.INFORM_COUNT ( count = "3") & Looks like you've got 3 time slots open on the calendar. One of which is from 8 am to 1:30 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "1:30 pm") @ INFORM_COUNT ( count = "3") & Looks like you've got 3 time slots open on the calendar  One of which is from 8 am to 1:30 pm
 OFFER ( event_name = "Appointment with Marenda Ronald E" ; event_time = "11 am") & There are 3 events on that date. You have an Appointment with Marenda Ronald E at 11 am.
 OFFER ( event_name = "Appointment with Marenda Ronald E" ; event_time = "11 am") & There are 3 events on that date. You have an Appointment with Marenda Ronald E at 11 am.
-OFFER ( event_name = "Appointment with Marenda Ronald E" ; event_time = "11 am") & There are 3 events on that date. You have an Appointment with Marenda Ronald E at 11 am.INFORM_COUNT ( count = "3") & There are 3 events on that date. You have an Appointment with Marenda Ronald E at 11 am.
+OFFER ( event_name = "Appointment with Marenda Ronald E" ; event_time = "11 am") @ INFORM_COUNT ( count = "3") & There are 3 events on that date  You have an Appointment with Marenda Ronald E at 11 am
 OFFER ( event_name = "Movie show" ; event_time = "10 pm") & There is also a Movie show at 10 pm.
 OFFER ( event_name = "Reservation at McDonald's" ; event_time = "11:30 am") & There is a Reservation at McDonald's at 11:30 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have 3 empty slots on your calendar from 8 am to 10 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have 3 empty slots on your calendar from 8 am to 10 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You have 3 empty slots on your calendar from 8 am to 10 am.INFORM_COUNT ( count = "3") & You have 3 empty slots on your calendar from 8 am to 10 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") @ INFORM_COUNT ( count = "3") & You have 3 empty slots on your calendar from 8 am to 10 am
 OFFER ( event_name = "Lyfe Jennings concert" ; event_time = "7 pm") & You're going to the Lyfe Jennings concert at 7 pm on the 11th.
 OFFER ( event_name = "apartment viewing at Hopper Lane Apartments" ; event_time = "10 am") & You're going to an apartment viewing at Hopper Lane Apartments at 10 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & You'll be free from 8 am to 10 am.
@@ -353,13 +353,13 @@ OFFER ( available_start_time = "10:30 am" ; available_end_time = "5 pm") & You'r
 OFFER ( available_start_time = "7 pm" ; available_end_time = "9:30 pm") & Yes, you're free from 7 pm to 9:30 pm.
 OFFER ( event_name = "Dentist appointment" ; event_time = "5 pm") & There are 2 events scheduled on that date . One is Dentist appointment which is going to start at 5 pm.
 OFFER ( event_name = "Dentist appointment" ; event_time = "5 pm") & There are 2 events scheduled on that date . One is Dentist appointment which is going to start at 5 pm.
-OFFER ( event_name = "Dentist appointment" ; event_time = "5 pm") & There are 2 events scheduled on that date . One is Dentist appointment which is going to start at 5 pm.INFORM_COUNT ( count = "2") & There are 2 events scheduled on that date . One is Dentist appointment which is going to start at 5 pm.
+OFFER ( event_name = "Dentist appointment" ; event_time = "5 pm") @ INFORM_COUNT ( count = "2") & There are 2 events scheduled on that date   One is Dentist appointment which is going to start at 5 pm
 OFFER ( event_name = "appointment with Donna M Cotner" ; event_time = "2:30 pm") & Yes you have 2 events scheduled on the calendar. The event is going to start at 2:30 pm and the appointment with Donna M Cotner.
 OFFER ( event_name = "appointment with Donna M Cotner" ; event_time = "2:30 pm") & Yes you have 2 events scheduled on the calendar. The event is going to start at 2:30 pm and the appointment with Donna M Cotner.
-OFFER ( event_name = "appointment with Donna M Cotner" ; event_time = "2:30 pm") & Yes you have 2 events scheduled on the calendar. The event is going to start at 2:30 pm and the appointment with Donna M Cotner.INFORM_COUNT ( count = "2") & Yes you have 2 events scheduled on the calendar. The event is going to start at 2:30 pm and the appointment with Donna M Cotner.
+OFFER ( event_name = "appointment with Donna M Cotner" ; event_time = "2:30 pm") @ INFORM_COUNT ( count = "2") & Yes you have 2 events scheduled on the calendar  The event is going to start at 2:30 pm and the appointment with Donna M Cotner
 OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & well, there are 3 empty slots on your calendar and time of empty slots from 8 am to 12 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & well, there are 3 empty slots on your calendar and time of empty slots from 8 am to 12 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") & well, there are 3 empty slots on your calendar and time of empty slots from 8 am to 12 pm.INFORM_COUNT ( count = "3") & well, there are 3 empty slots on your calendar and time of empty slots from 8 am to 12 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "12 pm") @ INFORM_COUNT ( count = "3") & well, there are 3 empty slots on your calendar and time of empty slots from 8 am to 12 pm
 OFFER ( available_start_time = "1 pm" ; available_end_time = "2:30 pm") & Yes you have an empty slot from 1 pm to 2:30 pm.
 OFFER ( event_name = "Celine Dion concert" ; event_time = "7 pm") & You have a Celine Dion concert starting at 7 pm.
 OFFER ( event_name = "Apartment viewing" ; event_time = "12 pm") & You have Apartment viewing scheduled at 12 pm.
@@ -369,29 +369,29 @@ OFFER ( available_start_time = "11 am" ; available_end_time = "12 pm") & You hav
 OFFER ( event_name = "Lights concert" ; event_time = "6:30 pm") & You have the Lights concert at 6:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "6:30 pm") & There are 2 empty slots in your calendar from 8 am to 6:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "6:30 pm") & There are 2 empty slots in your calendar from 8 am to 6:30 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "6:30 pm") & There are 2 empty slots in your calendar from 8 am to 6:30 pm.INFORM_COUNT ( count = "2") & There are 2 empty slots in your calendar from 8 am to 6:30 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "6:30 pm") @ INFORM_COUNT ( count = "2") & There are 2 empty slots in your calendar from 8 am to 6:30 pm
 OFFER ( available_start_time = "8:30 pm" ; available_end_time = "10:30 pm") & You are free from 8:30 pm to 10:30 pm.
 OFFER ( event_name = "Lights concert" ; event_time = "5:30 pm") & You have Lights concert happening at 5:30 pm that day.
 OFFER ( event_name = "Movie show" ; event_time = "10:30 pm") & Yes, you have 2 events scheduled on that day as well. You have Movie show which starts at 10:30 pm.
 OFFER ( event_name = "Movie show" ; event_time = "10:30 pm") & Yes, you have 2 events scheduled on that day as well. You have Movie show which starts at 10:30 pm.
-OFFER ( event_name = "Movie show" ; event_time = "10:30 pm") & Yes, you have 2 events scheduled on that day as well. You have Movie show which starts at 10:30 pm.INFORM_COUNT ( count = "2") & Yes, you have 2 events scheduled on that day as well. You have Movie show which starts at 10:30 pm.
+OFFER ( event_name = "Movie show" ; event_time = "10:30 pm") @ INFORM_COUNT ( count = "2") & Yes, you have 2 events scheduled on that day as well  You have Movie show which starts at 10:30 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & There's 2 empty slots on the calender. You have an empty one from 8 am to 11 am, from what I can see here.
 OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & There's 2 empty slots on the calender. You have an empty one from 8 am to 11 am, from what I can see here.
-OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & There's 2 empty slots on the calender. You have an empty one from 8 am to 11 am, from what I can see here.INFORM_COUNT ( count = "2") & There's 2 empty slots on the calender. You have an empty one from 8 am to 11 am, from what I can see here.
+OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") @ INFORM_COUNT ( count = "2") & There's 2 empty slots on the calender  You have an empty one from 8 am to 11 am, from what I can see here
 OFFER ( event_name = "Bastille concert" ; event_time = "7:30 pm") & At 7:30 pm you have the Bastille concert.
 OFFER ( available_start_time = "8 am" ; available_end_time = "5:30 pm") & You have nothing scheduled between 8 am and 5:30 pm.
 OFFER ( available_start_time = "6:30 pm" ; available_end_time = "7:30 pm") & Yes, you are free from 6:30 pm to 7:30 pm.
 OFFER ( event_name = "Appointment with Ocean Dental Lab" ; event_time = "3 pm") & There are 3 events scheduled on your calendar. For March 1st, you have an Appointment with Ocean Dental Lab at 3 pm.
 OFFER ( event_name = "Appointment with Ocean Dental Lab" ; event_time = "3 pm") & There are 3 events scheduled on your calendar. For March 1st, you have an Appointment with Ocean Dental Lab at 3 pm.
-OFFER ( event_name = "Appointment with Ocean Dental Lab" ; event_time = "3 pm") & There are 3 events scheduled on your calendar. For March 1st, you have an Appointment with Ocean Dental Lab at 3 pm.INFORM_COUNT ( count = "3") & There are 3 events scheduled on your calendar. For March 1st, you have an Appointment with Ocean Dental Lab at 3 pm.
+OFFER ( event_name = "Appointment with Ocean Dental Lab" ; event_time = "3 pm") @ INFORM_COUNT ( count = "3") & There are 3 events scheduled on your calendar  For March 1st, you have an Appointment with Ocean Dental Lab at 3 pm
 OFFER ( available_start_time = "8 am" ; available_end_time = "3 pm") & You currently have an empty slot from 8 am to 3 pm.
 OFFER ( event_name = "Apartment viewing at Deer Park Apartments" ; event_time = "4 pm") & You have 2 events scheduled on the calendar. The first event is the Apartment viewing at Deer Park Apartments which begins at 4 pm.
 OFFER ( event_name = "Apartment viewing at Deer Park Apartments" ; event_time = "4 pm") & You have 2 events scheduled on the calendar. The first event is the Apartment viewing at Deer Park Apartments which begins at 4 pm.
-OFFER ( event_name = "Apartment viewing at Deer Park Apartments" ; event_time = "4 pm") & You have 2 events scheduled on the calendar. The first event is the Apartment viewing at Deer Park Apartments which begins at 4 pm.INFORM_COUNT ( count = "2") & You have 2 events scheduled on the calendar. The first event is the Apartment viewing at Deer Park Apartments which begins at 4 pm.
+OFFER ( event_name = "Apartment viewing at Deer Park Apartments" ; event_time = "4 pm") @ INFORM_COUNT ( count = "2") & You have 2 events scheduled on the calendar  The first event is the Apartment viewing at Deer Park Apartments which begins at 4 pm
 OFFER ( event_name = "Apartment viewing" ; event_time = "1:30 pm") & You have Apartment viewing which starts at 1:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "1:30 pm") & There are 4 empty slots on your calendar. You have a empty slot from 8 am to 1:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "1:30 pm") & There are 4 empty slots on your calendar. You have a empty slot from 8 am to 1:30 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "1:30 pm") & There are 4 empty slots on your calendar. You have a empty slot from 8 am to 1:30 pm.INFORM_COUNT ( count = "4") & There are 4 empty slots on your calendar. You have a empty slot from 8 am to 1:30 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "1:30 pm") @ INFORM_COUNT ( count = "4") & There are 4 empty slots on your calendar  You have a empty slot from 8 am to 1:30 pm
 OFFER ( event_name = "Restaurant reservation at Divino Ristorante" ; event_time = "5 pm") & You have a Restaurant reservation at Divino Ristorante at 5 pm.
 OFFER ( event_name = "Beyond The Black concert" ; event_time = "5:30 pm") & You have a Beyond The Black concert at 5:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "5:30 pm") & You're available from 8 am to 5:30 pm.
@@ -404,17 +404,17 @@ OFFER ( event_name = "soccer game at BC Place" ; event_time = "6:30 pm") & You h
 OFFER ( event_name = "hairdresser appointment" ; event_time = "12:30 pm") & You have a hairdresser appointment at 12:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") & You have 4 available time slots. One is from 8 am to 12:30 pm.
 OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") & You have 4 available time slots. One is from 8 am to 12:30 pm.
-OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") & You have 4 available time slots. One is from 8 am to 12:30 pm.INFORM_COUNT ( count = "4") & You have 4 available time slots. One is from 8 am to 12:30 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "12:30 pm") @ INFORM_COUNT ( count = "4") & You have 4 available time slots  One is from 8 am to 12:30 pm
 OFFER ( available_start_time = "1 pm" ; available_end_time = "5 pm") & You have an available time slot from 1 pm to 5 pm.
 OFFER ( available_start_time = "5:30 pm" ; available_end_time = "6 pm") & You have an available time slot from 5:30 pm to 6 pm.
 OFFER ( event_name = "basketball game" ; event_time = "6 pm") & You have a schedule basketball game at 6 pm that day.
 OFFER ( event_name = "Apartment viewing" ; event_time = "3 pm") & You do have 3 appointments on that day, one is Apartment viewing that will start at 3 pm.
 OFFER ( event_name = "Apartment viewing" ; event_time = "3 pm") & You do have 3 appointments on that day, one is Apartment viewing that will start at 3 pm.
-OFFER ( event_name = "Apartment viewing" ; event_time = "3 pm") & You do have 3 appointments on that day, one is Apartment viewing that will start at 3 pm.INFORM_COUNT ( count = "3") & You do have 3 appointments on that day, one is Apartment viewing that will start at 3 pm.
+OFFER ( event_name = "Apartment viewing" ; event_time = "3 pm") @ INFORM_COUNT ( count = "3") & You do have 3 appointments on that day, one is Apartment viewing that will start at 3 pm
 OFFER ( event_name = "Appointment with Dr. Maria J. Moore" ; event_time = "10 am") & You have an Appointment with Dr. Maria J. Moore at 10 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & Actually there are 4 more empty slots on your calendar from 8 am to 10 am.
 OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & Actually there are 4 more empty slots on your calendar from 8 am to 10 am.
-OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") & Actually there are 4 more empty slots on your calendar from 8 am to 10 am.INFORM_COUNT ( count = "4") & Actually there are 4 more empty slots on your calendar from 8 am to 10 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "10 am") @ INFORM_COUNT ( count = "4") & Actually there are 4 more empty slots on your calendar from 8 am to 10 am
 OFFER ( available_start_time = "11 am" ; available_end_time = "3 pm") & You also have empty slots from 11 am to 3 pm.
 OFFER ( event_date = "March 12th" ; available_start_time = "8 am" ; available_end_time = "11 am") & You have nothing scheduled during the block of time starting at 8 am and ending at 11 am on the morning of March 12th.
 OFFER ( event_date = "March 13th" ; available_start_time = "12:30 pm" ; available_end_time = "2 pm") & On March 13th, your schedule shows an open period of time between 12:30 pm and 2 pm.
@@ -502,3 +502,5 @@ CONFIRM ( event_name = "Appointment with Koppe Michael J" ; event_date = "tomorr
 OFFER ( event_date = "March 10th" ; available_start_time = "8 am" ; available_end_time = "5 pm") & You have empty slots starting from 8 am to 5 pm on March 10th.
 OFFER ( event_date = "Next Thursday" ; available_start_time = "1 pm" ; available_end_time = "9:30 pm") & Next Thursday, you have an empty slot starting at 1 pm and ending 9:30 pm.
 CONFIRM ( event_name = "Billy Idol concert" ; event_date = "next Thursday" ; event_location = "2901 East Hastings Street" ; event_time = "2:15 pm") & Just to confirm; you want to add the Billy Idol concert next Thursday at 2901 East Hastings Street at 2:15 pm to your calendar?
+
+

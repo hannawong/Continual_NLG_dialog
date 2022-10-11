@@ -72,3 +72,5 @@ CONFIRM ( receiver = "Margaret" ; amount = "$9" ; private_visibility = "False") 
 CONFIRM ( payment_method = "app balance" ; amount = "$94" ; receiver = "Wilson" ; private_visibility = "False") & Please confirm: Transfer $94 to Wilson from your app balance, and it will be visible to the public.
 CONFIRM ( payment_method = "debit card" ; amount = "$94") & PLease confirm: Send $94 from your debit card.
 CONFIRM ( amount = "$94" ; private_visibility = "True") & Please confirm: Send $94 privately.
+
+

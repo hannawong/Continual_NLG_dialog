@@ -29,3 +29,5 @@ attraction_inform ( address = "gwydir street" ; address = "no. 5 dale's brewery"
 attraction_inform ( area = "centre" ; postcode = "cb12lj") & It is in the centre and the postcode is cb12lj. Is there anything else you need help with today?
 attraction_inform ( area = "east side" ; choice = "two") & There are two entertainment attractions on the east side. Would you like more information?
 attraction_inform ( address = "Cherry Hinton Road" ; name = "Cherry Hinton Hall and Grounds" ; phone = "01223446104" ; postcode = "cb18dw") & Sure. Cherry Hinton Hall and Grounds can be reached at 01223446104. It is on Cherry Hinton Road, postcode cb18dw. Can I help you with anything else today?
+
+
