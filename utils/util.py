@@ -1,12 +1,6 @@
-from symbol import with_item
 import torch
 import argparse
-import torch,json
 import torch.nn.functional as F
-import numpy as np
-from model.Seq2SeqToD import Seq2SeqToD
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
-import torch.multiprocessing as mp # 这里不需要使用pytorch的multiprocessing
 from utils.data_augmentation import *
 
 
@@ -56,7 +50,7 @@ def sample_sequence(args,model, length, context, num_samples=1, temperature=1.1,
                 outputs = model(**inputs) ###outputs[0].shape: [5,25,50527] 
                 next_token_logits = outputs[0][:, -1, :] #/ temperature ###[5,50527]
             elif args.mode == "adapter":
-                outputs = model(generated,labels = None,task_id = task_id,s = 400)
+                _, outputs = model(generated,labels = None,task_id = task_id,s = 400)
                 next_token_logits = outputs[:,-1, :]
 
             #next_tokens = torch.argmax(next_token_logits, dim=-1).unsqueeze(0)
@@ -105,11 +99,13 @@ class TextSeqDataset(Dataset):
 
 
 
-def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sample_frac = 0.01):
-    file =  open("data/replay/train.txt","a")
+def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sample_size = 5):
+    
     if mode == "LAMOL":
+        file =  open("data/replay/"+"train_"+args.output_dir.split("/")[-1]+".txt","w")
+        for prev_task_id in range(task_id):
             print("Generate LAMOL!!")
-            prev_task_id = task_id-1
+            training = open("data/"+domain_names[prev_task_id]+"/train.txt").read().split("\n")
 
             if domain_names[prev_task_id] not in prompt:
                 prompt[domain_names[prev_task_id]] = domain_names[prev_task_id].split("_")[1]
@@ -146,11 +142,9 @@ def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sa
                     if cnt > 10 * sample_size:
                         replay_buffer.append(example.split(prompt[domain_names[prev_task_id]])[-1])
 
-                    elif len(example) > 100 and prompt[domain_names[prev_task_id]] in example: ##domain_names[prev_task_id][4:] in example and
-                        #print("find",example)
+                    elif len(example) > 100: 
                         replay_buffer.append(example.split(prompt[domain_names[prev_task_id]])[-1])
                 if len(replay_buffer) > sample_size:
-                    #print(replay_buffer)
                     break
             for item in range(sample_size):
                 file.write(replay_buffer[item]+"\n")
@@ -159,12 +153,12 @@ def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sa
         prev_task_id = task_id - 1
         replay_buffer = []
         training = open("data/"+domain_names[prev_task_id]+"/train.txt").read().split("\n")
-        sample_size = int(len(training) * sample_frac)
         choose = sample(training,min(len(training),sample_size))
         print(len(choose))
-        augs = []
-        for sentence in choose:   
-            for i in range(2):    
+    
+        for sentence in choose: 
+            augs = []
+            for i in range(1):    
                 if args.aug_method == "replace":
                     aug = synonym_replacement(sentence.split(),min(1,int(len(sentence.split())*0.1)))
                     aug = " ".join(aug)
@@ -184,19 +178,18 @@ def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sa
                 if args.aug_method == "simcse":
                     aug = sentence
                     augs.append(aug)
-                
-            with open("./data/replay/train.txt",'a') as file:
-                if args.aug_method in ["del","replace","insert","swap","back_trans","simcse"]:
+            with open("data/replay/"+"train_"+args.output_dir.split("/")[-1]+".txt","a") as file:
+                if args.aug_method in ["del","replace","insert","swap","simcse"]:
                     for aug in augs:
                         file.write(aug+"\n")
                 file.write(sentence+"\n")
-
+        
 import random
 
 def shuffle_replay():
-    training = open("data/replay/train.txt").read().split("\n")
+    training = open("data/replay/"+"train_"+args.output_dir.split("/")[-1]+".txt").read().split("\n")
     random.shuffle(training)
-    with open("data/replay/train.txt","w") as file:
+    with open("data/replay/"+"train_"+args.output_dir.split("/")[-1]+".txt","w") as file:
         for item in training:
             file.write(item + "\n")
 

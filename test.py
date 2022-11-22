@@ -13,6 +13,7 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch.multiprocessing as mp # 这里不需要使用pytorch的multiprocessing
 from torch.utils.data import DataLoader
 import faiss
+from tqdm import tqdm
 from utils.util import *
 MODEL_CLASSES = {
     'gpt2': (GPT2LMHeadModel, GPT2Tokenizer),
@@ -23,8 +24,7 @@ err = 0
 def set_seed(args):
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
-    if args.n_gpu > 0:
-        torch.cuda.manual_seed_all(args.seed)
+    torch.cuda.manual_seed_all(args.seed)
 
 def get_parser():
   parser = argparse.ArgumentParser()
@@ -62,13 +62,14 @@ def get_parser():
   parser.add_argument('--nc', type=int, default=1,
                       help="number of sentence")
   args = parser.parse_args()
+  args.suffix = "".join(args.model_name_or_path.split("_")[1:])
   args.n_gpu = torch.cuda.device_count()
-  set_seed(args)
   args.model_type = args.model_type.lower()
   args.no_cuda = False
   return args
 
 args = get_parser()
+set_seed(args)
 model_class, tokenizer_class = MODEL_CLASSES[args.model_type]
 tokenizer = tokenizer_class.from_pretrained(args.model_name_or_path)
 model = Seq2SeqToD(args)
@@ -122,13 +123,13 @@ def sample_sequence(args,model, length, context, num_samples=1, temperature=1.1,
             elif args.mode == "adapter":
                 inputs = {'input_ids': generated, 'labels':None, 'task_id':task_id}
             if args.mode == "GPT2":
-                outputs = model(**inputs) ###outputs[0].shape: [5,25,50527] 
+                _, outputs = model(**inputs) ###outputs[0].shape: [5,25,50527] 
                 next_token_logits = outputs[0][:, -1, :] #/ temperature ###[5,50527]
             elif args.mode == "adapter" or args.mode == "ctr":
-                outputs = model(generated,labels = None,task_id = task_id,s = 400)
+                _, outputs = model(generated,labels = None,task_id = task_id,s = 400)
                 next_token_logits = outputs[:,-1, :]
 
-            #next_tokens = torch.argmax(next_token_logits, dim=-1).unsqueeze(0)
+            #next_token = torch.argmax(next_token_logits, dim=-1).unsqueeze(0)
             
             filtered_logits = top_k_top_p_filtering(next_token_logits, top_k=top_k, top_p=top_p)  ###[5,50527], 只是大部分都变成了-inf
             next_token = torch.multinomial(F.softmax(filtered_logits, dim=-1), num_samples=1) ##[1222]重复5次
@@ -156,10 +157,10 @@ def generate_thread(domainname):
         fin = open("./data/"+domainname+"/test.txt") #'data/restaurant/test.txt'
         inputs = [i.strip() for i in fin]
         output_tests = []
-        for idx in range(0, len(inputs), 1):
-            if idx % 10 == 0:
-                print(f"PROGRESS: {int(idx/len(inputs)*100)}%",domainname)
-            start = time.time()
+        for idx in tqdm(range(0, len(inputs), 1)):
+            #if idx % 10 == 0:
+            #    print(f"PROGRESS: {int(idx/len(inputs)*100)}%",domainname)
+            #start = time.time()
             lines = inputs[idx]
             raw_text = lines.split(' & ')[0]  ##inform ( name = arabian nights restaurant ; food = arabian ; goodformeal = dinner ) &
             raw_text = raw_text.lower()
@@ -215,19 +216,21 @@ def generate_thread(domainname):
                 text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
                 text = text[: text.find('<|endoftext|>')] ##只取到<endoftext>之前
                 examples.append(text)
-            print("my ",examples[0])
             output_tests.append(examples)
-            end = time.time()
-            print(end-start)
-
-
-        json.dump(output_tests, open("./data/"+domainname+"/result"+args.suffix+".json",'w'), indent=2)
+            #end = time.time()
+            #print(end-start)
+        import os
+        if not os.path.exists("./data/"+domainname+"/result/"):
+            os.makedirs("./data/"+domainname+"/result/")
+        json.dump(output_tests, open("./data/"+domainname+"/result/"+args.suffix+".json",'w'), indent=2)
 
 # 创建新线程
 threads = []
 for domain in args.input_file.split(","):
-    thread = myThread(1, domain, 1,domain)
-    threads.append(thread)
+    generate_thread(domain)
+exit()
+    #thread = myThread(1, domain, 1,domain)
+    #threads.append(thread)
  
 # 开启线程
 for thread in threads:

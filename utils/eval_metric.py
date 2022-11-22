@@ -79,12 +79,14 @@ def moses_multi_bleu(hypotheses, references, lowercase=False):
         bleu_out = bleu_out.decode("utf-8")
         print(bleu_out)
         bleu_score = re.search(r"BLEU = (.+?),", bleu_out).group(1)
+        bleu_all = re.search(r"(.+?)\(BP=", bleu_out).group(1).split(",")[1].strip().split("/")
+        bleu_all = [float(i) for i in bleu_all]
         bleu_score = float(bleu_score)
 
     # Close temp files
     hypothesis_file.close()
     reference_file.close()
-    return bleu_score
+    return bleu_score,bleu_all
 
 def test():
   ref = "I don't like dogs"

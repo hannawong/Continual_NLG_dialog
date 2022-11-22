@@ -10,7 +10,7 @@ class Seq2SeqToD(nn.Module):
     def __init__(self,args,adapter_num = 40):
         super().__init__()
         model = GPT2Adapter.from_pretrained("gpt2")
-        model.add_adapters(args,bottleneck_size=50,adapter_num=1)
+        model.args = args
         print("hahah")
 
         self.model = model
@@ -24,6 +24,12 @@ class Seq2SeqToD(nn.Module):
     def set_number_of_tasks(self,n_tasks):
         self.n_tasks = n_tasks
 
+    def set_up_gem(self):
+        self.grad_dims = []
+        for param in self.model.parameters():
+            self.grad_dims.append(param.data.numel())
+
+        self.grads = torch.Tensor(sum(self.grad_dims), self.n_tasks).cuda()
 
     def compute_PPL(self,input_ids,label,task_id=-1,device='cuda'):
         with torch.no_grad():
@@ -42,6 +48,6 @@ class Seq2SeqToD(nn.Module):
         loss = torch.reshape(loss, shift_labels.size())
         return (loss.sum(1)/(loss!=0).sum(1)).tolist()
 
-    def forward(self, input_ids, labels = None, task_id = -1,attention_mask = None,position_ids=None,past_key_values = None,s = -1,with_adapter = True,last_hidden = False, input_ids_prev = None,labels_prev = None,mix_layer = None):
-        loss = self.model(input_ids=input_ids,labels=labels,task_id=task_id,attention_mask = attention_mask,position_ids = position_ids,past_key_values = past_key_values,s = s,with_adapter = with_adapter,last_hidden = last_hidden,input_ids_prev = input_ids_prev,labels_prev = labels_prev,mix_layer = mix_layer)
+    def forward(self, input_ids, labels = None, task_id = -1,attention_mask = None,position_ids=None,past_key_values = None,s = -1,with_adapter = True,last_hidden = False, input_ids_prev = None,labels_prev = None,mix_layer = None,BNM = False,length = None,is_replay = None):
+        loss = self.model(input_ids=input_ids,labels=labels,task_id=task_id,attention_mask = attention_mask,position_ids = position_ids,past_key_values = past_key_values,s = s,with_adapter = with_adapter,last_hidden = last_hidden,input_ids_prev = input_ids_prev,labels_prev = labels_prev,mix_layer = mix_layer, BNM = BNM,length = length,is_replay = is_replay)
         return loss

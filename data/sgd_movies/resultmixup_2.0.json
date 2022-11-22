@@ -1,0 +1,541 @@
+[
+  [
+    " & hackers it is one of the top 5 movies of all time. the movie has an average rating of 6.2 ",
+    " & hackers it is 6.2 ",
+    " & hackers it is 6.2 stars ",
+    " & hackers it is -6.2 ",
+    " & hackers it is 6.2 "
+  ],
+  [
+    " & how about a madea family funeral with a reviewer score of 4.2? ",
+    " & i've pulled up 10 movies for you. how about a madea family funeral or auntie mame? there is also dr. strangelove. ",
+    " & i found 10 movies for you. may i recommend a madea family funeral movie or auntie mame? the movie has an average rating of 4.2. ",
+    " & i have a madea family funeral that is rated 4.2. would you like me to book that for you? ",
+    " & i have a madea family funeral that has a rating of 4.2. would you like to purchase tickets for that one? "
+  ],
+  [
+    " & i have a madea family funeral and the movie is a madea family funeral. the reviewer score is 4.2. is there anything else i can assist you with? ",
+    " & i have a madea family funeral movie and it is rated 4.2. would you like me to book that for you? ",
+    " @ inform_count ( count = \"4\") & 4 2 movie choices a madea family funeral  how about a madea family funeral  the movie has an average rating of 4.2 ",
+    " & i found 10 movies for you. may i recommend a madea family funeral or auntie mame that is rating 4.2? there is also dr. strangelove. ",
+    " & i have a madea family funeral movie that has an average rating of 4.2. "
+  ],
+  [
+    " & i have 10 available movies for you  there is a madea family funeral that has an average rating of 4.2 ",
+    " & i found 10 movies: a madea family funeral or auntie mame  there is one movie that might interest you ",
+    " & i found 10 movies for you  how about a madea family funeral  the movie has an average rating of 4.2 ",
+    " & i have 10 movies for you  how about a madea family funeral or auntie mame  there is also dr. strangelove ",
+    " & i have 10 movies you might like  i recommend a madea family funeral that has a rating of 4.2 "
+  ],
+  [
+    " & i've pulled up 7 results for that movie. may i recommend either of those of the following movies: josie and the pussycats or the curse of la llorona? ",
+    " & i have josie and the pussycats with a reviewer score of 5.4. ",
+    " & i have josie and the pussycats which has an average rating of 5.4 ",
+    " @ inform_count ( count = \"2\") & there are 2 movies that match your criteria  how about josie and the pussycats  the movie has a reviewer score of 5.4 ",
+    " & i have 1 movie recommendation with a reviewer score of 5.4, would you be interested in seeing josie and the pussycats? "
+  ],
+  [
+    " & there is 1 movie that might interest you. how does josie and the pussycats sound? it's the movie's rating is 5.4. would that suit your needs? ",
+    " & i've pulled up 7 movies for you. where is josie and the pussycats? it has a reviewer score of 5.4. ",
+    " & i have 1 movie recommendation with a 5.4 rating, would you be interested in watching josie and the pussycats? the movie is playing. ",
+    " & i have 1 movie recommendation with a reviewer score of 5.4, would you be interested in watching josie and the pussycats? ",
+    " & i have 1 movie recommendation with a 5.4 rating, how about josie and the pussycats? "
+  ],
+  [
+    " & i found 1 movie you might like  what about josie and the pussycats  that has an average rating of 5.4 ",
+    " & i found 1 movie i think you might like  how about josie and the pussycats  the movie has an average rating of 5.4 ",
+    " & i have 1 movie recommendation with a 5.4 rating, how about josie and the pussycats ",
+    " & i found 1 movie you might like  how about josie and the pussycats  it has an average rating of 5.4 ",
+    " & i found 1 movie you might like  how about josie and the pussycats  the movie has an average rating of 5.4 "
+  ],
+  [
+    " & i can see that pillow talk has a 7.5 rating. would you like me to purchase you a ticket? ",
+    " & i have 1 movie recommendation with a 7.5 rating, would you be interested in pillow talk? ",
+    " & i have 1 movie recommendation with a 7.5 rating, would you be interested in pillow talk? ",
+    " & i have pillow talk, the film is 7.5. ",
+    " & there are 7.5 movies that match your criteria. what time would you like to book a pillow talk show? "
+  ],
+  [
+    " & there is pillow talk that has a reviewer score of 7.5. is that ok? ",
+    " & there are 7.5 movies showing. what time would you like to leave? ",
+    " & i've found 1 movie you might like. it's called pillow talk. the movie has an average rating of 7.5. is there anything else i can help you with today? ",
+    " & i found 1 movie you might like. it's called pillow talk. the movie has an average rating of 7.5. ",
+    " & i found 1 movie you might like. how about pillow talk? the movie has an average rating of 7.5. "
+  ],
+  [
+    " & i have 10 results for you, do you have a day you want to leave? ",
+    " & there are 10 movies that might interest you  how about pillow talk or the man who knew too much ",
+    " & i found 10 movies that might interest you  how about pillow talk, with an average rating of 7.5 ",
+    " & i have 10 movies you might want to check out  there is pillow talk that has a reviewer score of 7 ",
+    " & the average rating of pillow talk is 7.5 "
+  ],
+  [
+    " & the director is michael gordon and the movie is directed by michael gordon. ",
+    " & it will be directed by michael gordon. ",
+    " & the director is michael gordon. ",
+    " & the director is michael gordon and the main actor in this movie is the director. ",
+    " & the director is michael gordon and the movie is directed by michael gordon. "
+  ],
+  [
+    " & i have 1 movie recommendation with a 7.8 rating, would you be interested with a seat? ",
+    " & i have 1 movie recommendation with a 7.8 rating, would you be interested in seeing hotel mumbai? ",
+    " & there is 1 movie you might like. how about hotel mumbai? the movie has an average rating of 7.8. ",
+    " & i've pulled up 10 movies for you. how about hotel mumbai? the movie has an average rating of 7.8. ",
+    " & there is 1 movie that might interest you. it's a hotel mumbai movie. the reviewer is a reviewer at 7.8, would you like me to book it for you? "
+  ],
+  [
+    " & how about breakthrough? it has an average rating of 5.6. ",
+    " & there are 7 movies that might interest you. how does captain marvel, how to train your dragon: the hidden world or little? ",
+    " & how about breakthrough? it was rated 5.6. ",
+    " & i found 1 movie you might like. how about breakthrough? the movie has an average rating of 5.6. ",
+    " & there are 7 movies that might interest you. how about breakthrough, with an average rating of 5.6? "
+  ],
+  [
+    " & there is 1 movie that might interest you. it's called breakthrough. it has an average rating of 5.6. are you interested? ",
+    " & sure. i have a movie that is considered one of the best of times, called breakthrough. the movie has an average rating of 5.6. ",
+    " & i have 9 movies you may like. what is your take on breakthrough? it's rating is 5.6. ",
+    " & how about breakthrough? it is rated 5.6 with a reviewer score of 5.6? ",
+    " & there is 1 movie you might like. it's called breakthrough. it has an average rating of 5.6. are you interested? "
+  ],
+  [
+    " & i have 1 movie recommendation with a reviewer rating of 5.6 ",
+    " & i found 1 movie you might like  what do you think about breakthrough  it is rated 5.6 ",
+    " & i found 1 movie you might like  it's called breakthrough  the movie has an average rating of 5.6 ",
+    " & i have 1 movie recommendation with a 5.6 rating, would you be interested in seeing breakthrough ",
+    " & i found 1 movie you might like  how about breakthrough  the movie has an average rating of 5 "
+  ],
+  [
+    " & the director is roxann dawson. ",
+    " & the director is roxann dawson and the main actor is roxann dawson. ",
+    " & the director is roxann dawson. ",
+    " & the director is roxann dawson and the main actor is roxann dawson. ",
+    " & it was directed by roxann dawson. "
+  ],
+  [
+    " & there's 1 movie that might interest you. it's the visitor. it has an average rating of 7.7. are you interested? ",
+    " & i have 1 movie recommendation with a reviewer score of 7.7, would you be interested in the visitor? ",
+    " & i have 1 movie recommendation with a 7.7 rating, would you be interested in the visitor? ",
+    " & i'm sorry. the visitor has a rating of 7.7. does that sound like it would work better for you? ",
+    " & i found 1 movie you might like. it's about the visitor with an average rating of 7.7. is there anything else i can do for you? "
+  ],
+  [
+    " & the visitor is the only 1.7 movie you might want to check out. it's called the visitor with a reviewer score of 7.7. ",
+    " & i have 1 movie recommendation with a reviewer score of 7.7, would you be interested in the visitor? ",
+    " & i can see that the visitor has a reviewer score of 7.7. how does that sound? ",
+    " & there is 1 movie that might interest you. it's the visitor. the reviewer has a 7.7 rating. is there anything else i can assist you with? ",
+    " & the visitor has an average rating of 7.7. does that sound like it would work for you? "
+  ],
+  [
+    " & i have 1 movie recommendation with a 7.7 rating, would you be interested in the visitor ",
+    " & 1 movie is there and what is your thoughts on the visitor ",
+    " & i found 1 movie you might like  how does the visitor sound ",
+    " & i found 1 movie you might like  how about the visitor  the visitor has a reviewer score of 7.7 ",
+    " & i have 1 movie recommendation with a 7.7 star rating, would you be interested in the visitor "
+  ],
+  [
+    " & i have a movie you may like. how about josie and the pussycats? the movie has an average rating of 5.4. ",
+    " & i have 1 movie recommendation with a reviewer of 5.4, would you be interested in josie and the pussycats? ",
+    " & i found 1 movie you might like. how about josie and the pussycats? the movie has an average rating of 5.4. ",
+    " & i have 1 movie recommendation with a reviewer score of 5.4, would you like to purchase a ticket? ",
+    " & josie and the pussycats is the 5.4 average rating of that movie. "
+  ],
+  [
+    " & i have 1 movie recommendation with a reviewer score of 7.4, would you be happy to review it? ",
+    " & i have 1 film recommendation with a 7.4 rating, would you be interested in seeing say anything? ",
+    " & there is 1 movie that might interest you. it's a film calledsay anything. it's rated 7.4. ",
+    " & there are 7.4 movies that might interest you. what time would you like to leave? ",
+    " & there are 7 movies that might interest you. what is your average rating onsay anything? "
+  ],
+  [
+    " & i've got say anything with a reviewer score of 7.4. ",
+    " & i can see thatSay anything is the highest reviewer of that movie and it is the film average rating of 7.4 ",
+    " & there are 7.4 movies. what day and time would you like to leave? ",
+    " & there is 1 movie that might interest you. it's say anything. it's rated 7.4. would you like me to reserve that for you? ",
+    " & there are 7 movies that might interest you. what are you looking to find out aboutsay anything? it has a reviewer rating of 7.4 "
+  ],
+  [
+    " & i have 10 movies you might like  how does say anything sound ",
+    " & i have 10 movies that might interest you  what do you think of say anything ",
+    " & i have 10 movies you might like  may i suggest say anything ",
+    " & i found 10 movies you might like  there's a film calledsay anything  it's rated 7.4 ",
+    " & i have 10 movies for you  may i suggest say anything  the average rating is 7.4 "
+  ],
+  [
+    " & it is listed as aromance. ",
+    " & it is listed as aromance. ",
+    " & the movie is now playing. it is considered a romance movie. ",
+    " & it is considered aromance. ",
+    " & it's listed as a romance movie. is there anything else i can help you with today? "
+  ],
+  [
+    " & the director is cameron cusack and the main actor is joan cusack. ",
+    " & the movie is directed by cameron crowe and the actor is joan cusack. ",
+    " & the director is cameron crowe and the actor is joancusack. ",
+    " & the director is cameron cusack and the main actor in this movie is joan cusack. ",
+    " & the director of that movie is cameron crowe and the main actor is joan cusack. "
+  ],
+  [
+    " & i have 1 movie that might interest you. ramen shop is one of the movies that might interest you. it has an average rating of 6.8. ",
+    " & i can see that there is 1 movie you might like. how about ramen shop? the reviewer has an average rating of 6.8. ",
+    " & i have 1 movie that might interest you. it's a film called ramen shop. the movie has an average rating of 6.8. ",
+    " & i have 1 movie recommendation with a 6.8 rating, would you be interested in ramen shop? ",
+    " & the average rating of the movie is 6.8. "
+  ],
+  [
+    " & i have 1 movie recommendation with a 6.8 rating, would you be interested in ramen shop or would you like to purchase tickets? ",
+    " & there is 1 movie that might interest you. it's a ramen shop movie. the rating is 6.8. would you like to purchase tickets for that one? ",
+    " & i have 1 movie you might like. it's a ramen shop movie. it's rated 6.8. ",
+    " & there is 1 movie you might like. it's a film called ramen shop. the reviewer score is 6.8. is there anything else i can help you with? ",
+    " & i found 1 movie you might like. it's called ramen shop. it's rating is 6.8. "
+  ],
+  [
+    " & i have 10 results for that search, did you come to mind at a certain time you might like to watch ramen shop ",
+    " & i have 10 movies that might work for you  how about ramen shop  the movie has an average rating of 6.8 ",
+    " & i have 10 movies for you : a nice aggregate score of 6.8 is a nice movie ",
+    " & i found 10 movies for you  how about ramen shop  the film has an average rating of 6.8 ",
+    " & i have 10 options for you: a film review, with an average rating of 6.8 "
+  ],
+  [
+    " & i have 1 movie recommendation with a 7.7 rating, would you be interested in the visitor? ",
+    " & there is 1 movie that might interest you. it's the visitor. it's rated 7.7. would you like to purchase tickets now? ",
+    " & the visitor movie has an average rating of 7.7. ",
+    " & i found 1 movie you might like. how about the visitor? the movie has an average rating of 7.7. ",
+    " & there is 1 movie you might like. how about the visitor? the movie has an average rating of 7.7. are you interested? "
+  ],
+  [
+    " & i have a movie that might interest you. how about josie and the pussycats? the movie has an average rating of 5.4. ",
+    " & i found 1 movie you might like. how about josie and the pussycats? the film has an average rating of 5.4. ",
+    " & how about josie and the pussycats with a reviewer score of 5.4? ",
+    " & i have 1 movie recommendation with a 5.4 rating, would you be interested in josie and the pussycats? ",
+    " & i found 1 movie you might like. how about josie and the pussycats? the movie has an average rating of 5.4. "
+  ],
+  [
+    " & i have josie and the pussycats with an average rating of 5.4. ",
+    " & i have josie and the pussycats, with a reviewer score of 5.4. ",
+    " & i have josie and the pussycats with a reviewer score of 5.4. ",
+    " & i have 1 movie recommendation with a 5.4 rating, would you be interested in watching josie and the pussycats? ",
+    " & i have 1 movie recommendation with a reviewer score of 5.4, would you be interested in watching josie and the pussycats? "
+  ],
+  [
+    " & i found 1 movie you might like  how about josie and the pussycats  the movie has an average rating of 5.4 ",
+    " & i found 1 movie that might interest you  josie and the pussycats is one of those movies that might interest you  the movie has an average rating of 5.4 ",
+    " & i have 1 movie recommendation with a 5.4 rating, what day would you like to watch josie and the pussycats ",
+    " & i have 1 movie recommendation with a 5.4 rating, josie and the pussycats ",
+    " & i found 1 movie you might like  how about josie and the pussycats  the movie has an average rating of 5.4 "
+  ],
+  [
+    " & i have 1 movie recommendation with a 8.0 rating, would you be interested in auntie mame? ",
+    " & there is 1 movie you might like. it's a movie called auntie mame. the movie has an average rating of 8.0. ",
+    " & i've located 1 movie, the auntie mame movie, which has an average rating of 8.0, with a reviewer score of 8.0. is there anything else you need? ",
+    " & i have 1 movie recommendation with an average rating of 8.0, would you be interested in a movie with an average rating of 8.0? ",
+    " & how about auntie mame? the movie has an average rating of 8.0. "
+  ],
+  [
+    " & i have auntie mame with an average rating of 8.0. would you be interested in seeing another movie? ",
+    " & i have 1 movie you might like. do you have a specific day or time in mind? ",
+    " & there is 1 movie you might like. how about auntie mame? the movie has an average rating of 8.0. do you have any questions? ",
+    " & i have 1 movie recommendation with a 8.0 rating, would you be interested in auntie mame? ",
+    " & i have 1 movie recommendation with a 8.0 rating, would you be interested in auntie mame? "
+  ],
+  [
+    " & 10 movies i found i think you might like ",
+    " & i have 10 results that might interest you  how about auntie mame  the movie has an average rating of 8.0 ",
+    " & i have 10 results for you, how about auntie mame  the movie has an average rating of 8.0 ",
+    " & 10 movies i have found - how about auntie mame  the movie has an average rating of 8.0 ",
+    " & i have 10 movies for you  how about auntie mame  the movie has an average rating of 8.0 "
+  ],
+  [
+    " & i have 1 movie recommendation with a 6.6 rating, would you be interested in dumbo ",
+    " & i have 1 movie recommendation with that rating, do you have a day you'd like to travel? ",
+    " & i've pulled up 10 results, do you have a preferred movie or television show you are interested in? ",
+    " & i have 1 movie recommendation with a 6.6 rating, would you be interested in dumbo? ",
+    " & i have a 6.6 rating with an average rating of 6.6. "
+  ],
+  [
+    " & i have 1 movie recommendation with a 6.6 rating, would you be interested in seeing the movie or would you prefer to watch the show? ",
+    " & i can see that there is 1 movie that might interest you. it's a dumbo movie. the movie has an average rating of 6.6. are you interested? ",
+    " & i can see that there is 1 movie that might interest you. it's a dumbo movie, with an average rating of 6.6. are you interested? ",
+    " & i can see that there are 6 movies you might like. what is your opinion on dumbo? the movie's rating is 6.6. ",
+    " & the movie i found is dumbo. it has average rating 6.6. "
+  ],
+  [
+    " & i found 1 movie you might like  how about dumbo  it's the first movie i have ",
+    " & i have 1 movie that might interest you  it's a dumbo movie  the movie has an average rating of 6.6 ",
+    " & i found 1 movie you might like  how about dumbo  it has an average rating of 6.6 ",
+    " & i have 1 movie recommendation with a 6.6 rating, would you be interested in seeing dumbo ",
+    " & i have 1 movie recommendation with a 6.6 rating, would you like to purchase tickets to the 2 movies i mentioned earlier "
+  ],
+  [
+    " & there is 1 movie you might like. it's pillow talk, with an average rating of 7.5. is there anything else i can do for you today? ",
+    " & there are 10 movies that might interest you. how about pillow talk? the actor is the main actor, and the movie has an average rating of 7.5. ",
+    " & i've got pillow talk with a reviewer of 7.5. would you like to buy tickets to that show? ",
+    " & there are 7.5 movies that meet your requirements. what time are you planning to leave? ",
+    " & i have 1 movie recommendation with a reviewer rating of 7.5. would you be interested in pillow talk? "
+  ],
+  [
+    " & the movie is now playing. michael gordon directed the movie. it's called romance. ",
+    " & the director is michael gordon and the movie is a romance movie. ",
+    " & the director is michael gordon and it is a romance movie ",
+    " & the director is michael gordon and the main actor is michael gordon. what is your take on romance? ",
+    " & it was directed by michael gordon. "
+  ],
+  [
+    " & the visitor is one of those movies that might interest you. it has an average rating of 7.7. are you interested? ",
+    " & i have 1 movie recommendation with a 7.7 rating, would you be interested in a ticket to the visitor? ",
+    " & there is 1 movie you might like. the visitor might like it. it has an average rating of 7.7. ",
+    " & i've pulled up 1 movie for you. it's a visitor movie, with an average rating of 7.7. ",
+    " & the visitor has an average rating of 7.7. would you like to book tickets now? "
+  ],
+  [
+    " & i have the visitor rating of 7.7. would you like me to find a reviewer on the visitor? ",
+    " & i have 1 movie recommendation with a reviewer score of 7.7, would you be interested in the visitor? ",
+    " & i have 1 movie recommendation with a reviewer score of 7.7 you might like, would you be interested in the visitor? ",
+    " & there is 1 movie that might interest you. that movie is the visitor. it's rated 7.7. would you like to purchase tickets? ",
+    " & how about the visitor? it is rated 7.7 and has an average rating of 7.7? "
+  ],
+  [
+    " & i have 1 movie recommendation with a 7.7 rating, would you be interested in the visitor ",
+    " & there are 1 movies you might like  how about the visitor  it has an average rating of 7.7 ",
+    " & i have 1 movie that might interest you  it's the visitor with an average rating of 7.7 ",
+    " & the visitor is the visitor with an average rating of 7 ",
+    " & there are 1 movies: the visitor  it is rated 7.7 "
+  ],
+  [
+    " & the movie is playing. it's a romance movie. ",
+    " & it is listed as a romance movie. ",
+    " & the movie is listed as aromance. ",
+    " & it is listed as a romance movie, do you have a specific genre? ",
+    " & the movie is playing. it should be around $17 per ticket. "
+  ],
+  [
+    " & there is one cut of the dead that is 100 percent 100 percent 100 percent correct? ",
+    " @ inform_count ( count = \"2\") & i found 2 movies: one cut of the dead  the movie is one cut of the dead and the percent rating is 100 percent ",
+    " & i can recommend one cut of the dead with a 100 percent rating of 100 percent. would you like to watch one of those? ",
+    " & i found 1 movie you might like. how about one cut of the dead with an average rating of 100 percent? ",
+    " & i'm sorry. i can't help you with anything else. there are only a few movies that might interest you. what day do you want to watch one cut of the dead? the average rating for that movie is 100 percent. "
+  ],
+  [
+    " & i found 1 movie you might like. that movie is one cut of the dead, with an average rating of 100 percent. ",
+    " & there is one cut of the dead that has an average rating of 100 percent. would you like me to book this for you? ",
+    " & there are 10 movies that meet your criteria. what day and time do you want to leave? ",
+    " & i have one of those, one cut of the dead, with a 100 percent rating, does that sound like you would like to book that? ",
+    " & i have one cut of the dead with a 99.9 percent rating. would you like me to book it for you? "
+  ],
+  [
+    " & there are 10 movies i have found  there are 10 movies that match that criteria  how about one cut of the dead  it has a 100 percent rating ",
+    " & i have 10 movies that might interest you  may i suggest one cut of the dead that meets your criteria  the movie has a 100 percent rating ",
+    " & there are 10 movies i have for you  how about one cut of the dead  the movie has a 100 percent rating of 100 ",
+    " & there are 10 movies i think might interest you. how does one cut of the dead sound? ",
+    " & i do have 10 movies that might interest you  how about one cut of the dead that has a 100 percent rating, or does one cut of the dead sound like a good movie "
+  ],
+  [
+    " & the movie's director is manabu hosoi. ",
+    " & the director is manabu hosoi. ",
+    " & the actor is manabu hosoi. ",
+    " & the actor is manabu hosoi. ",
+    " & the actor is makabu hosoi. "
+  ],
+  [
+    " & the director is shinichirou ueda and the main actor is shinichirou. ",
+    " & the movie is directed by shinichirou ueda. the director is shinichirou ueda. ",
+    " & the movie is directed by shinichirou ueda. the director is ",
+    " & the director is shinichirou ueda and the main actor is shinichirou ueda. ",
+    " & the director is shinichirou ueda and the main actor is shinichirou ueda. "
+  ],
+  [
+    " & i have 1 movie recommendation with a 92 percent rating, would you be interested in a camel aviv on fire? ",
+    " & sure, i have a nice 1 percent rating, andtel aviv on fire is also available for pickup on tuesday. ",
+    " & there is 1 movie that might interest you. it's a movie called tel aviv on fire, with a 92 percent rating. is there anything else? ",
+    " & i have one showing on tennant station for you at 9:01. the movie istel aviv on fire. the movie rating is 92 percent. ",
+    " & how abouttel aviv on fire with an average rating of 92 percent "
+  ],
+  [
+    " & the movie is directed by amardehlehel. ",
+    " & it is directed by amiller hlehel. ",
+    " & it is directed by am! hlehel. ",
+    " & the director is amher hlehel. ",
+    " & the director is steven spielberg "
+  ],
+  [
+    " & the director is sameh zoabi and the main actor is sameh zoabi. ",
+    " & the director is sameh zoabi. ",
+    " & the director is sameh zoabi. ",
+    " & the director is sameh zoabi ",
+    " & it was directed by sameh zoabi. "
+  ],
+  [
+    " & i have 1 option you might like. you might like to watch my big fat greek wedding? the average rating for that movie is 76 percent. ",
+    " & i found 7 results. how about my big fat greek wedding? the movie has an average rating of 76 percent. ",
+    " & i've found 1 movie you might like. it's a film called my big fat greek wedding with an average rating of 76 percent. would you be interested? ",
+    " & i have 1 showing of my big fat greek wedding. the rating is 76 percent. ",
+    " & i have 1 showing of my big fat greek wedding with an average rating of 76 percent. "
+  ],
+  [
+    " & the director is joel zwick ",
+    " & the director is joel zwick. ",
+    " & the director is joel zwick. ",
+    " & it is directed by ",
+    " & it was directed by kl. "
+  ],
+  [
+    " & the movie is a comedy and is playing. ",
+    " & the director is andrea martin and the cast is andrea martin. ",
+    " & the actor is andrea martin and the movie is playing. ",
+    " & andrea martin is the actor. the movie is a comedy. ",
+    " & the movie is a comedy and it is listed as an erotic movie. "
+  ],
+  [
+    " & how about tigers are not afraid of the dangers of the wild? it is 96. ",
+    " & there are tigers are not afraid of anything. the movie rating is 96 percent. ",
+    " & there are tigers are not afraid  the average rating of the average movie is 96 percent. ",
+    " & i have 1 movie recommendation with an 96 percent rating, do you have a preference? ",
+    " & tigers are not afraid of anything! the movie rating is 96 percent. "
+  ],
+  [
+    " & i found 1 movie that might interest you. it's a film calledriot girls. the rating of that movie is 100 percent. is there anything else? ",
+    " & i found 1 movie you might like. how aboutriot girls? the movie has an average rating of 100 percent. do you have a preference? ",
+    " & sure, there are 10 movies that might interest you. what is your average rating? ",
+    " & there are 10 movies. what is your opinion onriot girls? the movie has an average rating of 100 percent. ",
+    " & there are 10 movies that might interest you. what time would you like to leave? "
+  ],
+  [
+    " & the movie is listed as an action movie. ",
+    " & it is listed as an adventure movie. ",
+    " & it is listed as an action movie. ",
+    " & it is listed as anaction movie. ",
+    " & it will be an action movie. "
+  ],
+  [
+    " & hobbs and shaw has an average rating of 67 percent. ",
+    " & there is 1 movie that might interest you. how about hobbs and shaw? the film's rating is 67 percent. ",
+    " & i have 1 movie recommendation with an average rating of 67 percent, would you be interested in hobbs and shaw? ",
+    " & there are 7 movies. do you have a rating score that matches your criteria? ",
+    " & i've found 1 movie you might like. how about hobbs and shaw? the movie has an average rating of 67 percent. "
+  ],
+  [
+    " & there you have it. 47 meters down: uncaged has a 45 percent rating and is considered to be one of the 10 movies that might interest you. is there anything else you need to know? ",
+    " & i have 47 meters down: uncaged with a 43 percent rating. would you like me to book that for you? ",
+    " & i have 47 meters down: uncaged with a 43 percent rating. ",
+    " & there are 47 meters down: uncaged with a rating of45 percent ",
+    " & i have 7 available - do you have a preferred movie playing now? "
+  ],
+  [
+    " & how about 47 meters down: uncaged with a 43 percent rating? ",
+    " & there is 1 movie that might interest you. it's called 47 meters down: uncaged. the movie has an average rating of 45 percent. ",
+    " & i've located 1 movie. it's a 47 meters down: uncaged movie. ",
+    " & i have 47 meters down: uncaged that reviewer has a reviewer rating of45 percent. ",
+    " & i have 7 available. there is a 43 percent average rating on that movie. "
+  ],
+  [
+    " & 6 movies i found are either: 7: the curse of la llorona ",
+    " & 6 movies i found - do you have a specific movie recommendation or a time you'd like to travel ",
+    " & i found 6 results that might interest you  how about the 7th movie i found you needing help with  there's a 47 meters down: uncaged movie that is also a 45 percent rating ",
+    " & there's 6 movies that might work for you  one's a 7-minute movie that departs at 47 meters down: uncaged ",
+    " & there are 6 available - do you have a preference for either of those 2 movies "
+  ],
+  [
+    " & i have a movie that might interest you. that's in fabric. the movie's rating is 96 percent. ",
+    " & i found 1 movie that might interest you. it's in fabric, with an average rating of 96 percent. ",
+    " & i have 1 movie recommendation with a 96 percent rating, would you be interested in in in fabric? ",
+    " & i have 1 movie recommendation with a 96 percent rating, would you like to purchase tickets for that one? ",
+    " & how about in fabric? it is the 95 percent rating of 96 percent. "
+  ],
+  [
+    " & it was directed by hayley squires and it is playing! ",
+    " & the main actor is hayley squires and the main movie is playing. ",
+    " & the director is the hayley squires and the main actor is hayley squires. ",
+    " & the director is hayley squires and the main actor is the actor of stanford. ",
+    " & the director is hayley stanley. he is the director and the main actor are hayley stanley. "
+  ],
+  [
+    " & i have 1 movie recommendation with a 92 percent rating, would you be interested in a movie like give me liberty? ",
+    " & i have 1 movie recommendation with a 92 percent rating, would you be interested in a little liberty? ",
+    " & how about give me liberty? it is rated 92 percent. ",
+    " & there is 1 movie that might interest you. it's a film called give me liberty with a 92 percent rating. is that okay? ",
+    " & sure thing. the movie give me liberty has an average rating of 92 percent. "
+  ],
+  [
+    " & i have 1 movie recommendation with an average rating of 92 percent, is there anything else i can do for you today? ",
+    " & sure, i have 1 movie recommendation with a 92 percent rating, would you be interested in a movie like give me liberty? ",
+    " & i have a 92 percent rating on give me liberty. does that sound like you would like me to book that for you? ",
+    " & i have give me liberty with a 91 percent rating, do you have a preference? ",
+    " & i have 1 movie recommendation with a 92 percent rating, would you like to watch give me liberty? "
+  ],
+  [
+    " & i have 1 movie that might interest you  give me liberty in a movie rating of 92 percent ",
+    " & i found 1 movie: give me liberty with an average rating of 92 percent ",
+    " & i have 1 movie recommendation with a 92 percent rating, would you be interested in give me liberty ",
+    " & i found 1 movie you might like  it's a film called give me liberty  the rating is 92 percent ",
+    " & i found 1 movie you might like  it's a film called give me liberty  the movie score is 92 % "
+  ],
+  [
+    " & the actor is daria ekamasova. ",
+    " & the main actor is cinekamasova. ",
+    " & it's cast is daria ekamasova and the movie is playing. ",
+    " & the director is daria ekamasova. ",
+    " & the movie is playing. there's a daria ekamasova in it. "
+  ],
+  [
+    " & i can recommend 10 movies that might interest you. how does angel have fallen sound? the movie has an average rating of 39 percent. ",
+    " & i have 1 movie recommendation with a rating of 39 percent, would you be interested in Angel has fallen? ",
+    " & i have 1 movie recommendation with a rating of39 percent, would you be interested in a more in depth look at angel has fallen ",
+    " & i'm sorry. i have a movie that might interest you. it's a film that has an average rating of (39 percent. do you have a specific day you're traveling? ",
+    " & there are 10 movies that might interest you. what is your opinion on angel has fallen? the rating rating is 39 percent. is there anything else? "
+  ],
+  [
+    " & i have 1 movie for you.angel has fallen with an average rating of 39 percent. ",
+    " & there is 1 movie which might interest you. what is your rating? it's 39 percent chance of rain. ",
+    " & the film has fallen to 39. would you like me to book it for you? ",
+    " & i have 1 movie recommendation with a 39 percent rating, would you like to purchase a ticket for me to angel has fallen? ",
+    " & i have 1 movie recommendation with a 39. percent rating, would you be interested in a movie? "
+  ],
+  [
+    " & i have 10 available movies  angel has fallen has a rating of39 percent ",
+    " & i found 10 results on that search  there's 10 movies that might interest you  how does angel have fallen with an average rating of 39 percent? ",
+    " & i have 10 movies for you angel has fallen is the only movie that meets your criteriainform_count ( count = \"10\") & there are 10 movies: how about an average rating of 39 percent ",
+    " & i have 10 results for you, may i help you with anything else? ",
+    " & 10 movies have your attention. there's a lot of them available angel has fallen, with a 39 percent rating "
+  ],
+  [
+    " & the director is steven spielberg and the main actor is regal lon. ",
+    " & the director isric roman waugh. ",
+    " & the director is roman waugh. ",
+    " & the director is roman waugh. ",
+    " & the director is steven spielberg and the main actor isric roman waugh. "
+  ],
+  [
+    " & the movie is playing. it is an action movie. ",
+    " & it is listed as an action movie. ",
+    " & it is listed as an action movie. ",
+    " & it is listed as an action movie. ",
+    " & it is listed as an action movie. "
+  ],
+  [
+    " & i have 1 movie that once upon a time in hollywood has a 85 percent rating. would you like to purchase tickets? ",
+    " & there is once upon a time in hollywood with an average rating of 85 percent. ",
+    " & sure, i've found 1 movie you might like. it's once upon a time in hollywood. the movie has an average rating of 85 percent. are you still interested? ",
+    " & sure. the average rating of once upon a time in hollywood is 85 percent. ",
+    " & how about once upon a time in hollywood with an 85 percent rating? "
+  ],
+  [
+    " & the director is quentin tarantino and the main actor is timothy olyphant. ",
+    " & the director is quentin tarantino. the main actor is timothy olyphant. ",
+    " & the movie is directed by quentin tarantino and the actor is timothy olyphant. ",
+    " & the director is quentin tarantino and the main actor is timothy olyphant ",
+    " & the director is the director and the main actor is timothy olyphant "
+  ],
+  [
+    " & there is 1 movie that might interest you. how about the angry birds movie 2? the rating is 72 percent. ",
+    " & i have the angry birds movie 2 with an average rating of 72 percent. ",
+    " & there are 2 movies that might interest you. how about the angry birds movie 2? the movie has an average rating of 72 percent? ",
+    " & how about the angry birds movie 2? the rating is 72 percent. ",
+    " & i have 1 movie recommendation with a 72 percent rating, would you be interested in the angry birds movie 2? "
+  ],
+  [
+    " & the movie is an animation. ",
+    " & it is listed as an animation movie. ",
+    " & it is listed as an animation movie. ",
+    " & it is listed as an animation movie. ",
+    " & it is listed as an animation movie. "
+  ]
+]
