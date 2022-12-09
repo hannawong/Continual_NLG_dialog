@@ -1,0 +1,1022 @@
+INFORM ( phone_number = "312-374-8790" ; good_for_kids = "True") & Indeed, the museum is friendly to children, and the contract number is 312-374-8790.
+restaurant_reservation ( name_restaurant = "Cesario's") & let me take a look I found Marcella's Lasagneria, Perbacco and Cesario's.
+restaurant_reservation ( name_restaurant = "jack's urban eats") & sure, let me find one. i found one called jack's urban eats. it is described as a Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine.
+restaurant_reservation ( name_restaurant = "PHO HUYNH SANG") & Okay, let me see what I can find. Perilla might be the place for you, many reviews rave about their Garlic noodles. But there is also PHO HUYNH SANG which offers a large variety of vegetarian foods.
+restaurant_reservation ( name_restaurant = "Wayfare Tavern" ; location_restaurant_accept = "Sacramento Street") & The second one is Wayfare Tavern on Sacramento Street.
+restaurant_reservation ( location_restaurant = "downtown") & Sure, got it! should the restaurant be close to downtown?
+restaurant_reservation ( location_restaurant = "sacramento") & ok, what part of sacramento are you in?
+restaurant_reservation ( reservation_accept = "confirmed" ; time_reservation_accept = "friday, march 15th at 8:30pm" ; num_guests_accept = "2" ; name_restaurant_accept = "manzoni") & ok. your reservation is confirmed for friday, march 15th at 8:30pm for 2 people' at manzoni.
+restaurant_reservation ( name_restaurant = "the little chihuahua") & that would be the little chihuahua.
+restaurant_reservation ( num_guests_accept = "2 People" ; name_restaurant_accept = "Matador" ; time_reservation_accept = "5 pm tonight") & So I have a reservation for 2 People at Matador at 5 pm tonight anything else?
+restaurant_reservation ( name_restaurant = "Seasons 52") & i found: Buckhorn Grill, a Family-friendly chain offering large portions of steaks, sandwiches, burgers & other American fare. and i also found: Seasons 52, Rotating menu of seasonal American dishes alongside international wines in an upscale setting.
+restaurant_reservation ( name_restaurant = "paesanos") & paesanos have 4.4 star rating.
+restaurant_reservation ( name_restaurant = "tommaso's" ; location_restaurant_accept = "downtown san francisco.") & tommaso's is near downtown san francisco.
+restaurant_reservation ( name_restaurant_accept = "alegrias" ; time_reservation_accept = "friday, february 1st at 8:00pm" ; num_guests_accept = "8") & ok, your reservation at alegrias is confirmed for friday, february 1st at 8:00pm for 8 people.
+restaurant_reservation ( num_guests_accept = "3 people" ; name_restaurant_accept = "Baby Blues BBQ" ; time_reservation_accept = "6 pm") & got it. One moment. So I have a table for 3 people at Baby Blues BBQ at 6 pm tomorrow.
+restaurant_reservation ( location_restaurant_accept = "san francisco") & mexican restaurant in san francisco is that right?
+restaurant_reservation ( name_restaurant = "Piatti") & i found The Cheesecake Factory: American chain restaurant offering sizable portions from a vast menu including signature cheesecake. i also found Piatti: Traditional Italian trattoria with an open kitchen & pizzas from a stone-hearth oven. and Dos Coyotes Border Cafe: Colorful local chain cafe serving Mexican & Southwestern favorites, salsa & seasonal specials.
+restaurant_reservation ( num_guests = "3" ; time_reservation = "7 p.m") & Okay, great! I'll note that on the reservation! one moment You're table for 3 at 7 p.m. has been confirmed. You can see the details on your mobile device as well as the address to the restaurant.
+restaurant_reservation ( name_restaurant = "The Rind") & The last one is The Rind. which offers, Beer, wine & cheese are the draw this urbane, warm-hued bar with tastings & seasonal cafe bites.
+restaurant_reservation ( name_restaurant_accept = "china fun express") & china fun express has 3.8 stars.
+restaurant_reservation ( name_restaurant = "Pearl's") & Pearl's has been reviewed by just over 800.
+restaurant_reservation ( name_restaurant = "waterfront restaurant") & most definitely, alioto's has a 4.0 star rating and 1394 google reviews, while waterfront restaurant has a 4.1 star rating and 721 reviews on google.
+restaurant_reservation ( name_restaurant = "firepie") & one moment please. ok, i found a few options. the first is little star pizza. Busy chain outpost known for deep-dish pies with a cornmeal crust also turns out thin-crust pizza. the second is called fire pie. unfortunately firepie does have a description online.
+restaurant_reservation ( type_seating = "outdoor") & sure, did you have any specifications i should look up as well? for example, outdoor seating.
+restaurant_reservation ( location_restaurant = "arden fair mall") & ok, what part of sacramento are you in? i'm sorry, i didn't get that. did you say arden fair mall?
+restaurant_reservation ( name_restaurant = "carmel pizza company") & are there any other characteristics you would like the restaurant to have? ok, let me find a few options for you, one moment. i found golden boy pizza and carmel pizza company, would you like to hear more about each?
+music ( name_artist = "Rage Against the Machine" ; name_track = "sleep now in the fire") & Okay. Here is Rage Against the Machine sleep now in the fire.
+music ( name_artist = "Smash Mouth" ; name_track = "Stoned") & Smash Mouth - Stoned.
+music ( name_genre = "Christmas" ; name_artist = "Led Zeppelin") & Here's the Popular Christmas song by Led Zeppelin.
+music ( name_artist = "Trace Adkins") & How about Trace Adkins?
+music ( name_artist = "Oceans Ate Alaska" ; name_track = "Hansha") & Here is Wage War - Stitch. Here is Wage War - Stitch. And Oceans Ate Alaska - Hansha.
+music ( name_track = "Rico Suave" ; name_artist = "Gerardo") & Okay. Rico Suave by Gerardo.
+music ( name_album = "La Bicicleta" ; name_artist = "Shakira") & Here is La Bicicleta by Carlos Vives and Shakira.
+music ( name_track = "Half Of My Heart" ; name_artist = "John Mayer") & "Half Of My Heart" - John Mayer.
+music ( name_track = "the bottle" ; name_artist = "Jill Scott Heron") & How can I help you? Here is Jill Scott Heron performing the bottle.
+music ( name_album = "the Psychedelic Furs" ; name_track = "Flowers") & One second. Here is Flowers by the Psychedelic Furs.
+music ( name_track = "Free Fallin" ; name_artist = "tom petty") & Okay, how about the song Free Fallin by tom petty?
+music ( name_album = "Chained to the rhythm" ; name_artist = "Katy Perry") & One moment. Here is Chained to the rhythm by Katy Perry.
+music ( name_artist = "New Edition") & What about New Edition?
+music ( name_track = "Panama) & Sure. Panama (2015 Remastered Version).
+music ( name_track = "Close Your Eyes" ; name_artist = "Michael Buble") & Here is your song, Close Your Eyes by Michael Buble.
+music ( name_track = "Faint" ; describes_artist = "Linkin Park") & Faint by Linkin Park. Okay, Bye.
+music ( name_track = "24 Karat Magic" ; name_artist = "Bruno Mars") & Here is 24 Karat Magic by Bruno Mars.
+music ( name_artist = "Bones" ; name_track = "Keep Telling Yourself That") & Keep Telling Yourself That by Bones.
+music ( name_track = "Live Forever") & Here's the song Live Forever.
+music ( name_artist = "Oasis" ; name_track = "D’You Know What I Mean") & Here is Oasis - D’You Know What I Mean?
+music ( name_artist = "Of Monsters and Men") & Hi, how can I assist you? Here is the song list by Of Monsters and Men.
+music ( name_track = "An Hour Too Late" ; name_artist = "Four Hundred Years") & Here is An Hour Too Late by Four Hundred Years.
+music ( name_artist = "Paper Route") & Have you heard about the artist Need To Breathe or Paper Route?
+music ( name_artist = "Nirvana" ; name_track = "Floyd The Barber") & Nirvana Floyd The Barber.
+music ( describes_track = "a cover of the song") & So, a cover of the song?
+music ( name_artist = "Hoodie Allen") & I can do that. One second. Have you heard of the artist Mario or Jessie J? How about Hoodie Allen?
+music ( name_track = "Fifteen" ; name_artist = "Taylor Swift") & Sure thing, let me see what I can find for you. One second. Here is Fifteen by Taylor Swift.
+music ( name_track = "Popular Song" ; name_artist = "MIKA") & Hold, just a moment. Popular Song ft. Ariana Grande by MIKA.
+music ( name_track = "Treetlight Manifesto - Sick and Sad") & One second. Here is Treetlight Manifesto - Sick and Sad.
+music ( name_artist = "Aloe Blacc" ; name_track = "Wake Me Up") & Aloe Blacc - Wake Me Up.
+music ( name_track = "Into the Mystic" ; name_artist = "Van Morrison") & No problem. Hold on, here is Into the Mystic by Van Morrison.
+music ( name_artist = "Def Leppard") & What about Def Leppard?
+music ( name_track = "I Can't Make You Love Me" ; name_artist = "Bonnie Raitt") & I Can't Make You Love Me by Bonnie Raitt.
+music ( name_artist = "Aaliyah" ; name_album = "I Care For You") & Okay, let me play you something by Aaliyah. Here is the song I Care For You by Aaliyah.
+music ( describes_track = "older song") & Here is an older song by them.
+music ( describes_track = "good one") & It's a good one. I agree.
+music ( name_artist = "Layer" ; name_track = "Raining Blood") & Here is your song. Layer - Raining Blood.
+music ( name_artist = "Deer Tick") & Just one moment. Have you listened to Deer Tick?
+music ( name_artist = "Dying Fetus" ; name_track = "Kill Your Mother Rape Your Dog") & Here is Dying Fetus Kill Your Mother Rape Your Dog.
+music ( name_artist = "Madina Lake") & Sure. One second. Have you listened to Madina Lake?
+music ( name_track = "The Christmas Song" ; name_album = "Michael Bublé") & The Christmas Song by Michael Bublé.
+music ( name_artist = "Tom Petty") & Let me find a song by Tom Petty.
+INFORM ( ride_fare = "$15.25" ; wait_time = "7") & Your cab will be there in 7 minutes and will cost $15.25.
+CONFIRM ( destination = "3136 Contra Loma Boulevard" ; number_of_riders = "2" ; shared_ride = "True") & Shall I book a shared cab for 2 people to 3136 Contra Loma Boulevard?
+CONFIRM ( destination = "2217 Market Street" ; ride_type = "Pool") & Can you confirm the details? You want to go to 2217 Market Street on a Pool ride.
+auto_repair ( date_appt = "thursday, february 28th" ; time_appt = "8:30am") & their next availability is thursday, february 28th at 8:30am.
+auto_repair ( name_vehicle = "nissan rogue") & great, and what year was your nissan rogue?
+auto_repair ( name_customer_accept = "Nancy") & Let me make sure i got that right: Nancy, 313 673 4855.
+auto_repair ( year_vehicle_accept = "2010" ; name_vehicle_accept = "toyota corolla" ; date_appt_accept = "tomorrow" ; time_appt_accept = "before 8:30am" ; reason_appt_accept = "tune up") & so let me confirm everything: you are taking your 2010 toyota corolla tomorrow before 8:30am for a tune up, is this accurate?
+auto_repair ( name_customer = "joseph") & awesome, thanks joseph. and what's a good number to reach you at?
+auto_repair ( year_vehicle_accept = "2011" ; name_vehicle_accept = "Nissan Rogue" ; date_appt_accept = "Monday" ; time_appt_accept = "8:30 am" ; reason_appt_accept = "leaking oil") & Great. Just to confirm. That's an appointment for a 2011 Nissan Rogue that's getting seen Monday at 8:30 am to find out why it's leaking oil.
+auto_repair ( name_customer = "you spe") & Can you spell your last name please?
+auto_repair ( reason_appt = "a tune up") & got it. i'll categorize it as a tune up appointment. when did you want to go in?
+auto_repair ( location_store_accept = "39 E 4th Ave San Mateo, CA 94401.") & The address is, 39 E 4th Ave San Mateo, CA 94401.
+auto_repair ( year_vehicle = "2010" ; name_vehicle = "Subaru Outback" ; reason_appt_accept = "lights out") & So the issue is that your 2010 Subaru Outback has lights out, correct?
+auto_repair ( date_appt = "January 25th.") & Alright! how about This friday? January 25th.
+auto_repair ( location_store_accept = "555 lincoln ave") & ok. they are located at 555 lincoln ave. can you confirm that address?
+auto_repair ( name_vehicle = "audi") & what year is the audi?
+auto_repair ( name_vehicle = "mercedes" ; reason_appt = "a regular tune up") & i'll write in the notes that your mercedes needs a regular tune up.
+auto_repair ( reason_appt_accept = "tuneup") & Awesome! Okay, so the fee for a tuneup will be $89, is that okay with you?
+auto_repair ( date_appt = "next monday" ; time_appt = "8:30am") & it looks like they are fully booked this week, the next available appointment will be next monday at 8:30am, is that ok?
+auto_repair ( year_vehicle_accept = "2014" ; name_vehicle_accept = "accura rdx" ; reason_appt_accept = "several lights out") & so, let me confirm what you said: your 2014 accura rdx has several lights out, correct?
+auto_repair ( date_appt_accept = "next Monday" ; time_appt_accept = "8:30 am" ; year_vehicle_accept = "2010" ; name_vehicle_accept = "Subaru Outback" ; reason_appt_accept = "that stalls when idle for too long") & Ok, I have booked an appointment for next Monday at 8:30 am for your 2010 Subaru Outback that stalls when idle for too long, is that correct?
+auto_repair ( date_appt_accept = "14th" ; time_appt_accept = "8:30am") & ok. you're all set for thursday the 14th at 8:30am.
+auto_repair ( time_appt = "8:30am.") & the shop requires customers to bring their vehicle before 8:30am.
+auto_repair ( name_vehicle = "subaru") & why do you need to bring your subaru into the shop?
+INFORM ( genre = "pop") & It is a pop song. Please enjoy!
+OFFER ( song_name = "Sucker" ; artist = "Jonas Brothers" ; album = "Happiness Begins") & I've got 1 song for you. It's Sucker by The Jonas Brothers from Happiness Begins.
+INFORM ( year = "2017") & 2017 is the release date.
+OFFER ( song_name = "Best Friend" ; artist = "Jason Chen" ; album = "Gravity") & I found 2 songs for you. What about Best Friend by Jason Chen from the Gravity album?
+OFFER ( song_name = "Year Zero" ; artist = "Ghost" ; album = "Infestissumam") & Sure thing! I found 10 songs for you. I recommend Year Zero by Ghost on their album Infestissumam. Does that interest you at all?INFORM_COUNT ( count = "10") & Sure thing! I found 10 songs for you. I recommend Year Zero by Ghost on their album Infestissumam. Does that interest you at all?
+OFFER ( song_name = "Girl Crush" ; artist = "Little Big Town" ; album = "Pain Killer") & I found a song you might like. What about the song Girl Crush by Little Big Town from their album Pain Killer?
+OFFER ( song_name = "Nights" ; artist = "Frank Ocean" ; album = "Blonde") & I have 3 suggestions. How about Nights by Frank Ocean in the album Blonde?
+CONFIRM ( song_name = "Sorry" ; playback_device = "TV") & Can I play the song Sorry on TV?
+OFFER ( song_name = "All On Me" ; artist = "Devin Dawson" ; album = "Dark Horse") & How about All On Me from the Devin Dawson album Dark Horse?
+OFFER ( song_name = "Let Me Love You" ; artist = "Karolina Protsenko" ; album = "Fly") & Another song I could suggest from the album Fly is Let Me Love You by Karolina Protsenko.
+CONFIRM ( song_name = "Pond Creek Road" ; playback_device = "TV") & Okay, just to make sure I am correct, you would like Pond Creek Road to play on the TV?
+OFFER ( song_name = "Adorn" ; artist = "Miguel" ; album = "Kaleidoscope Dream") & What's your opinion about Adorn by Miguel in the album Kaleidoscope Dream?
+OFFER ( song_name = "Lotus Flower" ; artist = "Radiohead" ; album = "The King of Limbs") & I found 1 you may enjoy. Do you like the song Lotus Flower, from the Radiohead album The King of Limbs?INFORM_COUNT ( count = "1") & I found 1 you may enjoy. Do you like the song Lotus Flower, from the Radiohead album The King of Limbs?
+OFFER ( song_name = "Night Witches" ; artist = "Sabaton" ; album = "Heroes") & I found 5 songs for you. How about Sabaton 's Night Witches, from the album Heroes
+OFFER ( song_name = "Yottabyte" ; artist = "Martin Garrix" ; album = "The Martin Garrix Experience") & There's a song called Yottabyte by Martin Garrix from the album The Martin Garrix Experience.
+CONFIRM ( song_name = "Fake you out" ; playback_device = "Kitchen speaker") & Confirm again. You want to listen to the song Fake you out on kitchen speaker.
+CONFIRM ( song_name = "Better Man" ; playback_device = "kitchen speaker") & Please confirm these details: Play Better Man on the kitchen speaker.
+OFFER ( leaving_time = "8:10 am" ; fare = "$31" ; transfers = "0") & I found a bus that leaves at 8:10 am for $31 with 0 transfers. I found a total of 8 buses for you.
+INFORM ( destination_station_name = "Portland Bus Station" ; origin_station_name = "Pacific Central Station") & You will be leaving from Pacific Central Station and arriving at Portland Bus Station.
+INFORM ( from_station = "10th and Filbert" ; to_station = "Penn Station") & The bus departs from 10th and Filbert in Philadelphia and arrives at Penn Station in New York City.
+OFFER ( leaving_time = "6:40 am" ; fare = "$11" ; transfers = "0") & I searched and found 10 buses. The bus starts at 6:40 am with the price of $11. It has 0 transfers.
+INFORM ( to_station = "Fresno Station" ; from_station = "Anaheim Intermodal Center") & The bus departs from Anaheim Intermodal Center. It arrives at Fresno Station.
+OFFER ( leaving_time = "9:10 am" ; fare = "$13" ; transfers = "0") & I discovered 8 buses for you. There is a bus departing at 9:10 am with 0 transfers and costs $13.INFORM_COUNT ( count = "8") & I discovered 8 buses for you. There is a bus departing at 9:10 am with 0 transfers and costs $13.
+OFFER ( departure_time = "6:50 am" ; price = "$76" ; fare_type = "Economy extra") & I found 9 buses. One leaves at 6:50 am. It's an Economy extra for $76.
+OFFER ( departure_time = "7:50 am" ; price = "$50") & I found 6 buses. How about one departing at 7:50 am with a ticket that costs $50?
+INFORM ( destination_station_name = "Anaheim Intermodal Center") & The arrival station is Anaheim Intermodal Center.
+INFORM ( destination_station_name = "Fresno Station") & You arrive at Fresno Station.
+OFFER ( departure_time = "1:20 pm" ; price = "$28" ; fare_type = "Economy") & There is an Economy ticket that costs $28 for a bus that leaves at 1:20 pm.
+OFFER ( departure_time = "7:20 am" ; price = "$88" ; fare_type = "Economy") & There is an Economy ticket for 7:20 am and the price of the ticket is $88.
+OFFER ( leaving_time = "7 am" ; fare = "$30" ; transfers = "0") & There's a trip from Fresno at 7 am, it costs $30 with 0 transfers.
+OFFER ( leaving_time = "8 am" ; fare = "$34" ; transfers = "0") & Then one departing at 8 am with 0 stops will be better. the ticket charge is $34.
+OFFER ( departure_time = "6:40 am" ; price = "$75" ; fare_type = "Economy extra") & There is a $75 Economy extra ticket for a bus leaving at 6:40 am.
+restaurant ( other_description = "it is an upscale restaurant and bar") & There's no specified dress code but it is an upscale restaurant and bar.
+restaurant ( offical_description = "the food is very good Wood-fired steaks & slow-roasted pork, plus cocktails & dessert in the InterContinental Hotel" ; type_food = "cocktails" ; type_meal = "dessert") & And the food is very good Wood-fired steaks & slow-roasted pork, plus cocktails & dessert in the InterContinental Hotel.
+restaurant_reservation ( name_restaurant = "Harry's") & Hold on. Harry's is a high rated Steakhouse that also has a lounge & live jazz then there is Fleming
+restaurant_reservation ( name_restaurant = "Tokyo restaurant") & I found a place called Tokyo restaurant with a 4.5 rating and it is kid friendly.
+restaurant ( offical_description = "Modern, downtown hub of the Metairie original known for charbroiled oysters & other seafood" ; type_food = "seafood" ; name_restaurant = "Deanies") & Modern, downtown hub of the Metairie original known for charbroiled oysters & other seafood. Okay, you like Deanies?
+restaurant ( menu_item = "truffle emulsion sauce wild forest mushrooms, beets and snap peas") & Pan Roasted California Sturgeon Fillet house made tagliatelle, truffle emulsion sauce wild forest mushrooms, beets and snap peas.
+restaurant ( rating = "highly rated" ; name_restaurant = "Taqueria Guadalajara" ; offical_description = "they offer Burritos, tortas, tacos & other filling Mexican grub served up in a simple setting" ; type_food = "tacos") & Okay, let me take a look. Just one moment. Okay, let me take a look. Just one moment. I've found two places which are highly rated, and meet your needs, I'll describe both of them, and you can choose one. The first is Dos Coyotes Border Cafe, an authentic mexican taqueria, with a great atmosphere and outdoor seating. The second is Taqueria Guadalajara, they offer Burritos, tortas, tacos & other filling Mexican grub served up in a simple setting.
+restaurant ( name_restaurant = "Laguna Thai By the Sea" ; other_description = "Thai brothers is just a little bit closer to the mall than Laguna Thai By the Sea" ; sub-location = "mall") & Thai brothers is just a little bit closer to the mall than Laguna Thai By the Sea.
+restaurant_reservation ( name_restaurant = "Katies restaurant") & Let me get that for you. Katies restaurant is a Creole-Italian.
+restaurant ( name_restaurant = "Dragon delights" ; phone = ) & Asia Cafe is (512) 331 5788 and Dragon delights is (512) 771 1352.
+restaurant ( name_restaurant = "Palace Cafe") & Palace Cafe.
+restaurant ( business_hours = "5-8 pm") & 5-8 pm.
+restaurant ( rating = "4 stars and up") & Okay, did you also want 4 stars and up?
+restaurant ( type_food = "seafood" ; menu_item = "petrale sole") & It looks like they have a variety of seafood dishes available like they're seared salmon grilled ahi tuna and petrale sole.
+restaurant ( name_restaurant = "Coppi's organic restaurant" ; rating = "both have 4-stars") & HipCityVeg has 4 and a half stars, and Fruitive and Coppi's organic restaurant both have 4-stars.
+restaurant ( offical_description = "Relaxed local chain serving a range of traditional Greek & Lebanese dishes in a stylish seating" ; type_food = "Lebanese") & One second, Technical difficulties. Relaxed local chain serving a range of traditional Greek & Lebanese dishes in a stylish seating.
+restaurant ( type_food = "appetizers" ; menu_item = "Brie En Croute") & Yes, they have at least 5 appetizers from Creole Prawns to Brie En Croute.
+restaurant ( type_food = "pizzas") & Okay. Whole pizzas or slices?
+restaurant ( location = "601 S Cedar St, Charlotte, NC 28202") & It is located at 601 S Cedar St, Charlotte, NC 28202.
+restaurant_reservation ( date_reservation = "Friday") & Monday 12–2 PM, Tuesday 12–2 PM, Wednesday 12–2 PM, Thursday 12–2 PM, Friday 12–2 PM, Saturday and Sunday Closed. They have a 4.1 star ratings.restaurant ( business_hours = "Saturday and Sunday Closed" ; rating = "4.1 star") & Monday 12–2 PM, Tuesday 12–2 PM, Wednesday 12–2 PM, Thursday 12–2 PM, Friday 12–2 PM, Saturday and Sunday Closed. They have a 4.1 star ratings.
+restaurant ( name_restaurant = "Bob's" ; location = "301 Lavaca St, Austin, TX 78701") & Here is Bob's address. Here is Bob's address. Address: 301 Lavaca St, Austin, TX 78701.
+restaurant_reservation ( time_reservation = "8 p.m" ; num_guests = "2 people") & Looks like they had a table available at 8 p.m. for 2 people, I will send you your confirmation to email.
+restaurant ( rating = "4.2 stars out of 5") & They have 4.2 stars out of 5.
+restaurant ( name_restaurant = "Jacks") & Okay, perfect place. Do you want to know more information about Jacks?
+restaurant ( offical_description = "Its rated four and half stars and serves traditional american cuisine with a moderate price range" ; rating = "four and half stars" ; type_food = "traditional american" ; price_range = "moderate price range") & Its rated four and half stars and serves traditional american cuisine with a moderate price range.
+restaurant ( location = "6770 McKinley St #150, Sebastopol, CA 95472") & 6770 McKinley St #150, Sebastopol, CA 95472.
+restaurant ( offical_description = "Ice cream parlor making & serving unusual, gourmet scoops in a quaint antique cottage" ; type_food = "Ice cream") & Ice cream parlor making & serving unusual, gourmet scoops in a quaint antique cottage.
+restaurant ( name_restaurant = "Black Bear Diner" ; location = "Woodland") & How about Woodland Black Bear Diner?
+restaurant ( type_food = "wine" ; menu_item = "White zinfandel") & The two selections from the wine list are Pinot Noir, a White zinfandel and many more.
+restaurant ( name_restaurant = "The Burger Saloon") & The top three steakhouses are called Kitchen 428, Woodland Black Bear Diner and The Burger Saloon.
+restaurant_reservation ( time_reservation = "7:30" ; num_guests = "two") & Your reservation for two people at 7:30 has been set and the information has been sent to you via email.
+restaurant ( location = "1276 N Military Trl, West Palm Beach, FL 33409") & 1276 N Military Trl, West Palm Beach, FL 33409.
+restaurant ( name_restaurant = "Carmelo's Italian restaurant" ; location = "504 E 5th St, Austin, TX 78701") & Okay. So, Carmelo's Italian restaurant at 504 E 5th St, Austin, TX 78701.
+restaurant ( location = "4729 Burnett Road") & They are located at 4729 Burnett Road.
+restaurant ( offical_description = "Small eatery with open kitchen and outdoor seating, cooking up Californian comfort foods for meat eaters & vegetarians" ; type_food = "Californian comfort foods") & Small eatery with open kitchen and outdoor seating, cooking up Californian comfort foods for meat eaters & vegetarians.
+restaurant ( type_food = "steaks" ; menu_item = "filet mignon" ; name_restaurant = "next") & Sure, I can find another steak place for you, but the next restaurant is also a steak place to serve filet mignon and other steaks. Would you like to hear more about their menu or find a different restaurant?
+restaurant ( type_food = "seafood" ; name_restaurant = "Salito crab house and prime rib" ; rating = "4.2 stars" ; offical_description = "The airy venue serves up hefty portions of surf ’n’ turf in a festive setting with expansive bay views") & Okay. Okay, I found 2 seafood restaurants for you to choose from. The first is called Salito crab house and prime rib. It has 4.2 stars. The airy venue serves up hefty portions of surf ’n’ turf in a festive setting with expansive bay views.
+restaurant ( location = "3201 St Paul St, Baltimore, MD 21218") & Located at 3201 St Paul St, Baltimore, MD 21218.
+restaurant ( name_restaurant = "China Garden Kitchen" ; menu_item = "sesame chicken & fried rice" ; type_meal = "lunch" ; offical_description = "It has Standards like egg foo yong, sesame chicken & fried rice, plus lunch specials, in no-frills digs" ; business_hours = "11 a.m. to 10 p.m" ; price_range = "$10 per person" ; rating = "3.9 Stars") & Okay. Anything else? No problem, is that all? Just a moment. I found China Garden Kitchen. It has Standards like egg foo yong, sesame chicken & fried rice, plus lunch specials, in no-frills digs. This place is open from 11 a.m. to 10 p.m. It has $10 per person and 3.9 Stars.
+restaurant ( business_hours = "11 am to 9 pm") & Opened from 11 am to 9 pm.
+restaurant ( other_description = "It is very casual") & It is very casual.
+restaurant ( name_restaurant = "Amore and Ristorante Lucano") & There is Amore and Ristorante Lucano.
+restaurant ( location = "Austin") & Okay, I see that you're in Austin. Is that where you want to eat?
+restaurant ( name_restaurant = "La Comida" ; offical_description = "It's unfussy outlet serving Mexican basics in a relaxed, shopping center setting" ; type_food = "Mexican") & The first is Sol Mexican grill, it's a Casual sunset-colored space serving tacos, burritos & enchiladas with optional fillings, plus beer. The second is La Comida, It's unfussy outlet serving Mexican basics in a relaxed, shopping center setting.
+restaurant ( price_range = "not too expensive") & Okay, not too expensive. Is that it?
+restaurant ( name_restaurant = "Erik’s Deli Cafe" ; type_food = "baked goods" ; offical_description = "Erik’s Deli Cafe. Casual cafe chain serving gourmet deli sandwiches, house made soups, salads & baked goods") & Next, Erik’s Deli Cafe. Casual cafe chain serving gourmet deli sandwiches, house made soups, salads & baked goods.
+restaurant ( name_restaurant = "Manuals") & Places that are close to you is Uncle Julio's, Iron Cactus and Manuals.
+restaurant ( rating = "4.3 out of 5 stars") & 4.3 out of 5 stars for both.
+restaurant ( name_restaurant = "Germano's Piattini") & Germano's Piattini is near you.
+restaurant ( name_restaurant = "Dragon Delights" ; rating = "4.5 stars" ; offical_description = "Homemade Chinese entrees, noodles & dim sum are served from a food trailer with picnic tables" ; type_food = "dim sum") & The second is called Dragon Delights. It has 4.5 stars. The second is called Dragon Delights. It has 4.5 stars. Homemade Chinese entrees, noodles & dim sum are served from a food trailer with picnic tables.
+restaurant ( name_restaurant = "yummy buffet" ; rating = "3.4 stars" ; offical_description = "Family-friendly buffet offers all-you-can-eat Asian & American dishes, including sushi" ; type_food = "sushi" ; type_meal = "dinner") & The first is called great plaa buffet. It has 3.9 stars. Large, relaxed buffet restaurant offering a number of Asian & American items for lunch & dinner. The second is called yummy buffet. It has 3.4 stars. Family-friendly buffet offers all-you-can-eat Asian & American dishes, including sushi. The second is called yummy buffet. It has 3.4 stars. Family-friendly buffet offers all-you-can-eat Asian & American dishes, including sushi.
+restaurant ( name_restaurant = "Ozumo" ; rating = "4.3 stars" ; offical_description = "387 Google reviews") & Ozumo has 4.3 stars with 387 Google reviews.
+restaurant ( other_description = "They do have table service") & They do have table service.
+restaurant ( name_restaurant = "California Rollin" ; rating = "3.1 stars" ; type_food = "traditional Japanese" ; offical_description = "Busy outlet for Americanized sushi) & The first is called Shiki, it has 4.1 stars. Sushi, teriyaki & tempura plus Japanese beer & sake, served in a small, unassuming storefront. Address: 1054 S Clinton Ave, Rochester, NY 14620. The second is called California Rollin, it has 3.1 stars. Busy outlet for Americanized sushi (bacon is a common ingredient) in an Address: Village Gate Square, 274 Goodman St N B123, Rochester, NY 14607. The first one is more traditional Japanese.
+restaurant ( name_restaurant = "La Condesa" ; rating = "4 stars" ; offical_description = "Contemporary Mexican dishes, a vast tequila selection & happy-hour deals in a sophisticated setting" ; type_food = "tequila" ; type_meal = "brunch") & The first is called Manuel's. It has 3.9 stars. Hip Downtown eatery offering regional Mexican cuisine, a boozy Sunday brunch & live music. The second is called La Condesa. It has 4 stars. Contemporary Mexican dishes, a vast tequila selection & happy-hour deals in a sophisticated setting.
+restaurant ( other_description = "No chain stores") & Okay No chain stores.
+restaurant ( location = "175 N water st") & Okay. It's located on 175 N water st.
+restaurant ( phone = ) & Okay, The number is (585) 288-1910.
+restaurant ( price_range = "lot expensive") & Okay. There are still a lot expensive. There are still a lot expensive.
+restaurant ( type_food = "cheesecake") & Okay, Sure thing, do you like cheesecake?
+restaurant ( name_restaurant = "M&J Bistro" ; type_food = "wine" ; offical_description = "M&J Bistro is a Upscale Californian-French meals including crepes served with wine in a sleek, Dark-hued setting" ; location = "2503 N Tracy Blvd, Tracy, CA 95376") & Well, M&J Bistro is a Upscale Californian-French meals including crepes served with wine in a sleek, Dark-hued setting. The address is 2503 N Tracy Blvd, Tracy, CA 95376. The address is 2503 N Tracy Blvd, Tracy, CA 95376.
+restaurant ( name_restaurant = "GW Fins" ; offical_description = "Peche Seafood grill is seafood from a coal Grill & Raw Bar including local Brews and are found in rustic digs with weathered wood they have Oysters shown on the front page of their menu" ; type_food = "Oysters") & Hold on. Okay, no problem. GW Fins is creative ever shifting seafood menu featuring fresh catches and a stylish updated warehouse space. Peche Seafood grill is seafood from a coal Grill & Raw Bar including local Brews and are found in rustic digs with weathered wood they have Oysters shown on the front page of their menu.
+restaurant ( location = "Rochester") & Okay. Where in Rochester?
+restaurant ( type_food = "pizza") & Thank you, enjoy your pizza.
+restaurant ( other_description = "Valet parking") & Valet parking?
+restaurant ( type_meal = "dessert") & What type dessert were you looking for?
+restaurant ( name_restaurant = "'Ozumo" ; offical_description = "Creative sushi, robata grilled items & an extensive sake menu in a contemporary space" ; type_food = "robata grilled items") & Kusakabe is a high-end sushi spot that offers a light-soaked, Zen-like space for sushi, sake, wine & beer. Sanraku is a Small, popular chain spot serving sushi, bento boxes & other Japanese staples along with sake. And last "Ozumo" is Creative sushi, robata grilled items & an extensive sake menu in a contemporary space.
+restaurant ( other_description = "From Fairfield via I-80 East, it will be about 30 to 35 minutes' drive") & From Fairfield via I-80 East, it will be about 30 to 35 minutes' drive.
+restaurant ( name_restaurant = "JW Marriott Austin") & Okay. JW Marriott Austin.
+restaurant ( name_restaurant = "Tracy BlackBerry" ; location = "2351 Toste Rd, Tracy, CA 95377" ; phone = ) & Third one is called Tracy BlackBerry and the address for it is 2351 Toste Rd, Tracy, CA 95377. And the phone number for it is (209) 835-5600.
+restaurant ( name_restaurant = "Angelino Restaurant") & Just one moment, please. I have located two places Angelino Restaurant.
+restaurant ( phone = ) & (208) 331-1580.
+restaurant ( name_restaurant = "The Sandwich Spot" ; location = "1010 Pacific Avenue") & The Sandwich Spot, at 1010 Pacific Avenue.
+restaurant ( name_restaurant = "Panda Express" ; offical_description = "Fast-food chain for Chinese standards including some health-conscious options" ; type_food = "Chinese") & I found a place for you. Panda Express. Fast-food chain for Chinese standards including some health-conscious options.
+restaurant ( name_restaurant = "Blondie's" ; type_food = "pizza") & Hold on just a second. Blondie's sells pizza by the slice.
+restaurant ( location = "New Orleans") & Okay and anywhere in New Orleans.
+restaurant ( offical_description = "There's no specified dress code, but the restaurant is upscale with a romantic environment") & There's no specified dress code, but the restaurant is upscale with a romantic environment.
+restaurant ( other_description = "There's a parking structure around around the corner") & There's a parking structure around around the corner.
+restaurant ( name_restaurant = "Persia Grill") & Okay. I have the Salt fish house, Folie Douce, and Persia Grill.
+restaurant ( name_restaurant = "Binchoyaki Izakaya Dining" ; offical_description = "Funky store featuring a host of creative doughnuts in a variety of flavors plus coffee & more" ; type_food = "doughnuts") & Binchoyaki Izakaya Dining. Funky store featuring a host of creative doughnuts in a variety of flavors plus coffee & more.
+restaurant ( name_restaurant = "Din Ho Chinese BBQ") & I have found La Condesa. That's open until 10:00 PM. I have found Twin Lion Chinese restaurant and Din Ho Chinese BBQ. Relax feet Irving and I reassured of Chinese favorites like Duck and barbecue pork roast and even a whole pig in Din Ho Chinese BBQ. Relaxed eatery serving an array of Chinese favorites like duck & BBQ pork, even a whole roasted pig. And the last one is Din Ho Chinese BBQ.
+restaurant ( name_restaurant = "Addy's Sandwich Bar") & Addy's Sandwich Bar.
+restaurant ( business_hours = "11 AM to 9 PM" ; offical_description = "They are walk in only") & Great, they are open from 11 AM to 9 PM. They are walk in only.
+restaurant ( location = "3355 S Las Vegas Blvd, Las Vegas, NV 89109") & Hope you don't mind it is on the Las Vegas Boulevard. 3355 S Las Vegas Blvd, Las Vegas, NV 89109.
+restaurant_reservation ( type_seating = "outdoor") & Would you prefer indoor or outdoor seating?
+restaurant ( type_food = "Indian") & Hold one moment. I have found over a dozen Indian restaurants in Rochester, Do you have any other preferences?
+attraction_inform ( phone = "01223336233") & The phone number is 01223336233. Is there anything else I can help you with?
+attraction_inform ( entrancefee = "free") @ attraction_recommend ( address = "10 king s parade" ; name = "Primavera" ; phone = "01223357708") & May I suggest Primavera located at 10 king s parade  The phone number is 01223357708  Admission is free
+attraction_inform ( entrancefee = "free" ; postcode = "cb21su") & There is no entrance fee; it is free. The postcode is cb21su. May I help you with anything else?
+epl ( name_team = "Liverpool") & Liverpool play Newcastle in their next game.
+nba ( name_team = "Phoenix Suns" ; place_team = "14th Place" ; record_team = "47 losses") & Phoenix Suns are in 14th Place with 19 wins-47 losses.
+mlb ( name_team = "Atlanta Braves" ; day_match = "Monday" ; date_match = "June 5th") & It looks like the Phillies played on Monday June 5th against the Atlanta Braves.
+mls ( name_team = "Columbus Crew SC" ; day_match = "tomorrow") & The Chicago Fire do not play today, but they do play tomorrow against the Columbus Crew SC.
+epl ( name_player = "Alvaro Morata" ; position_player = "strikers") & Alvaro Morata is one of the strikers.
+mlb ( name_team = "Rockies" ; date_match = "July 1st" ; time_match = "7:10 p.m") & They are also playing against the Rockies on July 1st at 7:10 p.m.
+nba ( name_team = "Pistons") & Pacers, and Pistons.
+mlb ( name_team = "Washington Nationals" ; place_team = "first place" ; record_team = "46 losses") & Washington Nationals is in the first place on the National League East with 70 wins and 46 losses.
+mls ( name_team = "Real Salt Lake" ; day_match = "Saturday" ; date_match = "July 22nd") & Just a moment. Sporting Kansas City is not playing right now, but they will be playing on Saturday, July 22nd against the Real Salt Lake.
+mlb ( day_match = "today") & No, they're not playing today as well.
+epl ( name_team = "Watford" ; place_team = "10th place" ; record_team = "seven wins, 4 draws and 11 losses") & Watford is in the 10th place with seven wins, 4 draws and 11 losses.
+mlb ( place_team = "third") & Looks like they are third in the East American League.
+mlb ( name_team = "Tigers" ; score_match = "10-4") & They won their last game against Tigers with a score of 10-4.
+nfl ( place_team = "second place") & They are in second place in the AFC south.
+mlb ( name_team = "Orioles" ; place_team = "fourth place") & Orioles is in the fourth place on the AL East.
+nba ( name_team = "Trail Blazers" ; name_non_player = "Terry Stotts" ; other_description_team = "The Trail Blazers coach is Terry Stotts has a better record") & The Trail Blazers coach is Terry Stotts has a better record.
+mls ( name_player = "H A M I D") & H A M I D.
+epl ( score_match = "4-1" ; result_match = "win" ; name_team = "Cska Moscow") & Their last game was 4-1 win against Cska Moscow in Champions League group stage.
+mls ( date_match = "September 10th" ; name_team = "Columbus" ; result_match = "it was a draw" ; score_match = "one to one") & They last played on September 10th, against Columbus and it was a draw with the score one to one.
+epl ( position_player = "Striker" ; name_team = "Tottenham" ; name_player = "Harry Kane") & Starting Striker for Tottenham is Harry Kane.
+mlb ( date_match = "August 23rd" ; name_team = "Milwaukee Brewers the Giants" ; result_match = "won" ; score_match = "4 - 2") & The last game was August 23rd against the Milwaukee Brewers the Giants won 4 - 2.
+epl ( name_team = "Leicester City" ; result_match = "draw" ; score_match = "2 - 2") & Their last game Stoke City played Leicester City and the game ended in a draw 2 - 2.
+mlb ( day_match = "Last Saturday" ; name_team = "Detroit Tigers" ; score_match = "5 to 6") & Last Saturday the Minnesota Twins play the Detroit Tigers and one 5 to 6.
+mls ( date_match = "August 6th" ; name_team = "Portland" ; result_match = "they lost" ; score_match = "3 to 1") & They last played on August 6th vs Portland and they lost 3 to 1.
+mls ( name_team = "Seattle Sounders" ; score_match = "4-3" ; result_match = "lost" ; date_match = "July 19th") & They lost to Seattle Sounders with 4-3 on July 19th.
+epl ( place_team = "2nd place") & Hello. They are in 2nd place.
+mlb ( name_team = "Pittsburgh Pirates" ; record_team = "57 losses" ; place_team = "fourth place") & The Pittsburgh Pirates have a record of 54 wins and 57 losses, they are currently in fourth place in the National League Central.
+epl ( score_match = "four to zero" ; result_match = "They lost" ; name_team = "Man United") & The score of the last game was four to zero. They lost against Man United.
+epl ( day_match = "Sunday" ; other_description_team = "After their Saturday the 13th game" ; name_team = "Southampton" ; date_match = "21st") & After their Saturday the 13th game, they will play Southampton Sunday, the 21st.
+mls ( date_match = "on July 19th" ; name_team = "Montreal") & No. Their next game would be on July 19th against Montreal.
+mls ( position_player = "goalkeeper" ; name_player = "Jesse González") & Their goalkeeper is Jesse González.
+mlb ( place_team = "first place") & Hold on, one second. They are doing great. They are currently in first place in the American League East.
+mlb ( day_match = "today") & They play today.
+epl ( date_match = "August 26th" ; name_team = "Bournemouth") & Their next match will be played on August 26th against Bournemouth.
+epl ( name_team = "Bournemouth" ; other_description_team = "Bournemouth in 1924") & West Bromwich established in 1878, while Bournemouth in 1924.
+epl ( position_player = "goal keeper" ; name_player = "Mathew Ryan") & Their current goal keeper is Mathew Ryan.
+mlb ( name_team = "Cincinnati Reds" ; place_team = "5th place" ; record_team = "93 losses") & Cincinnati Reds are in the 5th place on the National League central with 67 wins and 93 losses.
+mls ( date_match = "June 24th" ; name_team = "Montreal impact") & Their next game is on June 24th against he Montreal impact.
+mlb ( day_match = "Saturday" ; date_match = "August 5th" ; name_team = "Oakland Athletics" ; result_match = "lost" ; score_match = "5-0") & Saturday, August 5th, Los Angeles played against the Oakland Athletics they lost 5-0.
+nba ( day_match = "Yesterday") & Yesterday.
+nba ( name_team = "Cavaliers") & Have a great day and go Cavaliers.
+nba ( name_player = "Willie Cauley-Stein" ; name_team = "Kings" ; position_player = "center") & Willie Cauley-Stein is the Kings starting center.
+epl ( name_team = "Brighton") & Brighton.
+mlb ( date_match = "June 18th" ; name_team = "Pirates" ; result_match = "won" ; score_match = "1-0") & On June 18th, they played against Milwaukee Brewers and Pirates won the game with a score of 1-0.
+mls ( day_match = "Last Saturday" ; name_team = "Orlando city" ; result_match = "they lost" ; score_match = "2 - 1") & Last Saturday they played against Orlando city and they lost by 2 - 1.
+epl ( date_match = "September 11th" ; name_team = "Huddersfield") & They are not playing right now, their next game will be played on September 11th against Huddersfield.
+epl ( name_non_player = "Jürgen Klopp") & Their manager is Jürgen Klopp.
+epl ( name_team = "Liverpool f.c") & The last play is with Liverpool f.c.
+epl ( name_team = "Manchester United" ; other_description_team = "They were founded as Newton Health lyr football club and change their name by to Manchester United in 1902") & Manchester United was formed in 1878. They were founded as Newton Health lyr football club and change their name by to Manchester United in 1902. They were founded as Newton Health lyr football club and change their name by to Manchester United in 1902.
+mlb ( name_team = "Boston Red Sox" ; place_team = "first") & Currently, the Boston Red Sox are first in the AL East standings.
+mls ( position_player = "goalkeeper" ; name_player = "Brian Rowe") & Their goalkeeper is Brian Rowe.
+epl ( other_description_team = "Totally, It's 22") & Totally, It's 22.
+mls ( name_team = "New York City" ; place_team = "third place" ; record_team = "5 losses") & New York City is currently in third place in the Eastern conference with 7 wins and 5 losses.
+mls ( name_team = "Rochester Rhinos" ; date_match = "on June 14th" ; result_match = "won" ; score_match = "3 to 0") & The New England Revolution last played on June 14th. Against Rochester Rhinos. And they won 3 to 0.
+mlb ( place_team = "first place" ; record_team = "44 wins and 21 losses") & They are currently in first place with 44 wins and 21 losses.
+epl ( name_team = "Bournemouth" ; other_description_team = "Bournemouth was founded in 1899") & Bournemouth was founded in 1899.
+epl ( name_team = "West Brom FC") & Their next opponent is West Brom FC.
+mlb ( place_team = "2nd place") & They are currently in 2nd place in the AL west.
+mlb ( day_match = "today" ; time_match = "11:10 a.m" ; name_team = "Pittsburgh Pirates") & They played today at 11:10 a.m against Pittsburgh Pirates.
+mls ( record_team = "24 and 8") & Their win-loss record is 24 and 8.
+mlb ( place_team = "First place" ; name_team = "Chicago Cubs") & First place of the National League central are the Chicago Cubs.
+epl ( name_team = "Brighton") & Stoke City's next game is against Brighton.
+mls ( name_team = "Toronto F.C." ; place_team = "first place") & The Toronto F.C. is currently in first place.
+mlb ( day_match = "Next Saturday" ; name_team = "Philadelphia Phillies") & Next Saturday they're playing against the Philadelphia Phillies.
+epl ( other_description_team = "They have played 15 games") & They have played 15 games.
+mlb ( day_match = "yesterday" ; name_team = "Oakland Athletics" ; result_match = "they lost game" ; score_match = "6 - 4") & Last game they played was yesterday against Oakland Athletics and they lost game 6 - 4.
+mlb ( name_player = "Drew VerHagen") & Shane Greene. Mike Fiers. Joe Jimineez. Alex Wilson. Blaine Hardy. Buck Farmer. Drew VerHagen.
+mlb ( name_team = "Seattle Mariners" ; result_match = "won" ; score_match = "8 to 2") & The Phillies played the Seattle Mariners and won 8 to 2.
+epl ( name_team = "Brighton" ; venue = "Falmer Stadium") & Etihad Stadium is the name of Manchester City FC Stadium, it has a capacity of 55,097. Brighton stadiums name is Falmer Stadium and it does the capacity of 30,750.
+epl ( name_team = "Burnley FC" ; date_match = "August 19th" ; time_match = "7 a.m") & Next West Bromwich Albion F.C will be playing the Burnley FC on August 19th at 7 a.m.
+epl ( position_player = "Kasper Schmeichel") & One their goalkeeper is Kasper Schmeichel.
+mls ( day_match = "next Sunday") & No, they do not play on next Sunday.
+mls ( place_team = "third place" ; record_team = "five losses") & They are currently in third place in the Eastern Conference with five wins and five losses.
+epl ( name_team = "Everton F.C." ; place_team = "seventh place") & Currently, Everton F.C. is having seventh place in the English Premier League.
+epl ( place_team = "second place" ; name_team = "United") & Manchester City United is currently in second place in the Tottenham Hotspur F.C. Premier League standings.
+nba ( name_team = "Cavaliers" ; name_player = "LeBron James") & Golden State Warriors will have Curry Thompson and Durant and the Cavaliers will have LeBron James.
+nfl ( name_team = "St Louis Cardinals") & Next week they're playing against the St Louis Cardinals.
+mlb ( result_match = "lost" ; name_team = "Tigers" ; score_match = "4-2") & They lost to the Tigers. 4-2.
+nba ( position_player = "small forward" ; name_player = "Carmelo Anthony") & They're starting small forward is Carmelo Anthony.
+mlb ( day_match = "Next Saturday" ; name_team = "Red Sox" ; time_match = "1:05 pm") & Next Saturday they are playing against the Red Sox at 1:05 pm.
+epl ( name_team = "Burnley FC") & Their next game they play Burnley FC.
+nfl ( name_team = "Buffalo Bills" ; place_team = "first place" ; record_team = "one loss") & Buffalo Bills are in the first place under American football East Conference with two wins and one loss.
+mlb ( name_team = "Tampa Bay Rays" ; day_match = "yesterday" ; score_match = "won 8 to 5") & The last game the Baltimore Orioles played was yesterday against the Tampa Bay Rays and they won 8 to 5.
+epl ( name_team = "Stoke City" ; date_match = "September 16th") & Newcastle's next game is on September 16th against Stoke City.
+nfl ( name_team = "Miami Dolphins" ; record_team = "two losses") & The record for the Miami Dolphins is one win and two losses.
+mlb ( name_team = "Diamond Backs" ; record_games_ahead = "The Diamond Backs are ahead of the giants by 5 games") & The Diamond Backs are ahead of the giants by 5 games and the Dodgers are ahead by 2.
+nba ( name_team = "Sacramento Kings" ; day_match = "yesterday" ; result_match = "lost" ; score_match = "123-119") & The Heat played yesterday and lost 123-119 to the Sacramento Kings.
+nfl ( record_games_back = "3 games") & 3 games.
+epl ( name_team = "Chelsea" ; place_team = "12th Place") & Chelsea is in 12th Place of the Premier League standings.
+mlb ( result_match = "They won" ; score_match = "5-3") & They won 5-3.
+nba ( name_team = "pelicans" ; day_match = "tomorrow" ; time_match = "6:30 pm") & They will play against the pelicans on tomorrow at 6:30 pm.
+mlb ( day_match = "yesterday" ; name_team = "Chicago White Sox") & Their last game was yesterday against Chicago White Sox.
+nfl ( day_match = "today") & No, they are not playing right now. They are scheduled to play today.
+mls ( date_match = "June 17th" ; name_team = "Chicago" ; time_match = "4:30 p.m") & Their next game is on June 17th against Chicago at 4:30 p.m.
+mls ( day_match = "Saturday" ; name_team = "DC United" ; time_match = "5:00 PM") & No, they do not play on Sunday. They'll play on Saturday against DC United at 5:00 PM.
+mls ( name_team = "San Jose Earthquakes" ; record_team = "six losses") & San Jose Earthquakes has five wins and six losses.
+nba ( name_team = "Golden State Warriors" ; day_match = "tomorrow" ; time_match = "afternoon") & The Clippers play tomorrow at 12:30 in the afternoon versus the Golden State Warriors.
+mlb ( name_team = "cubs" ; record_games_ahead = "The brewers are the only time ahead of the cubs and by 4 games") & The brewers are the only time ahead of the cubs and by 4 games.
+epl ( name_player = "Matthew Ryan" ; name_team = "Brighton" ; position_player = "goalkeeper") & Matthew Ryan is the goalkeeper for Brighton.
+mlb ( name_team = "New York Mets" ; place_team = "third place") & Let me check for you. Just one moment. Let me check for you. Just one moment. It looks like the New York Mets are third place in the NL East.
+mls ( date_match = "June 14th" ; time_match = "4:30 p.m." ; name_team = "Rochester Rhinos" ; day_match = "next Wednesday") & Their next game will be played on June 14th at 4:30 p.m. against Rochester Rhinos which is next Wednesday.
+mls ( name_team = "Earthquake's" ; place_team = "six place" ; record_team = "9 losses") & The Earthquake's are currently six place in the Western Conference with 9 wins and 9 losses.
+epl ( name_team = "Manchester city" ; name_non_player = "Pep Guardiola") & Current manager of Manchester city is Pep Guardiola.
+nba ( name_non_player = "Mike Brown") & Mike Brown.
+nfl ( name_team = "Vikings" ; date_match = "November 23rd" ; result_match = "won" ; score_match = "30-23") & They last played against the lions on November 23rd and the Vikings won the game with the score 30-23.
+epl ( score_match = "one and zero") & They performed very well in their last game with the score one and zero.
+nfl ( position_player = "quarterback" ; name_player = "Matthew Stafford" ; name_team = "Detriot") & The quarterback is Matthew Stafford for the Detriot team.
+mlb ( day_match = "yesterday" ; date_match = "August 8th" ; name_team = "Los Angeles" ; result_match = "lost" ; score_match = "three to two") & The last game was yesterday on August 8th against, The Los Angeles and they lost three to two.
+epl ( name_player = "Harry Kane" ; position_player = "strikers") & Harry Kane is one of their strikers.
+nba ( name_non_player = "Brad Stevens") & Brad Stevens.
+nba ( name_team = "Timberwolves" ; day_match = "tomorrow" ; time_match = "5 p.m") & The Pelicans are playing with Timberwolves tomorrow at 5 p.m.
+nba ( name_team = "Detroit Pistons" ; name_non_player = "Stan Van Gundy") & The head coach for the Detroit Pistons is Stan Van Gundy.
+nfl ( name_team = "Tennessee Titans" ; place_team = "third place" ; record_team = "2 losses") & The Tennessee Titans are currently third place in the AFC South with the record of two wins and 2 losses.
+mlb ( name_team = "Texas Rangers" ; record_games_back = "Texas Rangers are currently 18 games back from first place") & The Texas Rangers are currently 18 games back from first place in the American League West.
+mlb ( place_team = "fifth place") & They are in fifth place of the NL Central.
+nba ( name_team = "Orlando Magic") & The next game is going to be against Orlando Magic.
+mlb ( day_match = "today") & They are currently not scheduled today.
+mls ( place_team = "eighth place" ; record_team = "eight wins and 10 losses") & They're currently in eighth place in the Eastern Conference with eight wins and 10 losses.
+nba ( name_player = "DeAndre Jordan" ; name_team = "Clippers") & DeAndre Jordan is the current star player for the Clippers.
+mls ( day_match = "tomorrow") & No, they are playing tomorrow.
+OFFER ( show_time = "11 pm" ; theater_name = "Century San Francisco Centre 9 & XD") @ INFORM_COUNT ( count = "1") & I found 1 showtime, 11 pm at Century San Francisco Centre 9 & XD.
+OFFER ( movie_name = "Missing Link") @ INFORM_COUNT ( count = "3") & There are 3 available - Missing Link, Shazam! or The Curse of La Llorona
+INFORM ( cast = "Richard L. Hawkins" ; directed_by = "Steven Spielberg") & The director is Steven Spielberg and the main actor is Richard L. Hawkins.
+OFFER ( title = "Mikey and Nicky" ; aggregate_rating = "7.4") & I found 1 movie you might like. How about Mikey and Nicky? The movie has an average rating of 7.4.
+INFORM ( director = "Stanley Kubrick") & It was directed by Stanley Kubrick.
+INFORM ( price = "$19") & It's $19 a ticket.
+OFFER ( movie_name = "Pillow Talk") @ INFORM_COUNT ( count = "2") & The 2 movies I found are either Pillow Talk or The Man Who Knew Too Much
+OFFER ( show_time = "7 pm" ; theater_name = "CineArts at Sequoia") & I show a 7 pm showing at CineArts at Sequoia.
+OFFER ( show_time = "3:30 pm" ; theater_name = "THE LOT City center") & 1 showtime at 3:30 pm in THE LOT City center is there.
+OFFER ( title = "Shine a Light" ; aggregate_rating = "7.2") & There is 1 movie that might interest you. It's a film called Shine a Light with a reviewer score of 7.2. Are you interested?
+OFFER ( show_time = "4 pm" ; theater_name = "AMC Deer Valley 16") & I have 1 showing at 4 pm for the AMC Deer Valley 16.
+OFFER ( show_time = "9 pm" ; theater_name = "AMC Bay Street 16") & there is 1 show at 9 pm in AMC Bay Street 16.
+OFFER ( show_time = "5:30 pm" ; theater_name = "CineLux Tennant Station Stadium 11") & There is 1 show at 5:30 pm in CineLux Tennant Station Stadium 11.
+OFFER ( movie_name = "Little") @ INFORM_COUNT ( count = "2") & I found 2 movies: Little or Shazam!  How about either of those
+OFFER ( title = "High Life" ; aggregate_rating = "6.2") & I have 1 movie recommendation with a 6.2 rating, would you be interested in High Life?
+INFORM ( genre = "adventure") & It is listed as an adventure movie.
+INFORM ( price = "$21" ; street_address = "474 24th Street") & Sure. The theater is located at 474 24th Street and tickets are $21 per person.
+OFFER ( property_name = "Fernmar Apartments" ; address = "210 Easy Street" ; number_of_beds = "3" ; number_of_baths = "3" ; rent = "$4,300") & I have found 2 apartments. Fernmar Apartments is a great property located at 210 Easy Street. It has 3 bed rooms and 3 baths and costs $4,300 a month.INFORM_COUNT ( count = "2") & I have found 2 apartments. Fernmar Apartments is a great property located at 210 Easy Street. It has 3 bed rooms and 3 baths and costs $4,300 a month.
+CONFIRM ( property_name = "Casa Pino Condos" ; visit_date = "next Wednesday") & Can you confirm the information? you want to go to Casa Pino Condos next Wednesday
+OFFER ( property_name = "Family Tree Apartments" ; address = "1000 Kiely Boulevard" ; price = "$3,150") & Family Tree Apartments is a nice property at 1000 Kiely Boulevard. The total cost is $3,150.
+CONFIRM ( property_name = "Amber Court" ; visit_date = "March 13th") & Ok, you would like to schedule a visit to Amber Court for March 13th. Is that correct?
+INFORM ( phone_number = "408-842-6341") & Visit confirmed. Property's phone number is 408-842-6341.
+OFFER ( property_name = "Avalon Apartments" ; address = "624 Avalon Avenue" ; number_of_beds = "4" ; number_of_baths = "3" ; rent = "$5,150") & I have found 3 good apartments. Avalon Apartments is good with 4 bedrooms, 3 baths for $5,150 per month. It is located at 624 Avalon Avenue.
+CONFIRM ( property_name = "Leib Senior Apartments" ; visit_date = "March 12th") & Please confirm this appointment. You are scheduling a visit to Leib Senior Apartments and you would like to visit on March 12th.
+CONFIRM ( property_name = "Magnolia Apartments" ; visit_date = "March 4th") & The changes I have made will put your visit to Magnolia Apartments occur on March 4th instead. Is that okay?
+OFFER ( property_name = "Crossing at Montague Apartments" ; address = "755 East Capitol Avenue" ; number_of_beds = "1" ; number_of_baths = "1" ; rent = "2900") & Crossing at Montague Apartments is a good property located at 755 East Capitol Avenue. It has 1 bed room and 1 bath. The rent is 2900 per month.
+OFFER ( property_name = "Betel Apartments" ; address = "1227 Hampshire Street" ; number_of_beds = "2" ; number_of_baths = "3" ; rent = "3900") & Sure. I found 9 apartment listings in your area matching those specifications. Betel Apartments is a great complex located at 1227 Hampshire Street. It had 2 bed rooms and 3 baths. The rent for the apartment is 3900 dollars per month.
+CONFIRM ( property_name = "The Retreat" ; visit_date = "March 4th") & Need your final confirmation to make a schedule of visit to The Retreat on March 4th.
+OFFER ( property_name = "Alborada Apartments" ; address = "1001 Beethoven Common" ; number_of_beds = "3" ; number_of_baths = "3" ; rent = "5100") & I found 10 very nice apartments for you in Fremont. I particularly recommend Alborada Apartments which is located at 1001 Beethoven Common. The apartment has the 3 bed rooms you want, as well as 3 bath rooms. Rent is quoted at 5100 dollar per month.INFORM_COUNT ( count = "10") & I found 10 very nice apartments for you in Fremont. I particularly recommend Alborada Apartments which is located at 1001 Beethoven Common. The apartment has the 3 bed rooms you want, as well as 3 bath rooms. Rent is quoted at 5100 dollar per month.
+INFORM ( furnished = "False") & No, it is not furnished.
+INFORM ( phone_number = "650-965-8290") & The phone number is 650-965-8290.
+OFFER ( property_name = "The Greenery Apartments Homes" ; address = "999 West Hamilton Avenue" ; number_of_beds = "3" ; number_of_baths = "3" ; rent = "5250") & For 5250 a month, The Greenery Apartments Homes has a 3 bed room, 3 bath apartment. That is located at 999 West Hamilton Avenue.
+coffee_ordering ( size_drink_accept = "short" ; name_drink_accept = "black and white mocha" ; type_milk_accept = "2% milk" ; preference_accept = "no whipped cream") & okay, thank you for confirming that. so a short black and white mocha, with 2% milk, no whipped cream. did i get it right this time?
+coffee_ordering ( preference = "Hot" ; name_drink = "Mocha") & Got it! Hot Mocha.
+coffee_ordering ( preference_accept = "cinnamon") & sure, adding cinnamon to your order.
+coffee_ordering ( size_drink_accept = "grande" ; type_milk_accept = "whole milk" ; name_drink_accept = "cappuccino" ; preference_accept = "whipped cream" ; location_store_accept = "palmdale airport") & So that's a grande whole milk cappuccino with caramel syrup and whipped cream from the starbucks inside the palmdale airport.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "cold brew" ; type_milk_accept = "2% milk" ; location_store_accept = "westlake, daly city, ca") & ok, i have ordered you a grande cold brew with 2% milk to be picked up at the starbucks in westlake, daly city, ca, is that correct?
+coffee_ordering ( size_drink = "grande" ; preference = "hot") & did you want the grande hot?
+coffee_ordering ( size_drink = "Grande") & Did you mean Grande?
+coffee_ordering ( size_drink_accept = "tall" ; preference_accept = "whipped cream") & tall coffee with whipped cream, correct?
+coffee_ordering ( preference = "syrups") & would you like any whipped cream or syrups?
+coffee_ordering ( type_milk_accept = "whole milk") & ok, whole milk it is. Which starbucks should i place the order at?
+coffee_ordering ( size_drink = "medium" ; preference = "iced" ; name_drink = "vanilla latte" ; type_milk = "whole milk") & did you say medium iced vanilla latte with whole milk?
+coffee_ordering ( location_store_accept = "at first street") & yes, your coffee will be ready to be picked up at the starbucks at first street in 15 minutes.
+coffee_ordering ( preference = "extra shot of espresso") & ok, an extra shot of espresso you said?
+OFFER ( restaurant_name = "Gumba's" ; city = "Sunnyvale") & I found 3 places. Gumba's is a good place in Sunnyvale.INFORM_COUNT ( count = "3") & I found 3 places. Gumba's is a good place in Sunnyvale.
+INFORM ( phone_number = "707-421-0835" ; price_range = "moderate") & Sorry, they are fully booked. Shall i try to make reservation for 1 people today at 5 pm? The price range is Moderate at mimi's cafe and their phone number is 707-421-0835OFFER ( restaurant_name = "mimi's cafe" ; party_size = "1" ; date = "today" ; time = "5 pm") & Sorry, they are fully booked. Shall i try to make reservation for 1 people today at 5 pm? The price range is Moderate at mimi's cafe and their phone number is 707-421-0835
+INFORM ( has_live_music = "False" ; price_range = "moderate") & Their price range is moderate and they do not have live music. Your reservation has successfully been made.
+CONFIRM ( city = "Petaluma" ; party_size = "1") & Okay, making the reservation for 1 person at Shree Indian Cuisine in Petaluma.
+CONFIRM ( restaurant_name = "Royal Rangoon Restaurant" ; date = "day after tomorrow") & So you'd like to make a reservation at Royal Rangoon Restaurant the day after tomorrow?
+INFORM ( has_seating_outdoors = "True" ; rating = "4.3") & Unfortunately I have been unable to make a reservation. The restaurant does have outdoor seating and customers have given Pezzella's Villa Napoli restaurant a rating of 4.3. Would you like me to book a table for March 13th at 12 pm instead?
+INFORM ( has_seating_outdoors = "True") & Yes outdoor seating is available.
+CONFIRM ( time = "12 pm" ; date = "next friday") & Making the reservation for next friday at 12 pm
+INFORM ( street_address = "500 Main Street" ; serves_alcohol = "False") & They're located at 500 Main Street, and they don't serve alcohol, sorry. I'm sorry but that time is all booked. Would you like a reservation for 2 at Baci Bistro And Bar for 1:30 pm today instead?
+OFFER ( restaurant_name = "Andes Cafe San Mateo" ; city = "San Mateo") & Please give me a moment. There are 9 restaurants with good rating and the top among them is Andes Cafe San Mateo located in San Mateo. Would you prefer to have your lunch here?INFORM_COUNT ( count = "9") & Please give me a moment. There are 9 restaurants with good rating and the top among them is Andes Cafe San Mateo located in San Mateo. Would you prefer to have your lunch here?
+CONFIRM ( restaurant_name = "Villa Romano" ; number_of_seats = "4") & Okay, please confirm: reservation for 4 people at Villa Romano.
+OFFER ( restaurant_name = "Afghan Village Restaurant" ; city = "Newark") & There is 1 restaurant that I can recommend in Newark. Afghan Village Restaurant would be perfect for your family.
+INFORM ( serves_alcohol = "False") & They don't serve any kind of alcohol.
+INFORM ( address = "1662 Lombard Street" ; rating = "4.5") & It's rated about 4.5 and the address is 1662 Lombard Street.
+INFORM ( has_live_music = "False" ; cuisine = "Bistro") & You're all set! There's no live music. However, they do serve the Bistro menu at the bar.
+CONFIRM ( time = "1:30 pm" ; number_of_seats = "4") & So you would like to make the reservation at 1:30 pm for 4?
+CONFIRM ( restaurant_name = "Hunan Chef Chinese Restaurant" ; city = "Pleasanton" ; time = "12 pm" ; party_size = "2" ; date = "today") & Perfect. Can you confirm the following details, please? You have a table for 2 people at Hunan Chef Chinese Restaurant in Pleasanton at 12 pm today.
+INFORM ( price_range = "moderate") & The prices are moderate
+CONFIRM ( restaurant_name = "Meiko Sushi" ; city = "Pleasanton" ; time = "12 pm" ; date = "day after tomorrow" ; party_size = "6") & So, a table reservation at Meiko Sushi in Pleasanton will be for 12 pm on the day after tomorrow for 6 people. Please confirm the aforementioned details.
+OFFER ( restaurant_name = "Barcha" ; city = "San Francisco") & I found 10 persian food restaurant. I suggest Barcha in San Francisco
+OFFER ( restaurant_name = "Asian Pearl" ; city = "Millbrae") & There are 7 noodle places in Millbrae. Asian Pearl is a nice restaurant.
+OFFER ( restaurant_name = "Buca Di Beppo Italian Restaurant" ; city = "Campbell") & I found 2 restaurants. I found Buca Di Beppo Italian Restaurant in Campbell
+OFFER ( address = "100 Greenwich street" ; rating = "4.4") & 10 results were found. Best one is located at 100 Greenwich street and the rating is 4.4.INFORM_COUNT ( count = "10") & 10 results were found. Best one is located at 100 Greenwich street and the rating is 4.4.
+OFFER ( place_name = "Grand Hyatt Seattle" ; star_rating = "4") & Yes there are! I've found 9 hotels for you. How about the Grand Hyatt Seattle? It has a 4 star rating.
+OFFER ( address = "1 Baffin Way" ; rating = "3.9") & Alright, let's look. I've found 9 options for you: one of them is on 1 Baffin Way with a 3.9 rating.
+INFORM ( has_laundry_service = "True" ; total_price = "2688") & Yes, this place offers laundry service. Your total is 2688 dollars.
+OFFER ( address = "10044 Pacific Mesa Boulevard" ; rating = "4.5") & There are 10 houses available. One of them is at 10044 Pacific Mesa Boulevard with a rating of 4.5.INFORM_COUNT ( count = "10") & There are 10 houses available. One of them is at 10044 Pacific Mesa Boulevard with a rating of 4.5.
+OFFER ( place_name = "Airways Hotel London Victoria" ; star_rating = "3") & I've found 10 hotels that match your criteria! The one I think you would like the most is called Airways Hotel London Victoria, and it is a 3 star hotel.INFORM_COUNT ( count = "10") & I've found 10 hotels that match your criteria! The one I think you would like the most is called Airways Hotel London Victoria, and it is a 3 star hotel.
+INFORM ( phone_number = "+1 714-772-5050" ; price = "$672") & price will be $672 and the phone number is +1 714-772-5050. And your hotel booking was confirmed as per your dates.
+CONFIRM ( hotel_name = "45 Park Lane" ; location = "London" ; check_in_date = "tomorrow" ; check_out_date = "March 13th" ; number_of_rooms = "1") & One moment. Please confirm: I'll be reserving 1 room at 45 Park Lane hotel located in London. Your check in is for tomorrow and checking out on March 13th. Does this sound correct?
+CONFIRM ( hotel_name = "Towneplace Suites By Marriott San Diego Downtown" ; check_in_date = "next Wednesday" ; number_of_days = "3" ; destination = "San Diego" ; number_of_rooms = "1") & Please confirm the following details: Booking 1 room for 3 days, checking in next Wednesday in San Diego at the Towneplace Suites By Marriott San Diego Downtown.
+CONFIRM ( number_of_adults = "4" ; check_in_date = "today") & I would like to confirm the following: reservation for 4 people who would be checking in today.
+OFFER ( address = "1, Jalan 2/142a, Taman Len Seng, 56000 Kuala Lumpur, Wilayah Persekutuan" ; rating = "3.8") & I found 10 houses relevant to your needs. How about 1, Jalan 2/142a, Taman Len Seng, 56000 Kuala Lumpur, Wilayah Persekutuan? It has a rating of 3.8INFORM_COUNT ( count = "10") & I found 10 houses relevant to your needs. How about 1, Jalan 2/142a, Taman Len Seng, 56000 Kuala Lumpur, Wilayah Persekutuan? It has a rating of 3.8
+OFFER ( place_name = "Auberge Vancouver Hotel" ; star_rating = "4") & Auberge Vancouver Hotel is a 4 star hotel and available.
+INFORM ( phone_number = "+1 888-712-2712" ; total_price = "$1,620") & Reservation is confirmed. The phone number is +1 888-712-2712. THe total price is $1,620.
+CONFIRM ( hotel_name = "Catamaran Resort Hotel and Spa" ; check_in_date = "next Monday" ; number_of_days = "3" ; destination = "San Diego" ; number_of_rooms = "1") & 1 room for 3 days in San Diego at Catamaran Resort Hotel and Spa for next Monday.
+CONFIRM ( hotel_name = "Clarion Inn & Suites Atlanta Downtown" ; location = "Atlanta" ; check_in_date = "day after tomorrow" ; check_out_date = "next Wednesday" ; number_of_rooms = "1") & Please confirm: Booking 1 room at Clarion Inn & Suites Atlanta Downtown in Atlanta for the day after tomorrow and checking out next Wednesday.
+OFFER ( address = "1000 1st Avenue" ; rating = "4.5") & The house at 1000 1st Avenue is among 10 houses that you may like. It has a rating of 4.5.INFORM_COUNT ( count = "10") & The house at 1000 1st Avenue is among 10 houses that you may like. It has a rating of 4.5.
+OFFER ( hotel_name = "Best Western Mission Bay" ; average_rating = "3.8") & How do you feel about Best Western Mission Bay? It has a rating of 3.8.
+CONFIRM ( check_in_date = "next Friday" ; number_of_days = "4") & Sure, please confirm your reservation for 4 days commencing next Friday.
+CONFIRM ( where_to = "London" ; number_of_adults = "2" ; check_in_date = "tomorrow" ; check_out_date = "March 13th") & Please confirm: you would like to book a house in London for 2 people. The check in date is tomorrow and the check out date is March 13th.
+INFORM ( total_price = "$4,200") & The total price is $4,200. Your reservation is booked
+INFORM ( has_wifi = "True" ; phone_number = "+1 212-235-1111") & Sure, the number is +1 212-235-1111. And yes, the hotel has wifi
+OFFER ( address = "1 Place de la Sorbonne, 75005" ; rating = "4.5") & There's 1 Place de la Sorbonne, 75005 rated 4.5 stars.
+CONFIRM ( where_to = "Los Angeles" ; check_in_date = "today") & Please confirm the following: the house is in Los Angeles and check in is today.
+OFFER ( temperature = "88" ; precipitation = "18") & The average temperature for the day should be 88 degrees Fahrenheit, with an 18 percent chance of rain.
+OFFER ( journey_start_time = "6:30 am" ; total = "$126") & I've found 4 trains that may work for you. How about the one leaving at 6:30 am? The ticket will be $126.
+INFORM ( to_station = "Union Station") & It arrives at Union Station.
+train_inform ( duration = "79 minutes" ; price = "17.60 pounds per person") & It is 17.60 pounds per person and the travel time is 79 minutes.
+train_inform ( day = "friday" ; departure = "cambridge" ; trainid = "TR5154") & the train id is TR5154 and it leaves cambridge on friday
+train_inform ( arriveby = "05:52" ; day = "saturday" ; departure = "stansted airport" ; destination = "cambridge" ; duration = "28 minutes" ; leaveat = "05:24" ; price = "8.08 pounds" ; trainid = "TR4194") & TR4194 stansted airport cambridge saturday 05:24 05:52 8.08 pounds 28 minutes. Would you like me to book you on this schedule?
+train_inform ( choice = "few") & There are few options to choose from. How many people are traveling?
+train_inform ( arriveby = "11:07" ; day = "Cambridge" ; destination = "London Liverpool street" ; leaveat = "09:39") & The first train to London Liverpool street is at 09:39 and arrives at 11:07 in Cambridge. Does this time work for you? or would you like later?
+INFORM ( inbound_arrival_time = "1:47 am") & It lands at 1:47 am
+OFFER ( airlines = "United Airlines" ; outbound_departure_time = "12:50 pm" ; inbound_departure_time = "5:35 pm" ; price = "$240") & I found 1 flight that matches the criteria. There is a United Airlines flight departing at 12:50 pm and retuning at 5:35 pm for $240.INFORM_COUNT ( count = "1") & I found 1 flight that matches the criteria. There is a United Airlines flight departing at 12:50 pm and retuning at 5:35 pm for $240.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "4:05 am" ; number_stops = "1" ; price = "$444") & I've found 1 flight that matches your criteria. It is an American Airlines flight that leaves at 4:05 am. It has 1 stop and will cost $444.
+INFORM ( number_stops = "0") & The stop is 0
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "3:25 pm" ; inbound_departure_time = "10:05 am" ; fare = "$229") & There are 3 flights available with American Airlines . It leaves at 3:25 pm. The flight back takes off at 10:05 am for $229.INFORM_COUNT ( count = "3") & There are 3 flights available with American Airlines . It leaves at 3:25 pm. The flight back takes off at 10:05 am for $229.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "8:15 am" ; number_stops = "1" ; fare = "$222") & would you like to fly with American Airlines? the ticket costs $222 I found 1 flight for you . The flight takes off at 8:15 am.INFORM_COUNT ( count = "1") & would you like to fly with American Airlines? the ticket costs $222 I found 1 flight for you . The flight takes off at 8:15 am.
+INFORM ( origin_airport = "LAX International Airport" ; seating_class = "Economy") & Flight is from LAX International Airport and the ticket rate is for an Economy class seat.
+INFORM ( outbound_arrival_time = "8:05 pm") & It'll get there at 8:05 pm
+INFORM ( origin_airport = "Hartsfield-Jackson International Airport" ; outbound_arrival_time = "1:37 pm") & The flight departs from Hartsfield-Jackson International Airport and the onward flight arrives at 1:37 pm.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "2:50 pm" ; inbound_departure_time = "4 pm" ; price = "$245") & I found 4 flights. There's an American Airlines flight that leaves at 2:50 pm and a return flight at 4 pm for $245INFORM_COUNT ( count = "4") & I found 4 flights. There's an American Airlines flight that leaves at 2:50 pm and a return flight at 4 pm for $245
+OFFER ( airlines = "Delta Airlines" ; outbound_departure_time = "6 am" ; inbound_departure_time = "2:50 am" ; fare = "$505") & I found 1 flight for you. It is a Delta Airlines flight that takes off at 6 am and returns at 2:50 am. The price is $505.
+OFFER ( airlines = "Delta Airlines" ; outbound_departure_time = "8:45 pm" ; inbound_departure_time = "3 pm" ; price = "$174") & I have 2 flights for you with Delta Airlines leaves at 8:45 pm and return at 3 pm for $174
+OFFER ( airlines = "Delta Airlines" ; outbound_departure_time = "3 pm" ; inbound_departure_time = "7:20 am" ; price = "$236") & I have found 2 flights for your trip. There is a Delta Airlines flight available that leaves at 3 pm and has a return flight at 7:20 am. The ticket costs $236. I can discuss the other flight's details if the first flight does not work for you.
+INFORM ( is_redeye = "True") & It will be an overnight flight.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "2:55 pm" ; number_stops = "0" ; price = "$133") & I found 1 American Airlines flight that leaves at 2:55 pm with 0 stops. The ticket price is $133.INFORM_COUNT ( count = "1") & I found 1 American Airlines flight that leaves at 2:55 pm with 0 stops. The ticket price is $133.
+INFORM ( origin_airport = "Benito Juarez International Airport") & Departing from Benito Juarez International Airport.
+OFFER ( airlines = "United Airlines" ; outbound_departure_time = "6:20 pm" ; number_stops = "0" ; price = "$189") & I have found 1 flight that matches your criteria. The flight is a United Airlines flight, and the ticket costs $189. The outbound flight leaves at 6:20 pm and has 0 stops.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "8:30 am" ; number_stops = "0" ; price = "$163") & No problem, there are 3 matching flights. How about American Airlines departing at 8:30 am with 0 stops for $163 per ticket.INFORM_COUNT ( count = "3") & No problem, there are 3 matching flights. How about American Airlines departing at 8:30 am with 0 stops for $163 per ticket.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "10:10 am" ; inbound_departure_time = "6:40 pm" ; price = "$122") & I found 1 option for you with American Airlines. The outbound flight is at 10:10 am and the return light is 6:40 pm. The total ticket cost is $122.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "6 am" ; inbound_departure_time = "5:20 am" ; price = "$198") & I've found 4 flights. There's an American Airlines outbound flight that leave at 6 am with a return flight that leaves at 5:20 am. It costs $198, how does that sounds?
+OFFER ( airlines = "Delta Airlines" ; outbound_departure_time = "10:40 am" ; inbound_departure_time = "10:05 pm" ; price = "$192") & I found a Delta Airlines flight that leaves at 10:40 am and the return flight departs at 10:05 pm. It costs $192.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "1:20 pm" ; inbound_departure_time = "2:55 pm" ; price = "$174") & Of the 2 convenient flights, American Airlines has an outbound flight that leaves at 1:20 pm and a return flight that leaves at 2:55 pm and it is priced at $174.
+OFFER ( airlines = "Delta Airlines" ; outbound_departure_time = "5:35 pm" ; number_stops = "1" ; price = "$369") & I have a Delta Airlines flight at 5:35 pm with 1 stop for $369.
+OFFER ( airlines = "Alaska Airlines" ; outbound_departure_time = "8:10 pm" ; is_nonstop = "True" ; price = "$178") & I found 5 options. Would Alaska Airlines work? I found a flight leaving at 8:10 pm and costing $178.INFORM_COUNT ( count = "5") & I found 5 options. Would Alaska Airlines work? I found a flight leaving at 8:10 pm and costing $178.
+OFFER ( airlines = "Alaska Airlines" ; outbound_departure_time = "7:10 pm" ; number_stops = "0" ; price = "$131") & There is 1 suitable flight that is an Alaska Airlines flight. The outbound flight leaves at 7:10 pm with 0 stops and the price of the ticket is $131.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "9:05 am" ; inbound_departure_time = "3:05 pm" ; price = "$361") & American Airlines has a flight leaving at 9:05 am and returns at 3:05 pm. The cost is $361.
+OFFER ( airlines = "Alaska Airlines" ; outbound_departure_time = "6:45 am" ; number_stops = "1" ; price = "$245") & Okay, I've found 4 flights for you. There's an Alaska Airlines flight at $245. It leaves at 6:45 am and has 1 layover.
+INFORM ( outbound_arrival_time = "6:32 pm" ; destination_airport = "LAX International Airport") & It'll arrive at 6:32 pm at LAX International Airport.
+INFORM ( outbound_arrival_time = "11:16 pm" ; destination_airport = "Benito juarez International Airport") & This will be in Benito juarez International Airport at 11:16 pm
+OFFER ( airlines = "United Airlines" ; outbound_departure_time = "11:50 am" ; number_stops = "0" ; price = "$190") & I found a flight on United Airlines that takes off at 11:50 am with 0 layers for $190 per passenger.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "7:35 am" ; number_stops = "0" ; price = "$96") & I found 4 flights for you. There us an American Airlines flight that leaves at 7:35 am and has 0 layovers. The price per ticket is $96.INFORM_COUNT ( count = "4") & I found 4 flights for you. There us an American Airlines flight that leaves at 7:35 am and has 0 layovers. The price per ticket is $96.
+OFFER ( airlines = "United Airlines" ; outbound_departure_time = "1:10 am" ; inbound_departure_time = "10:35 am" ; fare = "$675") & I found 1 flight, United Airlines. Departing at 1:10 am and the return leaves at 10:35 am. It costs $675.INFORM_COUNT ( count = "1") & I found 1 flight, United Airlines. Departing at 1:10 am and the return leaves at 10:35 am. It costs $675.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "4 pm" ; inbound_departure_time = "7:50 am" ; fare = "$251") & I found 4 flights. How about an American Airlines flight that takes off at 4 pm, returns at 7:50 am and costs $251.INFORM_COUNT ( count = "4") & I found 4 flights. How about an American Airlines flight that takes off at 4 pm, returns at 7:50 am and costs $251.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "3:45 pm" ; is_nonstop = "False" ; inbound_departure_time = "10:25 am" ; price = "$377") & I searched and found 2 American Airlines flight and it will start at 3:45 pm. The price is $377 and the return flight will start at 10:25 am.INFORM_COUNT ( count = "2") & I searched and found 2 American Airlines flight and it will start at 3:45 pm. The price is $377 and the return flight will start at 10:25 am.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "8:40 pm" ; number_stops = "0" ; price = "$124") & I found an American Airlines flight which leaves at 8:40 pm with 0 stop and the ticket is priced at $124.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "7:35 am" ; inbound_departure_time = "8:05 am" ; price = "$251") & I found 2 flights that you might like. There is a flight that leaves at 7:35 am with the returning flight leaving at 8:05 am. You will be flying with American Airlines with a total cost of $251.INFORM_COUNT ( count = "2") & I found 2 flights that you might like. There is a flight that leaves at 7:35 am with the returning flight leaving at 8:05 am. You will be flying with American Airlines with a total cost of $251.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "4:30 AM" ; number_stops = "1" ; price = "$271") & I have an American Airlines flight leaving at 4:30 AM with 1 stop for $271.
+CONFIRM ( origin_city = "Atlanta" ; destination_city = "Los Angeles" ; airlines = "Southwest Airlines" ; departure_date = "next Monday" ; return_date = "next Wednesday" ; outbound_departure_time = "1:30 pm" ; inbound_departure_time = "1 pm" ; seating_class = "Economy" ; passengers = "1") & Before I do, let's confirm. You're flying from Atlanta to Los Angeles on Southwest Airlines. The flight there is on next Monday at 1:30 pm, and the flight back is next Wednesday at 1 pm. You'll be getting 1 ticket in Economy class.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "7 pm" ; number_stops = "0" ; fare = "$297") & I found 1 flight for you. Would you like to fly with American Airlines on a flight that leaves at 7 pm with 0 stops and a price of $297?
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "10 pm" ; inbound_departure_time = "2:50 pm" ; price = "$132") & Flying on American Airlines, your outbound flight will leave at 10 pm. The return flight leaves at 2:50 pm, for a total price of $132.
+OFFER ( airlines = "United Airlines" ; outbound_departure_time = "9:20 pm" ; inbound_departure_time = "1:50 pm" ; price = "$245") & I have found 1 flight for $245 with United Airlines outbound flight leaves at 9:20 pm and will returning 1:50 pm.
+OFFER ( airlines = "United Airlines" ; outbound_departure_time = "8 am" ; number_stops = "1" ; fare = "$292") & There are seats available on a United Airlines flight that takes off at 8 am. That one is $292 and also has 1 stop.
+CONFIRM ( origin_city = "Mexico City" ; destination_city = "Chicago" ; airlines = "American Airlines" ; departure_date = "next Tuesday" ; return_date = "March 13th" ; outbound_departure_time = "2:35 am" ; inbound_departure_time = "7:50 am" ; seating_class = "Economy" ; passengers = "1") & Here's the recap. Flight is from Mexico City and goes to Chicago. The Airlines company is American Airlines, departure day is next Tuesday at 2:35 am. The return date is March 13th at 7:50 am. The seating class is Economy and this is all intended for 1 passenger.
+OFFER ( airlines = "United Airlines" ; outbound_departure_time = "10:05 pm" ; inbound_departure_time = "7:20 am" ; price = "$295") & I found 1 round trip flight. It is a United Airlines flight. The outbound flight is at 10:05 pm and the return flight is at 7:20 am. The ticket would cost you $295.
+OFFER ( airlines = "Alaska Airlines" ; outbound_departure_time = "7:10 pm" ; number_stops = "0" ; price = "$140") & I found a 0 stop Alaska Airlines flight. Actually I found 4 others, but I think this one is good, it leaves at 7:10 pm and it'll run you $140.
+OFFER ( title = "Captain Marvel") & Captain Marvel, Shazam!, and The Poseidon Adventure come to mind.
+INFORM ( starring = "bakary sangare") & The movie is playing. There's bakary sangare in it.
+CONFIRM ( title = "The Visitor" ; subtitles = "False") & Please confirm: Play The Visitor with no subtitles.
+CONFIRM ( title = "JT LeRoy" ; subtitles = "False") & You would like to watch JT LeRoy without subtitles, correct?
+CONFIRM ( title = "A Madea Family Funeral" ; subtitles = "True") & Please confirm the following details: A Madea Family Funeral Movie with sub titles.
+INFORM ( starring = "Nalneesh Neel") & The movie is now playing. Nalneesh Neel is the actor.
+CONFIRM ( movie_name = "Hackers" ; subtitle_language = "None") & Hackers it is - do you want subtitles, or do you prefer none at all?
+OFFER ( movie_name = "After") & Sure, i've located 1 movie, called After.
+OFFER ( title = "A Madea Family Funeral") & I've pulled up 10 movies for you. May I recommend A Madea Family Funeral or Auntie Mame? There is also Dr. Strangelove.
+CONFIRM ( title = "Little Woods" ; subtitles = "False") & I can play that for you right now. So to make sure, you want to watch Little Woods without subtitles?
+CONFIRM ( title = "After" ; subtitles = "False") & The movie After will play without subtitles.
+taxi_inform ( phone = "07338867597" ; type = "White Toyota") & I've made the change for you. The new car is a White Toyota, and the contact number is 07338867597. Can I help you with anything else?
+taxi_inform ( phone = "07248386378" ; type = "black volkswagen") & Booking completed! Booked car type : black volkswagen Contact number : 07248386378
+taxi_inform ( phone = "07622282042" ; type = "white toyota") & Booking completed! Booked car type : white toyota Contact number : 07622282042
+CONFIRM ( new_alarm_time = "3:30 pm" ; new_alarm_name = "Cleaning") & Please verify the following information: make a new alarm for 3:30 pm called Cleaning.
+CONFIRM ( new_alarm_time = "4:45 pm" ; new_alarm_name = "Music Practice") & Please review the details so that i will confirm. Creating an alarm at 4:45 pm with name Music Practice.
+movie_ticket ( num_tickets_accept = "4" ; name_movie_accept = "lego movie 2: the second part" ; time_start_accept = "1:45pm" ; name_theater_accept = "Cinemark McCreless Market") & sure. you're all set. 4 tickets for the lego movie 2: the second part at 1:45pm at Cinemark McCreless Market.
+movie_ticket ( name_theater = "regal cinemas thornton place 14") & are you near regal cinemas thornton place 14?
+movie_ticket ( time_start = "4:20") & ok, i see one showing at 4:20 today.
+movie_ticket ( type_screening = "3d session") & it's the standard version. would you prefer a 3d session?
+movie_ticket ( type_screening = "standard") & Okay 3D or standard?
+movie_ticket ( price_ticket = "8:15pm" ; name_theater_accept = "Regal Cinemas Meridian 16") & i found 5:30, 6:30 and 8:15pm at Regal Cinemas Meridian 16.
+movie_ticket ( time_start = "9:40pm") & the other show times available at this theater are 5pm and 9:40pm.
+movie_ticket ( time_start = "6pm") & dragon ball super broly is playing at studio movie grill at 6:00pm and 8:45pm. do either work for you? which one? did you mean 6pm?
+movie_ticket ( time_start = "8:30 pm") & 5:45pm, 6pm and 8:30 pm.
+movie_ticket ( time_start = "3:30pm") & let me check that for you. the next showing would be at 3:30pm, would that work for you?
+movie_ticket ( type_screening = "standard") & sure, let me take a look at the showtimes. would you like to see it in 3d or standard?
+movie_ticket ( num_tickets = "three tickets" ; price_ticket = "$29.33") & Three tickets, got it. Okay The total for three tickets will be $29.33.
+movie_ticket ( time_start_reject = "12:05pm" ; name_theater = "AMC Cherry Hill 24" ; time_start = "11:30") & ok, give me a second while i look for showtimes. i found a 12:05pm at United Artists Riverview Plaza 17 & RPX, a 1pm at Studio Movie Grill and a 11:30 at AMC Cherry Hill 24.
+movie_ticket ( time_start = "9:40" ; name_movie = "glass" ; name_theater = "Zeus Digital for" ; time_start_reject = "9:40") & Great I'll see if the 9:40 showing has tickets available. So that's 1 ticket to glass at Zeus Digital for 9:40 right?
+movie_ticket ( name_movie = "escape room" ; time_duration_accept = "1 hour and 39 minutes") & escape room is 1 hour and 39 minutes long.
+movie_ticket ( time_start_accept = "6:30 pm" ; name_theater_accept = "Regal Cinemas Battery Park") & How does 6:30 pm at Regal Cinemas Battery Park work?
+movie_ticket ( time_start_reject = "ts wil" ; name_theater_reject = "you via text message.") & your tickets will be sent to you via text message.
+movie_ticket ( name_theater = "regal cinemas natoma marketplace") & are you near regal cinemas natoma marketplace?
+movie_ticket ( price_ticket_accept = "$42.50") & ok, the total is $42.50.
+movie_ticket ( time_start = "9 pm") & I have showtimes around 6, 6:50, and 9 pm.
+movie_ticket ( name_theater = "fontana regency 8") & give me one moment to find the movie theaters closest to you. i found fontana regency 8, will that work for you?
+movie_ticket ( time_start = "7:15 pm") & there is a showing at 6:40pm and a showing at 7:15 pm, which one do you want to choose?
+movie_ticket ( time_start_reject = "3:55" ; time_start = "6:55") & sure, let me book your tickets. i'm sorry, it looks like the 3:55 showing is sold out, would you like to go to the 6:55 showing or if that's too late i can try and find an earlier showing at another theater.
+movie_ticket ( num_tickets_accept = "3 tickets" ; name_movie_accept = "aquaman" ; time_start_accept = "10:10pm" ; name_theater_accept = "the Regal Cinemas Battery Park 11") & you're all set. 3 tickets for aquaman at 10:10pm at the Regal Cinemas Battery Park 11.
+movie_ticket ( time_start_reject = "4:30") & so thats before 5pm right. ok the only showtime before 5om would be 4:30, shall we try that time.
+movie_ticket ( name_theater = "regal cinemas fenway" ; time_start = "10:35pm") & ok, regal cinemas fenway has showings at 7:20 and 10:35pm.
+movie_ticket ( time_start = "5:45pm" ; name_theater = "amc kabuki 8") & i found 2:10 and 5:10pm sessions at the Marina Theatre and 1pm, 2:45pm and 5:45pm sessions and amc kabuki 8.
+movie_ticket ( name_theater_accept = "AMC West Shore 14") & let me check, one moment. Yes, there is the AMC West Shore 14.
+movie_ticket ( time_start_reject = "9:30pm" ; name_theater = "Regal LA Live") & Alright, the first one i've found is at 9:30pm at Regal LA Live.
+movie_ticket ( price_ticket_accept = "$45.88") & Great, your movie will cost $45.88 and you'll get the tickets via mobile.
+OFFER ( balance = "$1,597.61" ; account_type = "checking") & Your checking account balance is $1,597.61.
+OFFER ( account_type = "savings" ; account_balance = "$18,299.57") & Your savings account holds $18,299.57
+OFFER ( balance = "$7,285.15" ; account_type = "checking") & Your checking account balance is $7,285.15.
+OFFER ( balance = "$14,524.40" ; account_type = "checking") & Sure, it is $14,524.40 in checking.
+OFFER ( balance = "$1,230.19" ; account_type = "savings") & Your savings account has a balance of $1,230.19.
+pizza_ordering ( name_store_accept = "Bella Luna's") & your pizzas will be ready for pickup at Bella Luna's in 35 minutes.
+pizza_ordering ( size_pizza = "small" ; type_crust = "thin crust" ; name_pizza = "veggie lovers") & 2 small thin crust veggie lovers.
+pizza_ordering ( name_store = "bella luna" ; name_pizza = "goat cheese") & yes, bella luna has goat cheese.
+pizza_ordering ( size_pizza_accept = "medium" ; type_crust_accept = "thick crust" ; name_pizza_accept = "regular Meatlover" ; preference_accept = "extra cheese" ; type_topping_accept = "anchovies") & Wonderful, let me repeat it back to you. 2 medium Pizzas with thick crust, one regular Meatlover, and a second one with extra cheese and anchovies as well.
+pizza_ordering ( type_crust = "thin crust" ; preference_accept = "extra halepenyos" ; name_pizza_accept = "supreme" ; name_pizza = "chicago style meat lovers" ; type_topping_accept = "halepenyos") & So that's 4 medium thin crust pizzas, 1 extra cheesy parmesan cheese pizza with cracked red pepper and olive oil, one chicago style meat lovers with extra olives and sausage, 1 veggie lovers with artechokes, halepenyos, and one supreme with extra halepenyos.
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "classic" ; type_topping_accept = "pineapple") & So that's 4 large thin crust pizzas, one classic, one sausage, one ham and one pineapple. Your total will be $66.66.
+pizza_ordering ( name_store_accept = "bella luna" ; name_pizza_reject = "lenguisa" ; type_topping_reject = "meat lovers") & ok, bella luna does not have lenguisa, would you like a meat lovers instead?
+pizza_ordering ( size_pizza = "small" ; name_pizza_accept = "hawaiian" ; preference_accept = "extra cheese" ; type_topping_accept = "onion" ; type_crust_accept = "thick crust") & Both with thick crust, got it. Sure let me do that for you. 2 small pizzas, 1 with hawaiian with extra ham, extra cheese, and second one with chicken bacon ranch with onion all with thick crust, final order?
+pizza_ordering ( name_store_accept = "Bella Luna") & Not a problem. your total is $43.65. Your order has been sent to Bella Luna and is being prepared. Your order should be ready for pickup soon.
+pizza_ordering ( type_crust = "thin crust") & ok, i can add thin crust, that will not affect your total price.
+pizza_ordering ( size_pizza_accept = "large" ; name_pizza_accept = "thin crust pizzas" ; type_topping_accept = "pineapple" ; preference_accept = "marinara sauce") & so your order is: 4 large thin crust pizzas. the first with banana peppers with parmesan asiago. the second with diced tomatoes and marinara sauce and salami. the third with italian sausage, provolone and spinach. the fourth with bacon, cheddar cheese and pineapple.
+pizza_ordering ( size_pizza = "small" ; type_topping_accept = "chicken" ; preference_accept = "extra cheese" ; type_crust_accept = "thin crust") & so 3 small pizzas. 1 pepperoni and beef, the second with bacon and extra cheese, the third is bacon and chicken. all of them are thin crust.
+pizza_ordering ( size_pizza = "small" ; name_pizza = "cheese only pizzas") & most certainly! small cheese only pizzas and
+flight_detail ( stops = "two stops" ; fare = "$7,996" ; other_description = "14 hours") & Just a moment. The fight with the shortest layover is $15,198 per ticket and it has one-stop for an hour and 3 minutes however there is one less expensive Ticket available for $7,996 but it has two stops and the total flight time is 19 hours and 40 minutes versus the other flight time of 14 hours.
+flight_booked ( flight_booked = "The details have been sent to your email") & The details have been sent to your email.
+flight_detail ( from_time = "10:06 p.m." ; stops = "layover" ; stops_location = "Charlotte" ; other_description = "3 hours and 29 minutes") & The return flight leaves at 10:06 p.m. with a layover in Charlotte for 3 hours and 29 minutes.
+flight_detail ( stops = "layover") & There's one layover.
+flight_detail ( stops = "non-stop" ; from = "4:10 p.m" ; date = "February 17th") & The only flight available which is non-stop would be departing to Houston on February 17th at 4:10 p.m.
+flight_detail ( from_time = "3:30 p.m" ; from = "New York" ; stops = "nonstop") & I found a nonstop flight departing New York at 3:30 p.m. Will that be okay?
+flight_booked ( flight_booked = "your flight has been booked") & Okay, your flight has been booked. Confirmation email has been sent.
+flight_detail ( from_time = "8:30 PM" ; other_description = "1 hour and 33 minute" ; stops = "layover" ; stops_location = "Boston") & Okay. I found a time. 8:30 PM. You will have a 1 hour and 33 minute layover in Boston.
+flight_search ( time_of_day = "early morning") & Okay, let me look. Just one moment. There are no early morning flights, the earliest flight leaves at 11:27 AM.
+flight_search ( airline = "Brussels Airlines" ; other_description = "about $3000 cheaper") & Brussels Airlines is about $3000 cheaper.
+flight_detail ( from_time = "8:14 a.m.") & Okay, I got it 8:14 a.m. I guess you're all set going to have a great cheap flight. Enjoy your journey.flight_search ( price_range = "cheap flight") & Okay, I got it 8:14 a.m. I guess you're all set going to have a great cheap flight. Enjoy your journey.
+flight_detail ( seating_class = "economy") & It was for economy only. Do you prefer first class?
+flight_detail ( stops = "non-stop") & Okay, let me see what I can find for you. Just a moment, I have found you a non-stop flight that departs this evening since there are no morning flights available any longer at 5:04 p.m.flight_search ( time_of_day = "5:04 p.m" ; other_description = "there are no morning flights available any longer at 5:04 p.m") & Okay, let me see what I can find for you. Just a moment, I have found you a non-stop flight that departs this evening since there are no morning flights available any longer at 5:04 p.m.
+flight_booked ( flight_booked = "I will send you the confirmation to your email") & You're welcome. I will send you the confirmation to your email, have a safe flight.
+flight_search ( airline = "United" ; destination = "Bangor") & There are no United flights flying into Bangor.
+flight_detail ( from = "New York City" ; from_time = "8:25 a.m." ; to = "Seattle" ; to_time = "4:55 p.m") & Great I will now find your flight. Just one moment. I found a flight that leaves New York City at 8:25 a.m. and arrives in Seattle at 4:55 p.m. Will that work for you?
+flight_detail ( stops_location = "London") & Its in London.
+flight_search ( origin = "New York" ; destination = "Seattle") & Alright, from New York city to Seattle.
+flight_detail ( from_time = "10:40 a.m") & Two times to fly at 8:45 a.m or 10:40 a.m.
+flight_search ( type = "round-trip" ; total_fare = "around $2,629") & Okay nice, let me look a flight for you. This will just be a second. I found a round-trip flight that cost around $2,629 leaves at 7 AM and you arrive at your destination at 6 AM with one layover stop.
+flight_detail ( airline = "Delta Airlines" ; from_time = "6:40 a.m" ; stops = "one stop") & Just one moment. I found one flight with Delta Airlines leaving at 6:40 a.m. for $2,710 round trip this has one stop.
+flight_detail ( fare = "$11,160" ; from_time = "9:10 p.m") & The least expensive flight is $11,160 leaving at 9:10 p.m. but two stops.
+flight_search ( total_fare = "$756") & Total price of $756.
+flight_search ( destination = "Madrid") & Okay, what class would you like to fly to Madrid?
+flight_search ( stops = "zero layovers" ; seating_class = "business class") & Unfortunately, there are no flights with zero layovers in business class?
+flight_detail ( from_time = "4:00 p.m" ; to_time = "10:21 p.m") & Return flight leaves at 4:00 p.m and arrives at 10:21 p.m.
+flight_detail ( stops = "non-stop" ; from_time = "9:05 PM") & I have a non-stop flight at 9:05 PM.
+flight_search ( num_pax = "two people") & I see that it is the total cost for two people.
+flight_detail ( from_time = "12:05 A.M") & You  need to leave at 12:05 A.M. Is that okay?
+flight_search ( seating_class = "cabin class") & Okay, any cabin class you prefer?
+flight_detail ( from_time = "3:05 PM") & 3:05 PM.
+flight_detail ( fare = "two thousand nine hundred one dollars") & There is one flight for two thousand nine hundred one dollars.
+flight_booked ( flight_booked = "Okay, I have gone ahead and bookeed") & Okay, I have gone ahead and bookeed your round-trip flight. Your tickets have been sent to you via email.flight_search ( type = "round-trip") & Okay, I have gone ahead and bookeed your round-trip flight. Your tickets have been sent to you via email.
+flight_search ( date_depart_origin = "today") & Okay, so the earliest time you could leave today is at 3:55 p.m.
+flight_detail ( from_time = "1:10 PM" ; to_time = "4:43 PM") & It departs at 1:10 PM – 4:43 PM.
+flight_detail ( from = "Sacramento" ; from_time = "10:44 p.m." ; stops = "layover" ; stops_location = "Atlanta" ; other_description = "1 hour and 16 minutes") & Just a moment. I have a flight departing Sacramento at 10:44 p.m. this evening. This flight has a layover in Atlanta for in 1 hour and 16 minutes.
+flight_booked ( flight_booked = "details sent to your email") & Okay, details sent to your email. Have a safe flight.
+flight_search ( price_range = "cheapest") & The cheapest flight I found out of Lax to Chicago departing at 5:20 p.m. and arriving at 2:54, with the return flight departing at 11:50 p.m. and arriving at 2:54 p.m. for a total of $441. Both flights have layovers in Chicago with a layover of 31 minutes.
+flight_booked ( flight_booked = "ets have been booked and the de") & Flight tickets have been booked and the details have been emailed to you.
+flight_detail ( stops = "nonstop") & Yes sir, nonstop.
+flight_detail ( from = "Seattle" ; from_time = "11:55 pm" ; to = "Houston" ; to_time = "6:06 am") & I have found a flight that departs from Seattle at 11:55 pm and arrives in Houston at 6:06 am.
+flight_search ( total_fare = "$2689" ; type = "round trip") & Okay, this flight will cost $2689 for round trip.
+flight_search ( origin = "LA") & From LA?
+flight_search ( num_pax = "2 passengers") & Alright. 2 passengers.
+flight_detail ( other_description = "1 hour and 15 mins") & 1 hour and 15 mins.
+flight_search ( total_fare = "$1,620") & Total airfare will be $1,620.
+flight_detail ( from_time = "1:29 PM") & 1:29 PM.
+flight_search ( price_range = "least expensive") & The least expensive flight I have is $490 with 3 stops with American airlines, leaving at 5:45 PM.flight_detail ( fare = "$490" ; stops = "3 stops" ; airline = "American airlines" ; from_time = "5:45 PM") & The least expensive flight I have is $490 with 3 stops with American airlines, leaving at 5:45 PM.
+flight_search ( type = "one-way") & Did you need a round-trip ticket or just a one-way ticket?
+flight_detail ( stops = "nonstop" ; fare = "1390$" ; from_time = "7:10 PM") & I found a nonstop flight for 1390$ leaving at 7:10 PM. Would you like that?
+flight_detail ( other_description = "1 hour and 44 minutes" ; stops = "layover" ; stops_location = "New York" ; to = "Portland" ; to_time = "1:38 P.M") & There will be 1 hour and 44 minutes layover in New York. And you will arrive back in Portland at 1:38 P.M.
+flight_search ( total_fare = "$511") & Total for this non-stop flight with Delta Airlines in economy seating is $511.
+flight_detail ( from_time = "10:05 p.m") & Would you like to 6:35 p.m? It's the cheapest flight. For the return flight the suitable time is 10:05 p.m.
+flight_search ( origin = "Houston" ; destination = "London") & Okay, so you'd like a flight from Houston to London.
+flight_search ( total_fare = "$442") & These tickets are $442 per person.
+flight_search ( seating_class = "First class") & Dates/ Price limit/Coach or First class.
+flight_detail ( airline = "American Airlines" ; fare = "$2,118" ; stops = "one-stop") & Just a moment. Okay, there are two American Airlines flights for that date range for $2,118 per ticket for two people and it has one-stop.
+flight_search ( price_range = "nonstop" ; airline = "Alaska" ; total_fare = "$442") & Okay. Alright. I found a nonstop flight. With Alaska airlines. For $442.
+flight_search ( price_range = "the cheapest") & For the return flight, the cheapest ones are either in the morning or the latest is 3:59 p.m.flight_detail ( from_time = "3:59 p.m") & For the return flight, the cheapest ones are either in the morning or the latest is 3:59 p.m.
+flight_search ( stops = "non-stop flights") & Yes, there are several non-stop flights, would you like me to tell you the best deal or do you have any other specifications you would like?
+flight_search ( destination = "Los Angeles") & Great, I can get you a flight to Los Angeles. When are you departing and when will you be returning?
+flight_detail ( fare = "$10,894" ; from_time = "8:25 p.m" ; airline = "British Airways" ; stops = "non-stop") & $10,894 leaving at 8:25 p.m. with British Airways non-stop.
+flight_search ( stops = "nonstop" ; airline = "United") & There is a nonstop flight available with United.
+flight_detail ( fare = "$1000" ; from_time = "12 pm" ; airline = "Sun Country") & Sure thing. Hold on. I have a flight going for $1000 leaving at 12 pm with Sun Country.
+flight_detail ( stops = "layover" ; stops_location = "Chicago" ; other_description = "1 hour") & They have a 1 hour layover in Chicago.
+flight_search ( time_of_day = "afternoon") & Do you prefer to leave morning or afternoon flight?
+flight_detail ( to_time = "2:54 PM") & Okay, you will arrive back at 2:54 PM.
+flight_booked ( flight_booked = "The tickets have been booked") & The tickets have been booked and the details have been emailed to you.
+flight_search ( seating_class = "economy" ; total_fare = "$767" ; num_pax = "one ticket" ; time_of_day = "tonight" ; type = "round-trip") & Seems to be a connection issue. Okay, I heard you. Late as possible, sure thing. So, it looks like the starting price for economy is $767 for one ticket tonight by round-trip.
+flight_detail ( other_description = "snacks") & Yes, Both of the outbound and return flights will have snacks.
+flight_detail ( from_time = "11:12 a.m." ; stops = "one stop") & I have one that leaves at 11:12 a.m. with one stop.
+flight_search ( date_depart_origin = "Feb 7" ; date_return = "feb 10") & Okay. Feb 7 to feb 10, Correct.
+flight_search ( airline = "Southwest Airlines") & I do not have Southwest Airlines here.
+flight_search ( type = "round trip" ; total_fare = "$865") & I find a round trip for $865, the flight leaves at 8:30 AM and the layover is at Miami and then you arrive Baltimore at 10:57 PM.flight_detail ( from_time = "8:30 AM" ; stops = "layover" ; stops_location = "Miami" ; to = "Baltimore" ; to_time = "10:57 PM") & I find a round trip for $865, the flight leaves at 8:30 AM and the layover is at Miami and then you arrive Baltimore at 10:57 PM.
+flight_detail ( airline = "Delta" ; from_time = "6 p.m." ; stops = "non-stop" ; other_description = "4 hour and 32 minute trip") & Let me look now for you. Hold on. One second. I have found you a flight with Delta Airlines for $695. The flight that leaves at 5:05 p.m. tonight it is a nonstop flight lasting 3 hours and 57 minutes. The return trip leaves at 6 p.m. and is a 4 hour and 32 minute trip that is non-stop. How does this flight plan work for you?
+flight_search ( type = "round trip" ; total_fare = "$1,317" ; stops = "non-Stop" ; airline = "United" ; time_of_day = "6:45 a.m") & Sure, I have found a great round trip ticket for you for $1,317 non-Stop with United leaving at 6:45 a.m.
+flight_detail ( airline = "American Airlines" ; from = "Seattle" ; from_time = "10:35 PM" ; to = "Miami" ; to_time = "7:26 AM" ; stops = "non-stop" ; other_description = "5 hours and 51 minutes") & I haven't found one for you yet. Just wait a moment. I'll let you know. I have found a flight for you with American Airlines that's for $432 and leave Seattle at 10:35 PM and arrives in Miami at 7:26 AM, it is non-stop for 5 hours and 51 minutes. How does this sound to you?flight_search ( total_fare = "$432") & I haven't found one for you yet. Just wait a moment. I'll let you know. I have found a flight for you with American Airlines that's for $432 and leave Seattle at 10:35 PM and arrives in Miami at 7:26 AM, it is non-stop for 5 hours and 51 minutes. How does this sound to you?
+flight_search ( destination = "France") & When were you planning on going to France?
+flight_search ( airline = "Air France") & Is Air France okay? Okay, you'll be leaving at 2:20 PM and arriving back in Houston at 9:22 AM. How does that sound?
+flight_search ( destination = "Madrid") & You would like to go to Madrid. Where are you flying from?
+flight_detail ( to = "Berlin" ; to_time = "7:50 AM") & You'll be in Berlin at 7:50 AM.
+flight_search ( destination = "Orlando" ; origin = "LAX") & Okay. What day would you like to leave Orlando to go back to LAX?
+flight_detail ( seating_class = "flat seat") & This is also a lie flat seat.
+flight_booked ( flight_booked = "I'll send an email confirming your flight reservations") & Sure thing. I'll send an email confirming your flight reservations.
+flight_detail ( from_time = "3:40 P.M" ; date = "April 2") & I see that it is leaving at 3:40 P.M on April 2.
+flight_search ( destination = "San Francisco") & When are you going to San Francisco?
+flight_search ( airline = "United") & I'm sorry but I'm not showing any flights from United as well.
+flight_search ( destination = "San Francisco" ; origin = "New York City") & Okay, from New York City to San Francisco.
+flight_detail ( from = "New Haven" ; from_time = "1 o'clock p.m." ; to = "Seattle" ; to_time = "8:55 p.m") & I found a flight that leaves New Haven at 1 o'clock p.m. and arrives in Seattle at 8:55 p.m. Will that work for you?
+flight_detail ( fare = "$613") & It is $613.
+flight_search ( price_range = "cheapest" ; type = "round trip") & Okay, perfect! Let me look for a flight for you. Hold, this will just be a second. The cheapest flight I can find costs around $902 round trip that leaves at 3 pm with Aeroflot Airlines and you will arrive at your destination at 10:30 pm.
+flight_search ( stops = "layover") & Do u prefer non stop or layover?
+flight_booked ( flight_booked = "I will be purchasing this") & Yes, Let them worry about this. I will be purchasing this and sending you the Dayton area to your email.
+flight_search ( airline = "Spirit Airline") & I don't see Spirit Airline.
+flight_search ( price_range = "cheapest") & Here is the flight detail for the cheapest American airlines flight. You will leave at 7:45 AM.flight_detail ( airline = "American" ; from_time = "7:45 AM") & Here is the flight detail for the cheapest American airlines flight. You will leave at 7:45 AM.
+flight_detail ( airline = "Aeroflot airlines" ; stops = "1 stop") & I found a flight with Aeroflot airlines with 1 stop.
+flight_booked ( flight_booked = "I will book that flight for you") & Which flight would you like to book? Okay. I will book that flight for you.
+flight_search ( destination = "Laguardia") & Okay. Laguardia, What else?
+flight_booked ( flight_booked = "You got it") & You got it. Enjoy your flight.
+flight_detail ( from_time = "10:18 AM") & 10:18 AM.
+flight_search ( destination = "Washington DC" ; num_pax = "two adults") & No problem, Washington DC for two tickets is that two adults or is there a child?
+flight_search ( origin = "LAX") & To LAX. What else?
+flight_search ( price_range = "under $300" ; total_fare = "$624" ; type = "round trip") & There are no flights under $300, I found a flight with United Airlines at $624 round trip.flight_detail ( airline = "United Airlines") & There are no flights under $300, I found a flight with United Airlines at $624 round trip.
+flight_search ( time_of_day = "afternoon") & Do you want to leave in the morning or afternoon flight?
+flight_search ( destination = "Atlanta") & Okay, See you like to go to Atlanta?
+flight_booked ( flight_booked = "Okay I booked it for you") & Okay I booked it for you?
+flight_booked ( flight_booked = "Sure") & Sure.
+flight_detail ( fare = "$353" ; airline = "United Airlines" ; from_time = "7:01 p.m" ; stops = "nonstop") & How about $353 with United Airlines leaving at 7:01 p.m nonstop?
+flight_detail ( from = "LAX" ; from_time = "8:55 AM" ; stops = "Atlanta" ; other_description = "1 hour and 40 minutes") & I have found a flight departing LAX at 8:55 AM, this flight has one-stop for 1 hour and 40 minutes in Atlanta.
+flight_detail ( stops = "non-stop") & It is a non-stop flight.
+flight_detail ( from_time = "1:10 pm") & Okay perfect, you wanted me to book the 1:10 pm, correct?
+flight_detail ( airline = "United Airlines") & Sure thing, so looks like you want to be flying on United Airlines again, is that correct?
+flight_detail ( fare = "$348" ; airline = "Spirit Airlines" ; other_description = "13 hour 34 minutes" ; from_time = "9:59 p.m" ; to_time = "8:33 a.m") & Sure. The cheapest flight is $348 with Spirit Airlines, it is 13 hour 34 minutes leaving at 9:59 p.m and arriving at 8:33 a.m.flight_search ( price_range = "The cheapest") & Sure. The cheapest flight is $348 with Spirit Airlines, it is 13 hour 34 minutes leaving at 9:59 p.m and arriving at 8:33 a.m.
+flight_search ( origin = "Houston") & I'm happy to help you book your plane tickets today. I'm showing that you are located in Houston right now, is that where you want to fly out from?
+flight_detail ( seating_class = "economy" ; airline = "American airlines") & Total for the economy flight with American airlines is $532
+flight_detail ( to = "SFO" ; to_time = "6:39 PM") & Okay. You will be back in SFO at 6:39 PM.
+flight_detail ( from_time = "11:30 P.M." ; from = "Paris" ; to = "Los Angeles" ; to_time = "1:15 P.M") & Okay. I found a flight that leaves at 11:30 P.M. from Paris and arrives in Los Angeles at 1:15 P.M.
+flight_detail ( from = "Chicago" ; from_time = "6:56 p.m" ; to = "San Francisco" ; to_time = "9:33 p.m") & Return flight depart Chicago at 6:56 p.m. lands in San Francisco at 9:33 p.m.
+flight_detail ( fare = "$809" ; from_time = "7:33 A.M" ; stops = "non-stop") & I have a flight priced $809 at 9:50 P.M. nonstop but for $100 more you can leave at 7:33 A.M. non-stop.
+flight_search ( price_range = "Cheapest" ; airline = "American airlines") & Okay. Cheapest will be with American airlines. At $411.flight_detail ( fare = "$411") & Okay. Cheapest will be with American airlines. At $411.
+OFFER ( pickup_location = "Estacion Buenavista" ; pickup_date = "next Monday" ; car_type = "Standard" ; car_name = "Chevrolet Cruze") & There are 6 cars that might work for you. How about a standard Chevrolet Cruze ready for pickup next Monday at Estacion Buenavista?
+INFORM ( total_price = "$128") & The full price is $128.
+CONFIRM ( pickup_location = "Sky Harbor International Airport" ; pickup_date = "March 11th" ; pickup_time = "3:30 pm" ; dropoff_date = "March 13th" ; type = "Standard") & Please confirm the following reservation: You are picking up a Standard car from Sky Harbor International Airport on March 11th at 3:30 pm. The drop-off date is March 13th.
+OFFER ( pickup_location = "Union station" ; pickup_date = "next Friday" ; car_type = "Standard" ; car_name = "Honda Accord") & found 4 results. A standard Car name Honda Accord is available at Union station for pick up on next Friday. Is that convenient to you?
+OFFER ( pickup_location = "Indira Gandhi International Airport" ; car_type = "Sedan" ; car_name = "Buick Regal Sportback") & How about a nice Sedan of Buick Regal Sportback available for pick up at Indira Gandhi International Airport.
+OFFER ( pickup_location = "Grand Central Station" ; pickup_date = "March 10th" ; type = "Standard" ; car_name = "Accord") & Looking at available cars, there's 7 standard Honda Accord vechicles that can be used on March 10th located within Grand Central Station.
+INFORM ( price_per_day = "$28.00") & The cost is $28.00 per day.
+INFORM ( total_price = "$42") & The rental will be $42.
+CONFIRM ( pickup_location = "Port Authority Station" ; pickup_date = "next Monday" ; pickup_time = "6 pm" ; dropoff_date = "next Thursday" ; type = "Standard") & Great, please confirm the car booking details: A standard car will be picked up from Port Authority Station next Monday at 6 pm until next Thursday.
+OFFER ( pickup_location = "Indira Gandhi International Airport" ; pickup_date = "next Wednesday" ; car_type = "Standard" ; car_name = "Ford Fusion") & Sure. We have a Standard Car and we have 3 cars which might like your taste. There is one nice car that is available for pickup on next Wednesday at Indira Gandhi International Airport? Do you like to have Ford Fusion?
+OFFER ( pickup_location = "Toronto Pearson International Airport" ; car_type = "Sedan" ; car_name = "Audi A8") @ INFORM_COUNT ( count = "8") & 8 option I have for you A nice Sedan of Audi A8 available at Toronto Pearson International Airport
+movie_search ( real_person = "Stanley Tong") & Stanley Tong.
+movie_search ( time_start = "2:10 p.m" ; name_movie = "before I fall" ; name_theater = "the AMC Van Ness") & That be 2:10 p.m. showing before I fall at the AMC Van Ness.
+movie_search ( real_person = "Michael Fassbender" ; character = "David" ; synopsis = "Bound for a remote planet on the far side of the galaxy, members) & Bound for a remote planet on the far side of the galaxy, members (Katherine Waterston, Billy Crudup) of the colony ship Covenant discover what they think to be an uncharted paradise. While there, they meet David (Michael Fassbender), the synthetic survivor of the doomed Prometheus expedition. The mysterious world soon turns dark and dangerous when a hostile alien life-form forces the crew into a deadly fight for survival.
+movie_search ( name_movie = "Edge Of Tomorrow" ; critic_rating = "91% out of 100 on Rotten Tomatoes") & The first one is called Edge Of Tomorrow, it got 91% out of 100 on Rotten Tomatoes.
+movie_search ( character = "Chris" ; real_person = "Allison Williams" ; synopsis = "Okay, now that Chris) & Okay, now that Chris (Daniel Kaluuya) and his girlfriend, Rose (Allison Williams), have reached the meet the parent's milestone of dating, she invites him for a weekend getaway upstate with Missy and Dean. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.
+movie_search ( critic_rating = "61% Rotten Tomatoes") & Hold one moment. 61% Rotten Tomatoes.
+movie_search ( character = "Cage" ; real_person = "Donnie Yen" ; synopsis = "Thrill-seeking secret agent Xander Cage) & Let me get that for you. Wait for a while. Thrill-seeking secret agent Xander Cage (Vin Diesel) emerges from a sabbatical to retrieve a doomsday device called Pandora's Box from the clutches of super villain Xiang (Donnie Yen). But when Cage and his crew uncover a major government conspiracy during their mission, they find themselves in the fight of their lives in this third installment of the action franchise.
+movie_search ( character = "Samantha" ; real_person = "Kian Lawley" ; synopsis = "Samantha Kingston) & Samantha Kingston (Zoey Deutch) seems to have it all: popularity, a loving boyfriend (Kian Lawley) and a seemingly perfect future. Everything changes in the blink of an eye when she dies in a car crash but then magically wakes up to find herself reliving the same day over and over again. As Samantha tries to untangle the mystery of a life derailed, she must also unravel the secrets of the people closest to her and discover how the power of a single day can make a difference.
+movie_search ( name_movie = "Oceans Eleven" ; streaming_service = "iTunes" ; price_streaming = "$2.99") & Oceans Eleven is available on iTunes for $2.99.
+movie_search ( location_theater = "About 15 minutes from the location") & About 15 minutes from the location.
+movie_search ( location_theater = "Sunnyvale Library" ; name_theater = "AMC Mercado") & AMC Mercado is 5.1 miles away from the Sunnyvale Library.
+movie_search ( name_movie = "Wonder Woman") & Wonder Woman has not won any awards yet.
+movie_search ( location_theater = "31111 Mission College blvd Santa Clara") & 31111 Mission College blvd Santa Clara.
+movie_search ( audience_rating = "93%" ; name_movie = "La La Land") & La La Land is at 93%, Moana 95% and Sing is about 71%.
+movie_search ( name_movie = "The Curse of Frankenstein" ; release_date = "1957" ; streaming_service = "Netflix") & How about The Curse of Frankenstein (1957). Yes, this movie is available in Netflix.
+movie_search ( genre = "sci fi" ; name_movie = "The Space Between Us") & Okay. Here are the list of action, comedy, and sci fi movies out right now. The Lego Batman, John Wick: chapter 2, Resident Evil, Triple X return of Xander Cage, Rogue one, La La Land, Fist Fight, Hidden Figures, Moana and The Space Between Us.
+movie_search ( genre = "comedies" ; location_theater = "nearby to you") & The comedy? Okay. Let me look for comedies nearby to you.
+movie_search ( name_movie = "The Mummy") & It is The Mummy.
+movie_ticket ( ticket_booking = "I’ve sent the details of this showtime to your phone along with a way to buy tickets") & You're welcome, I’ve sent the details of this showtime to your phone along with a way to buy tickets. Enjoy the show, goodbye.
+movie_search ( price_ticket = "$15") & $15.
+movie_search ( name_movie = "The Infiltrator") & How about Dead Pool or Free Fire or The Infiltrator?
+movie_search ( genre = "Action") & Action movie. Okay.
+movie_search ( name_movie = "Flight" ; time_start = "7:40" ; name_theater = "Century Arden 14") & Flight is playing at 5 o'clock or 7:40 at Century Arden 14.
+movie_search ( genre = "dramas" ; name_movie = "Before I fall") & There are some dramas I have found. Hidden figures, The Shack and Before I fall.
+movie_search ( name_movie = "The Great Wall") & Sure thing. There is Collide and The Great Wall.
+movie_search ( name_movie = "triple x return of xander cage") & I found triple x return of xander cage.
+movie_search ( name_movie = "Beauty and the Beast" ; genre = "Romance") & Beauty and the Beast is a Fantasy, Music & Musical, Romance movie.
+movie_search ( price_streaming = "$2.99") & Yeah, sure. You can for $2.99.
+movie_search ( name_movie = "Spirit: Stallion of the Cimarron") & I have Happy Feet Two, Ponyo and Spirit: Stallion of the Cimarron.
+movie_search ( character = "Anne" ; real_person = "Arnaud Viard" ; synopsis = "Anne) & Anne (Diane Lane) is at a crossroads in her life. Married to a successful but inattentive movie producer (Alec Baldwin), she unexpectedly finds herself taking a car trip from Cannes to Paris with her husband's business associate (Arnaud Viard). What should be a seven-hour drive turns into a carefree two-day adventure replete with diversions involving picturesque sights, fine food and wine, humor, wisdom and romance, reawakening Anne's senses and giving her a new lust for life. Paris Can Wait is playing at ArcLight La Jolla 2:40 p.m.
+movie_search ( name_movie = "Why him" ; critic_rating = "Why him is 40%") & Why him is 40%.
+movie_search ( character = "Kate" ; synopsis = "Young sisters Kate and Lisa travel to Mexico for a vacation filled with sun, fun and adventure. Lisa needs some extra persuasion when Kate suggests that they go diving in shark-infested waters. Safe in their protective cage, the thrill-seeking siblings come face to face with a group of majestic great whites. Their worst fears soon become a reality when the cage breaks away from their boat, sending them plummeting to the ocean floor with a dwindling supply of oxygen") & Young sisters Kate and Lisa travel to Mexico for a vacation filled with sun, fun and adventure. Lisa needs some extra persuasion when Kate suggests that they go diving in shark-infested waters. Safe in their protective cage, the thrill-seeking siblings come face to face with a group of majestic great whites. Their worst fears soon become a reality when the cage breaks away from their boat, sending them plummeting to the ocean floor with a dwindling supply of oxygen.
+movie_ticket ( name_movie = "The Boss Baby") & The Boss Baby Synopsis The Boss Baby is a hilariously universal story about how a new baby's arrival impacts a family, told from the point of view of a delightfully unreliable narrator, a wildly imaginative 7 year old named Tim.
+movie_search ( character = "Glass" ; real_person = "Forrest Goodluck" ; synopsis = "While exploring the uncharted wilderness in 1823, frontiersman Hugh Glass) & While exploring the uncharted wilderness in 1823, frontiersman Hugh Glass (Leonardo DiCaprio) sustains life-threatening injuries from a brutal bear attack. When a member (Tom Hardy) of his hunting team kills his young son (Forrest Goodluck) and leaves him for dead, Glass must utilize his survival skills to find a way back to civilization. Grief-stricken and fueled by vengeance, the legendary fur trapper treks through the snowy terrain to track down the man who betrayed him.
+movie_search ( price_ticket = "$13.50") & Okay. The ticket price is $13.50, is that okay?
+movie_search ( name_movie = "the longest ride") & How about Paper Towns, Carol or the longest ride?
+movie_search ( other_description = "Real Life") & Okay, Real Life?
+movie_search ( location_theater = "Santa Barbara, California 93101") & It's located at 916 State Street Santa Barbara, California 93101.
+movie_search ( price_ticket = "$16.99") & The ticket price is $16.99.
+movie_search ( type_screening = "IMAX" ; time_start = "10:05 p.m") & The latest showing is in 3D at 10:50 p.m or IMAX at 10:05 p.m.
+movie_search ( streaming_service = "Redbox" ; name_movie = "Wonder Woman") & Okay now there you go. That one is actually not available on Redbox, Wonder Woman that is.
+movie_search ( name_movie = "baby driver" ; genre = "horror") & I can check for you. One moment. The movies I was able to find for you similar to Inferno horror Atomic blonde, John Wick, Civil War and baby driver.
+movie_ticket ( name_movie = "The fate of the Furious" ; name_theater = "the Metro 4" ; time_start = "8 PM") & The fate of the Furious is playing at the Metro 4 at 8 PM. This is located about 3 miles away from you.movie_search ( location_theater = "about 3 miles away from you") & The fate of the Furious is playing at the Metro 4 at 8 PM. This is located about 3 miles away from you.
+movie_search ( name_movie = "Mr. & Mrs. Smith" ; character = "Benjamin Danz" ; real_person = "Adam Brody" ; synopsis = "John) & Mr. & Mrs. Smith. Mr. & Mrs. Smith. John (Brad Pitt) and Jane Smith (Angelina Jolie), a couple in a stagnating marriage, live a deceptively mundane existence. However, each has been hiding a secret from the other: they are assassins working for adversarial agencies. When they are both assigned to kill the same target, Benjamin Danz (Adam Brody), the truth comes to the surface. Finally free from their cover stories, they discover that they have been assigned to kill each other, sparking a series of explosive attacks.
+movie_search ( name_theater = "Century Cinemas") & Enjoy the show at the Century Cinemas.
+movie_search ( name_movie = "Bridge of Spies") & What about the Bridge of Spies?
+movie_search ( name_movie = "brimstone") & The duel or hell or high water or poor boy or brimstone?
+movie_search ( critic_rating = "high rating") & On which website do you need high rating?
+movie_search ( name_movie = "Sweet Country") & Just a moment. I have the Killer, Valley of Bones, Sweet Country.
+movie_search ( name_movie = "Rogue One: A Star Wars A Story") & It's called Rogue One: A Star Wars A Story.
+movie_search ( streaming_service = "Netflix") & It is not available on Netflix.
+movie_ticket ( name_theater = "Cine Arts") & And it is also showing at Cine Arts at Santana Row. 7:05 pm show.
+movie_search ( real_person = "Kate Winslet" ; name_movie = "The Mountain Between Us") & Yes, in fact Kate Winslet is in a movie called The Mountain Between Us.
+movie_search ( name_theater = "century cinemas 16") & The nearest theater is century cinemas 16, Which is 5 miles from you.
+movie_search ( name_movie = "split") & What movie would you like to see does split sound good.
+movie_search ( time_start = "10:30 p.m." ; price_ticket = "$14") & For the 10:30 p.m. show it will cost you $14 a ticket.
+movie_search ( name_movie = "arrival") & Okay there are patriots day and arrival. Did you catch that?
+movie_search ( price_streaming = "$14.99") & To rent or to own? $14.99.
+movie_ticket ( name_theater = "AMC Van Ness 14" ; name_movie = "Hidden figures") & Hidden figures is playing at AMC Van Ness 14 at 4:05 PM, 7:10 PM and 10:10 PM tonight.movie_search ( time_start = "10:10 PM") & Hidden figures is playing at AMC Van Ness 14 at 4:05 PM, 7:10 PM and 10:10 PM tonight.
+movie_search ( name_movie = "The Shawshank Redemption") & How about The Shawshank Redemption?
+movie_search ( name_movie = "Everything" ; runtime = "an hour and 36 minutes") & Yes, there is also a film called Everything, Everything it is only an hour and 36 minutes long though.
+movie_search ( time_start = "9 PM" ; name_theater = "Regal Davis Stadium 5") & Great. We landed on the 9 PM showing at Regal Davis Stadium 5. Glad, I could help you.
+movie_ticket ( name_movie = "Captain Underpants") & That would be Captain Underpants.
+movie_search ( name_theater = "AMC Mercado" ; location_theater = "5.1 miles away from your location") & AMC Mercado is 5.1 miles away from your location.
+movie_search ( name_movie = "Mr. Saturday night" ; character = "Buddy" ; real_person = "Helen Hunt" ; synopsis = "Given his success in the early days of television, you'd think that Buddy Young Jr.) & Okay. Here is the synopsis for forget Paris, Waiting at a restaurant for their married friends Mickey (Billy Crystal) and Ellen (Debra Winger) to arrive, a group of friends shares the story of Mickey and Ellen's relationship with Andy (Joe Mantegna) and Liz (Cynthia Stevenson), a soon to be wed couple. When NBA referee Mickey travels to Paris to bury his father, the casket is lost in the airline. The employee tasked with helping Mickey is Ellen. The incident brings them together but a number of things threaten to pull them apart. Here is the synopsis for Mr. Saturday night. Given his success in the early days of television, you'd think that Buddy Young Jr. (Billy Crystal) would be coasting happily into retirement alongside his wife, Elaine (Julie Warner). Instead, Buddy is an acerbic blowhard who alienates his brother, Stan (David Paymer) and everyone else who fails to bow to his bullying. His agent, Annie Wells (Helen Hunt), has positioned elderly Buddy for a big movie role, but his irreverence might come back to bite him one last time.
+movie_search ( name_movie = "The 5th Wave") & The 5th Wave. Here it is.
+movie_search ( genre = "romantic comedy") & Okay, currently out right now for a romantic comedy is called Big sick.
+movie_search ( other_description = "top three current thrillers" ; genre = "thrillers" ; name_movie = "Murder on the Orient Express") & The top three current thrillers are Justice League, Thor Ragnarok, and Murder on the Orient Express.
+movie_search ( name_movie = "Your Name") & This is not what I expected Beauty and the Beast, Your Name. Would you like to hear more about any one of these?
+movie_search ( genre = "thriller") & A thriller. Let me see what I can find for you. I have found a few options for you.
+movie_search ( time_start = "9:20 P.M") & Movie times are at 5 P.M. 6:35 P.M. 7:45 P.M. and 9:20 P.M.
+movie_search ( name_movie = "Django Unchained") & How about True Grit or The Revenant or Django Unchained?
+movie_search ( time_start = "5:45") & Playing at 5:45, 8:30, 9:30 and 11:30 pm.
+movie_search ( genre = "thrillers") & Okay and what else? There are a lot of thrillers out right now.
+movie_search ( name_movie = "Moana") & Alright. I have found 2 movies. They are Rogue one: a star wars story and Moana.
+movie_search ( time_start = "5 p.m.") & I have a 5 p.m. showing or 6:20 p.m. show, which would you prefer?
+movie_search ( time_start = "7 PM") & I have a 7 PM show.
+movie_search ( streaming_service = "I Tunes" ; price_ticket = "$14.99") & On I Tunes, it is available from $14.99.
+movie_search ( name_movie = "Sausage Party") & This may take more than a minute. The movie I was able to find for you is Sausage Party.
+movie_search ( time_start = "7:30 p.m") & The show timings are around 6, that is 6:15 p.m. or at 7:30 p.m.
+movie_search ( synopsis = "I once Mighty demigod and a spirited teenager embark on an epic adventure across the ocean") & I once Mighty demigod and a spirited teenager embark on an epic adventure across the ocean. It is the synopsis of the movie.
+movie_ticket ( name_movie = "Before I Fall" ; ticket_booking = "I will get you a ticket for that showing for Before I Fal") & I will get you a ticket for that showing for Before I Fall. Is there anything else I can help you with?
+movie_search ( name_movie = "Monster") & Okay. Hold on just a second. How about the movie American Psycho or Monster?
+movie_search ( price_ticket = "$999 for children") & They are $1299 for adults and $999 for children.
+movie_search ( character = "Arthur" ; synopsis = "After the murder of his father, young Arthur's power-hungry uncle Vortigern seizes control of the crown. Robbed of his birthright, he grows up the hard way in the back alleys of the city, not knowing who he truly is. When fate leads him to pull the Excalibur sword from stone, Arthur embraces his true destiny to become a legendary fighter and leader") & After the murder of his father, young Arthur's power-hungry uncle Vortigern seizes control of the crown. Robbed of his birthright, he grows up the hard way in the back alleys of the city, not knowing who he truly is. When fate leads him to pull the Excalibur sword from stone, Arthur embraces his true destiny to become a legendary fighter and leader.
+movie_search ( name_movie = "Game Night") & Okay how about the movie Game Night?
+movie_ticket ( ticket_booking = "I’ve emailed you tickets") & I’ve emailed you tickets with the theater and movie details. Enjoy your movie.
+movie_search ( audience_rating = "8.1 out of 10") & That has 8.1 out of 10.
+movie_search ( other_description = "Seth Rogen comedy movies" ; real_person = "Seth Rogen" ; genre = "comedy" ; name_movie = "Super Bad") & Hold on just a second. Okay, here are five Seth Rogen comedy movies. Sausage Party, The interview, This is the end, Neighbors period and Super Bad. Do any of these sound appealing to you or shall I go on with the list?
+movie_search ( genre = "action") & Are you into drama or thriller or action.
+movie_search ( name_movie = "Standard" ; movie_rating = "5.4 stars") & Okay. Let me see what I can find. Give me one moment. First one is Ingenue with a rating of 6.7. Second is Vanishing Waves with 6.1 and the Standard with only 5.4 stars.
+movie_search ( price_ticket = "$12") & Sure you can, its $12.
+movie_ticket ( num_tickets = "3 tickets" ; time_start = "6:40 p.m" ; name_movie = "Spider-man: Homecoming" ; name_theater = "Regal Davis 5") & 3 tickets for 6:40 p.m. show to Spider-man: Homecoming at Regal Davis 5.
+movie_search ( genre = "action" ; name_theater = "Poseo Nuevo") & Colossal is the only action movie at Poseo Nuevo.
+movie_search ( real_person = "Christopher Lee") & Okay, there are a handful movies with Christopher Lee.
+movie_search ( time_start = "11 p.m.") & There is an 11 p.m. showing in AMC Mercedes 10.
+movie_search ( genre = "mystery" ; name_movie = "the White Ribbon") & There is a mystery called the White Ribbon that meet your criteria. Are you interested in this title?
+movie_search ( genre = "horror" ; other_description = "great horror movie" ; name_movie = "Split" ; runtime = "117 minutes long" ; streaming_service = "Google Play") & Here is a great horror movie called Split, It is 117 minutes long and it is available on Google Play.
+movie_search ( character = "Peter's" ; synopsis = "Peter Quill and his fellow Guardians are hired by a powerful alien race, the Sovereign, to protect their precious batteries from invaders. When it is discovered that Rocket has stolen the items they were sent to guard, the Sovereign dispatch their armada to search for vengeance. As the Guardians try to escape, the mystery of Peter's parentage is revealed") & Peter Quill and his fellow Guardians are hired by a powerful alien race, the Sovereign, to protect their precious batteries from invaders. When it is discovered that Rocket has stolen the items they were sent to guard, the Sovereign dispatch their armada to search for vengeance. As the Guardians try to escape, the mystery of Peter's parentage is revealed.
+movie_search ( streaming_service = "iTunes") & Yes, it is available on iTunes.
+movie_search ( genre = "comedy") & Okay, a comedy. Which one were you thinking of?
+movie_search ( synopsis = "The Beauty and the Beast is an adaptation of the classic fairy tale about a monstrous Prince an young woman who fall in love") & Okay, The Beauty and the Beast is an adaptation of the classic fairy tale about a monstrous Prince an young woman who fall in love.
+movie_search ( name_movie = "The circle") & "The circle".
+movie_ticket ( ticket_booking = "I got it") & I got it. Enjoy your movie.
+movie_search ( name_movie = "Guardians of the Galaxy volume two" ; audience_rating = "4.5 Stars") & How to be a Latin lover and Guardians of the Galaxy volume two are both rated at 4.5 Stars.
+movie_search ( time_start = "10:20 p.m." ; name_theater = "Kerasotes ShowPlace ICON Theatre") & There is a 10:30 p.m. showing at AMC drive-in theaters and 10:20 p.m. show at Kerasotes ShowPlace ICON Theatre.
+movie_ticket ( ticket_booking = "sent to your email") & Okay, sent to your email.
+movie_ticket ( name_movie = "Daddy's home" ; name_theater = "AMC Empire 25") & Daddy's home has a showtime at AMC Empire 25 at 7:25 p.m and 10:25 p.m.
+CONFIRM ( event_name = "Murder City Devils" ; number_of_seats = "2" ; date = "tomorrow" ; city_of_event = "Los Angeles") & So I can book 2 tickets for the Murder City Devils event in Los Angeles tomorrow. Is that okay?
+OFFER ( date = "tomorrow" ; event_name = "Dc United Vs Revolution" ; venue = "Audi Field") & Dc United Vs Revolution event will be tomorrow at Audi Field.
+CONFIRM ( event_name = "Cher" ; number_of_tickets = "3" ; date = "March 13th" ; city = "San Francisco") & Please confirm: 3 tickets for Cher on March 13th in San Francisco.
+OFFER ( event_name = "Dodgers Vs Cubs" ; venue = "Dodger Stadium") & How about Dodgers Vs Cubs at Dodger Stadium?
+OFFER ( date = "today" ; event_name = "Republic Vs Toros" ; venue = "Papa Murphy's Park") & I found 5 of these events. There is a Republic Vs Toros event today at Papa Murphy's Park.
+INFORM ( address_of_location = "235 West 46th Street") & Congrats, Your tickets is booked, the venue is 235 West 46th Street, Shall i help you with anything more?
+OFFER ( event_name = "Bill Callahan" ; venue = "Lodge Room") & There are 5 events that matches your taste. The event name is Bill Callahan and will be held at Lodge Room.INFORM_COUNT ( count = "5") & There are 5 events that matches your taste. The event name is Bill Callahan and will be held at Lodge Room.
+INFORM ( address_of_location = "100 Park Boulevard") & Petco Park is located at 100 Park Boulevard.
+CONFIRM ( event_name = "Water Seed" ; number_of_tickets = "3") & Can you confirm again to me that the event you want to attend is Water Seed and you want 3 tickets for it?
+CONFIRM ( event_name = "Mets Vs Dodgers" ; number_of_tickets = "1") & So you want 1 ticket to Mets Vs Dodgers?
+OFFER ( event_name = "Todd Rundgren" ; venue = "Napa Valley Performing Arts Center") & Sure.. Please wait for a minute....I found 1 event of the american multi-instrumentalist's Todd Rundgren taking place at Napa Valley Performing Arts Center.
+OFFER ( date = "next Monday" ; event_name = "Blue Jays Vs Astros" ; venue = "Rogers Centre") & It sure is! There's another Blue Jays Vs Astros at the Rogers Centre playing next Monday. Does that interest you at all?
+OFFER ( date = "day after tomorrow" ; event_name = "White Sox vs Astros" ; venue = "Guaranteed Rate Field") & The game, White Sox vs Astros, will be on the day after tomorrow at Guaranteed Rate Field.
+OFFER ( date = "March 9th" ; event_name = "Alejandro Sanz" ; venue = "Cal Coast Credit Union Amphitheater") & Yeah! I can find another one on March 9th. The event, Alejandro Sanz is planned to be held at Cal Coast Credit Union Amphitheater.
+INFORM ( time = "5:30 pm" ; venue_address = "5500 Campanile Drive") & Your booking is complete. The music starts at 5:30 pm. And the venue is 5500 Campanile Drive.
+OFFER ( event_name = "Dodgers Vs Cubs" ; event_location = "Dodger Stadium" ; date = "Next Friday" ; time = "7:30 pm") & Next Friday there is one event of Dodgers Vs Cubs at Dodger Stadium starting at 7:30 pm.
+CONFIRM ( event_name = "Mets Vs Dodgers" ; number_of_seats = "3" ; date = "next Tuesday" ; city_of_event = "New York") & Please confirm the following details: The event is Mets Vs Dodgers. You have 3 tickets in your reservation. The date of the events is next Tuesday. The even is taking place in New York.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & I could see 10 events which suit you. The event is Amber Run Brooklyn at WarsawINFORM_COUNT ( count = "10") & I could see 10 events which suit you. The event is Amber Run Brooklyn at Warsaw
+INFORM ( address_of_location = "401 East Jefferson Street") & It has been confirmed. The stadium is at 401 East Jefferson Street.
+OFFER ( event_name = "Acting for teens" ; venue = "520 8th ave. - Personal valet parking" ; date = "March 4th" ; time = "6 pm") & Acting for teens is a very popular one at 520 8th ave. - Personal valet parking on March 4th at 6 pm.
+INFORM ( venue_address = "1016-1098 North Center Court Street" ; time = "5:30 pm") & The venue address is 1016-1098 North Center Court Street. The event has a 5:30 pm start time.
+INFORM ( time = "5 pm") & The game starts at 5 pm.
+CONFIRM ( event_name = "Alejandro Sanz" ; number_of_tickets = "2" ; date = "next Friday" ; city = "San Diego") & No problem, please confirm: 2 tickets for Alejandro Sanz next Friday in San Diego.
+OFFER ( date = "next Wednesday" ; event_name = "Spose" ; venue = "172) & Spose is also on next Wednesday at 1720(tm).
+CONFIRM ( event_name = "Falcons Vs Buccaneers" ; number_of_tickets = "4" ; date = "next Wednesday" ; city = "Atlanta") & Please do confirm the following details: the event is Falcons Vs Buccaneers in Atlanta that will happen next Wednesday. I will buy 4 tickets.
+OFFER ( event_name = "Amber Run Brooklyn" ; venue = "Warsaw") & I found 10 music events in NY. One event is in Warsaw and is called Amber Run Brooklyn.INFORM_COUNT ( count = "10") & I found 10 music events in NY. One event is in Warsaw and is called Amber Run Brooklyn.
+OFFER ( event_name = "Falcons Vs Buccaneers" ; event_location = "Mercedes-Benz Stadium" ; date = "next Monday" ; time = "7:30 pm") & The Falcons Vs Buccaneers is at 7:30 pm next Monday at the Mercedes-Benz Stadium.
+OFFER ( date = "next Wednesday" ; event_name = "Nationals Vs Phillies" ; venue = "Nationals Park") & There is a Nationals Vs Phillies event next Wednesday at Nationals Park.
+OFFER ( event_name = "Eagles Vs Cowboys" ; venue = "Lincoln financial Field") & I have found 10 events with that criteria. There is a Eagles Vs Cowboys game at Lincoln financial Field.
+OFFER ( event_name = "Fidlar" ; venue = "Cornerstone Craft Beer & Live Music") & I found the event Fidlar at Cornerstone Craft Beer & Live Music.
+INFORM ( venue_address = "1 AMB Drive Northwest" ; time = "7 pm") & At 1 AMB Drive Northwest, at 7 pm.
+OFFER ( event_name = "Arizona vs Milwaukee" ; venue = "Chase Field") & How about Arizona vs Milwaukee at Chase Field?
+OFFER ( event_name = "El Salvador Vs Haiti" ; venue = "RFK Stadium") & There is El Salvador Vs Haiti at the RFK Stadium.
+INFORM ( venue_address = "5500 Campanile Drive") & The venue can be found at 5500 Campanile Drive.
+CONFIRM ( event_name = "Giants Vs Diamondbacks" ; number_of_seats = "1" ; date = "day after tomorrow" ; city_of_event = "San Francisco") & Please confirm Oracle Park there is Giants Vs Diamondbacks the day after tomorrow for 1 ticket in San Francisco.
+OFFER ( event_name = "All That He Was" ; venue = "The Buena, Pride Arts Center" ; date = "March 4th" ; time = "5:30 pm") & Of the 10 plays I have found, I'd like to recommend All That He Was. It will be performed on March 4th at 5:30 pm at The Buena, Pride Arts Center.
+INFORM ( time = "6 pm") & It starts at 6 pm. your reservation has been made.
+restaurant_inform ( area = "centre of town" ; choice = "3" ; food = "British" ; pricerange = "expensive") & There are 3 expensive restaurants in the centre of town that server British food. I would recommend the Midsummer House Restaurant.
+restaurant_inform ( area = "centre" ; area = "east" ; choice = "four" ; choice = "one" ; food = "British") & I found four British restaurants in centre and one in east. Which area would be more convenient?
+restaurant_inform ( area = "South area" ; choice = "two" ; pricerange = "moderately priced") & There are two moderately priced restaurants in the South area. Would you like Italian or Modern European?
+restaurant_inform ( area = "centre of town." ; food = "Asian Oriental" ; name = "Dojo Noodle") & Dojo Noodle Bar is an Asian Oriental restaurant in the centre of town.
+restaurant_inform ( area = "centre of town" ; choice = "two" ; food = "gastropub" ; name = "backstreet bistro" ; name = "the slug and lettuce") & I was able to find two restaurants that serve gastropub for you. I have backstreet bistro and the slug and lettuce, both located in the centre of town.
+booking_inform ( name = "J restaurant") & Okay I will make reservation for J restaurant is available.
+booking_book ( booktime = "17:00" ; ref = "TTP6GYCJ") & Of course. You're booked at 17:00 with reference number TTP6GYCJ . The table will be reserved for 15 minutes. May I assist with anything else?
+restaurant_inform ( area = "north" ; food = "asian oriental" ; name = "Saigon city") & Saigon city serves asian oriental food and is located in the north part of town. Would you like their location?
+restaurant_inform ( choice = "two" ; name = "Pizza Hut Cherry Hinton" ; name = "Restaurant Alimentum") & I have two restaurants. They are Pizza Hut Cherry Hinton and Restaurant Alimentum.
+restaurant_inform ( area = "city centre" ; area = "west" ; choice = "5" ; food = "British" ; name = "Cotto" ; name = "Restaurant One Seven" ; name = "Saint Johns Chop House" ; name = "The Copper Kettle" ; name = "The Oak Bistro" ; pricerange = "moderately priced") & There are 5 moderately priced restaurants that serve British food. Saint Johns Chop House in the west, and Cotto, Restaurant One Seven, The Copper Kettle, and The Oak Bistro in the city centre.
+restaurant_inform ( area = "north" ; food = "Chinese" ; name = "Golden wok" ; pricerange = "moderately priced") & Golden wok is located in the north part of town, is moderately priced and serves Chinese food.
+restaurant_inform ( address = "G4 cambridge leisure park clifton way cherry hinton" ; name = "pizza hut cherry hinton" ; phone = "01223 413000") & sure, pizza hut cherry hinton is located at G4 cambridge leisure park clifton way cherry hinton and the phone number is 01223 413000. Is there anything else I can help you with?
+restaurant_inform ( address = "2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton" ; area = "south part of town" ; name = "Chiquito restaurant bar" ; phone = "01223 400170") & Chiquito restaurant bar is in the south part of town. It's address is 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton, and it's phone number is 01223 400170.
+restaurant_inform ( address = "451 Newmarket Road Fen Ditton" ; name = "curry prince's" ; phone = "01223 566388" ; postcode = "8 J.J." ; postcode = "C.B 5") & curry prince's address is 451 Newmarket Road Fen Ditton, their postcode is C.B 5, 8 J.J. Their phone number is 01223 566388
+booking_book ( name = "restaurant one seven") & I was able to get you a booking at restaurant one seven. It is british. Will that one be good?
+booking_book ( bookday = "tuesday" ; booktime = "10:15" ; ref = "KAHFBHYI") & I have you booked for 7 at little seoul on tuesday at 10:15. Here is the reference number for your booking: KAHFBHYI .
+restaurant_inform ( area = "north" ; choice = "One" ; choice = "one" ; choice = "two" ; food = "Chinese" ; food = "Indian" ; pricerange = "moderately priced") & There are two moderately priced restaurants in the north part of town. One Chinese and one Indian. Please specify the desired cuisine type.
+restaurant_select ( area = "centre" ; area = "south") & Okay. Would you like to go to the centre or south part of town?
+restaurant_inform ( area = "west" ; name = "meghna" ; pricerange = "moderately priced") & meghna is a restaurant in the west part of town and moderately priced. would you like their phone number and address?
+restaurant_inform ( area = "west part of town" ; food = "Italian" ; name = "Prezzo" ; phone = "01799 521260") & Prezzo is an Italian restaurant in the west part of town, their phone number is 01799 521260.
+restaurant_inform ( food = "european" ; name = "cambridge lodge restaurant" ; pricerange = "expensive") & cambridge lodge restaurant serves european food in the expensive price range.
+restaurant_inform ( area = "centre of town" ; food = "Thai" ; name = "Bangkok city" ; pricerange = "expensive") & Bangkok city is an expensive Thai restaurant in the centre of town.
+restaurant_inform ( phone = "01223 277977") & Their phone number is 01223 277977. Is there anything else I can help you with?
+restaurant_inform ( pricerange = "moderate") & They are in the moderate price range.
+restaurant_recommend ( area = "east" ; food = "indian" ; name = "Curry Prince") & Curry Prince is located in the east area and serves indian food.
+restaurant_inform ( phone = "01223 727410") & 01223 727410
+restaurant_inform ( choice = "one" ; name = "Gourmet Burger Kitchen") & I have one, Gourmet Burger Kitchen.
+restaurant_recommend ( area = "the south of town" ; area = "the south of town" ; food = "Italian" ; food = "modern european" ; name = "Pizza Hut Cherry Hinton" ; name = "Restaurant Alimentum" ; pricerange = "moderately priced" ; pricerange = "moderately priced") & Pizza Hut Cherry Hinton is a moderately priced Italian restaurant in the south of town, and Restaurant Alimentum is a moderately priced modern european restaurant in the south of town.
+restaurant_inform ( area = "north" ; name = "Da Vinci pizzeria" ; pricerange = "cheap") & Da Vinci pizzeria is in the north part of town and in the cheap price range. Would you like their location?
+restaurant_inform ( choice = "33") & I have 33 restaurants that meet your requests. Can you tell me what kind of food you are looking for?
+restaurant_inform ( name = "prezzo" ; phone = "01799 521260") & The phone number for prezzo is 01799 521260.
+restaurant_inform ( area = "south" ; food = "Chinese" ; food = "Indian" ; food = "Italian" ; food = "Mexican" ; pricerange = "expensive") & On the south end, in the expensive price range, we have Mexican, Italian, Indian, and Chinese foods to choose from. Do any of these sound good?
+booking_book ( name = "lan hong house" ; ref = "XPQ6J119") & I've book you at lan hong house, located at 12 Norfolk Street City Centre. Your reference number is XPQ6J119 .
+INFORM ( address = "2664 Berryessa Road # 206" ; offers_cosmetic_services = "False") & They are situated on 2664 Berryessa Road # 206. Sorry, but they do not offer any such services.
+OFFER ( therapist_name = "Paz George G" ; type = "Psychiatrist" ; city = "Vacaville") & Sure, How about Paz George G., He is a Psychiatrist in Vacaville.
+OFFER ( doctor_name = "Alta Eye Care" ; city = "San Jose" ; type = "Ophthalmologist") & What do you think of Alta Eye Care located in San Jose is a Ophthalmologist.
+INFORM ( offers_cosmetic_services = "False" ; address = "689 East Remington Drive Ste A") & I have booked for you but they do not offer cosmetic services. they can be found at 689 East Remington Drive Ste A
+OFFER ( doctor_name = "Dr. Janet Bodle, MD" ; city = "Larkspur" ; type = "General Practitioner") & I found 3 General Practitioner in Larkspur. How about Dr. Janet Bodle, MD?
+OFFER ( stylist_name = "California Barber Shop" ; city = "Palo Alto") & Another nice salon in Palo Alto is California Barber Shop.
+CONFIRM ( stylist_name = "B Parlor" ; appointment_time = "3 pm" ; appointment_date = "March 10th") & Please confirm; appointment at 3 pm on March 10th at the B Parlor salon.
+OFFER ( stylist_name = "Linda Hair & Nails" ; appointment_date = "day after tomorrow" ; appointment_time = "6 pm") & Would booking the appointment at 6 pm on the day after tomorrow at Linda Hair & Nails, be all right? I could not book it for 5:45.
+INFORM ( address = "250 Bel Marin Keys Boulevard # C3") & They're at 250 Bel Marin Keys Boulevard # C3.
+OFFER ( stylist_name = "Chop Salon & Spa" ; city = "El Cerrito") & I found 1. Chop Salon & Spa is located in El Cerrito.INFORM_COUNT ( count = "1") & I found 1. Chop Salon & Spa is located in El Cerrito.
+OFFER ( dentist_name = "Marc Bowen" ; city = "Fairfield") & What of Marc Bowen in Fairfield?
+OFFER ( doctor_name = "Alchemy John MD" ; city = "Santa Rosa" ; type = "General Practitioner") & Alchemy John MD is a general practitioner in Santa Rosa, would that be satisfactory for you?
+OFFER ( stylist_name = "Bella Capelli Salon" ; city = "Campbell") & I have found 5 salons. How about Bella Capelli Salon in Campbell?INFORM_COUNT ( count = "5") & I have found 5 salons. How about Bella Capelli Salon in Campbell?
+CONFIRM ( doctor_name = "John Chiu, M.D." ; appointment_time = "1:15 pm" ; appointment_date = "March 14th") & Could you please confirm the following details. Your appointment is scheduled with John Chiu, M.D. at 1:15 pm on March 14th.
+OFFER ( stylist_name = "Burlingame Barber Shop" ; city = "Burlingame") & Do you know Burlingame Barber Shop? It's a nice salon in Burlingame.
+INFORM ( phone_number = "650-964-5437" ; is_unisex = "True") & Your appointment is confirmed. The telephone is 650-964-5437. Yes it is a unisex salon
+INFORM ( address = "1301 Mowry Avenue" ; phone_number = "510-797-3941") & Yes, the phone number is 510-797-3941 and they are located at 1301 Mowry Avenue.
+CONFIRM ( doctor_name = "Dr. Andrew L. Sorenson, MD" ; appointment_time = "4:45 pm" ; appointment_date = "next Wednesday") & Alright, please confirm the following: You want to schedule 4:45 pm appointment with Dr. Andrew L. Sorenson, MD next Wednesday.
+CONFIRM ( stylist_name = "village barber shop" ; appointment_time = "2:15 pm" ; appointment_date = "next monday") & Please confirm: You want an appointment next monday at 2:15 pm at the village barber shop.
+INFORM ( offers_cosmetic_services = "False") & no
+CONFIRM ( appointment_time = "1:45 pm" ; appointment_date = "next Thursday") & Should I book the appointment on next Thursday at 1:45 pm?
+INFORM ( phone_number = "408-378-7868") & They can be contacted at 408-378-7868.
+INFORM ( phone_number = "415-353-2800") & It is 415-353-2800
+CONFIRM ( stylist_name = "First Class Barber Shop" ; appointment_time = "6:30 pm" ; appointment_date = "March 13th") & Please confirm that the name of the place is First Class Barber Shop, the appointment is at 6:30 pm, and the appointment will take place on March 13th.
+CONFIRM ( doctor_name = "Richard yOUNG, MD" ; appointment_time = "2:30 PM" ; appointment_date = "next Thursday") & Please confirm the booking details, appointment with Richard yOUNG, MD AT 2:30 PM on next Thursday.
+CONFIRM ( doctor_name = "Dr. Michael J. McGlynn Jr, MD" ; appointment_time = "5:30 pm") & Okay, so you instead want to visit Dr. Michael J. McGlynn Jr, MD at 5:30 pm?
+OFFER ( event_name = "Appointment with Val Mark Dental Studio" ; event_time = "5 pm") & on that date you have Appointment with Val Mark Dental Studio and the event starts at 5 pm.
+OFFER ( event_name = "Apartment viewing" ; event_time = "5 pm") & You currently have 3 scheduled events, one of them is Apartment viewing, starting at 5 pm.
+OFFER ( available_start_time = "6:30 pm" ; available_end_time = "7:30 pm") & You are available from 6:30 pm to 7:30 pm.
+OFFER ( event_name = "Apartment viewing" ; event_time = "3 pm") & You do have 3 appointments on that day, one is Apartment viewing that will start at 3 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "1:30 pm") & There are 4 empty slots on your calendar. You have a empty slot from 8 am to 1:30 pm.
+food_order ( name_item = "one poke with tuna, soy sauce, sesame oil and chili peppers") & Just to confirm one poke with tuna, soy sauce, sesame oil and chili peppers.
+food_order ( type_meal = "dinner") & Enjoy your dinner! Goodbye.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "2 pasta") & Yes, I have 2 pasta orders.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in 20 minutes.
+food_order ( name_item = "Two General Tso's chicken") & Two General Tso's chicken. Any other details or side dishes?
+food_order ( name_item = "one large pepperoni pizza with bacon") & Okay, one large pepperoni pizza with bacon. Anything else?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( name_item = "one order of Kung Pao chicken") & Okay, one order of Kung Pao chicken.
+food_order ( name_item = "half slab of ribs") & Just to confirm you would like to order pulled pork sandwich and half slab of ribs is that correct?
+food_order ( name_item = "One Order of mousaka") & I apologize One Order of mousaka.
+food_order ( name_item = "Pad Thai with hot yellow bean sauce") & Your order is Tom-Yum-Goong, Pad Thai with hot yellow bean sauce. Is that correct?
+food_order ( name_item = "2 orders of spaghetti and meatballs") & 2 orders of spaghetti and meatballs, Will that complete your order?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( other_description_item = "packets of Parmesan cheese") & Just to confirm you would like to add garlic bread and packets of Parmesan cheese.
+food_order ( name_item = "a medium buffalo chicken pizza") & Just to confirm you would like to order a medium buffalo chicken pizza?
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Ok. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( other_description_item = "A side of" ; name_item = "pork fried spring rolls") & A side of pork fried spring rolls.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & OK. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+hotel_inform ( choice = "5" ; name = "Autumn House" ; name = "Carolina B&B" ; name = "Leverton House" ; name = "The Allenbell" ; name = "Warkworth House" ; pricerange = "cheap" ; pricerange = "moderate" ; type = "guesthouses") & I have 5 guesthouses that meet that star requirement. The Allenbell, Autumn House, and Leverton House are all cheap. Carolina B&B and Warkworth House are moderate. Do you have a preference?
+hotel_inform ( area = "east" ; area = "north" ; area = "south" ; choice = "11") & There are 11 options located in the east, north, and south. What location would you prefer?
+booking_book ( bookday = "Monday" ; bookpeople = "5" ; bookstay = "4" ; name = "The finches bed and breakfast" ; ref = "6VBU1SFI") & The finches bed and breakfast was available. 4 nights starting from Monday for 5 people. Your reference number is 6VBU1SFI . Would that work for you?
+hotel_inform ( area = "centre of town" ; choice = "one" ; choice = "one" ; type = "guesthouse" ; type = "hotel") & Yes I have one hotel and one guesthouse in the centre of town.
+hotel_inform ( choice = "9" ; pricerange = "cheap" ; pricerange = "moderate") & There are 9 possibilities in either the cheap or moderate price range. Which do you prefer?
+hotel_inform ( area = "center" ; choice = "aren't many" ; pricerange = "cheap") & There aren't many cheap places in the center, but I can recommend the Alexander B&B. They have 4 stars, despite being a cheap place.
+booking_book ( bookstay = "one" ; ref = "PL0P458J") & Yes I was able to book a room there for one night. Reference number is PL0P458J .
+hotel_inform ( area = "north" ; internet = "yes" ; name = "Archway house" ; pricerange = "moderately priced" ; ref = "TBHIHEJT" ; type = "guest house") & Archway house is available. It is a moderately priced guest house in the north with wifi. Your reference number is TBHIHEJT . Would that work for you?
+booking_inform ( name = "the university arms") & I could book you at the university arms. It is in the centre area instead of the west. Would that work for you?
+hotel_inform ( internet = "yes" ; parking = "yes") & They do offer wifi but no parking.
+hotel_inform ( internet = "yes" ; name = "lovell lodge" ; postcode = "cb41sr" ; stars = "2") & lovell lodge is in postcode area cb41sr, and is a 2 star location with free wifi.
+hotel_inform ( address = "365 milton road") & Their address is 365 milton road. Would you like their phone number as well?
+hotel_inform ( address = "41 warkworth street" ; name = "The El Shaddai Hotel") & The El Shaddai Hotel is located at 41 warkworth street, would yo+u like the phone number?
+booking_book ( ref = "057SX3X0") & That one was successful! Your reference number is 057SX3X0 .
+hotel_recommend ( area = "north side of town" ; name = "Acorn Guest House") & How about the Acorn Guest House in the north side of town?
+hotel_inform ( area = "north side" ; choice = "many" ; type = "guesthouses" ; type = "hotels") & There are many guesthouses and hotels on the north side. Do you have any preferences?
+hotel_inform ( area = "north" ; choice = "many" ; name = "the acorn guest house" ; pricerange = "moderately priced") & We have many guesthouses that are moderately priced. How about the acorn guest house, they are located in the north?
+uber_lyft ( type_ride = "shared" ; num_people = "2") & If you want it to be shared, you cannot bring more than 2 people on the ride, is that want you want?
+uber_lyft ( time_pickup_accept = "7 minutes") & ok, your driver will be there in 7 minutes.
+uber_lyft ( num_people_accept = "5" ; type_ride = "UberXL") & 5 people, alright, then you'll need at least an UberXL.
+uber_lyft ( time_pickup = "15 minutes") & The driver is about 15 minutes out.
+uber_lyft ( type_ride_accept = "uberxl" ; location_from_accept = "jfk airport" ; location_to_accept = "lincoln square steak" ; time_pickup_accept = "5 minutes") & great, let me finish your booking and finding you a driver. i have booked you an uberxl to pick you up from jfk airport going to lincoln square steak. your driver will be arriving in 5 minutes and your receipt will be texted to you. can i help with anything else?
+uber_lyft ( time_pickup_accept = "5 minutes") & your driver will arrive in 5 minutes.
+uber_lyft ( type_ride = "regular") & Great. did you want pool or regular?
+uber_lyft ( price_estimate_accept = "$20") & Ok, your fare estimate is $20.
+uber_lyft ( type_ride = "lyft xl" ; price_estimate_accept = "$17.84") & ok, a lyft xl will cost $17.84, is that ok?
+uber_lyft ( num_people_accept = "4") & Great 4 people.
+uber_lyft ( location_from = "890 south canyon road") & 890 south canyon road?
+uber_lyft ( type_ride_accept = "Uber XL") & Okay that'll be an Uber XL alright?
+uber_lyft ( price_estimate_accept = "21 21") & great, that's 21 21, did you need anything else?
+uber_lyft ( type_ride = "Uber XL" ; time_pickup = "9pm tonight") & would you still like to schedule your Uber XL for 9pm tonight?
+uber_lyft ( price_estimate_accept = "$23.78") & ok. your fare estimate is $23.78.
+uber_lyft ( duration_estimate_accept = "15 or 20 minutes") & about 15 or 20 minutes.
+uber_lyft ( price_estimate = "$26.48") & So that'll cost $26.48, okay?
+uber_lyft ( type_ride = "uberxl" ; price_estimate_accept = "$9.75") & ok, an uberxl will cost $9.75, is that ok?
+uber_lyft ( time_pickup = "9pm" ; duration_estimate_accept = "6 minutes") & great, let me book your ride for 9pm. it will take about 6 minutes.
+uber_lyft ( price_estimate_accept = "$8.90") & ok. your fare estimate is $8.90 for each.
+uber_lyft ( type_ride = "lyft xl") & ok, do you want to go with the lyft xl then?
+uber_lyft ( type_ride = "Uber X" ; location_from = "airport" ; location_to = "Waltham" ; price_estimate = "$37.23" ; duration_estimate = "20 minutes") & Uber X from the airport to Waltham will be $37.23 and will take 20 minutes. Does this sound good?
+uber_lyft ( price_estimate_accept = "$14.42") & $14.42.
+uber_lyft ( duration_estimate_accept = "17 minutes") & your trip duration should be 17 minutes.
+hotel_detail ( name_hotel = "Hampton Inn & Suites Salem" ; other_detail = "The traditionally furnished rooms offer complimentary Wi-Fi, custom-designed beds and desks, plus flat-screen TVs, microwaves, minifridges and coffeemakers. Suites add sitting areas with sofabeds" ; amenity = "coffeemakers") & Hampton Inn & Suites Salem is a modern hotel is 4 miles from the Gilbert House Children's Museum, 2 miles from the Salem Municipal Airport, and 3 miles from the Oregon State Fair and Exposition Center. The traditionally furnished rooms offer complimentary Wi-Fi, custom-designed beds and desks, plus flat-screen TVs, microwaves, minifridges and coffeemakers. Suites add sitting areas with sofabeds.
+hotel_detail ( name_hotel = "Drury Inn" ; other_detail = "just 4 miles from the airport" ; customer_rating = "4.6" ; price_per_night = "$120 per night" ; amenity = "Free breakfast") & Ok, sure, let me look for you. I found the Drury Inn located just 4 miles from the airport, rated at 4.6 and priced at just $120 per night. Free breakfast is also available.
+hotel_detail ( amenity = "a breakfast buffet" ; other_detail = "Upscale bistro with patio seating" ; type_room = "suites") & It is near Sophisticated suites and penthouses add kitchenettes, living/dining rooms, and gas fireplaces. Upscale bistro with patio seating, a pub, a deli, 2 seasonal eateries, and a breakfast buffet.
+hotel_search ( price_range = "$235 a night") & Are you okay with $235 a night?
+hotel_detail ( price_per_night = "$159 for either a room") & It's $159 for either a room with a king bed or a room with two queen beds.
+hotel_search ( price_range = "$309 per night") & I can see the prices start at $309 per night.
+hotel_detail ( other_detail = "with HD channels" ; amenity = "extra-large desks" ; type_room = "executive suites") & The polished rooms, Decorated in cool earth tones, have free Wi-Fi, flat-screen TVs with HD channels, full work desks (plus ergonomic lap desks), coffeemakers some add mini fridges, microwaves and pull-out sofas. Suites provide living space and whirlpool tubs, executive suites add extra-large desks.
+hotel_detail ( location = "424 clat 1st") & 424 clat 1st.
+hotel_search (  num_beds = "two beds" ; amenity = "a balcony") & Okay, So you said two beds and a balcony right. What was the last thing.?
+hotel_search ( sub_location_hotel = "less than half a mile from the slopes") & The hotel is less than half a mile from the slopes.hotel_detail ( other_detail = "The hotel is less than half a mile from the slopes") & The hotel is less than half a mile from the slopes.
+hotel_detail ( amenity = "indoor and an outdoor pool" ; other_detail = "It has both an indoor and an outdoor pool") & It does not have a fireplace. It does have a whirlpool tub. It has both an indoor and an outdoor pool.
+hotel_detail ( amenity = "bar") & There is a restaurant and bar on site.
+hotel_detail ( other_detail = "There are tours available daily from the local Ballpark Village that is close by") & This will be a second.There are tours available daily from the local Ballpark Village that is close by.
+hotel_search ( amenity = "free parking") & Do you need free parking as well?
+hotel_detail ( amenity = "fireplace" ; other_detail = "there isn't any honor bar or fireplace") & Unfortunately there isn't any honor bar or fireplace.
+hotel_detail ( name_hotel = "Pear Tree Inn, St. Louis near Union Station" ; price_per_night = "$134 and a night" ; star_rating = "4 star") & Okay, I'll get a list for you now. One second. Hold on. Okay, I'll get a list for you now. I have two hotels for you that are available, one is The Drury Inn & Suites, it is $183 a night and it's a two-minute walk from the convention center and the Gateway Arch. The other hotel is the Pear Tree Inn, St. Louis near Union Station, it is $134 and a night, it is located in downtown and it's a 6 minute walk from Union Station into miles from the Gateway Arch. Both hotels have all the amenities you asked for and are 4 star rated.
+hotel_detail ( other_detail = "They don't have any balconies") & They don't have any balconies.hotel_search ( amenity = "balconies") & They don't have any balconies.
+hotel_detail ( name_hotel = "the pacific terrace" ; amenity = "free laundry facilities") & In the pacific terrace you have heated outdoor pools, bike rentals, hot tubs with ocean views, massage services and even free laundry facilities.
+hotel_detail ( location = "Richmond District" ; name_hotel = "Geary parkway motel" ; price_per_night = "$150 a night" ; star_rating = "a two star hotel" ; customer_rating = "rated at two") & The only thing available in the Richmond District is Geary parkway motel for $150 a night. It is a two star hotel rated at two.
+hotel_search ( amenity = "kitchen") & Unfortunately these rooms does not have kitchen.
+hotel_search ( amenity = "a valet" ; other_request = "overnight parking with valet is around $35 per night") & They have a valet, overnight parking with valet is around $35 per night.
+hotel_detail ( name_hotel = "Blake Hotel New Orleans, BW Premier Collection hotel") & Okay, perfect. Let me look for you. I have found two hotels that meet your requirements. Holiday inn New Orleans West Bank Tower and Blake Hotel New Orleans, BW Premier Collection hotel.
+hotel_detail ( name_hotel = "Inn on Fifth" ; other_detail = "Guests in suites have access to an exclusive rooftop sundeck with a hot tub, free continental breakfast, and transportation to and from Naples International Airport" ; type_room = "Luxe suites" ; amenity = "transportation to and from Naples International Airport") & Hold on. I found a room at the Inn on Fifth. It is set on lively 5th Avenue, this sophisticated hotel with an annex is less than a mile from the nearest beach and a mile from Naples Pier. It has Sleek rooms feature free Wi-Fi, flat-screen TVs, iPod docks and minifridges. All have French doors leading to Juliet balconies or terraces. Luxe suites add pull-out sofas and marble bathrooms. Valet parking is included. There is a rooftop pool, a full-service spa, a gym and 3 dining options. Guests in suites have access to an exclusive rooftop sundeck with a hot tub, free continental breakfast, and transportation to and from Naples International Airport.
+hotel_search ( price_range = "cheapest") & Okay cheapest hotel in San Francisco is $131 and has 4.5 stars out of 5 in over a thousand reviews it is called Parc 55 San Francisco.hotel_detail ( location = "San Francisco" ; price_per_night = "$131" ; customer_rating = "4.5 stars out of 5" ; name_hotel = "Parc 55 San Francisco") & Okay cheapest hotel in San Francisco is $131 and has 4.5 stars out of 5 in over a thousand reviews it is called Parc 55 San Francisco.
+hotel_search ( date_range = "mar 30 to apr 4") & Okay mar 30 to apr 4.
+hotel_detail ( name_hotel = "Pointe Hilton squaw peak resort" ; star_rating = "4-star" ; price_per_night = "$309 per night" ; other_detail = "Waterpark resort spanning 27 acres, with waterfalls, tennis courts, mini-golf, eateries & a spa" ; amenity = "a spa") & Alright. I found 2 hotels for you to choose from. I found 2 hotels for you to choose from. The first is called Pointe Hilton squaw peak resort. It's a 4-star hotel. $309 per night. Waterpark resort spanning 27 acres, with waterfalls, tennis courts, mini-golf, eateries & a spa. It's a 4-star hotel. $309 per night. Waterpark resort spanning 27 acres, with waterfalls, tennis courts, mini-golf, eateries & a spa.
+hotel_detail ( other_detail = "This hotel is within 10 minutes of downtown" ; amenity = "restaurants") & Let me check that for you. Hold on a second. This hotel is within 10 minutes of downtown. So, there are plenty of restaurants nearby.hotel_search ( sub_location_hotel = "downtown") & Let me check that for you. Hold on a second. This hotel is within 10 minutes of downtown. So, there are plenty of restaurants nearby.
+hotel_search ( sub_location_hotel = "in the French Quarter") & I will find a hotel in the French Quarter.
+hotel_search ( sub_location_hotel = "five minutes from downtown, Laguna Beach") & That is five minutes from downtown, Laguna Beach. Sure thing, I'll send an email confirmation with your reservations.hotel_booked ( hotel_booked = "Sure thing") & That is five minutes from downtown, Laguna Beach. Sure thing, I'll send an email confirmation with your reservations.
+hotel_detail ( name_hotel = "The Summit Watch" ; amenity = "an indoor outdoor pool") & The Summit Watch has an indoor outdoor pool.
+hotel_booked ( hotel_booked = "I got the rooms for you and emailed you the receipt") & I got the rooms for you and emailed you the receipt, enjoy your stay.
+hotel_detail ( other_detail = "The 4 simple, colorful rooms" ; amenity = "claw-foot tubs") & Dating from the 1890´s, This relaxed B&B occupies a cozy, Eastlake-style house. It's an 8-minute walk from Washington Square, And 2.8 miles from New Orleans City Park. The 4 simple, colorful rooms have free Wi-Fi, cable TV, DVD players and desks. Some have fireplaces and/or claw-foot tubs.hotel_search ( sub_location_hotel = "2.8 miles from New Orleans City Park") & Dating from the 1890´s, This relaxed B&B occupies a cozy, Eastlake-style house. It's an 8-minute walk from Washington Square, And 2.8 miles from New Orleans City Park. The 4 simple, colorful rooms have free Wi-Fi, cable TV, DVD players and desks. Some have fireplaces and/or claw-foot tubs.
+hotel_booked ( hotel_booked = "I will book the hotel for you now") & I will book the hotel for you now and send you the details.
+hotel_search ( sub_location_hotel = "16 miles from San Francisco") & Set on 3 acres in the sailing village of Tiburon, this upscale, Craftsman-style hotel is 8 miles from Sausalito and 16 miles from San Francisco. The refined rooms and suites come with free Wi-Fi, flat-screen TVs, DVD players, iPod docks and workstations with ergonomic chairs. Most have patios/balconies with bay or mountain views.hotel_detail ( other_detail = "Set on 3 acres in the sailing village of Tiburon, this upscale, Craftsman-style hotel is 8 miles from Sausalito and 16 miles from San Francisco" ; type_room = "suites" ; amenity = "patios/balconies with bay or mountain views") & Set on 3 acres in the sailing village of Tiburon, this upscale, Craftsman-style hotel is 8 miles from Sausalito and 16 miles from San Francisco. The refined rooms and suites come with free Wi-Fi, flat-screen TVs, DVD players, iPod docks and workstations with ergonomic chairs. Most have patios/balconies with bay or mountain views.
+hotel_detail ( amenity = "ski slope views") & Okay. The sleek, modern rooms feature free Wi-Fi, flat-screens and pull-out sofas, plus mini fridges, microwaves and tea and coffeemakers, some have ski slope views.
+hotel_detail ( name_hotel = "Hyatt Place, Austin, Downtown" ; type_room = "Upgraded rooms" ; amenity = "meeting room") & Hyatt Place, Austin, Downtown. The straightforward rooms feature living areas with desks and pull-out sofas, as well as free WiFi, 42-inch flat-screen TVs, minifridges and coffeemakers. Upgraded rooms add city views. There's a complimentary hot breakfast buffet and a cafe/bar. Other amenities include an indoor pool and a 24-hour exercise room, plus a 24-hour business center and a meeting room.
+hotel_search ( price_range = "$300 per night or less" ; customer_rating = "4 stars") & Okay, $300 per night or less and 4 stars and up. What else?
+hotel_search ( star_rating = "at least a three-star") & Okay, the hotel must have at least a three-star rating.
+hotel_booked ( hotel_booked = "I will do that") & Great, I will do that.
+hotel_detail ( name_hotel = "The CCBC Resort Hotel") & Let me see what I can find. Hold on. One second. The Holiday Inn Express and Suites and The CCBC Resort Hotel?
+hotel_booked ( hotel_booked = "I've done it and emailed you the details") & Sure, I've done it and emailed you the details.
+hotel_detail ( other_detail = "range of square footage is between 470, 472 square feet with a 237 to 270 square foot log") & It looks like the range of square footage is between 470, 472 square feet with a 237 to 270 square foot log.
+hotel_detail ( name_hotel = "The Lofts Hotel" ; other_detail = "a 9-minute walk from the boutiques an") & I will find a hotel that matches those. Just a moment. The Lofts Hotel. Just a moment. The Lofts Hotel. In a former warehouse built in 1882, This trendy boutique hotel is a 2-minute walk from the Greater Columbus Convention Center and a 9-minute walk from the boutiques and nightlife of The Short North Arts District and a 9-minute walk from Nationwide Arena.
+hotel_detail ( name_hotel = "Serrano Hotel" ; location = "in the Theater District" ; other_detail = "Serrano Hotel is Located in the Theater District, this refined, early 20th-century hotel is a 6-minute walk from Union Square and the Powell Street BART rail station") & Serrano Hotel is Located in the Theater District, this refined, early 20th-century hotel is a 6-minute walk from Union Square and the Powell Street BART rail station.hotel_search ( sub_location_hotel = "a 6-minute walk from Union Square and the Powell Street BART rail station") & Serrano Hotel is Located in the Theater District, this refined, early 20th-century hotel is a 6-minute walk from Union Square and the Powell Street BART rail station.
+hotel_detail ( name_hotel = "Hotel Whitcomb" ; price_per_night = "$171 a night") & Hold on just a second. There are no hotels in the mission district, but the closest one is Hotel Whitcomb for $171 a night. Would you like to know more about it?hotel_search ( location_hotel = "mission district") & Hold on just a second. There are no hotels in the mission district, but the closest one is Hotel Whitcomb for $171 a night. Would you like to know more about it?
+hotel_detail ( price_per_night = "$692 per night") & Sure, it's $692 per night. Sounds good?
+hotel_detail ( amenity = "free breakfast") & The hotel that serves free breakfast as well. Anything else?
+hotel_search ( location_hotel = "St.Louis Missouri") & What dates and days are you in St.Louis Missouri?
+hotel_search ( amenity = "restaurant" ; other_request = "restaurant on the grounds") & Okay, restaurant on the grounds. Anything else?
+hotel_search ( amenity = "free parking") & Did you say you want free parking?
+hotel_search ( amenity = "Wi-Fi") & Okay I'll get you Wi-Fi.
+hotel_detail ( other_detail = "less than a mail from the city") & It's about a mile from the slopes, and less than a mail from the city.
+hotel_detail ( other_detail = "There's also a library around for the Bucking" ; amenity = "Skyline views") & Sure. Just a moment. Get on 800 Powell Street in a brick building housing in members Club this elegant Boutique Hotel. It is only a 10-minute walk from Union Square and the rooms have antique furnishings and modern touches as well as flat screen TVs free Wi-Fi and coffee makers does free continental breakfast and dinner are served and stylish dining rooms with vintage decor and chandeliers, the amenities included five squash courts a sauna steam room in a gym offering yoga classes and indoor golf, There's also a library around for the Bucking and cocktail bar with Skyline views.
+hotel_booked ( hotel_booked = "I'll book that for you") & I'll book that for you an email you the details.
+hotel_booked ( hotel_booked = "all booked") & Alright it's all booked for May 12th through May 15th, enjoy your stay.
+hotel_detail ( name_hotel = "The Nomad Hotel" ; other_detail = "Housed in a historic, Beaux arts building, This Parisian-inspired luxury hotel is 1.4 miles from the Museum of Modern Art") & Bye, See you later. I will find the perfect place for you, Just a moment. I have found The Nomad Hotel. Housed in a historic, Beaux arts building, This Parisian-inspired luxury hotel is 1.4 miles from the Museum of Modern Art.
+hotel_search ( sub_location_hotel = "close to Times Square") & Okay. I can find somewhere that is close to Times Square.
+hotel_detail ( name_hotel = "Hotel Del Sol") & Hotel Del Sol.
+hotel_search ( location_hotel = "New Orleans") & I can definitely help you with that one would you like to stay in New Orleans?
+hotel_detail ( amenity = "Restaurant" ; other_detail = "Pet-friendly") & Air-conditioned, Pet-friendly and Restaurant.
+hotel_detail ( name_hotel = "The Grand Hotel in Salem") & Okay. Just one moment. I found a spot for you at The Grand Hotel in Salem.
+hotel_detail ( name_hotel = "Hotel Posada, San Francisco" ; location = "Tlaxcala city" ; price_per_night = "$63 a night" ; star_rating = "5-star" ; customer_rating = "4.3 Star rating") & The only hotel matching your criteria is Hotel Posada, San Francisco, Tlaxcala city. It is available for $63 a night and it is a 5-star hotel reviewed at 4.3 Star rating.
+hotel_search ( sub_location_hotel = "from the beach") & How far from the beach?
+hotel_detail ( other_detail = "555-5555") & Here is the phone number 555-5555. Anything else I can help you with?
+hotel_detail ( name_hotel = "Hawthorn Suites" ; location = "Wyndham west palm beach") & Okay perfect. I am located, Holiday Inn Express & Suites West Palm Beach and Hawthorn Suites by Wyndham west palm beach.
+hotel_detail ( name_hotel = "The Inn on Fifth" ; price_per_night = "$136 per night" ; type_room = "Haute rooms & suites" ; other_detail = "an upscale hotel" ; amenity = "free valet parking") & The first is The Inn on Fifth, it’s $136 per night. Haute rooms & suites at an upscale hotel with a rooftop pool, a spa & free valet parking.
+hotel_search ( amenity = "free breakfast") & Free breakfast, I'll put that together. You're in luck, all the 14 hotels offer free pool also offer free breakfast.
+hotel_search ( date_range = "2 night") & Enjoy your 2 night stay at the Best Western Premier Hotel sir and take care.hotel_detail ( name_hotel = "Best Western Premier Hotel") & Enjoy your 2 night stay at the Best Western Premier Hotel sir and take care.
+hotel_detail ( amenity = "Free parking") & Free parking.
+hotel_detail ( amenity = "parking") & Yes, There is a parking lot structure of the hotel.
+hotel_detail ( other_detail = "Bright rooms and suites" ; type_room = "Upgraded rooms" ; amenity = "pull-out sofas") & Bright rooms and suites provide free Wi-Fi, desks and flat-screen TVs with premium channels. They also have microwaves, minifridges and coffeemakers. Upgraded rooms add pull-out sofas.
+hotel_detail ( amenity = "bar" ; other_detail = "no bar") & Sorry, no bar.
+hotel_search ( sub_location_hotel = "Downtown") & Okay, I'll search Downtown. Is there anything else?
+hotel_detail ( name_hotel = "Los Arboles hotel" ; price_per_night = "$166 per night") & The price per night at the Los Arboles hotel is $166 per night.
+hotel_detail ( name_hotel = "Intercontinental") & Intercontinental.
+hotel_detail ( price_per_night = "$697 per night") & How about $697 per night?
+hotel_search ( date_range = "from November 4th to November 16th") & Okay, 12 nights stay from November 4th to November 16th?
+hotel_booked ( hotel_booked = "Sure thing") & Sure thing.

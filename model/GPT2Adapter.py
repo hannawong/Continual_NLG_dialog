@@ -289,7 +289,7 @@ class GPT2Adapter(GPT2PreTrainedModel):
 
         output_shape = input_shape + (hidden_states_A.size(-1),) ##[32, 80, 768]
 
-        for i, (block, layer_past, adapter) in enumerate(zip(self.transformer.h, past_key_values, self.adapter_blocks)):
+        for i, (block, layer_past) in enumerate(zip(self.transformer.h, past_key_values)):
             if i <= mix_layer:
                 hidden_states_A = block(hidden_states_A,layer_past=layer_past,use_cache=use_cache,output_attentions=output_attentions)[0]
                 hidden_states_B = block(hidden_states_B,layer_past=layer_past,use_cache=use_cache,output_attentions=output_attentions)[0]
@@ -421,9 +421,9 @@ class GPT2Adapter(GPT2PreTrainedModel):
             else:
                 ok = True
                 attention_pool = hidden_states
-                attention_pool = torch.mean(hidden_states,1)
-                attention_pool = real_last_hidden
-                attention_pool = self.self_attention_layer(hidden_states_mean,hidden_states,hidden_states,length)
+                #attention_pool = torch.mean(hidden_states,1)
+                #attention_pool = real_last_hidden
+                #attention_pool = self.self_attention_layer(hidden_states_mean,hidden_states,hidden_states,length)
                 
             if ok:
                 hidden_states_norm = attention_pool / torch.norm(attention_pool,p = 2)

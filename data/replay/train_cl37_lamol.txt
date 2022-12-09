@@ -1,0 +1,185 @@
+ tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb
+ tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb
+ tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ buses buses offer ( total_fare = "$8,721.38" ; type = "round trip") & the total for this round trip trip is $8,721.38. 
+ airlines flight_detail ( airline = "american" ; from_time = "10:30 pm" ; to_time = "1:10 pm") & okay, i have a flight with american at 10:30 pm. it departs at 8:30 pm. your return flight departs at 1:10 pm. your return flight departs at 8:30 pm
+ flight_detail ( from_time = "8:30 am" ; to_time = "10:20 am") & i found a flight that leaves at 8:30 am, arrives in the 10:20 am. 
+. one of the first is with delt
+ flight flight_search ( origin = "seattle" ; destination = "seattle" ; destination_ destination = "san francisco") & okay, so you want to leave seattle from seattle to san francisco, right? 
+ restaurant restaurant_detail ( other_description = "2 hours" ; from_time = "3:30 pm" ; to = "san francisco" ; to_time = "1:20 pm" ; type = "food") & okay. 2 hours in your 2 hours to san francisco food-ordering. 
+ food-ordering food_ordering ( type = "checking") & please confirm the following: transferring $2,898.50 into your checking account. 
+ restaurant restaurant_detail ( from_time = "1:55 p.m." ; to = "seattle" ; to_time = "7:15 a.m" ; to_time = "11:20 a.m" ; type = "round-trip" ; type_food = "pepper") & so, i have a round-trip flight departing at 
+ food-ordering food_ordering ( type = "round-trip" ; total_fare = "$1,966" ; type = "food") & alright, i found a round-trip flight that departs at 4:30 pm. it's a $1,966 round-trip. 
+ restaurant restaurant_search ( type = "food") & would you like to try out a specific type of food or just a few? 
+ tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall t
+ mwoz tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall t
+ tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ mwoz tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering 
+ GST payment payment payment payment_accept ( type = "checking") & you will have a checking account in your checking account. 
+ alarm alarm_detail ( from = "san francisco" ; to = "seattle" ; to_time = "8:45 pm") & okay, i have found you a flight that departs san francisco and arrives in seattle at 8:45 pm. 
+ alarm alarm alarm_name = "american" ; alarm_time = "10:30 am" ; alarm_type = "round-trip") & i have found a round-trip alarm at american for $10,200, that leaves at 10:30 am and it arrives at 10:30 am. 
+ alarm alarm alarm_detail ( other_description = "5" ; from_time = "1:15 p.m." ; stops = "no stop") & okay, you will leave at 1:15 p.m. with no stop. 
+ alarm alarm_search ( type = "round-trip" ; time_of_day = "in the morning" ; time_of_day = "in the night") & there are no round-trip flights in the morning. 
+ alarm alarm_detail ( from = "san francisco" ; from_time = "1:45 p.m" ; stops = "non-stop" ; time = "6:45 p.m" ; to = "sfo" ; to_time = "11:45 p.m" ; type = "checking") & i have located a flight from san francisc
+ trains trains offer ( fare = "$1,8,639" ; type = "round-trip" ; stops = "one stop" ; stops_location = "s.l.a" ; from_time = "7:15 p.m." ; to_time = "10:30 a.m") & the total price for this round-trip is $1
+ trains offer ( stop = "one stop" ; total_fare = "$1,890.50" ; type = "round-trip") & there is no one stop for this one stop train. 
+ trains tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ services buses buses_search ( stops = "layover" ; type = "round-trip" ; total_fare = "$10,976" ; stops_location = "chicago") & alright, there are 2 layover stops in your round-trip. the first one is with united airlines. it is a round-trip for $10,976 that leaves chicago an
+ trains offer ( destination = "houston" ; destination = "houston" ; type = "round trip") & there are several trains departing from houston. one is at 1:20 p.m. the other is at 3:20 p.m. the return is at 11:10 a.m. 
+ MWOZ_detail ( from_time = "4:15 pm" ; to_time = "1:40 pm" ; to = "seattle" ; to_time = "1:40 pm" ; type = "checking") & i have found a return flight for you at 4:15 pm that leaves at 4:40 pm. arriving in seattle at 1
+ mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz m
+MWOE_detail ( other_description = "15 hours and 20 minutes" ; from_time = "8:40 p.m") & the total travel time of the trip is 15 hours and 20 minutes. 
+ mwoz_ordering ( size_pizza_accept = "small" ; type_topping_accept = "pepperoni" ; type_topping_accept = "pepperoni") & ok, let me look. i see that you have a large pizza for your small order of pepperoni. is that okay? 
+ MWOZ_ordering mwoz_ordering mwoz_ordering ( type = "checking" ; type = "checking") & okay. i found a checking order for you. is this correct? 
+ MWOZ_ordering ( type = "round-trip" ; total_fare = "$2,7,500") & i found a round-trip $2,7,500 from washington to mwok, united, and it leaves at 10:20 am. 
+ mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai mwai m
+ mw __eou__  tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb 
+ mwoz_ordering ( type = "checking") & do you have a preference for checking or would you like to send me a confirmation to your checking account? 
+ mwoz_ordering mwoz_ordering ( type = "checking") & your checking order is now in your mwoz checking 
+ buses buses offer ( destination = "san francisco" ; from_time = "8:50 pm" ; to_time = "11:20 am" ; fare = "$1,890") & the next flight i found that leaves in san francisco at 8:50 pm. you'll arrive back in san francisco at 11:20 am, is that okay? 
+ buses buses buses offer ( total_fare = "$9,898" ; type = "business" ; stops = "one stop" ; other_description = "3 hour and 30 minutes" ; from_time = "7:10 pm" ; to_time = "10:30 am") & you would like to get a business class flight that has one stop for 3 hours an
+ buses buses offer ( from_time = "3:30 p.m" ; to_time = "9:55 p.m") & i found a 3:30 p.m. departure that leaves at 3:30 p.m. and arrives at 9:55 p.m. 
+ buses buses_detail ( fare = "$1,074.67" ; stops = "one stop" ; stops_location = "chicago" ; other_description = "4 hours") & the price of a bus is $1,074.67 and the price of this ticket is in the same class with one stop in chicago. 
+ buses offer ( total_fare = "$1,711" ; type = "round-trip" ; total_fare = "$2,898") & the price of your round-trip flight for your round-trip is $1,711. 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmall tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ tmall tmall tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ tmb_spor
+ tmb_spor
+ tmb_spor
+ tmb_spor
+ tmb_spor
+ tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb 
+ tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+_ordering ( name_store = "british") & okay. i found a few places. the first is called british. it's $1,500. 
+_ordering ( type = "copper") & okay. so, you are purchasing 1 large pepperoni, 1 large pepperoni, 1 large pepperoni, 1 large pepperoni, 1 large pepperoni. 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+s tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ payment payment payment payment_type = "checking" ; amount = "$11,976" ; recipient_account_name = "american") & okay, so i found $11,976 in your checking account. you're going to send that to your checking account? 
+ payment payment payment payment_search ( origin = "se" ; destination = "san francisco" ; num_pax = "2" ; type = "checking") & i found a few 2 dollars in se from san francisco to san francisco. 
+ payment payment payment_accept ( amount = "$1,788.45" ; recipient_account_name = "juan") & okay, let me send you a confirmation to your email. have a safe trip. 
+ payment payment payment payment payment_type = "checking" ; amount = "$1,9,890.90" ; recipient_account_name = "james" ; recipient_account_type = "checking") & i have a checking account at $1,9,890.90.90 from james. 
+ payment payment payment_type = "checking") & your checking account has been sent to your checking account. 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall 
+ tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall 
+ tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tm
+ 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tm
+ tm
+. it's a non-stop tmb-ordering tmb-ordering. 
+ tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb 
+ tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ offer ( movie_name = "dumbo" ; from_time = "8:30 p.m") & alright, i found a movie for you. dumbo, departs at 10:10 p.m. and arrives at 8:30 p.m. 
+ gd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_ordering sgd_orderin
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ offer ( date = "today" ; from_time = "6:40 p.m" ; to = "houston" ; to_time = "1:40 p.m") & okay. you got it. i found a flight departing today at 6:40 p.m. from houston at 1:40 p.m. 
+ confirm ( from_time = "7:30 pm" ; to_time = "1:30 pm") & please confirm that you want me to send you a confirmation to your email with the following: 7:30 pm, 1:30 pm 
+ rentalcars_accept ( destination = "sfo" ; type = "round-trip" ; total_fare = "$1,9,895" ; type_ride = "uberxl" ; name_car_accept = "the best") & okay. i have located a round-trip trip for you to sfo in the sfo from sfo for $1
+ rentalcars offer ( total_fare = "$1,051" ; type = "round-trip") & the average round-trip trip cost for this round-trip is $1,051 
+ rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcars tmb_rentalcar
+ rentalcars offer ( balance = "$13,971.81" ; type = "checking" ; total_fare = "$ __eou__  " $9,890") & you have $13,971.81 in your checking account, the total for your checking account is $13,971.81.81 
+ rentalcars offer ( type = "checking" ; amount = "$10,988.90" ; type = "checking" ; destination = "new york") & i have a checking $10,988.90 in new york. 
+ ridesharing ridesharing tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tm
+ ridesharing ridesharing tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tm
+ ridesharing ridesharing tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ ridesharing ridesharing ridesharing_search ( origin = "sfo" ; destination = "new york") & i have located a few rides in new york. 
+ ridesharing ridesharing ridesharing tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall t
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering 
+ food_ordering food_ordering ( size = "round trip" ; type = "food") & okay, so i have a round trip food from your round trip food. is that correct? 
+ food_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering 
+ mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwomans mwo
+ tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ sgd_track tmb_track tmb_track tmb_track tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb
+ sgd_track tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_orderin
+ sgd_track_name = "the day __eou__ " ; artist = "sad" ; album = "the first") & there are several songs in the sgd-track. the first one is called the day. 
+_search ( time_of_day = "tonight" ; time_of_day = "evening") & okay, you will be leaving at 3:45 pm, and you will arrive in evening at 10:30 pm. 
+ mwoz_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tm
+ from san francisco to san francisco. 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ mtg_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticke
+ movies tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ movies offer ( actor_name = "j.m." ; from_time = "7:40 am" ; to_time = "1 pm" ; to = "san francisco" ; other_description = "10 hours" ; type = "round-trip" ; total_fare = "$2,200") & i have found a few options for you. one is 
+ movies offer ( movie_name = "the __eou__ 'tai" ; from_time = "10:30 a.m." ; to_time = "8:30 a.m" ; to = "am") & the'tai is leaving at 10:30 a.m. and returning at 8:30 a.m. 
+ movies tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ movies mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz mwoz 
+ hotels buses buses offer ( from_time = "6:40 am" ; to_time = "12:30 am") & okay. the return flight is leaving at 6:40 am and arriving in the 12:30 am. 
+ hotels buses offer ( destination = "new york" ; destination_date = "feb 24" ; from_time = "8:30 a.m" ; to = "san francisco" ; to_time = "7:55 p.m" ; other_description = "1 hour") & i found a flight departing from new york, you will arrive in ne
+ hotels tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ hotels buses offer ( fare = "$1,871.48" ; from_time = "1:30 pm" ; to = "san francisco" ; to_time = "11:30 pm" ; type = "round trip" ; to_time = "1:20 pm") & the best deal on your trip is $1,871.48 from your departur
+ hotels confirm ( total_fare = "$1,942" ; recipient_ recipient_name = "michael michael" ; recipient_amount = "$1,942") & please confirm: transferring $1,942 from the recipient to michael michael michael michael michael michael michael michael michael michael michael michael michael michael 
+ mwoz_ordering ( type = "round up" ; total_fare = "$1,7,766" ; type_topping = "pepperoni") & okay, so you have a round up of $1,7,766 for your pepperoni. 
+ mwoz_accept ( destination = "san francisco") & okay, i will find a way to send you your mwoz. i see that you are in san francisco. is that where you want to go from? 
+ tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_ticket
+ ( time_of_day = "in the morning") & in the morning, you have a choice of 3 different activities. you can either go to a time in the afternoon, or you can leave in the evening. 
+ tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+_lyft ( price_range = "$400 to $1,000" ; type = "round trip" ; type = "checking") & your round trip fare is $400 to $1,000. 
+_lyft ( type = "round-trip" ; total_fare = "$2,972.88") & the total for this round-trip is $2,972.88 
+x to houston from houston. 
+ with a checking in at $1,867 for one layover trip. 
+_lyft ( type = "checking" ; destination = "houston" ; destination_to = "new york") & you're looking to leave houston, you're going to go to new york? 
+_ordering ( type = "round-trip" ; total_fare = "$10,071" ; recipient_name = "michael" ; recipient_account_type = "checking") & i have a round-trip flight that will cost $10,071 for michael. 
+ tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb 
+ mwifi tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets 
+ tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ events offer ( date = "august 1st" ; date_depart_origin = "august 1st") & you're looking for a flight from august 1st to august 1st, is that correct? 
+ events tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ events confirm ( event_name = "delta" ; event_time = "8:20 a.m") & just to confirm: you would like to make a transfer to delta from your savings account at 8:20 a.m. 
+ sgd_events offer ( time_of_day = "evening") & okay, i found a morning flight at 7:15 pm, 7:55 am and 8:55 am. 
+ events confirm ( event_name = "mikuni" ; event_time = "6:30 a.m") & please confirm the following: i would like to book a 6:30 a.m. flight for you to mikuni. 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ _ordering ( type = "checking") & you will need to check for the correct amount in your checking account. 
+ offer ( property_name = "amsterdam" ; price_range = "the cheapest" ; type = "savings") & amsterdam is the cheapest in the savings. 
+ offer ( property_name = "boulevard" ; type = "business") & boulevard is a business class property located in the same business district. 
+ offer ( property_type = "first-class" ; address = "1150 a.m." ; type = "checking") & okay, so you have a first-class apartment in a checking account. 
+ services mnf_search ( type = "checking" ; destination = "san francisco") & i see that you're leaving from san francisco to san francisco. is that correct? 
+ services offer ( therapist_name = "amir" ; type = "psychologist" ; type_to = "psychologist" ; time_of_day = "today" ; amount = "$1,200") & i found a psychologist named amir. he is a psychologist in a research laboratory in the morning. 
+ services tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ services mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc_ordering mwc
+ services mwf_search ( type = "checking") & okay, so i see you're checking in with mwf-checking in your checking account. is that correct? 
+ sgd_calendar sgd_calendar sgd_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calendar tmb_calenda
+ calendar tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ calendar tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_
+ calendar mnf_detail ( date = "today" ; from_time = "9:15 a.m" ; to = "san francisco" ; to_time = "10:15 a.m") & you will leave today at 9:15 a.m. from san francisco to 10:15 a.m. 
+ calendar tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ weather mnf_search ( time_of_day = "in the evening" ; destination = "houston") & in the evening in houston. 
+ weather weather tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tm
+ weather sgd_sgd_ordering ( total_price = "$1,8,9,8,890.00") & your return flight will be $1,8,9,8,90.00. 
+ weather sgd_ weather_search ( date_depart_origin = "april 7th" ; destination = "new york") & okay, i have a departure date of april 7th and a return date of april 7th in new york. 
+ weather weather tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tmb_ticket tm
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall t
+ tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall t
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall tmall 
+_detail ( stops = "layovers" ; stops_location = "seattle" ; other_description = "3 hours and 10 minutes" ; other_description = "1,800 minutes" ; stops_location = "san francisco") & the layovers in seattle will have 3 hours and 10 minutes layovers in seattle for 1,800 minutes. 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb 
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ banks tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb tmb 
+ banks offer ( balance = "$1,907.50" ; account_type = "savings") & the savings account balance in your savings account is $1,907.50 
+ banks offer ( balance = "$1,977.55" ; account_type = "checking") & the balance in your checking account is $1,977.55. 
+ banks tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb_ordering tmb
+ banks tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_tickets tmb_

@@ -1,0 +1,35 @@
+INFORM ( phone_number = "312-374-8790" ; good_for_kids = "True") & Indeed, the museum is friendly to children, and the contract number is 312-374-8790.
+OFFER ( attraction_name = "Fleet Science Center" ; category = "Museum") & The Fleet Science Center is a Museum in San Diego.
+OFFER ( attraction_name = "American church in Paris" ; category = "Place of Worship") & please check out American church in Paris which is a place of worship
+OFFER ( attraction_name = "Arizona Capitol Museum" ; category = "Museum") & Yup! There is vibrant cultural heritage Museum, Arizona Capitol Museum which you must visit in your days.
+OFFER ( attraction_name = "Saint Thomas Church Fifth Avenue" ; category = "Place of Worship") & I've found 5 that would work. The first is Saint Thomas Church Fifth Avenue, which is another Place of Worship.
+CONFIRM ( payment_method = "credit card" ; amount = "$84" ; receiver = "Svetlana" ; private_visibility = "False") & I'll send Svetlana $84 from your credit card. This will be publicly visible. Is everything correct?
+CONFIRM ( payment_method = "debit card" ; amount = "$94") & PLease confirm: Send $94 from your debit card.
+CONFIRM ( payment_method = "app balance" ; amount = "$96" ; receiver = "Mahmoud" ; private_visibility = "False") & Confirming your public transfer from your app balance to Mahmoud in the amound of $96
+CONFIRM ( receiver = "Yumi" ; amount = "$35" ; private_visibility = "False") & Confirming that you are asking for $35 from Yumi and it's a public transaction
+CONFIRM ( payment_method = "debit card" ; amount = "$154" ; receiver = "Mary" ; private_visibility = "True") & I'll sent Mary $154 from you debit card in a private transaction. Is this correct?
+restaurant_reservation ( name_restaurant = "Cesario's") & let me take a look I found Marcella's Lasagneria, Perbacco and Cesario's.
+restaurant_reservation ( name_restaurant = "jack's urban eats") & sure, let me find one. i found one called jack's urban eats. it is described as a Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine.
+restaurant_reservation ( name_restaurant = "PHO HUYNH SANG") & Okay, let me see what I can find. Perilla might be the place for you, many reviews rave about their Garlic noodles. But there is also PHO HUYNH SANG which offers a large variety of vegetarian foods.
+restaurant_reservation ( name_restaurant = "Wayfare Tavern" ; location_restaurant_accept = "Sacramento Street") & The second one is Wayfare Tavern on Sacramento Street.
+restaurant_reservation ( location_restaurant = "downtown") & Sure, got it! should the restaurant be close to downtown?
+music ( name_artist = "Rage Against the Machine" ; name_track = "sleep now in the fire") & Okay. Here is Rage Against the Machine sleep now in the fire.
+music ( name_artist = "Smash Mouth" ; name_track = "Stoned") & Smash Mouth - Stoned.
+music ( name_genre = "Christmas" ; name_artist = "Led Zeppelin") & Here's the Popular Christmas song by Led Zeppelin.
+music ( name_artist = "Trace Adkins") & How about Trace Adkins?
+music ( name_artist = "Oceans Ate Alaska" ; name_track = "Hansha") & Here is Wage War - Stitch. Here is Wage War - Stitch. And Oceans Ate Alaska - Hansha.
+INFORM ( ride_fare = "$15.25" ; wait_time = "7") & Your cab will be there in 7 minutes and will cost $15.25.
+CONFIRM ( destination = "3136 Contra Loma Boulevard" ; number_of_riders = "2" ; shared_ride = "True") & Shall I book a shared cab for 2 people to 3136 Contra Loma Boulevard?
+CONFIRM ( destination = "2217 Market Street" ; ride_type = "Pool") & Can you confirm the details? You want to go to 2217 Market Street on a Pool ride.
+INFORM ( wait_time = "7") & It should arrive in 7 minutes.
+INFORM ( ride_fare = "$17.89") & The price is $17.89 and your ride has been confirmed. It is coming right now.
+auto_repair ( date_appt = "thursday, february 28th" ; time_appt = "8:30am") & their next availability is thursday, february 28th at 8:30am.
+auto_repair ( name_vehicle = "nissan rogue") & great, and what year was your nissan rogue?
+auto_repair ( name_customer_accept = "Nancy") & Let me make sure i got that right: Nancy, 313 673 4855.
+auto_repair ( year_vehicle_accept = "2010" ; name_vehicle_accept = "toyota corolla" ; date_appt_accept = "tomorrow" ; time_appt_accept = "before 8:30am" ; reason_appt_accept = "tune up") & so let me confirm everything: you are taking your 2010 toyota corolla tomorrow before 8:30am for a tune up, is this accurate?
+auto_repair ( name_customer = "joseph") & awesome, thanks joseph. and what's a good number to reach you at?
+INFORM ( genre = "pop") & It is a pop song. Please enjoy!
+OFFER ( song_name = "Sucker" ; artist = "Jonas Brothers" ; album = "Happiness Begins") & I've got 1 song for you. It's Sucker by The Jonas Brothers from Happiness Begins.
+INFORM ( year = "2017") & 2017 is the release date.
+OFFER ( song_name = "Best Friend" ; artist = "Jason Chen" ; album = "Gravity") & I found 2 songs for you. What about Best Friend by Jason Chen from the Gravity album?
+OFFER ( song_name = "Year Zero" ; artist = "Ghost" ; album = "Infestissumam") & Sure thing! I found 10 songs for you. I recommend Year Zero by Ghost on their album Infestissumam. Does that interest you at all?INFORM_COUNT ( count = "10") & Sure thing! I found 10 songs for you. I recommend Year Zero by Ghost on their album Infestissumam. Does that interest you at all?

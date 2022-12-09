@@ -1,0 +1,555 @@
+hotel_inform ( choice = "18" ; pricerange = "moderately priced" ; stars = "4" ; type = "guesthouses") & I'm sorry, there aren't any expensive guesthouses with 4 stars, but there are 18 moderately priced 4-star guesthouses. Would that be okay?
+hotel_inform ( choice = "18" ; pricerange = "moderately priced" ; stars = "4" ; type = "guesthouses") & I'm sorry, there aren't any expensive guesthouses with 4 stars, but there are 18 moderately priced 4-star guesthouses. Would that be okay?
+hotel_inform ( choice = "18" ; pricerange = "moderately priced" ; stars = "4" ; type = "guesthouses") & I'm sorry, there aren't any expensive guesthouses with 4 stars, but there are 18 moderately priced 4-star guesthouses. Would that be okay?
+hotel_inform ( choice = "quite a few") & I have got quite a few that should suit your needs. Is there a preference on what area of town you stay? That might help narrow down the options.
+hotel_inform ( choice = "quite a few") & I have got quite a few that should suit your needs. Is there a preference on what area of town you stay? That might help narrow down the options.
+hotel_inform ( choice = "quite a few") & I have got quite a few that should suit your needs. Is there a preference on what area of town you stay? That might help narrow down the options.
+booking_book ( ref = "TFAJJNJF") & Booking was successful. Reference number is : TFAJJNJF
+booking_book ( ref = "TFAJJNJF") & Booking was successful. Reference number is : TFAJJNJF
+booking_book ( ref = "TFAJJNJF") & Booking was successful. Reference number is : TFAJJNJF
+booking_book ( name = "the alexander bed and breakfast" ; ref = "JLDXHEK8") & I was able to book at the alexander bed and breakfast. Your reference number is JLDXHEK8 . Is there anything else?
+booking_book ( name = "the alexander bed and breakfast" ; ref = "JLDXHEK8") & I was able to book at the alexander bed and breakfast. Your reference number is JLDXHEK8 . Is there anything else?
+booking_book ( name = "the alexander bed and breakfast" ; ref = "JLDXHEK8") & I was able to book at the alexander bed and breakfast. Your reference number is JLDXHEK8 . Is there anything else?
+hotel_inform ( choice = "3" ; internet = "yes" ; parking = "yes" ; stars = "4" ; type = "guesthouses") & Sure, I have 3 guesthouses that might work for you. They're all 4 stars with free wifi and parking. Does that sound good?
+hotel_inform ( choice = "3" ; internet = "yes" ; parking = "yes" ; stars = "4" ; type = "guesthouses") & Sure, I have 3 guesthouses that might work for you. They're all 4 stars with free wifi and parking. Does that sound good?
+hotel_inform ( choice = "3" ; internet = "yes" ; parking = "yes" ; stars = "4" ; type = "guesthouses") & Sure, I have 3 guesthouses that might work for you. They're all 4 stars with free wifi and parking. Does that sound good?
+uber_lyft ( time_pickup_accept = "9pm") & sure, i will book it for 9pm tonight.
+uber_lyft ( time_pickup_accept = "9pm") & sure, i will book it for 9pm tonight.
+uber_lyft ( time_pickup_accept = "9pm") & sure, i will book it for 9pm tonight.
+uber_lyft ( time_pickup = "9:00pm") & Sure and you said you wanted this ride booked at 9:00pm, correct?
+uber_lyft ( time_pickup = "9:00pm") & Sure and you said you wanted this ride booked at 9:00pm, correct?
+uber_lyft ( time_pickup = "9:00pm") & Sure and you said you wanted this ride booked at 9:00pm, correct?
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "9pm") & ok, your uberxl is booked for tonight at 9pm.
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "9pm") & ok, your uberxl is booked for tonight at 9pm.
+uber_lyft ( type_ride_accept = "uberxl" ; time_pickup_accept = "9pm") & ok, your uberxl is booked for tonight at 9pm.
+uber_lyft ( duration_estimate_accept = "23 minutes") & can i help with anything else? let me check that for you. it will take about 23 minutes.
+uber_lyft ( duration_estimate_accept = "23 minutes") & can i help with anything else? let me check that for you. it will take about 23 minutes.
+uber_lyft ( duration_estimate_accept = "23 minutes") & can i help with anything else? let me check that for you. it will take about 23 minutes.
+uber_lyft ( type_ride_accept = "pool" ; price_estimate_accept = "$5.74" ; duration_estimate_accept = "8 mins" ; location_from_accept = "united artists river view plaza 17" ; location_to_accept = "the victor cafe" ; time_pickup = "9") & ok. an uber pool is going to cost $5.74 and the ride will be about 8 mins. the ride is from the united artists river view plaza 17 to the victor cafe. once you confirm these details are correct, i can book it for tonight at 9.
+uber_lyft ( type_ride_accept = "pool" ; price_estimate_accept = "$5.74" ; duration_estimate_accept = "8 mins" ; location_from_accept = "united artists river view plaza 17" ; location_to_accept = "the victor cafe" ; time_pickup = "9") & ok. an uber pool is going to cost $5.74 and the ride will be about 8 mins. the ride is from the united artists river view plaza 17 to the victor cafe. once you confirm these details are correct, i can book it for tonight at 9.
+uber_lyft ( type_ride_accept = "pool" ; price_estimate_accept = "$5.74" ; duration_estimate_accept = "8 mins" ; location_from_accept = "united artists river view plaza 17" ; location_to_accept = "the victor cafe" ; time_pickup = "9") & ok. an uber pool is going to cost $5.74 and the ride will be about 8 mins. the ride is from the united artists river view plaza 17 to the victor cafe. once you confirm these details are correct, i can book it for tonight at 9.
+restaurant_reservation ( name_restaurant = "Kin Khao" ; type_seating = "hip lounge" ; location_restaurant = "the Parc 55 hotel") & give me a sec. Hakkasan is described as "Link in an upscale Chinese chain produces Cantonese specialties in glitzy digs with a hip lounge." Then Kin Khao is "Modern hot spot at the Parc 55 hotel providing ambitious, locally sourced Thai dishes & cocktails.
+restaurant_reservation ( name_restaurant = "Kin Khao" ; type_seating = "hip lounge" ; location_restaurant = "the Parc 55 hotel") & give me a sec. Hakkasan is described as "Link in an upscale Chinese chain produces Cantonese specialties in glitzy digs with a hip lounge." Then Kin Khao is "Modern hot spot at the Parc 55 hotel providing ambitious, locally sourced Thai dishes & cocktails.
+restaurant_reservation ( name_restaurant = "Kin Khao" ; type_seating = "hip lounge" ; location_restaurant = "the Parc 55 hotel") & give me a sec. Hakkasan is described as "Link in an upscale Chinese chain produces Cantonese specialties in glitzy digs with a hip lounge." Then Kin Khao is "Modern hot spot at the Parc 55 hotel providing ambitious, locally sourced Thai dishes & cocktails.
+restaurant_reservation ( name_restaurant = "gam le sing") & gam le sing has 4.5 stars and has over 120 reviews on google.
+restaurant_reservation ( name_restaurant = "gam le sing") & gam le sing has 4.5 stars and has over 120 reviews on google.
+restaurant_reservation ( name_restaurant = "gam le sing") & gam le sing has 4.5 stars and has over 120 reviews on google.
+restaurant_reservation ( name_restaurant = "bella trattoria.") & thanks, give me a moment to find restaurants that fit your preferences. i found 2 options for you, sotto mare and bella trattoria.
+restaurant_reservation ( name_restaurant = "bella trattoria.") & thanks, give me a moment to find restaurants that fit your preferences. i found 2 options for you, sotto mare and bella trattoria.
+restaurant_reservation ( name_restaurant = "bella trattoria.") & thanks, give me a moment to find restaurants that fit your preferences. i found 2 options for you, sotto mare and bella trattoria.
+restaurant_reservation ( num_guests_accept = "6" ; time_reservation = "4:30" ; name_restaurant_accept = "Firepie") & Okay so that's 6 people for 4:30 at Firepie on the 28th right?
+restaurant_reservation ( num_guests_accept = "6" ; time_reservation = "4:30" ; name_restaurant_accept = "Firepie") & Okay so that's 6 people for 4:30 at Firepie on the 28th right?
+restaurant_reservation ( num_guests_accept = "6" ; time_reservation = "4:30" ; name_restaurant_accept = "Firepie") & Okay so that's 6 people for 4:30 at Firepie on the 28th right?
+restaurant_reservation ( name_restaurant = "Fiorella and Bella Trattoria") & I found Gaspare's Pizza House & Italian Restaurant, Fiorella and Bella Trattoria.
+restaurant_reservation ( name_restaurant = "Fiorella and Bella Trattoria") & I found Gaspare's Pizza House & Italian Restaurant, Fiorella and Bella Trattoria.
+restaurant_reservation ( name_restaurant = "Fiorella and Bella Trattoria") & I found Gaspare's Pizza House & Italian Restaurant, Fiorella and Bella Trattoria.
+attraction_inform ( area = "town centre" ; choice = "several" ; type = "theaters") & There are several theaters in the town centre. What address are you staying at so I can find the closest one to you?
+attraction_inform ( area = "town centre" ; choice = "several" ; type = "theaters") & There are several theaters in the town centre. What address are you staying at so I can find the closest one to you?
+attraction_inform ( area = "town centre" ; choice = "several" ; type = "theaters") & There are several theaters in the town centre. What address are you staying at so I can find the closest one to you?
+attraction_inform ( area = "centre of town" ; name = "ballare" ; type = "nightclub") & ballare is a nightclub in the centre of town, would you like more details?
+attraction_inform ( area = "centre of town" ; name = "ballare" ; type = "nightclub") & ballare is a nightclub in the centre of town, would you like more details?
+attraction_inform ( area = "centre of town" ; name = "ballare" ; type = "nightclub") & ballare is a nightclub in the centre of town, would you like more details?
+attraction_inform ( choice = "10") @ attraction_select ( type = "entertainment venue" ; type = "museum" ; type = "park") & I can certainly suggest something for you  I have 10 options  Do you prefer an entertainment venue, or perhaps a museum or park, etc
+attraction_inform ( choice = "10") @ attraction_select ( type = "entertainment venue" ; type = "museum" ; type = "park") & I can certainly suggest something for you  I have 10 options  Do you prefer an entertainment venue, or perhaps a museum or park, etc
+attraction_inform ( choice = "10") @ attraction_select ( type = "entertainment venue" ; type = "museum" ; type = "park") & I can certainly suggest something for you  I have 10 options  Do you prefer an entertainment venue, or perhaps a museum or park, etc
+attraction_inform ( area = "in the east" ; area = "west side of town" ; name = "Whale of a time" ; name = "funky fun house") & I'd be happy to help you. Whale of a time is in the west side of town, and funky fun house is in the east. Would you like more information?
+attraction_inform ( area = "in the east" ; area = "west side of town" ; name = "Whale of a time" ; name = "funky fun house") & I'd be happy to help you. Whale of a time is in the west side of town, and funky fun house is in the east. Would you like more information?
+attraction_inform ( area = "in the east" ; area = "west side of town" ; name = "Whale of a time" ; name = "funky fun house") & I'd be happy to help you. Whale of a time is in the west side of town, and funky fun house is in the east. Would you like more information?
+attraction_inform ( area = "city centre" ; choice = "eleven" ; type = "museums") @ attraction_recommend ( name = "museum of archaelogy and anthropology") & There are eleven museums in the city centre  Might I recommend the museum of archaelogy and anthropology
+attraction_inform ( area = "city centre" ; choice = "eleven" ; type = "museums") @ attraction_recommend ( name = "museum of archaelogy and anthropology") & There are eleven museums in the city centre  Might I recommend the museum of archaelogy and anthropology
+attraction_inform ( area = "city centre" ; choice = "eleven" ; type = "museums") @ attraction_recommend ( name = "museum of archaelogy and anthropology") & There are eleven museums in the city centre  Might I recommend the museum of archaelogy and anthropology
+OFFER ( balance = "$16,675.79" ; account_type = "savings") & You have a current balance of $16,675.79 in your savings account.
+OFFER ( balance = "$16,675.79" ; account_type = "savings") & You have a current balance of $16,675.79 in your savings account.
+OFFER ( balance = "$16,675.79" ; account_type = "savings") & You have a current balance of $16,675.79 in your savings account.
+CONFIRM ( account_type = "checking" ; amount = "$1,000" ; recipient_account_name = "Amir" ; recipient_account_type = "checking") & Please confirm this: From my checking account, Transfer $1,000. Transfer the money to Amir. Send it to their checking account.
+CONFIRM ( account_type = "checking" ; amount = "$1,000" ; recipient_account_name = "Amir" ; recipient_account_type = "checking") & Please confirm this: From my checking account, Transfer $1,000. Transfer the money to Amir. Send it to their checking account.
+CONFIRM ( account_type = "checking" ; amount = "$1,000" ; recipient_account_name = "Amir" ; recipient_account_type = "checking") & Please confirm this: From my checking account, Transfer $1,000. Transfer the money to Amir. Send it to their checking account.
+CONFIRM ( account_type = "savings" ; amount = "$450" ; recipient_account_name = "Sanuj" ; recipient_account_type = "checking") & Okay. Let's review your pending transfer: you'd like to transfer $450 from your savings account to Sanuj's checking account. Is that correct?
+CONFIRM ( account_type = "savings" ; amount = "$450" ; recipient_account_name = "Sanuj" ; recipient_account_type = "checking") & Okay. Let's review your pending transfer: you'd like to transfer $450 from your savings account to Sanuj's checking account. Is that correct?
+CONFIRM ( account_type = "savings" ; amount = "$450" ; recipient_account_name = "Sanuj" ; recipient_account_type = "checking") & Okay. Let's review your pending transfer: you'd like to transfer $450 from your savings account to Sanuj's checking account. Is that correct?
+OFFER ( balance = "$23,923.86" ; account_type = "checking") & The balance in your 1 checking account is $23,923.86.
+OFFER ( balance = "$23,923.86" ; account_type = "checking") & The balance in your 1 checking account is $23,923.86.
+OFFER ( balance = "$23,923.86" ; account_type = "checking") & The balance in your 1 checking account is $23,923.86.
+OFFER ( balance = "$16,225.14" ; account_type = "savings") & You now have $16,225.14 in your savings account.
+OFFER ( balance = "$16,225.14" ; account_type = "savings") & You now have $16,225.14 in your savings account.
+OFFER ( balance = "$16,225.14" ; account_type = "savings") & You now have $16,225.14 in your savings account.
+CONFIRM ( payment_method = "app balance" ; amount = "$42" ; receiver = "Victoria" ; private_visibility = "False") & So you would like me to make a publicly visible payment to Victoria for $42 from your app balance?
+CONFIRM ( payment_method = "app balance" ; amount = "$42" ; receiver = "Victoria" ; private_visibility = "False") & So you would like me to make a publicly visible payment to Victoria for $42 from your app balance?
+CONFIRM ( payment_method = "app balance" ; amount = "$42" ; receiver = "Victoria" ; private_visibility = "False") & So you would like me to make a publicly visible payment to Victoria for $42 from your app balance?
+CONFIRM ( payment_method = "debit card" ; amount = "$97" ; receiver = "Emma" ; private_visibility = "False") & Please confirm that you would like the amount of $97 transferred to Emma from your debit card and you would like your transaction to be visible to the public.
+CONFIRM ( payment_method = "debit card" ; amount = "$97" ; receiver = "Emma" ; private_visibility = "False") & Please confirm that you would like the amount of $97 transferred to Emma from your debit card and you would like your transaction to be visible to the public.
+CONFIRM ( payment_method = "debit card" ; amount = "$97" ; receiver = "Emma" ; private_visibility = "False") & Please confirm that you would like the amount of $97 transferred to Emma from your debit card and you would like your transaction to be visible to the public.
+CONFIRM ( receiver = "Rachel" ; amount = "$50" ; private_visibility = "False") & Please confirm that you want to request for $50 from Rachel via a public transaction.
+CONFIRM ( receiver = "Rachel" ; amount = "$50" ; private_visibility = "False") & Please confirm that you want to request for $50 from Rachel via a public transaction.
+CONFIRM ( receiver = "Rachel" ; amount = "$50" ; private_visibility = "False") & Please confirm that you want to request for $50 from Rachel via a public transaction.
+CONFIRM ( payment_method = "credit card" ; amount = "$83" ; receiver = "Margaret" ; private_visibility = "False") & Confirming you are paying Margaret $83 via your credit card
+CONFIRM ( payment_method = "credit card" ; amount = "$83" ; receiver = "Margaret" ; private_visibility = "False") & Confirming you are paying Margaret $83 via your credit card
+CONFIRM ( payment_method = "credit card" ; amount = "$83" ; receiver = "Margaret" ; private_visibility = "False") & Confirming you are paying Margaret $83 via your credit card
+CONFIRM ( payment_method = "app balance" ; amount = "$21" ; receiver = "Emma" ; private_visibility = "False") & OK confirming a public transaction of $21 from your app balance headed to Emma
+CONFIRM ( payment_method = "app balance" ; amount = "$21" ; receiver = "Emma" ; private_visibility = "False") & OK confirming a public transaction of $21 from your app balance headed to Emma
+CONFIRM ( payment_method = "app balance" ; amount = "$21" ; receiver = "Emma" ; private_visibility = "False") & OK confirming a public transaction of $21 from your app balance headed to Emma
+taxi_inform ( type = "black skoda") & You are booked for a black skoda. Is there anything else?
+taxi_inform ( type = "black skoda") & You are booked for a black skoda. Is there anything else?
+taxi_inform ( type = "black skoda") & You are booked for a black skoda. Is there anything else?
+taxi_inform ( phone = "07708238835" ; type = "black Ford") & I can book a Black Ford for you. The contact number of the company is 07708238835. Can I help with anything else?
+taxi_inform ( phone = "07708238835" ; type = "black Ford") & I can book a Black Ford for you. The contact number of the company is 07708238835. Can I help with anything else?
+taxi_inform ( phone = "07708238835" ; type = "black Ford") & I can book a Black Ford for you. The contact number of the company is 07708238835. Can I help with anything else?
+taxi_inform ( phone = "07767407244" ; type = "white Honda") & Great, I have booked you a white Honda the Contact number is 07767407244. Anything else I can help you with.
+taxi_inform ( phone = "07767407244" ; type = "white Honda") & Great, I have booked you a white Honda the Contact number is 07767407244. Anything else I can help you with.
+taxi_inform ( phone = "07767407244" ; type = "white Honda") & Great, I have booked you a white Honda the Contact number is 07767407244. Anything else I can help you with.
+taxi_inform ( phone = "07119414615" ; type = "white volvo") & Okay, I have a white volvo for you with the contact number 07119414615. Anything else?
+taxi_inform ( phone = "07119414615" ; type = "white volvo") & Okay, I have a white volvo for you with the contact number 07119414615. Anything else?
+taxi_inform ( phone = "07119414615" ; type = "white volvo") & Okay, I have a white volvo for you with the contact number 07119414615. Anything else?
+taxi_inform ( phone = "07854319661") & The contact number is 07854319661.
+taxi_inform ( phone = "07854319661") & The contact number is 07854319661.
+taxi_inform ( phone = "07854319661") & The contact number is 07854319661.
+flight_detail ( airline = "Jetblue" ; from_time = "7:25 P.M" ; to = "Seattle" ; to_time = "10:46 P.M" ; stops = "nonstop") & okay Or Alaska at 6:40 PM? And the return trip starts with Jetblue at 7:25 P.M and you will arrive back in Seattle at 10:46 P.M. The total for this nonstop flight with Jetblue for 2 is $1235.flight_search ( num_pax = "2" ; total_fare = "$1235") & okay Or Alaska at 6:40 PM? And the return trip starts with Jetblue at 7:25 P.M and you will arrive back in Seattle at 10:46 P.M. The total for this nonstop flight with Jetblue for 2 is $1235.
+flight_detail ( airline = "Jetblue" ; from_time = "7:25 P.M" ; to = "Seattle" ; to_time = "10:46 P.M" ; stops = "nonstop") & okay Or Alaska at 6:40 PM? And the return trip starts with Jetblue at 7:25 P.M and you will arrive back in Seattle at 10:46 P.M. The total for this nonstop flight with Jetblue for 2 is $1235.flight_search ( num_pax = "2" ; total_fare = "$1235") & okay Or Alaska at 6:40 PM? And the return trip starts with Jetblue at 7:25 P.M and you will arrive back in Seattle at 10:46 P.M. The total for this nonstop flight with Jetblue for 2 is $1235.
+flight_detail ( airline = "Jetblue" ; from_time = "7:25 P.M" ; to = "Seattle" ; to_time = "10:46 P.M" ; stops = "nonstop") & okay Or Alaska at 6:40 PM? And the return trip starts with Jetblue at 7:25 P.M and you will arrive back in Seattle at 10:46 P.M. The total for this nonstop flight with Jetblue for 2 is $1235.flight_search ( num_pax = "2" ; total_fare = "$1235") & okay Or Alaska at 6:40 PM? And the return trip starts with Jetblue at 7:25 P.M and you will arrive back in Seattle at 10:46 P.M. The total for this nonstop flight with Jetblue for 2 is $1235.
+flight_search ( type = "round trip") & I found a flight that is a round trip that cost $1,170 that leaves at 7 A.M. and you arrive at your destination at 7:30 A.M. with one stop. Did you want me to book this flight?flight_detail ( fare = "$1,170" ; from_time = "7 A.M." ; to_time = "7:30 A.M." ; stops = "one stop") & I found a flight that is a round trip that cost $1,170 that leaves at 7 A.M. and you arrive at your destination at 7:30 A.M. with one stop. Did you want me to book this flight?
+flight_search ( type = "round trip") & I found a flight that is a round trip that cost $1,170 that leaves at 7 A.M. and you arrive at your destination at 7:30 A.M. with one stop. Did you want me to book this flight?flight_detail ( fare = "$1,170" ; from_time = "7 A.M." ; to_time = "7:30 A.M." ; stops = "one stop") & I found a flight that is a round trip that cost $1,170 that leaves at 7 A.M. and you arrive at your destination at 7:30 A.M. with one stop. Did you want me to book this flight?
+flight_search ( type = "round trip") & I found a flight that is a round trip that cost $1,170 that leaves at 7 A.M. and you arrive at your destination at 7:30 A.M. with one stop. Did you want me to book this flight?flight_detail ( fare = "$1,170" ; from_time = "7 A.M." ; to_time = "7:30 A.M." ; stops = "one stop") & I found a flight that is a round trip that cost $1,170 that leaves at 7 A.M. and you arrive at your destination at 7:30 A.M. with one stop. Did you want me to book this flight?
+flight_search ( type = "multi-city" ; total_fare = "$674") & The total for this multi-city flight is $674.
+flight_search ( type = "multi-city" ; total_fare = "$674") & The total for this multi-city flight is $674.
+flight_search ( type = "multi-city" ; total_fare = "$674") & The total for this multi-city flight is $674.
+flight_detail ( airline = "Alaskan Airlines" ; fare = "$721") & I found a seat on Alaskan Airlines for $721.
+flight_detail ( airline = "Alaskan Airlines" ; fare = "$721") & I found a seat on Alaskan Airlines for $721.
+flight_detail ( airline = "Alaskan Airlines" ; fare = "$721") & I found a seat on Alaskan Airlines for $721.
+flight_detail ( other_description = "12 hour" ; stops = "layover" ; stops_location = "Boston") & You will have a 12 hour layover in Boston overnight.
+flight_detail ( other_description = "12 hour" ; stops = "layover" ; stops_location = "Boston") & You will have a 12 hour layover in Boston overnight.
+flight_detail ( other_description = "12 hour" ; stops = "layover" ; stops_location = "Boston") & You will have a 12 hour layover in Boston overnight.
+mlb ( name_team = "New York Mets" ; time_match = "tonight") & Yes, the New York Yankees are playing against the New York Mets tonight.
+mlb ( name_team = "New York Mets" ; time_match = "tonight") & Yes, the New York Yankees are playing against the New York Mets tonight.
+mlb ( name_team = "New York Mets" ; time_match = "tonight") & Yes, the New York Yankees are playing against the New York Mets tonight.
+epl ( result_match = "They won their last game" ; day_match = "today") & They won their last game that was played today.
+epl ( result_match = "They won their last game" ; day_match = "today") & They won their last game that was played today.
+epl ( result_match = "They won their last game" ; day_match = "today") & They won their last game that was played today.
+mls ( name_player = "Luciano Acosta") & It shows that their highest scorer is Luciano Acosta.
+mls ( name_player = "Luciano Acosta") & It shows that their highest scorer is Luciano Acosta.
+mls ( name_player = "Luciano Acosta") & It shows that their highest scorer is Luciano Acosta.
+mlb ( name_team = "St. Louis Cardinals" ; day_match = "today" ; time_match = "5:08 PM") & No, they're not playing right now by any chance, but they are playing today at 5:08 PM against the St. Louis Cardinals.
+mlb ( name_team = "St. Louis Cardinals" ; day_match = "today" ; time_match = "5:08 PM") & No, they're not playing right now by any chance, but they are playing today at 5:08 PM against the St. Louis Cardinals.
+mlb ( name_team = "St. Louis Cardinals" ; day_match = "today" ; time_match = "5:08 PM") & No, they're not playing right now by any chance, but they are playing today at 5:08 PM against the St. Louis Cardinals.
+mlb ( name_team = "Angels" ; other_description_team = "last time the Angels made the playoffs was in 2014") & The last time the Angels made the playoffs was in 2014.
+mlb ( name_team = "Angels" ; other_description_team = "last time the Angels made the playoffs was in 2014") & The last time the Angels made the playoffs was in 2014.
+mlb ( name_team = "Angels" ; other_description_team = "last time the Angels made the playoffs was in 2014") & The last time the Angels made the playoffs was in 2014.
+INFORM ( from_station = "30th Street Station") & It will leave from 30th Street Station in Philly.
+INFORM ( from_station = "30th Street Station") & It will leave from 30th Street Station in Philly.
+INFORM ( from_station = "30th Street Station") & It will leave from 30th Street Station in Philly.
+OFFER ( journey_start_time = "6:50 am" ; total = "$131") & How about one that leaves at 6:50 am and costs $131?
+OFFER ( journey_start_time = "6:50 am" ; total = "$131") & How about one that leaves at 6:50 am and costs $131?
+OFFER ( journey_start_time = "6:50 am" ; total = "$131") & How about one that leaves at 6:50 am and costs $131?
+INFORM ( from_station = "Fresno Station" ; to_station = "Anaheim Intermodal Center") & It leaves from Fresno Station towards the Anaheim Intermodal Center,
+INFORM ( from_station = "Fresno Station" ; to_station = "Anaheim Intermodal Center") & It leaves from Fresno Station towards the Anaheim Intermodal Center,
+INFORM ( from_station = "Fresno Station" ; to_station = "Anaheim Intermodal Center") & It leaves from Fresno Station towards the Anaheim Intermodal Center,
+OFFER ( journey_start_time = "6 am" ; total = "$35") & There are 10 trains available, one of which departs at 6 am and costs $35.INFORM_COUNT ( count = "10") & There are 10 trains available, one of which departs at 6 am and costs $35.
+OFFER ( journey_start_time = "6 am" ; total = "$35") & There are 10 trains available, one of which departs at 6 am and costs $35.INFORM_COUNT ( count = "10") & There are 10 trains available, one of which departs at 6 am and costs $35.
+OFFER ( journey_start_time = "6 am" ; total = "$35") & There are 10 trains available, one of which departs at 6 am and costs $35.INFORM_COUNT ( count = "10") & There are 10 trains available, one of which departs at 6 am and costs $35.
+OFFER ( journey_start_time = "6:20 am" ; total = "$46") & There are 8 options. There is one leaving at 6:20 am and it costs $46.
+OFFER ( journey_start_time = "6:20 am" ; total = "$46") & There are 8 options. There is one leaving at 6:20 am and it costs $46.
+OFFER ( journey_start_time = "6:20 am" ; total = "$46") & There are 8 options. There is one leaving at 6:20 am and it costs $46.
+OFFER ( show_time = "9:30 pm" ; theater_name = "Century 25 Union Landing & XD") & At Century 25 Union Landing & XD it is playing at 9:30 pm.
+OFFER ( show_time = "9:30 pm" ; theater_name = "Century 25 Union Landing & XD") & At Century 25 Union Landing & XD it is playing at 9:30 pm.
+OFFER ( show_time = "9:30 pm" ; theater_name = "Century 25 Union Landing & XD") & At Century 25 Union Landing & XD it is playing at 9:30 pm.
+OFFER ( show_time = "10 pm" ; theater_name = "Reading Cinemas Rohnert Park") & There's 1 showtime for the movie at Reading Cinemas Rohnert Park, and that is at 10 pm.
+OFFER ( show_time = "10 pm" ; theater_name = "Reading Cinemas Rohnert Park") & There's 1 showtime for the movie at Reading Cinemas Rohnert Park, and that is at 10 pm.
+OFFER ( show_time = "10 pm" ; theater_name = "Reading Cinemas Rohnert Park") & There's 1 showtime for the movie at Reading Cinemas Rohnert Park, and that is at 10 pm.
+INFORM ( price = "$18") & $18 a person.
+INFORM ( price = "$18") & $18 a person.
+INFORM ( price = "$18") & $18 a person.
+INFORM ( price = "16" ; genre = "biographical") & It is 16 dollars per person and a biographical movie.
+INFORM ( price = "16" ; genre = "biographical") & It is 16 dollars per person and a biographical movie.
+INFORM ( price = "16" ; genre = "biographical") & It is 16 dollars per person and a biographical movie.
+OFFER ( movie_name = "Little") & That theatre has Little and Missing Link playing right now.
+OFFER ( movie_name = "Little") & That theatre has Little and Missing Link playing right now.
+OFFER ( movie_name = "Little") & That theatre has Little and Missing Link playing right now.
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "New alarm") & I am creating an alarm named New alarm for 5 pm. Is this correct?
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "New alarm") & I am creating an alarm named New alarm for 5 pm. Is this correct?
+CONFIRM ( new_alarm_time = "5 pm" ; new_alarm_name = "New alarm") & I am creating an alarm named New alarm for 5 pm. Is this correct?
+CONFIRM ( new_alarm_time = "3 pm" ; new_alarm_name = "Grocery run") & You want an alarm called Grocery run to go off at 3 pm?
+CONFIRM ( new_alarm_time = "3 pm" ; new_alarm_name = "Grocery run") & You want an alarm called Grocery run to go off at 3 pm?
+CONFIRM ( new_alarm_time = "3 pm" ; new_alarm_name = "Grocery run") & You want an alarm called Grocery run to go off at 3 pm?
+OFFER ( alarm_time = "7 am" ; alarm_name = "Wake Up") & You have 2 alarms including one called Wake Up set for 7 am.
+OFFER ( alarm_time = "7 am" ; alarm_name = "Wake Up") & You have 2 alarms including one called Wake Up set for 7 am.
+OFFER ( alarm_time = "7 am" ; alarm_name = "Wake Up") & You have 2 alarms including one called Wake Up set for 7 am.
+OFFER ( alarm_time = "8:30 am" ; alarm_name = "Wake up") & There is an alarm named Wake up scheduled for for 8:30 am.
+OFFER ( alarm_time = "8:30 am" ; alarm_name = "Wake up") & There is an alarm named Wake up scheduled for for 8:30 am.
+OFFER ( alarm_time = "8:30 am" ; alarm_name = "Wake up") & There is an alarm named Wake up scheduled for for 8:30 am.
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "Cooking") & Let me confirm that you want to create an alarm named Cooking for 3:15 pm.
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "Cooking") & Let me confirm that you want to create an alarm named Cooking for 3:15 pm.
+CONFIRM ( new_alarm_time = "3:15 pm" ; new_alarm_name = "Cooking") & Let me confirm that you want to create an alarm named Cooking for 3:15 pm.
+OFFER ( date = "tomorrow" ; event_name = "Lauv" ; venue = "The Fillmore Philadelphia") & I've found Lauv events on 4 different days; the earliest one happens tomorrow at The Fillmore Philadelphia.
+OFFER ( date = "tomorrow" ; event_name = "Lauv" ; venue = "The Fillmore Philadelphia") & I've found Lauv events on 4 different days; the earliest one happens tomorrow at The Fillmore Philadelphia.
+OFFER ( date = "tomorrow" ; event_name = "Lauv" ; venue = "The Fillmore Philadelphia") & I've found Lauv events on 4 different days; the earliest one happens tomorrow at The Fillmore Philadelphia.
+OFFER ( event_name = "Bryan Adams" ; event_location = "Theater Of The Clouds" ; date = "Next Wednesday" ; time = "6:30 pm") & Next Wednesday, Bryan Adams is performing at the Theater Of The Clouds beginning at 6:30 pm.
+OFFER ( event_name = "Bryan Adams" ; event_location = "Theater Of The Clouds" ; date = "Next Wednesday" ; time = "6:30 pm") & Next Wednesday, Bryan Adams is performing at the Theater Of The Clouds beginning at 6:30 pm.
+OFFER ( event_name = "Bryan Adams" ; event_location = "Theater Of The Clouds" ; date = "Next Wednesday" ; time = "6:30 pm") & Next Wednesday, Bryan Adams is performing at the Theater Of The Clouds beginning at 6:30 pm.
+OFFER ( event_name = "Mets vs Braves" ; event_location = "Citi Field" ; date = "March 13th" ; time = "6 pm") & Yes, there are 10 events that you might like. The first one is Mets vs Braves, at Citi Field. The event will take place on March 13th at 6 pm.INFORM_COUNT ( count = "10") & Yes, there are 10 events that you might like. The first one is Mets vs Braves, at Citi Field. The event will take place on March 13th at 6 pm.
+OFFER ( event_name = "Mets vs Braves" ; event_location = "Citi Field" ; date = "March 13th" ; time = "6 pm") & Yes, there are 10 events that you might like. The first one is Mets vs Braves, at Citi Field. The event will take place on March 13th at 6 pm.INFORM_COUNT ( count = "10") & Yes, there are 10 events that you might like. The first one is Mets vs Braves, at Citi Field. The event will take place on March 13th at 6 pm.
+OFFER ( event_name = "Mets vs Braves" ; event_location = "Citi Field" ; date = "March 13th" ; time = "6 pm") & Yes, there are 10 events that you might like. The first one is Mets vs Braves, at Citi Field. The event will take place on March 13th at 6 pm.INFORM_COUNT ( count = "10") & Yes, there are 10 events that you might like. The first one is Mets vs Braves, at Citi Field. The event will take place on March 13th at 6 pm.
+OFFER ( event_name = "Mets Vs Braves" ; venue = "Citi Field") & I found 10 events that meet that criteria. One of them is Mets Vs Braves at Citi Field.
+OFFER ( event_name = "Mets Vs Braves" ; venue = "Citi Field") & I found 10 events that meet that criteria. One of them is Mets Vs Braves at Citi Field.
+OFFER ( event_name = "Mets Vs Braves" ; venue = "Citi Field") & I found 10 events that meet that criteria. One of them is Mets Vs Braves at Citi Field.
+OFFER ( date = "next Friday" ; event_name = "Falcons vs Rams" ; venue = "Mercedes-Benz Stadium") & The event is taking place on 3 days. The first event is next Friday and it is the Falcons vs Rams at Mercedes-Benz Stadium.
+OFFER ( date = "next Friday" ; event_name = "Falcons vs Rams" ; venue = "Mercedes-Benz Stadium") & The event is taking place on 3 days. The first event is next Friday and it is the Falcons vs Rams at Mercedes-Benz Stadium.
+OFFER ( date = "next Friday" ; event_name = "Falcons vs Rams" ; venue = "Mercedes-Benz Stadium") & The event is taking place on 3 days. The first event is next Friday and it is the Falcons vs Rams at Mercedes-Benz Stadium.
+auto_repair ( name_customer = "jim") & thanks jim. what's your phone number?
+auto_repair ( name_customer = "jim") & thanks jim. what's your phone number?
+auto_repair ( name_customer = "jim") & thanks jim. what's your phone number?
+auto_repair ( name_customer_accept = "Ankaqunta") & please confirm the following information before i book the appointment. Ankaqunta, phone number is 907-8787, 2011 nissan rogue, hearing weird noises, appointment for monday morning next week.
+auto_repair ( name_customer_accept = "Ankaqunta") & please confirm the following information before i book the appointment. Ankaqunta, phone number is 907-8787, 2011 nissan rogue, hearing weird noises, appointment for monday morning next week.
+auto_repair ( name_customer_accept = "Ankaqunta") & please confirm the following information before i book the appointment. Ankaqunta, phone number is 907-8787, 2011 nissan rogue, hearing weird noises, appointment for monday morning next week.
+auto_repair ( name_customer = "brian") & brian, to confirm you said your phone number is 215-384-0040.
+auto_repair ( name_customer = "brian") & brian, to confirm you said your phone number is 215-384-0040.
+auto_repair ( name_customer = "brian") & brian, to confirm you said your phone number is 215-384-0040.
+auto_repair ( time_appt = "8:30 am") & So standard procedure is that you drop your car off at 8:30 am and they'll call you when the inspection is finished.
+auto_repair ( time_appt = "8:30 am") & So standard procedure is that you drop your car off at 8:30 am and they'll call you when the inspection is finished.
+auto_repair ( time_appt = "8:30 am") & So standard procedure is that you drop your car off at 8:30 am and they'll call you when the inspection is finished.
+auto_repair ( year_vehicle = "2008" ; name_vehicle = "mercedes benz c class") & why do you need to bring your 2008 mercedes benz c class to the shop?
+auto_repair ( year_vehicle = "2008" ; name_vehicle = "mercedes benz c class") & why do you need to bring your 2008 mercedes benz c class to the shop?
+auto_repair ( year_vehicle = "2008" ; name_vehicle = "mercedes benz c class") & why do you need to bring your 2008 mercedes benz c class to the shop?
+train_inform ( leaveat = "14:06") & It departs at 14:06.
+train_inform ( leaveat = "14:06") & It departs at 14:06.
+train_inform ( leaveat = "14:06") & It departs at 14:06.
+train_inform ( arriveby = "21:44" ; departure = "Cambridge" ; destination = "birmingham new street" ; leaveat = "19:01" ; trainid = "TR3283") & TR3283 leaves Cambridge at 19:01 and arrives at birmingham new street at 21:44. Do you want a booking?
+train_inform ( arriveby = "21:44" ; departure = "Cambridge" ; destination = "birmingham new street" ; leaveat = "19:01" ; trainid = "TR3283") & TR3283 leaves Cambridge at 19:01 and arrives at birmingham new street at 21:44. Do you want a booking?
+train_inform ( arriveby = "21:44" ; departure = "Cambridge" ; destination = "birmingham new street" ; leaveat = "19:01" ; trainid = "TR3283") & TR3283 leaves Cambridge at 19:01 and arrives at birmingham new street at 21:44. Do you want a booking?
+train_inform ( choice = "19") & There are 19 entries found. Where would you be coming from?
+train_inform ( choice = "19") & There are 19 entries found. Where would you be coming from?
+train_inform ( choice = "19") & There are 19 entries found. Where would you be coming from?
+train_inform ( arriveby = "05:51" ; departure = "London Kings Cross" ; leaveat = "05:00" ; price = "18.88 pounds") & I have a train that leaves London Kings Cross at 05:00 and arrives by 05:51 at a price of 18.88 pounds. Is that OK?
+train_inform ( arriveby = "05:51" ; departure = "London Kings Cross" ; leaveat = "05:00" ; price = "18.88 pounds") & I have a train that leaves London Kings Cross at 05:00 and arrives by 05:51 at a price of 18.88 pounds. Is that OK?
+train_inform ( arriveby = "05:51" ; departure = "London Kings Cross" ; leaveat = "05:00" ; price = "18.88 pounds") & I have a train that leaves London Kings Cross at 05:00 and arrives by 05:51 at a price of 18.88 pounds. Is that OK?
+train_inform ( choice = "eight") & I have eight trains arriving by then, how many passengers?
+train_inform ( choice = "eight") & I have eight trains arriving by then, how many passengers?
+train_inform ( choice = "eight") & I have eight trains arriving by then, how many passengers?
+OFFER ( pickup_location = "Fresno Yosemite International Airport" ; pickup_date = "March 11th" ; car_type = "Compact" ; car_name = "Chevrolet Bolt") & I have 4 options for you: Fresno Yosemite International Airport has a Compact car available for pickup on March 11th, it is a Chevrolet Bolt.
+OFFER ( pickup_location = "Fresno Yosemite International Airport" ; pickup_date = "March 11th" ; car_type = "Compact" ; car_name = "Chevrolet Bolt") & I have 4 options for you: Fresno Yosemite International Airport has a Compact car available for pickup on March 11th, it is a Chevrolet Bolt.
+OFFER ( pickup_location = "Fresno Yosemite International Airport" ; pickup_date = "March 11th" ; car_type = "Compact" ; car_name = "Chevrolet Bolt") & I have 4 options for you: Fresno Yosemite International Airport has a Compact car available for pickup on March 11th, it is a Chevrolet Bolt.
+OFFER ( pickup_location = "Port Authority Station" ; pickup_date = "next Monday" ; car_type = "Compact" ; car_name = "Chevrolet Bolt") @ INFORM_COUNT ( count = "6") & The Port Authority Station has a nice car available next Monday, a Chevrolet Bolt which is a compact car  There are also 6 others that may be acceptable to you
+OFFER ( pickup_location = "Port Authority Station" ; pickup_date = "next Monday" ; car_type = "Compact" ; car_name = "Chevrolet Bolt") @ INFORM_COUNT ( count = "6") & The Port Authority Station has a nice car available next Monday, a Chevrolet Bolt which is a compact car  There are also 6 others that may be acceptable to you
+OFFER ( pickup_location = "Port Authority Station" ; pickup_date = "next Monday" ; car_type = "Compact" ; car_name = "Chevrolet Bolt") @ INFORM_COUNT ( count = "6") & The Port Authority Station has a nice car available next Monday, a Chevrolet Bolt which is a compact car  There are also 6 others that may be acceptable to you
+OFFER ( pickup_location = "YVR International Airport" ; pickup_date = "March 9th" ; type = "Standard" ; car_name = "Accord") & We have an excellent Accord, Standard car available from March 9th ar YVR International Airport.
+OFFER ( pickup_location = "YVR International Airport" ; pickup_date = "March 9th" ; type = "Standard" ; car_name = "Accord") & We have an excellent Accord, Standard car available from March 9th ar YVR International Airport.
+OFFER ( pickup_location = "YVR International Airport" ; pickup_date = "March 9th" ; type = "Standard" ; car_name = "Accord") & We have an excellent Accord, Standard car available from March 9th ar YVR International Airport.
+OFFER ( pickup_location = "SMF International Airport" ; pickup_date = "March 10th" ; type = "Standard" ; car_name = "Accord") & I have 4 cars which might suit you. There is a nice one avaliable at SMF International Airport for pickup on March 10th. It is an Accord, a Standard car.
+OFFER ( pickup_location = "SMF International Airport" ; pickup_date = "March 10th" ; type = "Standard" ; car_name = "Accord") & I have 4 cars which might suit you. There is a nice one avaliable at SMF International Airport for pickup on March 10th. It is an Accord, a Standard car.
+OFFER ( pickup_location = "SMF International Airport" ; pickup_date = "March 10th" ; type = "Standard" ; car_name = "Accord") & I have 4 cars which might suit you. There is a nice one avaliable at SMF International Airport for pickup on March 10th. It is an Accord, a Standard car.
+OFFER ( pickup_location = "30th Street Station" ; pickup_date = "next Wednesday" ; type = "Standard" ; car_name = "Altima") & I found a nice car available for you at 30th Street Station for pickup on next Wednesday. It is a Standard Altima.
+OFFER ( pickup_location = "30th Street Station" ; pickup_date = "next Wednesday" ; type = "Standard" ; car_name = "Altima") & I found a nice car available for you at 30th Street Station for pickup on next Wednesday. It is a Standard Altima.
+OFFER ( pickup_location = "30th Street Station" ; pickup_date = "next Wednesday" ; type = "Standard" ; car_name = "Altima") & I found a nice car available for you at 30th Street Station for pickup on next Wednesday. It is a Standard Altima.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_retrieval = "pick-up" ; time_pickup = "about 20 minutes") & Okay. I have your personal details on file. Your order will be ready for pick-up in about 20 minutes.
+food_order ( type_meal = "dinner") & It was my pleasure. Enjoy your dinner.
+food_order ( type_meal = "dinner") & It was my pleasure. Enjoy your dinner.
+food_order ( type_meal = "dinner") & It was my pleasure. Enjoy your dinner.
+food_order ( name_item = "2 soups") & Just to confirm, you would like to order 2 soups.
+food_order ( name_item = "2 soups") & Just to confirm, you would like to order 2 soups.
+food_order ( name_item = "2 soups") & Just to confirm, you would like to order 2 soups.
+food_order ( name_item = "White Wine") & Two Italian salads, one order of Linguine and an order of White Wine. Is that all for tonight?
+food_order ( name_item = "White Wine") & Two Italian salads, one order of Linguine and an order of White Wine. Is that all for tonight?
+food_order ( name_item = "White Wine") & Two Italian salads, one order of Linguine and an order of White Wine. Is that all for tonight?
+food_order ( type_food = "Indian") & Indian, got it.
+food_order ( type_food = "Indian") & Indian, got it.
+food_order ( type_food = "Indian") & Indian, got it.
+hotel_detail ( amenity = "a full bar") & Yes, the hotel restaurant has a full bar.
+hotel_detail ( amenity = "a full bar") & Yes, the hotel restaurant has a full bar.
+hotel_detail ( amenity = "a full bar") & Yes, the hotel restaurant has a full bar.
+hotel_search ( sub_location_hotel = "a half a mile from Alcatraz Island") & It is across the street from Aquatic Park is refined hotel it is in a restored warehouse and is a 12 minute walk from Pier 39 and a half a mile from Alcatraz Island is paid Wi-Fi paid parking air conditioning laundry service business centers pet-friendly kid-friendly has a spot bar and a fitness center.
+hotel_search ( sub_location_hotel = "a half a mile from Alcatraz Island") & It is across the street from Aquatic Park is refined hotel it is in a restored warehouse and is a 12 minute walk from Pier 39 and a half a mile from Alcatraz Island is paid Wi-Fi paid parking air conditioning laundry service business centers pet-friendly kid-friendly has a spot bar and a fitness center.
+hotel_search ( sub_location_hotel = "a half a mile from Alcatraz Island") & It is across the street from Aquatic Park is refined hotel it is in a restored warehouse and is a 12 minute walk from Pier 39 and a half a mile from Alcatraz Island is paid Wi-Fi paid parking air conditioning laundry service business centers pet-friendly kid-friendly has a spot bar and a fitness center.
+hotel_detail ( name_hotel = "Sheraton" ; price_per_night = "$250 a night" ; customer_rating = "3.8 Stars") & Hold on a moment. There are two hotels that suit your needs. The first one is Sheraton Fisherman's Wharf hotel and the other one is the Palace Hotel. They both ranges  $250 a night and the Palace Hotel is rated higher at 4.4 stars whereas the Sheraton is rated at 3.8 Stars.
+hotel_detail ( name_hotel = "Sheraton" ; price_per_night = "$250 a night" ; customer_rating = "3.8 Stars") & Hold on a moment. There are two hotels that suit your needs. The first one is Sheraton Fisherman's Wharf hotel and the other one is the Palace Hotel. They both ranges  $250 a night and the Palace Hotel is rated higher at 4.4 stars whereas the Sheraton is rated at 3.8 Stars.
+hotel_detail ( name_hotel = "Sheraton" ; price_per_night = "$250 a night" ; customer_rating = "3.8 Stars") & Hold on a moment. There are two hotels that suit your needs. The first one is Sheraton Fisherman's Wharf hotel and the other one is the Palace Hotel. They both ranges  $250 a night and the Palace Hotel is rated higher at 4.4 stars whereas the Sheraton is rated at 3.8 Stars.
+hotel_detail ( other_detail = "Breezily elegant rooms in sea tones" ; amenity = "a gym" ; type_room = "Luxe 1- and 2-bedroom suites") & Breezily elegant rooms in sea tones offer ocean views, Goose-down comforters and marble baths, Plus iPod docks and flat-screen TVs. Luxe 1- and 2-bedroom suites with Jacuzzis and balconies or sundecks add living areas, Hardwood floors and/or fireplaces. A resort fee covers Wi-Fi and turndown service. Amenities include a casual cafe, A posh restaurant/bar overlooking the ocean, And a hip cocktail lounge with outdoor seating and fire pits. There's also a chic spa with 8 treatment rooms, A seaside pool and a gym.
+hotel_detail ( other_detail = "Breezily elegant rooms in sea tones" ; amenity = "a gym" ; type_room = "Luxe 1- and 2-bedroom suites") & Breezily elegant rooms in sea tones offer ocean views, Goose-down comforters and marble baths, Plus iPod docks and flat-screen TVs. Luxe 1- and 2-bedroom suites with Jacuzzis and balconies or sundecks add living areas, Hardwood floors and/or fireplaces. A resort fee covers Wi-Fi and turndown service. Amenities include a casual cafe, A posh restaurant/bar overlooking the ocean, And a hip cocktail lounge with outdoor seating and fire pits. There's also a chic spa with 8 treatment rooms, A seaside pool and a gym.
+hotel_detail ( other_detail = "Breezily elegant rooms in sea tones" ; amenity = "a gym" ; type_room = "Luxe 1- and 2-bedroom suites") & Breezily elegant rooms in sea tones offer ocean views, Goose-down comforters and marble baths, Plus iPod docks and flat-screen TVs. Luxe 1- and 2-bedroom suites with Jacuzzis and balconies or sundecks add living areas, Hardwood floors and/or fireplaces. A resort fee covers Wi-Fi and turndown service. Amenities include a casual cafe, A posh restaurant/bar overlooking the ocean, And a hip cocktail lounge with outdoor seating and fire pits. There's also a chic spa with 8 treatment rooms, A seaside pool and a gym.
+hotel_search ( location_hotel = "new orleans") & Hotel in new orleans. And what else can you tell me?
+hotel_search ( location_hotel = "new orleans") & Hotel in new orleans. And what else can you tell me?
+hotel_search ( location_hotel = "new orleans") & Hotel in new orleans. And what else can you tell me?
+OFFER ( restaurant_name = "Anjappar Chettinad Restaurant" ; city = "Milpitas") & I found 4 restaurants- how about Anjappar Chettinad Restaurant in Milpitas?
+OFFER ( restaurant_name = "Anjappar Chettinad Restaurant" ; city = "Milpitas") & I found 4 restaurants- how about Anjappar Chettinad Restaurant in Milpitas?
+OFFER ( restaurant_name = "Anjappar Chettinad Restaurant" ; city = "Milpitas") & I found 4 restaurants- how about Anjappar Chettinad Restaurant in Milpitas?
+CONFIRM ( time = "6 pm" ; party_size = "3") & so just to confirmed again, it would be at 6 pm for 3 people.
+CONFIRM ( time = "6 pm" ; party_size = "3") & so just to confirmed again, it would be at 6 pm for 3 people.
+CONFIRM ( time = "6 pm" ; party_size = "3") & so just to confirmed again, it would be at 6 pm for 3 people.
+INFORM ( phone_number = "415-800-8498" ; street_address = "1634 Bush Street") & Your reservation has been confirmed. The restaurant is located at 1634 Bush Street and their number is 415-800-8498.
+INFORM ( phone_number = "415-800-8498" ; street_address = "1634 Bush Street") & Your reservation has been confirmed. The restaurant is located at 1634 Bush Street and their number is 415-800-8498.
+INFORM ( phone_number = "415-800-8498" ; street_address = "1634 Bush Street") & Your reservation has been confirmed. The restaurant is located at 1634 Bush Street and their number is 415-800-8498.
+OFFER ( restaurant_name = "Chili's Grill & Bar" ; city = "San Bruno") & I found 1 restaurants. Chili's Grill & Bar is a nice restaurant located in San Bruno.
+OFFER ( restaurant_name = "Chili's Grill & Bar" ; city = "San Bruno") & I found 1 restaurants. Chili's Grill & Bar is a nice restaurant located in San Bruno.
+OFFER ( restaurant_name = "Chili's Grill & Bar" ; city = "San Bruno") & I found 1 restaurants. Chili's Grill & Bar is a nice restaurant located in San Bruno.
+CONFIRM ( city = "San Francisco" ; date = "March 14th") & Please confirm you want the reservation in San Francisco on March 14th.
+CONFIRM ( city = "San Francisco" ; date = "March 14th") & Please confirm you want the reservation in San Francisco on March 14th.
+CONFIRM ( city = "San Francisco" ; date = "March 14th") & Please confirm you want the reservation in San Francisco on March 14th.
+movie_ticket ( time_start = "evening") & Did you want a matinee or an evening showing?
+movie_ticket ( time_start = "evening") & Did you want a matinee or an evening showing?
+movie_ticket ( time_start = "evening") & Did you want a matinee or an evening showing?
+movie_ticket ( time_start = "2:50pm") & the next showtime is at 2:50pm.
+movie_ticket ( time_start = "2:50pm") & the next showtime is at 2:50pm.
+movie_ticket ( time_start = "2:50pm") & the next showtime is at 2:50pm.
+movie_ticket ( name_movie = "a dog's way home" ; name_movie_accept = "glass") & what men want, glass and a dog's way home are a few of them.
+movie_ticket ( name_movie = "a dog's way home" ; name_movie_accept = "glass") & what men want, glass and a dog's way home are a few of them.
+movie_ticket ( name_movie = "a dog's way home" ; name_movie_accept = "glass") & what men want, glass and a dog's way home are a few of them.
+movie_ticket ( name_theater = "amc highwoods 20" ; time_start = "8:15pm") & i see amc highwoods 20 has a showing at 5:30pm and 8:15pm tonight.
+movie_ticket ( name_theater = "amc highwoods 20" ; time_start = "8:15pm") & i see amc highwoods 20 has a showing at 5:30pm and 8:15pm tonight.
+movie_ticket ( name_theater = "amc highwoods 20" ; time_start = "8:15pm") & i see amc highwoods 20 has a showing at 5:30pm and 8:15pm tonight.
+movie_ticket ( name_theater = "century 12" ; location_theater_accept = "san mateo") & Okay! let me check what we have. I found a couple theaters. century 12 in san mateo.
+movie_ticket ( name_theater = "century 12" ; location_theater_accept = "san mateo") & Okay! let me check what we have. I found a couple theaters. century 12 in san mateo.
+movie_ticket ( name_theater = "century 12" ; location_theater_accept = "san mateo") & Okay! let me check what we have. I found a couple theaters. century 12 in san mateo.
+INFORM ( inbound_arrival_time = "0:32 am" ; origin_airport = "LAX International Airport") & It flies from LAX International Airport and arrives at 0:32 am. Your ticket has been confirmed.
+INFORM ( inbound_arrival_time = "0:32 am" ; origin_airport = "LAX International Airport") & It flies from LAX International Airport and arrives at 0:32 am. Your ticket has been confirmed.
+INFORM ( inbound_arrival_time = "0:32 am" ; origin_airport = "LAX International Airport") & It flies from LAX International Airport and arrives at 0:32 am. Your ticket has been confirmed.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "4:05 am" ; inbound_departure_time = "4:45 pm" ; price = "$304") & I found 2 flights. An American Airlines departure of 4:05 am and return of 4:45 pm with a ticket price of $304.INFORM_COUNT ( count = "2") & I found 2 flights. An American Airlines departure of 4:05 am and return of 4:45 pm with a ticket price of $304.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "4:05 am" ; inbound_departure_time = "4:45 pm" ; price = "$304") & I found 2 flights. An American Airlines departure of 4:05 am and return of 4:45 pm with a ticket price of $304.INFORM_COUNT ( count = "2") & I found 2 flights. An American Airlines departure of 4:05 am and return of 4:45 pm with a ticket price of $304.
+OFFER ( airlines = "American Airlines" ; outbound_departure_time = "4:05 am" ; inbound_departure_time = "4:45 pm" ; price = "$304") & I found 2 flights. An American Airlines departure of 4:05 am and return of 4:45 pm with a ticket price of $304.INFORM_COUNT ( count = "2") & I found 2 flights. An American Airlines departure of 4:05 am and return of 4:45 pm with a ticket price of $304.
+OFFER ( airlines = "Alaska Airlines" ; outbound_departure_time = "3:45 pm" ; inbound_departure_time = "7:10 pm" ; price = "$153") & There are 5 choices we have to pick from. Try Alaska Airlines. It has a flight that departs at 3:45 pm. It will come back on a flight that departs at 7:10 pm. The price on all that is only $153.
+OFFER ( airlines = "Alaska Airlines" ; outbound_departure_time = "3:45 pm" ; inbound_departure_time = "7:10 pm" ; price = "$153") & There are 5 choices we have to pick from. Try Alaska Airlines. It has a flight that departs at 3:45 pm. It will come back on a flight that departs at 7:10 pm. The price on all that is only $153.
+OFFER ( airlines = "Alaska Airlines" ; outbound_departure_time = "3:45 pm" ; inbound_departure_time = "7:10 pm" ; price = "$153") & There are 5 choices we have to pick from. Try Alaska Airlines. It has a flight that departs at 3:45 pm. It will come back on a flight that departs at 7:10 pm. The price on all that is only $153.
+INFORM ( destination_airport = "O'Hare International Airport" ; inbound_arrival_time = "6:37 am") & Confirmation is complete and you will leave from O'Hare International Airport at 6:37 am.
+INFORM ( destination_airport = "O'Hare International Airport" ; inbound_arrival_time = "6:37 am") & Confirmation is complete and you will leave from O'Hare International Airport at 6:37 am.
+INFORM ( destination_airport = "O'Hare International Airport" ; inbound_arrival_time = "6:37 am") & Confirmation is complete and you will leave from O'Hare International Airport at 6:37 am.
+OFFER ( airlines = "Southwest Airlines" ; outbound_departure_time = "3:15 pm" ; inbound_departure_time = "11:30 pm" ; price = "$126") & I see that 1 flight suits to your request and it is a Southwest Airlines flight which leaves at 3:15 pm and will be returning at 11:30 pm. The total cost of the ticket will be $126.INFORM_COUNT ( count = "1") & I see that 1 flight suits to your request and it is a Southwest Airlines flight which leaves at 3:15 pm and will be returning at 11:30 pm. The total cost of the ticket will be $126.
+OFFER ( airlines = "Southwest Airlines" ; outbound_departure_time = "3:15 pm" ; inbound_departure_time = "11:30 pm" ; price = "$126") & I see that 1 flight suits to your request and it is a Southwest Airlines flight which leaves at 3:15 pm and will be returning at 11:30 pm. The total cost of the ticket will be $126.INFORM_COUNT ( count = "1") & I see that 1 flight suits to your request and it is a Southwest Airlines flight which leaves at 3:15 pm and will be returning at 11:30 pm. The total cost of the ticket will be $126.
+OFFER ( airlines = "Southwest Airlines" ; outbound_departure_time = "3:15 pm" ; inbound_departure_time = "11:30 pm" ; price = "$126") & I see that 1 flight suits to your request and it is a Southwest Airlines flight which leaves at 3:15 pm and will be returning at 11:30 pm. The total cost of the ticket will be $126.INFORM_COUNT ( count = "1") & I see that 1 flight suits to your request and it is a Southwest Airlines flight which leaves at 3:15 pm and will be returning at 11:30 pm. The total cost of the ticket will be $126.
+coffee_ordering ( preference = "hot") & did you want that iced or hot?
+coffee_ordering ( preference = "hot") & did you want that iced or hot?
+coffee_ordering ( preference = "hot") & did you want that iced or hot?
+coffee_ordering ( location_store_accept = "starbucks at 1233 S Sage Hill Dr") & ok, your coffee will be ready for pickup soon at the starbucks at 1233 S Sage Hill Dr.
+coffee_ordering ( location_store_accept = "starbucks at 1233 S Sage Hill Dr") & ok, your coffee will be ready for pickup soon at the starbucks at 1233 S Sage Hill Dr.
+coffee_ordering ( location_store_accept = "starbucks at 1233 S Sage Hill Dr") & ok, your coffee will be ready for pickup soon at the starbucks at 1233 S Sage Hill Dr.
+coffee_ordering ( preference = "whipped cream") & would you like whipped cream as well?
+coffee_ordering ( preference = "whipped cream") & would you like whipped cream as well?
+coffee_ordering ( preference = "whipped cream") & would you like whipped cream as well?
+coffee_ordering ( size_drink_accept = "Venti" ; name_drink_accept = "Caramel Macchiato" ; type_milk_accept = "2% milk" ; preference_accept = "caramel drizzel") & sure! will make sure that's added. Okay so i got, a Venti Caramel Macchiato with 2% milk, 5 splendas, make sure . caramel drizzel is added.
+coffee_ordering ( size_drink_accept = "Venti" ; name_drink_accept = "Caramel Macchiato" ; type_milk_accept = "2% milk" ; preference_accept = "caramel drizzel") & sure! will make sure that's added. Okay so i got, a Venti Caramel Macchiato with 2% milk, 5 splendas, make sure . caramel drizzel is added.
+coffee_ordering ( size_drink_accept = "Venti" ; name_drink_accept = "Caramel Macchiato" ; type_milk_accept = "2% milk" ; preference_accept = "caramel drizzel") & sure! will make sure that's added. Okay so i got, a Venti Caramel Macchiato with 2% milk, 5 splendas, make sure . caramel drizzel is added.
+coffee_ordering ( preference = "syrup") & Ok. Any sweetener or syrup?
+coffee_ordering ( preference = "syrup") & Ok. Any sweetener or syrup?
+coffee_ordering ( preference = "syrup") & Ok. Any sweetener or syrup?
+OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & I found 3 empty slots on your calendar for the 14th. You don't have anything between 8 am and 11 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & I found 3 empty slots on your calendar for the 14th. You don't have anything between 8 am and 11 am.
+OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") & I found 3 empty slots on your calendar for the 14th. You don't have anything between 8 am and 11 am.
+OFFER ( event_date = "March 10th" ; available_start_time = "12 pm" ; available_end_time = "6 pm") & For March 10th, you have empty slots from 12 pm to 6 pm.
+OFFER ( event_date = "March 10th" ; available_start_time = "12 pm" ; available_end_time = "6 pm") & For March 10th, you have empty slots from 12 pm to 6 pm.
+OFFER ( event_date = "March 10th" ; available_start_time = "12 pm" ; available_end_time = "6 pm") & For March 10th, you have empty slots from 12 pm to 6 pm.
+OFFER ( event_date = "March 10th" ; available_start_time = "8 am" ; available_end_time = "1:30 pm") & On March 10th, you have free time spanning from 8 am to 1:30 pm.
+OFFER ( event_date = "March 10th" ; available_start_time = "8 am" ; available_end_time = "1:30 pm") & On March 10th, you have free time spanning from 8 am to 1:30 pm.
+OFFER ( event_date = "March 10th" ; available_start_time = "8 am" ; available_end_time = "1:30 pm") & On March 10th, you have free time spanning from 8 am to 1:30 pm.
+OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") @ INFORM_COUNT ( count = "2") & There's 2 empty slots on the calender  You have an empty one from 8 am to 11 am, from what I can see here
+OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") @ INFORM_COUNT ( count = "2") & There's 2 empty slots on the calender  You have an empty one from 8 am to 11 am, from what I can see here
+OFFER ( available_start_time = "8 am" ; available_end_time = "11 am") @ INFORM_COUNT ( count = "2") & There's 2 empty slots on the calender  You have an empty one from 8 am to 11 am, from what I can see here
+OFFER ( event_name = "movie at the new Parkway Theater" ; event_time = "10:30 pm") & Don't forget that you're watching a movie at the new Parkway Theater at 10:30 pm.
+OFFER ( event_name = "movie at the new Parkway Theater" ; event_time = "10:30 pm") & Don't forget that you're watching a movie at the new Parkway Theater at 10:30 pm.
+OFFER ( event_name = "movie at the new Parkway Theater" ; event_time = "10:30 pm") & Don't forget that you're watching a movie at the new Parkway Theater at 10:30 pm.
+OFFER ( attraction_name = "Harbourfront Centre" ; category = "Performing Arts Venue") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront CentreINFORM_COUNT ( count = "2") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront Centre
+OFFER ( attraction_name = "Harbourfront Centre" ; category = "Performing Arts Venue") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront CentreINFORM_COUNT ( count = "2") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront Centre
+OFFER ( attraction_name = "Harbourfront Centre" ; category = "Performing Arts Venue") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront CentreINFORM_COUNT ( count = "2") & Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront Centre
+OFFER ( attraction_name = "Oracle Park" ; category = "Sports Venue") & No problem. I've located 1 attraction. Oracle Park fits your sports venue request.
+OFFER ( attraction_name = "Oracle Park" ; category = "Sports Venue") & No problem. I've located 1 attraction. Oracle Park fits your sports venue request.
+OFFER ( attraction_name = "Oracle Park" ; category = "Sports Venue") & No problem. I've located 1 attraction. Oracle Park fits your sports venue request.
+OFFER ( attraction_name = "Angels Flight Railway" ; category = "Historical Landmark") & I found one Historical Landmark that is Angels Flight Railway, what about this place?
+OFFER ( attraction_name = "Angels Flight Railway" ; category = "Historical Landmark") & I found one Historical Landmark that is Angels Flight Railway, what about this place?
+OFFER ( attraction_name = "Angels Flight Railway" ; category = "Historical Landmark") & I found one Historical Landmark that is Angels Flight Railway, what about this place?
+OFFER ( attraction_name = "American Museum of Natural History" ; category = "Museum") & How about a museum? The American Museum of Natural History could be a good option, and it's free entry.
+OFFER ( attraction_name = "American Museum of Natural History" ; category = "Museum") & How about a museum? The American Museum of Natural History could be a good option, and it's free entry.
+OFFER ( attraction_name = "American Museum of Natural History" ; category = "Museum") & How about a museum? The American Museum of Natural History could be a good option, and it's free entry.
+OFFER ( attraction_name = "American Folk Art Museum" ; category = "Museum") & I found 10 options. First, the American Folk Art Museum.
+OFFER ( attraction_name = "American Folk Art Museum" ; category = "Museum") & I found 10 options. First, the American Folk Art Museum.
+OFFER ( attraction_name = "American Folk Art Museum" ; category = "Museum") & I found 10 options. First, the American Folk Art Museum.
+restaurant_inform ( address = "108 Regent Street City Centre" ; name = "Little Seoul" ; pricerange = "expensive") & Little Seoul is at 108 Regent Street City Centre and is an expensive restaurant. Do you want the phone number?
+restaurant_inform ( address = "108 Regent Street City Centre" ; name = "Little Seoul" ; pricerange = "expensive") & Little Seoul is at 108 Regent Street City Centre and is an expensive restaurant. Do you want the phone number?
+restaurant_inform ( address = "108 Regent Street City Centre" ; name = "Little Seoul" ; pricerange = "expensive") & Little Seoul is at 108 Regent Street City Centre and is an expensive restaurant. Do you want the phone number?
+restaurant_inform ( choice = "a few") & There are a few of them. Would you prefer the centre of town or the west area?restaurant_select ( area = "centre of town" ; area = "west") & There are a few of them. Would you prefer the centre of town or the west area?
+restaurant_inform ( choice = "a few") & There are a few of them. Would you prefer the centre of town or the west area?restaurant_select ( area = "centre of town" ; area = "west") & There are a few of them. Would you prefer the centre of town or the west area?
+restaurant_inform ( choice = "a few") & There are a few of them. Would you prefer the centre of town or the west area?restaurant_select ( area = "centre of town" ; area = "west") & There are a few of them. Would you prefer the centre of town or the west area?
+booking_book ( ref = "EU6J389K") & I have booked that for you and your reference number is EU6J389K . Anything else I can help with?
+booking_book ( ref = "EU6J389K") & I have booked that for you and your reference number is EU6J389K . Anything else I can help with?
+booking_book ( ref = "EU6J389K") & I have booked that for you and your reference number is EU6J389K . Anything else I can help with?
+restaurant_inform ( area = "centre of town" ; food = "asian oriental" ; name = "Dojo Noodle Bar" ; pricerange = "cheap") & Dojo Noodle Bar serves asian oriental food and is located in the centre of town. The price range is cheap.
+restaurant_inform ( area = "centre of town" ; food = "asian oriental" ; name = "Dojo Noodle Bar" ; pricerange = "cheap") & Dojo Noodle Bar serves asian oriental food and is located in the centre of town. The price range is cheap.
+restaurant_inform ( area = "centre of town" ; food = "asian oriental" ; name = "Dojo Noodle Bar" ; pricerange = "cheap") & Dojo Noodle Bar serves asian oriental food and is located in the centre of town. The price range is cheap.
+restaurant_inform ( choice = "21") & Of course! There are 21 such restaurants available. Do you have a preference for the type of food?
+restaurant_inform ( choice = "21") & Of course! There are 21 such restaurants available. Do you have a preference for the type of food?
+restaurant_inform ( choice = "21") & Of course! There are 21 such restaurants available. Do you have a preference for the type of food?
+music ( name_track = "My Love" ; name_artist = "Dua Lipa") & Here the song My Love featuring Major Lazer, WizKid and Dua Lipa.
+music ( name_track = "My Love" ; name_artist = "Dua Lipa") & Here the song My Love featuring Major Lazer, WizKid and Dua Lipa.
+music ( name_track = "My Love" ; name_artist = "Dua Lipa") & Here the song My Love featuring Major Lazer, WizKid and Dua Lipa.
+music ( name_track = "Touch" ; name_artist = "Little Mix") & Here is Touch by Little Mix.
+music ( name_track = "Touch" ; name_artist = "Little Mix") & Here is Touch by Little Mix.
+music ( name_track = "Touch" ; name_artist = "Little Mix") & Here is Touch by Little Mix.
+music ( name_album = "shake it off" ; name_artist = "Megan Nicole") & Let me get that for you. Here is shake it off by Megan Nicole.
+music ( name_album = "shake it off" ; name_artist = "Megan Nicole") & Let me get that for you. Here is shake it off by Megan Nicole.
+music ( name_album = "shake it off" ; name_artist = "Megan Nicole") & Let me get that for you. Here is shake it off by Megan Nicole.
+music ( name_artist = "Epik high" ; name_track = "One") & Here is Epik high - One. Go through with this.
+music ( name_artist = "Epik high" ; name_track = "One") & Here is Epik high - One. Go through with this.
+music ( name_artist = "Epik high" ; name_track = "One") & Here is Epik high - One. Go through with this.
+music ( name_track = "Escápate Conmigo" ; name_artist = "Wisin") & Escápate Conmigo by Wisin.
+music ( name_track = "Escápate Conmigo" ; name_artist = "Wisin") & Escápate Conmigo by Wisin.
+music ( name_track = "Escápate Conmigo" ; name_artist = "Wisin") & Escápate Conmigo by Wisin.
+OFFER ( song_name = "Battle Symphony" ; artist = "Linkin Park" ; album = "One More Light") & How about the Linkin Park song Battle Symphony, from their album One More Light?
+OFFER ( song_name = "Battle Symphony" ; artist = "Linkin Park" ; album = "One More Light") & How about the Linkin Park song Battle Symphony, from their album One More Light?
+OFFER ( song_name = "Battle Symphony" ; artist = "Linkin Park" ; album = "One More Light") & How about the Linkin Park song Battle Symphony, from their album One More Light?
+INFORM ( year = "2013" ; genre = "Reggae") & That particular song falls under the Reggae genre and it was released in the year 2013.
+INFORM ( year = "2013" ; genre = "Reggae") & That particular song falls under the Reggae genre and it was released in the year 2013.
+INFORM ( year = "2013" ; genre = "Reggae") & That particular song falls under the Reggae genre and it was released in the year 2013.
+OFFER ( song_name = "Lady Luck" ; artist = "Jamie Woon" ; album = "Mirrorwriting") & Found a song Lady Luck by Jamie Woon which is in the album Mirrorwriting.
+OFFER ( song_name = "Lady Luck" ; artist = "Jamie Woon" ; album = "Mirrorwriting") & Found a song Lady Luck by Jamie Woon which is in the album Mirrorwriting.
+OFFER ( song_name = "Lady Luck" ; artist = "Jamie Woon" ; album = "Mirrorwriting") & Found a song Lady Luck by Jamie Woon which is in the album Mirrorwriting.
+OFFER ( song_name = "Neon Lights" ; artist = "Demi Lovato" ; album = "Demi") & I found 1 song. Would you like to listen to Neon Lights by Demi Lovato from the Demi album?
+OFFER ( song_name = "Neon Lights" ; artist = "Demi Lovato" ; album = "Demi") & I found 1 song. Would you like to listen to Neon Lights by Demi Lovato from the Demi album?
+OFFER ( song_name = "Neon Lights" ; artist = "Demi Lovato" ; album = "Demi") & I found 1 song. Would you like to listen to Neon Lights by Demi Lovato from the Demi album?
+CONFIRM ( song_name = "Darkside" ; playback_device = "TV") & Please confirm: you wish to hear Darkside on TV?
+CONFIRM ( song_name = "Darkside" ; playback_device = "TV") & Please confirm: you wish to hear Darkside on TV?
+CONFIRM ( song_name = "Darkside" ; playback_device = "TV") & Please confirm: you wish to hear Darkside on TV?
+pizza_ordering ( preference = "Extra cheese" ; type_crust = "thick crust") & Extra cheese, thin crust, thick crust.
+pizza_ordering ( preference = "Extra cheese" ; type_crust = "thick crust") & Extra cheese, thin crust, thick crust.
+pizza_ordering ( preference = "Extra cheese" ; type_crust = "thick crust") & Extra cheese, thin crust, thick crust.
+pizza_ordering ( type_topping = "linguica") & chicken, ham, bacon, sausage and linguica.
+pizza_ordering ( type_topping = "linguica") & chicken, ham, bacon, sausage and linguica.
+pizza_ordering ( type_topping = "linguica") & chicken, ham, bacon, sausage and linguica.
+pizza_ordering ( size_pizza_accept = "small" ; type_topping_accept = "chicken BBQ" ; type_crust_accept = "gluten free crust") & ok so thats 2 small pizza chicken BBQ with gluten free crust is that right?
+pizza_ordering ( size_pizza_accept = "small" ; type_topping_accept = "chicken BBQ" ; type_crust_accept = "gluten free crust") & ok so thats 2 small pizza chicken BBQ with gluten free crust is that right?
+pizza_ordering ( size_pizza_accept = "small" ; type_topping_accept = "chicken BBQ" ; type_crust_accept = "gluten free crust") & ok so thats 2 small pizza chicken BBQ with gluten free crust is that right?
+pizza_ordering ( size_pizza_accept = "large" ; type_topping_accept = "pineapple" ; name_pizza_accept = "meatlover" ; type_crust_accept = "gluten free crust") & so we have 3 large pizza, 1 with pepperoni, 1 with pineapple and 1 meatlover all with gluten free crust right.
+pizza_ordering ( size_pizza_accept = "large" ; type_topping_accept = "pineapple" ; name_pizza_accept = "meatlover" ; type_crust_accept = "gluten free crust") & so we have 3 large pizza, 1 with pepperoni, 1 with pineapple and 1 meatlover all with gluten free crust right.
+pizza_ordering ( size_pizza_accept = "large" ; type_topping_accept = "pineapple" ; name_pizza_accept = "meatlover" ; type_crust_accept = "gluten free crust") & so we have 3 large pizza, 1 with pepperoni, 1 with pineapple and 1 meatlover all with gluten free crust right.
+pizza_ordering ( name_store_accept = "bella luna" ; type_topping_reject = "broccoli") & i'm sorry, bella luna does not have broccoli on their menu. did you want another topping?
+pizza_ordering ( name_store_accept = "bella luna" ; type_topping_reject = "broccoli") & i'm sorry, bella luna does not have broccoli on their menu. did you want another topping?
+pizza_ordering ( name_store_accept = "bella luna" ; type_topping_reject = "broccoli") & i'm sorry, bella luna does not have broccoli on their menu. did you want another topping?
+CONFIRM ( property_name = "Portola Meadows Apartments" ; visit_date = "March 13th") & Confirm that you want to visit Portola Meadows Apartments on March 13th instead?
+CONFIRM ( property_name = "Portola Meadows Apartments" ; visit_date = "March 13th") & Confirm that you want to visit Portola Meadows Apartments on March 13th instead?
+CONFIRM ( property_name = "Portola Meadows Apartments" ; visit_date = "March 13th") & Confirm that you want to visit Portola Meadows Apartments on March 13th instead?
+INFORM ( pets_allowed = "False") & I'm sorry, but pets are not allowed.
+INFORM ( pets_allowed = "False") & I'm sorry, but pets are not allowed.
+INFORM ( pets_allowed = "False") & I'm sorry, but pets are not allowed.
+OFFER ( property_name = "Sequoia Grove of Danville" ; address = "950 Podva Road" ; number_of_beds = "2" ; number_of_baths = "1" ; rent = "$2,350") & Sequoia Grove of Danville is a very nice apartment, located at 950 Podva Road. It has 2 bed rooms and 1 bath. It goes for $2,350 per month.INFORM_COUNT ( count = "1") & Sequoia Grove of Danville is a very nice apartment, located at 950 Podva Road. It has 2 bed rooms and 1 bath. It goes for $2,350 per month.
+OFFER ( property_name = "Sequoia Grove of Danville" ; address = "950 Podva Road" ; number_of_beds = "2" ; number_of_baths = "1" ; rent = "$2,350") & Sequoia Grove of Danville is a very nice apartment, located at 950 Podva Road. It has 2 bed rooms and 1 bath. It goes for $2,350 per month.INFORM_COUNT ( count = "1") & Sequoia Grove of Danville is a very nice apartment, located at 950 Podva Road. It has 2 bed rooms and 1 bath. It goes for $2,350 per month.
+OFFER ( property_name = "Sequoia Grove of Danville" ; address = "950 Podva Road" ; number_of_beds = "2" ; number_of_baths = "1" ; rent = "$2,350") & Sequoia Grove of Danville is a very nice apartment, located at 950 Podva Road. It has 2 bed rooms and 1 bath. It goes for $2,350 per month.INFORM_COUNT ( count = "1") & Sequoia Grove of Danville is a very nice apartment, located at 950 Podva Road. It has 2 bed rooms and 1 bath. It goes for $2,350 per month.
+OFFER ( property_name = "Kingston Place Apartments" ; address = "3055 North Main Street" ; price = "$4,400") & I have 3 options. Kingston Place Apartments is nice and it is located at 3055 North Main Street for $4,400 a month.
+OFFER ( property_name = "Kingston Place Apartments" ; address = "3055 North Main Street" ; price = "$4,400") & I have 3 options. Kingston Place Apartments is nice and it is located at 3055 North Main Street for $4,400 a month.
+OFFER ( property_name = "Kingston Place Apartments" ; address = "3055 North Main Street" ; price = "$4,400") & I have 3 options. Kingston Place Apartments is nice and it is located at 3055 North Main Street for $4,400 a month.
+CONFIRM ( property_name = "Americana Apartments" ; visit_date = "March 10th") & Confirm you are wanting to visit Americana Apartments on March 10th.
+CONFIRM ( property_name = "Americana Apartments" ; visit_date = "March 10th") & Confirm you are wanting to visit Americana Apartments on March 10th.
+CONFIRM ( property_name = "Americana Apartments" ; visit_date = "March 10th") & Confirm you are wanting to visit Americana Apartments on March 10th.
+CONFIRM ( title = "Little Woods" ; subtitles = "False") & This movie doesn't have any subtitles is that fine? Please confirm the following details: play Little Woods without subtitles.
+CONFIRM ( title = "Little Woods" ; subtitles = "False") & This movie doesn't have any subtitles is that fine? Please confirm the following details: play Little Woods without subtitles.
+CONFIRM ( title = "Little Woods" ; subtitles = "False") & This movie doesn't have any subtitles is that fine? Please confirm the following details: play Little Woods without subtitles.
+OFFER ( title = "Little") & I've found 1 movie you may like. What about Little?
+OFFER ( title = "Little") & I've found 1 movie you may like. What about Little?
+OFFER ( title = "Little") & I've found 1 movie you may like. What about Little?
+CONFIRM ( title = "Shazam!" ; subtitles = "False") & I have found the movie: Shazam! Play now?
+CONFIRM ( title = "Shazam!" ; subtitles = "False") & I have found the movie: Shazam! Play now?
+CONFIRM ( title = "Shazam!" ; subtitles = "False") & I have found the movie: Shazam! Play now?
+INFORM ( genre = "Drama") & The genre of this film is Drama. I'll start playing it now.
+INFORM ( genre = "Drama") & The genre of this film is Drama. I'll start playing it now.
+INFORM ( genre = "Drama") & The genre of this film is Drama. I'll start playing it now.
+CONFIRM ( title = "Dr. Strangelove" ; subtitles = "False") & Do you want to play Dr. Strangelove without subtitles?
+CONFIRM ( title = "Dr. Strangelove" ; subtitles = "False") & Do you want to play Dr. Strangelove without subtitles?
+CONFIRM ( title = "Dr. Strangelove" ; subtitles = "False") & Do you want to play Dr. Strangelove without subtitles?
+OFFER ( address = "1 Addington Street" ; rating = "4.3") & I'd recommend 1 Addington Street, rated at 4.3, out of the 10 houses I found available and matching your search criteria.INFORM_COUNT ( count = "10") & I'd recommend 1 Addington Street, rated at 4.3, out of the 10 houses I found available and matching your search criteria.
+OFFER ( address = "1 Addington Street" ; rating = "4.3") & I'd recommend 1 Addington Street, rated at 4.3, out of the 10 houses I found available and matching your search criteria.INFORM_COUNT ( count = "10") & I'd recommend 1 Addington Street, rated at 4.3, out of the 10 houses I found available and matching your search criteria.
+OFFER ( address = "1 Addington Street" ; rating = "4.3") & I'd recommend 1 Addington Street, rated at 4.3, out of the 10 houses I found available and matching your search criteria.INFORM_COUNT ( count = "10") & I'd recommend 1 Addington Street, rated at 4.3, out of the 10 houses I found available and matching your search criteria.
+OFFER ( address = "1 Columbia Court, Baulkham Hills New South Wales 2153, Australia" ; rating = "3.9") & There are 10 house available matching your criteria. There is a house at 1 Columbia Court, Baulkham Hills New South Wales 2153, Australia with rating of 3.9.INFORM_COUNT ( count = "10") & There are 10 house available matching your criteria. There is a house at 1 Columbia Court, Baulkham Hills New South Wales 2153, Australia with rating of 3.9.
+OFFER ( address = "1 Columbia Court, Baulkham Hills New South Wales 2153, Australia" ; rating = "3.9") & There are 10 house available matching your criteria. There is a house at 1 Columbia Court, Baulkham Hills New South Wales 2153, Australia with rating of 3.9.INFORM_COUNT ( count = "10") & There are 10 house available matching your criteria. There is a house at 1 Columbia Court, Baulkham Hills New South Wales 2153, Australia with rating of 3.9.
+OFFER ( address = "1 Columbia Court, Baulkham Hills New South Wales 2153, Australia" ; rating = "3.9") & There are 10 house available matching your criteria. There is a house at 1 Columbia Court, Baulkham Hills New South Wales 2153, Australia with rating of 3.9.INFORM_COUNT ( count = "10") & There are 10 house available matching your criteria. There is a house at 1 Columbia Court, Baulkham Hills New South Wales 2153, Australia with rating of 3.9.
+OFFER ( hotel_name = "Ac Hotel By Marriott Chicago Downtown" ; star_rating = "3") & There are 10 hotels available. I recommend a nice hotel with a 3 star rating called Ac Hotel By Marriott Chicago Downtown.
+OFFER ( hotel_name = "Ac Hotel By Marriott Chicago Downtown" ; star_rating = "3") & There are 10 hotels available. I recommend a nice hotel with a 3 star rating called Ac Hotel By Marriott Chicago Downtown.
+OFFER ( hotel_name = "Ac Hotel By Marriott Chicago Downtown" ; star_rating = "3") & There are 10 hotels available. I recommend a nice hotel with a 3 star rating called Ac Hotel By Marriott Chicago Downtown.
+CONFIRM ( where_to = "Kuala Lumpur" ; number_of_adults = "1" ; check_in_date = "tomorrow" ; check_out_date = "next Tuesday") & Let's check - reserve a room per 1 person in Kuala Lumpur since tomorrow untill next Tuesday.
+CONFIRM ( where_to = "Kuala Lumpur" ; number_of_adults = "1" ; check_in_date = "tomorrow" ; check_out_date = "next Tuesday") & Let's check - reserve a room per 1 person in Kuala Lumpur since tomorrow untill next Tuesday.
+CONFIRM ( where_to = "Kuala Lumpur" ; number_of_adults = "1" ; check_in_date = "tomorrow" ; check_out_date = "next Tuesday") & Let's check - reserve a room per 1 person in Kuala Lumpur since tomorrow untill next Tuesday.
+CONFIRM ( where_to = "Paris" ; number_of_adults = "1" ; check_in_date = "next Monday" ; check_out_date = "March 12th") & Okay, let me make sure I have this correct. You need to book a house in Paris for 1 person, from next Monday until March 12th. Is that right?
+CONFIRM ( where_to = "Paris" ; number_of_adults = "1" ; check_in_date = "next Monday" ; check_out_date = "March 12th") & Okay, let me make sure I have this correct. You need to book a house in Paris for 1 person, from next Monday until March 12th. Is that right?
+CONFIRM ( where_to = "Paris" ; number_of_adults = "1" ; check_in_date = "next Monday" ; check_out_date = "March 12th") & Okay, let me make sure I have this correct. You need to book a house in Paris for 1 person, from next Monday until March 12th. Is that right?
+movie_ticket ( name_theater = "AMC Empire 25") & AMC Empire 25. War for the Planet of the Apes. Spider-Man: Homecoming. Wonder Woman. Transformers: The Last Knight.
+movie_ticket ( name_theater = "AMC Empire 25") & AMC Empire 25. War for the Planet of the Apes. Spider-Man: Homecoming. Wonder Woman. Transformers: The Last Knight.
+movie_ticket ( name_theater = "AMC Empire 25") & AMC Empire 25. War for the Planet of the Apes. Spider-Man: Homecoming. Wonder Woman. Transformers: The Last Knight.
+movie_search ( streaming_service = "Hulu plus") & Yes, It is there on Hulu plus. You can go through with that in that website. Do you need anything else?
+movie_search ( streaming_service = "Hulu plus") & Yes, It is there on Hulu plus. You can go through with that in that website. Do you need anything else?
+movie_search ( streaming_service = "Hulu plus") & Yes, It is there on Hulu plus. You can go through with that in that website. Do you need anything else?
+movie_search ( name_movie = "Manchester by the Sea") & Manchester by the Sea.
+movie_search ( name_movie = "Manchester by the Sea") & Manchester by the Sea.
+movie_search ( name_movie = "Manchester by the Sea") & Manchester by the Sea.
+movie_search ( character = "Thor" ; real_person = "Tom Hiddleston" ; synopsis = "As the son of Odin) & As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.
+movie_search ( character = "Thor" ; real_person = "Tom Hiddleston" ; synopsis = "As the son of Odin) & As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.
+movie_search ( character = "Thor" ; real_person = "Tom Hiddleston" ; synopsis = "As the son of Odin) & As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.
+movie_search ( name_movie = "Shrek") & And 2nd is Shrek.
+movie_search ( name_movie = "Shrek") & And 2nd is Shrek.
+movie_search ( name_movie = "Shrek") & And 2nd is Shrek.
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "lafayette") & Okay there are 10 results, how about Alissa Scanlin Psyd, a psychologist in lafayette.INFORM_COUNT ( count = "10") & Okay there are 10 results, how about Alissa Scanlin Psyd, a psychologist in lafayette.
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "lafayette") & Okay there are 10 results, how about Alissa Scanlin Psyd, a psychologist in lafayette.INFORM_COUNT ( count = "10") & Okay there are 10 results, how about Alissa Scanlin Psyd, a psychologist in lafayette.
+OFFER ( therapist_name = "Alissa Scanlin Psyd" ; type = "Psychologist" ; city = "lafayette") & Okay there are 10 results, how about Alissa Scanlin Psyd, a psychologist in lafayette.INFORM_COUNT ( count = "10") & Okay there are 10 results, how about Alissa Scanlin Psyd, a psychologist in lafayette.
+INFORM ( street_address = "2100 Forest Avenue # 105" ; phone_number = "408-971-2020") & I have successfully booked your appointment. Their address is 2100 Forest Avenue # 105 and their phone number is 408-971-2020
+INFORM ( street_address = "2100 Forest Avenue # 105" ; phone_number = "408-971-2020") & I have successfully booked your appointment. Their address is 2100 Forest Avenue # 105 and their phone number is 408-971-2020
+INFORM ( street_address = "2100 Forest Avenue # 105" ; phone_number = "408-971-2020") & I have successfully booked your appointment. Their address is 2100 Forest Avenue # 105 and their phone number is 408-971-2020
+CONFIRM ( doctor_name = "Silverstein David S MD" ; appointment_time = "4:30 pm" ; appointment_date = "next Wednesday") & Please confirm: appointment with Silverstein David S MD at 4:30 pm next Wednesday.
+CONFIRM ( doctor_name = "Silverstein David S MD" ; appointment_time = "4:30 pm" ; appointment_date = "next Wednesday") & Please confirm: appointment with Silverstein David S MD at 4:30 pm next Wednesday.
+CONFIRM ( doctor_name = "Silverstein David S MD" ; appointment_time = "4:30 pm" ; appointment_date = "next Wednesday") & Please confirm: appointment with Silverstein David S MD at 4:30 pm next Wednesday.
+OFFER ( dentist_name = "Cosmetic Dentist In Los Gatos - Moradi Signature Smiles - Sedation Dentistry" ; city = "Los Gatos") & In Los Gatos there are 2 dentists, Cosmetic Dentist In Los Gatos - Moradi Signature Smiles - Sedation Dentistry.
+OFFER ( dentist_name = "Cosmetic Dentist In Los Gatos - Moradi Signature Smiles - Sedation Dentistry" ; city = "Los Gatos") & In Los Gatos there are 2 dentists, Cosmetic Dentist In Los Gatos - Moradi Signature Smiles - Sedation Dentistry.
+OFFER ( dentist_name = "Cosmetic Dentist In Los Gatos - Moradi Signature Smiles - Sedation Dentistry" ; city = "Los Gatos") & In Los Gatos there are 2 dentists, Cosmetic Dentist In Los Gatos - Moradi Signature Smiles - Sedation Dentistry.
+INFORM ( address = "2100 Peabody Road") & Your appointment if officially booked. Go to 2100 Peabody Road.
+INFORM ( address = "2100 Peabody Road") & Your appointment if officially booked. Go to 2100 Peabody Road.
+INFORM ( address = "2100 Peabody Road") & Your appointment if officially booked. Go to 2100 Peabody Road.
+OFFER ( departure_time = "6:10 am" ; price = "$31" ; fare_type = "Economy") & There is a 6:10 am bus. The Economy ticket is $31.
+OFFER ( departure_time = "6:10 am" ; price = "$31" ; fare_type = "Economy") & There is a 6:10 am bus. The Economy ticket is $31.
+OFFER ( departure_time = "6:10 am" ; price = "$31" ; fare_type = "Economy") & There is a 6:10 am bus. The Economy ticket is $31.
+OFFER ( leaving_time = "8 am" ; fare = "$69" ; transfers = "1") & There is another one that leaves at 8 am that has 1 transfer and it is $69.
+OFFER ( leaving_time = "8 am" ; fare = "$69" ; transfers = "1") & There is another one that leaves at 8 am that has 1 transfer and it is $69.
+OFFER ( leaving_time = "8 am" ; fare = "$69" ; transfers = "1") & There is another one that leaves at 8 am that has 1 transfer and it is $69.
+OFFER ( leaving_time = "10:50 am" ; fare = "$64" ; transfers = "1") & Yes. There's another bus that leaves at 10:50 am and has 1 transfer. It costs $64.
+OFFER ( leaving_time = "10:50 am" ; fare = "$64" ; transfers = "1") & Yes. There's another bus that leaves at 10:50 am and has 1 transfer. It costs $64.
+OFFER ( leaving_time = "10:50 am" ; fare = "$64" ; transfers = "1") & Yes. There's another bus that leaves at 10:50 am and has 1 transfer. It costs $64.
+OFFER ( departure_time = "6 am" ; price = "$22") & I found 10 buses that suits your need. How about the bus depart at 6 am? it costs around $22.
+OFFER ( departure_time = "6 am" ; price = "$22") & I found 10 buses that suits your need. How about the bus depart at 6 am? it costs around $22.
+OFFER ( departure_time = "6 am" ; price = "$22") & I found 10 buses that suits your need. How about the bus depart at 6 am? it costs around $22.
+INFORM ( to_station = "Union Station" ; from_station = "Anaheim Intermodal Center") & You would leave from the Anaheim Intermodal Center and arrive at Union Station.
+INFORM ( to_station = "Union Station" ; from_station = "Anaheim Intermodal Center") & You would leave from the Anaheim Intermodal Center and arrive at Union Station.
+INFORM ( to_station = "Union Station" ; from_station = "Anaheim Intermodal Center") & You would leave from the Anaheim Intermodal Center and arrive at Union Station.
+OFFER ( temperature = "83" ; precipitation = "9") & The average temperature is predicted to be around 83 degrees Farenheit. There is also a 9 percent chance of rain.
+OFFER ( temperature = "83" ; precipitation = "9") & The average temperature is predicted to be around 83 degrees Farenheit. There is also a 9 percent chance of rain.
+OFFER ( temperature = "83" ; precipitation = "9") & The average temperature is predicted to be around 83 degrees Farenheit. There is also a 9 percent chance of rain.
+OFFER ( temperature = "73" ; precipitation = "29") & Sure thing. On March 1st 2019 the weather is estimated to be 73 degrees Fahrenheit. Please keep in mind there will be a 29 percent chance of rain.
+OFFER ( temperature = "73" ; precipitation = "29") & Sure thing. On March 1st 2019 the weather is estimated to be 73 degrees Fahrenheit. Please keep in mind there will be a 29 percent chance of rain.
+OFFER ( temperature = "73" ; precipitation = "29") & Sure thing. On March 1st 2019 the weather is estimated to be 73 degrees Fahrenheit. Please keep in mind there will be a 29 percent chance of rain.
+OFFER ( temperature = "105" ; precipitation = "0") & The temperature average during the day is 105 degrees Fahrenheit. And there's also a 0 percent chance it will rain.
+OFFER ( temperature = "105" ; precipitation = "0") & The temperature average during the day is 105 degrees Fahrenheit. And there's also a 0 percent chance it will rain.
+OFFER ( temperature = "105" ; precipitation = "0") & The temperature average during the day is 105 degrees Fahrenheit. And there's also a 0 percent chance it will rain.
+INFORM ( humidity = "28") & It should be averaging around 28 percent.
+INFORM ( humidity = "28") & It should be averaging around 28 percent.
+INFORM ( humidity = "28") & It should be averaging around 28 percent.
+OFFER ( temperature = "86" ; precipitation = "21") & The average temperature will be 86 degrees Fahrenheit with a 21 percent chance of rain
+OFFER ( temperature = "86" ; precipitation = "21") & The average temperature will be 86 degrees Fahrenheit with a 21 percent chance of rain
+OFFER ( temperature = "86" ; precipitation = "21") & The average temperature will be 86 degrees Fahrenheit with a 21 percent chance of rain
+INFORM ( ride_fare = "$10.86" ; approximate_ride_duration = "21") & It's a 21 minute ride costing $10.86 total.
+INFORM ( ride_fare = "$10.86" ; approximate_ride_duration = "21") & It's a 21 minute ride costing $10.86 total.
+INFORM ( ride_fare = "$10.86" ; approximate_ride_duration = "21") & It's a 21 minute ride costing $10.86 total.
+CONFIRM ( destination = "1 Letterman Drive" ; number_of_seats = "1" ; ride_type = "Regular") & You want a Regular cab to 1 Letterman Drive for 1 person. Is that right?
+CONFIRM ( destination = "1 Letterman Drive" ; number_of_seats = "1" ; ride_type = "Regular") & You want a Regular cab to 1 Letterman Drive for 1 person. Is that right?
+CONFIRM ( destination = "1 Letterman Drive" ; number_of_seats = "1" ; ride_type = "Regular") & You want a Regular cab to 1 Letterman Drive for 1 person. Is that right?
+CONFIRM ( destination = "2550 south king road" ; ride_type = "Pool") & Okay, please confirm these new details: You want a pool ride to 2550 south king road.
+CONFIRM ( destination = "2550 south king road" ; ride_type = "Pool") & Okay, please confirm these new details: You want a pool ride to 2550 south king road.
+CONFIRM ( destination = "2550 south king road" ; ride_type = "Pool") & Okay, please confirm these new details: You want a pool ride to 2550 south king road.
+CONFIRM ( destination = "Capurro's" ; number_of_seats = "3" ; ride_type = "Pool") & Please confirm the following details: You would like a ride to Capurro's for 3 and you prefer a pool ride.
+CONFIRM ( destination = "Capurro's" ; number_of_seats = "3" ; ride_type = "Pool") & Please confirm the following details: You would like a ride to Capurro's for 3 and you prefer a pool ride.
+CONFIRM ( destination = "Capurro's" ; number_of_seats = "3" ; ride_type = "Pool") & Please confirm the following details: You would like a ride to Capurro's for 3 and you prefer a pool ride.
+CONFIRM ( destination = "5041 Geary Boulevard" ; number_of_seats = "1" ; ride_type = "Regular") & Please confirm the following information: You would like a ride to 5041 Geary Boulevard. You have 1 person in your party. You would like a regular Taxi at your earliest convenience.
+CONFIRM ( destination = "5041 Geary Boulevard" ; number_of_seats = "1" ; ride_type = "Regular") & Please confirm the following information: You would like a ride to 5041 Geary Boulevard. You have 1 person in your party. You would like a regular Taxi at your earliest convenience.
+CONFIRM ( destination = "5041 Geary Boulevard" ; number_of_seats = "1" ; ride_type = "Regular") & Please confirm the following information: You would like a ride to 5041 Geary Boulevard. You have 1 person in your party. You would like a regular Taxi at your earliest convenience.
+restaurant ( business_hours = "On Sundays, the restaurant is closed") & Hi, how can I help you? On Sundays, the restaurant is closed.
+restaurant ( business_hours = "On Sundays, the restaurant is closed") & Hi, how can I help you? On Sundays, the restaurant is closed.
+restaurant ( business_hours = "On Sundays, the restaurant is closed") & Hi, how can I help you? On Sundays, the restaurant is closed.
+restaurant ( offical_description = "It is an upscale restaurant with a large patio, spacious bar and unpretentious service") & One moment. It is an upscale restaurant with a large patio, spacious bar and unpretentious service.
+restaurant ( offical_description = "It is an upscale restaurant with a large patio, spacious bar and unpretentious service") & One moment. It is an upscale restaurant with a large patio, spacious bar and unpretentious service.
+restaurant ( offical_description = "It is an upscale restaurant with a large patio, spacious bar and unpretentious service") & One moment. It is an upscale restaurant with a large patio, spacious bar and unpretentious service.
+restaurant ( type_food = "Appetizers") & Yes they have five different Appetizers to choose from.
+restaurant ( type_food = "Appetizers") & Yes they have five different Appetizers to choose from.
+restaurant ( type_food = "Appetizers") & Yes they have five different Appetizers to choose from.
+restaurant ( type_food = "vegan" ; name_restaurant = "Bean Vegan Cuisine" ; location = "Charlotte, North Carolina") & There is a restaurant offering vegan options called Bean Vegan Cuisine in Charlotte, North Carolina.
+restaurant ( type_food = "vegan" ; name_restaurant = "Bean Vegan Cuisine" ; location = "Charlotte, North Carolina") & There is a restaurant offering vegan options called Bean Vegan Cuisine in Charlotte, North Carolina.
+restaurant ( type_food = "vegan" ; name_restaurant = "Bean Vegan Cuisine" ; location = "Charlotte, North Carolina") & There is a restaurant offering vegan options called Bean Vegan Cuisine in Charlotte, North Carolina.
+restaurant ( name_restaurant = "Hula hut") & Hula hut.
+restaurant ( name_restaurant = "Hula hut") & Hula hut.
+restaurant ( name_restaurant = "Hula hut") & Hula hut.

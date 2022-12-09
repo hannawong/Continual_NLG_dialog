@@ -1,0 +1,40 @@
+OFFER ( attraction_name = "American Church in Paris" ; category = "Place of Worship") & I found 10 attractions I know you'll like. Try the American Church in Paris, a place of worship.
+INFORM ( phone_number = ) & Their phone number is (212) 415-5788.
+OFFER ( attraction_name = "92nd Street Y" ; category = "Performing Arts Venue") & Ok, You should try checking out 92nd Street Y, this is a performing Arts Venue.
+OFFER ( attraction_name = "Museum of Vancouver" ; category = "Museum") & Sure! The Museum of Vancouver is a popular Museum.
+OFFER ( attraction_name = "99 Wonderland Park" ; category = "Park") & I have found 10 attractions in Kuala Lumpur that might interest you. You should check out the park at 99 Wonderland Park.INFORM_COUNT ( count = "10") & I have found 10 attractions in Kuala Lumpur that might interest you. You should check out the park at 99 Wonderland Park.
+CONFIRM ( receiver = "Emma" ; amount = "$18" ; private_visibility = "False") & Ok confirming you are asking for $18 publicly from Emma
+CONFIRM ( payment_method = "credit card" ; amount = "$169" ; receiver = "Yumi" ; private_visibility = "False") & Confirming you want to make a public transaction of $169 to Yumi from your credit card
+CONFIRM ( receiver = "Tom" ; amount = "$130" ; private_visibility = "True") & Confirming your private transaction from Tom for $130
+CONFIRM ( payment_method = "debit card" ; amount = "$73" ; receiver = "Mahmoud" ; private_visibility = "False") & You would like to send Mahmoud $73 from your debit card, and this transaction will be visible to the public, is this correct?
+CONFIRM ( payment_method = "app balance" ; amount = "$34" ; receiver = "Rachel" ; private_visibility = "False") & Confirming a visible public transaction with Rachel in the amount of $34, which will be deducted from your app balance amount.
+restaurant_reservation ( name_restaurant = "press bistro") & the waterboy is described as a Breezy locale for Italian, French & Californian fare with a focus on seasonal, local ingredients. the press bistro is described as a Farm-to-fork restaurant & bar serving Mediterranean cuisine & local wines in a rustic, airy space.
+restaurant_reservation ( time_reservation = "7pm") & Sure, for tomorrow night at 7pm, and for how many people?
+restaurant_reservation ( type_seating = "table" ; type_seating_accept = "booth" ; num_guests_accept = "3" ; time_reservation_accept = "8pm" ; name_restaurant_accept = "in n out") & ok, and did you want a booth or table? ok, i have booked a booth for 3 at 8pm for tomorrow at in n out.
+restaurant_reservation ( name_restaurant = "Seasons 52") & i found BJ's Restaurant & Brewhouse: Family-friendly chain outpost pairs familiar pub fare with an extensive list of house brews. and i also found Seasons 52: Rotating menu of seasonal American dishes alongside international wines in an upscale setting.
+restaurant_reservation ( name_restaurant = "Montesacro SF") & There's a place called Montesacro SF that fits your needs.
+music ( describes_track = "other song by different artists") & Would you like me to play any other song by different artists?
+music ( name_artist = "Snow Patrol") & How about Snow Patrol?
+music ( name_artist = "Pete Tong") & Looks like I found Jimi Hendrix and Pete Tong have you heard of either one of these artist?
+music ( name_artist = "Amy correia") & Okay, sure thing. Have you ever heard of Earl Thomas Conley or Amy correia?
+music ( name_track = "I Could Use a Love Song" ; name_artist = "Maren Morris") & Here is another song called "I Could Use a Love Song" by the second artist Maren Morris.
+CONFIRM ( destination = "Solomon R. Guggenheim Museum" ; number_of_seats = "2" ; ride_type = "Pool") & Kindly confirm- You want a ride to Solomon R. Guggenheim Museum. You want 2 seats. You prefer Pool ride
+CONFIRM ( destination = "4087 Peralta Boulevard" ; number_of_seats = "4") & Sure, please confirm that you want a ride to 4087 Peralta Boulevard for 4.
+INFORM ( wait_time = "2") & Your cab is booked and on its way, arriving in 2 minutes.
+INFORM ( approximate_ride_duration = "12") & Your ride is booked and the cab is coming and the ride will be around 12 minutes long.
+INFORM ( wait_time = "3") & It is on the way to your place will reach you in 3 minutes.
+auto_repair ( date_appt_accept = "monday february 11th" ; time_appt_accept = "8:30am") & thank you. you're all set for monday february 11th at 8:30am.
+auto_repair ( name_customer_accept = "Jason Marx" ; reason_appt_accept = "noise coming from car when turning" ; year_vehicle_accept = "2011" ; name_vehicle_accept = "nissan rogue" ; date_appt_accept = "tomorrow" ; time_appt_accept = "11am") & awesome. To confirm, it's Jason Marx, phone number is 220-472-9229, noise coming from car when turning, 2011 nissan rogue, tomorrow at 11am.
+auto_repair ( year_vehicle_accept = "2009" ; name_vehicle_accept = "bmw 3 series" ; reason_appt_accept = "the car is pulling to the left") & so just to confirm, your 2009 bmw 3 series will be taken to the shop because the car is pulling to the left, did i get that right?
+auto_repair ( date_appt_reject = "February 4th" ; reason_appt_accept = "axle issue" ; name_vehicle_accept = "Subaru Outback" ; year_vehicle_accept = "2010") & Alright. So your appointment for February 4th is because you're having an axle issue with your grey 2010 Subaru Outback.
+auto_repair ( name_customer_accept = "Sally Bundy") & Sally Bundy, is that correct?
+INFORM ( genre = "Pop") & It's labeled as a Pop song.
+CONFIRM ( song_name = "Let Me" ; playback_device = "TV") & Please confirm: You want me to play Let Me on TV.
+CONFIRM ( song_name = "Shiroyama" ; playback_device = "TV") & Shiroyama to the tv, correct?
+OFFER ( song_name = "Everything Nice" ; artist = "Popcaan" ; album = "Where We Come From") & I have found 3 songs which may match your interest. What do you think about Everything Nice by Popcaan, from the album Where We Come From?
+INFORM ( genre = "Pop") & It is a Pop song and the same was started playing for you now.
+INFORM ( to_station = "Fresno Station" ; from_station = "Union Plaza") & Departing from Union Plaza and arriving at Fresno Station.
+OFFER ( leaving_time = "6 am" ; fare = "$44" ; transfers = "0") & Ok, there are 6 buses suitable for you. One departs at 6 am having 0 stops and fare is $44.
+INFORM ( to_station = "Salesforce Transit Center" ; from_station = "Union Station") & Yes, it departs from Union Station and arrives at Salesforce Transit Center.
+INFORM ( destination_station_name = "Pacific Central Station" ; origin_station_name = "King Street Station") & The reservation is confirmed. The bus departs from King Street Station and arrives at Pacific Central Station.
+OFFER ( leaving_time = "8:30 am" ; fare = "$30" ; transfers = "0") & There are 8 possible buses on March 8. The first bus leaves at 8:30 am. It costs $30 per ticket and has 0 transfers.

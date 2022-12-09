@@ -1,0 +1,66 @@
+
+OFFER ( alarm_time = "8:30 am" ; alarm_name = "wake up") @ INFORM_COUNT ( count = "2") & You currently have 2 alarms set, one of which goes off at 8:30 am and has the name wake up
+OFFER ( balance = "$21,183.32" ; account_type = "checking") & Right now your checking stands at $21,183.32
+OFFER ( balance = "$14,228.37" ; account_type = "savings") & $14,228.37 is the balace in your savings account.
+OFFER ( balance = "$8,582.77" ; account_type = "checking") & The balance is $8,582.77 is available in your checking account
+OFFER ( balance = "$8,956.31" ; account_type = "savings") & Your savings account balance is $8,956.31.
+OFFER ( balance = "$13,053.62" ; account_type = "checking") & The balance of your checking account is $13,053.62.
+CONFIRM ( event_name = "Gym" ; event_date = "March 11th" ; event_location = "Community Gym" ; event_time = "9:30 pm") & Please confirm: you want to schedule Gym for March 11th at 9:30 pm in the Community Gym. Is that correct?
+OFFER ( event_date = "March 14th" ; available_start_time = "1 pm" ; available_end_time = "7:30 pm") & From what I can see for March 14th you are going to have free time from 1 pm to 7:30 pm.
+CONFIRM ( event_name = "Movie at Contra Costa Stadium Cinemas" ; event_date = "next Thursday" ; event_location = "555 Center Avenue" ; event_time = "1:15 pm") & The event is Movie at Contra Costa Stadium Cinemas at 555 Center Avenue, which is scheduled for next Thursday at 1:15 pm correct?
+CONFIRM ( event_name = "Appointment with Orthoworks Invisalign And Orthodontic Group" ; event_date = "March 10th" ; event_location = "877 West Fremont Avenue Ste J2" ; event_time = "11 am") & Please confirm the deatils: Event name is Appointment with Orthoworks Invisalign And Orthodontic Group. It is schedule for March 10th and 877 West Fremont Avenue Ste J2. The event is at 11 am.
+OFFER ( event_date = "March 13th" ; available_start_time = "11 am" ; available_end_time = "1:30 pm") & The event starts on March 13th, and you have an empty slot that begins at 11 am and ends at 1:30 pm.
+attraction_inform ( area = "centre" ; choice = "5" ; entrancefee = "4 pounds" ; name = "soul tree nightclub" ; type = "nightclubs") & There are 5 nightclubs in the centre area, the one with the lowest entrance fee is soul tree nightclub which is 4 pounds to get in.
+attraction_recommend ( name = "All Saints Church" ; phone = "01223452587" ; postcode = "cb58bs" ; type = "architecture") & If you are interested in architecture, there is All Saints Church. The phone number is 01223452587 and the postcode is cb58bs.
+attraction_inform ( area = "centre" ; choice = "13" ; entrancefee = "free" ; name = "The downing college" ; type = "colleges") & We have 13 colleges in the centre area. The downing college is one that is free to enter. Would you like more information on this one?
+OFFER ( title = "Knock Down the House") & There are 2: Knock Down the House and The Invisibles.
+OFFER ( title = "The Mustang") @ INFORM_COUNT ( count = "1") & I found 1 - How about The Mustang
+INFORM ( directed_by = "Morton DaCosta") & Started playing the movie. It's directed by Morton DaCosta.
+OFFER ( title = "Say Anything") & What do you think about Say Anything?
+OFFER ( title = "After") & 1 movie was found. You may like After?
+OFFER ( title = "Wild Nights with Emily") @ INFORM_COUNT ( count = "1") & 1 movie  How about Wild Nights with Emily
+CONFIRM ( title = "Green book" ; subtitles = "False") & Confirm Green book with no subtitles
+OFFER ( title = "Body Double") & I have 2 movies you may like. How about Body Double or Citizen Kane?
+OFFER ( title = "Red Joan") & Does Red Joan sound good?
+OFFER ( title = "Teen Spirit") & I've found 1 movie you might enjoy. It's called Teen Spirit.
+OFFER ( movie_name = "The Man Who Knew Too Much") & I see 1 film you might enjoy: The Man Who Knew Too Much.
+OFFER ( movie_title = "Steel Magnolias" ; percent_rating = "70") & I found 10 options for you. How do you feel about Steel Magnolias? It's rating is 70 percent.
+OFFER ( show_time = "10 pm" ; theater_name = "Century Vallejo 14") & There is 1 showtime for this movie at 10 pm in Century Vallejo 14.
+OFFER ( movie_name = "Stockholm") & There's 1 movie playing that matches your criteria: Stockholm.
+OFFER ( show_time = "10 pm" ; theater_name = "CineLux Tennant Station Stadium 11") & I found 1 time that the movie is showing. There is a show beginning at 10 pm in CineLux Tennant Station Stadium 11.
+OFFER ( show_time = "7:30 pm" ; theater_name = "THE LOT City Center") & There's 1 showtime at 7:30 pm in THE LOT City Center.
+OFFER ( movie_title = "Steel Magnolias" ; percent_rating = "70") & There is 1 movie available. Would you like to see Steel Magnolias? it has a rating of 70 percent.
+OFFER ( show_time = "9 pm" ; theater_name = "AMC Brentwood 14") & There's a Pet Sematary show at 9 pm in AMC Brentwood 14.
+OFFER ( movie_name = "Long Shot") & I found 2 movies. What do you think about Long Shot or Missing Link?
+OFFER ( title = "After" ; aggregate_rating = "5.8") & I've found 5 movies that match that criteria. How about After? The average rating of this movie is 5.8.
+OFFER ( show_time = "7 pm" ; theater_name = "Roxie Theater") @  I fond 1 showtimes for the movieINFORM_COUNT ( count = "1") & There's one show at 7 pm in Roxie Theater
+OFFER ( movie_title = "The Art of Racing in the Rain" ; percent_rating = "43") @ INFORM_COUNT ( count = "1") & I found 1 movie  The Art of Racing in the Rain has a 43 percent rating
+OFFER ( show_time = "10:30 pm" ; theater_name = "AMC Mercado 20") & found 1 show time that is at 10:30 pm in AMC Mercado 20.
+OFFER ( movie_name = "Breakthrough") & 5 movies are playing in Fairfield.  Would you like to watch Breakthrough, Dumbo, or Hellboy?
+OFFER ( show_time = "4 pm" ; theater_name = "Rheem Theatre") & There is only 1 show at the Rheem Theatre at 4 pm that day.
+OFFER ( movie_name = "Hellboy") & Do you want to watch Hellboy, High Life or How to Train Your Dragon: The Hidden World?
+OFFER ( movie_name = "Dumbo") & Does Dumbo, Hotel Mumbai, or Shazam! sound good?
+INFORM ( price = "$9") & The ticket price is $9 per person.
+OFFER ( pickup_location = "30th Street Station" ; pickup_date = "next Friday" ; car_type = "Standard" ; car_name = "Chevrolet Cruze") & There is a Standard Chevrolet Cruze available at 30th Street Station on next Friday. It is a nice car.
+OFFER ( pickup_location = "John Wayne Airport" ; pickup_date = "today" ; car_type = "Standard" ; car_name = "Chevrolet Cruze") @ INFORM_COUNT ( count = "6") & I have 6 cars  One available at John Wayne Airport today  A standard Chevrolet Cruze
+OFFER ( pickup_location = "Seattle-Tacoma International Airport" ; pickup_date = "next Friday" ; car_type = "Standard" ; car_name = "honda civic") & There are 4 cars. There's a standard honda civic available at Seattle-Tacoma International Airport next Friday?
+OFFER ( pickup_location = "Indira Gandhi International Airport" ; pickup_date = "today" ; type = "Standard" ; car_name = "Accord") & This is a car available today at Indira Gandhi International Airport. It's a standard Accord car.
+OFFER ( pickup_location = "Union station" ; pickup_date = "March 11th" ; car_type = "Standard" ; car_name = "Chevrolet Cruze") @  There's a neat little standard Chevrolet Cruze at Union station available on March 11thINFORM_COUNT ( count = "6") & There are 6 cars that might work for you
+OFFER ( pickup_location = "YVR International Airport" ; pickup_date = "next Tuesday" ; type = "Standard" ; car_name = "Accord") & I've found 7 cars that you might like. There's a nice one avaliable at YVR International Airport for pickup on next Tuesday. It is a Standard cas, an Accord.
+OFFER ( pickup_location = "PDX International Airport" ; pickup_date = "tomorrow" ; type = "Standard" ; car_name = "Accord") @ INFORM_COUNT ( count = "7") & There are 7 cars  There is a standard car available at PDX International Airport available for pickup tomorrow  It is an Accord
+OFFER ( pickup_location = "Toronto Pearson International Airport" ; pickup_date = "next Monday" ; type = "Compact" ; car_name = "Cooper") & Okay. The search has yielded 8 cars that might interest you. What do you think about the Compact Cooper available for pickup from Toronto Pearson International Airport, next Monday?
+INFORM ( total_price = "$87") & The booking of this specific car will cost you $87.
+OFFER ( pickup_location = "Sky Harbor International Airport" ; pickup_date = "March 9th" ; car_type = "Standard" ; car_name = "Honda Accord") @ INFORM_COUNT ( count = "3") & I have 3 cars you might like  One is at Sky Harbor International Airport, it's a Standard Honda Accord available March 9th
+OFFER ( pickup_location = "SFO international airport" ; pickup_date = "March 10th" ; type = "Standard" ; car_name = "ALtima") & I located 6 cars for you at SFO international airport for standard ALtima pick up from March 10th
+taxi_inform ( phone = "07906334474" ; type = "blue tesla") & its booked! it is a blue tesla and the contact number is 07906334474
+taxi_inform ( phone = "07344292445" ; type = "blue Honda") & The car is a blue Honda and the contact number is 07344292445. Anything else I can help with?
+taxi_inform ( type = "yellow BMW") & Okay. I have a yellow BMW available. Would you like to book that?
+CONFIRM ( destination = "Solomon R. Guggenheim Museum" ; number_of_seats = "2" ; ride_type = "Pool") & Kindly confirm- You want a ride to Solomon R. Guggenheim Museum. You want 2 seats. You prefer Pool ride
+CONFIRM ( destination = "4087 Peralta Boulevard" ; number_of_seats = "4") & Sure, please confirm that you want a ride to 4087 Peralta Boulevard for 4.
+INFORM ( wait_time = "2") & Your cab is booked and on its way, arriving in 2 minutes.
+OFFER ( temperature = "87" ; precipitation = "28") & It should be around 87 degrees Fahrenheit with a 28 percent chance of rain.
+train_inform ( choice = "several" ; leaveat = "13:29" ; trainid = "TR2402") & Alright, I have several options for you. The earliest train that meets your criteria is TR2402 and leaves at 13:29. Will that work?
+train_inform ( arriveby = "10:43" ; trainid = "TR2860") & TR2860 arrives at 10:43.
+train_inform ( trainid = "TR7878") & The train ID is TR7878. Is there anything else I can assist you with?
+train_inform ( duration = "60 minutes") & Travel time will be 60 minutes.
+train_inform ( arriveby = "14:08" ; arriveby = "15:08" ; choice = "two") & I have two trains that would suit you. One arrives at 14:08 and the other at 15:08. Do you have a preference?

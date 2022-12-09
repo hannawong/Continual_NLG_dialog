@@ -108,12 +108,12 @@ def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sa
             training = open("data/"+domain_names[prev_task_id]+"/train.txt").read().split("\n")
 
             if domain_names[prev_task_id] not in prompt:
-                prompt[domain_names[prev_task_id]] = domain_names[prev_task_id].split("_")[1]
+                prompt[domain_names[prev_task_id]] = domain_names[prev_task_id].split("_")[-1]
             replay_buffer = []
             cnt = 0
             while True:
-                context_tokens = tokenizer.encode("["+domain_names[prev_task_id][4:]+"]", add_special_tokens=False)
-                print("["+domain_names[prev_task_id][4:]+"]")
+                context_tokens = tokenizer.encode("["+domain_names[prev_task_id]+"]", add_special_tokens=False)
+                print("["+domain_names[prev_task_id]+"]")
                 out = sample_sequence(
                         args,
                         model=model,
@@ -158,7 +158,7 @@ def generate_replay(args,task_id,domain_names,tokenizer,model,mode = "REPLAY",sa
     
         for sentence in choose: 
             augs = []
-            for i in range(1):    
+            for i in range(2):    
                 if args.aug_method == "replace":
                     aug = synonym_replacement(sentence.split(),min(1,int(len(sentence.split())*0.1)))
                     aug = " ".join(aug)

@@ -37,6 +37,7 @@ MODEL_CLASSES = {
 topic_dic = {1: "Ordinary_Life", 2: "School_Life", 3: "Culture_and_Education",
                         4: "Attitude_and_Emotion", 5: "Relationship", 6: "Tourism" , 7: "Health", 8: "Work", 9: "Politics", 10: "Finance"}
 prompt = {}
+rank_list = []
 
 class TextSeqDataset(Dataset):
     def __init__(self, tokenizer, args, file_paths,max_seq=80,mode = "train",with_lamol = False,with_replay = False, task_id = -1,task_name = "", examples = []):
@@ -106,7 +107,7 @@ class TextSeqDataset(Dataset):
                         self.is_replay.append(0)   
                     raw_str = line.lower() ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced
                     if with_lamol:
-                      raw_str_lamol = "["+task_name.split("_")[1]+"] "+ prompt[task_name]+" "+line.lower() if task_name in prompt else  "["+task_name.split("_")[1]+"] "+ task_name.split("_")[1]+" "+line.lower()
+                      raw_str_lamol = "["+task_name.split("_")[-1]+"] "+ prompt[task_name]+" "+line.lower() if task_name in prompt else  "["+task_name.split("_")[-1]+"] "+ task_name.split("_")[-1]+" "+line.lower()
                     if len(raw_str.split()) > max_seq -1: ##截断
                         raw_str = ' '.join(raw_str.split()[:max_seq -1])
                     raw_str += ' ' + tokenizer.eos_token ##inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced <|endoftext|>
@@ -268,7 +269,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
             if len(train_dataloader) == 1:
                 mix_step = [0]
             else:
-                mix_step = list(np.random.randint(0,len(train_dataloader)-1,int(len(replay_dataloader)*1)))
+                mix_step = list(np.random.randint(0,len(train_dataloader)-1,int(len(replay_dataloader)*1.5)))
 
         for step, batch in enumerate(tqdm(train_dataloader)):
             if step % 100 == 0:
@@ -281,7 +282,11 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
 
             model.train()
 
-            _,loss = model(inputs, labels=labels,task_id = task_id,BNM = args.BNM and task_id >= 1,length = length,is_replay = is_replay)  ###inputs:[32,80], labels:[32,80]
+            rank,loss = model(inputs, labels=labels,task_id = task_id,BNM = args.BNM and task_id >= 1,length = length,is_replay = is_replay)  ###inputs:[32,80], labels:[32,80]
+            global rank_list
+            if args.BNM and task_id >= 1:
+                rank_list.append(rank.item())
+                
             #if args.BNM: print("matrix rank is:", _)
             ###################### EWC ########################
             if args.EWC and task_id >= 1:  ####add EWC loss to original loss
@@ -459,9 +464,9 @@ def evaluate(args, model, eval_dataset,task_id,tokenizer,domain):
                         next_token_logits = outputs[:,-1, :]
                         next_tokens = torch.argmax(next_token_logits, dim=-1).unsqueeze(0)
                         generated = torch.cat((generated, next_tokens), dim=1)
-                    out = out[:, len(tokenized_text):].tolist() ###只取生成的后面
+                    generated = generated[:, len(tokenized_text):].tolist() ###只取生成的后面
                     examples = []
-                    for o in out:
+                    for o in generated:
                         text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
                         text = text[: text.find('<|endoftext|>')] ##只取到<endoftext>之前
                         examples.append(text)
@@ -775,9 +780,9 @@ def main():
                 if args.replay:
                     generate_replay(args,task_id=task_id+1,domain_names=domains,tokenizer=tokenizer,model = model,mode = "REPLAY" if not args.lamol else "LAMOL",sample_size = 5)
             
-            for task_id,domain in enumerate(args.eval_data_file.split(",")):
-                eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test",task_id=task_id,task_name=domain)
-                evaluate(args, model, eval_dataset,task_id,tokenizer,domain)
+            #for task_id,domain in enumerate(args.eval_data_file.split(",")):
+            #    eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test",task_id=task_id,task_name=domain)
+            #    evaluate(args, model, eval_dataset,task_id,tokenizer,domain)
             save_model_and_tokenizer(args,model,tokenizer)
         if args.test:
             model,tokenizer = load_model_and_tokenizer(args,model_class,tokenizer_class)
@@ -793,7 +798,8 @@ def main():
             model,tokenizer = load_model_and_tokenizer(args,model_class,tokenizer_class)
             if args.dataset == "dailydialog":
                 evaluate_dailydialog(args,model,tokenizer,args.eval_data_file.split(","))
-
-
+    #with open('outputs/daily_bnm0.0.npy', 'wb') as f:
+    #    np.save(f, np.array(rank_list))
+##bnm0: 1.0
 if __name__ == "__main__":
     main()

@@ -6,4 +6,10 @@ gpt/
 nohup*
 all-*
 relex*
-data/
+result*
+my.txt
+ref.txt
+seed1_domain.txt
+task0.png
+tmp.py
+prepare_files.py

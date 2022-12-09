@@ -1,0 +1,5 @@
+OFFER ( attraction_name = "Crystal Springs Rhododendron Garden" ; category = "Park") & I've found 10 attractions, one of these is a Park: Crystal Springs Rhododendron GardenINFORM_COUNT ( count = "10") & I've found 10 attractions, one of these is a Park: Crystal Springs Rhododendron Garden
+INFORM ( good_for_kids = "True" ; free_entry = "False") & no entry to the place is is not free of cost and it is a nice place to take kids
+INFORM ( phone_number = "20 8365 2121" ; good_for_kids = "True") & Their number is 20 8365 2121. It's very child friendly, they'd have a blast there.
+OFFER ( attraction_name = "Cable Car Museum" ; category = "Museum") & I've found 10 that could interest you. How about the Cable Car Museum?INFORM_COUNT ( count = "10") & I've found 10 that could interest you. How about the Cable Car Museum?
+OFFER ( attraction_name = "Saint Thomas Church Fifth Avenue" ; category = "Place of Worship") & I've found 5 that would work. The first is Saint Thomas Church Fifth Avenue, which is another Place of Worship.

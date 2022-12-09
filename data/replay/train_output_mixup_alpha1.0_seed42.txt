@@ -1,0 +1,40 @@
+hotel_inform ( choice = "14" ; internet = "yes" ; name = "Avalon" ; parking = "yes" ; stars = "4") & There are 14 options. How about the Avalon? It has 4 stars and free parking and wifi.
+hotel_inform ( choice = "19" ; type = "guest houses" ; type = "hotels") & I have 19 hotels or guest houses throughout the city that meet your needs. Can you tell me if you want a hotel or a guest house?
+hotel_inform ( choice = "several") & I have several places that meet your criteria. Do you have an area you are interested in?
+hotel_inform ( parking = "yes") & I need a hotel with FREE parking
+hotel_recommend ( choice = "several") & There are several nice guesthouses I can recommend. Are you looking for a specific location?
+uber_lyft ( type_ride_reject = "pool" ; type_ride = "UberX" ; price_estimate = "$6.02") & got it, i'm not seeing a pool available for this ride, an UberX will cost $6.02, is that ok?
+uber_lyft ( type_ride = "shared ride" ; price_estimate = "$15 to $18") & the shared ride ranges from $15 to $18.
+uber_lyft ( price_estimate_accept = "$19.33") & that would be $19.33.
+uber_lyft ( type_ride_accept = "UberXL" ; price_estimate_accept = "18 and 22 dollars") & For the UberXL, which has space to up to 6 people, the rate currently shows between 18 and 22 dollars.
+uber_lyft ( price_estimate_accept = "$12.45" ; type_ride = "uber xl") & Great. That's $12.45 for an uber xl ok?
+restaurant_reservation ( name_restaurant = "Rintaro" ; time_reservation = "9 pm") & Sure. Ozumo closes at 2:30 pm and reopens at 5:50 pm. it'll be open until 11 pm. Rintaro is open until 2 pm. and then reopens for dinner at 5 pm. it'll close at 9 pm.
+restaurant_reservation ( time_reservation = "5:30 pm") & let me check for you. it looks like they have a 5:30 pm table available, will that work?
+restaurant_reservation ( name_restaurant_accept = "Delarosa") & Delarosa is a pizzaria, is that what you're looking for?
+restaurant_reservation ( location_restaurant = "sacramento") & ok a restaurant in sacramento is that correct?
+restaurant_reservation ( location_restaurant = "Sacremento") & in Sacremento?
+attraction_inform ( name = "Broughton House Gallery" ; postcode = "cb11ln") & The postcode for Broughton House Gallery is cb11ln. Is there anything else you need?
+attraction_inform ( address = "Market Square" ; area = "center of town" ; entrancefee = "2 pounds" ; name = "Great Saint Mary's Church" ; postcode = "cb23pq") & Yes I can! Great Saint Mary's Church is located in the center of town at Market Square in postcode cb23pq. The entry fee is 2 pounds.
+attraction_inform ( area = "west part of town" ; choice = "5" ; type = "colleges") & Sure, there are 5 colleges in the west part of town. How about Clare College?
+attraction_inform ( choice = "many" ; type = "churches" ; type = "old schools") & There are many churches and old schools in town, what would you like to see?
+attraction_recommend ( area = "south" ; choice = "only" ; entrancefee = "free" ; name = "byard art" ; type = "museum") & The byard art is the only museum in the south and the entrance fee is free.
+OFFER ( balance = "$10,588.74" ; account_type = "checking") & Your checking account balance is $10,588.74
+CONFIRM ( account_type = "savings" ; amount = "$120" ; recipient_account_name = "Raghav" ; recipient_account_type = "checking") & Confirm; transfer $120 from my savings account to Raghav's checking account.
+OFFER ( balance = "$11,637.69" ; account_type = "savings") & The balance in your savings account is $11,637.69.
+OFFER ( balance = "$5,788.27" ; account_type = "checking") & $5,788.27 in your checking account.
+INFORM ( transfer_time = "1") & Your transfer has successfully been initiated. It will take 1 business day for the transfer to complete.
+CONFIRM ( receiver = "Jerry" ; amount = "$120" ; private_visibility = "False") & $120 to Jerry, with a transaction visible to the public: do you confirm?
+CONFIRM ( payment_method = "credit card" ; amount = "$16" ; receiver = "Isabella" ; private_visibility = "False") & please give confirmation details:You want to transfer the amount of $16 from your credit card to Isabella with visible transaction to the public.
+CONFIRM ( payment_method = "credit card" ; amount = "$31" ; receiver = "Rachel" ; private_visibility = "False") & Please confirm that you would like to make a transaction from your credit card in the amount of $31 to Rachel and you would like your transaction visible to the public.
+CONFIRM ( payment_method = "debit card" ; amount = "$16" ; receiver = "Mary" ; private_visibility = "True") & Confirming this private $16 transfer from your debit card to Mary
+CONFIRM ( payment_method = "credit card" ; amount = "$119" ; receiver = "Svetlana" ; private_visibility = "False") & Please verify the following information: you will make a publicly visible transaction with Svetlana by sending her $119 from your credit card.
+taxi_inform ( phone = "07889414601" ; type = "blue bmw") & You are booked for a blue bmw with the contact number 07889414601.
+taxi_inform ( phone = "07602572766" ; type = "blue volkswagen") & Your taxi is booked. Your car is a blue volkswagen and contact number is 07602572766
+taxi_inform ( phone = "07817450562" ; type = "grey Honda") & Your grey Honda is booked, and the contact number for the driver is 07817450562. Can I do anything else for you today?
+taxi_inform ( phone = "07820748832" ; type = "black bmw") & Taxi has been booked and it is a black bmw and the contact number is 07820748832. Can I help you with anything else?
+taxi_inform ( type = "grey lexus") & Your booking is complete. A grey lexus will pick you up.
+flight_detail ( from_time = "7:45 a.m." ; to_time = "4:07 p.m." ; stops = "nonstop") & 13 flight leaves at 7:45 a.m. and returns home at 4:07 p.m. and that is a nonstop flight.
+flight_detail ( airline = "Alaskan" ; from_time = "8 AM" ; to_time = "4:38 PM" ; fare = "$491" ; stops = "nonstop") & One moment! There's an Alaskan Airline flight leaving at 8 AM arriving at 4:38 PM round trip for $491 this is a nonstop flight.
+flight_detail ( from_time = "4:34 p.m") & It departs at 4:34 p.m.
+flight_detail ( from_time = "3:30 p.m") & Better hurry its at 3:30 p.m.
+flight_detail ( fare = "$751") & The ticket is $751.

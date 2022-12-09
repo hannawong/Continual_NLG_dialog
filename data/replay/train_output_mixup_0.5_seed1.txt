@@ -1,0 +1,400 @@
+INFORM ( phone_number = "312-374-8790" ; good_for_kids = "True") & Indeed, the museum is friendly to children, and the contract number is 312-374-8790.
+restaurant_reservation ( name_restaurant = "Cesario's") & let me take a look I found Marcella's Lasagneria, Perbacco and Cesario's.
+restaurant_reservation ( name_restaurant = "jack's urban eats") & sure, let me find one. i found one called jack's urban eats. it is described as a Eclectic salads & sandwiches are the focus of this chill counter-serve chain with beer & wine.
+restaurant_reservation ( name_restaurant = "PHO HUYNH SANG") & Okay, let me see what I can find. Perilla might be the place for you, many reviews rave about their Garlic noodles. But there is also PHO HUYNH SANG which offers a large variety of vegetarian foods.
+restaurant_reservation ( name_restaurant = "Wayfare Tavern" ; location_restaurant_accept = "Sacramento Street") & The second one is Wayfare Tavern on Sacramento Street.
+restaurant_reservation ( location_restaurant = "downtown") & Sure, got it! should the restaurant be close to downtown?
+restaurant_reservation ( location_restaurant = "sacramento") & ok, what part of sacramento are you in?
+restaurant_reservation ( reservation_accept = "confirmed" ; time_reservation_accept = "friday, march 15th at 8:30pm" ; num_guests_accept = "2" ; name_restaurant_accept = "manzoni") & ok. your reservation is confirmed for friday, march 15th at 8:30pm for 2 people' at manzoni.
+restaurant_reservation ( name_restaurant = "the little chihuahua") & that would be the little chihuahua.
+restaurant_reservation ( num_guests_accept = "2 People" ; name_restaurant_accept = "Matador" ; time_reservation_accept = "5 pm tonight") & So I have a reservation for 2 People at Matador at 5 pm tonight anything else?
+restaurant_reservation ( name_restaurant = "Seasons 52") & i found: Buckhorn Grill, a Family-friendly chain offering large portions of steaks, sandwiches, burgers & other American fare. and i also found: Seasons 52, Rotating menu of seasonal American dishes alongside international wines in an upscale setting.
+restaurant_reservation ( name_restaurant = "paesanos") & paesanos have 4.4 star rating.
+restaurant_reservation ( name_restaurant = "tommaso's" ; location_restaurant_accept = "downtown san francisco.") & tommaso's is near downtown san francisco.
+restaurant_reservation ( name_restaurant_accept = "alegrias" ; time_reservation_accept = "friday, february 1st at 8:00pm" ; num_guests_accept = "8") & ok, your reservation at alegrias is confirmed for friday, february 1st at 8:00pm for 8 people.
+restaurant_reservation ( num_guests_accept = "3 people" ; name_restaurant_accept = "Baby Blues BBQ" ; time_reservation_accept = "6 pm") & got it. One moment. So I have a table for 3 people at Baby Blues BBQ at 6 pm tomorrow.
+restaurant_reservation ( location_restaurant_accept = "san francisco") & mexican restaurant in san francisco is that right?
+restaurant_reservation ( name_restaurant = "Piatti") & i found The Cheesecake Factory: American chain restaurant offering sizable portions from a vast menu including signature cheesecake. i also found Piatti: Traditional Italian trattoria with an open kitchen & pizzas from a stone-hearth oven. and Dos Coyotes Border Cafe: Colorful local chain cafe serving Mexican & Southwestern favorites, salsa & seasonal specials.
+restaurant_reservation ( num_guests = "3" ; time_reservation = "7 p.m") & Okay, great! I'll note that on the reservation! one moment You're table for 3 at 7 p.m. has been confirmed. You can see the details on your mobile device as well as the address to the restaurant.
+restaurant_reservation ( name_restaurant = "The Rind") & The last one is The Rind. which offers, Beer, wine & cheese are the draw this urbane, warm-hued bar with tastings & seasonal cafe bites.
+restaurant_reservation ( name_restaurant_accept = "china fun express") & china fun express has 3.8 stars.
+restaurant_reservation ( name_restaurant = "Pearl's") & Pearl's has been reviewed by just over 800.
+restaurant_reservation ( name_restaurant = "waterfront restaurant") & most definitely, alioto's has a 4.0 star rating and 1394 google reviews, while waterfront restaurant has a 4.1 star rating and 721 reviews on google.
+restaurant_reservation ( name_restaurant = "firepie") & one moment please. ok, i found a few options. the first is little star pizza. Busy chain outpost known for deep-dish pies with a cornmeal crust also turns out thin-crust pizza. the second is called fire pie. unfortunately firepie does have a description online.
+restaurant_reservation ( type_seating = "outdoor") & sure, did you have any specifications i should look up as well? for example, outdoor seating.
+restaurant_reservation ( location_restaurant = "arden fair mall") & ok, what part of sacramento are you in? i'm sorry, i didn't get that. did you say arden fair mall?
+restaurant_reservation ( name_restaurant = "carmel pizza company") & are there any other characteristics you would like the restaurant to have? ok, let me find a few options for you, one moment. i found golden boy pizza and carmel pizza company, would you like to hear more about each?
+music ( name_artist = "Rage Against the Machine" ; name_track = "sleep now in the fire") & Okay. Here is Rage Against the Machine sleep now in the fire.
+music ( name_artist = "Smash Mouth" ; name_track = "Stoned") & Smash Mouth - Stoned.
+music ( name_genre = "Christmas" ; name_artist = "Led Zeppelin") & Here's the Popular Christmas song by Led Zeppelin.
+music ( name_artist = "Trace Adkins") & How about Trace Adkins?
+music ( name_artist = "Oceans Ate Alaska" ; name_track = "Hansha") & Here is Wage War - Stitch. Here is Wage War - Stitch. And Oceans Ate Alaska - Hansha.
+music ( name_track = "Rico Suave" ; name_artist = "Gerardo") & Okay. Rico Suave by Gerardo.
+music ( name_album = "La Bicicleta" ; name_artist = "Shakira") & Here is La Bicicleta by Carlos Vives and Shakira.
+music ( name_track = "Half Of My Heart" ; name_artist = "John Mayer") & "Half Of My Heart" - John Mayer.
+music ( name_track = "the bottle" ; name_artist = "Jill Scott Heron") & How can I help you? Here is Jill Scott Heron performing the bottle.
+music ( name_album = "the Psychedelic Furs" ; name_track = "Flowers") & One second. Here is Flowers by the Psychedelic Furs.
+music ( name_track = "Free Fallin" ; name_artist = "tom petty") & Okay, how about the song Free Fallin by tom petty?
+music ( name_album = "Chained to the rhythm" ; name_artist = "Katy Perry") & One moment. Here is Chained to the rhythm by Katy Perry.
+music ( name_artist = "New Edition") & What about New Edition?
+music ( name_track = "Panama) & Sure. Panama (2015 Remastered Version).
+music ( name_track = "Close Your Eyes" ; name_artist = "Michael Buble") & Here is your song, Close Your Eyes by Michael Buble.
+music ( name_track = "Faint" ; describes_artist = "Linkin Park") & Faint by Linkin Park. Okay, Bye.
+music ( name_track = "24 Karat Magic" ; name_artist = "Bruno Mars") & Here is 24 Karat Magic by Bruno Mars.
+music ( name_artist = "Bones" ; name_track = "Keep Telling Yourself That") & Keep Telling Yourself That by Bones.
+music ( name_track = "Live Forever") & Here's the song Live Forever.
+music ( name_artist = "Oasis" ; name_track = "D’You Know What I Mean") & Here is Oasis - D’You Know What I Mean?
+music ( name_artist = "Of Monsters and Men") & Hi, how can I assist you? Here is the song list by Of Monsters and Men.
+music ( name_track = "An Hour Too Late" ; name_artist = "Four Hundred Years") & Here is An Hour Too Late by Four Hundred Years.
+music ( name_artist = "Paper Route") & Have you heard about the artist Need To Breathe or Paper Route?
+music ( name_artist = "Nirvana" ; name_track = "Floyd The Barber") & Nirvana Floyd The Barber.
+music ( describes_track = "a cover of the song") & So, a cover of the song?
+music ( name_artist = "Hoodie Allen") & I can do that. One second. Have you heard of the artist Mario or Jessie J? How about Hoodie Allen?
+music ( name_track = "Fifteen" ; name_artist = "Taylor Swift") & Sure thing, let me see what I can find for you. One second. Here is Fifteen by Taylor Swift.
+music ( name_track = "Popular Song" ; name_artist = "MIKA") & Hold, just a moment. Popular Song ft. Ariana Grande by MIKA.
+music ( name_track = "Treetlight Manifesto - Sick and Sad") & One second. Here is Treetlight Manifesto - Sick and Sad.
+music ( name_artist = "Aloe Blacc" ; name_track = "Wake Me Up") & Aloe Blacc - Wake Me Up.
+music ( name_track = "Into the Mystic" ; name_artist = "Van Morrison") & No problem. Hold on, here is Into the Mystic by Van Morrison.
+music ( name_artist = "Def Leppard") & What about Def Leppard?
+music ( name_track = "I Can't Make You Love Me" ; name_artist = "Bonnie Raitt") & I Can't Make You Love Me by Bonnie Raitt.
+music ( name_artist = "Aaliyah" ; name_album = "I Care For You") & Okay, let me play you something by Aaliyah. Here is the song I Care For You by Aaliyah.
+music ( describes_track = "older song") & Here is an older song by them.
+music ( describes_track = "good one") & It's a good one. I agree.
+music ( name_artist = "Layer" ; name_track = "Raining Blood") & Here is your song. Layer - Raining Blood.
+music ( name_artist = "Deer Tick") & Just one moment. Have you listened to Deer Tick?
+music ( name_artist = "Dying Fetus" ; name_track = "Kill Your Mother Rape Your Dog") & Here is Dying Fetus Kill Your Mother Rape Your Dog.
+music ( name_artist = "Madina Lake") & Sure. One second. Have you listened to Madina Lake?
+music ( name_track = "The Christmas Song" ; name_album = "Michael Bublé") & The Christmas Song by Michael Bublé.
+music ( name_artist = "Tom Petty") & Let me find a song by Tom Petty.
+INFORM ( ride_fare = "$15.25" ; wait_time = "7") & Your cab will be there in 7 minutes and will cost $15.25.
+CONFIRM ( destination = "3136 Contra Loma Boulevard" ; number_of_riders = "2" ; shared_ride = "True") & Shall I book a shared cab for 2 people to 3136 Contra Loma Boulevard?
+CONFIRM ( destination = "2217 Market Street" ; ride_type = "Pool") & Can you confirm the details? You want to go to 2217 Market Street on a Pool ride.
+auto_repair ( date_appt = "thursday, february 28th" ; time_appt = "8:30am") & their next availability is thursday, february 28th at 8:30am.
+auto_repair ( name_vehicle = "nissan rogue") & great, and what year was your nissan rogue?
+auto_repair ( name_customer_accept = "Nancy") & Let me make sure i got that right: Nancy, 313 673 4855.
+auto_repair ( year_vehicle_accept = "2010" ; name_vehicle_accept = "toyota corolla" ; date_appt_accept = "tomorrow" ; time_appt_accept = "before 8:30am" ; reason_appt_accept = "tune up") & so let me confirm everything: you are taking your 2010 toyota corolla tomorrow before 8:30am for a tune up, is this accurate?
+auto_repair ( name_customer = "joseph") & awesome, thanks joseph. and what's a good number to reach you at?
+auto_repair ( year_vehicle_accept = "2011" ; name_vehicle_accept = "Nissan Rogue" ; date_appt_accept = "Monday" ; time_appt_accept = "8:30 am" ; reason_appt_accept = "leaking oil") & Great. Just to confirm. That's an appointment for a 2011 Nissan Rogue that's getting seen Monday at 8:30 am to find out why it's leaking oil.
+auto_repair ( name_customer = "you spe") & Can you spell your last name please?
+auto_repair ( reason_appt = "a tune up") & got it. i'll categorize it as a tune up appointment. when did you want to go in?
+auto_repair ( location_store_accept = "39 E 4th Ave San Mateo, CA 94401.") & The address is, 39 E 4th Ave San Mateo, CA 94401.
+auto_repair ( year_vehicle = "2010" ; name_vehicle = "Subaru Outback" ; reason_appt_accept = "lights out") & So the issue is that your 2010 Subaru Outback has lights out, correct?
+auto_repair ( date_appt = "January 25th.") & Alright! how about This friday? January 25th.
+auto_repair ( location_store_accept = "555 lincoln ave") & ok. they are located at 555 lincoln ave. can you confirm that address?
+auto_repair ( name_vehicle = "audi") & what year is the audi?
+auto_repair ( name_vehicle = "mercedes" ; reason_appt = "a regular tune up") & i'll write in the notes that your mercedes needs a regular tune up.
+auto_repair ( reason_appt_accept = "tuneup") & Awesome! Okay, so the fee for a tuneup will be $89, is that okay with you?
+auto_repair ( date_appt = "next monday" ; time_appt = "8:30am") & it looks like they are fully booked this week, the next available appointment will be next monday at 8:30am, is that ok?
+auto_repair ( year_vehicle_accept = "2014" ; name_vehicle_accept = "accura rdx" ; reason_appt_accept = "several lights out") & so, let me confirm what you said: your 2014 accura rdx has several lights out, correct?
+auto_repair ( date_appt_accept = "next Monday" ; time_appt_accept = "8:30 am" ; year_vehicle_accept = "2010" ; name_vehicle_accept = "Subaru Outback" ; reason_appt_accept = "that stalls when idle for too long") & Ok, I have booked an appointment for next Monday at 8:30 am for your 2010 Subaru Outback that stalls when idle for too long, is that correct?
+auto_repair ( date_appt_accept = "14th" ; time_appt_accept = "8:30am") & ok. you're all set for thursday the 14th at 8:30am.
+auto_repair ( time_appt = "8:30am.") & the shop requires customers to bring their vehicle before 8:30am.
+auto_repair ( name_vehicle = "subaru") & why do you need to bring your subaru into the shop?
+INFORM ( genre = "pop") & It is a pop song. Please enjoy!
+OFFER ( song_name = "Sucker" ; artist = "Jonas Brothers" ; album = "Happiness Begins") & I've got 1 song for you. It's Sucker by The Jonas Brothers from Happiness Begins.
+INFORM ( year = "2017") & 2017 is the release date.
+OFFER ( song_name = "Best Friend" ; artist = "Jason Chen" ; album = "Gravity") & I found 2 songs for you. What about Best Friend by Jason Chen from the Gravity album?
+OFFER ( song_name = "Year Zero" ; artist = "Ghost" ; album = "Infestissumam") & Sure thing! I found 10 songs for you. I recommend Year Zero by Ghost on their album Infestissumam. Does that interest you at all?INFORM_COUNT ( count = "10") & Sure thing! I found 10 songs for you. I recommend Year Zero by Ghost on their album Infestissumam. Does that interest you at all?
+OFFER ( song_name = "Girl Crush" ; artist = "Little Big Town" ; album = "Pain Killer") & I found a song you might like. What about the song Girl Crush by Little Big Town from their album Pain Killer?
+OFFER ( song_name = "Nights" ; artist = "Frank Ocean" ; album = "Blonde") & I have 3 suggestions. How about Nights by Frank Ocean in the album Blonde?
+CONFIRM ( song_name = "Sorry" ; playback_device = "TV") & Can I play the song Sorry on TV?
+OFFER ( song_name = "All On Me" ; artist = "Devin Dawson" ; album = "Dark Horse") & How about All On Me from the Devin Dawson album Dark Horse?
+OFFER ( song_name = "Let Me Love You" ; artist = "Karolina Protsenko" ; album = "Fly") & Another song I could suggest from the album Fly is Let Me Love You by Karolina Protsenko.
+CONFIRM ( song_name = "Pond Creek Road" ; playback_device = "TV") & Okay, just to make sure I am correct, you would like Pond Creek Road to play on the TV?
+OFFER ( song_name = "Adorn" ; artist = "Miguel" ; album = "Kaleidoscope Dream") & What's your opinion about Adorn by Miguel in the album Kaleidoscope Dream?
+OFFER ( song_name = "Lotus Flower" ; artist = "Radiohead" ; album = "The King of Limbs") & I found 1 you may enjoy. Do you like the song Lotus Flower, from the Radiohead album The King of Limbs?INFORM_COUNT ( count = "1") & I found 1 you may enjoy. Do you like the song Lotus Flower, from the Radiohead album The King of Limbs?
+OFFER ( song_name = "Night Witches" ; artist = "Sabaton" ; album = "Heroes") & I found 5 songs for you. How about Sabaton 's Night Witches, from the album Heroes
+OFFER ( song_name = "Yottabyte" ; artist = "Martin Garrix" ; album = "The Martin Garrix Experience") & There's a song called Yottabyte by Martin Garrix from the album The Martin Garrix Experience.
+CONFIRM ( song_name = "Fake you out" ; playback_device = "Kitchen speaker") & Confirm again. You want to listen to the song Fake you out on kitchen speaker.
+CONFIRM ( song_name = "Better Man" ; playback_device = "kitchen speaker") & Please confirm these details: Play Better Man on the kitchen speaker.
+OFFER ( leaving_time = "8:10 am" ; fare = "$31" ; transfers = "0") & I found a bus that leaves at 8:10 am for $31 with 0 transfers. I found a total of 8 buses for you.
+INFORM ( destination_station_name = "Portland Bus Station" ; origin_station_name = "Pacific Central Station") & You will be leaving from Pacific Central Station and arriving at Portland Bus Station.
+INFORM ( from_station = "10th and Filbert" ; to_station = "Penn Station") & The bus departs from 10th and Filbert in Philadelphia and arrives at Penn Station in New York City.
+OFFER ( leaving_time = "6:40 am" ; fare = "$11" ; transfers = "0") & I searched and found 10 buses. The bus starts at 6:40 am with the price of $11. It has 0 transfers.
+INFORM ( to_station = "Fresno Station" ; from_station = "Anaheim Intermodal Center") & The bus departs from Anaheim Intermodal Center. It arrives at Fresno Station.
+OFFER ( leaving_time = "9:10 am" ; fare = "$13" ; transfers = "0") & I discovered 8 buses for you. There is a bus departing at 9:10 am with 0 transfers and costs $13.INFORM_COUNT ( count = "8") & I discovered 8 buses for you. There is a bus departing at 9:10 am with 0 transfers and costs $13.
+OFFER ( departure_time = "6:50 am" ; price = "$76" ; fare_type = "Economy extra") & I found 9 buses. One leaves at 6:50 am. It's an Economy extra for $76.
+OFFER ( departure_time = "7:50 am" ; price = "$50") & I found 6 buses. How about one departing at 7:50 am with a ticket that costs $50?
+INFORM ( destination_station_name = "Anaheim Intermodal Center") & The arrival station is Anaheim Intermodal Center.
+INFORM ( destination_station_name = "Fresno Station") & You arrive at Fresno Station.
+OFFER ( departure_time = "1:20 pm" ; price = "$28" ; fare_type = "Economy") & There is an Economy ticket that costs $28 for a bus that leaves at 1:20 pm.
+OFFER ( departure_time = "7:20 am" ; price = "$88" ; fare_type = "Economy") & There is an Economy ticket for 7:20 am and the price of the ticket is $88.
+OFFER ( leaving_time = "7 am" ; fare = "$30" ; transfers = "0") & There's a trip from Fresno at 7 am, it costs $30 with 0 transfers.
+OFFER ( leaving_time = "8 am" ; fare = "$34" ; transfers = "0") & Then one departing at 8 am with 0 stops will be better. the ticket charge is $34.
+OFFER ( departure_time = "6:40 am" ; price = "$75" ; fare_type = "Economy extra") & There is a $75 Economy extra ticket for a bus leaving at 6:40 am.
+restaurant ( other_description = "it is an upscale restaurant and bar") & There's no specified dress code but it is an upscale restaurant and bar.
+restaurant ( offical_description = "the food is very good Wood-fired steaks & slow-roasted pork, plus cocktails & dessert in the InterContinental Hotel" ; type_food = "cocktails" ; type_meal = "dessert") & And the food is very good Wood-fired steaks & slow-roasted pork, plus cocktails & dessert in the InterContinental Hotel.
+restaurant_reservation ( name_restaurant = "Harry's") & Hold on. Harry's is a high rated Steakhouse that also has a lounge & live jazz then there is Fleming
+restaurant_reservation ( name_restaurant = "Tokyo restaurant") & I found a place called Tokyo restaurant with a 4.5 rating and it is kid friendly.
+restaurant ( offical_description = "Modern, downtown hub of the Metairie original known for charbroiled oysters & other seafood" ; type_food = "seafood" ; name_restaurant = "Deanies") & Modern, downtown hub of the Metairie original known for charbroiled oysters & other seafood. Okay, you like Deanies?
+restaurant ( menu_item = "truffle emulsion sauce wild forest mushrooms, beets and snap peas") & Pan Roasted California Sturgeon Fillet house made tagliatelle, truffle emulsion sauce wild forest mushrooms, beets and snap peas.
+restaurant ( rating = "highly rated" ; name_restaurant = "Taqueria Guadalajara" ; offical_description = "they offer Burritos, tortas, tacos & other filling Mexican grub served up in a simple setting" ; type_food = "tacos") & Okay, let me take a look. Just one moment. Okay, let me take a look. Just one moment. I've found two places which are highly rated, and meet your needs, I'll describe both of them, and you can choose one. The first is Dos Coyotes Border Cafe, an authentic mexican taqueria, with a great atmosphere and outdoor seating. The second is Taqueria Guadalajara, they offer Burritos, tortas, tacos & other filling Mexican grub served up in a simple setting.
+restaurant ( name_restaurant = "Laguna Thai By the Sea" ; other_description = "Thai brothers is just a little bit closer to the mall than Laguna Thai By the Sea" ; sub-location = "mall") & Thai brothers is just a little bit closer to the mall than Laguna Thai By the Sea.
+restaurant_reservation ( name_restaurant = "Katies restaurant") & Let me get that for you. Katies restaurant is a Creole-Italian.
+restaurant ( name_restaurant = "Dragon delights" ; phone = ) & Asia Cafe is (512) 331 5788 and Dragon delights is (512) 771 1352.
+restaurant ( name_restaurant = "Palace Cafe") & Palace Cafe.
+restaurant ( business_hours = "5-8 pm") & 5-8 pm.
+restaurant ( rating = "4 stars and up") & Okay, did you also want 4 stars and up?
+restaurant ( type_food = "seafood" ; menu_item = "petrale sole") & It looks like they have a variety of seafood dishes available like they're seared salmon grilled ahi tuna and petrale sole.
+restaurant ( name_restaurant = "Coppi's organic restaurant" ; rating = "both have 4-stars") & HipCityVeg has 4 and a half stars, and Fruitive and Coppi's organic restaurant both have 4-stars.
+restaurant ( offical_description = "Relaxed local chain serving a range of traditional Greek & Lebanese dishes in a stylish seating" ; type_food = "Lebanese") & One second, Technical difficulties. Relaxed local chain serving a range of traditional Greek & Lebanese dishes in a stylish seating.
+restaurant ( type_food = "appetizers" ; menu_item = "Brie En Croute") & Yes, they have at least 5 appetizers from Creole Prawns to Brie En Croute.
+restaurant ( type_food = "pizzas") & Okay. Whole pizzas or slices?
+restaurant ( location = "601 S Cedar St, Charlotte, NC 28202") & It is located at 601 S Cedar St, Charlotte, NC 28202.
+restaurant_reservation ( date_reservation = "Friday") & Monday 12–2 PM, Tuesday 12–2 PM, Wednesday 12–2 PM, Thursday 12–2 PM, Friday 12–2 PM, Saturday and Sunday Closed. They have a 4.1 star ratings.restaurant ( business_hours = "Saturday and Sunday Closed" ; rating = "4.1 star") & Monday 12–2 PM, Tuesday 12–2 PM, Wednesday 12–2 PM, Thursday 12–2 PM, Friday 12–2 PM, Saturday and Sunday Closed. They have a 4.1 star ratings.
+restaurant ( name_restaurant = "Bob's" ; location = "301 Lavaca St, Austin, TX 78701") & Here is Bob's address. Here is Bob's address. Address: 301 Lavaca St, Austin, TX 78701.
+restaurant_reservation ( time_reservation = "8 p.m" ; num_guests = "2 people") & Looks like they had a table available at 8 p.m. for 2 people, I will send you your confirmation to email.
+restaurant ( rating = "4.2 stars out of 5") & They have 4.2 stars out of 5.
+restaurant ( name_restaurant = "Jacks") & Okay, perfect place. Do you want to know more information about Jacks?
+restaurant ( offical_description = "Its rated four and half stars and serves traditional american cuisine with a moderate price range" ; rating = "four and half stars" ; type_food = "traditional american" ; price_range = "moderate price range") & Its rated four and half stars and serves traditional american cuisine with a moderate price range.
+restaurant ( location = "6770 McKinley St #150, Sebastopol, CA 95472") & 6770 McKinley St #150, Sebastopol, CA 95472.
+restaurant ( offical_description = "Ice cream parlor making & serving unusual, gourmet scoops in a quaint antique cottage" ; type_food = "Ice cream") & Ice cream parlor making & serving unusual, gourmet scoops in a quaint antique cottage.
+restaurant ( name_restaurant = "Black Bear Diner" ; location = "Woodland") & How about Woodland Black Bear Diner?
+restaurant ( type_food = "wine" ; menu_item = "White zinfandel") & The two selections from the wine list are Pinot Noir, a White zinfandel and many more.
+restaurant ( name_restaurant = "The Burger Saloon") & The top three steakhouses are called Kitchen 428, Woodland Black Bear Diner and The Burger Saloon.
+restaurant_reservation ( time_reservation = "7:30" ; num_guests = "two") & Your reservation for two people at 7:30 has been set and the information has been sent to you via email.
+restaurant ( location = "1276 N Military Trl, West Palm Beach, FL 33409") & 1276 N Military Trl, West Palm Beach, FL 33409.
+restaurant ( name_restaurant = "Carmelo's Italian restaurant" ; location = "504 E 5th St, Austin, TX 78701") & Okay. So, Carmelo's Italian restaurant at 504 E 5th St, Austin, TX 78701.
+restaurant ( location = "4729 Burnett Road") & They are located at 4729 Burnett Road.
+restaurant ( offical_description = "Small eatery with open kitchen and outdoor seating, cooking up Californian comfort foods for meat eaters & vegetarians" ; type_food = "Californian comfort foods") & Small eatery with open kitchen and outdoor seating, cooking up Californian comfort foods for meat eaters & vegetarians.
+restaurant ( type_food = "steaks" ; menu_item = "filet mignon" ; name_restaurant = "next") & Sure, I can find another steak place for you, but the next restaurant is also a steak place to serve filet mignon and other steaks. Would you like to hear more about their menu or find a different restaurant?
+restaurant ( type_food = "seafood" ; name_restaurant = "Salito crab house and prime rib" ; rating = "4.2 stars" ; offical_description = "The airy venue serves up hefty portions of surf ’n’ turf in a festive setting with expansive bay views") & Okay. Okay, I found 2 seafood restaurants for you to choose from. The first is called Salito crab house and prime rib. It has 4.2 stars. The airy venue serves up hefty portions of surf ’n’ turf in a festive setting with expansive bay views.
+restaurant ( location = "3201 St Paul St, Baltimore, MD 21218") & Located at 3201 St Paul St, Baltimore, MD 21218.
+restaurant ( name_restaurant = "China Garden Kitchen" ; menu_item = "sesame chicken & fried rice" ; type_meal = "lunch" ; offical_description = "It has Standards like egg foo yong, sesame chicken & fried rice, plus lunch specials, in no-frills digs" ; business_hours = "11 a.m. to 10 p.m" ; price_range = "$10 per person" ; rating = "3.9 Stars") & Okay. Anything else? No problem, is that all? Just a moment. I found China Garden Kitchen. It has Standards like egg foo yong, sesame chicken & fried rice, plus lunch specials, in no-frills digs. This place is open from 11 a.m. to 10 p.m. It has $10 per person and 3.9 Stars.
+restaurant ( business_hours = "11 am to 9 pm") & Opened from 11 am to 9 pm.
+restaurant ( other_description = "It is very casual") & It is very casual.
+restaurant ( name_restaurant = "Amore and Ristorante Lucano") & There is Amore and Ristorante Lucano.
+restaurant ( location = "Austin") & Okay, I see that you're in Austin. Is that where you want to eat?
+restaurant ( name_restaurant = "La Comida" ; offical_description = "It's unfussy outlet serving Mexican basics in a relaxed, shopping center setting" ; type_food = "Mexican") & The first is Sol Mexican grill, it's a Casual sunset-colored space serving tacos, burritos & enchiladas with optional fillings, plus beer. The second is La Comida, It's unfussy outlet serving Mexican basics in a relaxed, shopping center setting.
+restaurant ( price_range = "not too expensive") & Okay, not too expensive. Is that it?
+restaurant ( name_restaurant = "Erik’s Deli Cafe" ; type_food = "baked goods" ; offical_description = "Erik’s Deli Cafe. Casual cafe chain serving gourmet deli sandwiches, house made soups, salads & baked goods") & Next, Erik’s Deli Cafe. Casual cafe chain serving gourmet deli sandwiches, house made soups, salads & baked goods.
+restaurant ( name_restaurant = "Manuals") & Places that are close to you is Uncle Julio's, Iron Cactus and Manuals.
+restaurant ( rating = "4.3 out of 5 stars") & 4.3 out of 5 stars for both.
+restaurant ( name_restaurant = "Germano's Piattini") & Germano's Piattini is near you.
+restaurant ( name_restaurant = "Dragon Delights" ; rating = "4.5 stars" ; offical_description = "Homemade Chinese entrees, noodles & dim sum are served from a food trailer with picnic tables" ; type_food = "dim sum") & The second is called Dragon Delights. It has 4.5 stars. The second is called Dragon Delights. It has 4.5 stars. Homemade Chinese entrees, noodles & dim sum are served from a food trailer with picnic tables.
+restaurant ( name_restaurant = "yummy buffet" ; rating = "3.4 stars" ; offical_description = "Family-friendly buffet offers all-you-can-eat Asian & American dishes, including sushi" ; type_food = "sushi" ; type_meal = "dinner") & The first is called great plaa buffet. It has 3.9 stars. Large, relaxed buffet restaurant offering a number of Asian & American items for lunch & dinner. The second is called yummy buffet. It has 3.4 stars. Family-friendly buffet offers all-you-can-eat Asian & American dishes, including sushi. The second is called yummy buffet. It has 3.4 stars. Family-friendly buffet offers all-you-can-eat Asian & American dishes, including sushi.
+restaurant ( name_restaurant = "Ozumo" ; rating = "4.3 stars" ; offical_description = "387 Google reviews") & Ozumo has 4.3 stars with 387 Google reviews.
+restaurant ( other_description = "They do have table service") & They do have table service.
+restaurant ( name_restaurant = "California Rollin" ; rating = "3.1 stars" ; type_food = "traditional Japanese" ; offical_description = "Busy outlet for Americanized sushi) & The first is called Shiki, it has 4.1 stars. Sushi, teriyaki & tempura plus Japanese beer & sake, served in a small, unassuming storefront. Address: 1054 S Clinton Ave, Rochester, NY 14620. The second is called California Rollin, it has 3.1 stars. Busy outlet for Americanized sushi (bacon is a common ingredient) in an Address: Village Gate Square, 274 Goodman St N B123, Rochester, NY 14607. The first one is more traditional Japanese.
+restaurant ( name_restaurant = "La Condesa" ; rating = "4 stars" ; offical_description = "Contemporary Mexican dishes, a vast tequila selection & happy-hour deals in a sophisticated setting" ; type_food = "tequila" ; type_meal = "brunch") & The first is called Manuel's. It has 3.9 stars. Hip Downtown eatery offering regional Mexican cuisine, a boozy Sunday brunch & live music. The second is called La Condesa. It has 4 stars. Contemporary Mexican dishes, a vast tequila selection & happy-hour deals in a sophisticated setting.
+restaurant ( other_description = "No chain stores") & Okay No chain stores.
+restaurant ( location = "175 N water st") & Okay. It's located on 175 N water st.
+restaurant ( phone = ) & Okay, The number is (585) 288-1910.
+restaurant ( price_range = "lot expensive") & Okay. There are still a lot expensive. There are still a lot expensive.
+restaurant ( type_food = "cheesecake") & Okay, Sure thing, do you like cheesecake?
+restaurant ( name_restaurant = "M&J Bistro" ; type_food = "wine" ; offical_description = "M&J Bistro is a Upscale Californian-French meals including crepes served with wine in a sleek, Dark-hued setting" ; location = "2503 N Tracy Blvd, Tracy, CA 95376") & Well, M&J Bistro is a Upscale Californian-French meals including crepes served with wine in a sleek, Dark-hued setting. The address is 2503 N Tracy Blvd, Tracy, CA 95376. The address is 2503 N Tracy Blvd, Tracy, CA 95376.
+restaurant ( name_restaurant = "GW Fins" ; offical_description = "Peche Seafood grill is seafood from a coal Grill & Raw Bar including local Brews and are found in rustic digs with weathered wood they have Oysters shown on the front page of their menu" ; type_food = "Oysters") & Hold on. Okay, no problem. GW Fins is creative ever shifting seafood menu featuring fresh catches and a stylish updated warehouse space. Peche Seafood grill is seafood from a coal Grill & Raw Bar including local Brews and are found in rustic digs with weathered wood they have Oysters shown on the front page of their menu.
+restaurant ( location = "Rochester") & Okay. Where in Rochester?
+restaurant ( type_food = "pizza") & Thank you, enjoy your pizza.
+restaurant ( other_description = "Valet parking") & Valet parking?
+restaurant ( type_meal = "dessert") & What type dessert were you looking for?
+restaurant ( name_restaurant = "'Ozumo" ; offical_description = "Creative sushi, robata grilled items & an extensive sake menu in a contemporary space" ; type_food = "robata grilled items") & Kusakabe is a high-end sushi spot that offers a light-soaked, Zen-like space for sushi, sake, wine & beer. Sanraku is a Small, popular chain spot serving sushi, bento boxes & other Japanese staples along with sake. And last "Ozumo" is Creative sushi, robata grilled items & an extensive sake menu in a contemporary space.
+restaurant ( other_description = "From Fairfield via I-80 East, it will be about 30 to 35 minutes' drive") & From Fairfield via I-80 East, it will be about 30 to 35 minutes' drive.
+restaurant ( name_restaurant = "JW Marriott Austin") & Okay. JW Marriott Austin.
+restaurant ( name_restaurant = "Tracy BlackBerry" ; location = "2351 Toste Rd, Tracy, CA 95377" ; phone = ) & Third one is called Tracy BlackBerry and the address for it is 2351 Toste Rd, Tracy, CA 95377. And the phone number for it is (209) 835-5600.
+restaurant ( name_restaurant = "Angelino Restaurant") & Just one moment, please. I have located two places Angelino Restaurant.
+restaurant ( phone = ) & (208) 331-1580.
+restaurant ( name_restaurant = "The Sandwich Spot" ; location = "1010 Pacific Avenue") & The Sandwich Spot, at 1010 Pacific Avenue.
+restaurant ( name_restaurant = "Panda Express" ; offical_description = "Fast-food chain for Chinese standards including some health-conscious options" ; type_food = "Chinese") & I found a place for you. Panda Express. Fast-food chain for Chinese standards including some health-conscious options.
+restaurant ( name_restaurant = "Blondie's" ; type_food = "pizza") & Hold on just a second. Blondie's sells pizza by the slice.
+restaurant ( location = "New Orleans") & Okay and anywhere in New Orleans.
+restaurant ( offical_description = "There's no specified dress code, but the restaurant is upscale with a romantic environment") & There's no specified dress code, but the restaurant is upscale with a romantic environment.
+restaurant ( other_description = "There's a parking structure around around the corner") & There's a parking structure around around the corner.
+restaurant ( name_restaurant = "Persia Grill") & Okay. I have the Salt fish house, Folie Douce, and Persia Grill.
+restaurant ( name_restaurant = "Binchoyaki Izakaya Dining" ; offical_description = "Funky store featuring a host of creative doughnuts in a variety of flavors plus coffee & more" ; type_food = "doughnuts") & Binchoyaki Izakaya Dining. Funky store featuring a host of creative doughnuts in a variety of flavors plus coffee & more.
+restaurant ( name_restaurant = "Din Ho Chinese BBQ") & I have found La Condesa. That's open until 10:00 PM. I have found Twin Lion Chinese restaurant and Din Ho Chinese BBQ. Relax feet Irving and I reassured of Chinese favorites like Duck and barbecue pork roast and even a whole pig in Din Ho Chinese BBQ. Relaxed eatery serving an array of Chinese favorites like duck & BBQ pork, even a whole roasted pig. And the last one is Din Ho Chinese BBQ.
+restaurant ( name_restaurant = "Addy's Sandwich Bar") & Addy's Sandwich Bar.
+restaurant ( business_hours = "11 AM to 9 PM" ; offical_description = "They are walk in only") & Great, they are open from 11 AM to 9 PM. They are walk in only.
+restaurant ( location = "3355 S Las Vegas Blvd, Las Vegas, NV 89109") & Hope you don't mind it is on the Las Vegas Boulevard. 3355 S Las Vegas Blvd, Las Vegas, NV 89109.
+restaurant_reservation ( type_seating = "outdoor") & Would you prefer indoor or outdoor seating?
+restaurant ( type_food = "Indian") & Hold one moment. I have found over a dozen Indian restaurants in Rochester, Do you have any other preferences?
+attraction_inform ( phone = "01223336233") & The phone number is 01223336233. Is there anything else I can help you with?
+attraction_inform ( entrancefee = "free") @ attraction_recommend ( address = "10 king s parade" ; name = "Primavera" ; phone = "01223357708") & May I suggest Primavera located at 10 king s parade  The phone number is 01223357708  Admission is free
+attraction_inform ( entrancefee = "free" ; postcode = "cb21su") & There is no entrance fee; it is free. The postcode is cb21su. May I help you with anything else?
+epl ( name_team = "Liverpool") & Liverpool play Newcastle in their next game.
+nba ( name_team = "Phoenix Suns" ; place_team = "14th Place" ; record_team = "47 losses") & Phoenix Suns are in 14th Place with 19 wins-47 losses.
+mlb ( name_team = "Atlanta Braves" ; day_match = "Monday" ; date_match = "June 5th") & It looks like the Phillies played on Monday June 5th against the Atlanta Braves.
+mls ( name_team = "Columbus Crew SC" ; day_match = "tomorrow") & The Chicago Fire do not play today, but they do play tomorrow against the Columbus Crew SC.
+epl ( name_player = "Alvaro Morata" ; position_player = "strikers") & Alvaro Morata is one of the strikers.
+mlb ( name_team = "Rockies" ; date_match = "July 1st" ; time_match = "7:10 p.m") & They are also playing against the Rockies on July 1st at 7:10 p.m.
+nba ( name_team = "Pistons") & Pacers, and Pistons.
+mlb ( name_team = "Washington Nationals" ; place_team = "first place" ; record_team = "46 losses") & Washington Nationals is in the first place on the National League East with 70 wins and 46 losses.
+mls ( name_team = "Real Salt Lake" ; day_match = "Saturday" ; date_match = "July 22nd") & Just a moment. Sporting Kansas City is not playing right now, but they will be playing on Saturday, July 22nd against the Real Salt Lake.
+mlb ( day_match = "today") & No, they're not playing today as well.
+epl ( name_team = "Watford" ; place_team = "10th place" ; record_team = "seven wins, 4 draws and 11 losses") & Watford is in the 10th place with seven wins, 4 draws and 11 losses.
+mlb ( place_team = "third") & Looks like they are third in the East American League.
+mlb ( name_team = "Tigers" ; score_match = "10-4") & They won their last game against Tigers with a score of 10-4.
+nfl ( place_team = "second place") & They are in second place in the AFC south.
+mlb ( name_team = "Orioles" ; place_team = "fourth place") & Orioles is in the fourth place on the AL East.
+nba ( name_team = "Trail Blazers" ; name_non_player = "Terry Stotts" ; other_description_team = "The Trail Blazers coach is Terry Stotts has a better record") & The Trail Blazers coach is Terry Stotts has a better record.
+mls ( name_player = "H A M I D") & H A M I D.
+epl ( score_match = "4-1" ; result_match = "win" ; name_team = "Cska Moscow") & Their last game was 4-1 win against Cska Moscow in Champions League group stage.
+mls ( date_match = "September 10th" ; name_team = "Columbus" ; result_match = "it was a draw" ; score_match = "one to one") & They last played on September 10th, against Columbus and it was a draw with the score one to one.
+epl ( position_player = "Striker" ; name_team = "Tottenham" ; name_player = "Harry Kane") & Starting Striker for Tottenham is Harry Kane.
+mlb ( date_match = "August 23rd" ; name_team = "Milwaukee Brewers the Giants" ; result_match = "won" ; score_match = "4 - 2") & The last game was August 23rd against the Milwaukee Brewers the Giants won 4 - 2.
+epl ( name_team = "Leicester City" ; result_match = "draw" ; score_match = "2 - 2") & Their last game Stoke City played Leicester City and the game ended in a draw 2 - 2.
+mlb ( day_match = "Last Saturday" ; name_team = "Detroit Tigers" ; score_match = "5 to 6") & Last Saturday the Minnesota Twins play the Detroit Tigers and one 5 to 6.
+mls ( date_match = "August 6th" ; name_team = "Portland" ; result_match = "they lost" ; score_match = "3 to 1") & They last played on August 6th vs Portland and they lost 3 to 1.
+mls ( name_team = "Seattle Sounders" ; score_match = "4-3" ; result_match = "lost" ; date_match = "July 19th") & They lost to Seattle Sounders with 4-3 on July 19th.
+epl ( place_team = "2nd place") & Hello. They are in 2nd place.
+mlb ( name_team = "Pittsburgh Pirates" ; record_team = "57 losses" ; place_team = "fourth place") & The Pittsburgh Pirates have a record of 54 wins and 57 losses, they are currently in fourth place in the National League Central.
+epl ( score_match = "four to zero" ; result_match = "They lost" ; name_team = "Man United") & The score of the last game was four to zero. They lost against Man United.
+epl ( day_match = "Sunday" ; other_description_team = "After their Saturday the 13th game" ; name_team = "Southampton" ; date_match = "21st") & After their Saturday the 13th game, they will play Southampton Sunday, the 21st.
+mls ( date_match = "on July 19th" ; name_team = "Montreal") & No. Their next game would be on July 19th against Montreal.
+mls ( position_player = "goalkeeper" ; name_player = "Jesse González") & Their goalkeeper is Jesse González.
+mlb ( place_team = "first place") & Hold on, one second. They are doing great. They are currently in first place in the American League East.
+mlb ( day_match = "today") & They play today.
+epl ( date_match = "August 26th" ; name_team = "Bournemouth") & Their next match will be played on August 26th against Bournemouth.
+epl ( name_team = "Bournemouth" ; other_description_team = "Bournemouth in 1924") & West Bromwich established in 1878, while Bournemouth in 1924.
+epl ( position_player = "goal keeper" ; name_player = "Mathew Ryan") & Their current goal keeper is Mathew Ryan.
+mlb ( name_team = "Cincinnati Reds" ; place_team = "5th place" ; record_team = "93 losses") & Cincinnati Reds are in the 5th place on the National League central with 67 wins and 93 losses.
+mls ( date_match = "June 24th" ; name_team = "Montreal impact") & Their next game is on June 24th against he Montreal impact.
+mlb ( day_match = "Saturday" ; date_match = "August 5th" ; name_team = "Oakland Athletics" ; result_match = "lost" ; score_match = "5-0") & Saturday, August 5th, Los Angeles played against the Oakland Athletics they lost 5-0.
+nba ( day_match = "Yesterday") & Yesterday.
+nba ( name_team = "Cavaliers") & Have a great day and go Cavaliers.
+nba ( name_player = "Willie Cauley-Stein" ; name_team = "Kings" ; position_player = "center") & Willie Cauley-Stein is the Kings starting center.
+epl ( name_team = "Brighton") & Brighton.
+mlb ( date_match = "June 18th" ; name_team = "Pirates" ; result_match = "won" ; score_match = "1-0") & On June 18th, they played against Milwaukee Brewers and Pirates won the game with a score of 1-0.
+mls ( day_match = "Last Saturday" ; name_team = "Orlando city" ; result_match = "they lost" ; score_match = "2 - 1") & Last Saturday they played against Orlando city and they lost by 2 - 1.
+epl ( date_match = "September 11th" ; name_team = "Huddersfield") & They are not playing right now, their next game will be played on September 11th against Huddersfield.
+epl ( name_non_player = "Jürgen Klopp") & Their manager is Jürgen Klopp.
+epl ( name_team = "Liverpool f.c") & The last play is with Liverpool f.c.
+epl ( name_team = "Manchester United" ; other_description_team = "They were founded as Newton Health lyr football club and change their name by to Manchester United in 1902") & Manchester United was formed in 1878. They were founded as Newton Health lyr football club and change their name by to Manchester United in 1902. They were founded as Newton Health lyr football club and change their name by to Manchester United in 1902.
+mlb ( name_team = "Boston Red Sox" ; place_team = "first") & Currently, the Boston Red Sox are first in the AL East standings.
+mls ( position_player = "goalkeeper" ; name_player = "Brian Rowe") & Their goalkeeper is Brian Rowe.
+epl ( other_description_team = "Totally, It's 22") & Totally, It's 22.
+mls ( name_team = "New York City" ; place_team = "third place" ; record_team = "5 losses") & New York City is currently in third place in the Eastern conference with 7 wins and 5 losses.
+mls ( name_team = "Rochester Rhinos" ; date_match = "on June 14th" ; result_match = "won" ; score_match = "3 to 0") & The New England Revolution last played on June 14th. Against Rochester Rhinos. And they won 3 to 0.
+mlb ( place_team = "first place" ; record_team = "44 wins and 21 losses") & They are currently in first place with 44 wins and 21 losses.
+epl ( name_team = "Bournemouth" ; other_description_team = "Bournemouth was founded in 1899") & Bournemouth was founded in 1899.
+epl ( name_team = "West Brom FC") & Their next opponent is West Brom FC.
+mlb ( place_team = "2nd place") & They are currently in 2nd place in the AL west.
+mlb ( day_match = "today" ; time_match = "11:10 a.m" ; name_team = "Pittsburgh Pirates") & They played today at 11:10 a.m against Pittsburgh Pirates.
+mls ( record_team = "24 and 8") & Their win-loss record is 24 and 8.
+mlb ( place_team = "First place" ; name_team = "Chicago Cubs") & First place of the National League central are the Chicago Cubs.
+epl ( name_team = "Brighton") & Stoke City's next game is against Brighton.
+mls ( name_team = "Toronto F.C." ; place_team = "first place") & The Toronto F.C. is currently in first place.
+mlb ( day_match = "Next Saturday" ; name_team = "Philadelphia Phillies") & Next Saturday they're playing against the Philadelphia Phillies.
+epl ( other_description_team = "They have played 15 games") & They have played 15 games.
+mlb ( day_match = "yesterday" ; name_team = "Oakland Athletics" ; result_match = "they lost game" ; score_match = "6 - 4") & Last game they played was yesterday against Oakland Athletics and they lost game 6 - 4.
+mlb ( name_player = "Drew VerHagen") & Shane Greene. Mike Fiers. Joe Jimineez. Alex Wilson. Blaine Hardy. Buck Farmer. Drew VerHagen.
+mlb ( name_team = "Seattle Mariners" ; result_match = "won" ; score_match = "8 to 2") & The Phillies played the Seattle Mariners and won 8 to 2.
+epl ( name_team = "Brighton" ; venue = "Falmer Stadium") & Etihad Stadium is the name of Manchester City FC Stadium, it has a capacity of 55,097. Brighton stadiums name is Falmer Stadium and it does the capacity of 30,750.
+epl ( name_team = "Burnley FC" ; date_match = "August 19th" ; time_match = "7 a.m") & Next West Bromwich Albion F.C will be playing the Burnley FC on August 19th at 7 a.m.
+epl ( position_player = "Kasper Schmeichel") & One their goalkeeper is Kasper Schmeichel.
+mls ( day_match = "next Sunday") & No, they do not play on next Sunday.
+mls ( place_team = "third place" ; record_team = "five losses") & They are currently in third place in the Eastern Conference with five wins and five losses.
+epl ( name_team = "Everton F.C." ; place_team = "seventh place") & Currently, Everton F.C. is having seventh place in the English Premier League.
+epl ( place_team = "second place" ; name_team = "United") & Manchester City United is currently in second place in the Tottenham Hotspur F.C. Premier League standings.
+nba ( name_team = "Cavaliers" ; name_player = "LeBron James") & Golden State Warriors will have Curry Thompson and Durant and the Cavaliers will have LeBron James.
+nfl ( name_team = "St Louis Cardinals") & Next week they're playing against the St Louis Cardinals.
+mlb ( result_match = "lost" ; name_team = "Tigers" ; score_match = "4-2") & They lost to the Tigers. 4-2.
+nba ( position_player = "small forward" ; name_player = "Carmelo Anthony") & They're starting small forward is Carmelo Anthony.
+mlb ( day_match = "Next Saturday" ; name_team = "Red Sox" ; time_match = "1:05 pm") & Next Saturday they are playing against the Red Sox at 1:05 pm.
+epl ( name_team = "Burnley FC") & Their next game they play Burnley FC.
+nfl ( name_team = "Buffalo Bills" ; place_team = "first place" ; record_team = "one loss") & Buffalo Bills are in the first place under American football East Conference with two wins and one loss.
+mlb ( name_team = "Tampa Bay Rays" ; day_match = "yesterday" ; score_match = "won 8 to 5") & The last game the Baltimore Orioles played was yesterday against the Tampa Bay Rays and they won 8 to 5.
+epl ( name_team = "Stoke City" ; date_match = "September 16th") & Newcastle's next game is on September 16th against Stoke City.
+nfl ( name_team = "Miami Dolphins" ; record_team = "two losses") & The record for the Miami Dolphins is one win and two losses.
+mlb ( name_team = "Diamond Backs" ; record_games_ahead = "The Diamond Backs are ahead of the giants by 5 games") & The Diamond Backs are ahead of the giants by 5 games and the Dodgers are ahead by 2.
+nba ( name_team = "Sacramento Kings" ; day_match = "yesterday" ; result_match = "lost" ; score_match = "123-119") & The Heat played yesterday and lost 123-119 to the Sacramento Kings.
+nfl ( record_games_back = "3 games") & 3 games.
+epl ( name_team = "Chelsea" ; place_team = "12th Place") & Chelsea is in 12th Place of the Premier League standings.
+mlb ( result_match = "They won" ; score_match = "5-3") & They won 5-3.
+nba ( name_team = "pelicans" ; day_match = "tomorrow" ; time_match = "6:30 pm") & They will play against the pelicans on tomorrow at 6:30 pm.
+mlb ( day_match = "yesterday" ; name_team = "Chicago White Sox") & Their last game was yesterday against Chicago White Sox.
+nfl ( day_match = "today") & No, they are not playing right now. They are scheduled to play today.
+mls ( date_match = "June 17th" ; name_team = "Chicago" ; time_match = "4:30 p.m") & Their next game is on June 17th against Chicago at 4:30 p.m.
+mls ( day_match = "Saturday" ; name_team = "DC United" ; time_match = "5:00 PM") & No, they do not play on Sunday. They'll play on Saturday against DC United at 5:00 PM.
+mls ( name_team = "San Jose Earthquakes" ; record_team = "six losses") & San Jose Earthquakes has five wins and six losses.
+nba ( name_team = "Golden State Warriors" ; day_match = "tomorrow" ; time_match = "afternoon") & The Clippers play tomorrow at 12:30 in the afternoon versus the Golden State Warriors.
+mlb ( name_team = "cubs" ; record_games_ahead = "The brewers are the only time ahead of the cubs and by 4 games") & The brewers are the only time ahead of the cubs and by 4 games.
+epl ( name_player = "Matthew Ryan" ; name_team = "Brighton" ; position_player = "goalkeeper") & Matthew Ryan is the goalkeeper for Brighton.
+mlb ( name_team = "New York Mets" ; place_team = "third place") & Let me check for you. Just one moment. Let me check for you. Just one moment. It looks like the New York Mets are third place in the NL East.
+mls ( date_match = "June 14th" ; time_match = "4:30 p.m." ; name_team = "Rochester Rhinos" ; day_match = "next Wednesday") & Their next game will be played on June 14th at 4:30 p.m. against Rochester Rhinos which is next Wednesday.
+mls ( name_team = "Earthquake's" ; place_team = "six place" ; record_team = "9 losses") & The Earthquake's are currently six place in the Western Conference with 9 wins and 9 losses.
+epl ( name_team = "Manchester city" ; name_non_player = "Pep Guardiola") & Current manager of Manchester city is Pep Guardiola.
+nba ( name_non_player = "Mike Brown") & Mike Brown.
+nfl ( name_team = "Vikings" ; date_match = "November 23rd" ; result_match = "won" ; score_match = "30-23") & They last played against the lions on November 23rd and the Vikings won the game with the score 30-23.
+epl ( score_match = "one and zero") & They performed very well in their last game with the score one and zero.
+nfl ( position_player = "quarterback" ; name_player = "Matthew Stafford" ; name_team = "Detriot") & The quarterback is Matthew Stafford for the Detriot team.
+mlb ( day_match = "yesterday" ; date_match = "August 8th" ; name_team = "Los Angeles" ; result_match = "lost" ; score_match = "three to two") & The last game was yesterday on August 8th against, The Los Angeles and they lost three to two.
+epl ( name_player = "Harry Kane" ; position_player = "strikers") & Harry Kane is one of their strikers.
+nba ( name_non_player = "Brad Stevens") & Brad Stevens.
+nba ( name_team = "Timberwolves" ; day_match = "tomorrow" ; time_match = "5 p.m") & The Pelicans are playing with Timberwolves tomorrow at 5 p.m.
+nba ( name_team = "Detroit Pistons" ; name_non_player = "Stan Van Gundy") & The head coach for the Detroit Pistons is Stan Van Gundy.
+nfl ( name_team = "Tennessee Titans" ; place_team = "third place" ; record_team = "2 losses") & The Tennessee Titans are currently third place in the AFC South with the record of two wins and 2 losses.
+mlb ( name_team = "Texas Rangers" ; record_games_back = "Texas Rangers are currently 18 games back from first place") & The Texas Rangers are currently 18 games back from first place in the American League West.
+mlb ( place_team = "fifth place") & They are in fifth place of the NL Central.
+nba ( name_team = "Orlando Magic") & The next game is going to be against Orlando Magic.
+mlb ( day_match = "today") & They are currently not scheduled today.
+mls ( place_team = "eighth place" ; record_team = "eight wins and 10 losses") & They're currently in eighth place in the Eastern Conference with eight wins and 10 losses.
+nba ( name_player = "DeAndre Jordan" ; name_team = "Clippers") & DeAndre Jordan is the current star player for the Clippers.
+mls ( day_match = "tomorrow") & No, they are playing tomorrow.
+OFFER ( show_time = "11 pm" ; theater_name = "Century San Francisco Centre 9 & XD") @ INFORM_COUNT ( count = "1") & I found 1 showtime, 11 pm at Century San Francisco Centre 9 & XD.
+OFFER ( movie_name = "Missing Link") @ INFORM_COUNT ( count = "3") & There are 3 available - Missing Link, Shazam! or The Curse of La Llorona
+INFORM ( cast = "Richard L. Hawkins" ; directed_by = "Steven Spielberg") & The director is Steven Spielberg and the main actor is Richard L. Hawkins.
+OFFER ( title = "Mikey and Nicky" ; aggregate_rating = "7.4") & I found 1 movie you might like. How about Mikey and Nicky? The movie has an average rating of 7.4.
+INFORM ( director = "Stanley Kubrick") & It was directed by Stanley Kubrick.
+INFORM ( price = "$19") & It's $19 a ticket.
+OFFER ( movie_name = "Pillow Talk") @ INFORM_COUNT ( count = "2") & The 2 movies I found are either Pillow Talk or The Man Who Knew Too Much
+OFFER ( show_time = "7 pm" ; theater_name = "CineArts at Sequoia") & I show a 7 pm showing at CineArts at Sequoia.
+OFFER ( show_time = "3:30 pm" ; theater_name = "THE LOT City center") & 1 showtime at 3:30 pm in THE LOT City center is there.
+OFFER ( title = "Shine a Light" ; aggregate_rating = "7.2") & There is 1 movie that might interest you. It's a film called Shine a Light with a reviewer score of 7.2. Are you interested?
+OFFER ( show_time = "4 pm" ; theater_name = "AMC Deer Valley 16") & I have 1 showing at 4 pm for the AMC Deer Valley 16.
+OFFER ( show_time = "9 pm" ; theater_name = "AMC Bay Street 16") & there is 1 show at 9 pm in AMC Bay Street 16.
+OFFER ( show_time = "5:30 pm" ; theater_name = "CineLux Tennant Station Stadium 11") & There is 1 show at 5:30 pm in CineLux Tennant Station Stadium 11.
+OFFER ( movie_name = "Little") @ INFORM_COUNT ( count = "2") & I found 2 movies: Little or Shazam!  How about either of those
+OFFER ( title = "High Life" ; aggregate_rating = "6.2") & I have 1 movie recommendation with a 6.2 rating, would you be interested in High Life?
+INFORM ( genre = "adventure") & It is listed as an adventure movie.
+INFORM ( price = "$21" ; street_address = "474 24th Street") & Sure. The theater is located at 474 24th Street and tickets are $21 per person.
+OFFER ( property_name = "Fernmar Apartments" ; address = "210 Easy Street" ; number_of_beds = "3" ; number_of_baths = "3" ; rent = "$4,300") & I have found 2 apartments. Fernmar Apartments is a great property located at 210 Easy Street. It has 3 bed rooms and 3 baths and costs $4,300 a month.INFORM_COUNT ( count = "2") & I have found 2 apartments. Fernmar Apartments is a great property located at 210 Easy Street. It has 3 bed rooms and 3 baths and costs $4,300 a month.
+CONFIRM ( property_name = "Casa Pino Condos" ; visit_date = "next Wednesday") & Can you confirm the information? you want to go to Casa Pino Condos next Wednesday
+OFFER ( property_name = "Family Tree Apartments" ; address = "1000 Kiely Boulevard" ; price = "$3,150") & Family Tree Apartments is a nice property at 1000 Kiely Boulevard. The total cost is $3,150.
+CONFIRM ( property_name = "Amber Court" ; visit_date = "March 13th") & Ok, you would like to schedule a visit to Amber Court for March 13th. Is that correct?
+INFORM ( phone_number = "408-842-6341") & Visit confirmed. Property's phone number is 408-842-6341.
+OFFER ( property_name = "Avalon Apartments" ; address = "624 Avalon Avenue" ; number_of_beds = "4" ; number_of_baths = "3" ; rent = "$5,150") & I have found 3 good apartments. Avalon Apartments is good with 4 bedrooms, 3 baths for $5,150 per month. It is located at 624 Avalon Avenue.
+CONFIRM ( property_name = "Leib Senior Apartments" ; visit_date = "March 12th") & Please confirm this appointment. You are scheduling a visit to Leib Senior Apartments and you would like to visit on March 12th.
+CONFIRM ( property_name = "Magnolia Apartments" ; visit_date = "March 4th") & The changes I have made will put your visit to Magnolia Apartments occur on March 4th instead. Is that okay?
+OFFER ( property_name = "Crossing at Montague Apartments" ; address = "755 East Capitol Avenue" ; number_of_beds = "1" ; number_of_baths = "1" ; rent = "2900") & Crossing at Montague Apartments is a good property located at 755 East Capitol Avenue. It has 1 bed room and 1 bath. The rent is 2900 per month.
+OFFER ( property_name = "Betel Apartments" ; address = "1227 Hampshire Street" ; number_of_beds = "2" ; number_of_baths = "3" ; rent = "3900") & Sure. I found 9 apartment listings in your area matching those specifications. Betel Apartments is a great complex located at 1227 Hampshire Street. It had 2 bed rooms and 3 baths. The rent for the apartment is 3900 dollars per month.
+CONFIRM ( property_name = "The Retreat" ; visit_date = "March 4th") & Need your final confirmation to make a schedule of visit to The Retreat on March 4th.
+OFFER ( property_name = "Alborada Apartments" ; address = "1001 Beethoven Common" ; number_of_beds = "3" ; number_of_baths = "3" ; rent = "5100") & I found 10 very nice apartments for you in Fremont. I particularly recommend Alborada Apartments which is located at 1001 Beethoven Common. The apartment has the 3 bed rooms you want, as well as 3 bath rooms. Rent is quoted at 5100 dollar per month.INFORM_COUNT ( count = "10") & I found 10 very nice apartments for you in Fremont. I particularly recommend Alborada Apartments which is located at 1001 Beethoven Common. The apartment has the 3 bed rooms you want, as well as 3 bath rooms. Rent is quoted at 5100 dollar per month.
+INFORM ( furnished = "False") & No, it is not furnished.
+INFORM ( phone_number = "650-965-8290") & The phone number is 650-965-8290.
+OFFER ( property_name = "The Greenery Apartments Homes" ; address = "999 West Hamilton Avenue" ; number_of_beds = "3" ; number_of_baths = "3" ; rent = "5250") & For 5250 a month, The Greenery Apartments Homes has a 3 bed room, 3 bath apartment. That is located at 999 West Hamilton Avenue.
+coffee_ordering ( size_drink_accept = "short" ; name_drink_accept = "black and white mocha" ; type_milk_accept = "2% milk" ; preference_accept = "no whipped cream") & okay, thank you for confirming that. so a short black and white mocha, with 2% milk, no whipped cream. did i get it right this time?
+coffee_ordering ( preference = "Hot" ; name_drink = "Mocha") & Got it! Hot Mocha.
+coffee_ordering ( preference_accept = "cinnamon") & sure, adding cinnamon to your order.
+coffee_ordering ( size_drink_accept = "grande" ; type_milk_accept = "whole milk" ; name_drink_accept = "cappuccino" ; preference_accept = "whipped cream" ; location_store_accept = "palmdale airport") & So that's a grande whole milk cappuccino with caramel syrup and whipped cream from the starbucks inside the palmdale airport.
+coffee_ordering ( size_drink_accept = "grande" ; name_drink_accept = "cold brew" ; type_milk_accept = "2% milk" ; location_store_accept = "westlake, daly city, ca") & ok, i have ordered you a grande cold brew with 2% milk to be picked up at the starbucks in westlake, daly city, ca, is that correct?
+coffee_ordering ( size_drink = "grande" ; preference = "hot") & did you want the grande hot?
+coffee_ordering ( size_drink = "Grande") & Did you mean Grande?
+coffee_ordering ( size_drink_accept = "tall" ; preference_accept = "whipped cream") & tall coffee with whipped cream, correct?
+coffee_ordering ( preference = "syrups") & would you like any whipped cream or syrups?
+coffee_ordering ( type_milk_accept = "whole milk") & ok, whole milk it is. Which starbucks should i place the order at?
+coffee_ordering ( size_drink = "medium" ; preference = "iced" ; name_drink = "vanilla latte" ; type_milk = "whole milk") & did you say medium iced vanilla latte with whole milk?
+coffee_ordering ( location_store_accept = "at first street") & yes, your coffee will be ready to be picked up at the starbucks at first street in 15 minutes.
+coffee_ordering ( preference = "extra shot of espresso") & ok, an extra shot of espresso you said?
+OFFER ( restaurant_name = "Gumba's" ; city = "Sunnyvale") & I found 3 places. Gumba's is a good place in Sunnyvale.INFORM_COUNT ( count = "3") & I found 3 places. Gumba's is a good place in Sunnyvale.
+INFORM ( phone_number = "707-421-0835" ; price_range = "moderate") & Sorry, they are fully booked. Shall i try to make reservation for 1 people today at 5 pm? The price range is Moderate at mimi's cafe and their phone number is 707-421-0835OFFER ( restaurant_name = "mimi's cafe" ; party_size = "1" ; date = "today" ; time = "5 pm") & Sorry, they are fully booked. Shall i try to make reservation for 1 people today at 5 pm? The price range is Moderate at mimi's cafe and their phone number is 707-421-0835
+INFORM ( has_live_music = "False" ; price_range = "moderate") & Their price range is moderate and they do not have live music. Your reservation has successfully been made.
+CONFIRM ( city = "Petaluma" ; party_size = "1") & Okay, making the reservation for 1 person at Shree Indian Cuisine in Petaluma.
+CONFIRM ( restaurant_name = "Royal Rangoon Restaurant" ; date = "day after tomorrow") & So you'd like to make a reservation at Royal Rangoon Restaurant the day after tomorrow?
+INFORM ( has_seating_outdoors = "True" ; rating = "4.3") & Unfortunately I have been unable to make a reservation. The restaurant does have outdoor seating and customers have given Pezzella's Villa Napoli restaurant a rating of 4.3. Would you like me to book a table for March 13th at 12 pm instead?
+INFORM ( has_seating_outdoors = "True") & Yes outdoor seating is available.
+CONFIRM ( time = "12 pm" ; date = "next friday") & Making the reservation for next friday at 12 pm
+INFORM ( street_address = "500 Main Street" ; serves_alcohol = "False") & They're located at 500 Main Street, and they don't serve alcohol, sorry. I'm sorry but that time is all booked. Would you like a reservation for 2 at Baci Bistro And Bar for 1:30 pm today instead?
+OFFER ( restaurant_name = "Andes Cafe San Mateo" ; city = "San Mateo") & Please give me a moment. There are 9 restaurants with good rating and the top among them is Andes Cafe San Mateo located in San Mateo. Would you prefer to have your lunch here?INFORM_COUNT ( count = "9") & Please give me a moment. There are 9 restaurants with good rating and the top among them is Andes Cafe San Mateo located in San Mateo. Would you prefer to have your lunch here?
+CONFIRM ( restaurant_name = "Villa Romano" ; number_of_seats = "4") & Okay, please confirm: reservation for 4 people at Villa Romano.
+OFFER ( restaurant_name = "Afghan Village Restaurant" ; city = "Newark") & There is 1 restaurant that I can recommend in Newark. Afghan Village Restaurant would be perfect for your family.
+INFORM ( serves_alcohol = "False") & They don't serve any kind of alcohol.
+INFORM ( address = "1662 Lombard Street" ; rating = "4.5") & It's rated about 4.5 and the address is 1662 Lombard Street.
+INFORM ( has_live_music = "False" ; cuisine = "Bistro") & You're all set! There's no live music. However, they do serve the Bistro menu at the bar.
+CONFIRM ( time = "1:30 pm" ; number_of_seats = "4") & So you would like to make the reservation at 1:30 pm for 4?
+CONFIRM ( restaurant_name = "Hunan Chef Chinese Restaurant" ; city = "Pleasanton" ; time = "12 pm" ; party_size = "2" ; date = "today") & Perfect. Can you confirm the following details, please? You have a table for 2 people at Hunan Chef Chinese Restaurant in Pleasanton at 12 pm today.
+INFORM ( price_range = "moderate") & The prices are moderate
+CONFIRM ( restaurant_name = "Meiko Sushi" ; city = "Pleasanton" ; time = "12 pm" ; date = "day after tomorrow" ; party_size = "6") & So, a table reservation at Meiko Sushi in Pleasanton will be for 12 pm on the day after tomorrow for 6 people. Please confirm the aforementioned details.
+OFFER ( restaurant_name = "Barcha" ; city = "San Francisco") & I found 10 persian food restaurant. I suggest Barcha in San Francisco
+OFFER ( restaurant_name = "Asian Pearl" ; city = "Millbrae") & There are 7 noodle places in Millbrae. Asian Pearl is a nice restaurant.
+OFFER ( restaurant_name = "Buca Di Beppo Italian Restaurant" ; city = "Campbell") & I found 2 restaurants. I found Buca Di Beppo Italian Restaurant in Campbell
