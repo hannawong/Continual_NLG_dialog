@@ -39,7 +39,10 @@ topic_dic = {1: "Ordinary_Life", 2: "School_Life", 3: "Culture_and_Education",
 prompt = {}
 rank_list = []
 
-class TextSeqDataset(Dataset):
+class TextSeqDataset(Dataset):  
+    '''
+    Definition of dataset. 
+    '''
     def __init__(self, tokenizer, args, file_paths,max_seq=80,mode = "train",with_lamol = False,with_replay = False, task_id = -1,task_name = "", examples = []):
         self.examples = []
         self.labels = []
@@ -162,6 +165,9 @@ def set_seed(args):
         torch.cuda.manual_seed_all(args.seed)
 
 def prepare_fisher_for_this_task(args,model,train_dataloader,t_total):
+    '''
+    Fisher Matrix for EWC
+    '''
     print("="*10+"Preparing EWC for this task"+"="*1)
     if args.EWC:
       for n, p in model.model.named_parameters():
@@ -222,9 +228,9 @@ def generate_text_ans(inputs,tokenizer,model):
           next_token_logits = outputs[:,-1, :]
           next_tokens = torch.argmax(next_token_logits, dim=-1).unsqueeze(0)
           generated = torch.cat((generated, next_tokens), dim=1)
-      out = generated.tolist() ###只取生成的后面
+      out = generated.tolist() 
       for o in out:
-          text = tokenizer.decode(o, clean_up_tokenization_spaces=True) ##只取到<endoftext>之前
+          text = tokenizer.decode(o, clean_up_tokenization_spaces=True) 
       return text
 
 
@@ -332,54 +338,7 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                 model.model.zero_grad()
                 global_step += 1
             ###2.8376,1.9717 -> 3.2810, 2.4692, 1.9476 -> 3.6967, 2.6558, 2.3392, 1.8834 -> 3.9895, 3.0885
-            '''
-            if args.aug_method in ["swap","del","replace","simcse"]  and task_id >= 1 and step in mix_step:
-                for time in range(mix_step.count(step)):
-                    replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True)
-                    replay_sampler = RandomSampler(replay_dataset)
-                    replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=args.train_batch_size)
-                    for _, batch in enumerate(replay_dataloader):
-                        if _ >= 1:
-                            break
-                        inputs, masks, labels,length,is_replay = batch
-                        inputs = inputs.to(args.device)
-                        labels = labels.to(args.device)
-                        model.train()
-                        aug_sentences = []
-                        for i in range(inputs.shape[0]):
-                            text = ""
-                            for _ in inputs[i]:
-                                _ = _.item()
-                                text += tokenizer.convert_ids_to_tokens(_)
-                            sentence = text.replace('Ġ',' ')
-                            aug = random_swap(sentence.split(),min(1,int(len(sentence.split())*0.1)))
-                            aug = " ".join(aug)
-                            aug_sentences.append(aug)
-                        replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True,examples = aug_sentences)
-                        replay_sampler = RandomSampler(replay_dataset)
-                        replay_dataloader = DataLoader(replay_dataset, sampler=replay_sampler, batch_size=args.train_batch_size)
-                        for step, batch in enumerate(train_dataloader):
-                            inputs, masks, labels,length,is_replay = batch
-                            inputs = inputs.to(args.device)
-                            labels = labels.to(args.device)
-                            length = length.to(args.device)
-                            is_replay = is_replay.to(args.device)
-                            model.train()
-                            _,loss = model(inputs, labels=labels,task_id = task_id,BNM = args.BNM and task_id >= 1,length = length,is_replay = is_replay)  ###inputs:[32,80], labels:[32,80]
-                            loss.backward()
-                            parameters_to_update = [p for n, p in model.named_parameters() ]
-                            not_gradient = ["wte","wpe"]
-
-                            optimizer_grouped_parameters_mix = [
-                                {'params': [p for n, p in model.named_parameters() if n not in not_gradient and "adapter" in str(n).lower() ], 'weight_decay': args.weight_decay, 'lr':args.learning_rate},
-                                {'params': [p for n, p in model.named_parameters() if n not in not_gradient and "adapter" not in str(n).lower() ], 'weight_decay': 0.0,'lr':args.learning_rate * 0.01}]
-                            
-                            optimizer = AdamW(optimizer_grouped_parameters_mix,  eps=args.adam_epsilon)
-
-                            torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
-                            optimizer.step()
-                            model.model.zero_grad()
-                '''     
+            
             if args.aug_method == "mixup" and task_id >= 1 and step in mix_step:
                 for time in range(mix_step.count(step)):
                     replay_dataset = TextSeqDataset(tokenizer, args, file_paths= [], max_seq=args.max_seq,task_id=task_id,task_name="",with_lamol=False,with_replay=True)
@@ -413,8 +372,6 @@ def train(args, train_dataset, model, tokenizer,task_id):  ### Train the model
                     torch.nn.utils.clip_grad_norm_(parameters_to_update, args.max_grad_norm)
                     optimizer_mix.step()
                     model.model.zero_grad()
-        #evaluate_dailydialog(args,model,tokenizer,["Health"])    
-            ######### mixup finish
             
     prepare_fisher_for_this_task(args,model,train_dataloader,t_total)
 
@@ -464,11 +421,11 @@ def evaluate(args, model, eval_dataset,task_id,tokenizer,domain):
                         next_token_logits = outputs[:,-1, :]
                         next_tokens = torch.argmax(next_token_logits, dim=-1).unsqueeze(0)
                         generated = torch.cat((generated, next_tokens), dim=1)
-                    generated = generated[:, len(tokenized_text):].tolist() ###只取生成的后面
+                    generated = generated[:, len(tokenized_text):].tolist() 
                     examples = []
                     for o in generated:
                         text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
-                        text = text[: text.find('<|endoftext|>')] ##只取到<endoftext>之前
+                        text = text[: text.find('<|endoftext|>')] 
                         examples.append(text)
                     output_tests.append(examples)
 
@@ -604,16 +561,7 @@ def prepare_for_main():
     set_seed(args)
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
-    #domain = sgd_travel,sgd_payment,TMA_restaurant,TMB_music,sgd_ridesharing,TMA_auto,sgd_music,sgd_buses,TMB_restaurant,MWOZ_attraction,TMB_sport,sgd_movies,sgd_homes,TMA_coffee,sgd_restaurants,sgd_hotels,sgd_weather,sgd_trains,MWOZ_train,sgd_flights,sgd_media,MWOZ_taxi,sgd_alarm,TMA_movie,sgd_banks,TMA_pizza,TMB_flight,sgd_rentalcars,TMB_movie,sgd_events,MWOZ_restaurant,sgd_services,sgd_calendar,TMB_food-ordering,MWOZ_hotel,TMA_uber,TMB_hotel"}
 
-    '''
-    domains = args.train_data_file.split(",")
-    shuffle(domains)
-    print(domains)
-    with open("seed1_domain.txt","w") as f:
-        for domain in domains:
-            f.write(domain+",")
-    '''
     domains = open("seed1_domain.txt").read().split(",")
     if args.dataset == "dailydialog":
         domains = list(topic_dic.values())
@@ -711,7 +659,6 @@ def evaluate_dailydialog(args, model, tokenizer, domains):
                             text += tokenizer.convert_ids_to_tokens(_)
                         text = text.replace('Ġ',' ').replace("âĢĻ","")
                         raw_text = text[:-1].split('__sou__')[0] + "__sou__"
-                        #print("raw_test:",raw_text)
                         tokenized_text = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_text))
                         generated = torch.LongTensor(tokenized_text).unsqueeze(0).cuda()
                         for step in range(60):
@@ -719,11 +666,11 @@ def evaluate_dailydialog(args, model, tokenizer, domains):
                             next_token_logits = outputs[:,-1, :]
                             next_tokens = torch.argmax(next_token_logits, dim=-1).unsqueeze(0)
                             generated = torch.cat((generated, next_tokens), dim=1)
-                        generated = generated[:, len(tokenized_text):].tolist() ###只取生成的后面
+                        generated = generated[:, len(tokenized_text):].tolist() 
                         examples = []
                         for o in generated:
                             text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
-                            text = text[: text.find('<|endoftext|>')] ##只取到<endoftext>之前
+                            text = text[: text.find('<|endoftext|>')] 
                             examples.append(text)
                             #print(text)
                         output_tests.append(examples)
@@ -780,9 +727,6 @@ def main():
                 if args.replay:
                     generate_replay(args,task_id=task_id+1,domain_names=domains,tokenizer=tokenizer,model = model,mode = "REPLAY" if not args.lamol else "LAMOL",sample_size = 5)
             
-            #for task_id,domain in enumerate(args.eval_data_file.split(",")):
-            #    eval_dataset = TextSeqDataset(tokenizer, args, file_paths=[domain], max_seq=args.max_seq,mode = "test",task_id=task_id,task_name=domain)
-            #    evaluate(args, model, eval_dataset,task_id,tokenizer,domain)
             save_model_and_tokenizer(args,model,tokenizer)
         if args.test:
             model,tokenizer = load_model_and_tokenizer(args,model_class,tokenizer_class)
@@ -798,8 +742,5 @@ def main():
             model,tokenizer = load_model_and_tokenizer(args,model_class,tokenizer_class)
             if args.dataset == "dailydialog":
                 evaluate_dailydialog(args,model,tokenizer,args.eval_data_file.split(","))
-    #with open('outputs/daily_bnm0.0.npy', 'wb') as f:
-    #    np.save(f, np.array(rank_list))
-##bnm0: 1.0
 if __name__ == "__main__":
     main()

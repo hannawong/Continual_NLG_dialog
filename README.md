@@ -1,17 +1,8 @@
-# Few-shot Natural Language Generation for Task-Oriented Dialog 
+# Towards Robustness and Diversity: Continual Learning in Dialogue Generation with Text-Mixup and Batch Nuclear-Norm Maximization
 
-This repository contains the dataset, source code and trained model for the following paper:
+This repository contains the dataset, source code for paper: *Towards Robustness and Diversity: Continual Learning in Dialogue Generation with Text-Mixup and Batch Nuclear-Norm Maximization*
 
-[Few-shot Natural Language Generation for Task-Oriented Dialog](https://arxiv.org/abs/2002.12328)
-Baolin Peng, Chenguang Zhu, Chunyuan Li, Xiujun Li, Jinchao Li, Michael Zeng and Jianfeng Gao
-
-ArXiv paper: [https://arxiv.org/abs/2002.12328](https://arxiv.org/abs/2002.12328)
-
-This repository is based on hugginface transformer package and OpenAI GPT-2, containing model training code and pretrained medium model checkpoint. Some evaluation scripts are adapted from [RNNLG]([https://github.com/shawnwun/RNNLG](https://github.com/shawnwun/RNNLG)). The results indicate that with minimal training examples, SC-GPT is able to generate natural language response given dialog acts naturally and adequately. It can be used to train an NLG model in new domains with very limited examples.
-
-The include scripts can be used to reproduce the results reported in the paper.
-
-Project and demo webpage: [https://aka.ms/scgpt](https://aka.ms/scgpt)
+This repository is based on hugginface transformer package and OpenAI GPT-2, containing model training code. 
 
 ## Dataset: FewShotWoz
 *FewShotWoz* is constructed using dataset from RNNLG and MultiWoz.
@@ -85,23 +76,4 @@ python evaluator.py --domain restaurant results.json
 python interact.py --model_type=gpt2 --model_name_or_path=MODEL_SAVE_PATH --length 50 --num_samples 5
 ```
 
-## Try our demo
-
-The live demo is at  [https://aka.ms/scgpt](https://aka.ms/scgpt). Please refer the examples on top to input dialog acts.
-
-## Disclaimer
-This repository aims to facilitate research in large-scale pretraining for NLG in the context of dialog systems. This toolkit contains only part of the modeling machinery needed to actually produce a model weight file in a running dialog. On its own, this model provides only information about the weights of various text spans; in order for a researcher to actually use it, they will need to bring conversational data of their own and decode the response generation from the pretrained system. Microsoft is not responsible for any generation from the 3rd party utilization of the pretrained system.
-
-## Citation
-if you use this code and data in your research, please cite our arxiv paper:
-```
-@misc{peng2020scgpt,
-      title={Few-shot Natural Language Generation for Task-Oriented Dialog},
-      author={Baolin Peng, Chenguang Zhu, Chunyuan Li, Xiujun Li, Jinchao Li, Michael Zeng, Jianfeng Gao},
-      archivePrefix={arXiv},
-      year={2020},
-      eprint={2002.12328},
-      primaryClass={cs.CL}
-}
-```
 
