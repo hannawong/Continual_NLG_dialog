@@ -5,22 +5,24 @@ This repository contains the dataset, source code for paper: *Towards Robustness
 This repository is based on hugginface transformer package and OpenAI GPT-2, containing model training code. 
 
 ## Dataset 
-The preprocessed dataset is stored under directory data/
+The preprocessed dataset is stored under directory `data/`
 
 **Data files includes** 
 
 <code>{domain}/train.txt</code>: linearized training set for GPT-2 models.
+
 <code>{domain}/test.txt</code>: linearized testing set for GPT-2 models.
+
 <code>{domain}/val.txt</code>: linearized validation set for GPT-2 models.
 
 **Data format**
 TOD37:
-```json
+```text
 flight_search ( type = "round trip" ; origin = "LAX" ; destination = "SLC") & A round trip flight from LAX to SLC?
 ```
 
 DailyDialog:
-```json
+```text
 Look out ! __eou__ What's it ? __eou__ You must have rolled over something just now . __sou__ What you said gives me the creeps !
 ```
 
