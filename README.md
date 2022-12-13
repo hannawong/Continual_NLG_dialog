@@ -15,7 +15,8 @@ The preprocessed dataset is stored under directory `data/`
 
 <code>{domain}/val.txt</code>: linearized validation set for GPT-2 models.
 
-**Data format**
+**Data Example**
+
 TOD37:
 ```text
 flight_search ( type = "round trip" ; origin = "LAX" ; destination = "SLC") & A round trip flight from LAX to SLC?
@@ -30,25 +31,51 @@ Look out ! __eou__ What's it ? __eou__ You must have rolled over something just 
 ## Pipeline
 **Training**
 ```bash
-export CUDA_VISIBLE_DEVICES=0
-python train.py --output_dir=MODEL_SAVE_PATH --model_type=gpt2 --model_name_or_path=PRE_TRINED_MODEL_PATH --do_train --do_eval --eval_data_file=data/restaurant/train.txt --per_gpu_train_batch_size 1 --num_train_epochs EPOCH --learning_rate LR --overwrite_cache --use_tokenize --train_data_file=data/restaurant/train.txt --overwrite_output_dir
+CUDA_VISIBLE_DEVICES="0" \
+python train.py --output_dir=OUTPUT_DIR --model_type=gpt2 \
+--model_name_or_path=gpt2 --do_train  \
+--do_eval \
+--eval_data_file=EVAL_DATA_FILES \
+--learning_rate LR --use_tokenize \
+--overwrite_cache \
+--train_data_file=TRAIN_DATA_FILES \
+--overwrite_output_dir --split T --block_size=80 \
+--BNM_ratio KAPPA --seed 0 \
+--alpha ALPHA \
+--mode=adapter --gradient_accumulation_step=1 --num_train_epochs EPOCH --per_gpu_train_batch_size BATCHSIZE \
+--EWC F --aug_method=none --BNM F --replay T --lamol F --AGEM T --only F --dataset DATASET \
 ```
-<code>MODEL_SAVE_PATH </code>: Path of the saving model .
+<code>OUTPUT_DIR </code>: Path of the saving model .
 
-<code>PRE_TRAINED_MODEL_PATH </code>: Initial checkpoint; Could start from gpt2, gpt2-meidum or our provided scgpt folder.
+<code>EVAL_DATA_FILES </code>: domains to perform evaluation, separated by ","
 
+<code>TRAIN_DATA_FILES </code>: domains to train, separated by ","
+<code> KAPPA </code>: combination ratio kappa of BNNM.
+<code> ALPHA </code>: hyperparameter alpha for text-mixup.
 <code>EPOCH </code>: Number of training epochs;  5 is enough for a reasonable performance
-
-<code>LR </code>: Learning rate; 5e-5, 1e-5, or 1e-4
+<code>BATCHSIZE </code>: batchsize; 32 or 64.
+<code>LR </code>: Learning rate; 6.25E-05 or 6.25E-04
 
 **Decoding**
 ```bash
-export CUDA_VISIBLE_DEVICES=0
-python generate.py --model_type=gpt2 --model_name_or_path=MODEL_SAVE_PATH --num_samples 5 --input_file=data/restaurant/test.txt --top_k 5 --output_file=results.json --length 80
+CUDA_VISIBLE_DEVICES="0" \
+python test.py \
+--model_type=gpt2 --model_name_or_path=OUTPUT_DIR --num_samples 5 \
+--input_file EVAL_FILE_NAMES \
+--top_k 5 --top_p 1.0 --length 80 \
+--device cuda \
+--mode adapter --suffix mixup
 ```
+
+<code>OUTPUT_DIR </code>: Path of the saving model .
+<code>EVAL_FILE_NAMES </code>: Domains to perform decoding, separated by ",".
 
 **Evaluate**
 ```bash
-python evaluator.py --domain restaurant results.json
+CUDA_VISIBLE_DEVICES="7" \
+python 3.scorer.py --domain DOMAIN_NAMES --mode=adapter --suffix SUFFIX
 ```
+
+<code> DOMAIN_NAMES </code>: Domains to perform evaluating, separated by ",".
+
 
