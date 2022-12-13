@@ -4,48 +4,28 @@ This repository contains the dataset, source code for paper: *Towards Robustness
 
 This repository is based on hugginface transformer package and OpenAI GPT-2, containing model training code. 
 
-## Dataset: FewShotWoz
-*FewShotWoz* is constructed using dataset from RNNLG and MultiWoz.
+## Dataset 
+The preprocessed dataset is stored under directory data/
 
 **Data files includes** 
 
-<code>{domain}/train.json</code>: training set in json format used for evaluation, other package like RNNLG also need this format.
 <code>{domain}/train.txt</code>: linearized training set for GPT-2 models.
-<code>{domain}/test.json</code>: testing set in json format.
 <code>{domain}/test.txt</code>: linearized testing set for GPT-2 models.
+<code>{domain}/val.txt</code>: linearized validation set for GPT-2 models.
 
 **Data format**
+TOD37:
 ```json
-[
-"inform(name='hakka restaurant';pricerange=moderate)", 
-"hakka restaurant is moderate -ly priced", 
-"hakka restaurant is moderate -ly priced" 
-]
-
-First item: dialog act
-Second item: corresponding natural language description
-Thrid item: repeated for evaluation script
-
-Linearized as:
-inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced
+flight_search ( type = "round trip" ; origin = "LAX" ; destination = "SLC") & A round trip flight from LAX to SLC?
 ```
+
+DailyDialog:
+```json
+Look out ! __eou__ What's it ? __eou__ You must have rolled over something just now . __sou__ What you said gives me the creeps !
+```
+
 
 ## Pipeline
-*The code is still under cleanup. More details of code usage will be added soon*
-
-**Setup**
-
-Please use the below command to clone and install the requirements.
-```bash
-git clone https://github.com/pengbaolin/SC-GPT.git
-cd SC-GPT
-pip install -r requirements.txt
-```
-Fetch and unzip the checkpoint
-```bash
-wget https://bapengstorage.blob.core.windows.net/fileshare/scgpt.tar.gz
-tar -xvf scgpt.tar.gz
-```
 **Training**
 ```bash
 export CUDA_VISIBLE_DEVICES=0
@@ -69,11 +49,4 @@ python generate.py --model_type=gpt2 --model_name_or_path=MODEL_SAVE_PATH --num_
 ```bash
 python evaluator.py --domain restaurant results.json
 ```
-*script for attraction/train/taxi will be provided soon*
-
-**Interact**
-```
-python interact.py --model_type=gpt2 --model_name_or_path=MODEL_SAVE_PATH --length 50 --num_samples 5
-```
-
 
